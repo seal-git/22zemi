@@ -1,0 +1,13 @@
+version: '3'
+services:
+  python:
+    image: python-flask
+    container_name: python-flask
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+    - "10000:5000"
+    volumes:
+    - /home/yuki-yos/sampleapp1:/workspace
+    tty: true
