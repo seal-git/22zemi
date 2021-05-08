@@ -14,11 +14,11 @@
             dataType: 'json',
             contentType: 'application/json;charset=UTF-8',
             url: '/action',
-        }).done(function(data, testStatus, xhr){
-            console.log('success');
-            var result = '<p>'+data+'</p>';
+        }).done(function(data){
+            console.log(data["result"]);
+            var result = '<p>'+data["result"]+'</p>';
             $('.result-area').html(result);
-        }).fail(function(xhr, textStatus, errorThrown){
+        }).fail(function(XMLHttpRequest, textStatus, errorThrown){
             console.log('fail');
         });
 

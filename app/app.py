@@ -3,16 +3,20 @@ from flask import Flask, render_template, request, jsonify
 app = Flask(__name__)
 
 
+def reverse(s):
+    return s+"1"
+
+
 @app.route('/')
 def hello():
-    return render_template("index.html", result="")
+    return render_template("index.html")
 
 
 @app.route('/action', methods=['POST'])
 def action():
     json_data = request.json
     print(json_data)
-    return render_template("index.html", result='aaa')
+    return jsonify({"result": reverse(json_data)})
 
 
 if __name__ == '__main__':
