@@ -1,10 +1,7 @@
 from flask import Flask, render_template, request, jsonify
+from utils import reverse
 
 app = Flask(__name__)
-
-
-def reverse(s):
-    return s+"1"
 
 
 @app.route('/')
