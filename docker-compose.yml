@@ -5,9 +5,32 @@ services:
     container_name: python-flask
     build:
       context: ./
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile-python
     ports:
     - "10000:5000"
     volumes:
     - /home/yuki-yos/sampleapp1:/workspace
     tty: true
+
+  sql:
+    image: mysql
+    container_name: mysql
+    restart: always
+    hostname: my-mysql
+    env_file:
+      - .env
+    environment:
+      MYSQL_USER: sample_user
+      MYSQL_DATABASE: sample_db
+      TZ: "Asia/Tokyo"
+      BIND-ADDRESS: 0.0.0.0
+    ports:
+      - 3306:3306
+    # データを永続化させる場合
+    volumes:
+      # 初期データを投入するSQLが格納されているdir
+      - ./home/yuki-yos/db:/docker-entrypoint-initdb.d
+      # 永続化するときにマウントするdir
+      - ./home/yuki-yos/db:/var/lib/mysql
+    tty: true
+

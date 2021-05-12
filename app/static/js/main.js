@@ -5,6 +5,7 @@
     //submitボタンを押したらajax通信で内容をPOSTする
     $('.contact100-form').submit(function(event){
         event.preventDefault();
+        $('.result-area').html('<font color="red">loading...</font>');
         var data = $('.contact100-form [name=name]').val();
         data = JSON.stringify(data);
         // console.log(data)
@@ -13,7 +14,22 @@
             data: data,
             dataType: 'json',
             contentType: 'application/json;charset=UTF-8',
-            url: '/action',
+            url: '/reverse',
+        }).done(function(data){
+            console.log(data["result"]);
+            var result = '<p>'+data["result"]+'</p>';
+            $('.result-area').html(result);
+        }).fail(function(XMLHttpRequest, textStatus, errorThrown){
+            console.log('fail');
+        });
+    });
+
+    //Submit Random Sentenceボタンの発火
+    $('.reverse-submit-random').on('click', function(){
+        $('.result-area').html('<font color="red">loading...</font>');
+        $.ajax({
+            type: 'POST',
+            url: '/reverse_random',
         }).done(function(data){
             console.log(data["result"]);
             var result = '<p>'+data["result"]+'</p>';
@@ -22,7 +38,25 @@
             console.log('fail');
         });
 
-    });
+    })
+
+    //Generate Random Sentenceボタンの発火
+    $('.random-generate').click(function(){
+        $('.result-area').html('<font color="red">loading...</font>');
+        $.ajax({
+            type: 'POST',
+            contentType: 'application/json;charset=UTF-8',
+            url: '/random',
+        }).done(function(data){
+            console.log(data["result"]);
+            var result = '<p>'+data["result"]+'</p>';
+            $('.result-area').html(result);
+        }).fail(function(XMLHttpRequest, textStatus, errorThrown){
+            console.log('fail');
+        });
+
+    })
+
 
     /*==================================================================
     [ Validate after type ]*/
