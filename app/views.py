@@ -1,7 +1,4 @@
-from flask import Flask, render_template, request, jsonify
-from utils import reverse_sentence, generate_sentence
-
-app = Flask(__name__)
+from app import app
 
 
 @app.route('/')
@@ -31,7 +28,3 @@ def reverse_random():
 @app.route('/random', methods=['POST'])
 def random():
     return jsonify({"result": generate_sentence()})
-
-
-if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5000, debug=True)  # debug=Trueで自動更新されるようになる

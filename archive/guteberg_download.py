@@ -60,6 +60,7 @@ for key, row in tqdm(df.iterrows()):
         data['Text'] = [text]
     else:
         data['Text'].append(text)
+    break
     
 df_data = pd.DataFrame(data, columns = ['Title', 'Author', 'Link', 'ID', 'Bookshelf', 'Text'])
 

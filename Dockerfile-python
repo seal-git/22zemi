@@ -1,7 +1,6 @@
 FROM python
-RUN useradd yuki-yos
-RUN groupadd ubuntu
-RUN usermod -aG ubuntu yuki-yos
-RUN pip install --upgrade pip
-RUN pip install pipenv
-RUN pipenv install
+RUN useradd yuki-yos &&\
+ groupadd ubuntu &&\
+ usermod -aG ubuntu yuki-yos && \
+ pip install --upgrade pip &&\
+ pip install pipenv

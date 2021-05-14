@@ -11,10 +11,15 @@ services:
     volumes:
     - /home/yuki-yos/sampleapp1:/workspace
     tty: true
+    networks:
+      - my-network
 
   sql:
     image: mysql
     container_name: mysql
+    build:
+      context: ./
+      dockerfile: Dockerfile-sql
     restart: always
     hostname: my-mysql
     env_file:
@@ -29,8 +34,13 @@ services:
     # データを永続化させる場合
     volumes:
       # 初期データを投入するSQLが格納されているdir
-      - ./home/yuki-yos/db:/docker-entrypoint-initdb.d
+      - /home/yuki-yos/db:/docker-entrypoint-initdb.d
       # 永続化するときにマウントするdir
-      - ./home/yuki-yos/db:/var/lib/mysql
+      - /home/yuki-yos/db:/var/lib/mysql
     tty: true
+    networks:
+      - my-network
 
+networks:
+    my-network:
+        external: true
