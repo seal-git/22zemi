@@ -1,0 +1,854 @@
+The Project Gutenberg EBook of A New Tortoise, Genus Gopherus, From
+North-central Mexico, by John M. Legler
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: A New Tortoise, Genus Gopherus, From North-central Mexico
+
+Author: John M. Legler
+
+Release Date: June 14, 2010 [EBook #32817]
+
+Language: English
+
+Character set encoding: ISO-8859-1
+
+*** START OF THIS PROJECT GUTENBERG EBOOK NEW TORTOISE, GENUS GOPHERUS ***
+
+
+
+
+Produced by Chris Curnow, Joseph Cooper and the Online
+Distributed Proofreading Team at https://www.pgdp.net
+
+
+
+
+
+
+UNIVERSITY OF KANSAS PUBLICATIONS
+MUSEUM OF NATURAL HISTORY
+
+
+Volume 11, No. 5, pp. 335-343, pls. 7 and 8
+April 24, 1959
+
+
+
+A New Tortoise, Genus Gopherus,
+From North-central Mexico
+
+
+BY
+
+JOHN M. LEGLER
+
+
+UNIVERSITY OF KANSAS
+LAWRENCE
+1959
+
+
+
+
+UNIVERSITY OF KANSAS PUBLICATIONS, MUSEUM OF NATURAL HISTORY
+
+Editors: E. Raymond Hall, Chairman, Henry S. Fitch, Robert W. Wilson
+
+Volume 11, No. 5, pp. 335-343
+Published April 24, 1959
+
+UNIVERSITY OF KANSAS
+Lawrence, Kansas
+
+PRINTED IN
+THE STATE PRINTING PLANT
+TOPEKA, KANSAS
+1959
+
+
+
+
+A New Tortoise, Genus Gopherus,
+From North-central Mexico
+
+BY
+
+JOHN M. LEGLER
+
+
+In the course of taxonomic studies of the genus _Gopherus_ it was
+found that specimens from north-central Mexico belong to an hitherto
+unrecognized species, which is named and described below.
+
+
+Gopherus flavomarginatus new species
+
+    _Holotype._--U.S. National Museum 61253, adult; stuffed specimen
+    with disassociated skull; 30 to 40 miles from Lerdo, Durango,
+    Mexico; obtained by Dr. Elswood Chaffee, 1918.
+
+    _Paratypes._--USNM 61254, adult, stuffed specimen with skull in
+    place, other data the same as those for holotype; USNM 60976,
+    adult, stuffed specimen with disassociated skull, Lerdo, Durango,
+    Dr. Elswood Chaffee, May 1918; University of Illinois 42953-4,
+    adults, two carapaces, Carrillo, Chihuahua, Pete S. Chrapliwy and
+    Kenneth L. Williams, 1 August 1958; University of Kansas 39415,
+    adult, carapace only, 8 mi. E and 2 mi. S Americanos, Coahuila,
+    Robert W. Dickerman, 19 May 1954.
+
+    _Diagnosis._--A large tortoise of the genus _Gopherus_, having a
+    flat-topped, posteriorly-flared shell, carapacal laminae that are
+    pale with contrasting dark centers (at least on the lateral margins
+    of the carapace), intergular seam longer than interhumeral, obtuse
+    gular projections, and a relatively wider skull than other Mexican
+    representatives of the genus.
+
+    _Description of species._--Ground color of carapace pale yellow to
+    straw in smaller specimens, pale brown in larger specimens; in some
+    specimens a slight indication of darker radial markings on
+    carapace; epidermal areolae of carapace (if present) and first two
+    or three zones of growth (around areolae) dark brown to black,
+    their contrast with the ground color greater in smaller specimens;
+    ground color of lateral marginals yellowish, much paler than
+    remainder of carapace; black areolae of marginals contrasting
+    sharply with ground color even in old individuals; plastron pale,
+    approximately the same shade of yellow as lateral marginals, marked
+    with sharply contrasting blotches of black or dark brown in younger
+    specimens, becoming immaculate with age.
+
+    Carapace low, evenly arched or slightly flat-topped in cross
+    section, its height slightly more than 50 per cent of its length;
+    top of carapace, between highest parts of first and fourth central
+    laminae, more or less flat in profile; carapace flared, wider
+    posteriorly than anteriorly; central laminae all broader than long,
+    the first not (or but slightly) narrower posteriorly than
+    anteriorly; plastron deeply notched behind, the inner margins of
+    the notch straight, neither convex nor concave; gular projections
+    truncate (not pronglike) having no notch or but a shallow notch
+    between them; greatest combined width of gular laminae much greater
+    than greatest length; interlaminal length of gular greater than
+    that of humeral; one large axillary scute on each side,
+    approximately rectangular but slightly wider below than above; one
+    or two inguinal scutes on each side, the anterior roughly
+    triangular and much larger than posterior.
+
+    Anterior surface of antebrachium having enlarged, juxtaposed (or
+    slightly imbricated), osteodermal scales arranged in seven to eight
+    longitudinal rows, each scale yellowish with a black or dark brown
+    center; scales on lateral edge of antebrachium, from fifth claw to
+    elbow, ten in number and darker than other antebrachial scales; two
+    enlarged black-tipped, yellow spurs on posterior surface of thigh,
+    inner spur approximately half the size of outer. Head relatively
+    wide, greatest width of skull slightly more than 80 per cent of
+    condylobasilar length; width of head 1.3 to 1.7 times diameter of
+    hind foot; scales on top of head large but irregularly arranged
+    (see table 1 for measurements of type and paratypes).
+
+  TABLE 1. Measurements, in Millimeters, of the Holotype and Paratypes
+  of Gopherus Flavomarginatus New Species
+
+  ----------------+--------+--------+--------+------+---------+------
+  Catalogue Number|Length  |Width   |Length  |      |Diameter |Width
+  and Collection  |of      |of      |of      |Height|of       |of
+                  |carapace|carapace|plastron|      |hind foot|head
+  ----------------+--------+--------+--------+------+---------+------
+  USNM 60976      |  246   |  212   |  252   | 108  |   31    | 41
+  ----------------+--------+--------+--------+------+---------+------
+  USNM 61253      |  222   |  166   |  212   |  96  |   21    | 36
+  ----------------+--------+--------+--------+------+---------+------
+  USNM 61254      |  371   |  292   |  358   | 157  |   43    | 55
+  ----------------+--------+--------+--------+------+---------+------
+  IU 42953        |  281   |  220   |        |      |         |
+  ----------------+--------+--------+--------+------+---------+------
+  IU 42954        |  278   |  214   |        |      |         |
+  ----------------+--------+--------+--------+------+---------+------
+  KU 39415        |  303   |  232   |        |      |         |
+  ----------------+--------+--------+--------+------+---------+------
+
+    Duges (1888:146-147, and 1896:479) twice reported specimens of
+    _Gopherus polyphemus_ from Chihuahua (see discussion of distribution);
+    his description of two living examples (1888) agrees generally with
+    the above description of _G. flavomarginatus_. He stated that the
+    iris of his smaller specimen was yellow and the iris of a larger
+    specimen brown.
+
+    It will be most interesting to learn the color of juveniles of _G.
+    flavomarginatus_. Considering the dark color of the epidermal
+    areolae of adults, I would expect the color of hatchlings to be
+    dark brown to nearly black, with each lamina acquiring paler
+    borders as it grew, rather than acquiring darker borders as is
+    usually the case in _G. berlandieri_ (personal observation),
+    _agassizii_ (Miller, 1932:194, pl. 2; Woodbury and Hardy, 1948:165,
+    figs. 9 and 10), and _polyphemus_ (personal observation).
+
+[Illustration: PLATE 7
+
+PLATE 7. _Gopherus flavomarginatus_ new species: _Top_--Dorsal and
+ventral views of holotype (× 1/3); _Middle_--Lateral view of holotype
+(× 1/3); _Bottom_--Head of paratype (USNM 61254) (× 1/2) and
+antebrachium of holotype (× 5/6). Dark outline on plastron of holotype
+indicates where portion of shell was removed (and then replaced) in
+course of preparation.]
+
+[Illustration: PLATE 8
+
+PLATE 8. _Gopherus flavomarginatus_ new species: Dorsal views of
+paratypes (from top to bottom, IU 42953, IU 42954, and KU 39415),
+approximately 1/5 natural size.]
+
+[Illustration: FIG. 1. _Gopherus flavomarginatus_ new species: 1a and
+1b--Lateral and ventral views of skull of holotype (× 1); 1c--Cross
+section of paratype (USNM 60976) taken through middle of third central
+lamina (× 2/5).]
+
+    _Anomalies._--There is a high incidence of anomaly in the type
+    series. Three of the specimens (USNM 60976, IU 42954, and KU 39415)
+    have a supernumerary central lamina. All of the specimens from
+    Durango are anomalous in regard to the marginal laminae. In the
+    holotype the first marginals are small, approximately as wide as
+    the small precentral. In the largest paratype (USNM 61254) the
+    first and second marginals are fused to form a single large scute
+    on each side. In the remaining Durangan paratype (USNM 60976) there
+    are eleven normal marginals on each side but a supernumerary lamina
+    occurs between the first and second marginal on the left and
+    between the precentral and first marginal on the right side. The
+    remaining three paratypes have the number of marginals that is
+    normal for the genus.
+
+    _Relationships._--_Gopherus flavomarginatus_ differs from all other
+    species of the genus by its larger size and by having an intergular
+    seam that is longer than the interhumeral seam. The possession of
+    a single, rectangular axillary scale, wider below than above,
+    also tends to distinguish _flavomarginatus_ from other living
+    _Gopherus_; in the other species this scute (frequently paired in
+    _berlandieri_) is generally triangular or at least pointed below.
+    Femoral spurs are developed to varying degrees in the other species
+    of _Gopherus_; they are usually lacking in individuals of small to
+    medium size. In large specimens of _agassizii_ and _polyphemus_
+    that I have examined, there is but one enlarged spur, although
+    several pointed osteodermal scales may be present on the back of
+    the thigh.
+
+    _Gopherus berlandieri_, the closest relative of _G. flavomarginatus_
+    in a geographic sense, has a highly arched shell and pronglike gular
+    projections, between which there is nearly always a deep notch.
+    _Gopherus agassizii_, morphologically the closest Mexican relative
+    of _flavomarginatus_, differs from it in having a narrower head and
+    in lacking the contrasting pale and dark coloration of the plastron
+    and lateral marginal area. _Gopherus polyphemus_ seems to be the
+    closest relative of _flavomarginatus_ and differs from it in having
+    an unflared shell (anterior and posterior widths of carapace
+    subequal or carapace narrower behind) and in the characteristics of
+    color mentioned above. Certain proportional differences between the
+    living species of _Gopherus_ are summarized in table 2.
+
+    _Distribution._--The discovery of a new _Gopherus_ from
+    north-central Mexico increases to four the recognized forms of the
+    genus and extends the known range of the genus onto the Mexican
+    highlands, approximately 410 miles eastward from Alamos, Sonora
+    (_G. agassizii_), approximately 100 miles westward from a point 2
+    mi. W of Monclova, Coahuila (_G. berlandieri_), and approximately
+    200 miles westward from Monterrey, Nuevo León (_G. berlandieri_).
+
+  TABLE 2. Bodily Proportions in the Known Species of Gopherus. Two
+  Specimens of G. polyphemus from Harmon, Mississippi (USNM 53166-7),
+  Are Considered Separately Because of Their Notably Narrower Heads.
+  The Size of Each Sample Is Given in Parentheses Above the Average;
+  Extremes Are in Parentheses Following the Averages.
+
+  ---------------------+-----------+-------------+-------------+--------
+  Species              |Greatest   |Height     | Height     |Diameter
+  and                  |width of   |of         | of         |of
+  General Locality     |skull as a |shell as a | shell as a |hind foot
+                       |percentage |percentage | percentage |as a
+                       |of         |of width   | of length  |percentage
+                       |condy-     |of         | of         |of width
+                       |lobasilar  |carapace   | carapace   |of head
+                       |length     |           |            |
+  ---------------------+-----------+-----------+------------+----------
+  _G. polyphemus_      | (6)       |(13)       |(13)        |
+  (Florida)            |.94        |.53        |.39         |
+                       |(.92-.97)  |(.48-.58)  |(.36-.42)   |
+  ---------------------+-----------+-----------+------------+----------
+  _G. polyphemus_      |(2)        |(2)        |(2)         |
+  (Mississippi)        |.87        |.53        |.43         |
+                       |(.84-.89)  |(.52-.54)  |(.40-.45)   |
+  ---------------------+-----------+-----------+------------+----------
+  _G. berlandieri_     |(21)       |(22)       |(21)        |
+  (Texas and NE Mexico)|.78        |.56        |.46         |
+                       |(.70-.83)  |(.48-.62)  |(.43-.51)   |
+  ---------------------+-----------+-----------+------------+----------
+  _G. agassizii_       |(6)        |(8)        |(8)         |
+  (U.S. and N. Sonora) |.77        |.53 |.41   |(.38-.44)   |
+                       |(.70-.83)  |(.49-.58)  |            |
+  ---------------------+-----------+-----------+------------+----------
+  _G. agassizii_       |           |(4)        |(4)         |(4)
+  (Alamos, Sonora)     |           |.56        |.39         |.92
+                       |           |(.52-.59)  |(.37-.41)   |(.87-1.00)
+  ---------------------+-----------+-----------+------------+----------
+  _G. flavomarginatus_ |(2)        |(3)        |(3)         |(3)
+  (North-central       |           |           |            |
+  Mexico)              |.83        |.54        |.43         |.71
+                       |(.82-.83)  |(.51-.58)  |(.42-.44)   |(.58-.78)
+  ---------------------+-----------+-----------+------------+----------
+
+    Thus far, _G. flavomarginatus_ is known only from the three
+    localities represented in the type series and from the indefinite
+    locality, "Bolson de Mapimí", Chihuahua, given by Duges
+    (1888:146-7, and 1896:479). These long-doubted references of
+    Duges to _Gopherus polyphemus_ seem clearly to represent _G.
+    flavomarginatus_, which probably occurs in several or all of the
+    internally drained basins in northeastern Chihuahua, western
+    Coahuila, and northern Durango. This region is within the Basin and
+    Range physiographic province of Fenneman (1931:326-8) and the
+    Mapimí biotic province of Smith (1949:231). Duges (_supra cit._)
+    seems to have used "Bolson de Mapimí" in a restricted sense, as it
+    is shown on some recent maps (Nat. Geog. Soc., Map of Mexico and
+    Central America, 1953) (American Geog. Soc., Culican Map, NG 13,
+    1935). Other maps show this bolson to include internally drained
+    portions of the Mexican highlands from northeastern Chihuahua to
+    the region near Lerdo and Torreon. Thayer (1916:73) pointed out
+    that the Bolson de Mapimí, in its larger sense, consists of a
+    series of basins separated by mountains of considerable elevation.
+
+    The range of _G. flavomarginatus_ appears to be limited ultimately
+    by the higher elevations of the Sierra Madre Occidental and the
+    Sierra Madre Oriental to the west and east, respectively, and to
+    the south by the Mexican plateau. The northern limits of the range
+    are less clear; possibly the range extends as far as the portions
+    of the United States adjacent to northeastern Chihuahua, but this
+    is doubtful. The range seems not to overlap that of any other
+    species of _Gopherus_, although the ranges of _G. flavomarginatus_
+    and _G. berlandieri_ closely approximate each other in central
+    Coahuila.
+
+    In September, 1958, when I was collecting turtles near Cuatro
+    Cienegas, Coahuila, I took the opportunity to query natives, as
+    well as an American rancher, about the possible occurrence of
+    tortoises in the area. Most persons had seen no tortoises in the
+    area or said they had seen them only rarely. Several older men who
+    had herded goats in the area all their lives said that tortoises
+    (referred to as "Tortuga del Monte") were common on the other side
+    of the Sierra de La Madera and Sierra de La Fragua ranges west of
+    Cuatro Cienegas. These men referred probably to _G.
+    flavomarginatus_. Americanos lies approximately 75 miles
+    west-northwest of Cuatro Cienegas.
+
+    It is indeed remarkable that a population of large tortoises in
+    northern Mexico has so long escaped the notice of naturalists. Also
+    remarkable is the fact that the late Dr. Leonhard Stejneger, in
+    view of his intense interest in North American chelonians and his
+    familiarity with the genus _Gopherus_, did not remark on the
+    specimens from Durango when he saw them; a thorough search of
+    Stejneger's notes revealed no clue that he had ever studied the
+    specimens. Perhaps his first reaction to the specimens, like mine
+    when I first examined the two disassociated skulls, was to consider
+    "Lerdo" a misspelling of "Laredo." However, a check of old
+    correspondence and accession records at the National Museum
+    confirmed, beyond doubt, the validity of the locality data for
+    these specimens. Dr. Chaffee, the collector, frequently sent
+    specimens of plants and animals to the Museum from Durango and
+    Zacatecas; his home was in Lerdo.
+
+    _Size._--The largest specimen of _Gopherus flavomarginatus_ (USNM
+    61254) exceeds by more than 50 millimeters the length of the
+    largest known specimens of _G. agassizii_, and slightly exceeds the
+    length of the largest specimen of _G. polyphemus_ that I have
+    examined (USNM 51357, length of carapace 360 millimeters, a
+    specimen formerly kept at the National Zoological Park). _G.
+    polyphemus_ is the largest tortoise inhabiting the United States;
+    the maximum length of 343 millimeters given for the species by Carr
+    (1952:334) probably more closely approaches the true maximum in
+    free-living populations. _G. agassizii_ rarely attains a length
+    greater than 300 millimeters (Woodbury and Hardy, 1948:152-5). The
+    fact that representatives of the genus do not attain a larger size
+    in the United States may be due to the decimation of natural
+    populations by man for food and souvenirs.
+
+    There have been several indications that a large species of
+    tortoise existed in north-central Mexico. The Chihuahuan specimens
+    reported by Duges (248 and 202 millimeters long, respectively) rank
+    in size with the smaller paratypes of _G. flavomarginatus_; Duges
+    stated, however, that the species was said to attain a length of
+    one meter but that he thought such large size surely to apply to
+    another species.
+
+    Mr. Charles M. Bogert recently related to me two stories that are
+    here worthy of note. One of them, which Bogert learned from the
+    late Dr. Karl P. Schmidt, concerns a collector who was sent by the
+    Chicago Natural History Museum (then Field Museum) to Coahuila in
+    the early part of the century to obtain materials for a desert
+    exhibit. When the exhibit had been completed several decades later,
+    the collector, visiting the museum, inquired as to where the large
+    tortoises were that he had collected in Coahuila. Dr. Schmidt could
+    find no record of such tortoises and suggested that possibly they
+    had been confused with Galapagos tortoises (_Geochelone_). Dr.
+    Robert F. Inger is unable to locate the specimens or add anything
+    to the story. The collector stated that the large tortoises had
+    been found in only one bolson in Coahuila.
+
+    Mr. Bogert further related that, in 1946 when he was camped at Las
+    Delicias, Coahuila, a Mexican mule herder told him of seeing a
+    large tortoise "three bolsons north" of the bolson in which Las
+    Delicias is located (the general area referred to would be near
+    Americanos). The man awoke one morning to find his saddle missing;
+    following tracks from the place where the saddle had been left, the
+    man eventually found it on the back of a large tortoise. The
+    tortoise had apparently sought shelter beneath the saddle and,
+    finding it unsatisfactory, had walked away with the saddle on his
+    back.
+
+    Either of the incidents related above, or the reference of Duges
+    (_loc. cit._) to large size, since they are based on second or
+    third-hand accounts, would seem to be unrealistic and of little
+    scientific value when considered alone and at face value. However,
+    in the light of the discovery of _Gopherus flavomarginatus_, these
+    accounts have new meaning and tend to support my proposal that the
+    species is the largest tortoise in North America.
+
+    _Remarks._--The paratypes at the University of Illinois were found
+    in a trash-dump in Carrillo. According to what the collectors
+    learned from local inhabitants, the species is used for food and
+    the shells are sometimes used for poultry dishes or even for eating
+    utensils. Although the species is found on the flat, sandy desert
+    near Carrillo, it is more common on the nearby mountain slopes and
+    is seen there most frequently after rains. Dickerman (field notes,
+    1954) likewise noted that the species was eaten near Americanos;
+    the K.U. paratype represents the best (and only specimen saved) of
+    several broken shells found in that area. Judging by the habits of
+    other members of the genus and by the notes of Duges (1888:147),
+    _G. flavomarginatus_ is probably herbivorous.
+
+    _Acknowledgments._--A portion of this study was completed in the
+    summer of 1958, while I was an internee at the United States
+    National Museum. I am grateful to Dr. Doris M. Cochran of that
+    institution for helpful information regarding the origin of the
+    type and for permission to study other specimens in her care.
+    Thanks are due also to Messrs. Pete S. Chrapliwy and Kenneth L.
+    Williams who collected two of the paratypes and who generously
+    provided their notes on the specimens when learning of my study, to
+    Dr. Hobart M. Smith and Mr. Charles M. Bogert for offering helpful
+    suggestions and for the loan of specimens, and to Mr. Jebb Taylor
+    for assistance with taking data. The drawings are the work of Mrs.
+    Connie Spitz; the photographs are by the author.
+
+
+
+
+LITERATURE CITED
+
+
+CARR, A.
+
+    1952. Handbook of turtles; the turtles of the United States,
+    Canada, and Baja California. Cornell Univ. Press, xv + 542 pp., 37
+    figs., 82 pls., 15 tables, 23 maps.
+
+DUGES, A.
+
+    1888. La Tortuga Polifemo. La Naturaleza, 1(ser. 2):146-147.
+
+    1896. Reptiles y Batracios de los E. U. Mexicanos. La Naturaleza,
+    2(ser. 2):479-485.
+
+FENNEMAN, N. M.
+
+    1931. Physiography of western United States. McGraw-Hill, New York,
+    1st. ed., v-xii + 534 pp., 173 figs.
+
+MILLER, L.
+
+    1932. Notes on the desert tortoise (_Testudo agassizii_).
+    Trans. San Diego Soc. Nat. Hist., 7:187-208.
+
+SMITH, H. M.
+
+    1949. Herpetogeny in Mexico and Guatemala. Ann. Assn. American
+    Geographers, 34(3):219-238, 1 fig.
+
+THAYER, W. N.
+
+    1916. The physiography of Mexico. Journ. Geol., 24:61-94, 2 figs.
+
+WOODBURY, A. M., and HARDY, R.
+
+    1948. Studies of the desert tortoise, _Gopherus agassizii_.
+    Ecol. Monogr., 18:145-200, 25 figs., 4 tables.
+
+
+_Transmitted November 18, 1958._
+
+
+
+
+
+
+End of the Project Gutenberg EBook of A New Tortoise, Genus Gopherus, From
+North-central Mexico, by John M. Legler
+
+*** END OF THIS PROJECT GUTENBERG EBOOK NEW TORTOISE, GENUS GOPHERUS ***
+
+***** This file should be named 32817-8.txt or 32817-8.zip *****
+This and all associated files of various formats will be found in:
+        https://www.gutenberg.org/3/2/8/1/32817/
+
+Produced by Chris Curnow, Joseph Cooper and the Online
+Distributed Proofreading Team at https://www.pgdp.net
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+https://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at https://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+https://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at https://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit https://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including including checks, online payments and credit card
+donations.  To donate, please visit: https://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart was the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     https://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.

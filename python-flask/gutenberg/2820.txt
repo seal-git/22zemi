@@ -1,0 +1,1306 @@
+The Project Gutenberg EBook of La Fin Des Livres, by Albert Robida and Octave Uzanne
+
+This eBook is for the use of anyone anywhere in the United States and most
+other parts of the world at no cost and with almost no restrictions
+whatsoever.  You may copy it, give it away or re-use it under the terms of
+the Project Gutenberg License included with this eBook or online at
+www.gutenberg.org.  If you are not located in the United States, you'll have
+to check the laws of the country where you are located before using this ebook.
+
+Title: La Fin Des Livres
+
+Author: Albert Robida and Octave Uzanne
+
+Release Date: September, 2001 [EBook #2820]
+[Most recently updated: February 19, 2020]
+
+Language: French
+
+Character set encoding: UTF-8
+
+*** START OF THIS PROJECT GUTENBERG EBOOK LA FIN DES LIVRES ***
+
+
+
+
+Produced by Michael J. Ward
+
+
+
+
+La Fin Des Livres
+
+by Albert Robida and Octave Uzanne
+
+The End Of Books
+
+A prognostication from the past
+
+[Illustration]
+
+
+
+
+Introduction
+
+
+In 1895 Octave Uzanne and Albert Robida published, in France, _Contes
+pour les Bibliophiles_ ("Stories for Bibliophiles"). The eleven stories
+in _Contes_, all revolving around books (or at least printing) are
+interesting, bizarre, weird... one could go on in true Fanthorpian
+fashion. But even better than the stories are the illustrations by
+Albert Robida.
+
+Robida was born in 1848 and died in 1926. During his lifetime he
+reportedly drew 60,000 pictures and wrote and/or illustrated over 200
+books. His first published work came out in 1866, and he appeared in
+"La Vie Parisienne," as well as journals less well-known to the world
+outside France. One of his works, _La Guerre au XXe Siècle_ (1887) is
+of some interest in the field of science-fictional treatments of future
+wars, and is the subject of current papers and a critical edition by I.
+F. Clarke in Britain.
+
+Robida is forgotten (or was never known) in America, but in France he
+is remembered. His sketches and caricatures, particularly of humorous
+and satirical visions of what lay in the future, were decades ahead of
+their time. Disney adopted some of his drawings as backgrounds for
+their views of the future at a pavilion at Epcot, and web sites attempt
+today to bring some of his best work back into circulation.
+
+If Robida is mostly forgotten, Uzanne can be truly said to have
+vanished from the cultural consciousness of the world. Yet he was well
+known as a writer and critic of his day, and some of his works command
+high prices from rare-book dealers. One presumes that much of his work
+was more bound to the circumstances of the current day than were the
+drawings of Robida, whose art has a certain timelessness to it (even
+where it graphically predicts a future that demonstrably did not
+happen).
+
+What follows is one of the pieces from _Contes_. Writing and drawing in
+1894, Uzanne and Robida give us predictions of a post-literate society.
+Music and speech are everywhere! Newspapers are forgotten, and news
+presenters are valued for their emotional tone instead of the accuracy
+of their reporting. Recordings combined with cinema present costumed
+drama and humor in the home. (This is 1894, remember; Edison had truly
+just begun to produce his films.)
+
+Printed books are over and done with! They are no longer needed. As
+some companies _Hidden Knowledge_, for example) begin to create
+electronic books that will never be published in printed form, we need
+to remember... it was all predicted more than a hundred years ago.
+
+[Illustration]
+
+
+
+
+Notes on the re-creation of "The End of Books"
+
+
+The original drawings in the collection _Contes pour les Bibliophiles_
+were scanned as black-and-white drawings at 600 dpi, and cleaned up in
+Photoshop. The drawings were extracted and processed individually to
+reduce their file size and improve their visual presentation on
+computer screens. The text was run through Textbridge 9, which did a
+surprisingly good job at OCR.
+
+The HTML layout merges the recovered text and the processed images back
+together again, and is designed to approximate that of the original. It
+is impossible to imitate it exactly, for all browser configurations, in
+HTML. You can do it in PDF; we looked at conversion to PDF but decided
+to keep things simple. One hopes also that future XML layout tools will
+provide this capability.
+
+The original is in French, and providing a proper translation is
+outside the scope of this project. I wrote a summary in English for
+those us of who do not have the French language. Or see the "Scribner's
+Magazine" references below.
+
+I have no idea what was originally written as the last word in the
+caption of the drawing of Gutenberg and the devil. It appears to have
+been scratched off the printing plate.
+
+_Contes pour les Bibliophiles_ was noted in "The Century Magazine"
+(May, 1895, page 354 ff.) in a review section on "Books in Paper
+Covers." I say noted; but actually, only the cover was reviewed. The
+cover was reproduced in a photoengraving in "Century" and its artistic
+values were denigrated; the contents apparently remained unread.
+Perhaps they were unhappy because Uzanne ocasionally appeared in
+English in "Scribner's Magazine", which competed fiercely with
+"Century".
+
+The story itself appeared in a clumsy English translation in
+"Scribner's", Vol. 16 (1894), pp 221-231, with illustrations by Robida
+— some the same as those in the collection _Contes_, and some
+different. A few of those used in both places were printed more clearly
+in the magazine, but most were reproduced badly in the magazine and are
+clearer in the collection _Contes_. The page images are on the web in
+both JPEG and GIF format at Dave Price's website at Oxford
+
+Another place to see this on the web, with a different set of JPEG
+images of the "Scribner's" pages, is at the University of Kent at
+Canterbury, which also has an HTML of the whole piece with the artwork
+located in approximately the right places (but of questionable size),
+and an HTML version with the art left out.
+
+A fabulous resource for anyone interested in the history of American
+magazines (or American history in general) is the MOA project at
+Cornell. They have put up on the web full-page images of the complete
+editorial contents of long runs of 19C magazines. "Scribner's" is
+included; at MOA you can see what else was in the same issue with this
+piece. Unfortunately, their reproduction of the i llustrations is very
+bad, either because of their imaging methodology or because they were
+working from bad microforms. Also, it has always been common for
+libraries to discard the covers and ads from magazines before binding
+them, to save money and shelf space. Today we find the ads and cover
+illustrations generally more interesting than the stories and features.
+Most of the volumes at MOA lack the ads and covers. Such is life.
+
+
+
+
+To find out more about Albert Robida and Octave Uzanne:
+
+
+"Albert Robida's Imperfect Future" in "History Today," July 1998. (I
+have not yet seen this article myself.)
+
+A page describing the "Association of the Friends of Albert Robida",
+(_Les Amis_) with links to some of his drawings on the web.
+
+Some interesting pages at pansophist.com display Albert Robida
+illlustrations, as used by Disney at the recently closed Horizons
+pavilion (1983-99) at Epcot: Introduction and Follow-on.
+
+A different piece by Uzanne, also from "Scribner's", (1892, p. 558) can
+also be found at the MOA project: "Conversations and Opinions of Victor
+Hugo - from Unpublished Papers Found at Guernsey". Yet another is "The
+Arts Relating to Women, and their Exhibition in Paris" (Vol. 13 (1893),
+page 503). You should be able to go directly to the "Scribner's"
+volumes at MOA.
+
+_All of the URL's given above are subject to sudden and unexpected
+change! The web is dynamic, changing, upredictable, and sometimes
+unreliable. They were tested, updated, and working correctly on 31 July
+2000._
+
+Copyright 1999, 2000 by Michael Ward
+
+
+
+
+ABSTRACT: THE END OF BOOKS
+
+
+London. Bibliophiles and scholars, inspired by a lecture at the Royal
+Institution, in which the eminent physicist Sir William Thompson
+discussed the life and death of the sun, convene after the lecture at a
+gentlemen's club and discuss what they think the future will hold.
+
+James Wittmore considered the rise and fall of continental powers.
+Julius Pollok predicted the futures of foods and the eradication of
+hunger; a green Eden that humorist John Pool laughed at as contrary to
+the rule that one must devour or be devoured. Arthur Blackcross decried
+the miserable state of current painting and sculpture, but predicted
+that in the future it would become great, done by a small number of
+talents, with color photographs and photoengravings satisfying the
+masses.
+
+But what of the future of books? The narrator argues that Gutenberg's
+invention will soon disappear. Reading causes lassitude and wearies us
+tremendously. Words through the speaking tube, however, give us a
+special vibrancy. The gramophone will destroy printed works. Our eyes
+are easily damaged, but our ears are strong.
+
+But, his listeners object, gramophones are heavy and the cylinders
+easily damaged. This will be taken care of; new models will be built
+which will fit in the pocket; the precision of watchmaking will be
+applied to them. Devices will collect electricity from the movements of
+the individual, which will power the gramophones.
+
+The author will become his own editor. In order to avoid imitations and
+counterfeits, he will deposit his voice at the Patent Office. Instead
+of famous men of letters, we will have famous narrators. The art of
+diction will become extremely important. The ladies will no longer say
+that they like an author's style, but that his voice is so charming, so
+serious, that he leaves you full of emotion after listening to his
+work: it is an incomparable ravishment of the ear.
+
+The libraries will be become phonographoteques. They will house famous
+works by artists in vogue, such as Coquelin's performance of Moliere,
+Irving's Shakespeare, Salvini's Dante, etc. Bibliophiles will become
+phonographophiles, and collect cylinders with the unique example of the
+voice of a Master of the theater, poetry or music, or those with new
+and unknown alternate versions of a famous work. Narrators will do
+comic pieces, sound effects, and dialects like Irishmen and American
+Westerners.
+
+At the crossroads of all cities, there will be kiosks where the
+passerby can put in a penny and hear the works of Dickens, Dumas Sr. or
+Longfellow. The author can carry his works to buildings on the street,
+where multiple pipes will carry his words to all the windows for the
+people to listen. At four or five cents per hour, even the poor can
+afford this, and the wandering author will still make money because of
+the number of listeners at each house.
+
+Our grandchildren will use phonographs everywhere; at every restaurant
+table, public transportation, steamship cabins, and hotel rooms;
+railroads will supply Pullman circulating libraries which will make
+travelers forget the distances they cover, while allowing them to look
+out the windows. Printing will be abandoned, except for a small
+possible use in trade and private communication.
+
+The newspaper will go the same way, because no one will be satisfied
+with the printed word if they can hear what was actually said, the
+current songs, the voices of the divas. The post office will bring
+cylinders each morning to the subscribers; the servants will lay them
+out so the Master and the Mistress can hear the news, telegrams, stock
+exchange prices, whimsical articles. Journalism will be transformed,
+with the best places reserved for the solid young men with warm, strong
+voices, whose art will be in the pronunciation rather than in the style
+or form of the written sentences. While literary mandarinism will not
+disappear, it will be for a negligible number of listeners. The
+newspaper offices will have enormous "spoking halls" _[sic]_ where the
+writers will record the news aloud; the telephonic dispatches will be
+transferred automatically. The resulting cylinders will be stereotyped
+in great number and put into the post office before 3:00 am., except
+that if it can be arranged with the telephone companies the newspaper
+will be carried directly by wire to the ears of the subscribers.
+
+Blackcross objects to the loss of illustrations when books disappear.
+Ah! the Kinetograph of Thomas Edison, which the narrator saw the first
+tests of, when he visited New Jersey, will record the movements of the
+man as the gramophone records the voice. Within a few years this will
+illustrate everyday life. We will have these in our residences; the
+scenes of fiction and adventure novels will be performed by
+well-costumed actors. We will also have current events, to complement
+the phonographic newspaper.
+
+Finally, just as eye-doctors multiplied when Journalism was invented,
+in the same way in the future ear specialists will prosper.
+
+Books must disappear, or they will ruin us. In the whole world there
+are eighty to a hundred thousand books published each year, and at a
+thousand copies each this is more than one hundred million specimens,
+of which the majority contain only trash and errors.
+
+How happy we will be not to have to read any more; to be able finally
+to close our eyes! Hamlet, of our beloved Will, could not have said it
+any better.... _Words! Words! Words!_ ... words which will pass and
+which no one will read any more.
+
+Copyright 1999, 2000 by Michael Ward
+
+[Illustration]
+
+
+
+
+"The End of Books"
+
+[Illustration]
+
+Suggestions d’avenir
+
+
+
+
+LA FIN DES LIVRES
+
+
+_Introduction, digitally modified images, and Abstract in English are
+Copyright 1999 by Michael Ward._
+
+Ce fut, il y a deux ans environ, à Londres, que cette question de la
+fin des Livres et de leur complète transformation fut agitée en un
+petit groupe de Bibliophiles et d’érudits, au cours d’une soirée
+mémorable dont le souvenir restera sûrement gravé dans la mémoire de
+chacun des assistants.
+
+Nous nous étions rencontrés, ce soir-là, — qui se trouvait être un des
+vendredis scientifiques de la Royale Institution, — à la conférence de
+sir William Thompson, l’éminent physicien anglais, professeur à
+l’Université de Glascow, dont le nom est connu des deux mondes depuis
+la part qu’il prit à la pose du premier câble transatlantique.
+
+Devant un auditoire brillant de savants et de gens du monde, sir
+William Thompson avait annoncé que mathématiquement la fin du globe
+terrestre et de la race humaine devait se produire au juste dans dix
+millions d’années.
+
+[Illustration]
+
+Se basant sur les théories de Helmholtz que le soleil est une vaste
+sphère en train de se refroidir, c’est-à-dire de se contracter par
+l’effet de la gravité sur la masse à mesure que ce refroidissement se
+produit, sir William, après avoir estimé la chaleur solaire à celle qui
+serait nécessaire pour développer une force de 476,000 millions de
+chevaux-vapeur par mètre carré superficiel de sa photosphère, avait
+établi que le rayon de la photosphère se raccourcit d’un centième
+environ en 2,000 ans et que l’on pouvait fixer l’heure précise où la
+température deviendrait insuffisante pour entretenir la vie sur notre
+planète.
+
+Le maître physicien nous avait non moins surpris en abordant la
+question de l’ancienneté de la terre, dont il développait la thèse
+ainsi qu’un problème de mécanique pure; il ne lui attribuait point un
+passé supérieur à une vingtaine de millions d’années, en dépit des
+géologues et des naturalistes, et il montrait la vie venant à la terre
+dès la naissance du soleil, quelle qu’ait été l’origine de cet astre
+fécondant, soit par le résultat de l’éclatement d’un monde préexistant,
+soit par celui de la con-densation de nébuleuses antérieurement
+diffuses.
+
+Nous étions sortis de la Royale Institution très émus par les grands
+problèmes que le savant professeur de Glascow s’était efforcé de
+résoudre scientifiquement devant son auditoire, et, l’esprit endolori,
+presque écrasé par l’énormité des chiffres avec lesquels sir William
+Thompson avait jonglé, nous revenions, silencieux, en un groupe de huit
+personnages différents, philologues, historiens, journalistes,
+statisticiens et simples curieux mondains, marchant deux par deux, le
+long d’Albemarle street et de Piccadilly.
+
+L’un de nous, Edward Lembroke, nous entraîna à souper au _Junior
+Athenaeum Club_ et, dès que le champagne eut dégourdi les cerveaux
+songeurs, ce fut à qui parlerait de la conférence de sir William
+Thompson et des destinées futures de l’humanité.
+
+[Illustration]
+
+James Wittmore se préoccupa longuement de la prédominance
+intellectuelle et morale des jeunes continents sur les anciens, vers la
+fin du siècle prochain. Il laissa entendre que le vieux monde
+abdiquerait peu à peu son omnipotence et que l’Amérique prendrait la
+tête du mouvement dans la marche du progrès, tandis que l’Océanie, à
+peine née d’hier, se développerait superbement, démasquerait ses
+ambitions et occuperait une des premières places dans le concert
+universel des peuples. L’Afrique, ajoutait-il, cette Afrique toujours
+explorée et toujours mystérieuse, dont on découvre à chaque instant des
+contrées de milliers de milles carrés, conquise, si péniblement à la
+civilisation, malgré son immense réservoir d’hommes, ne semble pas
+appelée à jouer un rôle proéminent; ce sera le grenier d’abondance des
+autres continents, il se jouera sur son sol, tour à tour envahi par
+différents peuples, des parties peu décisives. Les masses d’hommes,
+dans leur violente envie de posséder cette terre vierge, s’y
+rencontreront, s’y battront et y mourront, mais la civilisation et le
+progrès ne s’y installeront que dans des milliers d’années, alors que
+la prospérité des États-Unis sera sur son déclin et que de nouvelles et
+fatales évolutions assigneront un nouvel habitat aux ensemencements du
+génie humain.
+
+Julius Pollok, un doux végétarien et savant naturaliste, se plut à
+imaginer ce qu’il adviendrait des moeurs humaines, quand, grâce à la
+chimie et à la réalisation des recherches actuelles, l’état de notre
+vie sociale sera transformé et que notre nourriture, dosée sous forme
+de poudres, de sirops, d’opiats, de biscuits, tiendra en un petit
+volume. Alors plus de boulangers, de bouchers, de marchands de vin,
+plus de restaurants, plus d’épiciers, quelques droguistes, et chacun
+libre, heureux, susceptible de subvenir à ses besoins pour quelques
+sous; la faim biffée du registre de nos misères, la nature rendue à
+elle-même, toute la surface de notre planète verdoyante ainsi qu’un
+immense jardin rempli d’ombrages, de fleurs et de gazons, au milieu
+duquel les océans seront comparables à de vastes pièces d’eau
+d’agrément que d’énormes steamers hérissés de roues et d’hélices
+parcourront à des vitesses de cinquante et soixante noeuds, sans
+crainte de tangage ou de roulis.
+
+Le cher rêveur, poète en sa manière, nous annonçait ce retour à l’âge
+d’or et aux moeurs primitives, cette universelle résurrection de
+l’antique vallée de Tempé pour la fin du XXe siècle ou le début du
+XXIe. Selon lui, les idées chères à lady Tennyson triompheraient à
+brève échéance, le monde cesserait d’être un immonde abattoir de bêtes
+paisibles, un affreux charnier dressé pour notre gloutonnerie et
+deviendrait un jardin délicieux consacré à l’hygiène et aux plaisirs
+des yeux. La vie serait respectée dans les êtres et dans les plantes,
+et dans ce nouveau paradis retrouvé ainsi qu’en un Musée des Créations
+de Dieu, on pourrait inscrire partout cet avis au promeneur: Prière de
+ne pas toucher.
+
+La prédiction idéaliste de notre ami Julius Pollok n’eut qu’un succès
+relatif; on reprocha à son programme un peu de monotonie et un excès de
+religiosité panthéiste; il sembla à quelques-uns qu’on s’ennuierait
+ferme dans son Eden reconstruit, au bénéfice du capital social de tout
+l’Univers, et l’on vida quelques verres de champagne de plus afin de
+dissiper la vision de cet avenir lacté rendu aux pastorales, aux
+géorgiques, à toutes les horreurs de la vie inactive et sans lutte.
+
+« Utopie que tout cela! S’écria même l’humoriste John Pool; les
+animaux, mon cher Pollok, ne suivront pas votre progrès de chimiste et
+continueront à s’entre-dévorer selon les lois mystérieuses de la
+création; la mouche sera toujours le vautour du microbe, de même que
+l’oiseau le plus inoffensif est l’aigle de la mouche, le loup s’offrira
+encore des gigots de moutons et la paisible brebis continuera comme par
+le passé à être la panthère de l’herbe. Suivons la loi commune qui
+régit l’évolution du monde et, en attendant que nous soyons dévorés,
+dévorons. »
+
+[Illustration: LOISIRS LITTÉRAIRES AU XXe SIÉCLE]
+
+Arthur Blackcross, peintre et critique d’art mystique, ésotérique et
+symboliste, esprit très délicat et fondateur de la déjà célèbre École
+des _Esthètes de demain_, fut sollicité de nous exprimer ce qu’il
+pensait devoir advenir de la peinture d’ici un siècle et plus. Je crois
+pouvoir résumer exactement son petit discours dans les quelques lignes
+qui suivent:
+
+[Illustration]
+
+« Ce que nous appelons _l’Art moderne_ est-il vraiment un art, et le
+nombre d’artistes sans vocation qui l’exercent médiocrement avec
+apparence de talent ne démontre-t-il pas suffisamment qu’il est plutôt
+un métier où l’âme créatrice fait détaut ainsi que la vision? — Peut-on
+donner le nom d’oeuvres d’art aux cinq-sixièmes des tableaux et statues
+qui encombrent nos salons annuels, et compte-t-on vraiment beaucoup de
+peintres ou de statuaires qui soient des créateurs originaux?
+
+« Nous ne voyons que des copies de toute sorte: copies des vieux
+maîtres accommodés au goût moderne, reconstitutions toujours fausses
+d’époques à jamais disparues, copies banales de la nature vue avec un
+oeil de photographe, copies méticuleuses et mosaïquées fournissant ces
+affreux petits sujets de genre qui ont illustré Meissonier, rien de
+neuf, rien qui nous sorte de notre humanité! Le devoir de l’art,
+cependant, que ce soit par la musique, la poésie ou la peinture, est de
+nous en sortir à tout prix et de nous faire planer un instant dans des
+sphères irréelles où nous puissions faire comme une cure d’aérothérapie
+idéaliste.
+
+[Illustration]
+
+« Je crois donc, continua Blackcross, que l’heure est proche où
+l'Univers entier sera saturé de tableaux, paysages mornes, figures
+mythologiques, épisodes historiques, natures mortes et autres oeuvres
+quelconques dont les nègres mêmes ne voudront plus; ce sera le moment
+béni où la peinture mourra de faim; les gouvernements comprendront
+peut-être enfin la lourde folie qu’ils ont commise en ne décourageant
+pas systématiquement les arts, ce qui est la seule façon pratique de
+les protéger en les exaltant. Dans quelques pays résolus à une réforme
+générale, les idées des iconoclastes prévaudront; on brûlera les musées
+pour ne pas influencer les génies naissants, on proscrira la banalité
+sous toutes ses formes, c’est-à-dire la reproduction de tout ce qui
+nous touche, de tout ce que nous voyons, de tout ce que l’illustration,
+la photographie ou le théâtre peut nous exprimer d’une façon
+suffisante, et l’on poussera l’art, enfin rendu à sa propre essence,
+vers les régions élevées où nos rêveries cherchent toujours des voies,
+des figures et des symboles.
+
+« L’art sera appelé à exprimer les choses qui semblent intraduisibles,
+à éveiller en nous, par la gamme des couleurs, des sensations
+musicales, à atteindre notre appareil cérébral dans toutes ses
+sensibilités même les plus insaisissables, à envelopper nos multiformes
+voluptés esthétiques d’une ambiance exquise, à faire chanter dans un
+accord rationnel toutes les sensations de nos organes les plus
+délicats; il violentera le mécanisme de notre pensée et s’efforcera de
+renverser quelques-unes de ces barrières matérielles qui emprisonnent
+notre intelligence, esclave des sens qui la font vivre.
+
+[Illustration]
+
+« L’art sera alors une aristocratie fermée; la production sera rare,
+mystique, dévote, supérieurement personnelle. Cet art comprendra
+peut-être dix à douze apôtres par chaque génération et, qui sait! une
+centaine au plus de disciples fervents.
+
+« En dehors de là, la photographie en couleur, la photogravure,
+l’illustration documentée suffiront à la satisfaction populaire. Mais
+les _salons_ étant interdits, les paysagistes ruinés par la
+photopeinture, les sujets d’histoire étant posés désormais par des
+modèles suggestionnés, exprimant à la volonté de l'opérateur la
+douleur, l’étonnement, l’accablement, la terreur ou la mort, toute la
+peinturographie en un mot devenant une question de procédés mécaniques
+très divers et très exacts, comme une nouvelle branche commerciale, il
+n’y aura plus de peintres au XXIe siècle, il y aura seulement quelques
+saints hommes, véritables fakirs de l’idée et du beau qui, dans le
+silence et l’incompréhension des masses, produiront des chefs-d’oeuvre
+dignes de ce nom. »
+
+Arthur Blackcross développa lentement et minutieusement sa vision
+d’avenir, non sans succès, car notre visite à la Royale Académie
+n’avait guère été, cette année-là, plus réconfortante que celles faites
+à Paris à nos deux grands bazars de peinture nationale, soit au Champ
+de Mars, soit aux Champs-Élysées. On épilogua quelque temps sur les
+idées générales exposées par notre convive symboliste, et ce fut le
+fondateur lui-même de l’École des _Esthètes de demain_ qui changea le
+cours de la conversation en m’apostrophant brusquement: « Eh bien! mon
+cher bibliophile, ne parlez-vous pas à votre tour; ne nous direz-vous
+pas ce qu’il adviendra des lettres, des littérateurs et des livres
+d’ici quelque cent ans? — Puisque nous réformons ce soir à notre guise
+la société future, apportant chacun un rayon lumineux dans la sombre
+nuit des siècles à venir, éclairez- nous de votre propre phare
+tournant, projetez votre lueur à l’horizon. »
+
+Ce furent des: « Oui! oui. . . » des sollicitations pressantes et
+cordiales, et, comme nous étions en petit comité, qu’il faisait bon
+s’écouter penser et que l’atmosphère de ce coin de club était chaude,
+sympathique et agréable, je n’hésitai pas à improviser ma conférence.
+
+La voici: « Ce que je pense de la destinée des livres, mes chers amis.
+
+« La question est intéressante et me passionne d’autant plus que je ne
+me l’étais jamais posée jusqu’à cette heure précise de notre réunion.
+
+« Si par livres vous entendez parler de nos innombrables cahiers de
+papier imprimé, ployé, cousu, broché sous une couverture annonçant le
+titre de l’ouvrage, je vous avouerai franchement que je ne crois point,
+— et que les progrès de l’électricité et de la mécanique moderne
+m’interdisent de croire, — que l’invention de Gutenberg puisse ne pas
+tomber plus ou moins prochainement en désuétude comme interprète de nos
+productions intellectuelles.
+
+« L’imprimerie que Rivarol appelait si judicieusement « l’artillerie de
+« la pensée » » et dont Luther disait qu’elle est le dernier et le
+suprême don par lequel Dieu avance les choses de l’Évangile,
+l’Imprimerie qui a changé le sort de l’Europe et qui, surtout depuis
+deux siècles, gouverne l’opinion, par le livre, la brochure et le
+journal; l’imprimerie qui, àdater de 1436, régna si despotiquement sur
+nos esprits, me semble menacée de mort, à mon avis, par les divers
+enregistreurs du son qui ont été récemment découverts et qui peu à peu
+vont largement se perfectionner.
+
+[Illustration]
+
+« Malgré les progrès énormes apportés successivement dans la science
+des presses, en dépit des machines à composer faciles à conduire et qui
+fournissent des caractères neufs fraîchement moulés dans des matrices
+mobiles, il me paraît que l’art où excellèrent successivement Fuster,
+Schoeffer, Estienne et Vascosan, Alde Manuce et Nicolas Jenson, a
+atteint à son apogée de perfection, et que nos petits-neveux ne
+confieront plus leurs ouvrages à ce procédé assez vieillot et en
+réalité facile à remplacer par la phonographie encore à ses débuts. »
+
+Ce fut un toile d’interruptions et d’interpellations parmi mes amis et
+auditeurs, des: oh! étonnés, des: ah! ironiques, des: eh! eh! remplis
+de doute et, se croisant, de furieuses dénégations: « Mais c’est
+impossible!... Qu’entendez-vous par là? » J’eus quelque peine à
+reprendre la parole pour m’expliquer plus à loisir.
+
+« Laissez-moi vous dire, très impétueux auditeurs, que les idées que je
+vais vous exposer sont d’autant moins affirmatives qu’elles ne sont
+
+[Illustration]
+
+aucunement mûries par la réflexion et que je vous les sers telles
+qu’elles m’arrivent, avec une apparence de paradoxe; mais il n’y a
+guère que les paradoxes qui contiennent des vérités, et les plus folles
+prophéties des philosophes du XVIIIe siècle se sont aujourd’hui déjà en
+partie réalisées.
+
+« Je me base sur cette constatation indéniable que l’homme de loisir
+repousse chaque jour davantage la fatigue
+
+et qu’il recherche avidement ce qu’il appelle le confortable,
+c’est-à-dire toutes les occasions de ménager autant que possible la
+dépense et le jeu de ses organes. Vous admettrez bien avec moi que la
+lecture, telle que nous la pratiquons aujourd’hui, amène vivement une
+grande lassitude, car non seulement elle exige de notre cerveau une
+attention soutenue qui consomme une forte partie de nos phosphates
+cérébraux, mais encore elle ploie notre corps en diverses attitudes
+lassantes. Elle nous force, si nous lisons un de vos grands journaux,
+format du _Times_, à déployer une certaine habileté dans l’art de
+retourner et de plier les feuilles; elle surmène nos muscles tenseurs,
+si nous tenons le papier largement ouvert; enfin, si c’est au livre que
+nous nous adressons, la nécessité de couper les feuillets, de les
+chasser tour àtour l’un sur l’autre produit, par menus heurts
+successifs, un énervement très troublant à la longue.
+
+« Or, l’art de se pénétrer de l’esprit, de la gaieté et des idées
+d’autrui demanderait plus de passivité; c’est ainsi que dans la
+conversation notre cerveau conserve plus d’élasticité, plus de netteté
+de perception, plus de béatitude et de repos que dans la lecture, car
+les paroles qui nous sont transmises par le tube auditif nous donnent
+une vibrance spéciale des cellules qui, par un effet constaté par tous
+les physiologistes actuels et passés, excite nos propres pensées.
+
+« Je crois donc au succès de tout ce qui flattera et entretiendra la
+paresse et l’égoïsme de l’homme; l’ascenseur a tué les ascensions dans
+les maisons; le phonographe détruira probablement l’imprimerie. Nos
+yeux sont faits pour voir et refléter les beautés de la nature et non
+pas pour s’user à la lecture des textes; il y a trop longtemps qu’on en
+abuse, et il n’est pas besoin d’être un savant ophtalmologiste pour
+connaître la série des maladies qui accablent notre vision et nous
+astreignent à emprunter les artifices de la science optique.
+
+« Nos oreilles, au contraire, sont moins souvent mises à contribution;
+elles s’ouvrent à tous les bruits de la vie, mais nos tympans demeurent
+moins irrités; nous ne donnons pas une excessive hospitalité dans ces
+golfes ouverts sur les sphères de notre intelligence, et il me plaît
+d’imaginer qu’on découvrira bientôt la nécessité de décharger nos yeux
+pour charger davantage nos oreilles. Ce sera une équitable compensation
+apportée dans notre économie physique générale. »
+
+« Très bien, très bien! » soulignaient mes camarades attentifs. « Mais
+la mise en pratique, cher ami, nous vous attendons là. Comment
+supposez-vous qu’on puisse arriver à construire des phonographes à la
+fois assez portatifs, légers et résistants pour enregistrer sans se
+détraquer de longs romans qui, actuellement, contiennent quatre, cinq
+cents pages; sur quels cylindres de cire durcie clicherez-vous les
+articles et nouvelles du journalisme; enfin, à l’aide de quelles piles
+actionnerez-vous les moteurs électriques de ces _futurs_ phonographes?
+Tout cela est à expliquer et ne nous paraît pas d’une réalisation
+aisée. »
+
+« Tout cela cependant sefera, repris-je; il y aura des cylindres
+inscripteurs légers comme des porte-plumes en celluloïd, qui
+contiendront cinq et six cents mots et qui fonctionneront sur des axes
+très ténus qui tiendront dans la poche; toutes les vibrations de la
+voix y seront reproduites; on obtiendra la perfection des appareils
+comme on obtient la précision des montres les plus petites et les plus
+_bijoux_; quant à l’électricité, on la trouvera souvent sur l’individu
+même, et chacun actionnera avec facilité par son propre courant
+fluidique, ingénieusement capté et canalisé, les appareils de poche, de
+tour de cou ou de bandoulière qui tiendront dans un simple tube
+semblable à un étui de lorgnette.
+
+« Pour le livre, ou disons mieux, car alors les livres auront vécu,
+pour le _novel_ ou _storyographe_, l’auteur deviendra son propre
+éditeur, afin d’éviter les imitations et contrefaçons; il devra
+préalablement se rendre au _Patent Office_ pour y déposer sa voix et en
+signer les notes basses et hautes, en donnant des contre-auditions
+nécessaires pour assurer les doubles de sa consignation.
+
+« Aussitôt cette mise en règle avec la loi, l’auteur parlera son oeuvre
+et la clichera sur des rouleaux enregistreurs et mettra en vente
+lui-même ses cylindres patentés, qui seront livrés sous enveloppe à la
+consomma-tion des auditeurs.
+
+« On ne nommera plus, en ce temps assez proche, les hommes de lettres
+des _écrivains_, mais plutôt des _narrateurs_; le goût du style et des
+phrases pompeusement parées se perdra peu à peu, mais l’art de la
+diction prendra des proportions invraisemblables; il y aura des
+_narrateurs_ très recherchés pour l’adresse, la sympathie
+communicative, la chaleur vibrante, la parfaite correction et la
+ponctuation de leurs voix.
+
+[Illustration]
+
+« Les dames ne diront plus, parlant d’un auteur à succès: « J’aime tant
+sa façon d’écrire!» Elles soupireront toutes frémissantes: « Oh! ce
+diseur a une voix qui pénètre, qui charme, qui émeut; ses _notes_
+graves sont adorables, ses cris d’amours déchirants; il vous laisse
+toute brisée d’émotion après l’audition de son oeuvre: c’est un
+ravisseur d’oreille incomparable. »
+
+[Illustration]
+
+L’ami James Wittmore m’interrompit: « Et les bibliothèques, qu’en
+ferez-vous, mon cher ami des livres? » « Les bibliothèques deviendront
+les _phonographothèques_ ou bien les _clichéothèques_. Elles
+contiendront sur des étages de petits casiers successifs, les cylindres
+bien étiquetés des oeuvres des génies de l’humanité. Les éditions
+recherchées seront celles qui auront été _autophonographiées_ par des
+artistes en vogue: on se disputera, par exemple, le _Molière_ de
+Coquelin,
+
+[Illustration:  LITTÉRATURE ET MUSIQUE « AT HOME »]
+
+le _Shakespeare_ d’Irving, le _Dante_ de Salvini, le Dumas fils
+d’Éléonore Duce, le Hugo de Sarah Bernhardt, le Balzac de Mounet Sully,
+tandis que Goethe, Milton, Byron, Dickens, Emerson, Tennyson, Musset et
+autres auront été vibrés sur cylindres par des diseurs de choix.
+
+« Les bibliophiles, devenus les _phonographophiles_, s’entoureront
+encore d’oeuvres rares; ils donneront comme auparavant leurs cylindres
+à relier en des étuis de maroquin ornés de dorures fines et d’attributs
+symboliques. Les titres se liront sur la circonférence de la boîte et
+les pièces les plus rares contiendront des cylindres ayant enregistré à
+un seul exemplaire la voix d’un maître du théâtre, de la poésie ou de
+la musique ou donnant des variantes imprévues et inédites d’une oeuvre
+célèbre.
+
+« Les _narrateurs_, auteurs gais, diront le comique de la vie courante,
+s’applique-ront à rendre les bruits qui accompagnent et ironisent
+parfois, ainsi qu’en une orchestration de la nature, les échanges de
+conversations banales, les sursauts joyeux des foules assemblées,
+
+[Illustration]
+
+les dialectes étrangers; les évocations de marseillais ou d’auvergnat
+amuseront les Français comme le jargon des Irlandais et des Westermen
+excitera le rire des Américains de l’Est.
+
+« Les auteurs privés du sentiment des harmonies de la voix et des
+flexions nécessaires à une belle diction emprunteront le secours de
+gagistes, acteurs ou chanteurs pour emmagasiner leur oeuvre sur les
+complaisants cylindres. Nous avons aujourd’hui nos secrétaires et nos
+copistes; il y aura alors des _phonistes_ et des _clamistes_,
+interprétant les phrases qui leur seront dictées par les créateurs de
+littératures.
+
+[Illustration]
+
+« Les auditeurs ne regretteront plus le temps où on les nommait
+lecteurs; leur vue reposée, leur visage rafraîchi, leur nonchalance
+heureuse indiqueront tous les bienfaits d’une vie contemplative.
+
+« Étendus sur des sophas ou bercés sur des _rocking-chairs_, ils
+jouiront, silencieux, des merveilleuses aventures dont des tubes
+flexibles apporteront le récit dans leurs oreilles dilatées par la
+curiosité.
+
+« Soit à la maison, soit à la promenade, en parcourant pédestrement les
+sites les plus remarquables et pittoresques, les heureux auditeurs
+éprouveront le plaisir ineffable de concilier l’hygiène et
+l’instruction, d’exercer en même temps leurs muscles et de nourrir leur
+intelligence, car il se fabriquera des _phono-opéragraphes_ de poche,
+utiles pendant l’excursion dans les montagnes des Alpes ou à travers
+les Cañons du Colorado.
+
+— Votre rêve est très aristocratique, insinua l’humanitaire Julius
+Pollok; l’avenir sera sans aucun doute plus démocratique. J’aimerais,
+je vous l’avoue, à voir le peuple plus favorisé.
+
+— Il le sera, mon doux poète, repris-je allégrement, en continuant à
+développer ma vision future, rien ne manquera au peuple sur ce point;
+il pourra se griser de littérature comme d’eau claire, à bon compte,
+car il aura ses distributeurs littéraires des rues comme il a ses
+fontaines.
+
+[Illustration]
+
+« A tous les carrefours des villes, des petits édifices s’élèveront
+autour desquels pendront, à l’usage des passants studieux, des tuyaux
+d’audition correspondant à des oeuvres faciles à mettre en action par
+la seule pression sur un bouton indicateur. D’autre part, des sortes
+d’_automatic libraries_, mues par le déclenchement opéré par le poids
+d’un penny jeté dans une ouverture, donneront pour cette faible somme
+les oeuvres de Dickens, de Dumas père ou de Longfellow, contenues sur
+de longs rouleaux faits pour être actionnés à domicile.
+
+« Je vais même au delà: l’auteur qui voudra exploiter personnellement
+ses oeuvres à la façon des trouvères du moyen âge et qui se plaira à
+les colporter de maison en maison pourra en tirer un bénéfice modéré et
+toutefois rémunérateur en donnant en location à tous les habitants d’un
+même immeuble une infinité de tuyaux qui partiront de son magasin
+d’audition, sorte d’orgue porté en sautoir pour parvenir par les
+fenêtres ouvertes aux oreilles des locataires désireux un instant de
+distraire leur loisir ou d’égayer leur solitude.
+
+« Moyennant quatre ou cinq _cents_ par heure, les petites bourses,
+avouez-le, ne seront pas ruinées et l’auteur vagabond encaissera des
+droits relativement importants par la multiplicité des auditions
+fournies à chaque maison d’un même quartier.
+
+[Illustration]
+
+« Est-ce tout?... non pas encore, le _phonographisme_ futur s’offrira à
+nos petits-fils dans toutes les circonstances de la vie; chaque table
+de restaurant sera munie de son répertoire d’oeuvres phonographiées, de
+même les voitures publiques, les salles d’attente, les cabinets des
+steamers, les halls et les chambres d’hôtel possèderont des
+_phonographotèques_ à l’usage des passagers. Les chemins de fer
+remplaceront les parloir-cars par des sortes de _Pullman circulating
+Libraries_ qui feront oublier aux voyageurs les distances parcourues,
+tout en laissant à leurs regards la possibilité d’admirer les paysages
+des pays traversés.
+
+« Je ne saurais entrer dans les détails techniques sur le
+fonctionnement de ces nouveaux interprètes de la pensée humaine sur ces
+multiplicateurs de la parole; mais soyez sûr que le livre sera
+abandonné par tous les habitants du globe et que l’imprimerie cessera
+absolument d’avoir cours, en dehors des services qu’elle pourra rendre
+encore au commerce et aux relations privées, et qui sait si la machine
+à écrire, alors très développée, ne suffira pas à tous les besoins.
+
+— Et le journal quotidien, me direz-vous, la Presse si considérable en
+Angleterre et en Amérique, qu’en ferez- vous?
+
+— N’ayez crainte, elle suivra la voie générale, car la curiosité du
+public ira toujours grandissant et on ne se contentera bientôt plus des
+interviews imprimées et rapportées plus ou moins exactement; on voudra
+entendre l’_interviéwé_, ouïr le discours de l’orateur à la mode,.
+connaître la chansonnette actuelle, apprécier la voix des divas qui ont
+débuté la veille, etc.
+
+« Qui dira mieux tout cela que le futur grand journal phonographique?
+
+« Ce seront des voix du monde entier qui se trouveront centralisées
+dans les rouleaux de celluloïd que la poste apportera chaque matin aux
+auditeurs abonnés; les valets de chambre et les chambrières au-ront
+l’habitude de les disposer dans leur axe sur les deux paliers de la
+machine motrice et ils apporteront les nouvelles au maître ou à la
+maîtresse, àl’heuredu réveil: télégrammes de l’Étranger, cours de la
+Bourse, articles fantaisistes, revues de la veille, on pourra tout
+entendre en rêvant encore sur la tiédeur de son oreiller.
+
+« Le journalisme sera naturellement transformé, les hautes situations
+seront réservées aux jeunes hommes solides, à la voix forte, chaudement
+timbrée, dont l’art de dire sera plutôt dans la prononciation que dans
+la recherche des mots ou la forme des phrases. Le mandarinisme
+littéraire disparaîtra, les lettrés n’occuperont plus qu’un petit
+nombre infime d’auditeurs; mais le point important sera d’être vite
+renseigné en quelques mots sans commentaires.
+
+[Illustration]
+
+Il y aura dans tous les offices de journaux des halls énormes, des
+_spoking-halls_ où les rédacteurs enregistreront à haute voix les
+nouvelles reçues; les dépêches arrivées téléphoniquement se trouveront
+immédiatement inscrites par un ingénieux appareil établi dans le
+récepteur de l’acoustique. Les cylindres obtenus seront clichés à grand
+nombre et mis à la poste en petites boîtes avant trois heures du matin,
+à moins que, par suite d’une
+
+[Illustration]
+
+entente avec la compagnie des téléphones, l’audition du journal ne
+puisse être portée à domicile par les fils particuliers des abonnés,
+ainsi que cela se pratique déjà pour les théâtrophones. »
+
+[Illustration]
+
+William Blackcross, l’aimable critique et esthète qui jusque-là avait
+bien voulu prêter attention à mon fantaisiste bavardage sans
+m’interrompre, jugea le moment opportun de m’interroger: «Permettez-moi
+de vous demander, dit-il, comment vous remplacerez l’illustration des
+livres? L’homme, qui est un éternel grand enfant, réclamera toujours
+des images et aimera à voir la représentation des choses qu’il imagine
+ou qu’on lui raconte.
+
+— Votre objection, repris-je, ne me démonte pas; l’illustration sera
+abondante et réaliste; elle pourra satisfaire les plus exigeants. Vous
+ignorez peut-être la grande découverte de demain, celle qui bientôt
+nous stupéfiera. Je veux parler du KINÉTOGRAPHE de Thomas Édison, dont
+j’ai pu voir les premiers essais à Orange-Park dans une récente visite
+faite au grand électricien près de New-Jersey.
+
+« Le KINÉTOGRAPHE enregistrera le mouvement de l’homme et le reproduira
+exactement comme le phonographe enregistre et reproduit sa voix. D’ici
+cinq ou six ans, vous apprécierez cette merveille basée sur la
+composition des gestes par la photographie instantanée; le kinétographe
+
+[Illustration]
+
+sera donc l’illustrateur de la vie quotidienne. Non seulement nous le
+verrons fonctionner dans sa boîte, mais, par un système de glaces et de
+réflecteurs, toutes les figures actives qu’il représentera en
+photo-chromos pourront être projetées dans nos demeures sur de grands
+tableaux blancs. Les scènes des ouvrages fictifs et des romans
+d’aventures seront mimées par des figurants bien costumés et aussitôt
+reproduites; nous aurons également, comme complément au journal
+phonographique, les illustrations de chaque jour, des Tranches de vie
+active, comme nous disons aujourd’hui, fraîchement découpées dans
+l’actualité. On verra les pièces nouvelles, le théâtre et les acteurs
+aussi facilement qu’on les entend déjà chez soi; on aura le portrait
+et, mieux encore, la physionomie mouvante des hommes célèbres, des
+criminels, des jolies femmes; ce ne sera pas de l’art, il est vrai,
+mais au moins ce sera la vie elle-même, naturelle, sans maquillage,
+nette, précise et le plus souvent même cruelle.
+
+« Je vous répète, mes amis, que je ne conçois ici que d’incertaines
+possibilités. — Qui peut se vanter, en effet, parmi les plus subtils
+d’entre nous de prophétiser avec sagesse? Les écrivains de ce temps,
+disait déjà notre cher Balzac, sont les manoeuvres d’un avenir caché
+par un rideau de plomb. Si Voltaire et Rousseau revoyaient la France
+actuelle, ils ne soupçonneraient guère les douze années qui furent, de
+1789 à 1800, les langes de Napoléon.
+
+[Illustration]
+
+« Il est donc évident, dis-je, en terminant ce trop vague aperçu de la
+vie intellectuelle de demain, qu’il y aurait dans le résultat de ma
+fantaisie des côtés sombres encore imprévus. De même que les oculistes
+se sont multipliés depuis l’invention du Journalisme, de même avec la
+phonographie à venir, les médecins auristes foisonneront; on trouvera
+moyen
+
+[Illustration]
+
+de noter toutes les sensibilités de l’oreille et de découvrir plus de
+noms de maladies auriculaires qu’il n’en existera réellement, mais
+aucun progrès ne s’est jamais accompli sans déplacer quelques-uns de
+nos maux; la médecine n’avance guère, elle spécule sur des modes et des
+idées nouvelles qu'elle condamne lorsque des générations en sont mortes
+dans l’amour du changement. En tout cas, pour revenir dans les limites
+mêmes de notre sujet, je crois que si les livres ont leur destinée,
+cette destinée, plus que jamais, est à la veille de s’accomplir, le
+livre imprimé va disparaître. Ne sentez-vous pas que déjà ses excès le
+condamnent? Après nous la fin des livres! »
+
+Cette boutade faite pour amuser notre souper eut quelque succès parmi
+mes indulgents auditeurs; les plus sceptiques pensaient qu’il pouvait
+bien y avoir quelque vérité dans cette prédiction instantanée, et John
+Pool obtint un hourra de gaieté et d’approbation lorsqu’il s’écria, au
+moment de nous séparer:
+
+« Il faut que les livres disparaissent ou qu’ils nous engloutissent;
+j’ai calculé qu’il paraît dans le monde entier quatre-vingts à cent
+mille ouvrages par an, qui tirés à mille en moyenne font plus de cent
+millions d’exemplaires, dont la plupart ne contiennent que les plus
+grandes extravagances et les plus folles chimères et ne propagent que
+préjugés et erreurs. Par notre état social, nous sommes obligés
+d’entendre tous les jours bien des sottises; un peu plus, un peu moins,
+ce ne sera pas dans la suite un bien gros excédent de souffrance, mais
+quel bonheur de n’avoir plus à en lire et de pouvoir enfin fermer ses
+yeux sur le néant des imprimés! »
+
+Jamais l’Hamlet de notre grand _Will_ n’aura mieux dit: _Words! Words!
+Words!_ Des mots!... des mots qui passent et qu’on ne lira plus.
+
+[Illustration]
+
+
+
+
+End of the Project Gutenberg EBook of La Fin Des Livres, by Albert Robida and Octave Uzanne
+
+*** END OF THIS PROJECT GUTENBERG EBOOK LA FIN DES LIVRES ***
+
+***** This file should be named 2820-0.txt or 2820-0.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.org/2/8/2/2820/
+
+Produced by Michael J. Ward
+
+Updated editions will replace the previous one--the old editions will
+be renamed.
+
+Creating the works from print editions not protected by U.S. copyright
+law means that no one owns a United States copyright in these works,
+so the Foundation (and you!) can copy and distribute it in the United
+States without permission and without paying copyright
+royalties. Special rules, set forth in the General Terms of Use part
+of this license, apply to copying and distributing Project
+Gutenberg-tm electronic works to protect the PROJECT GUTENBERG-tm
+concept and trademark. Project Gutenberg is a registered trademark,
+and may not be used if you charge for the eBooks, unless you receive
+specific permission. If you do not charge anything for copies of this
+eBook, complying with the rules is very easy. You may use this eBook
+for nearly any purpose such as creation of derivative works, reports,
+performances and research. They may be modified and printed and given
+away--you may do practically ANYTHING in the United States with eBooks
+not protected by U.S. copyright law. Redistribution is subject to the
+trademark license, especially commercial redistribution.
+
+START: FULL LICENSE
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full
+Project Gutenberg-tm License available with this file or online at
+www.gutenberg.org/license.
+
+Section 1. General Terms of Use and Redistributing Project
+Gutenberg-tm electronic works
+
+1.A. By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement. If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or
+destroy all copies of Project Gutenberg-tm electronic works in your
+possession. If you paid a fee for obtaining a copy of or access to a
+Project Gutenberg-tm electronic work and you do not agree to be bound
+by the terms of this agreement, you may obtain a refund from the
+person or entity to whom you paid the fee as set forth in paragraph
+1.E.8.
+
+1.B. "Project Gutenberg" is a registered trademark. It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement. There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement. See
+paragraph 1.C below. There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this
+agreement and help preserve free future access to Project Gutenberg-tm
+electronic works. See paragraph 1.E below.
+
+1.C. The Project Gutenberg Literary Archive Foundation ("the
+Foundation" or PGLAF), owns a compilation copyright in the collection
+of Project Gutenberg-tm electronic works. Nearly all the individual
+works in the collection are in the public domain in the United
+States. If an individual work is unprotected by copyright law in the
+United States and you are located in the United States, we do not
+claim a right to prevent you from copying, distributing, performing,
+displaying or creating derivative works based on the work as long as
+all references to Project Gutenberg are removed. Of course, we hope
+that you will support the Project Gutenberg-tm mission of promoting
+free access to electronic works by freely sharing Project Gutenberg-tm
+works in compliance with the terms of this agreement for keeping the
+Project Gutenberg-tm name associated with the work. You can easily
+comply with the terms of this agreement by keeping this work in the
+same format with its attached full Project Gutenberg-tm License when
+you share it without charge with others.
+
+1.D. The copyright laws of the place where you are located also govern
+what you can do with this work. Copyright laws in most countries are
+in a constant state of change. If you are outside the United States,
+check the laws of your country in addition to the terms of this
+agreement before downloading, copying, displaying, performing,
+distributing or creating derivative works based on this work or any
+other Project Gutenberg-tm work. The Foundation makes no
+representations concerning the copyright status of any work in any
+country outside the United States.
+
+1.E. Unless you have removed all references to Project Gutenberg:
+
+1.E.1. The following sentence, with active links to, or other
+immediate access to, the full Project Gutenberg-tm License must appear
+prominently whenever any copy of a Project Gutenberg-tm work (any work
+on which the phrase "Project Gutenberg" appears, or with which the
+phrase "Project Gutenberg" is associated) is accessed, displayed,
+performed, viewed, copied or distributed:
+
+  This eBook is for the use of anyone anywhere in the United States and
+  most other parts of the world at no cost and with almost no
+  restrictions whatsoever. You may copy it, give it away or re-use it
+  under the terms of the Project Gutenberg License included with this
+  eBook or online at www.gutenberg.org. If you are not located in the
+  United States, you'll have to check the laws of the country where you
+  are located before using this ebook.
+
+1.E.2. If an individual Project Gutenberg-tm electronic work is
+derived from texts not protected by U.S. copyright law (does not
+contain a notice indicating that it is posted with permission of the
+copyright holder), the work can be copied and distributed to anyone in
+the United States without paying any fees or charges. If you are
+redistributing or providing access to a work with the phrase "Project
+Gutenberg" associated with or appearing on the work, you must comply
+either with the requirements of paragraphs 1.E.1 through 1.E.7 or
+obtain permission for the use of the work and the Project Gutenberg-tm
+trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+
+1.E.3. If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any
+additional terms imposed by the copyright holder. Additional terms
+will be linked to the Project Gutenberg-tm License for all works
+posted with the permission of the copyright holder found at the
+beginning of this work.
+
+1.E.4. Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5. Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6. You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including
+any word processing or hypertext form. However, if you provide access
+to or distribute copies of a Project Gutenberg-tm work in a format
+other than "Plain Vanilla ASCII" or other format used in the official
+version posted on the official Project Gutenberg-tm web site
+(www.gutenberg.org), you must, at no additional cost, fee or expense
+to the user, provide a copy, a means of exporting a copy, or a means
+of obtaining a copy upon request, of the work in its original "Plain
+Vanilla ASCII" or other form. Any alternate format must include the
+full Project Gutenberg-tm License as specified in paragraph 1.E.1.
+
+1.E.7. Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8. You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works
+provided that
+
+* You pay a royalty fee of 20% of the gross profits you derive from
+  the use of Project Gutenberg-tm works calculated using the method
+  you already use to calculate your applicable taxes. The fee is owed
+  to the owner of the Project Gutenberg-tm trademark, but he has
+  agreed to donate royalties under this paragraph to the Project
+  Gutenberg Literary Archive Foundation. Royalty payments must be paid
+  within 60 days following each date on which you prepare (or are
+  legally required to prepare) your periodic tax returns. Royalty
+  payments should be clearly marked as such and sent to the Project
+  Gutenberg Literary Archive Foundation at the address specified in
+  Section 4, "Information about donations to the Project Gutenberg
+  Literary Archive Foundation."
+
+* You provide a full refund of any money paid by a user who notifies
+  you in writing (or by e-mail) within 30 days of receipt that s/he
+  does not agree to the terms of the full Project Gutenberg-tm
+  License. You must require such a user to return or destroy all
+  copies of the works possessed in a physical medium and discontinue
+  all use of and all access to other copies of Project Gutenberg-tm
+  works.
+
+* You provide, in accordance with paragraph 1.F.3, a full refund of
+  any money paid for a work or a replacement copy, if a defect in the
+  electronic work is discovered and reported to you within 90 days of
+  receipt of the work.
+
+* You comply with all other terms of this agreement for free
+  distribution of Project Gutenberg-tm works.
+
+1.E.9. If you wish to charge a fee or distribute a Project
+Gutenberg-tm electronic work or group of works on different terms than
+are set forth in this agreement, you must obtain permission in writing
+from both the Project Gutenberg Literary Archive Foundation and The
+Project Gutenberg Trademark LLC, the owner of the Project Gutenberg-tm
+trademark. Contact the Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1. Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+works not protected by U.S. copyright law in creating the Project
+Gutenberg-tm collection. Despite these efforts, Project Gutenberg-tm
+electronic works, and the medium on which they may be stored, may
+contain "Defects," such as, but not limited to, incomplete, inaccurate
+or corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged disk or
+other medium, a computer virus, or computer codes that damage or
+cannot be read by your equipment.
+
+1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from. If you
+received the work on a physical medium, you must return the medium
+with your written explanation. The person or entity that provided you
+with the defective work may elect to provide a replacement copy in
+lieu of a refund. If you received the work electronically, the person
+or entity providing it to you may choose to give you a second
+opportunity to receive the work electronically in lieu of a refund. If
+the second copy is also defective, you may demand a refund in writing
+without further opportunities to fix the problem.
+
+1.F.4. Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS', WITH NO
+OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5. Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of
+damages. If any disclaimer or limitation set forth in this agreement
+violates the law of the state applicable to this agreement, the
+agreement shall be interpreted to make the maximum disclaimer or
+limitation permitted by the applicable state law. The invalidity or
+unenforceability of any provision of this agreement shall not void the
+remaining provisions.
+
+1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in
+accordance with this agreement, and any volunteers associated with the
+production, promotion and distribution of Project Gutenberg-tm
+electronic works, harmless from all liability, costs and expenses,
+including legal fees, that arise directly or indirectly from any of
+the following which you do or cause to occur: (a) distribution of this
+or any Project Gutenberg-tm work, (b) alteration, modification, or
+additions or deletions to any Project Gutenberg-tm work, and (c) any
+Defect you cause.
+
+Section 2. Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of
+computers including obsolete, old, middle-aged and new computers. It
+exists because of the efforts of hundreds of volunteers and donations
+from people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come. In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future
+generations. To learn more about the Project Gutenberg Literary
+Archive Foundation and how your efforts and donations can help, see
+Sections 3 and 4 and the Foundation information page at
+www.gutenberg.org
+
+
+
+Section 3. Information about the Project Gutenberg Literary Archive Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service. The Foundation's EIN or federal tax identification
+number is 64-6221541. Contributions to the Project Gutenberg Literary
+Archive Foundation are tax deductible to the full extent permitted by
+U.S. federal laws and your state's laws.
+
+The Foundation's principal office is in Fairbanks, Alaska, with the
+mailing address: PO Box 750175, Fairbanks, AK 99775, but its
+volunteers and employees are scattered throughout numerous
+locations. Its business office is located at 809 North 1500 West, Salt
+Lake City, UT 84116, (801) 596-1887. Email contact links and up to
+date contact information can be found at the Foundation's web site and
+official page at www.gutenberg.org/contact
+
+For additional contact information:
+
+    Dr. Gregory B. Newby
+    Chief Executive and Director
+    gbnewby@pglaf.org
+
+Section 4. Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment. Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States. Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements. We do not solicit donations in locations
+where we have not received written confirmation of compliance. To SEND
+DONATIONS or determine the status of compliance for any particular
+state visit www.gutenberg.org/donate
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States. U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses. Donations are accepted in a number of other
+ways including checks, online payments and credit card donations. To
+donate, please visit: www.gutenberg.org/donate
+
+Section 5. General Information About Project Gutenberg-tm electronic works.
+
+Professor Michael S. Hart was the originator of the Project
+Gutenberg-tm concept of a library of electronic works that could be
+freely shared with anyone. For forty years, he produced and
+distributed Project Gutenberg-tm eBooks with only a loose network of
+volunteer support.
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as not protected by copyright in
+the U.S. unless a copyright notice is included. Thus, we do not
+necessarily keep eBooks in compliance with any particular paper
+edition.
+
+Most people start at our Web site which has the main PG search
+facility: www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+
+

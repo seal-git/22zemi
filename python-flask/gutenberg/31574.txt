@@ -1,0 +1,963 @@
+The Project Gutenberg EBook of A New Subspecies of Slider Turtle
+(Pseudemys scripta) from Coahuila, Mexico, by John M. Legler
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: A New Subspecies of Slider Turtle (Pseudemys scripta) from Coahuila, Mexico
+
+Author: John M. Legler
+
+Release Date: March 9, 2010 [EBook #31574]
+
+Language: English
+
+Character set encoding: ISO-8859-1
+
+*** START OF THIS PROJECT GUTENBERG EBOOK SLIDER TURTLE ***
+
+
+
+
+Produced by Chris Curnow, Joseph Cooper and the Online
+Distributed Proofreading Team at http://www.pgdp.net
+
+
+
+
+
+
+
+
+
+                  UNIVERSITY OF KANSAS PUBLICATIONS
+                      MUSEUM OF NATURAL HISTORY
+
+           Volume 13, No. 3, pp. 73-84, pls. 9-12, 3 figs.
+                           August 16, 1960
+
+
+                  A New Subspecies of Slider Turtle
+              (Pseudemys scripta) from Coahuila, México
+
+                                  BY
+
+                            JOHN M. LEGLER
+
+
+                         UNIVERSITY OF KANSAS
+                               LAWRENCE
+                                 1960
+
+
+
+
+     UNIVERSITY OF KANSAS PUBLICATIONS, MUSEUM OF NATURAL HISTORY
+
+         Editors: E. Raymond Hall, Chairman, Henry S. Fitch,
+                           Robert W. Wilson
+
+
+           Volume 13, No. 3, pp. 73-84, pls. 9-12, 3 figs.
+                      Published August 16, 1960
+
+
+                         UNIVERSITY OF KANSAS
+                           Lawrence, Kansas
+
+
+                              PRINTED IN
+                       THE STATE PRINTING PLANT
+                            TOPEKA, KANSAS
+                                 1960
+
+                                28-3860
+
+
+
+
+                  A New Subspecies of Slider Turtle
+              (Pseudemys scripta) from Coahuila, México
+
+                                  BY
+
+                            JOHN M. LEGLER
+
+
+In September, 1958, the author and two colleagues collected a large
+series of _Pseudemys_ in small ponds and in a river in the basin of
+Cuatro Ciénegas, Coahuila. The specimens prove to represent a
+previously unrecognized subspecies of _Pseudemys scripta_. The
+subspecies is named in honor of Edward Harrison Taylor who has
+contributed more than any other person to our present knowledge of
+the herpetofauna of México.
+
+
+              =Pseudemys scripta taylori= new subspecies
+
+                      (Pls. 9-12, Figures 1 & 2)
+
+_Holotype._--Univ. Kansas Mus. Nat. Hist., No. 46952, adult female,
+alcoholic; 16 km. S Cuatro Ciénegas, Coahuila, México; 6 September
+1958; original number 1694 John M. Legler.
+
+_Paratypes._--A total of 52 specimens as follows (numbers or series
+of numbers marked with an asterisk are for specimens prepared as dry
+shell with soft parts in alcohol): KU 46932-4*, 46949-51, 46953-67,
+46969 (females), 46935*, 46936-48, 46968 (males), same data as
+holotype, 6 to 8 September 1958; UU 3416 (male), same locality, 29 to
+30 July 1959; KU 46971, 46973* (females), 46972 (male), 46970, 46974
+(juveniles), 6 mi. W Cuatro Ciénegas, 3 to 6 September 1958; IU 43585,
+43587-9 (females), 43586, 43590 (males), same locality, 11 July 1958;
+CNHM 55655 (female), same locality, 22 August 1939; KU 46976 (female),
+Río Chiquito, 10 km. S Cuatro Ciénegas, 9 September 1958; UU 3415
+(female), 8.5 mi. SW Cuatro Ciénegas, 1 August 1959.
+
+_Diagnosis._--A subspecies of _Pseudemys scripta_ most closely
+resembling _P. s. elegans_, but differing from that subspecies in
+having: 1) extensive _black_ plastral pattern, all parts of which are
+interconnected, covering approximately half of plastron; 2) tendency
+toward melanism, in large adults of both sexes, especially noticeable
+on posterior part of plastron; 3) cutting edge of lower jaw coarsely
+serrate; 4) tendency for femoral edges of plastron to be reflected
+ventrally, especially in males; and, 5) pectoral scute longer than
+gular.
+
+_Description of holotype_ (measurements given in Table 1).--Carapace
+oval in dorsal aspect, slightly narrowed behind, nearly straight
+across anterior margin, bluntly serrate behind; shell deep, highly
+arched in cross section; height of shell 53 per cent of width; surface
+of shell having longitudinal striations; middorsal keel weakly
+developed, scarcely discernible except on third central lamina;
+lateral margin of carapace not at all reflected, posterolateral
+margins flared outward; central laminae all broader than long, the
+first urn-shaped.
+
+    TABLE 1. MEASUREMENTS (IN MILLIMETERS) OF THE HOLOTYPE
+    (46952) AND NINE ADULT, TOPOTYPIC PARATYPES OF PSEUDEMYS
+    SCRIPTA TAYLORI NEW SUBSPECIES. HEIGHT WAS MEASURED IN A
+    VERTICAL LINE FROM THE CENTER OF THE PLASTRON.
+
+    KEY:
+    A: Collection and Catalogue No.
+    B: Sex
+    C: Length of Carapace
+    D: Width of Carapace
+    E: Length of Plastron
+    F: Width of Plastral Forelobe (Humeropectoral)
+    G: Width of Plastral Hind Lobe (Mid-femoral)
+    H: Height
+    I: Width of Head
+
+  =================================================================
+       A     |    B     |  C  |  D  |  E  |  F  |  G  |  H  |  I
+  -----------+----------+-----+-----+-----+-----+-----+-----+------
+    KU 46948 |  [Male]  | 179 | 127 | 157 |  71 |  69 |  69 |  28
+    KU 46941 |  [Male]  | 148 | 107 | 129 |  59 |  59 |  57 |  25
+    KU 46968 |  [Male]  | 139 |  99 | 116 |  55 |  54 |  57 |  25
+    KU 46937 |  [Male]  | 128 | 100 | 115 |  54 |  52 |  47 |  21
+    KU 46944 |  [Male]  | 105 |  82 |  93 |  46 |  43 |  38 |  19
+    KU 46932 | [Female] | 214 | 158 | 196 |  86 |  84 |  87 |  37
+    KU 46952 | [Female] | 202 | 149 | 186 |  87 |  86 |  79 |  33
+    KU 46957 | [Female] | 188 | 138 | 167 |  79 |  80 |  68 |  31
+    KU 46959 | [Female] | 156 | 118 | 149 |  71 |  71 |  70 |  29
+    KU 46962 | [Female] | 132 | 101 | 119 |  58 |  53 |  51 |  24
+  -----------+----------+-----+-----+-----+-----+-----+-----+------
+
+Ground color of carapace (hereinafter, colors are those of preserved
+specimen) dark olive; upper surface of each marginal scute having
+round or oval black mark, two such marks on each marginal of first
+pair; marks on margin of anterior half of carapace having pale
+orange-yellow borders, marks more posteriorly having indistinct
+borders or no border; upper surface of carapace having numerous,
+irregularly arranged black marks on a faint reticulum of pale lines;
+one or two large oval marks on each lateral scute arranged more or
+less vertically, other marks on laterals irregular in size and
+arrangement; central scutes having three to five longitudinally
+arranged, narrow black marks on each scute.
+
+Ground color of plastron pale yellow, anterior half extensively marked
+with black along laminal seams; all plastral markings interconnected;
+undersurfaces of marginals on anterior half of shell having pale
+centers; undersurfaces of posterior marginals and posterior half of
+plastron solid black.
+
+Plastron more or less evenly rounded in front, slightly indented on
+gular border; posterolateral free edge of plastron reflected slightly
+downward; posterior border of plastron having wide shallow anal notch;
+plastral laminae, in order of length--abdominal, anal, pectoral,
+gular, femoral, humeral; abdominal lamina longer than combined lengths
+of pectoral and humeral or humeral and gular.
+
+Head moderately wide; snout slightly pointed in dorsal view, curving
+evenly backward and downward from nostrils in profile; upper jaw
+notched in middle, cutting edges finely and unevenly serrate, crushing
+surfaces having distinct ridge bearing fine denticulations but no
+large teeth; cutting edges of lower jaw coarsely and evenly serrate,
+tooth at symphysis relatively large; raised ridges of lower crushing
+surfaces each having low blunt tooth and many fine denticulations.
+
+Major markings of head and neck as follows: narrow stripe beginning
+at posterior edge of eye and extending downward and backward (across
+tympanum) on side of neck to shoulder (stripe wider behind than at
+origin); wide stripe from lower posterior corner of eye extending
+downward, across mandibular articulation (and below tympanum) on
+throat to shoulder (wider at origin than behind); postorbital mark,
+four to five millimeters wide, approximately 26 millimeters long,
+connected to eye by narrow isthmus anteriorly and continuous with
+narrow stripe on upper part of neck posteriorly; stripe on mandibular
+symphysis widened and bifurcated posteriorly, its two branches
+enclosing one wide and two narrow stripes; wide stripe beginning
+in middle of mandibular ramus and running backward to point below
+mandibular articulation on each side; top of head, sides of snout, and
+areas between above-mentioned major stripes, marked with numerous,
+fine, often indistinct pale lines.
+
+Pale dorsal stripe on fleshy portion of each finger, those of second
+and fourth fingers continuous to mid-humeral region, those of other
+fingers broken on anterior face of antebrachium; upper and lower pale
+stripes of antebrachium joined in mid-humeral region.
+
+_Coloration of living specimens._--Ground color of soft parts dark
+olive to slate gray or black; ground color of carapace olive to
+slate gray; ground color of plastron pale yellow, markings blackish,
+tinged with brown in younger specimens, sooty black in most adults.
+Postorbital mark red; other markings on soft parts cream to buffy
+yellow.
+
+_Geographic range._--_Pseudemys scripta taylori_ is known only from
+ponds, and the Río Chiquito in the basin of Cuatro Ciénegas. The
+discovery of _taylori_ brings to six the number of valid subspecies
+of _scripta_ known in México (_elegans_, _gaigeae_, _hiltoni_,
+_nebulosa_, _ornata_, and _taylori_) and to three (_elegans_,
+_gaigeae_, and _taylori_) the number known in Coahuila. My own
+studies of these six subspecies indicate that they are, beyond
+reasonable doubt, members of a single polytypic species (_scripta_).
+I tentatively follow Williams (1956:153) in rejecting "_cataspila_"
+as an invalid name.
+
+Three specimens of _Pseudemys scripta_ obtained by Robert G. Webb in
+the Río Chiquito at a point 8 mi. W of Nadadores, 2100 ft., where the
+river flows out of the basin of Cuatro Ciénegas, have many
+characteristics in common with _taylori_, but resemble _elegans_
+closely in several characters as follows: no extensive melanism;
+plastral markings tending to be brownish; anterior plastral markings
+smudgelike, isolated or nearly isolated; markings on lateral scutes
+tending to have vertical, linear arrangement; cutting edge of mandible
+weakly serrate; femoral edges of plastron not reflected ventrally; one
+or more fine, pale lines between two major stripes on antebrachium;
+gular longer than pectoral in one specimen, longer than femoral in
+both specimens. The nature of these specimens suggests that parts of
+the Río Salado drainage north and east of Cuatro Ciénegas are in a
+zone of intergradation between _taylori_ and _elegans_. I have
+examined what I consider to be typical examples of _P. s._ _elegans_
+from the region of Múzquiz (CNHM 28843-45, 55625-45), and from Don
+Martín Reservoir (KU 33524). These localities are, respectively,
+approximately 70 miles north-northeast and 100 miles east-northeast of
+Cuatro Ciénegas. The specimens from Múzquiz are presumably the same
+that Carr (1952:262) treated as "... _elegans-cataspila_ intergrades,
+but with a strong leaning toward eastern _elegans_...." Populations of
+_P. scripta_ in central eastern Coahuila (between the above-mentioned
+localities and Cuatro Ciénegas) probably are a conglomerate of only
+two subspecies (_elegans_ and _taylori_), not including _gaigeae_ (as
+was suggested by Hamilton, 1947:65 and by Carr, op. cit.:241, map
+17;262).
+
+Specimens reported by Schmidt and Owens (1944:101) as _P. s. gaigeae_
+(from several localities in the region mentioned above) have been
+examined in the course of my study and prove to be _P. floridana
+texana_. A specimen reported by Shannon and Smith (1949:399; IU 4094,
+Hidalgo Co., Texas) as being either _gaigeae_ or an _elegans-gaigeae_
+intergrade, has been examined and is here regarded as a typical
+specimen of _elegans_. I regard _P. s. gaigeae_ as a subspecies of the
+upper Río Grande and disrupted parts of that drainage; the range of
+that subspecies meets that of _P. s. elegans_ somewhere between the
+Big Bend region and Piedras Negras. In any event, the influence of
+_gaigeae_ is not so widespread as other authors (Carr, _loc. cit._;
+Hamilton, _loc. cit._; Hartweg, 1939:3-4) have indicated.
+
+Further collecting in the Río Salado and its tributaries east and
+north of Cuatro Ciénegas will be necessary before the exact range of
+_P. s. taylori_ can be determined.
+
+_Variation._--Characteristics ascribed to the holotype pertain in
+general to all specimens in the hypodigm, except as noted below. The
+postorbital mark is in contact with the eye on one or both sides in 46
+per cent of the specimens (narrowly separated from eye in remainder)
+and is in contact with a neck stripe (on one or both sides) in 35 per
+cent of the specimens. The pattern of the antebrachium is as shown in
+Fig. 2 in all specimens except that the thin lateral stripe is
+obliterated by melanism in older specimens of both sexes. The lateral
+edges of the posterior plastral lobe are reflected downward, at least
+slightly, in all but one specimen (an adult, kyphotic female). The
+first central lamina is straight-sided in juveniles and becomes
+urn-shaped only in adults. The relative height of the shell tends to
+increase with a general increase in size in both sexes.
+
+    [Illustration: FIG. 1. _Pseudemys scripta taylori_ new
+    subspecies: left side of head, female paratype (KU 46933),
+    × 1.]
+
+    [Illustration: FIG. 2. _Pseudemys scripta taylori_ new
+    subspecies: anterior view of left antebrachium, female
+    paratype (KU 46934), × 1.]
+
+_Comparisons._--Of the five other subspecies of Mexican _P. scripta_
+mentioned above, three subspecies (_gaigeae_, _hiltoni_, and
+_nebulosa_) form a natural group herein referred to as the _gaigeae_
+group. _Pseudemys s. taylori_ is distinguished from members of the
+_gaigeae_ group by elongate, red postorbital mark (yellow or orange in
+the _gaigeae_ group), extensive black plastral pattern (narrow--or if
+wide, brownish--in _gaigeae_ group), and serrate lower jaw (nearly
+smooth in _gaigeae_ group).
+
+The subspecies _P. scripta taylori_ differs from _P. scripta elegans_
+as indicated in the following comparative list of characteristics:
+
+          _P. s. taylori_                    _P. s. elegans_
+
+  1. Extensive black plastral        1. Plastral pattern consisting
+     pattern, all parts of which        of separate brown smudges (at
+     are interconnected. Plastral       least anteriorly). Plastral
+     pattern partly obliterated by      pattern obliterated by
+     melanism in old individuals        melanism only in adult males.
+     of both sexes.
+
+  2. Markings of carapace in form    2. Markings of carapace having
+     of indistinct ocelli.              linear and vertical.
+
+  3. Cutting edge of mandible        3. Cutting edge of mandible
+     serrate.                           smooth.
+
+  4. Foreclaws of mature males       4. Foreclaws of mature males
+     unmodified.                        greatly elongated.
+
+  5. Gular shorter than pectoral     5. Gular longer than pectoral
+     (91 per cent of specimens),        (90 per cent of specimens)
+     gular and femoral subequal.        and longer than femoral (all
+                                        specimens).
+
+  6. Shell relatively higher,        6. Shell relatively lower,
+     posterior lobe of plastron         posterior lobe of plastron
+     relatively narrower (Fig. 3).      relatively wider (Fig. 3).
+
+  7. Lateral edges of posterior      7. Lateral edges of posterior
+     plastral lobe reflected            plastral lobe unmodified.
+     downward.
+
+Four specimens of _P. s. ornata_ (MCZ 46392-3, 46397, 46400, two adult
+females and two adult males) from the Río Soto la Marina drainage of
+Tamaulipas differ from _P. s. taylori_ as follows: plastral pattern
+diffuse and brownish, not black; gular longer than pectoral; cutting
+edge of lower jaw only slightly serrate; stripe on mandibular
+symphysis isolated, not joined with ventral neck stripes to form
+inverted Y; postorbital stripe (yellow in preservative) connected to
+eye by narrow isthmus and continuous with neck stripe to shoulder.
+
+In _P. s. taylori_ there is an obtuse ridge or prominence across the
+bridge, on a line joining the free lateral edges of the plastron; the
+area between the ridges is nearly flat. The bridge forms a distinct
+plane on each side between the mentioned ridge and the outer edges of
+the marginals. In cross section this plane forms an angle of 30 to 45
+degrees with the horizontal plane of the plastron. The higher bridge
+and deeper shell of _taylori_ result in a slightly higher center of
+gravity in this subspecies than in the specimens of _elegans_ and
+_ornata_ I have examined. In the two subspecies last named the
+longitudinal ridges on the plastron are indistinct or wanting and the
+bridge forms a lesser angle with the horizontal plane of the plastron.
+
+The largest female of _taylori_ (218 mm.) is shorter by some 30 mm.
+than the smaller female in the series of _ornata_ from Tamaulipas
+whereas the largest male of _taylori_ (179 mm.) is shorter by some
+80 mm. than the smaller male from Tamaulipas. _Pseudemys s. taylori_
+probably is smaller, on the average, than either _elegans_ or northern
+populations of _ornata_.
+
+There seems to be no reliable published record of the color of
+the postorbital mark in living examples of _P. s. ornata_ from
+Tamaulipas. Williams (1956:147, 154) indicated that this color may be
+red or yellow for Mexican and Central American populations of _ornata_
+in general and Günther (1885: Pl. 6 b) indicated that the color
+was yellow in _Emys cataspila_; however, both of the observations
+mentioned were presumably based on preserved rather than living
+specimens. The postorbital marks of a live specimen of _ornata_
+(KU 40131) from southern Veracruz were yellowish to buffy with a
+pinkish tinge anteriorly (_fide_ notes of Robert G. Webb and a color
+photograph by him).
+
+    [Illustration: FIG. 3. Relative height of shell (expressed
+    as a percentage of width) and relative width of posterior
+    plastral lobe (expressed as a percentage of plastral length)
+    in two subspecies of _Pseudemys scripta_. The data presented
+    are for 62 specimens (40 [Female], 22 [Male]) of _P. s.
+    taylori_ and 37 specimens (13 [Female], 24 [Male]) of _P. s.
+    elegans_. Horizontal and vertical lines represent the mean
+    and range, respectively, whereas open and solid rectangles
+    represent one standard deviation and two standard errors of
+    the mean, respectively.]
+
+    [Illustration: PLATE 9
+    _Pseudemys scripta taylori_ new subspecies: dorsal view of
+    holotype (KU 46952), approximately 11/16 natural size.]
+
+    [Illustration: PLATE 10
+    _Pseudemys scripta taylori_ new subspecies: ventral view of
+    holotype (KU 46952), approximately 11/16 natural size.]
+
+    [Illustration: PLATE 11
+    Paratypes of _Pseudemys scripta taylori_ new subspecies:
+    _Left_--dorsal and ventral views of KU 46943, male, 16 km. S
+    Cuatro Ciénegas, × 3/8; _Upper right_--KU 46974, juvenile, 6
+    mi. W Cuatro Ciénegas, × 5/6; _Lower right_--KU 46968, male,
+    16 km. S Cuatro Ciénegas, × 3/8.]
+
+    [Illustration: PLATE 12
+    Ventral views of four subspecies of _Pseudemys scripta_:
+    _Upper left_--_P. s. ornata_ (KU 40131 [Female]), Río
+    Playa Vicente, San Andrés Tuxtla, Veracruz, × 1/3; _Upper
+    right_--_P. s. gaigeae_ (IU 43583 [Female]), 1 mi. E La Cruz,
+    Chihuahua, × 3/8; _Lower left_--_P. s. elegans_ (CNHM 55627
+    [Male]), Múzquiz, Coahuila, × 2/3; _Lower right_--_P. s.
+    taylori_ new subspecies (KU 46970 juvenile), paratype, 6 mi.
+    W Cuatro Ciénegas, Coahuila, × 11/16.]
+
+_Natural history._--Specimens of _P. s. taylori_ were caught in hoop
+nets in clear deep pools and in the Río Chiquito. No specimens were
+collected or observed in marshy situations where the water was shallow
+or stagnant. Individuals were seen only near dusk and in early morning
+when a number floated just below the surface with only their heads
+showing. They were never seen on land during our short stay in the
+basin. The few stomachs that were opened contained vegetable material.
+In terms of number of specimens trapped, _P. s. taylori_ was the most
+abundant turtle in pools at and near the type locality (Webb and
+Legler, 1960).
+
+_Relationships and phylogeny._--The basin of Cuatro Ciénegas now
+drains, via the Río Salado, into the lower Río Grande. Brief
+descriptions of habitats and topography in the basin are given by
+Gilmore (1947:148-150, fig. 2) and Webb and Legler (1960). In the more
+northern parts of the Salado drainage (for example, in the Río Sabinas
+near Múzquiz) slider turtles are typical _P. s. elegans_. Assuming
+that conditions which permit genetic exchange between populations of
+turtles in the Salado drainage system differ in no major respect from
+conditions in other parts of the range of _Pseudemys scripta_, it is
+logical to suppose that the differentiation of _P. s. taylori_ at
+Cuatro Ciénegas was preceded by the isolation of a population in that
+basin.
+
+The Río Chiquito drains through a narrow gap in the northeastern end
+of the basin of Cuatro Ciénegas. Interruption of this stream would
+effectively isolate aquatic habitats in the basin.
+
+It is here proposed that _P. s. taylori_ is a relict of an earlier,
+lower Río Grande stock, part of which became isolated in the basin of
+Cuatro Ciénegas in postpluvial times. The morphological similarity of
+_P. s. taylori_ and _P. s. elegans_ indicates that both were derived
+from this parent stock; similarity of both subspecies to populations
+of _P. s. ornata_ in Tamaulipas suggests that the latter subspecies
+may also be a derivative of the mentioned stock of the lower Río
+Grande.
+
+The proposed former isolation of the basin of Cuatro Ciénegas is
+supported by evidence found in studies of other turtles in the basin.
+Of the four kinds of turtles known to occur there (_Terrapene
+coahuila_, _P. s. taylori_, _Trionyx spinifer emoryi_, and _Trionyx
+ater_), all but _T. spinifer_ seem to be endemic. These three kinds
+comprise a graded series, in regard to their degree of differentiation
+from closest known relatives, as follows: 1) _Terrapene coahuila_ is
+morphologically the most generalized and primitive of living box
+turtles; the species is unique in its highly aquatic mode of life (see
+Legler, 1960:532-534, for brief discussion of relationships within
+genus Terrapene); 2) _Trionyx ater_ seems to represent a relict
+population of pre-_Trionyx spinifer_ stock; presumably, _spinifer_ has
+reinvaded the basin of Cuatro Ciénegas in relatively recent times
+and, as noted above, _spinifer_ and _ater_ now occur sympatrically (at
+least in a geographic sense) in the basin (Webb and Legler, _op.
+cit._); and, 3) evidence presented above suggests that _P. s. taylori_
+intergrades with _P. s. elegans_ outside the basin.
+
+The three endemic populations of turtles at Cuatro Ciénegas therefore,
+differ by varying degrees from their closest living relatives. This
+variation in degree of difference possibly results from varying
+periods of isolation. Probably the basin of Cuatro Ciénegas has been
+isolated from, and reconnected to, the lower Río Grande drainage at
+several times in the past. The relationships of fishes in the basin,
+now under study by other workers, also suggest that the basin was
+isolated more than once.
+
+_Remarks._--Local names for the above-mentioned localities in the
+basin of Cuatro Ciénegas are as follows: Anteojo (6 mi. W Cuatro
+Ciénegas); El Mojarral (8.5 mi. SW); and Ojo de Agua de Tío Candido,
+on Rancho Orozco (16 km. S). The Río Chiquito is referred to by some
+natives as "Río Colorado" and by some as "Río Salado." The local name
+for _P. s. taylori_ is _tortuga negra_ (the name is used also for
+_Terrapene coahuila_).
+
+_Acknowledgments._--For permission to examine specimens in their care,
+I wish to thank Doris M. Cochran, Smithsonian Institution (USNM),
+Ernest E. Williams, Museum of Comparative Zoology (MCZ), Rollin H.
+Baker, Michigan State University (MSU), Hobart M. Smith, University of
+Illinois (IU), and Robert F. Inger, Chicago Natural History Museum
+(CNHM). Pete S. Chrapliwy, John K. Greer, Robert G. Webb, and Kenneth
+L. Williams all contributed field data concerning the specimens of
+_P. s. taylori_ that they collected. I am especially grateful to Webb
+for donating two specimens to the University of Utah (UU). Special
+gratitude is expressed to Wendell L. Minckley and Robert B. Wimmer
+for assistance with field work at Cuatro Ciénegas. Daniel Rodríguez,
+Cuatro Ciénegas, guided us to the various ponds at and near the type
+locality. Robert R. Miller, Robert G. Webb, and Donald Tinkle read the
+manuscript and offered helpful criticisms. Figures 1 and 2 were drawn
+by Lorna Cordonnier.
+
+_Comparative materials examined_ (total of 135 specimens).--_P. s.
+elegans_ (52 specimens): KU 2897-8, 3195, 18337, 18341, 18345, 18347,
+18364, 45027-31, 45033, 46750, 46863, and John M. Legler 1394 and
+1435, various localities, Kansas; KU 16400, Howard Co., Texas; KU
+39983-4, 8 mi. N and 2 mi. W Piedras Negras, Coahuila; KU 33525,
+33527-9, La Gacha, Coahuila; CNHM 28843-5, 55625-45, Rancho las
+Ruscias, Múzquiz, Coahuila; KU 39982, 2 mi. S and 3 mi. E San Juan de
+Sabinas, Coahuila; KU 33524, Don Martín Reservoir, Coahuila; _P. s.
+elegans_ × _taylori_ (3): KU 53785-7, 8 mi. W. Nadadores, Coahuila;
+_P. s. gaigeae_ (39): MCZ 54724, Elephant Butte Reservoir [Sierra or
+Socorro Co.], New Mexico; KU 51158-61, 51202-3, Lajitas, Brewster Co.,
+Texas; KU 51162-6, 51204-6, 51315, 1 mi. NW Ojinaga, Chihuahua; KU
+33884, 51167-72, 51207-20, 3 mi. N and 5 mi. E Meoqui, Chihuahua; IU
+43583-4, La Cruz, Chihuahua; _P. s. ornata_ (9): MCZ 46392-3, Río
+Purificación, Rancho Sta. Ana, Tamaulipas; MCZ 46397, E of Güémez,
+Tamaulipas; MCZ 46400, Jiménez, Tamaulipas; KU 40161-2, Alvarado,
+Veracruz; KU 40131, San Andrés Tuxtla, Veracruz; V. E. Thatcher 98, 15
+mi. N Teapa, Tabasco; KU 40139, Cantemo[c], Tabasco; _P. s. taylori_
+(23 in addition to type series): KU 51438, 51442, 53788-53801
+topotypes; KU 53802-5, 8.5 mi. SW Cuatro Ciénegas, Coahuila; KU
+51439-41, 10 km. S Cuatro Ciénegas, Coahuila; _P. floridana texana_
+(10 from Coahuila): KU 39985, 2 mi. W Jiménez; CNHM 55654, Allende;
+CNHM 55646, Cd. San Juan; CNHM 55648, Hermanas; CNHM 55649-53,
+Lampacitas; KU 33526, Don Martín Reservoir.
+
+
+                           LITERATURE CITED
+
+  CARR, A.
+    1952.  Handbook of turtles: the turtles of the United States,
+           Canada, and Baja California. Cornell Univ. Press,
+           xv+542 pp., 82 pls., 37 figs., 15 tables, 23 maps.
+
+  GILMORE, R. M.
+    1947.  Report on a collection of mammalian bones from
+           archeologic cave-sites in Coahuila, Mexico. Journ.
+           Mammalogy, 28(2):147-165, 1 pl., 2 figs., 1 table.
+
+  GÜNTHER, A.
+    1885.  Biologia Centrali-Americana. Reptilia and Batrachia.
+           Chelonia, pp. 1-18.
+
+  HAMILTON, R. D.
+    1947.  The range of _Pseudemys scripta gaigeae_. Copeia,
+           1947(1):65-66.
+
+  HARTWEG, N.
+    1939.  A new American _Pseudemys_. Occas. Papers Mus. Zool.
+           Univ. Michigan, no. 397, 4 pp.
+
+  LEGLER, J. M.
+    1960.  Natural history of the ornate box turtle, _Terrapene
+           ornata ornata_ Agassiz. Univ. Kansas Publ., Mus. Nat.
+           Hist., 11(10):527-669, pls. 15-30, 29 figs.
+
+  SCHMIDT, K. P., and OWENS, D. W.
+    1944.  Amphibians and reptiles of northern Coahuila, Mexico.
+           Zool. Ser., Field Mus. Nat. Hist., 29(6):97-115.
+
+  SHANNON, F. A., and SMITH, H. M.
+    1949.  Herpetological results of the University of Illinois
+           field expedition, spring 1949. I. Introduction,
+           Testudines, Serpentes. Trans. Kansas Acad. Sci.,
+           52(4):494-509.
+
+  WEBB, R. G., and LEGLER, J. M.
+    1960.  A new softshell turtle (genus _Trionyx_) from Coahuila,
+           Mexico. Univ. Kansas Sci. Bull., 40(2):21-30, 2 pls.,
+           April 20.
+
+  WILLIAMS, E.
+    1956.  _Pseudemys scripta callirostris_ from Venezuela with a
+           general survey of the scripta series. Bull. Mus. Comp.
+           Zool., 115(5):145-160, Pls. I-III, 4 figs.
+
+    _Department of Zoology and Entomology, University of Utah,
+    Salt Lake City, Utah, Transmitted May 23 1960._
+
+
+                                28-3860
+
+
+
+
+
+End of the Project Gutenberg EBook of A New Subspecies of Slider Turtle
+(Pseudemys scripta) from Coahuila, Mexico, by John M. Legler
+
+*** END OF THIS PROJECT GUTENBERG EBOOK SLIDER TURTLE ***
+
+***** This file should be named 31574-8.txt or 31574-8.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.org/3/1/5/7/31574/
+
+Produced by Chris Curnow, Joseph Cooper and the Online
+Distributed Proofreading Team at http://www.pgdp.net
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+http://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need, are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at http://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+http://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at http://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit http://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including checks, online payments and credit card donations.
+To donate, please visit: http://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart is the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     http://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.

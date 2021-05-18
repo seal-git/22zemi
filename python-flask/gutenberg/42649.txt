@@ -1,0 +1,3859 @@
+The Project Gutenberg eBook, Avvenimenti faceti, by Giuseppe Pitrè
+
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+
+
+
+Title: Avvenimenti faceti
+       Raccolti da un Anonimo Siciliano del secolo XVIII
+
+
+Author: Giuseppe Pitrè
+
+
+
+Release Date: May 5, 2013  [eBook #42649]
+
+Language: Italian
+
+Character set encoding: UTF-8
+
+
+***START OF THE PROJECT GUTENBERG EBOOK AVVENIMENTI FACETI***
+
+
+E-text prepared by brigida, Carlo Traverso, Barbara Magni, and the Online
+Distributed Proofreading Team (http://www.pgdp.net) from page images
+generously made available by Internet Archive (https://archive.org)
+
+
+
+Note: Images of the original pages are available through
+      Internet Archive. See
+      http://archive.org/details/curiositpopola02pitruoft
+
+
+Nota del Trascrittore
+
+      [V] = versicle (versetto)
+
+      [R] = response (risposta)
+
+      Some characters might not display in this UTF-8 text
+      version or in the html version. If so, the reader should
+      consult the iso-8859-1 (Latin-1) text file 42649-8.txt
+      or 42649.zip:
+      (http://www.gutenberg.org/files/42649/42649-8.txt)
+      or
+      (http://www.gutenberg.org/files/42649/42649-8.zip)
+
+
+
+
+
+CURIOSITÀ POPOLARI TRADIZIONALI PUBBLICATE PER CURA DI
+GIUSEPPE PITRÈ
+VOL. II.
+
+AVVENIMENTI FACETI
+
+RACCOLTI DA UN ANONIMO SICILIANO
+
+
+
+
+
+
+
+PALERMO
+LUIGI PEDONE LAURIEL, Editore
+1885.
+
+
+
+AVVENIMENTI FACETI
+
+RACCOLTI DA UN ANONIMO SICILIANO NELLA PRIMA METÀ DEL SECOLO XVIII
+
+E PUBBLICATI PER CURA DI
+
+GIUSEPPE PITRÈ
+
+
+
+
+
+
+
+PALERMO
+LUIGI PEDONE LAURIEL, Editore
+MDCCCLXXXV.
+
+
+
+
+_Edizione di soli 200 esemplari ordinatamente numerati_
+
+N. 114.
+
+Tip. del _Giornale di Sicilia_.
+
+
+
+
+A TOMMASO CANNIZZARO
+
+IN MESSINA
+
+
+_Questa Raccoltina di aneddoti, fatta da un messinese, va di ragione
+offerta a Voi, che della provincia di Messina siete il più dotto ed
+intelligente raccoglitore di novelle e canzoni popolari._
+
+    _Nè che poco io vi dia da imputar sono,_
+    _Che quanto posso dar, tutto vi dono._
+
+                                                    _Vostro aff.mo_
+                                                    GIUSEPPE PITRÈ.
+
+
+
+
+AVVERTENZA
+
+
+Il manoscritto di questi _Avvenimenti faceti_ è nella Biblioteca
+Nazionale di Palermo (segnato XI. A. 20), e mi fu dato a vedere da quel
+gentile Bibliotecario Capo che è il comm. Filippo Evola, tanto
+benemerito degli studi bibliografici in Sicilia.
+
+È in-16o piccolo, rilegato in pelle di montone, di cinquantasette carte
+(escluse tre bianche), pagine centotredici; e porta per titolo:
+_Avvenimenti | Faceti | Per mantenere in ame-|nità innocente le one- |
+ste recreazioni, | Raccolte | In diverse città e | Terre di questo |
+Regno_. La scrittura ne è nitida e chiara senza un pentimento: il che
+induce a ritenerla copia di un originale smarrito o distrutto.
+
+Chi ne sia l'autore, non so; ma dalla natura dei fatti che egli ama di
+raccontare, tutti o quasi tutti di argomento ecclesiastico, con
+personaggi di chiesa e con particolari della vita di sacerdoti secolari
+e regolari, può ritenersi un prete o un frate predicatore della
+provincia di Messina, e probabilmente della Terra di S. Marco. Non altri
+che un ecclesiastico poteva occuparsi esclusivamente di persone di
+chiesa, discorrerne con piena conoscenza di abitudini, di occupazioni
+ordinarie, di offici divini e di altre cose siffatte; non altri che un
+predicatore, forse uno de' così detti quaresimalisti, poteva, nel
+passato secolo, recarsi da un _vallo_ all'altro[1], girar mezza Sicilia,
+e trovarsi in grado di udire, dalla bocca di amici e di conoscenti,
+piacevolezze e storielle di Longi (prov. di Messina) e di Bagheria
+(prov. di Palermo), di Regalbuto (prov. di Catania) e di Marsala (prov.
+di Trapani), per non dire di Naso, Patti, Montalbano, Novara, Mongiuffi,
+Nicosia, Aggira, Bronte, Randazzo, Termini. Come appare da vari luoghi
+egli viaggiava e scriveva nella prima metà, e propriamente nel quarto
+decennio del sec. XVIII[2]; anzi nel n. 40 è ricordato, senz'altro,
+«quest'anno 1738[3]»; e chi non ignora le condizioni civili e morali
+della Sicilia in quel tempo, e le difficoltà di recarsi da un punto
+all'altro di essa, giudicherà se, guardato al genere dei racconti,
+altri, che non un frate o un prete, potesse fare quel che fece il
+nostro.
+
+  [1] La Sicilia era allora divisa amministrativamente in tre valli;
+  e le gravi difficoltà di locomozione fecero nascere la frase
+  proverbiale, non registrata in nessun vocabolario: _Jiri d'un
+  vallu all'àutru_, andare da un luogo all'altro lontanissimi tra
+  loro.
+
+  [2] A pag. 63 si legge: «Varie preci divote solite recitarsi da
+  S.ro N. N. moniale vechhia di molta semplicità nel monastero di S.
+  Giovanni in Regalbuto attualmente vivente _in questo anno 1738_».
+
+  [3] Gli _Avvenimenti_ coi nn. 5 e 15 si riferiscono all'anno 1722,
+  ma il n. 33 al 1735, il n. 57 al 1736, il n. 18 al 1739, il n. 36
+  _bis_ al 1741. Solo il n. 29 è del 1747.
+
+Che poi egli fosse, come oggi si direbbe, della provincia di Messina,
+non c'è ombra di dubbio, non tanto per il numero di fatti che egli
+racconta di quella provincia, e particolarmente di S. Marco, dove egli
+potè fermarsi di più[4], quanto per il dialetto in che egli scrisse, e
+che è del gruppo messinese. Laonde, senza dire del _vermu di la sita_
+(per _vermi di la sita_, baco da seta) che il Caglià ebbe cura di
+notare[5], del _mi_ nella frase _undi mi m'arricogghiu_ e di altre voci
+simili, giova rilevare la forma caratteristica di quel gruppo, cioè la
+_d_ indocile di assimilazione quando preceda la _n_, forma unica e sola
+in tutti i dialetti dell'isola, ne' quali non esistono nè si sono mai
+sentite voci messinesi come le seguenti, che io raccolgo da tutto il
+libro: _essendu, dicendu, mittendu, vardandu, undi, manda, andari,
+vindiri, mi ndi vaju, banda, vattindi, quandu_ ed altre.
+
+  [4] Vedi i nn. 4, 11, 12, 19, 23, 27, 32.
+
+  [5] _Nomenclatura familiare siculo-italiana_, p. 35. Messina,
+  1846.
+
+La materia del libro è per più d'un terzo tradizionale, non pure in
+Sicilia, ma anche nel continente italiano, in Francia, Spagna, Germania,
+Inghilterra ed in altre contrade: aneddoti, cioè, novellette, facezie,
+burle, motti di spirito più o meno festevoli, più o meno vivaci, che
+ognuno di noi, tra una brigata di amici, ha molte volte udito a
+raccontare ed ha raccontato egli stesso come seguiti nel tale o tal
+altro luogo, in persona del tal de' tali.
+
+In vero, questi fatti poterono bene avvenire qua e là, e ripetersi con
+circostanze simili o analoghe, o non avvennero mai, e furono spiritose
+invenzioni di begliumori quando per mettere in burla gli abitanti d'un
+paese in voce di sciocchi e grossi di cervello, quando per deridere una
+classe di gente, quando per depreziare il prodotto d'un suolo. Veri o
+inventati, unici o no, propri o d'altrui, questi fatti piacquero, si
+raccontarono, e passando di bocca in bocca, di paese in paese, per la
+innata tendenza del popolo a personificare, a localizzar tutto, si
+individualizzarono sempre più, acquistando colori e circostanze locali.
+Così leggendo per avventura le storielle che hanno richiami nella
+rubrica delle _Varianti e Riscontri_[6], si vede chiaro che molti di
+questi _Avvenimenti_, tradizionali assai prima che il raccoglitore li
+scrivesse, erano stati raccolti e scritti da altri in Italia; e che
+qualcuno ci venne, nientemeno, dall'Oriente, culla d'una gran parte de'
+racconti che corrono presso i volghi di Europa.
+
+  [6] Cfr. specialmente i numeri 7, 25, 50, 60.
+
+Senza esagerare il valore, per altro abbastanza limitato, del presente
+libretto, vo' rilevare i nn. 1-3, 5 e 22, riferentisi a sacre
+rappresentazioni in Naso, Bronte, Aggira, Randazzo e, più che altrove,
+in Nicosia, celebre per la sua _Casazza_, rimasta insuperata finora tra
+noi[7]; ed il numero 15, che è un nuovo documento da aggiungere alla
+storia delle prefiche in Sicilia[8]. Parecchi racconti ricordano
+deplorevoli gare municipali[9], tutt'altro che cessate a' dì nostri[10];
+e più d'uno, pei colori locali e per i caratteri personali che offre,
+conferma l'ignoranza e gli abusi di certi ecclesiastici dell'isola,
+contro i quali per parecchi secoli gridarono i sinodi e le costituzioni
+diocesane di Messina, di Patti, di Siracusa, di Catania[11], oltrechè di
+Cefalù, Girgenti, Mazzara, Monreale e Palermo.
+
+  [7] Vedi nel mio volume di _Spettacoli e Feste popolari siciliane_
+  (Palermo, 1881), lo studio _Delle Sacre Rappresentazioni in
+  Sicilia_, c. III, e D'ANCONA, _Origini del Teatro in Italia.
+  Studii sulle Sacre Rappresentazioni, seguiti da un'appendice sulle
+  Rappresentazioni nel contado toscano_ (Firenze, Successori Le
+  Monnier, 1877), vol. II, p. 296 e seg.
+
+  [8] Giova riportare le parole del nostro anonimo: «Morì un giorno
+  la sua madre: egli (_il sacerdote Isidoro Lo Proto della Terra di
+  Maletto_), mentre il cadavere della defonta era attorniato di
+  donne, che, secondo il costume antico, tenevano il lutto con
+  lamentazioni e con lagrime, situossi in mezzo ad esse con una
+  tovaglia negra sul capo, dando in gridi e gemiti più dell'altre
+  femine. Costume questo che osservollo nell'altre morti di altre
+  sue congionti (p. 28)».
+
+  Sulle prefiche siciliane vedi SALOMONE-MARINO, _Le Reputatrici in
+  Sicilia_; nelle _Nuove Effemeridi siciliane_, serie II, vol. I,
+  1874, e D'ANGELO E CIPRIANO, _Intorno alle Prefiche e ad alcune
+  costumanze praticate dagli antichi siciliani alla loro morte_;
+  nella _Nuova Raccolta di opuscoli di autori siciliani_, t. VIII.
+
+  [9] Vedi per Veria il n. 6, per Nicosia i nn. 1, 25, 26, 49, e poi
+  i nn. 34, 50, 59, 61.
+
+  [10] Cfr. GUASTELLA, _Canti popolari del circondario di Modica_,
+  p. LXXXVI e seguenti (Modica, 1876) e _Di Tommaso Campailla e dei
+  suoi tempi_, cap. II, (Ragusa, 1880) i miei _Usi natalizi, nuziali
+  e funebri_, p. 58 (Palermo, MDCCCLXXIX); _L'Amico del popolo_ di
+  Palermo, an. XVIII, n. 113; il _Giornale di Sicilia_, anno XVI, n.
+  228, e più che altro, varie delle _Fiabe, Novelle e Racconti pop.
+  sic._, serie II (Palermo 1875).
+
+  [11] Particolarmente i sinodi del 1588, 1621, 1648, 1663, 1681,
+  1691 in Messina; del 1567, 1584, 1687 in Patti; del 1623 e 1668 in
+  Catania.
+
+L'edizione è fedelmente condotta sull'originale, e ne conserva la grafia
+tutta fino alle strane abbreviature ed agli accenti. Forse trattandosi
+di un ms. d'un secolo non lontano avrei potuto essere meno scrupoloso;
+ma confesso che non ho saputo farlo[12], considerando che gli scritti
+altrui vanno pubblicati come sono, e che la forma materiale d'una
+scrittura rivela, non meno che la sostanza di essa, la mente
+dell'autore. Nel caso nostro l'autore è uno de' tanti mediocrissimi
+scrittori siciliani del secolo scorso, il quale nel suo dettato conserva
+più o meno fedelmente le forme del dialetto, senza preoccuparsi di stile
+e di lingua; ma, in compenso, ha un po' di quella schiettezza ed
+ingenuità che spesso manca agli scrittori d'arte.
+
+  [12] Quello che mi son permesso è la punteggiatura, difettosissima
+  nell'originale.
+
+Avrei anche potuto lasciar da parte le pagine contenenti il
+_Magnificat_, la _Sequenza dei morti_, le _Litanie_ e gli altri inni e
+preci latine solite recitarsi in chiesa; ma il latino in bocca al popolo
+è documento di demopsicologia, ed è un notevole contributo allo studio
+delle etimologie popolari, che oramai si avvantaggiano degli importanti
+lavori di Gustavo Andresen per la Germania, di Nyrop per la Danimarca,
+di Karlowicz per la Russia, di Palmer per l'Inghilterra.
+
+Di note illustrative ho voluto esser parco; e la rubrica delle _Varianti
+e Riscontri_ ho limitata, com'è mio costume, a sole cose italiane edite.
+Ma siccome ora l'una ed ora l'altra di queste capestrerie si raccontano
+alla giornata, così qualcuna di esse, come variante inedita, mi è
+piaciuto di riportare a documento della loro popolarità, ed a svago
+onesto di chi legge. Nell'indice ho creduto di apporre di mio i titoli
+ai racconti che nell'originale non ne hanno.
+
+  _Palermo, 1 Gennaio 1885._
+
+                                                          G. PITRÈ.
+
+
+
+
+                             Avvenimenti
+                               Faceti
+                         Per mantenere in ame-
+                        nità innocente le one-
+                           ste recreazioni
+
+                              Raccolte
+                         In diverse Città, e
+                           Terre di questo
+                               Regno.
+
+
+
+
+1. Verbo, Settimana Santa, Passione e Crocifisso.
+
+
+In Nicosia[13], rappresentavano con personaggi vivi la Passione di
+Nostro Signore; per la Crocifissione pigliarono un uomo dozzinale, il
+quale quando fu l'ora di salire sù la Croce si tolse i calzoni, e li
+ripose al pie della Croce. Chi rappresentava S. Giovanni, s'era accorto,
+che nelli calzoni v'erano tarì dodeci[14], e destramente col piede
+procurava di allontanare dalla Croce i calzoni, per poi far quella
+preda. Il Crocifisso, che non guardava altro dal suo patibolo che quei
+calzoni; in accorgersi dell'astuzia di Giovanni, in cambio di proferire
+qualcheduna di quelle sette celebri parole, gridò ad alta voce, e disse:
+_Giov.e, non ti riminè cù li causun, cha si nò si guasta la
+Passiun_[15].
+
+
+
+
+2.
+
+
+In Naso[16] similmente facevano una rappresentazione della Passione di
+nostro Sig.e; quello che rappresentava il Crocifisso era un uomo
+dozzinale; a piedi della Croce v'era Giov.e e la Maddalena, ch'era
+figlia di quello che rappresentava il Crocifisso. Or la Maddalena, come
+ch'era giovina di mediocre aspetto, tirò e i sguardi, e gli amori di
+quello, che rappresentava il Giov.e, il quale con gesti e con altri
+segni sollecitava la Maddalena a corrispondergli; quando se ne accorse
+il Crocifisso, parlò a Giovanne, e gli disse: _Giovanni, lassala stari a
+Maddalena._ Vedutosi scoverto, Giovanne si rasciugava, fingendosi
+addolorato per il grande spettacolo; mà appena s'accorgeva che il
+Crocifisso rivoltava altronde lo sguardo, tornava Giov.e ad intendersi
+d'amare colla Maddalena; mà che? Ecco il Crocifisso ripigliò: _Santu
+Dià![17] Giuvanni, lassala stari a Maddalena._ Finalmente al 3.o assalto
+dato dal Giov.e alla Maddalena, scese da Croce il Signore, ed impugnando
+uno di quei gran chiodi d'essa, pretendea scaricarlo contro Giovanne, il
+quale per mettersi in salvo lasciò il Calvario e corse nel piano; ed il
+Crocifisso d'appresso perseguitando a Giovanne; e quella tragedia di
+dolore mutossi in comedia di riso.
+
+
+
+
+3.
+
+
+In Bronti[18] quell'Arciprete fece al solito la Cena nel Giovedì Santo.
+Un uomo semplice e mandraio di professione, intenerito per quella
+funzione, se ne andò al gregge del suo padrone, e scelse dodeci
+crasti[19]; indi per fare a quelli la lavanda de' piedi, ad uno ad uno
+li prese, e li mise nella caldaja dell'acqua bollente; d'un subito
+saltarono a quelli l'unghie; si resero incapaci di stare più in gamba.
+Intenerito poi quel semplice di quella funzione che avea fatto, tutto
+compunto con le lagrime agli occhi, comparve innanzi al padrone, e
+dimandato della cagione del suo lagrimare, rispose: _Sig.ri, aju fattu
+la Zena[20] comu lu Patri Arcipreti_: non intendendo quegli il mistero
+che Zena, ripigliò: _Sig.ri_, diceva il mandraio, _lu Patri Arcipreti
+lavau li pedi a l'Apostuli, ed iu ficcai li pedi di dudici crasti ntra
+la lacciata[21] essendu iddi li mei Apostuli_. S'infuriò il padrone, e
+se non era veloce a fuggire, quel pover uomo che avea fatto il Cristo,
+già averebbe ricevuto la condanna di quel Pilato, di morire anch'egli
+crocifisso.
+
+
+
+
+4.
+
+
+In S. Marco[22] v'era un gentil'uomo per nome il sig.r Ignazio Lo
+Presti; quest'era mezzo bleso, mutando nel parlare la _r_ in un misto
+d'_r_ e _d_ e la _l_ in _d_. Or trovandosi un giorno della Settimana
+Santa nella Chiesa del monistero del Salvadore, si faceva ivi una
+funzione, che si conduceva in un lenzuolo un simulacro di Cristo morto;
+mentre si cantavano le solite preci, era genuflesso il sig.r Ignazio, e
+si percuoteva il petto, dicendo: _Perdunu, miu Diu, misericordia_.
+Intanto passarono avanti a lui i preti; egli in vedere l'imagine di
+Cristo morto, investitosi d'una gran pietà, alzò la destra, e
+benedicendo quella sagra figura disse: _Redequiem etednam dona ei
+Domine; et lux pedpetua luceat ei_, commovendo con ciò tutti a risa; e
+mutando quella scena di pianto in trastullo di gioco.
+
+
+
+
+5.
+
+
+Nella città di S. Filippo[23] nel 1727 in circa fecero la
+rappresentazione della Passione. Prima che salisse in Croce quell'uomo
+che doveva rappresentare il Cristo, per non patir di sete volle da bere,
+e appunto gli diedero un barrile; non s'accorsero quelli che doveano
+scoprire la scena che quell'uomo non era ancor satullato in Croce;
+sicchè calarono la tela, e li spettatori che aspettavano quella funesta
+veduta, s'accorsero ch'il Cristo con un barrile in bocca dissetavasi.
+Vergognandosi intanto d'una tale apparenza, gittò il barrile sù la
+Maria, la quale compassionante delle pene altrui, ebbe ad essere
+compassionata per il gran dolore del colpo ricevuto in testa.
+
+
+
+
+6.
+
+
+In Veria[24] v'è una gran gara tra due chiese e confraternità sotto il
+titolo dell'Annunziata, e perchè una stà fabbricata nell'alto della
+terra, e l'altra nel basso, per distinguerle le chiamano la _Susa_, e la
+_Jusa_. Più volte i sudetti fratelli vennero alle mani. Or in un giorno
+ripigliandosi tra di loro, uno di quelli villani che portava il
+Crocifisso non potea rimenar le mani a suo modo contro i competitori, ed
+eruttò: _Santu Dià! si non avia ddu diavulazzu di ddu Crucifissu, cci
+vulia fari a vidiri ecc._
+
+
+
+
+7.
+
+
+In Veria medesima restò mortalmente ferito un fratello da un colpo
+ricevuto in testa da quello che portava il Crocifisso dell'emola
+confraternità. Già arrivò all'ultima agonia. Il prete procurava ch'il
+moribondo facesse quegl'atti dovuti da un cristiano vicino a morte, e
+portato un piccolo Crocifisso; il moribondo in vederlo si voltò
+dall'altro lato; si maravigliavano i circostanti per un tale atto, e
+maggiormente il persuadeano di stringersi col Crocifisso; allora il
+moribondo disse: _Livatimillu d'avanti, chi chistu picciriddu, quandu
+crisci divintirà chiù diavulu di sò patri._ Alludendo al Crocifisso
+della confraternità, che sbattutogli in testa era la caggione della sua
+morte.
+
+
+
+
+8.
+
+
+In Longi[25] il sac.te D. Rosario Panghi avea in cura la cappella del
+Crocifisso. Or il Marchese padrone di quella terra, non saprei che cosa
+c'avea da dire attinente al Crocifisso. Apprese il sac.te ch'il Marchese
+avesse voluto disporre di quel simulacro: _Sig.re_, ripigliò il
+sacerdote: _Lu Crucifissu vecchiu arditivillu, abruciativillu: non
+minni[26] curu; lu novu, Sig.ri, non voghiu chi mi lu tuccati_.
+
+Ciò lo sapevo per bocca dello stesso Marchese.
+
+
+
+
+9. Verbo Messa.
+
+
+Il sopradetto D. Rosario Panghi in Longi andò ad una caccia selvaggia in
+una selva vicina, e per l'ardor della caccia dimorò ben tardi fino doppo
+mezzo giorno; ed uccisa una piccola troja selvaggia, lieto se ne
+ritornava, e passando per le ville del sig.r Marchese, padrone di Longi,
+l'interrogò dove andasse; li rispose: _Signuri, lassatimi stari, chi pri
+sta beneditta purcedda, aju lassatu la mmaliditta Missa._ Tanto m'à
+raccontato lo stesso sig.r Marchese.
+
+
+
+
+10.
+
+
+In Capri[27] v'era un sacerdote assai attaccato all'interessi, ed
+ogn'anno al fin del nutricato del verme della seta, grano ecc., tante
+erano le sue sofesticherie con li maestri, ch'uscivano dalle bacce la
+seta; molti non potendo soffrire le sofistiche pretenzioni del prete, o
+se n'avevano da fuggire, o restavano in prigione ad istanze del prete,
+sicchè niun de' maestri voleva servirlo. Or in un giorno di festa
+radunati alla Chiesa tutte le genti della vicina campagnia, v'era un
+giovane forastiero, ed interrogato dal prete chi fosse; gli rispose
+esser un maestro di seta. Il prete l'indusse ad affittarsi con lui e
+doppo la Messa se ne sarebbono andati al manganello[28]. Ciò concertato
+andò a celebrare il sac.te, e mentre si vestiva a Messa alcune persone
+descrissero al giovane le pessime qualità e sofisticherie del sac.te;
+ciò udito il giovane aspettò finchè arrivasse il sac.te sino
+all'Offertorio, e quieto quieto partissene. Quando arrivò il sacerdote
+all'_Orate fratres_ s'accorge ch'il giovane era alquanto distante dalla
+Chiesa, che se ne andava altrove. Scende dall'altare così vestito alla
+sacerdotale, escie dalla Chiesa, cominciò a chiamare il giovane; quello
+si mise in fuga, ed ecco il sacerdote alzandosi le vesti, cominciò a
+gran passi ad inseguirlo, e durò questo corso per un miglio continuo per
+quelle campagne, fintantoche arrivati nella Piana di Pietra di Roma
+tutta fangosa per risate; allora il sac.te disse: _La senti b. f. mi
+l'ai fattu, mi la paghirai_; e tornossene in Chiesa a proseguir la
+Messa. Il caso non si seppe se non doppo morte, tenendolo occulto quei
+sac.ti di Capri per proprio decoro, e facendo ivi che quei laici, che
+furono spettatori di quella comedia, o più tosto tragedia, tacessero
+anch'essi.
+
+
+
+
+11.
+
+
+In San Marco un sacerdote chiamato Muglia diceva Messa in una Chiesa
+della campagna in tempo di nutricato; in quel tempo due femine in cambio
+di stare attente a quel tremendo Sagrificio discorrevano tra di loro del
+nutricato, e facevano le loro querele, che il verme non mostrava
+fruttare. Egli, doppochè intese molti lamenti, si voltò dall'altare
+doppoche erano cominciate l'Orazioni segrete, e disse loro: _Non vi
+maravigliati nò: ancora lu miu vermu ristan cu la spoghia a lu culu._
+
+
+
+
+12.
+
+
+Lo stesso Muglia si trovava un giorno vestito a Messa nella sagrestia
+ch'aspettava ch'entrasse un altro Sac.te che diceva Messa per poter
+uscire a dir la sua. Fratanto due sac.ti conoscendo l'ignoranza e la
+semplicità del Muglia, si raccapricciarono a far celebrare la Messa, e
+farle recitare nella Messa di Requiem al sudetto Muglia il Gloria e
+Credo. Pertanto finse uno di domandare all'altro se v'era Gloria e Credo
+in quella mattina nella Messa. «Non Signore, rispondeva l'altro, perchè
+nella Messa di Requie non v'è Gloria e Credo.» Sì, ripigliava l'altro,
+che nella Messa de' Santi dottori entrava la Gloria e Credo. Or il
+defonto per cui si celebrava, era stato dottor di Legge; gli toccava
+questo privileggio. Stava il Muglia a questo gran dubbio coll'orecchio
+attentissimo, e mostrava di sciogliere il gran dubbio. Quello ch'avea
+detto, che non toccava a dirsi la Gloria e Credo, mostrò di lasciarsi
+convincere, e rispose: _Aviti ragiuni: non avia fattu riflessioni, chi
+lu mortu era Dutturi: ci tocca certa lu Credu e la Gloria._ Intanto
+venne l'ora d'uscire il Muglia in Chiesa, per dir la sua Messa. Doppo il
+Khirie dice intrepidamente la Gloria, e doppo l'Evangelio il Credo, e
+quelli due furono truffatori nell'ingannarlo, spettatori nell'udirlo, e
+poi derisori nel beffeggiarlo.
+
+
+
+
+13.
+
+
+Non saprei in qual città o terra della Sicilia, cantandosi la Messa
+votiva _de Passione Domini_, il Suddiacono sprovisto di quello che
+doveva cantare, non s'era accorto, che il titolo della sua lezione era
+guasto, per un buco che v'era nella carta del Missale. Sicchè si leggeva
+bene: _Lectio Hieremiæ Prophetæ_, mancando della parola _Prophetæ_ la
+prima sillaba _Pro_. Incominciò dunque la lezione con voce utentica, e
+disse così: _Lectio Hieremiæ, c'è un pirtusu, e fete._ Quali risa si
+sollevassero in tall'occasione, meglio è supporle che descriverle.
+
+
+
+
+14.
+
+
+In Aci Catena[29] v'era mansionario di quella colleggiata il sac.te D.
+Ignazio Quattr'occhi, al quale toccò una mattina dire l'ultima Messa. La
+sua madre avea posto in ordine per il pranzo del figlio un bel piccione;
+mà, non sapendo come lo volesse apparecchiato, spedì un suo nipotino
+alla Chiesa per domandare allo zio in qual maniera gustasse il piccione.
+Arrivato alla Chiesa trova in sull'altare lo zio giunto al _Domine non
+sum dignus_ della sua Messa; e senza abbadare il ragazzino al tremendo
+misterio, accostasi tutto premura all'altare dicendo: _Ziu, ziu, la
+nonna voli sapiri comu vuliti lu picciuni: si bughiutu, o arrustutu?_ Il
+Sac.te stava dicendo la seconda o la terza volta: _Domine non sum
+dignus_, [e] rispose: _Arrustutu_, prosequendo: _ut intres sub tectum
+meum._ Fu tanto celebre questo successo, che quando fui la seconda volta
+in Aci Catena, non solo me lo raccontarono i migliori gentil'uomini di
+quel paese; ma lo stesso D. Ignazio mel confirmò.
+
+
+
+
+15.
+
+
+D. Isidoro Lo Proto della Terra di Maletto[30], già morto in Bronte, ove
+solea abitare nel 1727 in circa. Quest'uomo fù un uomo da bene; mà tanto
+effeminato, che filava, tesseva, e s'impiegava nelle faccende proprie
+delle donne, qual'erano lo allievar galline, aver cura di pulcini,
+trattandoli delle maniere proprie donnesche; ed anche la voce sua
+s'assomigliava a quella delle donne; era ancora d'intendimento corto
+come le donne. Gli venne in testa di farsi ministro ne' sagri altari, e
+già n'andò in Messina per il Suddiaconato; mà essendo egli molto scarso
+di lettere, fù subito riprovato: non perciò disanimossi, mà tornando
+all'altra ordinazione in Messina con un carico di presciutti per
+regalarlo a chi potea promoverlo, ottenne l'intento di entrare
+negl'ordini sagri. Tornato al paese, e addimandato se fosse stato
+ordinato, rispose che se avesse portato più presciutti, avrebbe fatto
+ordinare il somaro che l'avea portato in Messina. Morì un giorno la sua
+madre; egli, mentre il cadavere della defonta era attorniato di donne,
+che, secondo il costume antico, tenevano il lutto con lamentazioni e con
+lagrime; situossi in mezzo ad esse con una tovaglia negra sul capo,
+dando in gridi e gemiti più dell'altre femine. Costume questo che
+osservollo nell'altre morti di altre sue congionti. Or questi arrivato
+già al sacerdozio, coll'uso del dir la Messa erano tante le smozzicature
+e li salti che non arrivava alla decima parte quella Messa che diceva.
+Soleva servirlo a Messa il chierico D. Mario Schillerò, che s'era
+tant'imprattichito della Messa del Proto, che anche dormendo ve la
+recitava. Io in sentirla lo pregai che me la scrivesse, e quello mi
+compiacque, ed è tale quale quì la trascrivo.
+
+    _In nomi Patr artara Dei._
+    _Judica me do scarsa gente uno doloso me_
+    _Emitte luce sme asserunt in monternacula tua._
+    _Confitebor tu sturba sme._
+    _Gloria Patri, e Spiritu Santu._
+    _Introibo in nomine Domini._
+
+_Confiteor potenti B. M. sempri Micheli Arcangelu, beatu Battista,
+santis frates piccati niuri certionorbo, opere me culpa. Iddiu pregu
+beati onnes Santi Patri a D.nu nostru Misereatur vestri pervostra misera
+eterna. Indulgenza assolvi piccaturu onni corsu D.nu._
+
+_Deus tu misericordia tua._
+
+_Dominu estra oratiom mea._
+
+_Dominus obiscu. Oremus. Offeru nostru santu; Santoru reliqua sunt
+peccata mea_. Leggeva poi strapazzatamente l'Introito, _Kirieleison
+etc., Gloria in eccersi Domini meu, lamustè, andamustè, licistè in
+potera Patri ammè_.
+
+
+Collette e Lezioni.
+
+_Munda ori meu, mandasti, miseri evangeriu mutasti._
+
+_Jube Dos corde me._
+
+_Credo in de Onnipotenti Jesu Cristu, ed è spatrunatu saluti, et homo
+fattus est, crucifissu secundu scrittura in Ecclesia rationi vinti
+seculi ammè._
+
+_Per omnia sicura, securorum etc._
+
+_Vere dignu me justu mest nos tibi sempri supprici confessioni dicenti
+Santu, Santu, Santu. Hæc dona, hæc munira nlibata Papa nostru: Mementu
+Domini famularu, undè emors Dominu. Ostiampura, ostian santa, ostia
+maculata._
+
+Con questo tenore arrivava alla consegrazione e proseguiva dopo d'essa
+sino al _Pater noster_.
+
+_Per onnia, securemus dicere. Pater_.
+
+Comunicatosi e detto il versetto del _post comunio_, _Domine Sobiscu.
+Oremus._ Quando diceva Messa de defonti, cominciava l'orazione doppo la
+communione; _Animalibus quesumus Domine etc., Benedica vui meniput in
+Deu Patri e Spiritu Santu. Secundu Giuvanni. In principio era verbo, do,
+das, do, das, era verbu, e verbu ncaru factum est gratia e viritati_.
+
+Stimai io questa maniera di Messa una caricatura del chierico Schillerò,
+che me la scrisse, mà in sentirmela confirmare da migliori sacerdoti e
+gentil'uomini del paese, restai stupito, perchè non l'avessero
+sospeso[31].
+
+
+
+
+16. Miscellanea.
+
+
+Il sacerdote D. Mario Spitaleri in Bronte era un uomo di poca entità, mà
+zelante; prendea però le misure questo suo zelo dal suo naturale poco
+riflessivo. Quindi li Brontesi spesso lo stizzavano[32], per prendersi
+gioco delle sue proposizioni e delle sue impazienze. In un giorno il
+Tesoriere della Cappella del SS.o Sagramento, unito ad uno de' Deputati
+della medema Cappella, cominciarono a toccarlo[33], e specialmente sopra
+la sua cappellania. Era il D. Mario Cappellano della Chiesa di S. Marco,
+situata in campagna, sopra un pogetto esposto ai venti, che col loro
+impeto spesso faceano saltare le tegole di quel tetto; montato egli non
+saprei se in zelo o in collera cominciò a riprenderli che mandassero a
+male i frutti delle rendite pingui della Cappella, e poi soggiunse: _Vui
+autri incappastivu cu l'altari di lu SS. Sagramentu, e vi lu mangiati
+vivu e mortu, ed illu [è] chiusu in mezzu a quattru tavuli e non parra;
+ma ju ncappai cu chill'armali di S. Marcu, chi tuttu lu jornu carriu
+canali[34] in collu._
+
+Tanto a me il sig.r Barone D. Filadelfo Papotto.
+
+
+
+
+17.
+
+
+Trovavasi in un'altro giorno il sudetto D. Mario Spitaleri su d'un
+pogetto, volgarmente detto da' Brontesi il Pojo della Colla, in
+campagna, ove cominciò a recitarsi l'_Offizio Divino_; ed era arrivato a
+prima[35], quando capitò ivi l'Arciprete suo nipote D.r D. Mario
+Franzone, _e chi c'è sigr Ziu_? gli disse l'Arciprete; il D. Mario avea
+cominciato: _Deus in adjutorium_ etc., [e] rispose subito: _Lassatimi
+stari, jam lucis orto sidere: gran diavulu: Deum præcemur supplices, ut
+in diurnis actibus, nos servet a nocentibus: grandi diavulu di scecca._
+L'Arciprete tornò a dimandargli: _Ch'aviti, chi ci fù?_ Ed egli, il D.
+Mario: _E chi voghiu aviri! Sta santa scecca non m'à lassatu diri stu
+diavulu d'offiziu: Linguam refrenans temperet_ etc. L'azzioni del
+sudetto sacerdote sono celebri in Bronte.
+
+
+
+
+18. Atto di Fede Teologica d'un Fratello congregato nella Novara li 17
+Aprile 1739.
+
+
+Fu giorno che toccava farsi la solita congregazione secreta per profitto
+de' Fratelli congregati, i quali per esercitarsi negl'atti delle 3 Virtù
+Teologali, esce in mezzo or l'uno, or l'altro a fare uno di questi atti.
+Toccò ad uno d'essi far l'atto di Fede, e genuflesso in mezzo alla
+Congregazione proruppe in quest'accenti: _SS. Patri, iu cci cridu chi
+stati in Celu, ed ancora lu vostru SS. Fighiu, comu motrici di tutti li
+cosi; iu cridu, mà non cridu beni, pirchì senza la Fidi non pozzu iri in
+Paradisu, ne ad autra banda; la Fidi è fimmina, chi pozzu diri? lu
+Vicerrè manda un ordini, e non è obbedutu; dunca non è_. Qui due o tre
+Fratelli cominciarono a ridere, ed il Padre della Congregazione fù
+necessitato che finisse. Uno d'essi era sacerdote; lo scrisse e lo
+consegnò a me, e colle medesime parole qui l'ò trascritto.
+
+
+
+
+19. Benedizione data col braccio svelto dal corpo d'una femina uccisa.
+
+
+Il sig.r Ignazio Lo Presti sentendo che fuori la terra di S. Marco nella
+campagna s'era ritrovato il cadavere d'una femina assassinata, accorse
+cogl'altri a vedere l'assassinio, e appunto trovarono quella sgraziata
+tutta ferite, una della quale era stata sì grave tra la spalla e braccio
+che stavan questi due membra congionte per un pezzetto di pelle rimasta
+sana. Allora il sig.r Ignazio va per maneggiare quel braccio e appena
+toccatolo si svelse subito dalla spalla, perchè eran tre giorni che
+quell'infelice era stata ammazzata, e perciò incominciando ad
+infracidirsi, quella pelle distaccossi dal suo busto; in avere già
+libero nelle sue mani il sig.r Ignazio quel braccio, alzatolo in aria
+cominciò a dire ai circostanti: _Viditi, fighioli, quantu semu
+misedahidi! Cui c'avia a didi a chista chi ntra du meghiu di di sò
+capddicci avia a distadi comu li bestij ammazzata ndra la campagna?
+Mpadamu a spisi d'autrudu ad addrizzari li fatti nostridi_[36]. Avrebbe
+voluto più proseguire a perorare; mà perchè non _habebat usum_ a
+raggionare di Dio, gli finì la polvere a poter colpire i cuori, e
+ritornandosi quel braccio di quella uccisa peccatrice nelle mani, alzò
+come se fosse una reliquia di S. Agata o di S. Agnese, e poi dicendo:
+_Benedicat vos Omnipotens Deus, Pater et Filius et Spiritus Sanctus_.
+Fatt'il segno della Croce con quel avanzo opprobrioso di quell'infame
+cadavere, gittato addosso a quel corpo assassinato, e partissene movendo
+a risa quei circostanti, i quali tanto più si diedero a cacchinare,
+quanto più il sig.r Ignazio pareva loro compunto, tanto ridicolosa era
+la specie che n'aveano.
+
+Tanto a me i conoscenti del detto lo Presti.
+
+
+
+
+20. Un Notaro divenuto Confessore.
+
+
+Facea la Missione in una piccola terra il celeberrimo padre Andrea
+Genovese della Compagnia di Gesù, e in quei giorni santi arrivò
+all'arciprete un'editto del suo prelato, in cui gl'ordinava che
+pubblicasse a beneficio della sua pieve il Giubileo conceduto dal Papa
+con tutte quelle grazie solite concedersi in cotai giubilei, tra le
+quali si communicava la facoltà d'assolvere da peccati etc. _regularibus
+et secularibus_. L'arciprete restò sorpreso a queste parole, perchè
+religiosi nella sua terra non v'e n'erano; dunque interpretò la mente
+del Vescovo, che intendeva parlare nel _regularibus_ di quei pochi
+preti, che l'ajutavano a pascolare il gregge a sè commesso; nel
+_secularibus_ che si dasse podestà ad altri laici ch'in quella
+congiuntura divenissero coadjutori de' preti; «ma qui in questo piccolo
+paese non ve n'è che un solo intelligente, a cui possa io commetter la
+cura d'ascoltare le confessioni; tutti gl'altri sono contadini di
+esercizio, ed ignoranti per professione; dunque bisogna che io prevenghi
+a mio compare il notajo, affinchè a buon ora per di mattina si
+trovi in chiesa e nel confessionario[37], per aggevolarmi in
+quest'importantissimo impiego». Escie di casa ancorchè l'ora della notte
+si fosse avanzata, si porta alla casa del notajo, bussa la porta, si fà
+a sentire ch'avea a conferire con lui un'affare di somma importanza;
+impallidì il notajo quando a quell'ora vide in casa sua l'arciprete, che
+con tanta premura voleva parlargli, nè sapea dove andasse a parare una
+parlata così segreta; si ritirarono in un angolo della casa, si piglia
+lume, e poi consulta il caso _pro regularibus et secularibus_; gli
+spiega la sua sopradetta interpretazione, e quegli rasserenato rispose
+che non potea esser più savio il sentimento da quello ch'era uscito
+dalla sua bocca. «Dunque, ripigliò l'arciprete, sig.r compare, voi
+conoscete meglio di me questi terrazzani; nessuno tra tanti si ritrova
+che possa adempire meglio di voi il confessore; abbiate dunque la bontà
+di portarvi a buon'ora in chiesa; sceglietevi quel confessionario che
+più vi piaccia; e voi ed io confesseremo le donne, quei due sacerdoti
+come giovani farò che confessassero gl'uomini». Il sig.r notajo
+vedendosi promosso ad esser confessore senza esser ancor sacerdote, poco
+potè dormire in quella notte allo riflettere a tant'onore. Sicchè prima
+che si fosse aperta la chiesa, ei aspettava dietro le porte, poi sedendo
+_pro Tribunali_ divenne di lancio Confessore e Pontefice, assolvendo
+tutti quei casi quantunque spinosi con tale franchezza che non l'avrebbe
+fatto il Papa: nel meglio delle sue fatighe comparve in chiesa il padre
+Andrea Genovese per celebrarvi la santa Messa, e scopre nel
+confessionario ad uno col collare della casacca amitato alla spagnuola,
+e stimandola una illusione degl'occhi, attua maggiormente lo sguardo, e
+gli scuopre la lunga zazzara rovesciata sull'orecchie per non essergli
+d'impedimento all'udito, e compartendo dall'uno e dall'altro lato
+assoluzioni a quelle femine accostate intorno al sig. notajo, che
+anelavano i suoi santi documenti, che l'avesse creduto un Penitenziere
+di S. Pietro o di S. Giovanni Laterano. Sbalordì il padre Genovese ad
+una tal vista, e senza dir nulla entrò in sagrestia, si fece chiamar
+l'arciprete, e ritiratolo in disparte, lo fece inteso della temerità del
+notajo. Quel dottissimo Parroco senza esitare rispose non esser quella
+temerità del notajo, mentre viene abilitato ad una tal carica e dal
+Vescovo e dal Papa, e subito escie dalla saccoccia l'editto, e si facea
+forte su quelle parole, _pro regularibus et secularibus_. Bisognò
+spiegarcele il padre Genovese, e non gli costò poco il persuaderlo a far
+uscir da quel tribunale di penitenza il compar notajo, avvertendolo
+ch'era tenuto all'inviolabil segreto di tutto ciò ch'avea udito da quel
+luogo, e avvisando tutte quelle femine che si riconfessassero, essendo
+nulle le loro confessioni fatte con uno, in cui non v'era ne la podestà
+dell'ordine, e molto meno quella della giurisdizione. Sarebbe meno
+deplorabile un'ignoranza sì crassa, se si fosse trovata in quella sola
+terricciuola. Troppo ella è palpabile in tante altre terre e città, non
+solo del nostro Regno, ma di tanti altri, de' quali si contano successi
+assai più luttuosi di questo.
+
+
+
+
+21. Città di Randazzo in iscena.
+
+
+Nell'insigne città di Randazzo fu rubbata una mandra di crastati; il
+padrone interessato fece rivelo al Capitano; quel signore avendo fatte
+molte indagini per aver notizia alcuna degl'autori del furto; mà
+riuscirono vane; premuroso il Capitano, e dall'istanze della parte e del
+proprio onore, per non esser proseguito dalla regia Gran Corte
+s'appigliò ad un mezzo termine; ordinò che fosse portato alla sua corte
+uno degli rimasti crastati; arrivato, sede egli col suo maestro notajo
+_pro tribunali_, e dimandò al crastato chi fosse stato il ladrone
+ch'avesse rubbata quella mandra? Il povero animale nulla rispondea
+perchè nulla sapea; ordinò che se gli dasse la corda per sapersi, a via
+di tormenti, chi fosse stato il ladrone; quella bestia appesa belò per
+tre volte. Allora il Capitano rivolto al Notajo gli disse: _Scrivitinni
+l'informazioni, sù Notaru: à dittu tri voti mbè_[38].
+
+
+
+
+22. Scena Seconda.
+
+
+Si doveva fare nella detta città un'opera sagra[39], ed avevano avvisato
+le vicine terre e città se volessero intervenirvi, e furono loro
+prefissi i giorni ne' quali dovesse rappresentarsi. In quei medesimi
+giorni capitò in Randazzo un delegato, non saprei se dalla Gran Corte, o
+del Tribunale del Patrimonio; e comechè alcuni dei recitanti si
+trovavano imbarazzati in quei conti reggij, giudicarono altri fugirsene
+da Randazzo, altri mettersi in salvo sù la chiesa[40], uno ancor de'
+personaggi gravemente ammalossi. Alla vista di tanti sinistri accidenti,
+si videro in debito i sig.ri Randazzesi di riavvisare i convicini paesi
+a farsi quell'opera sagra, e per render più sonoro un cotal avviso
+mandarono un tamburo, il quale doppo aver battuto la cassa in ogni capo
+di strada gridasse in questa forma: _Oh chi a Randazzu l'opera non si
+fà! Lu Diavulu si cumunicau, l'Angilu si ni fuiu, lu Cristu pighiau la
+cresia_[41]; batteva di nuovo la cassa, ed andava a cantare in un'altra
+strada la medesima canzona, che meritò d'esser cantata per tutti i
+secoli.
+
+
+
+
+23. Atto di dolore fatto da un moribondo.
+
+
+Il sig.r D. Giuseppe Gallotto fù chiamato in S. Marco per ajutare a ben
+morire un vecchiarello villano per cognome Sgurbio, e trovando il
+moribondo cogli sentimenti espediti ebbe campo d'insinuargli alcuni
+documenti spirituali; e quel buon'uomo a modo suo corrispondeva alli
+buoni impressioni. _Orsù_, gli disse il padre Gallotto, _ziu Sgurbiu,
+facemu un attu di contrizioni, e dimandamu a Diu perdunu di li nostri
+piccati_; e lo Sgurbio: _Si sig.ri ora vegnu_: era egli rivoltato
+dall'altro fianco. Cominciò a muoversi pian piano per rivoltarsi verso
+il Gallotto, ed in ogni piccolo moto si lagnava, e racchietato prorompe
+in questa finissima contrizione: _Iecu lasmaterna duna sdomini e lu
+sperpetua luci a sdeu_[42].
+
+Tanto a me lo stesso D. Giuseppe Gallotto.
+
+
+
+
+24. Confessore in Marsala.
+
+
+Un religioso in un convento della città di Marsala, già avanzato in età,
+era la rovina dell'anima di quei giovanastri libertini. Sapevano essi
+che assolveva dalla parte sua di pena e di colpa qualunque grave eccesso
+senza applicar loro nessuno spirituale rimedio; sicchè quelli
+impunemente correano come pulledri indomiti per tutte le praterie de'
+loro capricci. Veniva il tempo del precetto, o di qualche festa
+sollenne; l'andavano a trovare a buon'ora anche nel letto, bussavan la
+porta; egli rispondeva: _Cu è ddocu? — Iu, lu N. N., — Trasi, chi cosa
+voi? — Mi voghiu cunfissari. — Ginocchiati. — Confiteor Deo et tibi, mea
+culpa, mea culpa. — Chi cosa ai fattu? — Aju bastuniatu ad unu_. Il
+confessore: _Chi diaulu facisti? passa avanti — Aju itu a la tali casa;
+aju avutu una fimmina schetta_. Il confessore: _Ora chistu è n'autru
+diaulu, passa avanti. — Aju rubbatu tali e tali cosa_. Il confessore:
+_Ti vitti nuddu? — Paternò. — Nè vistu, nè pighiatu non pò andari
+carsaratu; passa avanti_[43]; ed uditi tant'altri eccessi, alzava la
+mano con l'assoluzione, non per proscioglierli, mà per maggiormente
+incatenarli ne' loro peccati.
+
+Tanto a me il padre Lorenzo Spezzapane ed il padre Marino marsalese.
+
+
+
+
+25. Morto che ride in Nicosia.
+
+
+Un villano della medesima città di Nicosia, venendo dalla campagna,
+nell'inverno più crudo, fù assalito per istrada da una tempesta di
+tuoni, lampi, grandini e venti così freddi, che miracolo fu che non
+rimanesse morto in mezzo della via; arrivò alla sua casetta in atto che
+la moglie stava per infornare il pane, mà arrivò così sparuto ed
+interizzito, che non potea spiccare una parola, tanto gli s'erano
+serrati i denti, nè potea più scioglier un passo. La semplice moglie
+credendo di far un buon complimento al marito, per farlo rinvenire lo
+collocò dentro al forno, e serrò la bocca per farlo così ristorare, ed
+ella impiegossi ad accomodargli il letto, e fare altre masserie nella
+sua casa. Di là a qualche tempo mandò la figlia a vedere come se la
+passasse il suo padre; accorre, aprì il forno, e vide il padre colli
+denti di fuori; subito andò dalla madre a dirle che il padre non
+parlava, mà rideva. — «Sì, figlia, si consolò perchè ti vide.» Così
+contenta la madre e la figlia, di là ad altro poco di tempo tornarono, e
+trovatolo che seguitava a ridere lo richiesero se si sentiva ristorato;
+quegli non rispondeva, mà rideva; finalmente dal vederlo senza moto lo
+riscossero, e comparve senza senzo; lo sfornarono, e lo trovarono senza
+vita. Quest'è lo giudizio che han le femine: nell'istesso amare
+uccidono, e nel voler far bene cagionano l'ultimo di tutti i mali,
+verificandosi il detto dello Spirito Santo: _Melior est iniquitas viri,
+quam mulier benefaciens._
+
+
+
+
+26. Cappuccini di Nicosia in processione.
+
+
+Riuscì molto cruda un invernata, non mi ricordo appunto in qual anno, e
+molto più in Nicosia, città situata nell'alto, e però più esposta
+all'inclemenza dei tempi. Passato il mezzo aprile, cominciò ivi ad
+addolcirsi la stagione, ed in una giornata che si fece vedere sgombro di
+nebia il sole, D.n Vincenzo Modica unito con un'altro sacerdote suo
+pari, per godere più agiatamente d'una solicchiata, se n'andarono nella
+selva de Cappuccini. Appena s'erano posti a sedere sù quelle tenere
+erbette, vedono ed odono le grida d'un padre cappuccino, che da una
+fenestra del convento caricava di mill'improperij quei due sacerdoti,
+trattandoli per lo meno da ladri; sbalorditi quelli al turbine di
+tant'ingiurie, risposero con mansuetudine esser ivi venuti, non per dar
+molestia ai padri, mà per ricrearsi dell'amenità di quel luogo; ed egli
+soprapigliandoli trattolli da indiscreti, sapendo che i padri Cappuccini
+vivono di limosina, contentandosi di poco pane accattato di porta in
+porta ed agli, vengono ad assassinar loro quei poco ortaggi, che sono la
+delizia di quei padri. «Padre, noi non siam venuti quà per rubar caoli
+ed insalata, che con un bajocco che spendiamo nella nostra piazza
+possiamo riempirne il ventre di due cavalcature. Ch'avete, che fate
+così.» — «Andate via, ne state a torci quello che non ci date.»
+Bisognarono cedere alle malcreanze que' civili sacerdoti, [e] ben
+carichi di mill'altre ingiurie, se ne andarono via. Il Modica però si
+stabilì di farli costare troppo cara una tale bravata, e andava penzando
+alla maniera, e al quando dovea disimpegnarsi; mà non passò molto che
+gli si offerì opportuna la congiuntura. Cadde nel seguente maggio la
+festa del _Corpus Domini_, che da per tutto si sollennizza colla più
+pomposa processione; i padri Cappuccini sogliono in quella sera cenare
+molto a buon'ora, indi per non succedere loro nella lunga processione
+qualche necessità corporale, tutti vanno ai luoghi communi, o ne abbiano
+o nò il bisogno, e si provedono questo frà loro; è un uso inveterato.
+Provisti che sono, tutti escono colla loro Croce in processione, e vanno
+alla Chiesa madre per collocarsi in quel luogo che lor tocca. Sapendo
+tutto ciò il Modica, buscò una o due cipollazze[44], il di cui sugo, se
+tocca l'umana carne, è così acrimonioso che fà gonfiarla, e le stuzzica
+un prorito spaventoso che necessita l'uomo a stropicciar la parte già
+tocca, mà non con altro profitto, se non con accrescer magiormente il
+prurito. Mentre dunque i Cappuccini tutti erano nel refettorio che
+cenavano, ebbe modo egli di segretamente salir sopra, stropicciò quelle
+cipollazze nell'orlo de buchi de luoghi impregnandoli bene del sugo
+consaputo, e parte via senza che nessuno di lui si fosse accorto; poi
+avvisò il suo amico, e si misero al posto fuori la Chiesa madre, come se
+vedessero passare la processione; mà propriamente per vedere passare i
+Cappuccini; ed ecco che compariscono ben composti, e tutti modestia
+secondo il suo solito. Passarono le compagnie e le confraternità; tocco
+il primo luogo tra tutti i conventi ai Cappuccini; entrarono nella
+chiesa già riscaldata col fiato di tanti, e molto più colla copia de'
+lumi, essi riscaldati col moto del convento fino alla chiesa, dentro
+d'essa finirono d'accendersi, e però cominciò con più di veemenza ad
+operare quel diabolico sugo, mettendo un prorito infernale nelle gonfie
+posteriora. In chiesa alla presenza di tant'ecclesiastici e di tante
+donne non misero mano all'opera i buoni padri, mà in uscir di chiesa
+perderono a poco a poco la pazienza; da prima brevemente dava or l'uno
+or l'altro colla mano una stropicciata, e tutto era lo stesso che
+attizzare magiormente il prurito con quella grossa lana, sicchè si
+vedeano de' Cappuccini chi teneva dietro la mano destra, chi la
+sinistra, in somma tutti passavano da una mano all'altra la candela
+accesa che tenevano, e l'altra mano libera impiegavano a dare ajuto, o,
+per dir meglio, ad irritare quell'inaspettato ed insolito prurito. I
+padri ed i fratelli davano questo tormentoso refrigerio al lor male, mà
+il chierico che portava la Croce, da cui pendea il palio (quest'è l'uso
+de' padri Cappuccini nella provincia di Messina, ch'il chierico con
+cotta, mà non il terziario, porti la Croce[45], non grande come quì, ma
+somigliante a quella degl'altri conventi col palio pendente, benchè
+lavorato di filo bianco, e non di seta) non avea questo commodo
+d'adoperare le mani impiegate tutte due a sostener la Croce, e però in
+ogni due passi dava due calci e caminava; non potendo finalmente più
+soffrire, nella prima manzione che si fece nella processione, appoggiò
+le posteriora al muro, e quello che non potevan fare le mani sostituì
+quella parete, in cui s'incontrò a fare la sua parte. La gente che
+vedeva i padri Cappuccini in quella forma, ne sapeva il perchè? non
+sapeva che penzare; altri attribuivan ciò ad effetto di rogna, altri
+dicevan: Mà Dio buono, tutta la communità è così mal'infetta! Altri: Che
+maraviglia se quest'è un'infermità contagiosa! — Mà tutti, ripigliava
+qualche altro, anno quest'infermità nella medema parte? Il Modica, però,
+ch'era l'autore di questo morbo, era crepato di ridere, e senza
+confidarsi in alcuno; godeva d'una tal vista, e specialmente di quel
+padre indiscreto che fù a lui tanto ingiurioso. Dopo alcuni anni
+raccontò a me quanto di sopra stà scritto; quale cosa se sia stato di
+lode o di biasimo, io nol decido; solo l'ò raccontato, perchè la cosa e
+veramente ridicola e potrà servire ad ogn'uno d'avvertimento e non
+aggravare ad alcuno de' nostri prossimi, potendo da essi riportare
+pregiudizij maggiori.
+
+
+
+
+27. Il Padre Fortunato di S. Marco uccellato da D.n Giuseppe Gallotto.
+
+
+Era il padre Fortunato religioso agostiniano, di patria Sammarcoto, e
+figlio di quel convento, mà perchè mai potè avere pace co' priori di
+quel convento, fù sempre d'essi tenuto lungi, e condannato a girare
+tutti i miseri conventoli della provincia. Avanzato già in età,
+parendogli duro lo star lungi da suoi e dalla patria, mise mezzi
+potenti, e fece più potenti promissioni di star nel dovere, per far
+ritorno alla sua cara patria; infatti ottenne quanto bramava, e pratticò
+fedelmente quanto promesso avea. Sapeva tutto ciò il sacerdote D.n
+Giuseppe Gallotto, fratello per sangue del sudetto notar Gallotto, mà
+più per l'amore e per lo genio, gli s'offerisce un'occasione, che dirò,
+d'uccellarlo; e per tenere in amenità tre amici, fà perdere il sonno
+d'un'intiera notte al riferito padre Fortunato. Il mese d'agosto di
+quest'anno fù calidissimo, sicchè molti non potean pigliar sonno; tra
+gli altri il sig.r D.n Giuseppe Filingeri disse a D.n Giuseppe Gallotto,
+ito in sua casa per visitarlo: «O Peppi, diamo quattro passi fuori a
+prender fresco, perchè mi sento languir per l'eccessivo calore».
+Uscirono di casa, e s'avviarono verso il convento di Sant'Agostino;
+essendo vicini, ripigliò il sudetto di Filingeri: «O Peppi, penza a
+qualche burla per divertirci». Il Gallotto: _Ora, sig.ri, siditi dietru
+chistu murettu; e non vi dati a sentiri, chi vi daroghiu una bona
+ricreazioni_[46]. Ubbidì il sig.r di Filingeri, ed il Gallotto si mise
+sotto la fenestra del padre Fortunato. La notte era bruna e non poteva
+esser scoperto; contrafece la voce d'un ragazzo, e cominciò a chiamare:
+_Ah gnuri p. Fortunatu! gnuri p. Fortunatu_[47]! e non cessava di
+gridare _gnuri p. Fortunatu_. Erano digià date l'ore due della notte, e
+quello era ito poco prima a letto; sente tante replicate chiamate, ed
+affaccia: «Ch'è là?» (così enfatico egli parlava). Il Gallotto: _Iu,
+gnuri patri Fortunatu_; e quello: _Chi cosa voi?_ Il Gallotto: _Mi manda
+lu miu patruni, e voli sapiri, si vui vinditi li ficu._ — _Figghiu miu_,
+rispose il padre, _lu patri Priuri è ghiutu a lu locu di la marina; iu
+non sugnu nenti ntra lu cunventu; lassalu viniri, dumani cci lu dirrai
+ad iddu, e lu chi farà pri mia sarà ben fattu._ Il Gallotto: _Dunca ci
+dica a lu mia patruni, chi non ci vuliti dari li ficu._ Il padre
+Fortunato turbossi, temendo che non fosse riferito al padre Priore, il
+quale cercava di vendere quei fichi impassiti, ed il sudetto padre
+avesse fatto perdere la congiuntura, e questa perdita potea esser di
+disturbi trà loro, per i quali il padre Fortunato avesse di nuovo a
+saltar fuori del convento; e però rispose con ardore: _Iu, fighiu miu,
+non t'aju dittu chi non voghiu vindiri li ficu, pirchì chistu non spetta
+a mia, ma a lu patri Priuri; l'ai intisu?_ Il Gallotto: _Si sig.ri, avi
+ragiuni V. S._ Il p.re Fortunato: _Lassa viniri a lu Priuri, e trattirai
+cun iddu lu negoziu._ Gallotto: _E quandu veni lu patri Priuri?_ Il
+padre Fortunato: _Dumani matinu, aja pazienza; va dormi pri sta sira, e
+dumani t'affaccirai a lu cunventu._ Il Gallotto: _Si signuri, ma lu me
+patruni mi voli prestu._ Padre Fortunato: _Cu' è lu tò patruni?_ Il
+Gallotto: _Oricchiazzi, sig.ri._ Padre Fortunato: _Nò lu canusciu._
+Gallotto: _V. S. àvi tanti tempi chi manca di S. Marcu, e si l'àvi
+scurdatu li S. Marcoti._ Il padre Fortunato: _Cusì è: ora và riposati, e
+dumani torna._ Gallotto: _Comu voli V. S., bona sira._ Padre Fortunato:
+_Bona sira!_ Gallotto: _Ah gnuri P. Fort. stà sira non aju undi iri;
+datimi un pezzettu di pani, e na stizzidda di vinu pir caritati._ Padre
+Fortunato: _Ah chi partita! e tu si chiddu chi voi cumprari li ficu!
+vattinni và, e dumani parlirai cu lu Priuri._ Gallotto: _Dunca mi ndi
+vaju? Bonasira a V. S._; _dunca ci dicu a lu me patruni, lu patri
+Fortunatu mi mandau: non mi li vosi dari li ficu._ Padre Fortunato:
+_Taleccà, mulacciunottu[48], tu chi mi vuoi fari sciarriari cu lu
+Priuri! Iu non ti aju mandatu pirchi non ti voghiu dari li ficu, ma
+pirchi st'affari non spetta a mia, ed iddu lu mulacciunottu và dicendu
+chi nun ci voghiu dari li ficu._ Gallotto: _V. S. non si nichia[49]; V.
+S. avi raggiuni._ Padre Fortunato, più benignato: _Mà, fighiu miu, t'aju
+datu tutta la sodisfazioni, e tu sempri a na banda, chi canti sempri la
+stissa canzuna; m'ai fattu perdiri lu sonnu._ Gallotto: _Chi durmia V.
+S._? Padre Fortunato: _Non era addurmintatu, mà già m'avia spughiatu, e
+m'avia curcatu._ Gallotto: _Dunca nudu è V. S._? Padre Fortunato: _Si,
+fighiu miu, guarda_ (ed escie il braccio dalla fenestra, benchè per lo
+scuro niente si vedeva). Gallotto: _Non fazza chi V. S. s'arrifridda; iu
+mi ndi vaju[50]; bona sira a V. S._ Padre Fortunato: _Bona sira._
+Gallotto: _Ah gnuri p. Fortunatu!_ P. Fort.: _Tu chi diavulu voi?_
+Gall.: _Sta sira mi fazzu dari un pezzettu di pani di lu gnuri D. Paulu
+vostru niputi, chi non aju undi mi m'arricogghiu[51]._ P. Fort.: _Chi
+cci capi D. Paulu miu niputi cu lu cunventu? — Non è tutta la stissa
+cosa V. S. e lu niputi? Dunca è la stissa cosa D. Paulu cu lu cunventu;
+mi lu fazzu dari e poi v'aggiustati ntra di vui autri._ P. Fort.: _Si
+non fussi ccà susu, bastardu mulu, ti pighiria a cauci; vattindi, dunca,
+cu na navi di diavuli. Talè chi pesta amara[52]!_ Gall.: _Non vi
+nichiati, gniuruzzu, chi minni vaju_;[53] Fort.: _E va rumpiti lu
+coddu!_ Gall.: _Bona sira a V. S._ Durò questa scena dall'ore due della
+notte sino alle ore tre _ad sonum campanulæ_. S'alzò il sig.r D. Giov.i,
+e col Gallotto se ne tornavan a casa; di là a pochi passi incontrasi col
+signor D. Lorenzo Filingeri, il quale per il sommo caldo unitosi col D.
+Paolo nipote del padre Fortunato a cercare aria fresca, gli dice il D.
+Giov.i: O Lorenzo, son crepato di ridere, e non ne posso più. Peppi
+finto ragazzo con una delle sue convenzioni à fatto dare nell'impaziente
+il padre Fortunato, ed è stata una comedia degna d'esserle stato
+spettatore un rè. Il sig.r D. Lorenzo, che l'è d'umor allegro, udendo da
+suo fratello, ch'è d'umor serio, che con tanto piacere era riuscito
+quell'atto, «andiamo, disse, di nuovo a compir l'opera» e così fecero;
+s'appattarono li sig.ri Filingeri, ed entrarono a far le parti di
+recitanti il Gallotto, finto ragazzo, ed il D. Paolo Caputo, nipote del
+padre Fortunato. Comincia il Gallotto: _Gnuri p. Fort.! ah gnuri p.
+Fort.!_ Quel poveraccio era ito la seconda volta a letto, mà avea la
+testa così riscaldata, che non ci poteva sonno. In udire di nuovo la
+voce di quello da lui appreso ragazzo, cominciò a dar nell'ismanie,
+benchè finse di non udire. Gall.: _Gnuri p. Fort.! ah gnuri p. Fort.!
+affacciati, chi cc'è ccà lu gnuri D. Paulu[54]._ Allora così nudo
+com'era affaccia alla fenestra, e dice: _Tu fighiu miu si picciottu, o
+diavulu? talè chi sustu! Chi trivulu voi? Mi voi dassari durmiri[55]._
+Gall.: _Pirdunatimi, gnuruzzu, iu vitti lu gnuri D. Paulu, chi V. S.
+m'avia mandatu und'iddu pri concirtari lu negoziu di li ficu e farimi
+dari un tozziddu di pani; iddu non mi vulia cridiri, ed iu l'aju
+carriatu undi V. S. pri fari la facci prova[56]._ P. Fort.: _Ah mariolu
+furfanti! iu nun t'aju dittu chi me niputi non avi negozij cu lu
+cunventu? Comu ci vai, e dici lu rivesciu!_ Gall.: _Gnuruzzu, dunca
+strantisi[57]._ P. Fort: _Briccunottu, si vegnu, ti la voghiu dari la
+strina[58]. Sigri niputi, V. S. avi da sapiri chi stu picarunottu mi và
+mittendu in cimentu di disgustarimi cu lu Priuri; V. S. sapi di chi
+didicatu omuri iddu sia; sintirà chi c'aju fattu sgarrari stu partitu di
+li ficu, pò dimani scrivirà a lu Provinciali ch'iu c'intorbidu lu
+guvernu, e mi farà sautari di ccà comu un tappu di masculu, ed iu ora
+sugnu avanzatu in età, non pozzu fari chiu sti sfrazzi girandu tutti li
+conventoli di la provincia; giacchì lu sig.ri m'à fattu la carità di
+ricondurmi a la patria, procuru di lassaricci l'ossa[59]. Divi dunca
+sapiri V. S._ (e qui lo ragguaglia di tutto ciò che sopra si disse) e
+passò un quarto d'ora, molto più che di tanto in tanto v'erano
+l'intermezzi del Gallotto. _Ora vidia V. S. si iu aviria obligazioni di
+sfasciaricci un lignu di supra a stu mulacciunottu[60]?_ D. Paolo: _Già
+mi sugnu risu capaci di l'affari; iddu mi dissi, lu picciottu, chi c'è
+l'ordini di Vostra Paternità di raccoghirlu a casa pri sta sira, e
+daricci a mangiari, chi non avi undi iri. M'ai dittu accussì, gioja
+mia?_ Gall.: _Non mi lu dissi V. S., gnuri p. Fort._ P. Fort.: _A!
+mentituri latrunottu!_ Gall: _Si sigri! portu li signali; mi lu dissi
+quandu iu vulia ristari pri sta sira ntra lu cunventu._ P. Fort.:
+_N'autru testimoniu cci voli; chist'è capaci a farimi impendiri. Sigri
+niputi, duviti sapiri..._ (e qui perde un altro mezzo quarto in
+giustificarsi). Gall.: _V. S. avi raggiuni; sgarravi iu; mi nni vaju,
+chi cci dicu a lu me patruni? cci li dati li ficu?_ P. Fort.: _Sig.ri
+niputi, daticci quattru cauci di parti mia. Non t'aju dittu chi
+s'aspetta a lu Priuri!_ Gall.: _Ma lu me patruni mi dissi, chi si non
+c'è lu Priuri, ed iu aju aspittari, parrassi cu lu p.ri Fort. e ci
+purtassi la risposta; mà si nò s'accatta li ficu a nautra banda. V. S.
+mi dici d'aspittari; iu non aju undi iri, e cci dirroghiu chi lu gnuri
+p.ri Fortunatu non mi li vosi dari li ficu._ P. Fort.: _Tu sempri canti
+la stissa canzuna; ti vurria fari la sunata cu un bastuni; mancu mali
+chi c'è lu testimoniu di lu miu sig.r niputi; vattindi, mulu bastardu,
+chi dumani ti voghiu fari mettiri sutta, pr'imparari ntra la carsara dda
+verità chi vai negandu._
+
+Sonarono in quel mentre l'ore quattro; Don Paolo disse: _Sigr zio, l'ora
+è tarda; il negozio è inteso; V. S. mi benedica._ P. Fort.: _Bona sira a
+V. S. e mi compatisca;_ [e] si chiuse la finestra. La compagnia delli
+sig.ri di Filingeri e col Caputo e Gallotto ripetendo ciò che abbiam
+detto, e tutto quel che abbiam tralasciato per non portare più a lungo
+il racconto, andarono a dormire con tai penzieri allegri; non così il p.
+Fort., il quale passò tutta la notte in veglia. Sicchè il dimani all'ore
+otto era per la terra, cercando all'Oricchiazzi[61], padrone del
+supposto ragazzo, domandava ad ogn'uno con cui s'incontrasse, e nessuno
+sebbe darle nuova; s'abbattè con uno finalmente che n'aveva cognizione,
+e le soggiunse: «Questo, padre, sono anni 17 che ne passò all'altra
+vita». Più qui si confuse p. Fort. prevenuto dalla specie[62] che fosse
+vera l'incombenza di quella compra, ed appena era spuntato il sole, si
+porta alla casa del suo nipote, facendolo svegliare nel meglio del suo
+dormire, ed entrando in camera di quello, poco mancò che non si mettesse
+a piangere (tanto era il timore di esser rimosso dalla patria); lo
+priegò che l'ajutasse in quello a lui doloroso frangente. All'ora il D.
+Paolo lo rischiarò dicendolo essere quella stata una burla delli sig.ri
+Filingeri per mezzo del p. D. Giuseppe Gallotto, e sciolto già l'intrico
+della comedia, si serenò il p. Fortunato per una notte uccellato.
+
+
+
+
+28. Copia d'una lettera
+
+
+d'un fratello carmelitano dalla massaria del Celso nella piana di
+Milazzo inviata al F. Diodato carmelitano nel convento di Pozzo di
+Gotto, cavata dall'originale dal molto rev. p.re Esprovinciale m.ro
+Raffa, e consegnata a me nel 1739.
+
+  _Lettera del fratello._
+
+_Prendo la pina imano en gra malicunia dil caso doloruso so cese a ceso
+doe stejo io._ (Spiegazione: Prendo la penna in mano con gran malinconia
+per il caso doloroso, che successe nel Celso, dove io sto). Lettera:
+_Alli 16 dell' corretti musi avia 4.4. chilini, e cheche frido non mi
+ditruai canigla, mà davia, e mi rimai, u pocu tracipitro di Plaga, doe
+cina sale pur lu tepu di la di la curnara per salare accuni cusuzi di
+callo di tunnu._ (Spiegazione: Alli 16 del corrente mese avevo 44
+galline, ed in questo freddo non mi trovai caniglia[63], ma ne avevo, e
+me ne trovai dentro un cesto di paglia, dove io tenevo sale per il tempo
+della tonnara, per salare alcune cose di callo di tonno). Lettera: _Ora
+io zio tolae drette pistro di paglia, e cacciae tutto il sale cula
+cania, culaca cauda cila pizietra lu caino, e mi dii al curnito._
+(Spiegazione: Allora io scotolai detto gistro di paglia[64], e cascò
+tutto il sale con la caniglia, e con l'acqua calda ce l'impastai tra il
+bagano [_tegame?_] e me ne andai al cannito). Lettera: _Alla minata di
+Curnito cacai le chiline, e non via nulla. Idai picudda picudda._
+(Spiegazione: Alla tornata del cannito, cercai le galline, e non vedea
+nulla; gridai: pulli pulli!). Lettera: _Troo il Zazo, delli noaralli, e
+vejo tutti chilini, capuni e calli morti parti calu caglaro, e parti tra
+la Zacca, de staje lo cavallo trovai un callo e u pagani morto sutta di
+zichi di cavallo._ (Spiegazione: Trovo il jazzo delle galline[65], e
+vedo tutte le galline, caponi e galli morti, parte tra lo pagliaro, e
+parte tra la stalla, dove stà il cavallo, e trovai un gallo ed un capone
+morto sotto li piedi del cavallo). Lettera: _E così donadio mutino mi
+coglivi tutta la pugnani, e mi la misi tra la minazza, e mi dij a lu
+covetto, e trovaolo nosto patri piuri a letto, e io traso co la minazza
+i calli prena di cilini, e papuni, e calli morti._ (Spiegazione: E così
+Domenica mattina mi pigliavi tutta la pollame, e mi la misi ntra la
+bisazza, e me ne andai al convento, e trovo il nostro p. Priore a letto,
+ed io entrai colla bisazza in collo piena di galline, caponi e galli
+morti). Lettera: _Mi domandò il pati priuri, che sortio la cosa ta ca
+bicoza chi porti, io arrispusi porto gialini, papuni e calli morti, che
+morino tutta la pugnami._ (Spiegazione: Mi domandò il padre Priore che
+cosa sortì? tra la bisaccia che cosa porti? Io risposi: porto galline,
+caponi e galli morti, chè morì tutta la pollame). Lettera: _e detto pati
+piuri mi rispusi netra vota che sortrio la cosa. Io arrepuse fù canigla
+coi sale, e mi sacchetto di farici mali, mi promasi; e mi dicascu più lu
+murruni di la Cuzzuana._ (Spiegazione: E detto P. Priore mi rispose
+altra volta che fusse la cosa. Io rispose: fù caniglia con sale, e non
+sapevo che gli facevo male; vi prometto: ve ne procurerò; più mi costò
+più il montone della carduana[66]). Lettera: _Poi mi disse và fà chido,
+ed io li dedi tutti porcurito. Vesto è lo casco, che non oo pena di
+gilini, e capuni, canto oo pena di lo bello callo che era lo spasso di
+tutta sta silva, che mi catava ola pula spiziali di mezza notti a
+cornu._ (Spiegazione: Poi mi disse: và fà quel che voi; ed io le diedi
+tutti per carità. Questo è lo caso che non hò pena delle galline e
+caponi, quanto hò pena del bel gallo, che cantava ora per ora,
+specialmente di mezza notte a giorno). Lettera: _Era a putto come avissi
+auto unnoculo a coposo, non mi curao si si pirriano a tutti li gialini,
+purchè non muria lu callo._ (Spiegazione: Era appunto come se avesse
+auto un orologio al capizzo; non mi curavo se si perdevano tutte le
+galline! purchè non moriva il gallo). Lettera: _chesta è tutto listoria
+fracello caro: considerate vue si io mi ao pigliato una gra malacunia._
+(Spiegazione: Quest'è tutta l'istoria, fratello caro; considerate voi se
+io m'hò pigliato una gran malinconia). Lettera: _Diti a fra Diodato che
+cè onze due ndi lu Proviciali Areno: i curru di do caletto Cavello: non
+resto abacion duvi vivero cori. A Ceso 21. fibraro 1. 3. 7. Vostro Sarvo
+N. N._ (Spiegazione: Direte a fra Diodato, che vi sono onze due dove[67]
+l'Esprovinciale Arena, in conto di D.n Liberto Caravello: non altro,
+resto abbracciandovi di vero cuore. Dal Celso 21 febraro 1738. Vostro
+servo N. N.).
+
+
+
+
+29. Copia d'una lettera
+
+
+scritta da un calabrese di Cotrone a suo padre in Messina, in occasione
+del terremoto accaduto alli 10 febraro 1743; e gli dava conto del prezzo
+de' porci.
+
+  _Cariss.mo Padre e Fratello amat.mo_
+
+Credeva scrivervi morto, e vi scrivo vivo per il gran terremoto, che ci
+hà stato; che se avesse durato altre due ore, saressimo tutti in
+paradiso, che Dio ci liberi. Qui li porci al mercato sono saliti tutti
+al Cielo. Io solamente vi invio qui acclusa un poco di sasiccia fatta
+colle mie mano salvaggine: li porci sono arrivati al Cielo[68]. O
+ricevete o non ricevete la presente, rispondetemi.
+
+
+
+
+30. Copia d'una lettera
+
+
+d'un Sacerdote della terra di monte Albano scritta al Prencipe della
+Cattolica, per confortarlo della morte del suo primogenito.
+
+  Ecc.mo Sigr Prencipe.
+
+Non hò inteso tanta pena da venti anni che hò podagra, quanto sentì
+[_sentii_] la morte di suo figlio il più giovine. Questo Sig.r Gesù
+Christo mi dita il mio cervello che si serve della legge
+macchiavellistica che cui ci fa bene lo remunera in mali. Questo lo
+[_l'ho_] toccato e maniato sopra la mia persona[69]. Io non fazzo altro
+che diricci _Ave marii, Creddi e Paternostri_, ed io come lavassi la
+testa all'asino, e ci perdo la liscia[70]. Questo galantuomo di Dio avi
+la testa dura come Petru Paulu a la funtana, e con tutto ciò ci dico tre
+_creddi_ la notte, e ci l'applicu a Maria Vergine che è tutta pietà, ed
+è amurusa, e al mio patriarca S. Francesco di Paula, S.n Nicolau e S.
+Antoni. Questi tre sono galantomini e fanno qualchi piaciri, ma lu
+primu, _induratum est cor Faraonis_. Soggiungo: _chi si ci fussi autru
+Diu m'aviria appellatu; ma è sulu; bon prudu ci fazza! e bisogna fari
+costi di balena[71]. Quandu dicu la missa, e lu vidu, mi scantu
+vardandulu. E fazzu fini. Maria Santissima ci guardi!_
+
+
+
+
+31. Copia d'un biglietto
+
+
+scritto dal Sac.te D.n Calogero Arrigo terminese, il quale trovandosi
+con due suoi amici in compagnia nella contrada dell'Arangio, pregava il
+Sac.te D.n Antonino Romano, che era in Termini, a mandargli due filetti
+ed un piccione per complementar quelli.
+
+Il biglietto era del tenore seguente:
+
+Sig.r D.n Antoni, pirchì mi ritrovu alla rancu, V. S. mi mandirà due
+firretti, ed un picuni, e perciò lu strincu ni li me brache.
+
+
+
+
+[31. _bis_] Altra Lettera[72].
+
+
+                                             Trapani 21 marzo 1741.
+
+Caris.mo in Cristo F.llo Chi dò notizia del mio passago da questa. I
+murriali como be sapi per la sartorea da quela. Io poi sono sepiri
+quello stesso serevo, e amico da comandarimi, e mi oferisco tuto per
+tuto da servirivi. Ditolo al saristano, che mi fara dare la suoa fornelo
+dal Priricaturi de la Matichesa[73] e mi lo rivarisi, e io mi ricasco di
+vostri favori a tenetimi comandarimi, mi saluti al F. Sanoto, F.
+Agostino, F. Ant.o Fio i questo finisco da bracalo da vero cori,
+coferirimi al suoi sa: oraz.i.
+
+Il P.re Montiliuni mi saluta e fato una cappa al suoa colorazioni, eun
+Calucu. (Questa ultima parte significa che il P. Mon.ni fece alla sua
+congregazione una cappa ed un calice).
+
+                                   _Vostro se.vo Giocchino Scibona._
+
+
+
+
+32. In Frazzano, terra della Contea di S. Marco.
+
+
+Vi era un sacerdote per nome D.n Giuseppe Laurello. Questo faceva il
+maestro di scuola; ma nel spiegare quel verso: _Pre rape prepositum
+vocali dicque praeustus_, lo spiegò nella seguente maniera: «Sintiti,
+picciotti: vui autri nun sintiti la forza di stu versu, si iu nun cci
+dicu la rudizioni. Li P. Teatini sunnu di una religioni di cavalieri, e
+sunnu dotti; ànnu chisti lu sò superiuri, e lu chiamanu lu P. Prepositu.
+Ora chistu cadiu ammalatu; pinzati vui quantu medici e medicini si
+misiru in rumuri; tra l'autri mali chi patia, unu era chi non avìa
+appittittu; lu frattu[74] chi lu sirvia, sapia fari beni assai di
+manciari, e ci proposi varj pitanzi, e videndu chi di tanti nudda ci
+piacìa, finalmenti ci dissi si gustassi[75] una ministrina di rapi ben
+cundita. — Sì, falla, dissi lu P. Prepositu. Ci l'apparicchiau lu frattu
+bella assai, tantu chi lu malatu si la mangiau cu gran gustu. Allura li
+Patri, comu chi sunnu omini dotti, ficiru lu versu chi avemu a
+dichiarari, e fu misu 'ntra lu manuali[76]. Chista è l'erudizioni;
+dichiaramu: _Pre rape_, pri la minestra di rapi; _prepositum_, chi vosi
+lu Prepositu; _vocali_, doppu avirila mangiatu cu la bucca; _dicque
+praeustus_, dici ca ci intisi un grandissimu gustu. Ora viditi comu si
+addichiara! Cui nesci, arrinesci».
+
+Tanto a me il P.re D.n Giuseppe Gallotto della terra di S. Marco.
+
+
+
+
+33.
+
+
+In Regalbuto nel 1735 nel mese di aprile un omo di bassa condizione
+dissi: _Chi si voli fari, quandu lu binidittu Diavulu voli accussì!_
+
+
+
+
+34. La manna del Monte di Trapani.
+
+
+L'arciprete che hà governato le anime della città detta Monte di S.
+Giuliano, con altro nome monte di Trapani, che fu l'anticha Erice.
+Questo, più semplice che scaltro, si era invogliato a fare scendere la
+manna del Cielo, come scese un tempo nel deserto, a sostegno e delizia
+degl'Isdraeliti; diede l'impulso maggiore ai suoi desiderij la vicinanza
+delle feste di Pentecoste. Onde cominciò a predicare al suo populo che
+si preparasse con orazioni e mortificazioni nella novena dello Spirito
+Santo, per ricevere da esso sì segnalato dono; altro non inculcava in
+quei nove giorni [a] quella gente, che allora era d'altra pasta più
+semplice che non è la presente; appunto di giorno in giorno aspettavano
+il celeste favore. Era corsa già tutta la novena, senza ricever la
+grazia bramata. «Non dubitate, la inanimava l'Arciprete, che i doni
+quanto sono più grandi, tanto tardono a venire; forse dommattina gioverà
+a noi ciò che anelanti spettiamo». Non era ancora nella Domenica
+spuntato il sole, che il sagrestano si porta alla chiesa per
+apparecchiare gli altari; mà che! sù l'altare maggiore ritrova come una
+ciambella di materia liquida e bruna, e stimandola un gran misterio
+corre dal'Arciprete a dargliene la bona nova. Subito la credette ciò che
+non era; si portò in chiesa per osservarla, e decise esser di già
+piovuta in quella notte la manna desiderata; convocò il popolo con il
+sono festivo delle campane; il quale ragunato insieme col suo
+maggistrato, montò sull'altare il Pastore di quel gregge per pascerlo
+prima colla divina parola, poi colla manna piovutali. Mostrò in primo
+luogo il favore distinto dal Cielo in mandar loro quel benefizio così
+grande. In secondo luogo la preparazione che ricercavasi in quelli che
+dovean riceverlo, e chi mai si sentisse lesa la coscenza di qualche
+colpa la detestasse con dolore e con fermezza di mai più commetterla,
+altrimente quel prezioso cibo invece di fargli gustare quel sapore che
+si desiderava, sarebbe divenuto insipido e disgustoso; «venghino dunque
+ad assaggiarla i sig.ri del magistrato!» e quelli con una straordinaria
+umiliazione si appressarono all'altare, ove l'Arciprete con un
+cocchiarino di argento in mano ne prendea una piccola porzione dal
+altare, e mentre il riponea nella bocca del Capitano gli diceva che
+sciegliesse coll'interno del suo cuore quel sapore che più gli
+aggradisse. Tanto fece il Capitano, mà in entrar quella manna nella sua
+bocca, al sapore, all'odore parevagli escremento di gatto, mà nulla
+disse, stimando ciò pervenire dalla sua rea coscienza; tanto avvenne ai
+giurati, altrettanto alle primarie persone, alcune delle quali si
+vomitarono; fecero migliore indagine, e ritrovarono che il gatto che si
+allevava nella chiesa per guardarla dai sorci, costume che pur tutta via
+si mantiene, avea piovuto alli Montesi la sua manna preziosa.
+
+
+
+
+35.
+
+
+La seguente Seguenzia è commune alla gente della terra di Mongiuffi[77]
+vicino alla terra di Tauormina.
+
+      Stianzidda Stianzidda
+    Nsolia nsolia in faidda
+    Testi d'agghi cù Sibidda.
+
+      Quantu tremu malfatturi
+    Quandu judici avvinturi
+    Cu tri testi di scursuni.
+
+      Turba miru sparanzonu
+    Pri limburgu di Sionu
+    Focu a donni lampi e tronu.
+
+      Morsu stà pebbia e natura
+    Curri, surci, a criatura
+    Giudicanti arraspatura.
+
+      Libri scritti pri lu fetu
+    In quo totu continetu
+    Quandu mundu judicetu.
+
+      Giuda l'erramu chi vili
+    Ciocchi lati chiappareddi
+    Nuddu ndurtu rumaneddi.
+
+      Chi si miseru tu Dutturi
+    Lu patruni arragghiaturi
+    Cu' nun vidi stà a li scuri.
+
+      Rè trimenda majestati
+    Chi sarvandu sarvi e gati,
+    Sarvi a mia chi ti su frati.
+
+      Ricurdari Gesu Pia
+    Pri la casa e pri la via
+    Non mi perda stiddaria.
+
+      Cridi a mia si diti lassu
+    Ti nni ridi in cruci a spassu
+    Tantu labru di mulassu.
+
+      Giugu dudici minzioni
+    Donna fù rimissioni
+    Ntra dia curazioni.
+
+      Tu ci mbiscu tocca reu
+    Cu carbuni vultu meu
+    Giudicanti parcu a Deu.
+
+      Chi Maria assurbisti
+    E Latruni m'esaudisti
+    Michi oculi spirdisti.
+
+      Preci mei non sù digni
+    Si tu bonu fà benigni
+    Non ti perdiri ntra li vigni.
+
+      Intra l'ova locu apprestu
+    E dibiddi m'assiquestra
+    Statueddi parte a destra.
+
+      Confutati maliditti
+    Xammi larghi e burzi stritti
+    Voca a mia cu biniditti.
+
+      Ora a suppa mi l'inchivi
+    Cori cuntritu quasi lini
+    Ciciri crudi senza fini.
+
+      Lagrimusa stanza ad idda
+    Ca risurgi la faidda
+    Givolicandu l'omu reu.
+
+     Circhi cersi parci Deu
+    Gesù pia Domini tu
+    Raccumandu arma mia.
+
+     Dacci o ricchume nonnu me nonna me
+    Zia e cu splendenti visu
+    Abbiati in paradisu.
+
+
+
+
+36. Salve Reggina.
+
+
+Parte della quale suol dirla [la] monachella la Miccina giojosana
+abitante in Patti, parte un ragazzo di Raccuja[78], e parte da una donna
+di Bronte.
+
+   Salve Reggina, tri misi di corda, vita torcedo, spara nostra
+   salvia, a tia chiamamu, a tia sparamu giumenti suffrenti, nacchi
+   lagrimaru valli, jergo avvocata nostra lo stu scunverti, Jesu
+   biniditta putari, vintis tui, o notivo spusu o siliu lu stenni
+   crimensi, o Spia, o dulcissima virga Maria.
+
+   Ora pro nobisi S. di Genitrici.
+
+   Benefiziamu grazia a Christu dumandamu a me.
+
+
+
+
+37. Credo
+
+
+raccolto dalle parole di esso[79], dette da un cieco palermitano, da un
+ragazzo raccujto[80], e communemente dalla gente della terra di
+Mongiuffi.
+
+   «Credu in nuetetu Diu Patri me ripitedda Stazzuni di lu celu e di
+   la terra e di Matru Franciscu nfilamicci unicu Dominu nostru, chi
+   fù cunzertu di mastru Santu e cugnatu di Maria Virgini, passau
+   sutta lu ponti di li Puntani, fù crucifissu, mortu e siburcu;
+   sesti scindi a la Ninfia co to zia Diana, resurresci a mortu
+   senza a la Zena, sedi a la destra di Putenzia, e d'idda scindiu
+   all'Indij a guirriggiari cu li vivi e cu li morti. Creddu lu
+   Spiritu di Santu, santi Matri Cresia, santi cumunicati e
+   scomunicati, rimissioni di li mei piccati, ne carni, ne surra cè
+   [_c'è_], la vita materna a me».
+
+L'ho avuto dal sig.r D.n Silivestro Mustica di Trojna, e parte l'ho
+inteso io.
+
+
+
+
+38. Veni Creator Spiritus.
+
+
+D'una femmina di S. Militello Valdemoni[81].
+
+     Veni lume crea spiritu
+    Vintrisca ora mbistia
+    Inchi perna la grasta
+    Chi cuneria sti pecuri.
+
+     E di celu si sprattica
+    Altissimu coni un Diu
+    Ponzio vivu si digna
+    E sparti tu la sunza.
+
+     Setti infurma e smura
+    Di lu celu paterna testa
+    Nchiacca strittu a Diu Patri
+    O Simuni ditta e sgutta.
+
+     Da la carma a lu Missenziu
+    Vanfundu, mura e accorda
+    Calunfernu nostru corpora
+    Virtuti ferma e sperfida.
+
+     Oste bella di Longi
+    Da ammèa duna sprocchinu
+    Ditturi senza premiu
+    E videmu donni nostri.
+
+     Per tia non scindu Patri
+    Scampamu d'acqua fili
+    Travu travustu sfini
+    Non cridemu pri lu tempu.
+
+     A Diu Patri senza gloria
+    Ed affili menzu mortu
+    E di retica sparlati.
+    Consecula seculoru a mia.
+
+L'hò avuto per mano del sig.r D.n Biaggio Calderone di Micello.
+
+
+
+
+39. Confiteor.
+
+
+   Confiddiu, Diu, e nipitedda Beata M.a chi la sirvizza, B. Micheli
+   ca cianci, B. Giov.e ca trisca, Santi Pazzozzuli Petru, e D.
+   Paulu, e triulu Patri ca piccavi cimici cuncinzioni, erba ed
+   obbra mi curcu, mi curcu cu Masi, mi curcu, judeu pregu la B. M.
+   ca fà sirvizza, lu B. Micheli ca chiangi, lu B. Giu.pe ca trisca,
+   li SS. Pazzozzuli Petru e D. Paulu ora e pri mia D. Ninnu lu
+   nostru.
+
+L'hò inteso dal P. Duci, e molte parole da penitenti ignoranti nel
+confessionale.
+
+
+
+
+40. Varie preci divote
+
+
+solite a recitarsi da S.ro N. N. moniale vecchia di molta semplicità nel
+Monastero di S. Giovanne in Regalbuto[82], attualmente vivente in questo
+anno 1738.
+
+  _Anima Christi santifica me._
+  (ella dice): Arma di Christu saccu fiatimi[83].
+
+  _Corpus Christi salva me._
+  Cocu di Cristu non mi sanati.
+
+  _Sanguis Christi inebria me._
+  Saccu di Cristu mbriacatami.
+
+  _Acqua lateris Christi lava me._
+  Acqua di Christu lavatimi tutta.
+
+  _Passio Christi conforta me._
+  Passuli di Christu appanatimi.
+
+  _O bone Jesu exaudi me._
+  Bonu Jesu non m'ascutati.
+
+  _Intra tua vulnera absconde me._
+  Tra la tua gurna mettimicci.
+
+  _Ne permittas me separari a te._
+  N'appurminari a mia.
+
+  _Ab hoste maligno defende me._
+  Di lu porcu malignu non mi difinditi.
+
+  _In ora mortis meae voca me._
+
+  _Iubbe me venire ad te, ut cum sanctis tuis laudem te, in secula
+  seculorum. Amen._
+  Arrobba a tia viniri a mia, cu li Santi tui mangiamu a mia,
+  cu li zeculi zeculi. Ameli.
+
+  _Veni Sancte Spiritus, emitte celitus lucis tuae radia._
+  Veni caudu Spitu emitte lucerti lucina di rata.
+
+  _Veni Pater pauperum, veni dator numera, veni lumen cordium._
+  Veni P.ri Paulu, veni duna munnu, veni lana cornu.
+
+  _Consolator optime, dulcis hospes animae, dulce refrigerium._
+  Cunzulatu al hortu, duci mangiamu, e duci rifrigeriu.
+
+  _In labore requies, in estu temperies, in fletu solatium._
+  Va Laura e resta, chi veni la tempesta, e feti lu salatu.
+
+  _O lux Beatis.a o reple cordis intima tuorum fidelium._
+  O luci piatati, ricria cori a to fidili in chi cutuminu a saturari
+  l'omini.
+
+  _Lava quod est sordidum, riga quod est avidum, sana quod est
+  saucium._
+  Lava prestu surda piccha prestu arditu, sanami la testa cu la
+  fauci.
+
+  _Da virtutis meritum, da salutis exitum, da perenne gaudium._
+  Da maritu carnicula causa, mancia cu li Patri, e bivi vinu
+  pancu. Ammeli.
+
+
+
+
+41. Magnificat.
+
+
+  _Magnificat anima mea Dominum._
+  Magnifica arma mia Donna.
+
+  _Et exultavit_ etc.
+  Si osau lu spiritu miu mìniu saluta a mia.
+
+  _Quia respexit_ etc.
+  Quia la dispenza umida ancidda duna a mia.
+  Ecce la sciòcca beati radici cu la stazioni.
+
+  _Quia fecit michi magna_ etc.
+  Cui fici a Minicu ca mangia, e cui lu porta, e santu.
+
+  _Et misericordia ejus_ etc.
+  E misera ricotta purcedda cu purceddu timiti a mia.
+
+  _Fecit potentiam_ etc.
+  Fici la menza li brachi d'Abramu superbia la menti corna toi.
+
+  _Deposuit potentes_ etc.
+  Dipositu putenti sanu ad annari l'umili.
+
+  _Esurientes implevit_ etc.
+  Curriti prestu li voi chi dissi missa la Nana.
+
+  _Suscepit Isdrael_ etc.
+  Su sciecchi, e sala li sunzi la rescurdata miseria sua.
+
+  _Sicut locutus est_ etc.
+  Siccu lu latu di lu Patri Addamu arrobba e simina cu lu
+  seculu seculi. Ameli.
+
+
+
+
+42. Fragmenti di varie coselle dell'istessa.
+
+
+  _Deus in nomine tuo salvum me fac._
+  Dessi l'omina tua salva la vaccha, e la virtuti tua allicca a
+  mia.
+
+  _Zelus domus tuæ comedit me._
+  Supra li Siculari avemu a zelari.
+
+  _Principes persecuti sunt me gratis._
+  Principi m'assicutanu e li gradi.
+
+  _In te Domine speravi non confundar in æternum.
+  In justitia tua libera me._
+  In te Domini spinavi non confunniri la terra.
+  La giustia tua allappara a mia.
+
+  _De profundis clamavi ad te Domine, Domine exaudi vocem meam._
+  Diu di lu fundu chiamavi a tia Donna, Donna na sarda duna
+  a mia.
+
+
+
+
+43. Litania
+
+
+solita a recitarsi dalla sudetta moniale, e da un'altra Conversa
+semplice dello stesso sudetto Monastero.
+
+  Cridi Eleison.
+  Christu Crusta Eleison.
+  Christe sciala Nos.
+  Patre Iadeu.           _Miserere novi._
+  Spitu Sardu Deu.        _Ora pri novi._
+  Santa Triaca unu Deu.   _Ora pri novi._
+  Santa Maria.                     _Ora._
+  Santa Dei Cenacici.              _Ora._
+  Santa Virgo Virdi.               _Ora._
+  Mater Tristi.                    _Ora._
+  Mater Divini gradi.              _Ora._
+  Mater Pristissima.               _Ora._
+  Mater Criatissima.               _Ora._
+  Mater Minnulata.                 _Ora._
+  Mater in terra data.             _Ora._
+  Mater armata.                    _Ora._
+  Mater creaturi.                  _Ora._
+  Mater sarvaturi.                 _Ora._
+  Mater fruttissima.               _Ora._
+  Virgo virdi Anna.                _Ora._
+  Virgo praticanda.                _Ora._
+  Virgo porta.                     _Ora._
+  Virgo clementi.                  _Ora._
+  Virgo fidili.                    _Ora._
+  Aspetta la giustitia.            _Ora._
+  Sala la pienzia.                 _Ora._
+  Causa la lirizia.                _Ora._
+  Vas piritata.                    _Ora._
+  Vasa la nurata.                  _Ora._
+  Vasa fra Nicola.                 _Ora._
+  Rosa Mustica.                    _Ora._
+  Turri virdi.                     _Ora._
+  Turri di pruna.                  _Ora._
+  Do Rusariu.                      _Ora._
+  Pedi di Sarda.                   _Ora._
+  Iamu a lu Celu.                  _Ora._
+  Vastedda matina.                 _Ora._
+  Sala ca mori.                    _Ora._
+  Re lurnu piccatoru.              _Ora._
+  Cunsulafu suffritturi.           _Ora._
+  Basili Bastianoru.               _Ora._
+  Reggina muncil'ora.              _Ora._
+  Reggina pignataru.               _Ora._
+  Reggina pistulari.               _Ora._
+  Reggina Marcu.                   _Ora._
+  Reggina scapularu.               _Ora._
+  Reggina virdi.                   _Ora._
+  Reggina sanu lu Monacu.          _Ora._
+
+Agnu di colli scracca munni, marcia nobi domini.
+
+Agnu di colli scracca munni esala no sdomini.
+
+Agnu di colli scracca munni miserere novi.
+
+Suttu prisuttu frijnu li Santi Dei Genitridrici nostra scarcasioni ne
+dispina in nicissitati li li pecuri cuntali libra a nui sempri vidi
+Gloriusa e Biniditta.
+
+℣ Ora pri novi S. di Cenaciciri
+
+℟ Guttaru tigna priemisiru a Cristu.
+
+_Oriminu._
+
+Gratta antuani chisti sù l'Omini crimenti mastru cofurna cu l'Angilu
+nunciamu crusta filiu ivu incatinazioni cugnatu, pri passa l'azioni eju,
+e cruci rilassazioni gloria pirducamu pri crastu doma nostru. Amia.
+
+Nò scumponi a mia.
+
+Bedda Licca Maria.
+
+
+
+
+44. De Profundis
+
+
+solito a recitarsi dalla Congregazione del Casale di Ruidi, e udito da
+me dalla bocca d'uno di quelli congregati per nome Francesco Majo, e
+fedelmente trascritto.
+
+   Deu prifundu escamamu Marita Dominu ed omini escaudi a duciri
+   mia.
+
+   Fia volus tua ostendenti duci ubricazioni mia.
+
+   Bella iniquitati conservari a Domino Domini, e sustinebi.
+
+   Capu Deu proficia mia, ciò est supporta l'argintuo sostina in
+   vita Domino.
+
+   S'ostina l'arma mia in verbo era, e spero l'arma mia iri in
+   Domino.
+
+   Custoddia matutina, e usta, e notti jeu speru mistra era in
+   Dominu.
+
+   Capu d'omini misericordia, e cupiusa capu Deu e rivirenzia sarvi
+   maistra Deo.
+
+   Sevon senignità scàbus a Deo.
+
+
+
+
+45. Recitandosi
+
+
+nella Congregazione di S. Matteo di Palermo l'officio dei Morti[84], ad
+uno di quei frati toccò in publico leggere la sua lezione, ed uscì dalla
+sua bocca del tenore seguente:
+
+   Homo natus de murmure brevi vivens temperie repletur multis
+   miseriis, qui quasi stos aggraditur, et cunta retu, e fungi
+   velatambra, et nunqua neo destatu prilimanu cu scommodi venire
+   saculo stuo, e adduciri cum tecum in iudicium, chi potes facere
+   munnu d'immunnu conseptum femine munnu tu chi sulu sì? breve die
+   somini sun numeru smensiu eju aputestu. Costi tristi termine
+   sueju chi pri tri tarì non puteri. Zicidi spaulinu mabeo, e
+   quiesca d'una cottanta venia sicut mercurij die scujus.
+
+Notai questa lezione esser stata tanto celebrata in Palermo, che molti
+la recitavano a mente; frai quali il sotto ciantro Marcorana uomo
+faceto, e affezionato ai Gesuiti, spesso ne faceva menzione avanzi ad
+essi, ed io essendo studente ebbi il piacere di udirla dalla sua bocca.
+
+Non ebbi la sorte di udire tutti i spropositi scappati da altri nelle
+altre lezioni dell'officio de' morti, ma riferirò alcuni membretti di
+tali lezioni, in quella maniera come me l'hà riferita padre D. Giuseppe
+Gallotto di S. Marco, quale sta presente mentre alcuni pubblicamente le
+leggevano.
+
+Il Sacerdote D. Nicolò Ferraloro in S. Marco recitando nel publico
+officio la lezione 1a del 2o Not.no, in cangio di dire: _Et consumere me
+vis peccatis adolescentiæ meæ_, colla sua voce disse: _E cuonsumeri
+chinu di peccati adolescentia mea._
+
+Il Sig.r Ignazio Lo Presti, gentiluomo di S. Marco, in somigliante
+occasione, e colla sua lingua blesa, mosse alle risa tutti gl'uditori, i
+quali in luogo di udire nel 1693 nella cappella del Purgatorio: _Pelli
+meæ consumptis carnibus_, udirono: _Pedi meæ consumptis cornibus ad
+hæsitos meum, et dededicte sunt tra un tuminu._
+
+Lo stesso in altra somigliante occasione, in quell'altra lezione: _Quare
+de vulva exudixisti me_ etc: _Quade de vulnede eduxisti mihi._
+
+
+
+
+46. Miserere delli Romiti di Iudica.
+
+
+   Miserere me Deu secundu magu misericordia tuaria secundu
+   murtitunedini e miserazioni ntuaria amdelia iniquitati mea.
+
+   Lampiusa lava me li peccati mei, e sbrunda me.
+
+   Ania peccata mea cognoscu quamtu nostru, è sempri.
+
+   Tibi soli peccari, e non quaranti fici giustiziari.
+
+   Simulabusti enca pregiudicari supra l'ezzetera.
+
+   Enichitati cu bussu pinciti ventri Matri mia, nzerta la virità,
+   chi Diu non siti, e chi cosa meriti, et io miu curpa, e sapienzia
+   tua mbutta nastimicara.
+
+   Spergimi Domini supra d'issopu lava buendabbu lava a mia supra lu
+   nidu di lu barbaru.
+
+   Nchitati mia bella nanfarusa me.
+
+   Parifica supra lu nidu di lu biddiu astisu, e gaudiu ancora, se
+   mundu cridemu, mundu a Deu.
+
+   Rispiru miu rettu, e novu cu li senzij mei, fazzia mea spiritu
+   Sant'Antoniu craziantua.
+
+   Rè di l'amici fidili salutamu dichiu, e spirito spiziali
+   sbruffullia a me zabbi, e sidicami stui nichità me convertenti.
+
+   Se libera me sangu di bustu un Diu saluta a miu.
+
+   Domini labia mia perna ossu nunzianti audi nova.
+
+   Cuonia vulisti sacrifiziu ndardisti marti mi culla castidutica
+   azzitta biri a sacrifiziu un Diu.
+
+   Oi mi bilignu e dumani ivi fraccu Domini ninitabiri zittabiri si
+   si bona.
+
+   Sacrifiziu fandi giustizia supra l'autaru di virtulossu.
+
+   Regula muderna scatta in paci a me.
+
+
+
+
+47. Sacerdote in Piazza che ricorda un moribondo.
+
+
+Fu chiamato in Piazza un Sacerdote, affinchè ajutasse a ben morire un
+moribondo, vi accorre egli col Crocifisso, trova quel meschino che
+vaneggiava, parendoli di essere non nel letto di morte, ma nella
+campagna, che contrastava col suo somaro, e quello indocibile e
+disubidiente gli dava di alterarsi; si sforzò il Sacerdote di metterlo
+nel bon sentiero: ma perchè quegli era fuori di se, proseguiva a drizzar
+le parole al suo somaro. Il bon Sacerdote armato di zelo gli mostrava il
+Crocifisso, egli dice: _Costui è lu veru scieccu_.
+
+
+
+
+48. Le gare di Nicosia.
+
+
+Le due chiese di S. Maria e di S. Nicolò in Nicosia, che contendono frà
+di loro per il primato, tengono divisi per le perniciose gare l'affetti
+non solo tra essi compatrioti, mà fin verso i Santi, contro i quali
+scappan loro proposizioni ereticali. Eccone una: Essendo dipinta la
+Nostra Signora, e a suoi piedi S. Nicolò, uno dei Nicositi disse: _Eccu
+stà a ginucchiuni a piedi di S. Maria comu un caparunassu S.
+Nicola_[85].
+
+
+
+
+49. Ubbriaco in Regalbuto che dorme nel cataletto.
+
+
+Il Sig.r Gaetano la Valle, uno de' più gran bevitori di vino ne' nostri
+tempi, annerì con tal vizio l'onestà de' suoi natali, e mandò a male
+tutto il suo decoro. Passava tutta la vita se di giorno andando in giro
+per tutte le bettole, e bevendo di tutti i vini, non curandosi di andar
+mal vestito, per impiegar tutto il suo nel vino. Un uomo in Regalbuto
+notò che in una sola bettola per lo spazio d'una mezz'ora vi era entrato
+da 17 volte, spendendo un quadrino per ogni volta per un bicchier di
+vino; onde era divenuto una favola per tutti i ragazzi e de' facchini.
+Nella notte prima di porsi a letto col fiasco in bocca recitava a modo
+suo la sua Compieta; faceva il primo sonno, ed in svegliarsi stendeva il
+braccio, e dando di piglio al fiasco, che teneva sotto il letto,
+recitava il primo notturno; di nuovo si addormentava, in svegliarsi
+eccolo al secondo Notturno; poi al terzo; in alzarsi col fiasco in mano
+recitava prima l'Ore canoniche, andava, come dissi, a fornirle dentro le
+bettole. Alle volte era tanto carico di vino il suo stomaco, che non
+potendosi più reggere in sù le gambe, si gettava a dormire. Una delle
+volte si portò nella chiesetta de' PP. Domenicani, chiesa rimota e mezza
+oscura e solitaria: non potea trovare luogo più adattato al suo sonno;
+in mancanza di letto, trovò una bara di morti, vi entrò dentro, e si
+immerse tutto nel sonno, e là durò sino alla notte. Solea andarvi in
+quella chiesa, come vicina alla sua casa, a compire le sue divozioni, un
+gentiluomo per nome D. Consalvo Picardi, il quale mi raccontò questo
+fatto, e niente accorgendosi, perchè era presso l'Ave Maria, facea
+scuro, niente accorgendosi del ubriaco, cominciò a recitare le sue
+preci; ecco ode nel meglio un rumuretto, e stimando che fossero gatte,
+proseguiva con intrepidezza il fatto suo; mà da lì a poco ode un rumore,
+come uno che arronfasse, si turbò allora; e molto più che giorni pochi
+prima era morto un P. Domenicano, e poco lungi da lui era la sepoltura,
+ove stava sepellito; con tutto ciò si fece d'animo, e se quel anima
+avesse avuto bisogno di suffragij, recitò per essa il _Miserere_ e 'l
+_De Profundis_. Non avea ancora finito questi salmi, che ode un strepito
+così senzibile, come se stridesse la bara, e come se da essa uscisse un
+rancore; rivoltossi allora indietro, e vede uno che si alzava dal
+feretro, e gli parve che avesse in testa un cappuccio bianco; «questo,
+disse, è il patre domenicano da pochi giorni defonto, e da me che
+pretende?» Il Sig.r D. Consalvo più non aspetta, mà con un salto
+vigoroso, si caccia fuori la chiesa, entra nel atrio del convento tutto
+impallidito ed anzante, e dimandava cosa avesse; rispose, che il poco fà
+domenicano defonto era uscito dalla sepoltura e si ritrova nel
+cataletto. Si uniscono varie persone, entrono in chiesa e vi ritrovano
+dentro la bara, che già cominciava a svegliarsi, il Gaetano la Valle; e
+perchè era canuto come un ligno, quella sua canutezza fù appresa per il
+bianco cappuccio, e perchè avea deposto il mantello, e rimasto col
+giuppon bianco, in quello oscuro parea come i Domenicani vestiti di
+bianco: quello rancore s'intese appunto quando eruttava il vino, e lo
+strullore fù caggionato dal ruminarsi[86] che faceva nell'atto di
+svegliarsi dal profondissimo sonno.
+
+
+
+
+50. Il Mirchio di Patti.
+
+
+Era questi un giovane che nacque stolido, ma alla fatiga con il stento
+delle sue braccia procacciavasi il pane.
+
+Era ito in un giorno nella montana della Giosa[87] col suo asinello per
+far legna, e salito egli sù d'un albero colla sua accetta, si pose a
+sedere sopra un ramo di quel albore, e in cangio di tagliare i rami di
+fuori di quell'albore del gran ramo, troncavane il tronco. Passò in quel
+mentre un contadino giosano, il quale gli disse: _O loccu, e non
+t'adduni, chi da pocu cu tuttu lu ramu sbalanzi in terra?_ e ne andò
+via. Il Mirchio non abbadò punto a quello avvertimento, ma proseguì con
+più calore a terminare il suo lavoro; e avvenne, che insieme col albore
+precipitò a terra. Quella predizione fù appresa allora dal Mirchio per
+profezia, e niente curando, che avea restato malconcio da quel alta
+caduta, corse verso il suo profeta chiamandolo, ed appressandolo che lo
+aspettasse. Giunto che egli fù al luogo del giojosano, poco mancò che
+non l'adorasse per nume; indi gli disse: _Già mi insirtastivu[88] la mia
+caduta; mi aviti a fari sta grazia di 'nzirtarimi la mia morti. Il
+contadino per torselo dinnanzi gli disse: Tu non vai a travaghiari cu
+l'asineddu?_ E quello: _Gnorsì. — Ora quandu ddarmaluzzu si pidita[89]
+tri voti a la fila tu sarai mortu. Addiu._ Ecco il Mirchio si inghiottì
+senza masticarla questa burla, per altro profezia; torna al suo lavoro,
+riduce in fasce le troncate legna, ne carica l'asino, e s'avvia per
+Patti; nel salirvi l'asino quella montata ben carico, eccolo
+scorreggiare per la prima volta. Il Mirchio si mise in timore; la salita
+seguitava più austera, i viottoli erano più stretti; l'asino che faceva
+più di forza, scorreggiò per la seconda volta, ed il Mirchio impallidì;
+era già l'asinello arrivato alla cima della montuosa salita più aspra,
+ebbe a far l'asinello gl'ultimi sforzi; ed ecco l'ultima orribile
+scorregia, che fece gittare a terra il Mirchio, il quale veramente
+credette esser morto, sol perchè il giojosano gl'avea detto, che allora
+doveva morire. L'asinello prosegui il suo viaggio: come prattico della
+via, se ne andò da se in città. Passavano per quelle campagne varie
+persone, e vedendo quel poveraccio prosteso a terra senza alcun moto, e
+che mostrava aver perduto i senzi, dandone in città l'avviso, e
+facendolo apprendere se non morto, almen moribondo, mandarono due
+becchini col feretro per dargli luogo di sepultura; que' due riscosero
+il Mirchio, ed ei senza rispondere. Il color suo per li tanti strapazzi
+era somigliante a quel de' cadaveri, fù creduto anche da questi, che
+pria d'arrivare in città, il Mirchio sarebbe sfinito; lo mettono nel
+cataletto, se lo caricano sù le spalle, arrivano in città; arrivati al
+borgo si contrastavano i becchini ove dovuto avessero portarlo, e in
+qual chiesa? Allora risponde il Mirchio: _In quandu era vivu vulia
+essiri sipillutu tra la chiesa di la Madonna di lu Cinnaru_, e tacque. I
+becchini, che erano ben stracchi del lungo viaggio, sentendo che il
+morto immaginario avea tutt'i sentimenti, posarono la bara nella strada,
+e a via di bastonate e di pugni il fecero risuscitare.
+
+Così a me il canonico Allotta della città di Patti.
+
+
+
+
+51. Il Morto della Giojosa.
+
+
+Era stato sorpreso e tormentato da un spasimo un contadinello nella
+Giojosa con tal vehemenza, che tutti lo tenean per morto: senza calore,
+senza polsi, e senza moto. Si sparse di già che il NN. morì di puro
+spasimo; egli avea un poderuccio, e però c'era il fondo per far le spese
+del funerale proporzionato alla sua condizione; i preti non esaminando
+con tanto vigore quel sinistro accidente, ebber il penzier di far
+suffragij, a quell'anima, che non era ancor uscita dal suo corpo, anzi
+quanto più violento era stato il mortale assalto, il vigore della
+gioventù con più di robbustezza potè ribatterlo, a segno che quello
+nell'istessa giornata se ne andò al podere per cogliere i fichi verso
+l'ore 22. Vestiti i preti con cotta, sotto la Croce della Chiesa Madre,
+andaro processionalmente alla casa del defonto supposto; mà dal
+accorgersi che non v'era segno alcuno di lutto dubitarono che non
+avessero sbagliato la casa, e bussarono la porta di quel giovane: i
+preti domandando del morto, e quella rispose: _Sig.ri, si nni ju a
+coghirisi li ficha_[90]. Quanto restarono affrontati quei preti, ogniuno
+se lo può immaginare; basta dire che sino adesso riesce di rossore
+rammentargli tal successo, come io son testimonio.
+
+
+
+
+52. Il Porco di S. Antonio nella Giojosa.
+
+
+Si celebra nel sudetto paese con pompa la festa di S. Antonio Abbate,
+con apparato, con musica, con cera all'altare; nel doppo pranzo con
+processione. Era in un anno riuscita con molta proprietà competente al
+paese; fù collocata la statua del Santo sù la bara per trasportarsi con
+inni e cantici per quelle strade; non era ella così ampia che capisse a
+piedi del Santo il porco consueto che s'accompagnava per geroglifico; si
+misero allora in confusione per quel dovessero fare. Finalmente si
+determinò, che nel tempo della processione si collocasse il porco nella
+stessa nicchia, ove era la statua del Santo; e per non mancarsi alla
+dovuta venerazione a quel porco in riguardo del Santo, gli si accessero
+due candele, se qualcheduno si fosse ito a raccomandarsi. A me non è
+noto; ho specie, che questo fatto me l'abbiano raccontato i Pattesi,
+essendo la Giojosa soggetta al Vescovo di Patti.
+
+
+
+
+53. Donna inflatata.
+
+
+Nella terra detta Montagna Regale due miglia sopra la città di
+Patti[91], la madre del padre D. Antonio Caruso, che è stato Proposito
+[de'] Conviventi nel Santuario del Tinnaro, fece una graziosa burla ad
+una femmena contadina, e fù la seguente: Era ita questa, non saprei per
+qual caggione, alla casa della madre del sudetto sacerdote, teneva ella
+una pegnata impastata con ovi di formiche, quali anno virtù di riempire
+il ventre di flati cotanto violenti, ed in numero così esorbitanti, che
+a dispetto d'ogni forzo escono con stridore e strepito più d'una
+tempesta, che mette in rumore l'aria con suoi spaventevoli tuoni.
+Arrivata la contadina alla casa dell'altra donna, fù accolta da questa
+colle maniere più cortese; la fece sedere e poi volle onninamente che vi
+facesse una piccola merenda. Appena però che il suo stomaco cominciò a
+fomentare quel pane se lo sente come se fosse entrata una leggione di
+diavoli; tutte le interiora, già mise in rumore, volean dare esito per
+qualunque parte trovassero per l'orribile golia che volea scatenarsi; la
+povera contadina, premuta da una parte dal orribile ribellione
+dell'intestina, ritenuta dall'altra parte dalla natural verecondia,
+disse all'altra donna: _Gnura, iu mi nni vaju; bon giornu a V. S._ E
+questa, che volea godere della batteria del gioco di foco[92], gli
+disse: _Chi fretta aviti? stati nautra picca_[93]. La contadina: _Non
+Signura, chi aju di fari._ L'altra proseguiva a trattenerla; mà di già
+cominciò lo sparo dell'artiglieria, motivo alla povera contadinella di
+rompere ogni ceremonia, e partirsene; ma chè? dava due passi, mà erano
+accompagnate da quattro salve; il viaggio fù di un miglio e mezzo, fino
+che arrivò alla propria casa, che era nella campagna. Trovasi per sua
+disgrazia il marito, e ode darsi il saluto dalla moglie in quella guisa
+che le navi salutano le fortezze reali; s'imbestialì, e le rispose da
+prima con parole confacenti ad un rustico; mà ella mentre procurava di
+giustificarsi diveniva più rea col non voluto suo strepito. Finalmente
+impazientato quel villano con un bastone accompagnò quel sono con tal
+concertata battuta, che poco mancò a far morire la povera moglie che
+tonava insieme, e riceveva sù la schiena i fulmini delle non meritate
+percosse.
+
+Tanto a me il sudetto padre D. Antonio Caruso.
+
+
+
+
+54. Motivo di pazienza insegnato da un padre Cappuccino.
+
+
+Faceva il suo Quaresimale nella chiesa del casino del principe di Butera
+nella Bagaria[94] un padre cappuccino, il frate Giuseppe Enna, che avea
+la cura del podere dei padri Gesuiti nella medema Bagaria. In un giorno
+di festa, unito al fratto della Cannita[95], si portò al Casino per
+udirvi la parola di Dio, ed appunto trovò il padre Predicatore in
+pulpito che esortava gl'uditori alla sofferenza ne' travagli. Uno
+degl'argomenti più forti che allora adduceva, si fù l'esempio di Gesù
+Cristo specialmente in Croce. _E chi vi pari_, dice a loro, _sparti a li
+piaghi di lu suu corpu, e duluri di lu sò cori, appi a sustiniri
+l'esorbitanzi di lu Demoniu? pighiau chistu la forma di surici pri farlu
+impazientari, e poi si appiccicau a la Cruci, ci sauta in testa e
+s'accumenza a firriari tra la curuna di spini, chi era in forma di
+cappeddu, ed in ogni spina si ci aggravava cu duluri estremu di Nostru
+Signuri, lu quali non ci la detti vinta, mà sustriu[96] cu invittu
+curaggiu du gran turmentu, e nui nun putemu suppurtari una puntura di
+spingula._
+
+Tanto a me il fra Giuseppe Enna.
+
+
+
+
+55. Il seguente Vangelo
+
+
+dell'aspettazione del Parto, è solito recitarsi da un villano della
+terra di Militello Valdemoni, e me l'hà trasmesso il padre dottor D.
+Biaggio Calderoni de' PP. Conviventi.
+
+   Domini Sabiscu.
+
+   ℟ E custutò.
+
+   Sintenzia Santu Sanceliu Sumduca.
+
+   ℟ Ngloria si tu Domini.
+
+   Milli tempurisi suseru Ancilu, e Verumi vilitati Gallilia un omu
+   Lazzaru, e Virgini disprizzata, vinu cu nomu Dauì, e nomu
+   Nariose, e nomu Virginia Maria; e tu ngrassu Angilu fabru dissi:
+   Avi Maria gratia prena Dominu stecu, e biniditta tu munierba, e
+   tu medittu fruttu ventri tua, e comu dissi stintatu esti D.
+   Simuni Gesù: e cu la barbata quali se chista salutatio. Cuviu
+   Angilu Gesu ne Simuni Maria, tu mbinisti essiri sazia ebedeu:
+   ecce Calupare scimuntinu mparu, e filu lattissimu vocabuli, e
+   dubiti milli domini: Diu rignau patri seggiu, e regnu novu lagu
+   in lanterna, e regnu e già non avi fini. Diu Tarria Angilu comu
+   so fighiu hà dittu chi non moru jo nun cognuscu. Rispundi Angelu
+   dissi Dei Spiritu Santu subarbaronte, e barbantissimu si
+   rinberenti, e filioculi conusciti l'arti santu chi vocabit a
+   filui sei. Eccu la zia betta prilugnata tua, e accume nasu sestu
+   mantili, si non eri mpassibili lebba Deu omne verbo: Dici detta
+   Maria: Ecce medda Domini fia nuli sendu vermu tue.
+
+
+
+
+56. Ragazzo che fa testimonianza alla madre d'esser stato alla messa.
+
+
+In Bronte era venuto dalla campagna, ove abitava, un ragazzo servente in
+una massaria, e come capitò presso a mezzo giorno, in vederlo la madre
+l'interrogò s'avesse udito la messa; quello rispose, che nò. — Presto,
+essa ripigliò, và alla Madre chiesa, che deve esservi l'ultima messa, ed
+al ritorno dovrai darmi i segni che tu l'abbii udita. Partì il ragazzo,
+ed arrivò in tempo che usciva la messa cantata: stiede presente a tutto,
+ed osservò tutto, e fece ritorno alla casa. Interrogato dalla madre,
+della messa e delli segni, se l'avesse udita, disse ad essa: _Andai a la
+chiesa, e cerami tanti persuni, e la_ (là) _a la trasuta c'era un scifu
+d'acqua, ed illi si zavavanu la frunti, ed iu andai, e mi lavai lu
+frunti, poi nisceru di la sagristia tanti parrini cu li cammiselli in
+collu, poi nautri dui parrini puru cu lu saimmarchellu russu, e
+all'ultimu vinia lu patri Arcipreti cu lu saimmarchellu russu, e la
+pastura a lu vrazzu[97]._
+
+Così distinse le cotte, le tunacelle, pianete e manipulo ed il fonte
+dell'acqua santa.
+
+
+
+
+57. Misterij del Rosario nella chiesa di S. Nicolò di Nicosia.
+
+
+In ogni domenica sole pubblicamente recitarsi il Santissimo Rosario. Per
+esser [ec]citato il popolo a maggior divozione, vi è assegnato un
+sacerdote che avvivi quei sacrosanti misterij con alcun discorsetto
+divoto. Nel 1736 stava esercitando questo ufficio un canonico di quella
+Colleggiata per nome il canonico la Barbera, ed in una di quelle
+domeniche, in cui v'intervenne il Sig.r D. Forte Speciale, che mi
+rappresentò, poi mi fece scrivere ciò che disse il sudetto canonico, ed
+è del tenore seguente:
+
+
+_Primo Misterio._
+
+«Avendu lettu e rilettu un casu terribili di la Madri di Diu nellu libru
+di l'esempj; c'era un divotu; ci dicia: Madri di Diu, perdunatimi li mei
+peccati. C'arrispusi la Madri di Diu: _Vade, remittuntur tibi pecata
+tua._ Dunca dicemucci tutti: Madri di Diu, pirdunatici li nostri
+peccati, liberatici di li peni di l'infernu, datindi la gloria di lu
+Paradisu. _Pater noster_, etc.»
+
+
+_Secondo Misterio._
+
+«_Pastores loquebantur ad invicem:_ li pastureddi andavanu in
+Gerusalemmi, chi è lu stissu chi diri in Bethelem. _Videamus hoc
+verbum._ Traseru ntra la grutta, vittiru lu Fighiu di Diu, s'incuntraru
+cu alcuni autri, e ci dumandaru: _Quem vidistis, pastores?_ Chi aviti
+vistu, chi aviti incuntratu, pastureddi? Ci rispusiru: _Vidimus eum non
+erat aspectus._ L'interrogaru puru di novu, e ci rispunderu: _Vidimus
+Jesum Christum Crucifixum spinis coronatum._ Lo vittimu mortu e sepurtu.
+_Pater noster_, etc.».
+
+
+_Terzio Misterio._
+
+«Vuatri fimminazi, autru non faciti: mangiati, biviti e ngrassati da fra
+Giuniparu (qui quelle fecero un bisbiglio). Discurso de corpore. La
+Madri di Diu chi facia? Non mangiava, non bivia, non durmia, dunca chi
+facia, Madri di Diu? _Priusquam in utero pariens_, si ritirau, si
+chiudiu s'ammucciau? senti chi t'arrispundi. Undi v'ammucciastivu, Madri
+di Diu? Senti chi t'arrispundi: Nella Cappella di lu SS. Crucifissu. E
+chi facia, Madri di Diu? Recitava, ti dici, l'offiziu di la Madonna
+Santissima. Dunca dicemu tutti nui: Madri di Diu, vi ricitamu, vi dicemu
+lu Rusariu, pri non vidiri lu vostru Fighiu Crucifissu. _Pater noster_,
+etc.».
+
+
+_Quarto Misterio._
+
+«_Defunto Erode_: già morì Erodi, già morto Archelao, già sù morti li
+picciriddi innoccenti; sulamenti ristau menzu mortu lu Fighiu di Diu pri
+lu fasti chi si pighiau di aviri mortu tanti picciriddi. Dicemucci
+dunca: Madri di Diu, facitindi muriri picciriddi, facitindi muriri tutti
+li desiderij di lu mundu, carni e dimoniu. _Pater noster_, etc.».
+
+
+_Quinto Misterio._
+
+«Già semu morti: Oggi in figura e dumani in sepultura; mbiatu cui pri
+l'armuzza so si procura. Vinirà un jornu terribili, nellu quali
+sariti vivu la mattina e mortu la sira. Voi sapiri, chi ti resta, o omu,
+o fimminazza, di tuttu lu to travaghiu? mangiari, biviri, dormiri e
+ddoppu un linzolu strazzatu. Dunca, dici: Madri di Diu, vi pregu datimi
+lu linzolu chi mittistivu a vostru Fighiu, chi quandu nui muremu, vi lu
+purtamu in Paradisu. _Pater noster_, etc.»
+
+
+
+
+58. Esempio.
+
+
+«Si leggi un esempiu nelli cronici di li PP. Cappuccini, chi un latru,
+un assassinu, un furfanti prigava la Madri di Diu, e ci dicia: Madri di
+Diu, datimi saluti, di iu dumani putiri andari a lu nigoziu chi vui
+sapiti di arrubbari; chi poi, quandu mi ricughiroggiu, vi dumandu
+pirdunu. Ci rispusi la Madri di Diu: Ah cani sciliratu, primu voi chi ti
+salvi la vita, e poi mi voi serviri? Non ti voghiu pri miu divotu;
+vattinni! — Dicemocci tutti nui: Madri di Diu, nui non rubbamu, nui non
+vulemu fari mali, chi la Madri di Diu ndi chiama, ndi volia tutti in
+Paradisu. Dicemu tutti: Sia ludatu lu SS. Sagramentu. E viva Maria! E
+viva Maria!»
+
+E fattosi il segno della croce se ne partì.
+
+Due riflessioni mi occorre qui fare.
+
+Prima si è, che il cavaliere D. Forte Speciale, che fu presente alla
+sopradetta predica, è d'una memoria felicissima, sicchè _de verbo ad
+verbum_ ve la ripiete. Egli l'hà rappresentato avanti a me con tutta
+l'energia, tuono di voce ed azzione, come la fece al [il] canonico, e
+poi me la trascrisse.
+
+Seconda: Intendendo il signor D. Guttera la Via, che mi era stata
+communicata una tal famosa predica, se ne dispiacque molto. Almeno, mi
+disse, padre, non dite che ciò successe in Nicosia; tanto è certo, che
+questi è la maniera che suole predicare il sudetto canonico.
+
+
+
+
+59. Barbaggianne in Trapani.
+
+
+Non saprei in quale chiesa in Trapani c'era abitazione di barbaggianni
+nel tetto; e come cotali animali dormono il giorno e vegliano la notte,
+faceano del rumore una notte. Uno nulla di ciò sapendo, trovandosi nella
+chiesa in tempo di notte, apprese che quel rumore fosse cagionato da
+qualche anima di qualche defonto sepellito in quella chiesa, che si
+faceva sentire, domandando in quella maniera suffragj; e benchè si fosse
+atterrito da quel strepito, nulla di meno fattosi animo interrogò il
+barbagianne supposto: _Anima penante, cui siti?_ E qui non rispondea il
+barbagianne. _Ave bisogno di suffragj?_ Ne tampoco a questa. _Quante
+messe volete celebrate, forse tre?_ I barbagianni sogliono mandare
+questa voce: _chivi chiù_; ed allora sciolse la voce quella bestiola:
+_chiù_. Sentendo quello _chiù_, apprese che volesse più di tre messe, e
+rispose: «Cinque vi bastano?» Il barbagianne proseguiva _chiù_. Dieci
+son buone? Chiù, si avanzò a maggior numero, e sempre udiva _chiù_, si
+diede in busca di messe raccontando il bisogno che aveva quel anima, e
+però dovea impegnarsi ogni fedele in libertà di quel penosissimo
+carcere; tanto girò sino che s'abbatte in uno che era consapevole
+dell'abitazione de barbaggianni, e gli disse: «O barbaggiannone, che ti
+sei lasciato uccellare de' barbaggianni», e gli decifrò non esser stata
+quella voce di anima penante; mà di un barbaggianni par suo.
+
+
+
+
+60. Campana stimata sonare da se sola.
+
+
+V'è fuori le mura della città di Trapani una chiesetta chiamata dal
+volgo S. Maritana. Solea lasciarsi la porta di essa per devozione de'
+fedeli aperta, e nel imbrunarsi la sera il sagristano l'andava a
+chiudere. Un giorno un asino trovando quella porta spalancata, entrò
+dentro quella chiesa, e o il fresco, o altro commodo a quella bestia
+l'invitasse a giacer in riposo, a questo appunto s'appigliò. Si annottò;
+il sagristano, al solito, andò per serrare la porta, ne si accorgeva di
+quel asino adaggiatosi in quella chiesa; si risvigliò la fame: e andava
+in giro della chiesa, avanzata la notte, l'asino, se trovava qualche
+cosa di soffiarla. Finalmente trova un sarmento seccho, che faceva le
+veci di corda alla campana, cominciò a rosicarlo, e col tirare di quà e
+di là sonava la campana. Attentò da principio il sagristano; mà
+finalmente accertatosi della realtà del sono, uscì di casa mettendo in
+rumore un vicinato ed ogni altro con cui incontravasi, gridando: _S.
+Maritana! La chiesa chiusa, e la campana sona?_ S'apprese da molti ciò
+esser un gran prodigio, con cui significasse il Signore o qualche gran
+cosa succeduta, o altra gran cosa che dovesse succedere. Andò intanto
+una gran chiurma di persone ad ammirar quello stupendo miraculo, e
+trovarono esserne l'autore un asino affamato, di cui non si era accorto
+il sagristano, primacchè chiudesse la chiesa.
+
+
+
+
+61. Naso in giudizio condannato da un Ficarrese.
+
+
+Predicava nella terra di Naso un religioso il suo quaresimale. Toccò, al
+solito, far la predica sopra il Giudizio universale, e procurò farlo con
+tutta lena, per imprimere sacro orrore ne' cori de' Nasitani. Or egli
+doppo che esprimeva colle più vive formule, ora i segni che lo
+precedono, ora l'avvenimenti che lo accompagnano, ora la sentenza finale
+che lo sossiegue, per fare una grande impressione ai suoi uditori si
+valeva di quella figura[ta] repetizione: _O Nasu o Nasu, undi ti vai a
+ficchi lu jornu di lu Giudiziu?_ Era capitato in quella mattina in Naso
+un'arteggiano della terra delle Ficarre, quattro miglia distante da
+Naso, e comecchè la vicinanza de' paesi suole alle volte producere gare,
+queste due terre appunto hanno l'ambizione di essere in tutto una
+miglior dell'altra, e spesso tra quei paesi succedono civili contese. Il
+Ficarrese, essendo l'ora della predica, entrò cogl'altri in chiesa per
+approfittarsene; mà udendo così spesso dal predicatore: _O Nasu o Nasu,
+undi ti vai a ficcari lu jornu di lu Giudiziu?_ si valse del punto a
+fare che restassero celebri i Nasitani in tutto il Regno nostro ed in
+tutti i secoli avvenire; si spiccò prima dal luogo dove era situato, si
+collocò sù la soglia della porta della chiesa; ed in udire dal
+predicatore la solita repetizione: _O Nasu o Nasu, undi ti vai a ficcari
+lu jornu di lu Giudiziu?_ con voce più sonora rispose: _Tra lu purtusu
+di lu culu!_ Ed in dir ciò si mise precipitosamente a fuggire.
+
+
+
+
+62. Panegirico
+
+
+di S. Antonino di Padova rappresentato da un frate zoccolante nella
+terra di Cassano in Lombardia nel dì 13 giugno 1677.
+
+
+Dovendo il Patriarca Abbramo, quell'Abramo dico, che fratello di Nacor
+et Aaron per obbedire al dolce comando di Dio e far del proprio figlio
+un sagrificio: _Sacrificium Deo spiritus contribulatus_, sovra l'altar
+d'un alto monte: _Montes Gelboe, nec ros, nec pluvia cadant super vos_,
+lasciatisi i superbi apparati, li sontuosi banchetti, le sedie
+postergali, i baldacchini che usano i patriarchi moderni, senza
+intervento di canonici o altri, in una cappella patriarcale, d'altra
+esistenza non si serve che di quattro personaggi, cioè il medesimo
+Abbramo, Isaac, un suo servo e l'asino. _Expectate hic cum asino_, dice
+la glossa interlineare parlando e maravigliandosi di questo gran fatto:
+_Factum est cor meum tamquam cera liquescens._ Tale, o fratelli
+Cassanesi, succede oggi a me nel sollennizzarvi la festa del nostro
+glorioso Antonio, che la povertà de' suoi religiosi figli non gl'essendo
+permesso far altri addobbi, che quattro stracci di sedia ch'anno
+prestato per loro cortesia li RR. PP. Dominicani a guisa del sopradetto
+Abbramo, che sopra il monte di questa chiesa stà fuori della campagna:
+_Stetit in loco campestri_, del sig.r Piazza, rettore, mio amico:
+_Amice, ad quid venisti?_ Quale fu l'Abbramo nel cantare la messa
+d'Isaac, ch'è il nostro Sig.r Iddio, del servo che si trovò presente,
+che sono le Signorie vostre, che state a sentire, e dall'asino che porta
+le legna: _Super omnia ligna cedrorum tu sola excelsior_, che sono io:
+_Asinus præsepe domini sui_, quale raggrinzato a forza di bastonate de'
+comandi del rev.o padre Guardiano, per non buttar via la baldella
+dell'ubbidienza, son comparso di trotto sopra il monte di questa
+catedra: _Super cathedram Moysi_, carico di legna d'un mal infasciato
+discorso per accendervi un foconaccio di divozione ne' vostri petti, e
+con dimostrarvi la necessità ch'avea il mondo per mantenere la fede
+catolica, che nascesse Antonio, e mentre a guisa di questo somaro
+d'Abbramo coll'orecchie ingrinzite della mia audacia, e colla bocca
+ragliando, vado sparando sopra le montuosità di questo pulpito i calci
+de' miei concetti: _Durum est tibi contra stimulum calcitrare_: tenete
+voi le cavezze delle vostre bocche: _In camo et freno maxillas eorum
+constringe_; lasciando solo ragliare a me, che superando quel divulgato
+proverbio, che raglio d'asino non arriva al cielo, farò vedere che
+penetrerà la mia voce: _Vox clamantis in deserto_, al cielo dei vostri
+petti: _Cœlum cœli Domino_; onde se voi m'osserverete silenzio, io
+vi porterò a bere nelle pantanelle della gloria d'Antonio, ed
+incomincio.
+
+Due sorti di necessità assegna la filosofia, o Sig.ri Cassanesi
+(attenti, non guardate quà e là) una da teologi detta _simpliciter_,
+l'altra _secundum quid_; mà perchè non mi ricordo della definizione per
+adesso, e poi parlo con persone dotte, tralascio la spiegazione. Sò bene
+che la nicessità ch'avea il mondo d'Antonio era una di queste due, e che
+sia la verità, tralasciando il dirvi con alcuni che consistesse nelle
+prediche: _Predica verbum, insta opportune, importune argue_; collo
+stesso Apostolo soggiongo, che abbiate pazienza: _Patientiam habete_;
+con altri che consistesse nell'udire le confessioni: _Confessio et
+pulchritudo_; con tall'uno in servire alli spedali: _Oportet Episcopum
+hospitalem esse_; con tall'altri nel mitigare il Cielo con discipline:
+_Et disciplina tua ipsa me docebit_; ed io vi rispondo, che tutte queste
+cose ordinarie, e le facciamo anche noi Zoccolanti, e voi altri Sig.ri
+c'avrete inteso qualche voltarella; ma non consisteva qua la necessità
+ch'aveva il mondo del mio Antonio. Onde andate a parlar col QUICUMQUE,
+[Simb. di S. Atan.o] e non stupite. Interrogando lo dite che le paja
+della necessità ch'ebbe la fede catolica d'Antonio, e sentirete, che
+quell'oracolo vi risponde con quelle belle parole, acute parole: _Ante
+omnia opus est ut teneat catholicam fidem._ Che ne dite miei Sig.ri?
+Siete paghi del mio concetto? Ah! che mi accorgo, non siete abbastanza
+sodisfatti, forse perchè non intendete quest'altra latinità per essere
+un poco oscura. Attendete a sentire il senzo: _Ante omnia_, dice è
+Antonio; _opus est_, è di necessità, _ut teneat_, che mantenghi,
+_catholicam fidem_, la fede catolica.
+
+E veramente non pare fuori di proposito; questo _Quicumque_ dice molto
+bene la verità: _Veritas de terra orta est_, poicchè nato Antonio mio
+gloriosissimo _Ante omnia_, ed essendo ragazzotto nella città di
+Lisbona, imparò subito dal nome stesso della sua patria Lisbona a
+pigliar la zizza buona, cioè a patire, ed andarsene via dal mondo,
+entrando immediatamente ne' Canonici Regolari: mà perchè ivi non vedeva
+adempire il suo desiderio, che era di patire: _Vir desideriorum_, perchè
+ivi si mangiava bene e si beveva meglio: _Manducamus et bibamus_, e vi
+si fa una vita squisitissima, _Mors et vita in manu Domini_, e se
+qualche volta accade fra questi il digiunare, quello che s'hanno da
+mangiare la sera, se lo mangiano la matina, e la sera per collazione
+qualche galantariella, oh che santo digiuno!.. Mà torniamo presto al
+nostro _Ante omnia_, che già s'è calzato li stivali per partir via da
+questi Canonici. E dove t'incamini o bel zitello? A che lasci si commoda
+occasione per servir Dio? _Nonne septuaginta annis Domino servisti?_ Si
+può dire di te come di quell'starione [ch]e fuggì. Vien quà, vien qua,
+che, per quanto vedo, corri a frati Zoccolanti. Or qui si che troverai
+il rovescio della medaglia; vedrai le morbide cammise di lino mutate in
+ruvidissima lana: _Deus qui dat nivem sicut lanam_, i morbidi letti in
+sacchi di paglia: _Tamquam paleas ferrum_, e così l'uomo come una
+nespola, o pera fiorentina, se ne starà sempre nella paglia; muterai poi
+la carne di capone in quella di pecora: _Insuper pecora campi_, il vino
+dolce in agraticcio: _Verumtamen fex ejus non est exinanita_, il pan
+bianco in quello di bracchi: _Dic ut lapides isti panes fiant._ Stà
+dunque sull'accerto. Mà se n'andò via il nostro _Ante onmia_, Sig.ri,
+nulla curando e tutto sprezzando, e direte non fosse vera questa
+necessità? Preziosissimo _opus est_? Clarissimo _Ante omnia_? Sapete
+perchè e [_ha_] lasciate tutte queste delizie? _Deliciæ meæ esse cum
+filiis hominum_, ed in specie à cambiato quell'abito, ch'à quasi del
+coloraticcio in questo saccaccio bigio del color d'asino, a cui io con
+raggione m'hò assomigliato? Per portar la somma del martirio. Non perchè
+in questa mia religione vi siano tiranni che martirizzano le genti
+(sebene qualche volta quando si comincia a perseguitare qualcheduno, non
+si finisce così subito); onde una volta un rev. padre Guardiano, quale
+non voglio nominare per degni rispetti, mi prese a perseguitare talmente
+che per una bagattella mi fece stare per cinque mesi e due giorni in
+prigione: _Guardianus persequutus est me gratis_; che mi volle far dare
+al diavolo: _Et diabolus stet a dextris ejus._ Ottenuta intanto licenza
+il nostro _Ante omnia_ di poter predicare nelle parti dall'infedeli, ed
+in specie a Marrocchesi, dove si fà il marrocchino rosso, colà egli
+s'invia di buon animo; mà per l'infermità cagionatagli dall'asprezza
+delle penitenze, parte volontario, e parte per forza, non può proseguire
+il suo camino; onde doppo varj viaggi e disaggi pervenne in Assisi, e di
+là partendo per Forlì per ordinarsi con alcuni Frati Minori, che non
+erano frati nostri, perchè noi siamo Minori Osservanti, e del nostro
+_Ante omnia_ può dirsi ch'era Maggior Osservante. Non istarò a dirvi qui
+i di lui atti di mortificazione: _Mortificamur tota die_; ne il lavare i
+piatti: _Qui intingit manum mecum in paropside._ Non vi voglio fastidire
+col ricordarvi la disciplina a sangue che faceva tutto il giorno: Et fui
+flaggellatus tota die. Non vi rammento i digiuni e pan moffito ed acqua
+pura in tempo che frà i Canonici Regolari avrebbe bevuto in neve: _Nive
+dealbabuntur in selmon._ Tralascio l'umiltà in iscopare le stanze e
+cortili de' Principi: _In atrium principis sacerdotum ducebam._ Non già
+che si tratta dell'umiltà; contemplatelo in questo fatto veramente
+stupendo, ch'è stimarsi indegno di predicare agli uomini, quasi non
+dicesse buoni concetti: _Et concepit filium in senectute sua_; andò a
+predicare ai pesci: _Pisces maris qui perambulant semitas maris._ Dunque
+con ragione posso dirvi, mio _Ante omnia_ Antonio: _Quam est admirabile
+nomen tuum in universa terra et mari!_
+
+Sentite, di grazia, per conferma della mia proposizione quest'altro
+prodigio, e vederete se io dico il vero si ò nò, e col primo Papa del
+Vaticano bisognerà che rispondiate: _Non te negabo_ (l'occhio a me,
+_Sursum corda_). Si trovava in Ancona il padre del nostro _Ante omnia_
+Patavino, per essergli stati apposti due misfatti, l'uno per non aver
+pagato come doveva i Regij Ministri, e l'altro d'aver ammazzato uno. Il
+padre _Ante omnia_ ciò sentito se n'andò dalli giudici, alli quali così
+favellò: _Vos saeculorum iudices, et vera mundi lumina, votis praecamur
+cordium, audite voces supplicum_; e non essendo quelli capaci, doppo due
+o tre _Pater noster_ si portò all'epitafio, o vogliam dir cenotafio del
+nostro ammazzato, dove era sepellito, e gli parlò dicendo: _Lazzare,
+veni foras, et surrexit qui erat mortuus_. Poi l'interrogò chi l'avesse
+ammazzato: _Responde mihi quantas habeo iniquitates_. Con fetida bocca,
+_quadriduanus erat_, rispose non essere stato l'uccisore mio il padre di
+lui; e allora tutto allegro il Santo se ne ritornò via: _Et errare facit
+in [in]vio, et non in via_. Era dunque di necessità, che questo mio
+_Ante omnia_ venisse al mondo per mantenitore della fede, e fù di
+necessità, perchè era condannato reo l'innocente: _Innocens ego sum a
+sanguine justi hujus_. Fù di necessità, perchè levò d'errore alcuni di
+questi, che vedevano il padre scandaloso: _Necesse est ut veniant
+scandala_. Fù di necessità, perchè levò via con quest'occasione gl'odij
+e mormorazioni de' parenti, e riparò ad altri infiniti mali: _Malos male
+perdet_. E mi direte che non sia vera la mia proposizione, e che non
+moralizzo con belli concetti?
+
+E tacete tutti, e lasciate dire a me: Il mio glorioso _Ante omnia_ era
+di necessità che venisse al mondo; mà non vi fermate in questi
+chiribizij di poco momento, mà miratelo là qual altro Giosuè, che se
+quello fermò il sole, che qual cavallo spallato se ne correva alla
+stalla dell'occidente; quest'ancora [fermò] tanti e tanti soli di
+peccatori, che se ne andavano all'occidente de' peccati. Era un Moisè:
+che se quello con verga toccante fece scaturire l'acqua, questo toccata
+la pietra de' spiritati facea scaturire fuori i demonij, che come lepri
+fuggivano: _Dæmon lepra fugiunt_.
+
+Mà chi veggo? non hò tempo di mostrarvelo or un angelo, or un profeta,
+perchè già s'avvicina l'ora di fare il gallospaccio al cielo, onde per
+non morire tra noi Zoccolanti (o gran torto! quasi non fossimo degni di
+sì santa compagnia) si fece portare in una stanza del suo confessore,
+vicino al monastero delle monache. E qual cosa t'indusse a far ciò, o
+bellissimo _Ante omnia_? Tu che eri lo stesso zelo della nostra
+religione: _Zelo zelatus sum_; e che t'abbiam dato il nome di Maggior
+Osservante, dove gl'altri l'ànno di Minore per alienare: _Si conditionem
+suam faciat meliorem_. E forse facesti meglio cangiar tua condizione con
+andare là per esser meglio governato che frà noi? Avverti che sono
+poverelli, nè ti potranno soccorrere conforme al tuo bisogno; ti senti
+forse svogliato, e la t'invij per ricrearti con un pò di cialde,
+ciambellette e mustaccioli? Potevi però dirlo al reverendo padre
+Guardiano, che l'averebbe mandato a pigliare. Nessuna di queste cose lo
+mosse, o Sig.ri. Volete sapere per chè cosa ciò fece? Perchè egli era
+stato confessore e vergine, e perciò volle morire in una stanza del
+confessore di quelle vergini monache, onde con raggione potrai
+implorare: _Regina Confessorum, Regina Virginum, ora pro nobis_.
+
+Mà se l'hà colta il nostro _Ante omnia!_ E dove te ne voli lasciando quà
+giù noi, o padre? A godere, tu mi rispondi: _Gaudete in Domino, semper
+iterum dico gaudete_. Tu che eri tanto amator della mortificazione, non
+sapevi trattenerti un poco più, e non andartene così presto? Non eri quà
+giù qual candela che illumini tutti noi altri che caminiamo nelle
+tenebre delli splendori del mondo: _Erat lux vera quæ illuminat omnem
+hominem venientem in hunc mundum_. O come ben dissi candela? Attenti al
+senzo tropologico e paraglifico, come dicono gl'eloquenti; avete
+osservato mai una candela quando è nuova, e comincia ad ardere? La
+tenete sovra un candeliere, o d'un altare, o nell'anticamera de'
+Principi: _Ut luceat omnibus, qui in domo sunt_, e doppo che è logorata
+più della metà, e che ne resta tre o quattro dita, vi resta per meccolo
+della lanterna; così era la candela del nostro _Ante omnia_, che doppo
+d'esser logorato ne' candilieri de' pulpiti e confessionali e di tante
+altre penitenze. Iddio se l'acchiappò questo meccolo per farlo ardere in
+cielo: _Venit cum lanternis et facibus comprehendere eum_.
+
+Mà non sij chi si disperi per la sua partenza, poichè non è vero che
+c'abbji abbandonato, anzi di là sù siamo per riportare la luce delle sue
+grazie della celeste candela, come vediamo che chi a lui si raccomanda
+in cose sode e rilevanti, egli a nessuno le niega: _Facienti quantum in
+se est, Deus non denegat suam gratiam_. Parli chi era ridotto a vedere
+ballare i barrattini, come si suol dire, e in un subito gli fù
+restituita la sanità: _Egri surgunt_. Parli chi per la perdita d'un
+occhio era divenuto fiorentino, e per intercessione del nostro _Ante
+omnia_, avendolo ricuperato diviene italiano; parli chi a dispetto de'
+giudici portava la storta ed altre infermità nelle gambe, acciò quello
+non andasse prigione, o in galera gli furono cavate. Parli ch'avea
+perduto qualche cosa, e confessi subito, che gli fù restituita per sua
+intercessione: _Membra resque perditas petunt_. Parlino i giovani, che
+iti a caccia, ànno recuperato i cani smarriti: _Accipiunt iuvenes et
+cani_. E giacchè, gloriosissimo _Ante omnia_ pronosticato dal gran
+profeta Atanasio, fai ritrovare le cose perdute, giacchè qual meccolo
+t'accendesti nella lanterna del cielo, favorisci ancora a me, che hò
+perduto il filo del mio discorso, non perchè sia sazio, mà perchè vedo
+storcere quest'idioti di ritrovarlo, e a costoro che m'ascoltano, fagli
+copia di tua intercessione: _Veni sante Ante omnia, reple tuorum corda
+Cassanensium, mihique optatam gratia tribue_. Io di già l'ò ottenuta la
+grazia. Voi dunque, che già alla promessa fatta vi ò condotti alle
+pantanelle della gloria del nostro _Ante omnia_, fatecci a vostro
+piacere una trippata di divozione, che bon prò vi faccia. E siccome
+quando s'abbevera qualche animale per farlo saziare con più gusto gli si
+ciuffola, così giacchè _Animalis homo non percipit ea que Dei sunt_, il
+signor organista gli farà una ciuffolata d'organo nel proseguire la
+messa cantata, e quando ciascuno si sarà abbeverato, a bon conto faccia
+quello che fò io, che me ne vado di galoppo alla stalla della mia cella,
+per invogliarmi nello strame del mio riposo.
+
+
+  FINE.
+
+
+
+
+NOTE.
+
+
+  [13] Nicosia nella provincia di Catania.
+
+  [14] Pari a L. 5 e cent. 10.
+
+  [15] «Giovanni, non ti muovere i calzoni (cioè, non toccare i
+  calzoni), altrimenti si guasta la Passione». Evidentemente si
+  vuole imitare il dialetto di Nicosia, il quale è del gruppo
+  gallo-italico, ed il popolo siciliano lo ritiene francese.
+
+  [16] Naso, comune della provincia di Messina.
+
+  [17] Questa, di dar del santo al diavolo, è una delle bestemmie
+  più grandi e più comuni in Sicilia.
+
+  [18] Bronte, nella provincia e diocesi di Catania.
+
+  [19] _Crastu_, castrone.
+
+  [20] Signore, ho fatto la cena ecc.
+
+  [21] _Lacciata_, scotta.
+
+  [22] S. Marco, comune nella prov. di Messina, e nella diocesi di
+  Patti.
+
+  [23] «S. Filippo d'Argirò», o Aggira, comune nella provincia di
+  Catania, e dal 1816 nella diocesi di Nicosia.
+
+  [24] Non so che comunello sia questo _Veria_.
+
+  [25] Longi, comune della provincia di Messina e nella diocesi di
+  Patti.
+
+  [26] _Minni_, va meglio scritto _mi nni_, me ne.
+
+  [27] Capri, comune della provincia di Messina e nella diocesi di
+  Patti.
+
+  [28] _Manganello_, dim. di _mangano_, ruota grande con cui si cava
+  la seta dai bozzoli.
+
+  [29] Aci-Catena, comune nella provincia di Catania, allora nella
+  diocesi di questo nome, adesso in quella di Aci-reale.
+
+  [30] Maletto, comune della provincia e diocesi di Catania.
+
+  [31] Cioè, come il vescovo non avesse sospeso _a divinis_ questo
+  prete così ignorante e spropositato.
+
+  [32] Lo stuzzicavano, lo eccitavano.
+
+  [33] Cioè, a stuzzicarlo.
+
+  [34] Tutto il giorno trasportò tegoli.
+
+  [35] Intendi, all'ufficio divino di _prima_.
+
+  [36] Volendo parlare italiano, questo improvvisato oratore sacro
+  mette la _d_ dove è la _r_ come suole spesso il popolo quando
+  vuole italianizzare. Le sue parole dicono: «Vedete, figliuoli,
+  quanto siamo miserabili! Chi dovea dire a costei che nel (_ntra
+  du_, tra lo) meglio de' (_di di_, de li) suoi capricci dovesse
+  restare, come le bestie, ammazzata nella campagna? Impariamo a
+  spese d'altri ad addrizzare i fatti nostri».
+
+  [37] _Prevenghi a mio compare_, avverta mio compare.
+  _Confessionario_ confessionale.
+
+  [38] Scrivetene la informazione, sig. Notaio: ha detto tre volte
+  _mbè_.
+
+  [39] Cioè, deve eseguirsi una sacra rappresentazione.
+
+  [40] Era il tempo della immunità ecclesiastica, ed il reo, per
+  iscampar la Giustizia, potea bene rifugiarsi in luogo sacro. Ecco
+  perchè alcuni degli attori della sacra opera pensarono di
+  «mettersi in salvo sù la chiesa». Storico è oramai il modo
+  proverbiale: _Pigghiari la chiesa di pettu_, per significare:
+  mettersi in salvo dopo di aver commesso un delitto, dato fondo
+  alle proprie o altrui sostanze, rimanendo debitore, ecc. ecc.
+
+  [41] _ Lu Diavulu_, intendi: Colui che dovea rappresentare,
+  nell'opera sacra, il diavolo ricevette il Viatico; colui che dovea
+  far da angelo, prese la fuga; il Cristo si rifugiò nella chiesa.
+
+  [42] _Requiem aeternam dona ei Domine, et lux perpetua luceat ei._
+
+  [43] _Paternò_ ecc. padre, no. Il confessore poi risponde col
+  proverbio: _Cu' è vistu_ (o _Cu' 'un è vistu_) _e 'un è pigghiatu,
+  'un pò ghiri carzaratu_ (Chi è visto e non è preso, non può andare
+  in carcere).
+
+  [44] _Cipollazza_, sicil. _cipuddazza_, e più comunemente
+  _cipuddazzu_, è la _scilla maritima_ di Linneo, pianta acre e
+  fortemente irritante.
+
+  [45] Nelle processioni de' frati Cappuccini portava la Croce un
+  terziario, e non già un chierico con cotta come presso altri
+  Ordini religiosi. Essa era gigantesca (e perciò forse vuota di
+  dentro) e senza pallio od ornamento alcuno.
+
+  L'autore qui nota come nella provincia monastica de' Cappuccini di
+  Messina fosse una eccezione, cioè che nelle processioni reggesse
+  la croce un chierico con cotta, e che dalla croce, piccola anzichè
+  no, pendesse un pallio.
+
+  [46] Chè vi darò una buona ricreazione, un gran divertimento.
+
+  [47] La voce _gnuri_, che in Palermo si dà a' cocchieri, in alcuni
+  comuni si usa per _signuri_, signore; e si prepone a' nomi di
+  parentato: _Gnuri patri, gnura matri_; e si dà anche agli
+  ecclesiastici come qui: _Gnuri patri Furtunatu_ ecc.
+
+  [48] Da scriversi: _Talè ccà_, guarda qui, furbacchiuolo!
+  _Mulaccinnottu_, alterato da _mulacciuni_ (mulotto), e questo da
+  _mulu_, e si dice in senso cattivo.
+
+  [49] _Nichiarisi_, v. intr., indispettirsi, corrucciarsi.
+
+  [50] Dio non voglia che ella s'infreddi; io me ne vado.
+
+  [51] _Undi mi m'arricogghiu_, dove ritirarmi, ricoverar questa
+  notte. Notisi il _mi_ caratteristico de' dialetti siciliani del
+  Messinese, del quale nel mio _Saggio di una Grammatica del
+  dialetto e delle parlate siciliane_ (_Fiabe_, vol. I, p. CCX)
+  scrissi: «Il _mi_ sta ora per _che_, congiunzione, ora per
+  semplice ripieno, come nelle frasi: «Voli _mi_ ci trovu un
+  cunfissuri» (Milazzo). (Vuole _che_ gli trovi un confessore).
+  «Voli _mi_ mi pigliu la risposta (Novara). (Vuole _che_ mi pigli
+  la risposta) ecc.»
+
+  [52] _Vattindi_ ecc., vattene, dunque, con una nave di diavoli! Oh
+  guarda che rompiscatole! _Pesta amara, pesta di c..._, vale
+  rompimento di scatole, seccatura, molestia insopportabile.
+
+  [53] Non vi adirate, signorino, chè me ne vado.
+
+  [54] Affacciatevi, chè c'è qui il sig. D. Paolo!
+
+  [55] Tu, figliuol mio, sei tu giovane o diavolo? Oh guarda che
+  rompimento di capo! Che diavolo vuoi? Vuoi tu lasciarmi dormire?
+
+  [56] _Ed iu l'aju carriatu_ ecc., ed io l'ho condotto (qua) da lei
+  per fare un atto di affronto.
+
+  [57] Signorino, dunque io fraintesi.
+
+  [58] Bricconcino, se io ci vengo, ti vo' dare la strenna (te lo
+  vo' fare un regalo; ti vo' picchiare di santa ragione).
+
+  [59] Procuro (fo di tutto) di lasciarvi le ossa per morirvi.
+
+  [60] A questo mulo, a questo figliuol di p....
+
+  [61] Cercando Aricchiazzi, (nome di uno che dovea aver le orecchie
+  grandi).
+
+  [62] Dalla stranezza.
+
+  [63] _Caniglia_, crusca.
+
+  [64] Allora io scossi la cesta di paglia. _Gistru e gistra_ dicono
+  nel Messinese e nel Catanese.
+
+  [65] Il pollaio.
+
+  [66] Modo proverbiale notissimo, che vale: Il più costa più del
+  meno.
+
+  [67] Dallo, presso.
+
+  [68] Intendi, che hanno acquistato un gran prezzo.
+
+  [69] Questo ho maneggiato (l'ho sperimentato) sopra di me.
+
+  [70] Ci perdo il ranno.
+
+  [71] Buon pro gli faccia! e bisogna far coste da balena
+  (sopportare in pace, ingozzarla).
+
+  [72] Questa lettera nel ms. non è numerata.
+
+  [73] _Matichesa_, per _matrichesa_, madre chiesa, chiesa
+  principale di un comune.
+
+  [74] Il frate.
+
+  [75] Finalmente gli domandò se gusterebbe.
+
+  [76] Nel Manuale per lo studio della lingua latina.
+
+  Probabilmente qui allude ad un manuale scolastico di latinità,
+  notissimo a quei giorni.
+
+  [77] Mongiuffi o Mungiuffi, comune della prov. di Messina, nel
+  circondario di Taormina.
+
+  [78] Raccuja nella prov. di Messina, diocesi di Patti.
+
+  [79] Dalle parole di esso _Credo_.
+
+  [80] _Raccujto_ per _raccuioto_, di Raccuja.
+
+  [81] S. Agata di Militello, nella prov. di Messina e nella diocesi
+  di Patti.
+
+  [82] Regalbuto, nella prov. di Catania, oggi diocesi di Nicosia
+  (allora di Catania).
+
+  [83] _Saccufiari_, tambussare, zombare.
+
+  [84] La Pia Unione di S. Matteo in Palermo detta del _Miseremini_
+  ha per istituto di suffragare le anime del Purgatorio.
+
+  [85] _Caparrunassu_, pegg. di _caparruni_, furfantaccio.
+
+  [86] _Ruminarsi_ qui usato per _dimenarsi_, al quale corrisponde
+  il sic. _arriminàrisi_.
+
+  [87] Leggi _Giojosa_, e più sotto _gioiosano_. Giojosa, comune
+  della prov. di Messina, diocesi di Patti.
+
+  [88] _Insirtàstivu_, indovinaste.
+
+  [89] Adesso, quando quell'animalaccio spetezza. _Ddarmalazzu_, va
+  scritto: _dd'armalazzu_.
+
+  [90] Signore, se ne andò a raccogliersi i fichi.
+
+  [91] Montagna reale, comune nella prov. di Messina, nella diocesi
+  e nel circondario di Patti.
+
+  [92] Metaforicamente significa: Volea godere di sentirla spetezzar
+  forte (come una batteria nei fuochi artificiali).
+
+  [93] _Nàutra picca_, ancora un poco.
+
+  [94] La villa Butera in Bagheria, comune a 9 miglia da Palermo, è
+  una delle più cospicue di quella contrada.
+
+  [95] La _Cannita_, tenuta e Casa già dei Gesuiti nel territorio
+  tra Ficarazzi e Misilmeri. Oggi è una tenuta privata, e, abolita
+  l'a. 1860 la Compagnia di Gesù in Sicilia, appartiene ai signori
+  Villa, Siciliano ecc., che ne fecero acquisto.
+
+  [96] _Sustriu_ per _sustiniu_ o _sustinni_, sostenne.
+
+  [97] Andai in chiesa, e v'erano molte persone, e lì all'entrata,
+  c'era un truogolo d'acqua (_fonte dell'acqua santa_), e di esso
+  s'insaponavan la fronte (_si segnavan con l'acqua santa_); e io
+  andai, e mi lavai la fronte (_mi segnai_); poi uscirono dalla
+  sagrestia molti preti con le camicette (_cotte_) addosso; poi
+  altri due preti, anch'essi col saltambarco (_tonacella_) rosso, e
+  finalmente veniva il padre Arciprete col saltambarco (_pianeta_)
+  rosso e la pastoia (_manipolo_) al braccio.
+
+
+
+
+VARIANTI E RISCONTRI.
+
+
+=N. 2.= Una variante di quest'aneddoto raccolse in Borgetto e pubblicò
+nell'_Archivio per lo studio dalle trad. pop._, vol. III, p. 572 n.
+XXXI, il SALOMONE-MARINO, (_Aneddoti, Proverbi e Motteggi_) col titolo:
+_La finzioni di la Passioni a Murriali_. S. Giovanni lancia occhiate e
+mezze parole alla Maddalena; il Cristo, padre di questa, lo avverte per
+due volte che la lasci stare: _Giuvanni, lassa stari a Maddalena_. Alla
+terza, svincola un piede dalla croce, e giù un gran calcio sul muso a
+Giovanni, che cade sullo steccato, e si rompe la testa.
+
+La sacra rappresentazione finisce tra schiamazzi e atti scandalosi.
+
+L'aneddoto corre in tutta l'isola e fuori.
+
+
+=N. 7.= «Mentre uno pregava il Crocifisso, questo si staccò dal muro e
+lo colpì in testa. Guarito, il _cafone_, per prevenire un male futuro,
+fa tante crocettine di legno e poi le batte ogni giorno. Una volta lo
+vede un amico e gli chiede: — «Che fai?» — «Educo queste crocettine da
+piccole, perchè, grandi, non mi facciano male!» G. AMALFI, _Maldicenze
+paesane_, nel _Giornale Napolitano della Domenica_, anno I, n. 39.
+Napoli, 1882.
+
+In Sicilia corre la seguente storiella, da me raccolta e pubblicata tra
+le mie _Fiabe, Novelle e Racconti popolari sicil._, v. III, p. 183:
+
+=Lu Paraturi.=
+
+«Un paratore di chiesa parando un giorno una chiesa, e volendo passare
+una fune tra le gambe di un vecchio Crocifisso, cadde e rimase tanto
+malconcio dal Crocifisso cadutogli addosso, che in capo a pochi mesi ne
+morì. Nelle ultime ore di sua vita, fu chiamato ad assisterlo a ben
+morire un prete, che, dopo averlo confessato e comunicato, mise fuori un
+piccolo Crocifisso esortando il moribondo a raccomandarsi a Lui. Il
+povero paratore non volle saperne, e quando il prete insistette per
+sapere il perchè di tanta ripugnanza, il paratore gli raccontò
+brevemente il fatto della caduta, ed il male che glien'era seguito per
+ragione del Crocifisso. — «Ma quello — gli osservò il prete — era un
+Crocifisso grande, mentre questo qui è molto piccolo»: ed il moribondo:
+«_Lu lassassi_ (lo lasci) _crisciri a ssu crucifisseddu, e vidi_ (ed
+ella vedrà) _si 'un addiventa cchiù piriculusu di chiddu_».
+
+Questa storiella di Palermo è una variante di quest'altra raccolta in
+Ficarazzi:
+
+=Firrazzanu e lu Cunfissuri.=
+
+«Firrazzanu nn'avia fattu quantu Cinchedda, e 'na jurnata cadìu malatu,
+e la pigghiau bona. 'Nca, cci chiamàru lu cunfissuri pi cunfissàrisi e
+cuminicàrisi. Vinni lu Parrinu, e cci accuminzò a diri: «Firrazzanu
+figghiu mio, cc'è morti e vita, e lu Signuri veni pi grazia. Pensa
+quantu cci nni ha' fattu a Nostru Signuri!...» Si vôta bottu 'nta bottu
+Firrazzanu: — «Sissignura: ma una chi mi nni stà facennu a mia, 'un mi
+la pozzu scurdari cchiù». _Fiabe, Nov. e Racc. pop. sic._ v. III, pag.
+180.
+
+Una variante palermitana, data per istorica, è in CAMINNECI, _Brevi
+cenni storici, biografici-artistici delle maschere siciliane in Palermo
+che vissero dal 1750 in poi, e di quelli_ (sic) _esistenti sin'oggi_, p.
+27. Palermo, Barravecchia 1884.
+
+
+=N. 9.= L'Agatuzza Rao mi ha raccontato un aneddoto simile: «Lu zu
+Jàpicu Zappa 'na vota scinnìa di lu sò sulàru, e avìa (parrannu cu
+rispettu) lu càntaru 'n manu, e la curuna ammugghiata a lu pusu pi
+dirisi lu rusariu. A lu scinniri, si stava sdirrubbannu; e pi scanzari
+di fari rumpiri lu càntaru, si rumpìu la curuna; vôtasi arrabbiatu: _Pi
+quasanti stu binidittu càntaru, rumpivi la mmaliditta curuna!_»
+
+(Questo Giacomo Zappa si chiamava Badalamenti, ed era nativo di Carini,
+e morì su' sessant'anni prima del 1860).
+
+
+=N. 10-11.= Richiamano agli aneddoti di quel Prete di Prizzi (prov. di
+Palermo), che, celebrando messa e voltandosi per dire _Dominus
+vobiscum_, vede che la neve caduta a falde ha fatta bianca tutta la
+parte visibile della porta spalancata della chiesa, e dice: _Minchiuni,
+comu nivica!_ (Per bacco, come nevica!). — E un'altra volta, pur
+celebrando messa, ode che una tale litiga con la madre sua per affari
+domestici, e voltandosi pel _Dominus vobiscum_, dice a voce alta:
+_Zitta, bagascia, cà mè matri ragiuni havi!_ Vedi SALOMONE-MARINO,
+_Aneddoti, Prov. e Motteggi_, nn. XXXII e XXXIII. _L'Arcipreti di
+Prizzi:_ e _Lu Cilibranti di Prizzi_, nell'_Archivio_, vol. III, pp.
+573-75.
+
+
+=N. 13.= Si narra di un giovanetto, che, ammonito dal maestro di far la
+pausa ad ogni punto o virgola o ad altro segno disgiuntivo, nol faceva
+mai; però il maestro l'obbligò un giorno a ripetere con la voce, dopo
+letta la parola, i segni tutti d'interpunzione. Il giovanetto eseguì, ma
+a certo punto capitatogli un bucolino (_pirtusiddu_) di un tarlo, che
+avea distrutto la sillaba _pro_ della parola _profeti_, il giovanetto
+disse: _C'è un pirtusiddu, e feti_ = V'è un bucolino, e puzza (Trad. di
+Borgetto).
+
+
+=N. 17.= In Palermo è tradizionale la recita del rosario che si faceva
+ogni sera in casa di una povera famigliuola del Borgo, (in via Gottuso)
+chiamata Lombardo, donde il titolo di _Rusariu di Lummardu_. Eccone qua
+un saggio, che è uno de' «misteri gloriosi»:
+
+    «Gesù già risuscitau,
+    E di morti triunfau,
+
+(_Peppi, statti cuetu: 'un scuitari a Vanni......_)
+
+    E di (_da_) re d' 'i triunfanti,
+
+(_Peppi, a tia dicu!_)
+
+    Scarzarau li Patri Santi.
+    O gran Vergini Maria,
+    Mi rallegru assi cu tia.
+
+(_Ciccu, lèvati 'a burritta!_)
+
+Patrinnostru, chi stati 'n Celu, sia santificatu lu Vostru nnomu, vegna
+a nui lu Vostru Regnu (_Rosa, 'i livasti i piatta? — Sissignura, matri_)
+sia fatta la Vostra vuluntà comu 'n Celu accussì 'n terra. (_E cc' 'i
+mintisti 'nt' 'a gasena? Sissignura_). Dàtinni oggi (_chiss chiss! 'A
+gatta!... Càccia ssa gatta, ca si licca 'u mecciu d'a cannila!..._) lu
+Vostru pani cutiddianu...»
+
+E via di questo passo.
+
+
+=N. 25.= «D'un Procidano si riferisce, che, bagnatosi per la forte
+pioggia un agnellino, lo mise ad asciugare in un forno scottante. Il
+poverino strepitava e digrignava i denti, e l'infornatore sclamava: —
+«_Cumme ride lu beccu fijuto; nce trova refrigerio!_» E l'agnellino morì
+ridendo.» G. AMALFI, _Maldicenze paesane_.
+
+Nel _Giucca_ toscano, uno sciocco inforna la mamma o la nonna per farla
+ridere. Vedi le mie _Novelle popolari toscane_, n. XXXI. (Firenze.
+Barbèra 1885).
+
+
+=N. 29.= Ecco in che forma corre comunemente in Sicilia la lettera:
+
+  _«Carissimo Padre,_
+
+_Vi dovea scrivere morto, e vi scrivo vivo. In questo paese vi è una
+grande epidemia, che il Signore_ (il Viatico) _va per le strade strade
+come un diavolo. Vi mando un poco di salsiccia fatta dalle mie mani di
+porco. Sono andato al mulino, ed ho trovato la giumenta orba di un
+occhio; e così spero sentire di Vossignoria._
+
+                                                  _Vostro figlio»._
+
+La soprascritta sarebbe stata questa:
+
+                  Alle riverite mani di mio Padre
+                                                          Palermo.
+
+Giunta questa lettera all'ufficio di destinazione, gl'impiegati postali
+discutevano chi potesse essere questo padre; ma uno di essi più pratico
+degli altri osservò che se il padre era dello stampo del figlio, la
+lettera la troverebbe di sicuro.
+
+_Lupus in fabula._ Viene un tale e domanda: «Signore, ci son lettere di
+mio figlio?» — «Ecco qua» dice il _postiere_; e gli consegna la lettera
+in discussione; la quale andava proprio a lui.
+
+Nel libretto col titolo: _Raccolta di aneddoti, barzellette, doppi
+sensi, frottole e facezie; aggiuntovi il pranzo immaginario di 500
+cognomi_ (Firenze, Tip. di A. Salani [1870]) a p. 31 si legge:
+
+«Un giovane di un paese di provincia fra le altre cose che chiedeva per
+lettera a suo padre, vi fu questa: _Mi manderete pure un poco di
+salciccia fatta con le vostre mani di porco_».
+
+
+=N. 41.= Ecco il principio di un _Magnificat_ da me udito molte volte
+dalla bocca di una donnicciuola nella Chiesa di S. Francesco di Paola,
+in Palermo:
+
+      Magnifica arma mea Sdomino.
+    E va satannu lu spiritu smeu,
+    Di smeu salutari Sdeo.
+    Cu' fici la ficu magna incrèpiti nzesti
+    E lu santu nnomu di Jesu.
+
+
+=N. 43.= Svariatissime e tutte bizzarre sono le mistificazioni popolari
+delle _Litanie Lauretane_. Comica di molto è quella chiaramontana del
+_Vestru, Scene del pop. sicil._ (Ragusa, MDCCCLXXXII) del GUASTELLA, p.
+53-55.
+
+Non meno comica è quella di Cianciana favoritami dal Comm. Gaetano Di
+Giovanni e raccolta dalla bocca di Angela Maria Perzia vedova Bosciglio,
+intesa la _Scocchilla_, ed anche _Centumilia e centu_, perchè suol far
+da capo nella recita del Rosario del SS. Sagramento, ov'è il ritornello;
+
+    E centu milia e centu
+    E lodamu 'u Sagramentu:
+
+Questa litania comincia così:
+
+_Crijeleisò._ — _Cristeleisò._ — _Chistu e saudi nostru_ (bis). — _Matri
+der celu e deusu._ — _Matri del mundu e deusu._ — _Santa Tirnitati unu e
+deusu._ — _Santa Maria (ora pro nobbi)._ — _Santa Deju gènetri._ —
+_Santa Virco Virginu_ ecc.
+
+A proposito del _Matri der celu e deusu (Pater de Coelis Deus)_, il Di
+Giovanni mi fa notare l'ostinazione della Scocchilla nel dire _Matri_
+invece di _Patri_ = Pater, malgrado le ripetute correzioni
+dell'Arciprete di Cianciana; «_Pirchì_ (oppone la Scocchilla), _chi
+c'entra stu patri e figli nni la litania di Maria SS.?_»
+
+E dire che questa donna, coi suoi 75 anni, fa da maestra
+nell'insegnamento della dottrina cristiana a ragazzi ed alle spose!
+
+Un'altra litania manoscritta è un'amenità per se stessa, e la devo al Di
+Giovanni medesimo, che l'ebbe dal sac. Pietro Capraro Beneficiale e
+Cerimoniere del Capitolo della Cattedrale di Girgenti. Pare una
+spiritosa invenzione: eppure fu raccolta in Prizzi da una vecchierella,
+che contava per pia e santa donna.
+
+Sul latino in bocca al popolo siciliano, vedi i miei _Canti popolari
+sicil._, v. II, p. 363.
+
+
+=N. 47.= In Palermo il motteggio s'attribuisce a un P. Arceri,
+proverbiale per le sue prediche al popolo, e per la sua attività nel
+cercar di correggere i vizi e i difetti de' popolani. Ecco qua, con
+l'aneddoto, il tratto della sua predica, nel quale è il motteggio:
+
+«Una volta P. Arceri andò a predicare in una chiesetta di campagna, e
+portò con sè un corbello di melarance bell'e _sanzeri_ (= sane, intatte,
+senza nessun guasto o macchia), ma con una melarancia nel mezzo, guasta
+e marcita; e cominciò così la sua predica alle donne:
+
+«Picciotti mei, li viditi st'aranci? Comu vi pàrinu? Su' tutti belli
+sanzèri, senza nudda màcula. Arriminàtili, picciotti, e viditi chi cc'è
+'nta lu menzu. Cc'è n'aranciu muffutu. Lu sapiti!? st'aranciu muffutu fa
+ammuffiri tutti l'àutri, ca sunnu belli sanzeri. Accussì siti vuàtri:
+una tinta fa addivintari tinti all'àutri, pirchì 'na pècura virminusa
+'nfetta 'na jinía.
+
+«Ma vuàtri cci pinsati all'arma? cci pinsati a lu Signuri? cci pinsati a
+lu Paraddisu?
+
+«Lu vostru pinseri è a li cosi di stu munnu.
+
+«E a chi pinsati? La za Cicca pensa a li gaddini ca su' senza lu gaddu;
+la za Peppa pensa a lu sceccu, ch'avi a manciari; la za Vanna pensa a lu
+porcu, ca cci (_al quale_) havi a 'mpastari; la za Sara pensa a lu
+mulu.... Ora livativillu di 'n testa, figghi mei; e canciati vita; cà
+(_perchè_) lu primu gaddu è Ddiu, lu primu sceccu è Ddiu, lu primu porcu
+è Ddiu, lu primu mulu è Ddiu!...
+
+«E accussì vi nni jiti drittu tiratu 'n Paraddisu.
+
+«Ah! lu Paraddisu! la gran cosa ch'è lu Paraddisu! La sapiti la minestra
+di risu cu li porri? Vi piaci ah! Lu viju, marioli, ca vi piaci!... Ora
+accussì è lu Santu Paraddisu: è comu lu risu cu li porri!....»
+
+Ogni comune la racconta a modo suo mettendo in bocca a un prete d'un
+comune vicino la predica. SALOMONE-MARINO, _Aneddoti, Prov. e Motteggi_,
+n. XXXIV: _La Predica a lu Maciddaru_ (_Archivio_, vol. III, p. 576) ne
+reca una variante di Borgetto, dove il predicatore sarebbe stato di
+Camporeale (_Maciddaru_).
+
+
+=N. 50.= Una variante siciliana di Salaparuta col titolo: _Lu
+partannisi_ è nelle mie _Fiabe_, n. CL, ove si vuol mettere in burla la
+grossolanità de' contadini di Partanna nella provincia di Trapani.
+
+Un'altra di Partinico, _Lu zu' Giacumazzu_, la pubblicò tra' suoi
+_Aneddoti, Prov. e Motteggi_ il SALOMONE-MARINO nell'_Archivio_. vol.
+II, p. 550, n. III; quella variante si avvicina molto a questa del
+_Mirchio di Patti_, anzi è quasi la medesima cosa. Altra variante
+toscana è nelle mie _Novelle pop. toscane_, n. XXXI: _Giucca_.
+
+Nelle _Cene_ di A. FRANC. GRAZZINI _detto_ IL LASCA, c. II, n. II,
+«Mariotto, tessitore camaldolese, detto Falananna, avendo grandissima
+voglia di morire, è servito dalla moglie e dal Berna amante di lei, e
+credendosi veramente esser morto, ne va alla fossa: intanto sentendosi
+dire villania, si rizza: e quelli che lo portano, impauriti, lasciano
+andar la bara in terra; onde egli, fuggendosi, per nuovo e strano
+accidente, casca in Arno e arde; e la moglie piglia il Berna per
+marito».
+
+Di questa interessante piacevolezza vedi le varianti e i riscontri di R.
+Köhler nell'_Orient und Occident_, I, 434 e ne' _Göttingische gel.
+Anzeigen_, an. 1868. p. 1368.
+
+
+=N. 51.= In una serie di avventure attribuite a Giucca in Toscana, ve
+n'è una inedita, che si racconta così:
+
+«Senti, Giucca: va' a far da legna, che un c'è da accendere il foco».
+Questo Giucca piglia la su' miccina e va' far le legna, e sale su una
+querce. Va per tagliare il ramo, e stava dalla parte che doveva cascare
+in terra. Passa un frate: — «Oh Giucca!» — «Oh!» — «Tu caschi, sai! se
+tu fai a codesta maniera a tagliare le legna.» — «Mi dica, padrino,
+quando morirò io?» — «Alle tre corregge d'il tu' asino». Giucca finì di
+tagliare il ramo; casca il ramo e lui gli va dreto. Giucca, quando fu in
+terra: — «Oh! me l'aveva detto quel frate che cascava; se mi dovessi
+rifare, 'un vorrei cascare più; ma ancora non muoio sino che il mi'
+asino 'un ha fatto tre corregge».
+
+La storiella continua, su per giù come la nostra.
+
+
+=N. 59.= La tradizione è viva, ed ecco come corre in Vittoria e Comiso,
+secondo una versione raccoltami in italiano dal Guastella:
+
+=Ciaramuntanu cciù!...=
+
+«Era tempo di vendemmia, e c'era un chiaro di luna che rallegrava. Un
+villano di Chiaramonte, ma di quelli che hanno le orecchie lunghe, se ne
+tornava al paese, a cavalcioni dell'asinello, in mezzo a due corbe di
+uva fresca, spiccata allora allora dalla sua vigna.
+
+«Vito (in Chiaramonte si chiamano tutti _Vito_) era allegro e cantava,
+ed ecco che un gufo accovacciato sopra un cipresso cominciò a cantare in
+modo sì pietoso che parea gli si spiccasse l'anima. Il povero Vito avea,
+egli è vero, le orecchie lunghe, ma avea un cuore di papa: e si
+rattristò del lamento del gufo, e pensò che piangeva forse per fame.
+Sicchè, vinto dalla tenerezza, gli gridò: «Gufo mio, vuoi un grappolo di
+uva?» Il Gufo seguitò a cantare: _Cciù._ — «Come! Non ti basta un
+grappolo? Ne vuoi forse due?» — «_Cciù!_» — «Oh che gran fame che hai!
+Ne vuoi un paniero?» — _Cciù!_ — «Ma, santa morte! tu sei
+incontentabile; ne vorresti forse una corba?» — _Cciù!_ — «Va al
+diavolo! io ho moglie e figliuole, e non posso darla tutta a te».
+
+Notisi che nella parlata di Chiaramonte _più_, in siciliano _cchiù_, si
+pronunzia _cciù_.
+
+Con qualche differenza corre in Borgetto, secondo una versione del
+SALOMONE-MARINO, _Aneddoti_ ecc. nell'_Archivio_, v. III, n. XXIX: _Lu
+Murrialisi e lu Chiò_.
+
+
+=N. 60.= «Molti anni fa, a Panza, si ruppe la fune della campana, e lo
+scaccino pensò di metterci un sarmento (_vetecaglia_). Un asino
+affamato, passando di notte, al chiaro della luna, andò a rosicchiarlo,
+e fe' sonar la campana. A questo _tin! ton!_ tutti si svegliarono; ed,
+immaginando incendi, ladri e simili diavolerie, accorsero coi coltelli,
+coi bastoni, e coi fucili spianati; ma mentre si precipitano addosso
+alla sventurata vittima, s'ode una voce: «Lasciate stare: si tratta del
+ciuco di frà Tommaso!» G. AMALFI, _Maldicenze paesane_.
+
+Nella novella LII del _Novellino_ (secondo il testo Gualteruzzi), la
+quale esce col titolo: _D'una campana che si ordinò al tempo del Ginorea
+vni_, «il re Giovanni di Atri ordina che sia messa una campana, la quale
+potesse esser suonata da chi gli chiedesse ragione di torti ricevuti; la
+fune dopo qualche tempo si logora, ed è sostituita da una vitalba. Un
+vecchio cavallo è cacciato dall'ingrato padrone, che non vuol più
+mantenerlo. Avendo fame e giungendo alla campana, mangia la vitalba e la
+campana suona. Si aduna il consiglio del re, e pensando che il vecchio
+destriero chieda ragione contro l'avaro signore, si condanna costui a
+pascerlo, in rimerito de' servigi resigli da giovane».
+
+Il D'ANCONA, che fa questo riassunto della novella nel suo lavoro: _Del
+Novellino e delle sue fonti_, accenna alle lievissime varianti ed a'
+maggiori svolgimenti che questa stessa novella ha in altri testi, pur
+notando le analogie di essa con racconti letterarî e popolari fuori
+d'Italia. Vedi i suoi _Studj di Critica e Storia letteraria_, p. 320.
+Bologna, 1880.
+
+
+=N. 61.= Anche questa piacevolezza è comunissima ai giorni nostri, e mi
+piace di riferirla, meno spiritosa certamente ma legata ad altre
+capestrerie, quale me l'ha favorita il sig. G. Crimi Lo Giudice, che la
+raccolse in Naso sua patria:
+
+«In Ficarra, paese a poche miglia da Naso, si doveva celebrare la festa
+dell'Annunziata, che è la protettrice; e il procuratore di quella festa,
+non avendo potuto trovar cera nei paesi vicini, era andato per comprarla
+in Palermo. Fatta la compra, se ne ritornava sopra una barca a vela; ma,
+prima di toccar la riva di Brolo, un'ondata di mare, gli bagnò
+intieramente la cera, ed egli, ritenendo che le candele bagnate non
+fossero più buone ad illuminare la Chiesa, era così dolente, che per
+poco non gli scappavan le lagrime. Un Nasitano, che si trovava sulla
+stessa barca, forse per ischerzo, gli disse, che non valeva la pena
+d'impensierirsi tanto per cose da nulla, dappoiche il medesimo fatto era
+accaduto a' Nasitani più volte, ed essi ci avevano rimediato mettendo le
+candele al forno.
+
+«Giunto in Ficarra, quel povero diavolo fece come gli aveva suggerito il
+Nasitano, ma le candele nel forno squagliarono, e la festa non potè più
+celebrarsi.
+
+«Da ciò, dicono i vecchi, nacque il sopranome di _'Nfurnacannili_ dato
+ai Ficarresi, i quali, com'è naturale, se la legarono al dito.
+
+«Difatti, passato un po' di tempo, un Ficarrese di molto spirito,
+trovandosi nella Chiesa Maggiore di Naso, mentre il Quaresimalista
+faceva la predica del _Giudizio_ e gridava a squarciagola: _Nasu, Nasu,
+unni ti ficcu, Nasu?_ rispose ad alta voce: _'Ntra stu st.... di c....!_
+e scappò di corsa per la più breve, senza che i Nasitani potessero
+raggiungerlo. La stessa notte però, alcuni di essi, frementi di rabbia,
+andarono in Ficarra, e non potendo far altro, chiusero con altrettanti
+pezzi di legno, detti _cavigghiuna_, tutte le porte che avevano i
+cancheri. Si racconta che un certo _Masotto_, il quale aveva una figlia
+che abitava una casa con due porte, tutte due chiuse da' Nasitani a quel
+modo, la mattina andava ripetendo: _A mè figghia Anciurina 'a
+'ncavigghiunaru davanti e darreri!_
+
+«Tant'è che i _Ficarresi_ vengono motteggiati ancora co' nomi di
+_'Nfurnacannili_ e _Cavigghiunara_».
+
+Vedi in proposito i miei _Proverbi siciliani_, vol. III. p. 145.
+
+
+=N. 62.= Ed anche questa spiritosa predica ho udita più volte a pezzi e
+a bocconi in Sicilia, specialmente da persone di chiesa.
+
+
+
+
+INDICE
+
+
+      Avvertenza di G. Pitrè                           Pag.   5
+   1. Verbo, Settimana Santa, Passione e Crocifisso          19
+   2. La Rappresentazione della Passione di G. C. in
+        Naso                                                 20
+   3. La Cena del Giovedì Santo                             ivi
+   4. Un balbuziente in S. Marco                             21
+   5. La Rappresentazione della Passione di G. C. in
+        S. Filippo                                           22
+   6. Bestemmia di uno di Veria                             ivi
+   7. Uno di Veria ferito da un colpo di crocifisso         ivi
+   8. Risposta d'un prete di Longi                           23
+   9. Verbo, messa                                          ivi
+  10. Un prete vestito a messa che insegue un giovane        24
+  11. Un prete che a messa ricorda i suoi bachi da seta      25
+  12. Ignoranza canonica d'un prete                         ivi
+  13. La lettera d'un suddiacono                             26
+  14. Bollito o arrostito?                                  ivi
+  15. Effeminatezza ed ignoranza di un prete di Maletto      27
+  16. Miscellanea                                            30
+  17. Una recita dell'Officio divino                         31
+  18. Atto di Fede teologica d'un fratello congregato
+        nella Novara                                        ivi
+  19. Benedizione data col braccio svelto dal corpo di
+        una femina uccisa                                    32
+  20. Un notaro divenuto confessore                          33
+  21. Città di Randazzo in iscena                            36
+  22. Scena seconda                                         ivi
+  23. Atto di dolore fatto da un moribondo                   37
+  24. Confessore in Marsala                                  38
+  25. Morto che ride in Nicosia                              39
+  26. Cappuccini di Nicosia in processione                   40
+  27. Il P. Fortunato di S. Marco uccellato da D.
+        Giuseppe Gallotto                                    43
+  28. Copia di una lettera                                   50
+  29. Copia d'una lettera                                    53
+  30. Copia di una lettera                                   54
+  31. Copia d'un biglietto                                   55
+  31 _bis_. Altra lettera                                   ivi
+  32. In Frazzano, terra della Contea di S. Marco            56
+  33. Motto d'uno di Regalbuto                               57
+  34. La manna del Monte di Trapani                         ivi
+  35. Seguenzia della gente di Mongiuffi                     59
+  36. Salve Regina                                           61
+  37. Credo                                                 ivi
+  38. Veni Creator Spiritus                                  62
+  39. Confiteor                                              63
+  40. Varie preci divote                                    ivi
+  41. Magnificat                                             65
+  42. Fragmenti di varie coselle dall'istesso                66
+  43. Litania                                               ivi
+  44. De Profundis                                           68
+  45. Recitandosi l'ufficio dei morti                        69
+  46. Miserere delli Romiti di Iudica                        70
+  47. Sacerdote in Piazza che ricorda un moribondo           71
+  48. Le gare di Nicosia                                    ivi
+  49. Ubbriaco in Regalbuto che dorme nel cataletto          72
+  50. Il Mirchio di Patti                                    74
+  51. Il morto della Giojosa                                 76
+  52. Il porco di S. Antonio nella Giojosa                   77
+  53. Donna inflatata                                        78
+  54. Motivo di pazienza insegnato da un padre cappuccino    79
+  55. Vangelo d'un villano di Militello                      80
+  56. Ragazzo che fa testimonianza alla madre d'essere
+        stato alla messa                                     81
+  57. Misterij del Rosario nella Chiesa di S. Nicolò
+        di Nicosia                                           82
+  58. Esempio                                                84
+  59. Barbaggianne in Trapani                                85
+  60. Campana stimata sonare da se sola                      86
+  61. Naso in giudizio condannato da un ficarrese            87
+  62. Panegirico di S. Antonio di Padova                     88
+  NOTE                                                       99
+  VARIANTI E RISCONTRI                                      107
+
+
+
+
+      *      *      *      *      *
+
+
+
+
+Nota del Trascrittore
+
+Ortografia e punteggiatura originali sono state mantenute, così come le
+grafie alternative (avia/avìa, qua/quà, fu/fù e simili), correggendo
+senza annotazione minimi errori tipografici.
+
+
+
+***END OF THE PROJECT GUTENBERG EBOOK AVVENIMENTI FACETI***
+
+
+******* This file should be named 42649-0.txt or 42649-0.zip *******
+
+
+This and all associated files of various formats will be found in:
+http://www.gutenberg.org/dirs/4/2/6/4/42649
+
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License available with this file or online at
+  www.gutenberg.org/license.
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS', WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation information page at www.gutenberg.org
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at 809
+North 1500 West, Salt Lake City, UT 84116, (801) 596-1887.  Email
+contact links and up to date contact information can be found at the
+Foundation's web site and official page at www.gutenberg.org/contact
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit www.gutenberg.org/donate
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including checks, online payments and credit card donations.
+To donate, please visit:  www.gutenberg.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart was the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For forty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+Most people start at our Web site which has the main PG search facility:
+
+     www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.

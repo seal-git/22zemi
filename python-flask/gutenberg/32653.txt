@@ -1,0 +1,1527 @@
+The Project Gutenberg EBook of A Review of the Frogs of the Hyla bistincta
+Group, by William E. Duellman
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: A Review of the Frogs of the Hyla bistincta Group
+
+Author: William E. Duellman
+
+Release Date: June 2, 2010 [EBook #32653]
+
+Language: English
+
+Character set encoding: ISO-8859-1
+
+*** START OF THIS PROJECT GUTENBERG EBOOK FROGS--HYLA BISTINCTA GROUP ***
+
+
+
+
+Produced by Chris Curnow, Joseph Cooper and the Online
+Distributed Proofreading Team at https://www.pgdp.net
+
+
+
+
+
+
+
+
+
+                  UNIVERSITY OF KANSAS PUBLICATIONS
+                      MUSEUM OF NATURAL HISTORY
+
+                Volume 15, No. 9, pp. 469-491, 4 figs.
+                            March 2, 1964
+
+
+                        A Review of the Frogs
+                     Of the Hyla bistincta Group
+
+                                  BY
+
+                         WILLIAM E. DUELLMAN
+
+
+                         UNIVERSITY OF KANSAS
+                               LAWRENCE
+                                 1964
+
+
+
+     UNIVERSITY OF KANSAS PUBLICATIONS, MUSEUM OF NATURAL HISTORY
+
+         Editors: E. Raymond Hall, Chairman, Henry S. Fitch,
+                        Theodore H. Eaton, Jr.
+
+
+                  Volume 15, No. 9, 469-491, 4 figs.
+                       Published March 2, 1964
+
+
+                         UNIVERSITY OF KANSAS
+                           Lawrence, Kansas
+
+
+                     PRINTED BY THE STATE PRINTER
+                            TOPEKA, KANSAS
+                                 1964
+
+                               29-8590
+
+
+
+
+                        A Review of the Frogs
+                     Of the Hyla bistincta Group
+
+                                  BY
+
+                         WILLIAM E. DUELLMAN
+
+
+
+
+CONTENTS
+
+
+                                                                PAGE
+  INTRODUCTION                                                   471
+    Acknowledgments                                              471
+  THE HYLA BISTINCTA GROUP                                       472
+    Analysis of Characters                                       473
+    Key to the Species of the Hyla Bistincta Group               474
+  ACCOUNTS OF THE SPECIES                                        475
+    _Hyla bistincta_ Cope                                        475
+    _Hyla charadricola_ new species                              478
+    _Hyla robertsorum_ Taylor                                    481
+    _Hyla pachyderma_ Taylor                                     485
+    _Hyla crassa_ (Brocchi)                                      486
+  RELATIONSHIPS                                                  489
+  LITERATURE CITED                                               491
+
+
+
+
+INTRODUCTION
+
+
+In the mountainous regions of Middle America there are several groups
+of hylid frogs that inhabit mountain streams. Some of these groups,
+such as _Plectrohyla_ and _Ptychohyla_, have been elevated to generic
+rank, whereas others are retained in the large and complex genus
+_Hyla_. In the mountains of México five species of hylids that seem to
+compose a phyletic unit are herein referred to as the _Hyla bistincta_
+group. Since 1955 I have been accumulating specimens of, and data on,
+this group with the result that all specimens known to me, including
+the types of all named taxa, have been studied. Detailed observations
+have been made on the ecology and life histories of three of the
+species; the other two species are known to me only from preserved
+specimens.
+
+
+Acknowledgments
+
+For permission to examine specimens in their care I am indebted to
+Charles M. Bogert, American Museum of Natural History (AMNH); Doris
+M. Cochran, United States National Museum (USNM); Jean Guibé, Museum
+National d'Histoire Naturelle, Paris (MNHN); Robert F. Inger, Chicago
+Natural History Museum (CNHM); Hobart M. Smith, University of Illinois
+Museum of Natural History (UIMNH); Charles F. Walker, University of
+Michigan Museum of Zoology (UMMZ). (Abbreviations of institutions
+given above in parentheses are used throughout; the Museum of Natural
+History, University of Kansas is abbreviated KU.)
+
+For their willing assistance in the field I am grateful to Ann S.
+Duellman, Dale L. Hoyt, and John Wellman. Permits for collecting in
+México were generously issued by the late Ing. Luis Macías Arellano,
+Departamento de la Fauna Silvestre, Dirección General de Caza. The
+drawings in figures 1 and 3 were executed by Gail Selfridge. This
+research has been supported by the National Science Foundation (NSF
+G-9827).
+
+
+
+
+THE HYLA BISTINCTA GROUP
+
+
+The five species comprising the _Hyla bistincta_ group are
+moderate-sized hylids having rather blunt heads and robust bodies.
+The fingers are long and have little webbing (Fig. 1). The skin of
+the dorsum is thick and glandular, but not tuberculate. An anal
+sheath is present. The skull is rather broad, flat, and solidly
+roofed. The ethmoid is broad, curved downward laterally, and solidly
+sutured to the frontoparietal. The nasals are broad, sutured for their
+entire width with the ethmoid, and broadly in contact medially. The
+premaxillaries are in contact medially; each has a long, flat nasal
+process. The quadratojugal is absent, and the maxillary tapers to a
+point posteriorly. There is no squamosal-maxillary connection.
+The maxillary and premaxillary teeth are rather long, bifid, and
+moderately spatulate. Some teeth on the premaxillary and anterior
+part of the maxillary are hooked. The vomerine teeth are spatulate
+and bifid. A broad, flat, ossified prepollex is present but does
+not project as a spine. The known tadpoles have ventral mouths,
+2/3 tooth-rows, two or more rows of labial papillae, and long tails
+with low fins.
+
+    [Illustration: FIG. 1. Palmar view of right hand of:
+    _a._--_Hyla robertsorum_ (KU 57661),
+    _b._--_Hyla charadricola_ (KU 58414). × 3.]
+
+As thus defined the _Hyla bistincta_ group can be distinguished from
+all other groups of Middle American frogs by the combination of
+absence of the quadratojugal, non-projecting prepollex, long fingers
+with little webbing, and stream-inhabiting tadpoles having 2/3 tooth
+rows and two or more rows of labial papillae.
+
+Possibly _Hyla arborescandens_ and _Hyla hazelae_ belong in this
+group. Because these species are somewhat different from the included
+species and because their tadpoles are as yet unknown, I have
+refrained from including these two species in the _Hyla bistincta_
+group. Taylor (1948:261) assigned _Hyla proboscidea_ (= _H.
+dalquesti_) and (1949:272) _Hyla cyclomaculata_ to this group, but
+because these two species have a quadratojugal and notably different
+tadpoles, they are excluded from the group.
+
+Frogs of the genus _Plectrohyla_ closely resemble species in the _Hyla
+bistincta_ group but differ principally in having a projecting
+prepollex. In the highlands of Costa Rica a group of species, of which
+_Hyla moesta_ is best known, resembles species in the _Hyla bistincta_
+group. At present insufficient information is available on the Costa
+Rican species to determine their affinities.
+
+
+Analysis of Characters
+
+The characters used in the systematic study of the frogs in this group
+are those usually employed in anuran systematics. Of the various
+measurements and proportions, the snout-vent length and the relative
+size of the tympanum to the eye apparently are of more taxonomic
+importance than the others (Table 1). In all of the species the
+tympanum is at least partially covered by a heavy, dermal
+supratympanic fold, and in some specimens of _H. pachyderma_ the
+tympanum is completely obscured. In two species (_H. bistincta_ and
+_H. charadricola_) the snout is square, whereas in the other species
+it is round.
+
+The fingers are long and slender in _H. crassa_, _pachyderma_, and
+_robertsorum_ and somewhat shorter with more webbing in _H. bistincta_
+and _charadricola_. Breeding males of _Hyla pachyderma_ have
+moderately large nuptial spines; the other species have small spines,
+except _H. charadricola_ in which spines apparently are absent. A
+well-defined thoracic fold is present in _H. pachyderma_, and a weak
+fold is present in _H. robertsorum_; the other species lack folds. In
+all species there is an anal sheath; this sheath is longest in _H.
+bistincta_, in which the anal opening is directed ventrally at the
+level of the lower edge of the thighs.
+
+    TABLE 1.--COMPARISON OF CERTAIN MEASUREMENTS AND PROPORTIONS
+    IN THE SPECIES OF THE HYLA BISTINCTA GROUP. (DATA FROM ADULT
+    MALES; MEANS ARE GIVEN IN PARENTHESES BELOW THE RANGES.)
+
+    A: Snout-vent length
+    B: Tibia length / Snout-vent length
+    C: Head width / Snout-vent length
+    D: Tympanum / Eye
+
+  ====================================================================
+     SPECIES     |  N |    [A]    |    [B]    |    [C]    |    [D]
+  ---------------+----+-----------+-----------+-----------+-----------
+  _H. bistincta_ | 38 | 43.0-53.8 | 0.47-0.52 | 0.32-0.37 | 0.35-0.48
+                 |    |  (46.3)   |   (0.49)  |   (0.34)  |   (0.42)
+                 |    |           |           |           |
+  _H.            | 10 | 35.3-44.4 | 0.50-0.54 | 0.31-0.33 | 0.30-0.37
+  charadricola_  |    |  (40.4)   |   (0.52)  |   (0.32)  |   (0.34)
+                 |    |           |           |           |
+  _H.            | 26 | 39.9-47.9 | 0.48-0.51 | 0.30-0.36 | 0.36-0.47
+  robertsorum_   |    |  (43.1)   |   (0.49)  |   (0.32)  |   (0.41)
+                 |    |           |           |           |
+  _H. pachyderma_|  1 |   39.9    |    0.53   |    0.32   |     ...
+                 |    |           |           |           |
+  _H. crassa_    |  1 |   53.7    |    0.50   |    0.33   |    0.28
+  ---------------+----+-----------+-----------+-----------+-----------
+
+Frogs in this group are rather drab in appearance. The dorsal color
+varies from dull green to various shades of brown. The most distinct
+aspect of the coloration is the different color patterns on the flanks
+and posterior surfaces of the thighs. The flanks in all species are
+marked with spots or reticulations.
+
+_Hyla bistincta_ differs from other members of the group in having
+vocal slits and a distensible vocal sac. Only this species has been
+reported to call (Shannon, 1951:473). Insofar as is known, the other
+species are mute. Examination of skeletal preparations of _H.
+bistincta_, _charadricola_, and _robertsorum_ and X-rays of the other
+species shows no notable specific differences in the osteology. Since
+the tadpoles of only _H. bistincta_ (Duellman, 1961:47) and _H.
+robertsorum_ (Rabb and Mosimann, 1955) are known, larval characters
+are of limited use in intra-group systematics.
+
+
+Key to the Species of the _Hyla bistincta_ Group
+
+    1. Snout, in dorsal profile, short and bluntly rounded;
+    canthus rounded, sometimes indistinct, vocal slits absent      2
+
+    Snout, in dorsal profile, longer, squared; canthus distinct,
+    vocal slits present or absent                                  4
+
+    2. Feet webbed to base of discs; dorsum dull olive green;
+    flanks having cream-colored spots            _H. crassa_, p. 486
+
+    Feet not webbed to base of discs; dorsum brown                 3
+
+    3. Tarsal fold strong; thoracic fold heavy; webbing on feet
+    extending to middle of penultimate phalanx of fourth toe;
+    distinct white stripe above anus; cluster of largo spines on
+    thumb in breeding males,                 _H. pachyderma_, p. 485
+
+    Tarsal fold weak and short; thoracic fold absent or barely
+    indicated; webbing of feet extending to base of penultimate
+    phalanx of fourth toe; no distinct white stripe above anus;
+    nuptial tuberosities in breeding males consisting of small
+    spines                                  _H. robertsorum_, p. 481
+
+    4. Tarsal fold strong; anal flap elongate; anus opening at
+    lower edge of femur; dorsum tan or brown; flanks mottled with
+    cream and brown; venter immaculate creamy white; no anal
+    stripe; vocal slits present,              _H. bistincta_, p. 475
+
+    Tarsal fold faint and short; anal flap not elongate; anus
+    opening at middle of femur; dorsum olive-green with black
+    reticulations; flanks greenish gray with brown or black
+    spots; a row of white flecks above and below anus, vocal
+    slits absent                           _H. charadricola_, p. 478
+
+
+
+
+ACCOUNTS OF THE SPECIES
+
+
+In the following accounts complete synonymies are given for each
+species. In each account one specimen is described in detail; after
+this description the variation is discussed. In the list of specimens
+examined, localities are arranged alphabetically within the states,
+which also are given in alphabetical order. Localities given in
+italics are not shown on the accompanying maps (Figs. 2 and 4) due
+to crowding of symbols.
+
+
+#Hyla bistincta# Cope
+
+    _Hyla bistincta_ Cope, Proc. Amer. Philos. Soc, 17:87,
+    August, 1877 [Holotype.--USNM 32261 from "most probably
+    Veracruz," México; Francis Sumichrast collector]. Brocchi,
+    Étude des batraciens de l'Amérique Centrale, p. 43, 1881.
+    Boulenger, Catalogue Batrachia Salientia, 2nd Ed., p. 401,
+    February 1, 1882. Sumichrast, La Naturaleza, 6:81, 1882.
+    Cope, Bull. U. S. Natl. Mus., 32:14, 1887; Bull. U. S. Natl.
+    Mus., 34:351, 1889. Günther, Biologia Centrali-Americana,
+    Reptilia and Batrachia, pp. 265-6, June, 1901. Díaz de León,
+    Indice de los batracios que se encuentran en la República
+    Mexicana, p. 17, June, 1904. Nieden, Das Tierreich, Amphibia,
+    Anura I, p. 247, June, 1923. Kellogg, Bull. U. S. Natl. Mus.,
+    160:163-164, March 31, 1932. Taylor, Proc. Biol. Soc.
+    Washington, 50:50-53, April 21, 1937; Univ. Kansas Sci.
+    Bull., 26:389, November 27, 1940. Taylor and Smith, Proc. U.
+    S. Natl. Mus., 194:87, June 7, 1948. Taylor, Univ. Kansas
+    Publ. Mus. Nat. Hist., 1:261, August 16, 1948; Copeia, no.
+    4:272-273, December 15, 1949. Smith and Taylor, Univ. Kansas
+    Sci. Bull., 33:346, March 20, 1950 [Type locality restricted
+    to Acultzingo, Veracruz, México]. Rabb and Mosimann, Occas.
+    Papers Mus. Zool. Univ. Michigan, 563:6-9, March 29, 1955.
+    Duellman, Univ. Kansas Publ. Mus. Nat. Hist., 15:47-49,
+    December 20, 1961.
+
+    _Hyla bistincta labeculata_ Shannon, Proc. U. S. Natl. Mus.,
+    101:470-473, figs. 92a, 93d, May 17, 1951 [Holotype.--USNM
+    123689 from San Lucas Camotlán, Oaxaca, México; Walter S.
+    Miller collector]. Smith and Williams, Herpetologica, 19:23,
+    April 11, 1963.
+
+    _Hyla bistincta bistincta_, Shannon, Proc. U. S. Natl. Mus.,
+    101:472, May 17, 1951. Shannon and Werler, Herpetologica,
+    11:85, July 15, 1955. Smith and Williams, Herpetologica,
+    19:23, April 11, 1963.
+
+_Diagnosis._--Maximum snout-vent length in males 54 mm.; snout in
+dorsal profile truncate; tarsal fold strong; inner metatarsal tubercle
+large, high, and elongate; outer metatarsal tubercle absent; webbing
+on foot extending to middle of antepenultimate phalanx of fourth toe;
+nuptial spines on thumb small; thoracic fold absent; anal opening at
+level of lower edge of femur; dorsum brown or tan; belly cream-color;
+flanks creamy yellow with brown reticulations or spots; anal stripe
+absent; vocal slits present.
+
+_Description._--The following description is based on KU 68078 from
+Uruapan, Michoacán, México. Adult male having a snout-vent length of
+43.2 mm.; tibia length, 22.1 mm., 51.1 per cent of snout-vent length;
+foot length (measured from proximal edge of inner metatarsal tubercle
+to tip of longest toe), 20.8 mm.; greatest width of head, 15.4 mm.,
+35.6 per cent of snout-vent length; head length, 13.9 mm., 32.1 per
+cent of snout-vent length; diameter of eye, 5.1 mm.; diameter of
+tympanum, 2.4 mm., 47.1 per cent of diameter of eye. Snout in lateral
+profile bluntly rounded, in dorsal profile truncate; canthus
+pronounced, rounded, not angular; loreal region slightly concave; lips
+thick, round, not flaring; nostrils slightly protuberant; internarial
+distance, 3.4 mm.; interorbital distance, 4.5 mm., somewhat broader
+than width of eyelid, 3.5 mm. A heavy dermal fold from posterior
+corner of eye above tympanum and curved downward to insertion of
+forearm; tympanum round, its diameter slightly more than its distance
+from eye. Forearm not robust; row of small pustules on ventral surface
+of forearm; fold on wrist; prepollex moderately enlarged, covered with
+small, horny, nuptial spines continuous on edge of digit; row of
+spines on inner surface of second finger; subarticular tubercles
+large, round, none bifid; supernumerary tubercles rather large, round;
+palmar tubercles rather small, flat, elliptical; fingers long,
+moderately slender; length of fingers from shortest to longest,
+1-2-4-3; discs moderately large, that on third finger slightly larger
+than tympanum; rudimentary web between first and second and between
+second and third fingers; web between third and fourth fingers
+extending about one-fourth length of fourth finger. Heels overlap by
+about one-third length of shank when hind limbs adpressed; tibiotarsal
+articulation extends to anterior edge of eye; tarsal fold strong,
+extending to heel; inner metatarsal tubercle large, high, and
+elongate; outer metatarsal tubercle absent; subarticular tubercles
+moderately large, round; supernumerary tubercles small, in single rows
+on proximal segments of digits; toes moderately short; length of toes
+from shortest to longest, 1-2-3-5-4, third and fifth toes about equal
+in length; toes about two-thirds webbed; web extending to middle of
+antepenultimate phalanx of fourth toe, to discs of first, second, and
+fifth toes, and to base of penultimate phalanx of third toe; discs
+rather small, about two-thirds size of those on fingers. Anal opening
+at level of lower edge of thighs; anal sheath elongate, deeply creased
+medially; transverse dermal fold above anus. Skin of dorsal surfaces
+of head, body, and limbs faintly areolate; skin of chin, belly, and
+ventral surfaces of thighs granular, that of ventral surfaces of
+limbs, except thighs, areolate; thoracic fold absent. Tongue nearly
+round, slightly longer than wide, shallowly notched behind and barely
+free posteriorly. Vomerine teeth 4-4, situated on rounded vomerine
+ridges between rather small ovoid inner nares; vocal slits present,
+situated along posterior edge of each ramus.
+
+Color (in alcohol) pale brown on dorsal surfaces of head, body, and
+limbs; flanks and anterior surfaces of thighs creamy white with dark
+brown reticulations; posterior surfaces of thighs tan with creamy
+white spots; belly cream-color; anal stripe absent.
+
+Color (in life) pale tan on dorsal surfaces; flanks and anterior
+surfaces of thighs pale creamy yellow with purplish brown
+reticulations; posterior surfaces of thighs tan with yellow spots;
+ventral surfaces yellow; iris pale copper-color.
+
+_Variation._--There is little variation in structure. The total number
+of vomerine teeth varies from 6 to 14. In some individuals the
+supratympanic fold covers the upper part of the tympanum, but at least
+the lower part of the tympanum is always visible. The extent of the
+webbing between the toes varies from three-fourths to two-thirds
+complete. Usually the web extends to some point on the antepenultimate
+phalanx of the fourth toe, but in some specimens the web extends to
+the base of the penultimate phalanx.
+
+In the large series of specimens from Uruapan, Michoacán, the
+coloration of the flanks and anterior surfaces of the thighs varies
+from nearly uniform creamy yellow with only fine dark reticulations to
+bold reticulations enclosing yellow spots. Some specimens from Oaxaca
+and Veracruz have slightly different markings on the flanks; in these
+the dark pigment is in the form of irregular spots or dashes, instead
+of reticulations.
+
+There is considerable variation in color in the living frogs. The
+dorsum varies from greenish tan and pale yellowish tan to reddish
+brown, and some individuals are dark chocolate brown.
+
+_Remarks._--Shannon (1951:470) named _Hyla bistincta labeculata_ on
+the basis of a single male from San Lucas Camotlán, Oaxaca; he
+diagnosed the subspecies as differing from _Hyla bistincta bistincta_
+by having "the gray reticulation of the sides entirely broken up into
+elongate black blotches; tarsal fold moderately elevated." The
+condition of the tarsal fold is characteristic of the species. The
+dispersion of dark pigment on the flanks is variable. The type of
+_Hyla bistincta labeculata_ (USNM 123689) is extreme in the
+development of dark dashes on the flanks, but this condition is
+approached in several specimes from Oaxaca and Veracruz. For example,
+in some specimens from Cumbres de Acultzingo, Veracruz, the mottling
+on the flanks is bold; in others the flanks are reticulated. The
+specimen from San Vicente, Oaxaca, has black dashes on the flanks
+(Smith and Williams, 1963:23), whereas a specimen from Cerro San
+Felipe, Oaxaca, has no pattern on the flanks. In general, specimens
+from western México have reticulate mottling on the flanks as compared
+with the marbling on the flanks in specimens from eastern México. On
+the basis of available data, the recognition of subspecies in _Hyla
+bistincta_ is unwarranted.
+
+The tadpoles of this species described by Duellman (1961:47) are like
+those of _Hyla robertsorum_ in having 2/3 tooth-rows, peglike
+serrations on the beaks, and long, rounded tails. At Uruapan tadpoles
+were found in a rocky stream on April 24, 1956, and metamorphosing
+young were found there on August 2, 1956. A completely metamorphosed
+juvenile has a snout-vent length of 24.8 mm.
+
+_Hyla bistincta_ is found only along streams, where individuals can be
+seen clinging to vines and other vegetation closely over-hanging
+fast-moving parts of the stream.
+
+_Distribution._--_Hyla bistincta_ occurs at elevations from 1400 to
+2600 meters in the mountains of the Sierra Madre Occidental in western
+Jalisco southward through the Cordillera Volcánica in Michoacán,
+México, and Morelos, the Sierra de Coalcomán in Michoacán, and the
+Sierra Madre del Sur in Guerrero and Oaxaca, and thence northward in
+the Sierra Madre Oriental to central Veracruz (Fig. 2).
+
+Specimens examined.--GUERRERO: Omiltemi, UIMNH 38023-5. JALISCO: 25
+km. SE Autlán, UMMZ 102076. MEXICO: 19 km. W Villa Victoria, UIMNH
+28162, USNM 114513. MORELOS: Cuernavaca, USNM 121523; _3 km. N
+Cuernavaca_, UIMNH 28168-70. MICHOACAN: Cerro San Andrés, UMMZ 102075;
+Dos Aguas, UMMZ 119193; _12.5 km. ENE Dos Aguas_, UMMZ 119194; _Los
+Conejos_, UMMZ 94238-40; Uruapan, KU 68077-8, 69093 (skeleton), UIMNH
+20457, 28167, UMMZ 85452-3, 112838, 112839 (16), 115231 (tadpoles),
+115232, 115233 (12), 121515, S-1699 (skeleton), S-1826 (skeleton),
+USNM 114514-5, 114517-24. OAXACA: Cerro San Felipe, UIMNH 28163; Pluma
+Hidalgo, AMNH 13447; San Lucas Camotlán, USNM 123689; San Vincente,
+UIMNH 51346 (Smith and Williams, 1963:23). VERACRUZ: no specific
+locality, USNM 32261; Cumbres de Acultzingo, CNHM 105482-3, UIMNH
+28164-6, 49133-4, USNM 114525.
+
+    [Illustration: FIG. 2. Map showing locality records for
+    _Hyla bistincta_ and _Hyla charadricola_.]
+
+
+#Hyla charadricola# new species
+
+_Holotype._--University of Kansas Museum of Natural History No. 58414
+from the Río Totolapa, 14.4 kilometers by road west of Huachinango,
+Puebla, México, 2280 meters; obtained by John Wellman on June 8, 1960.
+
+_Paratypes._--KU 58415-58423, same data as holotype, and UIMNH 50966,
+obtained at the type locality by William E. Duellman on February 11,
+1961.
+
+_Diagnosis._--Maximum snout-vent length in males, 45 mm.; snout in
+dorsal profile truncate; tarsal fold short and weak; inner metatarsal
+tubercle moderately large, elliptical, and flat; outer metatarsal
+tubercle minute, round, and indistinct; webbing extending to base of
+terminal phalanx of fourth toe; nuptial spines on thumb absent;
+thoracic fold absent; anal opening at level of middle of thigh; dorsum
+olive-green with black reticulations; venter cream color with brown
+flecks on chin; flanks pale grayish green with brown spots; anal
+stripe absent; row of white flecks above and a row below anus; vocal
+slits absent.
+
+_Description of Holotype._--Adult male having a snout-vent lenth of
+44.4 mm.; tibia length, 22.2 mm., 50 per cent of snout-vent length;
+foot length (measured from proximal edge of inner metatarsal tubercle
+to tip of longest toe), 20.4 mm.; greatest width of head, 14.0 mm.,
+31.5 per cent of snout-vent length; head length, 13.6 mm., 30.6 per
+cent of snout-vent length; diameter of eye, 5.0 mm.; diameter of
+tympanum, 1.6 mm., 32.0 per cent of diameter of eye. Snout in lateral
+profile bluntly rounded, in dorsal profile truncate (Fig. 3); canthus
+pronounced, rounded, not angular; loreal region slightly concave; lips
+thick, rounded, not flaring; nostrils slightly protuberant;
+internarial distance, 3.7 mm.; interorbital distance, 4.1 mm.,
+somewhat broader than width of eyelid, 3.3 mm. A heavy dermal fold
+from posterior corner of eye above tympanum and then to insertion of
+forearm; tympanum round, its diameter three-fourths its distance from
+eye. Forearm rather slender; a short axillary membrane; no fold on
+wrist; no nuptial excrescence or spines on enlarged prepollex;
+subarticular tubercles moderately small, round; none bifid; few
+supernumerary tubercles on proximal segments of digits; large, flat
+palmar tubercle present; fingers long and slender; length of fingers
+from shortest to longest, 1-2-4-3; discs moderately large, that on
+third finger about equal to diameter of tympanum; rudimentary web
+between first and second fingers; web between third and fourth fingers
+extending to about one-fifth length of fourth finger (Fig. 1). Heels
+overlap by about one-third length of tibia when hind limbs adpressed;
+tibiotarsal articulation extends to middle of eye; tarsal fold weak,
+extending from moderately large, flat, elliptical inner metatarsal
+tubercle to middle of tarsus; outer metatarsal tubercle minute, round,
+indistinct; subarticular tubercles round; single row of small, round
+supernumerary tubercles on proximal segments of each digit; toes
+moderately short and slender; length of toes from shortest to longest,
+1-2-3-5-4, third and fifth about equal in length; toes about
+three-fourths webbed; web extending to base of terminal phalanx of
+fourth toe; discs small, about two-thirds size of those on fingers.
+Anal opening directed posteroventrally at middle of thighs; two
+transverse dermal folds above anus; short, thin anal sheath present;
+many small tubercles lateral and ventral to anal opening. Skin of
+dorsum, chin, and ventral surfaces of limbs smooth; belly moderately
+granular; posterior surfaces of thighs heavily granular; no thoracic
+fold. Tongue nearly round, shallowly notched behind, free posteriorly
+for about one-fourth its length; vomerine teeth, 3-4, long, situated
+on posteroventral edges of narrow transverse vomerine ridges between
+moderately large, round inner nares; no vocal slits.
+
+Color (in alcohol) purplish brown on dorsal surfaces of head, body,
+and limbs; fine darker reticulations on dorsum; flanks pale tan with
+dark brown spots; posterior surfaces of thighs tan; chin creamy white
+with brown spots; belly dusty white; undersides of thighs and shanks
+yellow; webbing grayish brown; undersides of first two fingers dusty
+white, of third and fourth fingers and of feet brown; anal stripe
+absent; small white flecks above and below anal opening.
+
+Color (in life) dark green on dorsal surfaces of head, body, and
+limbs; darker green reticulations on back; flanks dusty white with
+dark olive-gray mottling; dark olive-gray stripe from nostril through
+eye and then to insertion of forelimb; upper lips pale green; inguinal
+region, anterior and posterior surfaces of thighs dark yellowish
+orange; ventral surfaces of tarsi and shanks, and webbing of feet
+dusty yellow; belly white; iris silvery gold.
+
+    [Illustration: FIG. 3. Holotype of _Hyla charadricola_
+    (KU 58414). × 1.5.]
+
+_Variation._--Adult males have snout-vent lengths from 35.3 to 44.4
+mm., and adult females from 43.4 to 50.9 mm. No notable variation in
+structure is displayed in the type series. In some individuals the
+dark reticulation on the dorsum is faint. Juveniles in life had dorsal
+colorations varying from rich brown with darker reticulations to pale
+green or gray with dark green reticulations. Some adults when
+collected were pale green with faint or no dorsal reticulations; later
+these individuals darkened. In all specimens the anal stripe is
+absent, and the flanks are heavily spotted.
+
+_Comparisons.--Hyla charadricola_ differs from all other members of
+the _Hyla bistincta_ group in the following combination of characters:
+truncate snout, green dorsum, and absence of a thoracic fold. From
+other hylids that occur in the same area, _Hyla charadricola_ differs
+from _Hyla miotympanum_ and _H. arborescandens_, both of which are
+green dorsally, by having a truncate snout and longer fingers with
+less webbing. _Hyla eximia_, though green, has brown dorsal spots,
+shorter fingers, and a round snout. _Hyla robertsorum_ differs in
+having a round snout and brown dorsum, and _Hyla taeniopus_ is much
+larger, has transverse bands on the limbs, and has extensive webbing
+between fingers.
+
+_Remarks._--At the type locality, a shallow rocky stream in pine
+forest, _Hyla charadricola_ was found beneath rocks at the edge of
+fast moving sections of the stream and beneath rocks in shallow
+riffles in the stream. Most of the frogs were in water. At night
+they were found sitting on rocks in the stream. _Hyla miotympanum_,
+which is abundant at the type locality, lives in bushes and beneath
+rocks along the stream but usually is not found in the riffles inhabited
+by _Hyla charadricola_. At Lago de Tejocotal _Hyla charadricola_
+was found beneath rocks near the shore of the lake and by a
+stream in the pine forest. Individuals were found on low vegetation
+over-hanging a small stream in pine-oak forest four kilometers southwest
+of Tianguistengo.
+
+Five recently metamorphosed young (KU 58424-9) found at the
+type locality on June 8, 1960, have snout-vent lengths of 22.4 to
+24.0 (average 23.2) mm. The young are colored like the adults,
+except that in life the dorsum is a brighter green and the flanks are
+more yellow than tan and have less dark spotting than in adults.
+
+_Distribution.--Hyla charadricola_ inhabits streams in pine and
+pine-oak forests at elevations of 2000 to 2300 meters in northern
+Puebla and eastern Hidalgo (Fig. 2).
+
+Specimens examined.--HIDALGO: Lago de Tejocotal, 11 km. E
+Acaxochitlán, KU 58438, UMMZ 104032, 118165; 4 km. SW Tianguistengo,
+KU 53811-2. PUEBLA: _11.7 km. W Huachinango_, UMMZ 121567 (5); Río
+Totolapa, 14.4 km. W Huachinango, KU 53813-5, 55624, 58414-37, 59813
+(skeleton), 59886 (skeleton), MCZ 34964-5, UIMNH 50966, UMMZ 118166
+(5), S-2242 (skeleton).
+
+
+#Hyla robertsorum# Taylor
+
+    _Hyla robertsorum_ Taylor, Univ. Kansas Sci. Bull.,
+    26:393-396, figs. 5-6, November 27, 1940 [Holotype.--CNHM
+    100124 (formerly EHT-HMS 16264) from El Chico Parque
+    Nacional, Hidalgo, México; Mr. and Mrs. Radclyffe Roberts and
+    Edward H. Taylor collectors]; Univ. Kansas Sci. Bull.,
+    28:310, November 15, 1942. Taylor and Smith, Proc. U. S.
+    Natl. Mus., 95:589, June 30, 1945. Smith and Taylor, Bull. U.
+    S. Natl. Mus., 194:87, June 17, 1948; Univ. Kansas Sci.
+    Bull., 33:333, March 20, 1950. Rabb and Mosimann, Occas.
+    Papers Mus. Zool. Univ. Michigan, 563:1-9, March 29, 1955.
+    Duellman, Univ. Kansas Publ. Mus. Nat. Hist., 15:48, December
+    20, 1961.
+
+_Diagnosis._--Maximum snout-vent length in males, 48 mm.; snout in
+dorsal profile rounded; tarsal fold short and weak; inner metatarsal
+tubercle moderate in size and elliptical; outer metatarsal tubercle
+small, round, and indistinct; webbing extending to base of penultimate
+phalanx of fourth toe; nuptial spines on thumb small; weak thoracic
+fold present; anal opening above level of middle of thighs; dorsum
+dark brown with dark reticulations; venter brown with cream-colored
+flecks; flanks brown with creamy white spots; anal stripe absent;
+small white spots in anal region; vocal slits absent.
+
+_Description._--The following description is based on KU 57651 from El
+Chico Parque Nacional, Hidalgo. Adult male having a snout-vent length
+of 45.1 mm.; tibia length, 22.1 mm., 49.0 per cent of snout-vent
+length; foot length (measured from proximal edge of inner metatarsal
+tubercle to tip of longest toe), 21.5 mm.; greatest width of head,
+13.7 mm., 30.4 per cent of snout-vent length; head length, 12.6 mm.,
+27.9 per cent of snout-vent length; diameter of eye, 4.0 mm.; diameter
+of tympanum, 1.8 mm., 45 per cent of diameter of eye. Snout short, in
+lateral profile blunt, in dorsal profile round; canthus rounded;
+loreal region slightly concave; lips thick, round, and not flaring;
+nostrils slightly protuberant; internarial distance, 3.6 mm.;
+interorbital distance, 4.0 mm., slightly broader than width of eyelid,
+3.5 mm. A moderately heavy dermal fold from posterior corner of eye
+above tympanum and curving downward towards insertion of forearm;
+tympanum nearly round, covered by dermal fold above, its diameter
+slightly less than its distance from eye. Forearm moderately robust;
+distinct fold on wrist; prepollex much enlarged with patch of small
+nuptial spines continuous on side of digit; similar line of nuptial
+spines on inner edge of second finger; subarticular tubercles round,
+moderate in size, none bifid; supernumerary tubercles small and
+present only proximally; fingers long and slender; length of fingers
+from shortest to longest, 1-2-4-3; discs moderately large, that on
+third finger about size of tympanum; no web between first and second
+fingers; rudimentary web between other fingers. Legs robust; heels
+over-lap by about one-fourth length of shank when hind limbs
+adpressed; tibiotarsal articulation extending to posterior corner of
+eye; tarsal fold weak, extending to about middle of tarsus; inner
+metatarsal tubercle moderately large, flat, and elliptical; outer
+metatarsal tubercle small, round, and indistinct; subarticular
+tubercles round; supernumerary tubercles small, in single row on
+proximal segments of each digit; toes moderately long and slender;
+length of toes from shortest to longest, 1-2-5-3-4, the fifth nearly
+as long as third; toes nearly fully webbed; web extending to base of
+penultimate phalanx of fourth toe and to discs on other toes; discs
+small, about two-thirds size of those on fingers. Anal opening above
+middle of thighs; anal sheath short, deeply creased medially; heavy
+transverse dermal fold above anus; no large anal tubercles. Skin of
+all dorsal surfaces, chin, and ventral surfaces of limbs, except
+proximal parts of thighs, smooth; belly and proximal parts of thighs
+areolate; thoracic fold present, weak. Tongue elliptical, slightly
+longer than wide, not notched behind, and free posteriorly for about
+one-fourth of its length; vomerine teeth 3-3, situated on small,
+widely separated, transverse ridges between rather small elliptical
+inner nares; no vocal slits.
+
+Color (in alcohol) dark brown with irregular darker reticulations on
+dorsal surfaces of head, body, and limbs; flanks brown with small
+creamy white spots; posterior surfaces of thighs dark brown; chin
+creamy tan; belly grayish brown with cream-colored flecks; ventral
+surfaces of limbs pale brown; webbing on feet gray; small white spots
+in anal region.
+
+Color (in life) chocolate brown with darker brown reticulations and
+irregular blotches above; flanks brown with yellow spots; belly gray
+to grayish brown with faint cream-colored spots; iris a deep bronze
+color.
+
+_Variation._--In males the total number of vomerine teeth varies from
+4 to 7. In many specimens the vomerine ridges are larger and more
+closely approximated medially than in the specimen described above.
+Females attain snout-vent lengths of 51 mm., have as many as 9
+vomerine teeth, and have a proportionately larger tympanum than males.
+Some of the largest specimens of both sexes have indistinct
+cream-colored pustules scattered on the ventral surface of the
+forearm. Some individuals have nearly uniform grayish brown ventral
+surfaces; in others the chin, as well as the abdomen, is brown with
+cream-colored spots. The dorsal surfaces of some specimens are nearly
+uniform dark brown with no reticulations. In others the dorsum is
+paler brown with distinct darker mottling; in some of these there is
+little mottling laterally, so that there is the effect of an
+irregular, pale brown, dorsolateral stripe.
+
+_Tadpoles._--The tadpoles of this species were described by Rabb and
+Mosimann (1955). Tadpoles obtained from streams at 3.3 kilometers
+north and at 8.5 kilometers southeast of Zacualtipán, Hidalgo, are
+like those described by Rabb and Mosimann in having 2/3 tooth rows,
+peglike serrations on the beaks, and long rounded tails. The largest
+tadpole (KU 60078) has small hind legs, a body length of 22 mm., and a
+total length of 61 mm.
+
+_Remarks._--Taylor (1940:393) found frogs of this species in plants
+along small spring-fed rivulets in an open meadow at El Chico
+Parque Nacional. Also, he noted that active frogs dove into the
+streams and took refuge in the mud on the bottom. Rabb and
+Mosimann (1955:1) found this species along banks of tiny streams
+in open meadows and noted that the frogs sought refuge in the
+water. At El Chico Parque Nacional on June 8, 1960, I found _Hyla
+robertsorum_ under rocks along small rivulets by day; at night, when
+the temperature was 14° C., frogs were sitting on rocks and in
+junipers overhanging a small stream. At the same locality on June
+23 and 24, 1962, frogs of this species were found on rainy nights,
+when the temperature varied from 10 to 12° C. At this time the
+frogs were sitting on the grassy banks of rivulets in the meadow.
+During the day _Hyla robertsorum_ was found on the earthen banks
+of the rivulets in places where dense growths of grass overhung
+the streams. On December 23, 1959, one specimen of _Hyla robertsorum_
+was found beneath a rock in a small stream in pine forest at
+3.3 kilometers north of Zacualtipán.
+
+Rabb and Mosimann (1955:1) obtained tadpoles of _Hyla robertsorum_
+from quiet pools of a stream at El Chico Parque Nacional. I
+found tadpoles in pools in rocky streams in pine forest at 3.3 kilometers
+north and at 8.5 kilometers southeast of Zacualtipán. Four
+completely metamorphosed juveniles obtained on June 8, 1960, at
+El Chico Parque Nacional have snout-vent lengths of 30.6 to
+32.0 mm. Gravid females were found at the same locality on June
+8, 1960, and June 23, 1962.
+
+    [Illustration: FIG. 4. Map showing locality records for
+    _Hyla crassa_, _Hyla pachyderma_, and _Hyla robertsorum_.]
+
+_Distribution.--Hyla robertsorum_ inhabits streams in the pine and fir
+forests in the higher parts (2250 to 3050 meters) of the Sierra Madre
+Oriental in extreme northern Puebla and eastern Hidalgo (Fig. 4).
+
+Specimens examined.--HIDALGO: 16 km. W Agua Blanca, UMMZ 106432 (6);
+El Chico Parque Nacional, CNHM 75786, 100124, KU 57650-71, 59824-5
+(skeletons), 59914-5 (skeletons), 71269-95, 71757 (skeleton), UIMNH
+10349-64, 27022-35, 39434-49, UMMZ 92462, 106401 (5), 106443
+(tadpoles), USNM 114762-85, 134268; 3.3 km. N Zacualtipán, KU 53810,
+60078 (tadpoles); 8.5 km. SE Zacualtipán, KU 60079 (tadpoles). PUEBLA:
+Honey, UMMZ 95245.
+
+
+#Hyla pachyderma# Taylor
+
+    _Hyla pachyderma_ Taylor, Univ. Kansas Sci. Bull.,
+    28:308-310, pl. 27, figs. 1-4, November 12, 1942
+    [Holotype.--USNM 115029 from Pan de Olla, Veracruz, south of
+    Tezuitlán, Puebla, México; Hobart M. Smith collector]. Taylor
+    and Smith, Proc. U. S. Natl. Mus., 95:588, June 30, 1945.
+    Smith and Taylor, Bull. U. S. Natl. Mus., 194:86, June 17,
+    1948; Univ. Kansas Sci. Bull, 33:350, March 20, 1950. Rabb
+    and Mosimann, Occ. Papers Mus. Zool. Univ. Michigan, 563:7-8,
+    March 29, 1955.
+
+_Diagnosis._--Maximum snout-vent length in males 40 mm.; snout in
+dorsal profile round; tarsal fold strong; inner metatarsal tubercle
+round and moderate in size; outer metatarsal tubercle small and
+indistinct; webbing on foot extending to middle of penultimate phalanx
+of fourth toe; nuptial spines on thumb large; thoracic fold present;
+anal opening at level of middle of thighs; dorsum dull grayish brown
+with scattered indistinct dark flecks; venter cream-color mottled with
+brown on throat and chest; flanks grayish brown with cream-colored
+reticulations; anal stripe distinct, creamy white, sometimes extending
+outward on thighs; white spots or line below anus; vocal slits absent.
+
+_Description._--The following description is based on USNM 115028 from
+Pan de Olla, Veracruz. Adult male having a snout-vent length of 39.9
+mm.; tibia length, 21.0 mm., 52.6 per cent of snout-vent length; foot
+length (measured from proximal edge of inner metatarsal tubercle to
+tip of longest toe), 20.5 mm.; greatest width of head, 12.8 mm., 32.1
+per cent of snout-vent length; head length, 12.3 mm., 30.8 per cent of
+snout-vent length. Snout short, in lateral profile bluntly rounded, in
+dorsal profile rounded; canthus rounded; loreal region slightly
+concave; lips thick, round, and not flaring; nostrils slightly
+protuberant; internarial distance, 2.7 mm.; interorbital distance, 3.7
+mm., somewhat broader than eyelid, 2.9 mm. A heavy dermal fold from
+posterior corner of eye above tympanic region and then to insertion of
+forearm; tympanum completely concealed. Forearm moderately robust;
+distinct fold on wrist; prepollex enlarged bearing cluster of
+moderate-sized, horny, nuptial spines continuous on edge of digit; row
+of spines present on second finger; subarticular tubercles round,
+small proximally and slightly larger distally; supernumerary tubercles
+small and indistinct; three palmar tubercles, median and outer partly
+fused; fingers long, moderately slender; discs moderately large;
+length of fingers from shortest to longest, 1-2-4-3; second and fourth
+fingers subequal in length; webbing between fingers rudimentary. Heels
+overlap by about one-fourth length of shank when hind limbs adpressed;
+tibiotarsal articulation extends to anterior edge of eye; tarsal fold
+thick, low, extending nearly to heel; inner metatarsal tubercle
+moderately large and round; outer metatarsal tubercle small and
+indistinct; subarticular tubercles small and round; supernumerary
+tubercles small, present on proximal segments of digits; toes
+moderately long and slender; length of toes from shortest to longest,
+1-2-3-5-4; third and fifth toes subequal in length; toes about
+three-fourths webbed; web extending to middle of penultimate phalanx
+of fourth toe; discs rather small, about two-thirds size of those on
+fingers. Anal opening directed posteroventrally at level of middle of
+thighs; anal flap slightly elongate; thick, transverse dermal fold
+above anus. Skin of dorsum and ventral surfaces of limbs, except
+thighs, smooth; skin of chin, belly, and ventral surfaces of thighs
+granular; thoracic fold present. Tongue nearly round, slightly notched
+behind, and barely free posteriorly; vomerine teeth 3-3, situated on
+posteroventral edges of small, transverse vomerine ridges between
+rather large triangular inner nares; no vocal slits.
+
+Color (in alcohol) of dorsal surfaces of head, body, and limbs dull
+grayish brown with indistinct scattered darker flecks; flanks grayish
+brown with cream-colored reticulations; posterior surfaces of thighs
+tan; chin cream-color, mottled with brown; belly creamy yellow; anal
+stripe cream-color.
+
+_Variation._--In addition to the specimen described above three others
+are known. One is a juvenile having a snout-vent length of 29.5 mm.,
+and two are females having snout-vent lengths of 46.9 and 41.6 mm.
+Variation in structure and coloration between the four specimens is
+slight. In the females the tympani are partly visible and are about
+one-third the diameter of the eye; the chest is mottled with brown;
+the anal stripe extends laterally in the form of a row of
+cream-colored dashes and spots onto the posterodorsal surfaces of the
+thighs.
+
+_Remarks._--On the basis of the four specimens available for study,
+_Hyla pachyderma_ seems to be closely related to _Hyla crassa_ and
+_Hyla robertsorum_. In the _Hyla bistincta_ group, _Hyla pachyderma_
+is unique in having enlarged nuptial spines.
+
+Taylor and Smith (1945:588) stated that the frogs were found on
+bushes and weeds beside a small, bounding stream near Pan de Olla.
+I have searched unsuccessfully for this species in the area around
+Pan de Olla and Tezuitlán.
+
+_Distribution._--This species is known only from a stream at an
+elevation of about 1600 meters on the Atlantic slopes of the Sierra
+Madre Oriental in central Veracruz (Fig. 4).
+
+Specimens examined.--VERACRUZ: Pan de Olla, south of Tezuitlán,
+Puebla, USNM 115026-9.
+
+
+#Hyla crassa# (Brocchi)
+
+    _Cauphias crassus_ Brocchi, Bull. Soc. Philom. Paris, ser. 7,
+    1:130, 1877 [Holotype.--MNHN 6331 from "Mexico;" Adolphe
+    Boucard collector].
+
+    _Cauphias crassum_ Brocchi, Études des batraciens de
+    l'Amérique Centrale, p. 64, pl. 12, fig. 4, 1882. Díaz de
+    León, Indice de los batracios que se encuentran en la
+    República Mexicana, p. 21, June, 1904. Kellogg, Bull. U. S.
+    Nat. Mus., 160:118-120, March 31, 1932. Taylor, Univ. Kansas
+    Sci. Bull., 26:392, November 15, 1940. Rabb and Mosimann,
+    Occas. Papers Mus. Zool. Univ. Michigan, 563:7, March 29,
+    1955.
+
+    _Hyla crassa_, Boulenger, Catalogue Batrachia Salientia,
+    2nd. Ed., p. 396, February 1, 1882. Günther, Biologia
+    Centrali-Americana, Reptilia and Batrachia, p. 281,
+    September, 1901. Nieden, Das Tierreich, Amphibia, Anura 1,
+    p. 248, June, 1923. Smith and Taylor, Bull. U. S. Natl. Mus.,
+    194:86, June 17, 1948. Taylor, Amer. Mus. Novitates, 1437:20,
+    December 7, 1949.
+
+    _Hypsiboas crassus_, Cope, Bull. U. S. Natl. Mus., 32:14,
+    1887.
+
+    _Hyla robustofemora_ Taylor, Univ. Kansas Sci. Bull.,
+    26:389-393, figs. 3-4, November 27, 1940 [Holotype.--UIMNH
+    25050 (formerly EHT-HMS 16314) from Cerro San Felipe, 15
+    kilometers northeast of Oaxaca, Oaxaca, México; Edward H.
+    Taylor collector]; Univ. Kansas Sci. Bull., 28:310, November
+    15, 1942. Smith and Taylor, Bull. U. S. Natl. Mus., 194:86,
+    June 17, 1948. Taylor, Amer. Mus. Novitates, 1437:20,
+    December 7, 1949. Smith and Taylor, Univ. Kansas Sci. Bull.,
+    33:339, March 20, 1950. Rabb and Mosimann, Occas. Papers Mus.
+    Zool. Univ. Michigan, 563:7, March 29, 1955.
+
+    _Plectrohyla crassa_, Hartweg, Occas. Papers Mus. Zool. Univ.
+    Michigan, 437:1, June 30, 1941. Stuart, Occas. Papers Mus.
+    Zool. Univ. Michigan, 455:6, January 5, 1942.
+
+_Diagnosis._--Maximum snout-vent length in males 54 mm.; snout in
+dorsal profile round; tarsal fold strong; inner metatarsal tubercle
+small and elliptical; outer metatarsal tubercle small, flat, and
+indistinct; foot fully webbed; nuptial spines on thumb small; thoracic
+fold absent; anal opening at level of middle of femur; dorsum dull
+olive-green; belly creamy yellow; chin gray with yellow flecks; flanks
+dull olive-green with scattered cream-colored spots; and stripe faint,
+cream-color; vocal slits absent.
+
+_Description._--The following description is based on UIMNH 25050 from
+Cerro San Felipe, Oaxaca. Adult male having a snout-vent length of
+53.7 mm.; tibia length, 26.9 mm., 50.1 per cent of snout-vent length;
+foot length (measured from proximal edge of inner metatarsal tubercle
+to tip of longest toe), 25.4 mm.; greatest width of head, 17.6 mm.,
+32.8 per cent of snout-vent length; head length, 16.0 mm., 29.8 per
+cent of snout-vent length; diameter of eye, 5.4 mm.; diameter of
+tympanum, 1.5 mm., 27.8 per cent of diameter of eye. Snout short, in
+lateral profile bluntly rounded, in dorsal profile broadly round;
+canthus absent; loreal region nearly flat; lips thick and not flaring;
+nostrils barely protuberant; internarial distance, 3.8 mm.;
+interorbital distance, 4.7 mm., somewhat broader than width of eyelid,
+3.8 mm. Heavy dermal fold from posterior corner of eye above tympanum
+and then to insertion of forearm; tympanum concealed above, its
+diameter about equal to its distance from eye. Forearm thick; distinct
+fold on wrist; prepollex enlarged bearing patch of small nuptial
+spines continuous on side of digit; similar patch on second finger;
+subarticular tubercles small and round, none bifid; few supernumerary
+tubercles on proximal segments of digits; large, flat palmar tubercle;
+fingers long and slender; length of fingers from shortest to longest,
+1-2-4-3; discs moderately large; rudimentary web between second and
+third fingers and between third and fourth. Legs thick; heels overlap
+by about one-fourth length of shank when hindlimbs adpressed;
+tibiotarsal articulation extends to posterior corner of eye; tarsal
+fold thick, extending to heel; inner metatarsal tubercle small and
+elliptical; outer metatarsal tubercle small, flat, and indistinct;
+subarticular tubercles small and round; single row of supernumerary
+tubercles on proximal segments of each digit; toes moderately short
+and slender; length of toes from shortest to longest, 1-2-3-5-4; toes
+fully webbed; flap of skin on inner surface of first toe; discs about
+same size as those on fingers. Anal opening directed posteroventrally
+at middle of thighs; anal sheath moderately elongate; small tubercles
+below anal opening. Skin of dorsum rather smooth, somewhat granular
+on dorsal surfaces of limbs; skin of chin and belly moderately
+granular; that of posterior surfaces of thighs smooth; no thoracic
+fold. Tongue nearly round, shallowly notched posteriorly, and free for
+about one-fourth its length; vomerine teeth 5-5, situated on rounded
+ridges between small inner nares; no vocal slits.
+
+Color (in alcohol) dull olive-green on dorsal surfaces of head, body,
+and limbs; flanks dull olive-green with scattered cream-colored spots;
+posterior surfaces of thighs grayish brown with faint creamy mottling;
+chin gray with cream-colored spots; belly creamy yellow, suffused with
+gray posteriorly; undersides of feet and webbing gray; anal stripe
+faint, pale cream-color.
+
+_Variation._--The only other known specimen (MNHN 6331) is a female
+having a snout-vent length of 53.7 mm. and resembling the specimen
+described above in most details of morphology. In MNHN 6331 the
+tympanum is completely concealed, and the 8-7 vomerine teeth are
+arranged in two irregular rows. The female has more cream-colored
+mottling on the flanks and posterior surfaces of the thighs and more
+distinct mottling on the throat than the male described above.
+
+_Remarks._--The systematic status of _Cauphias crassus_ Brocchi has
+been in doubt since the time of the original description. Brocchi
+(1877:130) stated: "Les dernieres phalanges sont obtuses, tronqués a
+leur extrémité antérieure." Brocchi placed the species in his genus
+_Cauphias_ (type species, _C. guatemalensis_), which he considered to
+be related to _Hylodes_ ( = _Eleutherodactylus_ in the sense used by
+Brocchi); he thereby placed _Cauphias_ in his Hylodidae ( =
+Leptodactylidae, in part). This idea of relationships was perpetuated
+by Barbour (1927:96), who reported on the second known specimen of
+_Cauphias guatemalensis_ and stated: "When I dissected the sternum I
+was at once struck by its similarity to Noble's figures of
+transitional types between arciferal and firmisternal forms. The
+_Cauphias_ sternum recalls some of his figures for _Sminthillus_ and
+_Eleutherodactylus_. This genus is probably most closely related to
+the latter and has probably become highly modified to meet some
+peculiar environmental condition or on account of some specialized
+habits as yet unknown." Kellogg (1932:118) placed _Cauphias_ in the
+Leptodactylidae and stated that the terminal phalanges are T-shaped.
+Hartweg (1941:1) considered _Plectrohyla_ to be the correct generic
+name for _Cauphias guatemalensis_; he thereby relegated _Cauphias_ to
+the synonomy of _Plectrohyla_. Hartweg (1941:9) further showed that
+the terminal phalanges of _Plectrohyla guatemalensis_ were not
+T-shaped and that intercalary cartilages were present. Thus, he
+correctly concluded that _Plectrohyla guatemalensis_ (and _P. crassa_
+by implication) was a member of the family Hylidae. Stuart (1942:6)
+followed Hartweg's allocations and further suggested that _Plectrohyla
+crassa_ might be the same species as _Hyla robustofemora_ Taylor. In
+his description of _H. robustofemora_ Taylor (1940:392), who had not
+examined the type of _Cauphias crassus_, stated that were it not for
+the statements of Brocchi and Kellogg that _C. crassus_ has T-shaped
+terminal phalanges, "I might suspect I had before me a specimen of
+_Cauphias_ closely related to _crassum_."
+
+I have compared the type of _Cauphias crassus_ with that of _Hyla
+robustofemora_. With the exception of the minor differences mentioned
+in the preceding section on variation, the specimens are alike,
+leaving little doubt that they represent the same species. The
+statements of Brocchi and Kellogg to the contrary, the type of
+_Cauphias crassus_ possesses intercalary cartilages between the
+penultimate and terminal phalanges; the latter are not T-shaped, but
+as in the type of _Hyla robustofemora_, resemble those typical of
+_Hyla_. On the basis of the morphological characters, as pointed out
+for _Hyla robustofemora_ by Taylor (1940:392), _Hyla crassa_ is a
+member of the _Hyla bistincta_ group.
+
+_Distribution._--This species is definitely known only from a small
+stream at an elevation of 2300 meters in the mountains of central
+Oaxaca (Fig. 4).
+
+Specimens examined.--OAXACA: Cerro San Felipe, UIMNH 25050. "Mexico,"
+MNHN 6331.
+
+
+
+
+RELATIONSHIPS
+
+
+The evolutionary trend in the members of the _Hyla bistincta_ group
+is towards aquatic habits. _Hyla bistincta_, the least specialized
+species in the group, has relatively short fingers, webbing between
+the fingers, a truncate, high snout, and relatively large subarticular
+and supernumerary tubercles. _Hyla charadricola_ resembles _bistincta_
+in having relatively short fingers, a slight amount of webbing, and a
+truncate snout. Apparently these two species are more closely related
+to one another than either is to the other species in the group. _Hyla
+robertsorum_, _pachyderma_, and _crassa_ are the most aquatic members
+of the group. These species are closely related, possibly conspecific.
+All have round, sloping snouts, robust forearms, long, unwebbed
+fingers, and large webbed feet. Both _H. pachyderma_ and _H. crassa_
+seem to be advanced beyond _H. robertsorum_. If small nuptial spines,
+moderately webbed feet, and absence of a well-defined thoracic fold
+are considered to be less advanced than large nuptial spines and a
+strong thoracic fold, as in _H. pachyderma_, or fully webbed feet, as
+in _H. crassa_, then _H. robertsorum_ must be considered to be less
+advanced than _H. pachyderma_ or _H. crassa_.
+
+Members of the _Hyla bistincta_ group inhabit mountain streams. The
+frogs can be found along these streams throughout the year. Since in
+most stream-breeding hylids there is no migration to breeding sites,
+the breeding call does not function to attract females to the breeding
+site. Apparently voices are lacking in all members of the _Hyla
+bistincta_ group, except in _Hyla bistincta_. The presence of vocal
+slits and the ability to call further indicate that _Hyla bistincta_
+is the primitive member of this group.
+
+Members of the _Hyla bistincta_ group and the species of _Plectrohyla_
+closely resemble each other in osteology and body form of the adults
+and in structure of the tadpoles. This resemblance suggests a close
+relationship between the two groups. _Plectrohyla_ apparently evolved
+from an ancestral stock resembling the extant _Hyla bistincta_.
+Probably this stock gave rise independently to _Plectrohyla_ and
+to the _Hyla robertsorum-pachyderma-crassa_ complex. In the former
+the voice was retained, and a projecting prepollex spine developed,
+whereas in the latter the voice was lost, and the prepollex spine
+did not project. _Plectrohyla_ lives in mountain streams in the
+Chiapan-Guatemalan highlands; the _Hyla robertsorum-pachyderma-crassa_
+complex inhabits similar environments in the Sierra Madre Oriental in
+México. _Hyla charadricola_ also lives in the Sierra Madre Oriental,
+whereas _Hyla bistincta_ is widespread in the mountains of México
+southeastward to the Isthmus of Tehuantepec.
+
+
+
+
+LITERATURE CITED
+
+
+BARBOUR, T.
+
+  1927. _Cauphias_ rediscovered. Copeia, no. 165:96-98,
+        December 23.
+
+BROCCHI, P.
+
+  1877. Note sur quelques batraciens hylaeformes recueillis au
+        Mexique et au Guatemala. Bull. Soc. Philom. Paris, ser.
+        7, 1 (3):122-132.
+
+DUELLMAN, W. E.
+
+  1961. The amphibians and reptiles of Michoacán, México. Univ.
+        Kansas Publ. Mus. Nat. Hist., 15:1-148, pls. 1-6, December
+        20.
+
+HARTWEG, N.
+
+  1941. Notes on the genus _Plectrohyla_, with descriptions of
+        new species. Occas. Papers Mus. Zool. Univ. Michigan,
+        437:1-10, pl. 1, June 30.
+
+KELLOGG, R.
+
+  1932. Mexican tailless amphibians in the United States National
+        Museum. Bull. U. S. Natl. Mus., 160:iv + 224 pp., pl. 1,
+        March 31.
+
+RABB, G. B. and MOSIMANN, J. E.
+
+  1955. The tadpole of _Hyla robertsorum_, with comments on the
+        affinities of the species. Occas. Papers Mus. Zool. Univ.
+        Michigan, 563:1-9, March 29.
+
+SHANNON, F. A.
+
+  1951. Notes on a herpetological collection from Oaxaca and
+        other localities in Mexico. Proc. U. S. Natl. Mus.,
+        101:465-484, May 17.
+
+STUART, L. C.
+
+  1942. Descriptions of two new species of _Plectrohyla_ Brocchi,
+        with comments on several forms of tadpoles. Occas. Papers
+        Mus. Zool. Univ. Michigan, 455:1-14, January 5.
+
+TAYLOR, E. H.
+
+  1940. New species of Mexican Anura. Univ. Kansas Sci. Bull.,
+        41:385-405, November 27.
+
+  1948. A new hylid frog from eastern Mexico. Univ. Kansas
+        Publ. Mus. Nat. Hist., 1:259-262, August 16.
+
+  1949. A new hylid frog from central Veracruz. Copeia, 1949
+        (4):272-274, pl. 1, December 15.
+
+TAYLOR, E. H. and SMITH, H. M.
+
+  1945. Summary of the collections of amphibians made in México
+        under the Walter Rathbone Bacon Traveling Scholarship.
+        Proc. U. S. Natl. Mus., 95:521-613, pls. 18-32, June 30.
+
+  _Transmitted June 24, 1963._
+
+
+                               29-8590
+
+
+
+
+
+End of the Project Gutenberg EBook of A Review of the Frogs of the Hyla
+bistincta Group, by William E. Duellman
+
+*** END OF THIS PROJECT GUTENBERG EBOOK FROGS--HYLA BISTINCTA GROUP ***
+
+***** This file should be named 32653-8.txt or 32653-8.zip *****
+This and all associated files of various formats will be found in:
+        https://www.gutenberg.org/3/2/6/5/32653/
+
+Produced by Chris Curnow, Joseph Cooper and the Online
+Distributed Proofreading Team at https://www.pgdp.net
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+https://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at https://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+https://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at https://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit https://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including including checks, online payments and credit card
+donations.  To donate, please visit: https://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart was the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     https://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.

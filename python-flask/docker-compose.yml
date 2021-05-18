@@ -1,0 +1,52 @@
+version: '3'
+services:
+  python:
+    image: python-flask
+    container_name: python-flask
+    build:
+      context: ./
+      dockerfile: Dockerfile-python
+    environment:
+    -  COMPOSE_HTTP_TIMEOUT:240
+    ports:
+    - "10000:5000"
+    volumes:
+    - /home/yuki-yos/sampleapp1/python-flask:/workspace
+    - /etc/group:/etc/group:ro #read only
+    - /etc/passwd:/etc/passwd:ro #read only
+    tty: true
+    networks:
+      - my-network
+
+  sql:
+    image: mysql
+    container_name: mysql
+    build:
+      context: ./
+      dockerfile: Dockerfile-sql
+    restart: on-failure
+    hostname: my-mysql
+    env_file:
+      - .env
+    environment:
+      MYSQL_USER: sample_user
+      MYSQL_DATABASE: sample_db
+      TZ: "Asia/Tokyo"
+      BIND-ADDRESS: 0.0.0.0
+    expose:
+      - "3306"
+    ports:
+      - "3306:3306"
+    # データを永続化させる場合
+    volumes:
+      # 初期データを投入するSQLが格納されているdir
+      - /home/yuki-yos/sampleapp1/mysql/initdb:/docker-entrypoint-initdb.d
+      # 永続化するときにマウントするdir
+      - /home/yuki-yos/sampleapp1/mysql/db:/var/lib/mysql
+    tty: true
+    networks:
+      - my-network
+
+networks:
+    my-network:
+        external: true

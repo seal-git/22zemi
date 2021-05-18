@@ -1,0 +1,3715 @@
+The Project Gutenberg EBook of The Woodpeckers, by Fannie Hardy Eckstorm
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: The Woodpeckers
+
+Author: Fannie Hardy Eckstorm
+
+Release Date: January 25, 2011 [EBook #35062]
+
+Language: English
+
+Character set encoding: ISO-8859-1
+
+*** START OF THIS PROJECT GUTENBERG EBOOK THE WOODPECKERS ***
+
+
+
+
+Produced by Bryan Ness, Steve Read and the Online
+Distributed Proofreading Team at https://www.pgdp.net (This
+file was produced from images generously made available
+by The Internet Archive/Canadian Libraries)
+
+
+
+
+
+
+[Illustration]
+
+
+
+
+      THE WOODPECKERS
+
+             BY
+
+    FANNIE HARDY ECKSTORM
+
+      WITH ILLUSTRATIONS
+
+[Illustration]
+
+        BOSTON AND NEW YORK
+    HOUGHTON, MIFFLIN AND COMPANY
+    The Riverside Press, Cambridge
+               1901
+
+
+
+
+COPYRIGHT, 1900, BY FANNIE HARDY ECKSTORM
+
+ALL RIGHTS RESERVED
+
+_To_ MY FATHER MR. MANLY HARDY _A Lifelong Naturalist_
+
+
+
+
+CONTENTS
+
+
+    CHAP.                                               PAGE
+
+          FOREWORD: THE RIDDLERS                           1
+
+       I. HOW TO KNOW A WOODPECKER                         4
+
+      II. HOW THE WOODPECKER CATCHES A GRUB                9
+
+     III. HOW THE WOODPECKER COURTS HIS MATE              15
+
+      IV. HOW THE WOODPECKER MAKES A HOUSE                20
+
+       V. HOW A FLICKER FEEDS HER YOUNG                   24
+
+      VI. FRIEND DOWNY                                    28
+
+     VII. PERSONA NON GRATA. (YELLOW-BELLIED SAPSUCKER)   33
+
+    VIII. EL CARPINTERO. (CALIFORNIAN WOODPECKER)         46
+
+      IX. A RED-HEADED COUSIN. (RED-HEADED WOODPECKER)    55
+
+       X. A STUDY OF ACQUIRED HABITS                      60
+
+      XI. THE WOODPECKER'S TOOLS: HIS BILL                68
+
+     XII. THE WOODPECKER'S TOOLS: HIS FOOT                77
+
+    XIII. THE WOODPECKER'S TOOLS: HIS TAIL                86
+
+     XIV. THE WOODPECKER'S TOOLS: HIS TONGUE              99
+
+      XV. HOW EACH WOODPECKER IS FITTED FOR HIS OWN
+                               KIND OF LIFE              104
+
+     XVI. THE ARGUMENT FROM DESIGN                       110
+
+    APPENDIX                                             113
+
+       A. KEY TO THE WOODPECKERS OF NORTH AMERICA        114
+
+       B. DESCRIPTIONS OF THE WOODPECKERS OF
+                               NORTH AMERICA             117
+
+
+
+
+LIST OF ILLUSTRATIONS
+
+
+                                                        PAGE
+
+    Flicker (colored)                         _Frontispiece_
+
+    Boring Larva                                          10
+
+    Indian Spear                                          12
+
+    Solomon Islander's Spear                              13
+
+    Downy Woodpecker (colored)                   _facing_ 28
+
+    Bark showing Work of Sapsucker                        34
+
+    Yellow-bellied Sapsucker (colored)           _facing_ 34
+
+    Trunk of Tree showing Work of Californian Woodpecker  47
+
+    Californian Woodpecker (colored)             _facing_ 48
+
+    Red-headed Woodpecker (colored)              _facing_ 56
+
+    Head of the Lewis's Woodpecker                        59
+
+    Head of Ivory-billed Woodpecker                       70
+
+    Foot of Woodpecker                                    77
+
+    Diagram of Right Foot                                 79
+
+    Foot of Three-toed Woodpecker                         80
+
+    Tail of Hairy Woodpecker                              86
+
+    Tails of Brown Creeper and Chimney Swift              87
+
+    Middle Tail Feathers of Flicker, Ivory-billed
+             Woodpecker, and Hairy Woodpecker             89
+
+    Diagram of Curvature of Tails of Woodpeckers          90
+
+    Patterns of Tails                                     91
+
+    Under Side of Middle Tail Feather of
+             Ivory-billed Woodpecker                      97
+
+    Tongue of Hairy Woodpecker                            99
+
+    Tongue-bones of Flicker                              100
+
+    Skull of Woodpecker, showing Bones of Tongue         101
+
+    Hyoids of Sapsucker and Golden-fronted Woodpecker    102
+
+    Diagram of Head of a Flicker                         113
+
+_The colored illustrations are by Louis Agassiz Fuertes.
+ The text cuts are from drawings by John L. Ridgway._
+
+
+
+
+THE WOODPECKERS
+
+
+
+
+FOREWORD: THE RIDDLERS
+
+
+Long ago in Greece, the legend runs, a terrible monster called the
+Sphinx used to waylay travelers to ask them riddles: whoever could not
+answer these she killed, but the man who did answer them killed her and
+made an end of her riddling.
+
+To-day there is no Sphinx to fear, yet the world is full of unguessed
+riddles. No thoughtful man can go far afield but some bird or flower or
+stone bars his way with a question demanding an answer; and though many
+men have been diligently spelling out the answers for many years, and we
+for the most part must study the answers they have proved, and must
+reply in their words, yet those shrewd old riddlers, the birds and
+flowers and bees, are always ready for a new victim, putting their heads
+together over some new enigma to bar the road to knowledge till that,
+too, shall be answered; so that other men's learning does not always
+suffice. So much of a man's pleasure in life, so much of his power,
+depends on his ability to silence these persistent questioners, that
+this little book was written with the hope of making clearer the kind of
+questions Dame Nature asks, and the way to get correct answers.
+
+This is purposely a _little_ book, dealing only with a single group of
+birds, treating particularly only some of the commoner species of that
+group, taking up only a few of the problems that present themselves to
+the naturalist for solution, and aiming rather to make the reader
+_acquainted with_ the birds than _learned about_ them.
+
+The woodpeckers were selected in preference to any other family because
+they are patient under observation, easily identified, resident in all
+parts of the country both in summer and in winter, and because more than
+any other birds they leave behind them records of their work which may
+be studied after the birds have flown. The book provides ample means for
+identifying every species and subspecies of woodpecker known in North
+America, though only five of the commonest and most interesting species
+have been selected for special study. At least three of these five
+should be found in almost every part of the country. The Californian
+woodpecker is never seen in the East, nor the red-headed in the far
+West, but the downy and the hairy are resident nearly everywhere, and
+some species of the flickers and sapsuckers, if not always the ones
+chosen for special notice, are visitors in most localities.
+
+Look for the woodpeckers in orchards and along the edges of thickets,
+among tangles of wild grapes and in patches of low, wild berries, upon
+which they often feed, among dead trees and in the track of forest
+fires. Wherever there are boring larvæ, beetles, ants, grasshoppers, the
+fruit of poison-ivy, dogwood, june-berry, wild cherry or wild grapes,
+woodpeckers may be confidently looked for if there are any in the
+neighborhood. Be patient, persistent, wide-awake, sure that you see what
+you think you see, careful to remember what you have seen, studious to
+compare your observations, and keen to hear the questions propounded
+you. If you do this seven years and a day, you will earn the name of
+Naturalist; and if you travel the road of the naturalist with curious
+patience, you may some day become as famous a riddle-reader as was that
+Oedipus, the king of Thebes, who slew the Sphinx.
+
+
+
+
+I
+
+HOW TO KNOW A WOODPECKER
+
+
+The woodpecker is the easiest of all birds to recognize. Even if
+entirely new to you, you may readily decide whether a bird is a
+woodpecker or not.
+
+The woodpecker is always striking and is often gay in color. He is
+usually noisy, and his note is clear and characteristic. His shape and
+habits are peculiar, so that whenever you see a bird clinging to the
+side of a tree "as if he had been thrown at it and stuck," you may
+safely call him a woodpecker. Not that all birds which cling to the bark
+of trees are woodpeckers,--for the chickadees, the crested titmice, the
+nuthatches, the brown creepers, and a few others like the kinglets and
+some wrens and wood-warblers more or less habitually climb up and down
+the tree-trunks; but these do it with a pretty grace wholly unlike the
+woodpecker's awkward, cling-fast way of holding on. As the largest of
+these is smaller than the smallest woodpecker, and as none of them
+(excepting only the tiny kinglets) ever shows the patch of yellow or
+scarlet which always marks the head of the male woodpecker, and which
+sometimes adorns his mate, there is no danger of making mistakes.
+
+The nuthatches are the only birds likely to be confused with
+woodpeckers, and these have the peculiar habit of traveling down a
+tree-trunk with their heads pointing to the ground. A woodpecker never
+does this; he may move down the trunk of the tree he is working on, but
+he will do it by hopping backward. A still surer sign of the woodpecker
+is the way he sits upon his tail, using it to brace him. No other birds
+except the chimney swift and the little brown creeper ever do this. A
+sure mark, also, is his feet, which have two toes turned forward and two
+turned backward. We find this arrangement in no other North American
+birds except the cuckoos and our one native parroquet. However, there is
+one small group of woodpeckers which have but three toes, and these are
+the only North American land-birds that do not have four well-developed
+toes.
+
+In coloration the woodpeckers show a strong family likeness. Except in
+some young birds, the color is always brilliant and often is gaudy.
+Usually it shows much clear black and white, with dashes of scarlet or
+yellow about the head. Sometimes the colors are "solid," as in the
+red-headed woodpecker; sometimes they lie in close bars, as in the
+red-bellied species; sometimes in spots and stripes, as in the downy and
+hairy; but there is always a _contrast_, never any blending of hues. The
+red or yellow is laid on in well-defined patches--square, oblong, or
+crescentic--upon the crown, the nape, the jaws, or the throat; or else
+in stripes or streaks down the sides of the head and neck, as in the
+logcock, or pileated woodpecker.
+
+There is no rule about the color markings of the sexes, as in some
+families of birds. Usually the female lacks all the bright markings of
+the male; sometimes, as in the logcock, she has them but in more
+restricted areas; sometimes, as in the flickers, she has all but one of
+the male's color patches; and in a few species, as the red-headed and
+Lewis's woodpeckers, the two sexes are precisely alike in color. In the
+black-breasted woodpecker, sometimes called Williamson's sapsucker, the
+male and female are so totally different that they were long described
+and named as different birds. It sometimes happens that a young female
+will show the color marks of the male, but will retain them only the
+first year.
+
+Though the woodpeckers cling to the trunks of trees, they are not
+exclusively climbing birds. Some kinds, like the flickers, are quite as
+frequently found on the ground, wading in the grass like meadowlarks.
+Often we may frighten them from the tangled vines of the frost grape and
+the branches of wild cherry trees, or from clumps of poison-ivy, whither
+they come to eat the fruit. The red-headed woodpecker is fond of sitting
+on fence posts and telegraph poles; and both he and the flicker
+frequently alight on the roofs of barns and houses and go pecking and
+pattering over the shingles. The sapsuckers and several other kinds will
+perch on dead limbs, like a flycatcher, on the watch for insects; the
+flickers, and more rarely other kinds, will sit crosswise of a limb
+instead of crouching lengthwise of it, as is the custom with
+woodpeckers.
+
+All these points you will soon learn. You will become familiar with the
+form, the flight, and the calls of the different woodpeckers; you will
+learn not only to know them by name, but to understand their characters;
+they will become your acquaintances, and later on your friends.
+
+This heavy bird, with straight, chisel bill and sharp-pointed
+tail-feathers; with his short legs and wide, flapping wings, his
+unmusical but not disagreeable voice, and his heavy, undulating,
+business-like flight, is distinctly bourgeois, the type of a bird
+devoted to business and enjoying it. No other bird has so much work to
+do all the year round, and none performs his task with more energy and
+sense. The woodpecker makes no aristocratic pretensions, puts on none of
+the coy graces and affectations of the professional singer; even his gay
+clothes fit him less jauntily than they would another bird. He is
+artisan to the backbone,--a plain, hard-working, useful citizen,
+spending his life in hammering holes in anything that appears to need a
+hole in it. Yet he is neither morose nor unsocial. There is a vein of
+humor in him, a large reserve of mirth and jollity. We see little of it
+except in the spring, and then for a time all the laughter in him
+bubbles up; he becomes uproarious in his glee, and the melody which he
+cannot vent in song he works out in the channels of his trade, filling
+the woodland with loud and harmonious rappings. Above all other birds he
+is the friend of man, and deserves to have the freedom of the fields.
+
+
+
+
+II
+
+HOW THE WOODPECKER CATCHES A GRUB
+
+
+Did you ever see a hairy woodpecker strolling about a tree for what he
+could pick up?
+
+There is a _whur-r-rp_ of gay black and white wings and the flash of a
+scarlet topknot as, with a sharp cry, he dashes past you, strikes the
+limb solidly with both feet, and instantly sidles behind it, from which
+safe retreat he keeps a sharp black eye fixed upon your motions. If you
+make friends with him by keeping quiet, he will presently forgive you
+for being there and hop to your side of the limb, pursuing his ordinary
+work in the usual way, turning his head from side to side, inspecting
+every crevice, and picking up whatever looks appetizing. Any knot or
+little seam in the bark is twice scanned; in such places moths and
+beetles lay their eggs. Little cocoons are always dainty morsels, and
+large cocoons contain a feast. The butterfly-hunter who is hoping to
+hatch out some fine cecropia moths knows well that a large proportion of
+all the cocoons he discovers will be empty. The hairy woodpecker has
+been there before him, and has torn the chrysalis out of its silken
+cradle. For this the farmer should thank him heartily, even if the
+butterfly-hunter does not, for the cecropia caterpillar is destructive.
+
+But sometimes, on the fair bark of a smooth limb, the woodpecker stops,
+listens, taps, and begins to drill. He works with haste and energy,
+laying open a deep hole. For what? An apple-tree borer was there cutting
+out the life of the tree. The farmer could see no sign of him; neither
+could the woodpecker, but he could hear the strong grub down in his
+little chamber gnawing to make it longer, or, frightened by the heavy
+footsteps on his roof, scrambling out of the way.
+
+[Illustration: Boring larva.]
+
+It is easy to hear the borer at work in the tree. When a pine forest has
+been burned and the trees are dead but still standing, there will be
+such a crunching and grinding of borers eating the dead wood that it can
+be heard on all sides many yards away. Even a single borer can sometimes
+be heard distinctly by putting the ear to the tree. Sound travels much
+farther through solids than it does through air; notice how much farther
+you can hear a railroad train by the click of the rails than by the
+noise that comes on the air. Even our dull ears can detect the woodworm,
+but we cannot locate him. How, then, is the woodpecker to do what we
+cannot do?
+
+Doubtless experience teaches him much, but one observer suggests that
+the woodpecker places the grub by the sense of touch. He says he has
+seen the red-headed woodpecker drop his wings till they trailed along
+the branch, as if to determine where the vibrations in the wood were
+strongest, and thus to decide where the grub was boring. But no one else
+appears to have noticed that woodpeckers are in the habit of trailing
+their wings as they drill for grubs. It would be a capital study for one
+to attempt to discover whether the woodpecker locates his grub by
+feeling, or whether he does it by hearing alone. Only one should be sure
+he is looking for grubs and not for beetles' eggs, nor for ants, nor for
+caterpillars. By the energy with which he drills, and the size of the
+hole left after he has found his tidbit, one can decide whether he was
+working for a borer.
+
+But when the borer has been located, he has yet to be captured. There
+are many kinds of borers. Some channel a groove just beneath the bark
+and are easily taken; but others tunnel deep into the wood. I measured
+such a hole the other day, and found it was more than eight inches long
+and larger than a lead-pencil, bored through solid rock-maple wood. The
+woodpecker must sink a hole at right angles to this channel and draw the
+big grub out through his small, rough-sided hole. You would be
+surprised, if you tried to do the same with a pair of nippers the size
+of the woodpecker's bill, to find how strong the borer is, how he can
+buckle and twist, how he braces himself against the walls of his house.
+Were your strength no greater than the woodpecker's, the task would be
+much harder. Indeed, a large grub would stand a good chance of getting
+away but for one thing, the woodpecker _spears_ him, and thereby saves
+many a dinner for himself.
+
+[Illustration: Indian spear.]
+
+Here is a primitive Indian fish-spear, such as the Penobscots used. To
+the end of a long pole two wooden jaws are tied loosely enough to spring
+apart a little under pressure, and midway between them, firmly driven
+into the end of the pole, is a point of iron. When a fish was struck,
+the jaws sprung apart under the force of the blow, guiding the iron
+through the body of the fish, which was held securely in the hollow
+above, that just fitted around his sides, and by the point itself.
+
+[Illustration: Solomon Islander's spear.]
+
+The tool with which the woodpecker fishes for a grub is very much the
+same. His mandibles correspond to the two movable jaws. They are
+knife-edged, and the lower fits exactly inside the upper, so that they
+give a very firm grip. In addition, the upper one is movable. All birds
+can move the upper mandible, because it is hinged to the skull. (Watch a
+parrot some day, if you do not believe it.) A medium-sized woodpecker,
+like the Lewis's, can elevate his upper mandible at least a quarter of
+an inch without opening his mouth at all. This enables him to draw his
+prey through a smaller hole than would be needed if he must open his
+jaws along their whole length. Between the mandibles is the
+sharp-pointed tongue, which can be thrust entirely through a grub,
+holding him impaled. Unlike the Indian's spear-point, the woodpecker's
+tongue is barbed heavily on both sides, and it is extensile. As a tool
+it resembles the Solomon Islander's spear. A medium-sized woodpecker can
+dart his tongue out two inches or more beyond the tip of his bill. A New
+Bedford boy might tell us, and very correctly, that the woodpecker
+_harpoons_ his grub, just as a whaleman harpoons a whale. If the grub
+tries to back off into his burrow, out darts the long, barbed tongue and
+spears him. Then it drags him along the crooked tunnel and into the
+narrow shaft picked by the woodpecker, where the strong jaws seize and
+hold him firmly.
+
+
+
+
+III
+
+HOW THE WOODPECKER COURTS HIS MATE
+
+
+Other birds woo their mates with songs, but the woodpecker has no voice
+for singing. He cannot pour out his soul in melody and tell his love his
+devotion in music. How do songless birds express their emotions? Some by
+grotesque actions and oglings, as the horned owl, and some by frantic
+dances, as the sharp-tailed grouse, woo and win their mates; but the
+amorous woodpecker, not excepting the flickers, which also woo by
+gestures, whacks a piece of seasoned timber, and rattles off
+interminable messages according to the signal code set down for
+woodpeckers' love affairs. He is the only instrumental performer among
+the birds; for the ruffed grouse, though he drums, has no drum.
+
+There is no cheerier spring sound, in our belated Northern season, than
+the quick, melodious rappings of the sapsucker from some dead ash limb
+high above the meadow. It is the best performance of its kind: he knows
+the capabilities of his instrument, and gets out of it all the music
+there is in it. Most if not all woodpeckers drum occasionally, but
+drumming is the special accomplishment of the sapsucker. He is easily
+first. In Maine, where they are abundant, they make the woods in
+springtime resound with their continual rapping. Early in April, before
+the trees are green with leaf, or the pussy-willows have lost their
+silky plumpness, when the early round-leafed yellow violet is cuddling
+among the brown, dead leaves, I hear the yellow-bellied sapsucker along
+the borders of the trout stream that winds down between the mountains.
+The dead branch of an elm-tree is his favorite perch, and there,
+elevated high above all the lower growth, he sits rolling forth a flood
+of sound like the tremolo of a great organ. Now he plays
+staccato,--detached, clear notes; and now, accelerating his time, he
+dashes through a few bars of impetuous hammerings. The woods reëcho with
+it; the mountains give it faintly back. Beneath him the ruffed grouse
+paces back and forth on his favorite mossy log before he raises the
+palpitating whirr of his drumming. A chickadee digging in a rotten limb
+pauses to spit out a mouthful of punky wood and the brown _Vanessa_,
+edged with yellow, first butterfly of the season, flutters by on
+rustling wings. So spring arrives in Maine, ushered in by the reveille
+of the sapsucker.
+
+So ambitious is the sapsucker of the excellence of his performance that
+no instrument but the best will satisfy him. He is always experimenting,
+and will change his anvil for another as soon as he discovers one of
+superior resonance. They say he tries the tin pails of the maple-sugar
+makers to see if these will not give him a clearer note; that he drums
+on tin roofs and waterspouts till he loosens the solder and they come
+tumbling down. But usually he finds nothing so near his liking as a
+hard-wood branch, dead and barkless, the drier, the harder, the thinner,
+the finer grained, so much the better for his uses.
+
+Deficient as they are in voice, the woodpeckers do not lack a musical
+ear. Mr. Burroughs tells us that a downy woodpecker of his acquaintance
+used to change his key by tapping on a knot an inch or two from his
+usual drumming place, thereby obtaining a higher note. Alternating
+between the two places, he gave to his music the charm of greater
+variety. The woodpeckers very quickly discover the superior conductivity
+of metals. In parts of the country where woodpeckers are more abundant
+than good drumming trees, a tin roof proves an almost irresistible
+attraction. A lightning-rod will sometimes draw them farther than it
+would an electric bolt; and a telegraph pole, with its tinkling glasses
+and ringing wires, gives them great satisfaction. If men did not put
+their singing poles in such public places, their music would be much
+more popular with the woodpeckers; but even now the birds often venture
+on the dangerous pastime and hammer you out a concord of sweet sounds
+from the mellow wood-notes, the clear peal of the glass, and the ringing
+overtones of the wires.
+
+The flicker often telegraphs his love by tapping either on a forest tree
+or on some loose board of a barn or outhouse; but he has other ways of
+courting his lady. On fine spring mornings, late in April, I have seen
+them on a horizontal bough, the lady sitting quietly while her lover
+tried to win her approval by strange antics. Quite often there are two
+males displaying their charms in open rivalry, but once I saw them when
+the field was clear. If fine clothes made a gentleman, this brave wooer
+would have been first in all the land: for his golden wings and tail
+showed their glittering under side as he spread them; his scarlet
+headdress glowed like fire; his rump was radiantly white, not to speak
+of the jetty black of his other ornaments and the beautiful
+ground-colors of his body. He danced before his lady, showing her all
+these beauties, and perhaps boasting a little of his own good looks,
+though she was no less beautiful. He spread his wings and tail for her
+inspection; he bowed, to show his red crescent; he bridled, he stepped
+forward and back and sidewise with deep bows to his mistress, coaxing
+her with the mellowest and most enticing _co-wee-tucks_, which no doubt
+in his language meant "Oh, promise me," laughing now and then his jovial
+_wick-a-wick-a-wick-a-wick-a_, either in glee or nervousness. It was all
+so very silly--and so very nice! I wonder how it all came out. Did she
+promise him? Or did she find a gayer suitor?
+
+
+
+
+IV
+
+HOW THE WOODPECKER MAKES A HOUSE
+
+
+All woodpeckers make their houses in the wood of trees, either the trunk
+or one of the branches. Almost the only exceptions to this rule are
+those that live in the treeless countries of the West. In the torrid
+deserts of Arizona and the Southwest, some species are obliged to build
+in the thorny branches of giant cacti, which there grow to an enormous
+size. In the treeless plains to the northward, a few individuals, for
+lack of anything so suitable as the cactus, dig holes in clay banks, or
+even lay their eggs upon the surface of the prairie. In a country where
+chimney swallows nest in deserted houses, and sand martins burrow in the
+sides of wells, who wonders at the flicker's thinking that the side of a
+haystack, the hollow of a wheel-hub, or the cavity under an old
+ploughshare, is an ideal home? But in wooded countries the woodpeckers
+habitually nest in trees. The only exceptions I know are a few flickers'
+holes in old posts, and a few instances where flickers have pecked
+through the weatherboarding of a house to nest in the space between the
+walls.
+
+But because a bird nests in a hole in a tree, it is not necessarily a
+woodpecker. The sparrow-hawk, the house sparrow, the tree swallow, the
+bluebird, most species of wrens, and several of the smaller species of
+owls nest either in natural cavities in trees or in deserted
+woodpeckers' holes. The chickadees, the crested titmice, and the
+nuthatches dig their own holes after the same pattern as the
+woodpecker's. However, the large, round holes were all made by
+woodpeckers, and of those under two inches in diameter, our friend Downy
+made his full share. It is easy to tell who made the hole, for the
+different birds have different styles of housekeeping. The chickadees
+and nuthatches always build a soft little nest of grass, leaves, and
+feathers, while the woodpeckers lay their eggs on a bed of chips, and
+carry nothing in from outside.
+
+Soon after they have mated in the spring, the woodpeckers begin to talk
+of housekeeping. First, a tree must be chosen. It may be sound or partly
+decayed, one of a clump or solitary; but it is usually dead or
+hollow-hearted, and at least partly surrounded by other trees. Sometimes
+a limb is chosen, sometimes an upright trunk, and the nest may be from
+two feet to one hundred feet from the ground, though most frequently it
+will be found not less than ten nor more than thirty feet up. However
+odd the location finally occupied, it is likely that it was not the
+first one selected. A woodpecker will dig half a dozen houses rather
+than occupy an undesirable tenement. It is very common to find their
+unfinished holes and the wider-mouthed, shallower pockets which they dig
+for winter quarters; for those that spend their winters in the cold
+North make a hole to live in nights and cold and stormy days.
+
+The first step in building is to strike out a circle in the bark as
+large as the doorway is to be; that is, from an inch and a half to three
+or four inches in diameter according to the size of the woodpecker. It
+is nearly always a perfect circle. Try, if you please, to draw freehand
+a circle of dots as accurate as that which the woodpecker strikes out
+hurriedly with his bill, and see whether it is easy to do as well as he
+does.
+
+If the size and shape of the doorway suit him, the woodpecker scales off
+the bark inside his circle of holes and begins his hard work. He seems
+to take off his coat and work in his shirtsleeves, so vigorously does he
+labor as he clings with his stout toes, braced in position by his
+pointed tail. The chips fly out past him, or if they lie in the hole,
+he sweeps them out with his bill and pelts again at the same place. The
+pair take turns at the work. Who knows how long they work before
+resting? Do they take turns of equal length? Does one work more than the
+other? A pair of flickers will dig about two inches in a day, the hole
+being nearly two and a half inches in diameter. A week or more is
+consumed in digging the nest, which, among the flickers, is commonly
+from ten to eighteen inches deep. The hole usually runs in horizontally
+for a few inches and then curves down, ending in a chamber large enough
+to make a comfortable nest for the mother and her babies.
+
+What a good time the little ones have in their hole! Rain and frost
+cannot chill them; no enemy but the red squirrel is likely to disturb
+them. There they lie in their warm, dark chamber, looking up at the ray
+of light that comes in the doorway, until at last they hear the
+scratching of their mother's feet as she alights on the outside of the
+tree and clambers up to feed them. What a piping and calling they raise
+inside the hole, and how they all scramble up the walls of their chamber
+and thrust out their beaks to be fed, till the old tree looks as if it
+were blossoming with little woodpeckers' hungry mouths!
+
+
+
+
+V
+
+HOW A FLICKER FEEDS HER YOUNG[1]
+
+
+[Footnote 1: Based upon the observations of Mr. William Brewster.]
+
+As the house of the woodpecker has no windows and the old bird very
+nearly fills the doorway when she comes home, it is hard to find out
+just how she feeds her little ones. But one of our best naturalists has
+had the opportunity to observe it, and has told what he saw.
+
+A flicker had built a nest in the trunk of a rather small dead tree
+which, after the eggs were hatched, was accidentally broken off just at
+the entrance hole. This left the whole cavity exposed to the weather;
+but it was too late to desert the nest, and impossible to remove the
+young birds to another nest.
+
+When first visited, the five little birds were blind, naked, and
+helpless. They were motherless, too. Some one must have killed their
+pretty mother; for she never came to feed them, and the father was
+taking all the care of his little family. When disturbed the little
+birds hissed like snakes, as is the habit of the callow young of
+woodpeckers, chickadees, and other birds nesting habitually in holes in
+trees. When they were older and their eyes were open, they made a
+clatter much like the noise of a mowing-machine, and loud enough to be
+heard thirty yards away.
+
+The father came at intervals of from twenty to sixty minutes to feed the
+little ones. He was very shy, and came so quietly that he would be first
+seen when he alighted close by with a low little laugh or a subdued but
+anxious call to the young. "Here I am again!" he laughed; or "Are you
+all right, children?" he called to them. "All right!" they would answer,
+clattering in concert like a two-horse mower.
+
+As soon as they heard him scratching on the tree-trunk, up they would
+all clamber to the edge of the nest and hold out their gaping mouths to
+be fed. Each one was anxious to be fed first, because there never was
+enough to go round. There was always one that, like the little pig of
+the nursery tale, "got none." When he came to the nest, the father would
+look around a moment, trying to choose the one he wanted to feed first.
+Did he always pick out the poor little one that had none the time
+before, I wonder?
+
+After the old bird had made his choice, he would bend over the little
+bird and drive his long bill down the youngster's throat as if to run
+it through him. Then the little bird would catch hold as tightly as he
+could and hang on while his father jerked him up and down for a second
+or a second and a half with great rapidity. What was he doing? He was
+pumping food from his own stomach into the little one's. Many birds feed
+their young in this way. They do not hold the food in their own mouths,
+but swallow and perhaps partially digest it, so that it shall be fit for
+the tender little stomachs.
+
+While the woodpecker was pumping in this manner his motions were much
+the same as when he drummed, but his tail twitched as rapidly as his
+head and his wings quivered. The motion seemed to shake his whole body.
+
+In two weeks from the time when the little birds were blind, naked,
+helpless nestlings they became fully feathered and full grown, able to
+climb up to the top of the nest, from which they looked out with
+curiosity and interest. At any noise they would slip silently back. A
+day or two later they left the old nest and began their journeys.
+
+No naturalist has been able to tell us whether other woodpeckers than
+the golden-winged flicker feed their young in this way; and little is
+known of the number of kinds of birds that use this method, but it is
+suspected that it is far more common than has ever been determined. If
+an old bird is seen to put her bill down a young one's throat and keep
+it there even so short a time as a second, it is probable that she is
+feeding the little one by regurgitation, that is, by pumping up food
+from her own stomach. Any bird seen doing this should be carefully
+watched. It has long been known that the domestic pigeon does this, and
+the same has been observed a number of times of the ruby-throated
+hummingbird. A California lady has taken some remarkable photographs of
+the Anna's hummingbird in the act, showing just how it is done.
+
+
+
+
+VI
+
+FRIEND DOWNY
+
+
+No better little bird comes to our orchards than our friend the downy
+woodpecker. He is the smallest and one of the most sociable of our
+woodpeckers,--a little, spotted, black-and-white fellow, precisely like
+his larger cousin the hairy, except in having the outer tail-feathers
+barred instead of plain. Nearly everything that can be said of one is
+equally true of the other on a smaller scale. They look alike, they act
+alike, and their nests and eggs are alike in everything but size.
+
+Downy is the most industrious of birds. He is seldom idle and never in
+mischief. As he does not fear men, but likes to live in orchards and in
+the neighborhood of fields, he is a good friend to us. On the farm he
+installs himself as Inspector of Apple-trees. It is an old and an
+honorable profession among birds. The pay is small, consisting only of
+what can be picked up, but, as cultivated trees are so infested with
+insects that food is always plentiful, and as they have usually a
+dead branch suitable to nest in, Downy asks no more. Summer and winter
+he works on our orchards. At sunrise he begins, and he patrols the
+branches till sunset. He taps on the trunks to see whether he can hear
+any rascally borers inside. He inspects every tree carefully in a
+thorough and systematic way, beginning low down and following up with a
+peek into every crevice and a tap upon every spot that looks suspicious.
+If he sees anything which ought not to be there, he removes it at once.
+
+[Illustration]
+
+A moth had laid her eggs in a crack in the bark, expecting to hatch out
+a fine brood of caterpillars: but Downy ate them all, thus saving a
+whole branch from being overrun with caterpillars and left fruitless,
+leafless, and dying. A beetle had just deposited her eggs here. Downy
+saw her, and took not only the eggs but the beetle herself. Those eggs
+would have hatched into boring larvæ, which would have girdled and
+killed some of the branches, or have burrowed under the bark, causing it
+to fall off, or have bored into the wood and, perhaps, have killed the
+tree. Nor is the full-grown borer exempt. Downy hears him, pecks a few
+strokes, and harpoons him with unerring aim. When Downy has made an
+arrest in this way, the prisoner does not escape from the police. Here
+is a colony of ants, running up the tree in one line and down in
+another, touching each other with their feelers as they pass. A feast
+for our friend! He takes both columns, and leaves none to tell the tale.
+This is a good deed, too, since ants are of no benefit to fruit-trees
+and are very fond of the dead-ripe fruit.
+
+And Downy is never too busy to listen for borers. They are fine plump
+morsels much to his taste, not so sour as ants, nor so hard-shelled as
+beetles, nor so insipid as insects' eggs. A good borer is his preferred
+dainty. The work he does in catching borers is of incalculable benefit,
+for no other bird can take his place. The warblers, the vireos, and some
+other birds in summer, the chickadees and nuthatches all the year round,
+are helping to eat up the eggs and insects that lie near the surface,
+but the only birds equipped for digging deep under the bark and dragging
+forth the refractory grubs are the woodpeckers.
+
+So Downy works at his self-appointed task in our orchards summer and
+winter, as regular as a policeman on his beat. But he is much more than
+a policeman, for he acts as judge, jury, jailer, and jail. All the
+evidence he asks against any insect is to find him loafing about the
+premises. "I swallow him first and find out afterwards whether he was
+guilty," says Downy with a wink and a nod.
+
+Most birds do not stay all the year, in the North, at least, and most,
+in return for their labors in the spring, demand some portion of the
+fruit or grain of midsummer and autumn. Not so Downy. His services are
+entirely gratuitous; he works twice as long as most others. He spends
+the year with us, no winter ever too severe for him, no summer too hot;
+and he never taxes the orchard, nor takes tribute from the berry patch.
+Only a quarter of his food is vegetable, the rest being made up of
+injurious insects; and the vegetable portion consists entirely of wild
+fruits and weed-seeds, nothing that man eats or uses. Downy feeds on the
+wild dogwood berries, a few pokeberries, the fruit of the woodbine, and
+the seeds of the poison-ivy,--whatever scanty and rather inferior fare
+is to be had at Nature's fall and winter table. If in the cold winter
+weather we will take pains to hang out a bone with some meat on it, raw
+or cooked, or a piece of suet, taking care that it is not salted,--for
+few wild birds except the crossbills can eat salted food,--we may see
+how he appreciates our thoughtfulness. Shall we grudge him a bone from
+our own abundance, or neglect to fasten it firmly out of reach of the
+cat and dog? If his cousin the hairy and his neighbor the chickadee
+come and eat with him, bid them a hearty welcome. The feast is spread
+for all the birds that help men, and friend Downy shall be their host.
+
+
+
+
+VII
+
+PERSONA NON GRATA
+
+
+We shall not attempt to deny that Downy has an unprincipled relative.
+While it is no discredit, it is a great misfortune to Downy, who is
+often murdered merely because he looks a little, a very little, like
+this disreputable cousin of his. The real offender is the sapsucker,
+that musical genius of whom we have already spoken.
+
+The popular belief is that every woodpecker is a sapsucker, and that
+every hole he digs in a tree is an injury to the tree. We have seen that
+every hole Downy digs is a benefit, and now we wish to learn why it is
+that the sapsucker's work is any more injurious than other woodpeckers'
+holes; how we are to recognize the sapsucker's work; and how much damage
+he does. We will do what the scientists often do,--examine the bird's
+work and make it tell us the story. There is no danger of hurting the
+sapsucker's reputation. The farmer could have no worse opinion of him;
+and, though the case has been appealed to the higher courts of science
+more than once, where the sapsucker's cause has been eloquently and
+ably defended, the verdict has gone against him. Scientists now do not
+deny that the sapsucker does harm. But his worst injury is less in the
+damage he does to the trees than in the ill-will and suspicion he
+creates against woodpeckers which do no harm at all. If you will study
+the picture and the descriptions in the Key to the Woodpeckers, you will
+be able to recognize the sapsucker and his nearest relatives, whether in
+the East or in the West. But all sapsuckers may be known by their pale
+yellowish under parts, and by the work they leave behind. As the
+yellow-bellied sapsucker is the only one found east of the Rocky
+Mountains, we shall speak only of him and his work.
+
+[Illustration: Work of Sapsucker.]
+
+Here is a specimen of the yellow-bellied sapsucker's work which I picked
+up under the tree from which it had fallen. We do not need to inquire
+whether the tree was injured by its falling, for we know that the loss
+of sound and healthy bark is always a damage. Was this sound bark? Yes,
+because it is still firm and new. The sap in it dried quickly,
+showing that neither disease nor worms caused it to fall; it is clean
+and hard on the back, showing that it came from a live tree, not from a
+dead, rotting log.
+
+[Illustration]
+
+How do I know that a bird caused it to fall? The marks are precisely
+such as are always left by a woodpecker's bill. How do I know that it
+was a sapsucker's work? Because no other woodpecker has the habit which
+characterizes the sapsucker, of sinking holes in straight lines. The
+sapsuckers drill lines of holes sometimes around and sometimes up and
+down the tree-trunk, but almost always in rings or belts about the trunk
+or branches. A girdle may be but a single line of holes, or it may
+consist of four or five, or more, lines. Sometimes a band will be two
+feet wide; and as many as eight hundred holes have been counted on the
+trunk of a single tree. Such extensive peckings, however, are to be
+expected only on large forest trees. Most fruit and ornamental trees are
+girdled a few times about the trunk, and about the principal branches
+just below the nodes, or forks.
+
+Why did the bird dig these holes? There are three things that he might
+have obtained,--sap, the inner bark, and boring larvæ. Some naturalists
+have suggested a fourth as possible,--the insects that would be
+attracted by the sap.
+
+We will see what the piece of bark tells us. It is four and a half
+inches long, by an inch and a half wide, and its area of six and three
+fourths square inches has forty-four punctures. Does this look as if the
+bird were digging grubs? Do borers live in such straight little streets?
+The number and arrangement of the holes show that he was not seeking
+borers, while the naturalists tell us that he never eats a borer unless
+by accident. What did he get? Undoubtedly he pecked away some of the
+inner bark. All these holes are much larger on the back side of the
+specimen than on the outer surface. While the damp inner bark would
+shrink a little on exposure to the air, we know that it could not shrink
+as much as this; and investigation has shown that the sapsucker feeds
+largely on just such food, for it has been found in his stomach. Two
+other possible food-substances remain,--sap and insects. We know that
+the sapsucker eats many insects, but it is impossible to prove that he
+intended these holes for insect lures. Sap he might have gotten from
+them, if he wished it. We know that the white birch is full of excellent
+sap, from which can be made a birch candy, somewhat bitter, but nearly
+as good as horehound candy. The rock and red maples and the white canoe
+birch are the only trees in our Northern forests from which we make
+candy. A strong probability that our bird wanted sap is indicated by the
+arrangement of the holes. Usually he drills his holes in rings around
+the tree-trunk, but in this instance his longest lines of holes are
+vertical. If our sapsucker was drilling for sap, he arranged his holes
+so that it would almost run into his mouth, lazy bird!
+
+Our piece of bark has taught us:--
+
+That the sapsucker injured this tree.
+
+That he was not after grubs.
+
+That he got, and undoubtedly ate, the soft inner bark of the tree.
+
+That he got, and may have drunk, the sap.
+
+We could not infer any more from a single instance, but the naturalists
+assure us that the bird is in the habit of injuring trees, that he never
+eats grubs intentionally, and that he eats too much bark for it to be
+regarded as taken accidentally with other food. About the sap they
+cannot be so sure, as it digests very quickly. There remain two points
+to prove: whether the sapsucker drills his holes for the sake of the
+sap, or for insects attracted by the sap, provided that he eats anything
+but the inner bark.
+
+Our little specimen can tell us no more, but two mountain ash trees
+which were intimate acquaintances of mine from childhood can go on with
+the story. Do not be surprised that I speak of them as friends; the
+naturalist who does not make _friends_ of the creatures and plants about
+will hear few stories from them. These trees would not tell this tale to
+any one but an intimate acquaintance. Let us hear what they have to say
+about the sapsucker.
+
+There are in the garden of my old home two mountain ash trees,
+thirty-six years of age, each having grown from a sprout that sprang up
+beside an older tree cut down in 1863. They stand not more than two rods
+apart; have the same soil, the same amount of sun and rain, the same
+exposure to wind, and equal care. During all the years of my childhood
+one was a perfectly healthy tree, full of fruit in its season, while the
+other bore only scanty crops, and was always troubled with cracked and
+scaling bark. To-day the unhealthy tree is more vigorous than ever
+before, while its formerly stalwart brother stands a mere wreck of its
+former life and beauty. What should be the cause of such a remarkable
+change when all conditions of growth have remained the same?
+
+I admit that there is some internal difference in the trees, for all the
+birds tell me of it. One has always borne larger and more abundant fruit
+than the other, but this is no reason why the birds should strip all
+the berries from that tree before eating any from the other. When we
+know that the favorite tree stands directly in front of the windows of a
+much-used room and overhangs a frequented garden path, the preference
+becomes more marked. But robins, grosbeaks, purple finches, and the
+whole berry-eating tribe agree to choose one and neglect the other, and
+even the spring migrants will leave the gay red tassels of fruit still
+swinging on one tree, to scratch over the leaves and eat the fallen
+berries that lie beneath the other. My own taste is not keen in choosing
+between bitter berries, but the birds all agree that there is a decided
+difference in these trees,--did agree, I should say, for their favorite
+is the tree that is dying. Evidently this is a question of taste. It is
+interesting to observe that the sapsucker, which was never seen to touch
+the fruit of the trees, agrees with the fruit-eating birds. Nearly all
+his punctures were in the tree now dying. Is there a difference in the
+taste of the sap? Does the taste of the sap affect the taste of the
+fruit? Or is it merely a question of quantity? If he comes for sap, he
+prefers one tree to the other on the score either of better quality or
+greater quantity.
+
+We will discuss later whether it is sap that he wishes: all that now
+concerns us is to note that the internal difference, whatever it is, is
+in favor of the tree that is dying; while the only external difference
+appears to be the marks left by the sapsucker. While one tree is
+sparingly marked by him, the other is tattooed with his punctures,
+placed in single rings and in belts around trunk and branches beneath
+every fork. It is a law of reasoning that, when every condition but one
+is the same and the effects are different, the one exceptional condition
+is the _cause_ of the difference. If these trees are alike in everything
+except the work of the sapsucker (the only internal difference
+apparently _offsetting_ his work in part), what inference do we draw as
+to the effect of his work?
+
+We presume that he is killing the tree, without as yet knowing how he
+does it. What is his object? Good observers have stated that he draws a
+little sap in order to attract flies and wasps; that the sap is not
+drawn for its own sake, but as a bait for insects. Is this theory true?
+
+The first objection is that it is improbable. The sapsucker is a
+retiring, woodland bird that would hesitate to come into a town garden a
+mile away from the nearest woods unless to get something he could not
+find in the woods. Had he wanted insects, he would have tapped a tree
+in the woods, or else he would have caught them in his usual flycatching
+fashion. There must have been something about the mountain ash tree that
+he craved. As it is a very rare tree in the vicinity of my home, the
+sapsucker's only chance to satisfy his longing was by coming to some
+town garden like our own.
+
+Not only is the theory improbable, but it fails to explain the
+sapsucker's actions in this instance. In twenty years he was never seen
+to catch an insect that was attracted by the sap he drew. This does not
+deny that he may have caught insects now and then, but it does deny that
+he set the sap running for a lure. As he was never far away, and was
+sometimes only four and a half feet by measure from a chamber window,
+all that he did could be seen. He did not catch insects at his holes. He
+drank sap and ate bark.
+
+Finally, the theory is not only improbable and inadequate, but in this
+instance it is impossible. I do not remember seeing a sapsucker in the
+tree in the spring; if he came in the summer, it must have been at rare
+intervals; but he was always there in the fall, when the leaves were
+dropping. At that season the insect hordes had been dispersed by the
+autumnal frosts, so that we know he did not come for insects.
+
+In the many years during which I watched the sapsuckers--for there were
+undoubtedly a number of different birds that came, although never more
+than one at a time--there was such a curious similarity in their actions
+that it is entirely proper to speak as if the same bird returned year
+after year. His visits, as I have said, were usually made at the same
+season. He would come silently and early, with the evident intention of
+making this an all-day excursion. By eight o'clock he would be seen
+clinging to a branch and curiously observant of the dining-room window,
+which at that hour probably excited both his interest and his alarm.
+Early in the day he showed considerable activity, flitting from limb to
+limb and sinking a few holes, three or four in a row, usually _above_
+the previous upper girdle of the limbs he selected to work upon. After
+he had tapped several limbs he would sit waiting patiently for the sap
+to flow, lapping it up quickly when the drop was large enough. At first
+he would be nervous, taking alarm at noises and wheeling away on his
+broad wings till his fright was over, when he would steal quietly back
+to his sap-holes. When not alarmed, his only movement was from one row
+of holes to another, and he tended them with considerable regularity. As
+the day wore on he became less excitable, and clung cloddishly to his
+tree-trunk with ever increasing torpidity, until finally he hung
+motionless as if intoxicated, tippling in sap, a disheveled, smutty,
+silent bird, stupefied with drink, with none of that brilliancy of
+plumage and light-hearted gayety which made him the noisiest and most
+conspicuous bird of our April woods.
+
+Our mountain ash trees have told us several facts about the sapsucker:--
+
+That he did not come to eat insects.
+
+That he did come to drink sap, and that he probably ate the inner bark
+also.
+
+That he drank the sap because he liked it, not for some secondary
+object, as insects.
+
+That he could detect difference in the quality or quantity of the sap,
+which caused him to prefer a particular tree.
+
+That this difference apparently was in the taste of the sap, and that
+the effects of a day's drinking of mountain ash sap seemed to indicate
+some intoxicant or narcotic quality in the sap of that particular tree.
+
+That the effect of his work upon the tree was apparently injurious, as
+it is the only cause assigned of a healthy tree's dying before a less
+healthy one of the same age and species, subject all its life to the
+same conditions.
+
+So much we have learned about this sapsucker's habits, and now we should
+like to know why his work is harmful, and why that of the other
+woodpeckers is not. It is not because he drinks the sap. All the sap he
+could eat or waste would not harm the tree, if allowed to run out of a
+few holes. Think how many gallons the sugar-makers drain out of a single
+tree without killing the tree. But the sugar-maker takes the sap in the
+spring, when the crude sap is mounting up in the tree, while the
+sapsucker does not begin his work till midsummer or autumn, when the
+tree is sending down its elaborated sap to feed the trunk and make it
+grow. This accounts for the woodpecker's digging his pits _above_ the
+lines of the holes already in the tree. The loss of this elaborated sap
+is a greater injury than the waste of a far larger quantity of crude
+sap, so that on the season of the year when the sapsucker digs his holes
+depends in large measure the amount of damage he does. The injury that
+he does to the wood itself is trivial. He is not a wood_pecker_ except
+at time of nesting, and most woodpeckers prefer to build in a dead or
+dying branch, where their work does no hurt. But we know very well that
+a tree may be a wreck, riven from top to bottom by lightning, split open
+to the heart by the tempest, entirely hollow the whole length of its
+trunk, and yet may flourish and bear fruit. The tree lives in its outer
+layers. It may be crippled in almost any way, if the bark is left
+uninjured; but if an inch of bark is cut out entirely around the tree,
+it will die, for the sap can no longer run up and down to nourish it.
+
+This is the sapsucker's crime: he girdles the tree,--not at his first
+coming, nor yet at his second, not with one row of holes, nor yet with
+two; but finally, after years perhaps, when row after row of punctures,
+each checking a little the flow of sap, have overlapped and offset each
+other and narrowed the channels through which it could mount and
+descend, until the flow is stopped. Then the tree dies. It is not the
+holes he makes, nor the sap he draws, but the way he places his holes
+that makes the sapsucker an unwelcome visitor. For an unacceptable
+individual he is to the farmer,--_persona non grata_, as kings say of
+ambassadors who do not please their majesties. What shall we do with
+him, the only black sheep in all the woodpecker flock? Let him alone,
+unless we are positively sure that we know him from every other kind of
+woodpecker. The damage he does is trifling compared with what we should
+do if we made war upon other woodpeckers for some supposed wrong-doing
+of the sapsucker.
+
+
+
+
+VIII
+
+EL CARPINTERO
+
+
+In California and along the southwestern boundary of the United States
+lives a woodpecker known among the Mexicans as El Carpintero, the
+Carpenter.
+
+Carpentering is both his profession and his pastime, and he seems really
+to enjoy the work. When there is nothing more pressing to be done, he
+spends his time tinkering around, fitting acorns into holes in such
+great numbers and in so workmanlike a fashion that we do not know which
+is more remarkable, his patience or his skill. Every acorn is fitted
+into a separate hole made purposely for it, every one is placed butt end
+out and is driven in flush with the surface, so that a much frequented
+tree often appears as if studded with ornamental nails. "What an
+industrious bird!" we exclaim; but still it takes some time to
+appreciate how enormous is the labor of the Carpenter. Whole trees will
+sometimes be covered with his work, until a single tree has thousands of
+acorns bedded into its bark so neatly and tightly that no other
+creature can remove them.
+
+[Illustration: Work of Californian Woodpecker.]
+
+We may take for examination, from specimens of the Carpenter's work, a
+piece of spruce bark seven inches long by six wide, containing ten
+acorns and two empty holes. As spruce bark is so much harder and rougher
+than the pine bark in which he usually stores his nuts,[1] this
+specimen looks rough and unfinished, and even shows some acorns driven
+in sidewise; but for another reason I have preferred it to
+better-looking examples of his work for study. As we shall see later, it
+gives us a definite bit of information about the bird.
+
+[Footnote 1: They often use white-oak bark, fence-posts, telegraph
+poles, even the stalks of century-plants, when trees are not convenient.
+(Merriam, _Auk_, viii. 117.)]
+
+Think of the work of digging these twelve holes. Think of the labor of
+carrying these ten large acorns and driving them in so tightly that
+after years of shrinking they cannot be removed by a knife without
+injuring either the acorn or the bark. Yet how small a part of the
+woodpecker's year's work is here! How long could he live on ten acorns?
+How many must he gather for his winter's needs? How many must he lose by
+forgetting to come back to them? We cannot calculate the work a single
+bird does nor the nuts he eats, for several birds usually work in
+company and may use the same tree; but all the woodpeckers are large
+eaters, and the Californian has been singled out for special mention.
+
+Can we estimate the amount of work required to lay up one day's food?
+Judging by the amount of nuts some other birds will eat, I should
+think that all ten acorns contained in this piece of bark could be eaten
+in one day without surfeit. The estimate seems to me well inside of his
+probable appetite. I have experimented on this piece of bark, using a
+woodpecker's bill for a tool, and it takes me twenty minutes to dig a
+hole as large but not as neat as these. Doubtless it would not take the
+woodpecker as long; but at my rate of working, four hours were spent in
+digging these twelve holes. Then each acorn had to be hunted up and
+brought to the hole prepared for it. This entailed a journey, it may
+have been only from one tree to another, or it may have been, and very
+likely was, a considerable flight. For these acorns grew on oak-trees,
+and we find them driven into the bark of pines and spruces.
+
+[Illustration]
+
+This it is which gives our specimen its particular interest. While oaks
+and pines may be intermingled, though they naturally prefer different
+soils and situations, and in the Rocky Mountains the pine-belt lies
+above the oak region, spruce and oak trees do not grow in the same soil.
+The spruce-belt stands higher up than the pine. As these nuts are stored
+in the bark of a spruce-tree, we have clear evidence that the bird must
+have carried them some distance. For every nut he made the whole
+journey back and forth, since he could carry but one at a time,--ten
+long trips back and forth, certainly consuming several minutes each.
+
+Then each acorn had to be fitted to its hole. We have already spoken of
+the accuracy with which this is done, so that the Carpenter's work is a
+standing taunt to the hungry jays and squirrels which would gladly eat
+his nuts if they could get them. A careful observer tells us that when
+the hole is too small, the woodpecker takes the acorn out and makes the
+hole a little larger, working so cautiously, however, that he sometimes
+makes several trials before the acorn can be fitted and driven in flush
+with the bark. Some of these acorns show cracks down the sides, as if
+they had been split either in forcibly pulling them out of a hole not
+deep enough for them, or in driving them when green and soft into a hole
+too small for them. Of course after each trial the acorn must be hunted
+up where it lies on the ground and driven in again, and this takes
+considerable time.
+
+As nearly as we can estimate it, not less than half a day must have been
+spent in putting these acorns where we find them. With smaller acorns,
+stored in pine bark, less time would have been required; but weeks, if
+not months, of work are spent in laying up the winter's stores.
+
+How the woodpecker's back and jaws must have ached! Surely he is human
+enough to get tired with his work, and it is not play to do what this
+bird has done. Some of the acorns measure seven tenths of an inch in
+diameter by nine tenths in length, and the bird that carried them is
+smaller than a robin. How he must have hurried to reach his tree when
+the acorn was extra large! Yet he took time to drive every one in point
+foremost. Even those that lie upon their sides must have been forced
+into position by tapping the butt. He knows very well which end of an
+acorn is which, does our Carpenter.
+
+But what is the use of all this work? Why, if he wants acorns, does he
+not eat them as they lie scattered under the oaks, instead of taking
+pains to carry them away and put them into holes for the fun of eating
+them out of the holes afterward? The absurdity of this has led some
+people to surmise that the Carpenter chooses none but weevilly acorns,
+and stores them that the grub inside may grow large and fat and
+delicious. This would be very interesting, if it were true. There must
+of course be more weevilly acorns on the ground than he picks up, so
+that he could get as many grubs without taking all this trouble, and
+there is no reason why they should not be as large and good as those
+hatched out in holes in trees. When I wish to keep nuts sweet, I spread
+them out on the attic floor in the sun and air, keeping them where they
+will not touch each other. The Carpenter does practically the same
+thing. Is it probable that he tries to raise a fine crop of grubs in
+this way? If so, one or the other of us is doing just the wrong thing.
+But if weevils are what the Carpenter wants, then the nuts in the bark
+should be wormy; yet only two of them show any sign of a weevil, and of
+these one appears from its dull color and weather-beaten look to be a
+nut deposited several years before the others by some other woodpecker.
+Every other acorn is as hard, shining, and bright colored as when it
+fell from the tree. Evidently the bird picked these nuts up while they
+were fresh and good; perhaps he chose them _because_ they were good and
+fresh. The possibility becomes almost a certainty when we observe that
+naturalists agree that the Carpenter uses no acorns but the
+sweet-tasting species. Now there are likely to be as many grubs in one
+kind of an acorn as in another, and he would scarcely refuse any kind
+that contained them, if grubs were what he wanted. The fact that he
+takes sweet acorns, and those only, shows that it is the meat of the nut
+that he wants. And all good naturalists agree that it is the kernel
+itself that he eats.
+
+Why he stores them is not hard to decide when we remember that the
+Californian woodpecker, over a large part of his range, is a mountain
+bird. Though we think of California as the land of sunshine, it is not
+universal summer there. The mountain ranges have a winter as severe as
+that of New England, with a heavy snowfall. When the snow lies several
+feet deep among the pines and spruces of the uplands, the Carpenter is
+not distressed for food: his pantry is always above the level of the
+snow; he need neither scratch a meagre living from the edges of the
+snow-banks, nor go fasting. His fall's work has provided him not only
+with the necessities, but with the luxuries of life.
+
+But why does he spend so much time in making holes? He might tuck his
+nuts into some natural crevice in the oak bark, or drop them into
+cavities which all birds know so well where to find. And leave them
+where any pilfering jay would be able to pick them out at his ease? Or
+put them in the track of every wandering squirrel? Jays and squirrels
+are never too honest to refuse to steal, but they find it harder to get
+the woodpecker's stores out of his pine-tree pantry than to pick up
+honest acorns of their own. So, like the woodpecker, they lay up their
+own stores of nuts, and feed on them in winter, or go hungry.
+
+We have had very little aid from anything except the piece of bark we
+were studying, yet we have learned that the Californian woodpecker is a
+good carpenter; that he works hard at his trade; that he shows
+remarkable foresight in collecting his food, much ingenuity in housing
+it, good judgment in putting it where his enemies cannot get it, and
+wisdom in the plan he has adopted to give him a good supply of fresh
+nuts at a season when the autumn's crop is buried under the deep snow.
+
+If I were a Californian boy, I think I should spend my time in trying to
+find out more about this wise woodpecker, concerning which much remains
+to be discovered.
+
+
+
+
+IX
+
+A RED-HEADED COUSIN
+
+
+Besides his half-brothers, the narrow-fronted and ant-eating
+woodpeckers, the Carpenter has a numerous family of cousins,--the
+red-headed, the red-bellied, the golden-fronted, the Gila,[1] and the
+Lewis's woodpeckers. These all belong to one genus, and are much alike
+in structure, though totally different in color. Most of them are
+Western or Southwestern birds, but one is found in nearly all parts of
+the United States lying between the Hudson River and the Rocky
+Mountains, and is the most abundant woodpecker of the middle West. This
+well-known cousin is the red-headed woodpecker, the tricolored beauty
+that sits on fence-posts and telegraph poles, and sallies out, a blaze
+of white, steel-blue, and scarlet, a gorgeous spectacle, whenever an
+insect flits by. He is the one that raps so merrily on your tin roofs
+when he feels musical.
+
+[Footnote 1: So named from being found along the Gila River.]
+
+In many ways the red-head, as he is familiarly called, is like his
+carpenter cousin. Both indulge in long-continued drumming; both catch
+flies expertly on the wing; and both have the curious habit of laying up
+stores of food for future use. The Californian woodpecker not only
+stores acorns, but insect food as well. But though the Carpenter's
+habits have long been known, it is a comparatively short time since the
+red-head was first detected laying up winter supplies.
+
+The first to report this habit of the red-head was a gentleman in South
+Dakota, who one spring noticed that they were eating _young_
+grasshoppers. At that season he supposed that all the insects of the
+year previous would be dead or torpid, and certainly full-grown, while
+those of the coming summer would be still in the egg. Where could the
+bird find half-grown grasshoppers? Being interested to explain this, he
+watched the red-heads until he saw that one went frequently to a post,
+and appeared to get something out of a crevice in its side. In that post
+he found nearly a hundred grasshoppers, still alive, but wedged in so
+tightly they could not escape. He also found other hiding-places all
+full of grasshoppers, and discovered that the woodpeckers lived upon
+these stores nearly all winter.
+
+But it is not grasshoppers only that the red-head hoards, though he
+is very fond of them. In some parts of the country it is easier to find
+nuts than to find grasshoppers, and they are much less perishable food.
+The red-head is very fond of both acorns and beechnuts. Probably he eats
+chestnuts also. Who knows how many kinds of nuts the red-head eats? You
+might easily determine not only what he will eat, but what he prefers,
+if a red-headed woodpecker lives near you. Lay out different kinds of
+nuts on different days, putting them on a shed roof, or in some place
+where squirrels and blue jays would not be likely to dare to steal them,
+and see whether he takes all the kinds you offer. Then lay out mixed
+nuts and notice which ones he carries off first. If he takes all of one
+kind before he takes any of the others, we may be sure that he has
+discovered his favorite nut. Such little experiments furnish just the
+information which scientific men are glad to get.
+
+[Illustration]
+
+It is well known that the red-head is very fond of beechnuts. Every
+other year we expect a full crop of nuts, and close observation shows
+that the red-heads come to the North in much larger numbers and stay
+much later on these years of plenty than on the years of scanty crops.
+Lately it has been discovered that they not only eat beechnuts all the
+fall, but store them up for winter use. This time the observation was
+made in Indiana. There, when the nuts were abundant, the red-heads were
+seen busily carrying them off. Their accumulations were found in all
+sorts of places: cavities in old tree-trunks contained nuts by the
+handful; knot-holes, cracks, crevices, seams in the barns were filled
+full of nuts. Nuts were tucked into the cracks in fence-posts; they were
+driven into railroad ties; they were pounded in between the shingles on
+the roofs; if a board was sprung out, the space behind it was filled
+with nuts, and bark or wood was often brought to cover over the gathered
+store. No doubt children often found these hiding-places and ate the
+nuts, thinking they were robbing some squirrel's hoard.
+
+In the South, where the beech-tree is replaced by the oak, the red-heads
+eat acorns. I should like to know whether they store acorns as they do
+beechnuts. Are chestnuts ever laid up for winter? How far south is the
+habit kept up? Is it observed beyond the limits of a regular and
+considerable snowfall? That is, do the birds lay up their nuts in order
+to keep them out of the snow, or for some other reason?
+
+It remains to be discovered if other woodpeckers have hoarding-places.
+We know that the sapsucker eats beechnuts, and the downy and the hairy
+woodpeckers also; that the red-bellied woodpecker and the golden-winged
+flicker eat acorns; and I have seen the downy woodpecker eating
+chestnuts, or the grubs in them, hanging head downward at the very tip
+of the branches like a chickadee. It may be possible that some of these
+lay up winter stores.
+
+[Illustration: Head of the Lewis's Woodpecker.]
+
+It is known that the Lewis's woodpecker occasionally shows signs of a
+hoarding instinct. It was recently noted that in the San Bernardino
+Mountains of California the Lewis's woodpecker, after driving away the
+smaller Californian woodpeckers, tried to put acorns into the holes the
+Carpenter had made, but, being unused to the work, did it very clumsily.
+Soon after this observation was published, a boy friend living near
+Denver told me that a short time before he had seen a woodpecker that
+had a large quantity of acorns shelled and broken into quarters, on
+which he was feeding. This woodpecker was identified beyond a doubt as
+the Lewis's woodpecker. So we begin to suspect that the habit of storing
+up food is not an uncommon one among the woodpeckers.
+
+
+
+
+X
+
+A STUDY OF ACQUIRED HABITS
+
+
+Something interesting yet remains to be discovered of the hoarding habit
+of the red-head. How strange that so familiar a bird should have a habit
+so easily detected, and yet that no one in all these years should speak
+of it! Who does not know how mice and chipmunks hide their food? Who has
+not watched the blue jay skulking off to hide an acorn where he will be
+sure to forget it? Who does not remember the articles his pet Jim Crow
+stole and lost to him forever? The hoarding habit has long been observed
+of many dull-colored, rare, or insignificant creatures. That one so
+noisy, gay-colored, tame, and abundant as our red-headed woodpecker
+should have the same habit and escape observation is certainly
+remarkable. But though it is over twenty years since the storing of
+grasshoppers was recorded and twelve since the practice of laying up
+beechnuts was observed, very little seems to have been learned of the
+habit since these records were made.
+
+There are two points to be considered: the habit long remained unknown;
+after it was discovered, it was long in being reaffirmed. It seems that,
+if it were a general habit, more would be known about it. Now if it is
+not a universal habit, it must be one of two alternatives, either a
+custom falling into disuse, or a new one just being acquired. That a
+habit so remarkable and so advantageous should be discarded after being
+universal is scarcely possible; that a habit so noticeable, if it were
+general, should remain unknown is improbable; that a habit which made
+life in winter both secure and easy should, if introduced by a few
+enterprising birds, become a universal custom, is not without a
+parallel. The probabilities point to the custom of hoarding food as a
+recently _acquired habit_.
+
+Acquired habits are not rare among birds. The chimney swift has learned
+to nest in chimneys since the Pilgrims landed; for there were no
+chimneys before that time. There is the evidence of old writers to show
+that they acquired the habit within fifty years of the time of the first
+permanent settlements in New England. The eaves swallow learned to
+transfer its nest from the side of a cliff to the side of a barn in less
+time. Most birds will change their food as soon as a new dainty is
+procurable, and they will even invent methods of getting it, if it is
+much to their taste. The way the English sparrows have learned to tear
+open corn husks so as to eat the corn in the milk is a good example, for
+our maize does not grow in England, and they have had to learn about its
+good qualities in the few years since they have become established
+outside of the cities. Yet it is already a well-established habit. So
+quickly does a habit spread from one bird to another, until it becomes
+the rule instead of the exception! Acquired habits always show
+adaptability, and often much forethought and reason. It is the shrewd
+bird that learns new tricks.
+
+Now there is not known among birds any evidence of greater forethought
+and reason than working hard in pleasant weather, when food is plentiful
+beyond all hope of ever exhausting it, to lay up provision for winter.
+How does the woodpecker know that winter will come this year? That there
+was a winter last year and the year before does not make it certain, but
+only probable, that there will be one this year. We cannot know
+ourselves that the seasons will change until we learn enough of
+astronomy to understand the proof. Nor does instinct explain the habit,
+as some would declare: since not all red-heads have the habit, though
+all must have instinct. It would seem as if memory and reason had
+devised this plan for outwitting winter, the bird's old enemy.
+
+The red-head is not a grub-eating woodpecker. Though beetles make up a
+third of his food, their larvæ do not form any part of it. Half his food
+for the entire year is vegetable, and the animal portion is composed
+principally of beetles, ants, caterpillars, and grasshoppers, which in
+winter time are hidden in snug places, or are dead under the snow. There
+are few berries in winter. The few seedy, weedy plants that stick up
+above the snow give to the birds the little they have; but the
+red-head's vegetable fare is limited at that season and his animal food
+almost lacking. Winter in the North is all very well for the hairy and
+downy cousins that like to hammer frozen tree-trunks for frozen grubs;
+but our red-headed friend does not eat grubs by preference. Rather than
+change his habits he will change his boarding-place. So he is a
+migratory woodpecker, though the woodpeckers are naturally home-loving
+birds, and do not migrate from preference. If, however, he can lay up a
+store of vegetable or animal food, he can winter in any climate.
+Hoarding is thus an invention as important to the woodpecker world as
+electric cars and telephones are to men. The probabilities are that
+this is a recent improvement in the red-head's ways of living.
+
+Another set of facts increases the probabilities of our supposition. It
+is a very delicate subject to handle because it affects the reputation
+of a family in good standing; but there is positive proof that sometimes
+the red-head has been guilty of crimes which would give a man a full
+column in the newspapers with staring headlines. If such deeds were not
+a thousand times less common among woodpeckers than they are among men
+the red-head would be declared an outlaw. He has been proved to be a
+hen-roost robber, a murderer, and a cannibal. In Florida he has sucked
+hen's eggs. In Iowa he has been seen to kill a duckling. There is a
+record in Ohio that he pecked holes in the walls of the eaves swallow's
+nest and stole all the eggs, and that he was finally killed in the act
+of robbing a setting hen's nest. Within the space of fifteen years, from
+Montana, Georgia, Colorado, New York, and Ontario, in addition to the
+records mentioned already from Florida, Ohio, and Iowa, come accounts of
+his stealing birds' eggs and murdering and eating other birds. The
+evidence is indisputable.
+
+It is charity to suppose that this is the work of natural criminals, or
+of degenerate, under-witted, or demented woodpeckers. Why should there
+not be such individuals among birds? One point is certain: so notable a
+habit could not long escape detection, since it is a barnyard crime. He
+who robs hen's nests gets caught--if he is a bird. Either these
+occurrences are very rare, not seen because of their extreme rarity, or
+they indicate a new custom just coming in. And the same is true of the
+habit of hoarding food; it is rare, or it is new.
+
+The frequency of such occurrences can be determined only by observation;
+but the time of their origin might be approximated in another way. If we
+could fix the date when the bird could not have done what he is now
+doing for simple lack of opportunity, we might say that the habit has
+been acquired since a certain date--as we have said of the English
+sparrow eating maize, of the chimney swift nesting in chimneys, and the
+cliff swallow building under the eaves. But we have no such help on the
+case of the red-head, which never has been without opportunities to get
+birds' eggs and to kill other birds.
+
+But there is a parallel case in another species where the date of an
+acquired habit can be proved. In Florida the red-bellied woodpecker has
+earned the names Orange Borer and Orange Sapsucker because he eats
+oranges. It is true that he is not charged with doing damage, because
+he attacks only the over-ripe and unmarketable fruit; it is known that
+the habit is not general yet, for even where the birds are abundant only
+a single bird or a pair will be found eating oranges, and always the
+same pair, proving that it is a habit not yet learned by all of the
+species; close observers declare, too, that it is but a few years since
+the bird took up the habit; and, finally, we know that this must be the
+case, for, though the wild orange was introduced by the Spaniards, the
+sweet fruit was not extensively cultivated until recently. Here is a
+habit which undoubtedly has been acquired within twenty years or so,
+which will in all probability increase until instead of being the
+exception it is the rule.
+
+Why may not the red-head's occasional cannibalism, unless this is mere
+individual degeneracy, and his more common custom of hoarding be habits
+that he is acquiring? Why, indeed, may not the Californian woodpecker's
+distinguishing trait be a habit which began like these among a few birds
+here and there, wiser or more progressive than the rest, and which in
+time became general and established? Why may not the two observed
+instances of the Lewis's woodpecker be examples of a similar habit just
+beginning? The very differences in their methods point to that
+explanation. The Lewis's woodpecker that had seen the Carpenter's work
+tried to imitate him; the one that lived outside his range adopted a way
+of his own, unnoticed before among woodpeckers, and shelled and
+quartered his nuts before he stored them.
+
+It is remarkable that these four woodpeckers are cousins; they belong to
+the same genus, and they have essentially the same structure, tastes,
+and habits. Why should it be strange if their minds were alike too? if
+they had a natural bent toward accumulativeness, and a natural desire to
+try new wrinkles? We are sure that one of them has acquired a new habit
+within a few years. Why may we not suppose as a basis and a spur to
+further investigation that the others also are acquiring ways new and
+strange?
+
+
+
+
+XI
+
+THE WOODPECKER'S TOOLS: HIS BILL
+
+
+There is an old saying, "You may know a carpenter by his chips;" but,
+though chips are seldom long absent when a woodpecker is about, can we
+call the woodpecker a carpenter? Is he not both in his works and ways of
+working--with the one exception of the Californian woodpecker--more of a
+miner?
+
+For the carpenter takes pieces of wood, bit by bit, and joins them
+together till at last he has built a lofty skeleton or framework for his
+dwelling, which last of all he covers over and closes in; and the tools
+he uses are saw and hammer. With these alone he could build his house,
+though it might be neither very large nor very good. When a carpenter's
+house is finished, it is neither a cave nor a hole, but a pavilion built
+in the open air after the model of a spreading tree,--which frames a
+roof with its branches and shingles it with overlapping leaves. There is
+nothing in the woodpecker's way of building which corresponds to that.
+
+Quite different are the miner's methods. In the West, where the barren
+mountain sides stretch up into snowclad summits, on the face of slopes
+as seamed and gray and verdureless as the wrinkled trunk of an aged oak,
+I have seen holes where human woodpeckers burrow. The entrance to a mine
+half-way up a hillside looks strikingly like a woodpecker's hole and
+scarcely larger. Nor does the likeness vanish as we think how in their
+long tunnels inside their mountains of gold and iron and silver the
+delving miners are picking and prying and picking to lengthen their
+burrows just as the woodpeckers peck and pry and peck inside their
+wooden mountain, the tree-trunk. Which shall we call the woodpecker--a
+carpenter or a miner?
+
+What are the miner's tools? Pick and drill, are they not? What are the
+woodpecker's? The same. Certainly we shall see, if we stop to think,
+that it is not a chisel that he uses, as we sometimes say. A chisel is a
+knife driven by blows of a hammer; like a knife its effectiveness
+depends upon the sharpness and length of its cutting edge. But a
+woodpecker's bill is not a cutting tool. It is a wedge, but a wedge
+working on a different principle from a knife-edge. Look at this one and
+observe that, though strong and stout, it is not sharp and has no true
+cutting edge. It is a tapering, square-ended, flat-sided tool, rather
+six-sided at the base and holding its bevel and angles to the tip. The
+woodpecker's bill is a pick, not a chisel. It is used like a pick, being
+driven home with a heavy blow and getting its efficiency from its own
+weight and wedge-shape and from the force with which it is impelled.
+Watch the downy woodpecker at his work and see what sturdy blows he
+delivers, pausing after each one to aim and drive home another telling
+stroke. This is pick-axe work. But sometimes he rattles off a succession
+of taps so short and quick that they blend together in one continuous
+drumming, too light and quick to be likened to the ponderous swing of
+the pick-axe. Now he is drilling. The work of a drill is to cut out a
+small deep hole either by twirling (as in drilling metals) or by tapping
+(as in drilling stone). The woodpecker drills by the latter method and
+there is a curious likeness between his bill and the mason's tools.
+
+[Illustration: Head of Ivory-billed Woodpecker.]
+
+Any one who has lived in a granite country knows the deep round holes
+that stone masons make when they split rock. Did you ever wonder why
+they are as large at the bottom as at the top? If you remember the shape
+of a mason's drill, you will recollect that it looks a little like a
+stick of home-made molasses candy bitten off when it was just soft
+enough to stretch a little. The mason's drill is a round iron rod with a
+thin, flat end, sharpened on the edge and a little pointed in the
+centre. In the flattening of the sides and the width across the tip its
+end resembles that of a typical woodpecker's bill. The woodpeckers that
+drill for grubs, especially the largest, the logcock and the
+ivory-billed woodpecker, have the tip remarkably flattened. The likeness
+to the drill does not go farther because the woodpecker's bill is a
+combination tool; but it is drill-pointed rather than pick-pointed.
+
+What is the advantage of this compressed tip? Can the bird pick as well
+as he could with a sharp point? The bird and the mason reap the same
+benefit from this form of tool. A sharp-pointed drill would bind in the
+hole and could neither be driven ahead nor removed without difficulty,
+but the sharp-edged tool cuts a hole as wide as the instrument. There
+is, of course, some difference between working in stone and in wood, but
+the principle is the same. The mason strikes his drill with his hammer
+and cuts a crease in the stone; then lifts and turns the drill, cutting
+a crease in another direction; and so by continually changing the
+direction of the cuts until they radiate from a centre like the spokes
+of a wheel, he finally reduces a little circle of stone to a powder fine
+enough to be blown out of the hole. In drilling for a grub the
+woodpecker must do much the same thing. He wishes to keep his hole small
+at the top so as to save work, yet it must be large enough at the bottom
+to admit the borer when nipped between his mandibles; therefore he needs
+an instrument that, like a drill or a chisel, will cut a straight-sided
+hole. Indeed, we might call it a chisel just as well if it were not a
+double-wedge instead of a single wedge and if it did not move when it is
+struck instead of being held stationary beneath the blows.
+
+When he is digging his house the woodpecker uses his bill as a pick-axe.
+When he is digging for grubs he uses it as a drill. Now some species
+drill very little and some a great deal, according to the number of
+grubs they feed on; but all dig holes to nest in,--that is, all use
+their bills as picks but only a few employ them as drills. The flickers,
+for example, seldom drill for grubs, their food being picked up on the
+surface or dug from the earth; yet they excavate the deepest, roomiest
+holes made by any woodpeckers of their size; they use their bills
+effectively as pick-axes, but seldom, very seldom, as drills. And what
+do we find? No drill-point--not a truncate, compressed bill fit for
+drilling, but a sharper, pointed, rounded, _curving_ bill. Notice the
+ordinary pick-axe and see how much nearer the flicker's bill than the
+logcock's or the ivory-billed woodpecker's it is. Why is a flicker's
+bill better for being curved also? Why do the drilling woodpeckers have
+a perfectly straight bill? We should find by studying the birds and
+their food that there is a direct relation between the shape of the bill
+and the amount of drilling a woodpecker does; that the grub-eating or
+drilling woodpeckers have a straight bill, for working in small deep
+holes, while the flickers have a curved bill for prying out chips. And
+we should note that the flicker's bill is most like the ordinary bill of
+perching birds, while the drilling bill, as typified by the logcock's
+and the hairy woodpecker's bills, is a more specialized tool, limited to
+fewer uses, but more effective within its limits.
+
+There is another detail of the woodpecker's bills which casts light upon
+their habits. The species that drill most have their nostrils closely
+covered by little tufts of stiff feathers, scarcely more than bristles,
+which turn forward over the nostril. The density and the length of these
+tufts agree very well with the kind of work the woodpecker does; for in
+the hairy and the downy, which are continually drilling and raising a
+dust in rotten wood, they are very thick and noticeable, while in the
+red-head and the sapsucker they show as scarcely more than a few loose
+bristles, and in the flicker they barely cover the nostril. This seems a
+plain provision to keep the dust out of the bird's lungs; and we might
+cite as additional evidence the fact that the only other birds of
+similar tree-pecking habits, the nuthatches and the chickadees, have
+their nostrils protected in the same way. But we must always be cautious
+before drawing inferences of this sort to see what may be said on the
+other side. When we recollect that the crows and ravens and many kinds
+of finches, among other birds, none of which dig in the bark of trees or
+raise a dust, have their nostrils as completely covered, we see that we
+have perhaps discovered a _use_ for these nasal tufts but not the
+_cause_ of their being there. We must be careful not to mistake cause
+and accompaniment in our endeavor to explain differences in structure.
+
+Let us see what we have learned and how to interpret it:--
+
+That the woodpecker's bill is a combination of drill and pick-axe.
+
+That the shape varies with the use to which it is most commonly put.
+
+That the use varies with the food principally eaten; or, what is a step
+farther back, that the different kinds of food must be sought in
+different places and by different methods, and therefore require
+different tools.
+
+Therefore the shape of the woodpecker's bill has a direct relation to
+the kind of food he eats. Please notice that we do not assert that it
+_causes_ him to eat a certain kind of food nor that a certain diet may
+not have affected the shape of the bill, causing it to be what we now
+see. Both may be at least partially true, but to prove either or both
+would need profound study, and all that we have observed is that the
+shape of the woodpecker's bill is _adapted_ to his food and that it
+varies with the kind of food he eats, or, to be more exact, with his
+ways of procuring it.
+
+
+
+
+XII
+
+THE WOODPECKER'S TOOLS: HIS FOOT
+
+
+We have studied the woodpecker's bill and have found that it is a very
+serviceable tool. We shall find that his feet are equally well adapted
+to their work.
+
+Here is the foot of a woodpecker. Observe how it differs from a
+chicken's foot, or a sparrow's foot. What is it that especially fits it
+for climbing? Perhaps you will notice that the tarsus is short, and you
+may be able to explain why it would be a disadvantage for a climbing
+bird to have long legs, as well as why it is a help for him to have long
+toes. Toes long and legs short is the rule with the woodpeckers.
+
+[Illustration: Foot of Woodpecker.]
+
+I never see a woodpecker's foot without thinking of an iceman's nippers
+with their short handles and long, sharp-toothed jaws. They are designed
+for similar uses,--to lift heavy weights by laying hold of smooth, flat
+surfaces. The iceman sets his nippers into the ice and lifts the block;
+but the bird sets his claws into the tree and lifts his own body.
+
+Suppose the nippers had one short jaw and one long one, would they then
+take as firm hold as they do with jaws of equal length? In perching
+birds the hind toe is much the shortest, but they sit balanced upon a
+limb and have merely to hold themselves in position. The woodpecker
+climbing a tree-trunk is out of balance; he would fall off unless he had
+a firm grip; and he could not get this firm hold if his hind toes were
+not long enough to give his foot a nearly equal spread back and forward.
+Other birds grasp a limb with the whole under surface of their toes, but
+the woodpecker when on a smooth, upright tree-trunk nips it only with
+his toenails. Try with your own hand to hold a stick as large and heavy
+as you can grasp, and you will see that when you clasp your hand around
+it as a perching bird takes hold of a perch, it makes little difference
+that the thumb is shorter than the fingers, but when you try to nip it
+with your finger tips alone, you must bend your fingers until they are
+not much longer than your thumb,--that is, a pair of nippers must be
+equal jawed.
+
+This simple illustration shows why the woodpecker's foot reaches as far
+backward as forward. But a sensible objection may be raised, namely,
+that as there are two hind toes of unequal length, it is by no means
+certain which is the more necessary.
+
+[Illustration: Diagram of right foot.]
+
+Scientists tell us that a woodpecker's foot, though it looks so unlike a
+chicken's, is really very much the same. When we ask how one of the
+front toes disappeared and how the extra hind toe came to be where it
+is, they tell us that there has been no addition and no loss, but the
+extra hind toe is only a front toe turned backward. They call it a
+_reversed fourth toe_. A bird's toes are numbered in order starting with
+the hind toe and going around the _inside_ of the foot to the outer or
+fourth toe. The hind toe is the thumb, and the others are numbered in
+the same order as the fingers of our hands. So we see that the
+woodpecker's real hind toe is rather small, like that of most birds. It
+looks very much as if it had been found _too_ small and as if another
+had turned back to help it do its work. Do you say that a bird cannot
+turn his toes about in this way? Most cannot, to be sure, but all of the
+owls can do it. An owl will sit either with two toes forward and two
+backward, or with three forward and one the other way. The owls have a
+reversible outer toe, and perhaps the woodpeckers did also before it
+became permanently reversed.
+
+[Illustration: Foot of Three-toed Woodpecker.]
+
+That this is exactly what had happened is curiously confirmed. There are
+a few woodpeckers in this country which have but three toes. They are
+the only North American land birds with less than four toes (though many
+sea and shore birds have but three). Compare this picture with a
+four-toed woodpecker's foot. One toe is gone completely, when or how no
+one can tell. But in some way the _first_ toe, the _thumb_, the one we
+always begin to count from, has disappeared. The one left is the
+reversed fourth toe, as we know by the number of joints in it.
+Undoubtedly this woodpecker needed a hind toe, but he must have needed a
+longer, stronger one than his natural first toe. A toe of the right
+length was supplied by turning one of the front toes back, and the short
+hind toe in some way disappeared.
+
+This may seem a roundabout way to show that a woodpecker's foot is a
+pair of nippers. First we studied nippers till we found out that they
+were not good nippers unless they were nearly equal-limbed. Next we
+studied the woodpecker's foot to learn about that extra hind toe. Then
+it occurred to us that four toes were not necessary, since some of our
+best climbers have but three. What was the essential point? Might it not
+be a foot equally divided without reference to the number of toes? But
+that is the principle of a pair of nippers. Then came the question, is
+there any similarity in their use? Yes, the nippers are used to lift
+heavy weights, and the woodpecker's foot is used to lift his heavy body
+in just the same way, by taking hold of a flat, smooth surface. We
+conclude that a wide-spread, equally divided, nipping foot would be the
+best device possible for the woodpecker's way of living, and we find by
+examination that every woodpecker shows this type of foot.
+
+There is additional evidence that this is the right explanation. Our
+only other North American birds that climb on the bark of trees
+professionally, as we may say, are the brown creepers and the
+nuthatches. In both these the tarsus is short, as we found it in the
+woodpeckers, and the hind toe and its claw are fully equal to the middle
+toe and claw, making an equally divided foot. On the other hand, the
+foot with two toes forward and two toes backward is confined neither to
+woodpeckers nor to climbing birds. The parrots, which climb after a
+fashion, have it; but so do the cuckoos, which do not climb, some of
+which, like our road-runner, or ground cuckoo of the West, are strictly
+terrestrial. The "yoking" of the toes may occur by the reversion of the
+fourth toe, as ordinarily, or of the second toe, as in the trogons; the
+arrangement appears to be definitely related to the distribution of the
+tendons that control the toes. But though accounting for the structure
+may give a clue to its descent, it does not justify its efficiency. The
+yoke-toed foot is not exclusively a climbing foot. All our families of
+climbers have at least one representative with but one toe behind, and
+this clearly proves that the yoke-toed structure is by no means
+necessary even though it may be an honorable inheritance among climbers.
+The natural conclusion is that the important point in climbing is not
+the number nor the arrangement of the toes, but the length of at least
+one hind toe so as to give an equally divided foot.
+
+There is an interesting point to notice about the woodpeckers. This
+reversed fourth toe is curiously variable in length. In the flickers,
+with its claw, it is a little shorter than the middle (third) toe with
+its claw; in the red-heads and their friends it a little exceeds the
+middle toe and claw; in the downy and the hairy it is much the longest
+toe, and in the ivory-billed woodpecker it is abnormally developed. We
+at once judge that it is some indication of the bird's manner of life,
+and we look for it to be largest in the species that live continually
+upon the trunks of trees, obtaining most of their food by drilling. We
+expect to see the finest development of drilling bill accompany this
+enormously developed toe, and we find them both in the ivory-billed
+woodpecker. In imagination we clearly see the use of it. The great bird,
+keen in his quest of grubs, sidling hastily round the tree, in an
+unsteady balance and unsupported by his tail, throws one long hind toe
+downward to steady himself, hooks the other into the bark above him, and
+hangs between the two as firmly supported as in his ordinary position.
+No doubt he does do this, but does it prove the supposition that the
+heaviest and most arboreal woodpeckers have the greatest development of
+the fourth toe? Not at all. There is our rare acquaintance the logcock,
+or pileated woodpecker, a bird nearly as large as the ivory-billed, one
+of the most persistent of our tree-climbers and more than any other
+woodpecker I ever observed given to scratching rapidly round and round a
+tree-trunk, clinging at ease in almost any position except
+head-downward, and drilling incessantly and at all seasons for grubs; he
+is a typical woodpecker of the largest size, but his hind toe and claw
+are, if anything, a trifle shorter than his middle toe with its claw. He
+throws it out and uses it as we have described, but it has not that
+disproportion to the other toes which we expected to find as the result
+of a strictly arboreal life.
+
+What have we proved? We have not shown that the long toe is _not_ more
+useful than the shorter one,--that is a matter of observation; but we
+have failed entirely to show that it is so, and this can be done only in
+one of two ways: either by proving that the logcock's habits are not
+what all previous observers have believed them to be,--which would be
+assuming a great burden of proof; or by demonstrating that his ancestry
+explains why his feet do not illustrate our theory,--and this, though it
+is undoubtedly the true solution, could be settled only by a very
+learned man.
+
+But we have encountered one truth which must always be held in mind in
+science--that a theory is not proved while a single fact remains
+rebellious and unsubdued. We might have examined every other woodpecker
+in the continent but just one; we might have seen that every other one
+agreed with our theory, as it does; we might have supposed that the
+explanation was good past doubting; but that one exception--if it was a
+logcock--would still over-turn the whole theory; and the very facts that
+we relied upon to strengthen us--its resemblance in size, habits, shape,
+and color to the ivory-billed woodpecker--have been the strongest
+possible means of totally demolishing our fine theory. We have learned,
+if nothing more, that all the facts must be examined and accounted for
+before an explanation is accepted as indisputable.
+
+
+
+
+XIII
+
+THE WOODPECKER'S TOOLS: HIS TAIL
+
+
+If we study the woodpecker's anatomy and observe his broad, strong,
+highly-arched hip-bones and the heavy, triangular "ploughshare" bone in
+which the tail feathers are planted, as well as the stiffness and
+strength of the tail itself, we must conclude that it is not by accident
+that he uses his tail as a prop. The whole structure shows that the bird
+was intended "to lean on his tail." What we wish to discover is how good
+a tail it is to lean on.
+
+[Illustration: Tail of Hairy Woodpecker.]
+
+Our first impression is that the woodpecker's tail might be improved.
+Why are not the tips of the feathers stiffer? Why is it so rounded? Most
+of the work seems to fall on the middle feathers, and in some species,
+as the downy and the hairy woodpeckers, these end in decurved tips so
+soft and unresisting that they seem quite unfit to give any support.
+Would it not be better if the woodpecker's tail had been cut square
+across and made of feathers equally rigid and ending in short stiff
+spines? For we see that the woodpecker's tail is not only weak in its
+inner feathers, but weaker still in its outer ones, and it is stiff, in
+most species, only in the upper three fourths of its length.
+
+When we propose a change in nature it is wise to inquire whether our
+improvement has not been tried before and to learn how it worked. How
+many kinds of birds have we that use their tails for a support? What are
+their habits and what sort of tails have they?
+
+[Illustration: Tails of Brown Creeper (under surface) and Chimney Swift
+(upper surface.)]
+
+Besides the woodpeckers we have but two kinds of land birds that prop
+themselves with their tails,--the swifts and the creepers. The creeper
+has a tail very much like the woodpecker's as it is; while the chimney
+swift's is precisely like the woodpecker's as we thought it ought to be.
+But we observe that while the creeper's habits are almost precisely
+like the woodpecker's,--so much so that when we first make his
+acquaintance, some of us will be sure we have discovered a new kind of
+woodpecker,--the chimney swift has but one habit in common with the
+woodpecker, that of clinging to an upright surface and propping himself
+by his tail. If the bird with the tail most like the woodpecker's has
+the woodpecker's habits, is it not a fair inference that this form of
+tail is better fitted to this way of living than the other would be?
+
+Next, what variations in shapes do we observe among the woodpeckers
+themselves? The logcock and the ivory-billed woodpecker have the longest
+tails--because they are the largest birds. When we compare the length of
+the tails with the length of the birds we are surprised at the results.
+On measuring sixteen species, representing seven genera, I find that the
+tail is from three tenths to thirty-five hundredths of the entire
+length; that it is, in proportion, as long in the flicker as in the
+ivory-bill, as long in the downy as in the logcock, and longer (in the
+specimens measured) in the almost wholly terrestrial flicker than in the
+wholly arboreal logcock. Without much more study all that we can safely
+infer is that the woodpecker's tail is not far from one third the
+length of his whole body measured from the tip of the bill to the tip of
+the tail. Probably this is the proportion most convenient for his work.
+
+[Illustration: Middle tail feathers of Flicker, Ivory-billed Woodpecker,
+and Hairy Woodpecker.]
+
+All woodpeckers' tails agree in one particular: they are rounded at the
+end. At first sight we would say that some are but slightly rounded and
+others very deeply graduated; but as nearly as I can determine this is
+at least partly an optical illusion, explained by the great difference
+in the shape of the feathers making up the tail, which in some, as the
+flicker, are very broad and abruptly pointed, and in others taper
+gradually to the end and are very narrow for their length. The larger
+birds naturally appear to have longer tails, and the effect of narrow
+feathers is to make the tails appear longer and more sharply graduated
+than they really are. This diagram shows the shape of the curve in six
+species, and indicates that, while the curvature is less than we might
+expect, it bears some relation to the bird's way of living; for we see
+that the strictly arboreal woodpeckers have more pointed tails than the
+terrestrial species, and that the amount of gradation bears a direct
+relation to the amount of time spent upon the tree-trunks.
+
+There is a third difference, the shape of the individual feather, to
+which we shall refer again; but now we wish to examine the uses and
+meaning of the curved end.
+
+[Illustration]
+
+     Diagram of curvature of tails of Woodpeckers. Drawn to scale.
+
+    _a_, _a_, point of insertion in
+    rump.
+
+    _a_, _b_, outer tail feather.
+
+    _a_, _c_, middle tail feather.
+
+If the outer tail feather were of the same length in all cases, the
+curve at the end of the tail would be represented by the dotted lines.
+
+    1. Flicker.
+
+    2. Red-headed Woodpecker.
+
+    3. Downy Woodpecker.
+
+    4. Logcock.
+
+    5. Central American Ivory-billed
+    Woodpecker.
+
+    6. North American Ivory-billed
+    Woodpecker.
+
+
+I will show you how to prove this point so that you may be satisfied
+about it even if you should never see a woodpecker. We will make a
+little experiment, so simple that even a child can understand it.
+
+First, how many shapes can any bird's tail have? It may be one of three
+general patterns, and it can be nothing else unless we combine those
+patterns. It may be square across the end, it may have the middle
+feathers longest, or it may have the outer feathers longest. To one of
+these patterns every form of birds' tails may be referred; you can
+invent no other shape.
+
+Let us assume that you know nothing whatever of a woodpecker's tail
+except that it has ten feathers, is used as a prop, and is held at an
+angle of thirty or forty degrees with the tree-trunk. Now, take three
+strips of paper of the same width and length, and of any size not
+inconveniently small. Fold them all down the centre. Cut one square
+across; cut one with a rounded end and the third with a forked end,
+making them of any shape you please so long as the three papers are of
+the same length. To give our models a fair test they must be of the same
+width and length. Next, pin a sheet of paper of any size you please into
+the form of a cylinder and stand it on end to represent a tree-trunk.
+Then fit the patterns to the tree-trunk and see which is the form that
+would give the most support.
+
+[Illustration: Patterns of tails.]
+
+But first, in how many ways is it possible for a bird to use his tail as
+a prop? He may of course hold it open or closed; and the open tail may
+be held in a single plane, "spread flat," as we say; or curved up at the
+edges, like a crow blackbird's; or curved down at the edges. And the
+closed tail may be held in a single plane; or, by dropping each pair of
+feathers a little, in several planes. Thus we see there are five
+positions in which each shape may be held against the cylinder of paper.
+Try each one against it, holding it first in the open positions and then
+after folding the paper like a bird's tail with the outer feathers
+underneath, in the closed positions. The size of the model tree-trunk
+and the shape you cut your curves will make the results vary a little,
+but you will be surprised to observe, if your models are not too small,
+how many times you will get the same answers. Note the number and
+position of the pairs that touch:
+
+    _Spread._          _Square end._       _Forked end._       _Round end._
+
+    one plane,         varies              varies              middle pair
+    curved up,         middle pair         middle pair         middle pair
+    curved down,       all                 all                 all
+    _Closed._
+    one plane,         outer pair          outer pair          middle pair
+    different planes,  outer pair          outer pair          all
+
+Which shape brings the most feathers into use in all positions? Which
+positions bring most feathers into use? We see at once that the rounded
+end has a decided advantage, that the middle pair of feathers is used in
+all possible positions, that the pair next outside is the next
+important, and that the spread tail curving downward at the edges and
+the closed tail in different planes are the two shapes which give the
+best support. There is therefore a reason for the rounded end which we
+said was the rule among the woodpeckers.
+
+Our little experiment is what we call a _deduction_. It shows us what we
+ought to expect under certain imaginary conditions. But it does not show
+us what actually exists, so there often comes a time when our deductions
+are faulty because Nature has done some unexpected thing, as when we
+found the single exception of the logcock's foot upsetting a fine theory
+of ours. A deduction must always be compared with facts, and is worth
+little or nothing if a single fact of the series we are studying is not
+explained by it. This time all the facts do agree; for I had, before we
+made our experiment, examined the tails of every species of woodpecker
+ever found in North America, and there was no exception to the rounded
+end. I had already drawn my conclusion that this form was better
+adapted to life on a tree-trunk than the square or the forked tail would
+be, reasoning by a different process called _induction_. An induction
+examines many, and, if possible, all the facts before drawing any
+conclusion; a deduction examines the facts after the conclusion is
+reached. There is no hard-and-fast line between the two kinds of
+reasoning, but we may say that a _deduction is reasoning out a guess and
+an induction is guessing out a reason_. Deductions are easier and
+quicker; inductions are surer, and in preparing them we often make other
+discoveries.
+
+The rounded tail is no doubt the best; but we have yet to decide whether
+the sharper curve is more advantageous than the lesser curve, as we
+thought probable from our observations. And there is still another
+deduction from our experiment which we did not make. If in the rounded
+tail the middle pairs of feathers do most of the work, and if use
+increases the size and efficiency of a part, which is almost an axiom in
+science, we should expect to find the middle tail feathers not only
+strongest in all woodpeckers but also strongest in increasing ratio in
+the species that use them most. To determine this we must study the use
+of the tail and the structure and shape of the individual tail
+feathers.
+
+We should remark, perhaps, that the woodpecker's tail is always composed
+of twelve feathers--ten pointed rectrices and two tiny abortive feathers
+so short and so hidden that no attention is paid to them. The ten
+principal feathers are arranged in corresponding pairs numbered from the
+outside to the centre as first, second, third, fourth, and fifth pairs.
+
+In the flickers all ten feathers have wide vanes and are similar in
+everything but the shape; all are more or less pointed. The flicker's
+tail looks and feels very much like that of any other bird except that
+the shafts are stiffer and the vanes contract to an acuminate tip. But
+as we take up the other species we notice a change, not only in the
+shape of the feathers but much more in their texture and in the
+difference between the various pairs. While in the flicker four pairs
+out of five are pointed and all are rigid, in the downy and the hairy
+three pairs out of five seem to be too soft to give any support, the
+sharp points have disappeared, and the tail has lost much of its
+stiffness. The two middle pairs of feathers are the only ones capable of
+doing much work and they are wavering and infirm at the tips where we
+should expect them to be strongest. In the logcock it is about the
+same,--two pairs are apparently unfit for work, one pair is infirm, and
+the two middle pairs are compelled to give all the support, except the
+little contributed by the third pair. In the ivory-billed woodpecker the
+two outer pairs are of no assistance and the three central ones do the
+work, and here again we find the base of the rectrices rigid and
+inflexible and the last fourth of their length weak and yielding. But
+what a difference in the individual feather! It is well able to do all
+the work; for, except for that weak tip which we cannot now explain, it
+is one of the toughest and strongest feathers to be found. The shaft is
+broad and flat, as elastic as a watch-spring; it looks like a band of
+burnished steel as it runs down between the vanes. And the vanes
+themselves are of a very curious pattern. They curl under at the edges
+so that we do not see their whole width, and the barbs crowd so thickly
+upon each other that they over-lie until they present an edge three or
+four broad. Indeed, the under side of one of these tail feathers reminds
+one of nothing so much as of the under side of a star-fish's arm with
+its two long lines of ambulacral suckers on each side of a central
+groove, so thickly do the spiny vanes of these strong rectrices over
+ride and crowd together. These spines lay hold of the bark of the tree,
+rank after rank, hundreds of bristling points that cannot be dislodged
+except by a forward motion of the bird or by lifting the tail. Compared
+with this, the spiny points on the flicker's tail were a poor invention.
+This device, which takes hold like a wool card, or a wire hair-brush,
+cannot slip from place. We begin to see, too, the use of that weak and
+flexible tip; it is to press down upon the tree-trunk a flat surface
+sufficiently large to hold hundreds of these little spiny points against
+the bark. The ivory-bill braces against this with the stiff upper part
+of the shaft and has a support that will not slip. The upper part of the
+shaft acts like a spring also, and adds tremendous force to the blow of
+the bill. Watch a hairy woodpecker when hard at work and see how his
+legs and tail form a triangular base by bracing against each other, and
+how his blow is delivered, not with the head alone, but with the whole
+body, swinging from the hips, the apex of the triangle on which he
+rests. He swings like a man wielding a sledge hammer, and to the
+strength of his neck adds the weight of his body, the spring of his
+tail, and the momentum of a blow delivered from a greater height. When
+the little hairy woodpecker does so much with his weak body, we can
+imagine what great birds like the logcock and the ivory-billed
+woodpecker, with their tremendous beaks, their huge claws, their springy
+tails, and their great physical strength can do. They are magnificent
+birds, the terror of all the grubs that hide in tree-trunks.
+
+[Illustration: Under side of middle tail feather of Ivory-billed
+Woodpecker.]
+
+One point we have left unexplained: What is the advantage, if there is
+any, in the sharper curve to the tails of the arboreal woodpeckers? It
+is a simple question. The curve is caused by the unequal length of the
+tail feathers; each tail feather is a prop, and by their inequality they
+become props of different lengths. Now ask any carpenter which will best
+support a tottering wall--props all of the same length set at the same
+angle, or props of different lengths set at different angles? His answer
+will help you to solve the problem. But if a little is good, why are not
+all the pairs used as props? Partly, perhaps, because the woodpecker is
+always crowded for houseroom, and while he must have tail enough, he
+cannot afford to have any which he does not use. Did you ever think what
+an inconvenience any tail at all must be in a woodpecker's hole?
+
+
+
+
+XIV
+
+THE WOODPECKER'S TOOLS: HIS TONGUE
+
+
+We have seen how the woodpecker spears his grubs: now we will study his
+spear.
+
+[Illustration: Tongue of Hairy Woodpecker. (After Lucas.)]
+
+There are many interesting points about a woodpecker's tongue, and they
+are not hard to understand. If a woodpecker would kindly let us take
+hold of his tongue and pull it out to its full extent we should be
+afraid we were "spoiling his machinery," for the tongue can be drawn out
+almost incredibly--between two and three inches in a hairy woodpecker
+and more in a flicker. A strange-looking object it is, much resembling
+an angle-worm in form, color, and feeling; for it is round, soft, and
+sticky, except at the flat, horny, bayonet-pointed tip, and as it lies
+in the mouth it is wrinkled like the wrist of a loose glove; but it
+grows smaller and smoother the more we pull it out. Evidently we are
+only drawing it into its skin. But where does so much tongue come from?
+Does it stretch like a piece of elastic cord? Or is a part hidden
+somewhere? And if so, where is it kept?
+
+[Illustration: Tongue-bones of Flicker. (After Lucas.)]
+
+    _a._ Cerato-hyals, fused and short.
+    _b._ Basi-hyal, long, slender.
+    _c._ Cerato-branchials.
+    _d._ Epibranchials.
+    Basi-branchial is wanting.
+
+
+These questions are answered by studying the bones of the tongue, for
+without bones it could not be guided as swiftly and surely as it is.
+Indeed, all tongues have bones in them, as you will discover by cutting
+carefully the slices near the root of an ox-tongue; but no other
+creature has such long and elaborate tongue-bones as some of the
+woodpeckers. They are the slenderest and most delicate little bony rods,
+joined end to end, but not really hinged nor needing to be, because they
+are so elastic. Here are the bones of a flicker's tongue. The little
+knob at the end, marked _a_, bore the horny point of the tongue and
+directed it; the straight shaft marked _b_ was inside the round part of
+the tongue as it lay within the bird's mouth; but what was done with
+these two long branches, fully three quarters of the entire length of
+the bones? They are too sharply curved to pass down the bird's throat,
+and, not being jointed, they cannot be doubled back in his mouth. They
+were tucked away very neatly and curiously. As the hyoid or tongue-bone
+lies in the mouth its branches diverge just in front of the gullet, and,
+traveling along the inner sides of the fork of the lower jaw, pass up
+over the top of the skull, looking in their sheath of muscles like two
+tiny whipcords. But still the bones are too long by perhaps half an inch
+for the place they occupy, and the ends must be neatly disposed of.
+Usually both pass to the right nasal opening and along the hollow of the
+upper mandible. Very rarely they may curl down around the eyeball in a
+spiral spring. So when the flicker thrusts out his tongue he feels the
+pull in the end of his nose, for the tip of the tongue being run out,
+the long slender bones are drawn out of their hiding-places, down over
+the skull until they lie flat along the roof of his mouth. As soon as
+he wishes to shut his bill, back fly the little bones guided by their
+hollow sheaths of elastic muscle into their hiding-place in the top of
+the bill. The muscular covering is a part of the same soft envelope that
+we saw lying in wrinkles at the root of the tongue. It covers the whole
+length of the little bones just as the woven outside covers an elastic
+cord.
+
+[Illustration: Skull of Woodpecker, showing bones of tongue. _a._ Upper
+end of windpipe and gullet.]
+
+[Illustration: Hyoids of Sapsucker and Golden-fronted Woodpecker.]
+
+Not all woodpeckers have tongues precisely like this. The sapsucker's is
+the shortest of any, and reaches barely beyond the hinge of the jaws. In
+the Lewis's woodpecker and others of his genus the branches of the hyoid
+extend part-way up the back of the skull but in the kinds that live
+principally upon borers they are very long and resemble the flicker's in
+arrangement. The only other North American birds that have a tongue
+built upon this plan are the hummingbirds, in which also it is
+extensile. The flicker, in proportion to his size, has the longest
+tongue of any bird known.
+
+
+
+
+XV
+
+HOW EACH WOODPECKER IS FITTED FOR HIS OWN KIND OF LIFE
+
+
+We have studied the woodpeckers at some length: first, what all of them
+do; next, what some that are peculiar in their ways do; lastly, how each
+is fitted for a particular kind of life. At first we were inclined to
+think they were all alike; but now we begin to see that there are very
+real differences between them,--in tails, feet, bills, and tongues, and
+at the same time in their food and habits.
+
+The flicker's tail is less sharply curved than that of any other
+woodpecker,--a sign that he is probably not exclusively a tree-dweller;
+his bill is curved and rounded, a pick-axe rather than a drill,--an
+indication that he does not dig for grubs; his feet do not tell us much;
+but his long extensile tongue shows that, whatever he feeds upon, he
+seeks it in holes. We find a tongue like this in no other bird, but
+among mammals the aard-vark, the ant-bear, and the pangolins are all
+similarly equipped, and all live on ants which they extract from their
+mounds and burrows in hundreds by means of these round, sticky, and
+extensile tongues. This is precisely the way the flicker gets his
+living. He lives principally upon the ground or near it, pecks very
+little except when digging his nest, and feeds largely upon ants,
+thrusting his head into the ant-hills and drawing out the ants glued to
+his tongue rather than speared by it. As he has been known to eat three
+thousand ants for a meal, we see how much easier this is than spearing
+them one by one.
+
+The red-head is another type. The bill is still nearly of the pick-axe
+model, the feet not especially different from the flicker's, the tail
+rather better adapted to life on a tree-trunk, and the tongue entirely
+unlike the flicker's,--not very extensile and heavily clothed near the
+tip with long, thick, recurved bristles. We infer that though he may
+climb well, he is not a drilling woodpecker to any great extent, and
+that his tongue is adapted neither to extracting borers nor to eating
+ants from their burrows. His habits bear out the inference. He is
+arboreal, but his food is either vegetable or picked up from the
+surface, rasped up rather than speared.
+
+The sapsucker presents still another variation. The points to the tail
+feathers are more acuminate and the tail itself more resembles that of
+the tree-dwelling woodpeckers in shape; the feet are fitted for clinging
+to the trunk; the bill, now perfectly straight and no longer smoothly
+rounded but buttressed by strong angles that spring from the base and
+run down toward the tip, is the bill of a woodpecker that lives by
+drilling; but the tongue is wholly unadapted to catching grubs. What
+kind of food can an arboreal woodpecker with a drilling bill find upon a
+tree-trunk when his tongue can be extended only a fifth of an inch, and
+is furnished with a brush of bristles at the end? We have answered that
+question before: he eats the inner bark of trees and laps up the sap,
+for which this brushy tip is excellently fitted. It has been observed
+that the tongue much resembles the tongues of insect-eating birds, which
+cannot be extended beyond the end of the bill. It is true that the
+sapsucker catches great numbers of insects, taking them on the wing like
+a flycatcher. But he also eats nearly as many ants as the flicker,
+though their tongues are totally unlike. We have made the mistake
+perhaps of thinking that ants live only underground and can be obtained
+only by tongues like those of the flicker and the ant-bear, which hunt
+them there. But ants are abundant on the surface of the ground, and
+they excavate long tunnels in rotten wood. The black bear is a famous
+ant-hunter, yet his tongue is like a dog's and he gets his ants by
+lapping them up after he has torn open the rotten logs in which they
+live. This is the way that the sapsucker obtains his ants, and the brush
+of stiff hairs is a help to him in such work. We see, then, that it is
+not so much the food as the manner of feeding that explains the form of
+the tongue.
+
+The downy and the hairy are a step farther along in their development.
+The fourth toe is longer than the others, a condition that we do not
+find in any of the woodpeckers not strictly arboreal; the tail is of the
+improved pattern, holding by a brush of bristles rather than by one
+stiff point at the end of each feather; the bill is heavier, broader at
+the base, more heavily ridged, and in every way a stronger tool; and the
+tongue is highly extensible and of the spear pattern, sharp-pointed and
+barbed with recurved hooks. Everything about these birds indicates that
+they are fitted to live on tree-trunks and to dig for borers. This,
+indeed, is what they do.
+
+But the great logcock and the ivory-billed woodpecker, though of the
+same type as the other larvæ-eating woodpeckers, are more highly
+developed along the same line. We notice the great strength of the
+feet; the claws, as large and as sharp as a cat's; the enormous weight
+and strength of the bill, compared with that of the other woodpeckers,
+which enables them to cut into the hardest wood and even into frozen
+green timber; and the great development of the tail, which now becomes a
+strong spring to support and aid the bird in his work.
+
+As we try to group these particulars under general heads, we see that we
+have observed three things:--
+
+_That the structure of a bird is adapted to its kind of life._
+
+_That the structure varies by small degrees with the kind of life._
+
+_That the kind of life is conditioned largely upon the kind of food and
+upon the method of procuring it, more particularly the latter._
+
+These are not so much different truths as three aspects of one truth.
+When we study the first we see why birds are grouped together into
+orders and families: we study their resemblances. When we observe the
+second we see why they are divided into species, for we note their
+differences. But when we consider the third and reflect that birds have
+the power to choose new kinds of food or new places and means of getting
+it, we see how it is that there can come to be new kinds of birds, new
+subspecies and species, springing up from time to time. Wonderful and
+improbable as it seems, there is more reason to believe than there is to
+doubt that new kinds of animals and plants are constantly in process of
+making; that the laws of change are constantly at work, adapting
+creatures to their surroundings or crushing them out of existence
+because they will not learn new ways. And it is probable that these
+differences which we mark in the woodpeckers have been the result of
+efforts to adapt themselves to a peculiar kind of life where food was
+abundant; and also that by acquired habits and by acquired tastes for
+different kinds of foods they will be subject to still further
+variations in the future.
+
+
+
+
+XVI
+
+THE ARGUMENT FROM DESIGN
+
+
+But if the birds are making themselves into new species, where is the
+place for God in the universe? Did not God make all kinds of creatures
+in the beginning? How can they go on being made without God?
+
+These are questions every one ought to ask, but--did God leave his world
+after He had made it and go a long way off? Did He wind it up like a
+watch to go till it should run down? Is the world a machine, or is it
+alive?
+
+Long ago the wise and good man Socrates argued that if you did not know
+there was a God at all, you could at least infer it because everything
+was so wonderfully made. "There is our body," said he: "every part of it
+so perfect and so reasonable. Consider how the eyes not only please us
+with agreeable sensations but are protected in every way. The eyebrows
+stand like a thicket to keep the perspiration from them, the lids are a
+curtain to shut out too great light, the lashes screen them from
+dust,--everything is planned for some wise and reasonable end. And
+where the evidence of design is so convincing must we not believe that
+there was a Designer?" Words like these he spoke, and we know because
+everything is so perfectly contrived that there must have been a
+contriver, who knew all from the beginning. We are compelled to believe
+that there is a God.
+
+Shall we believe it less because we find in the creatures about us
+intelligence and the power to care for their own lives? Has God gone on
+a visit because these living creatures are looking out for themselves?
+Were they made less perfectly in the beginning because when new
+conditions surround them they are able to change to meet the strange
+requirements? This is not less evidence of a Designer, but more. It was
+long said that the existence of a watch was proof of a watchmaker who
+had planned and put together all the parts so that they worked
+harmoniously. But if the watch had the power to grow small to fit a
+small pocket, or large to fit a large one, to become luminous by night,
+and to correct its own time by the sun instead of being regulated by
+outside interference, what should we have said--that it was proof there
+was no watchmaker? or that it showed a far more skillful one, since he
+could make a living, self-regulating, adaptive watch?
+
+And so of the world and the creatures in it. Every evidence we get that
+they can care for themselves, that they can adapt themselves to new
+conditions, that they are intelligent and reasonable, capable of
+improvement in habits or in structure, is so much surer proof that a
+wise God made them what they are. Evolution--for that is the name by
+which we call these changes--does not take God out of the universe but
+makes the need of Him stronger. The argument from design is immensely
+strengthened when we consider that we have not only an obedient machine
+acting according to a few fundamental rules, but one that is intelligent
+also and capable of self-modification.
+
+
+
+
+APPENDIX
+
+_Explanation of Terms._
+
+
+[Illustration: Head of a Flicker.]
+
+     _a._ Forehead; _b._ crown; _c._ occiput; _d._ nape; _e._ chin; _f._
+     throat; _g._ jaw-patch, or mustache.
+
+     _Occipital_ means "on the occiput."
+
+     _Nuchal_ means "on the nape."
+
+     _Primaries_ are the nine or ten wing-quills borne upon the last
+     joint of the wing.
+
+     _Secondaries_ are the wing-quills attached to the fore-arm bones.
+
+     _Tertiaries_ are the wing-quills springing from the upper arm
+     bones.
+
+     _Wing coverts_ are the shorter lines of feathers overlapping these
+     long quills.
+
+     _Tail coverts_ are the lengthened feathers that overlap the root of
+     the tail both above and below, called respectively upper and under
+     tail coverts.
+
+     _Ear coverts_ are the feathers that over-lie the ear, often
+     specially modified or colored.
+
+     _Rump_, the space between the middle of the back and the root of
+     the tail.
+
+     [M] is the sign used to indicate the male sex.
+
+     [F] is the sign used to indicate the female sex.
+
+     A _subspecies_ is a geographical race, modified in size, color, or
+     proportions chiefly by the influence of climate. These variations
+     are especially marked in non-migratory birds of wide distribution,
+     subject, therefore, to climatic extremes. The Downy and the Hairy
+     Woodpeckers, for example, are split up into numerous races. It
+     should be remembered that when a species has been separated into
+     races, or subspecies, all the subspecies are of equal rank, even
+     though they are differently designated. The one originally
+     discovered and first described bears the old Latin name which
+     consisted of two words, while the new ones are designated by triple
+     Latin names--the old binomial and a new name in addition. The
+     binomial indicates the form first described. The forms designated
+     by trinomials may be equally well known, abundant, and widely
+     distributed. For example, among the woodpeckers, the northern form
+     of the Hairy Woodpecker was first discovered and bears the name
+     _Dryobates villosus_; but the first Downy Woodpecker described was
+     a southern bird, and the northern form was not separated until a
+     few years ago, so that the southern bird is the type, and the
+     northern one bears the trinomial, _Dryobates pubescens medianus_.
+
+     _North America_, by the decision of the American Ornithologists'
+     Union, is held to include the continent north of the present
+     boundary between Mexico and the United States, with Greenland, the
+     peninsula of Lower California, and the islands adjacent naturally
+     belonging to the same.
+
+     The following key and descriptions will enable the student to
+     identify any woodpecker known to occur within these limits:
+
+A. KEY TO THE WOODPECKERS OF NORTH AMERICA.
+
+Family characteristics: color always striking, usually in spots, bars,
+or patches of contrasting colors, especially black and white. Sexes
+usually unlike; male always with some portion of red or yellow about
+head, throat, or neck. Tails stiff, rounded, composed of ten fully
+developed pointed feathers (and two undeveloped feathers). Wings large,
+rounded, with long, conspicuous secondaries, and short coverts. Bill
+straight, stout, of medium length. Toes four, arranged in pairs, except
+in the three-toed genus. Iris brown, except when noted. Marked by a
+habit of clinging to upright surfaces and digging a deep hole in a
+tree-trunk for nesting. Eggs always pearly white.
+
+I. Very large--18 inches _or more_; conspicuously crested. A. II. Medium
+or small--14 inches _or less_; never crested. B.
+
+    A. a^1 Bill gleaming _ivory white_; fourth toe decidedly longest.
+                                      Ivory-billed Woodpecker. 1.
+
+       a^2 Bill _blackish_; fourth toe not decidedly longest.
+                              Pileated Woodpecker or Logcock. 14.
+
+    B. a^1 Toes three; [M] with _yellow_ crown.
+                                  Three-toed Woodpeckers. 9 & 10.
+
+       a^2 Toes four; crown never yellow (b).
+
+           b^1 _Not spotted nor streaked either above or below_ (c).
+
+               c^1 Body clear black; _head white_.
+                                      White-headed Woodpecker. 8.
+
+               c^2 Blue-black above; _rump white_; _head_ and _neck red_.
+                                       Red-headed Woodpecker. 15.
+
+               c^3 Greenish black above, with _pinkish red belly_.
+                                          Lewis's Woodpecker. 17.
+
+               c^4 Greenish black with _sulphur yellow forehead_ and
+                     _throat._
+                                      Californian Woodpecker. 16.
+
+               c^5 Glossy blue-black with _scarlet throat_ and _yellow
+                    belly_.
+                              Male of Williamson's Sapsucker. 13.
+
+           b^2 _Spotted with black or brown on breast and sides_,
+                 but not streaked nor barred with white (d).
+
+               d^1 _Brown_ spots on breast and sides; upper parts plain
+                     brown.
+                                           Arizona Woodpecker. 7.
+
+               d^2 _Black_ spots on breast and sides; wings and tail
+                     brilliantly colored beneath (e).
+
+                   e^1 Wings and tail _golden_ beneath; mustaches
+                         _black_ in male, wanting in female.
+                                                     Flicker. 21.
+
+                   e^2 Wings and tail _golden_ beneath; mustaches
+                         _red_ in both sexes.
+                                              Gilded Flicker. 23.
+
+            e^3 Wings and tail _golden red_ beneath; mustaches red.
+                                  Red-shafted Flicker. 22.
+
+            e^4 Wings and tail _golden red_ beneath; mustaches red;
+                  crown brown.
+                                    Guadalupe Flicker. 24.
+
+    b^3 _Streaked, spotted, or barred with white on back and wings_ (f).
+
+        f^1 _Back streaked_, _plain_, or _varied_, _never_ barred
+              with white; wings _spotted_ with white (g).
+
+            g^1 _Clear_ white and black; _white streak down the
+                  back_ (h).
+
+                h^1 Medium size, 9-11 inches.
+                                      Hairy Woodpecker. 2.
+
+                h^2 Small size, 6-7 inches.
+                                      Downy Woodpecker. 3.
+
+            g^2 _Grayish_ white and black; _sides closely barred_ (i).
+
+                i^1 Back plain black, white _stripe_ down side of throat.
+                Female of Arctic Three-toed Woodpecker. 9.
+
+                i^2 Back with interrupted white stripe, white _line_
+                      down side of throat.
+             Female of American Three-toed Woodpecker. 10.
+               (NOTE.--The males are similar with the addition
+                 of the yellow crown. The three toes
+                 cannot ordinarily be seen in life.)
+
+            g^3 _Yellowish_ (often dingy or smutty), white and black;
+                  under parts yellowish; back varied with white, no
+                    line nor streak; _rump white_; _white wing-bars_ (j).
+
+                j^1 Breast with black patch; head of adult with red
+                      patches.
+                             Yellow-bellied Sapsucker. 11.
+
+                j^2 Breast and head red.
+                               Red-breasted Sapsucker. 12.
+
+        f^2 _Back barred with white_; wings spotted or barred with
+              white (k).
+
+            k^1 Belly _white; ear coverts white_.
+                               Red-cockaded Woodpecker. 4.
+
+            k^2 Belly _white; forehead black_.
+                                  Nuttall's Woodpecker. 6.
+
+            k^3 Belly _smoky brown_; forehead and breast same.
+                                      Texan Woodpecker. 5.
+
+    k^4 Belly _sulphur or lemon yellow_.
+            Female of Williamson's Woodpecker. 13.
+
+    k^5 Belly _pinkish red_.
+                       Red-bellied Woodpecker. 18.
+
+    k^6 Belly _yellow_, hind neck and forehead orange.
+                    Golden-fronted Woodpecker. 19.
+
+    k^7 Belly _yellow_, hind neck brown.
+                              Gila Woodpecker. 20.
+
+B. DESCRIPTIONS OF THE WOODPECKERS OF NORTH AMERICA.
+
+The following are descriptions of all the species of Woodpeckers found
+in North America, arranged in their proper genera and in the order given
+in the check list of the American Ornithologists' Union, 1895; with the
+range of species and subspecies as defined by the same authority or by
+Bendire's "Life Histories of North American Birds."
+
+    1. CAMPEPHILUS PRINCIPALIS, _Ivory-billed Woodpecker_.
+        Glossy black except _white secondaries_ (very conspicuous) and
+        white stripe from beneath ear down neck and shoulders; white
+        nasal tufts; _bill white_. Both sexes crested; [M]
+        with scarlet occipital crest, [F] with crest
+        black. Iris yellow. 20 inches.
+          Cypress swamps of Gulf States, locally distributed.
+        The largest, shyest, and rarest of our woodpeckers.
+
+    2. DRYOBATES VILLOSUS, _Hairy Woodpecker_.
+        Black and white. Upper parts glossy black with a broad _white
+        stripe_ down the back; wings thickly spotted with white; under
+        parts white; three outer pairs of tail feathers white; two white
+        and two black stripes on sides of head; nasal tufts brownish
+        white. [M] with scarlet occipital patch. 9-10
+        inches.
+          Eastern United States except South Atlantic and Gulf
+          States, with the following subspecies, all the races being
+          resident the year round, and breeding in most places
+          where they are found:--
+
+      a. _D. v. leucomelas_, _Northern Hairy Woodpecker_. 10-11 inches.
+          Larger, whiter.
+            British America.
+
+      b. _D. v. audubonii_, _Southern Hairy Woodpecker_. 8-8.5 inches.
+          Smaller, more dingy white.
+            South Atlantic and Gulf States.
+
+      c. _D. v. harrisii_, _Harris's Woodpecker_. 9-10 inches.
+          Upper parts with less white, few wing spots, under parts
+          soiled white or smoky brown; larger than next.
+            Northwest coast, northern California to Alaska.
+
+      d. _D. v. hyloscopus_, _Cabanis's Woodpecker_. 8.5-9.5 inches.
+          White stripe down back very wide; purer white below than
+          _harrisii_; fewer wing spots than _leucomelas_ and _villosus_.
+            Western United States, except northwest coast, east to
+            the Rocky Mountains.
+
+      e. _D. v. monticola_, _Rocky Mountain Woodpecker_. 10-11 inches.
+          Larger; more white spots near bend of wing and secondaries
+          than _hyloscopus_, fewer than _villosus_; pure white below.
+            Rocky Mountains west to Uintah Mountains, Utah.
+
+    3. DRYOBATES PUBESCENS, _Southern Downy Woodpecker_.
+        Black and white; broad _white stripe_ down back; wings thickly
+        spotted with white; under parts white. [M] with
+        scarlet occipital patch. A miniature Hairy Woodpecker, differing
+        only in having _four_ outer pairs of tail feathers more or less
+        white and the _outermost barred_. 6.5 inches. Like the Hairy
+        Woodpecker, the Downy and its subspecies are resident and breed
+        wherever they occur.
+          South Atlantic and Gulf States.
+
+      a. _D. p. gairdnerii_, _Gairdner's Woodpecker_. 6.75 inches.
+          Bears same relation to Downy that Harris's does to Hairy
+          Woodpecker; under parts smoky white; wings spots few.
+            Pacific coast north to about lat. 55°.
+
+      b. _D. p. oreoecus_, _Batchelder's Woodpecker_. 7.5 inches.
+          Under parts pure white; under tail coverts unspotted;
+          fewer wing spots than _medianus_ and _pubescens_.
+            Rocky Mountain region of United States.
+
+      c. _D. p. medianus_, _Downy Woodpecker_. 7 inches.
+         The larger, whiter form seen in New England and the
+         Northern States.
+
+      d. _D. p. nelsoni_, _Nelson's Downy Woodpecker_.
+           Whiter, larger, with fewer black bars on outer tail
+           feathers.
+         Alaska and region north of 55°.
+
+    4. DRYOBATES BOREALIS, _Red-cockaded Woodpecker_.
+        Upper parts black _barred_ with white, under parts dingy white;
+        sides streaked and spotted with black; wings spotted with white;
+        outer tail feathers barred; nasal tufts and _large ear patch
+        white_; stripe of black down side of neck. [M] with
+        a tiny tuft of scarlet feathers on each side of head. 7.5-8.5
+        inches.
+          Pine woods of southeastern United States, from Tennessee
+          southwest to eastern Texas and the Indian Territory;
+          casual north to Pennsylvania.
+
+    5. DRYOBATES SCALARIS BAIRDI, _Texan Woodpecker_, _Ladder-backed
+        Woodpecker_.
+        Upper parts barred with black and white on back, wings,
+        and outer tail feathers; sides of head striped; forehead,
+        nasal feathers, and under parts _smoky gray_, brownest on
+        belly; _crown speckled with white or red_; [M]
+        with nape crimson. 7-7.5 inches.
+          Southern border of United States, Texas to California,
+          north to southwestern Utah and southern Nevada; generally
+          resident.
+
+      a. _D. s. lucasanus_, _St. Lucas Woodpecker_. Larger.
+            Lower California, north to 34° in Colorado desert.
+          These are both subspecies of a Mexican species not occurring
+          within our limits.
+
+    6. DRYOBATES NUTTALLII, _Nuttall's Woodpecker_.
+        Upper parts barred with black and white; under parts and
+        _outer tail feathers white_ or dingy white; nasal tufts white;
+        _forehead and crown black sprinkled with white_. [M]
+        with red on occiput and nape. 7-7.5 inches.
+          Southern Oregon and California west of Sierra Nevada
+          and Cascade Ranges; most common in the oak belt of
+          the foothills.
+        Easily distinguished from Downy Woodpecker by being
+        barred on the back, instead of striped.
+
+    7. DRYOBATES ARIZONÆ, _Arizona Woodpecker_.
+        _Upper parts plain brown, not spotted nor streaked_; primaries
+        dotted with fine white dots; outer tail feathers barred;
+        under parts white, _thickly spotted_ (except throat), _with large,
+        round, brown spots_. [M] with red occipital band.
+        7.5-8.5 inches.
+          Southern Arizona and southwestern New Mexico; among
+          oaks of the foothills from 4000 to 7000 feet elevation.
+
+    8. XENOPICUS ALBOLARVATUS, _White-headed Woodpecker_.
+        Glossy black all over, except showy white patch on primaries,
+        and _head and throat pure white_ (forehead and crown
+        sometimes grayish). [M] with broad occipital band of
+        scarlet. 9 inches. "Iris pinkish red" (Bendire).
+          Mountains of Pacific coast, east to western Nevada and
+          western Idaho, usually in the pine and fir forests above
+          4000 feet altitude.
+
+    9. PICOIDES ARCTICUS, _Arctic Three-toed Woodpecker_.
+        _Glossy black above, unmarked_ except by fine white spots on
+        primaries; under parts grayish white, sides thickly barred
+        black and white; three outer pairs of tail feathers white,
+        sides of throat with broad _white stripe_. [M] with
+        _large crown patch of deep yellow_. 9.5 inches.
+          British America, south into the northern tier of States
+          and into the Sierra Nevada Mountains to Lake Tahoe.
+        Most commonly seen in the track of forest fires, where it
+        is usually abundant for about two years; rare outside of the
+        extensive soft wood tracts, and usually found singly or in
+        pairs except when on burnt land. I have found this species
+        far more common than the next, and the best mark in life
+        to be the white _stripe_ on the neck, in distinction from the
+        white _line_ of _P. americanus_.
+
+    10. PICOIDES AMERICANUS, _American Three-toed Woodpecker_.
+        Very similar to preceding species, but with narrow bars of white
+        forming an _interrupted stripe down the back_; head thickly
+        sprinkled with white in both sexes and a white line on nape or
+        just below; a _white line_, too narrow to be called a stripe,
+        down side of throat.[M] with _crown bright yellow_.
+        9 inches. Same range in the East as last; replaced in West by
+        following subspecies:--
+
+      a. _P. a. alascensis_, _Alaskan Three-toed Woodpecker_.
+          Smaller; more white; nape very white; more white on top
+          of head.
+            Alaska, south to 48°. (Mt. Baker, Washington).
+
+      b. _P. a. dorsalis_, _Alpine Three-toed Woodpecker_.
+          More white on back and head than _P. americanus_, less than
+          _alascensis_; but continuous, not barred. "Iris dark cherry-red"
+          (Mearns).
+            Rocky Mountain region, south to New Mexico and Arizona.
+
+    11. SPHYRAPICUS VARIUS, _Yellow-bellied Sapsucker_.
+        Under parts whitish or pale sulphur yellow; upper parts black,
+        mottled with pure or yellowish white; _rump white_; wings
+        spotted, and with conspicuous white coverts; tail black with
+        _outer webs of outer feathers_ and _inner webs of middle
+        feathers light colored_; sides streaked; breast with a _broad
+        black patch_ extending in a "chin-strap" to the corners of the
+        mouth; sides of the head striped. Occiput black, nape white.
+        [M] with forehead, crown, chin, and throat crimson;
+        [F] usually with crown crimson, forehead black,
+        and throat white, back more brownish; [F]
+        sometimes, and young always, with crown blackish. 7.5-8.5
+        inches.
+
+          Colors vary much with age, sex, and season; the wing bar
+        and yellowish tinge are good marks for all plumages; the
+        rump and breast patch for adult birds.
+          Eastern North America, breeding from Massachusetts
+          northward, migrating in winter to the Southern States.
+
+      a. _S. v. nuchalis_, _Red-naped Sapsucker_.
+          Similar, but an additional red stripe on nape, and the black
+          chin-strap replaced by crimson. 8-8.5 inches.
+          Rocky Mountains to Coast Range, replacing the above in
+          the mountains; usually breeding at from 5000 to 10,000
+          feet elevation.
+
+    12. SPHYRAPICUS RUBER, _Red-breasted Sapsucker_.
+        Body and under parts similar to _S. varius_, but back much
+        less variegated with white. No black on breast, no white
+        stripe through eyes. Nasal tufts brownish instead of white.
+        _Head_, _neck_, and _breast uniform crimson_. _Sexes alike._ Young
+        with crimson replaced by gray or "claret brown" (Bendire).
+        8.5-9 inches.
+          Pacific coast, Sierra Nevada, and on both sides of Cascade
+          Mountains; a summer resident only north of northern
+          California.
+        At first sight the Red-breasted Sapsucker might be mistaken
+        for the Red-headed Woodpecker, but the two birds
+        do not inhabit the same country.
+
+    13. SPHYRAPICUS THYROIDEUS, _Williamson's Sapsucker_.
+
+        Sexes totally dissimilar except in having a white rump and
+        yellow under parts. _Male, glossy black all over except_
+        conspicuous _white rump_ and _white wing coverts_, two white
+        stripes on sides of head, white nasal tufts, white spots on
+        primaries; sides and tail coverts mottled; a stripe of scarlet
+        down middle of throat and _brilliant yellow under parts_.
+        _Female, light brown_; head clear brown; body, wings, and tail
+        closely _barred_ with black and white; no white wing coverts;
+        rarely a red throat like male; usually but not always a large
+        black patch on breast, and always a _yellow belly_ and _white
+        rump_. Young males lack the red on the throat and usually the
+        yellow on the belly; the black is dull, and the throat a dingy
+        white. Young females lack the yellow on the belly and the black
+        on breast, and are dull-colored and indistinctly marked. 9-9.5
+        inches.
+
+          Rocky Mountain region, west to Sierra Nevada, Cascades
+          and northern Coast Ranges, breeding at from 5000
+          to 9000 feet elevation. The handsomest of our woodpeckers.
+
+    14. CEOPHLOEUS PILEATUS, _Pileated Woodpecker, Logcock_.
+        Body blackish slate; wings with a large white patch conspicuous
+        only when flying; throat white; a white stripe
+        across cheek and down neck; jaw-stripe scarlet in male,
+        blackish in female; both sexes with scarlet crest, but in the
+        male the whole top of head (which is slaty black in female)
+        equally brilliant. This red cap gives the bird the name of
+        _pileated_. Iris yellow. 17 inches.
+          Wooded regions of Southern States, Florida to North
+          Carolina, very rarely near settlements, but far more common
+          than the following subspecies of the North and
+          West.
+
+      a. _C. p. abieticola_, _Northern Pileated Woodpecker_.
+          Larger; more extensive white markings; the black grayer
+          or browner.
+            From Virginia northward to 63° in the East, and in the
+            West among the Rocky Mountains, north of Colorado, to
+            the northwest coast; a shy woodland bird to be looked
+            for only in the primitive evergreen forests, though sometimes
+            occurring in any heavy timber and, in New England,
+            upon the higher well-wooded mountains. The
+            largest of the northern woodpeckers; resident.
+
+    15. _Melanerpes erythrocephalus_, _Red-headed Woodpecker_.
+        Wings, tail, and upper parts glossy blue-black; rump, exposed
+        secondaries, and under parts from breast downward
+        pure white; _head_, _neck_, and _breast crimson._ _Sexes alike._
+        Young with red and black wholly or partly replaced by
+        grayish brown; can be recognized by white markings. 9.5
+        inches.
+          United States, west to Rocky Mountains; rare east of
+          Hudson River, but ordinarily breeding wherever found;
+          in winter usually migratory from its northern limits, the
+          migration depending principally upon the food supply
+          and depth of snow.
+
+    16. MELANERPES FORMICIVORUS, _Ant-eating Woodpecker_.
+        Upper parts, wings, and tail glossy greenish black; _rump_
+        and lower parts _white_; white patch on primaries, conspicuous
+        in flight; upper throat and line about the bill dull
+        black; _forehead_ with _wide white band_; lower _throat sulphur
+        yellow_; breast and sides thickly streaked with black and
+        white. [M] with crown and occiput crimson;
+        [F] with crown black, occiput crimson.
+        Iris white. 7-9 inches.
+          Mexico; western Texas.
+
+      a. _M. f. angustifrons_, _Narrow-fronted Woodpecker_.
+          Similar, but with a _narrow band of white_ across the _forehead_;
+          breast and sides not so thickly streaked.
+            Lower California, never occurring within the borders of
+            the United States.
+
+      b. _M. f. bairdi_, _Californian Woodpecker_, _El Carpintero_.
+          Similar to _M. formicivorus_, but the breast black, little
+          streaked with white except along the sides; yellow of throat
+          paler, or replaced by white. Iris white. Larger, 7.5-9.5
+          inches.
+            Pacific coast, north into Oregon to 44°, east to southern
+            New Mexico and Texas in the south and to the eastern
+            slopes of the Sierra Nevada and Cascade Mountains in
+            the north, but more abundant, on the western than on the
+            eastern slopes of these mountains.
+
+    17. MELANERPES TORQUATUS, _Lewis's Woodpecker_.
+        Upper parts, wings, and tail glossy greenish black; under
+        parts _pinkish red_; chest and _collar round hind neck hoary
+        gray_; crown and sides of head black; forehead, cheeks, and
+        chin crimson. _Sexes alike._ Young with pink replaced by
+        grayish. 10.5-11.5 inches.
+          Pacific coast, east to Black Hills and Rocky Mountains
+          between Arizona and 49th parallel; casual still farther
+          east; migratory in its northern ranges; a silent, heavy
+          flying bird, different in habits and appearance from the
+          other woodpeckers; often seen flycatching.
+
+    18. MELANERPES CAROLINUS, _Red-bellied Woodpecker_, _Zebra Bird_.
+        Back and wings black, _barred with white_; under and upper
+        tail coverts, middle and outer tail feathers, white varied with
+        black; head and under parts ashy; _belly tinged with reddish_.
+        [M] with whole top of head and nape bright red;
+        [F] with forehead and nape red, crown gray. 9-10
+        inches.
+          Eastern and Southern States between the Hudson River
+          and the Rocky Mountains, north to southern New York,
+          Ohio, southern Michigan, etc.; migratory in its northern
+          ranges.
+
+    19. MELANERPES AURIFRONS, _Golden-fronted Woodpecker_.
+        Back and wings barred with black and white; rump white; entire
+        under parts brownish white, unspotted (except under tail
+        coverts); primaries unspotted, except at tip; tail black with
+        slightly barred outer feathers; _belly yellowish; forehead and
+        hind neck orange in both sexes_. [M] with _crown
+        red_ set in a larger patch of clear gray; [F]
+        with crown clear gray. 9.5 inches.
+          Central and southern Texas, north to about 33°; breeds
+          wherever found.
+
+    20. MELANERPES UROPYGIALIS, _Gila Woodpecker_.
+        Back and wings barred with black and white; _head and
+        lower parts smoky brown_; rump black and white; tail barred
+        on inner and outer feathers; primaries unspotted; belly yellow
+        (not conspicuous). [M] with red crown surrounded by
+        brownish; "iris red" (Hayden). 9 inches.
+          Southwestern New Mexico and Arizona to southeastern
+          California, usually above 2000 feet altitude; its distribution
+          depending principally upon the giant cactus.
+
+    21. COLAPTES AURATUS, _Flicker_, _Yellow-hammer_, _High-hole_,
+          _Clape_.
+        Back and wings (except primaries) brownish gray, barred with
+        black; under parts pale vinaceous spotted with black spots from
+        breast downward; _rump white; tail and wings golden yellow
+        beneath_, dark above, showing the yellow shafts; tail feathers
+        with black tips below; top of head ashy gray, sides of head and
+        throat vinaceous; a broad _black crescent_  across breast, a
+        bright scarlet one on nape. [M] _with black jaw
+        patches_; [F] without them. 12 inches.
+          South Atlantic and Gulf region, north to North Carolina.
+
+      a. _C. a. luteus_, _Northern Flicker_.
+          Larger; paler; black bars above narrower; less black and
+          white below.
+            North from North Carolina and west to the Rocky Mountains;
+            casual farther west; migratory from its northern
+            ranges.
+
+    22. COLAPTES CAFER, _Red-shafted Flicker_.
+        Color pattern similar to above with the following differences:
+        _wings and tail red beneath_ instead of yellow; throat ashy
+        gray; usually no red on occiput (though some specimens show a
+        narrow crescent). [M] _with red jaw patches_.
+        12.5-14 inches.
+          Rocky Mountain region west to Pacific coast from
+          Mexico to British Columbia, except northwest coast
+          region of Oregon, Washington, and British Columbia,
+          and occasionally east to Kansas and Nebraska; resident
+          except in the more northern portions of its range.
+
+      a. _C. c. saturatior_, _Northwestern Flicker_.
+          Darker; smaller; narrower breast crescent.
+            Northwest coast, replacing the above, from which it cannot
+            be separated in life.
+
+    23. COLAPTES CHRYSOIDES, _Gilded Flicker_; _Cactus Flicker_.
+        Color pattern same as _C. auratus_, but throat gray; top of head
+        brown; _occiput without band_; tail band broader and yellow
+        paler than in _C. auratus_. [M] with _jaw patches
+        bright red_; "iris blood red" (Hayden).
+          Central and southern Arizona and Lower California.
+
+      a. _C. c. brunescens_, _Brown Flicker_.
+          A curious subspecies of the last, smaller, with larger,
+          more numerous spots and a smoky brown cast of plumage;
+          black tail band very wide; jaw patches red; wings and tail
+          yellow beneath.
+            Lower (not southern) California; casual only in southern
+            California; in Arizona to 35°.
+
+    24. COLAPTES RUFIPILEUS, _Guadalupe Island Flicker_.
+        Coloration like _C. cafer_, crown decidedly brown; crescent
+        on nape wanting; jaw patches red; wings and tail _red_ beneath.
+          Guadalupe Island off the coast of Lower California.
+
+
+
+
+INDEX
+
+
+    Aard-vark, 104.
+
+    Acorns, eaten by woodpeckers, 46, 51, 57, 58, 59.
+
+    Acquired habits, 61-66.
+
+    Adaptations of woodpeckers to environment,104-109.
+
+    Ant-bear, 104, 106.
+
+    Ants, as food for woodpeckers, 3, 30, 63, 105, 106.
+
+    Argument from design, 110.
+
+
+    Bear, black, 107.
+
+    Beechnuts, as food for woodpeckers, 57, 58, 59.
+
+    Beetles, as food for woodpeckers, 3, 11, 63.
+
+    Bill of woodpeckers as a tool, 68-76.
+
+    Borers, 3, 10, 11, 29, 30, 36.
+
+    Burroughs, John, quoted, 17.
+
+
+    Cacti, woodpeckers nesting in, 20.
+
+    Cannibalism among woodpeckers, 64.
+
+    Carpenter, the. _See_ California woodpecker.
+
+    Carpintero, El. _See_ California woodpecker.
+
+    Caterpillars, as food for woodpeckers, 10, 11, 29, 63.
+
+    Cecropia chrysalids, eaten by woodpeckers, 9.
+
+    Chestnuts, eaten by woodpeckers, 59.
+
+    Chickadee, 16, 21, 25, 30, 32, 74.
+
+    Chipmunks, hoarding food, 60.
+
+    Clape. _See_ Flicker.
+
+    Creeper, brown, 5, 81, 87, 88.
+
+    Crossbills, eating salted food, 31.
+
+    Crow, hoarding habit, 60; 74.
+
+    Cuckoo, ground, 82.
+
+    Cuckoos, yoke-toed, 5, 82.
+
+
+    Drumming of yellow-bellied sapsucker, 16, 17.
+
+
+    Evolution, 109, 112.
+
+
+    Feeding young, how the flicker does it, 24, 25.
+
+    Fence-posts used by woodpeckers, 48, 56, 58.
+
+    Finch, purple, 39.
+
+    Finches, 74.
+
+    Fish-spears, 12, 13.
+
+    Flicker, 6, 7, 15, 18, 20, 23-26, 73, 74, 82, 88, 89, 95, 97-99,
+             101, 103, 106, 125.
+      brown, 126.
+      cactus, 126.
+      gilded, 126.
+      Guadalupe Island, 127.
+      northern, 126.
+      northwestern, 126.
+      red-shafted, 126.
+
+    Flycatching habits of woodpeckers, 7, 56, 106, 124.
+
+    Foot, of a four-toed woodpecker figured, 77.
+      of a three-toed woodpecker figured, 80.
+      discussed as a tool, 77-85.
+
+
+    Grasshoppers, as food for woodpeckers, 3, 56, 63.
+
+    Grosbeaks, pine, 39.
+
+    Grouse, ruffed, 14, 15.
+
+    Grouse, sharp-tailed, 15.
+
+
+    Hawk, sparrow, 21.
+
+    High-hole. _See_ Flicker.
+
+    Hoarding habits, 62, 63.
+
+    Hummingbird, Anna's, 27.
+
+    Hummingbirds, 25, 103.
+
+    Hyoid bones, 100-103.
+
+
+    Jay, blue, hoarding habit, 53, 60.
+
+
+    Kinglets, 5.
+
+
+    Lightning rods attracting woodpeckers, 18.
+
+    Logcock. _See_ Woodpecker, pileated.
+
+
+    Maple, rock and red, sugar made from, 36.
+
+    Maize, eaten by English sparrows, 62, 65.
+
+    Mandibles of woodpeckers, 13, 101.
+
+    Martin, sand, 20.
+
+    Mice, hoarding habit, 60.
+
+    Migration, dependent upon food supply, 63.
+
+    Mountain-ash trees, sought by woodpeckers, 38.
+
+
+    Nesting of woodpeckers, 20-23.
+
+    Nests, in unusual places, 20.
+
+    North America, ornithologically defined, 114.
+
+    Nuthatches, 5, 21, 30, 81.
+
+
+    Oaks, used by Californian woodpecker for storing nuts, 48, 49.
+
+    Oranges, eaten by woodpeckers, 65, 66.
+
+    Owls, 15, 21, 80.
+
+
+    Pangolin, as an ant-eater, 104.
+
+    Parrot, 13, 82.
+
+    Parroquet, Carolina, 5.
+
+    Pigeon, domestic, 27.
+
+    Pines, acorns stored in, 49.
+
+    "Ploughshare," anchylosed vertebræ of tail, 86.
+
+
+    Ravens, 74.
+
+    Reason in woodpeckers' hoarding, 62.
+
+    Red-head. _See_ Woodpecker, red-headed.
+
+    Robins, 39.
+
+
+    Sap, not used as an insect-lure, 41.
+      how its loss harms the tree, 44, 45.
+
+    Sapsucker, orange, 65. _See, also_, Woodpecker, red-bellied.
+      red-breasted, 122.
+      red-naped, 121.
+      Williamson's, 122.
+      yellow-bellied, 7, 15-17, 33-45, 59, 102, 103, 105, 106.
+
+    Skull of woodpecker figured, 101.
+
+    Sparrow, English _or_ house, 21, 62, 65.
+
+    Spears, 12, 13.
+
+    Spruce, acorns stored in, 47, 49, 53.
+
+    Squirrels, thievishness of, 23, 53.
+
+    Subspecies defined, 114.
+
+    Swallow, eaves _or_ cliff, 61, 64, 65.
+
+    Swallow, tree, 21.
+
+    Swift, chimney, 5, 20, 61, 87, 88.
+
+
+    Tail, shape, 89.
+      number of rectrices, 95.
+      experimental demonstration of shape _a priori_, 91.
+      reason for shape, 98.
+
+    Tail-feathers studied, 94-97.
+
+    Taste in the woodpeckers, 38, 39.
+
+    Telegraph poles resorted to by woodpeckers, 7, 18, 48.
+
+    Thumb, of birds, 80.
+
+    Tin roofs resorted to by woodpeckers, 17, 55.
+
+    Titmouse, crested, 21.
+
+    Toes, numbering of, 79, 80.
+
+    Tongue, appearance of, 99.
+      figured, 99.
+      bones of, 13, 100-103.
+
+    Trogons, yoke-toed, 82.
+
+
+    Vanessa butterfly, 16.
+
+    Vegetable food of woodpeckers, 3, 31.
+
+    Vireos, 30.
+
+
+    Warblers, 30.
+
+    Weevils, not the object in storing nuts, 52.
+
+    Woodpecker, Alaskan three-toed, 121.
+      alpine three-toed, 121.
+      American three-toed, 121.
+      ant-eating, 123.
+      arctic three-toed, 120.
+      Arizona, 120.
+      Batchelder's, 118.
+      black-breasted, 6. _See, also_, Williamson's sapsucker.
+      Cabanis's, 118.
+      Californian, 46-54, 56, 66.
+      downy, 6, 17, 21, 28-33, 59, 63, 70, 74, 83, 86, 88, 95, 107,
+             114, 118.
+      Gairdner's, 118.
+      Gila, 55, 125.
+      golden-fronted, 55, 102, 125.
+      hairy, 6, 9, 28, 32, 59, 63, 74, 83, 86, 88, 89, 95, 97-99, 107,
+             114, 117.
+      Harris's, 118.
+      ivory-billed, 70, 71, 73, 83, 88, 89, 93, 97, 98, 107, 117.
+      ladder-backed, 119.
+      Lewis's, 6, 13, 55, 59, 66, 103, 124.
+      narrow-fronted, 124.
+      Nelson's downy, 119.
+      northern hairy, 118.
+      northern pileated, 123.
+      Nuttall's, 119.
+      pileated, 6, 71, 73, 83, 88, 93, 95, 98, 99, 107, 123.
+      red-bellied, 6, 55, 65, 124.
+      red-cockaded, 119.
+      red-headed, 6, 7, 11, 55-58, 60-64, 105, 123.
+      Rocky Mountain, 118.
+      St. Lucas, 119.
+      southern downy, 118.
+      southern hairy, 118.
+      Texan, 119.
+      three-toed, foot figured, 80.
+      white-headed, 120.
+
+    Woodpeckers, advantages of, as subject for study, 2.
+      bill as a tool, 69-73.
+      carpenters or miners, 68.
+      character of, 7, 8.
+      coloration of, 5.
+      coloration of sexes, 6.
+      covered nostrils, 74, 75.
+      favorite haunts, 3, 7.
+      foot, structure and uses, 77.
+      habit of drumming, 17.
+      how to recognize the woodpeckers, 4.
+      inferences from study of bills, 75.
+      hunting borers, 10, 11.
+      nesting, 21, 22.
+      preferred foods, 3, 7.
+      tail, study of, 86-99.
+      winter quarters, 22.
+      wooing, 15.
+
+
+    Yoke-toed feet, 82.
+
+
+    Zebra bird. _See_ Woodpecker, red-bellied.
+
+
+
+
+    The Riverside Press
+
+    _Electrotyped and printed by H. O. Houghton & Co.
+    Cambridge, Mass, U. S. A._
+
+       *       *       *       *       *
+
+
+
+
+Transcribers Notes
+
+Pickaxe and pick-axe both used in the text
+Various punctuation and other printing errors corrected
+Inconsistent hyphenation of words regularised
+Spelling of reëcho (page 16) left intact
+Male symbol shown as [M] Female symbol shown as [F]
+
+
+
+
+
+End of Project Gutenberg's The Woodpeckers, by Fannie Hardy Eckstorm
+
+*** END OF THIS PROJECT GUTENBERG EBOOK THE WOODPECKERS ***
+
+***** This file should be named 35062-8.txt or 35062-8.zip *****
+This and all associated files of various formats will be found in:
+        https://www.gutenberg.org/3/5/0/6/35062/
+
+Produced by Bryan Ness, Steve Read and the Online
+Distributed Proofreading Team at https://www.pgdp.net (This
+file was produced from images generously made available
+by The Internet Archive/Canadian Libraries)
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+https://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at https://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+https://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at https://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit https://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including including checks, online payments and credit card
+donations.  To donate, please visit: https://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart was the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     https://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.

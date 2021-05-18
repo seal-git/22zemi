@@ -1,0 +1,3000 @@
+The Project Gutenberg EBook of Rustic Chivalry (Cavalleria Rusticana), by 
+Pietro Mascagni
+
+This eBook is for the use of anyone anywhere in the United States and most
+other parts of the world at no cost and with almost no restrictions
+whatsoever.  You may copy it, give it away or re-use it under the terms of
+the Project Gutenberg License included with this eBook or online at
+www.gutenberg.org.  If you are not located in the United States, you'll have
+to check the laws of the country where you are located before using this ebook.
+
+Title: Rustic Chivalry (Cavalleria Rusticana)
+       Melodrama in One Act
+
+Author: Pietro Mascagni
+
+Translator: J. C. Macy
+
+Release Date: January 17, 2015 [EBook #48007]
+
+Language: English
+
+Character set encoding: UTF-8
+
+*** START OF THIS PROJECT GUTENBERG EBOOK RUSTIC CHIVALRY (CAVALLERIA ***
+
+
+
+
+Produced by Colin Bell, Paul Marshall, Joseph Cooper and
+the Online Distributed Proofreading Team at
+http://www.pgdp.net
+
+
+
+
+
+
+
+
+
+             GRAND OPERA
+              LIBRETTOS
+
+               ITALIAN
+           AND ENGLISH TEXT
+    AND MUSIC OF THE PRINCIPAL AIRS
+
+
+              CAVALLERIA
+               RUSTICANA
+
+           (RUSTIC CHIVALRY)
+
+
+                 BY
+              MASCAGNI
+
+
+         OLIVER DITSON COMPANY
+                BOSTON
+
+          CHAS. H. DITSON & Co.
+               _New York_
+
+              LYON & HEALY
+                _Chicago_
+
+
+
+
+OPERA SCORES
+
+All the vocal scores have English text together with the foreign text
+mentioned below. Unless otherwise specified, these books are bound in
+paper.
+
+
+                      GRAND OPERAS
+
+ =AÏDA=                           =Giuseppe Verdi=    =2.50=
+    In four acts. Italian text
+
+ =BOHEMIAN GIRL=                =Michael W. Balfe=    =2.00=
+    In three acts
+
+ =CARMEN=                          =Georges Bizet=    =2.50=
+    In four acts. French text
+
+ =CAVALLERIA RUSTICANA=          =Pietro Mascagni=    =2.00=
+    In one act. Italian text
+
+ =FAUST=                          =Charles Gounod=    =2.00=
+    In five acts. French text
+
+ =LAKMÉ=                             =Léo Delibes=    =3.00=
+    In three acts
+
+ =MARITANA=              =William Vincent Wallace=    =2.50=
+    In three acts
+
+ =MIGNON=                        =Ambroise Thomas=    =2.50=
+    In three acts. Italian text
+
+ =SAMSON AND DELILAH=        =Camille Saint-Saëns=    =2.50=
+    In three acts
+
+ =TROVATORE, IL=                  =Giuseppe Verdi=    =2.00=
+    In four acts. Italian text
+
+
+                  LIGHT OPERAS
+
+ =BELLS OF CORNEVILLE, THE;
+    or, THE CHIMES OF NORMANDY=
+     In three acts             =Robert Planquette=    =2.50=
+
+ =BILLEE TAYLOR; or, THE REWARD OF VIRTUE=
+     In two acts                  =Edward Solomon=    =1.50=
+
+ =BOCCACCIO; or, THE PRINCE OF PALERMO=
+     In three acts               =Franz von Suppé=    =2.50=
+
+ =DOCTOR OF ALCANTARA, THE=
+     In two acts                 =Julius Eichberg=    =1.50=
+
+ =FATINITZA=                     =Franz von Suppé=    =2.50=
+     In three acts. German and Italian text
+
+ =MARTHA=                   =Friedrich von Flotow=    =2.50=
+     In four acts. German and Italian text
+
+ =MASCOT, THE=                     =Edmond Audran=    =2.50=
+     In three acts
+
+ =OLIVETTE=                        =Edmond Audran=    =2.00=
+     In three acts
+
+ =PINAFORE, H. M. S.; or, THE LASS THAT
+    LOVED A SAILOR=
+     In two acts             =Sir Arthur Sullivan=    =1.50=
+
+ =SORCERER, THE=             =Sir Arthur Sullivan=    =1.75=
+     In two acts
+
+ =STRADELLA=                =Friedrich von Flotow=    =2.00=
+     In three acts
+
+Send for Descriptive Circular P--Oratorios, Cantatas, Operas and
+Operettas.
+
+
+  OLIVER DITSON COMPANY
+
+
+
+
+                           RUSTIC CHIVALRY
+
+                        (CAVALLERIA RUSTICANA),
+
+                         MELODRAMA IN ONE ACT.
+
+                                  BY
+                            PIETRO MASCAGNI.
+
+                     ENGLISH VERSION BY J. C. MACY.
+
+                                   30
+
+                                 BOSTON
+                          OLIVER DITSON COMPANY
+
+                            NEW YORK CHICAGO
+                   CHAS. H. DITSON & CO. LYON & HEALY
+
+                 Copyright, MCMXIX, by MARY EMMA S. MACY.
+
+
+
+
+                          DRAMATIS PERSONÆ.
+
+                             CHARACTERS.
+
+         SANTUZZA, a village girl            _Soprano_.
+         LOLA, wife of Alfio           _Mezzo Soprano_.
+         TURIDDU, a young soldier              _Tenor_.
+         ALFIO, a teamster                  _Baritone_.
+         LUCIA, mother of Turiddu          _Contralto_.
+
+  CHORUS OF PEASANTS AND VILLAGERS.--CHORUS BEHIND THE SCENES.
+
+
+PLOT OF THE OPERA.
+
+TURIDDU, a young villager, is the son of LUCIA, and the lover of LOLA,
+(who is the wife of ALFIO; having married the latter during TURIDDU'S
+prolonged absence in military service). TURIDDU wins the affections
+of SANTUZZA, whom he wrongs; while, in the meantime, he is intimate
+with LOLA. On Easter morning, (the opening of the opera), ALFIO is
+incidentally informed, by SANTUZZA, of his wife's unfaithful actions. He
+challenges TURIDDU (biting the ear, as was the rustic Sicilian custom).
+TURIDDU, though regretting his past evil course, accepts the challenge
+and is killed by ALFIO
+
+
+[**                    Transcriber Notes:
+                       ------------------
+     The original text is dual column, with English on the left and
+       Italian on the right, with musical scores interspersed throughout.
+     In this version, the complete English text for a scene is shown
+       first, followed by the complete Italian text for the scene.
+     The musical scores are placed as near as possible to the original
+       version.                                                      **]
+
+
+
+
+      RUSTIC CHIVALRY.
+
+
+  TURIDDU. (Behind the scenes.)
+    O Lo-la, fair as flow'rs in beau-ty smil-ing, ...
+    Love from thy soul-lit eyes
+    Soft-ly is glow-ing; ...
+    He who would kiss thy lips, red and be-guil-ing ...
+    Bliss-ful and fa-vor'd were he,
+    Such heav-en know-ing!...
+    Tho' thy thresh-old blood, crim-son, is stain-ing, ...
+    Car-ing for naught, I seek thee, scorning to hide me; ...
+    What tho' I for-feit life, thy pres-ence gain-ing?
+    What were the joy of heav'n, wert thou de-nied me!
+    What tho' I for-feit life, thy pres-ence gain-ing,
+    What were the joy of heav'n wert thou de-nied me.
+    Ah! ... Ah! ... Ah! ... Ah! ...
+
+    O Lo-la, bian-ca co-me fior di spi-no, ...
+        quan-do t'af-fac-ci te s'affac-(cia il) so-le; ...
+    Chi t'ha ba-cia-(to il) lab-bro por-po-ri-no ...
+    Gra-zia più bel-la a Di-o chie-der non vô-le....
+    C'e scrit-to san-gue so-pra la tua por-ta; ...
+    Ma di re-star-(ci a) me non me n'in-por-ta; ...
+    Se per te mo-(jo e) va-(do in) pa-ra-di-so,
+    Non c'en-tro se ... non ve-do il tuo bel vi-so,
+    Se per te mo-(jo e) va (do in) pa-ra-di-so
+    Non c'en-tro se ... non ve-do il tuo bel vi-so.
+    Ah! ... Ah! ... Ah! ... Ah! ...
+
+                  (Curtain rises.)
+
+
+SCENE I.
+
+A public place or square in a Sicilian village. At right, in background,
+a church. At left, the inn and dwelling of Mamma Lucia.
+
+Time, Easter morning.
+
+(Peasants, countrymen, country-women, and children, cross the stage.)
+
+(The church doors open and the throng enters.)
+
+(The movement continues until the following:)
+
+INTRODUCTORY CHORUS.
+
+ _Chorus of women._
+
+              (Behind scenes.)
+
+         Ah! Ah!
+
+ _Chorus of men._
+
+              (Behind scenes.)
+
+         Ah! Ah!
+
+ _Chorus of women._
+
+              (Behind scenes.)
+
+ Sweet is the air with the blossoms of oranges;
+   Sings now the lark from the myrtles in flow'r;
+ Murmurs of tender song tell of a joyful world,
+   And of thankful hearts. Ah! gladsome hour!
+
+              (The women enter.)
+
+ _Chorus of men._
+
+              (Behind scenes.)
+
+ Your spinning wheels now busily are humming,
+ O'er fields of golden corn the sound is coming;
+ We linger where the leafy shade is restful;
+ Of you we think, and every heart is zestful.
+ Oh lovely women! Allured by you and enraptured,
+ Like the bird by the lure held, now are we captured!
+
+              (The men enter.)
+
+_Women._
+       Work in the field now is ended;--
+       The Holy Mother mild
+       In ecstasy fondles the Child.
+
+ _All._
+
+              (Withdrawing from stage.)
+
+ Murmurs of tender song tell of a joyful world,
+ And of thankful hearts.
+ Ah! gladsome hour!
+
+          (Enter, Santuzza, approaching Lucia's dwelling.)
+
+
+SCENA I.
+
+La scena rappresenta una piazza in un paese della Sicilia. Nel fondo, a
+destra, Chiesa con porta practicabile. A sinistra l'osteria e la casa di
+Mamma Lucia.
+
+E il giorno Pasqua.
+
+CORO D'INTRODUZIONE.
+
+(Campane interne dalla Chiesa. Si alza la tela. La scena sul principio è
+vuota. Albeggia. Paesani, contadini, contadine e ragazzi traversano la
+scena. Si apre la chiesa e la folla vi entra. Il movimento del popolo
+continua fino al Coro punto in cui rimane la scena vuota.)
+
+ _Coro._
+
+              (Donne di dentro.)
+
+         Ah!
+
+              (Uomini di dentro.)
+
+         Ah!
+
+              (Donne di dentro.)
+
+ Gli aranci olezzano sui verdi margini,
+ Cantan le allodole tra i mirti in fior;
+ Tempo è si mormori da ognuno il tenero canto che i palpiti--
+ Raddoppia al cor.
+
+           (Le donne entrano in iscena.)
+
+              (Uomini di dentro.)
+
+ _Coro_.
+      In mezzo al campo tra le spiche d'oro
+      Giunge il rumore delle vostre spole,
+      Noi stanchi riposando dal lavoro
+      A voi pensiamo, o belle occhidisole.
+      O belle occhidisole, a voi corriamo,
+       Come vola l'augelo--al suo richiamo.
+
+             (Gli uomini entrano in iscena.)
+
+ _Donne._ Cessin le rustiche opre:
+             La Virgine serena allietasi del Salvator;
+             Tempo è si mormori da ognuno il
+                     tenero canto che i palpiti--
+             Raddoppia al cor.
+
+ _Uomini._
+
+              (Allontanandosi.)
+
+         In mezzo al campo, etc.
+
+ _Donne._
+
+              (Allontanandosi.)
+
+         Gli aranci olezzano, etc.
+
+
+SCENE II.
+
+              (Santuzza, Lucia, Alfio, and chorus.)
+
+ _Santuzza._ Tell me, mother Lucia--
+
+ _Lucia._
+
+                   (Coming from house.)
+
+     It is thou? What wilt thou?
+
+ _Sant._ Where is Turiddu?
+
+ _Lucia._ For him you ask? For him, my son Turiddu!
+
+ _Sant._ Only for him I ask you. Pardon, but answer!
+              Where is Turiddu?
+
+ _Lucia._ Ask me not! I know not; I want no trouble.
+
+ _Sant._ Mamma Lucia, with weeping do I pray you!
+            Even as spake the Saviour to the Magdalen,
+            Say, in pity say, where is Turiddu!
+
+ _Lucia._ He's gone to bring some wine from Francofonte.
+
+ _Sant._ No! Last night some within the village saw him.
+
+ _Lucia._ What says't thou? Who told it?
+             Nay, he hath not yet returned.
+             Enter!
+
+ _Sant._  I may not step across your threshold,
+             I cannot pass it, I, most unhappy outcast!
+             Excommunicated!
+
+ _Lucia._ What of my son? What hast thou to tell me?
+
+ _Sant._ Ah! the torture, the heart-pain.
+
+  (Cracking of whips and jingling of bells behind scenes.)
+
+            (Chorus enters, followed soon by Alfio.)
+
+
+SCENA II.
+
+Sortita di Alfio.
+
+ _Santuzza._
+
+          (Entra e si dirige alla casa di Lucia.)
+
+               Dite, Mamma Lucia--
+
+ _Lucia._
+
+                    (Sortendo.)
+
+            Sei tu? che vuoi?
+
+ _Santuzza._ Turiddu ov'è?
+
+ _Lucia._ Fin qui vieni a cercare il figlio mio?
+
+ _Santuzza._ Voglio saper soltanto,
+                 Perdonatemi voi, dove trovarlo.
+
+ _Lucia._ Non lo so, non lo so, non voglio brighe!
+
+ _Santuzza._ Mamma Lucia, vi supplico piangendo,
+                  Fate come il Signore a Maddalena,
+                  Ditemi per pietà, dov'è Turiddu.
+
+ _Lucia._ E andato per il vino a Francofonte.
+
+ _Santuzza._ No! l'han visto in paese ad alta notte.
+
+ _Lucia._ Che dici? che dici? se non è tornato a casa!
+               Entra!
+
+ _Santuzza._ Non posso entrare in casa vostra.
+                  Sono scomunicata!
+
+ _Lucia._ E che ne sai del mio figliuolo?
+
+ _Santuzza._ Quale spina ho in core!
+
+(Dall'interno schiocchi di frusta e tintinnio di sonagli.
+Entrano in iscena i coristi indi Alfio.)
+
+
+  ALFIO.
+    Gay-ly moves the tramp-ing horse,
+    Joy-ful sound the ring-ing bells;
+    Snap, now, the lash goes, A-hi!...
+    Cold may blow the wind to-day,
+    Rain or snow do what it may,
+    Naught do I care, not I!...
+    Gay-ly moves the tramp-ing horse,
+    Joy-ful sound the ring-ing bells;
+    Snap, now, the lash goes,
+    Snap, now, the lash goes! A-hi!...
+    Snap, now, the lash goes,
+    Snap, now, the lash goes, A-hi! A-hi!
+    Snap, now, the lash goes,
+    Snap, now the lash goes,
+
+  CHORUS. TENORS.
+    Who hath call-ing mer-rier than the life of car-rier?
+    Where is a jol-lier man?...
+    Who hath call-ing mer-rier than the life of car-rier?
+    Where is a jol-lier man? Where is a jol-lier man?
+    Where is a jol-lier man? Where is a jol-lier man?
+    Where is a jol-lier man, a jol-lier man than he?
+    Where is a jol-lier man, a jol-lier man?...
+
+  ALFIO.
+    Il ca-val-lo scal-pi-ta, i so-na-gli squil-la-no,
+        schioc-chi la fru-sta, Ehi là!...
+    Sof-(fi il) ven-to ge-li-do, ca-da l'ac(qua o) ne-vi-chi,
+        a me che co-sa fa?...
+    Il ca-val-lo scal-pi-ta, i so-na-gli squil-la-no,
+        schioc-chi la fru-sta, schioc-chi la fru-sta, Ehi-là!...
+    schioc-chi la fru-sta, schioc-chi la fru-sta, Ehi-là! Ehi-là!
+    schioc-cha la fru-sta, an-dar di (qua e) di là!
+    schioc-ca la fru-sta, an-dar di (quà e) di là!
+
+  CHORUS. TENORS.
+    O che bel me-stie-re fa-(re il) car-ret-tie-re an-dar
+         di (qua e) di là!...
+    Oh che bel me-stie-re fa-(re il) car-ret-tie-re an-dar
+         di (quà e) di là! an-dar di (qua e) di là!
+         an-dar di (quà e) di là!
+         di (quà e) di là, an-dar di (quà e) di là!
+         di (quà e) di là....
+
+
+  ALFIO.
+    My lov-ing Lo-la calls me!
+    Her gen-tle grace en-thralls me,
+    Ah! ... faith-ful-ly she calls....
+    My lov-ing Lo-la calls me,
+    Her gen-tle grace en-thralls me,
+    Ah! fond-ly I re-ply....
+    Gay-ly moves the tramping horse,
+    Joy-ful sound the ring-ing bells;
+              (Women of the chorus enter the scene.)
+    'Tis Eas-ter and home come I!...
+    'Tis Eas-ter and home come I!... come I!...
+
+    A-hi! A-hi! Snap, now, the lash goes, a-hi!
+    Snap, now, the lash goes,
+    Snap, now, the lash goes
+    Who hath call-ing mer-rier,
+    Than the life of car-rier,
+    Where is a jol-lier man?
+    Where is a jol-lier man?
+    Where is a jol-lier man?
+
+    Snap, now, the lash goes,
+    I come! I'm the mer-ry car-rier! I'm the mer-ry car-rier,
+    Who hath call-ing mer-rier than the life, the life of car-rier,
+          than the life, this life of mine,
+    A hap-pier man than I?... Where is a jol-lier man,
+          where is a jol-lier man?
+    'Tis Eas-ter, home come I, ... come I!..
+
+
+  ALFIO.
+    M'a spet-(ta a) ca-sa Lo-la che m'a ma e mi con-so-la,
+          ch'è ... tut-ta fe-del-tà....
+    M'a spet-(ta a) ca-sa Lo-la! che m'ama e mi con-so-la,
+          ch'è tut-ta fe-del-tà....
+    Il ca-val-lo scal-pi-ti, i so-na-gli squil-li-no,
+          è Pas-qua, ed io son quà, ...
+          è Pas-qua ed io son quà ... son quà! ...
+               (Women of the chorus enter the scene.)
+    Ehi-là! Ehi-là! schioc-chi la fru-sta,
+    Ehi-là! schioc-chi la fru-sta, schioc-chi la fru-sta,
+         schioc-chi la fru-sta,
+    O che bel me-stie-re fa-(re il) car-ret-tie-re an-dar di
+          (quà e) di là, an-dar di (quà e) di là! an-dar
+          schioc-chi la fru-sta,
+    Son quà! Oh che bel me-stie-re fa-(re il) car-ret-tie-re,
+          oh che bel me-stier, an-dar di quà, an-dar di là,
+          an-dar di quà, an-dar di là!
+    E Pa (squa ed) io son quà, ... an-dar di (quà e) di là,
+          an-dar di (quà e) di là,
+    E Pas-(qua ed) io son qua, ... son qua!...
+
+(Chorus withdraws into the church; others separate in various
+directions.)
+
+
+SCENE III.
+
+SCENE AND PRAYER.
+
+ _Lucia._ Blest are you, friendly Alfio!
+               So favored, ever thus to be gay!
+
+ _Alfio._ Mamma Lucia, have you that rare old wine,
+               The same as ever?
+
+ _Lucia._ Not now; Turiddu has gone to buy a plenty.
+
+ _Alfio._ No; he is here! I saw him here this morning;
+                He lingered near my cottage.
+
+ _Lucia._
+
+               (Surprised.)
+
+              What now!
+
+ _Santuzza._
+
+           (Rapidly, to Lucia.)
+
+              Be silent!
+
+ _Alfio._ I will not tarry,
+              _You_ will to church devotedly?
+
+                   (Exit.)
+
+ _Chorus._
+
+                 (In church.)
+
+   Queen of the Heavens, sorrow flieth!
+
+ _People._
+
+             (External chorus.)
+
+             Hallelujah!
+
+ _Chorus._
+
+                 (In church.)
+
+              Thy holy Son lives, nor dieth!
+
+ _People._ Hallelujah!
+
+ _Chorus._
+
+                   (within.)
+
+          From the dead He now hath risen,
+          Truly hath He risen.
+
+ _People._ Hallelujah.
+
+ _Chorus._
+
+     (External. Grouping in devotional attitudes.)
+
+ We will sing of the Lord now victorious!
+   All the terrors of death were in vain!
+ Let us sing of the Christ ever glorious;
+   He is risen, in glory to reign!
+
+ _Santuzza._    We will sing of the Lord now victorious;
+                     We will sing of the Christ ever glorious;
+                   Pow'r of death was in vain.
+                 Unto heaven the Lord now riseth,
+                   Now riseth in glory to reign.
+
+ _Chorus._ We will sing, of the Lord now victorious!
+                  All the terrors of death were in vain!
+                Let us sing of the Christ ever glorious;
+                  He is risen, in glory to reign.
+                      Praise the Lord.
+
+   (All enter the church, except Santuzza and Lucia.)
+
+(Il Coro esce, alcuni entrano in chiesa, altri prendone direzioni
+diverse.)
+
+
+SCENA III.
+
+ _Lucia._ Beato voi, compar Alfio,
+               Che siete sempre allegro così!
+
+ _Alfio._
+
+               (Spigliato.)
+
+       Mamma Lucia,
+ N'avete ancora di quel vecchio vino?
+
+
+ _Lucia._ Non so; Turiddu è andato a prov vederne.
+
+ _Alfio._ Se è sempre qui!
+               L'ho visto stamattina vicino a casa mia.
+
+ _Lucia._
+
+                    (Sorpresa.)
+
+           Come?
+
+ _Santuzza._
+
+               (A Lucia rapidamente.)
+
+                 Tacete.
+
+ _Alfio._ Io me ne vado, ite voi altre in chiesa.
+
+                    (Esce.)
+
+ _Coro._
+
+                    (Interno.)
+
+                 Regina Cœli, lætare--
+
+                     Alleluja!
+
+                 Quia, quem meruisti potare--
+
+                     Alleluja!
+
+                 Resusrexit sicut dixit--
+
+                     Alleluja!
+
+ _Coro._
+
+                    (Esterno.)
+
+(Uomini e donne entrano e si schierano innanzi alla
+Chiesa in atteggiamento devoto.)
+
+  Inneggiamo, il Signor non è morto!
+  Ei fulgente ha dischiuso l'avel,
+  Inneggiamo al Signore risorto
+  Oggi asceso alla gloria del ciel!
+
+  (Tutti entrano in chiesa tranne Santuzza e Lucia.)
+
+
+SCENE IV.
+
+ROMANZA.
+
+ _Lucia._
+
+                (To Santuzza.)
+
+          And why with signals would you gain my silence?
+
+ _Santuzza._ Now shall you know, kind mother:
+                 Ere he went forth as a soldier,
+                 Turiddu pledged his love to Lola,
+                     All his faithfulness renewing
+                 But; ah! homeward returning,
+                 Married he found his Lola!
+                 And, her falsity shaming--
+                     All the old love subduing--
+                       Loved _me_!
+                 And I  loved _him_!
+                 With jealousy, hatefully, and with madness,
+                 Scorning wifely duty, envious of my gladness,
+                 Lola, in malice shameful, regains Turiddu!
+                 Fate disgraceful o'ertakes me,
+                 My own Turiddu forsakes me!
+                 Lola and he in joy remain,
+                 Having each other's love again!
+                 Ah me! alone I weep, I weep!
+
+ _Lucia._ Grief is upon us!
+              Such dire and woeful tidings to hear this holy morning.
+
+ _Santuzza._ I am accursed! I am accursed!
+                 Good mother, go pray for me unto the Saviour!
+                 Thou'lt beseech Him for me!
+                 I'll seek Turiddu, and pray to him
+                 That he again may love me!
+
+ _Lucia._ Holy Mary be with thee--the blessed Mary!
+
+      (Lucia enters the church)
+
+
+SCENA IV.
+
+ _Lucia._ Perchè m'hai fatto segno di tacere?
+
+ _Santuzza._ Voi lo sapete, o mamma, prima d'andar soldato
+                 Turiddu aveva a Lola eterna fè giurato.
+                 Tornò, la seppe sposa; e con un nuovo amore
+                 Volle spegner la fiamma che gli bruciava il core
+                 M'amò, l'amai, l'amai, ah!
+                 Quell' invida d'ogni delizia mia,
+                 Del suo sposo dimentica, arse di gelosia.
+                 Me l'ha rapito. Priva dell' onor mio,
+                 Dell' onor mio rimango:
+                 Lola e Turiddu s'amano, io piango!
+
+ _Lucia._ Miseri noi, che cosa vieni a dirmi
+              In questo santo giorno?
+
+ _Santuzza._ Io son dannata.
+                 Andate, o mamma, ad implorare Iddio,
+                 E pregate per me. Verrà Turiddu,
+                 Vo' supplicarlo un' altra voltra ancora!
+
+ _Lucia._ Ajutatela voi, Santa Maria!
+
+       (Lucia entra in chiesa.)
+
+
+SCENE V.
+
+DUET. SANTUZZA AND TURIDDU.
+
+ _Turiddu._
+
+        (Entering.)
+
+ Thou here, Santuzza!
+
+ _Santuzza._ Here I await thee.
+
+ _Turiddu._ Attending not the service of Easter?
+
+ _Santuzza._ Not now! Thee would I speak with.
+
+ _Turiddu._ I seek my mother.
+
+ _Santuzza._ Thee would I speak with!
+
+ _Turiddu._ Not here, not here!
+
+ _Santuzza._ From whence dost thou come?
+
+ _Turiddu._ Why dost thou ask me?--
+                     From Francofonte.
+
+ _Santuzza._ Ah, that is false!
+
+ _Turiddu._ Santuzza, believe me!
+
+ _Santuzza._ No! thou art lying!
+                 Over yon path I beheld thee approach:
+                 And thou wert seen to-day returning homeward
+                 From the dwelling of Lola!
+
+ _Turiddu._  Ah! thou wert spying!
+
+ _Santuzza._ No, I do swear it!
+                 Her husband, Alfio, saw thee
+                 Here within the town, and told it me!
+
+ _Turiddu._ So thou rewardest the love I gave thee,
+                What though he slay me!
+
+ _Santuzza._ Ah! Tell me not of murder!
+
+ _Turiddu._ Leave me, I tell thee! leave me!
+                The rage within me burning--
+                My righteous wrath, thou canst not assuage!
+
+ _Santuzza._ Then, thou oost love her!
+                 More fair than I is Lola!
+                 False friend! Oh, curses on her!
+
+ _Turiddu._ Santuzza!
+
+ _Santuzza._ She--vilest woman, steals the love that should be mine!
+
+ _Turiddu._ Heed thou!
+                I am no slave to thy envy
+                Scornfully showing, jealously showing.
+
+ _Santuzza._ Insult and punishment I am unheeding!
+                 Yet do I love thee,
+                 Even though anguish my heart is rending,
+                 E'en though in sorrow my life is ending.
+
+
+SCENA V.
+
+ _Turiddu._
+
+          (Entrando.)
+
+   Tu qui Santuzza?
+
+ _Santuzza._ Qui t'aspettavo.
+
+ _Turiddu._ È Pasqua in chiesa non vai?
+
+ _Santuzza._ Non vo. Debbo parlarti.
+
+ _Turiddu._ Mamma cercavo.
+
+ _Santuzza._ Debbo parlarti.
+
+ _Turiddu._ Qui no! qui no!
+
+ _Santuzza._
+
+          (Parlato.)
+
+      Dove sei stato?
+
+ _Turiddu._
+
+          (Parlato.)
+
+ Che vuoi tu dire? A Francofonte.
+
+ _Santuzza._ No, non è ver.
+
+ _Turiddu._ Santuzza credimi.
+
+ _Santuzza._ No, non mentire
+                 Ti vidi volgere giù dal sentir.
+                 E stamattina all' alba t'hanno
+                 Scorto presso l'uscio di Lola.
+
+ _Turiddu._ Ah! mi hai spiato!
+
+ _Santuzza._ No! te lo giuro, a noi l'ha raccontato
+                 Campar Alfio il marito poco fa.
+
+ _Turiddu._ Così ricambi l'amor che ti porto?
+                Vuoi che m'uccida?
+
+ _Santuzza._ Oh! questo non lo dire.
+
+ _Turiddu._ Lasciami dunque, lasciami invantenti sopire
+                Il giusto sdegno colla tua pietà.
+ _Santuzza._ Tu l'ami dunque?
+
+ _Turiddu._  No!
+
+ _Santuzza._ Assai più bella è Lola!
+
+ _Turiddu._  Taci, non l'amo.
+
+ _Santuzza._ L'ami, l'ami, Oh! maledetto!
+
+ _Turiddu._  Santuzza!
+
+ _Santuzza._ Quella cattiva femmina ti tolse a me!
+
+ _Turiddu._  Bada, Santuzza, schiavo non sono
+                 Di questa vana tua gelosia.
+
+ _Santuzza._
+
+              (Con angoscia.)
+
+          Battimi, insultami, t'amo e perdono
+          Ma è troppo forte l'angoscia mia.
+
+         (Troncando nel sentire avvicinarsi Lola.)
+
+
+SCENE VI.
+
+LOLA'S DITTY.
+
+ _Lola._
+
+         (Behind scenes.)
+
+       Bright flower, so radiant!
+       Angelic thousands stand arrayed in heaven,
+       Yet none so fair as thou hath yet been given!
+
+         (Enters. Pauses suddenly.)
+
+       Oh! Turiddu, hast thou seen Alfio?
+
+ _Turiddu._ I came but this moment: I have not.
+
+ _Lola._ Then at the forge perchance he awaiteth.
+             Here I must not linger.
+                      And thou?
+             Is't here in public thou art praying?
+
+ _Turiddu._
+
+          (Confusedly.)
+
+             Santuzza here was telling--
+
+ _Santuzza._
+             I was saying this is Easter!
+
+                       (Meaningly.)
+
+             And the Lord all things beholdeth!
+
+ _Lola._
+
+          (To Santuzza.)
+
+             Thou wilt not go to the service?
+
+ _Santuzza._
+            No, no! None shall attend but those
+            Who know they are not guilty!
+
+ _Lola._
+
+                (Vehemently.)
+
+        In the grace of the Saviour
+        I bow before thee!
+
+ _Santuzza._
+
+                (Bitterly.)
+
+         O, well thou speakest!--
+         Lola!
+
+ _Turiddu._
+
+                (Embarrassed.)
+                  (To Lola.)
+
+          Away then! Come, Lola;
+          Here there is naught to hold us.
+
+ _Lola._
+
+                 (Ironically.)
+
+         Oh, stay thou with _her_!
+
+ _Santuzza._
+
+                (To Turiddu.)
+
+         Yes, stay thou!
+
+                   (Firmly.)
+
+         I have something yet to tell thee:
+
+ _Lola._
+
+                (Mockingly.)
+
+         May the Saviour assist thee!
+
+                  (Going.)
+
+         So, I will leave thee.
+
+               (Enters the church.)
+
+
+SCENA VI.
+
+ _Lola._
+
+           (Dentra alla scena.)
+
+          Fior di giaggiolo
+            Gli angeli belli stano
+          A mille in cielo
+            Ma belli come lui
+              Ce n'è uno solo.
+
+       (Entra in iscena e s'interrompe.)
+
+     Oh! Turiddu, e passato Alfio?
+
+ _Turiddu._ Son giunto ora in piazza non so.
+
+ _Lola._ Forse è rimasto dal maniscalco ma non può tardare!
+             E voi sentite le funzioni in piazza?
+
+ _Turiddu._
+
+              (Confuso affret.)
+
+           Santuzza mi narrava--
+
+ _Santuzza._ Gli dicevo che oggi è Pasqua
+                 E il Signor vede ogni cosa.
+
+ _Lola._ Non venite alla messa?
+
+ _Santuzza._
+
+                 (Subito.)
+
+          Io no, ci deve andar chi sa
+
+              (Con intenzione.)
+
+          Di non aver peccato!
+
+ _Lola._
+
+                 (Con forza.)
+
+       Io ringrazio il Signore, e bacio in terra!
+
+ _Santuzza._
+
+                 (Esprimendosi.)
+
+          Oh! fate bene, fate bene,
+
+                 (Con amarezza.)
+
+              Lola!
+
+ _Turiddu._
+
+                 (A Lola.)
+               (Impacciato.)
+
+          Andiamo, andiamo, Oni non abbiani che fare.
+
+ _Lola._
+
+                 (A Turiddu.)
+
+             Oh!
+
+                 (Con ironia.)
+
+             Rimanete.
+
+ _Santuzza._
+
+                  (A Turiddu con fermezza.)
+
+           Sì, resta, resta,
+             Ho da parlarti ancora.
+
+ _Lola._
+
+                 (Sempre ironica.)
+
+          E v'assista il Signore,
+
+                 (Con caricatura.)
+
+          Io me ne vado.
+
+                (Entra in chiesa.)
+
+
+SCENE VII.
+
+CONTINUATION OF THE DUET.
+
+ _Turiddu._
+
+                (To Sant.)
+
+         Ah! how foolish! naught availing!
+
+ _Santuzza._
+
+                (Coldly.)
+
+      I have spoken; 'tis well--'tis the truth.
+
+ _Turiddu._
+
+                (Threateningly.)
+
+         Ah! by heaven!
+
+ _Santuzza._ My heart is breaking!
+
+ _Turiddu._
+
+                (Approaching her.)
+
+            No!
+
+ _Santuzza._
+
+                (Warding him away.)
+
+          Turiddu, ah! hear me!
+
+ _Turiddu._
+
+            Go!
+
+                (Turns from her.)
+
+ _Santuzza._
+
+          (Threateningly.)
+
+      False! False!
+
+ _Turiddu._
+
+        (With increased rage.)
+
+      Thus I reward thee in my anger.
+
+   (Throws her down, and hastens into the church.)
+
+ _Santuzza._
+
+          (In the height of fury.)
+
+       Accurs'd! accurs'd at Easter, thou false one.
+
+          (Falls, despairingly.)
+
+
+SCENA VII.
+
+ _Turiddu._
+
+                (Con ironia.)
+
+         Ah! lo vedi, che hai tu detto?
+
+ _Santuzza._
+
+                  (Fredda.)
+
+         L'hai voluto e ben ti sta!
+
+
+ _Turiddu._
+
+                (S'avventa.)
+
+            Ah! Per Dio!
+
+ _Santuzza._ Squarciami il petto.
+
+ _Turiddu._
+
+                (S'avvia.)
+
+            No!
+
+ _Santuzza._
+
+                (Trattenendolo.)
+
+            Turiddu, ascolta!
+
+ _Turiddu._ Va!
+
+ _Santuzza._
+
+            (Minacciosa.)
+
+          Bada!
+
+ _Turiddu._
+
+        (Con moltissima forza.)
+
+      Dell'ira tua non mi curo!
+
+  (La getta a terra e fugge in chiesa.)
+
+ _Santuzza._
+
+          (Nel colmo dell'ira.)
+
+      A te la mala Pasqua, spergiuro!
+
+      (Cade affranta ed angosciata.)
+
+
+  SANTUZZA.
+    No, no. Tu-rid-du, re-main with me yet, and for-ev-er!
+    Love me a-gain!
+    How canst thou for-sake me!
+    No, no, Tu-rid-du! In-to thine arms ... lov-ing a-gain,
+    Say thou wilt take ... me!
+    No, no, Tu-rid-du! Re-main with me yet and for ev-er!
+    No Tu-rid-du, Tu-rid-du re-main with me ev-er!
+
+
+
+
+  TURIDDU.
+    Why dost thou fol-low me?
+    Why dost thou watch me?
+    Why dost thou spy e-ven at the church-door?
+    Why dost thou fol-low, Why watch me ev-er?
+
+  SANTUZZA.
+    Lo! here thy San-tuz-za now doth im-plore ... thee; ...
+    Ah! canst thou leave me weep-ing be-fore thee!
+    Love thy San-tuz-za! No, Tu-rid-du! Stay, I im-plore thee!
+    Oh! Tu-rid-du! No, Tu-rid-du, re-main, re-main!
+    No! Tu-rid-du! Ah! ... No, Tu-rid-du,
+
+  TURIDDU.
+    Go! I re-peat it! Go! thou dost weary me!
+    Vain were all re-pent-ance for such of-fend-ing!
+    Thou shalt leave me!
+
+    Go! Go! Go! Go! ... I ... re-peat-it;
+
+  SANTUZZA.
+    re-main, re-main, I im-plore thee, a-gain!
+
+  TURIDDU.
+    Go, I tell thee; vain were re-pent-ing, vain were re-pent-ing,
+        for all thy of-fend-ing, all thy of-fend-ing! Go! go! go!
+
+  SANTUZZA.
+    No, no, no! See, thy San-tuz-za
+    Now doth im-plore thee, Ah! canst thou leave me,
+        thus weep-ing be-fore thee!
+    Lo! thy San-tuz-za now doth im-plore thee!
+    Ah! canst thou leave me? Ah! canst thou leave me?
+
+  TURIDDU.
+    Go! I re-peat it! Go!
+    Vain were re-pen-tance for such of-fend-ing.
+    Go! Go!
+
+  SANTUZZA.
+    Wilt thou leave me thus? Ah! ... Then dost thou leave me,
+    Then dost thou leave ... me?
+    Ah! No! Tu-rid-du! Re-main with me yet and for-ev-er!
+    I im-plore thee, do not for-sake me, Tu-rid-du!
+
+  TURIDDU.
+    I re-peat it, Go! Ah! ... Go! I re-peat it, Go! I re-peat ... it!
+    Go! ... Go! Vain were re-pent-ance for thine of-fend-ing!
+    Once more do I tell thee, go! And, for-ev-er!
+
+
+
+
+  SANTUZZA.
+    No, no, Tu-rid-du, ri-ma-ni, ri-ma-ni an-co-ra
+          ab-ban-do-nar-mi dun-que tu vuo-i?
+    No, no, Tu-rid-du! ri-ma-(ni an)-co-ra,
+          dun-que tu vuo-i ab-ban-do-nar-mi?
+    No, no, Tu-rid-du, ri-ma-ni, ri-ma-ni an-co-ra,
+          no, Tu-rid-du, Tu-rid-du ri-ma-ni an-co-ra.
+
+  TURIDDU.
+    Per-chè se-guir-mi, per-chè spi-ar-mi sul-li-mi-ta-re
+          fin del-la chie-sa?
+    Per-chè se-guir-mi per-chè spi-ar-mi?
+
+  SANTUZZA.
+    La! tu-a San-tuz-za pian (ge e) t'im-plo-ra ...
+        co-me cac-ciar-la co-sì tu puo-i, la tua San-tuz-za! no,
+    Tu-rid-du! ri-ma-(ni an) co-ra!
+    Oh! Tu-rid-du! no, Tu-rid-du, ri-ma-(ni an)-cor. no!
+    Tu-rid-du! Ah! ... no,
+
+  TURIDDU.
+    va ti ri-pe-to, va non te-diar-mi, pen-tir-(si è)
+        va-no do-po l'of-fe-sa.
+    non te-diar-mi
+    va! va! va! va ... ti ...
+
+  SANTUZZA.
+    Tu-rid-du, ri-ma-ni, ri-ma-(ni an)-co-ra, an-cor.
+        no! no! no! la tua San-tuz-za va-no, do-po - l'of-fe-sa.
+    pian(ge e) t'im-plo-ra, co-me cac-ciar-la,
+        co-me cac-ciar-la tu puo-i?
+    La tua San-tuz-za piange (e e) t'im-plo-ra
+        co-me cac-ciar-la? co-sì tu puo-i
+
+  TURIDDU.
+    ri-pe-to non te-diar-mi, pen-tir-(si è) va-no,
+    do-po l'of-fe-sa pen-tir-si è va-no do-po l'of-fe-sa.
+    va! va! va! va, ti ri-pe-to, va, va! va!
+
+  SANTUZZA.
+    tu puo-i co-sì Ah! ... dun-que tu vuo-i ab-ban-do-nar-mi?
+    ah! no! Tu-rid-du! ri-ma-ni, ri-ma-ni an-co-ra,
+    dun-que vuo-i ab-ban-do-nar-mi. Tu-rid-du!
+
+  TURIDDU.
+    ti ri-pe-to va! ah! ... va ti ri-pe-to, va, non te-diar-mi va! ...
+    Pen-tir-si è va-no do-po l'of-fe-sa,
+       pen-tir-si è va-no do-po l'of-fe-sa.
+
+
+SCENE VIII.
+
+DUET, SANTUZZA AND ALFIO.
+
+           (Enter, Alfio.)
+
+ _Santuzza._
+
+         (Calming herself.)
+
+      Oh! doth the Saviour send thee, neighbor Alfio?
+
+ _Alfio._  At what point is the service?
+
+ _Santuzza._ 'T is now at closing.
+                 But I tell thee Lola has gone with Turiddu!
+
+_Alfio._
+
+         (Surprised.)
+
+       What are you saying?
+
+ _Santuzza._ While thou dost labor to earn an honest living,
+                  Lola unfaithfully her love is giving.
+
+ _Alfio._ Ah! in the name of heaven, Santuzza, what sayest thou?
+
+ _Santuzza._ The truth!
+                  Turiddu forsakes me--and he hath betrayed me!
+                  'T was your wife who enticed him away from me!
+
+ _Alfio._
+
+          (Threateningly.)
+
+       And if thou art lying
+       I'll have thy heart's blood!
+
+ _Santuzza._ Lies, as yet, my lips have never uttered.
+                  Prone to be truthful am I.
+
+ _Alfio._
+
+          (After a pause.)
+
+        Santuzza, I am thankful that you have spoken.
+
+ _Santuzza._ But ah! what shame!
+                  And I have told it thee!
+
+_Alfio._
+
+           (Suddenly, in fury.)
+
+       T'is they who are shameful!
+       Revenge I'll have upon them!
+       This day and hour my wrath
+       Shall fall upon them!
+
+
+SCENA VIII.
+
+        (Sorte Alfio e s'incontra con Santuzza.)
+
+ _Santuzza._
+
+          (Ad Alfio rianimandosi.)
+          Oh! Il Signore vi manda, compar Alfio.
+
+ _Alfio._
+
+          (Tranquillo.)
+
+      A che punto è la messa?
+
+ _Santuzza._
+
+                È tardi ormai, ma per voi
+                     (Con intenzione.)
+                Lola è andata con Turiddu!
+
+ _Alfio._
+
+                (Sorpreso.)
+
+      Che avete detto?
+
+ _Santuzza._ Che mentre correte
+                 All'acqua e al vento a guadagnarvi il pane,
+                 Lola v'adorna il tetto in malo modo!
+
+ _Alfio._  Ah! nel nome di Dio, Santa che dite?
+
+ _Santuzza._ Il ver. Turiddu mi tolse, mi tolse l'onore,
+                E vostra moglie lui rapiva a me!
+
+ _Alfio._
+
+                (Minaccioso.)
+
+      Se voi mentite, vo' schiantarvi il core.
+
+ _Santuzza._ Uso a mentire il labbro mio, il labbro mio non è!
+                 Per la vergogna mia, pel mio dolore
+                 La trista verità--vi dissi, ahimè!
+
+ _Alfio._
+
+               (Dopo un poco di pausa.)
+
+      Comare Santa, allor grato vi sono.
+
+ _Santuzza._ Infame io son che vi partai così!
+
+ _Alfio._ Infami loro, ad essi non perdono
+               Vendetta avrò pria che tramonti il dì!
+               Io sangue voglio, all'ira m'abbandono,
+               In odio tutto l'amor mio finì!
+
+                       (Escono.)
+
+
+INTERMEZZO 1.
+
+
+INTERMEZZO 2.
+
+
+SCENE IX.
+
+CHORUS AND BRINDISI.
+
+(The people enter from the church. Lucia crosses and enters the inn.)
+
+ _Chorus of men._
+
+                (sotto voce.)
+
+       Now homeward, now homeward ye neighbors,
+         Good cheer is awaiting there;
+         And wives our joy will share,
+       Now Easter day shall be for all a time of rest,
+         Without sorrow or care.
+
+ _Chorus of women._
+
+            (Lola and Turiddu come from the church.)
+
+ _Turiddu._ My pretty Lola! Have you not a greeting,
+                 When honest people we are meeting?
+
+ _Lola._ I must leave thee.
+              I must go and welcome Alfio!
+
+ _Turiddu._ Here he will seek thee.
+                 Do not hasten!
+                      (To the people.)
+           Meanwhile, good friends, come hither.
+                      (All come forward.)
+           We'll try the merry wine!
+
+     (All take cups from the bar of the inn.)
+
+ _Chorus._  Welcome!
+
+ _Turiddu._
+
+               (To Lola.)
+
+      To those who love you!
+
+               (Drinks.)
+
+ _Chorus._  Drink it!
+
+ _Lola._
+
+             (To Turiddu.)
+
+      May fortune give you favor!
+
+               (Drinks.)
+
+ _Chorus._  Drink it!
+
+ _Turiddu._ We will!
+
+ _Chorus._  Welcome! and drink!
+
+                     (All drink.)
+
+                Come, let us drink another!
+
+ _All._ Come, drink; yes, let us drink another!
+             Hail! the ruby wine now flowing, etc.
+
+
+  TURIDDU.
+    Hail! the ru-by wine now flow-ing,
+    Bright-ly in the cup now show-ing,
+    Mer-ry spell up-on you throw-ing,
+    Like a smile from hap-py love
+    Hail! the ru-by wine now flow-ing,
+    Bright-ly in the cup now show-ing,
+    Mer-ry spell around you throw-ing,
+    Like the smile of hap-py love!
+    Hail! ah, wine so rich-ly gleam-ing!
+    In thy crim-son joy is beam-ing!
+    All thy com-fort lend us,
+    With thy cheer at-tend us--Hope and love! ...
+    Hail! ah, wine so rich-ly gleam-ing!
+    In thy crim-son joy is beam-ing!
+    All thy com-fort lend us,
+    With thy cheer at-tend us--Hope and love!
+
+
+SCENA IX.
+
+(Tutti escono di chiesa. Lucia attraversa la scena ed entra in casa. A
+gruppi sotto voce fra loro.)
+
+ _Coro._
+
+                (Uomini.)
+
+       A casa, a casa, amici, ove ci aspettano
+       Le nostre donne, andiam,
+       Or che letizia rasserena gli animi.
+
+ _Coro._
+
+                (Donne.)
+
+       A casa, a casa, amiche, ecc.
+
+           [Lola e Turiddu escono dalla chiesa.]
+
+ _Turiddu._ Comare Lola, ve ne andante via
+                 Senza nemmeno salutare?
+
+ _Lola._ Vado a casa; Non ho visto compar Alfio!
+
+ _Turiddu._ Non ci pensate, verrà in piazza.
+
+           (Rivolgendosi al Coro che s'avvia.)
+
+                 Intanto, amici, qua,
+                 Beviamone un bicchiere.
+
+(Tutti si avvicinano alla tavola dell' osteria
+e prendono in mano i bicchieri.)
+
+ _Coro._ Viva, beviam! Rinnovisi la giostra!
+
+ _Turiddu._
+
+                  (A Lola.)
+
+             Ai vostri amori!
+
+                   (Beve.)
+
+ _Lola._
+
+                 (A Turiddu.)
+
+          Alla fortuna vostra!
+
+                   (Beve.)
+
+ _Turiddu._ Beviam!
+
+ _Lola, Turiddu e Coro._
+            Beviam, beviam! rinnovisi la giostra!
+
+
+  TURIDDU.
+    Vi-(va il) vi-no spu-meg-gian-te,
+        nel bic-chie-re scin-til-lan-te
+    Come il ri-so dell' A-man-te;
+        mi-(te in)-fon-(de il) giu-bi-lo.
+    vi-va il vi-no spu-meg-gian-te,
+        nel bic-chie-re -scin-til-lan-te
+    co(me-il) ri-so dell' a-man-te, mi-(te in)-fon-(de il) giu-bi-lo!
+    Vi-(va il) vi-no ch'è sin-ce-ro che (ci al)-lie-ta o-gni
+        pen-sie-ro, e (che af)
+        fo-ga l'u-mor ne-ro nell' eb-brez-za ten-e-ra....
+    Vi(va il) vi-no ch'è sin-ce-ro che (ci al)-lie-ta o-gni
+        pen-sie-ro, e (che af)
+        fo-ga l'u-mor ne-ro nell' eb-brez-za ten-e-ra.
+
+
+FINALE.
+
+ _Alfio._ Unto all of you, greeting!
+
+ _Chorus._ Neighbor Alfio, greeting!
+
+ _Turiddu._
+
+                   (To Alfio.)
+
+           Hearty welcome!
+           Now join with us in revel.
+
+                 (Fills a glass for him.)
+
+           Look you! drink you this measure!
+
+ _Alfio._ Thank you! but I must refuse the offer!
+               A cup of deadly poison perhaps you proffer!
+
+ _Turiddu._ Then suit your pleasure!
+
+                  (Throws away the wine.)
+
+ _Lola._ Ah me! what now befalls!
+
+(Some of the women consult together, and then approach Lola, saying:)
+
+              Neighbor Lola, come, haste away from here!
+
+          (Exit, all the women, with LOLA.)
+
+ _Turiddu._
+
+                    (To Alfio.)
+
+           Perhaps you have something to tell me!
+
+ _Alfio._ I? nothing!
+
+ _Turiddu._ Then hear me!
+                 You will find me at your service!
+
+ _Alfio._ This moment?
+
+ _Turiddu._ This moment!
+
+     (They embrace, Turiddu bites Alfio's ear, viciously.)
+
+ _Alfio._ Neighbor Turiddu, you give a ready challenge!
+               And I accept it! you understand me!
+
+ _Turiddu._ Neighbor Alfio!
+                I own thou shouldst have vengeance,
+                And I admit, in the name that is holy,
+                That I should be dealt with as a dog, by thee!
+                But, shouldst thou kill me--if I perish
+                By thine arm--yes, if I perish,--
+                Unhappy Santa, she whom I have cherished--
+                Lone, unhappy Santa, my dagger
+                Will embed within thy heart!
+
+ _Alfio._ Good neighbor, act upon it as may suit you!
+                  You will find me yonder in the orchard.
+
+                         (Exit.)
+
+ _Turiddu._
+
+                        (Calling.)
+
+             My mother!
+
+                     (Enter LUCIA.)
+
+             Mother! the wine-cup too freely passes!
+             Exciting, crazing!
+             Too many cups I have been drinking!
+             ----I must leave you, good mother!
+
+             But first let me ask for a kindly blessing,
+             As on that day when I became a soldier.
+             And, mother, hear me--and heed it:
+             If I return not, thou unto my Santa
+             Must be a kindly mother!
+             Santa, whom I promised I would lead to the altar!
+             --If I return--
+
+ _Lucia._ Why say you this to me?
+               What is it? tell me!
+
+ _Turiddu._ Ha--nothing!
+                'Tis wine--that I have drunk so freely.
+            --For me oh! pray to heaven,
+              That I may be forgiven!
+            One kiss, one kiss, my mother!
+            And yet--and yet another!
+              Farewell!
+
+                    (Rushes off, desperately.)
+
+ _Lucia._ Turiddu! Ah!
+
+               (Retires to back of stage, crying.)
+                     (Enter, Santuzza.)
+
+            Santuzza!
+
+ _Santuzza._ Ah! good mother!
+
+        (Throws her arms around Lucia's neck.)
+
+            (People crowd upon the stage.)
+
+              (Excitement and agitation.)
+
+(Enter a woman in the distance crying, "Neighbor Turiddu is murdered.")
+
+  (Several women hastily enter, terrified. One of them shrieks--)
+
+           "Neighbor Turiddu is murdered."
+
+               (All rush upon the stage.)
+
+ _All._ Ah!
+
+(Santuzza falls; swooning. Lucia faints,
+and is supported by some of the women.)
+
+       THE CURTAIN FALLS RAPIDLY.
+
+
+FINALE.
+
+               (Entra Alfio.)
+
+ _Alfio._ A voi tutti salute.
+
+ _Coro._ Compar Alfio, salute.
+
+ _Turiddu._ Benvenuto! con noi dovete bere,
+
+                   (Empie un bicchiere.)
+
+                Ecco pieno è il bicchiere.
+
+                       (Troncando.)
+
+ _Alfio._ Grazie, ma il vostro vino io non l'accetto,
+               Diverrebbe veleno entro il mio petto!
+
+ _Turiddu._
+
+                      (Parlato.)
+
+            A piacer vostro.
+
+                    (Getto il vino.)
+
+ _Lola._ Ahimè che mai sarà?
+
+(Alcune donne nel Coro si consigliano fra loro poi si av
+vicinano a Lola dicendole sotto voce.)
+
+ _Coro._ Comare Lola, andiamo via di qua.
+
+           (Tutte le donne escono conducendo Lola.)
+
+ _Turiddu._ Avete altro a dirmi?
+
+ _Alfio._ Io nulla.
+
+ _Turiddu._ Allota sono agli ordini vostri--
+
+ _Alfio._ Or ora?
+
+ _Turiddu._ Or ora!
+
+    (Si abbracciano. Turiddu morde l'orecchio destro di Alfio.)
+
+ _Alfio._ Compar Turiddu, a vete morso, a buono!
+
+                (Con intenzione.)
+
+              Cintenderemo bene a quel che pare!
+
+ _Turiddu._ Compar Alfio.
+                Lo so che il torto è mio;
+                E ve lo giuro nel nome di Dio
+                Che al par d'un cane mi farei sgozzar--
+                    Ma s'io non vivo,
+
+                     (Dolorosamente.)
+
+
+                Resta abbandonata povera Santa!
+                Lei che mi s'è data!
+
+                     (Con impeto.)
+
+                Vi saprò in core il ferro mio piantar!
+
+ _Alfio._
+
+                  (Freddamente.)
+
+          Compare fate come più vi piace,
+          Io v'aspetto qui fuori dietro l'orto.
+
+                       (Esce.)
+
+ _Turiddu._
+
+                     (Chiamando.)
+
+                Mamma--
+
+                    (Entra Lucia.)
+
+                Mamma--quel vino è generoso,
+                E certo oggi troppi bicchier
+                Ne ho traccannati--
+                Vado fuori all' aperto--
+                Ma prima voglio che mi benedite--
+                Come quel giorno che partii soldato:
+                E poi mamma,
+                Sentite, s'io non tornassi--
+                Voi dovrete fare da madre a Santa,
+                Ch'io le avea giurato di condurla all' altare.
+
+ _Lucia._   Perchè parli cosi, figliolo mio?
+
+ _Turiddu._
+
+                   (Con disinvoltura.)
+
+                Oh! nulla, è il vino che m'ha suggerito!
+                M'ha suggerito il vino--
+                Per me pregate Iddio,
+                Un bacio mamma! un altro bacio
+                Addio!
+
+                  (Fugge disperatamente.)
+
+ _Lucia._ Turiddu! che vuoi dire!
+
+     (Va in fondo alla scena a disperatamente chiama.)
+
+              Turiddu! Turiddu! ah!
+
+                    (Entra Santuzza.)
+
+                  Santuzza.
+
+ _Santuzza._ Oh! madre mia!
+
+(Le getta le braccia al colla. La scena si popolo. L'agitazione si
+scorge sul volto di tutti. Che scambievolmente s'interrogano con
+terrore. Si ode un mormorio confuso da lontano. Una donna sola,
+assai lontano, gridando.)
+
+                  Hanno ammazzato compare Turiddu!
+
+(Si sentono delle voci confuse più vicine. Alcune donne entrano
+atterrite correndo, ed una di esse grida disperatamente.)
+
+            Hanno ammazzato compare Turiddu!
+
+         (Tutti si precipitano sulla scena.)
+
+ _Santuzza, Lucia e Coro._
+
+                   (Gridando.)
+
+            Ah!
+
+(Santuzza cade priva di sensi, Lucia sviene ed è sorretta
+dalle donne del Coro. Tutti restano atterriti.)
+
+       CALA RAPIDAMENTE LA TELA.
+
+
+
+
+THE A CAPPELLA CHORUS BOOK
+
+_Edited by_ DR. F. MELIUS CHRISTIANSEN AND NOBLE CAIN
+
+FOR MIXED VOICES _Price, in Boards_, $1.00
+
+Outstanding choral compositions of Bach, Brahms, Gibbons, Kopolyoff,
+Lassus, Morley, Palestrina, Pearsall, Praetorius, Purcell, Rachmaninoff,
+Rimsky-Korsakoff, Sibelius, Tchaikovsky, Vittoria, Wilbye, and
+Zolotarieff; a few folk melodies, and a negro spiritual.
+
+This notable collection of twenty-seven choruses, one hundred and
+twenty-eight music pages, contains sixteen secular numbers and eleven
+sacred. The names of the distinguished editors are a guarantee of the
+high quality of the book. Care has been taken to avoid music of more
+than average difficulty, or of extreme vocal range.
+
+Every number was chosen because of its intrinsic beauty as well as
+singableness. The interesting _Foreword_ by the managing editor records
+the development of _a cappella_ music in this country.
+
+Unparalleled in both quality and price.
+
+_Each number is also issued separately_
+
+
+
+
+THE JUNIOR A CAPPELLA CHORUS BOOK
+
+_Edited by_ OLAF C. CHRISTIANSEN AND CAROL M. PITTS
+
+FOR MIXED VOICES _Price, in Boards_, $1.00
+
+Contains one hundred and twenty-eight pages of music, an elaborate and
+helpful Foreword, and _Hints for the Singers_ by Dr. Hollis Dann.
+
+Of the fifty-one musical numbers, forty-two are secular and nine are
+sacred. More than half are made available in _a cappella_ form for the
+first time.
+
+As the best possible preparation for acquiring independent movement
+of voices accustomed only to part-songs that move solidly together,
+the book opens with fifteen canons, rounds, and catches by Byrd,
+Hayes, Haydn, Hilton, Purcell, and others. These are followed by two
+canzonets of Morley (two-part) and three-part (S. A. B.) choruses by
+Shield and Ford and arrangements of folksongs. The body of the book
+consists of four-part madrigals, folksongs, two Negro spirituals, and
+other choruses. Several five-part songs are included. Morley, Weelkes,
+Pilkington, Bennet, Gevaert, Lully, Praetorius, Mozart, Bortniansky,
+Archangelsky, Sibelius, and others are represented.
+
+While the musical standard of the editors is high, pains have been taken
+to selectmusic that not only is suitable in range and text for junior
+choruses, but is hearty, joyous, and singable.
+
+This truly significant volume will fill a great need, and be the
+happiest possible introduction to the art of unaccompanied chorus
+singing.
+
+_Each number is also issued separately_
+
+
+
+
+NEW CHORAL WORKS
+
+WRITTEN FOR SCHOOLS
+
+
+=BIZET, GEORGES=
+
+ =Choral Fantasia from Carmen= (Arranged by N. Clifford Page)       .50
+
+No opera has more numbers that are known and loved for their piquant
+rhythms and exquisite melodies than Bizet's masterpiece. It teems with
+color and life. The editor has introduced all the best of these and in
+the logical order in which they appear in the score. Solos, trios and
+choruses are all present in an easy choral arrangement, which closes
+brilliantly with the famous Toreador March.
+
+
+=GOUNOD, CHARLES=
+
+ =Choral Fantasia from Faust= (Arranged by N. Clifford Page)        .50
+
+The arranger has cleverly contrived that all the best known solos,
+concerted numbers and chorus are included in this fantasia, in the
+order in which they appear in the opera. All are treated chorally, and
+difficulties are so treated that high schools and popular choruses may
+perform the work.
+
+
+=COERNE, LOUIS ADOLPHE=
+
+ =Skipper Ireson's Ride= (Cantata for Mixed Voices)                 .30
+
+To Whittier's stirring ballad, based on a quaint incident in an old New
+England past, the composer has made attractive and ingenious music,
+especially adapted for performance by schools and amateur societies.
+
+
+=HOSMER, E. S.=
+
+ =Columbus= (Cantata for Mixed Voices)
+                (Also issued for Men's Voices)                     .40
+
+A short and easy work, the music melodious though not without dramatic
+touches. It calls for a solo baritone. The part writing makes large use
+of unisons, and awkward progressions have been avoided.
+
+(Also issued for men's voices)
+
+_Send for Descriptive Circular "P"--Cantatas, Oratorios, etc._
+
+The Ditson Novelty List is well worth while.
+
+Ask to have your name added to our mailing list.
+
+BOSTON: OLIVER DITSON COMPANY
+
+NEW YORK: CHAS. H. DITSON & CO. CHICAGO: LYON & HEALY
+
+ORDER OF YOUR LOCAL DEALER
+
+
+
+
+The Clippinger Class-Method of Voice Culture
+
+_by_ D. A. CLIPPINGER
+
+An altogether sane, balanced and practical text book by one of America's
+eminent authorities on the voice. It contains 132 pages of instructive
+text, technical exercises, melodic studies, and carefully chosen songs
+and duets.
+
+The author's deep study of the voice together with his long experience
+in solving difficult vocal problems in the studio has enabled him to
+rid the subject of vagary, mystery, and uncertainty, and state the
+principles of voice-training so clearly and simply that they may be
+understood by anyone.
+
+
+A FEW BASIC PRINCIPLES
+
+A tone is _something to hear_. Therefore, to be right it must satisfy
+the trained ear.
+
+A good tone is _easily produced_. It is the bad tone that is difficult.
+
+A considerable part of voice-training must be devoted to _getting rid of
+resistance_, that is, effort at the wrong point.
+
+Good voice-production is based on the _right idea_ of tone and right
+conditions of the instrument.
+
+The study of singing should be _an invigorating and inspiring form_ of
+exercise.
+
+To sing _well_ is an accomplishment _well_ worth the time and effort
+involved.
+
+
+AIM OF THE BOOK
+
+An adequate treatment of breath-control, vowel-formation, vowel-color,
+tone-quality, resonance, consonants, phonetic spelling, diction, the
+head voice.
+
+Ample exercises for flexibility.
+
+An illuminating discussion of interpretation, and how to study a song.
+
+An outline of the principles of interpretation as a basis of criticism.
+
+Purchase of outside material unnecessary.
+
+The book is COMPLETE in itself, with ample text, nearly 150 exercises
+and studies, 25 songs and 7 duets.
+
+ PRICE, $1.25
+
+
+For Additional Teaching Material
+
+_Art Songs for School and Studio_ (FIRST YEAR)
+
+EDITED BY MABELLE GLENN and ALFRED SPOUSE
+
+ Issued in Two Editions--Medium High--Medium Low--$1.00 each
+
+
+_Art Songs for School and Studio_ (SECOND YEAR)
+
+_Edited by_ MABELLE GLENN and ALFRED SPOUSE
+
+ Issued in two editions--Medium High--Medium Low--$1.00 _each_
+
+Because of the success of the _First Year_ book and the demand for a
+second book, a step in advance, this collection has been issued. It
+contains twenty-three second-year songs, including two duets, from the
+works of Brahms, Densmore, Franz, Fisher, Grieg, Henschel, Jensen,
+Manney, Schubert, Schumann, Sinding, Strickland, Tchaikovsky and Watts.
+
+The editors have added helpful notes to each of the songs and the volume
+includes hints on Teaching Procedure, Diction, and the Principles of
+Singing.
+
+
+
+
+MUSIC APPRECIATION
+
+Based on Methods of Literary Criticism
+
+By CLARENCE G. HAMILTON, A. M.
+
+Music Students Library, with 263 illustrations, diagrams and music cuts.
+396 pages, cloth Price, $2.50
+
+The illustrative examples of piano pieces and songs that appear in this
+book are issued in a separate volume entitled:
+
+TYPICAL PIANO PIECES AND SONGS
+
+ Size, 9½ × 12½; 144 pages; paper Price, $1.50
+
+A thorough and unique textbook for individual use, music clubs, classes,
+and educational institutions. Invaluable for those who wish to listen to
+music with quickened hearing and real understanding. With twenty-four
+portraits, twenty-eight diagrams and over two hundred music cuts.
+
+What Educators have said regarding Professor Hamilton's
+
+MUSIC APPRECIATION
+
+=Sumner Salter=, _Director of Music_, Williams College:
+
+"I am convinced of the skill and thoroughness of treatment and of the
+far reaching practical value of the work."
+
+=Walter H. Aiken=, _Director of Music_, Cincinnati, Ohio:
+
+"One of the best, in my opinion, of anything thus far in print leading
+to music appreciation through music analysis: telling the pupil what to
+study and how."
+
+=Arthur Foote=, Boston, Mass.
+
+"The scheme is a new one and seems to me of much practical value. The
+analyses are lucid and just the thing to teach the pupil how to think
+and work out such matters for himself."
+
+=H. D. Sleeper=, _Professor of Music_, Smith College:
+
+"Capitally planned and carried out to meet a very definite need--the
+awakening of intelligence regarding good music in the minds of young
+people of high school and college age."
+
+=Joseph N. Ashton=, _Director of Music_, Abbott Academy, Andover, Mass.,
+formerly Professor of Music, Brown University:
+
+"An admirable book. The music selected as a basis of study is such as
+the student would be expected to be acquainted with. The scheme avoids
+on the one side mechanical dryness and on the other vague and valueless
+rhapsody. With this book sterile study is well-nigh impossible."
+
+=Mrs. Frank A. Seiberling=, _President_ National Federation of Music
+Clubs:
+
+"The book will be invaluable to use in music clubs as a means of getting
+a fundamental understanding of the history of music and the various
+forms of compositions. When our next pamphlet goes out to the clubs of
+our national federation I shall list the book for use as a reference
+manual for the entire season for club study."
+
+=Dr. Percy Goetschius=, Institute of Musical Art, New York City:
+
+"I am _thoroughly delighted_ with the book. It is an original, very
+sensible and practical method of approaching this important subject;
+it is admirably planned and its comprehensive contents admirably
+systematized; and it is written with a delightful mixture of simplicity
+and erudition that makes it both easy to use and appealing to the
+student."
+
+A List of Victor Record Illustrations to accompany Music Appreciation,
+by Clarence C. Hamilton, A. M., Professor of Music at Wellesley College,
+has been prepared by the Educational Department of the Victor Talking
+Machine Company, and will be sent free to any address, on request, by
+Oliver Ditson Company.
+
+BOSTON: OLIVER DITSON COMPANY
+
+NEW YORK: CHAS. H. DITSON & CO. CHICAGO: LYON & HEALY
+
+MADE IN U. S. A.
+
+
+
+
+WILLIAM SHAKESPEARE
+
+The Art of Singing
+
+NEW AND REVISED EDITION, COMPLETE IN ONE BOOK
+
+THE TEXT HAS BEEN ENTIRELY REWRITTEN
+
+ Price, $2.25
+
+Postage extra, except in first and second zones from Boston and New York
+
+¶ This work is based upon the principles of the Old Italian
+Singing-masters, and deals with Breath Control, Production of Voice, and
+Register. The Management of the Breath, the Vocal Organ, the Jaw, Soft
+Palate, Lips and Face, Eyes, Attack and Legato Tone, the Three Registers
+of the Voice, Force, Intensity, and Expression are illustrated by many
+cuts and exercises.
+
+
+COMMENTS OF THE PRESS
+
+¶ We find a logical, clear, precise, and well ordered system in the work
+which must commend it to all who study it.--_Musical Courier_.
+
+¶ This book will be made one of the useful "tools of the trade" by many
+intelligent and progressive teachers.--_Philadelphia Public Ledger_.
+
+¶ A careful examination of contents will tend to give any earnest
+student an even higher estimate of the worth of Shakespeare and his
+famous method.--_Music News_.
+
+¶ Mr. Shakespeare has for so long been regarded as one of the most
+capable singing teachers in England that his latest work is entitled to
+respect.--_New Music Review_.
+
+¶ William Shakespeare has long been one of the most distinguished
+English teachers of singing; and this book in which he has embodied his
+method of teaching is highly regarded by singers.--_New York Times_.
+
+¶ It is based on the principles of the old Italian singing-masters and
+deals with breath control and production of the voice together with
+exercise. A fine book for vocalists.--_The Advance_.
+
+¶ In the midst of so much mystic and cryptic writing about the voice it
+is pleasant to come upon a book like this, which treats the topic from
+the practical teacher's standpoint.--Louis C. Elson in the _Boston Daily
+Advertiser_.
+
+¶ Text-book on the vocal art by a well-known teacher of the old Italian
+method. Breath control, voice production, and other technical matters
+are lucidly set forth. This is the entirely rewritten edition of a
+popular manual.--_St. Louis Globe-Democrat_.
+
+¶ The work in its present form has been entirely rewritten and is a
+clear and complete statement of the subject, from both the theoretical
+and the practical standpoint.--_New Orleans Daily Picayune_.
+
+¶ The author's aim to make an intelligible and useful record of the old
+truths and conditions concerning his art has been ably carried out and
+the book will be of great assistance to singers.--_Chicago Daily News_.
+
+The Ditson Novelty List is well worth while.
+
+Ask to have your name added to our mailing list.
+
+BOSTON: OLIVER DITSON COMPANY
+
+ORDER OF YOUR LOCAL DEALER
+
+
+
+
+THE ART OF A CAPPELLA SINGING
+
+_By_ JOHN SMALLMAN AND E. H. WILCOX
+
+_VALUABLE FEATURES_
+
+1. _Advice for organizing_ and conducting groups.
+
+2. _Instruction for the singers_, to promote an artistic ensemble.
+
+3. _Sixteen representative works_ by Bach, Bortniansky, Byrd, Farmer,
+Ford, Gascongne, Gibbons, Jannequin, Lassus, Morley, Palestrina,
+Praetorius, Purcell, and Tchaikovsky.
+
+4. _Vocal phonetics of the text_ printed with the regular text in
+the music. With the right vocal effect in the mind's eye, good voice
+production comes naturally, and an artistic choral effect results.
+
+5. _No extremes in vocal range_ are demanded of any voice, careful
+provision being made for average young voices.
+
+6. _A special chapter on each of the choruses_ for analysis, technique,
+interpretation, and appreciation.
+
+7. _A complete year's course_ in group-singing, plus a repertoire of
+outstanding works.
+
+8. _For mixed choruses and classroom use_ in school, college, or
+university; or mixed vocal ensembles and choral societies, amateur and
+professional.
+
+ _Price, in cloth_, $2.00
+
+OLIVER DITSON COMPANY, INC.
+
+
+
+
+Standard Opera Librettos
+
+All librettos have English text. Additional texts are indicated by
+Italic letters, as follows: _I_, Italian; _G_, German; _F_, French.
+Those marked with (*) contain no music. All the others have the music of
+the principal airs.
+
+                  PRICE, 30 CENTS EACH, NET.
+
+                          A-G
+
+ Title                     Text          Composer
+
+ Africaine, L'              _I._     _Giacomo Meyerbeer_
+ Aïda                       _I._     _Giuseppe Verdi_
+ Armide                     _F._     _C. W. von Gluck_
+ Ballo in Maschera, Un
+   (The Masked Ball)        _I._     _Giuseppe Verdi_
+ Barbe-Bleue
+   (Blue Beard)             _F._     _Jacques Offenbach_
+ Barbiere di Siviglia, Il
+   (Barber of Seville)      _I._     _Gioacchino A. Rossini_
+ Bartered Bride             _G._     _Frederich Smetana_
+ Belle Hélèna, La           _F._     _Jacques Offenbach_
+ Bells of Corneville
+   (Chimes of Normandy)              _Robert Planquette_
+ *Billee Taylor                      _Edward Solomon_
+ *Boccaccio                          _Franz von Suppé_
+ Bohemian Girl, The                  _Michael Wm. Balfe_
+    do.                     _I._           do.
+ Carmen                     _F._     _Georges Bizet_
+    do.                     _I._           do.
+ Cavalleria Rusticana       _I._     _Pietro Mascagni_
+ Chimes of Normandy
+   (Bells of Corneville)             _Robert Planquette_
+ Cleopatra's Night                   _Henry Hadley_
+ Contes d'Hoffmann, Les
+   (Tales of Hoffmann)      _F._     _Jacques Offenbach_
+ Crispino e la Comare
+ (The Cobbler and the Fairy)_I._     _Luigi and F. Ricci_
+ Crown Diamonds, The        _F._     _D. F. E. Auber_
+ Dame Blanche, La                         _F. A. Boieldieu_
+ Damnation of Faust, The    _F._     _Hector Berlioz_
+ Dinorah                    _I._     _Giacomo Meyerbeer_
+ *Doctor of Alcantara, The                _Julius Eichberg_
+ Don Giovanni               _I._     _W. A. Mozart_
+ Don Pasquale               _I._     _Gaetano Donizetti_
+ *Dorothy                                 _Alfred Cellier_
+ Dumb Girl of Portici,
+   The (Masaniello)         _I._     _D. F. E. Auber_
+ Elisire d'amore, L'        _I._     _Gaetano Donizetti_
+ *Erminie                   _I._     _Edward Jakobowski_
+ Ernani                     _I._     _Giuseppe Verdi_
+ Etoile du Nord, L' (The
+   Star of the North)       _I._     _Giacomo Meyerbeer_
+ Fatinitza                                _Franz von Suppé_
+ Faust                      _F._     _Charles Gounod_
+    do.                     _I._           do.
+ Favorita, La               _I._     _Gaetano Donizetti_
+ Fidelio                    _G._     _L. van Beethoven_
+ Figlia del Reggimento, La
+  (Daughter of the Regiment)_I._     _Gaetano Donizetti_
+ Fille de Madame Angot, La  _F._     _Charles Lecocq_
+ Flauto Magico, Il
+   (The Magic Flute)        _I._     _W. A. Mozart_
+      do.                   _G._           do.
+ Fledermaus, Die (The Bat)  _G._     _Johann Strauss_
+ Flying Dutchman, The                _Richard Wagner_
+    do.                     _G._           do.
+ Fra Diavolo.               _I._     _D. F. E. Auber_
+ Freischütz, Der            _G._     _Carl Maria von Weber_
+    do.                     _I._           do.
+ *Gillette (_La Belle
+   Coquette_)                          _Edmond Audran_
+ Gioconda, La               _I._     _Amilcare Ponchielli_
+ Giroflé-Girofla            _F._     _Charles Lecocq_
+ Götterdämmerung, Die       _G._     _Richard Wagner_
+
+          BOSTON: OLIVER DITSON COMPANY
+
+   New York: Chas. H. Ditson & Co. Chicago: Lyon & Healy, Inc.
+
+Order of your local dealer
+
+Made in U. S. A.
+
+
+
+
+Standard Opera Librettos
+
+All librettos have English text. Additional texts are indicated by
+Italic letters, as follows: _I_, Italian; _G_, German; _F_, French.
+Those marked with (*) contain no music. All the others have the music of
+the principal airs.
+
+PRICE, 30 CENTS, EACH
+
+PRICES ARE
+
+Postage extra, except in first and second zones from Boston and New York
+
+                           G-Z
+
+ Title                     Text          Composer
+
+ Grand Duchess of
+   Gerolstein, The          _F._     _Jacques Offenbach_
+ *Hamlet                             _Ambroise Thomas_
+ Jewess, The                _I._     _Jacques F. Halévy_
+ Königin von Saba
+   (Queen of Sheba)         _G._     _Karl Goldmark_
+ Lakmé                      _I._     _Léo Delibes_
+ Lily of Killarney, The                   _Sir Jules Benedict_
+ Linda di Chamounix         _I._     _Gaetano Donizetti_
+ Lohengrin                  _G._     _Richard Wagner_
+    do.                     _I._            do.
+ *Lovely Galatea, The                     _Franz von Suppé_
+ Lucia di Lammermoor        _I._     _Gaetano Donizetti_
+ Lucrezia Borgia            _I._            do.
+ *Madame Favart                           _Jacques Offenbach_
+ Manon                      _F._     _Jules Massenet_
+ Maritana                                 _Wm. Vincent Wallace_
+ Marriage of Figaro         _I._     _W. A. Mozart_
+ Martha                     _I._     _Friedrich von Flotow_
+ Masaniello (Dumb
+   Girl of Portici)         _I._     _D. F. E. Auber_
+ *Mascot, The                        _Edmond Audran_
+ Masked Ball                _I._     _Giuseppe Verdi_
+ Meistersinger, Die
+   (The Mastersingers)      _G._     _Richard Wagner_
+ Mefistofele                _I._     _Arrigo Boito_
+ Merry Wives of
+     Windsor, The                       _Otto Nicolai_
+ Mignon                     _I._     _Ambroise Thomas_
+ Mikado, The                         _Sir Arthur S. Sullivan_
+ *Nanon                              _Richard Genée_
+ Norma                      _I._     _Vincenzo Bellini_
+ *Olivette                           _Edmond Audran_
+ Orpheus                             _C. W. von Gluck_
+ Otello                     _I._     _Giuseppe Verdi_
+ Pagliacci, I               _I._     _R. Leoncavallo_
+ Parsifal                   _G._     _Richard Wagner_
+ Pinafore (H. M. S.)                 _Sir Arthur S. Sullivan_
+ Prophète, Le               _I._     _Giacomo Meyerbeer_
+ Puritani, I                _I._     _Vincenzo Bellini_
+ Rheingold, Das (The
+   Rhinegold)               _G._     _Richard Wagner_
+ Rigoletto                  _I._     _Giuseppe Verdi_
+ Robert le Diable           _I._     _Giacomo Meyerbeer_
+ Roméo et Julietta          _F._     _Charles Gounod_
+ Romeo e Giulietta          _I._            do.
+ Ruddigore                           _Sir Arthur S. Sullivan_
+ Samson et Dalila           _F._     _Camille Saint-Saëns_
+ Semiramide                 _I._     _Gioacchino A. Rossini_
+ Siegfried                  _G._     _Richard Wagner_
+ Sonnambula, La             _I._     _Vincenzo Bellini_
+ *Sorcerer, The                      _Sir Arthur S. Sullivan_
+ *Spectre Knight, The                _Alfred Cellier_
+ *Stradella                          _Friedrich von Flotow_
+ Tannhäuser                 _G._     _Richard Wagner_
+ Traviata, La               _I._     _Giuseppe Verdi_
+ Tristan und Isolde         _G._     _Richard Wagner_
+ Trovatore, Il              _I._     _Giuseppe Verdi_
+ Ugonotti, Gli (The
+   Huguenots)               _I._     _Giacomo Meyerbeer_
+ Verkaufte Braut, Die
+   (The Bartered Bride)     _G._     _Friedrich Smetana_
+ Walküre, Die               _G._     _Richard Wagner_
+ William Tell               _I._     _Gioacchino A. Rossini_
+ Zauberflöte, Die (The
+   Magic Flute)             _G._     _W. A. Mozart_
+
+          Boston: OLIVER DITSON COMPANY: New York
+
+   Chicago: LYON & HEALY, Inc. London: WINTHROP ROGERS, Ltd.
+
+Order of your local dealer
+
+Made In U. S. A.
+
+
+
+
+SONGS FROM THE OPERAS
+
+       *       *       *       *       *
+
+EDITED BY H. E. KREHBIEL
+
+_Bound in paper, cloth back, $2.50 each, net_
+
+ _In full cloth, gilt.... 3.50 each, net_
+
+In these volumes of _The Musicians Library_ the editor has presented
+in chronological order the most famous arias from operas of every
+school. Beginning with songs from the earliest Italian productions,
+a comprehensive view of operatic development is given by well-chosen
+examples from German, French, and later Italian works, down to
+contemporary musical drama.
+
+Each song or aria is given in its original key with the original text,
+and a faithful and singable English translation.
+
+Each volume contains an interesting preface by Mr. Krehbiel, with
+historic, descriptive, and interpretative notes on each song.
+
+Portraits of the most noted composers represented are given in each
+volume.
+
+ Size of each volume, 9½ × 12½ inches.
+
+
+SOPRANO SONGS FROM THE OPERAS
+
+Contains twenty-three numbers by nineteen composers. The music covers
+188 pages, the prefatory matter 25 pages. Portraits are given of
+Beethoven, Bellini, Gluck, Gounod, Meyerbeer, Mozart, Rossini, Verdi,
+and Weber.
+
+
+MEZZO SOPRANO SONGS FROM THE OPERAS
+
+Contains thirty numbers by twenty-five composers. The music covers 186
+pages, the prefatory matter 29 pages. Portraits are given of Auber,
+Bizet, Donizetti, Handel, Massenet, Saint-Saëns, Spontini, Thomas, and
+Wagner.
+
+
+ALTO SONGS FROM THE OPERAS
+
+Contains twenty-nine numbers by twenty-two composers. The music covers
+176 pages, the prefatory matter 20 pages. Portraits are given of Glinka,
+Gluck, Handel, Lully, Meyerbeer, Purcell, Rossini, Thomas, and Verdi.
+
+
+TENOR SONGS FROM THE OPERAS
+
+Contains twenty-nine numbers by twenty-one composers. The music covers
+192 pages, the prefatory matter 27 pages. Portraits are given of
+Beethoven, Bizet, Gluck, Gounod, Mascagni, Massenet, Verdi, Wagner, and
+Weber.
+
+
+BARITONE AND BASS SONGS FROM THE OPERAS
+
+Contains twenty-seven numbers by twenty-four composers. The music
+covers 188 pages, the prefatory matter 20 pages. Portraits are given of
+Bellini, Bizet, Cherubini, Gounod, Halévy, Handel, Mozart, Ponchielli,
+and Tchaikovsky.
+
+       Boston: OLIVER DITSON COMPANY: New York
+
+   Chicago: LYON & HEALY, INC. London: WINTHROP ROGERS, LTD.
+
+_Order of your local dealer_
+
+
+
+
+
+End of the Project Gutenberg EBook of Rustic Chivalry (Cavalleria Rusticana), by 
+Pietro Mascagni
+
+*** END OF THIS PROJECT GUTENBERG EBOOK RUSTIC CHIVALRY (CAVALLERIA ***
+
+***** This file should be named 48007-0.txt or 48007-0.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.org/4/8/0/0/48007/
+
+Produced by Colin Bell, Paul Marshall, Joseph Cooper and
+the Online Distributed Proofreading Team at
+http://www.pgdp.net
+
+Updated editions will replace the previous one--the old editions will
+be renamed.
+
+Creating the works from print editions not protected by U.S. copyright
+law means that no one owns a United States copyright in these works,
+so the Foundation (and you!) can copy and distribute it in the United
+States without permission and without paying copyright
+royalties. Special rules, set forth in the General Terms of Use part
+of this license, apply to copying and distributing Project
+Gutenberg-tm electronic works to protect the PROJECT GUTENBERG-tm
+concept and trademark. Project Gutenberg is a registered trademark,
+and may not be used if you charge for the eBooks, unless you receive
+specific permission. If you do not charge anything for copies of this
+eBook, complying with the rules is very easy. You may use this eBook
+for nearly any purpose such as creation of derivative works, reports,
+performances and research. They may be modified and printed and given
+away--you may do practically ANYTHING in the United States with eBooks
+not protected by U.S. copyright law. Redistribution is subject to the
+trademark license, especially commercial redistribution.
+
+START: FULL LICENSE
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full
+Project Gutenberg-tm License available with this file or online at
+www.gutenberg.org/license.
+
+Section 1. General Terms of Use and Redistributing Project
+Gutenberg-tm electronic works
+
+1.A. By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement. If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or
+destroy all copies of Project Gutenberg-tm electronic works in your
+possession. If you paid a fee for obtaining a copy of or access to a
+Project Gutenberg-tm electronic work and you do not agree to be bound
+by the terms of this agreement, you may obtain a refund from the
+person or entity to whom you paid the fee as set forth in paragraph
+1.E.8.
+
+1.B. "Project Gutenberg" is a registered trademark. It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement. There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement. See
+paragraph 1.C below. There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this
+agreement and help preserve free future access to Project Gutenberg-tm
+electronic works. See paragraph 1.E below.
+
+1.C. The Project Gutenberg Literary Archive Foundation ("the
+Foundation" or PGLAF), owns a compilation copyright in the collection
+of Project Gutenberg-tm electronic works. Nearly all the individual
+works in the collection are in the public domain in the United
+States. If an individual work is unprotected by copyright law in the
+United States and you are located in the United States, we do not
+claim a right to prevent you from copying, distributing, performing,
+displaying or creating derivative works based on the work as long as
+all references to Project Gutenberg are removed. Of course, we hope
+that you will support the Project Gutenberg-tm mission of promoting
+free access to electronic works by freely sharing Project Gutenberg-tm
+works in compliance with the terms of this agreement for keeping the
+Project Gutenberg-tm name associated with the work. You can easily
+comply with the terms of this agreement by keeping this work in the
+same format with its attached full Project Gutenberg-tm License when
+you share it without charge with others.
+
+1.D. The copyright laws of the place where you are located also govern
+what you can do with this work. Copyright laws in most countries are
+in a constant state of change. If you are outside the United States,
+check the laws of your country in addition to the terms of this
+agreement before downloading, copying, displaying, performing,
+distributing or creating derivative works based on this work or any
+other Project Gutenberg-tm work. The Foundation makes no
+representations concerning the copyright status of any work in any
+country outside the United States.
+
+1.E. Unless you have removed all references to Project Gutenberg:
+
+1.E.1. The following sentence, with active links to, or other
+immediate access to, the full Project Gutenberg-tm License must appear
+prominently whenever any copy of a Project Gutenberg-tm work (any work
+on which the phrase "Project Gutenberg" appears, or with which the
+phrase "Project Gutenberg" is associated) is accessed, displayed,
+performed, viewed, copied or distributed:
+
+  This eBook is for the use of anyone anywhere in the United States and
+  most other parts of the world at no cost and with almost no
+  restrictions whatsoever. You may copy it, give it away or re-use it
+  under the terms of the Project Gutenberg License included with this
+  eBook or online at www.gutenberg.org. If you are not located in the
+  United States, you'll have to check the laws of the country where you
+  are located before using this ebook.
+
+1.E.2. If an individual Project Gutenberg-tm electronic work is
+derived from texts not protected by U.S. copyright law (does not
+contain a notice indicating that it is posted with permission of the
+copyright holder), the work can be copied and distributed to anyone in
+the United States without paying any fees or charges. If you are
+redistributing or providing access to a work with the phrase "Project
+Gutenberg" associated with or appearing on the work, you must comply
+either with the requirements of paragraphs 1.E.1 through 1.E.7 or
+obtain permission for the use of the work and the Project Gutenberg-tm
+trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+
+1.E.3. If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any
+additional terms imposed by the copyright holder. Additional terms
+will be linked to the Project Gutenberg-tm License for all works
+posted with the permission of the copyright holder found at the
+beginning of this work.
+
+1.E.4. Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5. Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6. You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including
+any word processing or hypertext form. However, if you provide access
+to or distribute copies of a Project Gutenberg-tm work in a format
+other than "Plain Vanilla ASCII" or other format used in the official
+version posted on the official Project Gutenberg-tm web site
+(www.gutenberg.org), you must, at no additional cost, fee or expense
+to the user, provide a copy, a means of exporting a copy, or a means
+of obtaining a copy upon request, of the work in its original "Plain
+Vanilla ASCII" or other form. Any alternate format must include the
+full Project Gutenberg-tm License as specified in paragraph 1.E.1.
+
+1.E.7. Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8. You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works
+provided that
+
+* You pay a royalty fee of 20% of the gross profits you derive from
+  the use of Project Gutenberg-tm works calculated using the method
+  you already use to calculate your applicable taxes. The fee is owed
+  to the owner of the Project Gutenberg-tm trademark, but he has
+  agreed to donate royalties under this paragraph to the Project
+  Gutenberg Literary Archive Foundation. Royalty payments must be paid
+  within 60 days following each date on which you prepare (or are
+  legally required to prepare) your periodic tax returns. Royalty
+  payments should be clearly marked as such and sent to the Project
+  Gutenberg Literary Archive Foundation at the address specified in
+  Section 4, "Information about donations to the Project Gutenberg
+  Literary Archive Foundation."
+
+* You provide a full refund of any money paid by a user who notifies
+  you in writing (or by e-mail) within 30 days of receipt that s/he
+  does not agree to the terms of the full Project Gutenberg-tm
+  License. You must require such a user to return or destroy all
+  copies of the works possessed in a physical medium and discontinue
+  all use of and all access to other copies of Project Gutenberg-tm
+  works.
+
+* You provide, in accordance with paragraph 1.F.3, a full refund of
+  any money paid for a work or a replacement copy, if a defect in the
+  electronic work is discovered and reported to you within 90 days of
+  receipt of the work.
+
+* You comply with all other terms of this agreement for free
+  distribution of Project Gutenberg-tm works.
+
+1.E.9. If you wish to charge a fee or distribute a Project
+Gutenberg-tm electronic work or group of works on different terms than
+are set forth in this agreement, you must obtain permission in writing
+from both the Project Gutenberg Literary Archive Foundation and The
+Project Gutenberg Trademark LLC, the owner of the Project Gutenberg-tm
+trademark. Contact the Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1. Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+works not protected by U.S. copyright law in creating the Project
+Gutenberg-tm collection. Despite these efforts, Project Gutenberg-tm
+electronic works, and the medium on which they may be stored, may
+contain "Defects," such as, but not limited to, incomplete, inaccurate
+or corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged disk or
+other medium, a computer virus, or computer codes that damage or
+cannot be read by your equipment.
+
+1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from. If you
+received the work on a physical medium, you must return the medium
+with your written explanation. The person or entity that provided you
+with the defective work may elect to provide a replacement copy in
+lieu of a refund. If you received the work electronically, the person
+or entity providing it to you may choose to give you a second
+opportunity to receive the work electronically in lieu of a refund. If
+the second copy is also defective, you may demand a refund in writing
+without further opportunities to fix the problem.
+
+1.F.4. Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS', WITH NO
+OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5. Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of
+damages. If any disclaimer or limitation set forth in this agreement
+violates the law of the state applicable to this agreement, the
+agreement shall be interpreted to make the maximum disclaimer or
+limitation permitted by the applicable state law. The invalidity or
+unenforceability of any provision of this agreement shall not void the
+remaining provisions.
+
+1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in
+accordance with this agreement, and any volunteers associated with the
+production, promotion and distribution of Project Gutenberg-tm
+electronic works, harmless from all liability, costs and expenses,
+including legal fees, that arise directly or indirectly from any of
+the following which you do or cause to occur: (a) distribution of this
+or any Project Gutenberg-tm work, (b) alteration, modification, or
+additions or deletions to any Project Gutenberg-tm work, and (c) any
+Defect you cause.
+
+Section 2. Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of
+computers including obsolete, old, middle-aged and new computers. It
+exists because of the efforts of hundreds of volunteers and donations
+from people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come. In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future
+generations. To learn more about the Project Gutenberg Literary
+Archive Foundation and how your efforts and donations can help, see
+Sections 3 and 4 and the Foundation information page at
+www.gutenberg.org
+
+
+
+Section 3. Information about the Project Gutenberg Literary Archive Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service. The Foundation's EIN or federal tax identification
+number is 64-6221541. Contributions to the Project Gutenberg Literary
+Archive Foundation are tax deductible to the full extent permitted by
+U.S. federal laws and your state's laws.
+
+The Foundation's principal office is in Fairbanks, Alaska, with the
+mailing address: PO Box 750175, Fairbanks, AK 99775, but its
+volunteers and employees are scattered throughout numerous
+locations. Its business office is located at 809 North 1500 West, Salt
+Lake City, UT 84116, (801) 596-1887. Email contact links and up to
+date contact information can be found at the Foundation's web site and
+official page at www.gutenberg.org/contact
+
+For additional contact information:
+
+    Dr. Gregory B. Newby
+    Chief Executive and Director
+    gbnewby@pglaf.org
+
+Section 4. Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment. Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States. Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements. We do not solicit donations in locations
+where we have not received written confirmation of compliance. To SEND
+DONATIONS or determine the status of compliance for any particular
+state visit www.gutenberg.org/donate
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States. U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses. Donations are accepted in a number of other
+ways including checks, online payments and credit card donations. To
+donate, please visit: www.gutenberg.org/donate
+
+Section 5. General Information About Project Gutenberg-tm electronic works.
+
+Professor Michael S. Hart was the originator of the Project
+Gutenberg-tm concept of a library of electronic works that could be
+freely shared with anyone. For forty years, he produced and
+distributed Project Gutenberg-tm eBooks with only a loose network of
+volunteer support.
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as not protected by copyright in
+the U.S. unless a copyright notice is included. Thus, we do not
+necessarily keep eBooks in compliance with any particular paper
+edition.
+
+Most people start at our Web site which has the main PG search
+facility: www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+

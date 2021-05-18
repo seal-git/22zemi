@@ -1,0 +1,1145 @@
+Project Gutenberg's Fables in Rhyme for Little Folks, by Jean de La Fontaine
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: Fables in Rhyme for Little Folks
+       From the French of La Fontaine
+
+Author: Jean de La Fontaine
+
+Illustrator: John Rae
+
+Translator: W.T. (William Trowbridge) Larned
+
+Release Date: January 1, 2008 [EBook #24108]
+
+Language: English
+
+Character set encoding: ASCII
+
+*** START OF THIS PROJECT GUTENBERG EBOOK FABLES IN RHYME FOR LITTLE FOLKS ***
+
+
+
+
+
+
+
+
+
+
+FABLES IN RHYME FOR LITTLE FOLKS,
+
+Adapted from the French of La Fontaine.
+
+Written by,
+W. T. Larned
+
+Illustrated by,
+John Rae.
+
+E-Book Created by Tyler Anderson,
+as a birthday present to little
+Johnny James Webb, on his first Birthday.
+I've arranged the images so they fit the story.
+
+To All Little Americans
+With The Hope That
+They May Become Better Acquainted
+With
+Our Friends, The French.
+
+
+
+A Preface For Parents
+
+La Fontaine composed the most entertaining Fables ever
+written in any language, and made them a model of literary
+perfection; yet our translators and compilers have somehow
+neglected him. His Fables are lyric poetry of a high order,
+and this alone has doubtless been a barrier to a better
+acquaintance with his work when transferred to our own
+tongue. Done into prose, the Fables are no longer
+La Fontaine, but take their place with the many
+respectable, dull translations which English readers try to
+admire because they are classics--though the soul that
+made them such has been separated from the dead body.
+
+It has seemed to me that while the full enjoyment of
+La Fontaine must always be reserved for those who can
+read him in French, it might be possible at least to convey
+something of his originality and blithe spirit through the
+medium of light verse. In making the attempt I am fully
+aware of my temerity, and the criticism it will invite. To
+excuse the one and to meet the other I have taken refuge
+in the term "adaptation"--even though the word applies
+only in part to my paraphrases. Some of the Fables in
+this book are translations in a true sense, and keep
+closely to the text. From others I have erased such
+political, mythological and literary allusions (in which
+La Fontaine abounds) as are either obsolete or
+unintelligible to a child.
+
+But my chief literary sin--if sin it be--is twofold. In the first
+place I have departed wholly from the metrical arrangements
+of the originals--substituting therefore a variety of forms in
+line and stanza that more accord with the modern and
+American ear. In the second place I have had the
+hardihood--as in "The Lion and The Gnat"--to modify the
+elegance of the original with phrases more appropriate to
+our contemporary beasts. Animal talk, I feel sure, has lost
+something of its stateliness since the days when our
+French author overheard it. The Owl is no less pedantic
+perhaps, but the Lion certainly has declined in
+majesty--along with our human kings.
+
+For these offenses, La Fontaine--who forgave everyone--is
+bound to forgive me. The most good-humored Frenchmen,
+he could condone all faults but dullness. That offense
+against French fundamental principles invariably put him
+to sleep--whether the bore who button-holed him was a
+savant of the Sorbonne or just an ordinary ass.
+
+One thing more. This little collection from his 240 Fables is
+meant, first of all, for children. In assembling it no Fable
+was admitted that has not been approved by generations
+of the young and old. No apologue addressed to the
+mature intelligence alone, or framed to fit the society
+of his day, is here included.
+
+Many books which men have agreed to call classics are
+seldom taken down from the shelves. It is otherwise with
+La Fontaine. His Fables were eagerly read by the great
+men and women of his time, and are still read and
+enjoyed all the world over.
+
+The causes of this lasting popularity are not obscure. From
+the earliest period--whether in India, Greece, Arabia or
+Rome--the Fable has pleased and instructed mankind. It
+told important truths, easily perceived, in an entertaining
+way; and often said more in a few words than could be
+said through any other kind of writing. Now, no one person
+is the author of the Fables we know so well. Aesop did not
+write the Fables bearing his name. There is even reason to
+believe that Aesop is himself a Fable. At any rate, the
+things ascribed to him are the work of many hands, and
+have undergone many changes. These old stories of
+animals began to be written so long ago, and the history
+of them is so vague and confusing, that only in recent
+years have scholars at last been able to trace them, and
+to fix their authorship.
+
+The significant thing to keep in mind is that, for twentieth
+century readers, the best Fables are not merely the best
+ones ever written, but the best ones re-written. In other
+words, the Fable was for centuries an old story in a rough
+state, and the writers who have made it most interesting
+are the writers who told it over again in a manner that
+makes it Art. A Greek named Babrius, of whom almost
+nothing is known, is remembered because he collected
+and versified some of the so-called Fables of Aesop. A
+Roman slave named Phaedrus also put these Fables
+into Latin verse; and his work to-day is a text book in
+our colleges.
+
+Among modern writers, it was reserved for La Fontaine to
+take these ancient themes and make them his own--just
+as Moliere, "taking his own wherever he found it," borrowed
+freely from the classics for his greatest plays; just as
+Shakespeare re-formed forgotten tales with the glow and
+splendor of surpassing genius, so La Fontaine turned to
+India, Greece, Italy, and furnishing the old Fables and
+facetious tales, refreshed them with his originality. Some
+of them were his own inventions, but for the most part
+they were "Aesop" and Phaedrus, made over by poetic
+art and vivified with a wit and humor characteristically
+French.
+
+But if La Fontaine's fame endures, it is not alone that he
+was the greatest lyric poet of a great literary period.
+Apart from the wit and fancy of his creations--apart from
+the philosophy, wisdom, and knowledge of human nature
+that so delighted Moliere, Boileau and Racine--his Fables
+disclose the goodness and simplicity of one who lived
+much with Nature, and cared nothing for the false
+splendors of the court. Living most of his life in the
+country, the woods, and streams and fields had been a
+constant source of inspiration. He saw animals through
+the eyes of a naturalist and poet; and when he came to
+make them talk, the little fishes "talked like little
+fishes--not like whales". With Shakespeare's banished
+Frenchman in the Forest of Arden, he
+Finds tongues in trees, books in the running brooks,
+Sermons in stones, and good in everything.
+
+An anecdote often told of him aptly illustrates his habit
+of mind. He was late in coming to a fashionable dinner,
+and his excuse was this:
+"I hope you will pardon me," he said. "I was detained at
+the funeral of an ant, and I could not come until the
+ceremony was over."
+
+This was not a pleasantry, but the truth. He had been
+watching an ant-hill, and was so absorbed in observing
+a dead ant carried off by the living colonists for burial
+that he had forgotten his engagement.
+
+The first six volumes of the Fables--published in 1668,
+when he was 47, and in Paris--were an immediate and
+brilliant success, at a time when French genius was in
+full flower. But the literary men of that golden age got
+their pecuniary reward not from the public, but from
+patrons. Later in life, when La Fontaine at last was
+graciously recognized by the grand monarch, he
+appeared before the royal presence to receive his due.
+Even then, with his usual absentmindedness, he forgot
+to bring the book he was to present, and left behind him
+in the carriage the purse of gold the King bestowed
+upon him.
+
+However, the Fables brought him much in fame and
+friendship. Everybody loved La Fontaine. Favorite of great
+lords and ladies, the court of Louis XIV could not make
+him otherwise than natural. Poor and improvident, poverty
+had no pangs for him. No sorrow ever gave him a
+sleepless hour. To the last he lived up to his
+nickname--Bon-homme. And it is the gentle and good
+man who is always looking out at us at us from the
+fables he refashioned for all time.
+
+William Trowbridge Larned.
+New York, July 1918.
+
+
+
+This book contains the following Fables
+from the French of La Fontaine:
+
+The Frog Who Wished To Be As Big As The Ox.
+The Grasshopper And The Ant.
+The Cat And The Fox.
+The Hen With The Golden Eggs.
+The Dog And His Image.
+The Acorn And The Pumpkin.
+The Raven And The Fox.
+The City Mouse And The Country Mouse.
+The Lion And The Gnat.
+The Dove And The Ant.
+The Fox And The Grapes.
+The Ass In The Lion's Skin.
+The Fox And The Stork.
+The Monkey And The Cat.
+The Hare And The Tortoise.
+The Heron Who Was Hard To Please.
+The Raven Who Would Rival The Eagle.
+The Miller, His Son And The Ass.
+
+
+
+The Frog Who Wished To Be As Big As The Ox.
+
+There was a little Fog
+Whose home was in a bog,
+And he worried 'cause he wasn't big enough.
+He sees an ox and cries:
+"That's just about my size,
+If I stretch myself--Say Sister, see me puff!"
+
+So he blew, blew, blew,
+Saying: "Sister, will that do?"
+But she shook her head. And then he lost his wits.
+For he stretched and puffed again
+Till he cracked beneath the strain,
+And burst, and flew about in little bits.
+
+
+
+The Grasshopper And The Ant.
+
+The Grasshopper, singing
+All summer long,
+Now found winter stinging,
+And ceased in his song.
+Not a morsel or crumb in his cupboard--
+So he shivered, and ceased in his song.
+
+Miss Ant was his neighbor;
+To her he went:
+"O, you're rich from labor,
+And I've not a cent.
+Lend me food, and I vow I'll return it,
+Though at present I have not a cent."
+
+The Ant's not a lender,
+I must confess.
+Her heart's far from tender
+To one in distress.
+So she said: "Pray, how passed you the summer,
+That in winter you come to distress?"
+
+"I sang through the summer,"
+Grasshopper said.
+"But now I am glummer
+Because I've no bread."
+"So you sang!" sneered the Ant. "That relieves me.
+Now it's winter--go dance for your bread!"
+
+
+
+The Cat And The Fox.
+
+The Cat and the Fox once took a walk together,
+Sharpening their wits with talk about the weather
+And as their walking sharpened appetite, too;
+They also took some things they had no right to.
+Cream, that is so delicious when it thickens,
+Pleased the Cat best. The Fox liked little chickens.
+
+With stomachs filled, they presently grew prouder,
+And each began to try to talk the louder--
+Bragging about his skill, and strength, and cunning.
+"Pooh!" said the Fox. "You ought to see me running.
+Besides, I have a hundred tricks. You Cat, you!
+What can you do when Mr. Dog comes at you?"
+"To tell the truth," the Cat said, "though it grieve me
+I've but one trick. Yet that's enough--believe me!"
+
+There came a pack of fox-hounds--yelping, baying.
+"Pardon me", said the Cat. "I can't be staying.
+This is my trick." And up a tree he scurried,
+Leaving the Fox below a trifle worried.
+
+In vain he tried his hundred tricks and ruses
+(The sort of thing that Mr. Dog confuses)--
+Doubling, and seeking one hole, then another--
+Smoked out of each until he thought he'd smother.
+At last as he once more came out of cover,
+Two nimble dogs pounced on him--All was over!
+
+
+
+The Hen With The Golden Eggs.
+
+To this lesson in greed,
+Pray, little ones, heed:
+
+Each day, we are told,
+A most wonderful Hen
+Laid an egg made of gold
+For this meanest of men.
+
+So greedy was he,
+He was not satisfied.
+"What is one egg to me?
+I want all that' inside!"
+
+He cut off her head,
+And began to explore.
+But the poor hen was dead.
+And could lay eggs no more.
+
+
+
+The Dog And His Image.
+
+A foolish Dog, who carried in his jaw
+A juicy bone,
+Looked down into a stream, and there he saw
+Another one,
+Splash! In he plunged.. The image disappeared--
+The meat he had was gone.
+Indeed, he nearly sank,
+And barely reached the bank.
+
+
+
+The Acorn and the Pumpkin.
+
+Once there was a country bumpkin
+Who observed a great big pumpkin
+To a slender stem attached;
+While upon an oak tree nourished,
+Little acorns grew and flourished.
+"Bah!" said he. "That's badly matched."
+
+"If, despite my humble station,
+I'd a hand in this Creation,
+Pumpkins on the oaks would be;
+And the acorn, light and little,
+On this pumpkin stem so brittle
+Would be placed by clever Me."
+
+Then, fatigued with so much thought, he
+Rest beneath the oak tree sought. He
+Soon in slumber found repose
+But, alas! An acorn, falling
+On the spot where he lay sprawling,
+Hit him--plump!--Upon the nose.
+
+Up he jumped--a wiser bumpkin.
+"Gosh!" he said. "Suppose a pumpkin
+Came a-fallin' on my face!
+After all, if I had made things,
+I'll allow that I'm afraid things
+Might be some what out of place."
+
+
+
+The Raven And The Fox.
+
+Mr. Raven was perched upon a limb,
+And Reynard the Fox looked up at him;
+For the Raven held in his great big beak
+A morsel the Fox would go far to seek.
+
+Said the Fox, in admiring tones: "My word!
+Sir Raven, you are a handsome bird.
+Such feathers! If you would only sing,
+The birds of these woods would call you King."
+
+The Raven, who did not see the joke,
+Forgot that his voice was just a croak.
+He opened his beak, in his foolish pride--
+And down fell the morsel the Fox had spied.
+
+"Ha-ha!" said the Fox. "And now you see
+You should not listen to flattery.
+Vanity, Sir is a horrid vice--
+I'm sure the lesson is worth the price."
+
+
+
+The City Mouse And The Country Mouse.
+
+A City Mouse, with ways polite,
+A Country Mouse invited
+To sup with him and spend the night.
+Said Country Mouse: "De--lighted!"
+In truth it proved a royal treat,
+With everything that's good to eat.
+
+Alas! When they had just begun
+To gobble their dinner,
+A knock was heard that made them run.
+The City Mouse seemed thinner.
+And as they scampered and turned tail,
+He saw the Country Mouse grow pale.
+
+The knocking ceased. A false alarm!
+The City Mouse grew braver.
+"Come back!" he cried. "No, no! The farm,
+Where I'll not quake or quaver,
+Suits me," replied the Country Mouse.
+"You're welcome to your city house."
+
+
+
+The Lion And The Gnat.
+
+
+The Lion once said to the Gnat: "You brat,
+Clear out just as quick as you can, now--s'cat!
+If you meddle with me
+I will not guarantee
+That you won't be slammed perfectly flat--
+D'ye see?"
+
+Said the Gnat: "Because you're called King--you
+thing!--
+You fancy that you will make me take wing.
+Why, an ox weighs much more,
+Yet I drive him before
+When I get good and ready to sting.
+Now, roar!"
+
+Then loudly his trumpet he blew. And--whew!
+How fiercely and fast at his foe he flew.
+From the tail to the toes
+He draws blood as he goes.
+Then he starts in to sting and to chew
+His nose.
+
+Sir Lion was mad with the pain. In vain
+He roared and he foamed and he shook his mane.
+All the beasts that were nigh
+Fled in fear from his cry.
+But the Gnat only stung him again--
+In the eye.
+
+He looked and laughed as he saw--Haw, Haw!--
+The Lion self-torn by his tooth and claw,
+So His Majesty's hide
+With his own blood was dyed.
+Said the Gnat: "Shall I serve you up raw--
+Or fried?"
+
+It's finished. The Lion's loud roar is o'er.
+He's bitten and beaten, he's sick and sore.
+But a spider's web spread
+Trapped the Gnat as he sped
+With the news...He will never fight more--
+He's dead!
+
+
+
+The Dove And The Ant.
+
+An Ant who in a brook would drink
+Fell off the bank. He tried
+To swim, and felt his courage sink--
+This ocean seemed so wide.
+But for a dove who flew above
+He would have drowned and died.
+
+The friendly Dove within her beak
+A bridge of grass-stem bore:
+On this the Ant, though worn and weak.
+Contrived to reach the shore
+Said he: "The tact of this kind act
+I'll cherish evermore."
+
+Behold! A barefoot wretch went by
+With slingshot in his hand.
+Said he: "You'll make a pigeon pie
+That will be kind of grand."
+He meant to murder the gentle bird--
+Who did not understand.
+
+The Ant then stung him on the heel
+(So quick to see the sling).
+He turned his head, and missed a meal:
+The pigeon pie took wing.
+And so the Dove lived on to love--
+Beloved by everything.
+
+
+
+The Fox And The Grapes.
+
+Rosy and ripe, and ready to box,
+The grapes hang high o'er the hungry Fox.--
+He pricks up his ears, and his eye he cocks.
+
+Ripe and rosy, yet so high!--
+He gazes at them with a greedy eye,
+And knows he must eat and drink--or die.
+
+When the jump proves to be beyond his power--
+"Pooh!" says the Fox. "Let the pigs devour
+Fruit of that sort. Those grapes are sour!"
+
+
+
+The Ass In The Lion's Skin.
+
+An Ass in The Lion's skin arrayed
+Made everybody fear.
+And this was queer,
+Because he was himself afraid.
+Yet everywhere he strayed
+The people ran like deer.
+
+Ah, ah! He is betrayed:
+No lion has that long and hairy ears.
+
+Old Martin spied the tip; and country folk
+Who are not in the secret of the joke,
+With open mouths and eyes
+Stare at old Martin's prize--
+A Lion led to mill, with neck in yoke.
+
+
+
+The Fox And The Stork.
+
+Old Father Fox, who was known to be mean,
+Invited Dame Stork in to dinner.
+There was nothing but soup that could scarcely be seen:--
+Soup never was served any thinner.
+And the worst of it was, as I'm bound to relate,
+Father Fox dished it up on a flat china plate.
+
+Dame Stork, as you know, has a very long beak:
+Not a crumb or drop could she gather
+Had she pecked at the plate every day in the week.
+But as for the Fox--sly old Father:
+With his tongue lapping soup at a scandalous rate,
+He licked up the last bit and polished the plate.
+
+Pretty soon Mistress Stork spread a feast of her own;
+Father Fox was invited to share it.
+He came, and he saw, and he gave a great groan:
+The stork had known how to prepare it.
+She had meant to get even, and now was her turn:
+Father Fox was invited to eat from an urn.
+
+The urn's mouth was small, and it had a long neck;
+The food in it smelled most delightful.
+Dame Stork, with her beak in, proceeded to peck;
+But the Fox found that fasting is frightful.
+Home he sneaked. On his way there he felt his ears burn
+When he thought of the Stork and her tall, tricky urn.
+
+
+
+The Monkey And The Cat.
+
+Jocko the Monkey, Mouser--his chum, the Cat,
+Had the same master. Both were sleek and fat,
+And mischievous. If anything went wrong,
+The neighbors where not blamed. Be sure of that.
+
+Jocko, 'tis said was something of a thief;
+Mouser, if truth be told, would just as lief
+Much stolen cheese as chase the midnight mouse.
+The praise bestowed on either must be brief.
+
+One day these rogues, stretched flat before the fire,
+Saw chestnuts roassting. "Ah! Could we conspire
+To jerk them out," said Jocko, "from the coals,
+We'd smash the shells and have our heart's desire.
+
+"Come, Brother Mouser! This day 'tis your turn
+To do some bold and desperate thing to earn
+A reputation. You, who are so quick,
+Snatch out the nuts before they start to burn.
+
+"Alas! That I, a Monkey, was not made
+To play with fire. But you are not afraid."
+So Mouser--pleased, like many a cat or man,
+With pretty words--sly Jocko's wish obeyed.
+
+Into the fire he put a practiced paw:
+Out came a chestnut clinging to his claw--
+Another and another. As they dropped
+Jocko devoured them, whether roast or raw.
+
+A servant enters. Off the robbers run.
+Jocko, you may be sure, enjoyed the fun.
+But Mouser's paw is sadly singed--for what?
+Just to get nuts for Jocko. He got none.
+
+
+
+The Hare And The Tortoise.
+
+Said the Tortoise one day to the Hare:
+"I'll run you a race if you dare.
+I'll bet you cannot
+Arrive at that spot
+As quickly as I can get there."
+
+Quoth the Hare: "You are surely insane.
+Pray, what has affected your brain?
+You seem pretty sick.
+Call a doctor in--quick,
+And let him prescribe for your pain."
+
+"Never mind," said the Tortoise. "Let's run!
+Will you bet me?" "Why, certainly." "Done!"
+While the slow Tortoise creeps
+Mr. Hare makes four leaps,
+And then loafs around in the sun.
+
+It seemed such a one-sided race,
+To win was almost a disgrace.
+So he frolicked about
+Then at last he set out--
+As the Tortoise was as nearing the place.
+
+Too late! Though he sped like a dart,
+The Tortoise was first. She was smart:
+"You can surely run fast,"
+She remarked. "Yet you're last.
+It is better to get a good start."
+
+
+
+The Heron Who Was Hard To Please.
+
+A long-legged Heron, with long neck and beak,
+Set out for a stroll by the bank of a creek.
+So clear was the water that if you looked sharp
+You could see the pike caper around with the carp.
+The Heron might quickly have speared enough fish
+To make for his dinner a capital dish.
+But he was a very particular bird:
+His food fixed "just so," at the hours he preferred.
+And hence he decided 'twas better to wait,
+Since his appetite grew when he supped rather late.
+Pretty soon he was hungry, and stalked to the bank.
+Where some pondfish were leaping--a fish of low rank.
+"Bah, Bah!" said the Bird. "Sup on these? No--not I.
+I'm known as a Heron: as such I live high."
+Then some gudgeon swam past that were tempting to see,
+But the Heron said hautily: "No--not for me.
+For those I'd not bother to open my beak,
+If I had to hang 'round come next Friday a week."
+Thus bragged the big Bird. But he's bound to confess
+That he opened his elegant beak for much less.
+Not another fish came. When he found all else fail,
+He was happy to happen upon a fat snail.
+
+
+
+The Raven Who Would Rival The Eagle.
+
+An Eagle swooped from out the sky,
+And carried off a sheep.
+A Raven seeing him, said: "I
+Could do that too if I should try.
+His meal comes mighty cheap."
+
+Of all that well-fed flock was one
+As fat as fat could be.
+The Raven rose, and lit upon
+Her back. She seemed to weigh a ton--
+So very fat was she.
+
+And, oh! Her wool was wondrous thick:
+It would have made a mat.
+The Raven's claws are caught, and stick!
+He's played himself a pretty trick--
+To fly with one so fat.
+
+"Ba, ba!" "Caw, caw!" cry bird and beast.
+The shepherd comes at last:
+Sir Raven who would find a feast
+Is from the woolly one released,
+And in a cage kept fast.
+
+
+
+The Miller, His Son And The Ass.
+
+A Miller and Son once set out for the fair,
+To sell a fine ass they had brought up with care;
+And the way that they started made everyone stare.
+
+To keep the Ass fresh, so the beast would sell dear
+On a pole they slung him. It surely seemed queer:
+He looked, with heels up, like some huge chandelier.
+
+One person who passed them cried out in great glee.
+"Was there anything ever so silly?" said he.
+"Can you guess who the greatest Ass is of those three?"
+
+The Miller at once put the brute on the ground;
+And the Ass, who had liked to ride t'other way round,
+Complained in language of curious sound.
+
+No matter. The Miller now made his Son ride,
+While he followed after or walked alongside.
+Then up came three merchants. The eldest one cried;
+
+"Get down there, young fellow! I never did see
+Such manners:--a gray-beard walks where you should be.
+He should ride, you should follow. Just take that from me!"
+
+"Dear Sirs," quoth the Miller, "I'd see you content."
+He climbed to the saddle; on foot the boy went...
+Three girls passed. Said one: "Do you see that old Gent?
+There he sits, like a bishop. I say it's a shame,
+While that boy trudging after seems more than half lame."
+"Little girl," said the Miller, "go back whence you came."
+
+Yet this young creature so worked on his mind
+That he wanted no woman to call him unkind:
+And he said to his Son: "Seat yourself here--behind."
+
+With the Ass bearing double they jogged on again,
+And once more met a critic, who said: "It is plain
+Only dunces would give their poor donkey such pain.
+He will die with their weight: it's a shame and a sin.
+For their faithful servant they care not a pin.
+They'll have nothing to sell at the fair but his skin."
+
+"Dear me!" said the Miller, "what am I to do?
+Must I suit the whole world and the world's father, too?
+Yet it must end some time--so I'll see the thing through."
+
+Both Father and Son now decided to walk,
+While the Ass marched in front with a strut and a stalk;
+Yet the people who passed them continued to talk.
+
+Said one to another: "Look there, if you please,
+How they wear out their shoes, while their Ass takes his ease.
+Were there ever, d'ye think, three such asses as these?"
+Said the Miller: "You're right. I'm an Ass! It is true.
+Too long have I listened to people like you.
+But now I am done with the whole kit and crew.
+
+"Let them blame me or praise me, keep silent or yell,
+My goings and comings they cannot compel.
+I will do as I please!"...So he did--and did well.
+
+
+
+
+
+End of the Project Gutenberg EBook of Fables in Rhyme for Little Folks, by 
+Jean de La Fontaine
+
+*** END OF THIS PROJECT GUTENBERG EBOOK FABLES IN RHYME FOR LITTLE FOLKS ***
+
+***** This file should be named 24108.txt or 24108.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.org/2/4/1/0/24108/
+
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+http://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need, is critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at http://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+http://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at http://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit http://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including checks, online payments and credit card donations.
+To donate, please visit: http://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart is the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     http://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.

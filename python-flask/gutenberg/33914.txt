@@ -1,0 +1,3344 @@
+The Project Gutenberg EBook of Myology and Serology of the Avian Family
+Fringillidae, by William B. Stallcup
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: Myology and Serology of the Avian Family Fringillidae
+       A Taxonomic Study
+
+Author: William B. Stallcup
+
+Release Date: October 19, 2010 [EBook #33914]
+
+Language: English
+
+Character set encoding: ISO-8859-1
+
+*** START OF THIS PROJECT GUTENBERG EBOOK MYOLOGY AND SEROLOGY OF THE ***
+
+
+
+
+Produced by Chris Curnow, Tom Cosmas, Joseph Cooper and
+the Online Distributed Proofreading Team at
+http://www.pgdp.net
+
+
+
+
+
+
+
+
+
+
+
+  ==================================================================
+                  UNIVERSITY OF KANSAS PUBLICATIONS
+                     MUSEUM OF NATURAL HISTORY
+
+
+          Volume 8, No. 2, pp. 157-211, figures 1-23, 4 tables
+
+  ----------------------  November 15, 1954  ----------------------
+
+
+                         Myology and Serology
+                    of the Avian Family Fringillidae,
+                           A Taxonomic Study
+
+                                  BY
+                          WILLIAM B. STALLCUP
+
+
+                         UNIVERSITY OF KANSAS
+                               LAWRENCE
+                                 1954
+
+
+
+
+     UNIVERSITY OF KANSAS PUBLICATIONS, MUSEUM OF NATURAL HISTORY
+
+          Editors: E. Raymond Hall, Chairman, A. Byron Leonard,
+                   Robert W. Wilson
+
+
+          Volume 8, No. 2, pp. 157-211, figures 1-23, 4 tables
+                    Published November 15, 1954
+
+
+
+
+
+                         UNIVERSITY OF KANSAS
+                           Lawrence, Kansas
+
+
+
+
+
+                              PRINTED BY
+                   FERD VOILAND, JR., STATE PRINTER
+                            TOPEKA, KANSAS
+                                 1954
+                             [Union Label]
+                               25-4632
+
+
+
+
+                         Myology and Serology
+                    of the Avian Family Fringillidae,
+                           A Taxonomic Study
+
+                                  BY
+                          WILLIAM B. STALLCUP
+
+
+
+
+CONTENTS
+
+
+                                                                 PAGE
+
+ INTRODUCTION                                                     160
+
+ MYOLOGY OF THE PELVIC APPENDAGE                                  162
+   General Statement                                              162
+   Materials and Methods                                          163
+   Description of Muscles                                         164
+   Discussion of Myological Investigations                        175
+
+ COMPARATIVE SEROLOGY                                             185
+   General Statement                                              185
+   Preparation of Antigens                                        186
+   Preparation of Antisera                                        188
+   Methods of Serological Testing                                 188
+   Experimental Data                                              190
+   Discussion of Serological Investigations                       190
+
+ CONCLUSIONS                                                      201
+
+ SUMMARY                                                          208
+
+ LITERATURE CITED                                                 210
+
+
+
+
+INTRODUCTION
+
+
+The relationships of many groups of birds within the Order
+Passeriformes are poorly understood. Most ornithologists agree that
+some of the passerine families of current classifications are
+artificial groups. These artificial groupings are the result of early
+work which gave chief attention to readily adaptive external
+structures. The size and shape of the bill, for example, have been
+over-emphasized in the past as taxonomic characters. It is now
+recognized that the bill is a highly adaptive structure and that it
+frequently shows convergence and parallelism.
+
+Since studies of external morphology have failed in some cases to
+provide a clear understanding of the relationships of passerine birds,
+it seems appropriate that attention be given to other morphological
+features, to physiological features, and to life history studies in an
+attempt to find other clues to relationships at the family and
+subfamily levels.
+
+This paper reports the results of a study of the relationships of some
+birds of the Family Fringillidae and is based on the comparative
+myology of the pelvic appendage and on the comparative serology of
+saline-soluble proteins. Where necessary for comparative purposes,
+birds from other families have been included in these investigations.
+
+It has long been recognized that the Fringillidae include dissimilar
+groups. Recent work by Beecher (1951b, 1953) on the musculature of the
+jaw and by Tordoff (1954) primarily on the structure of the bony
+palate has emphasized the artificial nature of the assemblage although
+these authors disagree regarding major divisions within it (see
+below).
+
+The Fringillidae have been distinguished from other families of
+nine-primaried oscines by only one character--a heavy and conical bill
+(for crushing seeds). Bills of this form have been developed
+independently in several other, unrelated, groups; as Tordoff (1954:7)
+has pointed out, _Molothrus_ of the Family Icteridae, _Psittorostra_
+of the Family Drepaniidae, and most members of the Family Ploceidae
+have bills as heavy and conical as those of the fringillids. The
+ploceids are distinguished from the fringillids by a single external
+character: a fairly well-developed tenth primary whereas in
+fringillids the tenth primary is absent or vestigial. Tordoff
+(1954:20) points out, however, that this distinction is of limited
+value since in other passerine families the tenth primary may be
+present in some species of a genus and absent in others. The Genus
+_Vireo_ is an example. Furthermore, at least one ploceid
+(_Philetairus_) has a small, vestigial tenth primary, whereas some
+fringillids (_Emberizoides_, for example) possess a tenth primary
+which is rather large and ventrally placed (Chapin, 1917:253-254).
+Thus, it is obvious that studies based on other features are necessary
+in order to attain a better understanding of the relationships of the
+birds involved.
+
+Sushkin's studies (1924, 1925) of the structure of the bony and horny
+palates have served as a basis for the division of the Fringillidae
+into as many as five subfamilies (Hellmayr, 1938:v): Richmondeninae,
+Geospizinae, Fringillinae, Carduelinae, and Emberizinae.
+
+Beecher (1951b:280) points out that "the richmondenine finches arise
+so uninterruptedly out of the tanagers that ornithologists have had
+to draw the dividing line between the two groups arbitrarily." His
+study of pattern of jaw-musculature substantiates this. He states
+further that the cardueline finches arise without disjunction
+from the tanagers. He suggests, therefore, that the two groups of
+"tanager-finches" be made subfamilies of the Thraupidae and that a
+third subfamily be maintained for the more typical tanagers. He states
+that the emberizine finches are of different origin, arising from the
+wood warblers (1953:307). Beecher (1951a:431; 1953:309) includes the
+Dickcissel, _Spiza americana_, in the Family Icteridae, chiefly on the
+basis of jaw muscle-pattern and the horny palate.
+
+Tordoff (1954:10-11) presents evidence that the occurrence of
+palato-maxillary bones in nine-primaried birds indicates relationship
+among the forms possessing them. He points out that all fringillids
+except the Carduelinae possess palato-maxillaries that are either free
+or more or less fused to the prepalatine bar. He points out also that
+in all carduelines, the prepalatine bar is flared at its juncture with
+the premaxilla, and that the mediopalatine processes are fused across
+the midline; noncardueline fringillids lack these characteristics. In
+addition to the above he cites differences between the carduelines and
+the "other" fringillids in the appendicular skeletons, in geographic
+distribution, in patterns of migration, and in habits. Tordoff
+concludes, therefore, that the carduelines are not fringillids but
+ploceids, their closest affinities being with the ploceid Subfamily
+Estrildinae. On the basis of palatal structure, the Fringillinae and
+Geospizinae are combined with the Emberizinae, the name Fringillinae
+being maintained for the subfamily. The tanagers merge with the
+Richmondeninae on the one hand and with the Fringillinae on the other.
+On this basis, Tordoff (1954:32) suggests that the Family Fringillidae
+be divided into subfamilies as follows: Richmondeninae, Thraupinae,
+and Fringillinae. The carduelines are placed as the Subfamily
+Carduelinae in the Family Ploceidae.
+
+From the foregoing, it is apparent that the two most recent lines of
+research have given rise to conflicting theories regarding
+relationships within the Family Fringillidae. The purpose of my
+investigation, therefore, has been to gather information, from other
+fields, which might clarify the relationships of these birds.
+
+Since the muscle pattern of the leg in the Order Passeriformes is
+thought to be one of long standing and slow change, any variation
+which consistently distinguishes one group of species from another
+could be significant. With the hope that such variation might be
+found, a study of the comparative myology of the legs was undertaken.
+
+The usefulness of comparative serology as a means of determining
+relationship has been demonstrated in many investigations. Its use in
+this instance was undertaken for several reasons: comparative serology
+has its basis in biochemical systems which seem to evolve slowly; its
+methods are objective; and its use has, heretofore, resulted in the
+accumulation of data which seem compatible, in most instances, with
+data obtained from other sources.
+
+I acknowledge with pleasure the guidance received in this study from
+Prof. Harrison B. Tordoff of the University of Kansas. I am indebted
+also to Prof. Charles A. Leone without whose direction and assistance
+the serological investigations would not have been possible; to
+Professors E. Raymond Hall and A. Byron Leonard whose suggestions and
+criticisms have been most helpful in the preparation of this paper;
+and to T. D. Burleigh of the U. S. Fish and Wildlife Service for gifts
+of several specimens used in this work. Assistance with certain parts
+of the study were received from a contract (NR163014) between the
+Office of Naval Research of the United States Navy and the University
+of Kansas.
+
+
+
+
+MYOLOGY OF THE PELVIC APPENDAGE
+
+
+General Statement
+
+In an excellent paper in which the muscles of the pelvic appendage of
+birds are carefully and accurately described, Hudson (1937) reviewed
+briefly the more important literature pertaining to the musculature of
+the leg which had been published to that date. A review of such
+information here, therefore, seems unnecessary.
+
+Myological formulae suggested by Garrod (1873, 1874) have been
+extensively used by taxonomists as aids in characterizing the orders
+of birds. Relatively few investigations, however, involving the
+comparative myology of the leg have been undertaken at family and
+subfamily levels. The works of Fisher (1946), Hudson (1948), and
+Berger (1952) are notable exceptions.
+
+The terminology for the muscles used in this paper follows that of
+Hudson (1937), except that I have followed Berger (1952) in Latinizing
+all names. Homologies are not given since these are reviewed by
+Hudson. Osteological terms are from Howard (1929).
+
+
+Materials and Methods
+
+Specimens were preserved in a solution of one part formalin to eight
+parts of water. Thorough injection of all tissues was necessary for
+satisfactory preservation. Most of the down and contour feathers were
+removed to allow the preservative to reach the skin.
+
+In preparing specimens for study, the legs and pelvic girdle were
+removed and washed in running water for several hours to remove much
+of the formalin. They were then transferred to a mixture of 50 per
+cent alcohol and a small amount of glycerine.
+
+All specimens were dissected with the aid of a low power binocular
+microscope. Where possible, several specimens of each species were
+examined for individual differences. Such differences were found to be
+slight, involving mainly size and shape of the muscles. The size is
+dependent partly on the age of the bird, muscles from older birds
+being larger and better developed. The shape of a muscle (whether long
+and slender or short and thick) is due in part to the position in
+which the leg was preserved; that is to say, a muscle may be extended
+in one bird and contracted in another. For these reasons, descriptions
+and comparisons are based mainly on the origin and insertion of a
+muscle and on its position in relation to adjoining muscles.
+
+Birds dissected in this study are listed below (in the order of the A.
+O. U. Check-List):
+
+                               SPECIES
+
+ _Vireo olivaceus_ (Linnaeus)        _Leucosticte tephrocotis_
+ _Seiurus motacilla_ (Vieillot)         (Swainson)
+ _Passer domesticus_ (Linnaeus)      _Spinus tristis_ (Linnaeus)
+ _Estrilda amandava_ (Linnaeus)      _Loxia curvirostra_ Linnaeus
+ _Poephila guttata_ (Reichenbach)    _Chlorura chlorura_ (Audubon)
+ _Icterus galbula_ (Linnaeus)        _Pipilo erythrophthalmus_
+ _Molothrus ater_ (Boddaert)            (Linnaeus)
+ _Piranga rubra_ (Linnaeus)          _Calamospiza melanocorys_
+ _Richmondena cardinalis_ (Linnaeus)    Stejneger
+ _Guiraca caerulea_ (Linnaeus)       _Chondestes grammacus_ (Say)
+ _Passerina cyanea_ (Linnaeus)       _Junco hyemalis_ (Linnaeus)
+ _Spiza americana_ (Gmelin)          _Spizella arborea_ (Wilson)
+ _Hesperiphona vespertina_ (Cooper)  _Zonotrichia querula_ (Nuttall)
+ _Carpodacus purpureus_ (Gmelin)     _Passerella iliaca_ (Merrem)
+ _Pinicola enucleator_ (Linnaeus)    _Calcarius lapponicus_ (Linnaeus)
+
+
+Description of Muscles
+
+The descriptions which follow are those of the muscles in the leg of
+the Red-eyed Towhee, _Pipilo erythrophthalmus_. Differences between
+species, where present, are noted for each muscle. The term thigh is
+used to refer to the proximal segment of the leg; the term crus is
+used for that segment of the leg immediately distal to the thigh.
+
+
+_+Musculus iliotrochantericus posticus+_ (Fig. 2).--The origin of this
+muscle is fleshy from the entire concave lateral surface of the ilium
+anterior to the acetabulum. The fibers converge posteriorly, and the
+muscle inserts by a short, broad tendon on the lateral surface of the
+femur immediately distal to the trochanter. It is the largest muscle
+which passes from the ilium to the femur.
+
+Action.--Moves femur forward and rotates it anteriorly.
+
+Comparison.--No significant differences noted among the species
+studied.
+
+
+_+Musculus iliotrochantericus anticus+_ (Fig. 3).--Covered laterally
+by the _m. iliotrochantericus posticus_, this slender muscle
+has a fleshy origin from the anteroventral edge of the ilium
+between the origins of the _m. sartorius_ anteriorly and the _m.
+iliotrochantericus medius_ posteriorly. The _m. iliotrochantericus
+anticus_ is directed caudoventrally and inserts by a broad, flat
+tendon on the anterolateral surface of the femur between the heads of
+the _m. femorotibialis externus_ and _m. femorotibialis medius_ and
+just distal to the insertion of the _m. iliotrochantericus medius_.
+
+Action.--Moves femur forward and rotates it anteriorly.
+
+Comparison.--No significant differences noted among the species studied.
+
+
+_+Musculus iliotrochantericus medius+_ (Fig. 3).--Smallest of the
+three _iliotrochantericus_ muscles, this bandlike muscle has a fleshy
+origin from the ventral edge of the ilium just posterior to the origin
+of the _m. iliotrochantericus anticus_. The fibers are directed
+caudoventrally, and the insertion is tendinous on the anterolateral
+surface of the femur between the insertion of the other two
+_iliotrochantericus_ muscles.
+
+Action.--Moves femur forward and rotates it anteriorly.
+
+Comparison.--No significant differences noted among the species
+studied.
+
+
+_+Musculus iliacus+_ (Figs. 4, 5).--Arising from a fleshy origin on
+the ventral edge of the ilium just posterior to the origin of the _m.
+iliotrochantericus medius_, this small slender muscle passes
+posteroventrally to its fleshy insertion on the posteromedial surface
+of the femur just proximal to the origin of the _m. femorotibialis
+internus_.
+
+Action.--Moves femur forward and rotates it posteriorly.
+
+Comparison.--No significant differences among the species studied.
+
+
+_+Musculus sartorius+_ (Figs. 1, 4).--A long, straplike muscle, the
+_sartorius_ forms the anterior edge of the thigh. The origin is
+fleshy, half from the anterior edge of the ilium and from the median
+dorsal ridge of this bone and half from the posterior one or two free
+dorsal vertebrae. The insertion is fleshy along a narrow line on the
+anteromedial edge of the head of the tibia and on the medial region of
+the patellar tendon.
+
+Action.--Moves thigh forward and upward and extends shank.
+
+Comparison.--In _Loxia_ and _Spinus_, only one-third of the origin is
+from the last free dorsal vertebra. In _Hesperiphona_, _Carpodacus_,
+_Pinicola_, and _Leucosticte_, only one-fifth of the origin is from
+this vertebra.
+
+
+_+Musculus iliotibialis+_ (Fig. 1).--Broad and triangular, this muscle
+covers most of the deeper muscles of the lateral aspect of the thigh.
+The middle region is fused with the underlying _femorotibialis_
+muscles. In the distal half of this muscle there are three distinct
+parts; the anterior and posterior edges are fleshy and the central
+part is aponeurotic. The origin is from a narrow line along the iliac
+crests--from the origin of the _m. sartorius_, anteriorly, to the
+origin of the _m. semitendinosus_ posteriorly. The origin is
+aponeurotic in the preacetabular region but fleshy in the
+postacetabular region. The distal part of the muscle is aponeurotic
+and joins with the _femorotibialis_ muscles in the formation of the
+patellar tendon. This tendon incloses the patella and inserts on a
+line along the proximal edges of the cnemial crests of the
+tibiotarsus.
+
+Action.--Extends crus.
+
+Comparison.--In _Vireo_ the central aponeurotic portion of this muscle
+is absent.
+
+
+_+Musculus femorotibialis externus+_ (Fig. 2).--Covering the lateral
+and anterolateral surfaces of the femur, this large muscle has a
+fleshy origin from the lateral edge of the proximal three-fourths of
+the femur. The origin separates the insertion of the _m.
+iliotrochantericus anticus_ from that of the _m. ischiofemoralis_ and,
+in turn, is separated from the origin of the _m. femorotibialis
+medius_ by the insertions of the _m. iliotrochantericus anticus_ and
+_m. iliotrochantericus medius_. Approximately midway of the length of
+the femur this muscle fuses anteromesially with the _m. femorotibialis
+medius_. Distally, the _m. femorotibialis externus_ contributes to the
+formation of the patellar tendon which inserts on a line along the
+proximal edges of the cnemial crests of the tibiotarsus.
+
+Action.--Extends crus.
+
+Comparison.--No significant differences noted among the species studied.
+
+
+_+Musculus femorotibialis medius+_ (Figs. 2, 4).--The origin of this
+muscle, which lies along the anterior edge of the femur, is fleshy
+from the entire length of the femur proximal to the level of
+attachment of the proximal arm of the biceps loop. Laterally this
+muscle is completely fused for most of its length with the _m.
+femorotibialis externus_ and contributes to the formation of the
+patellar tendon, which inserts on a line along the proximal edges of
+the cnemial crests of the tibiotarsus. Many of the fibers,
+nevertheless, insert on the proximal edge of the patella.
+
+Action.--Extends crus.
+
+Comparison.--No significant differences noted among the species
+studied.
+
+
+_+Musculus femorotibialis internus+_ (Fig. 4).--One of the most
+superficial muscles lying on the medial surface of the thigh, this
+muscle is divided, especially near the distal end, into two parts,
+lateral and medial. The origin of the lateral part is fleshy from a
+line on the medial surface of the femur; the origin begins proximally
+at a point near the insertion of the _m. iliacus_. The medial, bulkier
+part of the muscle has a fleshy origin on the medial surface of the
+lower one-third of the femur. The two parts fuse to some extent above
+the points of insertion and insert on the medial edge of the head of
+the tibia.
+
+Action.--Rotates tibia anteriorly.
+
+Comparison.--Two parts of this muscle variously fused; otherwise, no
+significant differences in the species studied.
+
+
+_+Musculus piriformis+_ (Fig. 3).--This muscle is represented by the
+_pars caudifemoralis_ only, the _pars iliofemoralis_ being absent in
+passerine birds as far as is known. The _pars caudifemoralis_ is flat,
+somewhat spindle-shaped, and passes anteroventrally from the pygostyle
+to the femur. The origin is tendinous from the anteroventral edge of
+the pygostyle, and the insertion is semitendinous on the
+posterolateral surface of the shaft of the femur about one-fourth its
+length from the proximal end.
+
+Action.--Moves femur posteriorly and rotates it in this direction;
+moves tail laterally and depresses it.
+
+Comparison.--No significant differences noted among the species
+studied.
+
+
+_+Musculus semitendinosus+_ (Figs. 2, 3, 5).--The origin from the
+extreme posterior edge of the posterior iliac crest of the ilium is
+fleshy and is aponeurotic from the last vertebra of the synsacrum and
+the transverse processes of several caudal vertebrae. The straplike
+belly passes along the posterolateral margin of the thigh. Immediately
+posterior to the knee, the muscle is divided transversely by a
+ligament. That portion passing anteriorly from the ligament is the _m.
+accessorius semitendinosi_ (here considered a part of the _m.
+semitendinosus_) and is discussed below. The ligament continues
+distally in two parts; one part inserts on the medial surface of the
+_pars media_ of the _m. gastrocnemius_ and the other part fuses with
+the tendon of insertion of the _m. semimembranosus_.
+
+The _m. accessorius semitendinosi_ extends anteriorly from the above
+mentioned ligament to a fleshy insertion on the posterolateral surface
+of the femur immediately proximal to the condyles.
+
+Action.--Moves femur posteriorly, flexes the crus and aids in
+extending the tarsometatarsus.
+
+Comparison.--No significant differences noted among the species
+studied.
+
+
+_+Musculus semimembranosus+_ (Figs. 3, 4, 5).--This straplike muscle
+passes along the posteromedial surface of the thigh. The origin is
+semitendinous along a line on the ischium, from a point dorsal to the
+middle of the ischiopubic fenestra to the posterior end of the
+ischium, and from a small area of the abdominal musculature posterior
+to the ischium. The insertion is by means of a broad, thin tendon on a
+ridge on the medial surface of the tibia immediately distal to the
+head of this bone. The tendon of insertion passes between the head of
+the _pars media_ and _pars interna_ of the _m. gastrocnemius_ and is
+fused with the tendon of the _m. semitendinosus_.
+
+Action.--Flexes crus.
+
+Comparison.--No significant differences noted among the species
+studied.
+
+
+_+Musculus biceps femoris+_ (Fig. 2).--Long, thin, and somewhat
+triangular, this muscle lies on the lateral side of the thigh just
+underneath the _m. iliotibialis_. Its origin is from a line along the
+anterior and posterior iliac crests underneath the origin of the _m.
+iliotibialis_. Anterior to the acetabulum the origin is aponeurotic,
+and the edge of this aponeurosis passes over the proximal end of the
+femur. The origin posterior to the acetabulum is fleshy. The most
+anterior point of origin is difficult to ascertain but it lies near
+the center of the anterior iliac crest. The most posterior point of
+origin is immediately dorsal to the posterior end of the ilioischiatic
+fenestra. Behind the knee the fibers of this muscle converge to form
+the strong tendon of insertion which passes through the biceps loop,
+under the tendon of origin of the _m. flexor perforatus digiti II_,
+and inserts on a small tubercle on the posterolateral edge of the
+fibula at the point of the tibia-fibula fusion.
+
+The biceps loop is tendinous and the distal end attaches to a
+protuberance on the posterolateral edge of the femur at the proximal
+edge of the external condyle. The proximal end attaches to the
+anterolateral edge of the femur immediately proximal to the distal end
+of the loop, which extends posterior to the femur. The distal arm of
+this loop is connected with the tendon of origin of the _m. flexor
+perforatus digiti II_ by a strong tendon.
+
+Action.--Flexes crus.
+
+Comparison.--No significant differences noted among the species
+studied.
+
+
+_+Musculus ischiofemoralis+_ (Fig. 3).--Short and thick, this muscle
+arises directly from the lateral surface of the ischium between the
+posterior iliac crest and the ischiopubic fenestra. The area of origin
+extends to the posterior edge of the ischium. The insertion is
+tendinous on the lateral surface of the trochanter opposite the
+insertion of the _m. iliotrochantericus medius_.
+
+Action.--Moves femur posteriorly and rotates it in this direction.
+
+Comparison.--No significant differences noted among the species
+studied.
+
+
+_+Musculus obturator internus+_ (Figs. 4, 7).--Lying on the inside of
+the pelvis and covering the medial surface of the ischiopubic
+fenestra, is this flat, pinnate, leaf-shaped muscle. The origin is
+fleshy and is from the ischium and pubis around the edges of this
+fenestra; none of the fibers arises from the membrane stretched across
+the fenestra. Anteriorly the fibers converge and form a strong tendon
+that passes through the obturator foramen and inserts on the
+posterolateral surface of the trochanter of the femur.
+
+Action.--Rotates femur posteriorly.
+
+Comparison.--No significant differences noted among the species
+studied.
+
+
+_+Musculus obturator externus+_ (Fig. 7).--Short and fleshy, this
+muscle consists of two parts which are not easily separable but which
+may be traced throughout its length. The parts are more nearly
+distinct at the origin. The dorsal part arises directly from the
+ischium along the dorsal edge of the obturator foramen. The larger
+ventral part arises directly from the anterior and ventral edges of
+the obturator foramen. The fibers of the dorsal part pass anteriorly,
+cover the tendon of the _m. obturator internus_ laterally, and insert
+on the trochanter around the point of insertion of the latter muscle.
+The fibers of the ventral part pass parallel with the tendon of the
+_m. obturator internus_ and insert on the trochanter immediately
+distal and posterior to the tendon of the latter muscle.
+
+Action.--Rotates femur posteriorly.
+
+Comparison.--In _Passer_, _Estrilda_, _Poephila_, _Hesperiphona_,
+_Carpodacus_, _Pinicola_, _Leucosticte_, _Spinus_ and _Loxia_, this
+muscle is undivided and, in its position, origin, and insertion,
+resembles the ventral part of the bipartite muscle described above.
+The origin is from the anterior and ventral edges of the obturator
+foramen and the insertion is on the trochanter of the femur
+immediately distal and posterior to the insertion of the _m. obturator
+internus_. In all other genera examined, the muscle is bipartite. In
+_Chlorura_ the dorsal part is larger and better developed than it is
+in the other genera.
+
+
+_+Musculus adductor longus et brevis+_ (Figs. 3, 4, 5).--Consisting of
+two distinct, straplike parts, this large muscle lies on the medial
+surface of the thigh, posterior to the femur.
+
+The _pars anticus_ has a semitendinous origin on a line that extends
+posteriorly from the posteroventral edge of the obturator foramen to a
+point half way across the membrane that covers the ischiopubic
+fenestra. The insertion is fleshy along the posterior surface of the
+femur from the level of the insertion of the _m. piriformis_ distally
+to the medial surface of the internal condyle.
+
+The _pars posticus_ originates by a broad, flat tendon on a line
+across the posterior half of the membrane that covers the ischiopubic
+fenestra. The insertion is at the point of origin of the _pars media_
+of the _m. gastrocnemius_ on the posteromedial surface of the proximal
+end of the internal condyle of the femur. There is a broad tendinous
+connection with the proximal end of the _pars media_ of the _m.
+gastrocnemius_. The anterior edge of the _pars posticus_ is overlapped
+medially by the posterior edge of the _pars anticus_.
+
+Action.--Flexes thigh; may flex crus also and may extend
+tarsometatarsus.
+
+Comparison.--In _Vireo olivaceous_, the origin of this muscle does not
+extend the length of the ischiopubic fenestra. The origin,
+furthermore, is along the dorsal edge of the ischiopubic fenestra and
+not from the membrane covering the fenestra. Finally, in this species,
+the origin of the _pars posticus_ is fleshy.
+
+
+_+Musculus tibialis anticus+_ (Figs. 2, 5).--Lying along the anterior
+edge of the crus, a part of this muscle is covered by the _m. peroneus
+longus_. The origin is by two distinct heads, each of which is
+pinnate. The anterior head arises directly from the edges of the outer
+and inner cnemial crests. The posterior head arises by a short, strong
+tendon from a small pit on the anterodistal edge of the external
+condyle of the femur. This tendon and the proximal end of the muscle
+pass between the head of the fibula and the outer cnemial crest. The
+two heads of the muscle fuse at a place slightly more than one-half of
+the distance down the crus. At the distal end of the crus this muscle
+gives rise to a strong tendon which passes under a fibrous loop
+immediately proximal to the external condyle in company with the _m.
+extensor digitorum longus_ and which passes between the condyles of
+the tibia and inserts on a tubercle on the anteromedial edge of the
+proximal end of the tarsometatarsus.
+
+Action.--Flexes tarsometatarsus.
+
+Comparison.--No significant differences noted among the species
+studied.
+
+
+_+Musculus extensor digitorum longus+_ (Figs. 3, 5, 8).--Slender and
+pinnate, this muscle lies along the anteromedial surface of the tibia.
+The origin is fleshy from most of the region between the cnemial
+crests and from a line along the anterior surface of the proximal
+fourth of the tibia. Approximately two-thirds of the distance down the
+crus the muscle gives rise to the tendon of insertion which passes
+through the fibrous loop near the distal end of the tibia in company
+with the _m. tibialis anticus_. The tendon then passes along beneath
+the supratendinal bridge at the distal end of the tibia, traverses the
+anterior intercondylar fossa, and passes beneath a bony bridge on the
+anteromedial surface of the proximal end of the tarsometatarsus. The
+tendon continues along the anterior surface of the tarsometatarsus to
+a point immediately above the bases of the toes and there gives rise
+to three branches, one to the anterior surface of each foretoe. The
+insertions of each branch are on the anterior surfaces of the
+phalanges as shown in Fig. 8.
+
+Action.--Extends foretoes.
+
+Comparison.--This muscle is weakly developed in _Leucosticte_ and
+_Calvarius_; the belly is slender and extends only half way down the
+crus before giving rise to the tendon of insertion. The functional
+significance of this variation is difficult to understand. The
+convergence in muscle pattern shown by these two genera, however, is
+in all probability the result of similarities in behavior patterns.
+These birds perch less frequently than do the other birds studied.
+Thus, the toes are neither flexed nor extended as often; the smaller
+size of the _m. extensor digitorum longus_ may have resulted in part
+from this lessened activity. Except for the variations just noted,
+there are no significant differences among the species studied; even
+the rather complex patterns of insertion are identical.
+
+
+_+Musculus peroneus longus+_ (Fig. 1).--Relatively thin and straplike,
+this muscle lies on the anterolateral surface of the crus and is
+intimately attached to the underlying muscles. The part of the origin
+from the proximal edges of the inner and outer cnemial crests is
+semitendinous but the part of the origin from the lateral edge of the
+shaft of the fibula is tendinous. Approximately two-thirds the
+distance down the crus the muscle gives rise to the tendon of
+insertion. Immediately above the external condyle of the tibiotarsus
+this tendon divides. The posterior branch inserts on the proximal end
+of the lateral edge of the tibial cartilage. The anterior branch
+passes over the lateral surface of the external condyle to the
+posterior surface of the tarsometatarsus and there unites with the
+tendon of the _m. flexor perforatus digiti III_.
+
+Action.--Extends tarsometatarsus and flexes third digit.
+
+Comparison.--No significant differences noted among the species
+studied.
+
+
+_+Musculus peroneus brevis+_ (Figs. 2, 3).--Lying along the
+anterolateral surface of the tibia, this slender, pinnate muscle
+arises from a fleshy origin along this surface and along the anterior
+surface of the fibula from a point immediately proximal to the
+insertion of the _m. biceps femoris_ to a point approximately
+two-thirds of the way down the crus. Near the distal end of the tibia
+the muscle gives rise to the tendon of insertion that passes through a
+groove on the anterolateral edge of the tibia just above the external
+condyle. Here the tendon is held in place by a broad fibrous loop and
+passes under the anterior branch of the tendon of insertion of the _m.
+peroneus longus_ and inserts on a prominence on the lateral edge of
+the proximal end of the tarsometatarsus.
+
+Action.--Extends tarsometatarsus and may abduct it slightly.
+
+Comparison.--No significant differences noted among the species
+studied.
+
+
+_+Musculus gastrocnemius+_ (Figs. 1, 4).--The largest muscle of the
+pelvic appendage, it covers superficially all of the posterior
+surface, most of the medial surface, and half of the lateral surface
+of the crus. The muscle originates by three distinct heads.
+
+The _pars externa_ covers the posterolateral surface of the crus, is
+intermediate in size between the other two heads, and arises by a
+short, strong tendon from a small bony protuberance on the
+posterolateral side of the distal end of the femur immediately
+proximal to the fibular condyle. The tendon is intimately connected
+with the distal arm of the loop for the _m. biceps femoris_.
+
+The _pars media_ is the smallest of the three heads and lies on the
+medial surface of the crus. The head of the _pars media_ is separated
+from the _pars interna_ by the tendon of insertion of the _m.
+semimembranosus_ and originates by a short, strong tendon from the
+posteromedial surface of the proximal end of the internal condyle of
+the femur. The proximal portion of the _pars media_ has tendinous
+connections with the tendon of the _m. semitendinosus_ and with the
+_pars posticus_ of the _m. adductor longus et brevis_.
+
+The _pars interna_ is the largest of the three heads and covers most
+of the medial surface of the crus. This head in its proximal portion
+is distinctly divided into anterior and posterior parts, the former
+overlapping the latter medially. The origin of the posterior part is
+fleshy from the anterior half of the tibial head. Some of the fibers
+of the anterior part arise directly from the inner cnemial crest while
+its remaining fibers arise from the patellar tendon (Fig. 1) and form
+a band that extends around the anterior surface of the knee, covering
+the insertion of the _m. sartorius_.
+
+Approximately half way down the crus, the three heads give rise to the
+tendon of insertion, the _tendo achillis_, which passes over and is
+tightly bound to the posterior surface of the tibial cartilage. The
+insertion is tendinous on the posterior surface of the hypotarsus and
+along the posterolateral ridge of the tarsometatarsus. This tendon
+seems to be continuous with a fascia which forms a sheath around the
+posterior surface of the tarsometatarsus holding the other tendons of
+this region firmly in the posterior sulcus.
+
+Action.--Extends tarsometatarsus.
+
+Comparison.--Study of the _pars externa_ and _pars media_ reveals no
+significant differences among the species dissected. The _pars
+interna_, however, is subject to some variation which is described
+below.
+
+       _Pars interna_ bipartite
+
+  _Vireo_              _Chlorura_
+  _Seiurus_            _Pipilo_
+  _Icterus_            _Calamospiza_
+  _Molothrus_          _Chondestes_
+  _Piranga_            _Junco_
+  _Richmondena_        _Spizella_
+  _Guiraca_            _Zonotrichia_
+  _Passerina_          _Passerella_
+  _Spiza_              _Calcarius_
+
+The two parts of the _m. gastrocnemius_ are most distinct in _Vireo_.
+_Icterus_, _Molothrus_, _Richmondena_, _Guiraca_, and _Passerina_ lack
+the fibrous band that passes around the front of the knee. In _Spiza_
+this band of fibers is smaller than in the other species.
+
+     _Pars interna_ undivided
+
+  _Passer_            _Pinicola_
+  _Estrilda_          _Leucosticte_
+  _Poephila_          _Spinus_
+  _Hesperiphona_      _Loxia_
+  _Carpodacus_
+
+In _Leucosticte_, although the _pars interna_ is undivided, there is a
+band of fibers which extends around the front of the knee (see
+discussion, p. 183).
+
+
+_+Musculus plantaris+_ (Fig. 5).--Small and slender, this muscle lies
+on the posteromedial surface of the crus, beneath the _pars interna_
+of the _m. gastrocnemius_ and originates by fleshy fibers from the
+posteromedial surface of the proximal end of the tibia immediately
+distal to the internal articular surface. The belly extends
+approximately one-sixth of the way down the crus and gives rise to a
+long, slender tendon that inserts on the proximomedial edge of the
+tibial cartilage.
+
+Action.--Extends tarsometatarsus.
+
+Comparison.--No significant differences noted among the species
+studied.
+
+
+_+Musculus flexor perforatus digiti II+_ (Figs. 3, 9).--This is a
+slender muscle which lies on the lateral side of the crus beneath the
+_pars externa_ of the _m. gastrocnemius_ and is intimately connected
+anteromedially with the _m. flexor digitorum longus_ and
+posteromedially with the _m. flexor hallucis longus_. The origin is by
+a strong tendon from the lateral surface of the external condyle of
+the femur at the point of origin of the _m. flexor perforans et
+perforatus digiti II_. This tendon serves also as the origin of the
+anterior head of the _m. flexor hallucis longus_. The tendon connects
+also by a broad tendinous band with the distal arm of the loop for the
+_m. biceps femoris_ and by a similar band with the lateral edge of the
+fibula immediately distal to the head. The tendon of insertion passes
+distally, perforates the tibial cartilage near its lateral edge,
+traverses the middle medial canal of the hypotarsus (Fig. 6), and
+passes distally to the foot. At the distal end of the tarsometatarsus
+the tendon is held against the medial surface of the first metatarsal
+by a straplike sheath. The tendon then passes over a sesamoid bone
+between the first metatarsal and the base of the second digit and is
+bound to this bone by a sheath. The tendon inserts mainly along the
+posteromedial edge of the proximal end of the first phalanx of the
+second digit, although the termination is sheathlike and covers the
+entire posterior surface of this phalanx. This sheathlike termination
+is perforated by the tendons of the _m. flexor perforans et perforatus
+digiti II_ and the branch of the _m. flexor digitorum longus_ that
+inserts on the second digit.
+
+Action.--Flexes second digit.
+
+Comparison.--In _Vireo_ this muscle is larger and more deeply situated
+than it is in the other species examined and has no connection with
+the _m. flexor hallucis longus_.
+
+
+_+Musculus flexor perforatus digiti III+_ (Fig. 5).--Long and
+flattened, this muscle lies on the posteromedial side of the crus
+beneath the _m. gastrocnemius_. The belly is tightly fused laterally
+with the belly of the _m. flexor hallucis longus_ and posteriorly with
+the belly of the _m. flexor perforatus digiti IV_. The origin is by a
+long, strong tendon from a small tubercle just medial to, and at the
+proximal end of, the external condyle of the femur. Below the middle
+of the crus this muscle terminates in a strong tendon which perforates
+the tibial cartilage near its lateral edge. In this region the tendon
+is sheathlike and wrapped around the tendon of the _m. flexor
+perforatus digiti IV_. These two tendons together pass through the
+posterolateral canal of the hypotarsus (Fig. 6). Immediately distal to
+the hypotarsus the two tendons separate, and the tendon of the _m.
+flexor perforatus digiti III_ receives a branch of the tendon of the
+_m. peroneus longus_. The tendon passes distally over the surface of
+the second trochlea, and its insertion is sheathlike on the posterior
+surface of the first phalanx, and on the proximal end of the second.
+In the area of insertion this tendon is perforated by that of the _m.
+flexor perforans et perforatus digiti III_ and by that of the _m.
+flexor digitorum longus_ to the third digit.
+
+Action.--Flexes digit III.
+
+Comparison.--In _Passer_, _Estrilda_, _Poephila_, _Hesperiphona_,
+_Carpodacus_, _Pinicola_, _Leucosticte_, _Spinus_, and _Loxia_ the
+edges of the sheathlike tendon are thickened at the points of
+insertion, so that the tendon appears to have two branches which
+insert along the posterolateral edges of the first phalanx and are
+connected medially by a fascia.
+
+
+_+Musculus flexor perforatus digiti IV+_ (Fig. 3).--Extending along
+the posterior edge of the crus, this slender muscle lies beneath the
+_m. gastrocnemius_. The belly is fused with those of the _m. flexor
+hallucis longus_ and _m. flexor perforatus digiti III_. Its origin is
+fleshy from the intercondyloid region of the distal end of the femur
+and has a few fibers arising from the tendon of origin of the _m.
+flexor perforatus digiti III_. Near the distal end of the crus the
+muscle gives rise to the strong tendon of insertion which perforates
+the tibial cartilage near its lateral edge and in this region is
+ensheathed by the tendon of the _m. flexor perforatus digiti III_. The
+two tendons pass together through the posterolateral canal of the
+hypotarsus (Fig. 6). The tendon continues distally along the
+tarsometatarsus and the posterior surface of digit IV. The tendon
+bifurcates at approximately the middle of the first phalanx. A short
+lateral branch inserts on the posterolateral edge of the proximal end
+of the second phalanx. The long medial branch is perforated by a
+branch of the _m. flexor digitorum longus_; the distal end is
+flattened, has thickened edges, and inserts over the posterior
+surfaces of the distal end of the second phalanx, and over the
+proximal end of the third phalanx.
+
+Action.--Flexes digit IV.
+
+Comparison.--No significant differences noted among the species
+studied.
+
+
+_+Musculus flexor perforans et perforatus digiti II+_ (Figs. 2,
+9).--Small and spindle-shaped, this muscle lies on the posterolateral
+side of the crus immediately beneath the _pars externa_ of the _m.
+gastrocnemius_. The origin is fleshy and arises in company with the
+_m. flexor perforans et perforatus digiti III_ from a point on the
+posterolateral surface of the distal end of the femur between the
+point of origin of the _pars externa_ of the _m. gastrocnemius_ and
+the fibular condyle. The belly extends approximately one-fourth of the
+way down the crus and gives rise to the tendon of insertion which
+passes distally and superficially through the posterior edge of the
+tibial cartilage. The tendon traverses the posteromedial canal of the
+hypotarsus (Fig. 6) and continues along the posterior surface of the
+tarsometatarsus. Between the first metatarsal and the base of the
+second digit the tendon is enclosed by the medial surface of a
+sesamoid bone. This tendon then perforates that of the _m. flexor
+perforatus digiti II_ at the level of the first phalanx and in turn is
+perforated by the tendon of the _m. flexor digitorum longus_ at the
+proximal end of the second phalanx. The insertion is on the posterior
+surface of the second phalanx.
+
+Action.--Flexes digit II.
+
+Comparison.--In _Passer_, _Estrilda_, _Poephila_, _Hesperiphona_,
+_Carpodacus_, _Pinicola_, _Leucosticte_, _Spinus_, and _Loxia_ the
+proximal portion of this muscle is more intimately connected with the
+posterior edge of the _m. flexor perforans et perforatus digiti III_
+than it is in the other species examined.
+
+
+_+Musculus flexor perforans et perforatus digiti III+_ (Fig. 2).--Long
+and pinnate, this muscle lies on the lateral surface of the crus
+beneath the _m. peroneus longus_ and _pars externa_ of the _m.
+gastrocnemius_. There are two distinct heads. The origin of the
+anterior head is fleshy from the proximal edge of the outer cnemial
+crest and from the internal edge of the distal end of the patellar
+tendon. The posterior head arises by a tendon from the femur in
+company with the _m. flexor perforans et perforatus digiti II_, is
+connected also with the tendon of origin of the _m. flexor perforatus
+digiti II_, and is loosely attached to the head of the fibula. Fibers
+from the belly of the muscle attach throughout its length to the
+lateral edge of the fibula, and the muscle is tightly fused also with
+adjacent muscles. The tendon of insertion is formed approximately
+one-half the way down the crus. The tendon perforates the posterior
+surface of the tibial cartilage and passes through the posteromedial
+canal of the hypotarsus (Fig. 6). At the base of the third digit the
+tendon ensheathes that of the _m. flexor digitorum longus_ and the two
+together perforate the tendon of the _m. flexor perforatus digiti
+III_. Immediately distal to this perforation the tendon of the _m.
+flexor perforans et perforatus digiti III_ ceases to ensheath that of
+the _m. flexor digitorum longus_. The latter passes beneath that of
+the former. Near the distal end of the second phalanx the tendon of
+the _m. flexor digitorum longus_ perforates that of the _m. flexor
+perforans et perforatus digiti III_. The latter inserts on the
+posterior surface of the distal end of the second phalanx and the
+proximal end of the third.
+
+Action.--Flexes digit III.
+
+Comparison.--In _Passer_, _Estrilda_, and _Poephila_, and in all the
+cardueline finches examined the proximal portion of this muscle is
+more intimately connected with the anterior edge of the _m. flexor
+perforans et perforatus digiti II_ than it is in the other species
+examined.
+
+
+_+Musculus flexor digitorum longus+_ (Figs. 3, 5).--This strong,
+pinnate muscle is deeply situated along the posterior surfaces of the
+tibia and fibula. There are two distinct heads of origin. The lateral
+head arises by means of fleshy fibers from the posterior edge of the
+head of the fibula. The medial head arises by means of fleshy fibers
+from the region under the ledgelike external and internal articular
+surfaces of the proximal end of the tibia. Neither head has any
+connection with the femur in contrast to the condition, described by
+Hudson (1937: 46-47) in the crow, _Corvus brachyrhynchos_, and in the
+raven, _Corvus corax_. Near the point of insertion of the _m. biceps
+femoris_ the two heads fuse. The common belly is attached by fleshy
+fibers to the posterior surface of the tibia and fibula for two-thirds
+of the distance down the crus. Near the distal end of the crus the
+muscle terminates in a strong tendon which passes deeply through the
+tibial cartilage and traverses the anteromedial canal of the
+hypotarsus (Fig. 6). About midway down the tarsometatarsus this tendon
+becomes ossified. Immediately above the bases of the toes it gives
+rise to three branches, one to the posterior surface of each of the
+foretoes. These branches perforate the other flexor muscles of the
+toes as described in the accounts of those muscles and insert as
+follows: The branch to digit II inserts on the base of the ungual
+phalanx and by a stout, tendinous slip on the distal end of the second
+phalanx (Fig. 9). The branch to digit III inserts on the base of the
+distal end of the third phalanx and a stronger slip to the distal end
+of the second or proximal end of the third. The branch to digit IV
+inserts on the base of the ungual phalanx, with one tendinous slip to
+the distal end of the third phalanx and another to the distal end of
+the fourth.
+
+Action.--Flexes foretoes.
+
+Comparison.--No significant differences noted among the species
+studied.
+
+
+_+Musculus flexor hallucis longus+_ (Fig. 3).--Situated immediately
+posterior to the _m. flexor digitorum longus_, the belly of this
+large, pinnate muscle is intimately connected anteriorly to that of
+the _m. flexor perforatus digiti II_. The _m. flexor hallucis longus_
+arises by two heads which are separated by the tendon of insertion of
+the _m. biceps femoris_. The smaller anterior head arises from the
+same tendon as does the _m. flexor perforatus digiti II_. The larger
+posterior head arises by means of fleshy fibers from the
+intercondyloid region of the posterior surface of the femur along with
+the _m. flexor perforatus digiti III_ and _IV_. The two heads join
+just distal to the point of insertion of the _m. biceps femoris_.
+There is no trace of a tendinous band connecting the two heads as
+there is in the crow and in the raven (Hudson, 1937:49). Near the
+distal end of the shank the muscle gives rise to a strong tendon which
+perforates the tibial cartilage along its lateral edge and passes
+through the anterolateral canal of the hypotarsus (Fig. 6). The tendon
+crosses over to the medial surface of the tarsometatarsus, passes
+distally, and perforates the sheathlike tendon of the _m. flexor
+hallucis brevis_ between the first metatarsal and the trochlea for
+digit II. The tendon continues along the posterior surface of the
+hallux and has a double insertion; the main tendon attaches to the
+base of the ungual phalanx and a smaller branch inserts on the distal
+end of the proximal phalanx.
+
+Action.--Flexes hallux.
+
+Comparison.--In _Vireo_ this muscle has only the posterior head of
+origin and is not connected with the _m. flexor perforatus digiti II_.
+The muscle is proportionately smaller and weaker than in any of the
+other species studied.
+
+
+_+Musculus extensor hallucis longus+_ (Fig. 4).--One of the smallest
+muscles of the leg, the origin is fleshy from the anteromedial edge of
+the proximal end of the tarsometatarsus. The belly is long and slender
+and terminates distally in a slender tendon which passes distally
+along the posterior surfaces of the first metatarsal and the first
+digit. The insertion is on the base of the ungual phalanx. Near the
+distal end of the proximal phalanx, the tendon passes between two
+thick bands of fibro-elastic tissue which insert also on the ungual
+phalanx. These bands of tissue function as automatic extensors of the
+claw.
+
+Action.--Extends hallux; action must be slight.
+
+Comparison.--In _Vireo_ this muscle is proportionately larger and
+better developed than it is in any of the other species examined.
+
+
+_+Musculus flexor hallucis brevis+_ (Fig. 4).--This minute muscle has
+a fleshy origin from the medial surface of the hypotarsus. The short
+belly terminates in a weak, slender tendon which passes down the
+posteromedial surface of the tarsometatarsus and into the space
+between the first metatarsal and the trochlea for digit II. In this
+region the tendon envelops the tendon of the _m. flexor hallucis
+longus_ and inserts on the distal end of the first metatarsal and on
+the proximal end of the first phalanx of the first digit.
+
+Action.--Flexes hallux; action must be slight.
+
+Comparison.--The small size of this muscle makes it exceedingly
+difficult to study. The muscle is larger in _Vireo_ than in any of the
+other species examined. This may be correlated with the smaller size
+of the _m. flexor hallucis longus_ in this species. The muscle does
+not seem to be so well developed in the cardueline finches as it is in
+the other species.
+
+
+_+Musculus abductor digiti IV+_ (Fig. 2).--Extremely small, delicate
+and difficult to demonstrate, this muscle arises in a fleshy origin
+immediately from underneath the posterior edge of the external cotyla
+of the tarsometatarsus. The tendon of insertion is long and slender
+and inserts along the lateral edge of the first phalanx of digit IV.
+
+Action.--Abducts digit IV.
+
+Comparison.--No significant differences noted among the species
+studied.
+
+
+_+Musculus lumbricalis.+_--Semitendinous throughout its length, this
+muscle arises from the ossified tendon of the _m. flexor digitorum
+longus_ at a point immediately proximal to the branching of this
+tendon. The insertion is on the joint pulleys and capsules at the base
+of the third and fourth digits.
+
+Action.--Hudson (1937:57) states that: "Meckel (_vide_ Gadow--1891, p.
+204) considered this muscle as serving to draw the joint pulley behind
+in order to protect it from pinching during the bending of the toes.
+It perhaps also tends to flex the third and fourth digits."
+
+Comparison.--No significant differences noted among the species
+studied.
+
+
+Discussion of the Myological Investigations
+
+Simpson (1944:12) and others have emphasized that different parts of
+organisms evolve at different rates. Beecher (1951b:275) in stating
+that "... the hind limb is very similar in muscle pattern throughout
+the Order Passeriformes and seems to have become relatively static
+after attaining a high level of general efficiency ..." implies that
+the muscle pattern of the leg must be one of long standing and slow
+change. This concept was emphasized by Hudson (1937) who found but
+little variation in muscle pattern among members of the several
+families of passerine birds. The concept is further confirmed by the
+present investigation. The intricate patterns of origin and of
+insertion seem to remain almost the same throughout the order in spite
+of adaptive radiation which has occurred.
+
+Two major differences in patterns of leg-musculature, however, were
+found among the species studied, and these differences are significant
+since they are consistent between subfamilies. The muscles involved
+are the _m. obturator externus_ and the _pars interna_ of the _m.
+gastrocnemius_.
+
+The _m. obturator externus_ is bipartite, consisting of dorsal and
+ventral parts, in the passerine species studied by Hudson (1937) and
+in all of the species examined by me except the ploceids and the
+cardueline finches. In the ploceids and cardueline finches this muscle
+is undivided and resembles in its position, origin, and insertion only
+the ventral portion of the muscle found in the other birds studied. It
+is difficult to imagine what advantage or disadvantage might be
+associated with the bipartite or with the undivided condition. The
+action of this muscle is to rotate the femur (right femur clockwise,
+left femur counterclockwise), and certainly the greater mass of the
+bipartite muscle could lend greater strength to such action. The
+possible significance of this is discussed below.
+
+     List of Abbreviations Used in Figures
+
+  Abd. dig. IV         _M. abductor digiti IV_
+  Acc.                 _M. accessorius semitendinosi_
+  Add. long.           _M. adductor longus et brevis_
+  Anterolat. can.      Anterolateral canal of hypotarsus
+  Anteromed. can.      Anteromedial canal of hypotarsus
+  Bic. fem.            _M. biceps femoris_
+  Bic. loop            Loop for _m. biceps femoris_
+  Ext. cot.            External cotyla
+  Ext. dig. l.         _M. extensor digitorum longus_
+  Ext. hal. l.         _M. extensor hallucis longus_
+  Fem. tib. ext.       _M. femorotibialis externus_
+  Fem. tib. int.       _M. femorotibialis internus_
+  Fem. tib. med.       _M. femorotibialis medius_
+  F. dig. l.           _M. flexor digitorum longus_
+  F. hal. brev.        _M. flexor hallucis brevis_
+  F. hal. l.           _M. flexor hallucis longus_
+  F. p. et p. d. II    _M. flexor perforans et perforatus digiti II_
+  F. p. et p. d. III   _M. flexor perforans et perforatus digiti III_
+  F. per. d. II        _M. flexor perforatus digiti II_
+  F. per. d. III       _M. flexor perforatus digiti III_
+  F. per. d. IV        _M. flexor perforatus digiti IV_
+  Gas.                 _M. gastrocnemius_
+  Iliacus              _M. iliacus_
+  Il. tib.             _M. iliotibialis_
+  Il. troc. ant.       _M. iliotrochantericus anticus_
+  Il. troc. med.       _M. iliotrochantericus medius_
+  Il. troc. post.      _M. iliotrochantericus posticus_
+  Int. cot.            Internal cotyla
+  Isch. fem.           _M. ischiofemoralis_
+  Midmed. can.         Midmedial canal of hypotarsus
+  Obt. ext.            _M. obturator externus_
+  Obt. int.            _M. obturator internus_
+  P. ant.              _Pars anticus_
+  P. ext.              _Pars externa_
+  P. int.              _Pars interna_
+  P. med.              _Pars media_
+  P. post.             _Pars posticus_
+  Per. brev.           _M. peroneus brevis_
+  Per. long.           _M. peroneus longus_
+  Pirif.               _M. piriformis_
+  Plan.                _M. plantaris_
+  Posterolat. can.     Posterolateral canal of hypotarsus
+  Posteromed. can.     Posteromedial canal of hypotarsus
+  Sar.                 _M. sartorius_
+  Semim.               _M. semimembranosus_
+  Semit.               _M. semitendinosus_
+  Tib. ant.            _M. tibialis anticus_
+  Tib. cart.           Tibial cartilage
+
+  [Illustration: FIG. 1. _Pipilo erythrophthalmus._ Lateral view of
+      the superficial muscles of the left leg, × 1.5.]
+
+  [Illustration: FIG. 2. _Pipilo erythrophthalmus._ Lateral view of
+      the left leg showing a deeper set of muscles. The superficial
+      muscles _iliotibialis_, _sartorius_, _gastrocnemius_ and
+      _peroneus longus_ have been removed, × 1.5.]
+
+  [Illustration: FIG. 3. _Pipilo erythrophthalmus._ Lateral view of
+      the left leg showing the still deeper muscles. In addition to
+      those listed for figure 2, the following muscles have been
+      wholly or partly removed: _iliotrochantericus posticus_,
+      _femorotibialis externus_, _femorotibialis medius_,
+      _biceps femoris_, _semitendinosus_, _tibialis anticus_,
+      _flexor perforans et perforatus digiti II_, and _flexor
+      perforans et perforatus digiti III_, × 1.5.]
+
+  [Illustration: FIG. 4. _Pipilo erythrophthalmus._ Medial view of
+      the superficial muscles of the left leg, × 1.5.]
+
+  [Illustration: FIG. 5. _Pipilo erythrophthalmus._ Medial view of
+      the left leg showing a deeper set of muscles than those seen
+      in figure 4. The following superficial muscles have been
+      removed: _iliotibialis_, _sartorius_, _femorotibialis internus_,
+      _obturator internus_, _adductor longus (pars posticus)_,
+      _gastrocnemius_, and _peroneus longus_, × 1.5.]
+
+  [Illustration: FIG. 6. _Pipilo erythrophthalmus._ Proximal end of
+      left tarsometatarsus and the hypotarsus, × 4.]
+
+  [Illustration: FIG. 7. _Pipilo erythrophthalmus._ Lateral view of
+      proximal end of left femur and a portion of the pelvis, × 3.5.]
+
+  [Illustration: FIG. 8. _Pipilo erythrophthalmus._ Upper surfaces
+  of the phalanges of the foretoes of the left foot showing
+  insertions of the _M. extensor digitorum longus_, × 3.]
+
+  [Illustration: FIG. 9. _Pipilo erythrophthalmus._ Medial view of
+      the second digit of the left foot, showing insertions of the
+      flexor muscles, × 3.]
+
+The division of the _pars interna_ of the _m. gastrocnemius_ into
+anterior and posterior parts has not been reported by previous authors
+yet the division is quite distinct in those birds in which it occurs.
+Hudson (1937:36) points out that in some non-passerine birds the _pars
+interna_ is double, but that in these species the _m. semimembranosus_
+inserts between the two parts. This is not the condition in those
+species studied by me. Only the ploceids and the cardueline finches in
+the present investigation fail to show such a division. The undivided
+muscle in these birds resembles, in its origin and position, the
+posterior portion of the muscle found in those species showing the
+bipartite condition. The greater mass of the bipartite muscle probably
+makes possible a stronger extension of the tarsometatarsus.
+
+Thus, the divided or undivided conditions of the _m. obturator
+externus_ and the _pars interna_ of the _m. gastrocnemius_ seem to be
+correlated with the degrees of strength of certain movements of the
+leg. It is conceivable that these differences in structure are
+correlated with the manner in which food is obtained, the birds having
+the bipartite muscles being those which spend the most time on the
+ground searching and scratching for seeds and other sorts of food.
+Yet, in _Leucosticte_, a cardueline, and in _Calcarius_, an
+emberizine, whose foraging habits are rather similar, the structure is
+unlike. _Leucosticte_ does resemble the emberizines and also _Piranga_
+and _Spzia_ in the extension of a band of muscle fibers from the _pars
+interna_ of the _m. gastrocnemius_ around the front of the knee. A
+band of muscle fibers of this sort strengthens the knee joint and
+gives still more strength to the _pars interna_. This condition has
+been reported in a number of birds by Hudson (1937) and is, in all
+probability, an adaptation for greater strength of certain leg
+movements. The development of this band in _Leucosticte_ seems to
+parallel that in the other birds studied and does not indicate
+relationship, since in _Leucosticte_ this band arises from the
+undivided muscle which (as stated above) resembles only the posterior
+portion of the bipartite muscle described for the other birds. In the
+latter, the muscular band arises from the anterior part of the muscle.
+
+Minor differences in muscle pattern, like those already mentioned, are
+consistent also between subfamilies, but correlation of these minor
+differences with function is difficult. There is the implication,
+however, that in all the groups except the carduelines and ploceids,
+the emphasis is on greater strength and mobility of the leg. In the
+carduelines that were studied the origin of the _m. sartorius_ does
+not extend so far craniad as in the other species. In the latter, at
+least half of the origin is from the last one or two free dorsal
+vertebrae; in the carduelines no more than one third of the origin is
+anterior to the ilium. It is conceivable that the more craniad the
+origin, the stronger the forward movement of the thigh would be.
+
+In _Passer_, _Estrilda_ and _Poephila_, and in all the cardueline
+finches examined, the bellies of the _m. flexor perforans et
+perforatus digiti II_ and the _m. flexor perforans et perforatus
+digiti III_ are more intimately connected than they are in the other
+species studied. Thus, the amount of independent action of these
+muscles in _Passer_, in the estrildines, and in the carduelines
+probably is reduced.
+
+In _Passer_, the estrildines, and the carduelines the edges of the
+sheathlike tendon of insertion of the _m. perforatus digiti III_ are
+thickened; as a result the insertion appears superficially to be
+double but closer examination reveals that there is a fascia stretched
+between the thickened edges. In the other species examined, the
+insertion is sheathlike throughout and there are no thick areas. I
+cannot explain this on the basis of function. The difference, however,
+is obvious and constant.
+
+Aside from the differences noted above, there were variations of
+muscle pattern that seem to be significant only in _Vireo olivaceus_.
+In this species the central, aponeurotic portion of the _m.
+iliotibialis_ is absent. The origin of the _m. adductor longus et
+brevis_ is from the dorsal edge of the ischiopubic fenestra and not
+from the membrane covering this fenestra. The origin of the _pars
+posticus_ of this muscle, furthermore, is fleshy and not tendinous as
+it is in the other species. The _m. flexor perforatus digiti II_ is
+larger and more deeply situated in _Vireo_ and has, furthermore, no
+connection with the _m. flexor hallucis longus_. The latter muscle is
+smaller and weaker than in any of the other species and has only one
+(the posterior) head of origin. The _m. flexor hallucis brevis_, on
+the contrary, is larger than in the other birds, compensating,
+probably, for the small _m. flexor hallucis longus_. In those
+differences, however, which separate the carduelines and ploceids from
+the other birds studied, _Vireo_ resembles, in every instance, the
+richmondenines, emberizines, tanagers, warblers, and blackbirds.
+
+On the basis of differences in leg-musculature the species which are
+now included in the Family Fringillidae may be separated into two
+groups. One group includes the richmondenines and the emberizines; the
+other, the carduelines. The muscle patterns of the legs of the birds
+of the first group are indistinguishable from those of _Seiurus_,
+_Icterus_, _Molothrus_, and _Piranga_, and except for the differences
+noted are similar to those in _Vireo_. The carduelines, on the other
+hand, are similar in every point of leg-musculature to the ploceids
+which were studied. Thus, the heterogeneity of the Family
+Fringillidae, as now recognized, is emphasized by differences in the
+muscle patterns of the leg.
+
+
+
+
+COMPARATIVE SEROLOGY
+
+
+General Statement
+
+The application of serological techniques to the problems of animal
+relationships has been attempted with varying degrees of success over
+a period of approximately fifty years. Few of the earlier studies were
+of a quantitative nature, but within the past decade, satisfactory
+quantitative serological techniques have been developed whereby
+taxonomic relationships may be estimated. The usefulness of
+comparative serology in taxonomy has been demonstrated in
+investigations of many groups wherein results obtained have, in most
+instances, been compatible with the results obtained by more
+conventional methods, such as comparative morphology. As Boyden
+(1942:141) stated, "comparative serology ... is no simple guide to
+animal relationship." However, the objectiveness of its methods, the
+fact that it has its basis in the comparisons of biochemical systems
+which seem to be relatively slow to change in response to external
+environmental influences, and the fact that the results are of
+quantitative nature favor, where possible, the inclusion of data from
+comparative serology along with that from more conventional sources
+when an attempt is made to determine the relationships of groups of
+animals.
+
+The application of serological methods in ornithology has not been
+extensive. Irwin and Cole (1936) and Cumley and Irwin (1941, 1944)
+used two species of doves and their hybrids and demonstrated that a
+distinction between the red cells of these birds could be made by use
+of immunological methods involving the agglutinin reaction. McGibbon
+(1945) was able to distinguish the red cells of interspecific hybrids
+in ducks by similar methods. Irwin (1953) used similar techniques in
+his study of the evolutionary patterns of some antigenic substances of
+the blood cells of birds of the Family Columbidae. Sasaki (1928)
+demonstrated the usefulness of the precipitin technique in
+distinguishing species of ducks and their hybrids. This technique
+was used successfully also by DeFalco (1942) and by Martin and
+Leone (1952). Working with groups of known relationships, these
+investigators showed that the "accepted" systematic positions of
+certain birds were confirmed by serological procedures. The precipitin
+reaction, however, has never been applied to actual problems in avian
+taxonomy prior to the present study.
+
+
+Preparation of Antigens
+
+Although most previous work in comparative serology in which
+precipitin tests were used has involved the use of whole sera as
+antigens, Martin and Leone (1952) indicated that tissue extracts are
+satisfactory as antigens and that serological differentiation can be
+obtained with these extracts and the antisera to them. I decided,
+therefore, to use such extracts in these investigations, since the
+small sizes of the birds to be tested made it impracticable to obtain
+enough whole sera.
+
+Most of the birds used were obtained by shooting, but a few were
+trapped and the exotic species were purchased alive from a pet dealer.
+When a bird was killed, the entire digestive tract was carefully
+removed to prevent the escape of digestive enzymes into the tissues
+and to prevent putrefaction by action of intestinal bacteria. As soon
+as possible (and within three hours in every instance) the bird was
+skinned, the head, wings, and legs were removed, and the body was
+frozen. Each specimen, consisting of trunk, heart, lungs, and kidneys,
+was wrapped separately and carefully in aluminum foil to prevent
+dehydration of the tissues. The specimens were kept frozen until the
+time when the extracts were made.
+
+When an extract was to be prepared, the specimen was allowed to thaw
+but not to become warm. In the cold room with the temperature of all
+equipment and reagents at 2°C., the specimen was placed in a Waring
+blender with 0.9 per cent aqueous solution of NaCl buffered with M/150
+K_{2}HPO_{4} and M/150 Na_{2}HPO_{4} to a pH of 7.0. The amount of
+reagent used was 75 ml. of saline for each gram of tissue to be
+extracted. The tissues were minced in the blender, allowed to stand at
+2°C. for 72 hours, and the tissue residues removed by centrifugation
+in a refrigerated centrifuge. Formalin was added to a portion of the
+supernatant in the amount necessary to make the final dilution 0.4 per
+cent. This formolization was found to be necessary to inhibit the
+action of autolytic enzymes over the period of time required to
+complete the investigations. The effects of formolization on the
+antigenicity and reactivity of proteins are discussed later. It was
+necessary to sterilize and clarify the "native" (unformolized)
+extracts; this was done by filtration through a Seitz filter. These
+"native" substances were used only in the early stages of the
+investigation (see below). The filtrate was bottled and stored at 2°C.
+In the early stages of this investigation clarification of the
+formolized extract was accomplished by the same sort of filtration. It
+was determined, however, that centrifugation in a refrigerated
+centrifuge at high speeds (17,000g) served the same purpose and was
+quicker. The formolized extracts were bottled and also stored at 2°C.
+(although refrigerated storage of the formolized extracts does not
+seem necessary). For each extract the amount of protein present was
+determined colorimetrically by the method of Greenberg (1929) with a
+Leitz Photrometer.
+
+Species for which extracts were prepared and the protein values of the
+extracts are listed in Table 1. Extracts of some species were used
+throughout most of the experiment; extracts of others were used only
+when needed for purposes of comparison.
+
+  TABLE 1.--Species from Which Extracts Were Prepared and Injection
+     Schedules for Extracts Against Which Antisera Were Produced
+
+ ==========================+==========+=================================
+                           | Protein, |
+           SPECIES         | gms. per |      Injection schedules for
+                           | 100 ml.  |      production of antisera
+ --------------------------+----------+---------------------------------
+ _Myiarchus crinitus_      |   0.65   | Series 1: Intravenous, 0.5, 1.0,
+      (Linnaeus)           |          | 2.0, and 4.0 ml.
+ --------------------------+----------+---------------------------------
+ _Passer domesticus_       |   1.40   | Series 1: Subcutaneous, 0.5,
+                           |          | 1.0, 2.0, and 4.0 ml.
+ --------------------------+----------+---------------------------------
+ _Estrilda amandava_       |   0.45   | [A]Series 1: Intravenous, 0.5,
+                           |          | 1.0, 2.0, and 4.0 ml.
+                           |          |
+                           |          | [A]Series 2: Subcutaneous, 0.5,
+                           |          | 1.0, and 2.0 ml.
+                           |          |
+                           |          | Intraperitoneal, 8.0 ml.
+ --------------------------+----------+---------------------------------
+ _Poephila guttata_        |   0.56   | [A]Same as for _Estrilda_.
+ --------------------------+----------+---------------------------------
+ _Molothrus ater_          |   0.65   | Series 1: Intravenous and
+                           |          | subcutaneous, respectively, 0.5
+                           |          | and 0.5 ml., 1.0 and 1.0 ml.,
+                           |          | 3.0 and 1.0 ml., 5.0 and 3.0 ml.
+                           |          |
+                           |          | Series 2: Subcutaneous, 0.5,
+                           |          | 1.0, 2.0 and 4.0 ml.
+ --------------------------+----------+---------------------------------
+ _Piranga rubra_           |   0.50   | Same as for _Molothrus_.
+ --------------------------+----------+---------------------------------
+ _Richmondena cardinalis_  |   0.70   | [A]Same as for _Estrilda_.
+ --------------------------+----------+---------------------------------
+ _Richmondena cardinalis_  |   0.60   | Same as for _Spinus_.
+ --------------------------+----------+---------------------------------
+ _Passerina cyanea_        |   0.45   | Antiserum not prepared.
+ --------------------------+----------+---------------------------------
+ _Spiza americana_         |   0.70   | Same as for _Molothrus_.
+ --------------------------+----------+---------------------------------
+ _Carpodacus purpureus_    |   0.50   | Antiserum not prepared.
+ --------------------------+----------+---------------------------------
+ _Spinus tristis_          |   0.49   | Series 1: Intravenous, 0.5, 1.0,
+                           |          | 2.0, and 4.0 ml.
+                           |          |
+                           |          | Series 2: Intravenous, 0.5, 1.0,
+                           |          | 2.0, and 4.0 ml.
+                           |          |
+                           |          | Series 3: Subcutaneous, 0.5,
+                           |          | 1.0, 2.0, and 4.0 ml.
+ --------------------------+----------+---------------------------------
+ _Pipilo erythrophthalmus_ |   0.92   | Antiserum not prepared.
+ --------------------------+----------+---------------------------------
+ _Junco hyemalis_          |   0.56   | Same as for _Spinus_.
+ --------------------------+----------+---------------------------------
+ _Spizella arborea_        |   0.48   | Same as for _Spinus_.
+ --------------------------+----------+---------------------------------
+ _Zonotrichia querula_     |   0.48   | Same as for _Spinus_.
+ --------------------------+----------+---------------------------------
+ _Zonotrichia albicollis_  |   0.92   | Antiserum not prepared.
+         (Gmelin)          |          |
+ --------------------------+----------+---------------------------------
+
+    [A] Antiserum prepared against formolized antigen.
+
+
+Preparation of Antisera
+
+All antisera were produced in rabbits (laboratory stock of
+_Oryctolagus cuniculus_). Three methods of injection of antigen were
+used in various combinations: intravenous, subcutaneous, and
+intraperitoneal. Injection schedules used in the production of each
+antiserum are listed in Table 1. Both formolized and "native" antigens
+were used. Each rabbit received one or more series of four injections,
+each injection being administered on alternate days and doubling in
+amount: 0.5 ml., 1.0 ml., 2.0 ml., and 4.0 ml. In all but two
+instances more than one series of injections was necessary to produce
+a useful antiserum. More than two series, however, resulted in little
+or no improvement of the reactivity of the antiserum.
+
+The injection-series were separated by intervals of eight days. On the
+eighth day after the last injection of each series, 10 ml. of blood
+were withdrawn from the main artery of the ear of the rabbit, and the
+antiserum was used in a homologous precipitin test to determine its
+usefulness. If the antiserum contained sufficient amounts of
+antibodies to conduct the projected tests, the rabbit was completely
+exsanguinated by cardiac puncture, by using an 18-gauge needle and a
+50 ml. syringe. The whole blood was placed in clean test tubes and
+allowed to clot. It was allowed to stand at 2°C. for 12 to 18 hours so
+that most of the serum would be expressed from the clot. The serum was
+then decanted, centrifuged to remove all blood cells, sterilized in a
+Seitz filter, bottled in sterile vials, and stored at 2°C. until used.
+
+
+Methods of Serological Testing
+
+The precipitin reaction is the most successful of the serological
+techniques thus far devised for systematic comparisons. The reaction
+occurs because antigenic substances introduced into the body of an
+animal cause the formation of antibodies which precipitate antigens
+when the two are mixed. The antisera which are produced show
+quantitative specificities in their actions; therefore, when an
+antiserum containing precipitins is mixed with each of several
+antigens, the reaction involving the homologous antigen (that used in
+the production of the antiserum) is greater than those reactions
+involving the heterologous antigens (antigens other than those used in
+the production of the antiserum). Furthermore, the magnitudes of the
+reactions between the antiserum and the heterologous antigens vary
+according to the degrees of similarity of these antigens to the
+homologous one.
+
+The method of precipitin testing follows that outlined by Leone
+(1949). The Libby (1938) Photronreflectometer was used to measure the
+turbidities developed by the interaction of antigen and antiserum.
+With this instrument parallel rays of light are passed through the
+turbid systems being measured. Light rays are reflected from the
+suspended particles to the sensitive plate of a photoelectric cell;
+this generates a current of electricity which causes a deflection on a
+galvanometer. The deflection is proportional to the amount of
+turbidity developed and readings may be taken directly from the scale
+of the instrument.
+
+The reaction-cells of the photronreflectometer are designed to operate
+with a volume of 2 ml.; therefore, this volume was used in all
+testing. In every series of tests the amount of antiserum was held
+constant and the amount of antigen was varied. The volume for each
+antigen dilution was always 1.7 ml., and to this was added 0.3 ml. of
+antiserum to make up a volume of 2 ml.
+
+  TABLE 2.--Percentage values obtained from analyses of precipitin
+  reactions. Numerals represent relative amounts of reaction between
+  antigens and antisera. Homologous reactions are arbitrarily valued
+  as 100 per cent, and heterologous reactions are expressed
+  accordingly. _Comparisons are meaningful only if made within each
+  horizontal row of  values._
+
+  Table headings:
+    Col A:  _Estrilda amandava_
+    Col B:  _Poephila guttata_
+    Col C:  _Piranga rubra_
+    Col D:  _Richmondena cardinalis_
+    Col E:  _Spiza americana_
+    Col F:  _Spinus tristis_
+    Col G:  _Junco hyemalis_
+    Col H:  _Zonotrichia querula_
+
+ ========================+==============================================
+                         |                   ANTISERA
+        ANTIGENS         +-----+-----+-----+-----+-----+-----+-----+----
+                         |  A  |  B  |  C  |  D  |  E  |  F  |  G  |  H
+ ------------------------+-----+-----+-----+-----+-----+-----+-----+----
+ _Passer domesticus_     |  75 |  74 |  73 |  66 |  81 |  72 | ... |  81
+ ------------------------+-----+-----+-----+-----+-----+-----+-----+----
+ _Estrilda amandava_     | 100 |  88 |  75 | ... |  79 |  72 |  53 | ...
+ ------------------------+-----+-----+-----+-----+-----+-----+-----+----
+ _Poephila guttata_      |  95 | 100 |  77 |  67 |  87 |  81 | ... | ...
+ ------------------------+-----+-----+-----+-----+-----+-----+-----+----
+ _Molothrus ater_        |  66 |  54 |  69 |  65 |  86 |  75 |  69 |  75
+ ------------------------+-----+-----+-----+-----+-----+-----+-----+----
+ _Piranga rubra_         | ... | ... | 100 | ... | ... | ... | ... |  89
+ ------------------------+-----+-----+-----+-----+-----+-----+-----+----
+ _Richmondena cardinalis_|  75 |  80 |  91 | 100 |  98 |  65 |  88 |  91
+ ------------------------+-----+-----+-----+-----+-----+-----+-----+----
+ _Spiza americana_       |  65 |  68 | ... |  71 | 100 |  64 |  67 |  80
+ ------------------------+-----+-----+-----+-----+-----+-----+-----+----
+ _Carpodacus purpureus_  |  70 |  71 |  71 |  61 |  89 |  93 |  53 |  70
+ ------------------------+-----+-----+-----+-----+-----+-----+-----+----
+ _Spinus tristis_        |  72 |  74 |  73 |  60 |  89 | 100 |  60 | ...
+ ------------------------+-----+-----+-----+-----+-----+-----+-----+----
+ _Junco hyemalis_        |  64 |  56 |  74 |  65 |  87 | 68  | 100 | ...
+ ------------------------+-----+-----+-----+-----+-----+-----+-----+----
+ _Zonotrichia querula_   |  65 |  71 | ... |  67 |  89 | 75  | ... | 100
+ ------------------------+-----+-----+-----+-----+-----+-----+-----+----
+
+Antigens were diluted with 0.9 per cent phosphate-buffered saline
+solution. Tests were run in standard Kolmer test-tube racks, each test
+consisting of 12 tubes. Each dilution was made on the basis of the
+known protein concentration of the antigen. The first tube contained
+an initial dilution of 1 part protein in 250 parts saline and each
+successive tube contained a protein dilution one-half the
+concentration of the preceding tube, ranging up to 1:512,000. Saline
+controls, antiserum controls, and antigen controls were maintained
+with each test to determine the turbidities inherent in these
+solutions. These control-turbidities were deducted from the total
+turbidity developed in each reaction-tube, the resultant turbidity
+then being considered as that which was caused by the interaction of
+antigens and antibodies. The turbidities were allowed to develop over
+a 24-hour period. In the early stages of this investigation the
+reactions were allowed to take place at 2°C. in order to inhibit
+bacterial growth.
+
+Later tests were carried out at room temperatures, and bacterial
+growth was prevented by the addition to each tube of 'Merthiolate' in
+a final dilution of 1:10,000.
+
+
+Experimental Data
+
+Corrected values for the turbidities obtained were plotted with the
+turbidity values on the ordinate and the antigen dilutions on the
+abscissa. The homologous reaction was the standard of reference for
+all other test reactions with the same antiserum. By summing the
+plotted turbidity readings, numerical values are obtained which are
+indices serving to characterize the curves. Such values were converted
+to percentage values, that of the homologous reaction being considered
+100 per cent. These values, plus the curves, provide the data by means
+of which the proteins of the birds may be compared. Plots
+representative of the precipitin curves are presented in Figs. 10 to
+21. For convenience each plot represents only several of the 10 curves
+obtained with each antiserum.
+
+A summary of the serological relationships of the birds involved in
+the precipitin tests is presented in Table 2, in which percentage
+values are presented. Since the techniques involved in testing were
+greatly improved as the investigation proceeded, the summary is based
+solely on those tests run in the later stages of the investigation.
+For reasons which will become apparent in later discussion, it should
+be emphasized that in Table 2 comparisons may be made only within each
+horizontal row of values.
+
+
+Discussion of the Serological Investigations
+
+One of the problems met early in this investigation was instability of
+the proteins in the extracts that were prepared. Extracts in which no
+attempt was made to inactivate the enzymes present proved
+unsatisfactory. It was necessary to maintain the temperature of the
+"native" antigens at 2°C, and all work with such antigens had to be
+performed at this temperature. This arrangement was inconvenient;
+furthermore, inactivation of the enzymes was not complete even at this
+low temperature, and some denaturation of the proteins took place as
+evidenced by the gradual appearance of insoluble precipitates in the
+stored vials.
+
+The preservatives, 'Merthiolate' and formalin, were used in an attempt
+to inhibit the autolytic action of the enzymes present. Formalin, when
+added to make a final dilution of 0.4 per cent, proved to be the more
+satisfactory of the two preservatives and was used throughout most of
+the work. Formalin caused slight denaturation of some of the proteins,
+but this effect was complete within a few hours, after which any
+denatured material was removed by filtration or centrifugation. The
+proteins remaining in solution were stable over the period necessary
+to complete the investigations.
+
+The addition of formalin reduces the reactivity of the extracts when
+they are tested with antisera prepared against "native" antigens and
+causes changes in the nature of the precipitin curves. This effect has
+been pointed out by Horsfall (1934) and by Leone (1953) in their work
+on the effects of formaldehyde on serum proteins. Their data indicate,
+however, that even though changes in the immunological characteristics
+of proteins are brought about by formolization, the proteins retain
+enough of their specific chemical characteristics to allow consistent
+differentiation of species by immunological methods. In the tests
+which I performed, the relative positions of the precipitin curves,
+whether native or formolized extracts were involved, remained
+unchanged (Figs. 10, 11). _All data used in interpretation of the
+serological relationships were obtained from tests in which formolized
+antigens of equivalent age were used._
+
+Only three antisera were produced against formolized antigens, all
+others being produced against "native" extracts. The formolized
+antigens seemed to have a greater antigenicity, in most instances,
+than did those which were unformolized, and precipitin reactions
+involving antisera produced against formolized antigens developed
+higher turbidities. The antisera produced against formolized antigens
+were equal to but no better than those prepared against "native"
+extracts in separating the birds tested (Figs. 12, 13).
+
+The rabbit is a variable to be considered in serological tests. Two
+rabbits exposed to the same antigen, under the same conditions, may
+produce antisera which differ greatly in their capacities to
+distinguish different antigens. It is logical to assume, therefore,
+that two rabbits exposed to different antigens may produce antisera
+which also differ in this respect. This explains the unequal values of
+reciprocal tests shown in Table 2. Thus, in the test involving the
+antiserum to the extracts of _Richmondena_, a value of 71 per cent was
+obtained for _Spiza_ antigen, whereas in the test involving
+anti-_Spiza_ serum, a value of 98 per cent was obtained for
+_Richmondena_ antigen. In Table 2, therefore, comparisons may be made
+only among values for the proteins of birds tested with the same
+antiserum.
+
+Since the amount of any one antiserum is limited, there is, of
+necessity, a limit as to the number of birds used in a series of
+serological tests. Therefore, although the results reveal the actual
+serological relationships of the individual species, interpretation of
+the relationships of the taxonomic groups must be undertaken with the
+realization that such an interpretation is based on tests involving
+relatively few species of each group. It is reasonable to assume,
+however, that a species which has been placed in a group on the basis
+of resemblances other than serological resemblance would show greater
+serological correspondence to other members of that group than it
+would to members of other groups. Specifically, in the Fringillidae
+and their allies, there seems to be little reason to doubt that
+genera, and even subfamilies, are natural groups. This is illustrated
+in tests involving closely related genera: _Richmondena_ and _Spiza_
+(Figs. 14, 15, 18), _Estrilda_ and _Poephila_ (Fig. 21), _Spinus_ and
+_Carpodacus_ (Figs. 12, 17, 19, 20). In each of these tests the pairs
+of genera mentioned show greater serological correspondence to each
+other than they do to other kinds involved. This point is illustrated
+further by a test (not illustrated) involving _Zonotrichia querula_
+(the homologous antigen) and _Zonotrichia albicollis_. Although this
+test was one of an earlier series in which difficulties were
+encountered (the data, therefore, were not used), it is of interest
+that the two species were almost indistinguishable serologically.
+
+The serological homogeneity of passeriform birds is emphasized by the
+fact that the value of every heterologous reaction was more than 50
+per cent of the value of the homologous reaction, except in the test
+involving the anti-_Richmondena_ serum and _Myiarchus_ (Fig. 13) in
+which the value of the heterologous reaction was 45 per cent. Because
+most ornithologists consider these genera to be only distantly related
+(they are in different suborders within the Order Passeriformes), the
+relatively high value of the heterologous reaction emphasizes the
+close serological correspondence of passerine birds and indicates that
+small consistent serological differences among these birds are
+actually significant. The possibility that some of the serological
+correspondence is due to the "homologizing" effect of formalin on
+proteins should not be excluded. I think, however, that this effect is
+not entirely responsible for the close correspondence observed here.
+
+An additional point to consider in interpretation of the serological
+tests is that the techniques used tend to separate sharply species
+that are closely related whereas species that are distantly related
+are not so easily separated. In other words, comparative serological
+studies with the photronreflectometer tend to minimize the differences
+between distant relatives and to exaggerate the differences between
+close relatives.
+
+In analyzing the serological relationships of the species used in this
+study, it becomes obvious that two or more series of tests must be
+considered before the birds can be placed in relation to each other.
+For example, the data presented in Fig. 14 indicate that _Spiza_ and
+_Molothrus_ show approximately the same degree of serological
+correspondence to _Richmondena_. This does not imply necessarily that
+_Spiza_ and _Molothrus_ are closely related. If Fig. 15 is examined,
+it can be determined that _Richmondena_ shows much greater serological
+correspondence to _Spiza_ than does _Molothrus_. Thus, an analysis of
+both figures serves to clarify the true serological relationships of
+the three genera. By reference to other series of tests involving
+these three birds a more exact determination of their relationships
+may be obtained.
+
+To illustrate this point by a hypothetical example, two species might
+seem equidistant, serologically, from a third species. Additional
+testing should indicate if the first two species are equidistant in
+the same direction (therefore, by implication, close relatives) or in
+opposite directions (therefore, distant relatives). A single test
+supplies only two dimensions of a three dimensional arrangement.
+
+It is impossible to interpret and to picture the serological data
+satisfactorily in two dimensions; therefore, a three-dimensional model
+(Figs. 22, 23) was constructed to summarize the serological
+relationships of the birds involved. Each of the eleven kinds used
+consistently throughout the investigation is represented in the model.
+By use of the percentage values (Table 2), each bird was located in
+relation to the other birds. Where possible, averages of reciprocal
+tests (Table 3) were used in determining distances between the
+elements of the model. In this way seven of the birds were accurately
+located in relation to each other. Lacking reciprocal tests, the
+positions of the other birds were determined by the values of single
+tests (Table 4). Although these birds were placed with less certainty,
+at least four points of reference were used in locating each species.
+At least one serological test is represented by each connecting bar in
+the model. The lengths of the bars connecting any two elements were
+determined as follows: a percentage value (Table 3 and Table 4)
+representing the degree of serological correspondence between two
+birds was subtracted from 100 per cent; the remainder was multiplied
+by a factor of five to increase the size of the model and the product
+was expressed in millimeters; a bar of proper length connects the two
+elements involved.
+
+From the model it is observed that, _Molothrus_ and _Passer_ excluded,
+the birds fall into two distinct groups: one includes _Piranga_,
+_Richmondena_, _Spiza_, _Junco_, and _Zonotrichia_; the other includes
+_Estrilda_, _Poephila_, _Carpodacus_, and _Spinus_.
+
+  TABLE 3.--Reciprocal Values Used to Determine Distances Between
+    Elements of the Model; Each Value Represents the Average of
+          Serological Tests Between the Species Involved
+
+  Table Headings:
+    Col A: _Estrilda amandava_
+    Col B: _Poephila guttata_
+    Col C: _Richmondena cardinalis_
+    Col D: _Spiza americana_
+    Col E: _Spinus tristis_
+    Col F: _Junco hyemalis_
+    Col G: _Zonotrichia querula_
+
+ ==========================+====+====+====+====+====+====+====+
+                           |  A |  B |  C |  D |  E |  F |  G |
+ --------------------------+----+----+----+----+----+----+----+
+ _Estrilda amandava_       | .. | 92 | .. | 72 | 72 | 59 | .. |
+ --------------------------+----+----+----+----+----+----+----+
+ _Poephila guttata_        | 92 | .. | 74 | 78 | 78 | .. | .. |
+ --------------------------+----+----+----+----+----+----+----+
+ _Richmondena cardinalis_  | .. | 74 | .. | 85 | 63 | 77 | 79 |
+ --------------------------+----+----+----+----+----+----+----+
+ _Spiza americana_         | 72 | 78 | 85 | .. | 77 | 77 | 85 |
+ --------------------------+----+----+----+----+----+----+----+
+ _Spinus tristis_          | 72 | 78 | 63 | 77 | .. | .. | .. |
+ --------------------------+----+----+----+----+----+----+----+
+ _Junco hyemalis_          | .. | .. | 77 | 77 | .. | .. | .. |
+ --------------------------+----+----+----+----+----+----+----+
+ _Zonotrichia querula_     | .. | .. | 79 | 85 | .. | .. | .. |
+ --------------------------+----+----+----+----+----+----+----+
+
+  TABLE 4.--Single Values Used to Determine Distances Between Elements
+      of the Model; Each Value Represents a Single Test Between the
+                           Species Involved
+
+  Table headings:
+    Col A: _Estrilda amandava_
+    Col B: _Poephila guttata_
+    Col C: _Piranga rubra_
+    Col D: _Richmondena cardinalis_
+    Col E: _Spinus tristis_
+    Col F: _Junco hyemalis_
+    Col G: _Zonotrichia querula_
+
+ ==========================+====+====+====+====+====+====+====+
+                           |  A |  B |  C |  D |  E |  F |  G |
+ --------------------------+----+----+----+----+----+----+----+
+ _Passer domesticus_       | .. | 74 | 73 | .. | 72 | .. | .. |
+ --------------------------+----+----+----+----+----+----+----+
+ _Molothrus ater_          | .. | 54 | .. | 65 | .. | 69 | 75 |
+ --------------------------+----+----+----+----+----+----+----+
+ _Piranga rubra_           | .. | 77 | .. | 91 | 73 | 74 | .. |
+ --------------------------+----+----+----+----+----+----+----+
+ _Carpodacus purpureus_    | 70 | 71 | .. | 61 | 93 | .. | .. |
+ --------------------------+----+----+----+----+----+----+----+
+
+  [Illustration: FIGS. 10-13. Graphs of precipitin reactions
+      illustrating effects of formalin on antigenicity and reactivity
+      of the extracts. For further information, see text, pp. 190-193.
+
+  FIG. 10. Reactions of unformolized antigens of _Richmondena_,
+    _Zonotrichia_, and _Molothrus_ with anti-_Richmondena_ serum.
+  FIG. 11. Reactions of formolized antigens of _Richmondena_,
+    _Zonotrichia_, and _Molothrus_ with anti-_Richmondena_ serum.
+  FIG. 12. Reactions of anti-_Richmondena_ serum prepared against
+    native antigen with antigens of _Richmondena_, _Zonotrichia_,
+    _Carpodacus_, and _Spinus_.
+  FIG. 13. Reactions of anti-_Richmondena_ serum prepared against
+    formolized antigen with antigens of _Richmondena_, _Zonotrichia_,
+    _Poephila_, _Spinus_, and _Myiarchus_.]
+
+  [Illustration: FIGS. 14-17. Graphs of precipitin reactions
+      illustrating serological relationships. For further explanation,
+      see text, pp. 190-193.
+
+  FIG. 14. Serological relationships of _Richmondena_, _Spiza_, and
+    _Molothrus_.
+  FIG. 15. Serological relationships of _Richmondena_, _Spiza_, and
+    _Molothrus_.
+  FIG. 16. Serological relationships of _Carpodacus_ with the
+    richmondenine-emberizine-thraupid assemblage.
+  FIG. 17. Serological relationships of _Carpodacus_ and _Spinus_ with
+    _Richmondena_ and _Junco_.]
+
+  [Illustration: FIGS. 18-21. Graphs of precipitin reactions
+      illustrating serological relationships. For further explanation,
+      see text, pp. 190-193.
+
+  FIG. 18. Serological relationships of _Spinus_ and _Poephila_ with
+    the richmondenines.
+  FIG. 19. Serological relationships of _Carpodacus_ and _Spinus_
+    with _Richmondena_ and _Piranga_.
+  FIG. 20. Serological relationships of _Poephila_ and Richmondena
+    with the carduelines.
+  FIG. 21. Serological relationships of _Richmondena_ and _Spinus_
+    with the estrildines.]
+
+  [Illustration: FIG. 22. Two views of a model illustrating
+      serological relationships among fringillid and related birds.
+      For further explanation, see text, pp. 193-194.
+
+             Genera               Pi  . . . .  _Piranga_
+        C  . . . .  _Carpodacus_  Po  . . . .  _Poephila_
+        E  . . . .  _Estrilda_    R   . . . .  _Richmondena_
+        J  . . . .  _Junco_       Sn  . . . .  _Spinus_
+        M  . . . .  _Molothrus_   Sz  . . . .  _Spiza_
+        Pa . . . .  _Passer_      Z   . . . .  _Zonotrichia_]
+
+  [Illustration: FIG. 23. Two additional views of the model shown in
+      fig. 22 illustrating serological relationships among fringillid
+      and related birds. For further explanation, see text,
+      pp. 193-194.
+
+             Genera               Pi  . . . .  _Piranga_
+        C  . . . .  _Carpodacus_  Po  . . . .  _Poephila_
+        E  . . . .  _Estrilda_    R   . . . .  _Richmondena_
+        J  . . . .  _Junco_       Sn  . . . .  _Spinus_
+        M  . . . .  _Molothrus_   Sz  . . . .  _Spiza_
+        Pa . . . .  _Passer_      Z   . . . .  _Zonotrichia_]
+
+Within the richmondenine-emberizine-thraupid assemblage, _Junco_
+and _Zonotrichia_ constitute a sub-group apart from the others.
+_Piranga_ and _Richmondena_ show close serological correspondence.
+The present taxonomic position of _Spiza_ in the Richmondeninae,
+which has been questioned by Beecher (1951a:431; 1953:309), is
+corroborated at least insofar as the serological evidence is
+concerned. Certainly, serological correspondence of _Spiza_ with the
+richmondenine-emberizine-thraupid assemblage is greater than with any
+other group of birds tested.
+
+It is obvious that the serological affinities of the carduelines do
+not lie with the richmondenines, emberizines, or thraupids. The
+carduelines show greater serological correspondence with the
+estrildines than they do with any of the other groups tested. Further
+serological investigation involving other species, however, is
+necessary before the nearest relatives of the carduelines can be
+determined with certainty.
+
+The two estrildines tested (_Estrilda_ and _Poephila_) show close
+serological relationship. Their nearest relatives, serologically, seem
+to be the carduelines. The classification (Wetmore, 1951) that places
+_Passer_ in the same family with the estrildines is not upheld by the
+serological data available. _Passer_ is not, serologically, closely
+related to any of the birds tested. It is of interest that Beecher
+(1953:303-305), on the basis of jaw musculature, places _Passer_ and
+the estrildines in separate families (Ploceidae and Estrildidae,
+respectively).
+
+_Molothrus_ shows greater serological correspondence to the
+richmondenine-emberizine-thraupid assemblage than to any of the other
+birds tested. It is definitely set apart from this group, however, and
+its position, serologically, is compatible with that based on evidence
+from other sources.
+
+There seems to be but little argument among ornithologists that
+icterids, fringillids, and ploceids constitute families which are
+distinct from one another. If, then, the serological differences
+between _Molothrus_ (Icteridae) and _Richmondena_ (Fringillidae),
+between _Molothrus_ and _Zonotrichia_ (Fringillidae), and between
+_Richmondena_ and _Poephila_ (Ploceidae) are indicative of family
+differences, there are four families represented by the birds
+involved. _Molothrus_ represents one family; _Piranga_, _Richmondena_,
+_Spiza_, _Junco_, and _Zonotrichia_, a second; _Estrilda_, _Poephila_,
+_Carpodacus_, and _Spinus_, a third; and _Passer_, a fourth.
+
+
+
+
+CONCLUSIONS
+
+
+The heterogeneity of the Family Fringillidae has been emphasized by
+many authors. The relationships of the species now included in this
+Family have been the subject of much discussion and constitute an
+important problem in avian systematics.
+
+Sushkin's studies (1924, 1925) of features of the horny and bony
+palates have served as a basis for the present division of the Family
+into subfamilies. Recently, Beecher (1951a, 1951b, 1953) and Tordoff
+(1954) have used these features and others which they thought to be of
+value in an attempt to clarify the relationships of the species
+involved.
+
+Beecher's work (1951a, 1951b, 1953) on jaw-musculature is a valuable
+contribution to our knowledge of the anatomy of passerine birds. His
+myological studies were so thorough and his presentation so detailed
+that students who disagree with his interpretations can draw their own
+conclusions. Beecher (1951b:276) points out that there are two basic
+types of skeletal muscle--those with parallel fibers and those with
+pinnately arranged fibers. The muscles with pinnate fibers seem to be
+more efficient, each muscle having a greater functional cross section
+for its bulk than does one with parallel fibers. He assumes that
+muscles with parallel fibers are more primitive, phylogenetically,
+than are those with fibers arranged pinnately. Since his study of the
+jaw muscles of the Icteridae (1951a) revealed that patterns of
+jaw-musculature within this Family remain constant regardless of the
+methods used in procuring food, he assumes that such patterns may be
+used as indicators of relationship throughout the entire oscinine
+group. These two assumptions, then, serve as the basis for his
+hypothesis concerning relationship and phylogeny within this
+assemblage. Beecher (1951b:278-280; 1953:310-312) maintains that
+within the Family Thraupidae there are two main lines which lead with
+almost no disjunction to the Carduelinae and Richmondeninae. The
+thraupid-richmondenine line involves a shift in the nature of the _m.
+adductor mandibulae externus superficialis_, which becomes more
+pinnate in the richmondenines. This results in greater crushing power.
+The thraupid-cardueline line involves a shift in emphasis from the the
+_m. adductor mandibulae externus medialis_ to the _m. pseudotemporalis
+superficialis_ and the forward advance of the insertion of the latter.
+This, also, promotes greater crushing ability. He states that features
+of the horny palate and of the plumage provide further evidence of
+close relationship of these groups. He includes, therefore, the
+Thraupinae, the Carduelinae, and the Pyrrhuloxiinae (=Richmondeninae)
+in the Family Thraupidae. Beecher (1953:307) indicates that the
+patterns of jaw-musculature of the Parulinae (wood warblers) and
+Emberizinae (buntings) are similar and suggests that the buntings had
+their origin from the wood warblers. He includes these subfamilies,
+therefore, in the Family Parulidae.
+
+Beecher's reasoning may be criticized on several points. It may be, as
+he suggests, that muscles with parallel fibers evolved earlier,
+phylogenetically, than did muscles with pinnate fibers, but he does
+not give adequate consideration, it seems to me, to the possibility
+that parallel fibers may also have evolved secondarily from pinnate
+fibers. Since Beecher (1951a) found that patterns of jaw-musculature
+within the Family Icteridae were conservative, he is reluctant to
+admit the possibility of convergence among any of the other families.
+Differences in patterns of jaw-musculature are, however, functional
+adaptations and like the bill, which is also associated with
+food-getting may be subject to rapid evolutionary change. Finally, in
+attempting to classify the oscines, he has relied almost entirely on a
+single character--the pattern of jaw-musculature.
+
+Tordoff's attempts (1954) to clarify the relationships of the
+fringillids and related species are based chiefly on features of the
+bony palate. He assumes that since palato-maxillaries seem to be
+absent in the majority of passerine birds, their occurrence in certain
+nine-primaried oscine groups indicates relationship among these
+groups. He points out that these bones, when present, are important
+areas of origin of the _m. pterygoideus_ which functions in depression
+of the upper jaw and in elevation of the lower jaw. He assumes,
+therefore, that palato-maxillaries were evolved to provide for a more
+effective action of the _m. pterygoideus_. The need for such action
+could be associated with a seed-eating habit. All richmondenines and
+emberizines possess palato-maxillary bones either free or fused to the
+prepalatine bar, but there is no trace of these bones in the
+carduelines. Carduelines, furthermore, possess prepalatine bars that
+are characteristically flared anteriorly. This condition does not
+exist in the richmondenines or in the emberizines.
+
+Tordoff points out, also, that the irregular, erratic migrations of
+the New World Carduelinae are unlike the more regular migrations of
+the richmondenines and emberizines. The carduelines, furthermore, are
+more arboreal in their habits than are these other groups and exhibit
+a decided lack of nest sanitation during the later stages of nesting,
+a situation which contrasts with that found in the Richmondeninae and
+Emberizinae. He suggests, therefore, that the carduelines are not so
+closely related to the richmondenines and the emberizines as
+previously has been thought.
+
+Since there are only two cardueline genera, _Loximitris_ and
+_Hesperiphona_, endemic to the New World and at least 10 genera with
+many species endemic to the Old World, Tordoff (1954:15) suggests an
+Old World origin for the carduelines. He strengthens his argument for
+this hypothesis by pointing out that in features of the bony palate
+and in habits the carduelines resemble the estrildines of the Family
+Ploceidae.
+
+Tordoff (1954:29-30) states that the tanagers not only merge with the
+richmondenines but also grade imperceptibly into the emberizines. He
+includes, therefore, the Richmondeninae, Emberizinae, and Thraupinae
+in the Family Fringillidae. He suggests that the carduelines are
+ploceids, closely related to the Subfamily Estrildinae, on the basis
+of structure of the bony palate, geographic distribution, social
+behavior, and habits such as nest-fouling and nest-building.
+
+Tordoff, like Beecher, has based his interpretations chiefly on one
+feature--structure of the bony palate. Since this feature also is
+associated with food-getting, the possibilities of convergence of
+distantly related species with similar habits and divergence of
+closely related species with different habits may not be excluded.
+
+The hazard of unrecognized adaptive convergence cannot, of course, be
+excluded from most fields of taxonomic research, but some features of
+morphology and biochemistry are notably more conservative than others
+and undergo slower evolutionary change. Such features are often of
+utmost importance in distinguishing the higher taxonomic categories.
+
+Most ornithologists are aware that, within the Order Passeriformes,
+patterns of musculature in the leg have evolved at a slow rate and
+exhibit little variation within the Order. Differences which do occur,
+therefore, probably are significant, especially those that are
+consistent between groups of species. As I have pointed out earlier
+(p. 184), there are no significant differences in leg-musculature
+between the Richmondeninae, Emberizinae, and Thraupidae. Indeed, it is
+difficult to define these groups on the basis of leg-musculature. If
+these groups are of common origin, the lack of distinct boundaries
+between them is not surprising. A muscular band which extends from the
+_pars interna_ of the _m. gastrocnemius_ around the front of the knee
+is present in every emberizine species that I studied and in the Genus
+_Piranga_. With the exception of _Spiza_ none of the richmondenines
+possesses this band.
+
+The significant differences in leg-musculature which have been
+discussed above (pp. 183-184) distinguish the carduelines from the New
+World finches and tanagers. Even the cardueline _Leucosticte_ and the
+emberizine _Calcarius_, which resemble one another in general
+adaptations and in several myological features of the leg (p. 183),
+agree in significant features of the musculature with the respective
+groups to which they belong. The carduelines agree in the major
+features of leg-musculature with the ploceids which I studied.
+
+The use of serological techniques in taxonomic work has two main
+advantages. The biochemical systems involved in such investigations
+seem to be relatively slow to change in response to external
+environmental influences, and the quantitative nature of the results
+obtained makes possible objective measurement of resemblances among
+species.
+
+I have pointed out (p. 200) that the carduelines are excluded,
+serologically, from the distinct assemblage formed by the
+richmondenines, emberizines, and tanagers. Actually, the carduelines
+show less serological resemblance to this assemblage than do the
+estrildines, and most ornithologists agree that the Estrildinae are
+not at all closely related to the Richmondeninae, Emberizinae, and
+Thraupidae. _Molothrus_, representing a family (Icteridae) recognized
+as distinct from the Family Fringillidae, also more closely resembles
+the fringillid assemblage, serologically, than do the carduelines.
+Although the Carduelinae constitute a distinct group serologically,
+they show greater serological resemblance to the estrildines of the
+Family Ploceidae than to any of the other species tested. At least the
+carduelines and the estrildines form a group as compact as the
+subfamilies of the Fringillidae. Thus, the serological data correlate
+well with those obtained from the study of the leg-musculature.
+
+Present systems of classification include the subfamilies Passerinae
+and Estrildinae in the Family Ploceidae. _Passer_, however, is less
+closely related to the estrildines serologically than are the
+carduelines, and is less closely related to the estrildines than
+_Molothrus_, an icterid, is to the fringillids. This raises a question
+as to the homogeneity of the Family Ploceidae as presently recognized
+by most ornithologists. If the Passerinae and the Estrildinae are
+placed in a single family, the serological divergence among members of
+this group is certainly greater than it is in the Family Fringillidae.
+Additionally, Beecher (1953:303-304) found that the estrildines
+possess a pattern of jaw-musculature different from those in other
+ploceids.
+
+The combined evidence from jaw-musculature and serology has caused me
+to conclude that the estrildines should be excluded from the Family
+Ploceidae (see below).
+
+In an attempt to clarify the relationships of the Fringillidae and
+allied groups, I here review briefly the evidence which has been
+presented. From his studies of jaw-musculature (1951a, 1951b,
+1953) Beecher concludes that the Pyrrhuloxinae (=Richmondeninae),
+the Carduelinae, and the Thraupinae are closely related.
+He places these groups in the Family Thraupidae. He excludes the
+Emberizinae from this group and places them with the wood warblers
+in the Family Parulidae. He suggests that the estrildines constitute
+a family (Estrildidae) separate from the Family Ploceidae.
+
+From his studies of certain features of the bony palate Tordoff
+(1954:25-26, 32) concludes that the richmondenines, the emberizines,
+and the tanagers have a common origin and places these groups in the
+Family Fringillidae. He excludes the carduelines from this assemblage,
+suggests that they are closely related to the estrildines, and
+includes them as the Subfamily Carduelinae in the Family Ploceidae.
+
+In this paper I have presented data obtained from the study of certain
+features of morphology and biochemistry which I think are less subject
+to the influence of environmental factors than those features studied
+by recent workers. It is significant that the data obtained by use of
+serological techniques and those obtained from the study of
+leg-musculature point to the same conclusions. On the basis of these
+data I have drawn several conclusions concerning the relationships of
+the groups which I studied.
+
+The richmondenines, emberizines, and tanagers are closely related and
+should be included in a single family, Fringillidae. The Carduelinae
+and the Estrildinae are closely related subfamilies. Although most
+recent classifications place the Estrildinae and Passerinae in the
+Family Ploceidae, the serological evidence indicates that these groups
+are not closely related. Beecher (1953:303-304) drew the same
+conclusion from his study of jaw-musculature (see above). I suggest,
+therefore, that the Carduelinae and the Estrildinae be placed in a
+family separate from the Ploceidae and that the name Carduelidae
+(rather than Estrildidae) be used for this group. At present, neither
+is an accepted family name. Because _Carduelis_ Brisson 1760 is an
+older name than _Estrilda_ Swainson 1827 and because _Carduelis_ seems
+to be a centrally located genus in the family, I have chosen the
+former (although the International Rules of Zoological Nomenclature do
+not specify that priority must apply in forming family names).
+
+I have been unable to study any of the species included in the
+subfamilies Fringillinae (not Fringillinae of Tordoff, see 1954:23-24,
+and below) and Geospizinae of recent classifications; thus these
+groups have not been discussed above. Beecher (1953:307-308) includes
+_Fringilla_ in the Subfamily Carduelinae; he includes the geospizines
+in a separate family, Geospizidae, and states that they are derived
+from the emberizines. Tordoff (1954:23-24) found that in features of
+the bony palate _Fringilla_ and the geospizines resemble the
+emberizines and, on this basis, includes them in the Subfamily
+Fringillinae.
+
+The Dickcissel, _Spiza americana_, possesses certain features which
+merit special discussion. Beecher (1951a:431; 1953:309), on the basis
+of jaw-musculature, considers it an icterid. To be sure _Spiza_ is in
+many ways an aberrant member of the group to which it is now assigned
+(Subfamily Richmondeninae). _Spiza_, serologically, is closely related
+to all species of the richmondenine-emberizine-thraupid assemblage.
+Within this assemblage its nearest relatives are the richmondenines.
+_Spiza_ differs from the other richmondenines studied and resembles
+the emberizines and tanagers in the possession of the muscular band
+which extends from the _pars interna_ of the _m. gastrocnemius_ around
+the front of the knee. This band, in _Spiza_, is smaller, however,
+than in any of the other species. No icterid dissected possesses such
+a structure. Tordoff (1954:29) states that _Spiza_ is typically
+richmondenine in palatal structure and makes the suggestion, with
+which I agree, that _Spiza_ is a richmondenine and may be closely
+related to the ancestral stock which gave rise to the fringillid
+assemblage. The serological position of _Spiza_, approximately
+equidistant from the other fringillids (Figs. 22, 23), and the
+presence of the small muscular band around the front of the knee
+constitute evidence supporting the central position of _Spiza_.
+
+After consideration of evidence from the studies of external
+morphology, ethology, myology, osteology, and serology, I propose here
+an arrangement of the groups which I have studied and submit for
+comparison the arrangements (of these groups) proposed by Beecher and
+Tordoff. The names of subfamilies that I have been unable to study are
+included in my classification and are placed in brackets.
+
+ ------------------------+----------------------+-----------------------
+                         | Proposed by Tordoff  |  Proposed by Beecher
+      Here proposed:     | (1954) on the basis  |  (1953) on the basis
+                         | of the bony palate:  |  of jaw-musculature:
+ ========================+======================+=======================
+     FAMILY PLOCEIDAE    |   FAMILY PLOCEIDAE   |    FAMILY PLOCEIDAE
+                         |                      |
+ [Subf. Bubalornithinae] |Subf. Bubalornithinae |
+                         |                      |
+ Subfamily Passerinae:   |Subfamily Passerinae  | Subfamily Passerinae
+ distinguished from the  |                      |
+ Estrildinae by patterns |                      |
+ of jaw-musculature      |                      |
+ (Beecher, 1953:303-304) |                      |
+ and on the basis of     |                      |
+ comparative serology of |                      |
+ saline-soluble proteins.|                      |
+                         |                      |
+ [Subfamily Ploceinae]   |Subfamily Ploceinae   | Subfamily Ploceinae
+                         |                      |
+ [Subfamily Viduinae]    |Subfamily Viduinae    | Subfamily Viduinae
+                         |                      |
+    FAMILY CARDUELIDAE   |                      |
+                         |                      |
+ Subfamily Estrildinae:  |Subfamily Estrildinae |   FAMILY ESTRILDIDAE
+ similar to the          |                      |
+ Carduelinae in features |                      |
+ of the bony palate and  |                      |
+ habits (Tordoff, 1954:  |                      |
+ 18-22) and in patterns  |                      |
+ of leg-musculature and  |                      |
+ comparative serology    |                      |
+ of saline-soluble       |                      |
+ proteins.               |                      |
+                         |                      |
+ Subfamily Carduelinae:  |Subfamily Carduelinae | [In Thraupidae below]
+ distinguished from the  |                      |
+ Fringillidae by features|                      |
+ of the palate,          |                      |
+ geographic distribution,|                      |
+ migration patterns, and |                      |
+ habits (Tordoff, 1954:  |                      |
+ 14-18) and by patterns  |                      |
+ of leg-musculature and  |                      |
+ comparative serology    |                      |
+ of saline-soluble       |                      |
+ proteins.               |                      |
+                         |                      |
+ FAMILY FRINGILLIDAE: all| FAMILY FRINGILLIDAE  |   FAMILY PARULIDAE
+ members of this family  |                      |  Subfamily Parulinae
+ show similarities in    |                      | Subfamily Emberizinae
+ features of the bony    |                      |
+ palate (Tordoff, 1954:  |                      |
+ 22-23), patterns of     |                      |
+ leg-musculature, and    |                      |
+ in comparative serology |                      |
+ of saline-soluble       |                      |
+ proteins.               |                      |   FAMILY THRAUPIDAE
+                         |                      |
+ Subf. Richmondeninae    |Subf. Richmondeninae  | Subfamily
+                         |                      | Pyrrhuloxiinae
+                         |                      |
+ Subfamily Thraupinae    |Subfamily Thraupinae  | Subfamily Thraupinae
+                         |                      |
+ Subfamily Emberizinae   |Subfamily Fringillinae| [In Parulidae above]
+                         |(including Emberizinae|
+ [Subfamily Fringillinae]|   and Geospizinae)   | Subfamily Carduelinae
+                         |                      |
+ [Subfamily Geospizinae] |                      |
+ ------------------------+----------------------+-----------------------
+
+
+
+
+SUMMARY
+
+
+It has long been recognized that the Family Fringillidae includes some
+dissimilar groups. Specifically, the relationships of the subfamilies
+Richmondeninae, Emberizinae, and Carduelinae of the Family
+Fringillidae are poorly understood. Data from two recent studies, one
+on patterns of jaw-musculature and the other on features of the bony
+palate, emphasize the dissimilarity of these subfamilies but have
+given rise to conflicting concepts of the relationships of subfamilies
+within the Family.
+
+This paper reports the results of studies involving morphological and
+biochemical features that I consider less sensitive to external
+environmental factors than are features which have been studied
+previously. Patterns of leg-musculature were chosen for study because
+earlier work showed that muscle patterns in the legs of passerine
+birds are highly stable and vary but little. Variations, therefore,
+which are consistent in separating groups of species should be
+significant. Serological techniques were used because the biochemical
+systems involved seem to be relatively slow to change in response to
+environmental influences and because the data obtained may be used in
+a highly objective manner to measure resemblance among species.
+
+Individual differences in the patterns of leg-musculature were found
+to be slight and involved mainly the sizes and shapes of muscles. For
+this reason variations involving origin, insertion, or relative
+position of a muscle, were judged significant. In leg-musculature the
+Richmondeninae, the Emberizinae, and the Thraupidae resemble one
+another closely. Several differences in muscle pattern were found,
+however, which distinguish these groups from the Carduelinae. The
+leg-musculature of the carduelines closely resembles that of the
+Ploceidae.
+
+Serological techniques involved the extraction of saline-soluble
+proteins from the tissues of the species to be studied. These extracts
+were carefully processed and were used as antigens. Formolization of
+the antigens was necessary as a means of preventing denaturation of
+the proteins by enzymatic activity. Antisera were produced in rabbits.
+The method of testing involved turbidimetric analysis of the
+precipitin reaction. Utilizing the values for the precipitin tests a
+model was constructed which showed the relationships of the eleven
+species used in these tests. From a study of the model and the data
+used in its construction, it was determined that the Richmondeninae,
+Emberizinae, and Thraupidae constitute an assemblage distinct from the
+other species studied. The Carduelinae are excluded from the
+assemblage and serologically are most closely related to the
+Estrildinae. The estrildines, serologically, do not closely resemble
+_Passer_, Subfamily Passerinae, although recent classifications place
+these two subfamilies in the Family Ploceidae.
+
+Upon consideration of all evidence now available--from external
+morphology, ethology, myology, osteology, and serology--several
+hypotheses regarding the relationships of the groups studied are set
+forth. The richmondenines, emberizines, and tanagers are closely
+related subfamilies and are here included in the Family Fringillidae.
+The Estrildinae and Carduelinae are closely related subfamilies, but
+neither group is closely related to the Passerinae. The estrildines
+and carduelines, therefore, are placed in a separate family, the
+Carduelidae. In some ways, _Spiza_ is an aberrant member of the
+Subfamily Richmondeninae but should be retained in that subfamily. It
+is suggested that _Spiza_ is a primitive richmondenine closely related
+to the ancestral fringillid stock.
+
+
+
+
+LITERATURE CITED
+
+
+AMERICAN ORNITHOLOGISTS' UNION
+
+   1931.  Check-list of North American birds. Fourth edition.
+          Lancaster, Pa., xix + 526 pp.
+
+
+BEECHER, W. J.
+
+   1951a. Adaptations for food-getting in the American blackbirds.
+          Auk, 68:411-440, 11 figs.
+
+   1951b. Convergence in the Coerebidae. Wilson Bull., 63:274-287,
+          5 figs.
+
+   1953.  A phylogeny of the oscines. Auk, 70:270-333, 18 figs.
+
+
+BERGER, A. J.
+
+   1952.  The comparative functional morphology of the pelvic
+          appendage in three genera of Cuculidae.
+          Amer. Mid. Nat., 47:513-605, 29 pls.
+
+
+BOYDEN, A.
+
+   1942.  Systematic serology: a critical appreciation.
+          Physiol. Zool., 15:109-145, 12 figs.
+
+
+CHAPIN, J. P.
+
+   1917.  The classification of the weaver-birds. Bull. Amer. Mus.
+          Nat. Hist., 37:243-280, 10 pls., 9 figs.
+
+
+CUMLEY, R. W., and IRWIN, M. R.
+
+   1941.  Pictorial representation of the antigenic differences
+          between two dove species. Jour. Hered., 32:178-182,
+          frontispiece, 2 figs.
+
+   1941.  Interaction of antigens in dove hybrids. Ibid., 429-434,
+          3 figs.
+
+   1944.  The correlation between antigenic composition and geographic
+          range in the Old and New World of some species of _Columba_.
+          Amer. Nat., 78:238-256, 1 fig.
+
+
+DEFALCO, R. J.
+
+   1942.  A serological study of some avian relationships.
+          Biol. Bull., 83:205-218.
+
+
+FISHER, H. I.
+
+   1946.  Adaptations and comparative anatomy of the locomotor
+          apparatus of New World vultures. Amer. Mid. Nat.,
+          35:545-727, 13 pls., 28 figs.
+
+
+GADOW, H., and SELENKA, E.
+
+   1891.  Vögel, vol. I, Anatomischer Theil. In Bronn's Klassen und
+          Ordnungen des Thier-Reichs, Sechster Band, Vierte Abtheilung.
+          Leipzig, 1008 pp., 59 pls.
+
+
+GARROD, A. H.
+
+   1873.  On certain muscles in the thigh of birds and their value in
+          classification. Proc. Zool. Soc. London, Part I:626-644,
+          6 figs.
+
+   1874.  On certain muscles in the thigh of birds and their value in
+          classification. Ibid., Part II:111-123.
+
+
+GREENBERG, D. M.
+
+   1929.  The colorimetric determination of serum proteins.
+          J. Biol. Chem., 82:545-550.
+
+
+HELLMAYR, C. E.
+
+   1935.  Catalogue of birds of the Americas. Field Mus. Nat. Hist.,
+          Zool. ser. 13, pt. 8, vi + 541 pp.
+
+   1936.  Catalogue of birds of the Americas. Ibid., 13, pt. 9,
+          v + 458 pp.
+
+   1937.  Catalogue of birds of the Americas. Ibid., 13, pt. 10,
+          v + 228 pp.
+
+   1938.  Catalogue of birds of the Americas. Ibid., 13, pt. 11,
+          vi + 662 pp.
+
+
+HOWARD, H.
+
+   1929.  The avifauna of the Emeryville shellmound. Univ. California
+          Publ. Zool., 32:301-394, 3 pls., 54 figs.
+
+
+HUDSON, G. E.
+
+   1937.  Studies on the muscles of the pelvic appendage in birds.
+          Amer. Mid. Nat., 18:1-108, 26 pls.
+
+
+IRWIN, M. R.
+
+   1953.  Evolutionary patterns of antigenic substances of the blood
+          corpuscles in Columbidae. Evol., 7:31-50.
+
+
+IRWIN, M. R., and COLE, L. J.
+
+   1936.  Immunogenetic studies of species and of species hybrids in
+          doves, and the separation of species-specific substances in
+          the backcross. Jour. Exp. Zool., 73:85-108, 1 fig.
+
+
+LEONE, C. A.
+
+   1949.  Comparative serology of some brachyuran crustacea and
+          studies in hemocyanin correspondence. Biol. Bull.,
+          97:273-286, 3 figs.
+
+   1953.  Some effects of formalin on the serological activity of
+          crustacean and mammalian sera. Jour. Immun., 70:386-392,
+          2 figs.
+
+
+LIBBY, R. L.
+
+   1938.  The photronreflectometer--an instrument for the measurement
+          of turbid systems. Jour. Immun., 34:71-73, 1 fig.
+
+
+MARTIN, E. P., and LEONE, C. A.
+
+   1952.  Serological relationships among domestic fowl as shown by
+          comparisons of protein preparations from corresponding organ
+          systems. Trans. Kansas Acad. Sci., 55:439-444, 1 fig.
+
+
+MCGIBBON, W. H.
+
+   1945.  Further division of contrasting antigens in species hybrids
+          in ducks. Genetics, 30:252-265.
+
+
+SASAKI, K.
+
+   1928.  Serological examination of the blood-relationship between
+          wild and domestic ducks. Jour. Dept. Agri., Kyushu Imp.
+          Univ., 2:117-132.
+
+
+SIMPSON, G. G.
+
+   1944.  Tempo and mode in evolution. Columbia Univ. Press, New York,
+          xviii + 237 pp., 36 figs.
+
+
+SUSHKIN, P. P.
+
+   1924.  [On the Fringillidae and allied groups.] Bull. British
+          Ornith. Club, 45:36-39.
+
+   1925.  The evening grosbeak (Hesperiphona), the only American genus
+          of a Palaearctic group. Auk, 42:256-261, 2 figs.
+
+
+TORDOFF, H. B.
+
+   1954.  A systematic study of the avian family Fringillidae, based
+          on the structure of the skull. Univ. Michigan Mus. Zool.
+          Misc. Publ. No. 81:1-42, 77 figs.
+
+
+WETMORE, A.
+
+   1951.  A revised classification for the birds of the world.
+          Smithsonian Misc. Coll., 117(4):1-22.
+
+
+_Transmitted June 8, 1954._
+
+
+25-4632
+
+
+
+
+UNIVERSITY OF KANSAS PUBLICATIONS
+
+MUSEUM OF NATURAL HISTORY
+
+
+Institutional libraries interested in publications exchange may obtain
+this series by addressing the Exchange Librarian, University of Kansas
+Library, Lawrence, Kansas. Copies for individuals, persons working in
+a particular field of study, may be obtained by addressing instead the
+Museum of Natural History, University of Kansas, Lawrence, Kansas.
+There is no provision for sale of this series by the University
+Library which meets institutional requests, or by the Museum of
+Natural History which meets the requests of individuals. However,
+when individuals request copies from the Museum, 25 cents should
+be included, for each separate number that is 100 pages or more
+in length, for the purpose of defraying the costs of wrapping and
+mailing.
+
+ * An asterisk designates those numbers of which the Museum's supply
+ (not the Library's supply) is exhausted. Numbers published to date,
+ in this series, are as follows:
+
+ Vol. 1.  1. The pocket gophers (Genus Thomomys) of Utah. By Stephen D.
+             Durrant. Pp. 1-82, 1 figure in text; August 15, 1946.
+
+          2. The systematic status of Eumeces pluvialis Cope, and
+             noteworthy records of other amphibians and reptiles from
+             Kansas and Oklahoma. By Hobart M. Smith. Pp. 85-89.
+             August 15, 1946.
+
+          3. The tadpoles of Bufo cognatus Say. By Hobart M. Smith.
+             Pp. 93-96, 1 figure in text. August 15, 1946.
+
+          4. Hybridization between two species of garter snakes.
+             By Hobart M. Smith. Pp. 97-100. August 15, 1946.
+
+          5. Selected records of reptiles and amphibians from Kansas.
+             By John Breukelman and Hobart M. Smith. Pp. 101-112.
+             August 15, 1946.
+
+          6. Kyphosis and other variations in soft-shelled turtles.
+             By Hobart M. Smith. Pp. 117-124, 3 figures in text.
+             July 7, 1947.
+
+         *7. Natural history of the prairie vole (Mammalian Genus
+             Microtus). By E. W. Jameson, Jr. Pp. 125-151, 4 figures in
+             text. October 6, 1947.
+
+          8. The postnatal development of two broods of great horned
+             owls (Bubo virginianus). By Donald F. Hoffmeister and
+             Henry W. Setzer. Pp. 157-173, 5 figures in text.
+             October 6, 1947.
+
+          9. Additions to the list of the birds of Louisiana. By George
+             H. Lowery, Jr. Pp. 177-192. November 7, 1947.
+
+         10. A check-list of the birds of Idaho. By M. Dale Arvey.
+             Pp. 193-216. November 29, 1947.
+
+         11. Subspeciation in pocket gophers of Kansas. By Bernardo
+             Villa R. and E. Raymond Hall. Pp. 217-236, 2 figures in
+             text. November 29, 1947.
+
+         12. A new bat (Genus Myotis) from Mexico. By Walter W.
+             Dalquest and E. Raymond Hall. Pp. 237-244, 6 figures in
+             text. December 10, 1947.
+
+         13. Tadarida femorosacca (Merriam) in Tamaulipas, Mexico.
+             By Walter W. Dalquest and E. Raymond Hall. Pp. 245-248,
+             1 figure in text. December 10, 1947.
+
+         14. A new pocket gopher (Thomomys) and a new spiny pocket
+             mouse (Liomys) from Michoacán, México. By E. Raymond Hall
+             and Bernardo Villa R. Pp. 249-256, 6 figures in text.
+             July 26, 1948.
+
+         15. A new hylid frog from eastern Mexico. By Edward H. Taylor.
+             Pp. 257-264, 1 figure in text. August 16, 1948.
+
+         16. A new extinct emydid turtle from the Lower Pliocene of
+             Oklahoma. By Edwin C. Galbreath. Pp. 265-280, 1 plate.
+             August 16, 1948.
+
+         17. Pliocene and Pleistocene records of fossil turtles from
+             western Kansas and Oklahoma. By Edwin C. Galbreath.
+             Pp. 281-284. August 16, 1948.
+
+         18. A new species of heteromyid rodent from the Middle
+             Oligocene of northeastern Colorado with remarks on the
+             skull. By Edwin C. Galbreath. Pp. 285-300, 2 plates.
+             August 16, 1948.
+
+         19. Speciation in the Brazilian spiny rats (Genus Proechimys,
+             Family Echimyidae). By João Moojen. Pp. 301-406,
+             140 figures in text. December 10, 1948.
+
+         20. Three new beavers from Utah. By Stephen D. Durrant and
+             Harold S. Crane. Pp. 407-417, 7 figures in text.
+             December 24, 1948.
+
+         21. Two new meadow mice from Michoacán, Mexico. By E. Raymond
+             Hall. Pp. 423-427, 6 figures in text. December 24, 1948.
+
+         22. An annotated check list of the mammals of Michoacán,
+             Mexico. By E. Raymond Hall and Bernardo Villa R.
+             Pp. 431-472, 2 plates, 1 figure in text. December 27, 1949.
+
+         23. Subspeciation in the kangaroo rat, Dipodomys ordii.
+             By Henry W. Setzer. Pp. 473-573, 27 figures in text,
+             7 tables. December 27, 1949.
+
+         24. Geographic range of the hooded skunk, Mephitis macroura,
+             with description of a new subspecies from Mexico.
+             By E. Raymond Hall and Walter W. Dalquest. Pp. 575-580,
+             1 figure in text. January 20, 1950.
+
+         25. Pipistrellus cinnamomeus Miller 1902 referred to the Genus
+             Myotis. By E. Raymond Hall and Walter W. Dalquest.
+             Pp. 581-590, 5 figures in text. January 20, 1950.
+
+         26. A synopsis of the American bats of the Genus Pipistrellus.
+             By E. Raymond Hall and Walter W. Dalquest. Pp. 591-602,
+             1 figure in text. January 20, 1950.
+
+         Index. Pp. 605-638.
+
+ *Vol. 2.    (Complete) Mammals of Washington. By Walter W. Dalquest.
+             Pp. 1-444, 140 figures in text. April 9, 1948.
+
+ Vol. 3. *1. The avifauna of Micronesia, its origin, evolution, and
+             distribution. By Rollin H. Baker. Pp. 1-359, 16 figures
+             in text. June 12, 1951.
+
+         *2. A quantitative study of the nocturnal migration of birds.
+             By George H. Lowery, Jr. Pp. 361-472, 47 figures in text.
+             June 29, 1951.
+
+          3. Phylogeny of the waxwings and allied birds. By M. Dale
+             Arvey. Pp. 473-530, 49 figures in text, 13 tables.
+             October 10, 1951.
+
+          4. Birds from the state of Veracruz, Mexico. By George H.
+             Lowery, Jr., and Walter W. Dalquest. Pp. 531-649,
+             7 figures in text, 2 tables. October 10, 1951.
+
+          Index. Pp. 651-681.
+
+ *Vol. 4.    (Complete) American weasels. By E. Raymond Hall. Pp. 1-466,
+             41 plates, 31 figures in text. December 27, 1951.
+
+ Vol. 5.  1. Preliminary survey of a Paleocene faunule from the Angels
+             Peak area, New Mexico. By Robert W. Wilson. Pp. 1-11,
+             1 figure in text. February 24, 1951.
+
+          2. Two new moles (Genus Scalopus) from Mexico and Texas.
+             By Rollin H. Baker. Pp. 17-24. February 28, 1951.
+
+          3. Two new pocket gophers from Wyoming and Colorado.
+             By E. Raymond Hall and H. Gordon Montague. Pp. 25-32.
+             February 28, 1951.
+
+          4. Mammals obtained by Dr. Curt von Wedel from the barrier
+             beach of Tamaulipas, Mexico. By E. Raymond Hall.
+             Pp. 33-47, 1 figure in text. October 1, 1951.
+
+          5. Comments on the taxonomy and geographic distribution of
+             some North American rabbits. By E. Raymond Hall and Keith
+             R. Kelson. Pp. 49-58. October 1, 1951.
+
+          6. Two new subspecies of Thomomys bottae from New Mexico and
+             Colorado. By Keith R. Kelson. Pp. 59-71, 1 figure in text.
+             October 1, 1951.
+
+          7. A new subspecies of Microtus montanus from Montana and
+             comments on Microtus canicaudus Miller. By E. Raymond Hall
+             and Keith R. Kelson. Pp. 73-79. October 1, 1951.
+
+          8. A new pocket gopher (Genus Thomomys) from eastern Colorado.
+             By E. Raymond Hall. Pp. 81-85. October 1, 1951.
+
+          9. Mammals taken along the Alaskan Highway. By Rollin H.
+             Baker. Pp. 87-117, 1 figure in text. November 28, 1951.
+
+        *10. A synopsis of the North American Lagomorpha. By E. Raymond
+             Hall. Pp. 119-202, 68 figures in text. December 15, 1951.
+
+         11. A new pocket mouse (Genus Perognathus) from Kansas.
+             By E. Lendell Cockrum. Pp. 203-206. December 15, 1951.
+
+         12. Mammals from Tamaulipas, Mexico. By Rollin H. Baker.
+             Pp. 207-218. December 15, 1951.
+
+         13. A new pocket gopher (Genus Thomomys) from Wyoming and
+             Colorado. By E. Raymond Hall. Pp. 219-222.
+             December 15, 1951.
+
+         14. A new name for the Mexican red bat. By E. Raymond Hall.
+             Pp. 223-226. December 15, 1951.
+
+         15. Taxonomic notes on Mexican bats of the Genus Rhogeëssa.
+             By E. Raymond Hall. Pp. 227-232. April 10, 1952.
+
+         16. Comments on the taxonomy and geographic distribution of
+             some North American woodrats (Genus Neotoma). By Keith R.
+             Kelson. Pp. 233-242. April 10, 1952.
+
+         17. The subspecies of the Mexican red-bellied squirrel,
+             Sciurus aureogaster. By Keith R. Kelson. Pp. 243-250,
+             1 figure in text. April 10, 1952.
+
+         18. Geographic range of Peromyscus melanophrys, with
+             description of new subspecies. By Rollin H. Baker.
+             Pp. 251-258, 1 figure in text. May 10, 1952.
+
+         19. A new chipmunk (Genus Eutamias) from the Black Hills.
+             By John A. White. Pp. 259-262. April 10, 1952.
+
+         20. A new piñon mouse (Peromyscus truei) from Durango, Mexico.
+             By Robert B. Finley, Jr. Pp. 263-267. May 23, 1952.
+
+         21. An annotated checklist of Nebraskan bats. By Olin L. Webb
+             and J. Knox Jones, Jr. Pp. 269-279. May 31, 1952.
+
+         22. Geographic variation in red-backed mice (Genus
+             Clethrionomys) of the southern Rocky Mountain region.
+             By E. Lendell Cockrum and Kenneth L. Fitch. Pp. 281-292,
+             1 figure in text. November 15, 1952.
+
+         23. Comments on the taxonomy and geographic distribution of
+             North American microtines. By E. Raymond Hall and
+             E. Lendell Cockrum. Pp. 293-312. November 17, 1952.
+
+         24. The subspecific status of two Central American sloths.
+             By E. Raymond Hall and Keith R. Kelson. Pp. 313-317.
+             November 21, 1952.
+
+         25. Comments on the taxonomy and geographic distribution of
+             some North American marsupials, insectivores, and
+             carnivores. By E. Raymond Hall and Keith R. Kelson.
+             Pp. 319-341. December 5, 1952.
+
+         26. Comments on the taxonomy and geographic distribution of
+             some North American rodents. By E. Raymond Hall and Keith
+             R. Kelson. Pp. 343-371. December 15, 1952.
+
+         27. A synopsis or the North American microtine rodents.
+             By E. Raymond Hall and E. Lendell Cockrum. Pp. 373-498,
+             149 figures in text. January 13, 1953.
+
+         28. The pocket gophers (Genus Thomomys) of Coahuila, Mexico.
+             By Rollin H. Baker. Pp. 499-514, 1 figure in text.
+             June 1, 1953.
+
+         29. Geographic distribution of the pocket mouse, Perognathus
+             fasciatus. By J. Knox Jones, Jr. Pp. 515-526, 7 figures in
+             text. August 1, 1953.
+
+         30. A new subspecies of wood rat (Neotoma mexicana) from
+             Colorado. By Robert B. Finley, Jr. Pp. 527-534, 2 figures
+             in text. August 15, 1953.
+
+         31. Four new pocket gophers of the genus Cratogeomys from
+             Jalisco, Mexico. By Robert J. Russell. Pp. 535-542.
+             October 15, 1953.
+
+         32. Genera and subgenera of chipmunks. By John A. White.
+             Pp. 543-561, 12 figures in text. December 1, 1953.
+
+         33. Taxonomy of the chipmunks, Eutamias quadrivittatus and
+             Eutamias umbrinus. By John A. White. Pp. 563-582,
+             6 figures in text. December 1, 1953.
+
+         34. Geographic distribution and taxonomy of the chipmunks of
+             Wyoming. By John A. White. Pp. 584-610, 3 figures in text.
+             December 1, 1953.
+
+         35. The baculum of the chipmunks of western North America.
+             By John A. White. Pp. 611-631, 19 figures in text.
+             December 1, 1953.
+
+         36. Pleistocene Soricidae from San Josecito Cave, Nuevo Leon,
+             Mexico. By James S. Findley. Pp. 633-639. December 1, 1953.
+
+         37. Seventeen species of bats recorded from Barro Colorado
+             Island, Panama Canal Zone. By E. Raymond Hall and William
+             B. Jackson. Pp. 641-646. December 1, 1953.
+
+         Index. Pp. 647-676.
+
+ *Vol. 6.    (Complete) Mammals of Utah, _taxonomy and distribution_.
+             By Stephen D. Durrant. Pp. 1-549, 91 figures in text,
+             30 tables. August 10, 1952.
+
+ Vol. 7. *1. Mammals of Kansas. By E. Lendell Cockrum. Pp. 1-303,
+             73 figures in text, 37 tables. August 25, 1952.
+
+          2. Ecology of the opossum on a natural area in northeastern
+             Kansas. By Henry S. Fitch and Lewis L. Sandidge.
+             Pp. 305-338, 5 figures in text. August 24, 1953.
+
+         3. The silky pocket mice (Perognathus flavus) of Mexico.
+            By Rollin H. Baker. Pp. 339-347, 1 figure in text.
+            February 15, 1954.
+
+         4. North American jumping mice (Genus Zapus). By Philip H.
+            Krutzsch. Pp. 349-472, 47 figures in text, 4 tables.
+            April 21, 1954.
+
+         5. Mammals from Southeastern Alaska. By Rollin H. Baker and
+            James S. Findley. Pp. 473-477. April 21, 1954.
+
+         6. Distribution of Some Nebraskan Mammals. By J. Knox Jones.
+            Pp. 479-487. April 21, 1954.
+
+         7. Subspeciation in the montane meadow mouse, Microtus
+            montanus, in Wyoming and Colorado. By Sydney Anderson.
+            Pp. 489-506, 2 figures in text. July 23, 1954.
+
+         8. A new subspecies of bat (Myotis velifer) from Southeastern
+            California and Arizona. By Terry A. Vaughn. Pp. 507-512.
+            July 23, 1954.
+
+         9. Mammals of the San Gabriel Mountains of California.
+            By Terry A. Vaughn. Pp. 513-582, 1 figure in text,
+            12 tables. November 15, 1954.
+
+         More numbers will appear in volume 7.
+
+ Vol. 8.  1. Life History and Ecology of the Five-Lined Skink, Eumeces
+             fasciatus. By Henry S. Fitch. Pp. 1-156, 26 figures in
+             text. September 1, 1954.
+
+         2. Myology and Serology of the Avian Family Fringillidae,
+            a Taxonomic Study. By William B. Stallcup. Pp. 157-211,
+            23 figures in text, 4 tables. November 15, 1954.
+
+         More numbers will appear in volume 8.
+
+
+
+
+       *       *       *       *       *
+
+
+  Transcriber's Notes
+
+  The text presented is essentially that in the original printed
+  document with the exception of some minor punctuation changes and
+  the typographical correction detailed below. Some of the tables
+  split between paragraphs in the original and they were moved and
+  the paragraphs restored into one. The captions for Figures 10-13
+  and 14-17 were reformatted to enhance readability.
+
+
+  Empasis Notation
+
+    _Text_  -  Italics
+
+    +Text+  -  Bold
+
+
+  Typographical Corrections
+
+    Page 187, Table 1 Item 5: Intavenous => Intravenous
+
+
+       *       *       *       *       *
+
+
+
+
+
+End of the Project Gutenberg EBook of Myology and Serology of the Avian
+Family Fringillidae, by William B. Stallcup
+
+*** END OF THIS PROJECT GUTENBERG EBOOK MYOLOGY AND SEROLOGY OF THE ***
+
+***** This file should be named 33914-8.txt or 33914-8.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.org/3/3/9/1/33914/
+
+Produced by Chris Curnow, Tom Cosmas, Joseph Cooper and
+the Online Distributed Proofreading Team at
+http://www.pgdp.net
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+http://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need, are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at http://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+http://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at http://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit http://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including checks, online payments and credit card donations.
+To donate, please visit: http://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart is the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     http://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.

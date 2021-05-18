@@ -1,0 +1,2650 @@
+The Project Gutenberg EBook of Life History of the Kangaroo Rat, by 
+Charles T. Vorhies and Walter P. Taylor
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: Life History of the Kangaroo Rat
+
+Author: Charles T. Vorhies and Walter P. Taylor
+
+Release Date: March 11, 2006 [EBook #17966]
+
+Language: English
+
+Character set encoding: ISO-8859-1
+
+*** START OF THIS PROJECT GUTENBERG EBOOK LIFE HISTORY OF THE KANGAROO RAT ***
+
+
+
+
+Produced by David Starner, Sigal Alon and the Online
+Distributed Proofreading Team at http://www.pgdp.net
+
+
+
+
+
+
+
+UNITED STATES DEPARTMENT OF AGRICULTURE
+
+BULLETIN No. 1091
+
+Also Technical Bulletin No. 1 of the Agricultural Experiment Station
+University of Arizona
+
+Washington, D. C. PROFESSIONAL PAPER September 13, 1922
+
+LIFE HISTORY OF THE KANGAROO RAT
+_Dipodomys spectabilis spectabilis_ Merriam
+
+BY
+
+CHARLES T. VORHIES, Entomologist
+Agricultural Experiment Station, University of Arizona; and
+
+WALTER P. TAYLOR, Assistant Biologist
+Bureau of Biological Survey, U. S. Department
+of Agriculture
+
+
+
+
+CONTENTS
+
+
+Importance of Rodent Groups     1
+Identification                  3
+Description                     5
+Occurrence                      7
+Habits                          9
+Food and Storage               18
+Burrow Systems, or Dens        28
+Commensals and Enemies         33
+Abundance                      36
+Economic Considerations        36
+Summary                        38
+Bibliography                   40
+
+
+[Illustration]
+
+
+WASHINGTON
+GOVERNMENT PRINTING OFFICE
+1922
+
+
+[Illustration: PLATE I.--Banner-tailed Kangaroo Rat (Dipodomys spectabilis
+spectabilis Merriam).
+
+From _Dipodomys merriami_ Mearns and subspecies, which occur over much
+of its range, this form is easily distinguished by its larger size and
+the conspicuous white brush on the tail.]
+
+
+
+
+UNITED STATES DEPARTMENT OF AGRICULTURE
+
+BULLETIN No. 1091
+
+Also Technical Bulletin No. 1 of the
+Agricultural Experiment Station, University of Arizona
+
+Washington, D. C. PROFESSIONAL PAPER September, 1922
+
+LIFE HISTORY OF THE KANGAROO RAT,
+
+_Dipodomys spectabilis spectabilis_ Merriam.
+
+By CHARLES T. VORHIES, _Entomologist, Agricultural Experiment Station,
+University of Arizona_; and WALTER P. TAYLOR, _Assistant Biologist,
+Bureau of Biological Survey, U. S. Department of Agriculture_.
+
+
+
+
+CONTENTS.
+
+
+                                 Page
+
+Importance of rodent groups         1
+  Investigational methods           2
+Identification                      3
+Description                         5
+  General characters                5
+  Color                             6
+  Oil gland                         6
+  Measurements and weights          7
+Occurrence                          7
+  General distribution              7
+  Habitat                           7
+Habits                              9
+  Evidence of presence              9
+    Mounds                          9
+    Runways and tracks             10
+    Signals                        11
+    Voice                          12
+  Daily and seasonal activity      12
+  Pugnacity and sociability        13
+  Sense developments               14
+  Movements and attitudes          15
+  Storing habits                   15
+  Breeding habits                  16
+Food and storage                   18
+Burrow systems, or dens            28
+Commensals and enemies             33
+  Commensals                       33
+  Natural checks                   34
+  Parasites                        35
+Abundance                          36
+Economic considerations            36
+  Control                          37
+Summary                            38
+Bibliography                       40
+
+
+NOTE.--This bulletin, a joint contribution of the Bureau of Biological
+Survey and the Arizona Agricultural Experiment Station, contains a
+summary of the results of investigations of the relation of a subspecies
+of kangaroo rat to the carrying capacity of the open ranges, being one
+phase of a general study of the life histories of rodent groups as they
+affect agriculture, forestry, and grazing.
+
+
+
+
+IMPORTANCE OF RODENT GROUPS.
+
+
+As the serious character of the depredations by harmful rodents is
+recognized, State, Federal, and private expenditures for their control
+increase year by year. These depredations include not only the attacks
+by introduced rats and mice on food materials stored in granaries,
+warehouses, commercial establishments, docks, and private houses, but
+also, particularly in the Western States, the ravages of several groups
+of native ground squirrels and other noxious rodents in grain and
+certain other field crops. Nor is this all, for it has been found that
+such rodents as prairie dogs, pocket gophers, marmots, ground squirrels,
+and rabbits take appreciable and serious toll of the forage on the open
+grazing range; in fact, that they reduce the carrying capacity of the
+range to such an extent that expenditures for control measures are amply
+justified. Current estimates place the loss of goods due to rats and
+mice in warehouses and stores throughout the United States at no less
+than $200,000,000 annually, and damage to the carrying capacity of the
+open range and to cultivated crops generally by native rodents in the
+Western States at $300,000,000 additional; added together, we have an
+impressive total from depredations of rodents.
+
+The distribution and life habits of rodents and the general
+consideration of their relation to agriculture, forestry, and grazing,
+with special reference to the carrying capacity of stock ranges, is a
+subject that has received attention for many years from the Biological
+Survey of the United States Department of Agriculture. As a result of
+the investigations conducted much has been learned concerning the
+economic status of most of the more important groups, and the knowledge
+already gained forms the basis of the extensive rodent-control work
+already in progress, and in which many States are cooperating with the
+bureau. If the work is to be prosecuted intelligently and the fullest
+measure of success achieved, it is essential that the consideration
+largely of groups as a whole be supplemented by more exhaustive
+treatment of the life histories of individual species and of their place
+in the biological complex. The present report is based upon
+investigations, chiefly in Arizona, of the life history, habits, and
+economic status of the banner-tailed kangaroo rat, _Dipodomys
+spectabilis spectabilis_ Merriam (Pl. I).
+
+
+INVESTIGATIONAL METHODS.
+
+Some 18 years ago (in 1903) a tract of land 49.2 square miles in area on
+the Coronado National Forest near the Santa Rita Mountains, Pima County,
+southern Arizona, was closed to grazing by arrangement between the
+Forest Service and the Agricultural Experiment Station of the University
+of Arizona. Since that time another small tract of nearly a section has
+been inclosed (Griffiths, 1910, 7[1]). This total area of approximately
+50 square miles is known as the United States Range Reserve, and is
+being devoted to a study of grazing conditions in this section and to
+working out the best methods of administering the range (Pl. II, Fig.
+1).
+
+For some years an intensive study of the forage and other vegetative
+conditions of this area has been made, the permanent vegetation quadrat,
+as proposed by Dr. F. E. Clements (1905, 161-175), being largely
+utilized. During the autumn of 1917 representatives of the Carnegie
+Institution and the Arizona Agricultural Experiment Station visited the
+Reserve and were impressed with the evidence of rodent damage to the
+grass cover. The most conspicuous appearance of damage was noted about
+the habitations of the banner-tailed kangaroo rat (_Dipodomys
+spectabilis spectabilis_ Merriam), although it was observed also that
+jack rabbits of two species (_Lepus californicus eremicus_ Allen and _L.
+alleni alleni_ Mearns), which were very abundant in some portions of the
+reserve, were apparently affecting adversely the forage conditions in
+particular localities. Accordingly, the Biological Survey, the
+Agricultural Experiment Station of the University of Arizona, the
+Carnegie Institution of Washington, and the U. S. Forest Service have
+undertaken a study of the relation of the more important rodents to the
+forage crop of the Range Reserve in Arizona.
+
+The present paper is a first step in this larger investigation.[2] In
+this work the authors have made no attempt to deal with the taxonomic
+side of the kangaroo rat problem. It is not unlikely that intensive
+studies will show that the form now known as _Dipodomys spectabilis
+spectabilis_ is made up of a number of local variants, some of them
+perhaps worthy of recognition as additional subspecies. But it is felt
+that the conclusions here reached will be little, if at all, affected by
+such developments.
+
+Color descriptions are based on Ridgway's Color Standards and Color
+Nomenclature published in 1912.
+
+    [Footnote 1: References in parentheses are to the Bibliography, p.
+    40 (the last figure being to the page of the publication).
+    References to authorities where no citation of literature is
+    appended relate for the most part to manuscript notes in the files
+    of the Biological Survey or the University of Arizona Agricultural
+    Experiment Station.]
+
+    [Footnote 2: In addition to assistance rendered by officials of the
+    Biological Survey and the University of Arizona, which is hereby
+    acknowledged, the authors are indebted to the following persons for
+    helpful suggestions and assistance: G. S. Miller and J. W. Gidley,
+    of the U. S. National Museum; Dr. Frederic E. Clements and Gorm
+    Loftfield, of the Carnegie Institution; Morgan Hebard, of the
+    Academy of Natural Sciences of Philadelphia; James T. Jardine and
+    R. L. Hensel, both formerly connected with the U. S. Forest Service;
+    and R. R. Hill, of the Forest Service. They are also indebted to
+    William Nicholson, of Continental, Ariz., for many courtesies
+    extended in connection with work on the Reserve.]
+
+
+
+
+IDENTIFICATION.
+
+
+There are only three groups of mammals in the Southwest having external
+cheek pouches. These are (_a_) the pocket gophers (Geomyidæ), which have
+strong fore feet, relatively weak hind feet, and short tail, as compared
+with weak fore feet, relatively strong hind feet, and long tail in the
+other two; (_b_) the pocket mice (_Perognathus_), which are considerably
+smaller than the kangaroo rats and lack the conspicuous white hip
+stripe possessed by all the latter; and (_c_) the kangaroo rats
+(_Dipodomys_).
+
+[Illustration: FIG. 1.--Range, east of the Colorado River, of _Dipodomys
+spectabilis spectabilis_ compared with that of _Dipodomys merriami_.
+Cross hatching indicates area of overlapping of the two forms. The range
+of _Dipodomys deserti_, not shown on the map, is west of that of
+_spectabilis_, and so far as known the two do not overlap.]
+
+_Dipodomys spectabilis spectabilis_ Merriam requires comparison with
+three other forms of kangaroo rats in the same general region, namely,
+_D. deserti_ Stephens, of approximately the same size, and _D. merriami_
+Mearns and _D. ordii_ Woodhouse, the last two of decidedly smaller size.
+The range of _deserti_ lies principally to the west of that of
+_spectabilis_, and the two do not, so far as known, overlap. On the
+other hand, _merriami_ and _ordii_, and subspecies, occur over a large
+part of the range of _spectabilis_, living in very close proximity to
+its burrows; _merriami_ is even suspected of pillaging the stores of
+_spectabilis_. The range of _merriami_, however, is much more extensive
+than that of _spectabilis_ (Fig. 1), which argues against a definite
+ecological dependence or relationship. Separation of the four forms
+mentioned may be easily accomplished by the following key:
+
+_Key to Species of_ Dipodomys _in Arizona._
+
+_a^1_. Size much larger (hind foot and greatest length of skull more
+than 42 millimeters); tail tipped with white.
+
+     _b^1_. Upper parts dark brownish buffy; tail dark brownish or
+     blackish with more sharply contrasted white tip; interparietal
+     broader, distinctly separating mastoids (range in Arizona mainly
+     southeastern part)                          =Dipodomys spectabilis.=
+
+     _b^2_. Upper parts light ochraceous-buffy; tail pale brownish with
+     less sharply contrasted white tip; interparietal narrower, reduced
+     to mere spicule between mastoids (range in Arizona mainly
+     southwestern part)                              =Dipodomys deserti.=
+
+_a^2_. Size much smaller (hind foot and greatest length of skull less
+than 42 millimeters); tail not tipped with white.
+
+     _b^1_. Hind foot with four toes                =Dipodomys merriami.=
+
+     _b^2_. Hind foot with five toes                   =Dipodomys ordii.=
+
+On account of the small size, _merriami_ and _ordii_ do not require
+detailed color comparison with the other two. The general color of the
+upperparts of _spectabilis_ is much darker than that of _deserti_;
+whereas _spectabilis_ is ochraceous-buff or light ochraceous-buff
+grizzled with blackish, _deserti_ is near pale ochraceous-buff and lacks
+the blackish.
+
+The color of the upperparts alone amply suffices to distinguish
+_spectabilis_ and _deserti_; but the different coloration of the tail is
+the most obvious diagnostic feature. The near black of the middle
+portion of the tail, the conspicuous white side stripes, and the pure
+white tip make the tail of _spectabilis_ stand in rather vivid contrast
+to the pale-brown and whitish tail of _deserti_.
+
+The dens of the two larger species of _Dipodomys_--_spectabilis_ and
+_deserti_--can be distinguished at a glance from those of the two
+smaller--_merriami_ and _ordii_--by the fact that the mounds of the
+former are usually of considerable size and the burrow mouths are of
+greater diameter. On the Range Reserve _merriami_ erects no mounds, but
+excavates its burrows in the open or at the base of _Prosopis_,
+_Lycium_, or other brush. The mounds of _spectabilis_ are higher than
+those of _deserti_, the entrances are larger, and they are located in
+harder soil (Pl. III, Fig. 1). The dens of _deserti_ are usually more
+extensive in surface area than those of _spectabilis_, and have a
+greater number of openings (Pl. III, Fig. 2).
+
+
+[Illustration: PLATE II. FIG. 1.--WINTER VIEW OF AREA INHABITED BY
+KANGAROO RATS.
+
+A water-hole scene on the U. S. Range Reserve at the base of the Santa
+Rita Mountains, Ariz., where cooperative investigations are being
+conducted to ascertain the relation of rodents to forage. This is
+typical of a large section of country occupied by _Dipodomys spectabilis
+spectabilis_ and _Dipodomys merriami_. The brush is mesquite
+(_Prosopis_), cat's-claw (_Acacia_), and paloverde (_Cercidium_).]
+
+[Illustration: PLATE II. FIG. 2.--KANGAROO RAT COUNTRY FOLLOWING SUMMER
+DROUGHT.
+
+An area of the U. S. Range Reserve in the autumn of 1918, showing the
+result of failure of summer rains. Such a condition is critical not only
+for the stockmen but also for kangaroo rats and other desert rodents,
+and results in competition between them as to which shall benefit by
+what the range has to offer.]
+
+
+[Illustration: PLATE III. FIG. 1.--KANGAROO RAT MOUND (DIPODOMYS S.
+SPECTABILIS).
+
+Typical _Dipodomys s. spectabilis_ mound on the Range Reserve, under
+shelter of desert hackberry (_Celtis pallida_). Most dens on the reserve
+are located in the shelter of brush plants, the more important being
+mesquite (_Prosopis velutina_), cat's-claw (_Acacia_ spp.), and the
+desert hackberry. (See also Pl. VIII Fig. 2.)]
+
+[Illustration: PLATE III. FIG. 2.--KANGAROO RAT MOUND (DIPODOMYS DESERTI).
+
+Den of _Dipodomys deserti deserti_, showing typical wide, low mound with
+numerous entrance holes. This species excavates its den in soft, sandy
+soil. The tree is a species of _Dalea_.]
+
+
+
+
+DESCRIPTION.
+
+
+GENERAL CHARACTERS.
+
+Size large; ears moderate, ear from crown (taken in dry skin) 9 or 10
+millimeters; eyes prominent; whiskers long and sensitive; fore feet
+short and weak; hind feet long and powerful, provided with four
+well-developed toes; tail very long, usually 30 to 40 per cent longer
+than the body. Cranium triangular, the occiput forming the base and the
+point of the nose the apex of the triangle, much flattened, auditory and
+particularly mastoid bullae conspicuously inflated.
+
+
+COLOR.
+
+General color above, brownish buffy, varying in some specimens to
+lighter buffy tints, grizzled with black; oblique hip stripes white;
+tail with dark-brown or blackish stripes above and below, running into
+blackish about halfway between base and tip, and with two lateral side
+stripes of white to a point about halfway back; tail tipped with pure
+white for about 40 millimeters (Pl. I). Underparts white, hairs white to
+bases, with some plumbeous and buffy hairs about base of tail; fore legs
+and fore feet white all around; hind legs like back, brown above, hairs
+with gray bases, becoming blackish (fuscous-black or chætura-black)
+about ankles, hairs on under side white to bases; hind feet white above,
+dark-brown or blackish (near fuscous) below.
+
+Color variations in a series of 12 specimens from the type locality and
+points widely scattered through the range of _spectabilis_ consist in
+minor modifications of the degree of coloration, length of white tip of
+tail, and length of white lateral tail stripes. In general the color
+pattern and characters are remarkably uniform. Young specimens, while
+exhibiting the color pattern and general color of adults, are
+conspicuously less brown, and more grayish.
+
+There appears to be little variation in color with season. In the series
+at hand, most specimens taken during the fall, winter, and spring are
+very slightly browner than those of summer, suggesting that the fresh
+pelage following the fall molt is a little brighter than is the pelage
+after being worn all winter and into the following summer. But at most
+the difference is slight.
+
+
+OIL GLAND.
+
+Upon separating the hairs of the middle region of the back about a third
+of the distance between the ears and the rump, one uncovers a prominent
+gland, elliptical in outline, with long axis longitudinal and about 9
+millimeters in length. The gland presents a roughened and granular
+appearance, and fewer hairs grow upon it than elsewhere on the back. The
+hairs in the vicinity are frequently matted, as if with a secretion. In
+worn stage of pelage the gland may be visible from above without
+separating the hairs. Bailey has suggested that this functions as an oil
+gland for dressing the fur, and our observations bear out this view.
+Kangaroo rats kept in captivity without earth or sand soon come to have
+a bedraggled appearance, as if the pelage were moist. When supplied with
+fine, dusty sand, they soon recover their normal sleek appearance.
+Apparently the former condition is due to an excess of oil, the latter
+to the absorption of the excess in a dust bath. The oil is doubtless an
+important adjunct to the preservation of the skin and hair amid the
+dusty surroundings in which the animal lives.
+
+
+MEASUREMENTS AND WEIGHTS.
+
+External measurements include: _Total length_, from tip of nose to tip
+of tail without hairs, measured before skinning; _tail vertebræ_, length
+of tail from point in angle when tail is bent at right angles to body to
+tip of tail without hairs; and _hind foot_, from heel to tip of longest
+claw.
+
+The following are measurements of a series from the U. S. Range Reserve:
+
+     [Transcriber note: Next line was corrected per erratum. The
+     original text was of the following paragraph (_Averages for 17
+     adult females: Total length, 326.4 millimeters_).]
+
+Average measurements of 30 adult specimens of both sexes: Total length,
+326.2 millimeters (349-310); tail vertebræ, 188.4 (208-180); hind foot,
+49.5 (51-47); the average weight of 29 adult specimens of both sexes was
+114.5 grams (131.9-98.0).
+
+Averages for 17 adult females: Total length, 326.4 millimeters
+(349-310); tail vertebræ, 188.8 (208-179); weight (16 individuals),
+113.7 (131.9-98.0); excluding pregnant females, 13 individuals averaged
+112.9 grams (131.9-98.0).
+
+Averages for 13 adult males: Total length, 326 millimeters (345-311);
+tail vertebræ, 187.8 (202-168); weight, 116.8 grams (129-100).
+
+There appears to be no significant difference in the measurements and
+weights of males and females, with the possible exception of the
+comparison of adult males and adult nonpregnant females.
+
+
+
+
+OCCURRENCE.
+
+
+GENERAL DISTRIBUTION.
+
+_Dipodomys spectabilis spectabilis_ is found in southeastern Arizona, in
+northwestern, central, and southern New Mexico, in extreme western
+Texas, in northern Sonora, and in northern and central Chihuahua (Fig.
+1). A subspecies, _D. s. cratodon_ Merriam, has been described from
+Chicalote, Aguas Calientes, Mexico, the geographic range of which lies
+in central Mexico in portions of the States of Zacatecas, San Luis
+Potosi, and Aguas Calientes.
+
+
+HABITAT.
+
+In the Tucson region _spectabilis_ is typically a resident of the Lower
+Sonoran Zone. This is perhaps the principal zone inhabited over its
+entire range, but the animal is often found in the Upper Sonoran also,
+and in the Gallina Mountains of New Mexico Hollister found it invading
+the yellow pine Transition where the soil was dry and sandy and the pine
+woods of open character. The same observer found it common in grassy and
+weed-grown parks among the large junipers, pinyons, and scattering
+yellow pines of the Bear Spring Mountains, N. Mex. Bailey calls
+attention to the fact that the animal apparently does not inhabit the
+lower half of the Lower Sonoran Zone, as it extends neither into the Rio
+Grande Valley of Texas nor the Gila Valley of Arizona. In extreme
+western Texas it is common at the upper edge of the arid Lower Sonoran
+Zone, and in this region does not enter the Upper Sonoran to any extent.
+
+In July, 1914, Goldman found this kangaroo rat common on the plain at
+4,600 feet altitude, near Bonita, Graham County, Ariz., and noted a few
+as high as 5,000 feet altitude on the warm southwestern slopes of the
+Graham Mountains, near Fort Grant. Apparently _spectabilis_ reaches its
+upper altitude limit in the Burro Mountains, N. Mex., where Bailey has
+found it sparingly on warm slopes up to 5,700 feet, and at the western
+base of the Sandia Mountains, east of Albuquerque, N. Mex., where dens
+occur at approximately 6,000 feet.
+
+About Tucson it is undoubtedly more common in the somewhat higher
+portions of the Lower Sonoran Zone, above the _Covillea_ association,
+than elsewhere (Pl. IV, Figs. 1 and 2). A few scattered dens are to be
+seen in the _Covillea_ belt, but as one rises to altitudes of 3,500 to
+4,000 feet, and the _Covillea_ is replaced by the cat's-claws (_Acacia_
+sp. and _Mimosa_ sp.) and scattered mesquite (_Prosopis_), with the
+_Opuntia_ becoming less abundant, kangaroo rat mounds come more and more
+in evidence. Here is to be found the principal grass growth supporting
+the grazing industry, and the presence of a more luxuriant grass flora
+is probably an important factor in the greater abundance of kangaroo
+rats, both _spectabilis_ and _merriami_. In this generally preferred
+environment the desert hackberry (_Celtis pallida_) is one of the most
+conspicuous shrubs; clumps of this species are commonly accompanied by
+kangaroo rat mounds.
+
+In order to ascertain whether the banner-tailed kangaroo rat has any
+marked preference for building its mounds under _Celtis_ or some other
+particular plant, all the observable mounds were counted in a strip
+about 20 rods wide and approximately 4 miles long, an area of
+approximately 160 acres, particular note being taken of the kind of
+shrub under which each mound was located. Of 300 mounds in this area, 96
+were under _Prosopis_, 95 under _Acacia_, 65 under _Celtis_, 11 under
+_Lycium_, 31 in the open, 1 about a "cholla" cactus (_Opuntia
+spinosior_), and 1 about a prickly pear (_Opuntia_ sp.). There is
+apparently no strongly marked preference for any single species of
+plant. While both desert hackberry and the cat's-claws afford a
+better protection than mesquite--since cattle more often seek shade
+under the latter, and in so doing frequently trample the mounds
+severely--it appears that the general protection of a tree or shrub of
+some sort is sought by kangaroo rats, rather than the specific
+protection of the thickest or thorniest species.
+
+The following records indicate particular habitat preferences of
+_spectabilis_ as noted at different points in its range:
+
+     Occurs on open bare knolls exposed to winds, also on gravelly
+     places at lower edge of foothills (Franklin Mountains, Tex., Gaut);
+     here and there over the barest and hardest of the gravelly mesas
+     (Bailey, Tex., 1905, 147); on open creosote-bush and giant-cactus
+     desert (Tucson, Ariz., Vorhies and Taylor); on firm, gravelly, or
+     even rocky soil on the grassy bajada land along the northwest base
+     of the mountains, either in the open or under _Celtis_, _Prosopis_,
+     _Lycium_, _Acacia greggii_, or other brush (Santa Rita Mountains,
+     Ariz., Vorhies and Taylor); mounds usually thrown up around a bunch
+     of cactus or mesquite brush (Magdalena, Sonora, Bailey); in heavy
+     soil (Ajo, Ariz., A. B. Howell); loamy soil (Gunsight, Ariz., A. B.
+     Howell); in mesa where not too stony (Magdalena, Sonora, Bailey);
+     grassy plain (Gallego, Chihuahua, Nelson); in open valley and high
+     open plains (Santa Rosa, N. Mex., Bailey); in grassy and weed-grown
+     parks among the larger junipers, pinyons, and scattering yellow
+     pines (Bear Spring Mountains, N. Mex., Hollister); on sand-dune
+     strip (east side of Pecos River, 15 miles northeast of Roswell, N.
+     Mex., Bailey); among _Ephedra_ patches (San Juan Valley, N. Mex.,
+     Birdseye); in open sandy soil along dry wash (Rio Alamosa, N. Mex.,
+     Goldman); on sides and crests of bare, stony hills (Mesa Jumanes,
+     N. Mex., Gaut); in open, arid part of the valley and stony mesas
+     (Carlsbad and Pecos Valley, N. Mex., Bailey); about the edges of
+     the plains of San Augustine and the foothills of the Datil and
+     Gallina Mountains, and in the Transition Zone yellow-pine forest of
+     the Gallina Mountains (Datil region, N. Mex., Hollister); on hard
+     limy ridges (Monahans, Tex., Cary).
+
+A. Brazier Howell notes that _spectabilis_ occurs in harder soil than
+does _deserti_. This observation is confirmed by others, and seems to
+afford a conspicuous habitat difference between the two, for _deserti_
+is typically an animal of the shifting aeolian sands.
+
+Usually, as on the Range Reserve, the rodents are widely distributed
+over a considerable area. Occasionally, as in the vicinity of Rio
+Alamosa, N. Mex., as reported by Goldman, they occur only in small
+colonies.
+
+
+[Illustration: PLATE IV. FIG. 1.--RANGE CONDITIONS FAVORING KANGAROO RATS.
+
+View on higher portion of Range Reserve, showing type of country where
+_Dipodomys s. spectabilis_ is most abundant. Good growth of grama and
+needle grasses in October, following summer growth and before grazing
+off by cattle and rodents.]
+
+[Illustration: PLATE IV. FIG. 2.--RANGE CONDITIONS LESS FAVORABLE TO
+KANGAROO RATS.
+
+View on lower portion of Range Reserve, where _Dipodomys s. spectabilis_
+is less abundant. Vegetation consists principally of _Lycium_, mesquite,
+rabbit brush, and cactus, there being very little grass.]
+
+
+
+
+HABITS.
+
+
+EVIDENCE OF PRESENCE.
+
+
+MOUNDS.
+
+One traveling over territory thickly occupied by the banner-tailed
+kangaroo rat is certain to note the numerous and conspicuous mounds so
+characteristic of the species, particularly if the region is of the
+savannah type, grassy rather than brushy. These low, rounded mounds
+occupy an area of several feet in diameter, and rise to varying heights
+above the general surface of the surrounding soil, the height depending
+rather more upon the character of the soil and the location of the mound
+as to exposure or protection than upon the area occupied by the burrow
+system which lies within and is the reason for the mound.
+
+A den in sandy soil in the open may be of maximum size in area occupied
+and yet scarcely present the appearance of a mound in any sense, due
+probably both to the fact that the sandy soil will not heap up to such a
+height over a honeycomb of tunnels as will a firmer or rocky soil, and
+also to its greater exposure to the leveling action of rains and the
+trampling of animals. These mounds are in themselves large enough to
+attract some attention, but their conspicuousness is enhanced by the
+fact that they are more or less completely denuded of vegetation and are
+the centers of cleared areas often as much as 30 feet in diameter (Pl.
+V, Fig. 1); and further that from 3 to 12 large dark openings loom up in
+every mound. The larger openings are of such size as to suggest the
+presence of a much larger animal than actually inhabits the mound. Add
+to the above the fact that the traveler by day never sees the mound
+builder, and we have the chief reasons why curiosity is so often aroused
+by these habitations.
+
+On the Range Reserve the mounds are usually rendered conspicuous by the
+absence of small vegetation, but Nelson writes that in the vicinity of
+Gallego, Chihuahua, they can be readily distinguished at a distance
+because of a growth of weeds and small bushes over their summits, which
+overtop the grass. In the vicinity of Albuquerque, N. Mex., Bailey
+reports (and this was recently confirmed by Vorhies) that the mounds
+about the holes of _spectabilis_ are often hardly noticeable. Hollister
+writes that in the yellow-pine forests of the Gallina Mountains the
+burrows are usually under the trunk of some fallen pine, both sides of
+it in some cases being taken up with holes, there being some eight or
+ten entrances along each side, the burrows extending into the ground
+beneath the log. In the vicinity of Blanco, N. Mex., Birdseye says that
+occasionally _spectabilis_ makes typical dens but more often lives in
+old prairie-dog holes (_Cynomys_), or in holes which look more like
+those of _D. ordii_.
+
+
+RUNWAYS AND TRACKS.
+
+Still other features add to the interest in the dwelling places of
+_spectabilis_. Radiating in various directions from some of the openings
+of the mounds well-used runways are to be seen, some of them fading out
+in the surrounding vegetation, but others extending 30, 40, or even 50
+or more yards to neighboring burrows or mounds (Pl. V, Fig. 2; Pl. VI,
+Fig. 1). These runways and the entrances to the mounds are well worn,
+showing that the inhabitants are at home and are at some time of day
+very active. The worn paths become most conspicuous in the autumnal
+harvest season, when they stand out in strong contrast to surrounding
+grass. One usually finds not far distant from the main habitation one or
+more smaller burrows, each with from one to three typical openings,
+connected by the trail or runway system with the central den, and these
+we have called "subsidiary burrows" (Pl. VI, Fig. 2). These will be
+again referred to in discussing the detailed plan of the entire shelter
+system.
+
+Examination of the runways and of the denuded area about a mound
+discloses an abundance of almost indecipherable tracks. The dust or sand
+is ordinarily much too dry and shifting to record clear footprints, and
+there are no opportunities to see footprints of this species recorded in
+good impressionable soil. Very characteristic traces of kangaroo rats
+may be readily observed in the dust about the mounds, however, and these
+are long, narrow, sometimes curving, furrows made by the long tails as
+the animals whisk about their work or play.
+
+
+[Illustration: PLATE V. FIG. 1.--CLEARING ABOUT A MOUND.
+
+A typical clearing about a mound of _Dipodomys s. spectabilis_, showing
+the autumnal denudation of the mound and surrounding areas. In this
+instance about 30 feet in diameter.]
+
+[Illustration: PLATE V. FIG. 2.--MOUND AND RUNWAYS.
+
+A small mound of _Dipodomys s. spectabilis_ in early autumn, showing
+runways radiating from the den. Evidences of activity may be noted in
+and about the surface of the mound.]
+
+
+[Illustration: PLATE VI. FIG. 1.--RUNWAY OF DIPODOMYS S. SPECTABILIS.
+
+Well-traveled path leading from the main den, in the foreground, to a
+subsidiary burrow (see Fig. 2, below), about 30 feet distant, at
+apparent end of runway.]
+
+[Illustration: PLATE VI. FIG. 2.--SUBSIDIARY BURROW OF DIPODOMYS S.
+SPECTABILIS.
+
+Located at the end of the 30-foot runway shown in Figure 1, above. This
+has three openings, two in the foreground and the third a little to the
+rear and indicated by an arrow.]
+
+
+SIGNALS.
+
+If a scratching or tapping sound be made at the mouth of a burrow, even
+in the daytime, one is likely to hear a muffled tapping in response, and
+this may at times be heard while one is engaged in excavating a mound.
+It has a chirring or fluttering quality, described by Fisher as
+resembling the noise of a quail flying. Bailey (1905, 148) is of the
+opinion that it is used as a signal of alarm, call note, or challenge, a
+view which the present authors believe to be correct. During the winter
+of 1920-21, however, both Bailey and Vorhies discovered that this sound,
+or a very similar one, is made by the rapid action of the forefeet in
+digging. On one occasion in the laboratory the sound was given by one of
+a pair and was responded to at once by the other, the two being in
+separate but contiguous cages. This observation, however, could not be
+repeated. (Vorhies MS.)
+
+One evening, while working in the vicinity of the Burro Mountains, N.
+Mex., Goldman heard a kangaroo rat near camp making this thumping noise.
+Taking a lantern, he approached the den, very cautiously, until within
+10 feet. The kangaroo rat was just outside the entrance of one of its
+burrows, and though moving about more or less restlessly at first showed
+little fear, and kept up the thumping or drumming at intervals. When
+making the noise the animal was standing with the forefeet on the ground
+and the tail lying extended. The noise seemed to be made with the hind
+feet only, and the vibration of the feet could be seen. The tapping was
+kept up for a second or two at a time, the sounds coming close together
+and being repeated rhythmically after a very short interval, suggesting
+the distant galloping of a horse. After continuing in this way for a
+short time, the animal turned quickly about, with its head in the
+opposite direction, and began tapping. It appeared to pay little
+attention to the light, but finally gave a sudden bound and entered one
+of its holes about 4 feet from the one in front of which it had been
+standing.
+
+Vorhies has repeatedly noted when watching for the appearance of a
+kangaroo rat at night that this sound invariably precedes the rodent's
+first emergence into the open, and often its appearance after an alarm,
+though when the storage season has begun and the kangaroo rat is
+carrying loads of grass heads or other material into its den, it
+regularly comes out without preliminary signaling. Vorhies has also
+observed it making the sound while on top of the mound, and certainly
+not digging, but was unable to see how it was made.
+
+
+VOICE.
+
+No data concerning any call notes or sounds other than those described
+above are at hand, with the following exception: Price (in Allen, 1895,
+213), who studied the habits of the animal in the moonlight, at Willcox,
+Ariz., says that a low chuckle was uttered at intervals; and Vorhies has
+had one captive female that would repeatedly utter a similar chuckle in
+a peevish manner when disturbed by day, and one captive male which, when
+teased into a state of anger and excitement, would squeal much like a
+cornered house rat. Vorhies has spent many moonlight hours observing
+kangaroo rats, but without ever hearing a vocal sound uttered by free
+individuals.
+
+
+DAILY AND SEASONAL ACTIVITY.
+
+The kangaroo rat is strictly nocturnal. An observer watching patiently
+by a den in the evening for the animal's first appearance is not
+rewarded until darkness has fallen completely, and unless the moon is
+shining the animal can hardly be seen. Were it not for the white
+tail-brush of _spectabilis_ and its white belly when upright on the hind
+legs and tail, one could not as a rule see the animal at all when it
+makes its first evening appearance. With the first streak of dawn
+activity usually ceases completely and much more abruptly than it began
+with the coming of darkness, but on a recent occasion Vorhies observed
+that a kangaroo rat which did not appear until near morning remained
+above ground until quite light, but not fully daylight. On removal of
+the plug from the mouth of a kangaroo rat burrow, one may sometimes see
+a fresh mass of earth and refuse shoved into the opening from within. As
+often as not, however, even this unwelcome attention does not elicit any
+response by day, the great majority of the burrow openings of this
+species, as observed by the authors, remaining permanently open.
+
+The ordinary activities of the kangaroo rat in southern Arizona can
+scarcely be said to show any true seasonal variation. The animals are
+active all the year in this region, there being neither hibernation nor
+estivation, both perhaps being rendered unnecessary by the storage
+habit, to be discussed in full later (pp. 15-16), and by the mildness of
+the winter climate. On any particular night that the weather is rainy,
+or the ground too wet and cold, activity is confined to the interior of
+the burrow system, and for this reason one has no opportunity to see a
+perfect imprint of the foot in freshly wet soil or in snow. On two or
+three of the comparatively rare occasions on which there was a light
+fall of snow on the Range Reserve a search was made for tracks in the
+snow. At these times, however, as on rainy nights, the only signs of
+activity were the pushing or throwing out of fresh earth and food refuse
+from within the burrow. This is so common a sight as to be complete
+evidence that the animals are active within their dens during stormy
+weather but do not venture outside. Trapping has again and again proved
+to be useless on rainy nights, unless the rain is scant and a part of
+the night favorable, in which case occasional individuals are taken.
+These statements apply to the Range Reserve particularly; the facts may
+be quite different where the animals experience more winter, as at
+Albuquerque, N. Mex., although in November, 1921, Vorhies noted no
+indications of lessened activity in that region.
+
+
+PUGNACITY AND SOCIABILITY.
+
+So far as their reactions toward man are concerned, kangaroo rats are
+gentle and make confiding and interesting pets; this is especially the
+case with _merriami_. This characteristic is the more surprising in view
+of the fact that they will fight each other so readily and so viciously,
+and yet probably it is explained in part by their method of fighting.
+They do not appear to use their teeth toward each other, but fight by
+leaping in the air and striking with the powerful hind feet, reminding
+one most forcibly of a pair of game cocks, facing each other and
+guarding in the same manner. Sometimes they carry on a sparring match
+with their fore feet. Biting, if done at all, is only a secondary means
+of combat. When taken in hand, even for the first time, they will use
+their teeth only in the event that they are wounded. The jaws are not
+powerful, and though the animals may lay hold of a bare finger, with the
+apparent intention of biting, usually they do not succeed in drawing
+blood. As Bailey says (1905, 148), they are gentle and timid, and, like
+rabbits, depend upon flight and their burrows for protection.
+
+The well-traveled trails elsewhere described (p. 10) indicate a degree
+of sociability difficult to explain in connection with their pugnacity
+toward each other. While three or four individuals may sometimes be
+trapped at a single mound, more than two are seldom so caught, and most
+often only one in one night. Trapping on successive nights at one mound
+often yields the larger number, yet in some cases the number is
+explained by the fact that two or three nearly mature young are taken,
+and the capture of several individuals at a single mound can not be
+taken to indicate that all are from the one den. Our investigations tend
+strongly to the conclusion that only one adult occupies a mound, except
+during the period when the young are in the parental (or maternal) den.
+In the gassing and excavating of 25 or more mounds we have never found
+more than one animal in a den, except in one instance, and then the two
+present were obviously young animals.
+
+
+SENSE DEVELOPMENTS.
+
+Without making special investigations through a study of behavior or
+other special methods, one can speak in only general terms regarding
+what appear to be the special sense developments of kangaroo rats. The
+eyes are large, as is very often the case in nocturnal animals, and when
+brought out into the bright light of day the rats perhaps do not see
+well. Yet, if an animal leaves a den which is in process of excavation,
+and follows one runway, even in bright sunlight, it makes excellent
+speed to the next opening, often a distance of several yards. Whether
+this is accomplished chiefly by the aid of sight or in large measure by
+a maze-following ability, such as experiments have shown some rodents to
+have, can not be stated without precise experimentation. Marked ability
+to follow a maze would not be at all surprising in view of the
+labyrinthine character of the underground passages which make up the
+normal habitation.
+
+When watching beside a mound by moonlight one is impressed with the fact
+that the rats possess either a very keen sense of hearing or of sight,
+probably both. The very slightest movement or noise on the part of the
+observer results, with a timid individual, in an instantaneous leap for
+safety, a disappearance into the burrow so sudden as to be almost
+startling. All attempts to obtain flashlight photographs at the mounds
+were failures, the animal either having gotten completely out of the
+field before the light flashed following the pull of the trigger, or
+leaving merely an indistinguishable blur on the plate as it went, and
+this in spite of carefully hiding the trigger chain behind a screen. A
+slight noise accompanying the trigger action gave the alarm in one case,
+and in another the length of time of the flash was sufficient for the
+get-away. The marvelous quickness of the animal clearly indicates a
+remarkably short reaction time. Occasionally a bold individual is
+found, as in the case of one which came out repeatedly, even after being
+flashed twice in the same night.
+
+Certain peculiar physical characteristics suggest a relationship to
+sense reactions. On these, however, the authors are not prepared to do
+more than offer suggestions for future work. The extremely large
+mastoids found in kangaroo rats suggest a connection in some way with
+special developments of the sense of hearing or of balance. It may be
+noted that an intermediate condition between the kangaroo rats and the
+majority of rodents in respect to this character is to be found in the
+pocket mice (_Perognathus_), which belong to the same family. Herein
+lies a field for some interesting experimentation and discovery.
+
+The small, pointed nose might suggest a not overkeen sense of smell, and
+there appears no reason to believe that this sense is particularly well
+developed. However, the turbinals are very complex. The vibrissæ are
+long and sensitive, and may indicate a special development of the sense
+of touch as an adaptation to nocturnal habits and to life in an
+underground labyrinth. The long, well-haired tail doubtless serves as an
+important tactile organ as well as a balance.
+
+
+MOVEMENTS AND ATTITUDES.
+
+Movements and attitudes are characteristic. As a kangaroo rat emerges
+from the burrow a reason for the relatively large size of the opening is
+seen in the fact that, kangaroolike, the animal maintains a partially
+upright position. Its ordinary mode of progression is hopping along on
+the large hind legs, or, when in the open and going at speed, leaping.
+When moving slowly about over the mound, as if searching for food, it
+uses the fore legs in a kind of creeping movement. It appears to be
+creeping when pocketing grain strewn about, but close observation shows
+that the fore feet are then used for sweeping material into the pockets,
+reminding one somewhat of a vacuum cleaner. When it assumes a partially
+upright position the fore limbs are usually drawn up so closely that
+they can be seen only by looking upward from a somewhat lower level than
+that occupied by the animal. The slower movements of searching or
+playing about the mound are occasionally interrupted by a sudden leap
+directly upward to a height of 1-1/2 to 2 feet, often with no apparent
+reason other than play. This is, however, a fighting or guarding
+movement, though indulged in for play. The play instinct seems to be
+well developed, and in evidence on any moonlight night when actual
+harvesting operations are not going on.
+
+
+STORING HABITS.
+
+Probably no instinct is of greater importance to the kangaroo rat than
+that of storing food supplies. When a crop of desirable seeds is
+maturing the animal's activities appear to be concentrated on this work.
+During September, 1919, when a good crop of grass seed was ripening
+following the summer rains, a kangaroo rat under observation made
+repeated round trips to the harvest field of grass heads. Each outward
+trip occupied from 1 to 1-1/2 minutes, while the unloading trip into the
+burrow took only 15 to 20 seconds.
+
+One individual in a laboratory cage, which had not yet been given a nest
+box, busied itself in broad daylight in carrying its grain supply into
+the darkest corner of the cage. When a nest box is supplied the
+individual will retreat into its dark shelter, and will only come forth
+after darkness has fallen unless forcibly ejected, but will store the
+food supplied.
+
+In another case an animal escaped while being handled, and sought refuge
+behind a built-in laboratory table, where it could not be recovered
+without tearing out the table. For four days and nights it had the run
+of the laboratory. On the first night of its freedom it found and
+entered a burlap bag of grass seed that had been taken from a mound. A
+trail of seed and chaff next morning showed that it had been busily
+engaged in making its new quarters comfortable with bedding and food.
+After four nights of freedom it was captured alive in a trap, and later
+it was found that it had moved from the corner behind the table to the
+space beneath a near-by drawer, where it had stored about 2 quarts of
+the grass seed and a handful of the oatmeal used for trap bait.
+
+
+BREEDING HABITS.
+
+Observations on breeding habits have consisted mainly in taking records
+from the females trapped at all seasons of the year throughout the
+course of the investigation, and from examinations made during poisoning
+operations, and yet from this source the number of pregnant females
+taken or of young discovered is disappointingly small. The records
+indicate a breeding period of considerable length, extending from
+January to August, inclusive. It is possible that the length of the
+period may be increased by a second litter from the earliest breeding
+females in summer, but the large percentage of nonpregnant or
+nonbreeding animals which occurs throughout the season would indicate a
+wide variation in the time of breeding of different individuals.
+
+Trapping in February and March for the purpose of securing greater
+numbers of female specimens, begun with the idea that these months were
+most likely to be the breeding months, has invariably yielded an
+unsatisfactory number of nonbreeding specimens and males. Unfortunately,
+the numbers of females secured in some months were not sufficient to be
+significant if worked out in percentages of breeding and nonbreeding
+individuals, and this, coupled with the fact that the importance of
+recording carefully all nonbreeders was not at first recognized, makes
+it impossible to tabulate such information reliably. The total of
+females taken in April, for example, is only 3, of which 1 was breeding;
+while in June, during the course of poisoning operations, 45 females
+were examined, of which 21 were breeding.
+
+Five breeding females were taken in January, all during the last three
+days of the month. One of these was a suckling female, the young of
+which were secured alive and were probably at least a week old when
+taken. This must have been exceptionally early for young, since of a
+number of adult kangaroo rats taken during the first week of January
+none have been found to be breeding. Two records from Vernon Bailey are
+as follows: May 19-June 8, 1903, young specimen in nest (Santa Rosa, N.
+Mex.); June 12, 1889, one female, two embryos (Oracle, Ariz.).
+
+The considerable proportion (which we believe to be more than 50 per
+cent) of nonbreeding females taken during all those months in which
+breeding has been found to occur may also indicate an extended period of
+breeding, with a small percentage breeding at any one time. This period
+also furnishes ample time for the rearing of two litters a year by some
+females, but we have no evidence as to the occurrence of two litters.
+Young of the year, practically grown, are taken during and after the
+month of April.
+
+The mammae are arranged in three pairs, pectoral, 1/1; inguinal, 2/2.
+
+Kangaroo rats are among those rodents in which the vagina becomes
+plugged with a rather solid material, translucent, and of the
+consistency of a stiff gelatine, after copulation. This must occur very
+soon after coitus, since in those individuals taken in this condition no
+definite evidence of the beginning of development of embryos could be
+detected by examination.
+
+The length of the gestation period of _spectabilis_ is unknown. The
+young are born naked, a fact inferred by failure to find any fetus
+showing noticeable hair development, and from the conditions observed in
+such young as have been seen. A suckling female was taken by Vorhies,
+January 31, 1920, and her den immediately excavated in the hope of
+securing the young. Two juveniles were found in a special nest chamber
+(see p. 30). These were estimated to be perhaps two weeks old. A serious
+effort was made to raise the little animals by feeding milk with a
+pipette and keeping them warm with a hot water bottle, but they survived
+only 10 days, without the eyes having opened. The uneven temperature as
+well as the character of the food was probably responsible for their
+deaths. On February 3 they were measured and weighed, with the following
+results:
+
+---------------------------------------------------
+         |         | Measurements (in millimetres).
+         | Weight  |-------------------------------
+         | (in     | Total   | Tail       | Hind
+         | grams). | length. | vertebrae. | foot.
+---------|---------|---------|------------|--------
+No. 1    | 13.3    |   90    |     38     |  24
+No. 2    | 12.6    |   93    |     38     |  24
+---------------------------------------------------
+
+At this stage the young were partially clothed with a coat of fine
+velvety fur, more especially on the bodies, the tails being still nearly
+naked. The body color was dark plumbeous, just the color of the dark
+underfur of the adult, or a shade darker, while the characteristic white
+markings of the adult stood out sharply as pinkish-white areas against
+the dark background (see Pl. IX, Fig. 2, at p. 32). The proportions were
+much as in the adult, except that the tails were relatively much shorter
+and the feet relatively longer.
+
+Only one other record of young is at hand, that by Bailey, who secured
+the young after capture of a suckling female at Santa Rosa, N. Mex. In
+this case the litter contained only one. This was squeaking when found,
+but was not large enough to crawl away. Its eyes and ears were closed,
+and its soft, naked skin was distinctly marked with the pattern of the
+adult, the colors being as given for the other two. This juvenile lived
+only a week. Young less than half grown were not trapped or noted in our
+poisoning operations outside the dens.
+
+Kangaroo rats, if _spectabilis_ be representative, reproduce at a slow
+rate as compared with many other small rodents. We have records of 67
+females with embryos or scars showing the number produced, and of the
+two litters of young described above. Of the 69 females thus recorded,
+15, or 21.7 per cent, had but one offspring each; 52, or 75.3 per cent,
+but two each; while only 2 individuals, or 2.9 per cent, had three.
+Three young is the maximum litter recorded. This, taken in connection
+with the protracted breeding season and lack of sure evidence of the
+production of two broods a year, gives a surprisingly low rate of
+reproduction, indicating relative freedom from inimical factors.
+
+Our breeding records for _merriami_ are fewer than for _spectabilis_,
+but are very similar in every way so far as they go, both as to the time
+of year and number of young.
+
+
+
+
+FOOD AND STORAGE.
+
+
+_Dipodomys s. spectabilis_ does not hibernate, so must prepare for
+unfavorable seasons by extensive storage of food materials. There are
+two seasons of the year, in southeastern Arizona at least, when storage
+of food takes place, namely, in spring, during April or May, and in
+fall, from September to November, the latter being the more important.
+For the periods between, the animal must rely largely on stored
+materials. Not infrequently a season of severe drought precludes the
+possibility of any storage. The summer and fall of 1918 was such a
+season on the Range Reserve (Pl. II, Fig. 2). If food stores are
+inadequate at such a time the kangaroo rats must perish in considerable
+numbers. Fisher found many deserted mounds in the vicinity of Dos
+Cabezos, Ariz., in June, 1894, which may be accounted for in this way.
+In 1921 Vorhies found all mounds within 4 or 5 miles of Albuquerque, N.
+Mex., deserted by _spectabilis_, resulting probably from overgrazing by
+sheep and goats during a succession of dry years. In the arid Southwest
+natural selection probably favors the animals with the largest food
+stores, and it is not surprising that the storing habit has been
+developed to a remarkable degree.
+
+Some stored material is likely to be found at any time of year in any
+mound examined, the largest quantity usually in fall and winter, the
+smallest in July or August (Table 1, dens 1, 2, 14, and 24). Amounts
+found by different observers vary from a few ounces to several quarts or
+pecks, and stored materials taken from 22 mounds on the Range Reserve
+vary in weight from 5 to 4,127 grams (more than 9 pounds). This is
+exceeded by one lot from New Mexico, which totaled 5,750 grams (12.67
+pounds). It is fairly evident that in seasons of scanty forage for stock
+the appropriation of such quantities of grass seeds and crowns and other
+grazing materials by numerous kangaroo rats may appreciably reduce the
+carrying capacity of the range. Studies of cheek-pouch contents and food
+stores taken from dens show that the natural food of _spectabilis_
+consists principally of various seeds and fruits, particularly the seeds
+of certain grasses. The study of burrow contents has been especially
+illuminating and valuable.
+
+All of the stored material from 22 dens on the Range Reserve and from 2
+near Albuquerque, N. Mex., has been saved and analyzed as to species as
+carefully as the conditions of storage would permit. Within the mound
+the food stored is usually more or less segregated by plant species,
+though the stores of material of any one kind may be found in several
+places through the mound, and often the material is mixed. In the latter
+case the quantities of the various species can only be estimated, but in
+the former the species may be kept separate by the use of several bags
+for collecting the seeds, and a fairly accurate laboratory weighing can
+be made later. Very frequently, the explanation of this separation of
+species lies in the different seasons of ripening, but sometimes where
+two species are ripe at the same time near the mound, one is worked upon
+for a time to the exclusion of the other. The one kind is often packed
+in tightly against the other, but with a very abrupt change in the
+character of the material.
+
+A number of the more interesting and representative results of the
+weighing and analyses of burrow contents are presented herewith in
+tabular form. The data for each den, or lot, shows in grams the quantity
+of stored material removed and the best estimate it was possible to make
+of the percentages or weights of the various species. When the weight
+was less than 5 grams, the mere trace of the species frequently is
+indicated in the following tables by the abbreviation "Tr."
+
+TABLE 1.--_Analyses of plants stored by _Dipodomys spectabilis
+spectabilis_ Merriam, obtained from examination of representative dens
+(all except Den 24 from U. S. Range Reserve, near the Santa Rita
+Mountains, Ariz.)._
+
+
+DEN 1.
+
+February 7, 1918. Burrow typical, located on bank of wash in partially
+denuded grass-land, _Bouteloua rothrockii_ and weed type; soil sandy;
+burrow photographed in section (Pl. VII, Fig. 1).
+
+        Species stored.                                           Grams.
+
+Bouteloua rothrockii                                               2,205
+Bouteloua aristidoides (B. eriopoda and B. rothrockii, Tr.)        1,445
+Plantago ignota                                                      442
+Eriogonum polycladon                                                  35
+                                                                   -----
+      Total                                                         4,127
+
+Four species of plants represented in burrow contents (Pl. VII, Fig. 2).
+Maximum quantity for single burrow in series of 22 from Range Reserve.
+
+
+DEN 2.
+
+March 9, 1918. Surroundings overgrazed and partially restored by
+complete protection. Red soil, with much coarse rough gravel and stone.
+
+        Species stored.                                           Grams.
+
+Bouteloua rothrockii (nearly pure)                                 1,460
+Bouteloua rothrockii (mixed with Aristida spp.)                      945
+Boerhaavia wrightii                                                  660
+Bouteloua rothrockii                                           }
+Bouteloua aristidoides                                         }     525
+Aristida divaricata                                            }
+Aristida bromoides                                             }
+Kallstroemia laetevirens                                             Tr.
+Heterotheca subaxillaris                                             Tr.
+Plantago ignota                                                       15
+Fleshy fungi                                                          10
+                                                                   -----
+      Total                                                        3,615
+
+Eight species of plants represented by seeds. One species of fleshy
+fungus in addition.
+
+
+DEN 4.
+
+September 20, 1918. In _Calliandra_ type. Stony or gravelly soil, red,
+nearly denuded of grass.
+
+        Species stored.                                           Grams.
+
+Prosopis velutina                                                    190
+Mollugo verticillata (pure)                                           90
+Anisolotus trispermus (mixed, but mostly of this genus)               50
+Solanum elaeagnifolium (12 fruits)                                     2
+                                                        Per cent.
+Mollugo verticillata (inseparable)                           50 }
+Bouteloua rothrockii                                          1 }
+Bouteloua aristidoides                                       10 }
+Lepidium lasiocarpum                                        Tr. }
+Polygala puberula                                           Tr. }
+Ayenia microphylla                                            2 }
+Portulaca suffrutescens                                       1 }    400
+Aplopappus gracilis                                         Tr. }
+Alternanthera repens                                          1 }
+Tridens pulchella                                             1 }
+Plantago ignota                                              33 }
+Panicum hallii                                              Tr. }
+Fleshy fungi (puffballs)                                               2
+                                                                     ---
+      Total                                                          734
+
+Fifteen species represented in addition to the fleshy fungi. No
+perceptible grass growth from the summer rains here, therefore dependent
+on a wide variety of scattering plants.
+
+
+DEN 6.
+
+October 17, 1918. Mixed type, partially denuded, no growth from summer
+rains. Sandy soil.
+
+        Species stored.                                           Grams.
+
+Bouteloua rothrockii (crowns) (heads 1 to 2 per cent)              1,435
+Bouteloua rothrockii (heads and crowns, about 50 per cent of each)   325
+Bouteloua rothrockii (with small percentage of crowns)               315
+Boerhaavia wrightii (with a few grass crowns)                        150
+Prosopis velutina                                                     90
+Solanum elaeagnifolium (3 fruits)                                    Tr.
+                                                                   -----
+      Total                                                        2,315
+
+Four species represented. Count of 100 grams of stored _Bouteloua_
+crowns gives 1,700, or 17 crowns per gram. At this rate there were at
+least 27,000 crowns stored in this burrow. If a density of 250 plants to
+the square yard be assumed (a high estimate) these crowns represent the
+total _B. rothrockii_ on 104 square yards of range surface. Further
+examination of the vicinity of this den showed that the surrounding area
+was not completely cleared, but was devoid of _B. rothrockii_, while
+still having _B. eriopoda_ with crowns undisturbed.
+
+
+DEN 11.
+
+April 9, 1919. In partially denuded land where good spring growth of
+_Eschscholtzia_ was in bloom at time of excavation. Stomach of
+_spectabilis_ killed in this burrow contained a mass of fresh but
+finely comminuted green material, probably poppy leaves, strongly
+colored with yellow from blossoms. No summer growth here in 1918.
+
+        Species stored.                                           Grams.
+
+Bouteloua rothrockii (crowns) (miscellaneous chaff, etc.)            107
+Eschscholtzia mexicana (buds and flowers)                       }
+Anisolotus trispermus (leaves and pods)                         }
+Gaertneria tenuifolia (leaves)                                  }     10
+Lupinus sparsiflorus (flowers)                                  }
+Solanum elaeagnifolium (2 fruits)                                    Tr.
+                                                                     ---
+      Total                                                          117
+
+Six species represented, some only by leaves or flowers and not by
+seeds. _Such storage is never in large quantity._ The fresh storage
+material was weighed after becoming air dry. This illustrates a late
+spring condition, storage running low.
+
+
+DEN 14.
+
+August 8, 1919. Excellent summer growth all over range. This burrow in
+mixed growth, grasses and weeds.
+
+        Species stored.                                           Grams.
+
+Miscellaneous portions of _green plants_ of mixed species,
+  _no seeds_                                                           5
+
+Representing minimum for any one of the 22 burrows studied. Active
+storage does not begin until September.
+
+
+DEN 16.
+
+October 17, 1919. In good grass, but mound overrun by a large
+_Apodanthera_ vine.
+
+        Species stored.                               Per cent.   Grams.
+
+Aristida divaricata                                   90 to 95  }
+Chamaecrista leptadenia                               10 to  5  }     58
+Bouteloua rothrockii                                       Tr.  }
+Prosopis velutina                                                    200
+Apodanthera undulata                                                  55
+                                                                     ---
+      Total                                                          313
+
+Five species represented. Two species, _Apodanthera_, and _Chamaecrista
+leptadenia_, new to storage records. Several whole fruits of
+_Apodanthera_, about 2 inches in diameter, stored in addition to seeds
+alone; seeds of this form not previously noted in burrows, but very
+abundant in this one, indicating importance of the factor of
+accessibility in storage.
+
+
+DEN 19.
+
+October 31, November 1, 1919. In good grass. Entire burrow system mapped
+(Fig. 2, p. 29).
+
+        Species stored.                               Per cent.   Grams.
+
+Aristida spp. (probably mostly _divaricata_)                98  }
+Eriogonum sp                                               Tr.  }
+Bouteloua rothrockii                                         1  }  1,813
+Bouteloua aristidoides                                       1  }
+Panicum sp                                                 Tr.  }
+Prosopis velutina                                                  1,213
+                                                                   -----
+      Total                                                        3,026
+
+Five species represented, in addition to those of _Aristida_. Largest
+storage of _Prosopis_ found. Mound was near a good-sized mesquite tree.
+No storage in subsidiary burrows.
+
+
+DEN 21.
+
+January 31, 1920. Male trapped here night of January 29, and suckling
+female trapped at same place and same opening of mound, night of January
+30. Burrow excavated to secure young, which were found in special nest
+chamber.
+
+        Species stored.                                           Grams.
+
+Aristida spp. (intimate mixture of undetermined species)           1,115
+Eschscholtzia mexicana (from spring of 1919)                          48
+Opuntia (prickly pear, seeds only, no fruits)                         10
+                                                                   -----
+      Total                                                        1,173
+
+Three species represented. Prickly pear hitherto found as fruits only.
+
+
+DEN 22.
+
+January 1, 1921. Rather good grass growth here in summer of 1920. Burrow
+typical, sandy soil. Two skulls of former residents unearthed.
+
+        Species stored.                                           Grams.
+
+Aplopappus gracilis (some B. rothrockii)                           1,030
+Astragalus nuttallianus                                              630
+Bouteloua rothrockii (some A. gracilis)                              530
+Sida diffusa                                                          30
+Solanum elaeagnifolium (282 fruits)                                   53
+Loeflingia pusilla                                                   Tr.
+Bouteloua aristidoides                                               Tr.
+Plantago ignota                                                      Tr.
+Lupinus sparsiflorus                                                 Tr.
+Old storage (mostly Bouteloua aristidoides with traces of B.
+  rothrockii and Aristida divaricata)                                 60
+                                                                   -----
+      Total                                                        2,333
+
+Eleven species represented. First instance of quantity storage of
+_Aplopappus gracilis_. First occurrence of _Loeflingia pusilla_ and
+_Astragalus nuttallianus_.
+
+
+DEN 24.
+
+November 8, 1921. On mesa northeast of Albuquerque, N. Mex., near base
+of Sandia Mountains. Fair grass growth here during preceding summer.
+
+        Species stored.                                           Grams.
+
+Sporobolus cryptandrus strictus                                    5,455
+Salsola pestifer                                                     295
+                                                                   -----
+      Total                                                        5,750
+
+Two species represented. The heads of _Sporobolus cryptandrus strictus_
+are retained to a great extent within the leaf sheaths. This
+necessitates the cutting of the stems into suitable lengths for
+carrying, and the stored material appears to be merely cut sections of
+the stems. Close examination, however, discloses the heads within, and
+shows that as in other instances seed storage is the end sought. These
+pieces are packed beautifully parallel like so many matches, and vary
+from a minimum length of 20 to a maximum of 37 millimeters, averaging
+about 30. Count of 2 grams of the above _Sporobolus_ material shows that
+there are 125 separate cut sections per gram, or a total of
+approximately 680,000 pieces in this one lot of storage, indicating a
+remarkable activity on the part of the individual rat (Pl. VIII, Fig.
+1).
+
+
+[Illustration: PLATE VII. FIG. 1.--DEN EXCAVATED ON RANGE RESERVE.
+
+Vertical section through Den No. 1, of Table 1 (p. 20), showing the
+complex system of burrows, some of them plugged with closely packed
+storage (outlined in white), the depth of the den, and the widened
+chambers centrally located.]
+
+[Illustration: PLATE VII. FIG. 2.--CONTENT OF EXCAVATED DEN.
+
+Storage content of Den No. 1 (Fig. 1, above), showing the separate
+species of plants listed in Table 1. The rod is 1 meter long. The large
+pile on the left is composed of seed-laden heads of crowfoot grama
+(_Bouteloua rothrockii_), the large pile on the right consists of heads
+of six-weeks grama (_Bouteloua aristidoides_), the pile of heads in the
+center is desert plantain (_Plantago ignota_), and the smallest heap is
+composed of buckwheat-bush seeds (_Eriogonum polycladon_).]
+
+
+The number of lots of storage (24) studied in detail, extending as it
+does over a period of three years with seasons of varying growth
+conditions, is not sufficient to permit the construction of a curve
+showing increase and decrease in quantity of stored material with
+growing seasons and intervals between; but the results indicate a very
+decided increase during the autumn storing season, and continuing large
+well into the winter, since some outside material can still be obtained
+until midwinter. From about February to April a decrease may be noted,
+followed, if the spring growth of annuals be good, by a slight increase;
+and we can very nearly predict the general character of the increases
+and decreases by the precipitation and consequent growth conditions.
+
+TABLE 2.--_Quantity of storage per den correlated with time of year and
+growth conditions of preceding season (chiefly from United States Range
+Reserve near the Santa Rita Mountains, Ariz.)._
+
+------------+-----------+-----------+-----------
+            |           |           |
+ Den No.    | Date.     | Quantity. | Preceding
+            |           |           | season.
+            |           |           |
+------------+-----------+-----------+-----------
+            |   1918.   | _Grams._  |
+            |           |           |
+ 1          | Feb. 7    |    4,127  |  Good.
+ 2          | Mar. 9    |    3,615  |    Do.
+ 3          | July 25   |      401  |  Poor.
+ 4          | Sept. 20  |      734  |    Do.
+ 5          | Sept. 21  |    2,520  |    Do.
+ 6          | Oct. 17   |    2,315  |    Do.
+ 7          | Dec. 20   |    1,247  |    Do.
+            |           |           |
+            |   1919.   |           |
+            |           |           |
+ 8          | Feb. 7    |    1,600  |    Do.
+ 9          | Mar. 13   |      370  |    Do.
+ 10         | Apr. 7    |      180  |    Do.[3]
+ 11         | Apr. 9    |      117  |  Good.[3]
+ 12         | May 7     |      298  |    Do.[3]
+ 13         | May 11    |    1,590  |    Do.
+ 14         | Aug. 8    |        5  |  Good.
+ 15         | Sept. 4   |      151  |    Do.
+ 16         | Oct. 17   |      313  |    Do.
+ 17         | Oct. 18   |      583  |    Do.
+ 18         | Oct. 25   |    3,410  |    Do.
+ 19         | Nov. 1    |    3,026  |    Do.
+ 20         | Dec. 13   |    2,816  |    Do.
+            |           |           |
+            |   1920.   |           |
+            |           |           |
+ 21         | Jan. 31   |    1,173  |    Do.
+            |           |           |
+            |   1921.   |           |
+            |           |           |
+ 22         | Jan. 1    |    2,333  |  Fair.
+ 23[4]      | Nov. 7    |    1,685  |  Good.
+ 24[4]      | Nov. 8    |    5,750  |    Do.
+            |           |           |
+------------+-----------+-----------+-----------
+
+    [Footnote 3: Changing from poor summer season of 1918 to excellent
+    spring growth of 1919.]
+
+    [Footnote 4: From near the Sandia Mountains, N. Mex.; others from
+    United States Range Reserve, near the Santa Rita Mountains, Ariz.]
+
+In presenting Table 2, showing quantity of storage per burrow correlated
+with the time of year and the character of the preceding growing season,
+the fact may be emphasized that the growing seasons in southern Arizona
+are two in number--early spring and midsummer. The spring season is the
+less important, the plants consisting chiefly of a variety of small
+annuals, while the important range grasses make their chief growth and
+head out almost exclusively in the July-August rainy season. It may be
+noted also that the actual increases in storage appear somewhat after
+the growth period proper, since storing does not get well under way
+until the seed crop is mature. The banner-tailed kangaroo rat shows a
+marked adaptability to different foods available in the neighborhood of
+its burrows. It must, perforce, adapt itself and its storage program to
+the food that it can get, and this varies enormously with the climatic
+conditions of successive seasons. The large numbers present in suitable
+localities clearly indicate that the animal is successful in meeting the
+changing and sometimes extremely adverse conditions of its environment.
+
+
+[Illustration: PLATE VIII. FIG. 1.--CONTENT OF DEN EXCAVATED IN NEW MEXICO.
+
+Storage content of Den No. 24, of Table 1, from Sandia Mountains, N.
+Mex. This is the largest lot of storage taken in the course of the
+investigations. The larger pile consists wholly of a valuable grass,
+_Sporobolus cryptandrus strictus_: the smaller of Russian thistle
+(_Salsola pestifer._)]
+
+[Illustration: PLATE VIII. FIG. 2.--GROWTH FOLLOWING ELIMINATION OF
+KANGAROO RATS.
+
+The same mound as shown in Plate III, Figure 1, after three years of
+protection, the rodents having been killed out. Nearly as good grass
+recovery following poisoning operations occurred in the single excellent
+season of 1921.]
+
+
+At times, more especially in the seasons of active growth, some of the
+green and succulent portions of plants are eaten. This was very
+noticeable in the spring of 1919, when a most luxuriant growth of
+Mexican poppy (_Eschscholtzia mexicana_) occurred. Stomachs at this time
+were filled with the yellow and green mixture undoubtedly produced by
+the grinding up of the buds and flowers of this plant. Small caches of
+about a tablespoonful of these buds were also found in the burrows at
+this time. Occasionally in spring one may find a few green leaves of
+various plants, _Gaertneria_ very commonly, tucked away in small pockets
+along the underground tunnels, indicating that such materials are used
+to some extent. As has been shown in detail, however (Table 1), the
+chief storage, and undoubtedly the chief food, consists of air-dry
+seeds.
+
+The character of the storage, the absence of rain for months at a time
+in some years, and the consequent failure of green succulents show that
+without doubt _spectabilis_ possesses remarkable power, as to its water
+requirements, of existing largely if not wholly upon the water derived
+from air-dry starchy foods, i.e., metabolic water serves it in lieu of
+drink (Nelson, 1918, 400), this being formed in considerable quantities
+by oxidation of carbohydrates and fats (Babcock, 1912, 159, 170). During
+the long dry periods characteristic of southern Arizona, no evidence
+that the animal seeks a supply of succulent food, as cactus, is found;
+and if it may go for two, three, or six months without water or
+succulent food, it is reasonable to suppose that it may do so
+indefinitely. In the laboratory _spectabilis_ ordinarily does not drink,
+but rather shows a dislike for getting its nose wet. During the periods
+of drought the attacks upon the cactuses by other rodents of the same
+region, as _Lepus_, _Sylvilagus_, _Neotoma_, and _Ammospermophilus_,
+become increasingly evident. The list of plant species thus far found
+represented in the storage materials of _spectabilis_ on the Range
+Reserve is shown in Table 3.
+
+TABLE 3.--_List of all plant species found in 22 dens of _Dipodomys
+spectabilis_ on the United States Range Reserve, near the Santa Rita
+Mountains, Ariz., with approximate total weights._
+
+          GRASSES.
+                                                                   Grams.
+Aristida bromoides (six-weeks needlegrass)                           536
+Aristida divaricata (Humboldt needlegrass)                         9,412
+Aristida scabra (rough needlegrass)                                  344
+Bouteloua aristidoides (six-weeks grama)                           3,093
+Bouteloua radicosa (grama)                                         1,269
+Bouteloua eriopoda (black grama)                                     Tr.
+Bouteloua rothrockii (seeds, 8,495; crowns, 3,517 grams)
+    (crowfoot grama)                                              12,012
+Festuca octoflora (fescue grass)                                      70
+Panicum arizonicum (Arizona panic-grass)                              11
+Panicum hallii (Hall panic-grass)                                    Tr.
+Pappaphorum wrightii                                                 Tr.
+Tridens pulchella                                                    Tr.
+Valota saccharata                                                    Tr.
+
+            OTHER PLANTS.
+
+Alternanthera repens                                                 Tr.
+Anisolotus trispermus (bird's-foot trefoil)                          186
+Aplopappus gracilis                                                1,030
+Apodanthera undulata (melon loco)                                     55
+Astragalus nuttallianus (milk vetch)                                 630
+Ayenia microphylla                                                   Tr.
+Boerhaavia wrightii                                                  885
+Chamaecrista leptadenia (partridge pea)                                5
+Echinocactus wislizeni (visnaga)                                       5
+Eriogonum polycladon                                                  35
+Eschscholtzia mexicana (Mexican poppy)                               250
+Gaertneria tenuifolia (franseria)                                    Tr.
+Collomia gracilis (false gilia)                                      Tr.
+Heterotheca subaxillaris                                             Tr.
+Kallstroemia laetevirens                                             Tr.
+Lupinus sparsiflorus (lupine)                                        Tr.
+Martynia altheaefolia (small devil's-horns)                           12
+Mollugo verticillata (carpetweed)                                    324
+Oenothera primiverus (evening primrose)                               15
+Opuntia discata (prickly pear)                                        15
+Loeflingia pusilla                                                   Tr.
+Lepidium lasiocarpum (peppergrass)                                   Tr.
+Plantago ignota (plantain)                                           818
+Polygala puberula (milkwort)                                         Tr.
+Portulaca suffrutescens (purslane)                                   Tr.
+Prosopis velutina (mesquite)                                       1,570
+Sida diffusa (spreading sida)                                         30
+Solanum elaeagnifolium (742 fruits) (trompillo, prickly solanum)     156
+Puffballs and fleshy fungi (undetermined)                             12
+
+  Total species, exclusive of fungi, 41.
+
+It will be seen from Table 3 that while a large number of species of
+plants are represented in the totals from so many dens, a majority of
+them are of very minor importance, and that the seeds of grasses are the
+principal storage and probably therefore the principal food material.
+Six of the most important species of grasses (disregarding species
+furnishing less than 5 grams) comprise 85.6 per cent of the total weight
+of storage from 22 dens. Crowfoot grama (_Bouteloua rothrockii_) stands
+first in quantity in the total, forming 39.4 per cent of all stored
+material, 46 per cent of the six important grasses, and 45 per cent of
+all grasses. The largest amount of storage of any one species of grass
+in any one den on the Range Reserve also is of this species, 2,205
+grams[5] (Table 1, den 1, p. 20, and Pl. VII, Fig. 2). This is exceeded
+by a dropseed grass, _Sporobolus cryptandrus strictus_, which amounted
+to 5,455 grams in a lot from Albuquerque, N. Mex. (Table 1, den 24, and
+Pl. VIII, Fig. 1).
+
+    [Footnote 5: This amount of dry grama grass seed (heads) amounts to
+    approximately a bushel.]
+
+Of the species other than grasses found stored in these dens, mesquite
+beans (_Prosopis velutina_) are most important both by weight and number
+of dens containing them. The total for the 22 Range Reserve dens is
+1,570 grams, or 35.9 per cent of the seeds other than grasses, but only
+5.1 per cent of the total storage. In bulk mesquite beans do not loom up
+large, as they are probably the heaviest material stored. Sections of
+pods which must have been dragged into the burrows are found, some of
+them certainly being much too long for carriage in the pouches. The
+species of plant other than grass found in the largest quantity in any
+one den, however, was _Aplopappus gracilis_, not recorded in quantity
+from any den until the excavation of the twenty-second, and then found
+in a very large bulk of soft, fluffy material, with most of the seeds
+separated from the heads, and weighing 1,030 grams (Table 1, den 22).
+
+Any of the food materials above listed are likely to be found in the
+cheek pouches, while in addition such extraneous matter as stones and
+feces have also been found. All species of plants stored are accessible
+in the immediate vicinity of the mound, and when any particular plant is
+found seeding in abundance in the vicinity of the den it is likely to be
+represented in the storage. Usually the animals can be readily trapped
+with almost any kind of grain bait, as oats, rolled oats, rolled barley,
+and wheat; and nut meats also are attractive, though we have no record
+of the storing of any true nut in the dens, such not being available in
+the range of the animal on the Range Reserve.
+
+The following plants not represented in the list stored by the kangaroo
+rat on the Range Reserve have been found in the cheek pouches or mounds
+of _spectabilis_ in other localities:
+
+     _Amaranthus palmeri_, _Sesuvium portulacastrum_, and _Atriplex
+     wrightii_ (alluvial soil of Santa Cruz Valley, Continental, Ariz.,
+     Bailey).
+
+     Cut leaves and stems of a small sagebrush (Franklin Mountains,
+     Tex., Gaut).
+
+     _Gutierrezia_ heads (San Juan Valley, N. Mex., Birdseye).
+
+     _Verbesina enceliodes_, _Portulaca oleracea_, _Bouteloua gracilis_,
+     and _Munroa squarrosa_ (Rio Alamosa, N. Mex., Goldman).
+
+     Tops of buds of _Artemisia filifolia_ (Mesa Jumanes, N. Mex.,
+     Gaut).
+
+     Tumbleweed (_Amaranthus graecizans_), Russian thistle (_Salsola
+     pestifer_), _Munroa squarrosa_, and _Sporobolus cryptandrus
+     strictus_ (Sandia Mountains, Albuquerque, N. Mex., Vorhies).
+
+
+
+
+BURROW SYSTEMS, OR DENS.
+
+
+The burrow system, or den, in which _spectabilis_ stores its caches of
+food materials, has its nest, and remains throughout the hours of
+daylight is a complicated labyrinth of tunnels. Ejection of refuse and
+soil from this retreat builds up the mound frequently referred to. These
+mounds are, as Bailey says, characteristic of the species, and are as
+unmistakable as muskrat houses or beaver dams, and as carefully planned
+and built for as definite a purpose--home and shelter. They are,
+furthermore, the most notable of all kangaroo rat dwelling places
+(Nelson, 1918, 400). They range in height from 6 inches to approximately
+4 feet and from 5 to 15 feet in diameter.
+
+The mound is built up not only through the cleaning out of chaff and
+other food refuse, but through extension and modification of the
+tunnels; old tunnels, entrances, and caches of musty food material are
+from time to time closed up and others excavated, repair and rebuilding
+being especially necessary after the collapse of portions of the den as
+a result of heavy rains or trampling by cattle. Ejected material is most
+commonly simply thrown out fan-wise from the openings, without much
+apparent effort to add to the height of the mound.
+
+There are usually from 6 to 12 entrance holes in each mound opening into
+the subterranean burrow system, each hole from 4 to 5-1/2 inches in
+diameter. These holes are nearly all situated a little above the surface
+of the surrounding soil, and as Price has suggested (in Allen, 1895,
+213), this is doubtless a wise provision against flooding, as torrential
+rains sometimes occur in the kangaroo rat country.
+
+Both Bailey and Nelson state that as a rule several of the holes are
+closed with sand or miscellaneous earth and old storage material during
+the daytime, but our observations on the Range Reserve are that such
+closing is only occasional. Many occupied dens have not a single
+opening closed. Further, night observations disclose that the inhabitant
+of the mound will appear from some one of the two or three most-used
+openings when night falls, and not necessarily from one which has been
+closed by day. Recently an opening closed one day was observed in use
+during the night, but was left open all the next day.
+
+In attempting to determine whether there exist similarities of plan or
+system in the dens, it was considered advisable to map them with some
+degree of accuracy. This we were enabled to do by laying off a square
+about a given mound, 2-1/2 or 3 meters each way, and subdividing it into
+a series of small squares of half a meter on each side by drawing
+cross-lines on the surface of the ground over the top of the mound. One
+person then did the digging and exploring of the tunnels, as to
+direction and depth, while the other noted the results on coordinate
+paper (Figs. 2 and 3); the proper excavation and mapping of one of these
+workings occupied from four to eight hours for the two.
+
+[Illustration: FIG. 2.--Diagram of a typical den of _Dipodomys
+spectabilis spectabilis_. Double shading indicates where one portion of
+tunnel lies above another and solid black a three-story arrangement;
+_A_, _B_, _C_, etc., active openings to surface; figures without arrows,
+depths in centimeters to tunnel roofs; figures with arrows, tunnel
+widths in centimeters; _N._ nest chamber; _S_, storage; _OS_, old
+storage; _Y_, probably an old nest chamber; _Z_, old, unused, or
+partially plugged openings.]
+
+While there is greater complexity in the larger, and probably older,
+mounds than in the smaller, all are extremely complicated and can only
+be described as labyrinthine in character. The tunnels wind about
+through the mound, rising and falling in vertical depth,
+intercommunicating frequently, but with occasional cul-de-sacs, and in
+places expanding into chambers, of which there may be three or four
+large ones. The stored materials are found in some, but not necessarily
+all, of these chambers, and may also occupy considerable lengths of
+ordinary tunnel, especially when the quantity present is large. Small
+evaginations of the tunnels frequently contain lesser caches, and it is
+in such pockets that bits of fresh material are placed during a growing
+season, or that grain supplied the previous night for bait is usually
+found.
+
+The main masses of storage are most often found centrally located at
+depths of from 15 to 57 centimeters, although at times one may find a
+cache near the periphery of the system and as near the surface as 2 or 3
+centimeters. In the latter case the materials are subject to wetting
+from rains, and consequent spoilage.
+
+The major portion of the whole tunnel system is within about 50
+centimeters of the surface of the mound, but usually some one branch
+tunnel goes to somewhat greater depth, and this is likely to be the one
+containing the nest; this is also likely to extend toward or beyond the
+periphery of the main system, and always ends blindly. Such a one, from
+which two young were taken on January 31, 1920, was at a depth of about
+65 centimeters, and about 1-1/2 meters beyond the periphery of the mound
+itself.
+
+The individual tunnels average about 8 centimeters in height, and about
+11 centimeters in width, though the variation, especially in width, is
+considerable. The expansions mentioned as being the chief places of
+storage are from 15 to 25 centimeters in diameter, and may or may not
+involve a considerable increase in height. They are frequently located
+at junction points of two or more branches of the tunnel system.
+
+The nest cavity is a chamber of approximately spherical shape and from
+17 to 23 centimeters in diameter. Chambers of this character were
+observed and noted as "old storage" in a number of cases. They were
+sometimes cut off from the rest of the habitation, and at first were
+supposed to contain abandoned musty storage. As experience in excavating
+and interpreting results has been gained we have concluded that these
+chambers in fact represent abandoned nests.
+
+[Illustration: FIG. 3.--Diagram of the system of surface runways and
+subsidiary dens of _Dipodomys spectabilis spectabilis_. The underground
+tunnels of the main den were too complicated to illustrate on this
+scale, being very similar to those of Figure 2. The underground tunnels
+of the subsidiaries are shown in solid black. Some runways fade out in
+the grass in a manner that can not be indicated in a line drawing.]
+
+Bailey gives the dimensions of nest chambers observed in New Mexico as
+about 6 by 8 inches to 8 by 10 inches. The nest is composed of finer,
+softer, and more chaffy material than the regular storage. The chaff
+refuse from the food probably contributes largely to it, though some
+leaves of grasses not stored for food may also be found, and a nest,
+especially the one in use, may be distinguished, if excavating is
+carefully done, by the distinct cavity about the size of a fist in its
+interior (Pl. IX, Fig. 1). One may sometimes find this cavity distinctly
+warm from the recent presence of the inhabitant.
+
+The walls or partitions between the chambers and tunnels are in places
+surprisingly thin, and it is no wonder that one is almost certain to
+break through in stepping on a mound, since the whole is a honeycomblike
+structure of from two to four stories in vertical plan, as shown by the
+transect of a mound in Plate VII, Figure 1. As Bailey writes, these
+partition walls are a mixture of earth and old food and nest material
+discarded years ago, resembling the adobe walls of the Mexican houses
+built of chopped earth and straw. This is the result of the continual
+ejection of refuse and earth as before mentioned, combined with the
+caving action of rains and disturbances from larger animals.
+
+Apparently there are no special pockets for deposit of feces in
+_Dipodomys_ burrows; such matter may be found throughout the den, and is
+more or less mixed with the food refuse which carpets practically the
+entire tunnel system. The nest and food stores are, however, clean and
+neat, the droppings being dry and, though present on the floor of a
+storage chamber, not actually mingled with the food. Evidently the
+animal does not clean up the floor litter before storing food material.
+
+The entire system for any one den seems to consist not only of the
+burrows within the mound itself, as described, but of those small
+outlying ones which we have referred to as subsidiary burrows. These are
+two to four in number, and are connected with the main mound by the
+runways already mentioned. They often seem to be way stations on the
+runways connecting main mounds, and there is seldom any mound of earth
+whatever in connection with them. One entire den system, the home mound
+and three subsidiaries, was mapped after being excavated (Fig. 3), all
+having been carefully gassed with carbon bisulphide. The subsidiaries
+were simple and contained no storage. Two of them were shallow, while in
+the third a depth of 48 centimeters was reached. They appear to be
+merely places of refuge, though the well-worn trails connecting them
+with the main mound indicate regular use. These runways are conspicuous
+on the Range Reserve, and are apparently characteristic of mounds
+throughout the range of the animal. Dwellers in different mounds must
+have rather extensive social contacts, notwithstanding the enmity of
+individuals toward each other in captivity. The main mound, in this
+instance very complicated, was in one place three stories high, and we
+have found as many as four utilized stories; but as a rule there are two
+or three only.
+
+Since collapses are rather frequent during rainy seasons, aside from the
+trampling previously referred to, the kangaroo rats, where abundant,
+as on the Range Reserve, may well be a factor in increasing soil
+porosity and fertility; for in the course of time they probably have
+succeeded in plowing and cultivating the whole surface layer of the
+soil. They may thus be a factor in ecologic succession, tending to
+improve the character of the soil and adapt it to another stage.
+
+Doubtless their own workings afford the only shelter the animals know.
+In the course of our digging in one mound, the occupant, an adult male,
+did not forsake the den until the excavation was three-fourths
+completed; and even then it did not leave by a burrow leading away from
+our operations, but came toward us, escaped the active efforts of four
+individuals bent on its capture, and ran speedily along a used runway
+toward another burrow several meters distant. A sack had been stuffed in
+the mouth of this, however, and, baffled, the rat then returned to the
+original burrow and was captured. Observations on other rats thus driven
+from the home mound indicate that they are very familiar with the
+runways of the vicinity of the mound and the various subsidiary burrows,
+and it is a question whether they need to see clearly to follow these
+runs. Apparently they never attempt to escape by forsaking their
+well-traveled runways. Tests of the maze-running ability of these
+animals by animal-behavior experts would be of extraordinary interest,
+in view of the character of the homes which they always inhabit and the
+network of runs on the outside.
+
+
+[Illustration: PLATE IX. FIG. 1.--KANGAROO RAT NEST AND YOUNG.
+
+Nest and the two young, the ordinary number in the litter, of _Dipodomys
+s. spectabilis_, taken from den on January 31, 1920.]
+
+[Illustration: PLATE IX. FIG. 2.--YOUNG OF THE KANGAROO RAT.
+
+The same young as shown in Figure 1, above. They were probably about two
+weeks old, the pelage being short but with the white markings of the
+adult; the tails are relatively short and with scarcely any hair.]
+
+
+
+
+COMMENSALS AND ENEMIES.
+
+
+COMMENSALS.
+
+It is doubtful whether any animals live in a truly commensal
+relationship with _spectabilis_, but of not unfriendly associates there
+are a great number. It is the experience of Bailey, corroborated by
+observations of Vorhies on living animals, that these kangaroo rats are
+active in defending their caches of food, and will even fight
+individuals of the same species savagely and to the death. One moonlight
+night a strange individual was liberated on a mound. It deliberately
+entered one of the openings, but after about two minutes' time made an
+exceedingly rapid exit, running rapidly out of sight as if pursued,
+though the owner of the home did not appear outside of the burrow. There
+can be little doubt that the stranger was precipitately ejected by the
+owner. We suspect, though this is a point difficult to prove
+satisfactorily, that _merriami_ does not always store food supplies for
+itself, but visits the burrows of _spectabilis_ regularly to pilfer the
+seed stored therein. The observed facts thus far recorded which suggest
+this are that in no _merriami_ burrow examined has a store of food been
+found, and also that in trapping for _spectabilis_ on its own
+characteristic mounds one catches a large percentage of _merriami_.
+
+On two separate occasions Vorhies has observed the smaller species
+running over the mounds of the larger, actually carrying away the grain
+which had been placed to entice the larger when it might appear. (In
+these cases the larger species did not put in an appearance until near
+morning.) Furthermore, the dens of _merriami_ are often connected by
+distinct runways with those of _spectabilis_, indicating much traveling
+or visiting. That this is probably not friendly visiting is suggested by
+the certainty with which an individual of the larger species will strike
+and kill one of the smaller when they are placed together in the same
+inclosure. The word "thief" expresses this suspected relationship better
+than would the term "parasite."
+
+It is not to be expected that such obvious shelter retreats as the
+mounds of _spectabilis_ should fail to attract the attention of other
+animals. We have found a small gecko (_Coleonyx variegatus_), scorpions
+of two or three undetermined species, and certain insects (of the Order
+Orthoptera) to be very common inhabitants of the dens. With the
+exception of the parasitic insects the most common are wingless
+locustids (_Ceuthophilus_ spp.) and the peculiar wingless females of a
+species of cockroach (_Arenivaga erratica_). These two are seldom absent
+when a burrow is excavated, the female cockroaches being abundant,
+although the winged males have never been taken in the burrows.
+
+Cary's observations at Monahans, Tex., and those of others at numerous
+localities, combined with our own, show that at various times the dens
+furnish protection and shelter for various species of cottontail rabbits
+(_Sylvilagus_), ground squirrels (_Citellus_ and _Ammospermophilus_),
+wood rats (_Neotoma_), grasshopper mice (_Onychomys_), rattlesnakes
+(_Crotalus_), and most of the common lizards. Of these the ground
+squirrels _Citellus tereticaudus_ and _Ammospermophilus harrisii_ are
+most often noted on the Range Reserve using the dens as a retreat, the
+_Ammospermophilus_ seldom being observed to enter any other kind of
+burrow. It should be added that the total observations include dens
+which have been deserted by their rightful owners.
+
+
+NATURAL CHECKS.
+
+The enemies of the kangaroo rat are not determined in detail, or as to
+relative importance, but the badger (_Taxidea taxus berlandieri_) and
+the kit fox, or swift (_Vulpes macrotis neomexicana_), may well be
+foremost. Dens which have been deeply excavated by badgers are
+frequently seen, and sometimes two or three badger tunnels penetrate one
+burrow system. Dens thus despoiled are probably soon reoccupied even if
+the original owner is captured, and in the course of a few months the
+reworking of the abode obliterates the signs of destruction.
+
+Droppings of the kit fox show an abundance of bones of small mammals of
+kangaroo rat size, among them those of _spectabilis_.
+
+Bobcats (_Lynx baileyi_) and coyotes (_Canis mearnsi_) probably are a
+prejudicial factor. Skunks may sometimes be able to surprise the
+kangaroo rats, but probably not often. The western horned owl (_Bubo
+virginianus pallescens_), the barn owl (_Tyto alba pratincola_), and
+perhaps others may well be among the most feared enemies, but no special
+investigation of owl pellets on the reserve has been possible. In 592
+barn-owl pellets from California were found remains of 230 kangaroo
+rats, only one other rodent being represented by a larger number
+(McAtee, 1921, 258).
+
+Much more information on enemies is needed. The relatively low rate of
+reproduction (see p. 18) indicates comparative freedom from inimical
+factors.
+
+
+PARASITES.
+
+_Dipodomys s. spectabilis_ is regularly infested with a species of flea,
+_Ctenophthalmus_ sp. Seldom or never is a specimen taken in reasonably
+fresh condition without some of these parasites present on its body,
+though of course they desert the body of the host after it becomes cold,
+and hence dead specimens left too long may be free from them. The den
+conditions are ideal for the breeding of this parasite, because of the
+great quantities of fine, dusty, organic refuse littering the tunnels
+and furnishing food and refuge for the larvæ. As demonstrated to us by
+F. C. Bishopp, of the Bureau of Entomology, a handful of this refuse
+taken from the floor of a burrow within arm's length of the entrance is
+almost certain to contain these larvæ.
+
+Less regularly present, perhaps because of its different life history,
+is a small tick, _Trombicula_ sp. At times this parasite is very common,
+being present on nearly every individual rat, and at other times
+specimens are difficult to find; it appears to be more commonly present
+in summer and fall than at other seasons, and is found attached chiefly
+to the ears.
+
+No internal parasites have been detected. The nocturnal and fossorial
+habits of the animal seem to give complete protection against a form of
+parasite which is very common among some other rodents of the Range
+Reserve, notably _Lepus_ and _Sylvilagus_. Nearly all rabbits are
+infested with "warbles," the larvæ of a species of bot-fly, _Cuterebra_
+(family Oestridae). Other small mammals also are occasionally
+parasitized by the _Cuterebra_, but in the handling and examination of
+perhaps 200 or more individuals of _spectabilis_ and _merriami_, we have
+yet to find a single case of infestation by an oestrid fly.
+
+
+
+
+ABUNDANCE.
+
+
+One's first impression of a well-occupied _spectabilis_ area is that a
+large family must inhabit each den, but, as previously mentioned, we
+have gradually been compelled to shift from this conception to the idea
+of but a single animal to a mound, except when the young are present.
+Therefore a census of the adult kangaroo rat population can readily be
+made, simply by counting the mounds. Such a census affords at least a
+conservative estimate of the number of adult individuals occupying a
+given area.
+
+The first estimates of abundance on the Range Reserve were from actual
+counts of dens on areas measured off for experimental fencing, and gave
+the figure of about two mounds to the acre. From time to time rough
+estimates were made on different portions of the pastures, and these
+checked well with the above. Later still, a careful count showed 300
+mounds on approximately 160 acres (see p. 8), or 1.87 mounds per acre.
+Nine areas of 2 acres each, representing different environmental
+conditions, were later selected in different portions of the Range
+Reserve, and the dens accurately counted. The number of dens per 2 acres
+varied from none to a maximum infestation of 12, neither extreme
+occurring over large areas. The total number of dens was found to be 43
+on the 18 acres, or an average of 2.38 dens per acre.
+
+From all these estimates it may fairly be concluded that two mounds, or
+two animals, per acre is a conservative estimate for the infestation of
+the entire Range Reserve, with the possible exception of small areas at
+its upper edges, where the altitude limit of _spectabilis_ is passed. It
+is, however, impossible to estimate the area of the State infested with
+kangaroo rats, for some large stretches of fine grassland show no
+kangaroo rats whatever, while others have more than are present on the
+reserve; and we have no estimates of the extent of either type.
+
+
+
+
+ECONOMIC CONSIDERATIONS.
+
+
+In May, 1894, Fisher found a ranchman at Willcox, Ariz., who complained
+more bitterly of the depredations of _spectabilis_ than of those of any
+other mammal.
+
+On the United States Range Reserve the food material appropriated by the
+kangaroo rat during good years is inappreciable. There is such an excess
+of forage grass produced that all the rodents together make very little
+difference. But with the periodic recurrence of lean years, when drought
+conditions are such that little or no grass grows, the effects of rodent
+damage not only become apparent, but may be a critical factor
+determining whether a given number of domestic animals can be grazed on
+the area (Pl. VIII, Fig. 2).
+
+With two kangaroo rats to the acre (1,280 per square mile), there would
+be 64,000 animals on the 50 square miles of the Range Reserve. If each
+rat stores 4 pounds of grass seeds and crowns and other edible forage
+during the season (and in severe seasons we find that more crowns are
+stored than under ordinary conditions), a total of 256,000 pounds, or
+128 tons, of edible forage are rendered unavailable to stock. In dry
+years it is probable that this amount of forage would be of critical
+importance. Allowing 50 pounds of food a day for each steer, the forage
+destroyed would be sufficient to provide for the needs of one steer for
+5,120 days, or for the needs of 14 steers for one year. On a stock ranch
+the size of the Range Reserve this might mean the difference between
+success and failure.
+
+It seems not unlikely, therefore, that during seasons of drought the
+banner-tailed kangaroo rat, where it is abundant on the grazing ranges
+of the Southwest, may be a factor of critical importance in relation to
+forage production and carrying capacity. It must be remembered,
+moreover, that the stored material consists largely of seeds, so that
+this loss is of greater importance than would be the case were it
+ordinary forage. Some of the range grasses of this region found in
+greatest quantity in the stored material depend in large part, under
+certain conditions, upon seed reproduction. Rehabilitation of a depleted
+range after severe drought and consequent close grazing and trampling is
+retarded by the heavy toll of seed taken by the kangaroo rats.
+
+
+CONTROL.
+
+Kangaroo rats may be easily eradicated by the use of the poisoned grain
+used for prairie-dog control by the Biological Survey and the University
+of Arizona Extension Service. This can be obtained by application to the
+State representative of the Biological Survey or to the local county
+agricultural agent, or may be mixed as follows:
+
+     _Formula for poisoned bait._--Dissolve 1 ounce of strychnine
+     sulphate in 1-1/2 pints of boiling water. Add 1 heaping
+     tablespoonful of gloss starch, previously mixed with a little cold
+     water, and boil until a clear paste is formed. Add 1 ounce of
+     baking soda and stir to a creamy mass. Add 1/2 ounce of glycerine
+     and 1/4 pint of corn sirup and stir thoroughly. Pour over 16 quarts
+     of rolled barley and mix well until every grain is evenly coated.
+     Allow to dry before using.
+
+     In bushel quantities use as above directed, 2 ounces of strychnine,
+     2 ounces of soda, 1 ounce of glycerin, 1-1/4 ounces of starch,
+     1-1/2 quarts of boiling water, and 5/8 pint of corn sirup.
+
+     Scatter poison, when the natural food of the kangaroo rat is
+     scarce, on clean hard places near the holes, 1 quart to 50 holes.
+
+     If powdered strychnine alkaloid is used, prepare the hot starch
+     paste first. Then sift strychnine and baking soda, previously
+     thoroughly mixed, into the hot starch paste and stir to a creamy
+     mass. Proceed as in the above directions with sirup, glycerin,
+     etc.
+
+     Use this poison within five days after mixing or retain in
+     air-tight containers.
+
+     _Caution._--All poison containers and all utensils used in the
+     preparation of poison should be kept _plainly labeled_ and _out of
+     reach of children_, irresponsible persons, and live stock.
+
+     A spoonful of the poisoned grain scattered about the used entrances
+     of a mound is sufficient, and prebaiting is not necessary, as with
+     prairie dogs.
+
+A word of caution should perhaps be offered in connection with control
+measures. As man has come to occupy a greater portion of the earth's
+surface, and as he has become more and more the master of his
+environment, he has inevitably disturbed the relationships of the birds
+and mammals about him, has upset the balance of nature. If he kills the
+carnivorous species because of their depredations on game and live stock
+he must be prepared to cope with the increased hordes of rodents which
+feed on vegetation and on which the carnivorous animals act as a check.
+If he destroys the rodents, he may remove the checks on certain noxious
+plants or insects. One control measure often necessitates the adoption
+of another.
+
+This is not to argue against control measures, for if our harmful
+species were not controlled, agriculture in many sections would be
+impossible. Control measures, however, should be scientifically founded
+and applied. The indiscriminate slaughter of supposedly harmful species
+of birds and mammals in the guise of benefiting agriculture may do far
+more harm than good. Many of the species which do some harm do far more
+good. The exact status of each suspected species should be carefully
+determined through an adequate scientific investigation. If the species
+is condemned, sound control measures should be thoroughly applied.
+
+In grazing districts or in areas devoted to intensive agriculture the
+death sentence should probably be passed on the banner-tailed kangaroo
+rat. It should be recalled, however, that this is the largest and one of
+the handsomest of all its family, and that it is one of the most
+characteristic and interesting of all the desert fauna; where extensive
+grazing or agricultural operations are not undertaken, therefore, we
+feel that the kangaroo rat should be let alone, unless its presence
+threatens infestation of valuable agricultural or grazing lands.
+
+
+
+
+SUMMARY.
+
+
+(1) Kangaroo rats may be separated with ease from all other mammals; the
+long tail and short and weak fore feet separate them from the pocket
+gophers; the white hip-stripe distinguishes them from the pocket mice.
+The decidedly larger size and the white-tipped tail separate _Dipodomys
+spectabilis spectabilis_ and _D. deserti_ from _D._ _merriami_ and _D.
+ordii_. The darker color and vividly contrasted black-and-white tail of
+_spectabilis_ distinguish it from _deserti_.
+
+(2) _Dipodomys s. spectabilis_ occurs in the open arid country of
+portions of the Lower and Upper Sonoran Zones of Arizona, New Mexico,
+Texas, Sonora, and Chihuahua. It lives in harder soil than does
+_deserti_, and builds more conspicuous mounds.
+
+(3) There is no evidence of intergradation or hybridization between
+_spectabilis_ and _deserti_.
+
+(4) _Dipodomys s. spectabilis_ is nocturnal; it is gentle, and does not
+offer to bite when taken in the hand; is silent for the most part;
+active; somewhat sociable with its fellows, but fights in defense of its
+food stores; progresses chiefly by leaping; signals by a drumming or
+tapping on the ground with its hind feet.
+
+(5) The breeding season of _spectabilis_ begins in January and continues
+into August. Whether more than one litter is raised in a single season
+is unknown. The number of young in each litter varies from 1 to 3,
+averaging 2.
+
+(6) _Dipodomys s. spectabilis_ does not hibernate, but provides food
+stores, mostly seeds, for use during seasons when food would be
+otherwise unavailable. Storage in each den varies in quantity from 5
+grams (about 1/6 ounce) to 5,750 grams (12.67 pounds). Materials stored
+include several important forage plants; for example, various species of
+_Bouteloua_ and _Aristida_, with _B. rothrockii_ (crowfoot grama) the
+most important. Accessibility and abundance of different plants have
+much to do with the kinds of storage found.
+
+(7) The dens of _spectabilis_ are the most notable of all kangaroo rat
+dwelling places. They range from 6 inches to 4 feet in vertical height,
+and from 5 to 15 feet in diameter. Here the kangaroo rat has its home,
+shelter, and food-storage chambers. Within the den is found a tortuous
+network of burrows, with many storage and some nest chambers, the whole
+arranged so as to be two to four stories high.
+
+(8) _Dipodomys s. spectabilis_ is not of great economic significance,
+except locally, in ordinary seasons. During periods of extreme drought
+it may be of critical importance on grazing areas from the standpoint of
+the carrying capacity of the range.
+
+(9) Kangaroo rats are easy to poison by following the same formula as
+that used by the Biological Survey for destroying prairie dogs.
+
+(10) In many places unsuited to extensive grazing or agriculture
+_spectabilis_ does no appreciable damage. It is one of the most
+interesting of all the rodents peculiar to our Southwestern deserts, and
+should not be molested except where it is destructive.
+
+
+
+
+BIBLIOGRAPHY.
+
+
+ALLEN, J. A.
+
+1895. On a collection of mammals from Arizona and Mexico, made by Mr.
+W. W. Price, with field notes by the collector. Bull. Amer. Mus. Nat.
+Hist., vol. 7, art. 6, pp. 193-258. 17 figs. in text.
+
+BABCOCK, S. M.
+
+1912. Metabolic water: Its production and rôle in vital phenomena.
+Research Bull. No. 22, Univ. Wisconsin Agr. Exp. Station, pp. 159 and
+170, March.
+
+BAILEY, V.
+
+1905. Biological survey of Texas. North Amer. Fauna No. 25, Biol. Surv.,
+U. S. Dept. Agr., pp. 222, 16 pls., 24 figs. in text.
+
+CLEMENTS, F. E.
+
+1905. Research methods in ecology. Lincoln, Univ. Pub. Co., pp. xvii,
+334, 85 figs. in text.
+
+GRIFFITHS, D.
+
+1910. A protected stock range in Arizona. Bull. No. 177, Bur. Plant
+Ind., U. S. Dept. Agr., pp. 28, 6 pls., 1 fig. in text.
+
+GRINNELL, JOSEPH.
+
+1921. Revised list of the species in the genus _Dipodomys_. Journal of
+Mammalogy, vol. 2, No. 2, pp. 94-97, May 2.
+
+MCATEE, W. L.
+
+1921. Farm help from the birds. In Yearbook of the U. S. Dept. Agr. for
+1920, pp. 253-270; unnumbered figs. in text.
+
+MERRIAM, C. H.
+
+1890. Description of three new kangaroo rats, with remarks on the
+identity of _Dipodomys ordii_ of Woodhouse. In North Amer. Fauna No. 4,
+Div. Ornith. and Mamm. (Biol. Surv.), U. S. Dept. Agr., 41-49.
+
+NELSON, E. W.
+
+1918. Smaller mammals of North America. Nat. Geog. Mag., vol. 33, No. 5,
+pp. 371-493; numerous unnumbered figs. and colored pls. in text.
+
+
+ADDITIONAL COPIES
+OF THIS PUBLICATION MAY BE PROCURED FROM
+THE SUPERINTENDENT OF DOCUMENTS
+GOVERNMENT PRINTING OFFICE
+WASHINGTON, D. C.
+AT
+15 CENTS PER COPY
+
+
+
+
+
+
+End of the Project Gutenberg EBook of Life History of the Kangaroo Rat, by 
+Charles T. Vorhies and Walter P. Taylor
+
+*** END OF THIS PROJECT GUTENBERG EBOOK LIFE HISTORY OF THE KANGAROO RAT ***
+
+***** This file should be named 17966-8.txt or 17966-8.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.org/1/7/9/6/17966/
+
+Produced by David Starner, Sigal Alon and the Online
+Distributed Proofreading Team at http://www.pgdp.net
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+http://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS', WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need, is critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at http://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+http://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at http://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit http://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including checks, online payments and credit card
+donations.  To donate, please visit: http://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart is the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+Most people start at our Web site which has the main PG search facility:
+
+     http://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+
+*** END: FULL LICENSE ***
+

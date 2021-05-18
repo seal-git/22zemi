@@ -1,0 +1,1932 @@
+The Project Gutenberg EBook of Geographic Distribution and Taxonomy of the
+Chipmunks of Wyoming, by John A. White
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: Geographic Distribution and Taxonomy of the Chipmunks of Wyoming
+
+Author: John A. White
+
+Release Date: April 11, 2010 [EBook #31951]
+
+Language: English
+
+Character set encoding: ASCII
+
+*** START OF THIS PROJECT GUTENBERG EBOOK CHIPMUNKS OF WYOMING ***
+
+
+
+
+Produced by Chris Curnow, Joseph Cooper and the Online
+Distributed Proofreading Team at https://www.pgdp.net
+
+
+
+
+
+
+Geographic Distribution and Taxonomy
+of the Chipmunks of Wyoming
+
+
+By
+
+JOHN A. WHITE
+
+
+
+University of Kansas Publications
+
+Museum of Natural History
+
+Volume 5, No. 34, pp. 583-610, 3 figures in text
+
+December 1, 1953
+
+
+
+University of Kansas
+LAWRENCE
+1953
+
+
+
+UNIVERSITY OF KANSAS PUBLICATIONS, MUSEUM OF NATURAL HISTORY
+
+Editors: E. Raymond Hall, Chairman, A. Byron Leonard, and Robert W.
+Wilson
+
+Volume 5, No. 34, pp. 583-610, 3 figures in text
+
+December 1, 1953
+
+
+UNIVERSITY OF KANSAS
+Lawrence, Kansas
+
+
+PRINTED BY
+FERD VOILAND, JR., STATE PRINTER
+TOPEKA, KANSAS
+1953
+
+
+
+
+CONTENTS
+
+
+                                                                 PAGE
+
+Purpose                                                           586
+
+Methods, Materials, and Acknowledgments                           586
+
+Variation                                                         587
+    Juveniles                                                     587
+    Young                                                         587
+    Subadults                                                     588
+    Adults                                                        588
+    Old adults                                                    588
+
+Key to the Species of Chipmunks Inhabiting Wyoming                589
+
+Accounts of Species and Subspecies                                590
+  _Eutamias minimus_                                              590
+    _E. m. minimus_                                               591
+    _E. m. consobrinus_                                           593
+    _E. m. pallidus_                                              594
+    _E. m. confinis_                                              596
+    _E. m. silvaticus_                                            597
+    _E. m. operarius_                                             598
+
+  _Eutamias amoenus_                                              602
+    _E. a. luteiventris_                                          602
+
+  _Eutamias dorsalis_                                             603
+    _E. d. utahensis_                                             604
+
+  _Eutamias umbrinus_                                             606
+    _E. u. umbrinus_                                              606
+    _E. u. fremonti_                                              607
+    _E. u. montanus_                                              608
+
+Review and Conclusions                                            609
+
+Literature Cited                                                  610
+
+
+FIGURES
+
+Figure 1. Subspecies of _Eutamias minimus_                        590
+
+Figure 2. _Eutamias amoenus_      and _Eutamias dorsalis_         604
+
+Figure 3. Subspecies of _Eutamias umbrinus_                       605
+
+
+
+
+PURPOSE
+
+The purpose of the following account is to: (1) Show what kinds of
+chipmunks occur in Wyoming; (2) point out the interrelationships
+between these kinds; and (3) account, where possible, for the present
+distribution of these animals in Wyoming.
+
+
+METHODS, MATERIALS, AND ACKNOWLEDGMENTS
+
+    Capitalized color terms in the following accounts are of Ridgway,
+    "Color Standards and Color Nomenclature," Washington, D.C., 1912.
+
+    The measurements of the skull that were used in this study were
+    made as shown in White (1953:566, fig. 1). These are: Greatest
+    length of skull, zygomatic breadth, cranial breadth, length of
+    nasals, length of lower tooth-row, condylo-alveolar length of
+    mandible, and inner mandibular length.
+
+    Of the external measurements, only the total length and the length
+    of the tail are recorded in table 1. Some field collectors measured
+    the ear from the notch and others from the crown; most collectors
+    measured the length of the hindfoot to the nearest millimeter
+    rather than in tenths of a millimeter as would have been desirable.
+    Consequently, I decided against using the length of the ear and
+    hindfoot in this report.
+
+    When the word "significantly" is used in comparisons, it is meant
+    to show that there is a significant statistical difference between
+    two or more samples. Whenever eight or more specimens from one
+    locality were available, the mean, range, standard deviation,
+    standard error of the mean, and coefficient of variability were
+    calculated.
+
+    Only adult specimens were used in comparison. "Aging" of specimens
+    is discussed on page 587 of this paper.
+
+    The geographic range of each species and subspecies is not
+    described in writing, for, the localities are plotted on maps along
+    with the geographic range of each subspecies, and under "specimens
+    examined" the locality of each specimen or series of specimens is
+    listed.
+
+    In the synonymy of each subspecies there appears, first the first
+    usage of a name, second the first usage of the name combination now
+    employed, and third, pure synonyms.
+
+    A total of 757 specimens of chipmunks are listed as examined in the
+    course of preparing this report. Additional specimens were less
+    carefully examined in the Biological Surveys Collection in
+    Washington, D.C. Specimens used in my study, unless otherwise
+    specified, are in the Museum of Natural History, University of
+    Kansas. The symbols representing the collections containing
+    specimens studied are as follows:
+
+        BS--United States Biological Surveys Collection.
+        FC--Collection of James S. Findley.
+        MM--Museum of Zoology, University of Michigan.
+        NM--United States National Museum.
+        KU--Museum of Natural History, University of Kansas.
+
+    I am grateful to Professor E. Raymond Hall for guidance in my study
+    and thank Doctors Robert W. Wilson, E. Lendell Cockrum, Keith R.
+    Kelson, A. Byron Leonard, Rollin H. Baker, and others at the Museum
+    of Natural History and Department of Zoology, University of Kansas,
+    for encouragement and advice. My wife, Alice M. White, made the
+    illustrations and helped me in many ways.
+
+    For permission to borrow and to study specimens, I thank Dr. W. H.
+    Burt of the Museum of Zoology, University of Michigan, Miss Viola
+    S. Schantz of the United States Fish and Wildlife Service, Mr.
+    Colin C. Sanborn of the Chicago Natural History Museum, and Mr.
+    James S. Findley.
+
+    Assistance with field work is acknowledged from the Kansas
+    University Endowment Association, the National Science Foundation
+    and the United States Navy, Office of Naval Research, through
+    contract No. NR161 791.
+
+
+VARIATION
+
+Secondary sexual variation in chipmunks is small; the females are
+slightly larger than the males. This difference in size is so slight
+that it can be ignored when making taxonomic comparisons, for, large
+samples of males and females of like age and from the same locality
+were compared and were found statistically not to be significantly
+different. This is in agreement with Johnson (1943:70) and Hall
+(1946:329).
+
+Variations of taxonomic worth are treated in the accounts of species
+and subspecies.
+
+Individual variation is slight, for, the analyses of measurements of
+the skulls of series of specimens of like age, reveal markedly low
+coefficients of variability resembling those published by Larrison
+(1949).
+
+The age-categories here recognized are based primarily on the structure
+of the skull.
+
+_Juveniles._--Nasals proportionally shorter and more pointed anteriorly
+than in other categories; zygomatic arches more appressed to cranium;
+suture separating basisphenoid and presphenoid noticeably "open";
+deciduous P4 and p4 show no wear through enamel; M3 and m3 not yet
+erupted; peglike deciduous P3 strongly leaning posteriorly; molars show
+no wear through enamel; parietals paperlike or thin; skull convex
+dorsally; 1 to 1-1/2 months of age.
+
+_Young._--Nasals of adult proportions; zygomatic arches still
+noticeably appressed anteriorly to cranium; suture between basisphenoid
+and presphenoid still "open"; nasals rounded, no longer so pointed as
+in juveniles; deciduous P4 and p4 show wear through enamel layer, and
+in some specimens, permanent P4 and p4 can be seen beneath; roots of
+deciduous P4 and p4 clearly show erosion beneath; M3 and m3 fully
+erupted; peglike deciduous P3 still present; parietals noticeably
+thicker and less paperlike; skull flattened (not so convex dorsally),
+but not so flattened as in adults; 1-1/2 to 4 months of age.
+
+In both juveniles and young the P4 and p4 are deciduous and differ in
+occlusal pattern from the permanent P4 and p4. In the deciduous P4 the
+anterior cingulum is projected strongly anteriorly forming the apex of
+the sharpest angle of a triangle, whereas the permanent P4 is
+trapezoidal in occlusal pattern. In the deciduous p4 the protoconid and
+metaconid are close together giving this tooth a triangular appearance
+in occlusal pattern, whereas this pattern in permanent p4 is
+trapezoidal (see Hall 1926:390).
+
+_Subadults._--Adult configuration of skull reached; suture between
+basisphenoid and presphenoid completely closed; nasals rounded
+anteriorly; permanent P4 and p4 show no wear through enamel layer; wear
+through enamel layer of molars noticeable, especially through
+protocones; peglike permanent P3 slanting only slightly posteriorly;
+skull only slightly convex dorsally; parietals solid and resistant to
+pressure; lambdoidal crest weakly developed; 4 to 10 months of age.
+
+_Adults._--Lambdoidal crest well developed; supraorbital ridges
+pronounced; P4 and p4 show wear through enamel layer and frequently as
+worn as molars; noticeable wear on lophs and lophids of molars;
+occlusal pattern always visible; ten months to 2 years of age.
+
+_Old adults._--Ridges and crests extremely well developed; occlusal
+pattern of molariform teeth obliterated or nearly so; P3 noticeably
+worn; 2 to 4 years or older.
+
+The hypohyal and ceratohyal bones of the hyoid apparatus are distinct
+from one another in juveniles and young, but are fused in subadults,
+adults, and old adults.
+
+Lack of suitable material prevented me from studying chipmunks younger
+than juveniles. The patterns of growth of these younger chipmunks
+probably closely follow the changes described by Hall (1926) for
+_Citellus beecheyi_.
+
+The tip of the baculum in juveniles and young is proportionally longer,
+in relation to the shaft, than in subadults, adults, and old adults.
+
+Juvenal (juveniles and young) pelage in chipmunks is characterized by
+silkiness and sparseness, especially on the venter. The coloration of
+this juvenal pelage resembles that of adults in winter pelage which is
+duller than adult summer pelage. Adult pelage (subadults, adults, and
+old adults) is not so silky as juvenal pelage, but there are more
+hairs, especially on the venter. The color pattern is the same in both
+juvenal and adult pelages.
+
+Chipmunks are born naked and blind and in about two weeks the "body is
+covered with silken hair clearly demonstrating the color pattern so
+characteristic of chipmunks...." (Shaw 1944:282). This "silken hair" is
+replaced by adult summer pelage, and juvenal chipmunks which are
+molting into adult summer pelage closely resemble the adult males, and
+later on in the summer, the adult females. Adult females molt later, as
+a rule, than adult males probably because of lactation. Summer molt
+begins, on chipmunks in Wyoming and South Dakota, in the latter part of
+June and is completed by the latter part of August or the first part of
+September.
+
+Summer molt begins, topographically, in the region of the head and
+progresses posteriorly to the base of the tail, for, the tail does not
+molt into summer pelage. The winter molt starts at the same time at the
+tip of the tail and at the base of the tail, and from each place
+proceeds anteriorly. The sequence described above is the rule;
+exceptionally, there are some specimens which molted in patches. In
+most skins, molts are easily detected because distinct molt-lines were
+formed. The above description of molting is based on study of a large
+series of specimens of _Eutamias minimus silvaticus_ taken in several
+seasons of the year.
+
+The summer pelage is bright, more especially on the sides. In late
+summer the pelage on the tail is markedly worn, and the hairs around
+its outer margin are broken. In texture, the summer pelage is not so
+soft as winter pelage, and this is probably owing to the presence of
+large amounts of "kinky" underfur in the winter pelage.
+
+The winter pelage is soft, dull in color, and gives the specimen a
+grayish or an umbrous appearance. The guard hairs are longer than in
+the summer pelage.
+
+
+KEY TO THE SPECIES OF THE CHIPMUNKS OF WYOMING
+
+    1.  Dorsal stripes faint; general tone of upper parts grayish.
+    _Eutamias dorsalis_, p. 603
+
+    1'. Dorsal stripes distinct; general tone of upper parts tawny (not
+    grayish).
+
+        2.  Venter yellowish or buff; tip of baculum more than 30 per
+        cent of length of shaft; shaft of baculum not widened at base.
+        _Eutamias amoenus_, p. 602
+
+        2'. Venter white; tip of baculum less than 29 per cent of
+        length of shaft--if more than 29 per cent, shaft widened at
+        base.
+
+            3.  Size small to medium; greatest length of skull less
+            than 34 mm.; shaft of baculum not widened at base;
+            outermost dorsal dark stripe never obsolete _Eutamias
+            minimus_, p. 590
+
+            3'. Size large; greatest length of skull rarely less than
+            34 mm.; shaft of baculum widened at base; outermost dorsal
+            dark stripe often obsolete, never strongly evident.
+            _Eutamias umbrinus_, p. 606
+
+
+ACCOUNTS OF SPECIES AND SUBSPECIES
+
+Eutamias minimus (Bachman)
+
+    _Diagnosis._--Size small; tip of baculum of adults less than 28 per
+    cent of length of shaft; outermost dorsal dark stripes distinct;
+    skull small to medium; when skull medium, zygomatic breadth not
+    proportionally narrower.
+
+    _Comparisons._--From _Eutamias amoenus luteiventris_, the only
+    subspecies of that species in Wyoming, _E. minimus_ differs in:
+    Size smaller; tip of baculum in adults less than 28 per cent of
+    length of shaft; zygomatic arches proportionally wider; underparts
+    white or with less yellow or tawny.
+
+    From _E. umbrinus_, _E. minimus_ differs in: Size smaller; general
+    tone of upper parts lighter; base of baculum not widened but almost
+    as narrow as least diameter of shaft.
+
+  [Illustration: FIG. 1. Known occurrence and probable geographic
+  distribution of the subspecies of _Eutamias minimus_ in Wyoming. The
+  symbols for locality records are as follows: Circles, specimens
+  reported but not examined; solid circles, precise localities of
+  specimens examined; solid triangles, localities of specimens
+  examined, known only to county.
+
+      1. _E. m. minimus_
+      2. _E. m. consobrinus_
+      3. _E. m. pallidus_
+      4. _E. m. confinis_
+      5. _E. m. silvaticus_
+      6. _E. m. operarius_
+
+  From _E. dorsalis utahensis_, the only subspecies of this species in
+  Wyoming, _E. minimus_ differs in: Dorsal dark stripes distinct and
+  usually blackish; skull smaller; tip of baculum of adults less than
+  28 per cent of length of shaft.]
+
+_Remarks._--This is the smallest of the species of chipmunks in
+Wyoming, and in the state can be readily distinguished from the other
+species by the smaller size and by the characteristic proportions of
+the baculum.
+
+_E. minimus_ occurs in all the Life-zones of Wyoming, and inhabits open
+country, such as in the great expanses where sagebrush (_Artemesia_
+sp.) is predominant, or inhabits the edges of forests, never occurring
+in the forest proper.
+
+Analyses of measurements of the skull indicate that of the six
+subspecies of _E. minimus_ that are found in Wyoming, two are small
+(_E. m. minimus_ and _E. m. consobrinus_) and the other four are large
+(_E. m. pallidus_, _E. m. confinis_, _E. m. silvaticus_, and _E. m.
+operarius_). Within these size-groups the subspecies can be
+distinguished by differences in color pattern.
+
+
+Eutamias minimus minimus (Bachman)
+
+    _Tamias minimus_ Bachman, Jour. Acad. Nat. Sci. Philadelphia, 8(pt.
+    1):71, 1839.
+
+    _Eutamias minimus_, Miller and Rehn, Proc. Boston Soc. Nat. Hist.,
+    30:42, December 27, 1901.
+
+    _Type._--Obtained on Green River, near mouth of Big Sandy Creek,
+    Sweetwater County, Wyoming. Age, sex, collector, and date when
+    obtained, not surely known.
+
+    _Diagnosis._--Size small; general tone of upper parts pale grayish
+    brown; baculum small.
+
+    _Description._--_Color pattern_: Crown Pinkish Buff mixed with
+    grayish white; facial stripes Snuff Brown mixed with black;
+    anterior margin of ear Drab washed with Cinnamon; hairs inside
+    posterior part of pinna Light Pinkish Cinnamon; posterior margin of
+    ear and postauricular patch grayish white; median dorsal dark
+    stripe black with Sayal Brown along margins; lateral pair of dark
+    stripes Sayal Brown more or less mixed with Fuscous; pairs of light
+    dorsal stripes grayish white and tinged with Buff; rump and thighs
+    Smoke Gray; dorsal surface of tail Fuscous Black mixed with
+    Cinnamon Buff; ventral surface of tail Sayal Brown or Clay Color,
+    Blackish Brown mixed with Cinnamon Buff around margins; antiplantar
+    and antipalmar surfaces of feet Pale Pinkish Buff; underparts
+    creamy white. _Skull_ and _Baculum_: Small but proportionally the
+    same as in other subspecies of _E. minimus_.
+
+    _Comparisons._--From _E. m. consobrinus_, the subspecies to the
+    west and south, _E. m. minimus_ differs in: Over-all tone of upper
+    parts lighter; underside of tail lighter.
+
+    From _E. m. pallidus_, the subspecies to the north and northeast,
+    _E. m. minimus_ differs in: Size smaller; skull shorter and
+    narrower; mandible shorter and shallower; baculum shorter; slightly
+    paler.
+
+    From _E. m. confinis_, the subspecies in the Big Horn Mountains,
+    _E. m. minimus_ differs in: Size smaller; skull shorter and
+    narrower; mandible shorter and shallower; baculum shorter; paler.
+
+    From _E. m. operarius_, the subspecies to the east and southeast,
+    _E. m. minimus_ differs in: Size smaller; skull shorter and
+    narrower; mandible shorter and shallower; baculum shorter; paler.
+
+    _Remarks._--_E. m. minimus_ is the smallest of the chipmunks that
+    occur in Wyoming. This pale little squirrel is found in the Red
+    Desert in Sweetwater County, where the features distinctive of the
+    subspecies are most strongly developed. Specimens from western
+    Sweetwater County and northwestern Uinta County are intergrades
+    between _E. m. minimus_ and _E. m. consobrinus_ and are referable
+    to _E. m. minimus_.
+
+    _Specimens examined._--Total number 167.
+
+    _Sublette Co._: 60 mi. SE Jackson [Teton County], 1 (MM); 2 mi. SE
+    Big Sandy, 1.
+
+    _Fremont Co._: 40 mi. E Dubois, 1; 12 mi. N and 3 mi. W Shoshoni,
+    4,650 ft., 2; 9 mi. N and 3 mi. E Shoshoni, 4,700 ft., 2; 7 mi. N
+    and 3 mi. E Shoshoni, 4,700 ft., 3; 2-1/2 mi. W Shoshoni, 4,800
+    ft., 1; Granite Mountains, 6; Mount Crooks, 8,600 ft., 6.
+
+    _Natrona Co._: 27 mi. N and 1 mi. E Powder River, 6,075 ft., 2; 15
+    mi. N and 1 mi. W Waltman, 1; 9 mi. S and 9 mi. W Waltman, 6,950
+    ft., 1; 16 mi. S and 11 mi. W Waltman, 6,950 ft., 2; Sun Ranch, 5
+    mi. W Independence Rock, 6,000 ft., 4; 9 mi. W and 1 mi. N
+    Independence Rock, 1; 5 mi. W and 1 mi. S Independence Rock, 2.
+
+    _Uinta Co._: 15 mi. WSW Granger [Sweetwater County], 1; 10 mi. SW
+    Granger [Sweetwater County], 10 (MM).
+
+    _Sweetwater Co._: Farson, 6,580 ft., 11; 5 mi. E Farson, 1; 27 mi.
+    N Table Rock, 1 (MM); 27 mi. N and 37 mi. E Rock Springs, 6,700
+    ft., 1; 25 mi. N and 38 mi. E Rock Springs, 6,700 ft., 3; Junction
+    of Big Sandy Creek and Green River, 6,400 ft., 7 (3MM); 17 mi. N
+    and 6 mi. W Rock Springs, 7,000 ft., 1; Thayer Junction, 9 (MM);
+    Table Rock, 1 (MM); Wamsutter, 1 (MM); Green River, 4 (MM); Bitter
+    Creek, 2 (FC); 13 mi. S and 14 mi. E Rock Springs, 6,650 ft., 2; 18
+    mi. S Bitter Creek, 6,800 ft., 2; 22 mi. SSW Bitter Creek, 5; 26
+    mi. S and 21 mi. W Rock Springs, 3; Kinney Ranch, 6,800 ft., 21 mi.
+    S Bitter Creek, 15; 30 mi. S Bitter Creek, 2; 32 mi. S and 22 mi. W
+    Rock Springs, 1; 32 mi. S and 22 mi. E Rock Springs, 7,025 ft., 12;
+    33 mi. S Bitter Creek, 6,900 ft., 6; 3 mi. W Green River, and 2 mi.
+    N Utah Boundary, 1; 1/2 mi. N Junction Henrys Fork and Utah
+    Boundary, 2; 1 mi. N Linwood, Utah, 1 (MM).
+
+    _Carbon Co._: 18 mi. NNE Sinclair, 6,500 ft., 2; Rawlins, 1; 30 mi.
+    E Rawlins, 6,750 ft., 2; Bridgers Pass, 18 mi. SW Rawlins, 7,500
+    ft., 1.
+
+    _Additional records_ (Howell 1929:38): _Lincoln Co._: Fontanelle;
+    Opal. _Sublette Co._: Big Piney; Green River at junction with New
+    Fork; Muddy Creek, near Big Sandy Creek. _Fremont Co._: Jackeys
+    Creek, 3 mi. S Dubois; Wind River near mouth of Meadow Creek; Ft.
+    Washakie; Green Mountains, 8 mi. E Rongis. _Natrona Co._: Bitter
+    Creek, near Powder River; Rattlesnake Mountains; Casper;
+    Independence Rock. _Sweetwater Co._: Eden, Steamboat Mountain;
+    Superior; Maxon; Green River, 4 mi. N Linwood, Utah; Henrys Fork,
+    at mouth of Burnt Fork. _Carbon Co._: Canyon Creek, 12 mi. S
+    Alcova; Ferris Mountains; Shirley; Shirley Mountains; 8-1/2 mi. SE
+    Lost Soldier [= Bairoil]; Ft. Steele; Sulphur Springs. _Albany
+    Co._: Spring Creek, 10 mi. W Marshall; Sheep Creek. _County
+    uncertain_: Little Sandy River; Green River.
+
+
+Eutamias minimus consobrinus (J. A. Allen)
+
+    _Tamias minimus consobrinus_ J. A. Allen, Bull. Amer. Mus. Nat.
+    Hist. 3:112, June, 1890.
+
+    _Eutamias minimus consobrinus_, Miller and Rehn, Proc. Boston Soc.
+    Nat. Hist. 30:42, December 27, 1901.
+
+    _Eutamias lectus_ J. A. Allen, Brooklyn Inst. Mus. Sci. Bull.
+    1:117, March 31, 1905 (not in Wyoming), type from Beaver Valley,
+    Utah.
+
+    _Eutamias consobrinus clarus_ Bailey, Proc. Biol. Soc. Washington,
+    31:31, May 16, 1918, type from Swan Lake Valley, Yellowstone
+    National Park, Wyoming.
+
+    _Type._--Male, adult, skull and skin, No. 186456 (NM); from near
+    Barclay, Parley's Canyon, Wasatch Mountains, Salt Lake County,
+    Utah; obtained on October 31, 1888, by Vernon Bailey; original No.
+    361.
+
+    _Diagnosis._--Size small; over-all tone of upper parts grayish
+    brown; baculum small, as in _E. m. minimus_.
+
+    _Description._--_Color pattern_: Crown Smoke Gray mixed with
+    Ochraceous Tawny; upper facial stripe Fuscous; other facial stripes
+    Fuscous or Fuscous Black mixed with Tawny; hairs inside posterior
+    part of pinna Light Ochraceous Buff; anterior margin of ear
+    Ochraceous Tawny; posterior margin of ear and postauricular patch
+    grayish white; median dorsal dark stripe black with Ochraceous
+    Tawny along margins; other dorsal dark stripes black mixed with
+    Ochraceous Tawny; median pair of dorsal light stripes grayish white
+    with Ochraceous Tawny along margins; lateral pair of light dorsal
+    stripes white; sides Ochraceous Tawny or Light Sayal Brown; rump
+    and thighs Smoke Gray mixed with Cinnamon Buff; dorsal surface of
+    tail Fuscous Black mixed with Cinnamon Buff; ventral surface of
+    tail Sayal Brown, Fuscous Black along margin, and Cinnamon Buff or
+    Ochraceous Buff along outermost edge; antipalmar and antiplantar
+    surfaces of feet Light Pinkish Cinnamon or Pinkish Buff; underparts
+    grayish white mixed slightly with Buff. _Skull_ and _Baculum_:
+    Small but proportionally the same as in other subspecies of _E.
+    minimus_.
+
+    _Comparisons._--From _E. m. pallidus_, the subspecies to the east,
+    _E. m. consobrinus_ differs in: Color darker; size smaller; skull
+    narrower and shorter; baculum shorter.
+
+    From _E. m. confinis_, the subspecies from the Big Horn Mountains,
+    _E. m. consobrinus_ differs in: Over-all tone of upper parts less
+    grayish; underside of tail lighter; skull narrower and shorter;
+    baculum shorter.
+
+    For comparisons with _E. m. minimus_ see the account of that
+    subspecies.
+
+_Remarks._--Specimens of this subspecies from the area between the
+Uinta Mountains and the mountains of the Wyoming and Wind River ranges,
+are clearly intergrades between _E. m. consobrinus_ and _E. m. minimus_
+and are here referred to _E. m. consobrinus_. These specimens are paler
+than typical _E. m. consobrinus_ and considerably darker than _E. m.
+minimus_. These intergrades came from an area where the habitat is
+intermediate between that of _E. m. consobrinus_ and _E. m. minimus_
+but more nearly like that of _E. m. consobrinus_.
+
+    _Specimens examined._--Total number, 135.
+
+    _Yellowstone Park_: Fishing Bridge, 1 (MM).
+
+    _Park Co._: SW slope Whirlwind Peak, 9,000 ft., 1.
+
+    _Teton Co._: N end Blacktail Butte, 6,600 ft., 1 mi. E Moose, 1;
+    Bar BC Ranch, 6,500 ft., 2-1/2 mi. NE Moose, 2; 3-3/4 mi. E Moose,
+    6,300 ft., 3; 3-3/4 mi. E and 3/4 mi. S Moran, 6,210 ft., 2; 5 mi.
+    S Moran, 1 (FC); 2 mi. S Elk Ranch, 2 (FC); 7 mi. S Moran, 1 (FC);
+    19 mi. E and 2 mi. S Moran, 1; Flat Creek Pass, 1 (MM); Flat
+    Creek-Crystal Creek Divide, 1 (MM); Flat Creek-Granite Creek
+    Divide, 5 (MM); Dry Hollow, Jackson, 1 (MM); Jackson, 4 (MM); Jenny
+    Lake, 2 (MM); Sheep Creek, Jackson, 1 (MM).
+
+    _Lincoln Co._: 3 mi. N and 11 mi. E Alpine, 5,650 ft., 2; 13 mi. N
+    and 2 mi. W Afton, 6,100 ft., 2; 10 mi. N and 2 mi. W Afton, 6,100
+    ft., 2; 6 mi. N and 2 mi. E Sage, 6,050 ft., 1; Kemmerer, 1;
+    Cumberland, 14 mi. S and 1 mi. W Kemmerer, 6,550 ft., 6.
+
+    _Sublette Co._: 5 mi. E and 9 mi. N Pinedale, 9,200 ft., 12; 10 mi.
+    NE Pinedale, 8,000 ft., 2; W end Half Moon Lake, 7,900 ft., 5; 3
+    mi. E and 5 mi. N Pinedale, 7,500 ft., 3; 2-1/4 mi. NE Pinedale,
+    7,500 ft, 3; 4 mi. W Pinedale, 7,200 ft., 2; 19 mi. W and 2 mi. S
+    Big Piney, 7,700 ft., 1; 31 mi. N Pinedale, 8,025 ft., 2.
+
+    _Fremont Co._: Togwotee Pass, 3 (1 FC); Moccasin Lake, 10,100 ft.,
+    19 mi. W and 4 mi. N Lander, 1; 16 mi. S and 5-1/2 mi. W Lander,
+    8,650 ft., 1; 23-1/2 mi. S and 5 mi. W Lander, 8,600 ft., 1; 3 mi.
+    E and 1/2 mi. N South Pass City, 7,900 ft., 7; Mosquito Park R.S.,
+    9,500 ft., 17-1/2 mi. W and 2-1/2 mi. N Lander, 1; 4 mi. S and
+    8-1/2 mi. W Lander, 9,200 ft., 1.
+
+    _Uinta Co._: 1/2 mi. S Cumberland [Lincoln County], 1; 2 mi. W Fort
+    Bridger, 6,070 ft., 1; 8-1/2 mi. W Fort Bridger, 6,700 ft., 17; 1/2
+    mi. S Mountain View, 6,900 ft., 2; 6 mi. S and 2-1/2 mi. E
+    Robertson, 8,200 ft., 3; 8 mi. S and 2-1/2 mi. E Robertson, 8,300
+    ft., 1; 9 mi. S Robertson, 8,000 ft., 5; 9-1/2 mi. S and 1 mi. W
+    Robertson, 8,600 ft., 2; 10 mi. S and 1 mi. W Robertson, 8,700 ft.,
+    4; 13 mi. S and 2 mi. E Robertson, 9,200 ft., 7; 2 mi. E and 12 mi.
+    S Robertson, Ashley Nat. For., 9,000 ft., 1; 11-1/2 mi. S and 2 mi.
+    E Robertson, 9,200 ft., 1; 4-1/2 mi. S and 4 mi. E Robertson, 8,025
+    ft., 1.
+
+    _Additional records_ (Howell 1929:48): _Yellowstone Park_: Bunsen
+    Peak; Swan Lake Valley; Canyon; Lake Station; Firehole River;
+    Summit Lake; Snow Pass. _Park Co._: Beartooth Lake; Whirlwind Peak,
+    near Pahaska Tepee; Valley; Needle Mountain. _Teton Co._: Elk,
+    Jackson Hole; Teton Pass. _Lincoln Co._: Thayne; head of La Barge
+    Creek; Smith Fork, 7,000 to 8,000 ft. _Sublette Co._: 12 mi. N
+    Kendall; Merna; Fremont Lake; Surveyor Park, 12 mi. NE Pinedale;
+    Bronx; Little Sandy Creek; Stanley; Big Sandy. _Fremont Co._: Lake
+    Fork, Wind River Mountains; Fremont Peak; South Pass City. _Uinta
+    Co._: Bear River Divide, 14 mi. N Evanstone; Evanstone; Ft.
+    Bridger; Spring Valley; Henry's Fork, 5 mi. W Lone Tree; Lone Tree;
+    Sage Creek (exact locality unknown).
+
+
+Eutamias minimus pallidus (J. A. Allen)
+
+    _Tamias quadrivittatus b._ var. _pallidus_ J. A. Allen, Proc.
+    Boston Soc. Nat. Hist. 16:289, 1874.
+
+    _Eutamias minimus pallidus_, Howell, Jour. Mamm. 3:183, August 4,
+    1922.
+
+    _Lectotype._--Skull and skin, No. 11656/38311 (NM); from Camp
+    Thorne, near Glendive, Dawson County, Montana; obtained on July 18,
+    1873, by J. A. Allen; original No. 200.
+
+    _Diagnosis._--Size large; over-all tone of upper parts pale grayish
+    brown; baculum large.
+
+    _Description._--_Color pattern_: Crown Pale Smoke Gray mixed with
+    Clay Color; facial stripes Fuscous Black mixed with Clay Color;
+    anterior margin of ear and hairs inside posterior part of pinna
+    Pale Pinkish Buff; posterior margin of ear and postauricular patch
+    grayish white; median dorsal dark stripe black with Clay Color
+    along margins; other dorsal dark stripes Fuscous mixed with Clay
+    Color; median pair of dorsal light stripes Pale Smoke Gray; lateral
+    pair of dorsal light stripes creamy white; sides Cinnamon Buff;
+    rump and thighs Smoke Gray mixed with Pale Buff; dorsal surface of
+    tail Fuscous Black slightly mixed with Warm Buff; ventral surface
+    of tail Pinkish Cinnamon or Pinkish Buff, with Fuscous Black along
+    margin and Warm Buff along outermost edge; antipalmar and
+    antiplantar surfaces of feet Pinkish Buff, Warm Buff or Pale
+    Yellow-Orange; underparts white with dark underfur. _Skull_ and
+    _Baculum_: Large but of same proportions as in other subspecies of
+    _E. minimus_.
+
+    _Comparisons._--From _E. m. silvaticus_, the subspecies from the
+    Black Hills, _E. m. pallidus_ differs in: Paler; underside of tail
+    paler; sides paler.
+
+    From _E. m. confinis_, the subspecies from the Big Horn Mountains,
+    _E. m. pallidus_ differs in: Over-all tone of upper parts paler;
+    sides paler; underside of tail paler.
+
+    From _E. m. operarius_, the subspecies from the mountains in
+    south-central Wyoming, _E. m. pallidus_ differs in: Over-all tone
+    of upper parts paler; sides paler; underside of tail paler.
+
+    For comparisons with _E. m. minimus_ and _E. m. consobrinus_, see
+    the accounts of those subspecies.
+
+_Remarks._--Specimens from near Buffalo, Johnson Co., are intergrades
+between _E. m. pallidus_ and _E. m. confinis_ and are referable to _E.
+m. confinis_. Specimens from near Sundance (not in Bear Lodge
+Mountains), Crook Co., are intergrades between _E. m. pallidus_ and _E.
+m. silvaticus_ (Howell 1929:55). Specimens from the Laramie Range in
+Converse Co. are intergrades between _E. m. pallidus_ and _E. m.
+operarius_, and referable to _E. m. operarius_. Specimens from near
+Greybull, Big Horn Co., are intergrades between _E. m. pallidus_ and
+_E. m. minimus_ and are referable to _E. m. pallidus_. These specimens
+show no intergradation with _E. m. confinis_ which occurs but a short
+distance to the east in the Big Horn Mountains. Intergradation between
+_E. m. pallidus_ and _E. m. minimus_ probably exists in northeastern
+Natrona Co. and southwestern Johnson Co.
+
+Comparisons of specimens of _E. m. pallidus_ and _E. m. cacodemus_,
+indicates that, in my opinion, _E. m. cacodemus_ is entitled to
+subspecific recognition, for, the relationship between _E. m. pallidus_
+to _E. m. cacodemus_ is the same as that between _E. m. pallidus_ and
+_E. m. confinis_.
+
+    _Specimens examined._--Total number, 58.
+
+    _Park Co._: 2 mi. S and 2 mi. E Meteetse, 5,750 ft., 3.
+
+    _Big Horn Co._: 6 mi. NW Greybull, 3,800 ft., 6; Greybull, 4 (BS);
+    7 mi. S Basin, 3,900 ft., 5.
+
+    _Sheridan Co._: 5 mi. NE Clearmont, 3,900 ft., 1.
+
+    _Campbell Co._: 5 mi. N and 8 mi. W Spotted Horse, 9; 6 mi. W and 4
+    mi. S Rockypoint, 4,200 ft., 1; 4 mi. S and 3 mi. W Rockypoint, 5;
+    Middle Butte, 6,010 ft., 38 mi. S and 19 mi. W Gillette, 3; South
+    Butte, 6,000 ft., 17-1/2 mi. W and 40-1/2 mi. S Gillette, 2; Ivy
+    Creek, 8 mi. W and 5 mi. N Spotted Horse, 6.
+
+    _Crook Co._: Moorcroft, Belle Fourche Valley, 8 (BS).
+
+    _Washakie Co._: 15 mi. W Tensleep, in badlands, 1 (BS); 8 mi. S and
+    8 mi. W Worland, 1; 10 mi. S Tensleep, near No Wood Creek, 2 (BS).
+
+    _Goshen Co._: Rawhide Buttes, 12 mi. S and 1 mi. W Lusk, 1.
+
+    _Laramie Co._: unspecified, 1.
+
+    _Additional records_ (Howell 1929:44): _Big Horn Co._: Otto;
+    Hyattville. _Sheridan Co._: Powder River at mouth of Clear Creek;
+    Sheridan; Arvada. _Weston Co._: Thornton; Upton; Pine Ridge;
+    Newcastle. _Hot Springs Co._: head of Bridger Creek; Willow Creek,
+    10 mi. SW Thermopolis. _Washakie Co._: 10 mi. S Manderson; Otter
+    Creek, Bighorn Basin. _Johnson Co._: Powder River Basin, near
+    Pumpkin Buttes. _Natrona Co._: Merino. _Converse Co._: Douglas.
+    _Platte Co._: Guernsey; 15 mi. SW Wheatland. _Goshen Co._: Rawhide
+    Butte. _Localities for which counties are unknown_: Owl Creek
+    Mountains; North Platte River.
+
+
+Eutamias minimus confinis Howell
+
+    _Eutamias minimus confinis_ Howell, Jour. Mamm. 6:52, February 15,
+    1925.
+
+    _Type._--Female, adult, skull and skin No. 168957 (NM); from head
+    of Trapper Creek, west slope of Bighorn Mountains, Big Horn County,
+    Wyoming; obtained on July 7, 1910, by Merrit Cary; original No.
+    1956.
+
+    _Diagnosis._--Size large; over-all tone of upper parts grayish
+    brown; baculum large, as in _E. m. pallidus_.
+
+    _Description._--_Color pattern_: Crown Clay Color mixed with Pale
+    Smoke Gray; upper facial stripe Fuscous Black; other facial stripes
+    Fuscous Black slightly mixed with Tawny; anterior margin of ear
+    Yellow Ocher or Ochraceous-Orange; hairs inside posterior part of
+    pinna Yellow Ocher or Ochraceous-Orange; posterior margin of ear
+    Smoke Gray; postauricular patch buffy white or Smoke Gray; dorsal
+    dark stripes black or Fuscous Black more or less mixed with Tawny
+    or Tawny-Olive; dorsal light stripes creamy white, sometimes washed
+    with Pale Smoke Gray; sides Raw Sienna or Cinnamon Buff; rump and
+    thighs Pale Smoke Gray mixed with Tawny-Olive; dorsal surface of
+    tail black mixed with Clay Color; ventral surface of tail Clay
+    Color, black along margin and Light Buff or Light Ochraceous Buff
+    along outermost edge; antipalmar and antiplantar surfaces of feet
+    Pinkish Buff; underparts creamy white sometimes with grayish
+    underfur. _Skull_ and _Baculum_: Large but proportionally the same
+    as in other subspecies of _E. minimus_.
+
+    _Comparisons._--From _E. m. silvaticus_, the subspecies from the
+    Black Hills, _E. m. confinis_ differs in: General tone of upper
+    parts darker, more reddish and less grayish; ventral surface of
+    tail more tawny; skull and baculum of same size and proportions.
+
+    From _E. m. operarius_, the subspecies from the Laramie Range and
+    other mountains of south-central Wyoming, _E. m. confinis_ differs
+    in: Rump and thighs darker; sides darker; general tone of upper
+    parts more grayish.
+
+    For comparisons with _E. m. minimus_, _E. m. consobrinus_, and _E.
+    m. pallidus_, see the accounts of those subspecies.
+
+_Remarks._--This subspecies is endemic to the Bighorn Mountains.
+Intergradation between _E. m. confinis_ and _E. m. minimus_ and between
+_E. m. pallidus_ and _E. m. confinis_ have already been discussed in
+the accounts of those subspecies.
+
+    _Specimens examined._--Total number, 85.
+
+    _Big Horn Co._: 12 mi. E and 2 mi. S Shell, 7,900 ft., 2; 13 mi. E
+    and 2 mi. N Shell, 8,500 ft., 2; 13 mi. E Shell, 8,300 ft., 1; 17
+    mi. E and 3 mi. S Shell, 9,000 ft., 8; 17-1/2 mi. E and 4-1/2 mi. S
+    Shell, 8,500 ft, 11; 19 mi. E and 4-1/2 mi. S Shell, 9,600 ft., 1;
+    9 mi. E and 9 mi. N Tensleep, 8,200 ft., 4.
+
+    _Sheridan Co._: Medicine Wheel Ranch, 9,000 ft., 28 mi. E Lovell,
+    11; 38 mi. E Lovell, Big Horn Nat. For., 9,600 ft., 10; 5-1/2 mi. W
+    and 1-1/2 mi. S Junction U.S. Highway 14 and Wyoming [State
+    Highway] 14, 8,480 ft., 2.
+
+    _Washakie Co._: 9 mi. E and 4 mi. N Tensleep, 7,000 ft., 26; 3 mi.
+    SE Tensleep, 4,300 ft., 1.
+
+    _Johnson Co._: 5-1/2 mi. W and 1 mi. S Buffalo, 6,500 ft., 4; 7-1/2
+    mi. W and 1 mi. S Buffalo, 6,500 ft., 2.
+
+    _Additional records_ (Howell 1929:46): _Sheridan Co._: 20 mi. from
+    Sheridan. _Washakie Co._: Head of Canyon Creek. _Johnson Co._: Head
+    of North Fork of Powder River.
+
+
+Eutamias minimus silvaticus White
+
+    _Eutamias minimus silvaticus_ White, Univ. Kansas Publ. Mus. Nat.
+    Hist. 5 (19):259-262, April 10, 1952.
+
+    _Type._--Female, adult, skull and skin, No. 20050 (KU); from 3 mi.
+    NW Sundance, 5,900 ft., Crook County, Wyoming; obtained on July 4,
+    1947, by H. W. Setzer; original No. 1692.
+
+    _Diagnosis._--Size large; over-all tone of upper parts brownish
+    gray; sides Ochraceous Buff; baculum as in _E. m. pallidus_.
+
+    _Description._--_Color pattern_: Crown Sayal Brown washed with
+    Cinnamon Buff; facial stripes Fuscous Black mixed with Clay Color;
+    anterior margin of ear Ochraceous-Orange; hairs inside posterior
+    part of pinna Ochraceous Buff; posterior margin of ear and
+    postauricular patch grayish white; dorsal dark stripes Fuscous
+    Black more or less mixed with Ochraceous Buff; medial dorsal light
+    stripes Pale Smoke Gray with Ochraceous Buff along margins; lateral
+    dorsal light stripes grayish white or white with Ochraceous Buff
+    along margins; sides Ochraceous Buff; rump and thighs Smoke Gray
+    washed with Ochraceous Buff; dorsal surface of tail black
+    interspersed with Ochraceous Buff; ventral surface of tail
+    Ochraceous-Orange, with black along margin and Light Ochraceous
+    Buff along outermost edge; antipalmar and antiplantar surfaces of
+    feet Light Buff; underparts creamy white sometimes washed with
+    Ochraceous Buff. _Skull_ and _Baculum_: Large but of same
+    proportions as in other subspecies of _E. minimus_.
+
+    _Comparisons._--From _E. m. operarius_, the subspecies from
+    south-central Wyoming, _E. m. silvaticus_ differs in: Underside of
+    tail lighter; general tone of upper parts grayer; sides lighter;
+    skull and baculum of same size and proportions.
+
+    For comparisons with _E. m. pallidus_ and _E. m. confinis_, see the
+    accounts of those subspecies.
+
+_Remarks._--Intergradation between _E. m. silvaticus_ and _E. m.
+pallidus_ has already been discussed under the account of _E. m.
+pallidus_.
+
+    _Specimens examined._--Total number, 42.
+
+    _Crook Co._: 15 mi. N Sundance, Black Hills Nat. Forest, 5,500 ft.,
+    6; 15 mi. ENE Sundance, 3,825 ft., 1; 3 mi. NW Sundance, 5,900 ft.,
+    14; 1 mi. N Sundance, Black Hills Nat. Forest, 1.
+
+    _Weston Co._: 1-1/2 mi. E Buckhorn, 6,150 ft., 19; SE Newcastle, 1
+    (MM).
+
+    _Additional records_ (Howell 1929:57): _Crook Co._: Devils Tower;
+    Sundance.
+
+
+Eutamias minimus operarius Merriam
+
+    _Eutamias amoenus operarius_ Merriam, Proc. Biol. Soc. Washington,
+    18:164, June 29, 1905.
+
+    _Eutamias minimus operarius_, Howell, Jour. Mamm. 3:183, August 4,
+    1922.
+
+    _Type._--Female, adult, skull and skin, No. 129808 (BS); from Gold
+    Hill, 7,400 ft., Boulder County, Colorado; obtained on October 8,
+    1903, by Vernon Bailey; original No. 8160.
+
+    _Diagnosis._--Size large; general tone of upper parts dark reddish
+    brown; sides Tawny or Ochraceous Tawny; baculum large, as in _E. m.
+    pallidus_.
+
+    _Description._--_Color pattern_: Crown Cinnamon Buff mixed with
+    Pale Smoke Gray; facial stripes Fuscous Black mixed with Sayal
+    Brown; anterior margin of ear and hairs inside posterior part of
+    pinna Cinnamon Buff; posterior margin of ear and postauricular
+    patch Pale Smoke Gray; dorsal dark stripes black with Ochraceous
+    Tawny along margins; median dorsal light stripes Pale Smoke Gray
+    with Ochraceous Tawny along margins; lateral dorsal light stripes
+    white; sides Tawny or Ochraceous Tawny; rump and thighs Light
+    Grayish Olive; dorsal surface of tail Fuscous Black slightly mixed
+    with Clay Color; ventral surface of tail Sayal Brown or Ochraceous
+    Tawny with Fuscous Black along margin and Clay Color along
+    outermost edge; antipalmar and antiplantar surfaces of feet
+    Ochraceous Buff; underparts grayish white, often washed with Buff.
+    _Skull_ and _Baculum_: Large but of same proportions as in other
+    subspecies of _E. minimus_.
+
+    _Comparisons._--For comparisons with _E. m. minimus_, _E. m.
+    pallidus_, _E. m. confinis_, and _E. m. silvaticus_, see the
+    accounts of those subspecies.
+
+_Remarks._--Specimens from the mountains near Savery in Carbon County
+and from near Medicine Bow Peak in Carbon and Albany counties are
+clearly referable to this race on the basis of color pattern. However,
+in the skull and baculum these specimens resemble _E. m. minimus_.
+
+Specimens from the Laramie Range, 27 mi. N Laramie, show a color
+pattern which tends toward that of _E. m. pallidus_.
+
+    _Specimens examined._--Total number, 118.
+
+    _Natrona Co._: 2 mi. W and 7 mi. S Casper, 6,370 ft., 2; 10 mi. S
+    Casper, 7,750 ft., 3; 6 mi. S and 2 mi. W Casper, 5,900 ft., 1.
+
+    _Converse Co._: 21-1/2 mi. S and 24-1/2 mi. W Douglas, 7,600 ft.,
+    10.
+
+    _Carbon Co._: Lake Marie, 10,440 ft., 1; 2 mi. S and 1/2 mi. W
+    Medicine Bow Peak, 10,400 ft., 1; 2 mi. S and 2 mi. W Medicine Bow
+    Peak, 10,700 ft., 1; 10 mi. N and 14 mi. E Encampment, 8,000 ft.,
+    2; 8 mi. N and 14 mi. E Encampment, 8,400 ft., 2; 8 mi. N and 16
+    mi. E Encampment, 8,400 ft., 3; 21-1/2 mi. E and 8 mi. N
+    Encampment, 9,400 ft., 2; 10 mi. E and 6 mi. S Saratoga, 8,800 ft.,
+    1; 8 mi. N and 19-1/2 mi. E Savery, 8,800 ft., 16; 17 mi. E and 7
+    mi. N Savery, 8,300 ft., 1; 7 mi. N and 19 mi. E Savery, 10,128
+    ft., 1; 14 mi. E and 6 mi. N Savery, 8,400 ft., 1; 5 mi. N and 5
+    mi. E Savery, 6,900 ft., 2.
+
+    _Albany Co._: 27 mi. N and 7-1/2 mi. E Laramie, 6,960 ft., 12; 13
+    mi. E and 9 mi. N Laramie, 7,700 ft., 2; 8-3/4 mi. E and 6-1/2 mi.
+    S Laramie, 8,200 ft., 1; 5-1/2 mi. ESE Laramie, 8,500 ft., 1; 8 mi.
+    E and 4 mi. S Laramie, 8,600 ft, 1; 2 mi. SE Pole Mountain, 8,200
+    ft., 19; 3 mi. S Pole Mountain, 8,100 ft., 2; 1 mi. SSE Pole
+    Mountain, 8,350 ft., 3; 3 mi. ESE Browns Peak, 10,000 ft., 15;
+    2-1/2 mi. ESE Browns Peak, 10,300 ft., 1.
+
+    _Laramie Co._: 5 mi. W Horse Creek P.O., 7,200 ft., 2; 3-1/2 mi. W
+    Horse Creek P.O., 7,000 ft., 3; 2 mi. W Horse Creek P.O., 6,600
+    ft., 1.
+
+    _Additional records_ (Howell 1929:51): _Natrona Co._: Casper
+    Mountains, 7 mi. S Casper. _Carbon Co._: Bridger Peak; Riverside.
+    _Albany Co._: Springhill, 12 mi. N Laramie Peak; Eagle Peak; Bear
+    Creek, 3 mi. SW Eagle Peak; Laramie Mountains, 10 mi. E Laramie;
+    Woods [= Woods Landing]; Sherman. _Laramie Co._: Bluffs near Pole
+    Creek; 6 mi. W Islay.
+
+TABLE 1
+
+Average and Extreme Measurements in Millimeters of Adult Chipmunks that
+Occur in Wyoming
+
+Table Legend:
+
+Col. A: Greatest length of skull
+Col. B: Zygomatic breadth
+Col. C: Cranial breadth
+Col. D: Length of nasals
+Col. E: Total length
+Col. F: Length of tail
+Col. G: Length of lower tooth-row
+Col. H: Condylo-alveolar length of mandible
+
+--------------+------+------+------+------+-----+-------+------+-------+
+              |  A   |   B  |   C  |   D  |  E  |   F   |   G  |   H   |
+--------------+------+------+------+------+-----+-------+------+-------+
+              _E. m. minimus_, S of Bitter Creek, Sweetwater Co.
+
+Mean    (5)   | 29.9 | 16.7 | 14.8 |  9.0 | 188 |  84.6 | 4.65 |  5.51 |
+Min.  [Male]  | 29.0 | 16.5 | 14.6 |  8.6 | 177 |  81.0 | 4.52 | 15.11 |
+Max.          | 30.9 | 17.2 | 15.0 |  9.8 | 197 |  89.0 | 4.80 | 16.21 |
+              |      |      |      |      |     |       |      |       |
+Mean    (6)   | 30.1 | 17.2 | 15.1 |  8.6 | 193 |  85.3 | 4.69 | 16.08 |
+Min. [Female] | 29.0 | 16.8 | 14.9 |  7.9 | 184 |  80.0 | 4.53 | 15.71 |
+Max.          | 30.8 | 17.7 | 15.5 |  9.4 | 200 |  93.0 | 4.91 | 16.58 |
+--------------+------+------+------+------+-----+-------+------+-------+
+              _E. m. consobrinus_, near Jackson, Teton Co.
+
+Mean    (4)   | 30.1 | 16.6 | 14.4 |  8.6 | 190 |  83.0 | 4.48 | 15.65 |
+Min. [Female] | 29.6 | 16.4 | 14.3 |  8.5 | 190 |  80.0 | 4.43 | 15.28 |
+Max.          | 30.7 | 16.9 | 14.6 |  8.8 | 192 |  86.0 | 4.59 | 15.99 |
+              |      |      |      |      |     |       |      |       |
+Mean    (6)   | 30.8 | 17.1 | 14.5 |  9.1 | 200 |  88.4 | 4.60 | 16.05 |
+Min. [Female] | 30.2 | 16.9 | 14.1 |  8.7 | 195 |  85.0 | 4.43 | 15.60 |
+Max.          | 31.3 | 17.5 | 15.1 |  9.5 | 205 |  92.0 | 4.84 | 16.70 |
+--------------+------+------+------+------+-----+-------+------+-------+
+              _E. m. pallidus_, Moorcroft and Rockypoint, Weston Co.
+
+Mean    (9)   | 31.8 | 18.0 | 15.3 |  9.3 | 193 |  85.8 | 4.84 | 16.74 |
+Min.  [Male]  | 31.4 | 17.7 | 14.9 |  8.5 | 185 |  80.0 | 4.34 | 16.23 |
+Max.          | 32.5 | 18.7 | 15.9 |  9.7 | 204 |  91.0 | 5.02 | 17.21 |
+              |      |      |      |      |     |       |      |       |
+Mean    (7)   | 32.2 | 18.2 | 15.5 |  9.6 | 205 |  91.0 | 4.97 | 17.02 |
+Min. [Female] | 31.4 | 17.8 | 15.1 |  9.1 | 203 |  86.0 | 4.70 | 16.30 |
+Max.          | 32.9 | 18.9 | 16.0 | 10.3 | 214 |  99.0 | 5.18 | 17.39 |
+--------------+------+------+------+------+-----+-------+------+-------+
+              _E. m. confinis_, Bighorn Mts., near Tensleep, Washakie Co.
+
+Mean    (9)   | 31.6 | 17.8 | 15.4 |  9.3 | 205 |  89.6 | 4.78 | 16.71 |
+Min.  [Male]  | 30.4 | 17.2 | 14.9 |  8.9 | 194 |  79.0 | 4.51 | 16.18 |
+Max.          | 33.3 | 19.0 | 16.2 |  9.9 | 228 | 113.0 | 5.09 | 17.70 |
+              |      |      |      |      |     |       |      |       |
+Mean    (8)   | 32.4 | 18.7 | 15.6 |  9.6 | 208 |  88.8 | 4.83 | 17.09 |
+Min. [Female] | 31.7 | 17.9 | 15.3 |  9.2 | 189 |  76.0 | 4.69 | 16.49 |
+Max.          | 33.1 | 19.3 | 16.1 |  9.7 | 226 | 103.0 | 4.93 | 17.73 |
+--------------+------+------+------+------+-----+-------+------+-------+
+              _E. m. silvaticus_, 16 mi. N Custer, Pennington Co., S.D.
+
+Mean   (19)   | 32.3 | 18.2 | 15.5 |  9.6 | 200 |  86.2 | 4.85 | 16.78 |
+Min.  [Male]  | 31.5 | 17.4 | 15.0 |  9.1 | 189 |  76.0 | 4.63 | 16.19 |
+Max.          | 33.4 | 19.4 | 16.1 | 10.2 | 210 |  94.0 | 5.13 | 17.74 |
+              |      |      |      |      |     |       |      |       |
+Mean   (15)   | 32.6 | 18.1 | 15.7 |  9.5 | 208 |  90.2 | 4.96 | 16.90 |
+Min. [Female] | 31.5 | 17.7 | 15.0 |  9.1 | 189 |  70.0 | 4.61 | 16.26 |
+Max.          | 33.7 | 19.2 | 16.2 | 10.5 | 220 | 105.0 | 5.29 | 18.28 |
+--------------+------+------+------+------+-----+-------+------+-------+
+              _E. m. operarius_, near Pole Mt., Albany Co.
+
+Mean    (9)   | 31.5 | 17.6 | 15.2 |  9.7 | 193 |  85.6 | 4.78 | 16.52 |
+Min.  [Male]  | 30.3 | 17.0 | 14.9 |  8.9 | 183 |  77.0 | 4.58 | 15.63 |
+Max.          | 32.4 | 18.2 | 15.5 | 10.6 | 203 |  91.0 | 5.12 | 17.37 |
+              |      |      |      |      |     |       |      |       |
+Mean    (8)   | 32.2 | 18.0 | 15.4 |  9.7 | 203 |  85.7 | 4.86 | 16.50 |
+Min. [Female] | 31.1 | 17.6 | 15.0 |  9.2 | 194 |  79.0 | 4.64 | 15.44 |
+Max.          | 33.4 | 18.5 | 15.8 | 10.2 | 212 |  92.0 | 5.11 | 17.21 |
+--------------+------+------+------+------+-----+-------+------+-------+
+              _E. a. luteiventris_, near Moran, Teton Co.
+
+Mean   (20)   | 33.6 | 18.2 | 15.5 | 10.6 | 212 |  94.8 | 5.14 | 17.27 |
+Min.  [Male]  | 32.2 | 17.4 | 14.9 |  9.8 | 198 |  87.0 | 4.86 | 16.42 |
+Max.          | 35.2 | 18.7 | 16.2 | 12.1 | 221 | 108.0 | 5.37 | 18.39 |
+              |      |      |      |      |     |       |      |       |
+Mean   (10)   | 33.8 | 18.5 | 15.5 | 11.1 | 217 |  91.7 | 5.13 | 17.47 |
+Min. [Female] | 33.4 | 18.1 | 15.1 | 10.5 | 203 |  81.0 | 5.06 | 16.89 |
+Max.          | 34.7 | 19.0 | 16.0 | 11.5 | 225 | 100.0 | 5.32 | 18.33 |
+--------------+------+------+------+------+-----+-------+------+-------+
+              _E. d. utahensis_, W side Green River, 1 mi. N Utah border.
+
+Mean    (4)   | 34.7 | 18.9 | 16.4 | 10.8 | 197 |  84.5 | 5.08 | 17.91 |
+Min.  [Male]  | 34.7 | 18.7 | 16.4 | 10.5 | 191 |  81.0 | 5.00 | 17.77 |
+Max.          | 34.8 | 19.2 | 16.4 | 11.1 | 203 |  88.0 | 5.15 | 18.06 |
+              |      |      |      |      |     |       |      |       |
+Mean    (2)   | 36.0 | 19.5 | 16.3 | 11.3 | 211 |  88.0 | 5.25 | 18.87 |
+Min. [Female] | 35.5 | 19.4 | 16.2 | 11.3 | 210 |  86.0 | 5.22 | 18.73 |
+Max.          | 36.6 | 19.7 | 16.4 | 11.4 | 212 |  90.0 | 5.28 | 19.02 |
+--------------+------+------+------+------+-----+-------+------+-------+
+              _E. u. umbrinus_, Mts. S Robertson, Uinta Co.
+
+Mean   (11)   | 34.7 | 18.9 | 15.7 | 10.9 | 218 |  96.2 | 5.13 | 18.04 |
+Min.  [Male]  | 34.3 | 18.3 | 15.6 | 10.3 | 215 |  81.0 | 4.79 | 17.57 |
+Max.          | 35.2 | 19.4 | 16.0 | 11.7 | 228 | 112.0 | 5.42 | 18.59 |
+              |      |      |      |      |     |       |      |       |
+Mean    (4)   | 35.1 | 19.2 | 15.9 | 11.0 | 224 |  96.4 | 5.17 | 18.46 |
+Min. [Female] | 34.9 | 19.2 | 15.7 | 10.3 | 204 |  90.0 | 5.11 | 18.31 |
+Max.          | 35.4 | 20.0 | 16.2 | 11.8 | 234 | 100.0 | 5.22 | 18.98 |
+--------------+------+------+------+------+-----+-------+------+-------+
+              _E. u. fremonti_, Togwotee Pass, Fremont Co.
+
+Mean    (8)   | 35.6 | 19.3 | 15.9 | 11.4 | 223 |  99.0 | 5.34 | 19.17 |
+Min.  [Male]  | 35.2 | 18.9 | 15.8 | 11.1 | 216 |  95.0 | 5.22 | 18.72 |
+Max.          | 36.5 | 19.7 | 16.1 | 11.8 | 243 | 111.0 | 5.57 | 19.78 |
+              |      |      |      |      |     |       |      |       |
+Mean    (6)   | 35.3 | 19.6 | 15.9 | 11.3 | 229 | 101.0 | 5.40 | 19.02 |
+Min. [Female] | 34.5 | 19.3 | 15.7 | 10.9 | 223 |  92.0 | 5.35 | 18.37 |
+Max.          | 36.0 | 20.0 | 16.5 | 12.0 | 239 | 110.0 | 5.44 | 19.51 |
+--------------+------+------+------+------+-----+-------+------+-------+
+              _E. u. montanus_, near Longs Peak, Boulder Co., Colorado.
+
+Mean    (5)   | 35.2 | 18.8 | 15.5 | 10.8 | 226 |  96.0 | 5.20 | 18.29 |
+Min.  [Male]  | 34.7 | 18.4 | 15.2 | 10.1 | 215 |  93.0 | 5.03 | 17.80 |
+Max.          | 36.8 | 19.4 | 16.2 | 11.5 | 232 | 115.0 | 5.53 | 19.36 |
+              |      |      |      |      |     |       |      |       |
+Mean    (6)   | 35.7 | 19.1 | 15.6 | 10.9 | 226 |  98.0 | 5.28 | 18.67 |
+Min. [Female] | 35.1 | 18.8 | 15.1 | 10.3 | 215 |  89.0 | 5.06 | 18.09 |
+Max.          | 36.5 | 19.5 | 16.0 | 11.5 | 231 | 105.0 | 5.58 | 19.35 |
+--------------+------+------+------+------+-----+-------+------+-------+
+
+
+Eutamias amoenus (J. A. Allen)
+
+    _Diagnosis._--Size medium; over-all tone of upper parts often
+    grayish olive; baculum small or medium, slender; tip of baculum 30
+    to 38 per cent of length of shaft; skull medium, narrow across
+    zygomata.
+
+    _Comparisons._--From _E. dorsalis utahensis_, the only subspecies
+    of this species in Wyoming, _E. amoenus luteiventris_ differs in:
+    Dorsal light and dark stripes distinct; over-all tone of upper
+    parts less grayish (more tawny); tip of baculum less than 38 per
+    cent of length of shaft in adult specimens.
+
+    From _E. umbrinus fremonti_, the only subspecies of this species
+    which occurs in the same area with _E. amoenus_ in Wyoming, _E. a.
+    luteiventris_ differs in: Smaller size; tawny underparts; base of
+    baculum not noticeably widened.
+
+    For comparisons with _E. minimus_ see the account of that species.
+
+
+Eutamias amoenus luteiventris (J. A. Allen)
+
+    _Tamias quadrivittatus luteiventris_ J. A. Allen, Bull. Amer. Mus.
+    Nat. Hist., 3:101, June, 1890.
+
+    _Eutamias amoenus luteiventris_, Howell, Jour. Mamm., 3:183, August
+    4, 1922.
+
+    _Type._--Male, adult, skull and skin, No. 11991/37996 (NM); from
+    "Chief Mountain Lake" [Waterton Lake], 3-1/2 mi. N United
+    States-Canadian Boundary, Alberta; obtained on August 24, 1874, by
+    Elliot Coues; original No. 4596.
+
+    _Diagnosis._--General tone of upper parts ochraceous; underparts
+    strongly buffy; tip of baculum in adult specimens, more than 30 per
+    cent and less than 38 per cent of length of shaft.
+
+    _Description._--_Color pattern_: Crown Cinnamon mixed with Smoke
+    Gray; upper two facial stripes black; submalar stripe Fuscous or
+    Fuscous Black mixed with Ochraceous Tawny; anterior margin of ear
+    Ochraceous Tawny; posterior margin of ear and postauricular patch
+    Light Buff or buffy white; hairs inside posterior part of pinna
+    Ochraceous Tawny; median dorsal dark stripe black; lateral pair of
+    dorsal dark stripes black and mixed with Tawny, frequently
+    brownish; median pair of dorsal light stripes white tinged with
+    Pale Smoke Gray; lateral pair of dorsal light stripes creamy white;
+    sides Tawny or Ochraceous Tawny; rump and thighs Dark Smoke Gray
+    strongly mixed with Cinnamon Buff; dorsal surface of tail Fuscous
+    Black mixed with Clay Color; ventral surface of tail Light
+    Ochraceous Tawny, with Fuscous Black around margin and Clay Color
+    around outermost edge; antipalmar and antiplantar surfaces of feet
+    Cinnamon or Cinnamon Buff; underparts Cinnamon Buff or Light
+    Ochraceous Buff. _Skull_: Size medium; moderately narrowed across
+    zygomata. _Baculum_: Slender; not noticeably broadened at base; tip
+    more than 30 per cent of length of shaft.
+
+_Remarks._--Although there are no records of this subspecies from the
+Wind River Mountains, it probably occurs there.
+
+The niche that this subspecies occupies is similar to that of _E. m.
+consobrinus_ as shown by the fact that these two subspecies have been
+taken together at the same places.
+
+Specimens of _E. a. luteiventris_ and _E. umbrinus fremonti_ have been
+taken together at the same places.
+
+In general, _E. m. consobrinus_ occurs in open country and at the edges
+of forests, whereas _E. u. fremonti_ occurs in the forest. _E. a.
+luteiventris_ occurs in the intermediate habitat, that is to say, not
+far into the forest, and not so far out into the open as _E. m.
+consobrinus_.
+
+    _Specimens examined._--Total number, 83.
+
+    _Yellowstone Park_: Unspecified, 2.
+
+    _Park Co._: 31-1/2 mi. N and 36 mi. W Cody, 6,900 ft., 6; 29 mi. N
+    and 31 mi. W Cody, 7,200 ft., 1; 28 mi. N and 30 mi. W Cody, 7,200
+    ft., 1; 16-1/4 mi. N and 17 mi. W Cody, 5,625 ft., 3; 25 mi. S and
+    28 mi. W Cody, 6,350 ft., 2.
+
+    _Teton Co._: Two Ocean Lake, 2 (1 FC); Whetstone Creek, 8 (MM);
+    Emma Matilda Lake, 1 (FC); Pacific Creek Road, 2-1/2 mi. E Moran, 1
+    (FC); Two Ocean Lake Road, 2 (FC); 2 mi. E Moran, 1 (FC); 2-1/2 mi.
+    E and 1/4 mi. N Moran, 6,230 ft., 8; Pacific Creek, 1 (MM);
+    junction of Two Ocean Lake Road and U.S. Highway 187, 2 (FC);
+    Signal Mountain Road, 1 (FC); Leigh Lake, 9 (MM); Indian Paint
+    Brush Canyon, Teton Park, 1 (MM); Teton National Park, 3; 3 mi. E
+    and 1/4 mi. S Moran, 6,200 ft., 1; 3-3/4 mi. E and 1 mi. S Moran,
+    6,200 ft., 8; 2-1/2 mi. N and 3-1/2 mi. E Moran, 7,225 ft., 1;
+    Timbered Island, 6,750 ft., 4 mi. N Moose, 5; Bar BC Ranch, 6,500
+    ft., 2-1/2 mi. NE Moose, 9; Grand Teton, 9,000 ft., Teton Park, 1
+    (MM); Upper Arizona Creek, Jackson, 1 (MM).
+
+    _Lincoln Co._: 3 mi. N and 11 mi. E Alpine, 5,650 ft., 2.
+
+    _Additional records_ (Howell 1929:69): _Yellowstone Park_: Mammoth
+    Hot Springs; Roaring Mountain; Bunsen Peak; Yancey; Apollinaris
+    Spring; Canyon; Yellowstone Lake; Upper Geyser Basin; Old Faithful.
+    _Park Co._: Near head of Clarks Fork; Pahaska, N Fork Shoshone
+    River at Grinnell Creek; Valley. _Teton Co._: Moran; Teton
+    Mountains; Teton Pass. _Lincoln Co._: Afton, Salt River Mountains;
+    head of La Barge Creek, 9,100 ft.; Salt River Mountains, 10 mi. SE
+    Afton. _Sublette Co._: Merna; Stanley.
+
+
+Eutamias dorsalis (Baird)
+
+    _Diagnosis._--Size medium to large; general tone of upper parts
+    Smoke Gray; dorsal stripes indistinct or obsolete; often brightly
+    colored at base of tail; keel of baculum proportionally high,
+    approximately 1/3 of length of tip; skull longer than 34.5 mm.
+
+    _Comparisons._--From _E. umbrinus_, _E. dorsalis_ differs in:
+    Dorsal stripes faint; skull smaller; base of baculum not noticeably
+    expanded; general tone of upper parts grayer.
+
+    For comparisons with _E. minimus_ and _E. amoenus_ see the accounts
+    of those species.
+
+  [Illustration: FIG. 2. Known occurrences and probable geographic
+  distribution of _Eutamias amoenus_ and _Eutamias dorsalis_ in
+  Wyoming. See figure 1 for explanation of symbols.
+
+      1. _E. amoenus luteiventris_
+      2. _E. dorsalis utahensis_]
+
+
+Eutamias dorsalis utahensis Merriam
+
+    _Eutamias dorsalis utahensis_ Merriam, Proc. Biol. Soc. Washington,
+    11:210, July 1, 1897.
+
+    _Type._--Male, adult, skull and skin, No. 186457 (NM); from Ogden,
+    Weber County, Utah; obtained on October 9, 1888, by Vernon Bailey;
+    original No. 289.
+
+    _Diagnosis._--Size medium; dorsal stripes faint; baculum not
+    noticeably widened at base.
+
+    _Description._--_Color pattern_: Crown Pale Smoke Gray mixed with
+    Cinnamon; upper facial stripe Fuscous; other facial stripes Sayal
+    Brown mixed with Fuscous or Fuscous Black; anterior margin of ear
+    Ochraceous Tawny; posterior margin of ear and postauricular patch
+    grayish white; median dorsal dark stripe Fuscous or black; other
+    dorsal dark stripes black and mixed with gray, sometimes barely
+    discernible; dorsal pair light stripes Smoke Gray; lateral pair of
+    light stripes creamy white; rump and thighs Pale Smoke Gray mixed
+    with Cinnamon; dorsal surface of tail Fuscous Black mixed with
+    Tilleul Buff; underside of tail Cinnamon Buff or Pinkish Buff,
+    Fuscous Black around margin and Tilleul Buff around outermost edge;
+    antipalmar and antiplantar surfaces of feet Cinnamon Buff;
+    underparts creamy white; sides Pinkish Cinnamon or Light Pinkish
+    Cinnamon. _Skull_: Size medium; braincase well inflated; zygomata
+    strong, moderately appressed to cranium. _Baculum_: Small; keel
+    approximately 1/3 of length of tip.
+
+_Remarks._--Only a few specimens of this subspecies have ever been
+taken in Wyoming. Little is known about the habits of this chipmunk,
+which normally is shy and wary.
+
+    _Specimens examined._--Total number, 6.
+
+    _Sweetwater Co._: W side Green River, 1 mi. N Utah border, 6.
+
+    _Additional records_ (Howell 1929:134): _Sweetwater Co._: Green
+    River, 4 mi. NE Linwood, Utah.
+
+  [Illustration: FIG. 3. Known occurrences and probable geographic
+  distribution of the subspecies of _Eutamias umbrinus_ in Wyoming. See
+  figure 1 for explanation of symbols.
+
+      1. _E. u. umbrinus_
+      2. _E. u. fremonti_
+      3. _E. u. montanus_]
+
+
+Eutamias umbrinus (J. A. Allen)
+
+    _Diagnosis._--Size large; general tone of upper parts dark; base of
+    baculum widened; outermost dorsal dark stripe barely discernible or
+    lacking; skull rarely shorter than 34.0 mm.
+
+    _Comparisons._--For comparisons with the other species of
+    _Eutamias_ in Wyoming, see the accounts of _E. minimus_, _E.
+    amoenus_, and _E. dorsalis_.
+
+_Remarks._--_E. umbrinus_ is the largest of the species of _Eutamias_
+occurring in Wyoming. This species usually occurs in the Canadian and
+Hudsonian life-zones in the mountains of northwestern, southwestern,
+and south-central Wyoming.
+
+
+Eutamias umbrinus umbrinus (J. A. Allen)
+
+    _Tamias umbrinus_ J. A. Allen, Bull. Amer. Mus. Nat. Hist. 3:96,
+    June, 1890.
+
+    _Eutamias umbrinus_, Miller and Rehn, Proc. Boston Soc. Nat. Hist.,
+    30:45, December 27, 1901.
+
+    _Type._--Male, adult, skull and skin, No. 186463 (NM); from Blacks
+    Fork, about 9,500 ft., Uinta Mountains, Summit County, Utah;
+    obtained on September 19, 1888, by Vernon Bailey; original No. 228.
+
+    _Diagnosis._--Size medium; over-all tone of upper parts dark and
+    shadowy; skull smallest of this species in Wyoming.
+
+    _Description._--_Color pattern_: Crown Pale Smoke Gray; facial
+    stripes Fuscous Black or Snuff-Brown; ears Fuscous Black; posterior
+    margin of ear and postauricular patch grayish white; median dorsal
+    dark stripe black with Sayal Brown along margins; lateral pair of
+    dorsal dark stripes Fuscous Black mixed with Sayal Brown, or
+    entirely Sayal Brown; outermost pair of dorsal dark stripes Sayal
+    Brown mixed with Fuscous Black or lacking; sides Sayal Brown mixed
+    with Cinnamon; rump and thighs Sayal Brown mixed with Smoke Gray;
+    antipalmar and antiplantar surfaces of feet Cinnamon Buff;
+    underside of tail Ochraceous Tawny or Sayal Brown, with Fuscous
+    Black around margin and Pinkish Buff around outermost edge;
+    underparts creamy white with dark gray underfur. _Skull_: Smooth
+    and rounded; braincase inflated; zygomata strong. _Baculum_:
+    Broadened at base; shaft tapers rapidly to tip.
+
+    _Comparisons._--From _E. u. fremonti_, the subspecies from the
+    north in the mountains of northwestern Wyoming, _E. u. umbrinus_
+    differs in: Over-all tone of upper parts darker; sides lighter;
+    skull smaller. From _E. u. montanus_, the subspecies from the
+    Medicine Bow Range of south-central Wyoming, _E. u. umbrinus_
+    differs in: Over-all tone of upper parts darker; sides darker;
+    skull smaller.
+
+_Remarks._--This subspecies occurs only in the foothills of the Uinta
+Mountains in the southern part of Uinta County. These "foothills" are
+well-timbered and at an altitude of 7,000 feet and higher.
+
+    _Specimens examined._--Total number, 23.
+
+    _Uinta Co._: 9 mi. S Robertson, 8,000 ft, 15; 10 mi. S and 1 mi. W
+    Robertson, 8,700 ft., 5; 11-1/2 mi. S and 2 mi. E Robertson, 9,200
+    ft., 1; 2 mi. E and 12 mi. S Robertson, Ashley Nat. Forest, 1; 13
+    mi. S and 2 mi. E Robertson, 9,200 ft., 1.
+
+    _Additional records_ (Howell 1929:95): _Uinta Co._: Henry Fork, 5
+    mi. W Lone Tree; Lone Tree.
+
+
+Eutamias umbrinus fremonti White
+
+    _Eutamias umbrinus fremonti_ White, Univ. Kansas Publ., Mus. Nat.
+    Hist. 5:575, December 1, 1953.
+
+    _Type._--Male, adult, skull, skin, and baculum, No. 41790 (KU);
+    from 31 mi. N Pinedale, 8,025 ft., Sublette County, Wyoming;
+    obtained on July 8, 1951, by Rollin H. Baker; original No. 1596.
+
+    _Diagnosis._--Size large; over-all tone of upper parts dark; lower
+    tooth-row longest of this species in Wyoming.
+
+    _Description._--_Color pattern_: Crown Cinnamon Buff mixed with
+    gray; upper facial stripe Sepia; ocular stripe Chaetura-Drab;
+    submalar stripe Fuscous Black mixed with Sayal Brown; ears black;
+    anterior margin of ear Mars Yellow; posterior margin of ear grayish
+    white; hairs inside posterior part of pinna Dresden Brown;
+    postauricular patch Pale Smoke Gray; median dorsal dark stripe
+    black; lateral dorsal dark stripes black mixed with Sayal Brown;
+    outermost dorsal dark stripes Buckhorn Brown mixed with black or
+    sometimes absent; median pair of dorsal light stripes grayish mixed
+    with Buckhorn Brown; outer pair of dorsal light stripes creamy
+    white; sides Buckhorn Brown; rump and thighs Pale Smoke Gray mixed
+    with Saccardo's Umber; dorsal surface of tail black mixed with
+    Buckhorn Brown; ventral surface of tail Sayal Brown, with Fuscous
+    Black around margin and white or Light Buff around outermost edge;
+    antipalmar and antiplantar surfaces of feet Warm Buff; underparts
+    creamy white with dark underfur. _Skull_: Large; zygomata strong
+    and arched; braincase well inflated. _Baculum_: Broad at base;
+    shaft tapers sharply to tip.
+
+    _Comparisons._--From _E. u. montanus_, the subspecies from the
+    Medicine Bow Range of south-central Wyoming, _E. u. fremonti_
+    differs in: Over-all tone of upper parts darker; underside of tail
+    darker; feet darker; sides darker.
+
+    For comparisons with _E. u. umbrinus_ see the account of that
+    subspecies.
+
+_Remarks._--This subspecies normally occurs in the forest as do the
+other subspecies of _E. umbrinus_ in Wyoming. A single specimen taken
+at 12 mi. N and 3 mi. W Shoshoni, Fremont County, is the exception
+which probably indicates that _E. umbrinus_ does occur outside of its
+normal habitat and that gene-flow exists between the subspecies of this
+species.
+
+    _Specimens examined._--Total number, 53.
+
+    _Yellowstone Park_: Unspecified, 2.
+
+    _Park Co._: Beartooth Lake, 1 (BS); 16-1/4 mi. N and 17 mi. W Cody,
+    5,625 ft., 2.
+
+    _Teton Co._: 1 mi. E and 1/4 mi. N Togwotee Pass, 9,800 ft., 2;
+    Amphitheater Lake, Teton Park, 1 (MM); Flat Creek, 4 (MM); head of
+    Cache Creek, 4 (MM); Jackson, Upper Arizona Creek, 2 (MM); Flat
+    Creek-Granite Creek divide, 6 (MM); Flat Creek Pass, 1 (MM); Flat
+    Creek-Gravel Creek divide, 2 (MM).
+
+    _Lincoln Co._: La Barge Creek, near source, 9,000 ft., 1 (BS).
+
+    _Fremont Co._: Togwotee Pass, 12 (FC); 12 mi. N and 3 mi. W
+    Shoshoni, 4,650 ft, 1; Mosquito Park R.S., 9,500 ft., 17-1/2 mi. W
+    and 2-1/2 mi. N Lander, 1; 17 mi. S and 6-1/2 mi. W Lander, 8,450
+    ft., 3.
+
+    _Sublette Co._: 31 mi. N Pinedale, 8,025 ft., 1; W side Barbara
+    Lake, 10,300 ft., 8 mi. S and 3 mi. W Fremont Peak, 4; 19 mi. W and
+    2 mi. S Big Piney, 7,700 ft., 5.
+
+    _Additional records_ (Howell 1929:95): _Park Co._: Near head of
+    Clark Fork; Whirlwind Peak near Pahaska, N Fork Shoshone River;
+    Valley, Shoshone Mountains; Needle Mountain. _Teton Co._: Teton
+    Mountains, S Moose Creek. _Lincoln Co._: Salt River Mountains.
+    _Sublette Co._: Gros Ventre Range, 12 mi. NW Kendall; Merna; 8 mi.
+    W Stanley; Big Sandy. _Fremont Co._: Jackey's Creek, 4 mi. SW
+    Dubois; Bull Lake, Wind River Mountains; Lake Fork, Wind River
+    Mountains; Fremont Peak.
+
+
+Eutamias umbrinus montanus White
+
+    _Eutamias umbrinus montanus_ White, Univ. Kansas Publ. Mus. Nat.
+    Hist. 5:576, December 1, 1953.
+
+    _Type._--Male, adult, skull, skin, and baculum; 20105 (KU); from
+    1/2 mi. E and 3 mi. S Ward, 9,400 ft., Boulder County, Colorado;
+    obtained on August 1, 1947, by E. L. Cockrum; original No. 721.
+
+    _Diagnosis._--Size large; over-all tone of upper parts light; sides
+    light.
+
+    _Description._--_Color pattern_: Crown Raw Sienna mixed with gray;
+    upper facial stripe and ocular stripe black mixed with Sepia;
+    submalar stripe Snuff-Brown mixed with black; ear black or Sepia;
+    anterior margin of ear Ochraceous Tawny; posterior margin of ear
+    and postauricular patch grayish white; hairs inside posterior part
+    of pinna Cinnamon Buff; median dorsal dark stripe black with Sayal
+    Brown along margins; lateral pair of dorsal dark stripes black
+    mixed with Sayal Brown; outermost pair of dorsal dark stripes Sayal
+    Brown mixed with black or sometimes lacking; median pair of dorsal
+    light stripes Pale Smoke Gray mixed with Clay Color; outer pair of
+    dorsal light stripes creamy white; sides Clay Color; rump and
+    thighs Neutral Gray; dorsal surface of tail black mixed with
+    Cinnamon Buff; ventral surface of tail Ochraceous Tawny, with black
+    along margin and Cinnamon Buff or Ochraceous Tawny along outermost
+    edge; antipalmar and antiplantar surfaces of feet Cinnamon Buff;
+    underparts creamy white with dark underfur. _Skull_: Large;
+    zygomata strong and arched; braincase well inflated. _Baculum_:
+    Broad at base; shaft tapers sharply to tip.
+
+    _Comparisons._--For comparisons with _E. u. umbrinus_ and _E. u.
+    fremonti_, see the accounts of those subspecies.
+
+_Remarks._--Although in Wyoming this subspecies is known only from the
+Medicine Bow Range, one would expect to find it occurring in the Snowy
+Range and the Laramie Range as well, since there seems to be suitable
+habitat for this subspecies in those mountain ranges.
+
+    _Specimens examined._--Total number, 3.
+
+    _Albany Co._: 8 mi. ESE Browns Peak, 10,000 ft., 2; 3-1/2 mi. S
+    Wood's Landing, 1.
+
+
+REVIEW AND CONCLUSIONS
+
+_Eutamias minimus_ in Wyoming is divisible into two size-groups of
+subspecies; the smaller size-group (_E. m. minimus_ and _E. m.
+consobrinus_), which occurs in the western part of the State, is
+significantly smaller, in measurements of the skull and baculum, than
+the larger size-group (_E. m. pallidas_, _E. m. confinis_, _E. m.
+silvaticus_, and _E. m. operarius_) which occurs in the eastern part of
+the State.
+
+Although all the six subspecies of _E. minimus_ in Wyoming can be
+differentiated from one another by color pattern, this species cannot
+be divided, by means of color pattern, into two groups, comparable in
+geographic range, to the two size-groups that were established above on
+the basis of variations in the skull and baculum.
+
+Thus, the subspecies of _E. minimus_ are morphologically differentiated
+at two distinct levels; one level is based on differences in the skull
+and baculum, while the other is based on differences in color.
+
+Although there is considerable controversy concerning the glacial
+chronology in the mountains of western North America (Flint
+1947:302-303), it is generally agreed that in Wyoming, in Wisconsinan
+time (the latest glacial age), glaciers covered a large part of the
+Yellowstone-Teton-Wind River highlands, the Big Horn Mountains, the
+southern part of the Laramie Range, the Medicine Bow Range, Sierra
+Madre Range, and the northern foothills of the Uinta Mountains. With
+this in mind, a possible explanation of the geographic variation in _E.
+minimus_ of Wyoming, is here attempted.
+
+In Sangamonian time, _E. minimus_-like chipmunks occurred over most of
+the region which is now Wyoming, and were divided into two size-groups,
+much as _E. minimus_ is today.
+
+When permanent snow fields were formed in Wisconsinan time, these
+chipmunks were restricted in their ranges, not, of course, occurring on
+the glaciers.
+
+When the glaciers melted at the end of Wisconsinan time, new habitats
+were thus "uncovered." The chipmunks which moved into these ice-free
+areas, then, became adapted to the new habitats. This then accounts for
+the subspeciation of _E. m. consobrinus_, _E. m. confinis_, and _E. m.
+operarius_.
+
+The Black Hills were not covered by glaciers. In late Pleistocene time
+these hills were probably of low relief. Subsequent differential
+erosion produced relief sufficient to provide a different habitat. The
+chipmunks that continued to occupy this area adapted themselves in
+color to the new habitat and became _E. m. silvaticus_.
+
+
+LITERATURE CITED
+
+CARY, M.
+
+    1917. Life zone investigations in Wyoming. N. Amer. Fauna, 42:1-96,
+    15 pls., 17 figs.
+
+FLINT, R. F.
+
+    1947. Glacial geology and the Pleistocene Epoch. John Wiley and
+    Sons, New York, pp. xviii + 589, 88 figs., 27 tables, 6 pls.
+
+HALL, E. R.
+
+    1926. Changes during growth in the skull of the rodent
+    Otospermophilus grammurus beecheyi. Univ. California Publ. Zool.,
+    21:355-404, 43 figs., March 9.
+
+    1946. Mammals of Nevada. Univ. California Press, Berkeley,
+    California, pp. xi + 710, 11 pls., 485 figs., July 1.
+
+HOWELL, A. H.
+
+    1929. Revision of the American chipmunks (genera _Tamias_ and
+    _Eutamias_). N. Amer. Fauna, 52:1-157, 10 pls., 9 maps, November
+    30.
+
+JOHNSON, D. H.
+
+    1943. Systematic review of the chipmunks (genus Eutamias) of
+    California. Univ. California Publ. Zool., 48:63-148, 1 pl., 12
+    figs., December 24.
+
+LARRISON, E. J.
+
+    1949. Variation in the chipmunks of west-central Washington.
+    Murrelet, 29:34-43, 1 map, March 1.
+
+SHAW, W. T.
+
+    1944. Brood nests and young of two western chipmunks in the Olympic
+    Mountains of Washington. Jour. Mamm., 25:274-284, 1 pl., 4 figs.,
+    September 8.
+
+WHITE, J. A.
+
+    1953. Taxonomy of the chipmunks, Eutamias quadrivittatus and
+    Eutamias umbrinus. Univ. Kansas Publ., Mus. Nat. Hist., 5:563-582,
+    6 figs. in text, December 1.
+
+
+_Transmitted June 26, 1953._
+
+
+
+
+
+
+End of the Project Gutenberg EBook of Geographic Distribution and Taxonomy
+of the Chipmunks of Wyoming, by John A. White
+
+*** END OF THIS PROJECT GUTENBERG EBOOK CHIPMUNKS OF WYOMING ***
+
+***** This file should be named 31951.txt or 31951.zip *****
+This and all associated files of various formats will be found in:
+        https://www.gutenberg.org/3/1/9/5/31951/
+
+Produced by Chris Curnow, Joseph Cooper and the Online
+Distributed Proofreading Team at https://www.pgdp.net
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+https://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at https://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+https://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at https://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit https://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including including checks, online payments and credit card
+donations.  To donate, please visit: https://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart was the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     https://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.

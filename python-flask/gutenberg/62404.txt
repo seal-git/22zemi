@@ -1,0 +1,3197 @@
+The Project Gutenberg EBook of Frankenstein, ou le Prométhée moderne
+Volume 1 (of 3), by Mary Wollstonecraft Shelley
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org/license
+
+
+Title: Frankenstein, ou le Prométhée moderne Volume 1 (of 3)
+
+Author: Mary Wollstonecraft Shelley
+
+Translator: Jules Saladin
+
+Release Date: June 20, 2020 [EBook #62404]
+
+Language: French
+
+Character set encoding: UTF-8
+
+*** START OF THIS PROJECT GUTENBERG EBOOK FRANKENSTEIN ***
+
+
+
+
+Produced by Laura Natal Rodrigues at Free Literature (Images
+generously made available by Gallica, Bibliothèque nationale
+de France.)
+
+
+
+
+
+
+FRANKENSTEIN,
+
+OU
+
+LE PROMÉTHÉE MODERNE.
+
+DÉDIÉ A WILLIAM GODWIN,
+
+AUTEUR DE LA JUSTICE POLITIQUE, DE CALEB WILLIAMS, etc.
+
+Par Mme SHELLY, sa nièce.
+
+TRADUIT DE L'ANGLAIS PAR J. S.***
+
+Créateur, t'ai-je demandé de me tirer de
+l'argile pour me faire homme? T'ai-je
+sollicité de m'arracher du néant?
+
+MILTON, _Paradis perdu._
+
+TOME PREMIER
+
+PARIS,
+
+CHEZ CORRÉARD, LIBRAIRE
+
+PALAIS ROYAL, GALERIE DE BOIS, N.° 258.
+
+1821
+
+
+
+
+TABLE
+PRÉFACE
+LETTRE Ière
+LETTRE II
+LETTRE III
+LETTRE IV
+CHAPITRE Ier
+CHAPITRE II
+CHAPITRE III
+CHAPITRE IV
+CHAPITRE V
+CHAPITRE VI
+CHAPITRE VII
+
+
+
+
+PRÉFACE
+
+
+Le fait sur lequel repose cette fiction, n'a point paru impossible au
+docteur Darwin, et à quelques-uns des Écrivains physiologiques de
+l'Allemagne. Je ne veux pas laisser croire que je suis porté à y
+ajouter sérieusement foi. Cependant, en le prenant pour base d'un
+ouvrage d'imagination, je n'ai pas voulu simplement offrir une suite
+d'histoires effrayantes et surnaturelles. L'événement dont dépend
+l'intérêt de cette histoire, sans présenter aucun des défauts d'un
+pur conte de spectres ou d'enchantements, se recommande par la
+nouveauté des situations qui y sont développées; et, malgré
+l'impossibilité du fait matériel, retrace à l'imagination les
+passions humaines, d'un point de vue plus étendu et plus élevé que
+ceux où l'on peut se placer dans le cours ordinaire de la vie.
+
+Ainsi, j'ai essayé de conserver la vérité des principes
+élémentaires de la nature humaine, tandis que je ne me suis pas fait
+scrupule d'innover dans leurs combinaisons. Homère, dans l'_Iliade_;
+les Poètes tragiques de la Grèce; Shakespeare, dans _la Tempête et le
+Songe au milieu d'une nuit d'été_; et plus particulièrement Milton,
+dans _le Paradis perdu_, se conforment à cette règle; et le plus
+modeste nouvelliste, qui cherche à plaire ou à s'amuser par son
+travail, peut, sans présomption, appliquer à ce qu'il raconte, une
+licence ou plutôt une règle de l'adoption de laquelle sont résulté
+tant de combinaisons profondes des sentiments humains dans les
+chefs-d'œuvre les plus sublimes de la poésie.
+
+La circonstance sur laquelle mon histoire est fondée, m'a été
+suggérée par hasard dans une conversation. Elle fut commencée en
+partie comme source d'amusement, et en partie comme moyen d'exercer les
+facultés négligées de l'esprit. D'autres motifs s'y sont mêlés, à
+mesure que le travail avançait. Je ne suis nullement indifférent aux
+sensations morales dont sera affecté le lecteur sur les sentiments et
+les caractères qui y sont tracés; cependant mon premier soin s'est
+borné à éviter l'effet énervant que produisent les romans du jour,
+et à montrer le charme des affections domestiques ainsi que
+l'excellence de la vertu universelle. Les opinions, produites
+naturellement d'après le caractère et la position du héros, ne
+doivent pas être considérées comme le fruit de ma conviction
+personnelle; et rien de ce qui est contenu dans cet ouvrage, ne doit
+être regardé comme portant attaque à quelque doctrine philosophique,
+de quelque genre que ce soit.
+
+Un autre motif, qui ajoute à l'intérêt de l'auteur, c'est que cette
+histoire a été commencée dans le pays majestueux où se passe la plus
+grande partie de l'action, et dans une société qu'il ne peut cesser de
+regretter.
+
+Je passai l'été de 1816 dans les environs de Genève. La saison était
+froide et pluvieuse: nous nous réunissions le soir autour d'un foyer,
+et nous nous amusions à lire, de temps en temps, quelques histoires
+allemandes d'êtres surnaturels, que le hasard faisait tomber entre nos
+mains. Ces contes nous donnaient un vif désir de les imiter. Nous
+convînmes avec deux de mes amis (dont l'un composa un roman qui ferait
+plus de plaisir au Public que je ne puis l'espérer pour moi-même),
+d'écrire chacun une histoire fondée sur quelqu'aventure
+extraordinaire.
+
+Cependant le temps devint beau tout-à-coup, et mes deux amis me
+quittèrent pour faire un voyage dans les Alpes. Ils perdirent, au
+milieu des scènes magnifiques que présentent ces montagnes, tout
+souvenir de nos visions spirituelles. Le Roman suivant est le seul qui
+ait été achevé.
+
+
+
+
+FRANKENSTEIN
+
+ou
+
+LE PROMÉTHÉE MODERNE.
+
+
+
+
+LETTRE Ière
+
+
+À MADAME SAVILIE, EN ANGLETERRE.
+
+
+Saint-Pétersbourg, 11 décembre 17--
+
+
+«Vous serez bien aise d'apprendre qu'aucun malheur n'a troublé le
+commencement d'une entreprise que vous avez envisagée avec de funestes
+pressentiments. Je suis arrivé ici hier, et mon premier devoir est
+d'informer ma chère sœur que ma santé est bonne, et ma confiance plus
+grande dans le succès de mon entreprise.
+
+»Je suis déjà loin au nord de Londres; et, quand je me promène dans
+les rues de Saint-Pétersbourg, je sens se jouer sur mes joues la brise
+froide du nord qui me resserre les nerfs et me remplit de volupté.
+Comprenez-vous cette sensation? Cette brise, qui est venue des régions
+à travers lesquelles je m'avance, me donne un avant-goût de ces
+climats glacés. Inspiré par ce vent précurseur, je sens que mes
+idées deviennent plus ardentes et plus vives. Je m'efforce en vain de
+me persuader que le pôle est le siège de la glace et de la
+désolation, il se présente toujours à mon imagination comme le pays
+de la beauté et du plaisir. Là, Marguerite, le soleil est toujours
+visible; son large disque borde presque l'horizon, et répand un éclat
+perpétuel. De là (car, avec votre permission, ma sœur, j'aurai
+quelque confiance dans les navigateurs qui m'ont précédé), de là,
+dis-je, la neige et la glace sont bannies; et, naviguant sur une mer
+calme, on peut être transporté dans une terre qui surpasse en prodiges
+et en beauté tous les pays jusqu'ici découverts sur le monde
+habitable. Ses productions et ses traits peuvent être sans exemple,
+comme les phénomènes des corps célestes le sont, sans doute, dans ces
+solitudes inconnues. Que ne peut-on pas espérer dans un pays où brille
+une lumière éternelle? J'y découvre la puissance étonnante qui
+attire l'aiguille; et je puis fixer une foule d'observations célestes
+qui n'ont besoin que de ce voyage pour rendre invariables leurs
+excentricités apparentes. Je rassasierai mon ardente curiosité, en
+voyant une partie du monde qui n'a jamais été visitée avant moi, et
+je puis fouler une terre qui n'a jamais été pressée par les pieds
+d'un mortel. Voilà ce qui m'attire, et cela me suffit pour bannir toute
+crainte du danger ou de la mort, et m'encourager à commencer ce
+pénible voyage avec la joie qu'éprouve un enfant lorsqu'il s'embarque
+sur un petit bateau un jour de fête, avec ses camarades, pour
+l'expédition d'une découverte sur la rivière qui baigne son pays
+natal. Mais, en supposant que toutes ces conjectures soient fausses,
+vous ne pouvez contester le service inappréciable que je rendrai à
+toute l'espèce humaine, jusqu'à la dernière génération, en
+découvrant, près du pôle, un passage à ces contrées, où, pour
+arriver, il faut maintenant plusieurs mois; ou bien en constatant le
+secret du magnétisme, ce qui, à moins que ce ne soit impossible, ne
+peut avoir lieu que par une entreprise comme la mienne.
+
+»Ces réflexions ont calmé l'agitation avec laquelle j'ai commencé ma
+lettre, et je sens mon cœur se remplir d'un enthousiasme qui m'élève
+jusqu'au ciel; car rien ne contribue tant à tranquilliser l'esprit
+qu'un projet bien ferme, sur lequel on puisse fixer son attention. Cette
+expédition a été le songe favori de mes premières années. J'ai lu
+avec ardeur les récits des différents voyages qui ont été faits dans
+le but d'arriver à l'océan pacifique du nord, à travers les mers qui
+entourent le pôle. Vous devez vous souvenir, que l'histoire de tous les
+voyages entrepris dans l'intention de faire des découvertes, composait
+la bibliothèque entière de notre bon oncle Thomas. Mon éducation fut
+négligée; cependant j'aimais la lecture avec passion. J'étudiais ces
+livres nuit et jour; et la connaissance que j'en eus, augmenta le regret
+que j'avais éprouvé, comme un enfant, en apprenant que mon père, au
+lit de la mort, avait défendu à mon oncle de me laisser embrasser
+l'état de marin.
+
+»Ces visions s'affaiblirent lorsque je lus, pour la première fois, ces
+poètes dont les effusions pénétraient mon âme et l'élevaient
+jusqu'au ciel. Je devins poète aussi, et pendant une année je vécus
+dans un paradis de ma propre création. Je pensais pouvoir obtenir aussi
+une place dans le temple où sont consacrés les noms d'Homère et de
+Shakespeare. Vous savez combien je me trompai, et quelle peine j'eus à
+supporter mon malheur. Mais, justement, à cette époque, j'héritai de
+la fortune de mon cousin, et mes pensées se reportèrent à mes
+premières inclinations.
+
+»Six ans se sont écoulés depuis que j'ai pris la résolution que
+j'exécute en ce moment. Je puis, même à présent, me souvenir de
+l'heure où je me suis dévoué à cette grande entreprise. J'ai
+commencé par accoutumer mon corps à la fatigue. J'ai accompagné les
+pêcheurs de baleine dans plusieurs expéditions à la mer du Nord; j'ai
+enduré volontairement le froid, la faim, la soif et l'insomnie;
+souvent, pendant le jour, je supportais des travaux plus rudes qu'aucun
+des matelots, et je passais mes nuits à étudier les mathématiques, la
+théorie de la médecine, et ces branches de science physique dont un
+homme ami des entreprises maritimes peut souvent tirer le plus grand
+avantage. Deux fois même je me suis engagé comme contremaître, pour
+la pêche du Groenland, et je me suis acquitté à merveille de mes
+fonctions. Je dois avouer que je sentis un petit mouvement d'orgueil,
+lorsque le capitaine m'offrit la seconde dignité du vaisseau, et me
+supplia de rester, avec le plus grand empressement, tant il appréciait
+mes services.
+
+»Et maintenant, ma chère Marguerite, ne mérité-je pas d'accomplir
+quelque grand projet. J'aurais pu passer ma vie dans l'aisance et le
+plaisir; mais j'ai préféré ma gloire à tous les attraits que la
+richesse plaçait devant moi. Ah! que quelque voix encourageante me
+réponde du succès! mon courage et ma résolution sont inébranlables;
+mais mes espérances sont incertaines, et mon esprit est souvent
+humilié. Je vais entreprendre un voyage long et difficile; les dangers
+que je courrai demanderont tout mon courage: j'aurai besoin
+non-seulement de relever les esprits des autres, mais quelquefois de
+soutenir les miens lorsque les leurs se découragent et s'abattent.
+
+»Cette saison est la plus favorable pour voyager en Russie. On vole sur
+la neige dans des traîneaux; le mouvement en est doux, et, à mon avis,
+beaucoup plus agréable que celui d'une diligence anglaise. Le froid
+n'est pas excessif, lorsqu'on est enveloppé de fourrures; et j'ai
+déjà adopté ce costume, car il y a une grande différence de se
+promener sur un pont, ou de rester assis pendant plusieurs heures, sans
+faire un mouvement et sans qu'aucun exercice n'empêche le sang de se
+glacer dans les veines. Je n'ai nullement l'ambition de perdre la vie
+sur la grande route entre Saint-Pétersbourg et Archangel.
+
+»Je partirai pour cette dernière ville dans quinze jours ou trois
+semaines; et mon intention est d'y louer un vaisseau, ce qui est bien
+facile en payant caution au propriétaire, et d'engager autant de
+matelots que je croirai nécessaires parmi ceux qui sont accoutumés à
+la pêche de la baleine. Je ne compte pas mettre à la voile avant le
+mois de juin: et quand reviendrai-je? Ah! ma chère sœur comment
+répondre à cette question? Si je réussis, bien des mois, des années
+peut-être s'écouleront avant que nous puissions nous voir. Dans le cas
+contraire, vous me reverrez bientôt, ou jamais.
+
+»Adieu, ma chère, mon excellente Marguerite, que le ciel verse sur
+vous ses bénédictions, et qu'il me conserve, afin que je puisse vous
+témoigner sans cesse ma reconnaissance pour toute votre amitié et vos
+bontés.
+
+»Votre affectionné frère,
+
+
+»R. WALTON».
+
+
+
+
+LETTRE II
+
+
+À MADAME SAVILLE, EN ANGLETERRE.
+
+
+Archangel, 28 mars 17--
+
+
+«Que le temps passe lentement ici, entouré comme je suis par la glace
+et la neige! Cependant, j'ai fait un second pas dans mon entreprise;
+j'ai loué un vaisseau, et je suis occupé à rassembler mes marins,
+ceux que j'ai déjà engagés paraissent être des hommes sur lesquels
+je puis compter, et sont doués, sans en pouvoir douter, d'un courage
+intrépide.
+
+»Mais il est un objet, un seul objet dont je n'ai pu encore jouir, et
+l'absence de ce bien est pour moi le plus grand des maux. Je n'ai pas
+d'amis, Marguerite: si je suis animé par l'enthousiasme du succès, je
+n'aurai personne pour partager ma joie; si je tombe dans le
+découragement, personne n'essaiera de relever mon courage. Je confierai
+mes pensées au papier, il est vrai; mais c'est une triste ressource
+pour l'épanchement de ce qu'on éprouve. Je voudrais avoir pour
+compagnon un homme capable de sympathiser avec moi, dont les yeux
+répondissent aux miens. Vous pouvez me croire romantique, ma chère
+sœur; mais je sens cruellement le manque d'un ami. Que n'ai-je auprès
+de moi une personne qui soit en même temps douce et courageuse, douée
+à la fois d'un esprit cultivé et capable, dont les goûts ressemblent
+aux miens, et qui puisse approuver ou corriger mes plans. Combien un
+semblable ami réparerait les fautes de votre pauvre frère! Je suis
+trop ardent dans l'exécution, et trop impatient des difficultés: mais
+ce qui est pour moi un malheur encore plus grand, c'est que je n'ai
+reçu qu'une demi-éducation; car pendant les quatorze premières
+années de ma vie, je courais dans les bois çà et là, et ne lisais
+que les livres de voyages de notre bon oncle Thomas. À cet âge je
+devins familier avec les poètes célèbres de notre patrie; je sentis
+aussi la nécessité d'apprendre d'autres langues que celle de mon pays
+natal; mais cette conviction fut chez moi trop tardive pour que je pusse
+en recueillir les plus précieux avantages. J'ai maintenant vingt-huit
+ans, et suis en vérité plus illettré que bien des écoliers de quinze
+ans. Il est vrai que j'ai réfléchi davantage, et que mes idées sont
+plus étendues et plus grandes; mais, comme disent les peintres, elles
+manquent de fond, et j'ai bien besoin d'un ami qui ait assez de bon sens
+pour ne pas me regarder comme un romantique, et qui m'affectionne assez
+pour essayer de régler mon esprit.
+
+»Plaintes inutiles! ce n'est certainement pas sur le vaste Océan que
+je trouverai un ami, non plus qu'à Archangel au milieu des marchands et
+des marins. Cependant il y a place, dans ces cœurs, à des sentiments
+qui semblent ne pouvoir s'allier avec l'écume de la nature humaine. Mon
+lieutenant, par exemple, est un homme d'un grand courage et d'une audace
+étonnante. Il aime la gloire avec passion. C'est un Anglais; et au
+milieu des préjugés de son pays et de son état, qui ne sont pas
+adoucis par la culture, il conserve quelques-unes des plus nobles
+qualités de l'humanité. J'ai fait autrefois sa connaissance à bord
+d'un bâtiment destiné à la pèche de la baleine; je l'ai retrouvé
+dans cette ville sans occupation, et je l'ai facilement engagé à
+m'assister dans mon entreprise.
+
+»Le maître est un homme d'un talent très-distingué, et se fait
+remarquer sur le vaisseau par sa modération et la douceur de sa
+discipline. Il est vraiment d'un naturel si bon, qu'il ne chassera pas
+(amusement favori, et presque le seul qu'on trouve ici), parce qu'il ne
+peut souffrir de verser le sang; en outre, il est d'une générosité
+héroïque. Il y a quelques années qu'il était amoureux d'une
+demoiselle Russe, qui n'avait qu'une fortune médiocre. Possesseur d'un
+capital considérable, amassé dans ses courses maritimes, il obtint
+sans peine que le père de la jeune fille consentît au mariage. Il la
+vit une fois avant le jour de la cérémonie: elle était baignée de
+larmes; elle tomba à ses pieds, le supplia de l'épargner, et lui avoua
+en même temps qu'elle aimait un jeune Russe, mais qu'il était pauvre,
+et que son père ne voudrait jamais les unir. Mon généreux ami rassura
+cette malheureuse personne, s'informa du nom de son amant, et abandonna
+de suite toute prétention. Il avait déjà acheté, de son argent, une
+ferme dans laquelle il avait le dessein de passer le reste de sa vie;
+mais il donna tout à son rival, et pour qu'il pût acheter du bétail,
+il joignit à son premier don le reste de ses profits dans les prises.
+Il sollicita lui-même le père de la jeune fille, pour qu'il consentît
+à l'unir avec celui qu'elle aimait; mais le vieillard se croyant
+engagé d'honneur avec mon ami, refusa obstinément. Celui-ci, pour
+fléchir l'inexorable père, quitta son pays, et n'y revint que
+lorsqu'il apprit que sa maîtresse était mariée suivant son
+inclination. «Quel noble compagnon»! vous écrierez-vous. Tel est son
+caractère; mais il a passé sa vie entière à bord d'un vaisseau, et
+à peine a-t-il une idée hors des cordages et d'un hauban.
+
+»Mais si je me plains un peu, ou si je puis concevoir dans mes travaux
+une consolation que peut-être je ne connaîtrai jamais, ne croyez pas
+que je sois incertain dans mes résolutions; elles sont invariables
+comme le destin; et mon voyage n'est maintenant différé, que jusqu'à
+ce que le temps me permette de mettre à la voile. L'hiver a été
+horriblement dur; mais le printemps s'annonce favorablement, et cette
+saison parait même fort avancée. Ainsi, je m'embarquerai peut-être
+plutôt que je ne m'y étais attendu. Je ne ferai rien avec témérité;
+vous me connaissez assez pour avoir confiance en ma prudence et en ma
+circonspection, toutes les fois que la sûreté des autres est commise
+à mes soins.
+
+»Je ne puis vous dépeindre tout ce que j'éprouve en me voyant si
+près de mettre mon entreprise à exécution. Il est impossible de vous
+donner une idée de cette sensation incertaine, agréable et pénible à
+la fois, qui m'agite au moment de mon départ. Je vais dans des régions
+inconnues, _dans la patrie des brouillards et de la neige_; mais je ne
+tuerai aucun albatros[1], ne soyez donc pas alarmée sur mon sort.
+
+»Vous reverrai-je encore, après avoir traversé des mers immenses, et
+après avoir doublé le cap le plus au sud de l'Afrique ou de
+l'Amérique? Je ne puis m'attendre à un pareil bonheur; et cependant je
+n'ose regarder le revers du tableau. Continuez à m'écrire par toutes
+les occasions: je puis recevoir vos lettres (quoique la chance soit fort
+douteuse) au moment où j'en aurai le plus besoin pour soutenir mon
+courage. Adieu, adieu, je vous aime bien tendrement. Souvenez-vous de
+moi avec affection, dussiez-vous même ne plus entendre parler de votre
+affectionné frère.
+
+
+»ROBERT WALTON».
+
+
+[Note 1: Oiseau de mer.]
+
+
+
+
+LETTRE III
+
+
+À MADAME SAVILLE, EN ANGLETERRE.
+
+
+7 juillet 17--
+
+
+Ma chère sœur,
+
+«Je vous écris quelques lignes à la hâte, pour vous dire que je suis
+en bonne santé, et fort avancé dans mon voyage. Cette lettre
+parviendra en Angleterre par la voie d'un marchand qui retourne
+d'Archangel dans sa famille; il est plus heureux que moi, qui, pendant
+quelques années, ne pourrai peut-être revoir ma patrie. Je suis
+cependant dans de bonnes dispositions: mes hommes sont courageux et
+semblent fermes dans leurs projets. Ils ne paraissent pas découragés
+par les bancs de glaces que nous rencontrons continuellement, et qui
+nous indiquent les dangers du pays vers lequel nous nous dirigeons. Nous
+avons déjà atteint une latitude très-élevée, mais nous sommes dans
+le fort de l'été, et quoiqu'il ne fasse pas aussi chaud qu'en
+Angleterre, les vents du sud qui nous portent avec vitesse vers les
+rives où je désire si ardemment arriver, renouvellent sans cesse une
+chaleur à laquelle je ne m'étais pas attendu.
+
+»Jusqu'ici nul événement qui soit digne d'être rappelé. Un ou deux
+coups de vent et un mât brisé, sont des accidents dont un navigateur
+expérimenté se souvient à peine de faire mention; et je serai bien
+heureux, s'il ne nous arrive rien de pire pendant notre voyage.
+
+»Adieu, ma chère Marguerite. Soyez sûre que, par amour pour vous et
+pour moi-même, je n'irai pas témérairement au-devant du danger. Je
+serai froid, persévérant et prudent.
+
+»Rappelez-moi à tous mes amis d'Angleterre.
+
+»Votre très-affectionné,
+
+
+»ROBERT WALTON».
+
+
+
+
+LETTRE IV
+
+
+À MADAME SAVILLE, EN ANGLETERRE.
+
+
+5 août 17--
+
+
+«Nous venons d'être témoins d'un événement si étrange, que je ne
+puis m'empêcher de vous en faire part, quoiqu'il soit très-probable
+que vous me voyez avant que ce journal ne puisse vous parvenir.
+
+»Lundi dernier (31 juillet), nous étions presque renfermés par la
+glace qui entourait le vaisseau de tous côtés, et lui laissait à
+peine un espace dans lequel il flottait. Un brouillard épais, dont nous
+étions enveloppés, rendait notre situation assez dangereuse. Nous
+n'eûmes rien de mieux à faire qu'à rester en place, jusqu'à ce qu'il
+y eût un changement dans l'atmosphère et le temps.
+
+»Vers deux heures, le brouillard se dissipa, et nous vîmes flotter, de
+toutes parts, des îles de glace immenses et irrégulières, qui
+paraissaient n'avoir pas de bornes. Quelques-uns de mes compagnons se
+lamentaient, et mon esprit commençait à être agité d'inquiètes
+pensées, lorsque tout à coup notre attention fut attirée par un objet
+singulier, qui fit diversion à l'inquiétude que nous inspirait notre
+situation. Nous vîmes un chariot bas, fixé sur un traîneau et tiré
+par des chiens, passer au nord, à la distance d'un demi-mille: un
+être, qui avait la forme d'un homme, mais qui paraissait d'une stature
+gigantesque, était assis dans le traîneau et guidait les chiens. Nous
+observâmes, avec nos télescopes, la rapidité de la course du
+voyageur, jusqu'à ce qu'il fût perdu au loin parmi les inégalités de
+la glace.
+
+»Cette vue excita parmi nous un étonnement dont nous ne pûmes nous
+rendre compte. Nous pensions être éloignés de terre de plusieurs
+cents milles; mais cette apparition sembla prouver que la distance
+n'était réellement pas aussi grande que nous avions pu le croire.
+Cependant, cernés par la glace, il nous fut impossible de suivre la
+trace de ce que nous avions observé avec la plus grande attention.
+
+»Environ deux heures après cette rencontre, nous entendîmes le
+craquement de la mer; et avant la nuit la glace se rompit, et
+débarrassa notre vaisseau. Néanmoins, nous restâmes en place jusqu'au
+matin, dans la crainte de choquer, dans l'obscurité, contre ces grandes
+masses détachées qui flottent de tous côtés après la rupture de la
+glace. Je profitai de ce moment pour me reposer pendant quelques heures.
+
+»Dans la matinée, cependant, dès qu'il fut jour, je montai sur le
+pont, et trouvai tous les matelots rassemblés d'un seul côté du
+vaisseau, et ayant l'air de parler à quelqu'un qui était dans la mer.
+En effet, un traîneau semblable à celui que nous avions vu auparavant,
+s'était dirigé vers nous, pendant la nuit, sur un large morceau de
+glace. Il était conduit par un seul chien en vie, et portait un homme
+auquel les matelots tâchaient de persuader d'entrer dans le bâtiment.
+Ce n'était pas, comme l'autre voyageur le paraissait, un habitant
+sauvage de quelqu'île inconnue, mais un Européen. Lorsque je parus sur
+le pont, le contre-maître lui dit: «Voici notre capitaine, il ne vous
+laissera pas périr au milieu de la mer».
+
+»En me voyant, l'étranger m'adressa la parole en anglais, quoiqu'avec
+un accent étranger. «Avant que j'entre à bord de votre bâtiment,
+dit-il, voulez-vous avoir la bonté de m'informer de quel côté vous
+vous dirigez»?
+
+»Vous devez concevoir mon étonnement, de m'entendre adresser une
+semblable question par un homme qui était sur le bord de l'abîme, et
+à qui mon vaisseau devait paraître un bien plus précieux, que tous
+ceux dont on puisse jouir, sur la terre. Je répondis cependant que nous
+faisions un voyage de découverte vers le pôle du nord.
+
+»Il parut alors satisfait, et consentit à venir à bord. Bon Dieu!
+Marguerite, si vous aviez vu l'homme qui capitulait ainsi pour son
+salut, vous n'auriez pu revenir de votre surprise. Ses membres étaient
+presque gelés, et son corps horriblement maigri par la fatigue et la
+souffrance. Je n'ai jamais vu d'homme dans un état aussi pitoyable.
+Nous essayâmes de le porter dans la chambre; mais dès qu'il eut
+quitté le grand air, il s'évanouit. Nous le reportâmes donc sur le
+pont, et le rendîmes à la vie en le frottant d'eau-de-vie et en le
+forçant d'en avaler un peu. Dès qu'il montra signe de vie, nous eûmes
+soin de l'envelopper dans des couvertures, et de le placer auprès de la
+cheminée du poêle de cuisine. Il recouvra lentement connaissance, et
+mangea une petite soupe qui le restaura merveilleusement.
+
+»Deux jours se passèrent ainsi, sans qu'il fût capable de parler; et
+je craignais souvent que ses souffrances ne l'eussent privé de la
+raison. Lorsqu'il fut un peu rétabli, je le mis dans ma chambre, et eus
+pour lui autant de soin que mes devoirs purent me le permettre. Je n'ai
+jamais vu un être plus intéressant: ses yeux ont ordinairement une
+expression de fureur, et même de folie; mais, dans certains moments,
+quand on a une attention pour lui, ou qu'on lui rend le plus léger
+service, toute sa figure est adoucie, et sa physionomie respire un
+sentiment de bienveillance et de douceur tel que je n'ai jamais vu. Il
+est ordinairement plongé dans la mélancolie et le désespoir;
+quelquefois même il grince les dents, comme s'il n'était plus capable
+de supporter le poids des malheurs qui l'accablent.
+
+»Lorsque mon hôte fut un peu rétabli, j'eus beaucoup de peine à
+éloigner ceux qui voulaient lui faire une foule de questions; car je ne
+voulais pas le laisser tourmenter par leur inutile curiosité, dans un
+état de corps et d'âme dont l'amélioration dépendait évidemment
+d'un entier repos. Une seule fois, cependant, le lieutenant lui demanda
+pourquoi il était venu si loin sur la glace, dans un équipage si
+singulier.
+
+»Sa figure prit aussitôt l'expression du plus profond chagrin; et il
+répliqua: «Afin de poursuivre quelqu'un qui me fuyait.--Et l'homme que
+vous poursuiviez, voyageait-il de la même manière?--Oui,
+dit-il.--Alors je crois que nous l'avons vu; car, la veille du jour où
+nous vous avons rencontré, nous avions aperçu quelques chiens tirant
+à travers la glace, un traîneau dans lequel était un homme».
+
+»Ce peu de mots éveilla l'attention de l'étranger; et il fit une
+multitude de questions pour savoir la route qu'avait tenue le démon
+(c'est ainsi qu'il l'appelait). Bientôt après, lorsqu'il fut seul avec
+moi, il me dit: «J'ai, sans doute, excité votre curiosité, aussi bien
+que celle de ces braves gens; mais vous êtes trop délicat pour me
+faire des questions.
+
+»--Certainement; il serait très-indiscret et très-inhumain de ma part
+de vous faire de la peine pour satisfaire ma curiosité personnelle.
+
+»--Et cependant vous ni avez tiré d'une position étrange et
+dangereuse; vous m'avez généreusement rendu à la vie».
+
+»Ensuite il me demanda si je croyais que la rupture de la glace eût
+anéanti l'autre traîneau. Je lui dis que je ne saurais répondre avec
+certitude; car la glace ne s'était guère brisée avant minuit, et le
+voyageur pouvait être arrivé ayant ce temps en lieu de sûreté; mais
+que je n'en pouvais juger.
+
+»Depuis ce temps, l'étranger paraissait très-empressé à être sur
+le pont, pour épier le traîneau qu'on avait vu auparavant; mais je
+l'ai engagé à rester dans la chambre, car il est beaucoup trop faible
+pour soutenir la rigueur de l'atmosphère. J'ai promis que l'on
+observerait pour lui, et qu'il serait averti sur-le-champ, si quelque
+nouvel objet s'offrait à la vue.
+
+»Voilà mon journal jusqu'aujourd'hui, sur ce qui a rapport à notre
+étrange rencontre. L'étranger a insensiblement recouvré la santé,
+mais il est très-silencieux, et parait embarrassé lorsqu'un autre que
+moi entre dans sa chambre. Cependant, ses manières sont si engageantes
+et si douces, que les matelots s'intéressent tous à son sort,
+quoiqu'ils aient eu très-peu de communication avec lui. Pour moi, je
+commence à l'aimer comme un frère; et son chagrin profond et continuel
+m'attire vers lui, et m'inspire de la compassion. Il faut qu'il ait
+été un homme bien remarquable dans des jours plus heureux pour lui,
+puisque dans le malheur il est encore si attrayant et si aimable.
+
+»Je disais dans une de mes lettres, ma chère Marguerite, que je ne
+trouverais pas d'amis sur le vaste Océan, et pourtant j'ai trouvé un
+homme que mon cœur aurait été heureux d'aimer comme un frère, avant
+que son âme eut été brisée par le malheur.
+
+»Je continuerai de temps en temps mon journal sur cet étranger, si
+j'ai quelque chose de nouveau à vous apprendre».
+
+
+
+
+13 août 17--
+
+
+«Mon affection pour mon hôte augmente de jour en jour. Il excite du
+moins mon admiration et ma pitié d'une manière étonnante. Comment
+pourrai-je voir un être aussi noble abîmé par le malheur, sans
+éprouver la plus vive douleur? Il est si doux et si sage à la fois;
+son esprit est si cultivé; et lorsqu'il parle, ses paroles, quoique
+choisies avec l'art le plus délicat, coulent avec une rapidité et une
+éloquence incomparables.
+
+»Il est maintenant très-bien rétabli, et il se tient continuellement
+sur le pont, pour épier sans doute le traîneau qui a précédé le
+sien. Cependant, quelque malheureux qu'il soit, il n'est pas si
+entièrement occupé de sa propre infortune, qu'il ne s'intéresse
+vivement aux occupations des autres. Il m'a fait beaucoup de questions
+sur mon projet, et je lui ai raconté franchement ma petite histoire. Il
+a paru charmé de la confidence et a fait sur mon plan plusieurs
+observations dont je pourrai faire mon profit. Il n'y a pas de
+pédanterie dans ses manières, et tout ce qu'il fait semble ne provenir
+que de l'intérêt qu'il prend naturellement au bien-être de ceux qui
+l'entourent. Il est souvent abattu par le chagrin, et alors il s'observe
+beaucoup, et cherche à chasser tout ce qu'il y a de sombre ou
+d'insociable dans son humeur. Ces paroxysmes fuient devant lui comme un
+nuage devant le soleil, quoique sa tristesse ne l'abandonne jamais. J'ai
+tâché de gagner sa confiance, et je crois y avoir réussi. Je lui
+parlais un jour du désir que j'avais de trouver un ami qui pût
+sympathiser avec moi et me diriger de ses conseils. Je lui dis que je
+n'appartenais pas à cette classe d'hommes qui s'offensent d'un avis.
+«Je n'ai reçu qu'une demi-éducation, et je ne puis avoir assez de
+confiance en mes propres moyens. Je désire donc que mon compagnon soit
+plus sage et plus expérimenté que moi, afin de m'affermir et de me
+soutenir; je n'ai pas cru qu'il fût impossible de trouver un véritable
+ami».
+
+«Je conviens avec vous, répliqua l'étranger, que l'amitié est
+non-seulement un bien désirable, mais possible. J'eus autrefois un ami,
+dont l'âme était la plus noble qui fut sous le ciel: il m'est donc
+permis de juger de la véritable amitié. Vous avez l'espérance et le
+monde devant vous: ne désespérez de rien. Mais moi.... j'ai tout
+perdu, et je ne puis recommencer une nouvelle vie».
+
+»En disant ces paroles, sa figure prit l'expression d'un chagrin calme
+et profond, qui me toucha le cœur. Il se tut et se retira bientôt dans
+sa chambre.
+
+»Malgré l'abattement de son esprit, personne ne peut jouir plus
+vivement que lui des beautés de la nature. Un ciel étoilé, la mer et
+toutes les vues que présentent ces régions étonnantes semblent encore
+avoir le pouvoir d'élever son âme au-dessus de la terre. Un tel homme
+a une double existence: il peut supporter le malheur et être accablé
+par les revers; quand il est rentré en lui-même, on dirait d'un esprit
+céleste, entouré d'un nuage au travers duquel le chagrin ou la folie
+ne peuvent pénétrer.
+
+»Si vous riez de l'enthousiasme avec lequel je m'exprime sur cet
+aventurier extraordinaire, vous devez avoir certainement perdu de cette
+simplicité qui était autrefois votre charme caractéristique.
+Cependant, si vous le voulez, souriez de la chaleur de mes expressions,
+tandis que j'ai tous les jours de nouveaux sujets de les répéter».
+
+
+
+
+19 août 17--
+
+
+«L'étranger me dit hier: «Vous pouvez voir facilement, capitaine
+Walton, que j'ai éprouvé de grands et incomparables malheurs. J'étais
+décidé d'abord à ensevelir avec moi le souvenir de ces maux, mais
+vous avez changé ma résolution. Vous cherchez les connaissances et la
+sagesse; moi aussi j'ai cherché ces biens. J'espère avec ardeur que
+l'accomplissement de vos vœux ne deviendra pas pour vous, comme pour
+moi, une cause de douleur. Je ne sais si l'histoire de mes infortunes
+vous sera utile; mais si vous le désirez, je vous en ferai le récit.
+Je crois que les événements étranges qui se lient à ma destinée,
+vous feront envisager la nature sous un point de vue capable d'agrandir
+vos facultés et votre intelligence. Vous entendrez parler de puissances
+et d'aventures que vous êtes habitué à croire impossibles. Mais je ne
+doute pas que mon histoire ne porte avec elle l'évidence de la vérité
+des événements qui la composent».
+
+»Vous devez concevoir facilement que je fus enchanté d'une offre de ce
+genre. Cependant je craignais qu'il ne renouvelât sa douleur par le
+récit de ses infortunes. Je sentis le plus vif empressement d'entendre
+l'histoire qu'il m'avait promise, tant pour satisfaire ma curiosité,
+que par un grand désir d'améliorer son sort, s'il était en mon
+pouvoir. Je lui exprimai ces sentiments dans ma réponse.
+
+»Je vous remercie, répliqua-t-il, de votre bonne volonté, mais elle
+est inutile; ma destinée est presque accomplie. Je n'attends plus
+qu'une chose, et alors je reposerai en paix. Je vous comprends,
+continua-t-il, en s'apercevant que je voulais l'interrompre; mais vous
+vous trompez, mon ami, si vous me permettez de vous appeler ainsi; rien
+ne peut changer ma destinée: écoutez mon histoire, et vous verrez
+qu'elle est irrévocablement fixée».
+
+»Il me dit alors qu'il commencerait le lendemain son récit, lorsque
+j'en aurais le temps. Cette promesse me fit faire de profondes
+réflexions, et j'ai résolu de consacrer mes loisirs du soir à écrire
+ce qu'il m'aura raconté pendant le jour, en rapportant autant que
+possible, ses propres expressions. Si je n'en ai pas le temps, je
+prendrai du moins des notes. Ce manuscrit vous fera sans doute le plus
+grand plaisir: mais pour moi, qui le connais, et qui apprendrai cela de
+sa bouche, avec quel intérêt et quelle émotion je le relirai un
+jour»!
+
+
+
+
+CHAPITRE Ier
+
+
+Je suis né à Genève, et ma famille est une des plus considérables de
+cette république. Mes ancêtres avaient été, depuis bon nombre
+d'années, conseillers et syndics; et mon père avait rempli des
+fonctions publiques avec honneur et distinction. Il était respecté de
+tous ceux qui le connaissaient, à cause de son intégrité, et de son
+application infatigable à veiller aux intérêts de l'État. Il passa
+les années de sa jeunesse continuellement occupé des affaires de son
+pays, et il n'attendit pas le déclin de sa vie pour penser à se
+marier, et à laisser à l'État des fils qui pussent transmettre à la
+postérité ses vertus et son nom.
+
+Comme les circonstances de son mariage font honneur à son caractère,
+je ne puis m'empêcher de les rapporter. Il comptait parmi ses plus
+intimes amis un négociant qui, d'un état brillant, tomba dans la
+pauvreté, après toutes sortes de malheurs. Cet homme, qui se nommait
+Beaufort, était d'un caractère orgueilleux et facile à se
+décourager. Il ne put soutenir l'idée de vivre pauvre et oublié dans
+le même pays où il avait brillé par son rang et sa magnificence.
+Ayant donc payé ses dettes de la manière la plus honorable, il se
+retira avec sa fille dans la ville de Lucerne, où il vécut inconnu et
+malheureux. Mon père aimait Beaufort de l'amitié la plus vraie; et il
+fut profondément affligé d'une retraite à laquelle des circonstances
+malheureuses avaient donné lieu, et qui le privait d'une société qui
+lui était chère. Il résolut d'aller le chercher et de l'engager à
+recommencer le commerce, en profitant de son crédit et de son
+assistance.
+
+Beaufort avait pris toutes les mesures pour se cacher, et ce ne fut que
+dix mois après que mon père découvrit sa demeure. Charmé de cette
+découverte, il se rend à sa maison, qui était située dans une petite
+rue près le Reuss; mais lorsqu'il entra, il eut sous les yeux le
+spectacle de la misère et du désespoir. Beaufort avait sauvé des
+restes de sa fortune, une très-petite somme d'argent, mais qui était
+suffisante pour le soutenir pendant quelques mois; il espérait alors
+obtenir un emploi respectable dans la maison d'un négociant. En
+attendant, il n'avait pas d'occupation; et, se livrant, dans son loisir,
+aux plus tristes pensées, il fut en proie au chagrin le plus profond et
+le plus cruel, et tellement accablé d'esprit, que trois mois après, il
+fut sur un lit de douleur, incapable d'aucun mouvement. Sa fille le
+soignait avec la tendresse la plus touchante; mais elle voyait avec
+douleur que leur petite somme diminuait rapidement, et qu'ils n'avaient
+plus d'autre ressource. Caroline Beaufort avait une âme d'une trempe
+peu commune, et elle s'arma de courage pour se soutenir dans son
+adversité. Elle se procura une occupation honnête, tressa de la
+paille, et, par différents moyens, tâcha de gagner de quoi subvenir
+aux premiers besoins de la vie.
+
+Plusieurs mois se passèrent ainsi. Son père devint plus mal; son temps
+était plus occupé à le soigner; ses moyens de subsistance
+diminuaient; et, en dix mois, son père mourut dans ses bras, la
+laissant orpheline et sans ressources. Ce dernier coup l'accabla; et
+elle était à genoux devant le cercueil de Beaufort, pleurant à
+chaudes larmes, lorsque mon père entra dans la chambre. Il arriva comme
+un ange protecteur pour cette pauvre jeune fille, qui se confia à ses
+soins; après l'enterrement de son ami, il la conduisit à Genève et la
+confia à une de ses parentes. Deux ans après cet événement, Caroline
+devint sa femme.
+
+Lorsque mon père fut devenu époux et père, il se trouva tellement
+occupé par les devoirs de sa nouvelle position, qu'il abandonna
+plusieurs de ses fonctions publiques pour se vouer à l'éducation de
+ses enfants. J'étais l'aîné, et je devais lui succéder dans tous ses
+travaux et dans ses fonctions. Personne n'eut de plus tendres parents
+que les miens. Mon éducation et ma santé étaient l'objet de leur
+sollicitude continuelle, et d'une sollicitude d'autant plus vive, que
+pendant plusieurs années je fus leur unique enfant. Mais, avant de
+continuer mon récit, je dois rapporter un événement qui eut lieu
+lorsque j'étais âgé de quatre ans.
+
+Mon père avait une sœur qu'il aimait tendrement, et qui avait
+épousé, très-jeune, un gentilhomme Italien. Peu de temps après son
+mariage, elle avait accompagné son mari dans son pays; et, depuis
+quelques années, mon père n'avait eu que très-peu de rapport avec
+elle. Elle mourut vers l'époque dont j'ai parlé; et, peu de mois
+après, il reçut une lettre de son mari. Celui-ci lui faisait part de
+son intention d'épouser une Italienne, et priait mon père de se
+charger de sa fille Élisabeth, seul enfant qu'il eut eu de sa sœur.
+«Je désire, dit-il, que vous la considériez comme votre propre fille
+et que vous l'éleviez de même. La fortune de sa mère lui est
+assurée, et je vous en remettrai les titres. Réfléchissez à cette
+proposition, et choisissez si vous voulez que votre nièce soit élevée
+par vous-même ou par une belle-mère».
+
+Mon père n'hésita pas, et alla aussitôt en Italie pour accompagner la
+petite Élisabeth dans sa nouvelle demeure. J'ai souvent entendu dire à
+ma mère, qu'elle était alors le plus bel enfant qu'elle eut jamais vu,
+et qu'elle montrait même un caractère doux et aimant. Ces
+dispositions, et le désir de resserrer aussi étroitement que possible
+les nœuds de l'amour domestique, déterminèrent ma mère à regarder
+Élisabeth comme ma femme future, projet dont elle n'eut jamais à se
+repentir.
+
+Dès-lors Élisabeth Lavenza devint ma compagne de jeu; et lorsque nous
+avançâmes en âge, elle fut mon amie. Elle était douée d'un
+excellent naturel, aussi gaie et aussi folâtre qu'un papillon.
+Quoiqu'elle fut vive et animée, ses sensations étaient fortes et
+profondes; son caractère prodigieusement aimant. Personne ne savait
+mieux qu'elle jouir de sa liberté, personne aussi ne se soumettait avec
+plus de grâce à la nécessité et au caprice. Son imagination était
+brillante quoiqu'elle fût capable d'une grande application. Ses traits
+étaient l'image de son âme; ses yeux bruns, quoiqu'aussi vifs que ceux
+d'un oiseau, avaient une douceur attrayante; sa figure était vive et
+animée. Capable de supporter une grande fatigue, elle avait l'air de la
+femme la plus délicate du monde. Plein d'admiration pour son
+intelligence et son esprit, j'aimais à la suivre, comme j'aurais pu le
+faire pour un animal favori; et je n'ai jamais vu tant de charmes dans
+la personne et dans l'esprit unis à si peu de prétention.
+
+Tout le monde adorait Élisabeth. Si les domestiques avaient quelque
+chose à solliciter, c'était toujours par son intercession. Nous
+étions étrangers à toute espèce de désunion et de dispute; il
+existait, il est vrai, une grande différence dans nos caractères, mais
+il y avait même de l'harmonie dans cette opposition. J'étais plus
+calme et plus réfléchi que ma compagne; cependant mon caractère
+n'était pas aussi doux. Mon application durait plus long-temps; mais
+elle était moins opiniâtre pendant sa durée. J'aimais à rechercher
+les faits qui ont rapport au monde physique; elle se plaisait à suivre
+les inspirations hardies des poètes. Le monde était pour moi un secret
+que je désirais pénétrer; pour elle, c'était un vide qu'elle
+cherchait à peupler d'êtres de sa propre imagination.
+
+Mes frères étaient bien plus jeunes que moi; mais j'avais dans un de
+mes condisciples un ami dont l'âge répondait au mien. Henry Clerval
+était fils d'un négociant de Genève, intime ami de mon père.
+C'était un enfant d'un talent et d'une imagination extraordinaires. Je
+me souviens, qu'à l'âge de neuf ans, il composa un conte de fées, qui
+faisait les délices et l'étonnement de tous ses camarades. Son étude
+favorite était celle des romans et des livres de chevalerie; et,
+lorsque nous étions fort jeunes, je me rappelle que nous jouions des
+pièces qu'il composait lui-même d'après ses livres, dont les
+principaux personnages étaient Roland, Robin Hood, Amadis, et
+Saint-George.
+
+Personne n'a pu passer une jeunesse plus heureuse que la mienne. Mes
+parents étaient indulgents et mes camarades aimables. Nos études
+n'étaient jamais forcées; et, par quelques moyens, nous avions
+toujours devant nous un but qui nous excitait à les poursuivre avec
+ardeur. Ce fut de cette manière, et non par l'émulation, que nous
+prîmes goût au travail. Ce n'était pas la crainte d'être surpassée
+par ses compagnes, qui excitait Élisabeth à s'appliquer au dessin;
+mais le désir qu'elle avait de plaire à sa tante, en lui mettant sous
+les yeux quelque joli paysage qu'elle avait fait elle-même. Nous
+apprîmes le latin et l'anglais, afin de pouvoir lire les auteurs de ces
+deux langues; et, au lieu de nous rendre l'étude odieuse par les
+punitions, nous ne cessions d'aimer l'application; nos distractions
+eussent été des travaux pour d'autres enfants. Peut-être n'avons nous
+pas lu autant de livres, ou n'avons nous pas appris les langues aussi
+promptement que ceux qui sont enseignés d'après les méthodes
+ordinaires; mais ce que nous avons appris nous est resté plus
+profondément gravé dans la mémoire.
+
+Je place Henri Clerval dans la description de notre cercle domestique,
+car il était constamment avec nous. Il allait à l'école avec moi, et
+passait chez nous presque tous les après-midi; son père qui n'avait
+que ce fils, était bien aise qu'il trouvât dans notre maison les
+camarades qu'il ne pouvait lui donner chez lui; aussi nous n'étions
+jamais tout-à-fait heureux lorsque Clerval était absent.
+
+J'ai du plaisir à m'arrêter sur les souvenirs de mon enfance, avant
+que le malheur n'eût atteint mon esprit et changé ses idées
+lumineuses sur l'utilité générale en des réflexions sur moi-même,
+profondes et rétrécies. Mais, en traçant le tableau de mes jeunes
+années, je ne dois pas omettre ces événements qui me conduisirent
+insensiblement au dernier degré du malheur: car, lorsque je me rends
+compte de la naissance de cette passion qui régla ensuite ma destinée,
+je la vois sortir de sources impures et presqu'oubliées, comme un
+fleuve qui sort des flancs d'une montagne; mais, en croissant
+insensiblement, elle est devenue le torrent, qui, dans sa course, a
+détruit toutes mes espérances et mon bonheur.
+
+La philosophie naturelle est le génie qui a réglé ma destinée; je
+désire donc, dans ce récit, établir les faits qui m'ont inspiré une
+prédilection pour cette science. J'avais treize ans, lorsque nous
+fîmes tous une partie de plaisir, aux bains près de Thonon: le mauvais
+temps nous obligea de rester toute une journée renfermés dans
+l'auberge, et le hasard fit tomber entre mes mains, dans cette maison,
+un volume des œuvres de Cornelius Agrippa. Je l'ouvris avec
+indifférence; la théorie qu'il cherche à démontrer et les faits
+étonnants qu'il rapporte, changèrent bientôt ce sentiment en
+enthousiasme. Une nouvelle lumière sembla éclairer mon esprit; je
+bondis de joie, et fis part de ma découverte à mon père. Je ne puis
+m'empêcher de faire remarquer ici les nombreuses occasions qu'ont les
+instituteurs, pour diriger les idées de leurs élèves vers des
+connaissances utiles, et qu'ils négligent entièrement. Mon père
+regarda avec indifférence le titre de mon livre, et dit: «Ah!
+Cornélius Agrippa! Mon cher Victor, ne perdez pas voire temps
+là-dessus, c'est une triste occupation».
+
+Si, au lieu de cette remarque, mon père eût pris la peine de
+m'expliquer que les principes d'Agrippa avaient été tout-à-fait
+rejetés, et qu'on avait introduit un nouveau système de science, basé
+sur des raisonnements plus puissants que l'ancien, parce que ceux-ci
+étaient chimériques, tandis que les autres étaient réels et mis en
+usage; oh! alors, j'aurais certainement jeté Agrippa de côté, et,
+avec une imagination échauffée comme la mienne, je me serais
+probablement appliqué à la théorie d'alchimie, la plus raisonnable
+qui soit résulté des découvertes modernes. Il est même possible que
+le cours de mes idées n'eussent jamais reçu la funeste impulsion qui
+m'a conduit à ma perte. Mais le mépris vague que mon père avait
+montré pour mon livre, ne me prouvait nullement qu'il connût ce qu'il
+contenait, et je continuai de le lire avec la plus grande avidité.
+
+Lorsque je fus de retour à la maison, mon premier soin fut de me
+procurer tous les ouvrages de cet auteur, et ensuite ceux de Paracelse
+et du Grand Albert. Je lus et j'étudiai avec délices les rêves
+ténébreux de ces écrivains; ils me parurent des trésors connus à
+peu d'autres personnes que moi; et, quoique je désirasse souvent faire
+connaître à mon père ces secrètes profondeurs de la science,
+j'étais toujours retenu par la critique indéterminée qu'il avait
+faite de mon auteur favori. J'appris ma découverte à Élisabeth, sous
+le sceau du secret le plus strict; mais elle ne prenait pas d'intérêt
+à mon travail, et elle me laissait poursuivre seul mes études.
+
+Il peut sembler très-étrange de voir dans le 18e siècle un disciple
+du Grand Albert; mais notre famille n'était pas scientifique, et je
+n'avais pas suivi les lectures recommandées aux écoles de Genève. Mes
+rêves n'étaient donc pas troublés par la réalité; et je me livrai
+avec ardeur à la recherche de la pierre philosophale et de l'élixir de
+vie. Ce dernier objet obtint toute mon application: je le préférai à
+la richesse; et quelle gloire suivrait ma découverte, si je
+réussissais à chasser la maladie du corps humain, et à ne rendre
+l'homme accessible qu'à une mort violente!
+
+Mes idées ne se bornèrent pas là. L'apparition des esprits et des
+démons était généreusement promise par mes auteurs favoris: je
+cherchais avec ardeur l'accomplissement de cette promesse; et, si mes
+enchantements restaient toujours sans succès, j'en attribuais la faute
+plutôt à mon inexpérience et à mon ignorance, qu'à un défaut
+d'habilité ou de bonne foi dans mes maîtres.
+
+Les phénomènes de la nature qui s'offrent tous les jours à nos yeux,
+n'échappèrent pas à mes recherches. La circulation et les effets
+surprenants de la respiration, dont mes autorités ignoraient
+entièrement la cause, excitèrent mon étonnement; mais, ce qui
+m'étonna le plus, ce furent quelques expériences d'une pompe d'air,
+que je vis employée par une personne que nous avions l'habitude devoir.
+
+L'ignorance des anciens philosophes sur ces points et sur d'autres,
+servit à leur faire perdre leur crédit auprès de moi; mais je ne
+pouvais les quitter entièrement, avant qu'un autre système ne les eût
+remplacés dans mon esprit.
+
+À l'âge d'environ dix-sept ans, nous nous trouvions dans notre maison,
+auprès de Belrive, quand vint à éclater l'orage le plus violent et le
+plus terrible. Il s'avançait de l'autre côté des montagnes du Jura,
+et s'annonçait par les éclats du tonnerre qui retentissait de
+plusieurs côtés à la fois avec un fracas effrayant. Je restai, tant
+que l'orage dura, à observer ses progrès avec curiosité et plaisir.
+Pendant que je me tenais à la porte, je vis tout à coup une traînée
+de feu sortir d'un chêne antique et élevé, qui était à peu près à
+vingt pas de notre maison; et à peine la lumière cessa de briller, que
+le chêne disparut, et il ne restait plus qu'un tronc en ruines. Le
+lendemain matin nous allâmes le voir; l'arbre avait été
+singulièrement brisé. Il n'était pas fendu par le choc, mais
+entièrement réduit en petits éclats de bois. Je n'ai jamais rien vu
+qui fût si complètement détruit.
+
+La ruine de cet arbre fut pour moi l'objet d'un vif étonnement; je
+questionnai avec empressement mon père sur la nature et l'origine du
+tonnerre et des éclairs. «L'électricité», répondit-il, en
+décrivant en même temps les différents effets de cette force. Il
+construisit une petite machine électrique, et me fit quelques
+expériences; il fit aussi un cerf-volant, avec des cordes et un fil de
+métal, qui attirait des nuages le fluide électrique.
+
+Ce dernier trait acheva de renverser Cornelius Agrippa, le Grand Albert
+et Paracelse, qui avaient si long-temps régné en maîtres dans mon
+imagination. Mais, par quelque fatalité, je ne me sentis pas porté à
+commencer l'étude d'un système moderne, et ce dégoût eut pour cause
+la circonstance suivante.
+
+Mon père avait témoigné le désir que je suivisse un cours de leçons
+sur la philosophie naturelle, et j'y avais consenti avec plaisir. Un
+accident m'empêcha de suivre ces leçons jusqu'à la fin, et la
+dernière que je pris était tout-à-fait inintelligible pour moi. Le
+professeur discourait avec la plus grande abondance sur le Potassium et
+le Boron, les sulfates et les oxides, termes auxquels je ne pouvais
+appliquer d'idée. Je pris en dégoût la science de la philosophie
+naturelle, quoique je lusse encore avec plaisir Pline et Buffon, auteurs
+qui, suivant moi, étaient d'un intérêt et d'une utilité à peu près
+semblables.
+
+Mes occupations, à cette époque, étaient principalement les
+mathématiques, et la plupart des branches d'étude qui appartiennent à
+cette science. Je m'occupais aussi beaucoup à apprendre les langues; le
+Latin m'était déjà familier, et je commençais à lire quelques-uns
+des auteurs Grecs les plus faciles sans le secours d'un Lexicon. Je
+comprenais parfaitement aussi l'Anglais et l'Allemand. Voilà la
+nomenclature de ce que je savais à l'âge de dix-sept ans; et vous
+devez penser que mes moments étaient entièrement occupés pour
+acquérir et conserver la connaissance de ces différentes
+littératures.
+
+J'eus aussi une autre tâche à remplir; je devins l'instituteur de mes
+frères. Ernest était de six ans plus jeune que moi et mon principal
+élève. Il avait eu une mauvaise santé dans son enfance, pendant
+laquelle Élisabeth et moi nous avions eu pour lui des soins assidus.
+Son caractère était doux, mais il était incapable de toute
+application sérieuse. Guillaume, le plus jeune de la famille, était
+encore enfant, et c'était le plus beau petit drôle du monde; ses yeux
+bleus et vifs, ses joues ornées de deux fossettes, et ses manières
+caressantes inspiraient la plus tendre affection.
+
+Tel était notre cercle domestique, dont les soucis et les chagrins
+semblaient bannis pour toujours. Mon père dirigeait nos études, et ma
+mère partageait nos plaisirs. Aucun de nous n'avait la plus légère
+supériorité sur l'autre, nous ne connaissions pas la voix du
+commandement; mais une affection mutuelle nous portait à condescendre
+et à obéir au moindre désir de chacun.
+
+
+
+
+CHAPITRE II
+
+
+Je venais d'atteindre ma dix-septième année, quand mes parents prirent
+la résolution de m'envoyer étudier à l'université d'Ingolstadt.
+J'avais d'abord suivi les écoles de Genève; mais mon père pensa qu'il
+était nécessaire, pour le complément de mon éducation, de me faire
+connaître d'autres usages que ceux de mon pays natal. Mon départ fut
+donc prochainement fixé; et, avant que le jour marqué ne fût venu,
+j'éprouvai le premier malheur de ma vie..... présage de ceux qui
+m'attendaient.
+
+Élisabeth avait eu la fièvre rouge, mais sans aucun symptôme de
+danger. Elle ne tarda pas à recouvrer la santé. Pendant le temps de la
+maladie, on avait tout fait pour persuader à ma mère de ne pas la
+voir. Elle s'était d'abord rendue à nos supplications; mais,
+lorsqu'elle apprit que sa chère nièce se rétablissait, elle ne put se
+priver davantage de sa société, et entra dans sa chambre long-temps
+avant que l'air ne fut sans danger. Les conséquences de cette
+imprudence furent funestes. Le troisième jour, ma mère tomba malade;
+sa fièvre prit un caractère de malignité, et nous vîmes sur le
+visage de ceux qui la soignaient l'augure du plus triste événement. Au
+lit de la mort, le courage et la bonté de cette femme admirable ne
+l'abandonnèrent pas. Elle joignit les mains d'Élisabeth et les
+miennes: «Mes enfants, dit-elle, j'envisageais dans votre union le plus
+ferme espoir de mon bonheur futur. Cette perspective sera maintenant la
+consolation de votre père. Élisabeth, mon amie, vous me remplacerez
+auprès de vos plus jeunes cousins. Hélas! je regrette d'être
+séparée de vous; heureuse et aimée comme je l'étais, comment
+n'aurais-je pas quelque peine de vous quitter tous? Mais ces pensées ne
+me conviennent point; je lâcherai de me résigner à la mort, et
+j'espère que nous nous reverrons dans un autre monde».
+
+Elle mourut avec calme, et en conservant sur son visage inanimé
+l'expression de la tendresse. Je n'ai pas besoin de vous décrire les
+sentiments de ceux dont les nœuds les plus chers sont rompus par le
+plus irréparable des maux, le vide qui est dans le cœur et la douleur
+qui est empreinte sur les figures. Il faut tant de temps pour que
+l'esprit puisse se persuader que celle que nous voyions tous les jours
+et dont existence même semblait liée à la nôtre, est perdue à
+jamais...; que l'éclat enchanteur de ses yeux est éteint; et que le
+son d'une voix si familière et si chère à l'oreille, est étouffé
+pour n'être plus entendu. Telles sont les réflexions auxquelles on se
+livre les premiers jours; mais lorsque le laps du temps a prouvé la
+réalité du mal, la douleur commence à se faire sentir plus vivement.
+Et à qui la main terrible de la mort n'a-t-elle pas enlevé
+quelqu'affection bien chère? Pourquoi vous peindre un chagrin que tout
+le monde a éprouvé ou doit éprouver? Le temps arrive enfin, où la
+douleur est plutôt une consolation qu'un mal; et le sourire n'est pas
+banni de nos lèvres, quoiqu'il paraisse un sacrilège. Ma mère
+n'était plus, mais nous avions encore des devoirs à remplir; car nous
+devons continuer notre vie dans le calme, et nous trouver heureux, tant
+qu'il nous reste un être sur qui la faulx de la mort ne s'est pas encore
+appesantie.
+
+Mon voyage à Ingolstadt, qui avait été différé par ces
+évènements, fut décidé de nouveau. J'obtins de mon père un délai
+de quelques semaines. Ce temps se passa fort tristement. La mort de ma
+mère et mon prompt départ accablaient nos esprits; mais Élisabeth
+cherchait à ramener la gaîté dans notre petite société. Depuis la
+mort de sa tante, son esprit avait acquis une nouvelle fermeté et une
+nouvelle force. Elle se détermina à remplir ses devoirs avec la plus
+grande exactitude, et elle sentit que le devoir le plus impérieux qui
+lui était imposé, était de rendre heureux son oncle et ses cousins.
+Elle me consolait, amusait son oncle, instruisait mes frères; jamais
+elle ne me parut aussi charmante qu'à cette époque, où elle
+s'efforçait continuellement de contribuer au bonheur des autres, en
+s'oubliant entièrement elle-même.
+
+Le jour de mon départ arriva enfin. J'avais pris congé de tous mes
+amis, excepté de Clerval, qui passa avec nous la dernière soirée. Il
+s'affligeait amèrement de ne pouvoir m'accompagner: mais il était
+retenu chez son père, dont l'intention était de l'associer dans ses
+affaires, et dont le grand principe était que la science est inutile
+dans le commerce ordinaire de la vie. Henry avait un esprit plus
+élevé: il n'avait, nullement le désir de ne rien faire, et s'il
+était bien aise de devenir l'associé de son père, il pensait aussi
+qu'on pouvait être un fort bon négociant, et en même temps avoir un
+esprit cultivé.
+
+Nous restâmes très-tard à écouter ses plaintes et à faire plusieurs
+petits arrangements pour l'avenir. Je partis le lendemain matin de bonne
+heure. Des pleurs coulaient des yeux d'Élisabeth; elle ne pouvait les
+retenir en songeant que mon départ la laissait dans le chagrin, et que
+le même voyage avait été fixé trois mois auparavant, lorsque la
+bénédiction d'une mère m'aurait accompagné.
+
+Je me jetai dans la chaise qui devait m'emmener, et me livrai aux
+réflexions les plus mélancoliques. J'étais seul maintenant, moi, qui
+avais été toujours entouré d'aimables compagnons, dont l'unique soin
+était d'être agréables l'un à l'autre. Dans l'université vers
+laquelle je me rendais, il fallait me faire mes amis et être moi-même
+mon protecteur. Jusqu'ici, ma vie avait été tout-à-fait domestique et
+retirée; j'en gardai une répugnance invincible pour les nouveaux
+visages. J'aimais mes frères, Élisabeth et Clerval; c'étaient pour
+moi _d'anciennes figures qui m'étaient familières_; mais je ne me
+croyais nullement fait pour la société des étrangers. Telles étaient
+mes réflexions lorsque je commençai mon voyage; mais à mesure que
+j'avançais, mon courage et mes espérances se relevaient. J'avais un
+vif désir d'apprendre. Souvent, chez mon père, j'avais trouvé
+pénible de passer ma jeunesse, attaché à la même place; j'aurais
+voulu entrer dans le monde, et prendre ma place parmi les autres hommes.
+À présent que mes désirs étaient accomplis, c'eût été une folie
+de m'en repentir.
+
+J'eus tout le temps de me livrer à ces réflexions et à bien d'autres
+pendant mon voyage à Ingolstadt, qui fut long et fatigant. Enfin,
+j'aperçus les clochers blancs et élevés de la ville. Je descendis de
+voiture, et je fus conduit dans mon appartement solitaire pour passer la
+soirée comme il me plairait.
+
+Le lendemain matin, je remis mes lettres d'introduction; je ne manquai
+pas de rendre visite à quelques-uns des principaux professeurs, et
+entr'autres à M. Krempe, professeur de philosophie naturelle. Il me
+reçut avec politesse, et me fit plusieurs questions sur mes progrès
+dans les différentes branches de science qui appartiennent à la
+philosophie naturelle. Je lui nommai, non sans crainte et sans
+hésitation les seuls auteurs que j'eusse jamais lus sur ce sujet. Le
+professeur me regarda fixement: «Avez-vous, dit-il, réellement perdu
+votre temps à étudier de pareilles absurdités»?
+
+--«Je vous ai dit la vérité», répondis-je.--«Chaque minute
+continua M. Krempe avec chaleur, chaque moment que vous avez passé sur
+ces livres est tout-à-fait et complètement perdu. Vous avez chargé
+votre mémoire de systèmes repoussés et de noms inutiles. Grand Dieu!
+Dans quel désert avez-vous habité, puisque personne n'a été assez
+bon pour vous apprendre que ces rêves, dont vous vous êtes pénétré
+avidement, sont enfantés depuis mille ans, et sont aussi méprisés
+qu'ils sont anciens? Je ne m'attendais guère à trouver dans ce siècle
+éclairé et savant, un disciple du Grand Albert et de Paracelse. Mon
+cher monsieur, il faut recommencer entièrement vos études».
+
+Après avoir ainsi parlé, il se mit à l'écart, et écrivit une liste
+de plusieurs livres qui traitaient de la philosophie naturelle. Il
+m'invita à les acheter; et il prit congé de moi, en me prévenant
+qu'au commencement de la semaine suivante, il ouvrirait un cours sur la
+philosophie naturelle dans ses rapports généraux, et que M. Waldman,
+son collègue, en ferait un sur l'alchimie, alternativement avec le
+sien.
+
+Je retournai chez moi sans être désappointé, car il y avait longtemps
+que je regardais comme passés de mode, les auteurs que le professeur
+avait réprouvés avec tant de force; mais je ne me sentis pas
+très-porté à étudier les livres dont j'avais fait emplette à sa
+recommandation. M. Krempe était un petit homme ramassé, dont la voix
+était rude, et la figure repoussante; ainsi le maître ne me disposait
+pas, en faveur de la doctrine. Du reste, j'avais du mépris pour les
+usages de la philosophie naturelle du jour. Quelle différence avec les
+maîtres de la science, quand ils cherchaient l'immortalité et le grand
+secret! Leurs vues étaient grandes, quoique futiles. Mais depuis, la
+scène était changée; l'ambition des nouveaux savants semblait se
+borner à détruire ces visions qui me portaient vers la science, avec
+le plus d'intérêt. Il fallait changer des chimères d'une grandeur
+sans bornes, contre de misérables réalités.
+
+Telles furent mes réflexions pendant les deux ou trois premiers jours
+que je passai presque dans la solitude. Mais au commencement de la
+semaine suivante, je pensai à ce que M. Krempe m'avait dit sur les
+cours. Et, quoique je ne pusse consentir à aller entendre ce petit
+pédant débiter des sentences dans une chaire, je me rappelai ce qu'il
+avait dit de M. Waldman, qui avait été absent jusqu'alors, et que je
+n'avais jamais vu.
+
+Soit par curiosité, soit par oisiveté, j'allai dans la salle des
+cours: M. Waldman y entra un instant après. Ce professeur ne
+ressemblait pas à son collègue. Il paraissait avoir environ cinquante
+ans, et portait sur son visage l'expression de la plus grande bonté:
+quelques cheveux gris couvraient ses tempes; des cheveux presque noirs
+garnissaient le derrière de sa tête. Il était petit, mais
+très-droit, et doué du plus doux organe. Il commença son cours par un
+précis de l'histoire de l'alchimie et des différentes découvertes
+dues à plusieurs savants, prononçant avec chaleur les noms de ceux qui
+s'étaient le plus distingués par ces découvertes. Il fit alors un
+tableau rapide de l'état actuel de la science, et expliqua plusieurs
+termes élémentaires. Après avoir fait quelques expériences
+préparatoires, il termina par un panégyrique de l'alchimie moderne, en
+des termes que je n'oublierai jamais.
+
+«Les anciens maîtres en cette science, dit-il, promettaient des choses
+impossibles, et n'accomplissaient rien. Les professeurs modernes
+promettent très-peu: ils savent qu'on ne peut changer les métaux, et
+que l'élixir de vie est une chimère. Mais ces philosophes, dont les
+mains ne semblent faites que pour tremper dans la boue qui semblent
+n'avoir des yeux que pour observer au travers d'un microscope ou dans le
+creuset, ont en effet produit des miracles. Ils pénètrent les secrets
+de la nature, et montrent ses effets dans les endroits les plus cachés.
+Ils pénètrent jusqu'aux cieux; ils ont découvert la circulation du
+sang, et analysé l'air que nous respirons. Ils ont acquis des pouvoirs
+nouveaux et presqu'illimités; ils commandent aux foudres du ciel,
+imitent les tremblements de terre, et bravent même les ombres du monde
+invisible».
+
+Je me retirai enchanté du professeur et de sa leçon; j'allai le soir
+même lui rendre visite. Ses manières chez lui étaient encore plus
+douces et plus attrayantes qu'en public; car, pendant son cours, il y
+avait sur son visage une certaine dignité qui, en particulier, faisait
+place à la plus grande affabilité et à beaucoup de politesse. Il
+écouta avec attention la petite histoire de mes études, et sourit aux
+noms de Cornelius Agrippa et de Paracelse, mais sans le mépris qu'avait
+montré M. Krempe. Il me dit que, «c'était au zèle infatigable de ces
+hommes, que les philosophes modernes étaient redevables de la plupart
+des principes de leur science; qu'ils nous avaient laissé la tâche
+plus facile, de donner les noms, et de classer avec ordre les faits
+qu'ils avaient puissamment contribué à mettre au grand jour. Les
+travaux des hommes de génie, quoiqu'erronés, finissent toujours par
+tourner au profit de l'espèce humaine». J'écoutais son raisonnement,
+qui était prononcé sans orgueil ni affectation; j'ajoutai alors, que
+sa leçon avait dissipé mes préjugés, contre les alchimistes
+modernes; et en même temps, je lui demandai ses conseils sur les livres
+que je devais me procurer.
+
+«Je suis heureux, dit M. Waldman, de m'être fait un élève; et si
+votre application égale votre habileté, je ne doute pas que vous ne
+réussissiez. L'alchimie est la branche de la philosophie naturelle dans
+laquelle on a fait et pourra faire le plus de progrès. Voilà pourquoi
+j'en ai fait mon étude particulière, mais en même temps je n'ai pas
+négligé les autres branches de cette science. On ne serait qu'un bien
+médiocre alchimiste, si l'on ne s'adonnait qu'à cette partie seule des
+connaissances humaines. Si vous avez le désir de devenir vraiment un
+savant, et non simplement un petit faiseur d'expériences, je vous
+engagerai à cultiver toutes les branches de la philosophie naturelle,
+ainsi que les mathématiques».
+
+Il m'introduisit alors dans son laboratoire, et m'expliqua l'usage de
+ses différents instruments; il me montra tous ceux que je devais avoir,
+et me promit de me prêter les siens, lorsque j'aurais assez
+d'expérience pour ne pas en déranger le mécanisme. Il me donna aussi
+la liste des livres que j'avais demandés, et je pris congé de lui.
+
+Ainsi finit cette journée mémorable pour moi; elle décida de mon
+avenir.
+
+
+
+
+CHAPITRE III
+
+
+Depuis ce jour, je me livrai presqu'exclusivement à l'étude de la
+philosophie naturelle, et surtout de l'alchimie, dans le sens le plus
+étendu de ce mot. Je lus avec ardeur les ouvrages qui ont été
+composés sur cette science par les observateurs modernes, et où
+brillent à un haut degré leur génie et leur discernement. Je suivis
+les cours, je fréquentai les savants de l'université; et je reconnus
+même en M. Krempe beaucoup de bon sens et un vrai savoir, joints, il
+est vrai, à une physionomie et à des manières repoussantes, mais qui
+ne diminuaient pas le mérite de ses connaissances. Je trouvai un
+véritable ami dans M. Waldman. Sa douceur n'était jamais altérée par
+un ton tranchant; il donnait ses leçons avec un air de franchise et de
+bonté qui éloignait toute idée de pédanterie. Ce fut, peut-être,
+l'aimable caractère de cet homme qui m'entraîna le plus vers la partie
+de philosophie naturelle qu'il enseignait, qu'un goût intime pour la
+science même. Mais cette disposition d'esprit ne dura que dans les
+premiers moments de mes études: car, plus je pénétrais dans la
+science, et plus je la poursuivais exclusivement pour elle-même. Cette
+application, qui d'abord avait été un devoir et un ordre, devint
+alors si ardente et si vive, que souvent les étoiles avaient disparu
+devant la clarté du matin, que j'étais encore à travailler dans mon
+laboratoire.
+
+Avec une application aussi opiniâtre, il est facile de concevoir que je
+fis de rapides progrès. Mon ardeur faisait l'étonnement des
+étudiants, et mes succès celui des maîtres. Le professeur Krempe me
+demandait souvent, avec un sourire moqueur, comment allait Cornelius
+Agrippa; tandis que M. Waldman se réjouissait hautement de mes
+progrès. Deux ans se passèrent ainsi, sans que j'allasse à Genève;
+j'étais attaché, de cœur et d'âme, à la poursuite de quelques
+découvertes que je désirais faire. Il n'y a que ceux qui en ont fait
+l'épreuve, qui puissent comprendre les attraits de la science. Dans des
+études quelconques on peut atteindre ceux qui nous ont précédés,
+mais on ne peut guère les surpasser; dans l'étude des sciences, au
+contraire, il y a un aliment continuel pour les découvertes, et des
+sujets toujours nouveaux d'étonnement. Un esprit d'une capacité
+ordinaire, qui se renferme strictement, dans une seule étude, doit
+infailliblement y faire de grands progrès; j'avais constamment cherché
+à atteindre l'objet que j'avais en vue; je n'étais uniquement occupé
+que de cet objet; aussi, je me signalai par des progrès si rapides,
+que, deux ans après, je fis plusieurs découvertes pour perfectionner
+quelques instruments d'alchimie, ce qui me valut beaucoup d'estime et de
+considération dans l'université. Parvenu à ce point, et devenu aussi
+habile dans la théorie et dans la pratique de la philosophie naturelle
+qu'il dépendait des professeurs d'Ingolstadt, je jugeai que ma
+résidence dans cette ville n'était plus nécessaire à mes progrès.
+Je pensais à retourner au milieu de mes amis et dans ma ville natale,
+lorsqu'un événement m'obligea de rester.
+
+Un des phénomènes qui avaient particulièrement attiré mon attention,
+était la structure du corps humain, et même de tout être animé. Je
+me demandais même souvent, d'où pouvait procéder le principe de la
+vie. Cette question était hardie: c'était même un mystère aux yeux
+du monde; et, cependant, que de choses nous pourrions apprendre, si la
+lâcheté ou l'insouciance n'arrêtaient pas nos recherches. Ces
+pensées s'agitèrent dans mon esprit, et me déterminèrent à étudier
+désormais plus particulièrement les parties de la philosophie
+naturelle qui ont rapport à la physiologie. Sans un enthousiasme
+presque surnaturel, mon application à cette étude eût été pleine de
+dégoûts, et presque insupportable. Pour examiner les causes de la vie,
+nous devons d'abord avoir recours à la mort. J'appris l'anatomie: mais
+cette science ne suffisait pas; il fallut aussi que j'observasse la
+décomposition naturelle et la corruption du corps humain. En
+m'élevant, mon père avait pris les plus grandes précautions, pour
+qu'on ne remplit pas mon esprit d'horreurs surnaturelles. Je ne me
+souviens pas d'avoir jamais frissonné au récit d'un conte
+superstitieux, ou d'avoir eu peur de l'apparition d'un fantôme.
+L'obscurité ne faisait aucun effet sur mon imagination; et un
+cimetière n'était pour moi que le réceptacle des corps privés de la
+vie, qui, après avoir été le siège de la beauté et de la force,
+étaient devenus la pâture des vers. Je me mis à examiner la cause et
+les progrès de cette décomposition, et je fus forcé de passer des
+jours et des nuits au milieu des tombeaux et dans des charniers. Je
+portais mon attention sur tous les objets les plus désagréables à la
+délicatesse des sensations humaines. J'examinai combien la belle forme
+de l'homme était dégradée et ravagée; je vis la corruption de la
+mort remplacer l'éclat d'un visage animé, et les vers hériter des
+merveilles de l'œil et du cerveau. Je m'arrêtais à observer et à
+analyser toutes les minuties de notre être, dévoilées dans le passage
+de la vie à la mort, lorsque, du milieu de cette obscurité, une
+lumière soudaine vint éclairer mon esprit. Elle était si brillante,
+si merveilleuse, et pourtant si naturelle, que je fus à la fois ébloui
+par l'immense clarté qu'elle répandait, et surpris que, parmi tant
+d'hommes de génie dont les recherches avaient eu pour but la même
+science, je fusse le seul destiné à découvrir cet étonnant secret.
+
+Rappelez-vous que je ne rapporte pas la vision d'un fou: ce que
+j'affirme est aussi vrai que le soleil brille dans les cieux. Que ce
+soit par un miracle, il n'en est pas moins vrai que les progrès de la
+découverte sont distincts et probables. Après des jours et des nuits
+d'un travail et d'une fatigue incroyables, je parvins à connaître la
+cause de la génération et de la vie; je devins même capable d'animer
+une matière inerte.
+
+L'étonnement où me jeta cette découverte, fit bientôt place au
+plaisir et au ravissement. Après avoir consumé tant de temps à des
+travaux pénibles, n'était-ce pas pour moi la récompense la plus
+douce, que d'arriver enfin au terme de mes désirs? Mais cette
+découverte était si grande et si élevée, que tous les degrés par
+lesquels j'y avais été progressivement conduit, furent oubliés: je ne
+vis que le résultat. Ce qui, depuis la création du monde, avait été
+l'objet des études et des désirs des hommes les plus sages, était
+maintenant en mon pouvoir. Tout se présentait à moi comme une scène
+magique. Le résultat que j'avais obtenu, était de nature plutôt à
+diriger mes efforts dès que je les tournerais vers l'objet de mes
+recherches, qu'à me l'offrir sur-le-champ. J'étais comme l'Arabe qui
+avait été enseveli parmi les morts, et qui trouva un passage à la
+vie, guidé seulement par une lueur qui semblait ne devoir pas lui
+prêter ce secours.
+
+Mon ami, je vois, à votre impatience, à l'étonnement et à l'espoir
+qu'expriment vos yeux, que vous vous attendez à ce que je vous
+instruise du secret de ma découverte; cela ne se peut: écoutez
+patiemment la fin de mon histoire, et vous verrez facilement pourquoi je
+me renferme dans le silence. Imprévoyant et ardent comme je l'étais
+alors, je ne vous conduirai pas à votre perte et à un malheur
+infaillible. Apprenez-de moi, sinon par mes préceptes, du moins par mon
+exemple, combien la science est dangereuse. Soyez-en certain: l'homme
+qui croit que sa ville natale est le monde, est plus heureux que celui
+qui aspire à s'élever plus qu'il ne peut prétendre.
+
+Maître d'un pouvoir si étonnant, j'hésitai long-temps sur l'usage que
+j'en ferais. J'avais, il est vrai, la faculté d'animer; mais il restait
+encore un ouvrage d'une difficulté et d'une peine inconcevables,
+c'était de préparer un corps destiné à recevoir la vie, avec toutes
+ses combinaisons de fibres, de muscles et de veines. J'hésitai d'abord,
+si j'essayerais de créer un être semblable à moi-même ou d'une
+organisation plus simple; mais mon imagination était trop exaltée par
+mon premier succès, pour que je misse en doute mon habileté à donner
+la vie à un être aussi compliqué et aussi merveilleux que l'homme.
+Les matériaux, dont je pouvais disposer, me parurent à peine
+suffisants pour une entreprise aussi hardie; mais je ne doutai pas que
+je ne finisse par réussir. Je me préparai à une multitude de revers;
+il était possible que mes opérations fussent sans succès, et enfin
+que mon ouvrage fût imparfait. Cependant, en réfléchissant aux
+progrès qu'on faisait tous les jours dans la science et dans la
+mécanique, je me flattais que mes essais seraient du moins la base d'un
+prochain succès, et je ne pouvais croire que mon plan fût
+impraticable, par cela même qu'il était grand et compliqué. Ce fut
+dans ces dispositions que je commençai à créer un être humain. Comme
+la petitesse des parties formait une grande difficulté, je crus pouvoir
+accélérer mon ouvrage, en prenant la résolution, contraire à mes
+premières intentions, de le faire d'une stature gigantesque,
+c'est-à-dire, d'environ huit pieds de hauteur, et d'une grosseur
+proportionnée. Cette détermination prise, je m'occupai pendant
+plusieurs mois à rassembler et à arranger avec succès mes matériaux:
+enfin, je me mis à l'ouvrage.
+
+On ne saurait imaginer la variété des sentiments qui m'agitaient,
+comme une tempête, dans le premier enthousiasme de mon heureuse
+entreprise. La vie et la mort me parurent des limites idéales; j'allais
+bientôt les franchir; j'allais verser un torrent de lumière sur
+l'obscurité du monde. Une nouvelle génération me bénirait comme son
+créateur et sa source: une foule d'êtres heureux et excellents me
+devraient leur existence. Aucun père ne pourrait réclamer la
+reconnaissance de son enfant, autant que je mériterais la sienne. En
+poursuivant ces réflexions, je pensai que si je pouvais animer une
+matière inerte, je pourrais, avec le temps (quoique je le regardasse
+alors comme impossible), rendre la vie à un corps que la mort semblait
+avoir destiné à la corruption.
+
+Ces idées soutenaient mon courage, pendant que je poursuivais sans
+relâche mon entreprise. Mes joues étaient devenues pâles par
+l'étude, et mon corps s'amaigrissait par le défaut de nourriture.
+Quelquefois je pensais être parvenu au but, et j'échouais; mais je ne
+désespérais pas qu'au premier jour, ou au premier moment, mes
+espérances ne fussent réalisées. Le désir de posséder seul un
+pareil secret, me dominait entièrement: la lune éclairait mes
+opérations nocturnes, pendant que je poursuivais la nature jusque dans
+ses retraites les plus cachées, avec une ardeur sans relâche. Qui
+pourra concevoir l'horreur de mes travaux secrets, lorsque je profanais
+les tombeaux, ou que je torturais l'animal vivant, pour animer un froid
+argile? Mes membres en tremblent encore; tout est encore présent à mes
+yeux; mais alors j'étais entraîné par une impulsion irrésistible et
+presque fanatique; il me semblait n'avoir plus d'âme ou de sensation
+que pour la poursuite de cet objet. Ce n'était, il est vrai, qu'un
+enthousiasme passager, qui pouvait seulement contribuer à me faire
+sentir, avec une nouvelle force, dès que l'aiguillon surnaturel
+cesserait d'agir, que je retournerais à mes anciennes habitudes. Je
+ramassais des os dans les charniers; et de mes doigts profanes, je
+troublais les secrets effroyables du tombeau. Enfermé dans une chambre,
+ou plutôt dans une cellule solitaire, de la partie la plus élevée de
+la maison, et séparée de tous les autres appartements par une galerie
+et par un escalier, je me livrais au travail d'une création pleine de
+dégoût: mes yeux sortaient de leur orbite, pour suivre les détails de
+mes occupations. La salle de dissection et la tuerie me fournissaient un
+grand nombre de matériaux; souvent je me détournais avec horreur de
+mes travaux, lorsqu'excité encore par une ardeur toujours croissante,
+j'étais près d'achever mon ouvrage.
+
+L'été se passa, pendant que j'étais engagé de cœur et d'âme dans
+n'était pas cette seule poursuite. La saison était magnifique: jamais
+moisson plus abondante ne couvrit les champs; jamais vendanges ne furent
+plus riches: mais j'étais insensible aux charmes de la nature; et les
+mêmes pensées qui me firent négliger les scènes qui se passaient
+autour de moi, me firent aussi oublier ces amis qui étaient éloignés
+de tant de lieues, et que je n'avais pas vus depuis si long-temps. Je
+savais que mon silence les inquiétait.
+
+Je me rappelais, mot pour mot, ce que m'avait dit mon père: «Tant que
+vous serez satisfait de vous-même, vous penserez à nous avec
+affection, et nous recevrons régulièrement de vos nouvelles. Ne me
+blâmez pas si je regarde toute interruption dans votre correspondance,
+comme une preuve que vos autres devoirs sont également négligés».
+
+Ainsi, je connaissais bien quelle devait être l'opinion de mon père,
+et pourtant je ne pouvais m'arracher à des occupations repoussantes en
+elles-mêmes, mais dont le pouvoir sur moi était in surmontable. Je
+remis alors tout ce qui avait rapport à mes sentiments d'affection,
+jusqu'à ce que j'eusse accompli le grand œuvre qui me détournait de
+toutes les habitudes de ma vie.
+
+Je pensais que mon père serait injuste, s'il attribuait ma négligence
+à mes défauts ou à mes vices. Maintenant, je suis convaincu qu'il
+avait raison de penser que ma conduite n'était pas exempte de blâme.
+Un homme parfait doit toujours maintenir son esprit dans le calme et
+dans la paix; sa tranquillité ne doit jamais être troublée par une
+passion ou par un goût passager. Je ne crois pas que l'étude même
+soit une exception à cette règle. Si l'étude à laquelle on
+s'applique, doit affaiblir les affections, et ôter le goût de ces
+plaisirs simples dans lesquels on ne peut éprouver aucune altération,
+alors cette étude est sans aucun doute illégitime; c'est-à-dire,
+qu'elle ne convient pas à l'esprit humain. Si cette règle était
+toujours observée, si l'homme ne laissait aucune passion altérer le
+charme paisible de ses affections domestiques, la Grèce n'eût pas
+été réduite en esclavage; César n'eût pas immolé son pays;
+l'Amérique n'eût pas été découverte; et les empires du Mexique et
+du Pérou n'auraient pas été détruits.
+
+Mais que fais-je? Je moralise au moment le plus intéressant de mon
+histoire, tandis que je lis dans vos regards l'invitation de continuer.
+
+Mon père ne me faisait aucun reproche dans ses lettres, seulement mon
+silence l'engagea à s'informer de mes occupations, plus
+particulièrement qu'il ne l'avait fait jusque-là. L'hiver, le
+printemps et l'été s'écoulèrent pendant mes travaux, sans que je
+fisse attention à l'apparition successive des fleurs ou des feuilles,
+qui autrefois me faisait toujours éprouver le plus doux plaisir, tant
+j'étais plongé dans mon entreprise. Les vacances de cette année
+s'écoulèrent avant que mon ouvrage ne fut près d'être achevé. Je
+voyais alors, chaque jour, plus clairement combien j'avais réussi; mais
+mon enthousiasme était réprimé par mon inquiétude; et j'avais
+plutôt l'air d'un homme condamné à travailler aux mines, ou à tout
+autre objet malsain, que d'un artiste au milieu de ses occupations
+favorites. Toutes les nuits j'étais tourmenté d'une fièvre lente: je
+reconnus enfin que mon système nerveux était fortement attaqué. J'en
+éprouvai un grand chagrin, parce que j'avais jusqu'alors joui de la
+meilleure santé, et que je m'étais toujours vanté de la force de mes
+nerfs. Mais je croyais que l'exercice et l'amusement dissiperaient
+bientôt de pareils symptômes, et je me promettais de m'y livrer, dès
+que ma création serait terminée.
+
+
+
+
+CHAPITRE IV
+
+
+Ce fut en novembre, pendant une nuit affreuse, que je vis
+l'accomplissement de mes travaux. Dans une inquiétude voisine de
+l'agonie, je rassemblai autour de moi les instruments propres à donner
+la vie, pour introduire une étincelle d'existence dans cette matière
+inanimée qui était à mes pieds. L'airain avait déjà sonné la
+première heure après minuit; la pluie battait, avec un sifflement
+horrible, contre mes fenêtres; ma lumière était près de s'éteindre,
+lorsqu'à cette lueur vacillante, je vis s'ouvrir l'œil jaune et
+stupide de la créature: elle respira avec force, et ses membres furent
+agités d'un mouvement convulsif.
+
+Comment décrire ce que j'éprouvai à cette vue, ou comment peindre le
+malheureux dont la formation m'avait coûté tant d'efforts, de peines,
+et de soins? Ses membres étaient d'une juste proportion, et les traits
+que je lui avais donnés n'étaient pas moins beaux. Beaux!... grand
+Dieu! sa peau jaune couvrait à peine le système des muscles et des
+artères: sa chevelure flottante était d'un noir brillant; ses dents
+étaient blanches comme des perles; mais ces avantages ne formaient
+qu'un contraste plus horrible avec des yeux insipides, qui paraissaient
+presque de la même couleur que leurs blanches et sombres orbites; une
+peau ridée, et des lèvres noires et serrées l'une contre l'autre. Les
+différents événements de la vie ne sont pas aussi variables que les
+sensations du cœur humain. Je n'avais pas cessé de travailler pendant
+près de deux ans, dans le seul but de donner l'être à un corps
+inanimé. Dans cette vue, j'avais négligé mon repos et ma santé:
+j'avais désiré atteindre ce but avec une ardeur immodérée; et,
+maintenant que j'y étais parvenu, la beauté du rêve s'évanouit; mon
+cœur se remplit d'une horreur et d'un dégoût affreux. N'ayant pas la
+force de soutenir la vue de l'être que j'avais créé, je sortis de mon
+laboratoire, et me promenai long-temps en parcourant ma chambre, en tous
+sens, et sans songer au sommeil. Enfin, la fatigue succéda à mon
+agitation, et je me jetai sur mon lit pour chercher, pendant quelques
+moments, l'oubli de ma situation. Ce fut en vain: je dormis pourtant;
+mais je fus troublé par les rêves les plus effrayants. Je crus voir
+Élisabeth, brillante de santé, se promener dans les rues d'Ingolstadt.
+Charmé et surpris, je l'embrassai; en imprimant mon premier baiser sur
+ses lèvres, je les vis devenir livides comme la mort; je vis ses traits
+changer, et je crus tenir entre mes bras le cadavre de ma mère. Elle
+était couverte d'un linceul, dans les plis duquel je voyais ramper les
+vers du tombeau. Je m'éveillai saisi d'horreur; une sueur froide
+couvrait mon front; mes dents claquaient les unes contre les autres; et
+tous mes membres étaient en convulsion, lorsqu'à la clarté faible et
+jaunâtre de la lune qui donnait sur les croisées, je distinguai le
+malheureux..., le misérable monstre que j'avais créé. Il tenait les
+rideaux du lit; et ses yeux, si je puis les appeler ainsi, étaient
+fixés sur moi. Sa bouche s'ouvrit, et il fit entendre quelques sons
+inarticulés, en faisant des grimaces affreuses. Peut-être avait-il
+parlé; mais je n'entendis pas; il étendit une main, sans doute pour me
+retenir, mais j'échappai, et descendis précipitamment les escaliers.
+Je me réfugiai dans la cour de la maison, où je passai le reste de la
+nuit à me promener en long et en large dans la plus grande agitation,
+prêtant attentivement et avec crainte l'oreille au moindre bruit, comme
+s'il m'annonçait l'approche du démon à qui j'avais si malheureusement
+donné la vie.
+
+Ah! quel mortel pourrait soutenir l'horreur de cette situation! Une
+momie à qui on rendrait l'âme, ne serait pas aussi hideuse que ce
+monstre. Je l'avais observé lorsqu'il n'était pas encore achevé: il
+était laid alors; mais, lorsque les muscles et les articulations purent
+se mouvoir, il devint si horrible, que le Dante lui-même n'aurait pu
+l'imaginer.
+
+Je passai la nuit dans des transes cruelles. Tantôt mon pouls battait
+si vite et avec tant de violence, que je sentais la palpitation de tous
+les artères; tantôt je succombais presque de langueur et de faiblesse.
+Saisi d'horreur, je compris avec amertume combien je m'étais abusé:
+les rêves, dont je m'étais bercé si long-temps et avec tant de
+plaisir, étaient maintenant devenus un tourment pour moi. Comment
+n'aurais-je pas éprouvé ce tourment? Mon changement fut si rapide; mes
+espérances furent si cruellement déçues en tous points!
+
+Le jour commença enfin à paraître; le temps était sombre et
+pluvieux. Cependant, mes yeux découvrirent l'église d'Ingolstadt, ses
+blancs clochers, et l'horloge qui marquait six heures. Le gardien ouvrit
+les portes de la cour qui avait été mon asile pendant la nuit: je
+sortis dans les rues; je me mis à les parcourir avec précipitation
+comme si je cherchais à éviter le misérable, et en tremblant de le
+rencontrer à chaque détour de rue. Je n'osais retourner à
+l'appartement que j'habitais; et je me sentais entraîné avec une
+vitesse prodigieuse, quoique trempé par la pluie qui tombait à verse
+d'un ciel noir et couvert.
+
+Je continuai pendant quelque temps à marcher ainsi, essayant, par
+l'exercice du corps, de me soulager du poids qui accablait mon esprit.
+Je traversais les rues sans savoir où j'étais, ni ce que je faisais.
+Mon cœur palpitait de frayeur, et et je marchais à pas irréguliers,
+sans oser regarder autour de moi:
+
+
+Semblable à celui qui, en se promenant sur une route solitaire, est
+saisi de crainte et d'horreur, et qui, après s'être une seule fois
+retourné, presse le pas et n'ose plus détourner la tête; il craint
+qu'un ennemi effrayant ne marche derrière lui[2].
+
+
+En continuant ainsi, j'arrivai enfin devant une auberge où descendaient
+ordinairement les voitures et les diligences. Je m'y arrêtai
+machinalement, et je restai pendant quelques minutes les yeux fixés sur
+une voiture qui arrivait par l'autre bout de la rue, et qui, en
+s'approchant, me parut être la diligence Suisse: elle s'arrêta à
+l'endroit même où j'étais; et, dès que la portière fut ouverte, je
+vis Henri Clerval, qui, en m'apercevant, s'élança dans mes bras. «Mon
+cher Frankenstein, s'écria-t-il, que je suis content de te voir! que je
+suis heureux de te rencontrer ici au moment même de mon arrivée»!
+
+Rien ne put égaler le plaisir que j'éprouvai à la vue de Clerval; sa
+présence reportait toutes mes pensées vers mon père, Élisabeth, et
+toutes ces scènes domestiques dont le souvenir m'était si doux. Je
+tenais sa main; et, dans un moment, j'oubliai mes tourments et mon
+malheur; j'éprouvai tout à coup, et pour la première fois depuis
+plusieurs mois, une joie calme et sereine. J'accueillis mon ami de la
+manière la plus cordiale; et nous nous dirigeâmes vers mon collège.
+Clerval me parla pendant quelque temps de nos amis communs, et me dit
+combien il se félicitait d'avoir obtenu de venir à Ingolstadt. «Tu
+peux facilement, me dit-il, t'imaginer les efforts que j'ai dû
+employer, pour persuader à mon père qu'il n'était pas nécessaire à
+un négociant de ne connaître absolument que la tenue des livres;
+vraiment je ne me flatte pas d'avoir ébranlé son incrédulité; car sa
+réponse, constante à mes sollicitations, était toujours celle du
+maître d'école Hollandais dans le ministre de Wakefield: (j'ai 10,000
+florins de rentes sans savoir le Grec, et cela ne m'empêche pas d'en
+jouir de bon cœur). Mais son affection pour moi a triomphé enfin de
+son mépris pour l'instruction; et il m'a permis d'entreprendre un
+voyage de découverte dans le pays de la science».
+
+--«J'ai le plus grand plaisir à te voir, mais je n'en aurais pas moins
+à apprendre de toi comment se portent mon père, mes frères et
+Élisabeth».
+
+--«À mon départ, ils étaient en bonne santé, et très-heureux, mais
+un peu fâchés de ne recevoir que si rarement de tes nouvelles. Cela me
+fait penser que j'ai à t'adresser des reproches de leur part. Mais, mon
+cher Frankenstein, continua-t-il, en s'arrêtant court, et en me
+regardant en face, je n'avais pas encore remarqué ta mauvaise mine, si
+maigre et si pâle; tu as l'air d'avoir veillé pendant plusieurs
+nuits.»
+
+--«Tu as deviné juste; j'ai été dernièrement si plongé dans un
+travail, que je ne me suis pas donné assez de repos, comme tu vois.
+Mais j'espère bien sincèrement que je suis maintenant au terme de
+toutes ces occupations, et que j'en suis enfin délivré».
+
+Je tremblais excessivement; je ne pouvais songer aux événements de la
+nuit précédente, ni à tout ce qui y faisait allusion. Je marchais
+d'un pas rapide, et nous arrivâmes bientôt à mon collège. Je
+réfléchis alors, et je frissonnai à l'idée que la créature que
+j'avais laissée dans mon appartement, pourrait y être encore, vivre et
+se promener. Je tremblais de voir ce monstre; mais je craignais encore
+plus qu'Henri ne le vit. Je le priai donc de rester quelques minutes au
+bas de l'escalier, et je montai dans ma chambre. J'allais ouvrir la
+porte, et je ne m'étais pas encore recueilli. Je m'arrêtai alors, en
+frissonnant. Je poussai la porte avec force, à la manière des enfants
+qui s'imaginent trouver un spectre qui les attend dans l'autre
+extrémité: mais rien ne parut. Je marchais avec crainte: l'appartement
+était vide, et ma chambre était aussi délivrée de son hôte hideux.
+J'avais peine à croire à mon bonheur; certain enfin de l'absence de
+mon ennemi, je frappai mes mains de joie, et je courus vers Clerval.
+
+Nous montâmes dans ma chambre, où le domestique nous apporta aussitôt
+à déjeuner; mais je ne pouvais me contenir. Je n'étais pas seulement
+troublé par la joie; je me sentais agité aussi par un excès de
+sensibilité, et par les battements rapides de mon pouls. Je ne pouvais
+rester un seul instant à la même place; je sautais sur les chaises, je
+frappais des mains, et je riais aux éclats. Clerval attribua d'abord
+l'état extraordinaire dans lequel il me voyait au plaisir que me
+causait son arrivée; mais en m'observant avec plus d'attention, il vit
+dans mes yeux un égarement dont il ne put se rendre compte; et il fut
+aussi effrayé qu'étonné de mes éclats de rire immodérés, dont
+aucun ne venait du cœur.
+
+--«Mon cher Victor, s'écria-t-il, pour l'amour de Dieu, dis-moi ce que
+tu as? Ne ris pas de cette manière. Comme tu es mal! Quelle est la
+cause de tout ce que je vois?
+
+--»Ne me le demande pas, lui dis-je, en me mettant les mains sur les
+yeux, car je crus voir le monstre horrible se glisser dans la chambre;
+il peut dire.--ah! sauve moi! sauve moi»! Je m'imaginais que le monstre
+me saisissait; je me débattais avec fureur, et je cédai à un violent
+accès.
+
+Pauvre Clerval, qu'a-t-il dû éprouver? En quelle amertume se changeait
+la joie qu'il s'était promise à nous revoir! Mais je n'étais pas le
+témoin de sa douleur; car j'étais sans vie, et je ne recouvrai les
+sens que long-temps, long-temps après.
+
+Tel fut le commencement d'une fièvre nerveuse, qui me retint plusieurs
+mois. Pendant tout ce temps, Henri seul me soigna. J'appris par la suite
+qu'il avait caché à Élisabeth et à mon père l'excès de mon
+égarement, pour épargner des chagrins à l'un, qui, dans un âge
+avancé, ne pourrait entreprendre un aussi long voyage, et à l'autre,
+qui ne pourrait supporter l'idée de ma maladie. Il savait que je ne
+pourrais avoir de soins meilleurs et plus assidus que les siens, et
+ferme dans l'espérance que je recouvrerais la santé, il ne douta pas
+que loin de mal agir, il ne fit une très-bonne action vis-à-vis de mes
+parents.
+
+J'étais réellement très-malade, et rien n'était plus propre à me
+rendre à la vie que les attentions excessives et continuelles de mon
+ami. Le monstre, à qui j'avais donné l'existence, était toujours
+devant mes yeux; il était sans cesse l'objet de mes discours dans mon
+délire. Sans doute Henry fut surpris de mes paroles: il les prit
+d'abord pour les égarements de mon imagination troublée; mais la
+ténacité qui me portait à revenir continuellement sur le même sujet,
+lui donna lieu de penser que ma maladie avait réellement pour cause
+quelqu'événement extraordinaire et terrible.
+
+Je me rétablis lentement, et après des rechutes fréquentes, qui
+alarmèrent et affligèrent mon ami. Je me souviens que la première
+fois que je devins capable d'observer avec une sorte de plaisir les
+objets extérieurs, je vis que les feuilles tombées avaient disparu, et
+que de jeunes bourgeons poussaient aux arbres qui ombrageaient ma
+fenêtre. C'était un printemps délicieux, et la saison eut une grande
+influence dans ma convalescence. Je sentis aussi renaître dans mon
+cœur des sentiments de joie et d'affection. Mon chagrin s'était
+dissipé, et bientôt je devins aussi gai qu'avant que je fusse en proie
+à ma funeste passion.
+
+«Cher Clerval, m'écriai-je, que tu es aimable, que tu es bon pour moi!
+Au lieu d'employer tout cet hiver à l'étude, ainsi que tu te l'étais
+promis, tu l'as passé dans la chambre d'un malade. Comment pourrais-je
+jamais reconnaître ce service? J'éprouve le plus grand remords de
+t'avoir détourné de tes projets; mais tu pardonneras à ton ami.
+
+--»J'en serai suffisamment dédommagé si tu ne te troubles pas; si tu
+te rétablis aussi promptement qu'il est possible. À présent que ton
+esprit me paraît tranquille, je te puis parler sur un sujet;... ne le
+puis-je»?
+
+Je tremblai. Quel pouvait être ce sujet? ferait-il allusion à un objet
+auquel je n'osais même penser?
+
+«Calme-toi, dit Clerval, qui me vit changer de couleur, je ne t'en
+parlerai pas si cela t'agite; mais ton père et ta cousine seraient bien
+heureux de recevoir une lettre écrite de ta main. Ils ne savent pas
+combien tu as été malade, et sont inquiets de ton long silence.
+
+«N'est-ce que cela, mon cher Henry? Comment as-tu pu supposer que ma
+première pensée ne se porterait pas vers ces amis si chers, que
+j'aime, et qui méritent tant que je les aime»?
+
+«Si telles sont maintenant tes dispositions, tu seras peut-être bien
+aise, mon ami, de voir une lettre qui est arrivée ici pour toi depuis
+plusieurs jours: elle est, je crois, de ta cousine».
+
+
+[Note 2: Coleridge's «Ancient Mariner».]
+
+
+
+
+CHAPITRE V
+
+
+Clerval me remit la lettre suivante:
+
+
+À V. FRANKENSTEIN.
+
+
+«Mon cher Cousin,
+
+»Je ne puis vous peindre l'inquiétude que nous avons tous éprouvée
+au sujet de voire santé. Nous ne pouvons nous empêcher de croire que
+votre ami Clerval nous cache la gravité de votre maladie: car voici
+plusieurs mois que nous n'avons vu de votre écriture, puisque vous avez
+été obligé, pendant tout ce temps-là, de dicter vos lettres à
+Henry. Il faut, Victor, que vous ayez été bien malade. Nous en sommes
+presqu'aussi malheureux, que nous l'étions après la mort de votre
+excellente mère. Mon oncle s'était persuadé que vous étiez
+très-dangereusement malade: nous l'avons empêché, mais non sans
+peine, d'entreprendre le voyage d'Ingolstadt. Clerval écrit toujours
+que vous allez mieux; j'espère vivement que vous nous confirmerez
+bientôt cette nouvelle par une lettre écrite de votre propre main;
+car, vraiment, Victor, nous sommes tous très-affligés de votre état.
+Qu'un mot de vous nous ôte toute crainte, et nous serons les êtres du
+monde les plus heureux. Votre père jouit maintenant d'une si bonne
+santé, que, depuis l'hiver dernier, il parait avoir dix ans de moins.
+Ernest a tellement grandi, que vous auriez de la peine à le
+reconnaître; il a maintenant près de seize ans, et ne paraît plus
+maladif, comme nous l'avons vu il y a quelques années: c'est un garçon
+tout-à-fait fort et animé.
+
+»Hier au soir, j'ai eu une longue conversation avec mon oncle sur le
+parti qu'embrasserait Ernest. Dans un état continuel de maladie,
+pendant son enfance, il n'a pu prendre l'habitude du travail; et à
+présent qu'il jouit d'une bonne santé, il est sans cesse à courir au
+grand air, à gravir les montagnes, on à voguer sur le lac. J'ai
+proposé d'en faire un cultivateur; vous savez, mon cousin, qu'aucun
+état ne me paraît préférable. Un cultivateur mène la vie du monde
+la plus paisible et la plus heureuse, et se livre en même temps à un
+travail, dont les chances sont peu à craindre et les bénéfices
+presque certains. Mon oncle aurait voulu qu'il fit les études
+nécessaires pour être avocat, afin que par la suite il pût devenir
+juge. Mais, outre qu'il n'est nullement propre à une semblable
+profession, il est certainement plus honorable à lui de cultiver la
+terre pour la subsistance de l'homme, que d'être le confident, ou
+quelquefois le complice de ses crimes; car un homme de loi ne fait pas
+autre chose. Je disais que si les occupations d'un bon cultivateur
+n'étaient pas plus honorables, elles étaient du moins d'un genre plus
+agréable que celles d'un juge, qui avait le malheur de n'être jamais
+témoin que des crimes de l'homme. Mon oncle sourit en me disant que je
+devrais être avocat moi-même: cela mit fin à notre conversation.
+
+»Je veux maintenant vous raconter une petite histoire qui vous plaira
+et vous intéressera peut-être. Vous souvenez-vous de Justine
+Moritz?--Non, sans doute.--Eh bien! je vous raconterai son histoire en
+peu de mots. Madame Moritz, sa mère, était veuve avec quatre enfants,
+dont Justine était le troisième. Cette jeune fille avait toujours
+été l'objet des prédilections du père; mais, par une étrange
+perversité, la mère ne pouvait la souffrir, et, après la mort de M.
+Moritz, elle la traita fort mal. Ma tante le remarqua, et pria la mère
+de Justine, qui était alors âgée de douze ans, de la laisser avec
+nous. Les institutions républicaines de notre pays ont donné lieu à
+des habitudes plus simples et plus heureuses, que celles qui dominent
+dans les grandes monarchies qui l'entourent. Il en résulte moins de
+distinction entre les différentes classes des habitants; il en résulte
+aussi que les dernières, qui sont moins pauvres et moins méprisées,
+conservent des habitudes plus pures et plus honnêtes. Un domestique à
+Genève ne sent pas de même que ceux de France et d'Angleterre.
+Justine, ainsi reçue dans notre famille, apprit les devoirs d'une
+servante: condition qui, dans notre heureux pays, ne renferme pas
+l'idée d'ignorance, et n'entraîne pas le sacrifice de la dignité d'un
+être humain.
+
+»À présent, j'ose dire que vous vous rappelez à merveille
+l'héroïne de ma petite histoire: car vous aimiez beaucoup Justine. Je
+me souviens même que vous remarquiez autrefois, qu'un regard de Justine
+suffisait pour calmer votre mauvaise humeur, ainsi que l'Arioste parle
+de la beauté d'Angélique, tant elle avait un air candide et heureux.
+Ma tante connut beaucoup d'attachement pour elle, ce qui l'engagea à
+lui donner une éducation supérieure à celle qu'elle avait d'abord
+espérée. Ce bienfait fut bien placé; Justine était la petite
+créature du monde la plus reconnaissante: je ne veux pas dire qu'elle
+en fît profession; je ne l'ai jamais entendu l'exprimer par des
+paroles; mais ses yeux eussent fait croire qu'elle adorait presque sa
+protectrice. Quoique son caractère fût fort gai et souvent léger,
+elle faisait pourtant la plus grande attention au moindre geste de ma
+tante. Elle la regardait comme le modèle le plus parfait, et elle
+tachait d'imiter sa façon de parler et ses manières, au point que,
+même à présent, elle me la rappelle souvent.
+
+»À la mort de ma chère tante, chacun était trop occupé de sa propre
+douleur pour faire attention à la pauvre Justine, qui l'avait soignée
+pendant sa maladie avec la plus vive affection. La pauvre Justine fut
+très-malade; mais elle était réservée à d'autres épreuves.
+
+»Ses frères et sa sœur moururent l'un après l'autre, et sa mère
+resta sans autre enfant que la fille qu'elle négligeait. Cette femme,
+troublée par le cri de sa conscience, commença à croire que la mort
+de ses enfants préférés était un jugement du ciel, qui la punissait
+de sa partialité. Elle était Catholique Romaine, et je crois qu'elle
+fut confirmée dans l'opinion où elle était, par son confesseur.
+Aussi, peu de mois après votre départ pour Ingolstadt, Justine fut
+rappelée par sa mère repentante. Pauvre fille! elle pleura en quittant
+notre maison: elle était bien changée depuis la mort de ma tante; le
+chagrin avait mêlé à son humeur, autrefois si vive, une douceur et
+une langueur attrayantes. Son séjour dans la maison maternelle n'était
+pas de nature à lui rendre la gaîté. La pauvre femme était
+très-chancelante dans son repentir. Quelquefois elle priait Justine de
+lui pardonner sa dureté; mais bien plus souvent elle l'accusait d'avoir
+causé la mort de ses frères et de sa sœur. Madame Moritz, dont le
+caractère irascible ne fut d'abord qu'irrité par un état d'aigreur
+continuelle, repose maintenant en paix. Elle mourut aux premières
+approches du froid, au commencement de l'hiver dernier. Justine est
+revenue avec nous, et je vous assure que je l'aime tendrement. Elle est
+très-adroite, très-douce, et extrêmement jolie. Comme je vous l'ai
+déjà dit, ses manières et ses expressions me rappellent
+continuellement ma chère tante.
+
+»Il faut aussi, mon cher cousin, que je vous parle un peu du gentil
+petit Guillaume: il est très-grand pour son âge; je voudrais que vous
+le vissiez, avec ses yeux bleus, doux et vifs, ses cils noirs et ses
+cheveux bouclés. Lorsqu'il sourit, on voit sur ses joues deux petites
+fossettes qui sont fraîches comme la rose. Il a déjà eu une ou deux
+petites _femmes_; mais Louisa Biron est sa favorite: c'est une jolie
+petite fille de cinq ans.
+
+»Je pense, mon cher Victor, que vous serez bien aise que je vous parle
+un peu des bons habitants de Genève. La jolie mademoiselle Mansfield a
+déjà reçu les visites de félicitation sur son prochain mariage avec
+un jeune Anglais, nommé John Melbourne, écuyer. Sa vilaine sœur,
+Manon, a épousé, l'automne dernier, le riche banquier M. Duvillard.
+Votre bon camarade d'études, Louis Manoir, a été plusieurs fois
+malade depuis que Clerval est parti de Genève; il a déjà recouvré la
+santé, et il est sur le point d'épouser une très-aimable et
+très-jolie française, madame Tavernier. Elle est veuve et plus âgée
+que lui; mais on la trouve très-belle, et elle est aimée de tout le
+monde.
+
+»Moi qui vous écris, je suis en bonne santé, mon cher cousin; mais je
+ne puis terminer ma lettre sans vous demander encore avec inquiétude
+des nouvelles de la vôtre. Mon cher Victor, si vous n'êtes pas trop
+malade, écrivez vous-même, et rendez heureux votre père et nous tous;
+ou.... Je n'ai pas la force de penser au malheur; mes pleurs coulent
+déjà. Adieu, mon très-cher cousin.
+
+
+»ÉLISABETH LAVENZA».
+
+
+Genève, 18 mars 17--
+
+
+«Chère Élisabeth! m'écriai-je, après avoir lu sa lettre, j'écrirai
+sur-le-champ, et je mettrai fin à l'inquiétude qui doit la
+tourmenter». J'écrivis, et je fus très-fatigué d'avoir écrit; mais
+ma convalescence venait de commencer, elle continua régulièrement.
+Quinze jours après, je pus quitter la chambre.
+
+Un de mes premiers devoirs fut de présenter Clerval à plusieurs
+professeurs de l'université. En agissant ainsi, je suivis une sorte
+d'usage qui m'était pénible, et qui convenait mal aux souffrances dont
+mon cœur avait été déchiré. Depuis la nuit fatale qui avait été
+témoin de la fin de mes travaux, et du commencement de mes malheurs,
+j'avais conçu une violente antipathie contre le nom même de la
+philosophie naturelle. Bien plus: dans un état complet de santé, la
+vue d'un instrument d'alchimie était capable de renouveler toutes mes
+agitations nerveuses. Henry s'en était aperçu, et avait fait
+disparaître tous mes appareils. Il avait aussi voulu que je quittasse
+mon appartement; car il avait remarqué que j'évitais d'aller dans la
+chambre qui m'avait auparavant servi de laboratoire. Mais tous les soins
+de Clerval furent perdus au moment où j'allai rendre visite aux
+professeurs. M. Waldman me mit à la torture, en louant avec bonté et
+chaleur mes progrès étonnants dans les sciences. Il ne tarda pas à
+voir que cette conversation me gênait; mais, n'en devinant pas la
+véritable cause, il l'attribua à la modestie, et cessa de vanter mes
+progrès, pour parler de la science elle-même, avec le désir bien
+évident que je me misse à en parler. Que pouvais-je faire? il voulait
+me plaire, et il me tourmentait. Je souffrais comme s'il avait placé,
+un à un devant moi, ces instrument qui devaient servir dans la suite à
+me conduire à une mort lente et cruelle. Je souffrais de ce qu'il
+disait, sans oser montrer la peine que j'éprouvais. Clerval, qui était
+toujours si prompt à discerner les sensations des autres, détourna la
+conversation, en alléguant pour excuse son ignorance complète, et
+donna à la conversation un tour plus général. Je remerciai mon ami du
+fond de mon cœur, mais je ne parlai pas. Je vis clairement qu'il était
+surpris, mais il n'essaya jamais de m'arracher mon secret; et, quoique
+je l'aimasse avec un mélange d'affection et de respect qui ne
+connaissaient pas de bornes, je ne pouvais cependant me décider à lui
+confier l'événement qui était si souvent présent à ma mémoire,
+mais dont je craignais d'imprimer trop profondément le souvenir à un
+autre.
+
+M. Krempe ne fut pas aussi docile; et, dans mon état de sensibilité
+excessive, ses éloges brusques et grossiers me firent même plus de mal
+que la bienveillante approbation de M. Waldman. «Savant collègue!
+s'écria-t-il; je vous assure, M. Clerval, qu'il nous a tous surpassés.
+Oui; regardez-moi si cela vous plaît, mais ce que je dis n'en est pas
+moins vrai. Un jeune homme qui, il y a quelques années, croyait en
+Cornélius Agrippa, aussi fermement qu'en l'Évangile, s'est maintenant
+mis à la tête de l'université; et s'il n'est bientôt à bas, nous ne
+pourrons tenir à côté de lui.--Allons, allons, continua-t-il, en
+voyant mon air de souffrance, M. Frankenstein est modeste; c'est une
+excellente qualité pour un jeune homme. Les jeunes gens doivent se
+défier d'eux-mêmes, vous savez, M. Clerval; j'étais comme lui dans ma
+jeunesse; mais cela passe bien vite».
+
+M. Krempe commença alors un éloge de lui-même, qui détourna la
+conversation d'un sujet qui me causait tant de mal.
+
+Clerval n'aimait nullement la philosophie naturelle. Son imagination
+était trop vive pour s'arrêter aux minuties de cette science. Sa
+principale étude était celle des langues; son but, en s'y adonnant,
+était d'ouvrir un champ à son instruction, lorsqu'il serait de retour
+à Genève. Le Persan, l'Arabe et l'Hébreu, furent, après une étude
+approfondie du Grec et du Latin, l'objet de son application. Quant à
+moi, à qui la paresse avait toujours été odieuse; dans le désir de
+fuir les réflexions, et en haine de mes premières études, j'éprouvai
+un grand plaisir à être le condisciple de mon ami, et je ne trouvai
+pas seulement de l'instruction, mais encore des consolations dans les
+ouvrages des auteurs Orientaux. Leur mélancolie est brûlante; et leur
+bonheur vous élève à une hauteur que je n'avais jamais connue dans
+l'étude des auteurs des autres pays. En lisant leurs écrits, il semble
+que la vie s'écoule sous un soleil brûlant et dans un jardin de roses,
+entre les sourires et les dédains d'une beauté cruelle, et dans un feu
+qui consume le cœur. Combien diffère la poésie forte et héroïque
+des Grecs et des Romains!
+
+L'été se passa ainsi, et mon retour à Genève fut fixé pour la fin
+de l'automne; mais, retardé pour plusieurs motifs, je fus surpris par
+l'hiver et la neige, qui rendirent les chemins impraticables, et je
+remis mon voyage au printemps suivant. Je fus très-affligé de ce
+retard; car j'étais impatient de revoir ma ville natale et mes amis.
+Mon retour n'avait été différé aussi long-temps, que parce que je ne
+voulais pas laisser Clerval dans une ville étrangère, avant qu'il
+n'eût fait connaissance avec quelques-uns des habitants. Cependant,
+l'hiver se passa très-gaîment; et le printemps, qui fut plus tardif
+qu'à l'ordinaire, fut aussi plus beau et plus agréable.
+
+Nous étions au mois de mai; et j'attendais de jour en jour la lettre
+qui devait fixer la date de mon départ, lorsqu'Henry me proposa de
+parcourir à pied les environs d'Ingolstadt, pour faire mes adieux au
+pays que j'avais si long-temps habité. Je me rendis avec plaisir à
+cette proposition; j'aimais l'exercice, et j'avais toujours eu Clerval,
+de préférence, à tout autre, pour m'accompagner dans ces sortes de
+courses, auxquelles je m'étais accoutumé dans mon pays natal.
+
+Nous passâmes quinze jours à courir d'un côté et d'un autre. Ma
+santé et mon esprit étaient depuis long-temps rétablis, et
+s'affermissaient de jour en jour par l'air pur que je respirais, par
+l'accroissement naturel de mes forces, et la conversation de mon ami.
+L'étude m'avait éloigné auparavant de mes condisciples et m'avait
+rendu insociable; mais Clerval excitait les dispositions qu'une nature
+meilleure avait mises dans mon cœur. J'aimai de nouveau les beautés de
+la nature et l'enjouement des enfants. Excellent ami! avec quelle
+sincérité tu m'aimais! Tu cherchais élever mon esprit à la hauteur
+du tien. J'étais miné et affaibli par un travail profond; mais ta
+douceur et ton affection ont réchauffé et ranimé mes sens. Je
+redevins le même qui naguère aimait tout le monde et en était
+également aimé, qui n'avait ni soucis ni chagrins. Au temps de mon
+bonheur, la nature inanimée avait le pouvoir de me jeter dans les
+sensations les plus délicieuses. J'étais en extase à la vue d'un ciel
+sans nuages et de la verdure des champs. Il est vrai que la saison dont
+je parle était admirable; les fleurs du printemps embellissaient les
+jardins, pendant que celles d'été étaient près d'éclore: je
+n'étais pas troublé par les pensées qui, l'année précédente,
+m'avaient accablé d'un poids insurmontable, malgré mes efforts pour
+les éloigner.
+
+Henry se réjouissait de ma gaîté, et partageait sincèrement mes
+sensations: il s'occupait de m'amuser, et il me rendait compte en même
+temps des sentiments de son âme. Dans cette occasion, les ressources de
+son esprit étaient vraiment étonnantes: sa conversation était pleine
+d'imagination; et très-souvent, à l'imitation des écrivains Persans
+et Arabes, il inventait des contes dont les idées et les passions
+étaient surprenantes. D'autres fois, il récitait mes poèmes favoris,
+ou proposait des arguments qu'il soutenait avec beaucoup d'esprit.
+
+Nous retournâmes à notre collège un dimanche dans l'après-midi: des
+paysans dansaient, et toutes les personnes que nous rencontrions,
+paraissaient gaies et heureuses. J'étais dans l'enchantement: j'étais
+transporté par de vifs sentiments de joie et d'allégresse.»
+
+
+
+
+CHAPITRE VI
+
+
+À mon retour, je trouvai la lettre suivante de mon père:
+
+
+À V. FRANKENSTEIN.
+
+
+«Mon cher Victor,
+
+
+»Tu as sans doute attendu avec impatience une lettre qui fixât
+l'époque de ton retour au milieu de nous. J'ai d'abord été tenté de
+ne t'écrire que quelques lignes, uniquement pour te dire le jour où
+j'espère pouvoir t'embrasser; mais je n'ose pas te rendre un cruel
+service. Quelle sera ta surprise, mon fils, au moment où tu attends une
+nouvelle heureuse et agréable, de n'en recevoir au contraire que de
+tristes et de douloureuses? Et comment, mon cher Victor, pourrai-je te
+raconter notre malheur? Pourquoi faut-il que je t'afflige, mon fils, toi
+qui es loin de nous, mais qui, dans ton absence, n'es pas devenu
+insensible à nos joies et à nos chagrins? Je voudrais te préparer au
+malheur que je vais t'apprendre, mais je sens que cela m'est impossible,
+même à présent que tes yeux parcourent la page, pour y chercher les
+mots qui doivent t'en donner l'horrible certitude.
+
+»Guillaume n'est plus!... Ce charmant enfant, dont le sourire suffisait
+pour réjouir et ranimer mon cœur, qui était si doux et si gai à la
+fois! Victor a été assassiné!...
+
+»Je n'essayerai pas de te consoler; je me bornerai à te raconter les
+détails de cet évènement.
+
+»Jeudi dernier (7 mars), j'allai, accompagné de ma nièce et de tes
+deux frères, me promener à Plinpalais. Le temps était chaud, et si
+serein que nous prolongeâmes notre promenade plus que de coutume. La
+soirée était déjà fort obscure avant que nous eussions pensé à
+rentrer; mais en nous disposant au retour, nous ne retrouvâmes plus
+Ernest et Guillaume qui avaient été au-devant de nous. Nous restâmes
+donc assis à les attendre. Ernest vint bientôt, et nous demanda si
+nous avions vu son frère: il nous dit qu'ils étaient à jouer
+ensemble; que Guillaume l'avait quitté pour se cacher, qu'il l'avait
+inutilement cherché, et attendu ensuite pendant long-temps, mais qu'il
+n'était pas venu.
+
+»Ce récit ne servit qu'à nous alarmer. Nous continuâmes à le
+chercher jusqu'à la nuit tombante, quand Élisabeth conjectura qu'il
+pouvait être retourné à la maison. Il n'y était pas. Nous revînmes
+avec des torches; car je ne pouvais me reposer en songeant que mon fils
+s'était perdu, et restait exposé à toutes les humidités et aux
+rosées de la nuit: Élisabeth éprouvait aussi une angoisse extrême.
+Vers cinq heures du matin, je découvris mon aimable enfant que la nuit
+précédente j'avais vu brillant et fort de santé, étendu sur le
+gazon, livide, sans mouvement, et portant au col l'empreinte des doigts
+du meurtrier.
+
+»Il fut rapporté à la maison, et la douleur qui était peinte sur mon
+visage apprit à Élisabeth notre malheur. Elle voulut à toute force
+voir le cadavre. J'essayai d'abord de l'en empêcher; mais elle
+persista, entra dans la chambre où il était placé, examina
+précipitamment le col de la victime, et s'écria, on frappant des
+mains: «Dieu! j'ai assassiné cet enfant que j'aimais»!
+
+»Elle s'évanouit, et ne reprit ses sens qu'avec beaucoup de peine.
+Revenue de son évanouissement, elle ne cessa de pleurer et de gémir.
+Elle me dit que le soir même, Guillaume l'avait priée de lui mettre au
+col un riche portrait de ta mère, qui lui appartenait. Nul doute que ce
+portrait, qui a disparu, n'ait tenté le meurtrier, et ne l'ait porté
+au crime. Nous ignorons quelle trace il aura suivie, malgré l'activité
+de nos recherches pour le découvrir; mais hélas! rien ne me rendra mon
+bien-aimé Guillaume.
+
+»Viens, mon cher Victor; tu peux seul consoler Élisabeth. Elle pleure
+sans cesse, et s'accuse injustement d'être cause de la mort de
+Guillaume. Nous sommes tous plongés dans la douleur; ne sera-ce pas un
+motif de plus pour toi, mon fils, de revenir et de nous apporter des
+consolations? Ta chère mère! hélas, Victor! je puis le dire
+maintenant, remercie Dieu de ce qu'elle ne vit pas, pour être témoin
+de la mort cruelle et malheureuse de son plus jeune enfant.
+
+»Viens, Victor; sans nourrir des idées de vengeance contre l'assassin,
+mais avec des sentiments de paix et de douceur, qui calmeront les
+blessures de nos cœurs, au lieu de les irriter. Entre dans la maison du
+deuil, mon ami, l'âme pénétrée de tendresse et d'affection pour ceux
+qui t'aiment, et non de haine contre tes ennemis.
+
+»Ton affectionné et désolé père,
+
+
+»ALPHONSE FRANKENSTEIN».
+
+Genève 12 mai 17--
+
+
+Clerval, qui m'avait observé pendant la lecture de cette lettre, fut
+surpris de voir le désespoir qui succédait à la joie que j'avais
+d'abord éprouvée en recevant des nouvelles de mes amis. Je jetai la
+lettre sur la table, et me couvris la figure de mes mains.
+
+«Mon cher Frankenstein, s'écria Henry, lorsqu'il me vit pleurer avec
+amertume, seras-tu toujours malheureux? Mon cher ami, qu'est-il
+arrivé»?
+
+Je lui fis signe de prendre la lettre, pendant que je parcourais la
+chambre dans la plus grande agitation; des pleurs coulèrent aussi des
+yeux de Clerval, lorsqu'il lut le récit de mon malheur.
+
+«Mon ami, dit-il, je ne puis t'offrir aucune consolation; cette perte
+est irréparable. Que veux-tu faire?
+
+»--Partir sur-le-champ pour Genève: viens avec moi, Henry, commander
+les chevaux».
+
+Pendant la route, Clerval chercha à relever mon courage. Il n'employait
+pas les phrases communes de consolation, mais il partageait franchement
+ma douleur. «Pauvre Guillaume, disait-il; il dort maintenant avec son
+angélique mère. Ses amis sont dans le deuil et dans l'affliction; et
+lui, il est en paix: il ne sent plus les doigts de l'assassin: il ne
+connaît pas la douleur; la terre couvre ses jolies formes. Il ne peut
+plus être un objet de pitié; ceux qui survivent sont les plus à
+plaindre, et ils ne peuvent attendre de consolation que du temps. On
+doit mépriser ces maximes des Stoïciens, que la mort n'est pas un mal,
+et que l'esprit de l'homme doit être supérieur au désespoir causé
+par l'absence éternelle d'un objet aimé. Caton même pleurait sur le
+cadavre de son frère».
+
+Clerval parlait ainsi, pendant que nous traversions les rues avec
+rapidité. Ses paroles s'imprégnaient dans mon cœur; et je me les
+rappelai ensuite quand je fus seul. En ce moment, dès que les chevaux
+furent arrivés, je me jetai dans une chaise, en disant adieu à mon
+ami.
+
+Mon voyage fut triste. Mon premier désir était d'en voir le terme; car
+il me tardait d'arriver pour consoler mes amis affligés, et partager
+leur douleur; mais, en approchant de ma ville natale, je ralentis ma
+marche. J'avais peine à résister à la multitude des sentiments
+tumultueux dont j'étais assiégé. Je traversais des lieux chers à mon
+enfance, et que je n'avais pas vus depuis près de six ans. Que de
+changements depuis cette époque! Un tremblement de terre subit avait
+tout désolé; et mille autres petites circonstances pouvaient avoir,
+par degrés, amené d'autres altérations, qui, quoique plus lentes,
+n'étaient pas moins sensibles. Je fus saisi de crainte: je n'osais pas
+avancer; je me croyais exposé à toutes sortes de malheurs imaginaires,
+et je tremblais, sans que je pusse les définir.
+
+Je restai deux jours à Lausanne, dans cet état pénible d'esprit. Je
+contemplais le lac: les eaux étaient paisibles, tout était calme
+autour de moi, et les montagnes couvertes de neige, _ces palais de la
+nature_, n'étaient pas changés. Le calme et la beauté du ciel me
+ranimèrent insensiblement, et je continuai mon voyage vers Genève.
+
+La route longeait le lac, qui devenait plus étroit à mesure que
+j'approchais de ma ville natale. Je découvris plus distinctement les
+flancs noirs du Jura, et le sommet brillant du Mont-Blanc; je pleurais
+comme un enfant: «montagnes chères à mon cœur! lac majestueux! dans
+quel état vous recevez celui qui vous parcourut si souvent? Votre
+sommet est brillant; le ciel et le lac sont azurés et tranquilles.
+Est-ce un présage de paix, ou bien une insulte à mon malheur»?
+
+Je crains, mon ami, de vous ennuyer, en appuyant sur ces circonstances
+préliminaires; mais je me rappelais alors les jours de mon bonheur, et
+je ne puis y penser encore sans plaisir. Ma patrie, ô ma chère patrie!
+qui peut mieux qu'un de tes enfants peindre le plaisir que j'éprouvai
+à la vue de tes sources, de tes montagnes, et surtout de ton lac
+chéri?
+
+Cependant, plus j'approchais de la maison de mon père, plus j'étais
+tourmenté par la crainte et le chagrin. La nuit vint à étendre son
+voile sur la nature; et quand je pus distinguer à peine les montagnes
+dans l'obscurité, je sentis que ma douleur était plus vive. Je me
+représentai une longue et effroyable suite de malheurs, et je prévis
+que j'étais destiné à devenir le plus infortuné de tous les hommes;
+hélas! j'ai prédit juste; et si je me suis trompé, c'est qu'en
+prévoyant et en redoutant tant de malheurs, je n'ai pas conçu la
+centième partie de tous ceux dont je devais être accablé.
+
+Il était tout-à-fait nuit quand j'arrivai dans les environs de
+Genève. Les portes de la ville étant déjà fermées, je fus obligé
+de passer la nuit à Secheron, village situé à une demi-lieue à l'est
+de la ville. Dans une disposition d'esprit qui ne me permettait aucun
+repos, je voulus profiter de la sérénité du ciel pour voir l'endroit
+où mon pauvre Guillaume avait été assassiné. Je ne pouvais traverser
+la ville. Je me déterminai à passer le lac dans un bateau pour arriver
+à Plinpalais. Pendant ce court voyage, je vis sur le sommet du
+Mont-blanc les éclairs briller d'un éclat surprenant, et l'orage
+s'approcher avec rapidité; je touchai le rivage, et je montai sur une
+petite colline pour en observer les progrès. Il avançait au milieu
+d'un ciel qui se couvrait de nuages. Je sentis bientôt tomber de larges
+gouttes de pluie. L'orage éclata tout-à-coup avec violence.
+
+Je quittai ma place et poursuivis ma route, malgré l'obscurité et
+l'orage qui croissaient à chaque minute, et malgré le tonnerre qui
+grondait au-dessus de ma tête avec une force effrayante, répété par
+les échos de Salève, du Jura, et des Alpes de la Savoie. J'étais
+ébloui par les éclairs qui se réfléchissaient dans le lac, et le
+rendaient semblable à une vaste nappe de feu; je fus même un moment
+dans une obscurité profonde, qui dura jusqu'à ce que l'éblouissement
+de mes yeux eût cessé. L'orage, comme il arrive souvent en Suisse,
+paraissait venir à la fois de plusieurs parties du ciel. C'était au
+nord de la ville qu'il était le plus violent, au-dessus de cette partie
+du lac qui est située entre le promontoire de Belrive et le village de
+Copêt. Un autre orage montrait le Jura à la lueur se faibles éclairs.
+Un troisième obscurcissait et découvrait tour-à-tour le môle,
+montagne escarpée à l'est du lac.
+
+Témoin d'un spectacle si magnifique et si terrible à la fois, je
+marchais à pas précipités. Cette guerre majestueuse dans les cieux,
+élevait mes esprits; je frappai des mains en m'écriant avec force:
+«Guillaume, ange chéri! voici tes funérailles et tes chants
+funèbres»! En disant ces paroles, j'aperçus dans l'obscurité un
+fantôme qui sortit d'une touffe d'arbres auprès de moi; je fixai mes
+yeux sur lui pour le reconnaître: je ne pus m'y méprendre. Un éclair
+brilla et le découvrit entièrement à ma vue; sa stature gigantesque
+et la difformité de son aspect plus hideux qu'aucune forme humaine, ne
+me permirent pas de douter que ce ne fût le malheureux, l'infâme
+démon à qui j'avais donné la vie. Que faisait-il là? serait-il
+l'assassin de mon frère? (Je frémis à cette pensée). Elle entra
+subitement dans mon esprit, et y domina comme si elle était réelle. Je
+sentais mes dents s'entrechoquer, et je fus forcé de m'appuyer contre
+un arbre. En peu de temps le fantôme fut loin de moi, et disparut dans
+l'obscurité. Quel être humain aurait pu donner la mort à ce bel
+enfant? Son assassin!... Je venais de le voir, à n'en pas douter. Je ne
+pouvais me tromper: j'avais une preuve irrésistible, c'est que j'y
+avais pensé. Je voulus poursuivre le démon, mais je ne pouvais
+espérer de l'atteindre; car à la lueur d'un nouvel éclair, je le vis
+gravir les rochers presque perpendiculaires du mont Salève, montagne
+qui borne Plinpalais au sud; il parvint bientôt au sommet, et disparut.
+
+Je restai sans mouvement. Le tonnerre cessa; mais la pluie continua
+encore, et l'horizon fut enveloppé d'une obscurité impénétrable. Je
+repassai dans mon esprit les évènements que j'avais jusqu'ici cherché
+à oublier: la marche entière de mes progrès vers la création,
+l'apparition auprès de mon lit de l'être que j'avais formé et animé,
+et enfin son départ. Deux ans s'étaient presqu'écoulés depuis la
+nuit où il avait reçu la vie; était-ce son premier crime? Hélas!
+j'avais jeté dans le monde un monstre dépravé, qui se plaisait dans
+le carnage et la désolation; n'était-il pas l'assassin de mon frère?
+
+On ne peut se figurer tout ce que je souffris pendant le reste de la
+nuit que je passai en plein air, mouillé et transi de froid. Mais je ne
+sentais pas les injures du temps; mon imagination était occupée de
+scènes de malheur et de désespoir! L'être que j'avais mis sur la
+terre, et à qui j'avais donné la volonté et le pouvoir de commettre
+des actions atroces, semblables à celle qui m'affligeait, me parut
+être mon propre vampire, un fantôme échappé du tombeau, et porté à
+détruire tout ce qui m'était cher.
+
+Dès que le jour parut, je dirigeai mes pas vers la ville, dont les
+portes étaient ouvertes; et je courus à la maison de mon père. Ma
+première pensée fut de dire ce que je savais du meurtrier, et
+d'envoyer sur-le-champ à sa poursuite; mais je m'arrêtai, en
+réfléchissant à l'histoire que j'avais à raconter. Je devais parler
+d'un être que j'avais formé, et à qui j'avais donné la vie
+moi-même; que j'avais vu à minuit, au milieu des précipices d'une
+montagne inaccessible. Je me rappelai aussi la fièvre nerveuse dont
+j'avais été attaqué au moment même où j'avais animé ma création,
+et qui donnerait l'air du délire à une histoire d'ailleurs si peu
+probable. En effet, un semblable récit m'eût paru le rêve d'un
+insensé. Du reste, la nature singulière de l'être échapperait à
+toute poursuite, quand bien même ma famille céderait âmes instances,
+et se résoudrait à l'entreprendre. D'ailleurs, de quel avantage serait
+une poursuite? Qui pourrait arrêter un être capable d'escalader les
+flancs perpendiculaires du mont Salève? Ces réflexions fixèrent mes
+idées, et me portèrent à garder le silence.
+
+Il était environ cinq heures du matin, quand j'entrai dans la maison de
+mon père. Je dis aux domestiques de ne pas réveiller la famille, et
+j'allai dans la bibliothèque, où j'attendis l'heure à laquelle ils
+avaient coutume de se lever.
+
+Six ans s'étaient écoulés comme un songe, mais comme un songe qui
+avait laissé une trace ineffaçable; et j'étais à la même place où
+j'avais embrassé mon père pour la dernière fois, avant de partir pour
+Ingolstadt. Ce père chéri et respectable me restait encore! Je fixai
+les yeux sur un tableau qui m'offrait la figure de ma mère, et dans
+lequel mon père avait voulu retracer un trait de sa vie: c'était
+Caroline Beaufort dans les transports du désespoir, à genoux auprès
+du cadavre de son père. Ses vêtements étaient grossiers et ses joues
+pâles; mais il y avait un air de dignité et de beauté, qui laissait
+à peine accès au sentiment de la pitié. Au bas de ce tableau était
+une miniature de Guillaume, dont la vue m'arracha des pleurs. Ernest
+entra dans le moment: il m'avait entendu arriver, et s'était hâté de
+venir me joindre. Il témoigna en me voyant un plaisir mêlé de
+chagrin:--«Sois le bien venu, mon cher Victor, dit-il; ah! j'aurais
+voulu que tu fusses arrivé il y a trois mois; tu nous aurais trouvés
+tous gais et contents. Mais nous sommes maintenant malheureux; et je
+crains que tu n'aies un accueil plus mêlé de deuil que de joie. Notre
+père a un air si triste! cet évènement affreux semble avoir
+renouvelé dans son cœur le chagrin qu'il éprouva à la mort de maman.
+La pauvre Élisabeth aussi est tout-à-fait inconsolable». En parlant
+ainsi, Ernest fondait en larmes.
+
+--«Ne m'accueille pas de la sorte, lui dis-je; calme-toi, mon ami; que
+je ne sois pas tout-à-fait malheureux, au moment où je rentre dans la
+maison de mon père après une si longue absence. Mais, dis-moi, comment
+mon père supporte-t-il ses malheurs? Et la pauvre Élisabeth, comment
+est-elle»?
+
+--«Elle a bien besoin de consolation; elle s'est accusée d'avoir été
+la cause de la mort de mon frère, et elle en a été bien malheureuse!
+Mais depuis que l'assassin a été découvert...»
+
+--«L'assassin découvert! bon Dieu! comment cela se peut-il? Qui
+pourrait essayer de le poursuivre? c'est impossible; il serait aussi
+facile d'arrêter les vents, ou de renfermer un torrent dans une
+paille».
+
+--«Je ne sais ce que tu veux dire; mais nous avons tous eu une grande
+peine lorsqu'elle fut découverte. Personne ne l'aurait cru; et même
+Élisabeth en doute encore, malgré l'évidence la plus complète. En
+effet, qui aurait pu penser que Justine Moritz, qui était si aimable et
+qui avait tant d'attachement pour notre famille, ait pu tout à coup
+devenir si méchante»?
+
+--«Justine Moritz! pauvre fille, est-ce elle qui est accusée? mais
+c'est bien à tort; tout le monde le sait; personne ne le pense; j'en
+suis certain, Ernest»?
+
+--«Personne ne le croyait d'abord; mais plusieurs circonstances nous
+ont convaincus depuis presque malgré nous: sa conduite a été si
+louche, que je crains bien qu'il soit impossible de mettre en doute
+l'évidence des faits. Au reste elle doit être jugée aujourd'hui: tu
+connaîtras tout».
+
+Il me raconta que, le jour où l'on avait découvert le meurtre de
+Guillaume, Justine était tombée malade et s'était mise au lit; que
+peu de jours après, un domestique examinant par hasard la robe qu'elle
+avait portée la nuit de l'assassinat, avait trouvé dans sa poche le
+portrait de ma mère, par lequel on présumait que le meurtrier avait
+été séduit. Le domestique le montra aussitôt à un autre, qui, sans
+en dire un mot à qui que ce fût de la famille, alla trouver le
+magistrat. C'est sur leur déposition que Justine a été arrêtée.
+Accusée de ce crime, la pauvre fille confirma le soupçon par un
+extrême embarras.
+
+Ce concours de circonstances singulières n'ébranla pas ma confiance.
+Je répliquai avec force: «Vous êtes tous dans l'erreur; je connais
+l'assassin. Justine, la pauvre et bonne Justine est innocente».
+
+Dans ce moment mon père entra. Je vis sur sa figure les traces
+profondes du chagrin; mais il essaya de m'accueillir avec gaîté;
+s'entretint avec moi de nos peines, et il voulait détourner la
+conversation du triste objet dont nous étions occupés, lorsqu'Ernest
+s'écria: «Bon Dieu, papa! Victor dit qu'il sait quel est l'assassin du
+pauvre Guillaume».
+
+«--Nous le savons aussi, répondit mon père, et c'est un malheur; car,
+vraiment, j'aurais mieux aimé ne le jamais connaître, que de voir tant
+de dépravation et d'ingratitude, dans une personne qui me devait
+tout».
+
+«--Mon cher père, vous êtes dans l'erreur, Justine est innocente».
+
+«--Si elle l'est, Dieu a voulu qu'elle souffrît autant que si elle
+était coupable. Elle doit être jugée aujourd'hui; mais j'aime à
+croire qu'elle sera acquittée».
+
+Ces paroles me calmèrent. J'étais intimement persuadé que Justine
+était innocente de ce meurtre, aussi bien que tout autre être humain.
+Je ne craignais donc pas que l'évidence fût assez forte pour qu'elle
+fut convaincue du meurtre. Dans cette persuasion, je devins plus calme,
+et j'attendis avec impatience le jugement, mais sans prévoir un
+résultat fâcheux.
+
+Nous fûmes bientôt rejoints par Élisabeth. Le temps l'avait bien
+changée depuis que je l'avais vue. Six ans auparavant, c'était une
+jeune fille, jolie et vive, que tout le monde aimait et caressait;
+c'était maintenant une femme d'une taille et d'une physionomie fort
+remarquables. Son front grand et ouvert, décelait une merveilleuse
+intelligence jointe à une rare franchise de caractère. Ses yeux bruns
+exprimaient une douceur, mêlée à une tristesse qui avait pour motif
+son affliction récente. Ses cheveux étaient beaux, et noirs comme
+l'ébène; son teint superbe, et sa figure vive et gracieuse. Elle
+m'accueillit avec la plus grande affection. «Votre arrivée, mon cher
+cousin, me remplit d'espérance, dit-elle. Vous trouverez peut-être le
+moyen de mettre au jour l'innocence de ma pauvre Justine. Hélas! qui
+sera en sûreté, si elle est convaincue du crime? Je me repose sur son
+innocence avec autant de confiance que sur la mienne. Notre malheur est
+doublement affreux: nous n'avons pas seulement perdu notre aimable
+Guillaume; mais cette pauvre fille, que j'aime sincèrement, va nous
+être enlevée par une destinée encore plus cruelle. Si elle est
+condamnée, il n'y aura plus pour moi de bonheur; et, si elle est
+acquittée, comme je l'espère, je pourrai encore être heureuse, même
+après la mort affreuse de mon petit Guillaume».
+
+--«Elle est innocente, ma chère Élisabeth répondis-je, et son
+innocence sera prouvée; ne crains rien, et rassure ton esprit par la
+certitude qu'elle sera acquittée».
+
+--«Que vous êtes bon! on croit généralement qu'elle est coupable, et
+cette opinion cause mon tourment; car je sais qu'elle ne peut pas
+l'être. Mais, en voyant tout, le monde avoir contr'elle d'aussi
+fâcheuses préventions, je me suis abandonnée au désespoir». Elle
+versa des larmes.
+
+«Ma chère nièce, dit mon père, essuie tes pleurs. Si Justine est
+innocente comme tu le crois, mets confiance dans l'équité de nos
+juges, et dans le soin avec lequel je préviendrai toute ombre de
+partialité».
+
+
+
+
+CHAPITRE VII
+
+
+Le procès devait commencer à onze heures: nous restâmes jusqu'à ce
+moment dans la tristesse. J'accompagnai à la cour mon père et le reste
+de la famille, qui étaient obligés de paraître comme témoins.
+Pendant tout le temps de ce misérable simulacre de justice, je souffris
+le plus cruel tourment. On allait décider, si le résultat de ma
+curiosité et de mes inventions illégitimes, causerait la mort de deux
+de mes semblables: l'un était un enfant charmant rempli d'innocence et
+de gaîté; l'autre était destiné à une fin bien plus terrible, à
+l'infamie et à l'horreur qui s'attachent à la mémoire du meurtrier.
+Justine était aussi une fille de mérite, et possédait des qualités
+qui promettaient de rendre sa vie heureuse. Ces dons, cet espoir, tout
+allait être enseveli dans une tombe ignominieuse, et c'est moi qui en
+étais la cause! Mille fois plutôt je me serais avoué coupable du
+crime attribué à Justine; mais, absent au moment où il fut commis,
+j'aurais été pris, en faisant une semblable déclaration, pour un
+insensé qui s'égare, et je n'aurais pas disculpé celle dont je
+faisais le malheur.
+
+Justine avait l'air calme; elle était vêtue de deuil; et sa figure,
+toujours prévenante, paraissait d'une rare beauté, à laquelle
+ajoutait la solennité des sensations qui l'occupaient. Cependant, elle
+semblait se confier en son innocence, et ne pas trembler, quoiqu'elle
+fût observée et maudite par plus de mille personnes; car l'impression
+qu'avait pu produire sa beauté, s'effaçait de l'esprit des
+spectateurs, lorsqu'on pensait à l'énormité du crime dont elle était
+accusée. Elle était tranquille; mais sa tranquillité avait quelque
+chose de forcé; elle était instruite que son trouble avait été pris
+pour une preuve de son crime, et elle appliquait son esprit à paraître
+ferme. En entrant dans la salle, elle la parcourut des yeux, et
+découvrit bientôt la place que nous occupions. Une larme sembla
+mouiller sa paupière lorsqu'elle nous aperçut; mais elle se remit
+promptement: et un regard mêlé de tristesse et d'amitié, parut
+attester son entière innocence.
+
+Le jugement commença; un avocat établit les charges, et plusieurs
+témoins furent appelés. On réunit contre elle plusieurs faits
+étrangers, qui furent attestés par des personnes qui n'avaient pas,
+comme moi, des preuves de son innocence. Elle était restée dehors
+pendant toute la nuit où le meurtre avait été commis; et, vers le
+matin, elle avait été vue par une femme du marché, près de l'endroit
+où l'on avait trouvé ensuite le corps de l'enfant. Cette femme lui
+avait demandé ce qu'elle faisait là; mais elle avait les yeux
+égarés, et ne fit qu'une réponse obscure et inintelligible. Elle
+était revenue à la maison vers huit heures; et, pressée de répondre
+où elle avait passé la nuit, elle déclara qu'elle avait cherché
+l'enfant, en s'informant avec empressement si l'on avait découvert
+quelque chose. En présence du corps, elle éprouva de violentes
+attaques de nerfs, et garda le lit pendant plusieurs jours. On produisit
+alors le portrait que le domestique avait trouvé dans sa poche; et,
+lorsqu'Élisabeth, d'une voix tremblante, attesta que c'était le même
+qu'elle, avait placé autour du col de l'enfant, une heure avant qu'il
+ne partit pour la promenade, un murmure d'horreur et d'indignation se
+fit entendre dans la salle.
+
+On invita Justine à se défendre. Son visage s'était altéré à
+mesure que le jugement s'avançait: il exprimait fortement la surprise,
+l'horreur et la douleur. De temps en temps elle fondait en larmes; mais,
+invitée à se défendre, elle rassembla ses forces, et s'énonça d'une
+voix haute, quoique tremblante:
+
+«Dieu connaît, dit-elle, toute mon innocence. Mais je ne prétends pas
+devoir mon acquittement à mes protestations. Je prouverai mon innocence
+par une exposition claire et simple des faits, qui ont été dirigés
+contre moi; et j'espère que le caractère que j'ai toujours montré,
+disposera mes juges à interpréter favorablement tout ce qui peut
+sembler douteux, et donner lieu à des soupçons contre moi».
+
+Elle se mit à raconter, qu'avec la permission d'Élisabeth, elle avait
+passé la soirée de la nuit, où le crime avait été commis, chez une
+de ses tantes qui demeurait, à Chênes, village situé à environ une
+lieue de Genève. À son retour, vers les neuf heures, elle rencontra un
+homme qui lui demanda, si elle avait vu quelque trace de l'enfant qui
+était perdu. Alarmée par ces paroles, elle passa plusieurs heures à
+le chercher, laissa pendant ce temps fermer les portes de la ville, et
+se vit contrainte de passer une partie de la nuit, dans une grange
+dépendante d'une chaumière, parce qu'elle ne voulait pas réveiller
+les habitants, dont elle était bien connue. Ne pouvant goûter de repos
+ni de sommeil, elle quitta de bonne heure son asile, pour lâcher encore
+de trouver mon frère. Si elle était allée vers l'endroit où était
+le corps, c'était à son insu. Il n'était pas surprenant qu'elle eût
+été toute troublée, en répondant aux questions qui lui étaient
+faites par la marchande, puisqu'elle avait passé une nuit sans dormir,
+et qu'elle ignorait encore le sort du pauvre Guillaume. Quant au
+portrait, elle ne pouvait donner aucune explication.
+
+«Je sais, continua la malheureuse victime, combien cette seule
+circonstance me charge, mais je ne puis y jeter aucune lumière. J'ai
+déclaré ne rien savoir; je n'ai plus qu'à faire des conjectures sur
+le fait, qu'il a été placé dans ma poche. Ici, j'éprouve un nouvel
+embarras. Je ne crois pas avoir d'ennemi sur la terre, et je suis
+convaincue que nul ne serait assez méchant pour me perdre en badinant.
+Le meurtrier l'y aurait-il placé lui-même? je n'en vois pas le motif:
+et même, en supposant ce fait, pourquoi aurait-il volé le bijou pour
+s'en défaire si promptement?
+
+»Je confie ma cause à la justice de mes juges, sans conserver la plus
+faible espérance. Je demande la permission de produire quelques
+témoins pour qu'ils soient interrogés sur mon caractère; et, si leur
+témoignage n'atténue pas l'accusation du crime qui m'est attribué, je
+dois être condamnée, malgré mon innocence sur laquelle je compte pour
+être acquittée».
+
+On entendit plusieurs témoins qui la connaissaient depuis quelques
+années, et qui en parlèrent avec éloge; mais la peur et l'horreur du
+crime dont elle était accusée, enchaînaient leur langue. Élisabeth
+vit que cette dernière ressource, que l'excellent caractère et la
+conduite irréprochable de Justine ne pouvaient la sauver; et, malgré
+une agitation violente, elle demanda à la cour la permission de prendre
+la parole.
+
+«Je suis, dit-elle, la cousine du malheureux enfant qui a été
+assassiné: je puis même dire que je suis sa sœur, puisque j'ai été
+élevée par ses parents, et que j'ai toujours vécu avec eux depuis et
+long-temps même avant sa naissance.
+
+»Avec ces titres, il peut paraître inconvenant que je m'explique dans
+cette occasion; mais, au moment de voir une malheureuse créature
+livrée à la mort par la lâcheté de ses prétendus amis, je désire
+qu'on me permette de rendre témoignage à son caractère. Je connais
+bien l'accusée. J'ai vécu avec elle dans la même maison, d'abord
+pendant cinq ans, et ensuite pendant près de deux ans. Durant tout ce
+temps, elle m'a paru la plus aimable et la meilleure créature du monde.
+Dans le cours de la dernière maladie de madame Frankenstein, ma tante,
+elle l'a soignée avec la plus tendre affection et le plus grand zèle.
+Depuis, elle a donné ses soins à sa mère, qui souffrait d'une cruelle
+maladie; et elle est devenue un objet d'admiration pour tous ceux qui la
+connaissaient. À la mort de sa mère, elle est revenue à la maison de
+mon oncle, où elle était aimée de toute la famille. Elle était fort
+attachée à l'enfant qui n'est plus, et elle était, pour lui, comme la
+mère la plus tendre. Quant à moi, je n'hésite pas à déclarer que,
+malgré toute l'évidence qui s'élève contr'elle, je la crois
+entièrement innocente. Rien n'a pu la porter à commettre l'action
+atroce qui lui est imputée. Je dirai du bijou, dont on se sert pour la
+charger le plus gravement, que je lui aurais volontiers donné, elle
+l'eût vivement désiré; tant je l'estime et l'apprécie».
+
+Excellente Élisabeth! Un murmure d'approbation s'éleva; mais pour la
+généreuse personne qui intercédait, et non en faveur de la pauvre
+Justine, qu'on accusa d'une plus noire ingratitude, et qui excita
+l'indignation publique avec une violence nouvelle. Elle pleura pendant
+le discours d'Élisabeth; mais elle ne répondit pas. Mon agitation et
+mon angoisse furent extrêmes, tant que dura le jugement. J'étais
+convaincu de l'innocence de Justine; j'en avais la certitude. Le démon,
+qui avait assassiné mon frère (car je n'en doutai pas une minute),
+allait aussi, dans son plaisir infernal, livrer une personne innocente
+à la mort et à l'infamie. Je ne pus supporter l'horreur de ma
+situation; et, dès que la voix du peuple, et la figure des juges,
+eurent annoncé la condamnation de ma malheureuse victime, je sortis de
+la cour dans des transes cruelles. Les souffrances de l'accusée ne
+pouvaient égaler les miennes; elle était soutenue par son innocence;
+je me sentais déchiré par des remords dont je ne pouvais me délivrer.
+
+Je passai la nuit la plus affreuse. Le matin j'allai à la cour, dans un
+état qui enchaînait ma langue: je n'osai faire la fatale question;
+mais j'étais connu, et l'officier devina la cause de ma visite. L'urne
+fatale avait reçu les boules; toutes étaient noires; Justine était
+condamnée.
+
+Il me serait impossible de décrire ce que j'éprouvai alors. J'avais
+auparavant connu des sensations d'horreur, et j'ai tâché de les
+peindre par des expressions équivalentes; mais les mots ne pourraient
+donner une idée du désespoir horrible auquel je fus en proie dans ce
+moment. La personne, à qui je m'adressai, m'apprit que Justine venait
+d'avouer son crime. «Cet aveu, observa-t-il, était à peine
+nécessaire dans un cas aussi clair; mais je suis content qu'on l'ait
+obtenu, car aucun de nos juges ne voudrait condamner un criminel
+d'après les apparences, lors même qu'elles seraient aussi décisives
+qu'aujourd'hui».
+
+À mon retour à la maison, Élisabeth me demanda avec empressement
+quelle était l'issue du procès.
+
+«Ma cousine, répliquai-je, la décision est celle à laquelle vous
+devez vous être attendue; tous les juges aimeraient mieux voir dix
+innocents souffrir, que de laisser échapper un coupable. Au reste, elle
+a fait l'aveu du crime».
+
+Ce fut un coup affreux pour la pauvre Élisabeth, qui avait eu une
+confiance inébranlable dans l'innocence de Justine.
+
+«Hélas, dit-elle, comment croire désormais à la bonté humaine? Eh
+quoi! Justine pour qui j'avais une tendresse de sœur, n'avait-elle ce
+sourire de l'innocence que pour me trahir? Ses yeux, où brillait la
+douceur, semblaient inaccessibles à la sévérité ou à la mauvaise
+humeur, et cependant elle s'est souillée d'un meurtre»!
+
+Bientôt après, nous apprîmes que la pauvre victime avait témoigné
+le désir de voir ma cousine. Mon père n'était pas de cet avis; mais
+il la laissa maîtresse de décider, en l'engageant à réfléchir sur
+cette visite. «Oui, dit Élisabeth, j'irai voir Justine, la coupable
+Justine; et vous, Victor, vous m'accompagnerez: je ne puis aller
+seule». L'idée de cette visite était un tourment pour moi, cependant
+je ne pus me refuser au désir d'Élisabeth.
+
+Nous entrâmes dans une prison obscure. Justine était assise dans un
+coin, sur la paille, les mains retenues par des menottes, et la tête
+appuyée sur les genoux. Elle se leva en nous voyant entrer. Lorsque
+nous fûmes seuls avec elle, elle se jeta aux pieds d'Élisabeth, en
+pleurant amèrement. Ma cousine ne put retenir ses pleurs.
+
+«Ah! Justine, dit-elle, pourquoi m'as-tu enlevé ma dernière
+consolation? Je croyais à ton innocence; avec cette pensée, j'étais
+bien malheureuse, mais je ne l'étais pas autant que je le suis à
+présent».
+
+--«Et croyez-vous aussi que je sois criminelle? Vous joignez-vous aussi
+à mes ennemis pour m'accabler»? Sa voix fut étouffée par ses
+sanglots.
+
+--»Lève-toi, ma pauvre fille, dit Élisabeth; pourquoi es-tu à
+genoux, si tu es innocente? Je ne suis pas au nombre de tes ennemis; je
+t'ai crue innocente, contre toutes les apparences, jusqu'au moment où
+j'appris que tu avais toi-même déclaré ton crime. Ce bruit est faux,
+dis-tu; sois bien persuadée, ma chère Justine, que ton aveu seul a pu
+ébranler un moment la confiance que tu m'inspires».
+
+«J'ai fait un aveu; mais un aveu mensonger. Je l'ai fait, afin
+d'obtenir grâce; et maintenant ce mensonge pèse plus sur mon cœur que
+toutes mes fautes. Que le Dieu du ciel me pardonne! Depuis ma
+condamnation, je suis sans cesse assiégée par mon confesseur. Il m'a
+effrayée et menacée, au point que déjà je m'imaginais être le
+monstre dont il me parle incessamment. Il m'a menacée de
+l'excommunication et des feux de l'enfer, si je persévérais dans mes
+dénégations. Ma chère demoiselle, je n'avais personne pour me
+soutenir; tout le monde me regardait comme une misérable, vouée à
+l'ignominie et à la mort. Que pouvais-je faire? Dans un moment que je
+déteste, je souscrivis à un mensonge; et c'est seulement à présent
+que je suis vraiment à plaindre».
+
+Elle s'arrêta pour fondre en larmes, et poursuivit en ces termes:
+«J'ai pensé avec horreur, mon excellente demoiselle, que vous me
+soupçonneriez d'un crime que le démon seul peut avoir commis; moi qui
+avais su mériter l'estime de votre bienheureuse tante, et votre
+affection personnelle. Cher Guillaume! bienheureux enfant, je le
+reverrai bientôt dans le ciel, où la paix nous est réservée; et
+c'est ma consolation, au moment où je vais souffrir l'ignominie et la
+mort».
+
+--«Ah! Justine! pardonne-moi d'avoir pu un moment manquer de confiance
+en toi. Pourquoi faire un aveu? mais ne t'afflige pas, ma chère fille;
+je proclamerai partout ton innocence, et je forcerai d'y croire.
+Cependant il faut que tu meures; toi, ma compagne, toi qui étais pour
+moi plus qu'une sœur. Je ne pourrai survivre à un malheur aussi
+affreux».
+
+«Ma chère, ma bonne Élisabeth, ne pleurez pas. Vous devriez me donner
+du courage en me parlant d'une meilleure vie, et m'élever au-dessus des
+misères de ce monde d'injustice et de malheur. Mon excellente amie,
+livrez pas au désespoir».
+
+--«Je tâcherai de te consoler; mais je crains que ce malheur ne soit
+trop profond et trop cruel pour admettre aucune consolation, car il ne
+reste aucun espoir. Cependant, ma chère Justine, puisse le ciel
+t'envoyer la résignation, et élever ton âme au-dessus de ce monde.
+Ah! combien je hais ses parades si vaines et si dérisoires! Une
+personne est-elle assassinée? une autre est aussitôt privée de la vie
+en souffrant de longues tortures. Alors, les bourreaux, les mains encore
+teintes du sang de l'innocence, se persuadent qu'un tel acte est bien
+grand, et l'appellent compensation. Nom odieux! dès qu'il est
+prononcé, je sais qu'on va infliger des châtiments plus grands et plus
+affreux, que n'en a jamais inventé le tyran le plus cruel pour
+rassasier sa vengeance. Ce que je dis n'est pas pour te consoler, ma
+Justine, à moins que tu ne te réjouisses de sortir d'un séjour aussi
+malheureux. Hélas! plût à Dieu que je reposasse en paix avec ma tante
+et mon aimable Guillaume, loin d'un monde qui m'est odieux, et des
+hommes que j'abhorre».
+
+Justine sourit languissamment.
+
+--«Voilà, ma chère demoiselle, du désespoir et non de la
+résignation. Il ne faut pas que je suive l'exemple que vous me montrez.
+Parlez de ce qui peut me donner du calme, et non de ce qui sert à
+augmenter ma douleur».
+
+Pendant cette conversation, je m'étais retiré dans un coin de la
+prison, pour cacher les horribles angoisses auxquelles j'étais en
+proie. Du désespoir! qui osait en parler? la pauvre victime, qui le
+lendemain allait franchir l'effrayante limite qui sépare la vie de la
+mort, n'éprouvait pas comme moi une agonie profonde et déchirante. Mes
+dents tremblaient les unes contre les autres; un soupir s'exhala du fond
+de mon cœur. Justine tressaillit, me reconnut, s'approcha de moi, et
+dit: «Mon cher monsieur, vous êtes bien bon de venir me visiter; vous
+ne croyez pas, j'espère, que je sois coupable». Je ne pus
+répondre.--«Non, Justine, dit Élisabeth, il est plus convaincu de ton
+innocence que je ne l'étais; car même après ton aveu, il ne voulait
+pas y ajouter foi».
+
+--«Je le remercie sincèrement. Dans ces derniers moments, j'ai la plus
+grande reconnaissance pour ceux qui ont de moi une opinion favorable.
+Que l'affection des autres est douce pour une malheureuse comme moi!
+elle me soulage de plus de la moitié de mes maux; et je sens que je
+puis mourir en paix, à présent que mon innocence est reconnue par
+vous, ma chère dame, et par votre cousin».
+
+Ainsi, la pauvre victime cherchait, en consolant les autres, à se
+consoler elle-même. Elle trouva enfin la résignation qu'elle désirait.
+Et moi, le véritable meurtrier, je sentis le remords s'élever dans mon
+sein: remords impérissable qui devait ne me laisser ni espérance, ni
+consolation. Élisabeth, en larmes, était aussi plongée dans
+l'affliction; mais sa douleur était celle de l'innocence, et semblable
+à ce nuage qui obscurcit un moment les rayons de la lune, la cache pour
+un moment, et ne peut en ternir l'éclat. L'horreur et le désespoir
+avaient pénétré dans le fond de mon cœur; je portais en moi-même un
+enfer que rien ne pouvait éteindre. Nous restâmes plusieurs heures
+avec Justine, et ce ne fut qu'avec beaucoup de peine qu'Élisabeth put
+s'en éloigner. «Je voudrais, s'écria-t-elle, mourir avec toi; je ne
+puis vivre dans ce monde de misère».
+
+Justine affecta un air de gaîté, tout en retenant avec difficulté des
+larmes amères. Elle embrassa Élisabeth, en disant, d'une voix à
+moitié étouffée: «Adieu, bonne et chère Élisabeth, ma tendre et
+unique amie. Puisse le ciel dans sa bonté vous bénir et vous
+conserver! puisse ce malheur être le dernier dont vous ayez à
+souffrir! Vivez, soyez heureuse; et que les autres soient heureux par
+vous».
+
+En quittant la prison, Élisabeth me dit: «Vous ne savez pas, mon cher
+Victor, combien je suis soulagée, à présent que je suis convaincue de
+l'innocence de cette malheureuse fille. Il n'y aurait plus eu de bonheur
+pour moi, si j'avais été trompée dans ma confiance en elle. Dans le
+moment où je la croyais coupable, j'éprouvais une angoisse que je
+n'aurais pu supporter long-temps. Maintenant mon cœur est soulagé.
+L'innocente souffre; mais celle que je croyais aimable et bonne n'a pas
+trahi la confiance que j'avais en elle; et je suis consolée».
+
+Aimable cousine! telles étaient vos pensées, douces comme vos yeux et
+votre voix. Mais moi... j'étais un malheureux dont la douleur en ce
+moment, était au-dessus de toute imagination.
+
+
+
+
+FIN DU TOME PREMIER
+
+
+
+
+
+End of the Project Gutenberg EBook of Frankenstein, ou le Prométhée moder
+e Volume 1 (of 3), by Mary Wollstonecraft Shelley
+
+*** END OF THIS PROJECT GUTENBERG EBOOK FRANKENSTEIN ***
+
+***** This file should be named 62404-0.txt or 62404-0.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.org/6/2/4/0/62404/
+
+Produced by Laura Natal Rodrigues at Free Literature (Images
+generously made available by Gallica, Bibliothèque nationale
+de France.)
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+http://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org/license
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need, are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at http://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+http://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at http://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit http://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including checks, online payments and credit card donations.
+To donate, please visit: http://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart is the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     http://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.

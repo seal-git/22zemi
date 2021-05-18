@@ -1,0 +1,2912 @@
+The Project Gutenberg EBook of Fishes of the Big Blue River Basin, Kansas, by 
+W. L. Minckley
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: Fishes of the Big Blue River Basin, Kansas
+
+Author: W. L. Minckley
+
+Release Date: October 13, 2011 [EBook #37742]
+
+Language: English
+
+Character set encoding: ISO-8859-1
+
+*** START OF THIS PROJECT GUTENBERG EBOOK FISHES OF THE BIG BLUE RIVER ***
+
+
+
+
+Produced by Chris Curnow, Tom Cosmas, Joseph Cooper and
+the Online Distributed Proofreading Team at
+http://www.pgdp.net
+
+
+
+
+
+
+
+
+
+  UNIVERSITY OF KANSAS PUBLICATIONS
+  MUSEUM OF NATURAL HISTORY
+
+  Volume 11, No. 7, pp. 401-442, 2 plates, 4 figs. in text, 5 tabl.
+
+  May 8, 1959
+
+
+
+  Fishes of the Big Blue River Basin,
+  Kansas
+
+  BY
+
+  W. L. MINCKLEY
+
+
+  UNIVERSITY OF KANSAS
+  LAWRENCE
+  1959
+
+
+
+
+  UNIVERSITY OF KANSAS PUBLICATIONS, MUSEUM OF NATURAL HISTORY
+
+  Editors: E. Raymond Hall, Chairman, Henry S. Fitch, Robert W. Wilson
+
+
+  Volume 11, No. 7, pp. 401-442, 2 plates, 4 figs. in text, 5 tables
+  Published May 8, 1959
+
+
+  UNIVERSITY OF KANSAS
+  Lawrence, Kansas
+
+  A CONTRIBUTION FROM
+  THE STATE BIOLOGICAL SURVEY OF KANSAS
+
+
+  PRINTED IN
+  THE STATE PRINTING PLANT
+  TOPEKA, KANSAS
+  1959
+
+  [Union Label]
+
+  27-7080
+
+
+
+
+Fishes of the Big Blue River Basin, Kansas
+
+BY
+
+W. L. MINCKLEY
+
+
+
+
+CONTENTS
+
+
+                                                                  PAGE
+  Introduction                                                     403
+  Acknowledgments                                                  404
+  Tuttle Creek Dam and Reservoir                                   404
+  Big Blue River Basin                                             404
+  Geology of the basin                                             405
+  Climate, population, and land-use                                406
+  Physical features of streams                                     407
+  Previous records of fishes                                       410
+  Methods and materials                                            410
+  Collecting stations                                              412
+  Annotated list of species                                        414
+  Hybrid combinations                                              431
+  Relative abundance and discussion of species                     431
+  Creel census                                                     435
+  Recommendations                                                  437
+  Summary                                                          438
+  Literature cited                                                 438
+
+
+
+
+INTRODUCTION
+
+
+The Big Blue River in northeastern Kansas will soon be impounded by
+the Tuttle Creek Dam, located about five miles north of Manhattan,
+Kansas. Since the inception of this project by the U. S. Army Corps of
+Engineers much argument has arisen as to the values of the dam and
+reservoir as opposed to the values of farmland and cultural
+establishments to be inundated (Schoewe, 1953; Monfort, 1956; and Van
+Orman, 1956). Also, there has been some concern about the possible
+effects of impoundment on the fish-resources of the area, which
+supports "a catfish fishery that is notable throughout most of the
+State of Kansas and in some neighboring states (U. S. Fish and
+Wildlife Service, 1953:9)." The objectives of my study, conducted from
+March 30, 1957, to August 9, 1958, were to record the species of fish
+present and their relative abundance in the stream system, and to
+obtain a measure of angler success prior to closure of the dam. These
+data may be used as a basis for future studies on the fish and fishing
+in the Big Blue River Basin, Kansas.
+
+
+
+
+ACKNOWLEDGMENTS
+
+
+I thank Messrs. J. E. Deacon, D. A. Distler, Wallace Ferrel, D. L.
+Hoyt, F. E. Maendele, C. O. Minckley, B. C. Nelson, and J. C. Tash for
+assistance in the field and for valuable suggestions. Dr. J. B. Elder,
+Kansas State College, arranged for loan of specimens, and Mr. B. C.
+Nelson supplied data on _Notropis deliciosus_ (Girard) in Kansas, and
+on specimens in the University of Michigan Museum of Zoology.
+
+I thank the many landowners who allowed me access to streams in the
+Big Blue River Basin. The U. S. Army Corps of Engineers, Kansas City
+District, also allowed access in the reservoir area, and furnished
+information and some photographs. Mr. J. C. Tash did chemical
+determinations on my water samples.
+
+Dr. Frank B. Cross guided me in this study and in preparation of this
+report. Drs. E. Raymond Hall and K. B. Armitage offered valuable
+suggestions on the manuscript. Equipment and funds for my study were
+furnished by the State Biological Survey of Kansas, and the Kansas
+Forestry, Fish and Game Commission granted necessary permits.
+
+
+
+
+TUTTLE CREEK DAM AND RESERVOIR
+
+
+The data on Tuttle Creek Dam and Reservoir that follow were furnished
+by Mr. Donald D. Poole, U. S. Army Corps of Engineers, Kansas City
+District. The dam, an earth-fill structure, will be 7,500 feet in
+length, with a maximum height of 157 feet above the valley floor.
+Release of water will be from beneath the west end of the dam, through
+two tunnels 20 feet in diameter that have a capacity of 45,000 cubic
+feet per second; however, releases exceeding 25,000 c. f. s. are not
+planned. The gated spillway is located at the east end of the dam.
+Freeboard will be 23 feet at the top of flood-control pool.
+
+The reservoir will have a maximum pool of 2,280,000 acre-feet
+capacity, a 53,500-acre surface area, and 368 miles of shoreline. The
+present operational plan provides for a conservation pool having a
+surface area of 15,700 acres, a shoreline of 112 miles, and a length
+of 20 miles.
+
+
+
+
+BIG BLUE RIVER BASIN
+
+
+Big Blue River and its tributaries, a sub-basin of the Kansas River
+System, drain approximately 9,600 square miles, of which 2,484 miles
+are in Kansas (Colby, _et al._, 1956:44). The headwaters of the Big
+Blue River are in central Hamilton County, Nebraska, near the Platte
+River (Fig. 1). The stream flows generally south and east for 283
+miles to its confluence with the Kansas River near Manhattan, Kansas.
+Little Blue River, the largest tributary to the Big Blue, rises in
+eastern Kearney and western Adams counties, Nebraska, and flows
+southeast for 208 miles to join the Big Blue near Blue Rapids, Kansas
+(Nebraska State Planning Board, 1936:628). The Big Blue River Basin
+varies in width from 129 miles in the northwest, to approximately ten
+miles near the mouth (Colby, _et al._, 1956:44).
+
+
+
+
+GEOLOGY OF THE BASIN
+
+
+In Kansas, outcrops of Pennsylvanian and Cretaceous age occur along
+the extreme eastern and western sides of the Big Blue River Basin,
+respectively, whereas Permian beds (overlain by Pleistocene deposits)
+occur throughout most of the remainder of the watershed (see Moore and
+Landes, 1937). The Big Blue and Little Blue rivers and their
+tributaries have deeply incised the Permian beds of the Flint Hills in
+Kansas, exposing limestones and shales of the Admire, Council Grove,
+Chase, and Sumner groups (Wolfcampian and Leonardian series) (Walters,
+1954:41-44). Pleistocene deposits in the Big Blue Basin in Kansas
+consist of alluvium, glacial till, and glacial outwash from the Kansan
+glacial stage, overlain by loess deposits of Wisconsin and Recent
+stages (Frye and Leonard, 1952: pl. 1).
+
+   [Illustration: FIG. 1. Big Blue River Basin, Kansas and Nebraska.]
+
+The Big Blue River was formed "in part on the till plain surface and
+in part by integration of spillway channels," in the latter portion of
+the Kansan glaciation (Frye and Leonard, 1952:192). This stream, and
+the Republican River to the west, carried waters from the areas that
+are now the Platte, Niobrara, and upper Missouri River basins (Lugn,
+1935:153). Drainage was southward, through Oklahoma, until
+establishment of the east-flowing Kansas River (Frye and Leonard,
+1952:189-190). As Kansan ice receded the Blue and Republican rivers
+retained what is now the Platte River Basin. The lower Platte River
+developed and the surface drainage became distinct in the Iowan
+(Tazwellian) portion of the Wisconsin glacial stage (Lugn,
+1935:152-153). However, according to Lugn (1935:203) the Platte River
+Basin contributes about 300,000 acre-feet of water per year to the Big
+Blue and Republican rivers by percolation through sands and gravels
+underlying the uplands that now separate the basins.
+
+
+
+
+CLIMATE, POPULATION, AND LAND-USE
+
+
+Climate of the Big Blue River Basin is of the subhumid continental
+type, with an average annual precipitation of 22 inches in the
+northwest and 30 inches in the southeast. The mean annual evaporation
+from water surfaces exceeds annual precipitation by approximately 30
+inches (Colby, _et al._, 1956:32-33).
+
+The average annual temperature for the basin is 53° F. (Flora,
+1948:148). According to Kincer (1941:704-705) the average temperature
+in July, the warmest month, is 78° F., and the coolest month, January,
+averages 28° F. Periods of extreme cold and heat are sometimes of long
+duration. Length of the growing season varies from less than 160 days
+in the northwest to 180 days in the southeast (Kincer, _loc. cit._).
+
+The human population of the Big Blue Basin varies from about 90
+persons per square mile in one Nebraska county in the northwest and
+one Kansas county in the southeast, to as few as six persons per
+square mile in some northeastern counties. The population is most
+dense along the eastern border of the basin, decreasing toward the
+west. This decrease in population is correlated with the decrease in
+average annual precipitation from east to west (Colby, _et al._,
+1956:80).
+
+The principal land-use in the Big Blue Watershed is tilled crops, with
+wheat, sorghums, and corn being most important. Beef cattle are
+important in some portions of the basin. Colby, _et al._ (1956:24)
+reported that in 1954 as much as 55 per cent of the land in some
+counties near the mouth of the Big Blue River was in pasture. Only one
+Nebraska county had less than 15 per cent in pastureland.
+
+
+
+
+PHYSICAL FEATURES OF STREAMS
+
+
+Streams of the Big Blue River Basin are of three kinds: turbid,
+sandy-bottomed streams, usually 150 to 300 feet in width; relatively
+clear, mud-bottomed streams, ten to 60 feet in width; and clear,
+deeply incised, gravel-bottomed streams, usually five to 30 feet in
+width.
+
+SAND-BOTTOMED STREAMS.--The Big Blue and Little Blue rivers represent
+this kind of stream. The bottoms of these rivers consist almost
+entirely of fine sand; nevertheless, their channels are primarily deep
+and fairly uniform in width, rather than broad, shallow, and braided
+as in the larger Kansas and Arkansas rivers in Kansas (Plate 11, Fig.
+1). In the Big Blue River, gravel occurs rarely on riffles, and
+gravel-rubble bottoms are found below dams (Plate 11, Fig. 2). The Big
+Blue flows over a larger proportion of gravelly bottom than does the
+Little Blue.
+
+Big Blue River rises at about 1,800 feet above mean sea level and
+joins the Kansas River at an elevation of 1,000 feet above m. s. l.
+The average gradient is 2.8 feet per mile. Little Blue River,
+originating at 2,200 feet, has an average gradient of 5.3 feet per
+mile, entering the Big Blue at 1,100 feet above mean sea level
+(Nebraska State Planning Board, 1936:628, 637). The Little Blue is the
+shallower stream, possibly because of the greater amount of sandy
+glacial deposits in its watershed and the swift flow that may cause
+lateral cutting, increased movement, and "drifting" of the sandy
+bottom.
+
+For approximately a 50-year period, stream-flow in the Big Blue River
+at its point of entry into Kansas (Barnston, Nebraska) averaged 603
+cubic feet per second, with maximum and minimum instantaneous flows of
+57,700 c. f. s. and one c. f. s. The Little Blue River at Waterville,
+Kansas, averaged a daily discharge of 601 c. f. s. (maximum 50,400,
+minimum 28). Below the confluence of the Big Blue and Little Blue
+rivers, at Randolph, Kansas, the average daily discharge was 1,690
+c.f.s. (maximum 98,000, minimum 31) (Kansas Water Resources
+Fact-finding and Research Committee, 1955:27).
+
+The turbidity of the Big Blue River, as determined by use of a Jackson
+turbidimeter, varied from 27 parts per million in winter (January 10,
+1958) to as high as 14,000 p.p.m. (July 12, 1958). The Little Blue
+River has similar turbidities, with high readings being frequent. In
+the summer of 1957, pH ranged from 7.2 to 8.4 in the Big Blue River
+Basin--values that correspond closely with those of Canfield and Wiebe
+(1931:3) who made 25 determinations ranging from 7.3 to 8.3 in the
+streams of the Nebraskan portion of this basin in July, 1930. Surface
+temperatures at various stations varied from 38° F. on January 10,
+1958, to 90° F. in backwater-areas on July 19, 1957. The average
+surface temperature at mid-day in July and August, 1957, was
+approximately 86.5° F.
+
+Chemical determinations were made on water-samples from my Station 4-S
+on the Big Blue River, and Station 50-S on the Little Blue (Table 1).
+These samples were taken from the surface in strong current.
+Determinations were made by methods described in _Standard Methods for
+the Examination of Water and Sewage_, 10th edition, 1955.
+
+
+ TABLE 1.--CHEMICAL DETERMINATIONS IN MILLIGRAMS PER LITER AT FIVE
+    STATIONS IN THE BIG BLUE RIVER BASIN, KANSAS, 1958.
+
+ TABLE LEGEND:
+  Column A: Phenolphthalein  alkalinity
+  Column B: Methyl-orange alkalinity
+  Column C: Chlorides
+  Column D: Sulphates
+  Column E: Nitrates
+  Column F: Nitrites
+  Column G: Ammonia
+  Column H: Phosphate
+
+ ==========+=====+=====+=====+=====+=====+=====+=====+=====
+   STATION |     |     |     |     |     |     |     |
+   AND     |  A  |  B  |  C  |  D  |  E  |  F  |  G  |  H
+   DATE    |     |     |     |     |     |     |     |
+ ----------+-----+-----+-----+-----+-----+-----+-----+-----
+   4-S     |     |     |     |     |     |     |     |
+  August 9 | 0.0 | 154 |  16 |  28 | 3.5 |.083 |.250 |.225
+           |     |     |     |     |     |     |     |
+  50-S     |     |     |     |     |     |     |     |
+  August 9 | 0.0 | 125 |  24 |  20 | 2.5 |.669 |.427 |.240
+           |     |     |     |     |     |     |     |
+  35-M     |     |     |     |     |     |     |     |
+  August 9 | 0.0 | 366 |  15 | 108 | 9.4 |.220 |.750 |.080
+           |     |     |     |     |     |     |     |
+  11-G     |     |     |     |     |     |     |     |
+  July 8   | 0.0 | 272 |  15 |  60 | 4.5 |.060 |.625 |.140
+           |     |     |     |     |     |     |     |
+  18-G     |     |     |     |     |     |     |     |
+  July 22  | 0.0 | 183 |  10 |  60 | 1.6 |.938 |.293 |.240
+ ----------+-----+-----+-----+-----+-----+-----+-----+-----
+
+
+The banks of both the Big Blue and Little Blue rivers support narrow
+riparian forests comprised primarily of elm, _Ulmus americanus_,
+cottonwood, _Populus deltoides_, sycamore, _Platanus occidentalis_,
+and willow, _Salix_ spp. Maple, _Acer_ sp., oak, _Quercus_ spp., and
+ash, _Fraxinus_ sp. occur where the rivers flow near steep, rocky
+hillsides. Many of the hills are virgin bluestem prairies
+(_Andropogon_ spp.), but the floodplains are heavily cultivated.
+
+MUD-BOTTOMED STREAMS.--Streams of this kind are present in the
+watershed of the Black Vermillion River that enters Big Blue River
+from the east. The area east of the Big Blue River and north of the
+Black Vermillion River is till plains, where relief seldom exceeds 100
+feet (Walters, 1954:12). Streams in this portion of the basin, and
+streams entering the Little Blue River from the west (Mill Creek and
+Horseshoe Creek systems), tend to have V-shaped channels, fewer
+riffles than the Little Blue and Big Blue rivers and in the gravelly
+streams (to be described later), and have bottoms of mud or clay, with
+few rocks (Plate 12, Fig. 1). However, in the extreme headwaters of
+most western tributaries of the Little Blue River (in Washington and
+Republic counties) sandy bottoms predominate. The Black Vermillion
+River flows on a broad floodplain and is a mud-bottomed, sluggish
+stream, with an average gradient of approximately one foot per mile.
+Fringe-forests of elm, cottonwood, sycamore, and willow persist along
+most of these stream-courses.
+
+Notwithstanding the mud bottoms, the water in this kind of stream in
+the Big Blue Basin remains clearer than that of the Big Blue and
+Little Blue rivers. Heavy algal blooms were noted in the Black
+Vermillion River and Mill Creek, Washington County, in 1957 and 1958.
+Temperatures at Stations 45-M and 46-M on Mill Creek, Washington
+County, averaged 85.5° F. on July 31, 1957. Chemical characteristics
+of a water-sample from Station 35-M, Black Vermillion River, are in
+Table 1.
+
+GRAVEL-BOTTOMED STREAMS.--Most streams of this kind are tributary to
+the Big Blue River; however, streams entering Black Vermillion River
+from the south are also of this type (Plate 12, Fig. 2). The streams
+are "characteristically a series of large pools (to 100 feet in length
+and more than two feet in depth) connected by short riffles and
+smaller pools" (Minckley and Cross, in press). The average gradients
+are high: Carnahan Creek, 33 feet per mile; Mill Creek, Riley County,
+21 feet; Clear Creek, 16 feet per mile. Stream-flow is usually less
+than five cubic feet per second. In summer, these streams may become
+intermittent, but springs and subsurface percolation maintain
+pool-levels (Minckley and Cross, _loc. cit._).
+
+The average temperatures of these small streams (79.5° to 81.0° F. in
+July and August, 1957) were lower than temperatures in stream-types
+previously described. Turbidities were usually less than 25 p.p.m. The
+chemical properties of water-samples from two of these streams
+(Stations 11-G and 18-G) are listed in Table 1.
+
+
+
+
+PREVIOUS RECORDS OF FISHES
+
+
+The earliest records of fishes from the Big Blue River Basin are those
+of Cragin (1885) and Graham (1885) in independently published lists of
+the fishes of Kansas. Meek (1895) recorded fishes collected in 1891
+"from both branches of the Blue River, a few miles west of Crete,
+Nebraska." Evermann and Cox (1896) reported five collections from the
+Nebraskan part of the basin. Their collections were made in October,
+1892, and August, 1893, and the stations were: in 1892, Big Blue River
+at Crete; in 1893, Big Blue River at Seward, Lincoln Creek at Seward
+and York, and Beaver Creek at York.
+
+Canfield and Wiebe (1931) obtained fish from 18 localities in Nebraska
+in July, 1930; however, their major concern was determination of water
+quality. Their stations were: Big Blue River at Stromsburg, Polk Co.;
+Surprise and Ulysses, Butler Co.; Staplehurst, Seward, and Milford,
+Seward Co.; Crete and Wilber, Saline Co.; Beatrice, Blue Springs, and
+Barnston, Gage Co.; Little Blue River at Fairbury, Jefferson Co.;
+Hebron, Thayer Co.; Sandy Creek at Alexandria, Thayer Co.; West Fork
+of Big Blue River at Stockham, Hamilton Co.; McCool Junction, York
+Co.; Beaver Crossing, Seward Co.; and Beaver Creek at York, York Co.
+
+Breukelman (1940) and Jennings (1942) listed fishes from the
+University of Kansas Museum of Natural History and the Kansas State
+College Museum, respectively, including some specimens collected from
+the Big Blue River System in Kansas. Because records in these two
+papers pertain to collections that were widely spaced in the basin and
+in time, the specific localities are not given herein. One of
+Jennings' (_loc. cit.)_ records, _Scaphirhynchus platorynchus_
+(Rafinesque), was cited by Bailey and Cross (1954:191). More recently,
+Minckley and Cross (in press) recorded several localities, and cited
+some papers mentioned above, in a publication dealing with _Notropis
+topeka_ (Gilbert) in Kansas.
+
+Information on the fishes of the Nebraskan portion of the Big Blue
+River Basin was compiled, and additional localities were reported, in
+a doctoral thesis by Dr. Raymond E. Johnson, entitled The Distribution
+of Nebraska Fishes, 1942, at the University of Michigan.
+
+
+
+
+METHODS AND MATERIALS
+
+
+_Collection of Fishes_
+
+The gear and techniques used are listed below:
+
+ENTRAPMENT DEVICES.--Hoop and fyke nets and wire traps were used for
+288 trap/net hours in 1957. The nets were not baited, and were set
+parallel to the current, with the mouths downstream. Hoop nets were
+1½ to three feet in diameter at the first hoop, with a pot-mesh of
+one inch; fyke nets were three feet at the first hoop, pot-mesh of
+one inch; wire traps, with an opening at each end, were 2½ feet in
+diameter and covered with one-inch-mesh, galvanized chicken wire.
+
+GILL NETS.--Experimental gill nets were set on three occasions in
+areas with little current. These nets were 125 feet in length, with
+3/4 to two inch bar-mesh in 25-foot sections.
+
+SEINES.--Seining was used more than other methods. An attempt was made
+to seine all habitats at each station. In swift water, seine-hauls
+were usually made downstream, but in quiet areas seining was done
+randomly. Haul-seines six to 60 feet in length, three to eight feet in
+depth, and with meshes of 1/8 to 1/2 inch were used. For collection of
+riffle-fishes, the seine was planted below a selected area and the
+bottom was kicked violently by one member of the party, while one or
+two persons held the seine, raising it when the area had been
+thoroughly disturbed. Seining on riffles was done with a four-foot by
+four-foot bobbinet seine.
+
+ROTENONE.--Rotenone was used in pools of smaller streams, mouths of
+creeks, borrow-pits, and cut-off areas. Both powdered and emulsifiable
+rotenone were used. The rotenone was mixed with water and applied by
+hand, or into the backwash of an outboard motor.
+
+ELECTRIC SHOCKER.--The electrical unit used in this study generated
+115 volts and 600 to 700 watts, alternating current. The shocking unit
+consisted of two booms, each with two electrodes, mounted on and
+operated from a slowly moving boat. Fish were recovered in scape nets,
+or in many cases were identified as they lay stunned and were not
+collected.
+
+
+_Estimation of Relative Abundance_
+
+Data on relative abundance of fishes were obtained by counts of seine
+hauls at 29 of the 59 stations, counts of rotenoned fish at seven
+stations, and results with the electric shocker at nine stations.
+Counts were usually made in the field; however, in some collections
+all fish were preserved and counted in the laboratory. Some fish (or
+"swirls" presumed to be fish) observed while shocking were not
+identified and are not included in the calculations. However, all fish
+positively identified while shocking are included.
+
+
+_Age and Growth of Fishes_
+
+Fish from selected size-groups were aged in this study. Scales for
+age-determinations were removed from positions recommended by Lagler
+(1952:108). Scales were placed in water between glass slides and were
+read on a standard scale-projection device.
+
+Pectoral spines of catfish were removed from one or both sides,
+sectioned, and read by methods described by Marzolf (1955:243-244).
+
+Calculation of length at the last annulus for both scale-fish and
+catfish was made by direct proportion. All measurements are of total
+length to the nearest tenth of an inch unless specified otherwise.
+
+
+_Creel Census_
+
+From April 6 to May 28, 1957, a creel census was taken below Turtle
+Creek Dam. From June 16 to July 24, 1958, I periodically visited the
+main points of access to the Big Blue River, beginning approximately
+eight miles downstream from Tuttle Creek Dam and ending six miles
+upstream from the maximal extension of the reservoir at capacity
+level. Access-points consisted of 11 bridges, two power dams, and
+three areas where county roads approached the river. Eleven eight-hour
+days were spent in the 1957 census and 22 checks in 15 days were made
+in 1958. An equal number of morning (6:00 a.m. to 12:00 noon) and
+afternoon (12:00 noon to 8:30 p.m.) checks were made.
+
+Fishermen contacted were asked the following questions: home address
+(or residence at the time of the fishing trip); time they started
+fishing; kind of fish sought; number and kinds of fish in possession;
+and baits used. Also, the number of poles and type of fishing (from
+the bank, from boat, _etc._) were recorded. Fishes caught were
+examined to confirm identifications. About 80 per cent of all
+fishermen seen were contacted.
+
+Fish per man-hour, as used in this report, refers to the average
+number of fish of all species caught by one fisherman in one hour.
+Fisherman-day is the average time spent fishing in one day by one
+person. Because some fishermen used more than one pole, the data are
+also expressed as catch per pole-hour.
+
+
+
+
+COLLECTING STATIONS
+
+
+In the list that follows, stations are numbered consecutively from the
+mouth of the Big Blue River, listing stations on each tributary as it
+is ascended. The letters following station-numbers indicate the
+general type of stream: S = sandy; M = muddy; and G = gravelly. The
+Big Blue River is the boundary between Riley and Pottawatomie
+counties, Kansas, along part of its length. Stations in this area have
+been designated Riley County. The legal description of each station is
+followed by the date(s) of collection, and each station is plotted in
+Figure 2.
+
+   [Illustration: FIG. 2. Collection stations in the Big Blue
+       River Basin, Kansas, 1957 and 1958.]
+
+   [Illustration: PLATE 11
+
+       FIG. 1. Big Blue River at Station 3-S. U.S. Army Corps of
+          Engineers photograph No. 563697.
+
+       FIG. 2. Big Blue River at Oketo, Marshall County, Kansas. U.S.
+          Army Corps of Engineers, photograph No. 67516.]
+
+   [Illustration: PLATE 12
+
+       FIG. 1. Black Vermillion River, approximately one mile upstream
+          from its mouth. Photograph by Robert G. Webb.
+
+       FIG. 2. Carnahan Creek at Station 11-G. Photograph by Robert G.
+          Webb.]
+
+ 1-S: Pottawatomie Co., mouth of Big Blue River, Sec. 16, T. 10S, R. 8E,
+   June 20, 1958.
+
+ 2-S: Riley Co., Big Blue River, Sec. 4, T. 10S, R. 8E, June 6, 12, and
+   14, 1957.
+
+ 3-S: Riley Co., Big Blue River, E ½, Sec. 30, T. 9S, R. 8E, Mar. 30,
+   Apr. 6, July 15, 16, 17, Aug. 14, and Dec. 26, 1957; Apr. 26, June
+   20, and Aug. 5, 1958.
+
+ 4-S: Riley Co., Big Blue River at Rocky Ford Dam, W ½, Sec. 30, T. 9S,
+   R. 8E, Aug. 14, 1957; and Aug. 5, 1958.
+
+ 5-G: Pottawatomie Co., McIntire Creek, Sec. 12, T. 9S, R. 7E, July 14,
+   1958.
+
+ 6-S: Riley Co., Big Blue River and adjacent borrow-pit, Sec. 24, T. 9S,
+   R. 7E, July 18 and 19, 1957; and July 11, 1958.
+
+ 7-G: Riley Co., Tuttle Creek, Sec. 10, T. 9S, R. 7E, Aug. 5, 1958.
+
+ 8-S: Riley Co., Big Blue River, Sec. 10, T. 9S, R. 7E, Aug. 14, 1957.
+
+ 9-G: Riley Co., Mill Creek, Sec. 4, T. 9S, R. 7E, July 20 and 25, 1958.
+
+ 10-G: Riley Co., Mill Creek, Sec. 2, T. 9S, R. 6E, Aug. 13, 1957.
+
+ 11-G: Pottawatomie Co., Carnahan Creek, Sec. 22, 27, and 34, T. 8S,
+   R. 7E, Aug. 1, 1957; and July 8, 1958.
+
+ 12-G: Pottawatomie Co., unnamed tributary to Carnahan Creek, Sec. 15,
+   T. 8S, R. 7E, Mar. 19, 1956 (collection made before my formal study
+   was begun).
+
+ 13-G: Pottawatomie Co., Carnahan Creek, Sec. 36, T. 7S, R. 7E, Aug. 13,
+   1957.
+
+ 14-S: Riley Co., Big Blue River, Sec. 18, T. 8S, R. 7E, Mar. 22, 1958.
+
+ 15-S: Riley Co., Big Blue River, Sec. 7, T. 8S, R. 7E, Apr. 3, and June
+   12, 1958.
+
+ 16-G: Riley Co., unnamed creek, Sec. 1, T. 8S, R. 6E, July 10, and Aug.
+   5, 1958.
+
+ 17-G: Riley Co., unnamed creek, Sec. 10, T. 8S, R. 6E, June 26, 1958.
+
+ 18-G: Riley Co., Fancy Creek, Sec. 14, T. 7S, R. 6E, July 29, 1957.
+
+ 19-G: Riley Co., Walnut Creek, Sec. 20, T. 7S, R. 6E, June 26, 1958.
+
+ 20-G: Riley Co., Fancy Creek, Sec. 2, T. 7S, R. 5E, Mar. 13, 1957; and
+   June 26, 1958.
+
+ 21-G: Riley Co., Schoolhouse Branch, Sec. 35, T. 6S, R. 5E, July 22,
+   1958.
+
+ 22-G: Riley Co., Fancy Creek, Sec. 33, T. 6S, R. 5E, June 1, 1957.
+
+ 23-G: Riley Co., West Branch Fancy Creek, Sec. 32 and 33, T. 6S, R. 5E,
+   June 1 and 3, 1957.
+
+ 24-G: Clay Co., West Branch Fancy Creek, Sec. 32 and 33, T. 6S, R. 4E,
+   July 22, 1958.
+
+ 25-S: Riley Co., Big Blue River, Sec. 5, T. 7S, R. 7E, Aug. 7, 1958.
+
+ 26-G: Riley Co., Swede Creek, Sec. 21, T. 6S, R. 7E, Mar. 22, 1958.
+
+ 27-G: Pottawatomie Co., unnamed creek, Sec. 14, T. 6S, R. 7E, Sept. 10,
+   1957.
+
+ 28-G: Pottawatomie Co., Bluff Creek, Sec. 6, T. 6S, R. 8E, Oct. 6,
+   1957.
+
+ 29-G: Pottawatomie Co., Bluff Creek, Sec. 15, T. 6S, R. 8E, June 29,
+   1958.
+
+ 30-M: Marshall Co., Black Vermillion River, Sec. 9, T. 5S, R. 8E, Mar.
+   5, 1958.
+
+ 31-G: Pottawatomie Co., Clear Creek, Sec. 3, T. 6S, R. 9E, July 14,
+   1958.
+
+ 32-G: Pottawatomie Co., unnamed creek, Sec. 14, T. 6S, R. 9E, July 14,
+   1958.
+
+ 33-M: Marshall Co., Robidoux Creek, Sec. 20, T. 2S, R. 9E, July 23,
+   1958.
+
+ 34-M: Marshall Co., Little Timber Creek, Sec. 10, T. 4S, R. 9E, Oct. 6,
+   1957.
+
+ 35-M: Marshall Co., Black Vermillion River, Sec. 15, T. 4S, R. 9E, Aug.
+   9, 1958.
+
+ 36-M: Marshall Co., unnamed creek, Sec. 8, T. 4S, R. 9E, Oct. 6, 1957.
+
+ 37-M: Marshall Co., Black Vermillion River, Sec. 11, T. 4S, R. 10E,
+   Oct. 6, 1957.
+
+ 38-S: Marshall Co., Big Blue River, Sec. 18, T. 5S, R. 8E, Aug. 8,
+   1958.
+
+ 39-S: Marshall Co., Big Blue River, Sec. 20, T. 4S, R. 7E, May 29,
+   1958.
+
+ 40-M: Washington Co., Coon Creek, Sec. 27, T. 4S, R. 4E, July 22, 1958.
+
+ 41-S: Marshall Co., Little Blue River, Sec. 9, 16, and 17, T. 4S, R.
+   6E, June 27, 1958.
+
+ 42-S: Washington Co., Little Blue River, Sec. 21, T. 3S, R. 5E, Aug. 8,
+   1958.
+
+ 43-S: Washington Co., Little Blue River, Sec. 5 and 8, T. 3S, R. 5E,
+   July 30, 1957.
+
+ 44-S: Washington Co., Little Blue River, Sec. 36, T. 1S, R. 4E, July
+   31, 1957.
+
+ 45-M: Washington Co., Mill Creek, Sec. 35 and 36, T. 1S, R. 4E, July
+   31, 1957.
+
+ 46-M: Washington Co., Mill Creek, Sec. 4, T. 2S, R. 4E, July 31, 1957.
+
+ 47-M: Washington Co., Spring Creek, Sec. 11 and 12, T. 2S, R. 3E, June
+   19, 1958.
+
+ 48-M: Washington Co., Mill Creek, Sec. 28, T. 2S, R. 2E, June 19, 1958.
+
+ 49-M: Republic Co., Mill Creek, Sec. 8 and 17, T. 2S, R. 1W, July 23,
+   1958.
+
+ 50-S: Washington Co., Little Blue River, Sec. 5, T. 1S, R. 4E, Aug. 9,
+   1958.
+
+ 51-M: Republic Co., Rose Creek, Sec. 20, T. 1S, R. 2W, July 23, 1958.
+
+ 52-S: Marshall Co., Big Blue River, Sec. 6, T. 4S, R. 7E, Aug. 6, 1958.
+
+ 53-S: Marshall Co., Big Blue River, Sec. 18, T. 3S, R. 7E, July 29 and
+   30, 1957; May 28, and Aug. 6, 1958.
+
+ 54-G: Marshall Co., Hop Creek, Sec. 13 and 18, T. 3S, R. 7E, May 28,
+   1958.
+
+ 55-M: Marshall Co., Spring Creek, Sec. 29, T. 2S, R. 8E, July 9, 1958.
+
+ 56-S: Marshall Co., Big Blue River at Marysville Dam, Sec. 20, T. 2S,
+   R. 7E, June 16, 1958.
+
+ 57-M: Marshall Co., Horseshoe Creek, Sec. 6, T. 2S, R. 7E, July 1,
+   1958.
+
+ 58-G: Marshall Co., unnamed creek, Sec. 2, T. 1S, R. 7E, July 1, 1958.
+
+ 59-G: Marshall Co., Mission Creek, Sec. 3, T. 1S, R. 8E, Nov. 30, 1957.
+
+
+
+
+ANNOTATED LIST OF SPECIES
+
+
+Forty-eight species were obtained in this survey and five others
+have been recorded in literature or are deposited in museums: KSC =
+Kansas State College Museum; and UMMZ = University of Michigan
+Museum of Zoology. Specimens, unless designated otherwise, are in
+the University of Kansas Museum of Natural History (KU).
+
+In this list, the scientific name of each species is followed by the
+common name, citations of previous records, and the stations where
+the species was obtained. I follow Bailey (1956:328-329) in treating
+_Lepisosteus osseus_ (Linnaeus), _Catostomus commersonnii_
+(Lacépède), _Semotilus atromaculatus_ (Mitchill), _Notropis
+lutrensis_ (Baird and Girard), _Pimephales promelas_ Rafinesque,
+_Ictalurus melas_ (Rafinesque), _Ictalurus punctatus_ (Rafinesque),
+and _Lepomis macrochirus_ Rafinesque, in binomial form only.
+
+=Scaphirhynchus platorynchus= (Rafinesque), shovelnose sturgeon:
+Jennings (1942:364) as _Scaphirhynchus platorhynchus_ (Rafinesque);
+Bailey and Cross (1954:191). Stations 3-S and 4-S.
+
+Shovelnose sturgeon were found only in the lower portion of the Big
+Blue River. On April 20, 1957, many were seen in fishermen's creels
+at Stations 3-S and 4-S. One male and two females that I examined on
+that date were ripe or nearly so; eggs seemed well developed and
+milt flowed freely from the male. After April, 1957, none was
+collected or observed until April 26, 1958, when one specimen was
+obtained while shocking. Forbes and Richardson (1920:27) reported
+that shovelnose sturgeon spawn in Illinois between April and June,
+and Eddy and Surber (1947:80) reported spawning in May and early
+June in Wisconsin and Minnesota.
+
+=Lepisosteus platostomus= Rafinesque, shortnose gar: Jennings
+(1942:364). Stations 3-S and 4-S.
+
+I saw shortnose gar at various times in 1956 and 1957 at Rocky Ford
+Dam on the Big Blue River (Station 4-S). One was seen while shocking
+at Station 3-S on December 26, 1957.
+
+=Lepisosteus osseus= (Linnaeus), longnose gar: Jennings (1942:364)
+as _Lepisosteus osseus oxyurus_ Rafinesque. Stations 1-S, 2-S, 3-S,
+4-S, 6-S, 8-S, 9-G, 15-S, 18-G, 25-S, 41-S, 44-S, 52-S, and 53-S.
+
+Longnose gar were abundant in the mainstream of the Big Blue River
+but usually evaded capture. This species, and the shortnose gar,
+resided in the larger rivers, with _L. osseus_ being taken in only
+two creeks near their mouths. In periods of high water, gar moved
+into the flooded creeks, but returned to the river as stream-levels
+subsided.
+
+Young-of-the-year _L. osseus_, averaging 21.5 mm. in total length
+(range 13 to 30 mm.), were taken on June 14, 1957, and larger young
+(estimated 60 to 70 mm. total length) were taken on June 27, 1958.
+
+=Dorosoma cepedianum= (LeSueur), gizzard shad: Jennings (1942:364).
+Stations 1-S, 3-S, 4-S, 6-S, 8-S, 44-S, 45-M, and 53-S.
+
+Most gizzard shad were young-of-the-year, taken on July 16 and 17,
+1957, at Stations 3-S and 4-S. Twenty specimens from Station 6-S
+that were in their second summer of life were from 3.8 to 5.9 inches
+total length at the last annulus (average 4.3). This species was
+usually found in quiet water and was most abundant near the mouth of
+the Big Blue River.
+
+=Hiodon alosoides= (Rafinesque), goldeye. Stations 3-S, 4-S, and
+53-S.
+
+I caught five specimens of _H. alosoides_ from the Big Blue River,
+and another specimen, obtained by Dr. R. B. Moorman in 1954, is at
+Kansas State College (KSC 4984).
+
+One goldeye that I caught on April 20, 1956, prior to the beginning
+of my study, was a ripe female measuring 15.5 inches total
+length. The fish was beginning its seventh summer of life.
+
+=Cycleptus elongatus= LeSueur, blue sucker. The blue sucker is
+included on the basis of a single specimen (KSC 2917) collected
+by I. D. Graham and labeled "Blue River." No other data are with
+the specimen; however, most fishes deposited at Kansas State College
+by Graham are dated "1885" or "1886" and were caught near
+"Manhattan" (Riley County).
+
+=Ictiobus cyprinella= (Valenciennes), bigmouth buffalo. Stations
+3-S, 6-S, and 30-M.
+
+Bigmouth buffalo were rare, and were taken only in quiet parts of
+larger streams, and in the borrow-pit at Station 6-S.
+
+=Ictiobus niger= (Rafinesque), black buffalo. Stations 3-S, 41-S,
+and 53-S.
+
+Only four individuals of _I. niger_ were taken. All were large
+adults (more than 20 inches in total length), and all were shocked
+in the deeper, swifter areas, where the channel narrowed.
+
+=Ictiobus bubalus= (Rafinesque), smallmouth buffalo. Stations 1-S,
+3-S, 6-S, 7-G, 18-G, 38-S, 41-S, 43-S, 46-M, and 53-S.
+
+This species was found in relatively quiet waters in the main
+channel, in cut-off areas, and in creek-mouths. The ages and total
+lengths of 30 individuals obtained at Station 6-S were (average
+followed by number of fish in parentheses): I, 2.4 (11); II, 4.4
+(14); and III, 6.6 (5).
+
+Canfield and Wiebe (1931:6-7, 10) recorded "buffalo-fish" and
+"buffalo" from the Big Blue Basin in Nebraska; however, no specific
+designation was given.
+
+=Carpiodes forbesi= Hubbs, plains carpsucker. Station 3-S.
+
+This represents the first record known to me of the plains
+carpsucker from Kansas. The specimen (KU 4180), 430 mm. in standard
+length, has the following characters: lower lip without a median,
+nipple-like projection; dorsal fin-rays, 25; lateral-line scales,
+38; diameter of orbit into distance from anterior nostril to tip of
+snout, 1.1; body-depth into standard length, 3.3; and head-length
+into standard length, 3.9. The specimen was taken while shocking a
+wide, shallow channel, over sand bottom.
+
+=Carpiodes carpio carpio= (Rafinesque), river carpsucker: Jennings
+(1942:364). Stations 1-S, 2-S, 3-S, 4-S, 5-G, 6-S, 7-G, 8-S, 9-G,
+11-G, 14-S, 15-S, 18-G, 19-G, 23-G, 25-S, 27-G, 28-G, 30-M, 38-S,
+39-S, 41-S, 42-S, 43-S, 44-S, 45-M, 50-S, 52-S, and 53-S.
+
+The river carpsucker occurred at most stations on the larger
+streams, and in many of the smaller tributaries. In smaller streams
+_C. c. carpio_ frequented the largest pools, in or near the
+floodplains of larger streams. A marked preference for still water,
+soft, silty bottoms, and areas with drift or other cover was
+apparent; however, the species also occurred in open waters with
+moderate to swift currents.
+
+The sizes attained by the river carpsucker at different ages were
+(averages followed by number of fish in parentheses): I, 1.9 (10);
+II, 3.9 (5); III, 5.3 (8); IV, 7.7 (5); V, 11.9 (2); VI, 11.6 (7);
+VII, 12.8 (6); VIII, 13.1 (1); IX, 14.9 (2); X, 15.8 (8); and XI,
+17.6 (1). These averages are significantly less than those reported
+by Buchholz (1957:594) for the river carpsucker in the Des Moines
+River, Iowa.
+
+Examination of the gonads of river carpsucker in summer, 1957,
+indicated that spawning occurred in late July. Young-of-the-year,
+averaging 21 mm. in total length, first appeared in my collections
+on July 30, 1957.
+
+=Carpiodes velifer= (Rafinesque), highfin carpsucker: Meek
+(1895:135); Evermann and Cox (1896:389).
+
+The highfin carpsucker was not taken in my survey. Meek (1895:135)
+reported "this small sucker [_C. velifer_] ... common in Blue River
+at Crete," characterizing the specimens as having "Dorsal rays, 24
+to 30; scales in the lateral-line, 36 to 41; head 3½ to 4; and
+depth 2½ to 3." The ranges in the number of dorsal rays and the
+number of scales in the lateral-line are higher than usual in _C.
+velifer_, or in _C. c. carpio_, which is now common in the Big Blue
+River Basin. Both species normally have 33 to 37 lateral-line scales
+and 27 or fewer dorsal rays (Bailey, 1956:352-353; Moore, 1957:79;
+and Trautman, 1957:81-82). The other characters listed by Meek would
+fit the young and some adults of either species, or possibly a
+composite including _C. forbesi_.
+
+Graham (1885:72) and Cragin (1885:107) reported _Ictiobus velifer_
+(= _Carpiodes velifer_) from "Eureka Lake," Riley County, Kansas.
+This lake, which no longer exists, was in the Kansas River Valley,
+about ten miles upstream from the mouth of the Big Blue River.
+Other, more recent records from the Kansas River Basin, in the
+vicinity of the Big Blue River, are: Maple Leaf Lake, Riley Co.,
+Oct. 4, 1925; Deep Creek, Riley Co., no date; Wildcat Creek, Riley
+Co., Sept. 7, 1923; and Wildcat Creek, Riley Co., Sept. 29, 1925
+(UMMZ 122187-90). Most of the collections were made by Minna E.
+Jewell (Nelson, personal communication).
+
+=Moxostoma aureolum= (LeSueur), northern redhorse: Cragin (1885:108)
+as _Moxostoma macrolepidotum_ LeSueur; Meek (1895:136) as _Moxostoma
+macrolepidotum duquesnei_ (LeSueur); Evermann and Cox (1896:394-395);
+and Jennings (1942:364) as _Moxostoma erythrurum_ (Rafinesque).
+Stations 41-S, 43-S, 44-S, and 53-S.
+
+I collected three northern redhorse from the Big Blue River Basin, and
+another specimen was seined in the mouth of Mill Creek, Riley County
+(my present Station 9-G) by the Kansas State College class in
+fisheries management in 1954 (KSC 5068). I reidentify as _M. aureolum_
+the two specimens recorded by Jennings (_loc. cit._) as _M.
+erythrurum_.
+
+The subspecific status of _M. aureolum_ in the Kansas River Basin is
+to be the subject of another paper.
+
+=Catostomus commersonnii= (Lacépède), white sucker: Canfield and Wiebe
+(1931:8) as "common suckers"; and Breukelman (1940:380). Stations 7-G,
+11-G, 12-G, 13-G, 16-G, 18-G, 19-G, 23-G, 29-G, 31-G, 53-S, 57-M, and
+58-G.
+
+The white sucker occurred primarily in upland streams of the Flint
+Hills, with one occurrence in muddy habitat, and one in the main
+stream of the Big Blue River. Young _C. commersonnii_ were often
+taken in riffles, but adults were in the larger, deeper pools. The
+ages and total lengths at the last annulus for 12 white suckers
+were: I, 2.8 (4); II, 3.9 (6); III, 8.2 (1); and IV, 9.2 (1).
+
+=Cyprinus carpio= Linnaeus, carp: Canfield and Wiebe (1931:5-8, 10)
+as "carp." Stations 1-S, 2-S, 3-S, 4-S, 6-S, 7-G, 8-S, 15-S, 16-G,
+18-G, 23-G, 24-G, 25-S, 27-G, 30-M, 35-M, 38-S, 41-S, 42-S, 43-S,
+44-S, 45-M, 52-S, 53-S, and 56-S.
+
+Carp occurred throughout the basin. The habitat of this species
+closely approximated that of the river carpsucker; however, carp
+were more often taken in moderate to swift water than were _C. c.
+carpio_.
+
+The ages and average lengths at the last annulus for 40 carp from
+the Big Blue River Basin were: I, 2.3 (4); II, 4.7 (10); III, 7.0
+(10); IV, 9.0 (3); V, 11.3 (4); VI, 18.6 (1); VII, 18.9 (3); VIII,
+no fish; IX, 20.6 (3); X, 19.1 (2); XI, 21.1 (1); XII, 22.0 (1); and
+XIII, 24.1 (2).
+
+=Carassius auratus= (Linnaeus), goldfish. Station 4-S.
+
+I saw goldfish seined from Station 4-S by anglers obtaining bait on
+April 20, 1957. Goldfish were commonly used for bait at Stations 4-S
+and 54-S.
+
+=Semotilus atromaculatus= (Mitchill), creek chub: Evermann and Cox
+(1896:399); and Jennings (1942:364) as _Semotilus atromaculatus
+atromaculatus_ (Mitchill). Stations 5-G, 7-G, 10-G, 11-G, 12-G,
+13-G, 16-G, 17-G, 18-G, 23-G, 24-G, 27-G, 28-G, 29-G, 31-G, 32-G,
+33-M, 34-M, 36-M, 37-M, 40-M, 46-M, 47-M, 48-M, 49-M, 50-S, 53-S,
+54-G, 55-M, 56-S, 57-M, 58-G, and 59-G.
+
+Creek chubs were found in all habitats in the Big Blue River Basin,
+but were abundant only in the headwaters of muddy streams and in
+clear upland creeks.
+
+=Chrosomus erythrogaster= (Rafinesque), southern redbelly dace:
+Jennings (1942:365). Stations 11-G, 12-G, 13-G, 16-G, 27-G, 29-G,
+and 53-S.
+
+This colorful species occupied the headwaters of the clear,
+spring-fed creeks where it was abundant. Only one specimen was taken
+in muddy or sandy habitat (at the mouth of a small creek at Station
+53-S), where it may have been washed by floods just prior to my
+collecting.
+
+=Hybopsis storeriana= (Kirtland), silver chub. Station 3-S.
+
+One specimen of _H. storeriana_ (KU 3810) was seined in swift water
+near a sandbar on April 6, 1957, and another was taken at the same
+locality on April 26, 1958.
+
+=Hybopsis aestivalis= (Girard), speckled chub: Meek (1895:137); and
+Evermann and Cox (1896:409), both as _Hybopsis hyostomus_ Gilbert.
+Stations 3-S, 4-S, 14-S, 25-S, 38-S, 39-S, 50-S, and 56-S.
+
+This species was restricted to wide, swift parts of the Big Blue and
+Little Blue rivers, and was found over clean, sometimes shifting,
+sand bottoms. On May 29, 1958, three males in breeding condition
+were collected and on June 16, 1958, a large series of both male and
+female _H. aestivalis_, all with well-developed gonads, was
+collected. The water temperature was 77.0°F. Hubbs and Ortenburger
+(1929:25-26) reported that _Extrarius tetranemus_ (Gilbert) (=
+_Hybopsis aestivalis tetranemus_) spawns in summer especially in
+early July. Cross (1950:135) reported a single pair of _H. a.
+tetranemus_ that he considered in breeding condition on June 9,
+1948.
+
+Breukelman (1940:380) recorded speckled chubs in the Kansas River
+Basin as _Extrarius_ (= _Hybopsis_) _aestivalis_: _sesquialis_ ×
+_tetranemus_; however, the name _sesquialis_ is a _nomen nudum_,
+and the status of this species in the Kansas River Basin is yet to
+be elucidated.
+
+=Phenacobius mirabilis= (Girard), plains suckermouth minnow: Meek
+(1895:136); and Evermann and Cox (1896:408). Stations 2-S, 3-S, 4-S,
+5-G, 6-S, 7-G, 8-S, 9-G, 11-G, 16-G, 18-G, 25-S, 26-G, 27-G, 35-M,
+38-S, 39-S, 40-M, 42-S, 47-M, 50-S, 52-S, 53-S, 54-G, and 56-S.
+
+_Phenacobius mirabilis_ was widespread in the basin, occurring most
+frequently on riffles over bottoms of clean sand or gravel.
+Young-of-the-year were usually taken in backwaters.
+
+=Notropis percobromus= (Cope), plains shiner. Stations 3-S and 4-S.
+
+The plains shiner occurred only in the lower part of the main stream
+of the Big Blue River.
+
+=Notropis rubellus= (Agassiz), rosyface shiner. Station 5-G.
+
+One rosyface shiner (KU 4195) was taken. This species was previously
+reported from only two localities in the Kansas River Basin: in the
+Mill Creek Watershed, Wabaunsee County, and Blacksmith Creek,
+Shawnee County as _Notropis rubrifrons_ (Cope) (Gilbert, 1886:208).
+Mill Creek and Blacksmith Creek are northward-flowing tributaries of
+the Kansas River that arise in the Flint Hills. Graham (1885:73)
+also recorded _N. rubellus_ (as _N. rubrifrons_) from the "Kansas
+and Missouri Rivers"; however, I suspect that his specimens were
+_Notropis percobromus_, a species not generally recognized in
+Graham's time (see Hubbs, 1945:16-17). _Notropis rubellus_ is now
+abundant in the Mill Creek Watershed (Wabaunsee County), but, except
+for my specimen No. 4195, has not been taken recently in other
+streams in the Kansas River Basin.
+
+=Notropis umbratilis umbratilis= (Girard), redfin shiner. Station
+3-S.
+
+One specimen of _N. u. umbratilis_ was captured near a sandbar on
+March 26, 1958. The absence of this species in Flint Hills streams
+of the Big Blue River Basin is unexplained; redfin shiners occur
+commonly in southern tributaries of the Kansas River both upstream
+and downstream from the mouth of the Big Blue River. In Kansas this
+species is usually associated with the larger pools of clear, upland
+streams.
+
+Canfield and Wiebe (1931:6-8) may have referred to this species in
+recording "black-fin minnows" from the Nebraskan portion of the Big
+Blue River Basin.
+
+=Notropis cornutus frontalis= (Agassiz), common shiner. Stations
+4-S, 5-G, 7-G, 10-G, 11-G, 12-G, 13-G, 18-G, 22-G, 26-G, 27-G, 28-G,
+29-G, 31-G, 32-G, and 59-G.
+
+Common shiners were most abundant in middle sections of the clear,
+gravelly creeks.
+
+=Notropis lutrensis= (Baird and Girard), red shiner: Meek
+(1895:136); and Evermann and Cox (1896:404-405). All stations
+excepting 1-S, 17-G, 30-M, and 51-M.
+
+Red shiners were the most widespread species taken in my survey,
+occurring in all habitats, and in all kinds of streams. On two
+occasions I observed what apparently was spawning behavior of this
+species. Both times the specimens collected were in the height of
+breeding condition, stripping in the hand easily, and often without
+pressure. At the first locality (Station 29-G) no attempt was made
+to obtain eggs, but by disturbing the bottom at the second (55-M) I
+found eggs that were thought to be those of red shiners. The eggs
+were slightly adhesive, clinging to the hand and to the bobbinet
+seine.
+
+On June 29, 1958, at Station 29-G, red shiners appeared to be
+spawning in an open-water area measuring about 15 by 15 feet, over
+nests of _Lepomis cyanellus_ Rafinesque and _L. humilis_ (Girard).
+No interspecific activity was noted between the sunfish and the red
+shiners. Water temperature at this station was 73.4°F., and the
+bottom was gravel, sand, and mud. Observations were made from a high
+cut-bank, by naked eye and by use of 7-X binoculars.
+
+The red shiners moved rapidly at the surface of the water, with one
+male (rarely two or more) following one female. The male followed
+closely, passing the female and causing her to change direction. At
+the moment of the female's hesitation, prior to her turn, the male
+would erect his fins in display, at the side and a little in front
+of the female. After brief display, usually less than two seconds,
+the male resumed the chase, swimming behind and around the female in
+a spiral fashion. After a chase of two to three feet, the female
+would sometimes allow the male to approach closely on her left side.
+The male nudged the female on the caudal peduncle and in the anal
+region, moving alongside with his head near the lower edge of the
+left operculum of the female, thus placing his genital pore about a
+head-length behind and below that of the female. At this time
+spawning must have occurred; however, possibly because of the speed
+of the chase, I observed no vibration of the fish as described for
+other species of _Notropis_ at the culmination of spawning
+(Pfeiffer, 1955:98; Raney, 1947:106; and others). While the spawning
+act presumably occurred the pair was in forward motion in a straight
+course, for three to five feet, at the end of which the male moved
+rapidly away, gyrating to the side and down. The female then swam
+away at a slower rate. In instances when the female failed to allow
+the male to move alongside, the male sometimes increased his speed,
+striking the female, and often causing her to jump from the water.
+
+Some conflict between males was observed, usually when two or more
+followed one female. The males would leave the female, swerve to one
+side, and stop, facing each other or side by side. At this moment
+the fins were greatly elevated in display. There was usually a rush
+on the part of one male, resulting in the flight of the other, and
+the aggressive male would pursue for about two feet. Many times the
+pursued male jumped from the water.
+
+At Station 55-M, on July 9, 1958, activity similar to that described
+above was observed in a small pool near a mass of debris. At this
+station I watched from the bank, three feet from the spawning
+shiners. Water temperature was not recorded.
+
+The minnows performed the same types of chase and display, all in
+open water, as described for Station 29-G, However, at Station 55-M,
+much activity of males occurred near the small deposit of debris. It
+seemed that conflict was taking place, with males behaving as
+described above, and milling violently about. Examination of the
+area revealed nests of _L. cyanellus_ near the debris, and some of
+the activity by the shiners may have been raids on nests of the
+sunfish. However, females nearing the group of males were
+immediately chased by one to four individual males, with one usually
+continuing pursuit after a short chase by the group. The male again
+moved into position at the lower left edge of the operculum of the
+female as at Station 29-G.
+
+Another kind of behavior was observed also, in which the female
+sometimes stopped. The male approached, erecting his fins and
+arching his body to the left. The female also assumed this arch to
+the left, and the pair moved in a tight, counter-clockwise circle,
+with the male on the inside. After a short period in this position,
+the male moved aside in display, and gyrated to the side and down.
+Females at both stations moved about slowly, usually remaining in
+the immediate vicinity of activity by males, and returning to the
+area even when pursued and deserted some distance away.
+
+=Notropis deliciosus= (Girard), sand shiner: Meek (1895:136);
+Evermann and Cox (1896:402), both as _Notropis blennius_ (Girard);
+and Jennings (1942:365) as _Notropis deliciosus missuriensis_
+(Cope). All stations excepting 1-S, 10-G, 12-G, 17-G, 20-G, 21-G,
+22-G, 24-G, 29-G, 30-M, 31-G, 32-G, 33-M, 35-M, 51-M, 55-M, 57-M,
+58-G, and 59-G.
+
+Nelson (personal communication) has studied the sand shiner in
+Kansas, and has found that the Big Blue River is an area of
+intergradation between the southwestern subspecies (_deliciosus_)
+and the plains subspecies (_missuriensis_). _Notropis d. deliciosus_
+prefers cool, rocky habitat, and occurs in small streams of the
+Flint Hills, whereas _N. d. missuriensis_ occupies the sandy, turbid
+Big Blue and Little Blue rivers. Intergrades occur most frequently
+in the Big Blue River, but are found in all habitats.
+
+=Notropis topeka= (Gilbert), Topeka shiner: Meek (1895:136);
+Evermann and Cox (1896:403); and Minckley and Cross (in press).
+Stations 10-G, 11-G, 12-G, 19-G, 31-G, and 32-G.
+
+This species was common locally in the upland streams. Female Topeka
+shiners stripped easily at Station 11-G on July 8, 1958, and adult
+_N. topeka_ in high breeding condition were collected at Station
+31-G on July 14, 1958. The water temperature at both stations was
+77.5°F. Evermann and Cox (1896:403-404) recorded female Topeka
+shiners "nearly ripe" on June 29, 1893.
+
+=Notropis buchanani= Meek, ghost shiner. Stations 3-S and 4-S. Only
+two specimens of _N. buchanani_ were taken, both on August 14, 1957.
+These specimens (KU 3833), a female with well-developed ova, and a
+tuberculate male, were near a sandbar in the main channel. To my
+knowledge, this is the first published record of the ghost shiner
+from the Kansas River Basin. Mr. James Booth, State Biological
+Survey, collected _N. buchanani_ from two stations on Mill Creek,
+Wabaunsee County, Kansas, 1953.
+
+=Hybognathus nuchalis= Agassiz, silvery minnow. Stations 2-S, 3-S,
+4-S, 7-G, 8-S, and 16-G.
+
+This species was taken sporadically, but sometimes abundantly, in
+the Big Blue River. At Stations 7-G and 16-G a few young-of-the-year
+were found.
+
+
+ TABLE 2. COMPARISONS OF THREE SERIES OF _HYBOGNATHUS_, 50 SPECIMENS
+   EACH, FROM DIFFERENT STREAM SYSTEMS.
+
+  TABLE LEGEND:
+    Column A:   [=X] = MEAN;,
+    Column B:   [sigma] = ONE STANDARD DEVIATION;
+    Column C: 2 [sigma]_{m} = TWO STANDARD ERRORS.
+
+  RANGES ARE IN PARENTHESES.
+
+  STANDARD LENGTHS OF SPECIMENS ARE:
+    WALNUT RIVER, KANSAS, 60.0 TO 72.7 mm., [=X] = 67.1;
+    BIG BLUE RIVER, 43.3 TO 63.3 mm., [=X] = 52.0; AND
+    CHIPPEWA RIVER, WISCONSIN, 57.6 TO 74.4 mm., [=X] = 65.9.
+
+ ================+=================+=================+==================
+                 | Walnut River,   |                 | Chippewa River,
+                 | Kansas          |                 | Wisconsin
+    COUNT OR     | _H. n. placita_,| Big Blue River, | _H. n. nuchalis_,
+    PROPORTIONAL | KU 3869         | Kansas  KU 3812 | KU 2012
+    MEASUREMENT  +-------+----+----+-------+----+----+-------+-----+----
+                 |   A   |  B |  C |   A   |  B |  C |  A    |  B  |  C
+ ----------------+-------+----+----+-------+----+----+-------+-----+----
+ Lateral-line    | 38.9  | 1.1| 0.4| 37.2  | 1.1| 0.4| 37.3  | 1.0 | 0.2
+  scales         |(37-41)|    |    |(35-39)|    |    |(35-39)|     |
+                 |       |    |    |       |    |    |       |     |
+ Predorsal       | 16.8  | 0.9| 0.7| 15.9  | 0.8| 0.2| 15.1  | 0.5 | 0.1
+  scale-rows     |(15-19)|    |    |(14-17)|    |    |(14-17)|     |
+                 |       |    |    |       |    |    |       |     |
+ Scale-rows below| 15.6  | 1.2| 0.3|  14.9 | 1.0| 0.3|  12.9 | 0.7 | 0.2
+   lateral-line  |(13-18)|    |    |(12-16)|    |    |(12-15)|     |
+                 |       |    |    |       |    |    |       |     |
+ Scale-rows      | 16.2  | 1.1| 0.3|  15.8 | 0.8| 0.2|  13.8 | 0.6 | 0.2
+   around caudal |(15-19)|    |    |(14-18)|    |    |(12-15)|     |
+   peduncle      |       |    |    |       |    |    |       |     |
+ ----------------+-------+----+----+-------+----+----+-------+-----+----
+
+
+ TABLE 2.--Concluded.
+
+ ============+===================+==================+===================
+             | Walnut River,     |                  | Chippewa River,
+             | Kansas            |                  | Wisconsin
+ COUNT OR    | _H. n. placita_,  | Big Blue River,  | _H. n. nuchalis_,
+ PROPORTIONAL| KU 3869           | Kansas  KU 3812  | KU 2012
+ MEASUREMENT +-------+-----+-----+------+-----+-----+-------+-----+-----
+             |   A   |  B  |  C  |   A  |  B  |  C  |  A    |  B  |  C
+ ------------+-------+-----+-----+------+-----+-----+-------+-----+-----
+ Orbit ÷     | .051  |.0035|.0010| .059 |.0047|.0013| .068  |.0044|.0013
+ standard    |(044-  |     |     |(047- |     |     |(059-  |     |
+ length      |    61)|     |     |   71)|     |     |    77)|     |
+             |       |     |     |      |     |     |       |     |
+ Gape-width ÷|.066   |.0046|.0013| .064 |.0044|.0013| .056  |.0038|.0011
+ standard    |(055-  |     |     |(055- |     |     |(046-  |     |
+ length      |    75)|     |     |   74)|     |     |    64)|     |
+             |       |     |     |      |     |     |       |     |
+ Orbit ÷     | .776  |.0083|.0024| .907 |.0080|.0023| 1.223 |.0119|.0034
+ gape-width  |(647-  |     |     |(712- |     |     |(953-  |     |
+             |   945)|     |     |1.067)|     |     | 1.566)|     |
+ ------------+-------+-----+-----+------+-----+-----+-------+-----+-----
+
+
+Bailey (1956:333) does not consider the southwestern _Hybognathus
+placita_ (Girard) specifically distinct from the northeastern _H.
+nuchalis_, but little evidence of intergradation has been published.
+In Table 2, I have compared measurements and counts of 50 specimens
+of _Hybognathus_ from the Big Blue River, 50 _H. n. placita_ from
+the Walnut River, Kansas (Arkansas River Basin), and 50 _H. n.
+nuchalis_ from Wisconsin. Measurements and counts were made by
+methods described by Hubbs and Lagler (1947:8-15) and measurements
+are expressed as thousandths of standard length.
+
+_Hybognathus_ from the Big Blue River tend to have fewer, larger
+scales than _H. n. placita_ from the Walnut River, Kansas, but more
+and smaller scales than _H. n. nuchalis_ from Wisconsin. In
+specimens from the Blue River, the size of the orbit divided by
+standard length, and the width of gape divided by standard length
+and width of orbit, are also intermediate between the Walnut River
+and Wisconsin specimens, but tend toward the former. Specimens from
+the Big Blue River resemble _H. n. placita_ from the Walnut River in
+body shape, robustness, and in the embedding of scales on the nape.
+
+=Pimephales notatus= (Rafinesque), bluntnose minnow: Meek
+(1895:136); and Evermann and Cox (1896:399). Stations 2-S, 3-S, 5-G,
+6-S, 8-S, 9-G, 10-G, 11-G, 12-G, 13-G, 16-G, 19-G, 27-G, 29-G, 53-S,
+54-G, and 58-G.
+
+The bluntnose minnow preferred the clearer creeks, with gravel or
+gravel-silt bottoms, but occurred rarely in the mainstream of the
+Big Blue River. Males and females in high breeding condition were
+taken on July 14, 1958. The temperature of the water was 75.5° F.
+
+=Pimephales promelas= Rafinesque, fathead minnow: Meek (1895: 136);
+and Evermann and Cox (1896:397-398). All stations excepting 1-S,
+4-S, 12-G, 30-M, 43-S, 44-S, and 56-S.
+
+Small muddy streams were preferred by _P. promelas_; however, the
+fathead minnow was taken in all habitats, and in association with
+most other species.
+
+Canfield and Wiebe (1931:6-7) may have recorded _P. promelas_ from
+the Big Blue River Basin, Nebraska, as "blackhead minnows."
+
+=Campostoma anomalum plumbeum= (Girard), stoneroller. All stations
+excepting 1-S, 2-S, 3-S, 14-S, 15-S, 21-G, 22-G, 28-G, 30-M, 33-M,
+34-M, 35-M, 36-M, 37-M, 38-S, 41-S, 44-S, 45-M, 51-M, 52-S, and
+55-M.
+
+Stonerollers were usually taken in riffles with gravel-rubble
+bottoms. Those individuals collected in areas with mud or sand
+bottoms were almost invariably in the current, or in the edge of
+currents.
+
+Specimens from the Big Blue River Basin have an average of 47.4
+scale-rows around the body (range 42-54).
+
+=Ictalurus melas= (Rafinesque), black bullhead: Evermann and Cox
+(1896:387) as _Ameiurus melas_ (Rafinesque); and Canfield and Wiebe
+(1931:5-7, 10) as "bullheads." Stations 2-S, 6-S, 7-G, 11-G, 16-G,
+20-G, 22-G, 23-G, 24-G, 28-G, 35-M, 40-M, 51-M, 53-S, 55-M, 56-S,
+57-M, and 58-G.
+
+Black bullhead occurred in all habitats, but were less commonly
+taken in the Big Blue and Little Blue rivers than in other streams.
+
+=Ictalurus natalis= (LeSueur), yellow bullhead. Stations 7-G, 9-G,
+10-G, 11-G, 17-G, 18-G, 19-G, 34-M, 35-M, 36-M, 37-M, 40-M, 47-M,
+48-M, 53-S, and 55-M.
+
+The yellow bullhead inhabited the muddy-bottomed streams and the
+upland, gravelly creeks, usually occurring in the headwaters. I
+obtained only one _I. natalis_ in the sandy Big Blue River.
+
+=Ictalurus punctatus= (Rafinesque), channel catfish: Cragin
+(1885:107); Meek (1895:135); Evermann and Cox (1896:386); and
+Canfield and Wiebe (1931:6-7, 10) as "channel catfish." Stations
+1-S, 2-S, 3-S, 4-S, 5-G, 6-S, 7-G, 8-S, 9-G, 11-G, 14-S, 15-S, 16-G,
+18-G, 25-S, 27-G, 30-M, 35-M, 38-S, 39-S, 41-S, 42-S, 43-S, 44-S,
+46-M, 50-S, 51-M, 52-S, 53-S, and 56-S.
+
+Channel catfish were most common in the larger, sandy streams, but
+occurred in other kinds of streams. The ages and calculated total
+lengths at the last annulus for 40 channel catfish were: I, no fish;
+II, 7.3 (16); III, 10.6 (5); IV, 12.3 (5); V, 13.3 (6); VI, 15.5
+(4); VII, 18.0 (3); and VIII, 21.9 (1). These lengths are slightly
+lower than averages reported by Finnell and Jenkins (1954:5) in
+Oklahoma impoundments.
+
+The length-frequency distribution of 438 channel catfish, collected
+by rotenone on August 5 and 7, 1958, indicated that two age-groups
+were represented. Without examination of spines, I assigned 265 fish
+to age-group O (1.3 to 2.9 inches, average 2.5) and 173 fish to
+age-group I (3.1 to 5.8 inches, average 4.5). The average total
+length of age group I (4.5 inches) is only slightly higher than the
+total length at the first annulus reported as average for Oklahoma
+(4.0 inches, Finnell and Jenkins, _loc. cit._). It seems unlikely
+that my yearling fish taken in August, 1958, would have reached the
+length at the second annulus recorded in my study of spines (7.3
+inches) by the end of the 1958 growing season.
+
+From 1952 to 1956, severe drought was prevalent in Kansas, probably
+causing streams to flow less than at any previously recorded time
+(Minckley and Cross, in press). This drought must have resulted in
+reduced populations of fishes in the streams. The channel catfish
+hatched in 1956 were therefore subjected to low competition for
+food and space when normal flow was resumed in 1957, and grew
+rapidly, reaching an average total length of 7.3 inches at the
+second annulus, while channel catfish that were members of the large
+1957 and 1958 hatches suffered more competition and grew more
+slowly.
+
+=Noturus flavus= Rafinesque, stonecat: Jennings (1942:365). Stations
+3-S, 4-S, 6-S, 16-G, 25-S, 28-G, 38-S, 41-S, 42-S, 43-S, 52-S, 53-S,
+and 56-S.
+
+_Noturus flavus_ frequented riffles and swift currents along
+sandbars in the Big Blue and Little Blue rivers. Cross (1954:311)
+reported that "the shale-strewn riffles of the South Fork [of the
+Cottonwood River, Kansas] provide ideal habitat for the stonecat."
+In my study-area, this species was found not only on rubble-bottomed
+riffles, but occurred along both stationary and shifting sandbars
+where no cover was apparent.
+
+=Pylodictis olivaris= (Rafinesque), flathead catfish: Canfield and
+Wiebe (1931:7) as "yellow catfish." Stations 3-S, 4-S, 6-S, 8-S,
+15-S, 25-S, 38-S, 41-S, 43-S, 44-S, 53-S, and 56-S.
+
+Flathead catfish were found only in the larger rivers. The species
+was taken rarely by seine, but was readily obtained by electric
+shocker. Data on the age and growth and food-habits of this species
+are to be the subject of another paper.
+
+=Anguilla bostoniensis= (LeSueur), American eel: Jennings
+(1942:365).
+
+American eels are now rare in Kansas, and none was taken in my
+survey. The specimen reported by Jennings (_loc. cit._) is at Kansas
+State College (KSC 2916), and was taken by I. D. Graham from the Big
+Blue River, Riley County, 1885.
+
+=Fundulus kansae= Garman, plains killifish. Station 42-S.
+
+The plains killifish was collected by me only at Station 42-S.
+Specimens were collected from my Station 4-S by the Kansas State
+College class in fisheries management in 1954 (KSC 4985). My
+specimens were 11 to 13 mm. in total length.
+
+=Roccus chrysops= (Rafinesque), white bass. Station 3-S.
+
+That the white bass is indigenous to Kansas is evidenced by records
+of Graham (1885:77) and Cragin (1885:111); however, since that time,
+and prior to the introduction of this species into reservoirs in the
+State, _R. chrysops_ has rarely been recorded in Kansas. I collected
+young white bass at Station 3-S in both 1957 and 1958, and I
+collected them also in an oxbow of the Kansas River four miles west
+of Manhattan, Riley County, Kansas, in the mouth of McDowell's
+Creek, Riley County, and in Deep Creek, Wabaunsee County, and I saw
+other specimens from an oxbow of the Kansas River on the Fort Riley
+Military Reservation, Riley County, Kansas. The apparent increase in
+abundance of white bass in the Kansas River Basin must be
+attributable to introductions in reservoirs, with subsequent escape
+and establishment in the streams.
+
+=Micropterus salmoides salmoides= (Lacépède), largemouth bass.
+Stations 6-S, 11-G, 43-S, and 45-M.
+
+Four largemouth bass were taken. This species has been widely
+stocked in farm-ponds and other impoundments in Kansas.
+
+=Lepomis cyanellus= Rafinesque, green sunfish: Breukelman
+(1940:382); and Canfield and Wiebe (1931:5, 7-8, 10) as "green
+sunfish." All stations excepting 1-S, 2-S, 4-S, 8-S, 9-G, 15-S,
+22-G, 25-S, 30-M, 32-G, 34-M, 38-S, 39-S, 41-S, 42-S, 43-S, 44-S,
+45-M, 46-M, 47-M, 50-S, and 52-S.
+
+Green sunfish occurred primarily in the muddy streams. The ages and
+total lengths at the last annulus for 25 specimens are as follows:
+I, 1.1 (9); II, 2.2 (4); III, 3.1 (7); IV, 5.4 (4); and V, 6.0 (1).
+Male green sunfish were seen on nests on June 29, July 1, and July
+9, 1958.
+
+=Lepomis humilis= (Girard), orangespotted sunfish: Meek (1895:137);
+Evermann and Cox (1896:418); Canfield and Wiebe (1931:6) as "orange
+spots"; and Breukelman (1940:382). All stations excepting 1-S, 9-G,
+13-G, 15-G, 17-G, 21-G, 26-G, 34-M, 36-M, 38-M, 43-M, 44-S, 47-M,
+50-S, and 52-S.
+
+_Lepomis humilis_ was most common over sand-silt bottoms. Only two
+age-groups were found; their calculated total lengths were I, 1.7
+(15); and II, 2.4 (10). Orangespotted sunfish were seen nesting on
+the same dates as _Lepomis cyanellus_.
+
+=Lepomis macrochirus= Rafinesque, bluegill. Stations 7-G, 13-G,
+16-G, 24-G, and 59-G.
+
+This species has been widely stocked in Kansas. Only
+young-of-the-year and sub-adults were taken, and these were rare.
+
+=Pomoxis annularis= Rafinesque, white crappie: Canfield and Wiebe
+(1931:5-8, 10) as "white crappie." Stations 3-S, 6-S, 8-S, 12-G,
+42-S, and 53-S.
+
+White crappie were rare, except in a borrow-pit at Station 6-S. Ages
+and calculated total lengths at the last annulus for 50 specimens
+from 6-S are as follows: I, 3.6 (22); II, 5.0 (14); III, 7.1 (5);
+IV, 8.3 (7); and V, 10.7 (2).
+
+=Pomoxis nigromaculatus= (LeSueur), black crappie. Station 6-S.
+
+One black crappie (KU 4174) was taken. Canfield and Wiebe (1931:10)
+noted: "The Black Crappie has been planted here [Big Blue River
+Basin in Nebraska] by the State, but, apparently, is not propagating
+itself."
+
+=Stizostedion canadense= (Smith), sauger. Station 56-S.
+
+Mr. Larry Stallbaumer, of Marysville, Kansas, obtained a sauger (KU
+4179) while angling on May 25, 1958.
+
+=Stizostedion vitreum= (Mitchill), walleye.
+
+Though I failed to obtain the walleye in my survey, Dr. Raymond E.
+Johnson (personal communication) reported that the species occurred
+in the Nebraskan portion of the Big Blue River in recent years.
+Canfield and Wiebe (1931:6, 10) reported that "yellow pike are taken
+at Crete [Nebraska]," but may have referred to either the walleye or
+the sauger.
+
+=Perca flavescens= (Mitchill), yellow perch: Canfield and Wiebe
+(1931:5-6, 10) as "ring perch" and "yellow perch."
+
+This fish was not taken in my survey. Canfield and Wiebe (_loc.
+cit_.) reported that the yellow perch "had been planted by the State
+[Nebraska]."
+
+=Etheostoma nigrum nigrum= Rafinesque, johnny darter: Jennings
+(1942:365) as _Boleosoma nigrum nigrum_ (Rafinesque). Stations 10-G,
+11-G, 12-G, 13-G, 16-G, 29-G, 40-M, 53-S, and 54-G.
+
+The larger pools of gravelly streams were preferred by johnny
+darters, but one specimen was taken from the main stream of the Big
+Blue River, and the species was abundant in one stream over hard,
+sand-silt bottom.
+
+=Etheostoma spectabile pulchellum= (Girard), orangethroat darter:
+Jennings (1942:365) as _Poecilichthys spectabilis pulchellus_
+(Girard). Stations 5-G, 7-G, 10-G, 11-G, 12-G, 13-G, 16-G, 17-G,
+18-G, 21-G, 23-G, 27-G, 28-G, 29-G, 33-M, 40-M, 49-M, 53-S, 54-G,
+and 59-G.
+
+The orangethroat darter was less restricted in habitat than the
+johnny darter, occurring in all stream-types, but most often in the
+riffles of gravelly streams. Most specimens from muddy or sandy
+streams were small.
+
+=Aplodinotus grunniens= Rafinesque, freshwater drum. Stations 3-S,
+4-S, 6-S, 7-G, 8-S, 15-S, 38-S, 39-S, 53-S, and 56-S.
+
+The ages and calculated total lengths at the last annulus for 42
+freshwater drum from the Big Blue River were: I, 3.0 (10); II, 5.7
+(6); III, 9.4 (7); IV, 12.1 (13); V, 14.0 (3); VI, 15.1 (2); and
+VII, 16.3 (1).
+
+
+
+
+HYBRID COMBINATIONS
+
+
+I obtained two hybrid fishes in my study-area. One specimen of
+_Notropis cornutus frontalis_ × _Chrosomus erythrogaster_ was taken
+at Station 29-G. This combination was recorded by Trautman
+(1957:114) in Ohio. The other hybrid was _Lepomis cyanellus_ ×
+_Lepomis humilis_, captured at Station 24-G. This combination was
+first recorded by Hubbs and Ortenburger (1929:42).
+
+Hubbs and Bailey (1952:144) recorded another hybrid combination from
+my area of study: _Campostoma anomalum plumbeum_ × _Chrosomus
+erythrogaster_, UMMZ 103132, from a "spring-fed creek on 'Doc'
+Wagner's farm, Riley County, Kansas; September 21, 1927; L. O. Nolf
+[collector]."
+
+
+
+
+RELATIVE ABUNDANCE AND DISCUSSION OF SPECIES
+
+
+The relative abundance of different species was estimated by
+combining counts of individual fishes taken in 290 seine-hauls, 26
+hours and 15 minutes of shocking, and seven samples obtained with
+rotenone. At some stations all seine-hauls were counted. At other
+stations the seine-hauls in which complete counts were recorded had
+been selected randomly in advance; that is to say, prior to
+collecting at each station. I selected those hauls to be counted
+from a table of random numbers (Snedecor, 1956:10-13). I did not use
+the frequency-of-occurrence method as proposed by Starrett
+(1950:114), in which the species taken and not the total number of
+individuals are recorded for all seine-hauls. However, the frequency
+of occurrence of each species is indicated by the number of stations
+at which it was found, and those stations are listed in the previous
+accounts. Table 3 shows the percentage of the total number of fish
+that each species comprised in three kinds of streams: sandy (Big
+Blue and Little Blue rivers), muddy, and gravelly streams.
+
+The habitat preferences of some species affect their abundance in
+different stream-types. _Notropis lutrensis_ and _P. mirabilis_
+seemed almost ubiquitous. _Notropis deliciosus_ also occurred in all
+kinds of streams (rarely in muddy streams); however, this species
+was represented by the sand-loving _N. d. missuriensis_ in the Big
+Blue and Little Blue rivers, and _N. d. deliciosus_ in the clear,
+gravelly, upland creeks (Nelson, personal communication). Because of
+its widespread occurrence, and for purposes of later discussion, I
+refer to this minnow also as an ubiquitous species in the Big Blue
+River Basin.
+
+_Carpiodes carpio_, _Cyprinus carpio_, _I. punctatus_, _I. melas_,
+and _L. humilis_ were widespread, but each was absent or rare in
+one of the kinds of streams (Table 3). _Carpiodes carpio_, _Cyprinus
+carpio_, and _I. punctatus_ occurred most frequently in the sandy
+streams, whereas _L. humilis_ was most common in muddy streams. The
+high per cent of _I. melas_ in collections from the Big Blue River
+is a direct result of one large population that was taken with
+rotenone in a borrow-pit at Station 6-S. In my opinion, this species
+actually was most abundant in the muddy streams.
+
+
+ TABLE 3. RELATIVE ABUNDANCE OF FISHES IN PER CENT OF THE TOTAL NUMBER
+   TAKEN, BIG BLUE RIVER BASIN, KANSAS. TRACE (TR.) IS USED FOR VALUES
+   LESS THAN .05 PER CENT, AND DASHES SIGNIFY THAT THE SPECIES DID NOT
+   OCCUR IN THE COUNTED COLLECTIONS ALTHOUGH IT MAY HAVE OCCURRED IN
+   UNCOUNTED COLLECTIONS FROM THE SAME STREAM-TYPE. THREE SPECIES,
+   _C. AURATUS_, _N. BUCHANANI_, AND _S. CANADENSE_, WERE NOT TAKEN IN
+   COUNTED COLLECTIONS.
+
+ ====================+=================+=========+==========
+                     | Sandy streams   |         |
+                     +--------+--------+ Muddy   | Gravelly
+        SPECIES      | Big    | Little | streams | streams
+                     | Blue   | Blue   |         |
+                     | River  | River  |         |
+ --------------------+--------+--------+---------+----------
+ _N. lutrensis_      |  43.5  |  55.9  |   27.6  |   56.0
+ _I. punctatus_      |  14.0  |   7.0  |    1.2  |    4.2
+ _Carpiodes carpio_  |  11.9  |   2.0  |    5.0  |    0.5
+ _N. deliciosus_     |   8.2  |  28.2  |    3.1  |   11.1
+ _I. melas_          |   2.5  |   --   |    1.3  |    0.5
+ _Cyprinus carpio_   |   2.3  |   1.9  |    2.7  |    0.2
+ _P. olivaris_       |   1.8  |   0.8  |     --  |    --
+ _L. humilis_        |   1.7  |   --   |    9.0  |    5.1
+ _I. bubalus_        |   1.4  |   0.1  |     --  |    Tr.
+ _P. mirabilis_      |   1.3  |   0.7  |    0.3  |    1.3
+ _H. nuchalis_       |   1.2  |    --  |    --   |    Tr.
+ _P. promelas_       |   0.8  |   1.0  |   28.7  |    4.0
+ _H. aestivalis_     |   0.7  |   0.2  |    --   |    --
+ _A. grunniens_      |   0.5  |   --   |    --   |    0.2
+ _L. osseus_         |   0.5  |   1.0  |    --   |    --
+ _C. anomalum_       |   0.4  |   0.2  |    2.7  |    4.6
+ _C. commersonnii_   |   0.4  |   --   |    --   |    0.7
+ _D. cepedianum_     |   0.4  |   Tr.  |    0.1  |    --
+ _N. percobromus_    |   0.3  |   --   |    --   |    --
+ _P. annularis_      |   0.3  |   Tr.  |    --   |    --
+ _N. flavus_         |   0.2  |   0.4  |    --   |    Tr.
+ _S. atromaculatus_  |   0.2  |   0.1  |   12.2  |    1.7
+ _M. aureolum_       |   0.1  |   0.2  |    --   |    --
+ _I. cyprinella_     |   0.1  |   --   |    0.1  |    --
+ _P. notatus_        |   0.1  |   --   |    --   |    2.2
+ _I. niger_          |   0.1  |   0.1  |    --   |    --
+ _H. alosoides_      |   0.1  |   --   |    --   |    --
+ _E. spectabile_     |   0.1  |   --   |    1.4  |    1.6
+ _R. chrysops_       |   0.1  |   --   |    --   |    --
+ _L. cyanellus_      |   0.1  |   --   |    3.5  |    Tr.
+ _H. storeriana_     |   Tr.  |   --   |    --   |    --
+ _L. platostomus_    |   Tr.  |   --   |    --   |    --
+ _M. salmoides_      |   Tr.  |   --   |    --   |    --
+ _P. nigromaculatus_ |   Tr.  |   --   |    --   |    --
+ _I. natalis_        |   Tr.  |   --   |    1.0  |    Tr.
+ _N. umbratilis_     |   Tr.  |   --   |    --   |    --
+ _C. forbesi_        |   Tr.  |   --   |    --   |    --
+ _S. platorynchus_   |   Tr.  |   --   |    --   |    --
+ _F. kansae_         |   --   |   Tr.  |    --   |    --
+ _E. nigrum_         |   Tr.  |   --   |    0.1  |    0.2
+ _N. rubellus_       |   --   |   --   |    --   |    Tr.
+ _N. topeka_         |   --   |   --   |    --   |    1.0
+ _N. cornutus_       |   --   |   --   |    --   |    1.0
+ _C. erythrogaster_  |   --   |   --   |    --   |    1.0
+ _L. macrochirus_    |   --   |   --   |    --   |    1.0
+ --------------------+--------+--------+---------+----------
+
+
+Some fish were almost restricted to the sandy streams, apparently
+because of preference for larger waters, or sandy stream-bottoms:
+_P. olivaris_, _I. bubalus_, _H. nuchalis_, _H. aestivalis_, _A.
+grunniens_, _L. osseus_, _D. cepedianum_, _N. percobromus_, _P.
+annularis_, _N. flavus_, _M. aureolum_, _I. niger_, _H. alosiodes_,
+and _R. chrysops_. Other species that were taken only in the larger
+rivers, and that are sometimes associated with streams even larger
+(or more sandy) than the Big Blue River are _H. storeriana_, _L.
+platostomus_, _M. salmoides_, _P. nigromaculatus_, _C. forbesi_, _S.
+platorynchus_, _F. kansae_, _N. buchanani_, _S. canadense_, and _C.
+auratus_. _Ictiobus cyprinella_ also occurred more frequently in the
+larger streams.
+
+The muddy-bottomed streams supported populations composed primarily
+of _P. promelas_, _N. lutrensis_, and _S. atromaculatus_. No
+species was restricted to this habitat, but the following were
+characteristic there: _P. promelas_, _S. atromaculatus_, _L.
+humilis_, _L. cyanellus_, and _I. natalis_. _Carpiodes carpio_,
+_Cyprinus carpio_, _C. anomalum_, _E. spectabile_, and _E. nigrum_
+were locally common in muddy streams, but the first two were most
+frequent in larger, sandy streams, and the last three in gravelly
+streams.
+
+In gravel-bottomed, upland streams, _N. cornutus_, _N. rubellus_,
+_N. topeka_, and _C. erythrogaster_ characteristically occurred;
+with the exception of _N. rubellus_ (only one specimen taken), all
+were common at some stations. Other species in gravelly creeks were
+_N. lutrensis_, _C. anomalum_, _C. commersonnii_, _P. notatus_, _L.
+macrochirus_, _E. spectabile_, and _E. nigrum_. Although the one
+specimen of _N. umbratilis_ taken in this survey was from the Big
+Blue River, this species is more characteristic of the clearer
+creeks in Kansas.
+
+In order to illustrate the composition of the fauna in some specific
+streams in the Big Blue River Basin, I segregated the fishes into
+ecological groups, as in the above discussion: ubiquitous types;
+species of larger, sandy streams; fishes of muddy streams; and
+fishes of clear, gravelly creeks.
+
+The total number of species taken in each of the streams was
+divided into the number of species from that stream that were in
+each of these units, to give a percentage. The resultant data are
+presented graphically in Figure 3.
+
+   [Illustration: FIG. 3. Composition of the fauna of the entire
+       Big Blue River Basin, and of seven streams or stream systems
+       in that basin. "Mill Creek, Wash. Co." refers to all streams
+       in the Mill Creek System, Washington and Republic counties.
+       "Bl. Vermillion R. System" includes all streams in that
+       watershed excepting Clear Creek and one of its tributaries
+       (Stations 31-G and 32-G).]
+
+   [Illustration: FIG. 4. Composition of the fauna of the Big Blue
+       River, and of five collecting-sites on Carnahan Creek,
+       Pottawatomie County. Lowermost sites are at the left of the
+       figure.]
+
+Figure 3 gives a generalized picture of the faunal composition in
+different kinds of streams. However, the fauna of a small tributary
+becomes more distinct from the fauna of the larger stream into which
+the small stream flows as one moves toward the headwaters (Metcalf,
+1957:92, 95-100). Figure 4 illustrates this in Carnahan Creek.
+Station 11-G included four sampling-sites, which were approximately
+one, two, three, and four miles upstream from the mouth of Carnahan
+Creek. Station 13-G (one collection) was about four miles upstream
+from the closest sampling-site of Station 11-G. Applying the same
+methods as for Figure 3, my findings show a gradual decline in the per
+cent of the fauna represented by the "large-river-fishes," and an
+increase in the segment classified as "upland-fishes," from downstream
+to upstream.
+
+
+
+
+CREEL CENSUS
+
+
+Fifty-three fishermen were interviewed in the 1957 creel census
+period, and 152 in 1958. Only those fishermen using pole and line were
+interviewed. In the area censused, much additional fishing is done
+with set-lines, that are checked periodically by the owners.
+
+In the 1958 census, 22 checks along approximately 80 miles of river
+were made, and seven of these trips were made without seeing one
+fisherman. The average fishing pressure for the entire area was
+estimated at one fisherman per 7.9 miles of stream, or one fisherman
+per 15.7 miles of shoreline.
+
+Seven species of fish were identified from fishermen's creels in 1957
+and 1958. These, in order of abundance were: channel catfish; carp;
+freshwater drum; flathead catfish; shovelnose sturgeon; smallmouth
+buffalo; and river carpsucker. Shovelnose sturgeon occurred in
+fishermen's creels only in April, 1957, and freshwater drum occurred
+more frequently in the spring-census of 1957 than in the summer of
+1958.
+
+Sixty-two of the fishermen interviewed in 1958 were fishing for
+"anything they could catch," 68 were fishing specifically for catfish,
+and 22 sought species other than catfish. The order of preference was
+as follows: channel catfish, 21.1 per cent; flathead catfish, 15.1 per
+cent; unspecified catfish, 12.5 per cent; carp, 9.2 per cent;
+freshwater drum, 1.3 per cent; and unspecified, 40.8 per cent. The
+kinds of fish desired by those fishermen checked in 1957 were not
+ascertained.
+
+Of all fishermen checked in 1957 and 1958, 165 were men, 17 were
+women, and 24 were children. Ninety-three per cent were fishing from
+the bank, five per cent were fishing from bridges, and two per cent
+were wading. All but two per cent of those checked were fishing
+"tightline"; the remainder fished with a cork.
+
+The ten baits most commonly used, in order of frequency, were worms,
+doughballs, minnows, liver, beef-spleen, chicken-entrails, coagulated
+blood, crayfish, shrimp, and corn.
+
+For purposes of later comparison the data on angler success (Table 4)
+have been divided according to areas: Area I, below Tuttle Creek Dam;
+Area II, in the Tuttle Creek Reservoir area; and Area III, above the
+reservoir. Areas I and III received the most fishing pressure,
+especially Station 4-S (in Area I), and Station 56-S (in Area III).
+
+In Area I, the success ranged from 0.91 fish per fisherman-day in 1957
+to 0.26 fish per fisherman-day in 1958. The 1957 census was made in
+April and May, when fishing in warm-water streams is considered better
+than in July (Harrison, 1956:203). The 1958 census was from late June
+through July, and stream-flow in this period was continuously above
+normal. Therefore, fewer people fished the river, and catches were
+irregular. Catches in 1958 ranged from 0.26 fish per fisherman-day in
+Area I to 0.44 fish per fisherman-day in Area III. In 1951, in the
+Republican River of Kansas and Nebraska, the average fisherman-day
+yielded 0.36 fish, 0.09 fish per man-hour, and 0.06 fish per pole-hour
+(U. S. Fish and Wildlife Service, 1952:13-14). The average
+fisherman-day in the Republican River study was 3.0 hours, whereas the
+average on the Big Blue River was 2.2 hours for all areas in 1958
+(Table 4).
+
+
+ TABLE 4. ANGLING SUCCESS IN THE BIG BLUE RIVER, KANSAS, 1957 AND 1958.
+
+ =================================================================
+ AREA, YEAR,    |Average      |Number       |Number  |Number
+ AND NUMBER     |length of    |fish per     |fish per|fish per
+ OF FISHERMEN   |fisherman-day|fisherman-day|man-hour|pole-hour[A]
+ ---------------+-------------+-------------+--------+------------
+ Area I,  1957  | 2.7 hours   |   0.91      |  0.33  |  0.23
+   53 fishermen |             |             |        |
+ Area I,  1958  | 2.5 hours   |   0.26      |  0.10  |  0.07
+   84 fishermen |             |             |        |
+ Area II, 1958  | 1.7 hours   |   0.37      |  0.22  |  0.14
+   27 fishermen |             |             |        |
+ Area III, 1958 | 2.4 hours   |   0.44      |  0.16  |  0.11
+   41 fishermen |             |             |        |
+ All areas, 1958| 2.2 hours   |   0.33      |  0.14  |  0.09
+   152 fishermen|             |             |        |
+
+  [A] Fishermen used an average of 1.44 poles.
+
+
+In the Big Blue River 47.7 per cent of all fishermen were successful in
+Area I in 1957, while only 13.1 per cent were successful in the same
+area in 1958 (Table 5). In the Republican River, 24 per cent of the
+fishing parties were successful (1.64 persons per party) (U. S. Fish and
+Wildlife Service, _loc. cit._). The average distance that each fisherman
+had traveled to fish in the Big Blue River was 15.7 miles. Seventy-nine
+per cent of the persons contacted lived within 25 miles of the spots
+where they fished. In the study on the Republican River, 77 per cent of
+the parties interviewed came less than 25 miles to fish.
+
+
+ TABLE 5. PER CENT OF TOTAL FISHERMEN SUCCESSFUL, AND DISTANCES
+   TRAVELLED TO FISH, BIG BLUE RIVER BASIN, KANSAS, 1957 AND 1958.
+   ALL DISTANCES WERE MEASURED IN AIRLINE MILES.
+
+ ============================+=======+=======+=======+=======+======
+                             | 1957  | 1958  | 1958  | 1958  | 1958
+                             | Area  | Area  | Area  | Area  | All
+                             |  I    |  I    |  II   | III   | areas
+ ----------------------------+-------+-------+-------+-------+------
+ Per cent of                 |  47.1 |  13.1 |  18.5 | 19.5  |  15.8
+   fishermen successful      |       |       |       |       |
+                             |       |       |       |       |
+ Distances traveled to fish  | 0-121 | 1-197 | 0-124 | 0-60  | 0-197
+ (averages in parentheses)   |(15.6) |(20.5) |(13.5) |(7.4)  |(15.7)
+ ----------------------------+-------+-------+-------+-------+-------
+
+
+
+
+RECOMMENDATIONS
+
+
+My primary recommendation is for continued study of the Tuttle Creek
+Reservoir, and the Big Blue River above and below the reservoir, to
+trace changes in the fish population that result from impoundment.
+
+Probably the fishes that inhabit the backwaters, creek-mouths, and
+borrow-pits in the Big Blue River Basin (gars, shad, carpsucker,
+buffalo, carp, sunfishes, and white bass) will increase in abundance
+as soon as Tuttle Creek Reservoir is formed. Also, as in eastern
+Oklahoma reservoirs (see Finnell, _et al_., 1956:61-73), populations
+of channel and flathead catfish should increase. Because of the
+presence of brood-stock of the major sport-fishes of Kansas (channel
+and flathead catfish, bullhead, bluegill, crappie, largemouth bass,
+and white bass), stocking of these species would be an economic waste:
+exception might be made for the white bass. It may be above Tuttle
+Creek Dam, but was not found there.
+
+I do recommend immediate introduction of walleye, and possibly
+northern pike (_Esox lucius_ Linnaeus), the latter species having been
+successfully stocked in Harlan County Reservoir, Nebraska, in recent
+years (Mr. Donald D. Poole, personal communication). These two species
+probably are native to Kansas, but may have been extirpated as
+agricultural development progressed. Reservoirs may again provide
+habitats suitable for these species in the State.
+
+If Tuttle Creek Reservoir follows the pattern found in most Oklahoma
+reservoirs, large populations of "coarse fish"--fishes that are,
+however, commercially desirable--will develop (Finnell, _et al._,
+_loc. cit._). To utilize this resource, and possibly to help control
+"coarse fish" populations for the betterment of sport-fishing, some
+provision for commercial harvest should be made in the reservoir.
+
+
+
+
+SUMMARY
+
+
+1. The Big Blue River Basin in northeastern Kansas was studied between
+March 30, 1957, and August 9, 1958. The objectives were to record the
+species of fish present and their relative abundance in the stream,
+and to obtain a measure of angling success prior to closure of Tuttle
+Creek Dam.
+
+2. Fifty-nine stations were sampled one or more times, using seines,
+hoop and fyke nets, wire traps, experimental gill nets, rotenone, and
+an electric fish shocker.
+
+3. Forty-eight species of fish were obtained, and five others have
+been recorded in literature or found in museums. One species,
+_Carpiodes forbesi_, is recorded from Kansas for the first time.
+
+4. _Notropis lutrensis_ was the most abundant fish in the Big Blue
+River Basin, followed by _Notropis deliciosus_ and _Ictalurus
+punctatus_. The most abundant sport-fishes were _I. punctatus_,
+_I. melas_, and _Pylodictis olivaris_, respectively.
+
+5. The spawning behavior of _Notropis lutrensis_ is described.
+
+6. A creel census at major points of access to the Big Blue River, was
+taken in 1957 (below Tuttle Creek Dam) and in 1958 (above, in, and
+below the dam-site). Fishing pressure averaged one fisherman per 15.7
+miles of shoreline. The average length of the fisherman-day averaged
+2.2 hours, with an average of 0.33 fish per fisherman-day being caught
+in 1958. The average number of fish per man-hour in 1958 was 0.14 and
+15.8 per cent of the fishermen were successful. Distances traveled in
+order to fish ranged from 0 to 197 miles (airline) and averaged 15.7
+miles.
+
+7. The primary recommendation is that studies be continued, to
+document changes that result from impoundment. Because brood-stock of
+the major sport-fishes is already present, stocking is unnecessary,
+except for walleye and northern pike. Also, I recommend commercial
+harvest of non-game food-fishes.
+
+
+
+
+LITERATURE CITED
+
+
+BAILEY, R. M.
+
+   1956. A revised list of fishes of Iowa, with keys for
+         identification. _In_ Iowa Fish and Fishing, by J. R. Harlan
+         and E. B. Speaker. Iowa State Cons. Comm., Des Moines,
+         pp. 325-377.
+
+
+----, and CROSS, F. B.
+
+   1954. River sturgeons of the American genus _Scaphirhynchus_:
+         characters, distribution, and synonymy. Pap. Michigan Acad.
+         Sci., Arts, and Letters, 39 (1953): 169-208.
+
+
+BREUKELMAN, J.
+
+   1940. A collection of Kansas fish in the State University
+         Museum. Trans. Kansas Acad. Sci., 43: 377-384.
+
+
+BUCHHOLZ, M.
+
+   1957. Age and growth of river carpsucker in Des Moines River,
+         Iowa. Proc. Iowa Acad. Sci., 64: 589-600.
+
+
+CANFIELD, H. L., and WIEBE, A. H.
+
+   1931. A cursory survey of the Blue River System of Nebraska.
+         U. S. Dept. Comm., Bur. of Fisheries, Econ. Circ. 73: 1-10.
+
+
+COLBY, C., DILLINGHAM, H., ERICKSON, E., JENKS, G., JONES, J., and
+     SINCLAIR, R.
+
+   1956. The Kansas Basin, Pilot Study of a Watershed. Univ. of
+         Kansas Press, Lawrence, ix + 103 pp.
+
+
+CRAGIN, F. W.
+
+   1885. Preliminary list of Kansas fishes. Bull. Washburn Lab. of
+         Nat. Hist., 1 (3):105-111.
+
+
+CROSS, F. B.
+
+   1950. Effects of sewage and of a headwaters impoundment on the
+         fishes of Stillwater Creek in Payne County, Oklahoma.
+         Amer. Midl. Nat., 43 (1):128-145.
+
+   1954. Fishes of Cedar Creek and the South Fork of the
+         Cottonwood River, Chase County, Kansas. Trans.
+         Kansas Acad. Sci., 57 (3): 303-314.
+
+
+EDDY, S., and SURBER, T.
+
+   1947. Northern Fishes, with Special Reference to the Upper
+         Mississippi Valley. Univ. of Minnesota Press, Minneapolis,
+         xii + 276 pp.
+
+
+EVERMANN, B. W., and COX, U. O.
+
+   1896. Report upon the fishes of the Missouri River Basin.
+         Appendix 5. Rept. U. S. Commissioner of Fish and Fisheries
+         for 1894. pp. 325-429.
+
+
+FINNELL, J. C., and JENKINS, R. M.
+
+   1954. Growth of channel catfish in Oklahoma waters: 1954
+         revision. Oklahoma Fish Res. Lab. Rept. 41: ii + 1-37.
+
+
+----, JENKINS, R. M. and HALL, G. E.
+
+   1956. The fishery resources of the Little River System,
+         McCurtain County, Oklahoma. Oklahoma Fish.
+         Res. Lab. Rept. 55: ii + 1-82.
+
+
+FLORA, S. D.
+
+   1948. Climate of Kansas. Rept. Kansas State Board of Agri.,
+         67 (285): xii + 1-320.
+
+
+FORBES, S. A., and RICHARDSON, R. E.
+
+   1920. The Fishes of Illinois. Nat. Hist. Survey of Illinois.
+         Illinois Printing Co., Danville, cxxxi + 357 pp.
+
+
+FRYE, J. C., and LEONARD, A. B.
+
+   1952. Pleistocene geology of Kansas. Kansas Geol. Survey,
+         Bull. 99: 1-230.
+
+
+GILBERT, C. H.
+
+   1886. Third series of notes on the fishes of Kansas. Bull.
+         Washburn Lab. of Nat. Hist., 1 (6): 207-211.
+
+
+GRAHAM, I. D.
+
+   1885. Preliminary list of Kansas fishes. Trans.
+         Kansas Acad. Sci., 9: 69-78.
+
+
+HARRISON, H. M.
+
+   1956. Angling for channel catfish. _In_ Iowa Fish and Fishing,
+         by J. R. Harlan and E. B. Speaker. Iowa State Cons. Comm.,
+         Des Moines. Pp. 202-212.
+
+
+HUBBS, C. L.
+
+   1945. Corrected distributional records for Minnesota fishes.
+         Copeia, 1945 (1):13-22.
+
+
+----, and ORTENBURGER, A. I.
+
+   1929. Further notes on the fishes of Oklahoma with descriptions
+         of new species of Cyprinidae. Pub. Univ. Oklahoma Biol.
+         Survey, 1 (2): 17-43.
+
+
+----, and LAGLER, K. F.
+
+   1947. Fishes of the Great Lakes Region. Cranbrook Inst. of
+         Sci., Bull. 26: xi + 1-186.
+
+
+----, and BAILEY, R. M.
+
+   1952. Identification of _Oxygeneum pulverulentum_ Forbes, from
+         Illinois, as a hybrid cyprinid fish. Pap. Michigan Acad.
+         Sci., Arts, and Letters, 37 (1951): 143-152.
+
+
+JENNINGS, D.
+
+   1942. Kansas fish in the Kansas State College Museum at
+         Manhattan. Trans. Kansas Acad. Sci., 45: 363-366.
+
+
+KANSAS WATER RESOURCES FACT-FINDING AND RESEARCH COMMITTEE.
+
+   1955. Water in Kansas. A Report to the Kansas State Legislature ...
+         Univ. of Kansas. 1-216 pp.
+
+
+KINCER, J. B.
+
+   1941. Climate and weather data for the United States. _In_
+         Climate and Man, Yearbook of Agri. for 1941. House Doc. 27.
+         pp. 685-699.
+
+
+LAGLER, K. F.
+
+   1952. Freshwater Fishery Biology. Wm. C. Brown Co., Dubuque,
+         Iowa. x + 360 pp.
+
+
+LUGN, A. L.
+
+   1935. The Pleistocene geology of Nebraska. Nebraska Geol.
+         Survey, Bull. 10, 2nd series: 1-223.
+
+
+MARZOLF, R. C.
+
+   1955. Use of pectoral spines and vertebrae for determining age
+         and rate of growth of the channel catfish. Jour. Wildl. Mgmt.,
+         19 (2): 243-249.
+
+
+MEEK, S. E.
+
+   1895. Notes on the fishes of western Iowa and eastern Nebraska.
+         Bull. U. S. Fish Comm., 14 (1894): 133-138.
+
+
+METCALF, A. L.
+
+   1957. Fishes of Chautauqua, Cowley and Elk counties, Kansas.
+         Univ. Kansas Publ., Mus. Nat. Hist., 11:345-400.
+
+
+MINCKLEY, W. L., and CROSS, F. B.
+
+   In press. Habitat, distribution, and abundance of _Notropis
+             topeka_ (Gilbert) in Kansas. Amer. Midl. Nat.
+
+
+MONFORT, E.
+
+   1956. A layman looks at water. Trans. Kansas Acad. Sci.,
+         59 (1):118-123.
+
+
+MOORE, G. A.
+
+   1957. Fishes. _In_ Vertebrates of the United States, by W.
+         Blair, A. Blair, P. Brodkorb, F. Cagle, and G. Moore.
+         McGraw-Hill Book Co., New York, N. Y. pp. 31-210.
+
+
+MOORE, R. C., and LANDES, K. K.
+
+   1937. Geologic map of Kansas. Scale 1:500,000. Kansas Geol.
+         Survey.
+
+
+NEBRASKA STATE PLANNING BOARD.
+
+   1936. Water resources of Nebraska. Mimeo. by Nebraska State
+         Planning Board. Lincoln, xxviii + 695 pp.
+
+
+PFEIFFER, R. A.
+
+   1955. Studies on the life history of the rosyface shiner,
+         _Notropis rubellus_. Copeia, 1955 (2):95-104.
+
+
+RANEY, E. C.
+
+   1947. Subspecies and breeding behavior of the cyprinid fish
+         _Notropis procne_ (Cope). Copeia, 1947 (2):103-109.
+
+
+SCHOEWE, W. H.
+
+   1953. The geography of Kansas, Part III--concluded,
+         hydrogeography. Trans. Kansas Acad. Sci., 56 (2):131-190.
+
+
+SNEDECOR, G. W.
+
+   1956. Statistical Methods. Iowa State College Press, Ames.
+         xiii + 534 pp.
+
+
+STARRETT, W. C.
+
+   1950. Distribution of the fishes of Boone County, Iowa, with
+         special reference to the minnows and darters. Amer. Midl.
+         Nat., 43 (1): 112-127.
+
+
+TRAUTMAN, M. B.
+
+   1957. The Fishes of Ohio. Waverly Press, Inc., Baltimore, Md.
+         xvii + 683 pp.
+
+
+U. S. FISH AND WILDLIFE SERVICE.
+
+   1952. A one-year creel census and evaluation of the Republican
+         River, Nebraska and Kansas, 1951. Mimeo. by the Staff,
+         Missouri River Basin Studies, Billings, Mont. 29 pp.,
+         Appendix.
+
+   1953. A preliminary report on fish and wildlife resources in
+         relation to the water development plan for the Tuttle Creek
+         Dam and Reservoir, Big Blue River, Missouri River Basin,
+         Kansas. Mimeo. by the Staff, Missouri River Basin Studies,
+         Billings, Mont. 25 pp.
+
+
+VAN ORMAN, C. R.
+
+   1956. Surface water--its control and retention for use. Trans.
+         Kansas Acad. Sci., 59 (1):105-110.
+
+
+WALTERS, K. L.
+
+   1954. Geology and ground-water resources of Marshall County,
+         Kansas. Kansas Geol. Survey, Bull. 106:1-116.
+
+
+_Transmitted December 19, 1958._
+
+[]
+
+27-7080
+
+
+
+
+UNIVERSITY OF KANSAS PUBLICATIONS
+
+MUSEUM OF NATURAL HISTORY
+
+
+Institutional libraries interested in publications exchange may obtain
+this series by addressing the Exchange Librarian, University of Kansas
+Library, Lawrence, Kansas. Copies for individuals, persons working in
+a particular field of study, may be obtained by addressing instead the
+Museum of Natural History, University of Kansas, Lawrence, Kansas.
+There is no provision for sale of this series by the University
+Library which meets institutional requests, or by the Museum of
+Natural History which meets the requests of individuals. However, when
+individuals request copies from the Museum, 25 cents should be
+included, for each separate number that is 100 pages or more in
+length, for the purpose of defraying the costs of wrapping and
+mailing.
+
+ * An asterisk designates those numbers of which the Museum's supply
+   (not the Library's supply) is exhausted. Numbers published to date,
+   in this series, are as follows:
+
+  Vol.  1. Nos. 1-26 and index. Pp. 1-638, 1946-1950.
+
+ *Vol.  2. (Complete) Mammals of Washington. By Walter W. Dalquest.
+                Pp. 1-444, 140 figures in text. April 9, 1948.
+
+  Vol.  3. *1. The avifauna of Micronesia, its origin, evolution, and
+               distribution. By Rollin H. Baker. Pp. 1-359, 16 figures
+               in text. June 12, 1951.
+
+           *2. A quantitative study of the nocturnal migration of birds.
+               By George H. Lowery, Jr. Pp. 361-472, 47 figures in text.
+               June 29, 1951.
+
+            3. Phylogeny of the waxwings and allied birds. By M. Dale
+               Arvey. Pp. 473-530, 49 figures in text, 13 tables.
+               October 10, 1951.
+
+            4. Birds from the state of Veracruz, Mexico. By George H.
+               Lowery, Jr., and Walter W. Dalquest. Pp. 531-649,
+               7 figures in text, 2 tables. October 10, 1951.
+
+            Index. Pp. 651-681.
+
+ *Vol.  4. (Complete) American weasels. By E. Raymond Hall. Pp. 1-466,
+                41 plates, 31 figures in text. December 27, 1951.
+
+  Vol.  5. Nos. 1-37 and index. Pp. 1-676, 1951-1953.
+
+ *Vol.  6. (Complete) Mammals of Utah, _taxonomy and distribution_.  By
+                Stephen D. Durrant. Pp. 1-549, 91 figures in text,
+                30 tables. August 10, 1952.
+
+  Vol.  7.  *1. Mammals of Kansas. By E. Lendell Cockrum. Pp. 1-303,
+                73 figures in text, 37 tables. August 25, 1952.
+
+             2. Ecology of the opossum on a natural area in northeastern
+                Kansas. By Henry S. Fitch and Lewis L. Sandidge.
+                Pp. 305-338, 5 figures in text. August 24, 1953.
+
+             3. The silky pocket mice (Perognathus flavus) of Mexico.
+                By Rollin H. Baker. Pp. 339-347, 1 figure in text.
+                February 15, 1954.
+
+             4. North American jumping mice (Genus Zapus). By Philip H.
+                Krutzsch. Pp. 349-472, 47 figures in text, 4 tables.
+                April 21, 1954.
+
+             5. Mammals from Southeastern Alaska. By Rollin H. Baker and
+                James S. Findley. Pp. 473-477. April 21, 1954.
+
+             6. Distribution of Some Nebraskan Mammals. By J. Knox
+                Jones, Jr. Pp. 479-487. April 21, 1954.
+
+             7. Subspeciation in the montane meadow mouse. Microtus
+                montanus, in Wyoming and Colorado. By Sydney Anderson.
+                Pp. 489-506, 2 figures in text. July 23, 1954.
+
+             8. A new subspecies of bat (Myotis velifer) from
+                southeastern California and Arizona. By Terry A.
+                Vaughan. Pp. 507-512. July 23, 1954.
+
+             9. Mammals of the San Gabriel mountains of California.
+                By Terry A. Vaughan. Pp. 513-582, 1 figure in text,
+                12 tables. November 15, 1954.
+
+            10. A new bat (Genus Pipistrellus) from northeastern Mexico.
+                By Rollin H. Baker.  Pp. 583-586.  November 15, 1954.
+
+            11. A new subspecies of pocket mouse from Kansas. By E.
+                Raymond Hall. Pp. 587-590. November 15, 1954.
+
+            12. Geographic variation in the pocket gopher, Cratogeomys
+                castanops, in Coahuila, Mexico. By Robert J. Russell
+                and Rollin H. Baker. Pp. 591-608. March 15, 1955.
+
+            13. A new cottontail (Sylvilagus floridanus) from
+                northeastern Mexico. By Rollin H. Baker. Pp. 609-612.
+                April 8, 1955.
+
+            14. Taxonomy and distribution of some American shrews.
+                By James S. Findley, Pp. 613-618. June 10, 1955.
+
+            15. The pigmy woodrat, Neotoma goldmani, its distribution
+                and systematic position. By Dennis G. Rainey and Rollin
+                H. Baker. Pp. 619-624, 2 figures in text. June 10, 1955.
+
+             Index. Pp. 625-651.
+
+  Vol.  8.  1. Life history and ecology of the five-lined skink,
+               Eumeces fasciatus. By Henry S. Fitch. Pp. 1-156, 26 figs.
+               in text. September 1, 1954.
+
+            2. Myology and serology of the Avian Family Fringillidae, a
+               taxonomic study. By William B. Stallcup. Pp. 157-211,
+               23 figures in text, 4 tables. November 15, 1954.
+
+            3. An ecological study of the collared lizard (Crotaphytus
+               collaris). By Henry S. Fitch. Pp. 213-274, 10 figures in
+               text. February 10, 1956.
+
+            4. A field study of the Kansas ant-eating frog, Gastrophryne
+               olivacea. By Henry S. Fitch. Pp. 275-306, 9 figures in
+               text. February 10, 1956.
+
+            5. Check-list of the birds of Kansas. By Harrison B.
+               Tordoff. Pp. 307-359, 1 figure in text. March 10, 1956.
+
+            6. A population study of the prairie vole (Microtus
+               ochrogaster) in northeastern Kansas. By Edwin P. Martin.
+               Pp. 361-416, 19 figures in text. April 2, 1956.
+
+            7. Temperature responses in free-living amphibians and
+               reptiles of northeastern Kansas. By Henry S. Fitch.
+               Pp. 417-476, 10 figures in text, 6 tables. June 1, 1956.
+
+            8. Food of the crow, Corvus brachyrhynchos Brehm, in
+               south-central Kansas. By Dwight Platt. Pp. 477-498,
+               4 tables. June 8, 1956.
+
+            9. Ecological observations on the woodrat Neotoma
+               floridana. By Henry S. Fitch and Dennis G. Rainey.
+               Pp. 499-533, 3 figures in text. June 12, 1956.
+
+           10. Eastern woodrat, Neotoma floridana; Life history and
+               ecology. By Dennis G. Rainey. Pp. 585-646, 12 plates,
+               13 figures in text. August 15, 1956.
+
+            Index. Pp. 647-675.
+
+  Vol.  9.  1. Speciation of the wandering shrew. By James S. Findley.
+               Pp. 1-68, 18 figures in text. December 10, 1955.
+
+            2. Additional records and extensions of ranges of mammals
+               from Utah. By Stephen D. Durrant, M. Raymond Lee, and
+               Richard M. Hansen. Pp. 69-80. December 10, 1955.
+
+            3. A new long-eared myotis (Myotis evotis) from northeastern
+               Mexico. By Rollin H. Baker and Howard J. Stains.
+               Pp. 81-84. December 10, 1955.
+
+            4. Subspeciation in the meadow mouse, Microtus
+               pennsylvanicus, in Wyoming. By Sydney Anderson.
+               Pp. 85-104, 2 figures in text. May 10, 1956.
+
+            5. The condylarth genus Ellipsodon. By Robert W. Wilson.
+               Pp. 105-116, 6 figures in text. May 19, 1956.
+
+            6. Additional remains of the multituberculate genus
+               Eucosmodon. By Robert W. Wilson. Pp. 117-123, 10 figures
+               in text. May 19, 1956.
+
+            7. Mammals of Coahuila, Mexico. By Rollin H. Baker.
+               Pp. 125-335, 75 figures in text. June 15, 1956.
+
+            8. Comments on the taxonomic status of Apodemus peninsulae,
+               with description of a new subspecies from North China.
+               By J. Knox Jones, Jr. Pp. 337-346, 1 figure in text,
+               1 table. August 15, 1956.
+
+            9. Extensions of known ranges of Mexican bats. By Sydney
+               Anderson. Pp. 347-351. August 15, 1956.
+
+           10. A new bat (Genus Leptonycteris) from Coahuila. By Howard
+               J. Stains. Pp. 353-356. January 21, 1957.
+
+           11. A new species of pocket gopher (Genus Pappogeomys) from
+               Jalisco, Mexico. By Robert J. Russell. Pp. 357-361.
+               January 21, 1957.
+
+           12. Geographic variation in the pocket gopher, Thomomys
+               bottae, in Colorado. By Phillip M. Youngman. Pp. 363-387,
+               7 figures in text. February 21, 1958.
+
+           13. New bog lemming (genus Synaptomys) from Nebraska. By J.
+               Knox Jones, Jr. Pp. 385-388. May 12, 1958.
+
+           14. Pleistocene bats from San Josecito Cave, Nuevo Leon,
+               Mexico. By J. Knox Jones, Jr. Pp. 389-396. December 19,
+               1958.
+
+           15. New subspecies of the rodent Baiomys from Central
+               America. By Robert L. Packard. Pp. 397-404. December 19,
+               1958.
+
+            More numbers will appear in volume 9.
+
+  Vol. 10.  1. Studies of birds killed in nocturnal migration. By
+               Harrison B. Tordoff and Robert M. Mengel. Pp. 1-44,
+               6 figures in text, 2 tables. September 12, 1956.
+
+            2. Comparative breeding behavior of Ammospiza caudacuta and
+               A. maritima. By Glen E. Woolfenden. Pp. 45-75, 6 plates,
+               1 figure. December 20, 1956.
+
+            3. The forest habitat of the University of Kansas Natural
+               History Reservation. By Henry S. Fitch and Ronald R.
+               McGregor. Pp. 77-127, 2 plates, 7 figures in text,
+               4 tables. December 31, 1956.
+
+            4. Aspects of reproduction and development in the prairie
+               vole (Microtus ochrogaster). By Henry S. Fitch.
+               Pp. 129-161, 8 figures in text, 4 tables. December 19,
+               1957.
+
+            5. Birds found on the Arctic slope of northern Alaska.
+               By James W. Bee. Pp. 163-211, pls. 9-10, 1 figure in
+               text, March 12, 1958.
+
+            6. The wood rats of Colorado: distribution and ecology.
+               By Robert B. Finley, Jr. Pp. 213-552, 34 plates,
+               8 figures in text, 35 tables. November 7, 1958.
+
+            More numbers will appear in volume 10.
+
+  Vol. 11.  1. The systematic status of the colubrid snake, Leptodeira
+               discolor Günther. By William E. Duellman. Pp. 1-9,
+               4 figs. July 14, 1958.
+
+            2. Natural history of the six-lined racerunner,
+               Cnemidophorus sexlineatus. By Henry S. Fitch. Pp. 11-62,
+               9 figs., 9 tables. September 19, 1958.
+
+            3. Home ranges, territories, and seasonal movements of
+               vertebrates of the Natural History Reservation.
+               By Henry S. Fitch. Pp. 63-326, 6 plates, 24 figures in
+               text, 3 tables. December 12, 1958.
+
+            4. A new snake of the genus Geophis from Chihuahua, Mexico.
+               By John M. Legler. Pp. 327-334, January 28, 1959.
+
+            5. A new tortoise, genus Gopherus, from north-central
+               Mexico. By John M. Legler. Pp. 335-343, April 24, 1959.
+
+            6. Fishes of Chautauqua, Cowley and Elk counties, Kansas.
+               By Artie L. Metcalf. Pp. 345-400, 2 plates, 2 figures in
+               text, 10 tables. May 6, 1959.
+
+            7. Fishes of the Big Blue River Basin, Kansas. By W. L.
+               Minckley. Pp. 401-442, 2 plates, 4 figures in text,
+               5 tables. May 8, 1959.
+
+            More numbers will appear in volume 11.
+
+
+
+
+Transcriber's Notes
+
+
+Except as noted below, the text presented herein is that contained in
+the original printed version. Minor corrections (such as missing
+punctuation) may have been corrected. The original version had a
+list of publications printed inside the cover and inside and on the
+back cover. The cover page was not retained as it is a copy of the
+first page and the list inside the cover was moved past the end of the
+article.
+
+
+Notations
+
+The greek letter sigma is represented as [sigma]. And [=X] indicates
+letter X with a line above it which is a standard notation for mean.
+
+
+Typographical Corrections
+
+  Page  Correction
+  ====  =================================
+   408  Phenophthalein => Phenolphthalein
+
+
+Text Emphasis
+
+  _Text_ : Italics
+
+  =Text= : Bold and Italics
+
+
+
+
+
+
+
+End of the Project Gutenberg EBook of Fishes of the Big Blue River Basin,
+Kansas, by W. L. Minckley
+
+*** END OF THIS PROJECT GUTENBERG EBOOK FISHES OF THE BIG BLUE RIVER ***
+
+***** This file should be named 37742-8.txt or 37742-8.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.org/3/7/7/4/37742/
+
+Produced by Chris Curnow, Tom Cosmas, Joseph Cooper and
+the Online Distributed Proofreading Team at
+http://www.pgdp.net
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+http://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need, are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at http://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+http://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at http://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit http://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including checks, online payments and credit card donations.
+To donate, please visit: http://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart is the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     http://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.

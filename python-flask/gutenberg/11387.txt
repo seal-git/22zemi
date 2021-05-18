@@ -1,0 +1,1886 @@
+The Project Gutenberg EBook of The Mirror of Literature, Amusement, and
+Instruction, by Various
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: The Mirror of Literature, Amusement, and Instruction
+       Vol. 10, Issue 273, September 15, 1827
+
+Author: Various
+
+Release Date: March 1, 2004 [EBook #11387]
+
+Language: English
+
+Character set encoding: ISO-8859-1
+
+*** START OF THIS PROJECT GUTENBERG EBOOK MIRROR OF LITERATURE, NO. 273 ***
+
+
+
+
+Produced by Jonathan Ingram, L. Barber, David King, and the Online
+Distributed Proofreading Team
+
+
+
+
+
+THE MIRROR OF LITERATURE, AMUSEMENT, AND INSTRUCTION.
+
+Vol. 10, No. 273. SATURDAY, SEPTEMBER 15, 1827. PRICE 2d.
+
+
+
+GASPARD MONGE'S MAUSOLEUM.
+
+
+[Illustration]
+
+(_To the Editor of the Mirror_.)
+
+Sir,--As one of your correspondents has favoured you with a drawing of
+the gaol I designed for the city and county of Norwich, with which you
+have embellished a recent number of the MIRROR, I flatter myself that an
+engraving from the drawing I herewith send you of the mausoleum of
+Gaspard Monge, which I drew while at Paris, in 1822, will also be
+interesting to the readers of your valuable little miscellany. Gaspard
+Monge, whose remains are deposited in the burying ground in Pere la
+Chaise, at Paris, in a magnificent mausoleum, was professor of geometry
+in the Polytechnique School at Paris, and with Denon accompanied
+Napoleon Bonaparte on his memorable expedition to Egypt; one to make
+drawings of the architectural antiquities and sculpture, and the other
+the geographical delineations of that ancient country. He returned to
+Paris, where he assisted Denon in the publication of his antiquities. At
+his decease the pupils of the Polytechnique School erected this
+mausoleum to his memory, as a testimony of their esteem, after a design
+made by his friend, Monsieur Denon. The mausoleum is of Egyptian
+architecture, with which Denon had become familiarly acquainted.
+
+There is a bust of Monge placed on a terminal pedestal underneath a
+canopy in the upper compartment, which canopy is open in front and in
+the back. In the crown cavetto of the cornice is an Egyptian winged
+globe, entwined with serpents, emblematical of time and eternity; and on
+the faci below is engraved the following line:--
+
+    A. GASPARD MONGE.
+
+On each side of the upper compartment is inscribed the following
+_memento mori_:
+
+    LES ELEVES
+    DE L'ECOLE POLYTECHNIQUE.
+    A.G. MONGE.
+    COMTE DE PELUSE.
+
+Underneath this inscription is carved in sunk work an Egyptian lotus
+flower in an upright position; on the back of the mausoleum is the date
+of the year in which Gaspard Monge died. The body is in the cemetery
+below.
+
+    AN. MDCCCXX.
+
+Monge was a man of considerable merit as a geometrician, and, while
+living, stood preeminent above his contemporaries in the French school
+of that day. He is the author of several works, but his most popular one
+is entitled "Gèomètrie Descriptive. par G. Monge, de l'Institut des
+Sciences, Lettres et Arts, de l'Ecole Polytechnique; Membre du Sénat
+Conservateur, Grand Officier de la Legion d'Honeur et Cointe de
+l'Empire."
+
+The programme to this work is interesting, as it urges the necessity of
+making geometry a branch of the national education, and points out the
+beneficial results that would arise therefrom. The following is the
+translation:--
+
+To draw the French nation from the dependence, which, even in the
+present day it is obliged to place in foreign industry, it is necessary
+first to direct the national education towards the knowledge of those
+objects which require a correctness which hitherto has been totally
+neglected; to accustom the hands of our artists to the management of the
+various instruments that are necessary to measure the different degrees
+of work, and to execute them with precision; then the finisher becomes
+sensible of the accuracy it will require in the different works, and he
+will be enabled to set the necessary value on it. For our artists to
+become, from their youth, familiar with geometry, and to be in a
+condition to attain it, it is necessary in the second place to render
+popular the knowledge of a great number of natural phenomena that are
+indispensable to the progress of industry; they will then profit for the
+advancement of the general instruction of the nation, which by a
+fortunate circumstance it has at its disposal, the principal resources
+that are necessary for it. Lastly, it is requisite to extend among our
+artists the knowledge of the advancement of the arts and that of
+machines, whose object is either to diminish manual labour or to give to
+the result of labour more uniformity and precision; and on those heads
+it must be confessed we have much to draw from foreign nations.[1] All
+these views can only be accomplished by giving a new turn to national
+education.
+
+    [1] Monsieur Monge has drawn much from our countryman,
+    Hamilton's work on Stereography but he has not mentioned his
+    work.
+
+This is to be done, in the first place, by making all intelligent young
+men (who are born with a fortune) familiar with the use of descriptive
+geometry, so that they may be able to employ their capital more
+profitably both for themselves and the nation, and also for those who
+have no other fortune than their education, so that their labour will
+bring them the greater reward. This art has two principal objects, the
+first to represent with exactness, from drawings which have only two
+dimensions, objects which have three, and which are susceptible of a
+strict definition; under this point of view it is a language necessary
+to the man of genius when he conceives a project, and to those who are
+to have the direction of it; and lastly, to the artists who are
+themselves to execute the different parts.
+
+The second object of descriptive geometry, is to deduce from the exact
+description of bodies all that necessarily follows of their forms and
+their respective positions; in this sense it is a means of seeking
+truth, as it offers perpetual examples of the passage from what is known
+to what is unknown, and as it is always applied to objects susceptible
+of the minutest evidence, it is necessary that it should form part of
+the plan of a national education. It is not only fit to exercise the
+intellectual faculties of a great people, and to contribute thereby to
+the perfection of mankind, but it is also indispensable to all workmen,
+whose end is to give to certain bodies determined forms, and it is
+principally owing to the methods of this art having been too little
+extended, or in fact almost entirely neglected, that the progress of our
+industry has been so slow. We shall contribute then to give an
+advantageous direction to national education, by making our young artist
+familiar with the application of descriptive geometry, to the graphic
+constructions which are necessary in the greater number of the arts, and
+in making use of this geometry in the representation and determination
+of the elements of machinery, by means of which, man by the aid of the
+forces of nature, reserves for himself, in a manner, in his operations
+no other labour than that of his intellects. It is no less advantageous
+to extend the knowledge of those phenomena of nature which may be turned
+to the profit of the arts. The charm which accompanies them will
+overcome the repugnance that men have in general for manual operations,
+(which most regard as painful and laborious,) as it will make them find
+pleasure in the exercise of their intellect; thus there ought to be in
+the formal school a course of descriptive geometry.
+
+As yet we have no well compiled elementary work on that art, because
+till this time learned men have taken too little interest in it, or it
+has only been practised in an obscure manner by persons whose education
+had not been sufficiently extended, and were unable to communicate the
+result of their lucubrations. A course simply oral would be absolutely
+without effect. It is necessary then, for the course of descriptive
+geometry, that practice and execution be joined to the hearing of
+methods; thus pupils will be exercised in graphic construction of
+descriptive geometry. The graphic arts have general methods with which
+we can only become familiar by the use of the rule and compass. Among
+the different applications that may be made of descriptive geometry,
+there are _two_ which are remarkable, both for their universality and
+their ingenuity; these are the constructions of _perspective_ and the
+strict determination of the _shadows_. These two parts may finally be
+considered as the completion of the art of describing objects.
+
+R. BROWN.
+
+       *       *       *       *       *
+
+
+
+AN IDLER'S ALBUM; OR, SKETCHES OF MEN AND THINGS.
+
+
+THE RADIANT BOY.
+
+
+It is now more than twenty years since the late Lord Londonderry was,
+for the first time, on a visit to a gentleman in the north of Ireland.
+The mansion was such a one as spectres are fabled to inhabit. It was
+associated with many recollections of historic times, and the sombre
+character of its architecture, and the wildness of its surrounding
+scenery, were calculated to impress the soul with that tone of
+melancholy and elevation, which,--if it be not considered as a
+predisposition to welcome the visitation of those unearthly substances
+that are impalpable to our sight in moments of less hallowed
+sentiment,--is indisputably the state of mind in which the imagination
+is most readily excited, and the understanding most favourably inclined
+to grant a credulous reception to its visions. The apartment also which
+was appropriated to Lord Londonderry, was calculated to foster such a
+tone of feeling. From its antique appointments; from the dark and
+richly-carved panels of its wainscot; from its yawning width and height
+of chimney--looking like the open entrance to a tomb, of which the
+surrounding ornaments appeared to form the sculptures and the
+entablature;--from the portraits of grim men and severe-eyed women,
+arrayed in orderly procession along the walls, and scowling a
+contemptuous enmity against the degenerate invader of their gloomy
+bowers and venerable halls; from the vast, dusky, ponderous, and
+complicated draperies that concealed the windows, and hung with the
+gloomy grandeur of funereal trappings about the hearse-like piece of
+furniture that was destined for his bed,--Lord L., on entering his
+apartment, might be conscious of some mental depression, and surrounded
+by such a world of melancholy images, might, perhaps, feel himself more
+than usually inclined to submit to the influences of superstition. It is
+not possible that these sentiments should have been allied to any
+feelings of apprehension. Fear is acknowledged to be a most mighty
+master over the visions of the imagination. It can "call spirits from
+the vasty deep"--and they do come, when it does call for them. It
+trembles at the anticipation of approaching evil, and then encounters in
+every passing shadow the substance of the dream it trembled at. But such
+could not have been the origin of the form which addressed itself to the
+view of Lord Londonderry. Fear is a quality that was never known to
+mingle in the character of a Stewart. Lord Londonderry examined his
+chamber--he made himself acquainted with the forms and faces of the
+ancient possessors of the mansion, who sat up right in their ebony
+frames to receive his salutation; and then, after dismissing his valet,
+he retired to bed. His candles had not been long extinguished, when he
+perceived a light gleaming on the draperies of the lofty canopy over his
+head. Conscious that there was no fire in the grate--that the curtains
+were closed--that the chamber had been in perfect darkness but a few
+moments before, he supposed that some intruder must have accidentally
+entered his apartment; and, turning hastily round to the side from which
+the light proceeded--saw--to his infinite astonishment--not the form of
+any human visiter--but the figure of a fair boy, who seemed to be
+garmented in rays of mild and tempered glory, which beamed palely from
+his slender form, like the faint light of the declining moon, and
+rendered the objects which were nearest to him dimly and indistinctly
+visible. The spirit stood at some short distance from the side of the
+bed. Certain that his own faculties were not deceiving him, but
+suspecting that he might be imposed upon by the ingenuity of some of the
+numerous guests who were then visiting in the same house, Lord
+Londonderry proceeded towards the figure. It retreated before him. As he
+slowly advanced, the form, with equal paces, slowly retired. It entered
+the vast arch of the capacious chimney, and then sunk into the earth.
+Lord L. returned to his bed; but not to rest. His mind was harassed by
+the consideration of the extraordinary event which had occurred to him.
+Was it real?--was it the work of imagination?--was it the result of
+imposture?--It was all incomprehensible. He resolved in the morning not
+to mention the appearance till he should have well observed the manners
+and the countenances of the family: he was conscious that, if any
+deception had been practised, its authors would be too delighted with
+their success to conceal the vanity of their triumph. When the guests
+assembled at the breakfast-table, the eye of Lord Londonderry searched
+in vain for those latent smiles--those cunning looks--that silent
+communication between the parties--by which the authors and abettors of
+such domestic conspiracies are generally betrayed. Every thing
+apparently proceeded in its ordinary course. The conversation flowed
+rapidly along from the subjects afforded at the moment, without any of
+the constraint which marks a party intent upon some secret and more
+interesting argument, and endeavouring to afford an opportunity for its
+introduction. At last the hero of the tale found himself compelled to
+mention the occurrences of the night. It was most extraordinary--he
+feared that he should not be credited: and then, after all due
+preparation, the story was related. Those among his auditors who, like
+himself, were strangers and visiters in the house, were certain that
+some delusion must have been practised. The family alone seemed
+perfectly composed and calm. At last, the gentleman whom Lord
+Londonderry was visiting, interrupted their various surmises on the
+subject by saying:--"The circumstance which you have just recounted must
+naturally appear most extraordinary to those who have not long been
+inmates of my dwelling, and are not conversant with the legends
+connected with my family; to those who are, the event which has happened
+will only serve as the corroboration of an old tradition that long has
+been related of the apartment in which you slept. You have seen _the
+Radiant Boy_; and it is an omen of prosperous fortunes;--I would rather
+that this subject should no more be mentioned."
+
+The above adventure is one very commonly reported of the late Marquis of
+Londonderry; and is given on the authority of a gentleman, to whom that
+nobleman himself related it.--_The Album_.
+
+       *       *       *       *       *
+
+
+THE CROSS ROADS.
+
+(_For the Mirror_.)
+
+
+  Methought upon a mountain's brow
+    Stood Glory, gazing round him;
+  And in the silent vale below
+    Lay Love, where Fancy found him;
+  While distant o'er the yellow plain
+  Glittering Wealth held wide domain.
+
+  Glory was robed in light; and trod
+    A brilliant track before him,
+  He gazed with ardour, like a god,
+    And grasp'd at heaven o'er him;
+  The meteor's flash his beaming eye,
+  The trumpet's shriek his melody.
+
+  But Love was robed in roses sweet,
+    And zephyrs murmur'd nigh him,
+  Flowers were blooming at his feet,
+    And birds were warbling by him:
+  His eyes soft radiance seem'd to wear,
+  For tears and smiles were blended there.
+
+  Gay Wealth a gorgeous train display'd.
+    (And Fancy soon espied him,)
+  Supine, in splendid garb array'd,
+    With Luxury beside him;
+  He dwelt beneath a lofty dome,
+  Which Pride and Pleasure made their home.
+
+  Well; seeking Happiness, I sped,
+    And, as Hope hover'd o'er me,
+  I ask'd which way the nymph had fled,
+    For _four roads_ met before me--
+  Whether she'd climb'd the height above,
+  Or bask'd with Wealth, or slept with Love?
+
+  I paus'd--for in the lonely path,
+    'Neath gloomy willows weeping,
+  Wrapt in his shroud of sullen wrath,
+    The _Suicide_ was sleeping,
+  A scathed yew-tree's wither'd limb,
+  To mark the spot, frown'd o'er him.
+
+  I wept--to think my fellow-man,
+    (To madness often driven,)
+  Pursue false Glory's phantoms, then
+    Lose happiness and heaven:
+  I wept--for oh! it seem'd to be
+  A mournful moral meant for me!
+
+  But lo! an aged traveller came,
+    By Wisdom sent to guide me,
+  Experience was the pilgrim's name,
+    And thus he seem'd to chide me--
+  "Fool! Happiness is gone the road
+  That leads to Virtue's calm abode!"
+
+JESSE HAMMOND.
+
+       *       *       *       *       *
+
+
+
+MY COMMON-PLACE BOOK.
+
+NO. XXI.
+
+
+       *       *       *       *       *
+
+
+ORDEALS.
+
+
+Four kinds of ordeals were chiefly used by our German ancestors:--1.
+"The Kamp fight," or combat; during which the spectators were to be
+silent and quiet, on pain of losing an arm or leg; an executioner with a
+sharp axe. 2. "The fire ordeal," in which the accused might clear his
+innocence by holding _red-hot_ iron in his hands, or by walking
+blind-fold amidst fiery ploughshares. 3. "The hot-water ordeal," much of
+the nature as the last. 4. "The cold-water ordeal:" this need not be
+explained, since it is looked on as supreme when a witch is in question.
+The cross ordeal was reserved for the clergy. These, if accused, might
+prove their innocence by swallowing two consecrated morsels taken from
+the altar after proper prayers. If these fragments stuck in the priest's
+throat he stood _ipse facto_--condemned; but we have no record of
+condemnation.
+
+       *       *       *       *       *
+
+
+GEMS.
+
+
+Forgive not the man who gives you _bad_ wine more than once. It is more
+than an injury. Cut the acquaintance as you value your life.
+
+If you see half-a-dozen faults in a woman, you may rest assured she has
+a hundred virtues to counterbalance them. I love your faulty, and fear
+your _faultless women_. When you see what is termed a faultless woman,
+dread her as you would a beautiful snake. The power of completely
+concealing the defects that she must have, is of itself a serious vice.
+
+If you find no more books in a man's room, save some four or five,
+including the red-book and the general almanac, you may set down the
+individual as a man of genius, or an ass;--there is no medium.
+
+The eye is never to be mistaken. A person may discipline the muscles of
+the face and voice, but there is a something in the eye beyond the will,
+and we thus frequently find it giving the tongue the lie direct.
+
+I never knew a truly estimable man offer a finger, it is ever a sign of
+a cold heart; and he who is heartless is positively worthless, though he
+may be negatively harmless.
+
+Cut the acquaintance of any lady who signs a letter with "_yours
+obediently_."
+
+Always act in the presence of children with the utmost circumspection.
+They mark all you do, and most of them are more wise than you may
+imagine.
+
+Men of genius make the most ductile husbands. A fool has too much
+opinion of his own dear self, and too little of women's to be easily
+governed.
+
+A passion for sweetmeats, and a weak intellect, generally go together.
+
+I have known many fools to be gluttons, but never knew one that was an
+epicure.
+
+The affection of women is the most wonderful thing in the world; it
+tires not--faints not--dreads not--cools not. It is like the Naptha that
+nothing can extinguish but the trampling foot of death.
+
+There is a language in flowers, which is very eloquent--a philosophy
+that is instructive. Nature appears to have made them as emblems of
+women. The timid snow-drop, the modest violet, the languid primrose, the
+coy lily, the flaunting tulip, the smart marigold, the lowly blushing
+daisy, the proud foxglove, the deadly nightshade, the sleepy poppy, and
+the sweet solitary eglantine, are all types.
+
+W.C. B---- M.
+
+       *       *       *       *       *
+
+There are a set of malicious, prating, prudent gossips, both male and
+female, who murder characters to kill time; and will rob a young fellow
+of his good name before he has years to know the value of
+it.--_Sheridan_.
+
+       *       *       *       *       *
+
+
+
+MANNERS & CUSTOMS OF ALL NATIONS.
+
+No. XII.
+
+
+       *       *       *       *       *
+
+
+A BURMESE EXECUTION.
+
+
+The scene took place at Rangoon, and the sufferers were men of desperate
+characters, who merited death. At a short distance from the town, on the
+road known to the army by the name of the Forty-first Lines, is a small
+open space, which formerly was railed in: and here all criminals used to
+be executed. On this occasion several gibbets, about the height of a
+man, were erected, and a large crowd of Burmans assembled to feast their
+eyes on the sanguinary scene that was to follow.
+
+When the criminals arrived, they were tied within wooden frames, with
+extended arms and legs, and the head-executioner going round to each,
+marked with a piece of chalk, on the side of the men, in what direction
+his assistant (who stood behind him with a sharpened knife,) was to make
+the incision. On one man he described a circle on the side; another had
+a straight line marked down the centre of his stomach; a third was
+doomed to some other mode of death; and some were favoured by being
+decapitated. These preparations being completed, the assistant
+approached the man marked with a circle, and seizing a knife, plunged it
+up to the hilt in his side, then slowly and deliberately turning it
+round, he finished the circle! The poor wretch rolled his eyes in
+inexpressible agony, groaned, and soon after expired; thus depriving
+these human fiends of the satisfaction his prolonged torments would have
+afforded them. The rest suffered in the same manner; and, from the
+specimens I have seen of mangled corpses, I do not think this account
+overdrawn. Hanging is a punishment that seldom, if ever, takes place.
+
+The manner in which slighter punishments are made is peculiar to the
+Burmans, and, as nearly as I can make it out, according to our
+pronunciation, is called "toung." The delinquent is obliged to kneel
+down, and a man stands over him with a bent elbow and clenched fist. He
+first rapidly strikes him on the head with his elbow, and then slides it
+down until his knuckles repeat the blow, the elbow at the same time
+giving a violent smack on the shoulders. This is repeated until it
+becomes a very severe punishment, which may be carried to great
+excess.--_Two Years in Ava_.
+
+       *       *       *       *       *
+
+
+
+RETROSPECTIVE GLEANINGS.
+
+
+       *       *       *       *       *
+
+
+BILL OF FARE AT AN ANCIENT INSTALMENT.
+
+
+The following is a true copy of the original lodged in the Tower of
+London:[2]--
+
+George Nevil, brother to the great Earl of Warwick, at his instalment
+into his archbishopric of York, in the year 1470, made a feast for the
+nobility, gentry, and clergy, wherein he spent:
+
+     300 quartrs of wheat
+     300 ton of ale
+     104 ton of wine
+       1 pipe of spic'd w.
+      80 fat oxen
+       6 wild bulls
+     300 pigs
+    1004 wethers
+     300 hogs
+     300 calves
+    3000 geese
+    3000 capons
+     100 peacocks
+     200 cranes
+     200 kids
+    2000 chickens
+    4000 pidgeons
+    4000 rabitts
+     204 bitterns
+    4000 ducks
+     400 hernsies
+     200 pheasants
+     500 partridges
+    4000 woodcocks
+     400 plovers
+     100 carlews
+     100 quails
+    1000 eggets
+     200 rees
+    4000 bucks and does, and roebucks
+     155 hot venison pasties
+    1000 dishes of jellies
+    4000 cold venison past
+    2000 hot custards
+    4000 ditto cold
+     400 tarts
+     300 pikes
+     300 breams
+       8 seals
+       4 porpusses
+
+At this feast the Earl of Warwick was steward; the Earl of Bedford
+treasurer; the Lord Hastings comptroller, with many noble officers
+servitors.
+
+1000 cooks. 62 kitchiners. 515 scullions.
+
+    [2] _Gentleman's Magazine_, vol. xxx.
+
+       *       *       *       *       *
+
+
+THE SERGEANT'S WIFE.
+
+
+A drama, named as above, has been played with eminent success during the
+present season at the English Opera House. The plot is founded on the
+following horrible occurrence, which actually took place in Ireland in
+the year 1813, and which we extract from the columns of an Irish paper
+of the same date. The narrative is powerfully worked up in _The
+Nowlans_, in the second series of the _O'Hara Tales_, and Mr. Banim is
+the author both of the novel and the drama:--
+
+"The speech of George Smith, William Smith, and James Smith, who were
+lately executed at Longford for the murder of James Reilly, a pedlar,
+near Lanes-borough, has been published. It gives the following
+description of the inhuman crime for which they suffered:
+
+"The discovery of this murder, as decreed by the Almighty, was made by
+Margaret Armstrong, the wife of Sergeant Armstrong, of the 27th regiment
+of foot, on the recruiting service in Athlone. She was going to her
+husband, when she was overtaken by this dealing man. He asked her how
+far she was going--she answered to Athlone, to her husband, and said as
+it was getting late, and being scarce of money, she would make good her
+way that night. He then replied, 'my poor woman, let not that hurry you,
+I am going to Athlone myself, and there is a lodging at the next cross
+at which I mean to stop, be advised, and go no farther to-night, and I
+will pay your expenses.' When they came to the house, he asked for a bed
+for himself and another for the woman, and called for supper; when that
+was over, he paid the bill, and taking out his pocket-book, he counted
+150_l._ which he gave in charge to George Smith, and retired to bed; the
+woman likewise went to her's, the family sat up till twelve; after
+which, when the man was fast asleep and all was silent, we, (the three
+Smiths) went into the room where the man lay; we dragged him out of bed,
+and cut his throat from ear to ear; we saved his blood in a pewter dish,
+and put the body into a flaxseed barrel, among feathers, in which we
+covered it up. Take care, and do the same with the woman, _said our
+mother_. We accordingly went to her bedside, and saw her hands extended
+out of the bed; we held a candle to her eyes, but she did not stir
+during the whole time, as God was on her side; for had we supposed that
+she had seen the murder committed by us, she would have shared the same
+fate with the deceased man. Next morning when she arose, she asked was
+the man up? We made answer, that he was gone two hours before, left
+sixpence for her, and took her bundle with him. 'No matter,' said she,
+'for I will see him in Athlone.' When she went away, I (George Smith)
+dressed myself in my sister's clothes, and having crossed the fields,
+met her, I asked her how far she was going? She said to Athlone: I then
+asked her where she lodged? She told me at one Smith's, a very decent
+house, where she met very good entertainment. 'That house bears a bad
+name,' said I. 'I have not that to say of them,' said she, 'for they
+gave me good usage.' It was not long until we saw a sergeant and two
+recruits coming up the road; upon which she cried out, 'here is my
+husband coming to meet me; he knew I was coming to him.' I immediately
+turned off the road, and made back to the house. When she met her
+husband, she fainted; and on recovering, she told him of the murder, and
+how she escaped with her life. The husband went immediately and got
+guards, and had us taken prisoners; the house was searched, and the
+mangled body found in the barrel." The three monsters were, it is
+mentioned, ordered for execution from the dock.
+
+       *       *       *       *       *
+
+
+ANECDOTES AND RECOLLECTIONS.
+
+
+  Notings, selections,
+    Anecdote and joke:
+  Our recollections;
+    With gravities for graver folk.
+
+       *       *       *       *       *
+
+
+THE BAR--THE MASTER OF THE ROLLS.
+
+
+It must be admitted (talking of the late _Vice_) that he really was
+enough to annoy any sober staid master, by his frolics and gambols since
+he has been made a judge. I remember him a quiet good sort of man
+enough: with a bed-room and kitchen in the area of No. 11, New-square;
+and his dining-room above, serving also for consultations: and his
+going, now and then, only to have a game of whist and glass of negus at
+Serle's;--but, now, he is a perfect _Monsieur Tonson_ to all continental
+travellers. Never can you take up the police-book at the hotels, on the
+road to Italy, without _Sir John Leach_ staring you in the face. The
+other day at the _Cloche_ at Dijon (I will never go there again, and beg
+Sir John to do me the favour to withdraw his patronage also,--the _Parc_
+is worth twenty of it), yawning over my bottle of _Cote d'Or_, I
+inquired of the waiter who of my "land's language" had lately been
+there. "Vy, Sare, ve have de Milor Leash." "Lord Leash?"--"Oui,
+Monsieur;--mais, Fanchette, apportez le livre ici pour Monsieur--le
+voila."--"Ah, ha! Sir John Leach; I see."--"Ah qu'il est bon enfant!
+qu'il est gai!" exclaimed the _garcon_. "Ah! qu'il est aimable!" sighed
+Fanchette--Enter De Molin the banker's little bureau at Lausanne--(by
+the way, it is the favourite chamber of Gibbon the historian, and if you
+pay the house a visit from motives of curiosity respecting its former
+occupant, you will be happy to be allowed to remain and converse with
+the actual owner, for a more honourable, liberal, and better-informed
+man, does not exist)--there, I say, in the glass over the mantlepiece,
+will you see the card of _Sir John Leach_. Milan--Florence--the same. At
+Torlogna's the same. Then at Naples: go to San Carlos'; and if you get
+behind the scenes, ask for Braccini, the _poetá_ of the theatre, who has
+been long in England; "Cospetto di Bacco!" he will exclaim: "il degn
+uomo, quel Vice Cancelliere: il Cavaliere _Licci!_--Gran Dio! quale
+talento per la musica!-Cappari! egli ha guadagnato i cuori di tutte le
+donne Napolitane."[3] I certainly expect to hear him some day astonish
+the bar, by unwittingly striking up "O Pescator delle onde," or "Sul
+margine del Rio," in the Rolls Court; and, as in ancient Greece ('tis
+said) pleadings were chanted, let us yet hope to hear an argument
+preferred to the tune of "They are a' noddin, noddin, noddin;" an answer
+stated _andante_; a reply given in a _bravura_, and judgment pronounced
+_presto_. With all his faults (if they be such, which I do not admit),
+the present Master of the Rolls is a good judge, and an able man;--"un
+peu vif, peut-etre," as Fanchette might say; and it is more agreeable
+than otherwise, to see one who has devoted his life to the study of the
+law, enjoying himself in lighter pursuits, after having attained rank
+and dignity in the profession; and after having punctually and
+satisfactorily executed the important duties of the day, seeking at its
+close, and participating in the gaiety which society offers. It speaks a
+good heart and cheerful temper; whereas, when we hear a distaste
+declared for music, and that of the highest character, we cannot but
+call to mind "He who has not the concord of sweet sounds" within
+himself;--but I will not pursue the quotation. Besides, were there
+persons fools enough to blame Sir John for his social propensities, he
+might answer them as the Parisian coachman did.--"What was that?"--"Why,
+a French Jehu was tried in 1818, for some accident caused by his
+cabriolet, before the Criminal Court of Paris; when, having heard the
+evidence, the President of the Tribunal declared that he stood
+acquitted, but that the court felt it its duty to blame him, and that he
+was blamed accordingly." "Blamed!" exclaimed Jehu; "Blamed!--I don't
+quite understand your Honor;--but--but--will it prevent my handling the
+ribands, and driving the _wehicle_?"--"No!" said the judge. "Then, with
+all respect for your Honor, I just laugh at it," said coachee, bowing.
+"And so do I," said the president also, in rising to leave the
+court.--_New Monthly Magazine_.
+
+    [3] By Bacchus! what a worthy man is the Vice Chancellor, the
+    Chevalier Leach! gods! what a taste for music; i' faith he has
+    gained the hearts of all the Neapolitan ladies.
+
+       *       *       *       *       *
+
+
+
+FINE ARTS.
+
+
+       *       *       *       *       *
+
+
+THE CARTOONS OF RAPHAEL.
+
+
+These _Cartoons_ were executed by the famous Raphael, while engaged in
+the chambers of the Vatican, under the auspices of Pope Julius II. and
+Leo X. As soon as they were finished, they were sent to Flanders to be
+copied in tapestry, for adorning the pontifical apartments; but the
+tapestries were not conveyed to Rome till after the decease of Raphael,
+and probably not before the dreadful sack of that city in 1527, under
+the pontificate of Clement VII; when Raphael's scholars having fled from
+thence, none were left to inquire after the original Cartoons, which lay
+neglected in the storerooms of the manufactory, the money for the
+tapestry having never been paid. The revolution that happened soon after
+in the low countries prevented their being noticed during a period in
+which works of art were wholly neglected. They were purchased by king
+Charles I. at the recommendation of Rubens, but had been much injured by
+the weavers. At the sale of the royal pictures in 1653, these Cartoons
+were purchased for 300_l_. by Oliver Cromwell, against whom no one would
+presume to bid. The protector pawned them to the Dutch court for upwards
+of 50,000_l._, and, after the revolution, King William brought them over
+again to England, and built a gallery for their reception in Hampton
+Court. Originally there were twelve of these Cartoons, but four of them
+have been destroyed by damps and neglect. The subjects were the
+adoration of the Magi, the conversion of St. Paul, the martyrdom of St.
+Stephen and St. Paul before Felix and Agrippa. Two of these were in the
+possession of the King of Sardinia, and two of Louis XIV. of France, who
+is said to have offered 100,000 louis d'ors for the seven, which are
+justly represented as "the glory of England, and the envy of all other
+polite nations." The twelfth, the subject of which was the murder of the
+innocents, belonged to a private gentleman in England, who pledged it
+for a sum of money; but when the person who had taken this valuable
+deposit found it was to be redeemed, he greatly damaged the drawing; for
+which the gentleman brought an action against him. A third part of it is
+still remaining in the possession of William Hoare, R.A., at Bath.
+
+_Cartoon_ is derived from the Italian _cartone_, a painting or drawing
+upon large paper. Raphael died on the same day of the year on which he
+was born, Good Friday, in 1520, at the age of thirty-seven, deeply
+lamented by all who knew his value. His body lay for awhile in state in
+one of the rooms wherein he had displayed the powers of his mind, and he
+was honoured with a public funeral; his last produce, the
+_transfiguration_, being carried before him in the procession. The
+unrelenting hand of death (says his biographer) set a period to his
+labours, and deprived the world of further benefit from his talents,
+when he had only attained an age at which most other men are but
+beginning to be useful. "We see him in his cradle (said Fuseli); we hear
+him stammer; but propriety rocked the cradle, and character formed his
+lips."
+
+P.T.W.
+
+       *       *       *       *       *
+
+
+TO MARY QUEEN OF SCOTS. WRITTEN ON VISITING WESTMINSTER ABBEY.
+
+
+  My murder'd queen, as on thine image once
+  The gaze alike of prince and peasant rested--
+  As if, unsated of thy thrilling glance,
+  They never until then of beauty tasted:
+  So I, by lonely contemplation led
+  To muse awhile amid the silent dead--
+  Turn me from all around I hear or see--
+  From all of Shakspeare and of great to thee:
+  And think on all thy wrongs--on all the shame
+  That dims for ever thine oppressor's name;
+  On all thy faults, nor few nor far between,
+  But then thou wert--a woman and a queen.
+  Proud titles, even in a barb'rous age,
+  To stem th' impetuous tide of party rage;
+  While as I gaze each well-known feature seems
+  To stir with life, and realise my dreams
+  That paint thee seated on the Scottish throne,
+  With all the blaze of beauty round thee thrown;
+  Then see thee passing from thy dungeon cell,
+  And hear thy parting sigh--thy last farewell.
+
+_Stray Leaves._
+
+       *       *       *       *       *
+
+
+ANCIENT GRECIAN SEPULCHRE
+
+
+[Illustration]
+
+A beautiful illustration of an ancient Grecian sepulchre or funeral
+chamber, heads the second chapter of Mr. Britton's "Union of
+Architecture, Sculpture, and Painting," from which work we have copied
+the annexed engraved view. The interior of the chamber exhibits a
+skeleton and the urns containing the ashes of the dead. The combat leads
+us to the conclusion, that the tomb contains the remains of a chief; for
+it was the barbarous custom of the Greeks to sacrifice captives at the
+tombs of their heroes.
+
+Of the funeral rites and ceremonies of the Greeks and other nations, we
+subjoin the following:--
+
+The most simple and natural kind of funeral monuments, and therefore the
+most ancient and universal, consist in a mound of earth, or a heap of
+stones, raised over the ashes of the departed: of such monuments mention
+is made in the Book of Joshua, and in Homer and Virgil. Many of them
+still occur in various parts of this kingdom, especially in those
+elevated and sequestered situations where they have neither been defaced
+by agriculture nor inundation.
+
+The ancients are said to have buried their dead in their own houses,
+whence, according to some, the original of that species of idolatry
+consisting in the worship of household gods.
+
+The place of burial amongst the Jews was never particularly determined.
+We find that they had burial-places upon the highways, in gardens, and
+upon mountains. We read, that Abraham was buried with Sarah, his wife,
+in the cave of Macphelah, in the field of Ephron, and Uzziah, King of
+Judah, slept with his fathers in the field of the burial which pertained
+to the kings.
+
+The primitive Greeks were buried in places prepared for that purpose in
+their own houses; but in after ages they adopted the judicious practice
+of establishing the burial grounds in desert islands, and outside the
+walls of towns, by that means securing them from profanation, and
+themselves from the liability of catching infection from those who had
+died of contagious disorders.
+
+The Romans prohibited burning or burying in the city, both from a sacred
+and civil consideration, that the priests might not be contaminated by
+touching a dead body, and that houses might not be endangered by the
+frequency of funeral fires.
+
+The custom of burning the dead had its foundation laid deep in nature:
+an anxious fondness to preserve the great and good, the dear friend and
+the near relative, was the sole motive that prevailed in the institution
+of this solemnity. "That seems to me," says Cicero, "to have been the
+most ancient kind of burial, which, according to Xenophon, was used by
+Cyrus. For the body is returned to the earth, and so placed as to be
+covered with the veil of its mother." Pliny also agrees with Cicero upon
+this point, and says the custom of burial preceded that of burning among
+the Romans. According to Monfauçon, the custom of burning entirely
+ceased at Rome about the time of Theodorius the younger. When cremation
+ceased on the introduction of Christianity, the believing Romans,
+together with the Romanized and converted Britons, would necessarily, as
+it is observed by Mr. Grough, "betake themselves to the use of
+sarcophagi (or coffins,) and probably of various kinds, stone, marble,
+lead," &c. They would likewise now first place the body in a position
+due east and west, and thus bestow an unequivocal mark of distinction
+between the funeral deposit of the earliest Roman inhabitants of this
+island, and their Christian successors. The usual places of interment
+were in fields or gardens,[4] near the highway, to be conspicuous, and
+to remind the passengers how transient everything is, that wears the
+garb of mortality. By this means, also, they saved the best part of
+their land:
+
+  --Experiar quid concedatur in illos
+  Quorum Flaminia tegitur cinis, atque Latina.
+                _Juv. Sat I._
+
+The Romans commonly built tombs for themselves during their lifetime.
+Hence these words frequently occur in ancient inscriptions, V.F. Vivus
+Facit, V.S.P. Vivus Sibi Posuit. The tombs of the rich were usually
+constructed of marble, the ground enclosed with walls, and planted round
+with trees. But common sepulchres were usually built below ground, and
+called hypogea. There were niches cut out of the walls, in which the
+urns were placed: these, from their resemblance to the niche of a
+pigeon-house, were called columbaria.
+
+    [4] Our blessed Saviour chose the garden sometime for his
+    oratory, and, dying, for the place of his sepulture; and we also
+    do avouch, for many weighty causes, that there are none more fit
+    to bury our dead in than in our gardens and groves where our
+    beds may he decked with verdant and fragrant flowers. Trees and
+    perennial plants, the most natural and instructive hieroglyphics
+    of our expected resurrection and immortality, besides what they
+    might conduce to the meditation of the living, and the taking
+    off our cogitations from dwelling too intently upon more vain
+    and sensual objects: that custom of burying in churches, and
+    near about them, especially in great and populous cities, being
+    both a novel presumption, indecent, and very prejudicial to
+    health.--_Evelyn's Discourse on Forest Trees_.
+
+       *       *       *       *       *
+
+
+
+SPIRIT OF THE PUBLIC JOURNALS.
+
+
+PREPARATIONS FOR A JOURNEY.
+
+
+I am fond of travelling: yet I never undertake a journey without
+experiencing a vague feeling of melancholy. There is to me something
+strangely oppressive in the preliminaries of departure. The packing of a
+small valise; the settlement of accounts--justly pronounced by Rabelais
+a _blue-devilish_ process; the regulation of books and papers;--in
+short, the whole routine of valedictory arrangements, are to me as a
+nightmare on the waking spirit. They induce a mood of last wills and
+testaments--a sense of dislocation, which, next to a vacuum, Nature
+abhors--and create a species of moral decomposition, not unlike that
+effected on matter by chemical agency. It is not that I have to lament
+the disruption of social connexions or domestic ties. This, I am aware,
+is a trial sometimes borne with exemplary fortitude; and I was lately
+edified by the magnanimous unconcern with which a married friend of mine
+sang the last verse of "Home! sweet home!" as the chaise which was to
+convey him from the _burthen_ of his song drove up to the door. It does
+not become a bachelor to speculate on the mysteries of matrimonial
+philosophy; but the feeling of pain with which _I_ enter on the task of
+migration has no affinity with individual sympathies, or even with
+domiciliary attachments. My landlady is, without exception, the ugliest
+woman in London; and the locality of Elbow-lane cannot be supposed
+absolutely to spellbind the affection of one occupying, as I do,
+solitary chambers on the third floor.
+
+The case, it may be supposed, is much worse when it is my lot to take
+leave, after passing a few weeks at the house of a friend in the
+country;--a house, for instance, such as is to be met with only in
+England:--with about twenty acres of lawn, but no park; with a
+shrubbery, but no made-grounds; with well-furnished rooms, but no
+conservatory; and with a garden, in which dandy tulips and high-bred
+anemones do not disdain the fellowship of honest artichokes and laughing
+cauliflowers--no bad illustration of the republican union of comfort
+with elegance which reigns through the whole establishment. The master
+of the mansion, perhaps an old and valued schoolfellow:--his wife, a
+well-bred, accomplished, and still beautiful woman--cordial, without
+vulgarity--refined, without pretension--and informed, without a shade of
+blue! Their children!... But my reader will complete the picture, and
+imagine, better than I can describe, how one of my temperament must
+suffer at quitting such a scene. At six o'clock on the dreaded morning,
+the friendly old butler knocks at my room-door, to warn me that the mail
+will pass in half an hour at the end of the green lane. On descending to
+the parlour, I find that my old friend has, in spite of our over-night
+agreement and a slight touch of gout, come down to see me off. His
+amiable lady is pouring out for me a cup of tea--assuring me that she
+would be quite unhappy at allowing me to depart without that
+indispensable prelude to a journey. A gig waits at the door: my
+affectionate host will not permit me to walk even half a mile. The
+minutes pass unheeded; till, with a face of busy but cordial concern,
+the old butler reminds me that the mail is at hand. I bid a hasty and
+agitated farewell, and turn with loathing to the forced companionship of
+a public vehicle.
+
+My anti-leave-taking foible is certainly not so much affected when I
+quit the residence of an hotel--that public home--that wearisome
+resting-place--that epitome of the world--that compound of gregarious
+incompatibilities--that bazaar of character--that proper resort of
+semi-social egotism and unamalgable individualities--that troublous
+haven, where the vessel may ride and tack, half-sheltered, but finds no
+anchorage. Yet even the Lilliputian ligatures of such a sojourn
+imperceptibly twine round my lethargic habits, and bind me, Gulliver-
+like, a passive fixture. Once, in particular, I remember to have _stuck_
+at the Hôtel des Bons Enfants, in Paris--a place with nothing to
+recommend it to one of ordinary locomotive energies. But there I stuck.
+Business of importance called me to Bordeaux. I lingered for two months.
+At length, by one of those nervous efforts peculiar to weak resolutions,
+I made my arrangements, secured my emancipation, and found myself on the
+way to the starting-place of the Diligence. I well remember the day:
+'twas a rainy afternoon in spring. The aspect of the gayest city in the
+world was dreary and comfortless. The rain dripped perpendicularly from
+the eves of the houses, exemplifying the axiom, that lines are composed
+of a succession of points. At the corners of the streets it shot a
+curved torrent from the projecting spouts, flooding the channels, and
+drenching, with a sudden drum-like sound, the passing umbrellas, whose
+varied tints of pink, blue, and orange, like the draggled finery of
+feathers and flounces beneath them, only made the scene more glaringly
+desolate. Then came the rush and splatter of cabriolets, scattering
+terror and defilement. The well-mounted English dandy shows his sense by
+hoisting his parapluie; the French dragoon curls his mustachio at such
+effeminacy, and braves the liquid bullets in the genuine spirit of
+Marengo; the old French count picks his elastic steps with the placid
+and dignified philosophy of the _ancien régime_; while the Parisian
+dames, of all ranks, ages, and degrees, trip along, with one leg
+undraped, exactly in proportion to the shapeliness of its configuration.
+
+The huge clock of the Messagéries Royales told three as I entered the
+gateway. The wide court had an air of humid dreariness. On one side
+stood a dozen of those moving caravansaras, the national vehicles, with
+their leathern caps--like those of Danish sailors in a north-wester--
+hanging half off, soaked with wet. Opposite was the range of offices,
+busy with all the peculiar importance of French _bureaucracie._ Their
+clerks, decorated with ribbons and crosses, wield their pens with all
+the conscious dignity of secretaries of state; and "_book_" a bale or a
+parcel as though they were signing a treaty, or granting an amnesty. The
+meanest _employé_ seems to think himself invested with certain occult
+powers. His civility savours of government patronage; and his frown is
+inquisitorial. To his fellows, his address is abrupt and diplomatic. He
+seems to speak in cipher, and to gesticulate by some rule of
+freemasonry. But to the _uninitiated_ he is explanatory to a scruple, as
+though mischief might ensue from his being misapprehended. He makes sure
+of your understanding by an emphasis, which reminds one of the loudness
+of tone used towards a person supposed to be hard of hearing--a
+proceeding not very flattering where there happens to be neither dulness
+nor deafness in the case. In a word, the measured pedantry of his whole
+deportment betrays the happy conviction in which he rejoices of being
+conversant with matters little dreamt of in your philosophy. Among the
+bystanders, too, there are some who might, probably with more reason,
+boast their proficiency in mysterious lore--fellows of smooth aspect and
+polite demeanour, whom at first you imagine to have become casual
+spectators from mere lack of better pastime, but whose furtive glances
+and vagrant attention betray the familiars of the police--that complex
+and mighty engine of modern structure, which, far more surely than the
+"ear of Dionysius," conveys to the tympanum of power each echoed sigh
+and reverberated whisper. It is a chilling thing to feel one's budding
+confidence in a new acquaintance nipped by such frosty suspicions;
+yet--Heaven forgive me!--the bare idea has, before now, caused me to
+drop, unscented, the pinch of _carote_ which has been courteously
+tendered by some coffee-house companion. In the group before me, I
+fancied that I could distinguish some of this ungentle brotherhood; and
+my averted eye rested with comparative complacency even on a couple of
+_gens d'armes_, who were marching up and down before the door, and whose
+long swords and voluminous cocked hats never appeared to me less
+offensive.
+
+In the mean time, knots of travellers were congregating round the
+different vehicles about to depart. In the centre of each little band
+stood the main point of attraction--Monsieur le Conducteur--that
+important personage, whose prototype we look for in vain among the
+dignitaries of Lad-lane, or the Bull-and-Mouth, and whose very name can
+only be translated by borrowing one of Mr. M'Adam's titles--"the
+Colossus of _Roads_." With fur cap, official garb, and the excursive eye
+of a martinet, he inspects every detail of preparation--sees each
+passenger stowed _seriatim_ in his special place--then takes his
+position in front--gives the word to his jack-booted vice, whose
+responsive whip cracks assent--and away rolls the ponderous machine,
+with all the rumbling majesty of a three-decker from off the
+stocks.--_Monthly Magazine_.
+
+       *       *       *       *       *
+
+
+EPIGRAM.
+
+
+THE RETORT MEDICAL.
+
+
+  Quoth Doctor Squill of Ponder's End,
+  "Of all the patients I attend,
+    Whate'er their aches or ails,
+  None ever will my fame attack."
+    "None ever can," retorted Jack:
+  "For dead men tell no tales"
+          _New Monthly Magazine_.
+
+       *       *       *       *       *
+
+
+
+THE SELECTOR, AND LITERARY NOTICES OF NEW WORKS.
+
+
+       *       *       *       *       *
+
+
+CIRCASSIAN WOMEN.
+
+
+We observed two women looking out of a balcony, and earnestly beckoning
+to us. We were the more surprised at their appearance, as we believed
+that the Mahometan women of the Caucasus, like those of Persia, were
+strictly confined to the interior of their houses, or that, at all
+events, they never went unveiled, a custom which we found was not
+general among the inhabitants of the Caucasus. We, however, entered the
+house, and saw in the court two Russian grenadiers, who, by a mistake of
+their corporal, had taken there quarters here, and whose presence was
+the cause of the inquietude manifested by the two ladies, who, with an
+old man, were the only inhabitants of the house. Whilst the soldiers
+were explaining these things to us, they appeared at the top of the
+stairs, and again renewed their invitation by violent gesticulations. On
+a nearer approach, we guessed by their age that they were mother and
+daughter. The former, who still preserved much of the freshness and
+beauty of youth, wore very tight trousers, a short tunic, and a veil,
+which fell in graceful folds on her back, while round her neck she had
+some valuable jewels, though badly mounted. With respect to the
+daughter, who was scarcely fifteen years of age, she was so
+extraordinarily beautiful, that both my companion and myself remained
+awhile motionless, and struck with admiration. Never in my life have I
+seen a more perfect form. Her dress consisted of a short white tunic,
+almost transparent, fastened only at the throat by a clasp. A veil,
+negligently thrown over one shoulder, permitted part of her beautiful
+ebony tresses to be seen. Her trousers were of an extremely fine tissue,
+and her socks of the most delicate workmanship. The old man received us
+in a room adjoining the staircase: he was seated on the carpet, smoking
+a small pipe, according to the custom of the inhabitants of the
+Caucasus, who cultivate tobacco. He made repeated signs to us to sit
+down, that is to say, in the Asiatic manner, a posture extremely
+inconvenient for those who, like ourselves, wore long and tight
+trousers, whilst the two beautiful women on their side earnestly
+seconded his request. We complied with it, though it was the first time
+that either of us had made the essay. The ladies, having left the room
+for a moment, returned with a salver of dried fruits, and a beverage
+made of sugar and milk; but I was so much engaged in admiring their
+personal attractions, that I paid but little attention to their
+presents. It appeared to me an inconceivable caprice of nature to have
+produced such prodigies of perfection amidst such a rude and barbarous
+people, who value their women less than their stirrups. My companion,
+who like myself was obliged to accept of their refreshments, remarked to
+me, whilst the old man was conversing with them, what celebrity a woman
+so transcendently beautiful as the daughter was would acquire in any of
+the capitals of Europe, had she but received the benefits of a suitable
+education.--_Van Halen's Narrative._
+
+       *       *       *       *       *
+
+
+AUSTRALIAN IMPORTUNITY.
+
+
+As beggars, the whole world will not produce their match. They do not
+attempt to _coax_ you, but firmly rely on incessant importunity;
+following you, side by side, from street to street, as constant as your
+shadow, pealing in your ears the never ceasing sound of "Massa, gim me a
+dum! massa, gim me a dum!" (dump.) If you have the fortitude to resist
+_firmly_, on two or three assaults, you may enjoy ever after a life of
+immunity; but by once _complying_, you entail yourself a plague which
+you will not readily throw off, every gift only serving to embolden them
+in making subsequent demands, and with still greater perseverance.
+Neither are their wishes moderately gratified on this head--less than a
+dump (fifteen pence) seldom proving satisfactory. When walking out one
+morning, I accidentally met a young scion of our black tribes, on
+turning the corner of the house, who saluted me with "Good morning, sir,
+good morning;" to which I in like manner responded, and was proceeding
+onwards, when my dingy acquaintance arrested my attention by his loud
+vociferation of "Top, sir, I want to peak to you." "Well, what is it?"
+said I. "Why, you know I am your _servant_, and you have never paid me
+yet." "The devil you are!" responded I "it is the first time I knew of
+it, for I do not recollect ever seeing your face before." "Oh yes, I
+_am_ your servant," replied he, very resolutely; "don't I top about
+Massa ----'s, and boil the kettle sometimes for you in the morning?" I
+forthwith put my hand in my pocket, and gave him all the halfpence I
+had, which I left him carefully counting, and proceeded on my walk; but
+before advancing a quarter of a mile, my ears were again assailed with
+loud shouts of "Hallo! top, top!" I turned round, and observed my friend
+in "the dark suit" beckoning with his hand, and walking very leisurely
+toward me. Thinking he was despatched with some message, I halted, but
+as he walked on as slowly as if deeming I ought rather to go to him than
+he come to me, I forthwith returned to meet him; but on reaching close
+enough, what was my astonishment on his holding out the halfpence in his
+open hand, and addressing me in a loud, grumbling, demanding tone
+with--"Why this is not enough to buy a loaf! you must give me more."
+"Then buy _half_ a loaf," said I, wheeling about and resuming my walk,
+not without a good many hard epithets in return from my
+kettle-boiler.--_Cunningham's Two Years in New South Wales_.
+
+       *       *       *       *       *
+
+
+CONFESSION OF THE EXECUTIONER OF CHARLES I.
+
+
+There have been great disputes about the person who beheaded Charles I.
+Mr. Ellis says, "it seems most probable that the person who actually
+beheaded the king was the common executioner." And then adds the
+following valuable and interesting note, which seems to us to settle the
+question.
+
+"Among the tracts relating to the civil war, which were given to the
+British Museum by his late majesty King George III. in 1762, there are
+three upon this subject. One is entitled, 'The Confession of Richard
+Brandon the Hangman (upon his death-bed), concerning his beheading his
+late Majesty. Printed in the year of the hangman's downfall, 1649.' The
+second is entitled, 'The last Will and Testament of Richard Brandon,'
+printed in the same year. The third is, 'A Dialogue or Dispute between
+the late Hangman (the same person), and Death,' in verse, without date.
+All three are in quarto."
+
+The following are the most important paragraphs of the first tract:
+
+"The confession of the hangman concerning his beheading his late majesty
+the king of Great Britain (upon his death-bed) who was buried on
+Thursday last in Whitechapel church-yard, with the manner thereof:--
+
+"Upon Wednesday last (being the 20th of this instant, June 1649),
+Richard Brandon, the late executioner and hangman, who beheaded his late
+majesty, king of Great Britain, departed this life; but during the time
+of his sicknesse his conscience was much troubled, and exceedingly
+perplexed in mind, yet little shew of repentance for remission of his
+sins, and by past transgressions, which had so much power and influence
+upon him, that he seemed to live in them, and they in him. And on Sunday
+last, a young man of his acquaintance going to visit him, fell into
+discourse, asked him how he did, and whether he was not troubled in
+conscience for cutting off the king's head. He replyed, 'yes, by reason
+that (upon the time of his tryall, and at the denouncing of sentence
+against him,) he had taken a vow and protestation, wishing God to punish
+him body and soul, if ever he appeared on the scaffold to do the act, or
+lift up his hand against him.'
+
+"He likewise confessed that he had thirty pounds for his pains, all paid
+him in half-crowns, within an hour after the blow was given; and that he
+had an orange stuck full of cloves, and a handkircher out of the king's
+pocket, so soon as he was carried off from the scaffold, for which
+orange he was proffered twenty shillings by a gentleman in Whitehall,
+but refused the same, and afterwards sold it for ten shillings in
+Rosemary-lane. About six of the clock at night, he returned home to his
+wife living in Rosemary-lane, and gave her the money, saying, that it
+was the deerest money that ever he earned in his life, for it would cost
+him his life; which prophetical words were soon made manifest, for it
+appeared, that ever since he hath been in a most sad condition, and upon
+the Almightie's first scourging of him with the rod of sicknesse, and
+the friendly admonition of divers friends for the calling of him to
+repentance, yet he persisted on in his vicious vices, and would not
+hearken thereunto, but lay raging and swearing, and still pointing at
+one thing or another, which he conceived to be still visible before
+him."
+
+"About three days before he dy'd, he lay speechlesse, uttering many a
+sigh and heavy groan, and so in a most desperate manner departed from
+his bed of sorrow. For the buriall whereof great store of wines were
+sent in by the sheriff of the city of London, and a great multitude of
+people stood wayting to see his corpse carryed to the church-yard, some
+crying act, 'Hang him, rogue!' 'Bury him in the dunghill;' others
+pressing upon him, saying, they would quarter him for executing of the
+king: insomuch that the churchwardens and masters of the parish were
+fain to come for the suppressing of them, and (with great difficulty) he
+was at last carryed to White Chappell church-yard, having (as it is
+said) a bunch of rosemary at each end of the coffin, on the top thereof,
+with a rope tyed crosse from one end to the other.
+
+"And a merry conceited cook living at the sign of the Crown, having a
+black fan (worth the value of thirty shillings), took a resolution to
+rent the same in pieces, and to every feather tied a piece of
+pack-thread dyed in black ink, and gave them to divers persons, who (in
+derision) for a while wore them in their hats.
+
+"Thus have I given thee an exact account and perfect relation of the
+life and death of Richard Brandon, to the end that the world may be
+convinced of those calumnious speeches and erroneous suggestions which
+are dayly spit from the mouth of envy against divers persons of great
+worth and eminency, by casting an odium upon them for the executing of
+the king; it being now made manifest that the aforesaid executioner was
+the only man who gave the fatal blow, and his man that wayted upon him,
+was a ragman (of the name of Ralph Jones) living in
+Rosemary-lane."--_Ellis's Historical Inquiries._
+
+       *       *       *       *       *
+
+
+A MIDNIGHT ADVENTURE.
+
+
+The night was rather dark, and we had not seen the figure of our
+postilion, or even heard his voice; but we suspected, by the slowness of
+his movements, that he was some old crony of his master. On arriving
+towards the end of the relay, he began to blow a bugle with all his
+might, surprising us with a number of flourishes. Mr. Koch informed me
+that we were going to cross a small river, and that the blast with which
+we had been regaled was a warning for the bargeman. Our vehicle then
+stopped before the door of an inn, which stood on an elevated spot, and
+the postilion, alighting, asked Mr. Koch's permission to enter the inn
+to drink a glass of brandy, whilst the bargeman answered his sign. It
+was midnight, and we expected soon to cross the river; but after waiting
+a quarter of an hour for his return, and seeing that the fellow did not
+come out, I alighted, and proceeded towards a window, where a light was
+perceivable. As I looked through it, I saw what I certainly did not
+expect, but what convinced me that the flourishes of his bugle were
+addressed to a very different person from the bargeman. Our postilion
+was sitting near a table, with a huge flagon beside him, and a wench on
+his knee. Provoked beyond expression at this unseasonable courtship, I
+shook the window till it flew open, and, before my companion had time to
+alight and witness the scene, both the hero and the heroine came to the
+door of the inn, the latter holding a lantern in her hand, by which I
+observed she was an ugly kitchen wench of about eighteen, and he a young
+man of five-and-twenty. Displeased with my interruption, he muttered
+something at my impatience, and at the unseasonableness of my call, and
+again blew his bugle, though by no means so vigorously as he had before
+done; after which we gained the barge, and continued our way without
+farther interruption.--_Van Halen's Narrative._
+
+       *       *       *       *       *
+
+
+BARBARISM OF THE CAUCASIAN TRIBES.
+
+
+Opposite to our encampment, on the other side of the Alazann, and at a
+distance of eighteen or twenty wersts, is the city of Belohakan,
+situated at the foot of the Caucasus, and inhabited by the Eingalos, a
+people whom the Lesghis keep in the most horrible state of slavery, and
+who formerly belonged to Georgia; but who being too industrious, and
+attached to their native soil, would never abandon it, during the
+different revolutions which that country has undergone, and became
+subject to their present masters. That city carries on a great trade
+with Teflis, principally in bourkas, which are manufactured there; and
+as the traders pass through Karakhach, our colonel, who was the
+commandant of this district, and from whom they must obtain a passport
+for Georgia, was obliged to have near him an Eingalo, who understood the
+Russian language, and served as interpreter. This man had become so
+familiarized with the officers, that the colonel allowed him to sit at
+our table. One day we remarked that the interpreter was absent, a
+circumstance which seldom occurred; but, as we were finishing our
+dessert, he entered the dining-room in high spirits, bringing under his
+arm a bundle, carefully tied, which, he said, contained a fine water
+melon for our dessert. This fruit, in the middle of December, is
+considered a great delicacy, and we all expressed a wish that he should
+produce it, when he immediately untied the bundle, and, to our great
+Horror, we beheld the head of a Lesghi, whom he had killed in fight on
+the other side of the Alazann during a sporting expedition, roll on the
+table. Disgusted at this action, which among these barbarous
+mountaineers would pass as an excellent joke, we all rose from table,
+and retired to another apartment, whilst the Eingalo sat down to dinner,
+and, at every mouthful he took, amused himself with turning the head,
+which he kept close to his plate, first one way and then
+another.--_Ibid_.
+
+       *       *       *       *       *
+
+
+
+MISCELLANIES
+
+
+       *       *       *       *       *
+
+
+RELIGIOUS FORTUNE TELLING.
+
+
+The _Sortes Sanctorum_, or _Sortes Sacrae_, of the Christians, has been
+illustrated in the _Classical Journal_.
+
+These, the writer observes, were a species of divination practised in
+the earlier ages of Christianity, and consisted in casually opening the
+Holy Scriptures, and from the words which first presented themselves
+deducing the future lot of the inquirer. They were evidently derived
+from the _Sortes Homerica_ and _Sortes Virgilanae_ of the Pagans, but
+accommodated to their own circumstances by the Christians.
+
+Complete copies of the Old and New Testaments being rarely met with
+prior to the invention of printing, the Psalms, the Prophets, or the
+four Gospels, were the parts of holy writ principally made use of in
+these consultations, which were sometimes accompanied with various
+ceremonies, and conducted with great solemnity, especially on public
+occasions. Thus the emperor Heraclius in the war against the Persians,
+being at a loss whether to advance or retreat, commanded a public fast
+for three days, at the end of which he applied to the four Gospels, and
+opened upon a text which he regarded as an oracular intimation to winter
+in Albania. Gregory, of Tours, also relates that Meroveus, being
+desirous of obtaining the kingdom of Chilperic, his father consulted a
+female fortune-teller, who promised him the possession of royal estates;
+but to prevent deception and to try the truth of her prognostications,
+he caused the Psalter, the Book of Kings, and the four Gospels to be
+laid upon the shrine of St. Martin, and after fasting and solemn prayer,
+opened upon passages which not only destroyed his former hopes, but
+seemed to predict the unfortunate events which afterwards befel him.
+
+A French writer, in 506, says, "this abuse was introduced by the
+superstition of the people, and afterwards gained ground by the
+ignorance of the bishops." This appears evident from Pithon's Collection
+of Canons, containing some forms under the title of _The Lot of the
+Apostles_. These were found at the end of the Canons of the Apostles in
+the Abbey of Marmousier. Afterwards, various canons were made in the
+different councils and synods against this superstition; these continued
+to be framed in the councils of London under Archbishop Lanfranc in
+1075, and Corboyl in 1126.
+
+The founder of the Francisians, it seems, having denied himself the
+possession of any thing but coats and a cord, and still having doubts
+whether he might not possess books, first prayed, and then casually
+opened upon Mark, chapter iv, "Unto you it is given to know the mystery
+of the kingdom of God; but unto them that are without, all these things
+are done in parables;" from which he drew the conclusion, that books
+were not necessary for him.
+
+One Peter of Thoulouse being accused of heresy, and having denied it
+upon oath, one of those who stood by, in order to judge of the truth of
+his oath, seized the book upon which he had sworn, and opening it
+hastily, met with the words of the devil to our Saviour, "What have we
+to do with thee, thou Jesus of Nazareth?" and from thence concluded that
+the accused was guilty, and had nothing to do with Christ!
+
+The extraordinary case also of King Charles I. and Lord Falkland, as
+applicable to divination of this kind, is related. Being together at
+Oxford, they went one day to see the public library, and were shown,
+among other books, a Virgil, finely printed and exquisitely bound. Lord
+Falkland, to divert the king, proposed that he should make a trial of
+his fortune by the _Sortes Virgilanae_. The king opening the book, the
+passage he happened to light upon was part of Dido's imprecation against
+Aeneas in lib. iv. l. 615. King Charles seeming concerned at the
+accident, Lord Falkland would likewise try his own fortune, hoping he
+might fall upon some passage that could have no relation to his case,
+and thus divert the king's thoughts from any impression the other might
+have upon him; but the place Lord Falkland stumbled upon was still more
+suited to his destiny, being the expressions of Evander upon the
+untimely death of his son Pallas, lib. xi. Lord Falkland fell in the
+battle of Newbury, in 1644, and Charles was beheaded in 1649.
+
+The kind of divination among the Jews, termed by them Bath Kol, or the
+daughter of the voice, was not very dissimilar to the _Sortes Sanctorum_
+of the Christians. The mode of practising it was by appealing to the
+first words accidentally heard from any one speaking or reading. The
+following is an instance from the Talmud:--Rabbi Jochanau and Rabbi
+Simeon. Ben Lachish, desiring to see the face of R. Samuel, a Babylonish
+doctor: "Let us follow," said they, "the hearing of Bath Kol."
+Travelling, therefore, near a school, they heard the voice of a boy:
+reading these words out of the First Book of Samuel, "And Samuel died."
+They observed this, and inferred from hence that their friend Samuel was
+dead, and so they found it. Some of the ancient Christians too, it
+seems, used to go to church with a purpose of receiving as the will of
+heaven the words of scripture that were singing at their entrance.
+
+To pay a very great deference in opening upon a place of scripture, as
+to its affording an assurance of salvation, used to be a very common
+practice amongst the people called Methodists, but chiefly those of the
+Calvinistic persuasion; this, it is probable, has declined in proportion
+with the earnestness of these people in other respects. They had also
+another opinion, viz. that if the recollection of any particular text of
+scripture happened to arise in their minds, this was likewise looked
+upon as a kind of immediate revelation from heaven. This they call being
+presented or brought home to them!
+
+       *       *       *       *       *
+
+
+THE GATHERER
+
+
+    "I am but a _Gatherer_ and disposer of other
+    men's stuff."--_Wotton_.
+
+       *       *       *       *       *
+
+Whoever the following story may be fathered on, Sir John Hamilton was
+certainly its parent. The duke of Rutland, at one of his levees, being
+at a loss (as probably most kings, princes, and viceroys occasionally
+are) for something to say to every person he was bound in etiquette to
+notice, remarked to Sir John Hamilton that there was "a prospect of an
+excellent crop:--the timely rain," observed the duke, "will bring every
+thing above ground." "God forbid, your excellency!" exclaimed the
+courtier. His excellency stared, whilst Sir John continued, sighing
+heavily as he spoke:--"yes, God forbid! for I have got _three wives_
+under it."--_Barrington's Sketches_.
+
+       *       *       *       *       *
+
+It is a singular circumstance that Italia, or, as it is called in
+English, Italy, has, under all the changes and revolutions to which it
+has been subjected, always preserved its name. Every other country in
+Europe is now known to its inhabitants by other names than were given to
+it by their ancestors in the time of the Romans; but Italia continues to
+be the name of the country at the present day, and we have no authentic
+records by which we can ascertain that it ever bore any other.
+
+       *       *       *       *       *
+
+
+SINGULAR INSCRIPTION.
+
+
+_Written over the Ten Commandments in a church in Wales._
+
+  PRSVRYPRFCTMN
+  VRKPTHSPRCPTSTN
+
+The meaning can only be developed by adding the vowel E, which makes the
+sense thus--
+
+  Persevere ye perfect men
+  Ever keep these precepts ten.
+
+       *       *       *       *       *
+
+In a new farce, supposed to have been written by Maddocks, was the
+following curious pun:--A large party of soldiers surprising two
+resurrection men in a church-yard, the officer seized one of them, and
+asked him what he had to say for himself. "Say, sir! why, that we came
+here to raise a _corpse_, and not a _regiment!_"
+
+
+
+
+
+End of the Project Gutenberg EBook of The Mirror of Literature, Amusement,
+and Instruction, by Various
+
+*** END OF THIS PROJECT GUTENBERG EBOOK MIRROR OF LITERATURE, NO. 273 ***
+
+***** This file should be named 11387-8.txt or 11387-8.zip *****
+This and all associated files of various formats will be found in:
+        https://www.gutenberg.org/1/1/3/8/11387/
+
+Produced by Jonathan Ingram, L. Barber, David King, and the Online
+Distributed Proofreading Team
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+https://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need, is critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at https://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+https://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at https://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit https://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including including checks, online payments and credit card
+donations.  To donate, please visit: https://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart was the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+Each eBook is in a subdirectory of the same number as the eBook's
+eBook number, often in several formats including plain vanilla ASCII,
+compressed (zipped), HTML and others.
+
+Corrected EDITIONS of our eBooks replace the old file and take over
+the old filename and etext number.  The replaced older file is renamed.
+VERSIONS based on separate sources are treated as new eBooks receiving
+new filenames and etext numbers.
+
+Most people start at our Web site which has the main PG search facility:
+
+     https://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+
+EBooks posted prior to November 2003, with eBook numbers BELOW #10000,
+are filed in directories based on their release date.  If you want to
+download any of these eBooks directly, rather than using the regular
+search system you may utilize the following addresses and just
+download by the etext year.
+
+     https://www.gutenberg.org/etext06
+
+    (Or /etext 05, 04, 03, 02, 01, 00, 99,
+     98, 97, 96, 95, 94, 93, 92, 92, 91 or 90)
+
+EBooks posted since November 2003, with etext numbers OVER #10000, are
+filed in a different way.  The year of a release date is no longer part
+of the directory path.  The path is based on the etext number (which is
+identical to the filename).  The path to the file is made up of single
+digits corresponding to all but the last digit in the filename.  For
+example an eBook of filename 10234 would be found at:
+
+     https://www.gutenberg.org/1/0/2/3/10234
+
+or filename 24689 would be found at:
+     https://www.gutenberg.org/2/4/6/8/24689
+
+An alternative method of locating eBooks:
+     https://www.gutenberg.org/GUTINDEX.ALL
+
+

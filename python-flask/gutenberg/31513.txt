@@ -1,0 +1,1165 @@
+The Project Gutenberg EBook of Fishes of the Wakarusa River in Kansas, by 
+James E. Deacon and Artie L. Metcalf
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: Fishes of the Wakarusa River in Kansas
+
+Author: James E. Deacon
+        Artie L. Metcalf
+
+Release Date: March 5, 2010 [EBook #31513]
+
+Language: English
+
+Character set encoding: ISO-8859-1
+
+*** START OF THIS PROJECT GUTENBERG EBOOK FISHES--WAKARUSA RIVER--KANSAS ***
+
+
+
+
+Produced by Chris Curnow, Joseph Cooper and the Online
+Distributed Proofreading Team at https://www.pgdp.net
+
+
+
+
+
+
+UNIVERSITY OF KANSAS PUBLICATIONS
+MUSEUM OF NATURAL HISTORY
+
+Volume 13, No. 6, pp. 309-322, 1 fig.
+February 10, 1961
+
+
+
+
+Fishes of the Wakarusa River in Kansas
+
+
+
+BY
+
+JAMES E. DEACON AND ARTIE L. METCALF
+
+(Contribution from The State Biological Survey, and from the Department
+of Zoology of The University of Kansas)
+
+
+
+UNIVERSITY OF KANSAS
+LAWRENCE
+1961
+
+
+
+UNIVERSITY OF KANSAS PUBLICATIONS, MUSEUM OF NATURAL HISTORY
+
+Editors: E. Raymond Hall, Chairman, Henry S. Fitch, Robert W. Wilson
+
+
+Vol. 13, No. 6, pp. 309-322, 1 fig.
+Published February 10, 1961
+
+
+UNIVERSITY OF KANSAS
+Lawrence, Kansas
+
+
+PRINTED IN
+THE STATE PRINTING PLANT
+TOPEKA, KANSAS
+1961
+
+28-5872
+
+
+
+
+Fishes of the Wakarusa River in Kansas
+
+BY
+
+JAMES E. DEACON AND ARTIE L. METCALF
+
+(Contribution from The State Biological Survey, and The Department of
+Zoology of The University of Kansas)
+
+
+_Introduction_
+
+The Wakarusa River rises in the eastern edge of the Flint Hills and
+flows approximately 50 miles in an easterly direction and empties into
+the Kansas River near Eudora; with its tributaries, the Wakarusa drains
+458 square miles in parts of Wabaunsee, Shawnee, Osage, and Douglas
+counties of northeastern Kansas (Fig. 1). The average gradient is 6.3
+feet per mile. Turbidity is consistently more than 100 ppm in the lower
+portions of the mainstream and major tributaries, but is usually lower
+in the upper portions of tributaries. The channel of the mainstream is
+intrenched in its own alluvium (Dufford, 1958:36) and has high, muddy
+banks and mud- or sand-bottom; the upper parts of tributaries have
+lower banks and bottoms of gravel, rubble, or bedrock, although a few
+(such as Cole Creek) have areas of sandy bottom. A fringe forest of
+deciduous trees occurs along most streams. The topography and geology
+of the area have been discussed by Todd (1911), Franzen and Leonard
+(1943), and Dufford (1958).
+
+The five-year period prior to 1957 was the driest in the 70-year
+history of weather-records in Kansas (Metzler _et al._, 1958). Streams
+throughout the Wakarusa Basin suffered intermittency and, according to
+Mr. Melvon H. Wertzberger, the local Work Unit Conservationist with the
+Soil Conservation Service, many of them dried completely or contained
+only a few widely-scattered, stagnant pools. The effect of the drought
+on stream-flow at the mainstream gaging station 2.1 miles south of
+Lawrence is presented in Table 1.
+
+According to the Division of Sanitation, Kansas State Board of Health,
+no untreated domestic sewage or industrial waste is discharged into the
+Wakarusa River System at this time.
+
+The Wakarusa Watershed Association is in the preliminary stages of
+establishing a watershed control project in the basin. Objectives of
+the project are the improvement of land-use practices and the
+construction of several headwater retention structures. Such a program
+should have a long-range effect on the physical and biological
+characteristics of the streams of the basin. With this in mind we think
+it important to document the nature of the present fish-fauna and to
+attempt a historical résumé of the fauna, based on collections made in
+the past sixty years.
+
+[Illustration: FIG. 1. Map of the Wakarusa River and its principal
+tributaries.]
+
+
+_Methods_
+
+Sodium cyanide, a 110-volt (600-watt) A.C. electric shocker, and
+seines (6, 12, and 25 feet long, 4 to 8 feet deep having 1/4-in. mesh)
+were used to collect fish in 1959. All fishes were preserved and
+examined in the laboratory with the exception of large, common species
+that were identified in the field and returned to the stream.
+
+TABLE 1. RECORD OF STREAM-FLOW, WAKARUSA RIVER 2.1 MI. S
+LAWRENCE, KANSAS.
+
+============+=========+===========+=========+======
+ Water Year |  Days   | Days with | Maximum | Mean
+  (Oct. 1   | with no | flow less |   for   | for
+ to Oct. 1) |  flow   | than 5cfs |  year   | year
+------------+---------+-----------+---------+------
+ 1951       |      0  |      0    | 22,600  | 596.0
+ 1952       |      0  |     85    |  5,000  | 179.0
+ 1953       |     83  |    191    |    685  |  10.2
+ 1954       |    194  |    123    |  2,010  |  17.2
+ 1955       |    116  |    174    |  2,630  |  22.3
+ 1956       |    122  |    183    |  2,550  |  20.7
+ 1957       |    141  |     84    | 11,700  | 137.0
+ 1958       |     0   |      9    |  6,370  | 213.0
+ 1959       |     0   |     46    |  8,000  | 184.0
+------------+---------+-----------+---------+------
+
+
+_Collection Sites_
+
+    The following collections were made by personnel of the State
+    Biological Survey of Kansas in the 1890's, from 1910 to 1912, and
+    from 1942 to 1953. These collections, all from Douglas County, are
+    deposited in the Museum of Natural History, The University of
+    Kansas. In the annotated list they are designated "KU":
+
+     1. Rock Creek, 1898.
+
+     2. Washington Creek, 1898.
+
+     3. "2-1/2 miles east of Twin Mounds," Rock Creek, Sec. 1, T. 14 S,
+    R. 17 E, 1899.
+
+     4. Rock Creek, 1911.
+
+     5. Rock Creek, 1912.
+
+     6. Washington Creek, 2-3/4 mi. W and 1 mi. S Lawrence, 1946.
+
+     7. Tributary of Yankee Tank Creek, Secs. 4 and 9, T. 13 S, R. 19
+    E, July 24, 1951.
+
+     8. Rock Creek, Sec. 19, T. 13 S, R. 19 E, Aug. 11, 1951.
+
+     9. Drainage ditch, tributary to Wakarusa River, Sec. 18, T. 13 S,
+    R. 20 E, Aug. 24, 1951.
+
+    10. Wakarusa River, Sec. 20, T. 13 S, R. 20 E, Aug. 24, 1951.
+
+    11. Rock Creek, Sec. 27, T. 13 S, R. 18 E, Sept. 28, 1951.
+
+    12. Wakarusa River, Secs. 16 and 17, T. 13 S, R. 20 E, June 21,
+    1952.
+
+    13. Little Wakarusa River, Sec. 18, T. 13 S, R. 21 E, June 21,
+    1952.
+
+    14. Rock Creek, Sec. 33, T. 13 S, R. 18 E, Oct. 2, 1952.
+
+    15. Wakarusa River, Sec. 14, T. 13 S, R. 20 E, March 28, 1953.
+
+    Several collections made between 1912 and 1948 are deposited in the
+    University of Michigan Museum of Zoology. In the annotated list
+    these collections, all from Douglas County, are designated "UMMZ":
+
+     1. Rock Creek, June 9, 1912.
+
+     2. Oxbow Lake, 6 mi. E Lawrence, 1924 (several dates).
+
+     3. Wakarusa River, 7 mi. SE Lawrence, April 9, 1924.
+
+     4. Rock Creek, 9 mi. SW Lawrence, April 14, 1924.
+
+     5. Rock Creek, 12-1/2 mi. S and 8-1/2 mi. E Topeka, July 4, 1948.
+
+    Our collections, all of which were made in 1959, are identified by
+    the letters DM followed by a station-number. Stations are numbered
+    consecutively beginning at the mouth of the Wakarusa River and
+    proceeding up each tributary as it is encountered.
+
+
+_Description of Stations_
+
+     1. Wakarusa River, Sec. 4, T. 13 S, R. 21 E, March 14 and Oct. 18.
+     Mouth of Wakarusa to one-half mile upstream; width _ca._ 25 feet;
+     depth to 4 feet; bottom mud; banks mud, 10 feet high; current
+     slight; water turbid.
+
+     2. Wakarusa River, Sec. 7, T. 13 S, R. 21 E, March 21. Width
+    _ca._ 25 feet; bottom mud; banks mud, 10-20 feet high.
+
+     3. Little Wakarusa Creek, Sec. 19, T. 13 S, R. 21 E, May 2. Long
+    sandy riffles, 6-10 inches deep; pools to 3 feet deep; bottom sand
+    and mud; water slightly turbid.
+
+     4. Little Wakarusa Creek, Secs. 29 and 32, T. 13 S, R. 21 E, May
+    2. Riffles 8-10 inches deep having rubble bottom; pools to 4 feet
+    deep having mud bottom; width 15-30 feet.
+
+     5. Little Wakarusa Creek, Sec. 7, T. 14 S, R. 21 E, May 2. Riffles
+    6-8 inches deep having gravel bottom; pools to 3 feet deep; bottom
+    gravel and mud; width 8 to 15 feet; water slightly turbid.
+
+     6. Cole Creek, Sec. 21, T. 13 S, R. 20 E, May 2. Riffles 8-12 feet
+    wide, 6 inches deep, bottom of flat, fragmented shale; pools
+    having shale and mud bottom; water slightly turbid.
+
+     7. Cole Creek, Sec. 10, T. 14 S, R. 20 E, May 2. Small, shallow
+    creek having sand bottom; water slightly turbid.
+
+     8. Cole Creek, Sec. 23, T. 14 S, R. 10 E, May 2. Banks steep, 20
+    feet high; bottom sand and hard clay; water clear.
+
+     9. Tributary to Yankee Tank Creek, Sec. 10, T. 13 S, R. 19 E, May
+    14. Width 2-10 feet; bottom mud; water turbid.
+
+    10. Washington Creek, Sec. 6, T. 14 S, R. 19 E, Feb. 26. Width
+    _ca._ 25 feet; bottom rubble and gravel; water clear.
+
+    11. Washington Creek, Sec. 11, T. 14 S, R. 18 E, Feb. 26, March 28,
+    March 30, and Oct. 18. One-half mile below dam at Lone Star Lake;
+    width 10-15 feet; bottom gravel; water clear.
+
+    12. Tributary of east arm of Lone Star Lake, Sec. 13, T. 14 S, R.
+    18 E, March 31. Width 5-7 feet; bottom limestone rubble; water
+    clear.
+
+    13. Tributary of southeast arm of Lone Star Lake, Sec. 24, T. 14 S,
+    R. 18 E, March 30.
+
+    14. Tributary of southwest arm of Lone Star Lake, Sec. 22, T. 14 S,
+    R. 18 E, March 30.
+
+    15. Tributary to Rock Creek, Sec. 34, T. 13 S, R. 18 E, Feb. 26.
+    Width 10 feet; water clear.
+
+    16. Rock Creek, Sec. 7, T. 14 S, R. 18 E, July 25 and Oct. 18.
+    Bottom gravel and mud; water clear.
+
+    17. Rock Creek, Sec. 23, T. 14 S, R. 17 E, July 25. Rubble riffles;
+    pools having mud and sand bottom; water clear.
+
+    18. Wakarusa River, Sec. 14, T. 13 S, R. 18 E, July 23. Rubble
+    riffles; pools having sand and mud bottom; water turbid.
+
+    19. Coon Creek, Sec. 27, T. 12 S, R. 18 E, March 21. Bottom rubble
+    and mud; water clear.
+
+    20. Dry Creek, Sec. 8, T. 13 S, R. 18 E, May 16. Bottom rubble;
+    water clear.
+
+    21. Deer Creek, Sec. 4, T. 13 S, R. 18 E, July. Pools having mud
+    bottom; rubble riffles; water turbid.
+
+    22. Deer Creek, Sec. 31, T. 12 S, R. 18 E, March 21. Bottom mud and
+    shale; water clear.
+
+    23. Elk Creek, Sec. 2, T. 14 S, R. 17 E, July 25. Stream
+    intermittent; bottom rubble; water turbid.
+
+    24. Wakarusa River, 1/4 mi. NE mouth of Elk Creek, Sec. 26, T. 14
+    S, R. 17 E, Oct. 17. Bottom mud and rubble; water turbid.
+
+    25. Camp Creek, Sec. 12, T. 14 S, R. 16 E, Oct. 17. Upland creek
+    having clear, flowing water; rubble riffles alternating with
+    shallow pools.
+
+    26. Strowbridge Creek, Sec. 11, T. 14 S, R. 16 E, July 25. Pools
+    having bottom of mud and detritus, emitting malodorous gases;
+    rubble riffles; water turbid.
+
+    27. Tributary of Strowbridge Creek, Sec. 29, T. 14 S, R. 16 E, July
+    30. Bottom rubble and mud; water clear, almost intermittent.
+
+    28. Lynn Creek, Sec. 24, T. 13 S, R. 16 E, April 4. Bottom rubble,
+    mud and gravel; depth more than 6 feet; water turbid.
+
+    29. Lynn Creek, Sec. 14, T. 13 S, R. 16 E, May 27. Bottom mud and
+    rubble; water turbid.
+
+    30. Lynn Creek, Secs. 14 and 15, T. 13 S, R. 16 E, July 28. Pools
+    having sand bottom; rubble riffles; water clear.
+
+    31. Lynn Creek, Sec. 10, T. 13 S, R. 16 E, July 28. Bottom sand,
+    rubble and mud; water clear.
+
+    32. Tributary to Lynn Creek, Secs. 11 and 12, T. 13 S, R. 16 E, May
+    16. Bottom rubble; water clear.
+
+    33. Burys Creek, Sec. 8, T. 14 S, R. 16 E, July 25. Bottom mud,
+    rubble and detritus; rubble riffles; water turbid.
+
+    34. Wakarusa River, Sec. 28, T. 13 S, R. 16 E, July 28. Bottom mud
+    and rubble; rubble riffles; water turbid.
+
+    35. Unnamed tributary of Wakarusa River, Sec. 24, T. 13 S, R. 15 E,
+    April 4. Bottom mud; water turbid.
+
+    36. Six Mile Creek, Sec. 17, T. 13 S, R. 15 E, May 16. Bottom
+    gravel and rubble; rubble riffles; water clear.
+
+    37. Wakarusa River, Sec. 25, T. 13 S, R. 14 E, May 16. Bottom mud
+    and coarse sand; water turbid.
+
+    38. South Branch of Wakarusa River, Sec. 8, T. 14 S, R. 14 E, July
+    30. Bottom rubble and gravel; water clear.
+
+    39. South Branch of Wakarusa River, Sec. 5, T. 14 S, R. 13 E, July
+    30. Bottom bedrock; flow slight; rubble riffles; water turbid.
+
+    40. South Branch of Wakarusa River, Sec. 36, T. 13 S, R. 12 E, July
+    30. Bottom mud; rubble riffles; water turbid.
+
+    41. Middle Branch of Wakarusa River, Sec. 21, T. 13 S, R. 14 E,
+    April 4. Bottom mud; gravel riffles; water turbid.
+
+    42. Tributary of Middle Branch of Wakarusa River, Sec. 29, T. 13 S,
+    R. 14 E, April 4. Bottom mud and bedrock; rubble riffles; water
+    turbid.
+
+
+_Annotated List of Species_
+
+    _Lepisosteus osseus oxyurus_ Rafinesque. DM 2. The longnose gar is
+    abundant in most large rivers of Kansas. The scarcity in the
+    Wakarusa is probably attributable to the small size of the stream.
+
+    _Lepisosteus platostomus_ Rafinesque. UMMZ 2. The shortnose gar is
+    common in the Kansas River but seems less inclined than the
+    longnose gar to ascend small streams.
+
+    _Dorosoma cepedianum_ (LeSueur). UMMZ 2; DM 1. Gizzard shad.
+
+    _Carpiodes velifer_ (Rafinesque). UMMZ 2. This record for the
+    highfin carpsucker is based on a single specimen (UMMZ 63182). It
+    was re-examined by Bernard Nelson who stated (personal
+    communication) "The dorsal fin is broken and the 'pea-lip' smashed.
+    A trace of the 'pea' is still discernible. The body is deeply
+    compressed and other measurements agree with [those of] _C.
+    velifer_. It was identified as _C. cyprinus_ at first, but later
+    changed by Hubbs." _C. velifer_ probably was more abundant in
+    Kansas during and before the early 1900's than at present. Several
+    early records of the species are available, but the only specimen
+    obtained in Kansas in recent years was captured in the Neosho River
+    by Deacon in 1958.
+
+    Moore (1957:80) states that _C. velifer_ occurs in the clearer
+    rivers and lakes of the Mississippi valley, westward to Nebraska
+    and Oklahoma. The almost complete disappearance of this species
+    from Kansas probably resulted from an increase in turbidity, of the
+    rivers, accompanying settlement and cultivation of the land.
+
+    _Carpiodes carpio carpio_ (Rafinesque). KU 5, 12, 15; DM 1, 16, 21,
+    37. The river carpsucker occurred at stations scattered throughout
+    the drainage, except in the smallest creeks. The largest numbers
+    were found in the lower mainstream.
+
+    _Ictiobus cyprinella_ (Valenciennes). KU 10; UMMZ 2; DM 1. The
+    big-mouth buffalo was taken only near the mouth of the river; black
+    buffalo, _Ictiobus niger_ (Rafinesque) and smallmouth buffalo,
+    _Ictiobus bubalus_ (Rafinesque), possibly also occur there but were
+    not taken in our survey.
+
+    _Catostomus commersonnii commersonnii_ (Lacépède). KU 4, 8, 14;
+    UMMZ 1, 5; DM 10, 11, 15, 16, 21, 23, 25, 26, 27, 29, 34, 42. The
+    white sucker occurs primarily in upstream-habitats in the Wakarusa
+    Basin.
+
+    _Moxostoma aureolum_ (LeSueur). KU 15; DM 1. The northern redhorse
+    was taken only in downstream portions of the basin. Minckley and
+    Cross (1960) regard specimens from the Wakarusa River as
+    intergrades between _M. a. aureolum_ and _M. a. pisolabrum_.
+
+    _Cyprinus carpio_ Linnaeus. KU 9, 12, 15; DM 1, 2. The carp, though
+    most abundant in downstream situations, probably occurs throughout
+    the drainage and is a potential pest in all impoundments likely to
+    be constructed in the basin.
+
+    _Notemigonus crysoleucas_ (Mitchill). KU 9; DM 9, 27, 33, 41. The
+    golden shiner was found only in tributaries.
+
+    _Semotilus atromaculatus_ (Mitchill). KU 2, 3, 5, 6, 7, 8, 10, 12,
+    13, 14; UMMZ 4, 5; DM 3, 9, 10, 11, 15, 16, 17, 18, 19, 20, 21, 23,
+    24, 25, 26, 29, 30, 31, 32, 33. The creek chub was usually abundant
+    in small upland tributaries.
+
+    _Hybopsis biguttata_ (Kirtland). KU 1, 3; UMMZ 4. The hornyhead
+    chub seemingly was common in early collections but has not been
+    found since 1924. The fish characteristically inhabits clear
+    streams having gravel-bottom. Disappearance of the species from the
+    Wakarusa may have resulted from increased siltation and
+    intermittency of flow.
+
+    _Hybopsis storeriana_ (Kirtland). KU 10; UMMZ 3.
+
+    _Hybopsis aestivalis_ (Girard). KU 10; UMMZ 3; DM 1. This species
+    and the preceding one are common in the Kansas River but do not
+    ascend far up the Wakarusa. _Hybopsis gelida_ (Girard) and
+    _Hybopsis gracilis_ (Richardson) occur in the Kansas River and may
+    be expected in the lowermost portion of the mainstream of the
+    Wakarusa.
+
+    _Notropis percobromus_ (Cope). KU 12; DM 1, 2. The plains shiner
+    shows little tendency to move far upstream from the Kansas River,
+    where it is abundant.
+
+    _Notropis umbratilis_ (Girard). KU 5, 11, 14; UMMZ 1, 4, 5; DM 9,
+    10, 11, 16, 17, 18, 21, 22, 23, 24, 25, 26, 29, 32, 33, 34, 35, 37,
+    38, 39, 41. In our survey the redfin shiner was the most abundant
+    species at several stations, especially at those in the lower and
+    middle portions of tributaries to the mainstream.
+
+    _Notropis cornutus frontalis_ (Agassiz). KU 1, 2, 3, 8, 11, 14; DM
+    16. Judging from the numbers preserved in early collections, the
+    common shiner was more abundant and widespread in the 1890's than
+    in 1959. A watershed improvement program effecting more stable flow
+    and decreased turbidity might benefit this shiner.
+
+    _Notropis lutrensis_ (Baird and Girard). KU 1, 6, 7, 8, 9, 10, 11,
+    12, 13, 14, 15; UMMZ 1, 2, 3, 4, 5; DM all stations _except_ 5, 11,
+    12, 13, 14, 19, 35. The red shiner was ubiquitous, and was the
+    dominant species at a majority of stations.
+
+    _Notropis stramineus_ (Cope). KU 7, 8, 10, 11, 12, 13, 14, 15; DM
+    1, 2, 3, 4, 6, 7, 9, 10, 15, 16, 17, 24, 25, 31, 37. The sand
+    shiner was most common in two environments: (1) near the mouth of
+    the Wakarusa where abundance of the species may be attributed to
+    the close proximity of a large population of _N. stramineus_ in the
+    Kansas River, and (2) in upland tributaries that drain areas in
+    which sand is found (especially in Cole Creek).
+
+    _Notropis topeka_ (Gilbert). KU 1, 14; UMMZ 1, 4, 5; DM 22, 25, 27,
+    33. Minckley and Cross (1959) describe the habitat of the Topeka
+    shiner as pools of clear upland tributaries with slight flow. We
+    found the Topeka shiner in such habitat in Deer Creek, Strowbridge
+    Creek and Burys Creek. The largest population occurred in a
+    tributary of Strowbridge Creek. This stream probably was
+    intermittent in 1958, and Deer and Burys creeks may have been
+    intermittent at some time in 1957-1959. Although Minckley and Cross
+    (1959:215) have stated that Rock Creek is "unsuitable for this
+    species," we suspect that Rock Creek served as a refugium for _N.
+    topeka_ in time of drought. It was found there (KU 14) in 1952, and
+    again (DM 16) on April 8, 1960.
+
+    _Notropis buchanani_ Meek. UMMZ 3. Inclusion of the ghost shiner is
+    based on two specimens (UMMZ 63107) collected by C. W. Creaser in
+    1924.
+
+    _Phenacobius mirabilis_ (Girard). KU 6, 7, 8, 10, 11, 12, 13, 15;
+    UMMZ 4; DM 3, 6, 16, 18, 21, 22, 34. The suckermouth minnow
+    occurred in several collections but was nowhere dominant. The
+    largest populations were at DM 3, 6, and 22.
+
+    _Hybognathus nuchalis_ Agassiz. KU 8, 15; UMMZ 3; DM 1, 6. The
+    silvery minnow was taken only in the downstream portion of the
+    Wakarusa and its lower tributaries.
+
+    _Pimephales promelas_ Rafinesque. KU 6, 7, 8, 9, 10, 11, 13, 14,
+    15; UMMZ 1, 4, 5; DM all stations _except_ 1, 8, 10, 11, 13, 14,
+    30. The fathead minnow was ubiquitous, and was dominant at several
+    stations on the smallest creeks.
+
+    _Pimephales notatus_ (Rafinesque). KU 1, 6, 11, 12, 14, 15; UMMZ 1,
+    4, 5; DM 6, 8, 10, 12, 16, 17, 18, 24, 25, 26, 37, 41. The
+    bluntnose minnow occurred at several stations on tributaries but
+    was not common.
+
+    _Campostoma anomalum_ (Rafinesque). KU 7, 8, 10, 11, 12, 13, 14;
+    UMMZ 4, 5; DM 3, 9, 10, 11, 13, 15, 16, 17, 18, 19, 20, 21, 22, 24,
+    25, 30, 32, 33, 34. The stoneroller was usually abundant at
+    upstream stations and was found in the mainstream of the Wakarusa
+    River.
+
+    _Ictalurus punctatus_ (Rafinesque). KU 6, 8, 10, 11, 12, 13, 15; DM
+    1, 2, 18, 24. Channel catfish were taken by us only in the
+    mainstream; anglers sometimes catch channel catfish in several of
+    the tributaries.
+
+    _Ictalurus melas_ (Rafinesque). Black bullhead. KU 1, 2, 5, 6, 9,
+    14; UMMZ 2, 5; DM 5, 6, 7, 16, 17, 21, 25, 26, 31, 32, 33, 38, 39,
+    40.
+
+    _Ictalurus natalis_ (LeSueur). Yellow bullhead. KU 9, 14.
+
+    _Pylodictis olivaris_ (Rafinesque). KU 8, 10; DM 18. The flathead
+    catfish comprises a small but consistent part of the sport fishery
+    of the Wakarusa, especially in the mainstream.
+
+    _Noturus flavus_ Rafinesque. Stonecat. KU 10, 11, 12.
+
+    _Noturus exilis_ (Nelson). DM 11. The slender madtom is recorded
+    only from riffles in Washington Creek below Lone Star Lake. These
+    riffles, because of the influence of the reservoir, are probably
+    the most permanent in the drainage at present. The slender madtom
+    may become more widespread if other reservoirs are built that
+    stabilize stream flow in the basin.
+
+    _Perca flavescens_ (Mitchill). The yellow perch is present in Lone
+    Star Lake, and probably will become established in future
+    reservoirs that are constructed.
+
+    _Percina caprodes_ (Rafinesque). Log perch. KU 11, 14, 15; DM 11,
+    12, 16, 37, 41.
+
+    _Etheostoma nigrum_ Rafinesque. KU 8, 14; UMMZ 1, 3, 4, 5; DM 16,
+    17. The johnny darter, like the common shiner, has been taken
+    recently only in Rock Creek, where darters flourish. Often, ten to
+    fifteen johnny darters were taken with one sweep of a 6- or 12-foot
+    seine in shallow pools having mud bottoms. Watershed improvement
+    may benefit this species.
+
+    _Etheostoma spectabile pulchellum_ (Girard). KU 7, 10, 12, 14; UMMZ
+    4, 5; DM 10, 11, 12, 13, 14, 16, 17, 21, 22, 23, 24, 26. The
+    orangethroat darter was most abundant in Deer Creek, Rock Creek and
+    Washington Creek.
+
+    _Micropterus salmoides salmoides_ (Lacépède). DM 16, 17, 21, 30,
+    32, 34, 37. The largemouth bass occurs throughout the drainage at
+    present, and should become established without supplemental
+    stocking in future reservoirs. The absence of this species in early
+    collections suggests that widespread stocking of bass in various
+    impoundments in the area in recent years has increased populations
+    in the streams. An anomalous individual, lacking a right pelvic
+    fin, was found in Lone Star Lake.
+
+    _Chaenobryttus gulosus_ (Cuvier). The warmouth is present in Lone
+    Star Lake. This species typically inhabits lakes and probably will
+    establish itself in other reservoirs.
+
+    _Lepomis cyanellus_ Rafinesque. Green sunfish. KU 6, 8, 9, 10, 11,
+    13, 14, 15; UMMZ 2, 4, 5; DM all stations _except_ 11, 12, 13, 14,
+    27, 30, 31, 39, 40.
+
+    _Lepomis macrochirus_ Rafinesque. KU 6; DM 10, 16, 17, 24, 31, 33,
+    37, 41, 42. Both bluegill and green sunfish are common throughout
+    the drainage and will contribute to the sport fishery of any
+    reservoir constructed. The absence of the bluegill in early
+    collections suggests that its population has increased recently
+    owing to introductions in many impoundments.
+
+    _Lepomis humilis_ (Girard). Orangespotted sunfish. KU 6, 9, 11, 14,
+    15; UMMZ 1, 2, 4, 5; DM 4, 6, 16, 17, 21, 23, 24, 25, 26, 32, 33,
+    34, 37, 38, 39, 40, 41, 42.
+
+    _Lepomis megalotis breviceps_ (Rafinesque). Longear sunfish. KU 8
+    (one individual taken in Rock Creek, 1951).
+
+    _Pomoxis annularis_ (Rafinesque). KU 9, 15; UMMZ 2. White crappie
+    occur in Lone Star Lake and in farm ponds in the basin.
+
+    _Pomoxis nigromaculatus_ (LeSueur). Specimens of black crappie were
+    obtained from Lone Star Lake and in farm ponds in the basin.
+
+    _Aplodinotus grunniens_ Rafinesque. Drum. KU 12.
+
+
+_Discussion_
+
+Our data show that the present fish-fauna of the Wakarusa River has
+three major components:
+
+(1) A group of species that are mainly restricted to the lower
+mainstream; all of them are common in the Kansas River (_Lepisosteus
+osseus_, _Carpiodes carpio carpio_, _Ictiobus cyprinella_, _Moxostoma
+aureolum_, _Cyprinus carpio_, _Hybopsis storeriana_, _Hybopsis
+aestivalis_, _Notropis percobromus_, _Hybognathus nuchalis_ and
+_Pylodictis olivaris)_.
+
+(2) A group of species that are ubiquitous; they comprised the entire
+fauna in some tributaries, despite the existence of habitats that
+seemed suitable for other species (_Notropis lutrensis_, _Pimephales
+promelas_, _Ictalurus melas_, and _Lepomis cyanellus_).
+
+(3) A group of species having distributions centered in Rock Creek,
+Washington Creek, Deer Creek, and some nearby tributaries (_Catostomus
+commersonnii_, _Semotilus atromaculatus_, _Hybopsis biguttata_,
+_Notropis cornutus_, _Notropis topeka_, _Notropis umbratilis_,
+_Phenacobius mirabilis_, _Pimephales notatus_, _Campostoma anomalum_,
+_Noturus exilis_, _Percina caprodes_, _Etheostoma nigrum_ and
+_Etheostoma spectabile_).
+
+The distributions of groups (2) and (3) provide clues to the effect of
+drought on the fish-population, and on the relative ability of various
+species to repopulate areas where they have been extirpated.
+
+Larimore _et al._ (1959) studied the re-establishment of stream-fish
+following drought in Smiths Branch, a small warmwater stream in
+Illinois. They found that 21 of the 29 species regularly occurring
+there reinvaded most of the stream-course within two weeks after the
+resumption of normal flow, and that all but three species were present
+by the end of the first summer. Our study indicates a much slower rate
+of dispersal by many of the same species. This is presumably
+attributable to the ecological barrier presented by the Wakarusa
+mainstream.
+
+During the drought (1952-1956) the mainstream with its turbid water and
+mud bottom could hardly have served as a refugium for species requiring
+the clear water and gravel bottom of upland tributaries. Probably the
+main refugia for these species [group (3)] were in the upper portions
+of Rock Creek, Washington Creek and possibly Deer Creek. While
+collecting we observed that these creeks had larger proportions of
+gravel-rubble bottom, clearer water, deeper pools, and appeared to be
+more stable than other creeks in the drainage. In Washington Creek,
+Lone Star Lake enhanced stability of flow.
+
+At the end of the drought, fishes in group (3) probably were extirpated
+or decimated in other tributaries of the Wakarusa. After normal flow
+recommenced in 1956, fishes re-entered the previously uninhabitable
+streams or stream-segments. The rate of redispersal by various species
+probably depended upon their innate mobility, and upon their tolerance
+of the muddy mainstream of the Wakarusa.
+
+Our observations suggest that certain species in group (3) dispersed
+rapidly from refugia in Rock Creek, Washington Creek, and possibly Deer
+Creek. These species may, of course, have survived in a few remaining
+pools in tributaries throughout the basin, thereby necessitating only
+minor redispersal within these tributaries following drought.
+
+Species of group (3) that were most tolerant of drought or that
+dispersed most rapidly are _Catostomus commersonnii_, _Notropis
+umbratilis_, _Pimephales notatus_, and _Percina caprodes_; these were
+present in the uppermost portions of the basin in 1959. Fishes having
+lesser capacity for survival or dispersal are _Semotilus
+atromaculatus_, _Notropis topeka_, _Phenacobius mirabilis_ and
+_Campostoma anomalum_; in 1959, they were not found farther upstream
+than Burys Creek. _Etheostoma spectabile_, the orangethroat darter, was
+taken in Rock Creek, Washington Creek, Deer Creek, Strowbridge Creek,
+Elk Creek, and at station 24 on the Wakarusa. This is a
+riffle-dwelling, comparatively sedentary fish, not a strong swimmer.
+These traits, coupled with the long, muddy pools and infrequent riffles
+of the Wakarusa mainstream, provide a reasonable explanation of the
+comparatively slow rate of dispersal by the orangethroat darter.
+
+Several species showed no tendency for redispersal following drought,
+in that they were confined to Washington Creek or Rock Creek in 1959.
+_Noturus exilis_ was taken only in Washington Creek immediately below
+Lone Star Lake. Rock Creek is the last stream in the Wakarusa Basin in
+which _Notropis cornutus_, _Hybopsis biguttata_ and _Etheostoma nigrum_
+have survived. These species require comparatively permanent streams
+having pool-and-riffle habitats and gravelly bottoms for spawning.
+_Hybopsis biguttata_ has been recorded only from Rock Creek, where it
+was last taken in 1924. It is interesting to note that this species had
+not reinvaded Smiths Branch, in Illinois, three years after the
+resumption of stream-flow (Larimore _et al._, 1959). _Notropis
+cornutus_ and _Etheostoma nigrum_, although formerly more widespread in
+the Wakarusa Basin, have been taken recently only in Rock Creek.
+
+Faunal changes that have occurred in the basin in the past 60 years
+indicate a decrease in extent of clear, continuously flowing
+stream-habitat.
+
+
+_Comparisons with Faunas of Nearby Streams_
+
+Minckley (1959) reported 13 species from the Big Blue River Basin that
+were not taken in our survey of the Wakarusa. Most of the 13 are fishes
+that probably occur throughout the lower mainstream of the Kansas River
+and might enter the lower Wakarusa occasionally. _Chrosomus
+erythrogaster_ and _Notropis rubellus_ were reported by Minckley but
+have not been found in the Kansas River Basin east of the Flint Hills,
+either in recent or in early collections. On the other hand, five
+species have been reported from the Wakarusa but not from the Big Blue
+River. Two of these, _Notemigonus crysoleucas_ and _Chaenobryttus
+gulosus_, may have been introduced by man. The remaining three,
+_Hybopsis biguttata_, _Noturus exilis_ and _Percina caprodes_, have not
+been taken farther west than Mill Creek, Wabaunsee County. In general
+the faunas of the two systems are similar; forty species are common to
+both.
+
+Comparison of the faunal list reported from the Cottonwood River
+drainage (Arkansas River System) by Cross (1954) with that here
+reported reveals 26 species in common, 19 found only in the Wakarusa
+and 15 species found only in the Cottonwood.
+
+
+_Acknowledgments_
+
+    We thank Dr. Frank Cross, Mr. Bernard Nelson and Mr. Wendell
+    Minckley for their suggestions and data, and Mrs. James E. Deacon
+    for assistance in preparation of the manuscript. We are grateful
+    also to landowners in the Wakarusa Basin for permitting us to
+    collect on their properties, to Mr. Melvon H. Wertzberger for
+    varied assistance, and to The Kansas Forestry, Fish and Game
+    Commission for financial assistance to one of us. The Kansas State
+    Board of Health and the Water Resources Board supplied pertinent
+    information.
+
+
+_Literature Cited_
+
+CROSS, F. B.
+
+1954. Fishes of Cedar Creek and the South Fork of the Cottonwood River,
+Chase County, Kansas. Trans. Kansas Acad. Sci. 57:303-314.
+
+DUFFORD, A. E.
+
+1958. Quaternary geology and ground water resources of Kansas River
+Valley between Bonner Springs and Lawrence, Kansas. Kansas Geol. Surv.
+Bull. 130, Part 1, pp. 1-96.
+
+FRANZEN, D. S., and LEONARD, A. B.
+
+1943. The Mollusca of the Wakarusa River Valley. Univ. Kansas Sci.
+Bull. 29(9):363-439.
+
+LARTMORE, R. W., CHILDERS, W. F., and HECKROTTE, C.
+
+1959. Destruction and re-establishment of stream fish and invertebrates
+affected by drought. Trans. Amer. Fish. Soc, 88(4):261-285.
+
+METZLER, D. F., CULP, R. L., STOLTENBERG, H. A., WOODWARD, R. L.,
+WALTON, G., CHANG, S. L., CLARKE, N. A., PALMER, C. M., and MIDDLETON,
+F. M.
+
+1958. Emergency use of reclaimed water for potable supply at Chanute,
+Kansas. Jour. Amer. Water Works Assoc. 50(8):1021-1060.
+
+MINCKLEY, W. L.
+
+1959. Fishes of the Big Blue River Basin, Kansas. Univ. Kansas Mus.
+Nat. Hist, Publ. 11(7):401-442.
+
+MINCKLEY, W. L., and CROSS, F. B.
+
+1959. Distribution, habitat, and abundance of the Topeka shiner,
+_Notropis topeka_ (Gilbert) in Kansas. Amer. Midi. Nat. 6(1):210-217.
+
+1960. Taxonomic status of the Shorthead Redhorse, _Moxostoma aureolum_
+(LeSueur) from the Kansas River Basin, Kansas. Trans. Kansas Acad. Sci.
+63(1):35-39.
+
+MOORE, G. A.
+
+1957. Fishes. _Transmitted November 8, 1960._ Vertebrates of the United
+States, by Blair, W. F., Blair, A. P., Brodkorb, P., Cagle, F. R., and
+Moore, G. A. McGraw-Hill Book Co., New York, New York, pp. 31-210.
+
+Todd, J. E.
+
+1911. History of Wakarusa Creek. Trans. Kansas Acad. Sci. 24:211-218.
+
+
+_Transmitted November 8, 1960._
+
+
+28-5872
+
+
+
+
+
+End of the Project Gutenberg EBook of Fishes of the Wakarusa River in Kansas, by 
+James E. Deacon and Artie L. Metcalf
+
+*** END OF THIS PROJECT GUTENBERG EBOOK FISHES--WAKARUSA RIVER--KANSAS ***
+
+***** This file should be named 31513-8.txt or 31513-8.zip *****
+This and all associated files of various formats will be found in:
+        https://www.gutenberg.org/3/1/5/1/31513/
+
+Produced by Chris Curnow, Joseph Cooper and the Online
+Distributed Proofreading Team at https://www.pgdp.net
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+https://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at https://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+https://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at https://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit https://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including including checks, online payments and credit card
+donations.  To donate, please visit: https://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart was the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     https://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.

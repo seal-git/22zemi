@@ -1,0 +1,3415 @@
+The Project Gutenberg EBook of My Knitting Book, by Miss Lambert
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: My Knitting Book
+
+Author: Miss Lambert
+
+Release Date: August 22, 2010 [EBook #33502]
+
+Language: English
+
+Character set encoding: ISO-8859-1
+
+*** START OF THIS PROJECT GUTENBERG EBOOK MY KNITTING BOOK ***
+
+
+
+
+Produced by Constanze Hofmann and the Online Distributed
+Proofreading Team at https://www.pgdp.net (This book was
+produced from scanned images of public domain material
+from the Google Print project.)
+
+
+
+
+
+
+
+
+
+            My Knitting Book.
+
+                  By
+             Miss Lambert,
+(Authoress of the Hand-book of Needlework.)
+
+
+             [Illustration]
+
+
+                LONDON:
+
+      JOHN MURRAY, ALBEMARLE STREET.
+                 1843.
+
+          PRICE EIGHTEEN PENCE.
+
+
+
+
+               Richards,
+       100, St. Martin's Lane.
+
+
+
+
+PREFACE.
+
+
+The examples of knitting, contained in the following pages, have been
+selected with the greatest care,--many are original,--and the whole are
+so arranged as to render them comprehensible even to a novice in the
+art.
+
+Knitting being so often sought, as an evening amusement, both by the
+aged and by invalids, a large and distinct type has been adopted,--as
+affording an additional facility. The writer feels confident in the
+recommendation of "MY KNITTING BOOK," and humbly hopes it may meet with
+the same liberal reception that has been accorded to her "HAND-BOOK OF
+NEEDLEWORK."
+
+The numerous piracies that have been committed on her last mentioned
+work, have been one inducement to publish this little volume; and from
+the low price at which it is fixed, nothing, but a very extended
+circulation, can ensure her from loss. Some few of the examples have
+been selected from the chapter on knitting, in the "HAND-BOOK."
+
+    _3, New Burlington Street_,
+        _November 1843._
+
+
+
+
+CONTENTS.
+
+
+    EXPLANATION OF TERMS USED IN KNITTING                              9
+    THE STANDARD FILIÈRE                                              12
+    SIBERIAN CUFFS                                                    13
+    A KNITTED SILK CUFF                                               13
+    OPEN STITCH FOR CUFFS                                             14
+    VERY PRETTY CUFFS                                                 14
+    MUFFATEES WITH TWO COLOURS                                        16
+    GENTLEMEN'S MUFFATEES                                             17
+    PLAIN RIBBED MUFFATEES                                            17
+    ANOTHER PAIR OF MUFFATEES                                         18
+    KNITTED CUFFS, SHELL PATTERN                                      18
+    DOUBLE KNITTED CUFFS                                              20
+    A BRIOCHE                                                         21
+    FRINGE PATTERN KNITTING                                           23
+    AN OPERA CAP                                                      24
+    A SONTAG, OR CEPHALINE                                            26
+    A BONNET CAP                                                      28
+    DOUBLE KNITTING FOR COMFORTERS, ETC.                              29
+    KNITTED LACE                                                      29
+    KNITTED INSERTION                                                 31
+    CORAL TRIMMING FOR A MUSLIN DRESS                                 32
+    BARLEY-CORN STITCH                                                32
+    A MUFF, IN COLOURS OF SABLE                                       33
+    ANOTHER MUFF                                                      34
+    CLOSE STITCH FOR A WAISTCOAT, ETC                                 34
+    LONG SLEEVES TO WEAR UNDER THE DRESS                              35
+    TWELVE PATTERNS FOR D'OYLEYS, TIDIES, ETC.                        36
+      I.--LEAF AND TRELLIS PATTERN                                    36
+      II.--ROSE-LEAF PATTERN                                          40
+      III.--POINT PATTERN                                             42
+      IV.--GOTHIC PATTERN                                             43
+      V.--SCOTCH PATTERN                                              44
+      VI.--CHEVRON PATTERN                                            45
+      VII.--VANDYKE PATTERN                                           46
+      VIII.--LACE PATTERN                                             47
+      IX.--FISH-BONE PATTERN                                          49
+      X.--GERMAN PATTERN                                              49
+      XI.--DIAMOND PATTERN                                            52
+      XII.--SHELL PATTERN                                             53
+    CABLE KNITTING                                                    54
+    A PURSE                                                           55
+    PRETTY STITCH FOR A PURSE                                         55
+    A PENCE JUG, OR PURSE                                             56
+    A STRONG PURSE                                                    59
+    A PRETTY OPEN STITCH FOR A PURSE                                  60
+    OPEN STITCH PURSE WITH BEADS                                      61
+    A PURSE IN FINE SILK                                              62
+    HERRINGBONE, OR SHETLAND STITCH FOR A PURSE                       62
+    FIVE PRETTY PATTERNS FOR BAGS                                     63
+      I.--DIAGONAL CHECK PATTERN BAG                                  63
+      II.--LOZENGE PATTERN BAG                                        64
+      III.--HEM-STITCH PATTERN BAG                                    65
+      IV.--SPIDER PATTERN BAG                                         68
+      V.--STRIPE PATTERN BAG                                          69
+    A BAG, WITH BLACK OR GARNET BEADS                                 69
+    KNITTED FRINGE                                                    70
+    VANDYKE BORDER                                                    71
+    A WARM HALF-SQUARE SHAWL                                          73
+    A WARM DOUBLE KNITTED SCARF, IN TWO COLOURS                       74
+    A BORDER FOR A SHAWL OR QUILT                                     75
+    RAISED KNITTING FOR A SHAWL                                       76
+    A RUSSIAN SHAWL, IN BRIOCHE STITCH                                77
+    A LIGHT STITCH FOR A SHAWL                                        77
+    STAR PATTERN SHAWL, IN TWO COLOURS                                78
+    BARÈGE KNITTING FOR SHAWLS                                        79
+    A SHETLAND KNITTED SCARF                                          80
+    SHETLAND PATTERN FOR A SHAWL                                      82
+    OTHER PATTERNS FOR SHAWLS                                         83
+    DOUBLE DIAMOND STITCH FOR A QUILT                                 83
+    A QUILT                                                           84
+    A LIGHT AND WARM COUNTERPANE                                      85
+    CROSS STITCH PATTERN FOR A QUILT                                  86
+    ANOTHER QUILT                                                     88
+    A QUILT, OR COUVRE-PIED, IN SQUARES                               89
+    A COVER FOR AN AIR PILLOW                                         92
+    A BABY'S HOOD                                                     92
+    A BABY'S SOCK                                                     97
+    ANOTHER BABY'S SOCK                                               99
+    A BABY'S STOCKING                                                100
+    A CARRIAGE BOOT                                                  102
+    A DOUBLE-KNITTED NIGHT SOCK                                      104
+    A FRILEUSE OR NECK TIPPET                                        106
+    WHEEL PATTERN FOR TIDIES, ETC                                    106
+    KNITTED CORAL                                                    107
+    HINTS ON KNITTING                                                107
+
+
+
+
+MY KNITTING BOOK.
+
+
+
+
+Explanation of Terms used in Knitting.
+
+
+_To cast on._--The first interlacement of the cotton on the needle.
+
+_To cast off._--To knit two stitches, and to pass the first over the
+second, and so on to the last stitch, which is to be secured by drawing
+the thread through.
+
+_To cast over._--To bring the cotton forward round the needle.
+
+_To narrow._--To lessen, by knitting two stitches together.
+
+_To seam._--To knit a stitch with the cotton before the needle.
+
+_To widen._--To increase by making a stitch, bringing the cotton round
+the needle, and knitting the same when it occurs.
+
+_A turn._--Two rows in the same stitch, backwards and forwards.
+
+_To turn._--To change the stitch.
+
+_To turn over._--To bring the wool forward over the needle.
+
+_A row._--The stitches from one end of the needle to the other.
+
+_A round._--A row, when the stitches are on two, three, or more needles.
+
+_A plain row._--That composed of simple knitting.
+
+_To pearl a row._--To knit with the cotton before the needle.
+
+_To rib._--To work alternate rows of plain and pearl knitting.
+
+_To bring the thread forward._--To bring the cotton forward so as to
+make an open stitch.
+
+_A loop stitch._--Made by bringing the cotton before the needle, which,
+in knitting the succeeding stitch, will again take its own place.
+
+_To slip or pass a stitch._--To change it from one needle to the other
+without knitting it.
+
+_To fasten on._--The best way to fasten on is to place the two ends
+contrariwise, and knit a few stitches with both together. For knitting,
+with silk, or fine cotton, a _weaver's_ knot will be found the best.
+
+_To take under._--To pass the cotton from one needle to the other,
+without changing its position.
+
+_Pearl, seam, and rib-stitch_--All signify the same.
+
+N.B. The _sizes_ of the _needles_ are given according to the _Standard
+Filière_.
+
+       *       *       *       *       *
+
+The following engraving represents the _Standard Filière_, or knitting
+and netting needle gauge, an instrument invented some time since by the
+authoress, and now in general use, by which the different sizes of
+knitting and netting needles can be ascertained with the greatest
+accuracy.
+
+[Illustration: The Standard Filière.]
+
+It is necessary, in giving or following directions for knitting, to
+caution knitters to observe a medium in their work--not knitting either
+too loose or too tight.
+
+
+
+
+Siberian Cuffs.
+
+
+Nine shades of German wool, used double, will be required.--No. 8
+needles.
+
+Cast on sixty-four stitches with the darkest shade;--knit three plain
+rows.
+
+_Fourth row_--bring the wool forward, knit two together.
+
+Repeat these four rows, (which form the pattern), nine times,--taking a
+lighter shade of wool each time.
+
+
+
+
+A Knitted Silk Cuff.
+
+
+Coarse black netting silk.--Four needles, No. 22. Cast on twenty-eight
+stitches on each of three needles:--knit two plain rounds.
+
+_Third round_--bring the silk forward, slip one; knit one; pass the
+slipped stitch over it; knit one; pearl one.
+
+Repeat the third round, until the cuff be of the depth required;
+then,--knit two plain rounds to correspond with the commencement.
+
+
+
+
+Open Stitch for Cuffs.
+
+
+With coarse silk.--Four needles, No. 22.
+
+Cast on any even number of stitches, on each of three needles.
+
+_First round_--knit two together.
+
+_Second round_--bring the silk forward, knit one.
+
+_Third round_--plain knitting.
+
+Repeat from the first round.
+
+
+
+
+Very Pretty Cuffs.
+
+
+Two colours are generally used--say red and white. They are prettiest in
+four-thread embroidery fleecy, or German wool.--Two needles No. 16, and
+two No. 20, will be required.
+
+    Cast on forty-six stitches.                }
+    Bring the wool forward, knit two together. } white.
+    Knit six plain rows.                       }
+
+    Knit six plain rows.                       }
+    Bring the wool forward, knit two together. } red.
+    Knit six plain rows.                       }
+
+    Knit six plain rows.                       }
+    Bring the wool forward, knit two together. } white.
+    Knit six plain rows.                       }
+
+    Knit six plain rows.                       }
+    Bring the wool forward, knit two together. } red.
+    Knit six plain rows.                       }
+
+    Knit six plain rows.                       } white.
+    Bring the wool forward, knit two together. }
+
+Take double wool, and needles double the size.
+
+    Knit one plain row.                        }
+    Pearl one row.                             }
+    Knit two plain rows.                       } white.
+    Pearl one row.                             }
+    Knit one row.                              }
+
+    Knit one plain row.                        } red.
+    Pearl one row.                             }
+
+Repeat these two red and white stripes, alternately, four times, and
+finish with the two stitches together, as at the commencement.
+
+The cuffs, when finished, roll over at the top.
+
+
+
+
+Muffatees with two Colours.
+
+
+German wool,--three needles, No. 25. The prettiest colours are cerise
+and brown;--commencing with the brown. Cast on eighty-eight stitches,
+viz.--thirty on each of two needles, and twenty-eight on the
+third.--Knit four rounds,--two stitches of each alternately pearl and
+plain.
+
+Knit one plain round.
+
+Pearl three rounds.
+
+The above is all with one colour,--the brown.
+
+Take off two stitches without knitting; knit six with the
+cerise.--Repeat, alternately, to the end of the round.
+
+The next nine rounds are the same.
+
+Knit one plain round with the brown.
+
+Pearl three rounds.
+
+Commence again with the cerise,--knitting four stitches only at the
+beginning of the round;--then take off two stitches, and knit six,
+alternately, as before.
+
+These cuffs may be worked to any desired length, finishing off the same
+as at the commencement.
+
+
+
+
+Gentlemen's Muffatees.
+
+
+Cast on fifty-four stitches, in double German wool.--No. 14 needles.
+
+_First row_--bring the wool forward, slip one; knit two
+together.--Repeat.
+
+Every row is the same,--the first and last stitches being plain. When
+finished they are to be sewn up.
+
+
+
+
+Plain Ribbed Muffatees.
+
+
+Four needles will be required.
+
+Cast on each of three needles, eighteen or twenty-four stitches,
+according to the size desired.
+
+_First round_--knit three; pearl three;--alternately.
+
+_Second and succeeding rounds_--repeat the first.
+
+
+
+
+Another Pair of Muffatees.
+
+
+Three-thread fleecy, or Zephyr wool.--No. 13 needles.
+
+Cast on thirty-six stitches.
+
+Knit twenty plain stitches, and sixteen in double knitting.
+
+When they are sufficiently large, knit or sew them up. The double
+knitting comes over the hand, the plain knitting setting tight to the
+wrist.
+
+
+
+
+Knitted Cuffs, Shell Pattern.
+
+
+These may be made either with silk, cotton, or fine wool.--Needles No.
+22.
+
+Cast thirty stitches on each of two needles, and forty on a third;--knit
+one plain round.
+
+_Second round_--pearl one; pass the silk back, knit one; pearl one;
+bring the silk forward, knit one, by which you make a loop
+stitch;--repeat this five times, which, with the loop stitch, will make
+thirteen from the last pearled stitch. Commence the pattern again, as at
+beginning of round.
+
+_Third round_--pearl one; knit one; pearl one; slip one; knit one, pass
+the slip-stitch over it; knit nine; knit two together.--Repeat to the
+end of the round.
+
+_Fourth round_--same as third, except that there will be only seven
+plain stitches to knit.
+
+_Fifth round_--same as third, with only five plain stitches.
+
+There will now be the same number of stitches on the needles as at the
+commencement, viz.--seven for the shell part of the pattern, and three
+for the division.
+
+Knit one plain round, except on the three division stitches, which are
+to be knitted as before.
+
+Commence again as at second round. When the cuffs are of sufficient
+length, knit a plain round to correspond with the beginning.
+
+The prettiest way of knitting these cuffs will be to work the first
+pattern in cerise;--the next five in white; the next five, alternately
+in cerise and white; then five in white; and finish with one in cerise.
+
+
+
+
+Double Knitted Cuffs.
+
+
+These cuffs are prettiest in single German wool; two colours are
+required,--say claret and white. They will take sixteen skeins of white
+wool and eight of claret--No. 13 needles.
+
+Cast on forty-six stitches in claret,--pearl four rows. Pearl one row
+white; in the next--bring the wool forward, knit two together:--repeat
+these two rows of white, twice,--making altogether six rows. The four
+rows of claret in pearl knitting, and the six rows of white, are now to
+be repeated, alternately, until six stripes of each are worked. Then,--
+
+Pick up seventy stitches in claret, on the right side, at one of the
+narrow ends, and pearl one row. Repeat the six rows of white,--finishing
+with the four rows of claret, and cast off.
+
+Repeat the same at the other end of the cuff,--observing that the
+knitting of the frill is to be on the wrong side.
+
+Sew up the cuffs, and double them, so as to allow the frill, at the one
+end, to appear above that at the other.
+
+
+
+
+A Brioche[A].
+
+
+The _Brioche_ knitting-stitch is simply--bring the wool forward, slip
+one; knit two together.
+
+A Brioche is formed of sixteen straight narrow stripes, and sixteen wide
+stripes, the latter gradually decreasing in width towards the top or
+centre of the cushion. It may be made in three-thread fleecy, or double
+German wool, with ivory or wooden pins, No. 8.
+
+Cast on ninety stitches, in black, for the narrow stripe; knit two
+turns;--then, three turns in gold colour, and two turns again in black.
+This completes the narrow stripe.
+
+The conical stripe is knitted as follows:--bring the wool forward, knit
+two together, twice, and turn; knit these two, and two more of the black
+and turn; continue this,--taking each time two more stitches of the
+black, until within two stitches of the top, and turn; the wool will now
+be at the bottom or wide part of the stripe. Commence again with the
+black, as in the former narrow stripe, knitting the two black stitches
+at the top. It may be also as well to diminish the narrow stripes by
+turning when within two stitches of the top, in the centre row of gold
+colour.
+
+By a _turn_ is meant one row and back again.
+
+The colours for the conical stripes may be any two or four colours,
+which assort well together; or each may be different. When the last
+conical stripe is finished, it is to be knitted to the first narrow
+stripe.--The brioche is to be made up with a stiff bottom of mill board,
+about eight inches in diameter, covered with cloth. The top is drawn
+together, and fastened in the centre with a tuft of soft wool, or a cord
+and tassels. It should be stuffed with down or fine combed wool.
+
+   [A] So called from its resemblance, in shape, to the well known
+   French cake of that name.
+
+
+
+
+Fringe Pattern Knitting.
+
+
+Cast on any even number of stitches, in German wool--No. 10 needles.
+
+Turn the wool round the needle, bringing it in front again; knit two
+together, taken in front.
+
+Every row is the same.
+
+
+
+
+An Opera Cap.
+
+
+No. 10 needles--Double German wool, or three-thread fleecy.
+
+Cast on eighty stitches,--white.
+
+    Pearl one row, } white.
+    Knit one row,  }
+
+Pearl one row,--coloured. In the next row,--
+
+Bring the wool before the needle, and knit two stitches together.
+
+    Pearl one row, } white.
+    Knit one row,  }
+
+    Pearl one row, } white.
+    Knit one row,  }
+
+The above forms the border.
+
+
+_First division_--coloured.
+
+Pearl one row.
+
+Knit one row, decreasing one stitch at each end.
+
+Knit one row.
+
+Knit a fancy row, by bringing the wool forward, and knitting two
+stitches together.
+
+
+_Second_--white.
+
+Pearl one row, decreasing one stitch at each end.
+
+Knit one row, decreasing two stitches at each end.
+
+Knit one row, decreasing one stitch at each end.
+
+Knit a fancy row as before.
+
+
+_Third_--coloured.
+
+Pearl one row, decreasing one stitch at each end.
+
+Knit one row, decreasing one stitch at each end.
+
+Knit one row, _without_ decreasing.
+
+Knit the fancy row as before.
+
+
+_Fourth_, _Fifth_, _Sixth_, _Seventh_--
+
+The third division is to be repeated, alternately with white and
+coloured wool.
+
+
+_Eighth_--white. _Ninth_--coloured.
+
+In these two last divisions, only two stitches are to be decreased in
+each; this is to be done in the row after the pearl,--decreasing one
+stitch at each end.
+
+N.B. There should be forty-six stitches left on the needle in the last
+row.
+
+Pick up thirty stitches on each side, and make the borders at the sides
+and back like that in front.
+
+Make up the cap by turning in the border to the fancy row, and hem it
+all round: it is to be tied behind, and under the chin, with ribbons or
+plaited wool, with tassels of the same.
+
+
+
+
+A Sontag, or Cephaline
+
+
+The border for this cap is worked the same as the preceding,--casting on
+one hundred and two stitches;--single German wool;--No. 15 needles.
+
+Knit one row in white, to bring the pearl on the right side. Then,--
+
+With the darkest shade, bring the wool round the needle, pearl two
+together; pearl one.--Repeat to the end of the row.
+
+In the next row--bring the wool forward, knit two together; knit
+one.--Repeat to the end of the row.
+
+Knit forty-two rows in the same manner, taking in one stitch at the end
+of almost every row, so that the number of stitches in the last row is
+reduced to seventy-two, taking care to keep the pattern regular, and
+changing the colour every two rows.
+
+Take up forty stitches, on each side, and knit one row of white round
+all the three sides: knit another row to make the pearl, and finish the
+border with white and coloured wool, as in the preceding cap. Finish
+with ribbons, or cords and tassels.
+
+The border is knitted in white, and the middle shade of whatever colour
+is used in the head piece. This is prettiest in five distinct shades of
+any colour, with one or two rows of white between each division of
+shade.
+
+
+
+
+A Bonnet Cap.
+
+
+Cast on ninety stitches, in hair-brown German wool, for border.--No. 16
+needles.
+
+_First, second, and third rows_--plain knitting.
+
+_Fourth row_--bring the wool forward, knit two together. Then,--
+
+Commence with another colour--say white.
+
+_Fifth, sixth, and seventh rows_--plain knitting.
+
+_Eighth row_--bring the wool forward, knit two together.
+
+Repeat these last four rows seven times: then the brown border as
+before. They form a band of about four inches wide, which is to be drawn
+up at the two ends, and strings attached to tie it close to the chin.
+
+Then, cast on forty stitches and commence another band with the brown
+border as above,--three rows of the pattern in white, and repeat the
+brown border. This is to be sewn or knitted on to the head piece, and
+forms the band for the back. A ribbon is to be run through it, to tie it
+close to the head.
+
+
+
+
+Double Knitting for Comforters, etc.
+
+
+Large-sized needles, No. 1, and four-thread fleecy, will be required.
+
+Cast on any even number of stitches.
+
+_First row_--bring the wool forward, slip one; pass the wool back, knit
+one, turning the wool twice round the needle.--Repeat to the end of the
+row.
+
+Every succeeding row is the same.--The stitch knitted in one row, is the
+slip-stitch in the next.
+
+
+
+
+Knitted Lace.
+
+
+Cast on twelve stitches with very fine cotton, or thread.--No. 25
+needles.
+
+_First row_--slip one; knit two; pearl one; knit two together; turn the
+thread once round the needle, knit two; pearl one; knit one; turn the
+thread once round the needle, knit two, taken together at the back.
+
+_Second row_--slip one; knit one; turn the thread twice round the
+needle, knit two; pearl two together; turn the thread once round the
+needle, knit one; pearl two together; turn the thread twice round the
+needle, pearl two together; knit one.
+
+_Third row_--slip one; knit two; pearl one; knit two; turn the thread
+once round the needle, knit two together, taken at the back; knit one;
+knit two together; knit three.
+
+_Fourth row_--slip one; turn the thread once round the needle; pearl
+one; knit two together; turn the thread once round the needle, knit
+four; pearl two together; turn the thread twice round the needle, pearl
+two together; knit one.
+
+_Fifth row_--slip one; knit two; pearl one; knit two; knit two together;
+turn the thread twice round the needle, knit three; pearl two together;
+knit one.
+
+_Sixth row_--slip one; knit one, pass the slip-stitch over it; slip one;
+knit one, pass the slip-stitch over it; slip one; knit one, pass the
+slip-stitch over it; slip one; knit two; turn the thread once round the
+needle, pearl two together; turn the thread once round the needle, pearl
+two together; knit one; turn the thread twice round the needle, pearl
+two together; knit one.
+
+There should now be twelve stitches on the needle as at the
+commencement.--Repeat from the first row.
+
+
+
+
+Knitted Insertion.
+
+
+Cast on nine stitches in fine cotton; No. 23 needles.
+
+Slip one; knit two; bring the cotton forward, knit two together; knit
+one; bring the cotton forward, knit two together; pearl one.--Repeat.
+
+This may be used for trimming muslin curtains, etc.
+
+
+
+
+Coral Trimming for a Muslin Dress.
+
+
+Cast on two stitches.--No. 2 needles, rather short.
+
+Turn the wool round the needle, so as to bring it in front again; knit
+the two stitches, take together in the front.
+
+Every row is the same.
+
+
+
+
+Barley-corn Stitch.
+
+
+Cast on any uneven number of stitches, with eight-thread Zephyr fleecy,
+or double German wool, and No. 2 needles.
+
+Slip the first stitch, keeping the wool in front of the needle; turn the
+wool round the needle, so as to bring it in front again; knit two
+together, taken in front. Continue turning the wool round the needle,
+and knitting two together, to the end of the row. All the rows are the
+same.
+
+The two stitches, which are to be taken together, appear always as if
+tied together.
+
+
+
+
+A Muff, in colours of Sable.
+
+
+Cast on seventy or eighty stitches.
+
+_First, second, and third rows_--plain knitting.
+
+_Fourth row_--bring the wool forward, knit two together, taken at the
+back.--Repeat to the end of the row.
+
+Repeat these four rows, until the piece be about eighteen inches long,
+admitting that the shading comes in correctly.
+
+Two No. 8 needles are required, and double German wool, in four distinct
+shades to match the colour of sable. Commence with the lightest
+shade,--then the second, third, and darkest, reversing them again to the
+lightest.
+
+
+
+
+Another Muff.
+
+
+Cast on forty-five stitches.--No. 8 needles.
+
+Every row is worked the same, with a slip-stitch at the beginning;--knit
+one; pearl one.--Repeat to the end of the row.
+
+It will require a piece of about twenty inches long, to make a moderate
+sized muff, which should be lined with gros de Naples; and stuffed with
+wool, and a sufficient quantity of horse-hair to retain it in shape.
+Cord and tassels to match the colour of the muff, may be sewn at the
+ends; or it may be drawn up with ribbons.
+
+
+
+
+Close Stitch for a Waistcoat, &c.
+
+
+To be knitted in two colours,--say claret and blue.--No. 18 needles.
+German wool.
+
+_First row_--with claret,--knit one; slip one.--Repeat to the end of the
+row.
+
+_Second row_--with claret,--knit one; bring the wool forward, slip one;
+pass the wool back, knit one.--Repeat to the end of the row.
+
+_Third row_--with claret,--slip one; knit one.--Repeat to the end of the
+row.
+
+_Fourth row_--with claret,--bring the wool forward, slip one; pass the
+wool back, knit one.--Repeat to the end of the row.
+
+_Fifth and sixth rows_--same as first and second,--in blue.
+
+Commence again, as at first row.
+
+
+
+
+Long Sleeves to wear under the Dress.
+
+
+No. 17 needles, and six-thread embroidery fleecy.
+
+Cast on forty-two stitches very loosely, and alternately knit, and
+pearl, three stitches, for twelve turns.
+
+Knit ten turns plain.
+
+Knit thirty-five turns plain,--increasing one stitch at the beginning
+and end of each turn.
+
+Knit twenty turns, plain--increasing one stitch every other turn.
+
+Repeat the twelve turns as at the commencement.
+
+
+
+
+THE TWELVE FOLLOWING PATTERNS ARE INTENDED FOR D'OYLEYS, TIDIES, FISH OR
+BASKET NAPKINS; THEY ARE TO BE WORKED WITH NO. 14 KNITTING COTTON, AND
+NO. 19 NEEDLES.--THEY MAY ALSO BE ADAPTED, WITH A CHANGE OF MATERIAL,
+FOR SHAWLS, COUNTERPANES, BAGS, AND MANY OTHER ARTICLES.
+
+
+
+
+I.
+
+Leaf and Trellis Pattern.
+
+
+Cast on any number of stitches that may be divided by twenty,--twenty
+stitches forming each pattern.
+
+_First row_--pearl knitting.
+
+_Second row_--knit five;(a) bring the thread forward, knit two together,
+three times; bring the thread forward, knit two; knit two together;
+knit ten.--Repeat from (a).
+
+_Third row_--pearl knitting.
+
+_Fourth row_--knit six;(b) bring the thread forward, knit two together,
+three times; bring the thread forward, knit two; knit two together; knit
+five; knit two together; knit two; bring the thread forward, knit
+one.--Repeat from (b).
+
+_Fifth row_--pearl knitting.
+
+_Sixth row_--knit seven;(c) bring the thread forward, knit two together,
+three times; bring the thread forward, knit two; knit two together; knit
+three; knit two together; knit two; bring the thread forward, knit
+three.--Repeat from (c).
+
+_Seventh row_--pearl knitting.
+
+_Eighth row_--knit eight;(d) bring the thread forward, knit two
+together, three times; bring the thread forward, knit two; knit two
+together; knit one; knit two together; knit two; bring the thread
+forward, knit five.--Repeat from (d).
+
+_Ninth row_--pearl knitting.
+
+_Tenth row_--knit nine;(e) bring the thread forward, knit two together,
+three times; bring the thread forward, knit two; slip one; knit two
+together, pass the slipped stitch over them; knit two; bring the thread
+forward, knit seven.--Repeat from (e).
+
+_Eleventh row_--pearl knitting.
+
+_Twelfth row_--(f) knit five; knit two together; knit two; bring the
+thread forward, knit two together, three times; bring the thread
+forward, knit one; bring the thread forward, knit two; knit two
+together.--Repeat from (f).
+
+_Thirteenth row_--pearl knitting.
+
+_Fourteenth row_--knit four;(g) knit two together; knit two; bring the
+thread forward, knit two together, three times; bring the thread
+forward, knit three; bring the thread forward, knit two; knit two
+together; knit three.--Repeat from (g).
+
+_Fifteenth row_--pearl knitting.
+
+_Sixteenth row_--knit three;(h) knit two together; knit two; bring the
+thread forward, knit two together, three times; bring the thread
+forward, knit five; bring the thread forward, knit two; knit two
+together; knit one.--Repeat from (h).
+
+_Seventeenth row_--pearl knitting.
+
+_Eighteenth row_--knit two; knit two together;(i) knit two; bring the
+thread forward, knit two together, three times; bring the thread
+forward, knit seven; bring the thread forward, knit two; slip one; knit
+two together, pass the slipped stitch over them.--Repeat from (i).
+
+_Nineteenth row_--pearl knitting.
+
+_Twentieth row_--Commence again, as at fourth row.
+
+
+
+
+II.
+
+Rose-leaf Pattern.
+
+
+This pattern may be worked with any number of stitches that can be
+divided by ten, adding three stitches,--one for the symmetry of the
+pattern, and two for the borders.
+
+N.B. The termination of each row must be exactly the same (reversed) as
+the commencement.
+
+Cast on forty-three stitches; pearl one row.
+
+_First row_--knit one;(a) pearl one; knit two together; knit two; bring
+the thread forward, knit one; bring the thread forward, knit two; knit
+two together.--Repeat from (a).
+
+_Second row_--knit one;(b) knit one; pearl two together; pearl one;
+bring the thread forward, turning it round the needle, pearl three; turn
+the thread round the needle, pearl one; pearl two together.--Repeat from
+(b).
+
+_Third row_--knit one;(c) pearl one; knit two together; bring the thread
+forward, knit five; bring the thread forward, knit two together.--Repeat
+from (c).
+
+_Fourth row_--knit one; pearl two together;(d) bring the thread forward,
+turning it round the needle, pearl seven; bring the thread forward,
+turning it round the needle, pearl three together.--Repeat from (d).
+
+_Fifth row_--knit two; bring the thread forward, knit two; knit two
+together; repeat, as in first row, from (a).
+
+_Sixth row_--knit one; pearl two; bring the thread forward, turning it
+round the needle, pearl one; pearl two together; repeat, as in second
+row, from (b).
+
+_Seventh row_--knit four; bring the thread forward, knit two together;
+repeat, as in third row, from (c).
+
+_Eighth row_--knit one; pearl four; bring the thread forward, turning it
+round the needle, pearl three together; repeat, as in fourth row, from
+(d).
+
+_Ninth row_--Commence again, as at first row.
+
+
+
+
+III.
+
+Point Pattern.
+
+
+Cast on six stitches for each pattern, and two over for the edge.
+
+_First row_--Knit two;(a) knit two together; bring the thread forward,
+knit one; bring the thread forward, knit two together; knit one.--Repeat
+from (a).
+
+_Second row_--plain knitting.
+
+_Third row_--knit two together; knit one;(b) bring the thread forward,
+knit three; bring the thread forward, knit three together.--Repeat from
+(b).--At the end of this row, plain knit the two last stitches.
+
+_Fourth row_--plain knitting.
+
+_Fifth row_--knit two;(c) bring the thread forward, knit two together;
+knit one; knit two together; bring the thread forward, knit
+one.--Repeat from (c).
+
+_Sixth row_--plain knitting.
+
+_Seventh row_--knit three; bring the thread forward, knit three
+together; bring the thread forward.--Repeat.--At the end of this row,
+bring the thread forward, knit two.
+
+_Eighth row_--plain knitting.
+
+
+
+
+IV.
+
+Gothic Pattern.
+
+
+Cast on any number of stitches that can be divided by ten.--Knit four
+plain rows.
+
+_Fifth row_--knit one; bring the thread forward, knit three;(a) slip
+one; knit two together, pass the slipped stitch over them; knit three;
+bring the thread forward, knit one; bring the thread forward, knit
+three.--Repeat from (a).
+
+_Sixth row_--pearl knitting.
+
+Repeat the fifth and sixth rows three times, and commence again with the
+four plain rows.
+
+
+
+
+V.
+
+Scotch Pattern.
+
+
+Cast on seven stitches for each pattern.
+
+_First row_--knit two; knit two together; bring the thread forward, knit
+one; bring the thread forward, knit two together.--Repeat.
+
+_Second row_--plain knitting.
+
+_Third row_--knit one;(a) knit two together; bring the thread forward,
+knit three; bring the thread forward, knit two together.--Repeat from
+(a).
+
+_Fourth row_--plain knitting.
+
+_Fifth row_--knit two; bring the thread forward, knit two together; knit
+one; knit two together; bring the thread forward.--Repeat.
+
+_Sixth row_--plain knitting.
+
+_Seventh row_--knit two; bring the thread forward, knit two together;
+knit one; knit two together; bring the thread forward.--Repeat.
+
+_Eighth row_--plain knitting.
+
+_Ninth row_--knit two; bring the thread forward, knit two together; knit
+one; knit two together; bring the thread forward.--Repeat.
+
+_Tenth row_--plain knitting.
+
+_Eleventh row_--knit three; bring the thread forward, knit three
+together; bring the thread forward, knit one.--Repeat.
+
+_Twelfth row_--plain knitting.
+
+_Thirteenth row_--knit three; knit two together; bring the thread
+forward, knit three.--Repeat.
+
+_Fourteenth row_--plain knitting.
+
+Commence again, as at first row.
+
+
+
+
+VI.
+
+Chevron Pattern.
+
+
+Cast on any number of stitches that can be divided by eight.
+
+_First row_--pearl knitting.
+
+_Second row_--knit two together; knit three; bring the thread forward,
+knit three.--Repeat.
+
+Repeat these two rows twice,--making in all six rows.
+
+The pattern, as above worked, turns to the left; in the next six rows it
+should turn to the right,--this is to be done by bringing the thread
+forward before the open stitch of the preceding row.
+
+Commence again as at first row, knitting alternately six rows with the
+pattern to the left, and six rows with the pattern to the right.
+
+
+
+
+VII.
+
+Vandyke Pattern.
+
+
+Cast on any number of stitches that can be divided by ten.
+
+_First row_--pearl knitting.
+
+_Second row_--plain knitting.
+
+_Third row_--pearl knitting.
+
+_Fourth row_--bring the thread forward, knit two; knit two together;
+pearl one; knit two together; knit two; bring the thread forward, knit
+one.--Repeat.
+
+Commence again, as at first row.
+
+
+
+
+VIII.
+
+Lace Pattern.
+
+
+Cast on any number of stitches that can be divided by six.
+
+_First row_--knit one; knit two together; bring the thread forward, knit
+one; bring the thread forward, knit two together.--Repeat.
+
+_Second row_--pearl knitting.
+
+Repeat the two first rows, four times,--making altogether ten rows.
+
+_Eleventh row_--knit two together;(a) bring the thread forward, knit
+three; bring the thread forward, knit three in one, (by slipping the
+first stitch, knitting the second, and passing the slip-stitch over the
+knitted one; then passing the last stitch off the right hand needle on
+to the left hand needle, and slipping the second stitch over the first,
+and passing the stitch back again on to the right-hand needle).--Repeat
+from (a).
+
+_Twelfth row_--pearl knitting.
+
+_Thirteenth row_--knit one; bring the thread forward, knit two together;
+knit one; knit two together; bring the thread forward.--Repeat.--Finish
+this row by bringing the thread forward, and knitting two together, to
+prevent its decreasing.
+
+_Fourteenth row_--pearl knitting.
+
+Repeat the two last rows four times.
+
+_Twenty-third row_--knit two;(b) bring the thread forward, knit three in
+one (as before); bring the thread forward, knit three.--Repeat from (b).
+
+Commence again, as at first row.
+
+
+
+
+IX.
+
+Fish-bone Pattern.
+
+
+Cast on any uneven number of stitches.
+
+_First row_--Slip one; knit one;(a) bring the thread forward, slip one,
+taking it in front; knit one, pass the slip-stitch over it; knit
+two.--Repeat from (a).--There will be three plain stitches to knit at
+the end of the row.
+
+_Second row_--Slip one;(b) turn the thread round the needle, and bring
+it in front again; pearl two together; pearl two.--Repeat from (b).
+
+
+
+
+X.
+
+German Pattern.
+
+
+Cast on twenty-one stitches for each pattern.
+
+_First row_--pearl knitting.
+
+_Second row_--knit two together; knit three; knit two together; knit
+one; bring the thread forward, knit one; bring the thread forward, knit
+one; knit two together; knit three; knit two together; knit one; bring
+the thread forward, knit one; bring the thread forward, knit
+two.--Repeat.
+
+_Third row_--pearl knitting.
+
+_Fourth row_--knit two together; knit one; knit two together; knit one;
+bring the thread forward, knit three; bring the thread forward, knit
+one; knit two together; knit one; knit two together; knit one; bring the
+thread forward, knit three; bring the thread forward, knit two.--Repeat.
+
+_Fifth row_--pearl knitting.
+
+_Sixth row_--slip one; knit two together, pass the slip-stitch over
+them; knit one; bring the thread forward, knit five; bring the thread
+forward, knit one; slip one; knit two together, pass the slip-stitch
+over them; knit one; bring the thread forward, knit five; bring the
+thread forward, knit two.--Repeat.
+
+_Seventh row_--pearl knitting.
+
+_Eighth row_--knit two; bring the thread forward, knit one; bring the
+thread forward, knit one; knit two together; knit three; knit two
+together; knit one; bring the thread forward, knit one; bring the thread
+forward, knit one; knit two together; knit three; knit two
+together--Repeat.
+
+_Ninth row_--pearl knitting.
+
+_Tenth row_--knit two; bring the thread forward, knit three; bring the
+thread forward, knit one; knit two together; knit one; knit two
+together; knit one; bring the thread forward, knit three; bring the
+thread forward, knit one; knit two together; knit one; knit two
+together.--Repeat.
+
+_Eleventh row_--pearl knitting.
+
+_Twelfth row_--knit two; bring the thread forward, knit five; bring the
+thread forward, knit one; slip one; knit two together, pass the
+slip-stitch over them; knit one; bring the thread forward, knit five;
+bring the thread forward, knit one; slip one; knit two together, pass
+the slip-stitch over them.--Repeat.
+
+Commence again, as at first row.
+
+
+
+
+XI.
+
+Diamond Pattern.
+
+
+Cast on eight stitches for each pattern.
+
+_First row_--bring the thread forward, knit one; bring the thread
+forward, knit two together; knit three; knit two together.--Repeat.
+
+_Second row_--pearl knitting.
+
+_Third row_--bring the thread forward, knit three; bring the thread
+forward, knit two together; knit one; knit two together.--Repeat.
+
+_Fourth row_--pearl knitting.
+
+_Fifth row_--bring the thread forward, knit five; bring the thread
+forward, slip one; knit two together, pass the slip-stitch over
+them.--Repeat.
+
+_Sixth row_--pearl knitting.
+
+_Seventh row_--knit two together; knit three; knit two together; bring
+the thread forward, knit one; bring the thread forward.--Repeat.
+
+_Eighth row_--pearl knitting.
+
+_Ninth row_--knit two together; knit one; knit two together; bring the
+thread forward, knit three; bring the thread forward.--Repeat.
+
+_Tenth row_--pearl knitting.
+
+_Eleventh row_--bring the thread forward, knit three; bring the thread
+forward, knit two together; knit one; knit two together.--Repeat.
+
+Commence again, from fourth row.
+
+
+
+
+XII.
+
+Shell Pattern.
+
+
+Cast on twenty-five stitches for each pattern.
+
+_First row_--knit two together, four times; bring the thread forward,
+knit one, eight times; knit two together, four times; pearl
+one.--Repeat.
+
+_Second row_--pearl knitting.
+
+_Third row_--plain knitting.
+
+_Fourth row_--pearl knitting.
+
+Commence again, as at first row.
+
+
+
+
+Cable Knitting.
+
+
+Cast on any number of stitches that can be divided by six, in German
+wool--No. 18 needles.
+
+_First row_--pearl knitting.
+
+_Second row_--plain knitting.
+
+_Third row_--pearl knitting.
+
+_Fourth row_--plain knitting.
+
+_Fifth row_--pearl knitting.
+
+_Sixth row_--plain knitting.
+
+_Seventh row_--pearl knitting.
+
+_Eighth row_--Slip three stitches on to a third needle, always keeping
+that needle in front; knit the next three stitches; then knit the three
+stitches that were slipped on the third needle; take the third needle
+again, and slip three more stitches on it, keeping it as before in
+front, and knit the next three stitches; then knit the three stitches
+slipped on the third needle; continue the same to the end of the row.
+
+Commence again, as at first row.
+
+
+
+
+A Purse.
+
+
+Cast on one hundred stitches.--No. 20 needles.
+
+_First row_--slip one; knit one, pass the slip-stitch over it; bring the
+silk forward, knit one; bring the silk forward, pearl one.--Repeat to
+the end of the row.
+
+Every succeeding row is the same.
+
+Three skeins of coarse netting silk are required. It forms a strong
+gentleman's purse.
+
+
+
+
+Pretty Stitch for a Purse.
+
+
+Cast on any even number of stitches, with middle-sized netting
+silk.--No. 22 needles.
+
+_First row_--plain knitting.
+
+_Second row_--knit two together.--The first and last stitches in this
+row are to be knitted plain.
+
+_Third row_--make one between each stitch, by taking up the silk between
+the stitches of the preceding row, except between the two last stitches.
+
+_Fourth row_--plain knitting.
+
+_Fifth row_--pearl knitting.
+
+Repeat from second row.
+
+
+
+
+A Pence Jug, or Purse.
+
+
+Five needles, No. 20, with claret and green German wool.
+
+Commence with the _handle_;--by casting on four stitches in claret, and
+knitting, in plain rows backwards and forwards, until it be two inches
+long.
+
+Cast on six stitches on the same needle, twenty-six on the second, and
+ten on the third: then,--
+
+Knit from the first needle,--knit two; pearl two; alternately.
+
+With the second needle--pearl two; knit two; pearl two; pass the wool
+back, slip one; knit one, pass the slip-stitch over it; knit the
+remaining stitches plain, within seven of the end; then,--knit two
+together; knit one; pearl two; knit two.
+
+On the next needle--pearl two; knit two; alternately,--repeating three
+rounds, until twelve stitches only remain on the second needle, which
+finishes the _spout_.
+
+Knit three rounds,--every two stitches, alternately pearled and plain.
+
+    Knit five rounds--green    } every two stitches
+    Knit three rounds--claret  } alternately pearled
+    Knit five rounds--green    } and plain.
+
+Knit one plain round, and pearl three rounds,--in claret.
+
+Knit one plain round, bringing the wool forward between every two
+stitches.
+
+Pearl three rounds. Knit one plain round. In the next two rounds,--bring
+the wool forward, knit two together. Then,--
+
+Knit one plain round with claret; pearl three rounds; knit one plain
+round; in the next two rounds, bring the wool forward and knit two
+together; knit one plain round; pearl three rounds. Divide the stitches
+on the four needles,--twelve on each. Then,--
+
+In plain stocking knitting, knit five rounds, decreasing one
+alternately, at each end, and in the middle of the needle. Knit three
+rounds more, decreasing occasionally.
+
+Divide the stitches on three needles; knit a plain round, and pearl
+three rounds without decreasing; finish with plain rounds, decreasing
+until only four stitches remain on each needle. Draw up the small
+opening and attach the lower end of the handle to the side of the jug.
+
+It may also be worked in silk.
+
+
+
+
+A Strong Purse.
+
+
+Cast on any number of stitches that can be divided by three.--No. 22
+needles.
+
+_First row_--bring the wool forward, slip one; knit two, pass the
+slip-stitch over them.--Repeat to the end of the row.
+
+_Second row_--plain knitting.
+
+_Third row_--knit two, before the pattern is commenced, that the holes
+may come in a diagonal direction.
+
+_Fourth and Fifth rows_--same as second and third.
+
+_Sixth row_--same as first.
+
+This purse will take five skeins of second-sized netting silk. It
+particularly requires stretching.
+
+
+
+
+A pretty open Stitch for a Purse.
+
+
+Four skeins of fine purse-silk, and four needles, No. 23, will be
+required.
+
+Cast on twenty stitches on each of three needles.
+
+_First round_--plain knitting.
+
+_Second round_--bring the silk forward, knit two together.
+
+Repeat the above two rounds four times.
+
+_Eleventh round_--plain knitting.--Pass the last stitch of this round,
+after it is knitted, on to the next needle.
+
+_Twelfth round_--commence by knitting two together, before bringing the
+silk forward;--this change causes the pattern to assume a kind of
+vandyke form. Pass the last stitch of each needle of this round, on to
+the next needle.
+
+Repeat the two last rounds four times;--commence again as at first
+round, working alternately the ten rounds of each pattern, until the
+opening of the purse be required to be made; this is to be worked in
+rows backwards and forwards, like the first ten rounds, in order to keep
+the edges even. The other end is then to be made like the first.
+
+
+
+
+Open Stitch Purse with Beads.
+
+
+Second-size purse twist, and needles No. 20, are required.
+
+Cast on sixty stitches in netting silk.
+
+_First row_--knit one; bring the silk forward, knit two together; bring
+the silk forward, pass on a bead, placing it behind the needle; knit two
+together.--Continue the same to the end of the row, placing a bead every
+alternate pattern.
+
+_Second row_--same as the first, without beads.
+
+_Third row_--knit one; bring the silk forward, pass on a bead;
+then,--continue as in first row.
+
+
+
+
+A Purse in fine Silk.
+
+
+Cast on three stitches, for each pattern.--No. 23 needles.
+
+_First row_--bring the silk forward, knit two together; knit
+one.--Repeat.
+
+_Second row_--bring the silk forward, pearl two together; pearl
+one.--Repeat.
+
+
+
+
+Herringbone, or Shetland Stitch for a Purse.
+
+
+Cast on any number of stitches that can be divided by four.--No. 20
+needles. About eighty stitches will be required.
+
+_First row_--bring the silk forward, slip one; knit one, pass the
+slip-stitch over it; knit one; bring the silk forward, pearl
+one.--Repeat to the end of the row.
+
+Every row is the same.
+
+Three skeins of second-sized silk will be required.
+
+
+
+
+THE FIVE FOLLOWING PATTERNS WILL BE FOUND VERY PRETTY FOR BAGS;--THEY
+SHOULD BE KNITTED WITH SECOND-SIZED PURSE TWIST,--NO. 24 NEEDLES.
+
+
+
+
+I.
+
+Diagonal Check Pattern Bag.
+
+
+Cast on eight stitches for each pattern.
+
+_First round_--pearl one; bring the silk forward, slip one; knit one,
+pass the slip-stitch over it; knit four; pearl one.--Repeat.
+
+_Second round_--pearl one; knit six; pearl one.--Repeat.
+
+_Third round_--pearl one; knit one; bring the silk forward, slip one;
+knit one, pass the slip-stitch over it; knit three; pearl one.--Repeat.
+
+_Fourth round_--Repeat the second.
+
+_Fifth round_--pearl one; knit two; bring the silk forward, slip one;
+knit one, pass the slip-stitch over it; knit two; pearl one.--Repeat.
+
+_Sixth round_--Repeat the second.
+
+_Seventh round_--pearl one; knit three; bring the silk forward, slip
+one; knit one, pass the slip-stitch over it; knit one; pearl
+one.--Repeat.
+
+_Eighth round_--Repeat the second.
+
+Commence again, as at first row.
+
+
+
+
+II.
+
+Lozenge pattern Bag.
+
+
+Cast on thirteen stitches for each pattern.
+
+_First round_--pearl two; knit four; bring the silk forward, slip one;
+knit two together, pass the slip-stitch over them; bring the silk
+forward, knit four.--Repeat.
+
+_Second round_--pearl two; knit two; knit two together; bring the silk
+forward, knit three; bring the silk forward, knit two together, taken at
+the back.--Repeat.
+
+_Third round_--pearl two; knit one; knit two together; bring the silk
+forward, knit five; bring the silk forward, knit two together, taken at
+the back; knit one.--Repeat.
+
+_Fourth round_--pearl two; knit two together; bring the silk forward,
+knit three; bring the silk forward, knit two together; knit two; bring
+the silk forward, knit two together, taken at the back.--Repeat.
+
+_Fifth round_--pearl two; knit two; bring the silk forward, knit two
+together, taken at the back; knit three; knit two together; bring the
+silk forward, knit two.--Repeat.
+
+_Sixth round_--pearl two; knit three; bring the silk forward, knit two
+together, taken at the back; knit one; knit two together; bring the silk
+forward, knit three.--Repeat.
+
+Commence again, as at first row.
+
+
+
+
+III.
+
+Hem-stitch Pattern Bag.
+
+
+Cast on thirteen stitches for each pattern.
+
+_First round_--knit two; bring the silk forward, knit two together;
+knit one; bring the silk forward, knit two together; pearl one; bring
+the silk forward, slip one; knit one, pass the slip-stitch over it;
+pearl three.--Repeat.
+
+_Second round_--knit two together; bring the silk forward, knit one;
+knit two together; bring the silk forward, knit two; pearl two; bring
+the silk forward, slip one; knit one, pass the slip stitch over it;
+pearl two.--Repeat.
+
+_Third round_--knit two; bring the silk forward, knit two together; knit
+one; bring the silk forward, knit two together; pearl three; bring the
+silk forward, slip one; knit one, pass the slip-stitch over it; pearl
+one.--Repeat.
+
+_Fourth round_--knit two together; bring the silk forward, knit one;
+knit two together; bring the silk forward, knit two; pearl four; bring
+the silk forward, slip one; knit one, pass the slip-stitch over
+it.--Repeat.
+
+_Fifth round_--knit two; bring the silk forward, knit two together; knit
+one; bring the silk forward, knit two together; pearl six.--Repeat.
+
+_Sixth round_--knit two together; bring the silk forward, knit one; knit
+two together; bring the silk forward, knit two; pearl one; bring the
+silk forward, slip one; knit one, pass the slip-stitch over it; pearl
+three.--Repeat.
+
+_Seventh round_--knit two; bring the silk forward, knit two together;
+knit one; bring the silk forward, knit two together; pearl two; bring
+the silk forward, slip one; knit one, pass the slip-stitch over it;
+pearl two.--Repeat.
+
+_Eighth round_--knit two together; bring the silk forward, knit one;
+knit two together; bring the silk forward, knit two; pearl three; bring
+the silk forward, slip one; knit one, pass the slip-stitch over it;
+pearl one.--Repeat.
+
+_Ninth round_--knit two; bring the silk forward, knit two together; knit
+one; bring the silk forward, knit two together; pearl four; bring the
+silk forward, slip one; knit one, pass the slip-stitch over it.--Repeat.
+
+_Tenth round_--knit two together; bring the silk forward, knit one; knit
+two together; bring the silk forward, knit two; pearl six.--Repeat.
+
+Commence again, as at first row.
+
+
+
+
+IV.
+
+Spider Pattern Bag.
+
+
+Cast on any number of stitches that can be divided by six.
+
+_First round_--bring the silk forward, slip one; knit two together, pass
+the slip-stitch over them; bring the silk forward, knit three.--Repeat.
+
+_Second round_--plain knitting.
+
+_Third round_--bring the silk forward, knit two together, twice; knit
+two.--Repeat.
+
+_Fourth round_--plain knitting.
+
+_Fifth round_--bring the silk forward, knit three; bring the silk
+forward, slip one; knit two together, pass the slip-stitch over
+them.--Repeat.
+
+Commence again, as at first round.
+
+
+
+
+V.
+
+Stripe Pattern Bag.
+
+
+Cast on six stitches for each pattern.
+
+_First round_--turn the silk round the needle, pearl three; bring the
+silk forward, slip one; knit two together, pass the slip-stitch over
+them.--Repeat.
+
+_Second, Third, and Fourth rounds_--alternately pearl three and knit
+three.
+
+Commence again, as at first round.
+
+
+
+
+A Bag, with Black or Garnet Beads.
+
+
+No. 20 needles, eight skeins of netting silk, and four bunches of beads,
+including those for the fringe, will be required.
+
+Thread half a bunch of beads on a skein of claret netting silk, and
+cast on eighty-eight stitches.
+
+_First and second rows_--plain knitting, without beads.
+
+_Third row_--slip one; knit one with a bead; knit one.--Repeat the same,
+alternately, to the end of the row.
+
+Repeat from first row, eighty-four times. Observe at the commencement of
+every row to make a slip-stitch.
+
+Join up the two sides, leaving an opening at the top, and finish with
+two bars and a gold chain. A fringe of the garnet beads, with gold
+points, is the prettiest trimming. It should have a stiff lining.
+
+
+
+
+Knitted Fringe.
+
+
+This may be made of any sized wool or cotton, according to the purpose
+for which it is required; it may also be _spaced_ with two or more
+colours, working alternately six rows in each.
+
+Cast on eight stitches.
+
+Knit two; bring the wool forward, knit two together; knit one; bring the
+wool forward, knit two together; knit one.
+
+When a sufficient number of rows are knitted to form the length of
+fringe desired,--
+
+Cast off five stitches, leaving three to unravel for the fringe.
+
+With four-thread fleecy, No. 10 needles may be used.
+
+
+
+
+Vandyke Border.
+
+
+This border is generally knitted in cotton, and may be used for muslin
+curtains, for knitted or netted fish napkins, and for "tidies" for the
+backs of chairs, or ends of sofas.
+
+Cast on seven stitches, on No. 17 needles.
+
+_First and second rows_--plain knitting.
+
+_Third row_--slip one; knit two; turn over, knit two together; turn
+over twice, knit two together.
+
+_Fourth row_--bring the thread forward, knit two; pearl one; knit two;
+turn over, knit two together; knit one.
+
+_Fifth row_--slip one; knit two; turn over, knit two together; knit
+four.
+
+_Sixth row_--knit six; turn over, knit two together; knit one.
+
+_Seventh row_--slip one; knit two; turn over, knit two together; turn
+over twice, knit two together; turn over twice, knit two together.
+
+_Eighth row_--knit two; pearl one; knit two; pearl one; knit two; turn
+over, knit two together; knit one.
+
+_Ninth row_--slip one; knit two; turn over, knit two together; turn over
+twice, knit two together; turn over twice, knit two together; turn over
+twice, knit two together.
+
+_Tenth row_--knit two; pearl one; knit two; pearl one; knit two; pearl
+one; knit two; turn over, knit two together; knit one.
+
+_Eleventh row_--slip one; knit two; turn over, knit two together; knit
+nine.
+
+_Twelfth row_--cast off all but seven; knit four; turn over, knit two
+together; knit one.
+
+This finishes the first vandyke.--Commence again, as at third row.
+
+
+
+
+A warm Half-square Shawl.
+
+
+Four-thread fleecy, or eight-thread Zephyr fleecy, of two colours, say
+rose and white.--No. 8 needles.
+
+Cast on one stitch, rose colour, and increase at the beginning of every
+other row, until there are ten stitches on the needle. In the next
+row--knit seven stitches for the border, which is throughout in plain
+knitting; join on the white wool, and pearl three, increasing on the
+last stitch.
+
+In the next row--bring the wool forward, slip one; knit two, pass the
+slipped stitch over them; knit the remaining white stitch plain; knit
+the seven stitches for the border, twisting the two colours in the
+changing of them.
+
+In the next row--knit the seven stitches for the border; pearl the
+white, increasing at the end as before.
+
+Repeat the two last rows, which comprise the whole pattern, until the
+shawl is of the required size, and finish with the plain knitted border,
+to correspond with the other side.
+
+N.B. In the fancy row of the white, when uneven stitches occur at the
+end of the row, they are to be knitted plain.
+
+
+
+
+A warm Double Knitted Scarf, in Two Colours.
+
+
+Cast on thirty-six stitches in blue six-thread fleecy.--No. 2 needles.
+
+_First row_--bring the wool forward, slip one; pass the wool back, knit
+one, turning the wool twice round the needle.--Repeat to the end of the
+row.
+
+Each succeeding row is the same, observing that the knit-stitch always
+comes over the slip-stitch.
+
+It will require seven rows of blue, seven of white, seven of blue,
+thirty-eight of white, seven of blue, seven of white, and seven of blue.
+
+Cast off and draw up the ends. Finish with blue and white tassels.
+
+
+
+
+A Border for a Shawl or Quilt.
+
+
+This border should be knitted separate, with the same sized needles and
+wool as the shawl or quilt, and afterwards sewn on.
+
+Cast on any even number of stitches.
+
+_First row_--Bring the wool forward, knit two together.
+
+_Second row_--plain knitting.
+
+Repeat these two rows alternately.
+
+
+
+
+Raised Knitting for a Shawl.
+
+
+Two No. 19 and one No. 13 needles should be used.
+
+Cast on any even number of stitches, that may be required, with German
+wool.
+
+_First row_--with the small needle, alternately make one stitch, and
+knit two stitches together.
+
+_Second row_--plain knitting, with large needle.
+
+_Third row_--plain knitting, with small needle.
+
+_Fourth row_--pearl knitting, with small needle.
+
+Repeat, from the first row.
+
+This kind of knitting is also well adapted for hoods, muffs, cuffs, etc.
+It is very pretty for a shawl in stripes,--knitting three patterns
+alternately of each colour. For a shawl, one yard and a half square,
+about three hundred and sixty stitches would be required.
+
+
+
+
+A Russian Shawl, in Brioche Stitch.
+
+
+German wool.--No. 9 needles.
+
+For a shawl one yard and a half square, about three hundred and sixty
+stitches will be required.--Five shades each, of two different colours,
+turned back, with the lightest in the centre, knitting two rows of each
+shade, look very well.--The following are good colours,--scarlet and
+stone colour,--blue and brown,--lilac and red brown,--lilac and white.
+
+The Brioche-stitch is simply--bring the wool forward, slip one; knit two
+together.
+
+
+
+
+A light Stitch for a Shawl.
+
+
+Three-thread fleecy.--No. 10 needles.
+
+Cast on any even number of stitches.--Bring the wool forward, knit two
+together, alternately, to the end of the row. Every row is the same.
+
+
+
+
+Star Pattern Shawl, in Two Colours.
+
+
+Cast on four stitches in blue Zephyr wool, or four-thread fleecy.--No. 6
+needles.
+
+_First row_--bring the wool forward, knit one,--(these two stitches form
+the increase, and therefore are _not_ to be _repeated_); bring the wool
+forward, slip one; knit two, pass the slip-stitch over them.--Repeat the
+same to the end of the row.
+
+_Second row_--pearl knitting in claret.
+
+_Third row_--the same as first,--in blue.
+
+_Fourth row_--the same as second,--in claret.
+
+Repeat these rows alternately, in blue and claret, until there are one
+hundred and eighty stitches on the needle; cast off, and finish with a
+netted fringe.
+
+As the increasing adds an irregular stitch, some rows will have one, and
+others two knitted stitches, at their commencement.
+
+
+
+
+Barège Knitting for Shawls.
+
+
+Commence with any number of stitches that may be divided by three.--No.
+4 needles, finest _Lady Betty's_ wool.--Knit one plain row.
+
+_Second row_--bring the wool forward, knit three; bring the wool
+forward, knit three together, taking them off at the back.
+
+_Third row_--pearl knitting.
+
+_Fourth row_--bring the wool forward, knit three together, taking them
+off at the back; bring the wool forward, knit three.
+
+_Fifth row_--pearl knitting.
+
+Repeat from the second row.
+
+When a pattern, in one or more colours, is to be introduced, break off
+the ground colour, and fasten on the colour next to be used, in the
+following manner.--Having made a slip knot in the end of the wool, pass
+it on the needle in the left hand: twist the end of the coloured wool
+and that of the ground, together,--knit, in plain knitting, the
+stitches required for the pattern, then fasten off, by making a loop,
+and commence again with the ground colour,--fastening on again as above.
+Any number of colours may thus be introduced, to form flowers or other
+patterns, which, however, are always to be done in plain knitting.
+
+
+
+
+A Shetland Knitted Scarf.
+
+
+Commence with the pattern for the border, by casting on one hundred
+stitches for the width of the scarf.--No. 7 needles, and four-thread
+embroidery, or _Lady Betty's_ wool.
+
+_First row_--knit two stitches together, four times; bring the wool
+forward, knit one, eight times; knit two stitches together, four times;
+pearl one.--Repeat to the end of the row.
+
+_Second row_--pearl knitting.
+
+_Third row_--plain knitting.
+
+_Fourth row_--pearl knitting.
+
+Repeat from the first row, until the pattern be about fourteen inches
+deep. Commence the centre as follows:--working one row of pearl
+knitting, before the pattern commences.
+
+_First row_--bring the wool forward, slip one; knit one, pass the slip
+stitch over it; knit one; pearl one.--Repeat to the end of the row.
+
+_Second and following rows_--repeat the first,--every row being alike.
+
+If the wool be split, it exactly imitates the Shetland wool. In
+splitting, the wool will frequently break; but this is not important, as
+by laying the ends contrariwise, and twisting them together, a few
+stitches may be so knit, that the joins are not perceptible.
+
+Both ends of the scarf are to be made alike, by reversing the knitting
+of the border. They may be finished with a tied, knitted, or netted
+fringe, of the same wool, without splitting, or of fine German wool.
+
+
+
+
+Shetland Pattern for a Shawl.
+
+
+This should be worked in _Lady Betty's_ wool, or four-thread embroidery
+fleecy, with No. 6 or 8 needles.
+
+Cast on any number of stitches that may be divided by six.
+
+_First row_--bring the wool forward, knit one; bring the wool forward,
+knit one;--slip one; knit two together, pass the slip-stitch over them;
+knit one.
+
+_Second row_--pearl knitting.
+
+_Third row_--bring the wool forward, knit three; bring the wool forward,
+slip one; knit two together, pass the slip-stitch over them.
+
+_Fourth row_--pearl knitting.
+
+_Fifth row_--knit one; slip one; knit two together, pass the slip-stitch
+over them; knit one; bring the wool forward, knit one; bring the wool
+forward.
+
+_Sixth row_--pearl knitting.
+
+_Seventh row_--slip one; knit two together, pass the slip-stitch over
+them; bring the wool forward, knit three; bring the wool forward.
+
+_Eighth row_--pearl knitting.
+
+N.B. There are to be two plain stitches at the beginning and end of each
+row, to form an edge.
+
+
+
+
+Other Patterns for Shawls.
+
+
+With fine Shetland, or _Lady Betty's_ wool, and No. 10 needles, most
+beautiful shawls may be knitted from the Leaf and Trellis Pattern (page
+36), Point Pattern (page 42), Scotch Pattern (page 44), or Lace Pattern
+(page 47).
+
+
+
+
+Double Diamond Stitch for a Quilt.
+
+
+This is prettiest in stripes of about five inches in width, in any two
+colours.
+
+Cast on any number of stitches that can be divided by three, allowing
+two over, for a stitch at each end of the row.
+
+_First row_--plain knitting.
+
+_Second row_--slip one;(a) bring the wool forward, slip one; knit two
+together.--Repeat from (a).--Plain knit the last stitch.
+
+_Third row_--slip one; knit one; the next stitch is a double stitch
+(that is,--a stitch and a loop)--knit the stitch and slip the
+loop;--continue to knit the stitch and slip the loop, to the end of the
+row.
+
+_Fourth row_--commence again, as at second row.
+
+In every other _second_ row, there will be a double stitch after the
+first one,--this is to be knitted without bringing the wool forward. All
+the other stitches are to be knitted the same as before.
+
+N.B. The last stitch of every row is to be knitted plain.
+
+
+
+
+A Quilt.
+
+
+This may be knitted as a Baby's Quilt, or it may be done in small
+squares for a large Quilt.--Eight-thread Zephyr fleecy.--No. 6 needles.
+
+Cast on any number of stitches that can be divided by three,--for a
+square of six inches, say forty-five; for a Baby's Quilt, two hundred
+and thirty-one.
+
+_First row_--slip one; knit two, taken together in the front;(a) turn
+the wool round the needle, and bring it again in front; slip one; knit
+two together.--Repeat from (a).
+
+Every row is alike.
+
+N.B. The two last stitches at the end of the row are to be--the first
+pearled,--the second knitted.
+
+
+
+
+A light and warm Counterpane.
+
+
+Six-thread fleecy in two colours--say blue and white; or, what is
+preferable, German quilt wool--Needles No. 2, pointed at both ends.
+
+Cast on any number of stitches in blue.
+
+_First row_--plain knitting, turning the wool twice round the needle.
+
+_Second row_--join on the white wool, knit one; knit two together,
+turning the wool twice round the needle;--continue knitting two
+together, and turning the wool twice round the needle, to the end of the
+row, but plain knit the last stitch.
+
+_Third row_--commence at the other end of the needle; knit two stitches
+taken together in front, twisting the wool twice round the needle.
+
+_Fourth row_--white,--knit one; knit two together, turning the wool
+twice round the needle; knit one.
+
+_Fifth row_--commence again as at third row.
+
+
+
+
+Cross Stitch Pattern for a Quilt.
+
+
+Two colours,--say gold colour and white.--No. 3 needles, pointed at both
+ends.--Cast on any number of stitches.
+
+_First row_--white,--knit one plain stitch, turning the wool twice round
+the needle.--Repeat to the end of the row.
+
+_Second row_--gold colour,--joining on the colour where the last row of
+white commenced;--knit one plain stitch, turning the wool once round the
+needle; knit the long stitch and the one that was knitted in the last
+row together, turning the wool twice round the needle.--Repeat to the
+end of the row,--when one stitch will be left, which is to be knitted
+the same as the plain stitch at the beginning of the row.
+
+_Third row_--white,--knit two together, taken in the front, turning the
+wool twice round the needle.--Repeat to the end of the row.
+
+_Fourth row_--gold colour,--the same as the third,--knitting one plain
+stitch at the commencement of the row, and one plain stitch at the end
+of the row, twisting the wool once round the needle.
+
+_Fifth row_--white,--knit two together, twisting the wool twice round
+the needle.--Repeat to the end of the row.
+
+_Sixth row_--Commence again, as at second row.
+
+It may be as well to remark, that two rows are knitted at the back, and
+two at the front.
+
+
+
+
+Another Quilt.
+
+
+This should be knitted in stripes of six inches in width.--Cast on any
+number of stitches that may be divided by three;--German quilt
+wool.--No. 1 needles.
+
+_First row_--bring the wool forward, slip one; knit two, pass the
+slip-stitch over them.--Repeat.
+
+_Second row_--pearl knitting.
+
+_Third row_--knit two, before the pattern is commenced, that the holes
+may come in a diagonal direction.
+
+_Fourth row_--pearl knitting.
+
+_Fifth row_--same as third.
+
+
+
+
+A Quilt, or Couvre-Pied, in squares.
+
+
+This may be worked with Zephyr fleecy,--No. 9 needles, each piece being
+about three and a half inches square. Every square is worked in two
+colours,--as blue and white; lilac and white; gold colour and white;
+green and white; etc. These pieces are afterwards to be joined together,
+arranging them, according to their several colours. Each square,
+however, if preferred, may be worked the same. The following directions
+are for a square in green and white:--
+
+_First row_--bring the wool forward, knit one,--in green. Work _five_
+more _rows_, in the same manner, when there should be seven stitches on
+the needle.
+
+_Seventh row_--bring the wool forward, knit two,--in green; join on the
+white,--knit three;--join on another length of green,--knit two.
+
+_Eighth row_--bring the green wool forward, knit two; pearl three,
+white; knit three, green.
+
+_Ninth, and Tenth rows_--knit to the end of each row, with green,
+increasing at the beginning, as before.
+
+_Eleventh row_--bring the wool forward, knit two, green; knit seven,
+white; knit two, green.
+
+_Twelfth row_--bring the wool forward, knit two, green; pearl seven,
+white; knit three, green.
+
+_Thirteenth, and Fourteenth rows_--knit to the end of each row, with
+green, increasing, as before.
+
+_Fifteenth row_--bring the wool forward, knit two, green; knit eleven,
+white; knit two, green.
+
+_Sixteenth row_--bring the wool forward, knit two, green; pearl eleven,
+white; knit three, green.
+
+_Seventeenth, and Eighteenth rows_--same as thirteenth and
+fourteenth.--There should now be nineteen stitches on the needle,--one
+half of the square being completed. The decreasing then commences as
+follows:--
+
+_Nineteenth row_--slip one, knit two together, knit one, green; knit
+eleven, white; knit four green.
+
+_Twentieth row_--slip one, knit two together, knit one, green; pearl
+eleven, white; knit three, green.
+
+_Twenty-first, and twenty-second rows_--green--decreasing at the
+beginning of each row.
+
+_Twenty-third row_--slip one, knit two together, knit one, green; knit
+seven, white; knit four, green.
+
+_Twenty-fourth row_--slip one, knit two together, knit one, green; pearl
+seven, white; knit three, green.
+
+_Twenty-fifth, and twenty-sixth rows_--green,--decreasing, as before.
+
+_Twenty-seventh row_--slip one, knit two together, knit one, green; knit
+three, white; knit four, green.
+
+_Twenty-eighth row_--slip one, knit two together, knit one, green; pearl
+three, white; knit three, green.
+
+The white is now done with. The square is to be finished with plain rows
+of green,--decreasing, at the commencement of each.
+
+
+
+
+A Cover for an Air Pillow.
+
+
+Cast eighty stitches on each of three needles, No. 9.--Three-thread
+fleecy.
+
+_First round_--bring the wool forward, knit one.--Repeat.
+
+_Second round_--slip one; knit one, pass the slip stitch over
+it.--Repeat.
+
+Repeat the first and second rounds, alternately.
+
+
+
+
+A Baby's Hood.
+
+
+Four-thread _Lady Betty's_ wool,--pink and white may be used. Eight
+needles will be required, viz. four No. 25, two No. 18, and two, each
+one inch in circumference.
+
+Cast on eighty-two stitches, with pink, No. 18 needles,--knit four plain
+rows.
+
+    Knit four plain rows.              }
+                                       }
+    Bring the wool forward, knit two   }
+    together.                          } white.
+                                       }
+    Knit three plain rows.             }
+
+Repeat the last four rows, six times.--There will now be thirty-six rows
+from the commencement.
+
+Cast sixteen more stitches on the same needle, to form the piece at the
+back.--Repeat six more rows of the pattern.--Knit two plain rows in
+pink;--then, divide the stitches on three No. 25 needles, to form a
+round,--as a commencement for the crown.
+
+Knit _three_ plain _rounds._
+
+_Fourth round_--bring the wool forward, knit two together.--Repeat.
+
+_Fifth round_--knit two together; knit twelve.--Repeat.
+
+_Sixth round_--knit two together; knit eleven.--Repeat.
+
+_Seventh round_--knit two together; knit ten.--Repeat.
+
+_Eighth round_--plain knitting.
+
+_Ninth round_--bring the wool forward, knit two together.--Repeat.
+
+_Tenth round_--knit nine; knit two together.--Repeat.
+
+_Eleventh round_--knit eight; knit two together.--Repeat.
+
+_Twelfth round_--knit seven; knit two together.--Repeat.
+
+_Thirteenth round_--plain knitting.
+
+_Fourteenth round_--bring the wool forward, knit two together.--Repeat.
+
+_Fifteenth round_--knit two together; knit eight.--Repeat.
+
+_Sixteenth round_--knit two together; knit seven.--Repeat.
+
+_Seventeenth round_--knit two together; knit six.--Repeat.
+
+_Eighteenth round_--plain knitting.
+
+_Nineteenth round_--bring the wool forward, knit two together.--Repeat.
+
+_Twentieth round_--knit eight; knit two together.--Repeat.
+
+_Twenty-first round_--knit seven; knit two together.--Repeat.
+
+_Twenty-second round_--knit six; knit two together.--Repeat.
+
+_Twenty-third round_--plain knitting.
+
+_Twenty-fourth round_--bring the wool forward, knit two
+together.--Repeat.
+
+_Twenty-fifth round_--knit two together; knit five.--Repeat.
+
+_Twenty-sixth round_--knit two together; knit four.--Repeat.
+
+_Twenty-seventh round_--knit two together; knit three.--Repeat.
+
+_Twenty-eighth round_--plain knitting.
+
+The crown is now finished; it is to be drawn up with a needle and wool.
+
+The opening at the back must be sewn up; and a band, corresponding with
+the plain knitting in front, is to be formed by raising fifty-six
+stitches in pink, and knitting three plain rows, with the No. 18
+needles. Then, with white, cast sixteen stitches on the same needle, and
+knit seventy-two stitches; cast on sixteen stitches, and knit three rows
+of eighty-eight stitches. In the next row,--bring the wool forward, knit
+two together. Knit six plain rows.
+
+With the large needles, form the ruff, by knitting two rows in white,
+and two in pink; then, work twenty-two rows--knitting four rows in
+white, and two in pink, alternately. Cast off, and sew it, so as to form
+a very loose double ruff round the throat.
+
+For the front of the hood, raise eighty-two stitches, and, with the No.
+18 needles, knit one plain row. Then, with the large needles,--knit two
+plain rows in white; two in pink; and four in white. Cast off.--This,
+when sewn double, finishes the borders of the hood. It is to be drawn,
+with ribbon, at the back and front.
+
+
+
+
+A Baby's Sock.
+
+
+Cast on twenty-eight stitches in _pink_ German wool.--No. 19 needles.
+
+Knit six turns, increasing a stitch at each row, to form the toe and
+heel.
+
+Knit six more turns, increasing a stitch at one end only, for the toe.
+
+Cast off thirty stitches on another needle;--knit the remaining sixteen
+stitches, for eighteen turns, and cast them off on another needle.
+
+With _white_,--pick up the thirty pink stitches;--knit three plain
+rows;--in the next row, bring the wool forward, knit two together.
+
+Knit three plain rows; leave sixteen stitches on the needle, and repeat
+the pattern in white, across the instep, seven times, which is
+afterwards to be sewn to the pink knitting for the toe.
+
+Cast on sixteen stitches in white,--to correspond with the other side.
+
+Knit two plain rows;--in the next, bring the wool forward, knit two
+together,--the whole length of the row;--knit one plain row in pink,
+taking up the stitches that were cast off for the toe. This side of the
+shoe is to be made to correspond with the other, by decreasing instead
+of increasing.--The shoe and the white in the instep will now be
+finished.
+
+Pick up the stitches both of the shoe and instep;--knit three plain
+turns. Take a larger needle,--bring the wool forward, knit two together,
+forming the holes to pass the ribbon through.
+
+Knit three plain turns with the small needle. In the next row, bring the
+wool forward, knit two together.
+
+Knit three plain rows. In the next,--bring the wool forward, knit two
+together; repeat the same, until the sock be of the height
+desired.--Cast off very loosely.
+
+
+
+
+Another Baby's Sock.
+
+
+Four-thread fleecy, or four-thread _Lady Betty's_ wool.--No. 11 needles.
+
+Cast on twenty-six stitches.
+
+_First row_--pearl two; knit two; alternately, to the end of the row.
+
+_Second row_--knit two; pearl two.
+
+_Third row_--Pearl two; knit two.
+
+_Fourth row_--Pearl knitting.
+
+Repeat the above four rows, twelve times,--making altogether fifty-two
+rows--but, in the fifty-second row, pearl fourteen stitches only, and
+cast off the remaining twelve stitches. Then,--
+
+Raise fourteen stitches, pearling them at the same time, at the
+commenced end, leaving twelve, to correspond with those cast off at the
+other end. Repeat the four rows, as before, three times,--making in all
+twelve rows. Fasten off, by drawing up these stitches with a needle and
+wool, to form the toe, and sew up the shoe at the sole.
+
+Twenty-seven stitches are now to be raised at the top of the shoe, round
+the leg; then,--alternately pearl one row, and knit one row, for five
+rows, and cast off.--This forms a finish to the top. The shoe is to be
+laced across with ribbon.
+
+
+
+
+A Baby's Stocking.
+
+
+Cast on twenty-three stitches in brown,--No. 18 needles, and knit six
+turns,--increasing one stitch at each end, for the toe and heel.
+
+Knit six turns, increasing one stitch only, at the toe. There will now
+be forty-one stitches on the needle. Cast off twenty-five stitches, and
+knit the remaining sixteen stitches, for eighteen turns. One side of the
+shoe and instep will now be made.
+
+Cast on twenty-five stitches, and work the other side of the shoe to
+correspond.
+
+Pick up the stitches, with white, across the instep. Knit two turns,
+catching in one loop of the sides of the shoe, in each row, to join them
+together.
+
+Knit one turn in brown; two in white; one in brown; two in white; and
+one in brown.--The shoe and instep will now be finished.
+
+Pick up the stitches of the shoe, on each side of the piece which forms
+the instep. There should now be forty stitches on the needle.
+
+Knit seven turns in white; then, eighteen turns, increasing a stitch at
+the beginning and end of every other turn. Knit three plain turns; then
+eighteen turns,--decreasing one stitch in every other turn, at the
+beginning and end.
+
+Forty stitches will now be found on the needle. Knit and pearl two,
+alternately, for five turns. Knit two plain rows. Knit one row in red;
+then, cast off loosely.
+
+The shoe is to be sewn up into its shape, and the stocking closed up.
+
+
+
+
+A Carriage Boot.
+
+
+Two colours,--say blue and claret,--four, or six-thread fleecy,--Needles
+No. 6.
+
+Cast seventeen stitches on each of three needles, with claret; pearl six
+rounds, knit five rounds.--Then,--
+
+With blue,--knit one round, pearl one round, alternately, for six
+rounds.
+
+With claret,--repeat the last six rounds.
+
+Repeat the two last stripes, twice. Then,--
+
+From the first needle,--knit fourteen stitches, with claret; join on the
+blue; knit twenty-three, leaving fourteen stitches (claret),
+corresponding with the other side, on the third needle; then, turn back
+and knit five rows, slipping the first stitch at the commencement of
+each row.
+
+Repeat the last stripe, three times; first--with claret, second--with
+blue, third--with claret.
+
+In the next three stripes of the alternate colours, knit two together at
+the commencement, and end, of every third row. Then,--knit one stripe
+(claret), knitting two together at the commencement of each row. Cast
+off.--This finishes the front of the boot.
+
+Commence again at the fourteen claret stitches that were left on the
+first needle,--knit these, and cast on another thirty-six stitches in
+claret; knit six plain rows.--In the next row, knit two together, at the
+commencement. Knit nine more rows, knitting two together at the
+commencement of every other row.--In the next four rows,--knit two
+together at the commencement of each row.--This completes the first half
+of the foot.
+
+Knit the fourteen remaining stitches on the third needle, casting on
+thirty-six stitches, as before, and finish the other half of the foot in
+the same manner.
+
+The two halves of the foot are then to be sewn together, and the foot
+sewn to the front of the boot.
+
+
+
+
+A double-knitted Night-Sock.
+
+
+Cast on eighty-eight stitches in white, four or six-thread fleecy.--No.
+3 needles.
+
+N.B. In every row the first stitch is to be slipped;--the last stitch is
+to be plain knitted.
+
+_First row_--plain knitting.
+
+_Second row_--knit one, pass the wool forward; slip one, pass the wool
+back.--Repeat.
+
+Repeat the second row, twenty-eight times.
+
+_Thirty-first row_--knit sixty-two stitches, the same as second row;
+then,--knit two together, to the end of the row.
+
+_Thirty-second row_--cast off twenty-five stitches; knit thirty-eight
+stitches, same as second row; cast off remaining twenty-five stitches.
+
+Knit nineteen rows, the same as second row.
+
+_Fifty-second row_--slip one; knit two together; knit fourteen stitches,
+the same as second row; knit two together; knit the remaining stitches,
+the same as second row.
+
+_Fifty-third row_--repeat the last.
+
+_Fifty-fourth row_--slip one; knit two together; knit the remaining
+stitches, the same as second row.
+
+Repeat the last row, seven times.
+
+_Sixty-second row_--slip one; knit two together; knit eight stitches,
+the same as second row; knit two together; knit the remaining stitches,
+the same as second row.
+
+_Sixty-third row_--repeat the last.
+
+Knit three rows, the same as second row.
+
+Draw up the stitches for the toe, and sew up the back and front.
+
+
+
+
+A Frileuse or Neck Tippet.
+
+
+Cast on thirty stitches, with double German wool.--Needles, one inch and
+three quarters in circumference.
+
+Plain knit thirty rows, slipping the first stitch of every row.--Cast
+off loosely.
+
+Tie with cords and small tassels.
+
+
+
+
+Wheel pattern for Tidies, etc.
+
+
+_Flax knitting thread_, No. 10.--Needles, No. 18. Cast on any number of
+stitches that can be divided by ten.
+
+_First row_--knit one; bring the thread forward, knit three; slip one;
+knit two together, pass the slip-stitch over them; knit three; bring the
+thread forward.--Repeat.
+
+_Second row_--plain knitting.
+
+Repeat these two rows, alternately.
+
+
+
+
+Knitted Coral.
+
+
+Cast on four stitches, with fine flat scarlet worsted braid, No. 19
+needles.
+
+Plain knitting, but slipping the first stitch of every row.
+
+
+
+
+Hints on Knitting.
+
+
+A plain stitch at the beginning of each row, commonly called an _edge
+stitch_, is a great improvement in most instances, as it makes an
+uniform edge, and the pattern is kept more even at its commencement. In
+most knitting, the edge-stitch is slipped.
+
+It is easiest to learn to knit, by holding the wool over the fingers of
+the left hand; the position of the hands is more graceful when thus
+held.
+
+It is always advisable to cast off loosely.
+
+When it is requisite to cast off, and continue the row on a separate
+needle, it is sometimes better to run a coarse silk through the cast off
+stitches; they are easily taken up, when required, and the inconvenience
+of the idle needle is avoided.
+
+In knitting, when a pattern is spoken of, it means as many rows as form
+the pattern.
+
+
+THE END.
+
+
+
+
+_Just published, in post 8vo. elegantly bound, price 10s. 6d. carefully
+revised, and considerably enlarged, with additional Woodcuts of
+Patterns, etc._
+
+    The Third Edition
+
+    OF THE
+
+    HAND-BOOK OF NEEDLEWORK,
+
+    BEING A COMPLETE GUIDE TO EVERY KIND OF DECORATIVE
+    NEEDLEWORK, CROCHET, KNITTING, AND NETTING,
+    WITH A BRIEF HISTORICAL ACCOUNT
+    OF EACH ART.
+
+    BY
+
+    MISS LAMBERT.
+
+
+Contents:
+
+CHAP.
+
+    I. Introduction.
+    II. Tapestry.
+    III. Materials in General.
+    IV. Wool.
+    V. Silk.
+    VI. Gold and Silver.
+    VII. Chenille, Braid, etc.
+    VIII. Canvas.
+    IX. Berlin Patterns.
+    X. Implements.
+    XI. Drawing Patterns for Embroidery, Braiding, etc.
+    XII. Framing Work.
+    XIII. Embroidery.
+    XIV. Stitches.
+    XV. Canvas Work.
+    XVI. Braiding and Appliqué.
+    XVII. Bead Work.
+    XVIII. Crochet.
+    XIX. Knitting.
+    XX. Netting.
+    XXI. Needlework of the English Queens and Princesses.
+    XXII. "The Praise of the Needle."
+
+WITH ONE HUNDRED AND FIFTEEN ILLUSTRATIVE ENGRAVINGS ON WOOD, OF
+PATTERNS, IMPLEMENTS, ETC.
+
+
+CRITICAL NOTICES OF THE WORK.
+
+"One of Mr. MURRAY'S series of Handbooks, which seem destined to embrace
+all the arts of life as well as all the sights in the world. Miss
+LAMBERT'S treatise is one of practical utility, its information being
+the product of experience: after sketching the history of needlework, it
+proceeds to describe the various kinds of materials used, such as wool,
+silk, gold thread, beads, &c.; the canvas, patterns, frames, and
+implements, required; the different kinds of stitches; the mode of
+working certain patterns and shapes; the processes of embroidery,
+knitting, and netting. The volume is very handsomely got up, and
+illustrated profusely with wood-cuts; nothing seems wanting to its
+completeness."--_Spectator._
+
+"We venture to recommend it as containing a great deal of practical
+information respecting embroidery, frame work, knitting, netting,
+braiding, bead work, and other profound mysteries, of which we, of the
+uglier sex, know nothing.... We soon became interested in the historical
+portion, which is gracefully and well written--so that the work is a
+good book, instructive when the party consulting it desires instruction,
+and amusing whenever she is weary of work. MISS LAMBERT observes in her
+Preface, that she has endeavoured, and we will add successfully, 'to
+embrace those subjects which appeared most worthy of notice in a
+Treatise on Decorative Needlework, and by combining a brief historical
+sketch, with a detailed account of the practice of each department, to
+render them more generally interesting than a mere manual of directions
+and examples.'"--_Athenæum._
+
+"This is the most curious, complete, and erudite treatise on the art of
+needlework that has, probably, ever been compiled.... The variety,
+fulness, and systematic arrangement of the book, not to say one word
+about its numerous engravings, and the remarkably elegant style in which
+it is 'gotten up,' demand unmixed applause."--_Atlas._
+
+"A very elegant and useful work. The directions how to ply the needle
+are plain and easy of comprehension, and the plates which accompany the
+letterpress and illustrate the designs, will be found of great
+assistance to the ready acquirement of the art and its numerous
+principles. The ample instructions for drawing patterns, purchasing
+implements, framing, and properly finishing work, will be found not the
+least available portion of the book."--_Literary Gazette._
+
+"An eminently practical work; clear in its explanation, precise in its
+directions, natural in its arrangements. The style is simple and easy;
+the collateral information abundant. Its value is enhanced by historical
+notices, which have been prepared with judgment and knowledge, and are
+not disfigured by the slightest affectation."--_Polytechnic Review._
+
+"The first edition of MISS LAMBERT'S 'HAND-BOOK' has been entirely sold
+off, a better proof of its excellence than aught we could say in its
+behalf; and a second edition has just appeared with an embossed cover,
+which will render it an ornament to the drawing-room table, as well as
+an object of utility from the nature of its contents. To this edition
+several new patterns and engravings have been added, and additional
+directions for crochet, knitting, netting, &c."--_Morning Post._
+
+"The authoress seems to be thoroughly mistress of her craft, and has
+produced not only a very instructive, but a very amusing volume upon a
+branch of the fine arts now become again so fashionable.... A more
+elegant or entertaining volume can scarcely be found on a drawing-room
+table."--_Globe._
+
+"This is a pleasant book, a good book, and a book worthy to be bought by
+mothers and daughters, and studied, _con amore_, in quiet parlours and
+snug nurseries. It is well produced. Its knowledge is practical, as a
+few extracts, which may be of advantage to our readers, will best
+show."--_Pictorial Times._
+
+"Replete with excellent _practical_ information, clear and concise rules
+for acquiring a knowledge of all the varied branches of the art,
+illustrated by a series of beautifully executed designs, representing
+implements, patterns, material, and numerous articles of modern
+fancy-work, eminently calculated to initiate the unlearned (aye, and
+learned too) in all the mysteries of tent-stitch, embroideries, braid,
+appliqué, bead, chenille, canvas, and Berlin work, &c. In short, the
+work justifies its title; it possesses an elegant exterior, and we
+prognosticate that few ladies will willingly dispense with so much
+silent instruction."--_Sunday Times._
+
+"The pretty volume now before us, has been compiled with exceeding care,
+and strict attention to the most minute details; all is
+well-arranged.... The illustrations are a valuable addition to the
+interest and information of a volume which deserves a place on the table
+of every lady."--_Art Union._
+
+"A new and carefully revised edition of this very elegant work is here
+presented to us, and we do not hesitate to assure our fair readers, that
+they will find it highly deserving of a place on the boudoir and
+drawing-room tables. The volume, we should premise, is exclusively
+devoted to ornamental needlework, and will be found as interesting as
+it is useful, for, in addition to very clear and accurate instructions
+for acquiring a proficiency in every branch of the art, it contains an
+historical notice of its cultivation from the earliest ages."--_Court
+Journal._
+
+"This 'HAND-BOOK' cannot fail to assist the best taste; _utile et dulce_
+have been carefully blended, and the descriptive letter-press has
+evidently been given by a well-informed mind."--_Court Gazette._
+
+"This elegantly printed volume contains a complete encyclopædia of
+information for the fair votaries of the needle. The various mysteries
+of tapestry work, embroidery-work, and so forth, are fully laid open,
+with a clearness of statement, and completeness of direction, which
+leave nothing to desire."--_Illustrated London News._
+
+LONDON:
+
+JOHN MURRAY, ALBEMARLE STREET.
+
+Richards, Printer, 100, St. Martin's Lane.
+
+
+
+
+THE LADIES' LIBRARY,
+OF
+RURAL HOUSEHOLD ECONOMY.
+
+_The following Volumes are now Published:_
+
+VOL. 1.--GARDENING,
+
+    With a Calendar of Practical Operations and Directions for every
+    Month in the Year. By MRS. LOUDON. With Illustrative Woodcuts.
+    _Sixth Edition_. Fcap. 8vo., 6s.
+
+VOL. 2.--MODERN BOTANY;
+
+    Or, a popular Introduction to the Natural System and Classification
+    of Plants. By MRS. LOUDON. With One Hundred and Fifty Illustrations.
+    Fcap. 8vo., 8s.
+
+VOL. 3.--FARMING;
+
+    Or, Plain Directions for Rearing all sorts of Domestic Poultry; with
+    the best mode of Managing the Dairy and Piggery, together with
+    useful Hints on the Rural Economy of small Families. By Author of
+    "British Husbandry." With Woodcuts. Fcap. 8vo.
+
+VOL. 4.--DOMESTIC COOKERY,
+
+    Suited to the present advanced state of the Art, but founded upon
+    Principles of Economy and Practical Knowledge, and adapted for the
+    use of Private Families. By MRS. RUNDELL. _Sixty-fifth Edition._
+    Improved by the addition of Nine Hundred New Receipts, and a Chapter
+    on Indian Cookery. Fcap. 8vo., 6s.
+
+    _Of this Volume upwards of 280,000 copies have been sold._
+
+VOL. 5.--FAMILY RECEIPTS;
+
+    A Collection of more than a Thousand valuable Receipts in various
+    Branches of Domestic Economy. _New Edition._ Fcap. 8vo. 5s. 6d.
+
+VOL. 6.--VEGETABLE PHYSIOLOGY.
+
+    By MRS. LOUDON. With numerous Illustrations. Fcap. 8vo. (_Just
+    ready._)
+
+_Each Volume is strongly Bound in Cloth, and may be
+purchased separately._
+
+                                                    [TURN OVER.
+
+
+
+
+ELEMENTARY WORKS FOR YOUNG PERSONS.
+
+
+I.
+
+MRS. MARKHAM'S HISTORY OF ENGLAND, from the First Invasion by the
+Romans, to the end of the Reign of William the Fourth, with
+Conversations at the end of each Chapter. _Tenth Edition_, with numerous
+Woodcuts. 2 vols. 12mo. 12s.
+
+
+II.
+
+MRS. MARKHAM'S HISTORY OF FRANCE, from the Conquest of Gaul by Julius
+Cæsar, to the Reign of Louis Philippe, with Conversations at the end of
+each Chapter. _Fifth Edition_, with numerous Woodcuts. 2 vols. 12mo.
+12s.
+
+
+III.
+
+BERTHA'S JOURNAL DURING A VISIT TO HER UNCLE IN ENGLAND; with a variety
+of Interesting and Instructive Information. _Fifth Edition._ 12mo. 7s.
+6d.
+
+
+IV.
+
+CONVERSATIONS ON NATURE AND ART, for the Information and Amusement of
+Young Persons. By a LADY. 2 vols. 12mo. 6s. 6d. each.
+
+
+V.
+
+PHILOSOPHY IN SPORT MADE SCIENCE IN EARNEST; or the First Principles of
+Natural Philosophy inculcated by Aid of the Ordinary Toys and Sports of
+Youth. _Fifth Edition._ With 100 Woodcuts. Fcap. 8vo. 8s.
+
+
+VI.
+
+SENTENCES FROM THE PROVERBS, in English, French, Italian, and German.
+For the daily Use of Young Persons. By a LADY. 16mo. 3s. 6d.
+
+
+VII.
+
+LETTERS FROM ITALY TO A YOUNGER SISTER. With Sketches of History,
+Literature, and Art. By CATHERINE TAYLOR. _Second Edition._ 2 vols.
+12mo. 17s.
+
+
+VIII.
+
+LITTLE ARTHUR'S HISTORY OF ENGLAND. By LADY CALLCOTT. _Sixth Edition._
+18mo. 3s.
+
+
+IX.
+
+STORIES FROM THE HISTORY OF ENGLAND FOR CHILDREN. _Thirteenth Edition._
+18mo. 3s.
+
+
+X.
+
+PROGRESSIVE GEOGRAPHY FOR CHILDREN. By the Author of "Stories for
+Children." _Third Edition._ 12mo. 2s.
+
+
+XI.
+
+GOSPEL STORIES FOR CHILDREN. An attempt to render the chief Events of
+the Life of Our Saviour intelligent and profitable to Young Children.
+_Second Edition._ 18mo. 3s. 6d.
+
+
+XII.
+
+YEAR BOOK OF NATURAL HISTORY, arranged for Each Month. By MRS. LOUDON.
+With 40 Woodcuts. 18mo. 4s.
+
+       *       *       *       *       *
+
+JOHN MURRAY, ALBEMARLE STREET.
+
+       *       *       *       *       *
+
+Transcriber's Note:
+
+The following printer's errors have been corrected in the text:
+
+netting needle gauge
+  "guage" printed for "gauge" in original
+
+A Brioche[A].
+  missing footnote marker added
+
+_Fourth row_--with claret,--bring the wool forward, slip one; pass the
+wool back, knit one.--Repeat to the end of the row.
+  "on" printed for "one" in original
+
+knit one, pass the slip-stitch
+over it; pearl one.--Repeat.
+  "slip-stich" printed for "slip-stitch" in original
+
+Knit nineteen rows, the same as second row.
+  "twenty" in original, needs to be nineteen to fit into pattern
+
+
+
+
+
+End of the Project Gutenberg EBook of My Knitting Book, by Miss Lambert
+
+*** END OF THIS PROJECT GUTENBERG EBOOK MY KNITTING BOOK ***
+
+***** This file should be named 33502-8.txt or 33502-8.zip *****
+This and all associated files of various formats will be found in:
+        https://www.gutenberg.org/3/3/5/0/33502/
+
+Produced by Constanze Hofmann and the Online Distributed
+Proofreading Team at https://www.pgdp.net (This book was
+produced from scanned images of public domain material
+from the Google Print project.)
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+https://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at https://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+https://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at https://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit https://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including including checks, online payments and credit card
+donations.  To donate, please visit: https://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart was the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     https://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.

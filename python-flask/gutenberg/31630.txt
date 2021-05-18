@@ -1,0 +1,4576 @@
+The Project Gutenberg eBook, Hand-Loom Weaving, by Mattie Phipps Todd
+
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+
+
+
+Title: Hand-Loom Weaving
+       A Manual for School and Home
+
+
+Author: Mattie Phipps Todd
+
+
+
+Release Date: March 13, 2010  [eBook #31630]
+
+Language: English
+
+Character set encoding: ISO-8859-1
+
+
+***START OF THE PROJECT GUTENBERG EBOOK HAND-LOOM WEAVING***
+
+
+E-text prepared by Geetu Melwani, Stephen Hope, Josephine Paolucci, and
+the Project Gutenberg Online Distributed Proofreading Team
+(http://www.pgdp.net) from digital material generously made available by
+the University of Georgia Libraries (http://www.libs.uga.edu/)
+
+
+
+Note: Project Gutenberg also has an HTML version of this
+      file which includes the original illustrations.
+      See 31630-h.htm or 31630-h.zip:
+      (http://www.gutenberg.org/files/31630/31630-h/31630-h.htm)
+      or
+      (http://www.gutenberg.org/files/31630/31630-h.zip)
+
+
+      Images of the original pages are available through
+      the collection of Facsimile Books & Other Digitally
+      Enhanced Works, The University Of Georgia Libraries. See
+      http://fax.libs.uga.edu/T848xT7/
+
+
+
+
+
+HAND-LOOM WEAVING
+
+A Manual
+
+[Illustration: WEAVING ON A HAND LOOM
+
+_Showing the necessary positions. The rug the little girl is weaving is
+made of heavy carpet wool. The body of the rug is golden brown, with
+stripes of deep blue and green, separated by narrow stripes of white_]
+
+
+HAND-LOOM WEAVING
+
+A Manual for School and Home
+
+by
+
+MATTIE PHIPPS TODD
+
+Of the Motley School, Minneapolis, Minn.
+
+With an Introduction by Alice W. Cooley
+
+Formerly Supervisor of Primary Schools, Minneapolis, Minn.
+
+With Fifty-seven Illustrations
+
+
+
+
+
+
+
+[Illustration]
+
+Rand, McNally & Company
+Educational Publishers
+Chicago         New York          London
+
+Copyright, 1902,
+By Mattie Phipps Todd
+
+
+
+
+
+THE TABLE OF CONTENTS
+
+                                                                     PAGE
+
+An Introduction.      By _Alice W. Cooley_                              7
+
+_Chapter One._        The Primitive Loom                               13
+
+_Chapter Two._        A Chat on Weaving                                22
+
+_Chapter Three._      First Steps in Weaving                           30
+
+_Chapter Four._       Methods of Stringing Warp                        42
+
+_Chapter Five._       Materials                                        51
+
+_Chapter Six._        Directions for Dyeing                            58
+
+_Chapter Seven._      Methods of Splicing Materials for Weaving        83
+
+_Chapter Eight._      Wool and Silkoline Rugs or Mats                  86
+
+_Chapter Nine._       Hammocks                                         93
+
+_Chapter Ten._        Face and Dish Cloths and Bath Rugs               99
+
+_Chapter Eleven._     Raffia Mats                                     101
+
+_Chapter Twelve._     Oriental Rugs                                   122
+
+_Chapter Thirteen._   Navajo Blankets                                 135
+
+_Chapter Fourteen._   Songs, Games, and Stories                       143
+
+_Chapter Fifteen._    A List of Helpful Books and Magazine Articles   153
+
+The Index                                                             159
+
+
+    The highest
+    aim of art is
+    to make some
+    useful thing
+    beautiful.
+
+    Kenyon Cox.
+
+
+
+
+AN INTRODUCTION
+
+
+For many years we, the teachers of the United States assembled in
+village, city, State, and national conventions, have recited our creed
+and chanted it in all keys.
+
+[Sidenote: _Our creed_]
+
+We believe that man is a trinity, three in one--head, heart, and hand,
+one soul made manifest; we believe that this union is vital and
+indissoluble, since "what God hath joined together" may not be rent
+asunder; we believe that this three-fold man, being "put to school" on
+earth to grow, may devise and bring to successful issue no scheme of
+education that is out of harmony with the plan of the Creator.
+
+Congratulating ourselves upon our ready and distinct utterance of this
+lofty thought, we have calmly returned to our man-devised book-schools
+for the acquisition of knowledge, in order to forward some plan for the
+accumulation of more knowledge.
+
+[Sidenote: _Deeds, not words, are now necessary_]
+
+But "wisdom lingered"! Here and there voices were raised that would not
+be silenced: "You sang your beautiful song; what are you going to _do_
+about it?" In the words of John Stuart Mill, "It is now time to assert
+in deeds, since the power of words is well-nigh exhausted."
+
+Investigators, studying this union of head and hand from the
+physiological side, hurled truths at us that startled us from our
+lethargy.
+
+[Sidenote: _Physiological truths_]
+
+Every stimulus poured into nerve cells through the avenues of the senses
+tends to pass out in motor action, which causes muscular movement. In
+every idea are vitally united the impression and the tendency to
+expression in action. The nervous system consists of the fibres which
+carry currents inward, the organs of central redirection, and the fibres
+which carry them outward--sensation, direction, action. Since control
+means mental direction of this involuntary discharge of energy (directed
+muscular movement), control of the muscles means development of will as
+well as of skill. To prevent or cut off the natural outflow of nervous
+energy results in fatigue and diseased nerves. Unrestrained and
+uncontrolled expenditure of nervous energy results in lawlessness and
+weakened will.
+
+Men of science said: "These are facts about man. What account have you
+made of them in your elaborate system for educating him?"
+
+Students of sociological and economic problems called out to us as the
+teachers of men:
+
+[Sidenote: _Labor must be respected_]
+
+These great problems concerning the relation of labor and capital (the
+brotherhood of man) will never be solved until there is greater respect
+for labor; greater appreciation of the value of the products of labor;
+until there is more joy to the worker in his labor, which should be the
+expression through his hand, of the thought of his head, and the feeling
+of his heart; until labor is seen in its true light, as service; until
+the man with money as well as the man without learns through experience
+to respect and appreciate labor and its products. "We _absorb_ only so
+much as we can interpret in terms of our own active experience."
+
+What contributions are our schools making to the bettering of social and
+industrial conditions?
+
+Philosopher and poet--thinker and seer--send their message:
+
+    "That life is wisest spent
+    Where the strong, working hand
+    Makes strong the working brain."
+
+To create, to make something, is the instinct of divinity in humanity,
+the power that crowns man as divine.
+
+    "It is his impulse to create
+    Should gladden thee."
+
+[Sidenote: _The will to do_]
+
+The practical business man thunders his protest at us against the
+inefficiency of the man with only the knowledge-stored brain. He says:
+We must have men that can _will to do_, and then _do_ something, not
+merely men that can think of things "'twere good to do." Our public
+schools must train men and women to go out and take their place with the
+workers of the world, to do something well and effectively.
+
+[Sidenote: _Systematic hand-training the work of to-day_]
+
+At last we are awake, and throughout the country we are trying to heed
+these calls, and to revive our own weakened thought by action, singing
+our creed in deeds. Upon the foundations laid by Friedrich Froebel and
+his students in the kindergarten, we are trying to build up a course in
+systematic hand-training, through the primary, to intermediate and
+grammar grades, and thence to manual training in the high schools.
+_What_ to do and _how_ to do it has now become the practical problem of
+the day. Everywhere the wide-awake primary teacher is sharing her
+thought and experience with her co-workers.
+
+For little children, the _what_ must utilize material suitable for
+little fingers, and tools must be large. The finished product should
+belong to the maker, or be made by him as a service rendered to others;
+the result should also be worthy of keeping or giving, from the
+view-points of both beauty and utility.
+
+Another important factor is the adaptation to present public-schoolroom
+conditions, and to present public-school treasury conditions.
+
+[Sidenote: _Weaving the best hand work for primary schools_]
+
+More thoughtful study has led to the abandonment of the old-time sewing
+and fine handwork in kindergarten and primary school. In its place we
+find the weaving of useful and beautiful articles, out of various
+available materials, and with simple, primitive tools--allowing always
+for much and varied use of the great tools, the fingers.
+
+It is interesting to note that teachers in all parts of the country,
+working independently of each other, have come to practically the same
+conclusions, viz., that under present conditions, _weaving_ seems the
+best basis for a systematic course in industrial work that shall train
+head and heart as well as hand. It is also of great interest to remember
+that the signboards along the pathway of race development, by means of
+work, exchange of labor and its products, all point to this idea as the
+entering gateway. Weaving is the first industry of all primitive
+peoples.
+
+[Sidenote: _This manual the result of study and experience_]
+
+Being practically agreed as to _what_ shall be the first industrial work
+in the primary school, the next great question is the _how_. With large
+numbers of little children in her own schoolroom, the author of this
+manual has long sought a satisfactory answer. Believing that the results
+of her study and experience will be helpful to others in suggesting
+possibilities, and in stimulating thought, as well as in practical
+teaching and time-saving, she sends forth this little book with the
+earnest hope that it may in these ways be of real service.
+
+                                 ALICE W. COOLEY,
+
+                  _Critic Teacher and Instructor,
+                     University of North Dakota._
+
+    _August 1st, 1902._
+
+
+
+
+HAND-LOOM WEAVING
+
+
+
+
+Chapter One
+
+THE PRIMITIVE LOOM
+
+
+[Sidenote: _History of weaving_]
+
+Weaving, the oldest of the industrial arts, dates back so far that no
+one can say when or where it had its beginning. We read in Genesis iii,
+21, that when Adam was driven from the Garden of Eden he wore a coat of
+skin; but, not long after, according to Professor Hurwitz, the
+descendants of Adam wore an upper garment called the simla, which
+consisted of a piece of cloth about six yards long and two or three
+wide, greatly resembling a blanket (_Ashenhurst_). This might have been
+woven from vegetable fibres, perhaps from wool, but in what manner we do
+not know. The warp and woof of linen and woolen garments is mentioned in
+Leviticus xiii, 47, 48.
+
+[Sidenote: _Dyeing_]
+
+Spinning and weaving have been practised by the Chinese, Hindoos, and
+Egyptians for thousands of years and carried by them to great
+proficiency. The Israelites were probably familiar with the art of
+weaving before their sojourn in Egypt, but it was there that they
+attained the skill which enabled them to execute the hangings in the
+Tabernacle. Joseph's "coat of many colors" is a proof that dyeing
+existed at a very early period, and the eloquent writings of Ezekiel
+tell us of the beautiful colored cloths of Tyre and Damascus.
+
+[Sidenote: _Migration of weaving_]
+
+From the ancient world the art of weaving passed through Europe and
+became known in England after the Roman conquest. No doubt primitive
+weaving with vegetable fibres, and perhaps with wool, was known in a
+very crude way before that time. How the art developed, and how
+improvement followed improvement, makes very interesting reading for the
+student of textile fabrics.
+
+[Sidenote: _Weaving as the first industrial art_]
+
+We know that weaving is the first industrial art practised by primitive
+peoples, from the fact that it is found among the savages of Central
+Africa (_Park_) and the islands of the sea. "Clavigero, in his history
+of Mexico, shows that on the conquest of that country, weaving was found
+to be practised by the natives." (_Ashenhurst_.)
+
+[Sidenote: _Egyptian loom_]
+
+[Sidenote: _Method of pushing the woof_]
+
+[Sidenote: _Hindoo loom_]
+
+The Egyptians are supposed to have been inventors of the loom. There
+were two kinds in use, one horizontal and the other perpendicular.
+Instead of a shuttle they used a stick with a hook at one end, which was
+used also as a batten. Herodotus says that it was the practice of the
+Egyptians to push the woof downwards, and this method is pictured in
+many paintings; but one representation found at Thebes shows a man
+pushing it upwards. The former method is, I believe, the one generally
+used by all nations, and it certainly seems the easier way. Martin's
+description of a Hindoo loom in his "Circle of the Mechanical Arts" is
+interesting: "The loom consists merely of two bamboo rollers, one for
+the warp and the other for the web, and a pair of gears. The shuttle
+performs the double office of shuttle and batten, and for this purpose
+is made like a huge netting needle, and of a length somewhat exceeding
+the breadth of the cloth. This apparatus the weaver carries to a tree,
+under which he digs a hole large enough to contain his legs and the
+lower part of the gear. He then stretches his warp by fastening his
+bamboo rollers, at a due distance from each other on the turf, by wooden
+pins. The balance of the gear he fastens to some convenient branch of
+the tree over his head. Two loops underneath the gear, in which he
+inserts his great toes, serve instead of treadles, and his long
+shuttle, which also performs the office of batten, draws the weft
+through the warp, and afterwards strikes it up close to the web."
+
+[Sidenote: _Crude implements used by primitive peoples_]
+
+[Sidenote: _Patience and dexterity necessary_]
+
+Ashenhurst says: "It is very evident that the implements used, not only
+by the early Egyptians, but by other contemporaneous nations, and even
+by the Hindoos at the present time, were of the rudest possible
+character, and nothing but the most exemplary patience, dexterity, and
+great delicacy of hand, acquired by long traditionary habit, can account
+for the extraordinary beauty and fineness of their textile productions."
+This exemplary patience, dexterity, and great delicacy of hand is
+exactly what we claim that weaving develops in our children to-day.
+
+[Sidenote: _Primitive loom in the public schools_]
+
+[Sidenote: _Its disadvantages_]
+
+The primitive loom, as it is made for use in the public schools, is
+familiar to almost every teacher. It consists of a wooden frame, in the
+two ends of which are fastened brads at intervals of half an inch. The
+warp is strung around these brads. There is no variation either in the
+size of the rug or in the width of the warp to afford opportunity for
+different materials. This is a decided objection, as a new frame has to
+be made every time a change is desired. The first difficulty encountered
+is the drawing in of the sides of the rug, which is almost impossible
+to avoid, even with the utmost care. Photographs of work in the leading
+educational magazines, as well as samples of teachers' work, all show
+the same defect. The Indians obviate this difficulty by twisting two
+stout cords in the edge of the woof during the process of weaving. (See
+illustration on page 135.) In one school, where the work in this respect
+was fairly well done, the teacher was asked how she accomplished the
+result. Her reply was, "Oh, I make them pull it out every time it
+draws." Poor, patient little fingers! One can imagine the thoughts which
+were woven into that imperfect rug by the discouraged little worker.
+Another disadvantage of the primitive loom is that the child must bend
+over it while weaving, and if, by chance, he turns it over to examine
+the other side of the work, the brads are apt to leave an unsightly
+impression on the desk.
+
+[Sidenote: _Success in doing_]
+
+One of Froebel's fundamental principles is that a child should never be
+_allowed_ to fail--that his work should be so adapted that he will
+succeed _every time_, and that he should be led step by step as his
+power grows, to something more difficult.
+
+    "One thing is forever good,
+    That one thing is success."
+
+We have all experienced the joy of success in one way and another. Let
+us help the children to have the same experience.
+
+[Sidenote: _Idea of the "new education"_]
+
+[Sidenote: _Small classes_]
+
+[Sidenote: _Public school conditions_]
+
+The idea of the "new education" is that the child should work out his
+own salvation--that having wrestled with the difficulties involved in
+weaving on the primitive loom, he should proceed not only to invent, but
+to construct a newer and more improved loom. In model schools, where the
+classes are limited to ten, or sometimes fewer children, with one
+teacher and several assistants, this idea, if carried out, is ideal, and
+perhaps practical. But what shall be said of the public-school teacher
+who has fifty children and no assistants; or, which is even more
+objectionable, and which is the case in many of our crowded schools,
+what of the teacher with two sessions of fifty children each? It was the
+effort to solve a problem of this kind that led to the invention of the
+Todd adjustable hand loom.
+
+[Sidenote: _Description of the Todd loom_]
+
+[Illustration: _The Todd adjustable hand loom, Style b_]
+
+[Sidenote: _The needle_]
+
+[Sidenote: _Finishing the work_]
+
+[Sidenote: _Removing the work_]
+
+The full size of the loom is 10 × 13 inches, upon which a rug 9 × 12
+inches can be woven. It is made adjustable to innumerable smaller square
+and oblong sizes, by two devices. To regulate the length, the head
+piece, which is movable, can be let down on brass buttons, which are
+disposed along the sides at intervals of an inch. Perforations are
+placed half an inch apart in the head and foot pieces so that the side
+rods can be moved inward to regulate the width. They also insure
+straight edges, since the woof threads are passed around them as the
+work progresses. The rods also serve another important function as
+fulcrums upon which the needle may be pressed up and down, so that it
+passes more easily over and under the successive warp strings. The
+notches are one-sixteenth inch and the teeth one-eighth inch apart,
+giving opportunity for warp one-half, three-eighths, and
+three-sixteenths inches wide. The loom has an easel support, so that the
+pupil need not bend over it--an important consideration in school
+classes, and in home work as well. This support makes it possible to use
+the loom for an easel in the painting lessons, by resting a piece of
+pasteboard against it. The needle, which is longer than the warp is
+wide, serves also as a heddle in pressing the woof threads together
+evenly. It is furnished with an eye for worsted, chenille, carpet
+ravelings, or rope silk, and three slits for rags. To thread the needle
+with rags, pass the strip up and down through the slits and _back_ again
+_under_ the strip through the first slit. This binds the strip securely.
+In finishing the work weave the last few woof threads with a large tape
+needle, putting it up and down, over one thread at a time, as you would
+sew on canvas. It has been found desirable with children to push about
+an inch of woof threads close to the head piece and then fill in the
+space. Care should be taken not to pull the woof too tight. If these
+directions are followed and the warp is strung correctly the strings
+will not slip out of the notches. In adjusting the loom it will be found
+that the width from rod to rod is a little more than is required. For
+instance, for a rug nine inches wide, the width from rod to rod will be
+about nine and one-half inches. This is to allow for the springing
+together when the work is finished. To remove it from the loom, pull the
+rods gently upward and out. Then lift the warp strings out of the
+notches.
+
+[Illustration: _The Todd adjustable hand loom, Style a_]
+
+[Sidenote: _Use of the primitive loom_]
+
+The primitive loom can be used by following these same directions, but
+the work will, of course, be limited.
+
+[Sidenote: _For school and home work_]
+
+While a great deal of the work is intended for the schoolroom, many
+suggestions are given for home weaving, in making various articles for
+birthday and holiday gifts.
+
+
+
+
+Chapter Two
+
+A CHAT ON WEAVING
+
+
+[Sidenote: _Weaving defined_]
+
+[Sidenote: _Weaving trains both hands_]
+
+[Sidenote: _The three-fold development_]
+
+Weaving is the art of interlacing threads, yarns, filaments, or strips
+of different material, so as to form a cloth or fabric. It is an ideal
+occupation, not only for little children, but for older ones as well,
+affording admirable opportunities for the development of head, hand, and
+heart. It trains both hands in deftness and proves a delight to the
+left-handed child, who for the joy of using his left hand again, will
+plod patiently across with the right. The fat little hands soon learn to
+grasp the large needle, and the nerves and muscles of both hand and arm
+are strengthened by daily use. Both hand and eye are trained in
+accuracy, and the training in patience, perseverance, industry, economy
+in the use of materials, perception, concentration, dexterity, and
+self-reliance cannot be overestimated. The heart, too, has its part in
+the joy of giving to others, for the children are encouraged to make
+little gifts for the home. A consciousness of power comes, also, with
+experience; and a sense of self-respect arises when the child realizes
+that he is of some use in the world.
+
+[Sidenote: _Knowledge of principles necessary_]
+
+Lois Bates, in her "Kindergarten Guide," says that "in the manufacturing
+districts of England great numbers of the children who pass through the
+elementary schools are employed in mills where weaving is carried on, or
+enter textile schools to learn designing in cloth. If this occupation of
+mat-weaving could be continued until the children had a thorough
+knowledge of its principles, how much intelligence might be brought to
+bear on the actual weaving and how much more pleasure might the worker
+draw from labor that is often looked upon as so much mechanical
+drudgery!" The keynote for this is the _thorough knowledge_ which is
+necessary, whether or not our children are to enter textile schools.
+Whatever they do, let them do it thoroughly. It should always be a
+question of quality, not quantity.
+
+[Sidenote: _Simple weaving the first essential_]
+
+[Sidenote: _Mats as a preparation for loom weaving_]
+
+[Sidenote: _Slat interlacing and splint work lead to basketry_]
+
+For this reason I have taken up, quite at length, the subject of first
+steps in weaving, believing that children should be kept at simple
+weaving until they understand the principles thoroughly. The felt and
+paper mats prepare the way for loom-weaving; the free paper weaving, and
+the slats and splints for basketry. A few suggestions on the use of the
+slats and splints have been given for two reasons: First, for the
+training which they afford in dexterity and great delicacy of touch, to
+say nothing of _exemplary patience_; and second, because the preliminary
+training for basketry should be given in the lower primary grades. The
+time necessary to train clumsy fingers can hardly be taken from the
+regular work in grades where basketry is a prescribed course.
+
+"Skill in the fundamental methods of weaving is essential even as the
+fingers must be trained in music before the soul of the musician can
+find its expression. Make good baskets first, simple in shape, strong in
+texture, suited to the purpose for which they are intended;
+unconsciously they will grow beautiful. The most intricate basket will
+fail in its purpose if the joinings are careless or flaws in workmanship
+permitted. If originality is within the weaver, it will find its
+expression, once the principles of weaving are second nature." (_C. S.
+Coles._) This is also true of rug and mat weaving, for the aim of all
+training should be to bring out the best there is in a child.
+
+[Sidenote: _"Devotedness to duty"_]
+
+    "The longer on this earth we live
+    And weigh the various qualities of men,
+    The more we feel the high, stern-featured beauty
+    Of plain devotedness to duty;
+    Steadfast and still, nor paid with mortal praise,
+    But finding amplest recompense
+    For life's ungarlanded expense
+    In work done squarely and unwasted days."
+
+               --_James Russell Lowell._
+
+[Sidenote: _Weaving the foundation for designing_]
+
+[Sidenote: _Honest work begets sympathy with labor_]
+
+[Sidenote: _Interdependence in life_]
+
+The "Kraus-Boelte Guide" has some good suggestions with regard to the
+value of paper mat weaving, in number training, and for following
+certain formulæ which will lead ultimately to invention. Mme.
+Kraus-Boelte says: "Weaving leads to independent effort and offers the
+greatest scope for future technical work, for it lays the foundation for
+designing. Even though it may not fan into flame a latent spark of
+genius, this means of occupation at least tends to show the value of
+honest labor." The child not only recognizes the value in honest labor,
+but his sympathy with all labor is aroused through his own efforts and
+through the stories told of weavers in all lands. He realizes, also,
+although in a limited way, the interdependence of the whole world. If
+the sun did not shine, and the rain fall, there would be no grass. If
+there were no grass, what would the sheep do? If the sheep did not give
+any wool, what would the weaver do? If the weaver could not weave, what
+would we do for clothes? Little children are always delighted to go back
+to the beginning of things. Oh, the joy of looking back on one's school
+days! As Friedrich Richter has truly said, "Recollection is the only
+paradise from which no man can be driven."
+
+[Sidenote: _Some difficulties_]
+
+[Sidenote: _A bit of experience_]
+
+[Sidenote: _One solution_]
+
+[Sidenote: _Community feeling continued_]
+
+One important thought in this whole subject is that the work should be
+so arranged as not to add any additional burden to the already crowded
+life of the teacher. It is a lamentable fact that we have overcrowded
+rooms, and only one pair of hands to do all that has to be done. Perhaps
+a bit of the author's own experience will be of some assistance. After
+looking the subject squarely in the face and considering it on all
+sides, the writer came to the conclusion that it would be an
+impossibility to do all the work alone. So some helpers were called from
+the pupils of the higher grades, and the request met such a hearty
+response that it was wondered why it had not been tried before. As it is
+now arranged the older girls come in before school and at recess. They
+wind worsted, correct any knitting that may be wrong, start new spools,
+string looms, cut material for rugs, water plants, keep the closets
+where the materials are stored in order, and do many other things which
+relieve in a great measure the burden of detail. When it is possible,
+the teacher should choose girls who have a sister or brother in the
+room, because their interest is stronger and more lasting. Of course,
+some training is necessary, but the result compensates for the trouble.
+Sometimes the work in other grades can be so planned that the children
+can make paper mats, etc., for use in the first grade. The beautiful
+community feeling begun in the kindergarten can thus be continued in the
+public school. The time will come when boys and girls in the higher
+grades will design patterns for the younger children to weave.
+
+[Sidenote: _Nature knows no hurry_]
+
+Take plenty of time in the first part of the year to teach the children
+to work well. "Time is nothing when _power_ is growing." There are some
+children who learn faster than others and they are always delighted to
+go about the room and help the slower ones. It will sometimes be found
+that they know just how to explain a difficult point--perhaps because
+they have just conquered it themselves.
+
+[Sidenote: _A child's work should be suited to his capacity, without
+regard to grade_]
+
+[Sidenote: _Train the individual_]
+
+No work has been specified as suited to any particular grade. It should
+depend entirely upon the children. While, for convenience, courses in
+industrial training are planned, advising certain lines of work which
+experience has proved the best for first, second, or third grade, there
+are in every school, certain children who have more manual than mental
+ability. These are left behind as the more favored ones are promoted,
+and because a certain course has been recommended for that particular
+grade, they must, perforce, do it all over again. Instead of bringing
+out the best in these less fortunate ones, and developing and
+strengthening their minds through the hand by offering something not
+only new and interesting, but which presents new difficulties to
+conquer, we stunt their growth by giving them the same baby work term
+after term. It is time that earnest teachers considered this important
+question. Let us give up training the _mass_ and begin to train the
+_individual_. Through our interest in them they may find their life
+work. If a child in the first grade is prepared to do any industrial
+work of a higher grade, no matter how dull he may otherwise be, by all
+means let him do it. It is his way of expressing what lies within him.
+Not only will his hand and mind be trained thereby, but his heart will
+be filled with the joy that always comes through achievement.
+
+[Sidenote: _Value of hand training_]
+
+[Sidenote: _If you would develop morality in a child, train him to
+work_]
+
+[Sidenote: _Making citizens_]
+
+Hand training has been found to be of great value in all other work. The
+children are brighter, and seem better able to grasp an idea. The slow
+children are also stimulated, and in doing the simple work well are
+preparing for that which is more difficult. Impression and expression
+should go hand in hand. We know nothing of "the bad boy," now that we
+have found something for his restless fingers to do. "The habit of
+methodical work is the basis of all ethics." In teaching children to do
+their best, we are training citizens. Some one has facetiously remarked
+that, "In the making of a good citizen it is necessary to catch your
+citizen early." We cannot get hold of the anarchists, but we can get
+hold of their children, and in the training of them to work lies their
+salvation. Formation is better than reformation.
+
+[Sidenote: _Formation, not reformation_]
+
+[Sidenote: _New applications for old teachings_]
+
+Verily, there is nothing new under the sun. We hie ourselves to the
+summer schools, and return laden with new ideas--when lo! it dawns upon
+us that all we have done during the hot days has been to make a new
+application of what Froebel taught the world before we were born. So in
+this introduction, an old story has been retold, but I hope that it will
+come with a new meaning to my fellow teachers.
+
+
+
+
+Chapter Three
+
+FIRST STEPS IN WEAVING
+
+
+[Sidenote: _Felt mats and slats_]
+
+[Sidenote: _Demonstration cards and diagrams_]
+
+The principles of weaving are very easily learned with felt mats and
+slats. One-half a yard of felt two yards wide will make thirty-six mats
+six inches square. These are very durable, and can be used year after
+year, if protected from moth during the summer. Some prefer leather or
+oil-cloth mats, backed with heavy unbleached muslin, but they are more
+expensive, and not so pleasant to work with as the soft wool. The slats,
+which should be at least one-half an inch wide, can be obtained at any
+kindergarten supply store. Buy the uncolored slats and dye them
+yourself. Dark green mats, woven with deep red slats, are pretty. The
+slats are easier to handle if they are soaked and cut the required
+length before dyeing. When the six-inch mats are cut, allow a
+three-quarter-inch margin on all sides. Measure the mat for
+one-half-inch strips, of which there will be nine, and mark by snapping
+a chalked string upon the mat. Double it with chalked lines outside and
+commence to cut from the center; then open and finish cutting to the
+margin. It would be better for very little children if the strips and
+slats could be one inch wide. In this case the mats would, of course, be
+larger, and it might be necessary to have the slats made to order. The
+slats should be kept in little bundles containing the required number,
+and secured by rubber bands. If one could have plenty of time and
+material it would be a good plan to have several sets of mats of
+different sizes, so that the children would not always be confined to
+one number and its combinations in a certain set of patterns--in this
+case, nine--but have the pleasure which comes from variety.
+Demonstration cards and diagrams for weaving can be obtained at the
+kindergarten and school-supply stores. An illustration of an excellent
+demonstration frame can be seen in the "Kindergarten Guide," by Lois
+Bates. Sample mats can be woven by the older children from the designs
+in any of the "Guides," and given to the smaller children to copy.
+
+[Sidenote: _Purpose of practice mats_]
+
+[Sidenote: _Do not deceive the child_]
+
+When the purpose of these practice mats is understood there can be no
+objection to them on the ground that the work is destroyed by pulling
+out the slats each time. It is not an unusual thing to see in schools,
+and even in kindergartens, faithful and conscientious teachers remaining
+after hours to pull out the slats, on the principle, perhaps, that what
+the children do not see will not affect their development, and the
+innocent little bundles are given out again on the morrow, only to
+undergo the same experience at night. One wonders sometimes if this is
+possibly within the definition of deception. "We mount to the summit,
+round by round," and when the children understand that in doing the work
+with the slats well, they are only learning _how_, and that each
+successful attempt brings the delightful day nearer when they may have a
+loom to work upon, they are perfectly satisfied.
+
+[Sidenote: _Long slat weaving_]
+
+When the children have learned to weave the small mats, further practice
+can be had by weaving long slats into a warp of cord on the loom. It is
+better to conquer the mystery of "over and under" in this way than to
+undo the work and wear out the material after making a mistake.
+
+[Sidenote: _Paper mats_]
+
+Many teachers prefer to make the practice mats of paper because they are
+cheaper. Heavy paper, in desirable colors, can be obtained at the
+wholesale paper houses, and for a small sum can be cut in squares of any
+required size. Mats can be made more durable by pasting them on heavy
+muslin before cutting. In many schools children in grades above the
+entering room prepare their own mats by measuring with tablets or rulers
+and then drawing and cutting on the lines. When they have learned to do
+them well, let each child make one for the entering room. Nothing
+strengthens the community feeling so much in a school as to encourage
+the older pupils to help the younger.
+
+[Sidenote: _Mat weaving in the kindergarten_]
+
+The mat-weaving, as it is done in the kindergarten, is very beautiful
+and fascinating work. The mats can be obtained in any size and any width
+of strips at the supply stores. The weaving is done with a long steel
+needle which has a spring at one end to hold the strip. After
+preliminary work with the felt mats and slats the children find
+themselves able to weave quite independently, particularly if
+demonstration cards or sample mats are placed before the class. An
+infinite variety of patterns, which later will be useful in
+wool-weaving, can be found in the "Kindergarten Guides." In weaving
+patterns having a center, it is better to weave two strips at once,
+pushing one to the top and one to the bottom of the mat. The old numbers
+of the Godey and Peterson magazines have patterns for Berlin wool and
+bead work which can be used for the paper mats with good effect. Mrs.
+Kate Douglas Wiggin (Mrs. Riggs) has some good suggestions for invention
+in weaving, in her "Republic of Childhood" (Occupations). The value of
+weaving in number work is also admirably set forth in this book.
+
+[Sidenote: _Gifts_]
+
+At Christmas time many charming little gifts can be made of these mats.
+Sachet cases made of a six or eight inch square, with four corners
+folded to the center, are attractive. Inclose a square of wadding, in
+which a pinch of heliotrope or white rose perfume powder has been
+hidden, and fasten the corners together with a scrap picture of old
+Santa Claus.
+
+Slat work is useful in learning the fundamental principles of weaving,
+although this work is more closely related to basket than to rug
+weaving. It is an excellent preparation for the free-paper weaving, and
+is also a step toward basket work.
+
+[Sidenote: _Interlacing slats_]
+
+In interlacing slats the mystery of "over and under" is solved and the
+dependence of one slat upon another in making a perfect whole is shown
+in a forcible way, particularly when the form falls to pieces in the
+attempt to lift it from the table. Edward Wiebe says in his "Paradise
+of Childhood": "It was the _one_ slat which, owing to its dereliction in
+performing its duty, destroyed the figure and prevented all the other
+slats from performing theirs." One experience of this kind will teach
+more than a thousand precepts. The geometrical forms learned in the
+sense-training lessons can be reproduced with the slats and will thus be
+impressed upon the mind during the period of busy work at the desk. A
+series of beautiful designs is published by E. Steiger, New York. Many
+designs may be grouped for decoration, and single symmetrical figures
+can be mounted upon heavy paper.
+
+[Sidenote: _Free-paper weaving_]
+
+[Sidenote: _Sequence_]
+
+Free-paper weaving requires quite a little skill of hand and a great
+deal of patience before the child can achieve a successful result.
+Perhaps a few words regarding it, and information about a simple
+sequence of paper patterns, will not be out of place, since so many are
+to-day taking it up. Strips of manilla paper forty inches long and one
+inch wide are used. These are cut into strips eight inches, sixteen
+inches, twenty inches, and twenty-four inches in length. For the first
+pattern of the sequence take four strips eight inches long and double
+each one. Hold two of them side by side in the left hand, so that the
+open ends of the outer strip are at the top while those of the other are
+at the bottom. With the right hand inclose the first strip in the left
+hand with one of the remaining double strips and pass the ends of the
+latter between the two ends of the second strip. Then hold the work in
+the right hand and proceed in the same way with the left hand. When both
+strips are in, draw them tight and they will be firmly woven. The ends
+can be cut in any way desired. These little forms can be used for
+bookmarks. They are very attractive when made in two tones of one color.
+
+[Illustration: _Sequence in paper weaving_]
+
+[Sidenote: _Sequence weaving_]
+
+The second pattern of the sequence is made with sixteen-inch strips.
+The first part is woven like the bookmark. Four double strips now
+project from the square. Begin at the bottom and fold back the _upper_
+one of each of these double strips. As you do this you will find that
+you are weaving another square on top of the first one. To secure the
+last strip pass it under the square next to it and pull it through. You
+will now have eight single strips, two on each side. To form these into
+points for a star proceed as follows: Begin with the right-hand strip at
+the top and number all the strips from one to eight. Fold number one
+back toward the right, making at the fold a right-angled triangle. Fold
+the strip down again towards you, making another triangle which is
+folded back to the left on the first one. Slip the end of the strip
+under the square next to it and cut it off. Proceed in the same way with
+three, five, and seven. Then turn the form over and fold the strips two,
+four, six, and eight in the same way, cutting off the strips when
+finished. Many of these stars can be joined to make mats, baskets,
+picture frames, etc. They are pretty when made of gilt or colored paper
+for Christmas decorations.
+
+[Sidenote: _Sequence weaving_]
+
+Pattern number three, a bookmark, is made like the first, except that
+eight strips of sixteen-inch length are used and the strips woven at
+right and left are finished as directed for the mat. Number four is
+another form like this, with the long ends back and front slipped
+through squares to form a napkin ring. Number five is a six-inch mat
+made of twelve twenty-inch strips. Weave six double strips left and
+right into two strips and then add four to make the square. To finish
+the edge cut off the _under_ one of each double strip, fold the upper
+one over it and then slip it under the square which comes next, cutting
+it off even. Strips of felt can be woven in this way for table mats or
+holders.
+
+The sixth pattern is a pencil holder or a basket, as you may wish. It
+may be round or square on the bottom--in the latter case the sides are
+creased to form a square prism. Double twelve twenty-four-inch strips,
+weave eight right and left into four; finish one long edge for the top
+of the basket as you did the edge for the mat. Bend in the form of a
+ring and slip the ends as you did for the napkin ring, cutting them off.
+To make the bottom, crease all the projecting ends in and weave together
+as you did the second part of number two only double, and fasten the
+strips on the _outside_ of the basket. This makes a good waste basket
+for the doll house. With a cover it would make a fine hamper for Miss
+Dolly's clothes.
+
+[Illustration: _Examples of splint work_]
+
+[Sidenote: _Weaving with splints_]
+
+This free weaving leads directly to weaving with splints. These are much
+thinner than slats and can be obtained at the kindergarten supply
+stores. Many beautiful things can be made with splints. They are easily
+dyed at home and many pleasing combinations of color can be obtained in
+this way. Celluloid strips make beautiful boxes and baskets.
+
+[Sidenote: "_Jacob's ladder_"]
+
+A delightful exercise with the small children is the making of a
+"Jacob's ladder," or "Pussy-cat stairs," as they are often called. Fold
+a forty-inch strip of paper, one inch wide, so as to form a right-angle
+in the middle. Or, if a longer ladder be desired, place one end of a
+forty-inch strip over the end of another one, at right angles, and
+fasten with a drop of paste. Fold from left to right, one strip upon the
+other, until you come to the end; then pull out, and behold the stairs!
+The fat and clumsy little fingers will work patiently a long time to
+achieve this charming result, and much skill of hand will be gained in
+the doing. Use colored paper for this whenever possible.
+
+[Illustration: _A skirt for winter_]
+
+[Illustration: _A mitten and a cap_]
+
+The illustrations on this and on the following page show some
+fascinating work for little hands. The looms are made of heavy
+pasteboard cut in notches, in which the warp of the same material as
+the woof is strung. Care should be taken to keep the warp straight, and
+to finish all the edges well. The articles in the illustrations were
+made by first-grade children in the Ericcson School, St. Paul, Minn.
+
+[Illustration: _A sweater for the doll_]
+
+
+
+
+Chapter Four
+
+METHODS OF STRINGING WARP
+
+
+[Sidenote: _Warp of three widths_]
+
+The adjustable loom can be strung with warp of three widths, one-half
+inch, three-eighths inch, and three-sixteenths inch, thus giving
+opportunity for a variety of materials.
+
+For heavy rags, candle wicking, etc., wind the warp strings around three
+teeth in the head and foot pieces. This will give a warp of one-half
+inch--that is, one-half inch from one string to the other.
+
+For silk, silkoline, finer rags, carpet ravelings, double wool, etc.,
+wind the warp strings around two teeth, thus making a warp of
+three-eighths inches.
+
+[Sidenote: _Kindergarten patterns_]
+
+For double wool, worsted, rope silk, chenille, or raffia, where one
+wishes to reproduce kindergarten designs, as in paper-weaving, place the
+warp strings around one tooth only. This makes a close warp of
+three-sixteenths inch, which helps to form the design with the woof
+threads. In this case the warp should be of the same material as the
+woof. In kindergarten patterns the woof threads determine the color
+effect. It is better to have the children weave the pattern first with
+practice mats and slats, particularly if they have never had experience
+in the kindergarten. Suggestions for weaving kindergarten designs are
+given under the head of _Raffia_.
+
+[Sidenote: _Plaids_]
+
+For a plaid effect, string the warp at regular intervals, with different
+colors. Then weave the same colors at equal intervals to form the plaid.
+(See illustrations, pages 92, 98, and 101.) Shawls, carriage blankets,
+etc., woven in this way are very attractive.
+
+[Sidenote: _Stripes_]
+
+A striped warp is strung in the same way. (See illustrations, pages 101
+and 117.) The stripes could be continued through the mat, if desired, by
+weaving only _one_ color in the woof. By weaving _two_ colors squares
+are obtained such as those seen in the corners.
+
+[Sidenote: _Materials for warp_]
+
+For weaving with carpet ravelings or rags, and sometimes double wool,
+where a plain effect is desired, the warp should be of common twine, as
+near the color of the work as possible. Carpet thread is good,
+especially for the double warp in Turkish rugs. Balls of warp string can
+be obtained at department stores. Oriental cord comes in several colors,
+and can be had at a few cents a ball at the notion and stationery
+counters in department stores.
+
+[Sidenote: _How to string a warp_]
+
+The warp should always be one continuous string, and several inches
+should be left at each end in order to fasten securely when the work is
+finished. If preferred, the warp ends can be fastened before the weaving
+is commenced. Care should be taken to place the first and last strings
+of the warp directly _over_ the rods, and, in weaving, to pass the woof
+threads entirely around the _rods and strings_ to insure straight edges.
+The ends of wool warp threads should be wound in and out of the notches
+to the right and left of rods, to fasten them until the weaving is
+finished. It sometimes happens that little children, and more especially
+those who are blind, pull up the warp strings when near the end of the
+work. In such cases it is a good plan to pass a rubber band _over_ the
+warp strings at the top of the loom and _behind_ the bars, back of the
+head piece, making it set up close by putting it around one tooth at
+each end. In this way the warp strings cannot possibly slip out of the
+notches.
+
+[Sidenote: _Splicing with a weaver's knot_]
+
+[Sidenote: _A raffia warp_]
+
+Some teachers splice the warp with a weaver's knot, an illustration of
+which can be seen in any large dictionary. The continuous string is to
+be preferred, however, as experience has proved that even a weaver's
+knot will sometimes fail to stand the stress of weaving. It is very
+difficult to splice a warp of raffia. It is better to knot the warp
+threads in pairs (see directions, page 46), leaving two or three inches
+beyond the head and foot. These ends may be used for a fringe by tearing
+very fine, or they may be run down in the woven part with a darning
+needle, as rattan is run down in basket work.
+
+[Sidenote: _To fasten wool or silk warp strings_]
+
+[Sidenote: _When the warp is correct_]
+
+When the weaving is done and the mat lifted from the loom, the ends of
+the wool warp strings can be run in along the sides with a tape needle.
+If the warp be of twine, it is better to tie the end to the next warp
+string and allow the fringe to cover the knot; or, as in the case of
+silkoline, the woof strips can be caught over the warp strings with silk
+of the same color in order to hide them. Only experience can teach the
+tightness with which a warp should be strung. Worsted, carpet thread and
+twine will stretch as the work progresses, and raffia will not. If the
+warp be too loose the work will be uneven and the strings will slip out
+of the notches. If it be too tight it will be difficult to finish the
+last two or three inches and the woof threads will look crowded. The
+best test is to place the hand upon the warp before commencing to weave.
+If it feels firm and does not push down too easily, but springs
+slightly beneath the hand, it is probably correct.
+
+[Sidenote: _To string a warp for fringe_]
+
+[Sidenote: _To string the warp threads in pairs_]
+
+Where the warp is of the same material as the woof and it is desired to
+extend it to form a fringe, it can be done in the following manner:
+After the loom is adjusted for the size required, cut the warp strings
+so as to allow two or three inches beyond the head and foot pieces. If
+you intend to knot the fringe in some fanciful way after the weaving is
+finished, allow four or five inches. Take two threads, knot so as to
+leave the required length for fringe below the foot piece, then pass
+around one or two teeth, as the case may be, draw tightly to the head
+piece and knot firmly on the upper side, leaving a fringe of the same
+length there. Knot the strings in pairs in this way until the whole warp
+is strung. It will be noticed that the rods are placed beneath the
+notches of odd numbers. In knotting warp strings in pairs it will be
+found necessary, when the last tooth is reached, to do one of two
+things--either allow one string to lie beyond the rod, or, having strung
+the warp within one tooth of the rod, to start the next string in the
+_same_ notch, bringing the two strings together. This will bring one
+string on top of the rod and none beyond. In the first case, the string
+beyond the rod must be taken up in weaving with the one on top of the
+rod. Experience has proved the second method to be the better one.
+
+[Sidenote: _Double warp for Turkish rugs, etc., with fringe_]
+
+Kiz-Kilim rugs have perforated or open-work patterns. To produce this
+effect string a _double_ warp through every notch in the foot and head
+pieces; that is, use two strings in each notch, tying in pairs for
+fringe as before. Use a brownish white carpet thread. With strong black
+thread string through every other notch to outline perpendicular sides
+of squares in the pattern. Your warp will be strung three-sixteenths
+inch, but the black threads will be three-eighths inch. This will enable
+you to keep the patterns straight as the work progresses.
+
+[Illustration: _A Kiz-Kilim rug pattern_]
+
+[Sidenote: _Patterns for Turkish rugs_]
+
+In drawing designs for Turkish rugs, where the pattern is to be placed
+under the warp, it is better to make a squared paper first. Lay the head
+piece of the loom upon unlined paper. Place a dot at every other notch.
+Draw perpendicular lines first, then dot for horizontal lines. The
+result will be a foundation to fit your loom. If the squared paper of
+the kindergarten be used the squares will be either too large or too
+small to correspond with the notches in the loom. It will be found very
+easy to transfer a pattern from a rug to the paper. Fasten the pattern
+under the warp by overhanding to the rods, taking care to have the black
+strings directly over the perpendicular lines in the pattern.
+
+[Sidenote: _Patterns for Navajo blankets_]
+
+Patterns for Navajo blankets are usually triangular. Draw on unlined
+paper and fasten under the warp as before.
+
+[Sidenote: _To string a continuous warp for long strips_]
+
+Rugs and similar articles may be made of any length by stringing a
+continuous warp. After the length has been decided upon, cut the warp
+strings _twice_ as long. Place the middle of one string around the first
+tooth of the foot piece (or two or three, according to the width of warp
+desired) and bring up the two ends firmly to the first tooth in the head
+piece. Knot securely and let the long ends extend beyond the head piece.
+If desired they can be wound on spools, or around the tops of the rods,
+to prevent tangling. Continue until all the warp is strung. Observe the
+instructions given before for stringing warp strings in pairs. It is not
+necessary to weave the loom full each time, as the last inch is very
+slow work, but when the weaving is near the head piece draw out the
+rods, lift it from the notches, pass it down to the foot piece so that
+the part which was at the head is now at the foot, untie the knots so
+that the work will lie close to the foot piece and knot the warp strings
+as before at the head piece. This can be done as many times as desired.
+
+[Sidenote: _Methods of fastening long strips together_]
+
+For afghans, slumber robes, couch covers, etc., crochet with plain
+stitch or baste on oil-cloth and weave together with tape needle, making
+it as nearly like the original weaving as possible. By studying Turkish
+rugs and curtains one can learn how to put strips together with a fancy
+stitch somewhat like our feather stitch.
+
+Strips for floor rugs should be basted on oil-cloth and the warp strings
+in the two edges caught together at intervals, running the connecting
+thread _through_ the loops so as to be invisible. Finish the outside
+edges by stitching on a tape of the same color, by machine.
+
+[Sidenote: _Table covers, afghans, slumber robes, or large rugs_]
+
+By making several of these long strips and fastening them together one
+can have a table cover, afghan, slumber robe, or a large rug.
+
+[Sidenote: _Floor rugs_]
+
+The floor rug shown in the illustration on page 100 (1-1/4 yards by 3/4
+yard) is woven in strips with a continuous warp. The center strip is
+one yard long and nine inches wide. It is made of deep cardinal carpet
+wool. The strips of black, nine inches wide at the sides and ends,
+terminate diagonally, as seen in the illustration. The black diagonal
+lines show where the weaving ends. The warp is then tied and cut close
+to the weaving. The strips are to be sewn or crocheted together.
+
+[Sidenote: _Fine weaving_]
+
+[Sidenote: _To produce a design with the woof_]
+
+For very fine weaving, where it is necessary for the warp threads to
+_touch_ each other in order to produce a design with the woof, string a
+_double_ warp in every notch with the same material. Then, with a tape
+needle, separate the warp threads, twist one over the other so that all
+will lie side by side, and secure them by weaving a few times across the
+loom. By using this method, one can have a close warp on the wooden
+looms.
+
+[Sidenote: _Warp for doll towels_]
+
+In stringing warp in pairs for doll towels, have two strings on each bar
+and one extending one notch beyond at each side. This makes a good
+fringe for the edges of the towel.
+
+
+
+
+Chapter Five
+
+MATERIALS
+
+
+[Sidenote: _Silkoline_]
+
+Plain and figured silkoline should be cut in bias strips one-half inch
+wide. Stretch and pull through the hands until both edges are raveled.
+When these strips are woven, the rug or mat will be reversible. Figured
+silkolines give a pretty mottled effect, especially those in which
+Turkish colors predominate. Rugs having plain centers and mottled
+borders are beautiful. A full-sized rug requires nearly two yards of
+material.
+
+[Sidenote: _Cheese cloth_]
+
+Strips of cheese cloth can be prepared in the same way. Cut them
+three-fourths inch wide on account of the tendency to ravel. Serviceable
+face and dish cloths can be made of white cheese cloth. Some of the
+colored cheese cloths make pretty rugs. When a desirable color cannot be
+found, the white cloth can be dyed at home.
+
+[Sidenote: _Dress linings_]
+
+Soft dress linings come in many beautiful colors. Old pieces may be
+utilized by cleaning and dyeing. The pieces are cut in bias strips,
+one-half inch in width.
+
+[Sidenote: _Silk_]
+
+Pieces of old silk can also be prepared in this way. One can often
+obtain new pieces at dressmaking establishments.
+
+[Sidenote: _Candle-wicking_]
+
+Table mats, wash cloths, and similar articles can be made from
+candle-wicking. For lamp mats, cushion covers, and other articles the
+material may be dyed and woven in two colors, or in two tones of one
+color. A number of squares can be joined to make a hammock pillow. By
+stringing a close warp with white or colored wicking and weaving over
+and under one string with the same material, a coarse canvas can be
+made, upon which the children can cross-stitch a pretty border and
+center piece, or an all-over pattern by copying the kindergarten
+designs, or even initials and monograms. Most of the canvas sold at the
+stores, even the old Java canvas of our childhood days, is too fine for
+little children to work upon. In canvas made of candle-wicking by the
+child himself, the squares are large, and to this there is the added
+pleasure of the child being able to say when the work is finished, "I
+did it all myself."
+
+[Sidenote: _Rope silk, or ropetine_]
+
+Beautiful silk canvas can be made of rope silk and cross-stitched with
+another color or tone, or with chenille, making a velvet figure. This
+material is, of course, more expensive. Two colors or two tones may be
+woven with chenille and silk in a kindergarten design. Beautiful holiday
+and birthday gifts can be made from these materials, such as mats,
+cushion covers, and sachet cases. Glove, mouchoir, necktie, fan, and
+trinket boxes can be made by weaving the top, bottom, and sides in
+panels. Foundation boxes, which may be purchased for a few cents, are
+excellent for this purpose, or they can be made very well at home from
+three-ply cardboard. Make the hinges of ribbon and line the boxes with
+silk of a corresponding or contrasting color.
+
+[Sidenote: _Carpet ravelings_]
+
+Carpet ravelings may be obtained from the carpet stores, or pieces of
+carpet can be raveled by the children. Let them have the pleasure and
+benefit which come from sorting the ravelings. It is an excellent lesson
+in color, besides developing the patience, concentration,
+discrimination, and judgment so much to be desired in other work. After
+the wool is sorted--not before, because it is not all fast color--dip in
+water, wring, and let the children straighten it gently, one piece at a
+time. This will make it as smooth and soft as new wool. Procure some
+small boxes--shoe boxes are a good size--place one color in a box with a
+sample fastened outside at one end, and pile them upon a low shelf or
+window sill. Train the children to go to the "play store" to match their
+own wool. If they go quietly, one at a time, no one is disturbed and
+each child gains in knowledge of color as well as in independence. A
+little management of this kind helps the teacher as well as the child.
+
+[Sidenote: _Carpet wools_]
+
+New wools of various kinds and beautiful colors can be bought in large
+quantities from dealers in materials for industrial work. In some carpet
+departments you will find oriental wools which are used to mend rugs,
+and a small quantity can be bought. Some of the kindergarten supply
+stores and decoration companies have already advertised a stock of these
+materials.
+
+[Sidenote: _Double Germantown wool_]
+
+[Sidenote: _Germantown knitting yarn_]
+
+An ideal material for little folks is double Germantown wool. The soft
+wool, used for both warp and woof, is excellent for weaving kindergarten
+designs. This should be done with a close warp, which may be extended
+each side of the head and foot piece as a fringe. By extending the warp
+any length desired beyond the head piece, long strips for slumber robes,
+afghans, and such articles can be woven. The warp may be strung with
+twine as near the color of the wool as possible, and a plain rug be
+made, with colored stripes at each end. A very pretty and easy gift for
+a little child to make is a holder for the teapot, as described on page
+92. The Germantown knitting yarn, which is more tightly twisted, makes
+very pretty rugs and mats. It is sometimes used for Navajo blankets.
+
+[Sidenote: _Darning cotton_]
+
+White dolls'-towels, with red or blue stripes, are made of darning
+cotton. Baste a small piece of canvas at one end and cross-stitch Miss
+Dolly's initial.
+
+[Sidenote: _Knitting cotton_]
+
+Plain white bedspreads, or white combined with a color in a kindergarten
+design, can be made of knitting cotton which is a little coarser than
+darning cotton. Knot a fringe on all sides. Lunch cloths and table
+covers for Miss Dolly can be made in the same way.
+
+[Sidenote: _Macremé cord_]
+
+Macremé cord is the best material for hammocks. It comes in many
+beautiful colors, at a few cents a ball.
+
+[Sidenote: _Leather strips_]
+
+To weave a kindergarten design in two colors of leather strips, have the
+leather cut the desired width, and fasten them to a piece of strong
+muslin at the top and bottom of the mat or panel. Fit the muslin over
+the teeth in head and foot pieces by cutting a small opening.
+
+[Sidenote: _Celluloid strips_]
+
+[Sidenote: _Leather strips_]
+
+Celluloid strips may be treated in the same way. Leather and celluloid
+strips can be woven free-hand like the paper strips.
+
+[Sidenote: _Raffia_]
+
+Many beautiful articles can be made of raffia, which is a palm fibre
+brought from the island of Madagascar. It can be obtained in the natural
+color at most of the department stores, the kindergarten supply houses,
+and the florists. The cost is usually 20 cents or 25 cents per pound,
+although the florists will sell a few cents' worth. It can be dyed
+easily, and with little expense, with Diamond or aniline dyes. It should
+first be washed. Care should be taken, in the selection, to obtain long,
+smooth pieces which will be at least one-half inch wide when wet, and of
+an even color. Some of the raffia is musty and badly spotted. It is well
+to wet all of it first, then straighten and allow it to dry. While
+weaving, keep the raffia moist by dipping the fingers now and then in a
+cup of water. Experience has proved this method to be more satisfactory
+than to allow the raffia to remain in water and become thoroughly
+soaked, particularly the colored raffia. If one cares to expend money
+instead of time and trouble, the raffia can be dyed in very beautiful
+colors at the dye houses.
+
+[Sidenote: _Shetland wool_]
+
+Blankets for Miss Dolly can be made of the soft Shetland wool and
+Germantown zephyr. For bed blankets, cream color, with stripes of two
+or more colors, are very attractive. Carriage blankets made with white
+centers and colored borders, or with a tone for the center and a shade
+for the border, are a great addition to the carriage, as well as a
+source of comfort to the little occupant. Bind the edges with ribbon and
+run a narrow one through the beading formed by taking out the extra
+rods. This ribbon can be run all around the center part by leaving out a
+few woof threads at the top and bottom.
+
+[Sidenote: _Knitting silk_]
+
+By stringing a close warp of knitting silk and extending it the required
+length, shawl-straps, suspenders, belts, and garters can be woven. The
+rods should be adjusted for the desired width. Finish at each end with
+pieces of silk elastic of the same color, and with buckles.
+
+[Sidenote: _Angora wool_]
+
+Angora wool makes pretty Tam O'Shanters. Initials can be woven in any
+article.
+
+[Sidenote: _Books of patterns_]
+
+Small books containing cross-stitch designs can be found at the German
+and French embroidery stores in large cities--sometimes, but rarely, at
+the art counter in department stores. The "Kindergarten Guides" can be
+obtained at most public libraries, or a kindergartner friend will be
+glad to loan one.
+
+
+
+
+Chapter Six
+
+DIRECTIONS FOR DYEING
+
+
+[Sidenote: _Diamond dyes_]
+
+A few hints with regard to dyeing raffia, cheese cloth, white cord for
+hammocks, and other materials, may be found useful. For raffia use the
+Diamond dyes which are intended for wool or silk. Wash the raffia first.
+The color will be improved by soaking the raffia a day in alum water,
+one-half pound to the gallon. Dye once used can be kept in an air-tight
+dish and reheated whenever needed.
+
+[Sidenote: _Vegetable dyes_]
+
+Should one be interested in vegetable dyes much information can be
+obtained at the public libraries. Dr. Washington Matthews speaks of
+Indian dyes in his article on the Navajo weavers mentioned in this book.
+"How to Make and How to Mend" also contains some good suggestions about
+dyes.
+
+[Sidenote: _Mrs. Candace Wheeler's pamphlet_]
+
+In her little pamphlet, _Home Industries and Domestic Weavings_,
+published by the Associated Artists, 115 East 23d Street, New York City,
+Mrs. Candace Wheeler has an interesting chapter on "Rag-Carpet Weaving."
+Her suggestions for dyeing rags apply equally to yarns and to other
+materials which may be used on hand looms for children. Through her kind
+permission I am allowed to quote the following suggestions:
+
+[Sidenote: _Uses of the indigo tub_]
+
+"In the early days of this present century a dye tub was as much a
+necessity in every house as a spinning-wheel, and the reëstablishment of
+it in houses where weaving is practiced is almost a necessity; in fact,
+it would be of far greater use at present than in the days when it was
+only used to dye the wool needed for family knitting and weaving. All
+shades of blue, from sky-blue to blue-black, can be dyed in the indigo
+tub; and it has the merit of being a cheap as well as an almost
+perfectly fast dye. It could be used for dyeing warps as well as
+fillings, and I have before spoken of the difficulty, indeed almost
+impossibility, of procuring indigo-dyed carpet yarn.
+
+[Sidenote: _Blue universally used_]
+
+[Sidenote: _Green_]
+
+"Blue is, perhaps, more universally useful than any other color in
+rag-rug making, since it is safe for both cotton and wool, and covers a
+range from the white rug with blue warp, the blue rug with white warp,
+through all varieties of shade to the dark blue, or clouded blue and
+green rug, also, upon white warp. It can also be used in connection with
+yellow or orange, or with copperas or walnut dye, in different shades
+of green; and, in short, unless one has exceptional advantages in buying
+rags from woolen mills, I can hardly imagine a profitable industry of
+rag-weaving established in any farmhouse without the existence of an
+indigo dyeing tub.
+
+[Sidenote: _Red_]
+
+[Sidenote: _Copperas_]
+
+[Sidenote: _Dull green_]
+
+"The next important color is red. Fortunately, red warps can be bought
+which are reasonably fast, but the only way to procure red rags in
+quantity is to dye them, and, although the dye is somewhat expensive,
+there are two colors, turkey red and cardinal red, which are extremely
+good for the purpose. Probably these could be bought at wholesale from
+dealers in chemicals and dyestuffs at much cheaper rates than by the
+small paper from the druggist or the country store. Copperas gives a
+fast nankeen-colored dye, and this is very useful in making a dull green
+by an after dip in the indigo tub.
+
+[Sidenote: _Domestic dyes_]
+
+[Sidenote: _Nut stains_]
+
+[Sidenote: _Leaf stains_]
+
+[Sidenote: _Iron rust_]
+
+[Sidenote: _Ink stains_]
+
+"There are some valuable domestic dyes which are within the reach of
+every country dweller, the cheapest and best of which is walnut or
+butternut stain. This is made by steeping the bark of the tree or the
+shell of the nut until the water is dark with color, and setting it with
+alum. It will give various shades of yellow, brown, dark brown, and
+green brown, according to the strength of the decoction or the state of
+the bark or nut when used. If the bark of the nut is used when green,
+the result will be a yellow brown; and this stain is also valuable in
+making a green tint when an after dip of blue is added. Leaves and
+tree-bark will give a brown with a very green tint, and these different
+shades used in different rags woven together give a very agreeably
+clouded effect. Walnut stain will itself set or fasten some others; for
+instance, pokeberry stain, which is a lovely crimson, can be made
+reasonably fast by setting it with walnut juice. Iron rust is the most
+indelible of all stains, besides being a most agreeable yellow, and it
+is not hard to obtain, as bits of old iron left standing in water will
+soon manufacture it. It would be a good use for old tin saucepans, and
+various other house utensils which have come to a state of
+mischievousness instead of usefulness. Ink gives various shades of gray
+according to its strength, but it would be cheaper to purchase it in the
+form of logwood than as ink.
+
+[Sidenote: _Vegetable dyes_]
+
+"There is a strong and well-founded preference among art producers in
+favor of vegetable dyes, and yet it is possible to use certain of the
+aniline colors, especially in combination, in safe and satisfactory
+ways.
+
+[Sidenote: _The variety of shades_]
+
+"Everyone who undertakes domestic weaving must know how to dye one or
+two good colors. Black, of course, and the half-black, or gray, which a
+good colorist of my acquaintance calls _a light black_. Indigo blue
+equally, of course, in three shades of very dark and light. Here are
+seven shades from the three dyes, and when we add white we see that the
+weaver is already very well equipped with a variety of color. The eight
+shades can be still further enlarged by clouding and mixing. The mixing
+can be done in two ways, either by carding two tints together before
+spinning, or by twisting them together when spun.
+
+[Sidenote: _Carding and twisting_]
+
+"Carding together gives a very much better effect in wool, while
+twisting together is preferable in cotton.
+
+[Sidenote: _Blue_]
+
+[Sidenote: _Pink_]
+
+[Sidenote: _Gray_]
+
+[Sidenote: _Clouding_]
+
+"Dark blue and white and medium blue and white wool carded together will
+give two blue grays which cannot be obtained by dyeing, and are most
+valuable. White and red carded together give a lovely pink, and any
+shade of gray can be made by carding different proportions of black and
+white or half-black and white. A valuable gray is made by carding black
+and white wool together, and by black wool I mean the natural black or
+brownish wool of black sheep. Mixing of deeply dyed and white wool
+together in carding is, artistically considered, a very valuable
+process, as it gives a softness of color which it is impossible to get
+in any other way. Clouding, which is almost an indispensable process for
+rug centers, can be done by winding certain portions of the skeins or
+hanks of yarn very tightly and closely with twine before they are thrown
+into the dye pot. The winding must be close enough to prevent the dye
+penetrating to the yarn. This means, of course, when the clouding is to
+be of white and another color. If it is to be two shades of one color,
+as a light and medium blue, the skein is first dyed a light blue, and
+after drying, is wound as I have described, and thrown again into the
+dye pot, until the unwound portions become the darker blue which we call
+medium."
+
+[Sidenote: _Mrs. Albee's manual_]
+
+Through the courtesy of Mrs. Helen R. Albee, who has done much to revive
+an interest in rug-weaving, I am allowed to quote the following detailed
+suggestions on the subject of dyeing from her helpful manual, _Abnákee
+Rugs_. This little manual treats fully of the "Abnákee Rug Industry,"
+the "Materials," "Methods of Work," and "Dye Formulas." It was issued
+through the Riverside Press in 1901.
+
+Speaking of combinations of color, Mrs. Albee says:
+
+[Sidenote: _Combinations of color_]
+
+[Sidenote: _Safe tones_]
+
+[Sidenote: _Colors in rugs_]
+
+[Sidenote: _Use of white_]
+
+"A careful study of the effects of colors upon each other will show that
+colors which are in themselves beautiful are often inharmonious when
+combined. Also, a little of a color may be good, when a larger
+proportion seems to destroy the balance or harmony. Success in this
+matter is largely a matter of close observation and experience, although
+some persons have a natural feeling or instinct regarding color which is
+seldom in error. Strong colors should never be used, especially greens.
+Though they may be modest in the piece, when worked in with other
+colors, they have an unfortunate way of becoming intensified tenfold.
+The safest tones for an amateur to deal with are dull gray green, yellow
+green, and a soft, full, but dark olive. In striking a certain key in
+color it should be maintained throughout. Thus, if a full rich color
+predominates, rich dark colors should be used through the whole scheme.
+If a light tone is the body color, soft light tones of other colors will
+be found most harmonious. Thus, for example, a rug for a library, or a
+hall, in which a good deal of rich terra cotta appears, should have a
+border or design worked in dark blues, full shades of olive green, and
+dull yellow. There is an apparent exception to this in the use of dull
+reds, old ivory, and black as seen in Bokhara rugs. But if studied, the
+cream color is very dull, and is used in such small quantities as to be
+quite subdued by the black that is used freely in the pattern. Old rose,
+warm golden browns, and olive may be used effectively. A light Gobelin
+blue may be worked with ivory, old pink, light dull olive, and the
+outlines can be either a dark yellow brown or very dark bronze green. An
+ivory center is lovely with an old pink border worked in green. A tan
+center may be combined with old rose, sage green, bronze green, light
+yellow, cream color, and dark brown outlines. Indigo blue, forest green,
+and dull yellow are excellent colors when combined. A great variety of
+beautiful rugs may be made by using only blue and white, and unless one
+wishes to go extensively into dyeing, it might be well to choose a
+certain simple color scheme such as blue and white, red, black, and
+ivory, and abide by it. Let it be remembered that white in rugs is not
+white, neither is it a delicate cream. Unless it is decidedly yellowish
+or even grayish in tone, when in combination with other colors, it
+becomes a staring white that is anything but artistic. I dye my cream
+colors, just as much as I do dark reds or greens.
+
+[Sidenote: _Planning a color scheme for a rug_]
+
+"I have been asked many times what is the best way to plan a color
+scheme for a rug. This is a point I cannot determine for another. Some
+may find help in making water color sketches of what they wish to do. In
+my own work I never use them, as it requires making a reduced drawing of
+great accuracy, and much time to color it. Often I plan a combination
+mentally, and match it up from the dyed flannels I always have on hand.
+Other times I vary the scheme of some rug I have already made,
+experimenting with different combinations, using other rugs as if they
+were books of reference. I have discovered one rather curious thing,
+which is, that when all my experimenting is done I find some particular
+color scheme fits a certain rug as no other does. It seems to clothe or
+to fulfill the pattern as if it belonged personally to it. When I once
+discover this elective affinity of a pattern for its special coloring, I
+never make it again save in that one guise.
+
+[Sidenote: _Shading_]
+
+[Sidenote: _Directions for shading_]
+
+"Much skill can be shown by an artistic worker in the use of slight
+shades of difference in the same color. For example, in the plain center
+of a rug, several tones representing shades of the same color will give
+the effect of a play of light on a silky surface, which is very
+beautiful. By using material that has been dyed a trifle darker at one
+end of the rug, and working in gradually lighter tones, the result is
+surprisingly effective. To do this, each three or four yards should be
+dyed with these slight differences of tone; then when within thirty
+strips of the end of one color (more or less, according to the width of
+the rug), work in a broken line of the next tone all across the rug.
+Then use a few rows (not worked in single rows, however) of the first
+color across the entire rug, then a wider broken line of the second
+color. Broken lines blend better than continuous lines do. The portions
+of the second line should fall above the broken spaces left in the first
+line (in the same way that masons lay bricks), then a little more of the
+first color, using less and less of it, and increasing the width of the
+second in masses, until the first color has become only broken lines
+upon the ground of the second color. All the way through, any changes
+of color should be merged in this way. Be sure to work this method from
+side to side across the rug, as the frameful is filled.
+
+[Sidenote: _Coloring_]
+
+"This is the most difficult feature of the whole handicraft, the actual
+coloring, and yet for fine effects I should recommend only the use of
+hand-dyed materials. Goods dyed by professional dyers are perfectly
+uniform in color throughout, and rugs made of such material will have
+nothing of that difference of tone, that play of color, that is
+absolutely necessary for beauty.
+
+[Sidenote: _Dye kettles_]
+
+"In dyeing use only brass, copper, granite, or porcelain kettles, unless
+one goes into it on a large scale and uses regular machinery. Brass and
+copper vessels are to be preferred, while iron, or tin showing iron, are
+to be carefully avoided, as the mordants have a great affinity for iron
+and ruin the color. I use a large brass kettle holding about five
+gallons.
+
+[Sidenote: _Mordants_]
+
+"For mordants I use Glauber salts and sulphuric acid, and with the
+weight of cloth I use, it takes 3 oz. of Glauber salts and 3/4 oz. of
+sulphuric acid (full strength) to each six yards of flannel. I use a
+one-ounce Phenix graduate (American standard) measuring glass, and as
+full strength sulphuric acid has about twice the specific gravity of
+water, one should measure by the scale engraved on the right-hand side
+of the glass. The left-hand scale is based upon the standard unit of
+weight, which is water.
+
+[Sidenote: _Uses of acids_]
+
+"In using sulphuric acid I dilute it in a little cold water in a cup by
+pouring the acid on to the water, as sulphuric acid in uniting with
+water causes a chemical reaction. Where a large quantity of acid is used
+this reaction is accompanied by a sudden burst of steam, if the water
+falls upon the acid. But in a small quantity as this, there is no
+possible danger of accident if the acid is poured on the water.
+Sulphuric acid should be closely stoppered and used with care, as it is
+corrosive, eating holes in cotton or linen fabrics. With ordinary
+precautions it can be used without the least difficulty.
+
+[Sidenote: _Salts set the dyes_]
+
+"Glauber salts are too well known in commerce to need description, and
+are used to neutralize the acid. The two in combination do not injure
+woolen fabrics, but merely set the dyes.
+
+[Sidenote: _Preparation of a dye bath_]
+
+"In preparing the dye bath allow three gallons of water, and 3/4 oz. of
+sulphuric acid; stir thoroughly and add 3 oz. Glauber salts to six yards
+of cloth. Then add the dyestuff in required proportions. Stir thoroughly
+as each ingredient is added, for the evenness of the dye depends upon
+the thorough distribution of the mordants and color in the dye bath.
+Generally it is advised to strain the dye before it is added, but, as an
+even tone is not the desired result for this special handicraft, I never
+follow this suggestion.
+
+[Sidenote: _Coloring depends on temperature_]
+
+"The proper temperature for introducing the color in the bath is not
+over 150° F., but if one has not a bath thermometer, the temperature
+must be very hot, yet far below boiling point. Temperature plays a great
+part in dyeing, for if the dye bath is too hot when the cloth is
+introduced, the dye, having a great avidity for wool, will be absorbed
+unequally by the cloth, the ends and outside folds of the cloth
+absorbing more color than is desired, and the inner folds will have
+less. I am not discussing the process of dyeing as it should be done on
+a large scale with vats and suitable reels, etc., but as it is likely to
+be done by an amateur, in a small way. When the bath is too hot, the
+cloth takes the dye unequally and is quite spotted. A little
+irregularity is necessary for a play of color, but it should be secured
+in a definite way and only to a certain degree, and not as the result of
+accident. If the cloth has come out spotty, it may be redipped, having
+added more dye and mordants to the bath, but it will come out a darker
+shade. If the bath is anywhere near the boiling point before the cloth
+is dipped, reduce it by adding a quart or two of cold water."
+
+[Sidenote: _Process of dyeing yarn or raffia_]
+
+[Sidenote: _Clear days are best for dyeing_]
+
+Before dyeing yarn or raffia, bind the skeins loosely in several places
+to prevent tangling. "Having prepared the bath, gather the cloth in the
+right hand at half a dozen places along one selvedge, and drop it in,
+spreading it at once, using two stout sticks, lifting it up and down
+continually so as to expose all parts to the dye. The temperature should
+be increased to the boiling point and continued for three-quarters of an
+hour. Then lift the cloth up and drain it, then rinse in cold water,
+wring dry, but do not press with an iron, as the soft wooly texture is
+very desirable. When a quantity of the same color is desired, the same
+water can be used again by adding acid and Glauber salts, together with
+more dyestuff with each fresh dip of cloth. It must be stated, however,
+that the color will not be so clear with succeeding dips, but that does
+not matter, as a difference is desired. The process of dyeing is very
+delicate, and the utmost precision must be observed in following
+proportions and directions regarding temperature, etc. Dyeing is more
+successful in clear weather than on rainy days, and soft water is
+required to get good results. If water contains much lime or earthy
+salts it is unfit for dyeing, and must be neutralized by acetic acid. In
+such cases it would be still better to use rain water.
+
+[Sidenote: _Vegetable dyes and chemical dyes compared_]
+
+"There is a curious conviction prevailing in some quarters that
+beautiful durable colors are obtainable only from vegetable dyes. My
+first experiments were with barks, mosses, etc., but the difficulty of
+getting them, the enormous amount necessary to dye any quantity of
+goods, the tedious process in their use, and the fact that after all
+only a narrow range of colors is obtainable from them, compelled me to
+abandon them altogether. I began to investigate chemical dyes, and to
+gain information I applied to one of the largest woolen mills in New
+England, one which maintains a high reputation for the class of goods it
+manufactures; also to two wholesale houses dealing in all kinds of
+dyestuffs; and finally to one of the best experts in color in the
+country. Their verdict was unanimous, and is summed up in the opinion of
+the expert which he expressed in a letter to me on this question:
+
+"'In regard to the use of vegetable dyes, I would say that they have
+almost disappeared from commerce, certainly for the purpose of dyeing
+fabrics.
+
+[Sidenote: _Aniline colors_]
+
+"'We know, of course, that there are strong prejudices still existing in
+the layman's mind in regard to the use of aniline colors, who supposes
+that they are not only fugitive, but that the resulting tones are harsh
+and unattractive. This, unfortunately, was so twenty-five years ago, and
+the impression made then upon the layman's mind has not been changed
+during all these years; but I can assure you that all the beautiful silk
+goods, tapestries, cloths, and all the colors which we see in fabrics
+to-day, are made, without exception, from aniline colors, which are
+immeasurably more permanent than are the vegetable dyes used up to, say,
+1875.'
+
+[Sidenote: _Formulas to be followed_]
+
+"In using my range of eight colors I provide myself with large, strong
+glass bottles in which I keep my diluted colors. I use a pint measure
+for diluting the dyes. In preparing the fluid I put one half or one
+quarter of an ounce of dry color, whichever amount the formula calls
+for, into the pint measure and mix it thoroughly with a little cold
+water. The reason for using cold water is that the dyes are a tar
+product, and if mixed with hot water first, they are apt to grow waxy
+under the heat and not dissolve readily. Having dissolved them, I fill
+up the measure with hot water, stirring all the time. This makes a pint
+of liquid which is of uniform strength under all circumstances, and
+every formula is based upon this invariable pint measure of water. These
+formulas I have tried over and over again. They are made with special
+reference to the grade of flannel I have adopted, and doubtless will
+vary in results if used on other weights or weaves of wool goods."
+
+
+DYE FORMULAS
+
+
+NO. 1. DARK TERRA COTTA
+
+[Sidenote: _Dark terra cotta_]
+
+Dissolve 1/2 oz. of dull red in 1 pint of water.
+
+Dissolve 1/4 oz. of green in 1 pint of water.
+
+Take full pint measure of dull red dye and 4 tablespoonfuls of green dye
+to 6 yds. of cloth.
+
+Mordants: 3/4 oz. sulphuric acid and 3 oz. Glauber salts. Boil 3/4 of an
+hour.
+
+
+NO. 2. FULL TERRA COTTA
+
+[Sidenote: _Full terra cotta_]
+
+Dissolve 1/2 oz. of dull red in 1 pint of water.
+
+Use full pint measure of dull red dye to 6 yds. of cloth.
+
+Mordants: 3/4 oz. sulphuric acid and 3 oz. Glauber salts.
+
+
+NO. 3. LIGHTER TERRA COTTA
+
+[Sidenote: _Lighter terra cotta_]
+
+Dissolve 1/2 oz. of dull red in 1 pint of water.
+
+Use 22 tablespoonfuls of dull red dye to 6 yds. of cloth.
+
+Mordants: 3/4 oz. sulphuric acid and 3 oz. Glauber salts.
+
+
+NO. 4. RICH OLD RED
+
+[Sidenote: _Rich old red_]
+
+Dissolve 1/2 oz. of dull red in 1 pint of water.
+
+Dissolve 1/4 oz. of green in 1 pint of water.
+
+Use 24 tablespoonfuls of dull red dye and 3 tablespoonfuls of green dye
+to 6 yds. of cloth.
+
+Mordants: Same as No. 1.
+
+
+NO. 5. DULL OLD ROSE
+
+[Sidenote: _Dull old rose_]
+
+Dissolve 1/4 oz. of dull red in 1 pint of water.
+
+Dissolve 1/4 oz. of bright blue in 1 pint of water.
+
+Dissolve 1/4 oz. of dull yellow in 1 pint of water.
+
+Use 16 tablespoonfuls of dull red dye, and 1 tablespoonful of bright
+blue dye, and 3 tablespoonfuls of dull yellow dye to 6 yds. of cloth.
+
+Mordants: Same as in No. 1.
+
+
+NO. 6. OLD PINK
+
+[Sidenote: _Old pink_]
+
+Dissolve 1/4 oz. of dull red in 1 pint of water.
+
+Dissolve 1/4 oz. of dull yellow in 1 pint of water.
+
+Dissolve 1 oz. of dark blue in 1 pint of water.
+
+Use 6 tablespoonfuls of dull red dye, and 3 tablespoonfuls of dull
+yellow dye, and 1-1/2 teaspoonfuls of dark blue dye to 6 yds. of cloth.
+
+Mordants: Same as in No. 1.
+
+
+NO. 7. FULL YELLOW
+
+[Sidenote: _Full yellow_]
+
+Dissolve 1/4 oz. of bright yellow in 1 pint of water.
+
+Dissolve 1/4 oz. of dull yellow in 1 pint of water.
+
+Dissolve 1/4 oz. of green in 1 pint of water.
+
+Use 6 tablespoonfuls of bright yellow dye, and 5 tablespoonfuls of dull
+yellow dye, and 2 tablespoonfuls of green dye to 6 yds. of cloth.
+
+Mordants: Same as in No. 1.
+
+
+NO. 8. RICH DULL YELLOW
+
+[Sidenote: _Rich dull yellow_]
+
+Dissolve 1/4 oz. of bright yellow in 1 pint of water.
+
+Dissolve 1/4 oz. of dull red in 1 pint of water.
+
+Use 12 tablespoonfuls of yellow dye and 6 tablespoonfuls of dull red dye
+to 6 yds. of cloth.
+
+Mordants: Same as in No. 1.
+
+
+NO. 9. DARK TAN YELLOW
+
+[Sidenote: _Dark tan yellow_]
+
+Dissolve 1/4 oz. of dull yellow in 1 pint of water.
+
+Use 14 tablespoonfuls of dull yellow dye to 6 yds. of cloth.
+
+Mordants: Same as in No. 1.
+
+
+NO. 10. LIGHT OLIVE TAN
+
+[Sidenote: _Light olive tan_]
+
+Dissolve 1/4 oz. of bright yellow in 1 pint of water.
+
+Dissolve 1/4 oz. of dull yellow in 1 pint of water.
+
+Dissolve 1 oz. of dark blue in 1 pint of water.
+
+Use 6 tablespoonfuls of bright yellow dye, 4 tablespoonfuls of dull
+yellow dye, 1-1/2 tablespoonfuls of dark blue dye to 6 yds. of cloth.
+
+Mordants: Same as in No. 1.
+
+
+NO. 11. OLD IVORY
+
+[Sidenote: _Old ivory_]
+
+Dissolve 1/4 oz. of bright yellow in 1 pint of water.
+
+Dissolve 1/4 oz. of drab in 1 pint of water.
+
+Dissolve 1/4 oz. of dull red in 1 pint of water.
+
+Use 1 teaspoonful of yellow dye, and 1 teaspoonful of drab dye, and 1/4
+teaspoonful of dull red dye to 6 yds. of cloth.
+
+Mordants: Same as in No. 1.
+
+
+NO. 12 RICH NAVY BLUE
+
+[Sidenote: _Rich navy blue_]
+
+Dissolve 1 oz. of dark blue in 1 pint of water.
+
+Use full pint measure of dark blue dye to 6 yds. of goods.
+
+Mordants: 1 oz. sulphuric acid, 3 oz. Glauber salts. Boil 1 hour.
+
+
+NO. 13. DARK PERSIAN BLUE
+
+[Sidenote: _Dark Persian blue_]
+
+Dissolve 1 oz. of dark blue in 1 pint of water.
+
+Dissolve 1/4 oz. of green in 1 pint of water.
+
+Use 10 tablespoonfuls of dark blue dye, 6 tablespoonfuls of green dye to
+6 yds. of cloth.
+
+Mordants: Same as in No. 12.
+
+
+NO. 14. GOBELIN BLUE
+
+[Sidenote: _Gobelin blue_]
+
+Dissolve 1 oz. of dark blue in 1 pint of water.
+
+Dissolve 1/4 oz. of green in 1 pint of water.
+
+Use 6 tablespoonfuls of dark blue dye, 4 tablespoonfuls of green dye to
+6 yds. of cloth.
+
+Mordants: Same as in No. 12.
+
+
+NO. 15. LIGHT GRAY BLUE
+
+[Sidenote: _Light gray blue_]
+
+Dissolve 1 oz. of dark blue in 1 pint of water.
+
+Dissolve 1/4 oz. of green in 1 pint of water.
+
+Use 3 tablespoonfuls of dark blue dye, 2 tablespoonfuls of green dye to
+6 yds. of cloth.
+
+Mordants: Same as in No. 12.
+
+
+NO. 16. LIGHT SAGE GREEN
+
+[Sidenote: _Light sage green_]
+
+Dissolve 1/4 oz. of green in 1 pint of water.
+
+Dissolve 1/4 oz. of bright yellow in 1 pint of water.
+
+Dissolve 1/4 oz. of dull red in 1 pint of water.
+
+Use 10 tablespoonfuls of green dye, 2 tablespoonfuls of bright yellow
+dye, and 1-1/2 tablespoonfuls of dull red dye to 6 yds. of cloth.
+
+Mordants: Same as in No. 1.
+
+
+NO. 17. LIGHT OLIVE
+
+[Sidenote: _Light olive_]
+
+Dissolve 1/4 oz. of green in 1 pint of water.
+
+Dissolve 1/4 oz. of bright yellow in 1 pint of water.
+
+Dissolve 1/4 oz. of dull red in 1 pint of water.
+
+Use 16 tablespoonfuls of green dye, 4 tablespoonfuls of bright yellow
+dye, and 3 tablespoonfuls of dull red to 6 yds. of cloth.
+
+Mordants: Same as in No. 1.
+
+
+NO. 18. DARK MOSS GREEN
+
+[Sidenote: _Dark moss green_]
+
+Dissolve 2 level teaspoonfuls of green in 1 pint measure of water.
+
+Dissolve 1/4 oz. of bright yellow in 1 pint of water.
+
+Use full pint measure of green dye and 15 tablespoonfuls of bright
+yellow dye to 6 yds. of cloth.
+
+Mordants: 3 oz. of Glauber salts and 1 oz. of sulphuric acid. Boil 3/4
+of an hour.
+
+
+NO. 19. GOLDEN BROWN
+
+[Sidenote: _Golden brown_]
+
+Dissolve 1/4 oz. of dull yellow in 1 pint of water.
+
+Dissolve 1/4 oz. of dull red in 1 pint of water.
+
+Dissolve 1/4 oz. of green in 1 pint of water.
+
+Use 20 tablespoonfuls of dull yellow dye, 5 tablespoonfuls of dull red
+dye, 15 tablespoonfuls of green dye to 6 yds. of cloth.
+
+Mordants: Same as in No. 18.
+
+
+NO. 20. DARK BRONZE
+
+[Sidenote: _Dark bronze_]
+
+Dissolve 1/4 oz. of green in 1 pint of water.
+
+Dissolve 1/4 oz. of dull red in 1 pint of water.
+
+Dissolve 1 oz. of dark blue in 1 pint of water.
+
+Dissolve 1/4 oz. of bright yellow in 1 pint of water.
+
+Use 8 tablespoonfuls of green dye, 12 tablespoonfuls of dull red dye, 4
+tablespoonfuls of dark blue dye to 6 yds. of cloth.
+
+Mordants: Same as in No. 18.
+
+Redip in 4 tablespoonfuls of green dye and 5 tablespoonfuls of bright
+yellow dye.
+
+Mordants: Repeat the one above.
+
+[Sidenote: _These formulas are the basis for numerous tones_]
+
+"These formulas can be taken as the basis of many other tones and shades
+which can be secured by a slight alteration of proportions. By adding a
+trifle more dull red, green, indigo, or drab liquid dyes, a color can be
+darkened. By using less of these than the formulas call for, the colors
+will be lighter. By using more of dull or bright yellow a color can
+often be made richer without darkening it. Beginners are cautioned
+against making changes until they become familiar with the dyes. In
+making new experiments, try them on yard lengths, carefully subdividing
+any given formula for both dyes and mordants, and increasing the
+proportion of any particular color desired. If the cloth should fail to
+take up the dye properly after boiling the full time, increase the
+quantity of acid, lifting the cloth out when adding the acid to the dye
+bath."
+
+Excellent suggestions by Miss Albee for color schemes in stripes may be
+found on pages 64 and 65.
+
+[Mrs. Albee is prepared to furnish any of the foregoing dyes at 20 cents
+an ounce. Her address is Mrs. Helen R. Albee, Pequaket, Silver Lake P.
+O., N. H.]
+
+[Illustration: _A deep blue wool rug made of carpet yarn_]
+
+
+
+
+Chapter Seven
+
+METHODS OF SPLICING MATERIALS FOR WEAVING
+
+
+[Sidenote: _Woolens, fine worsteds, ravelings, and cottons_]
+
+Such materials as carpet and oriental wools, fine worsteds, carpet
+ravelings, darning and knitting cotton should, in splicing, be run past
+each other. In weaving, run the wool through the warp to the very end.
+Start the new piece a few warp threads back, being careful to go over
+and under exactly the _same_ warp threads as you did when finishing the
+end. As you pass these threads you will find that you are taking up the
+right warp threads, and that no mistake has been made. It is best to run
+the threads past each other in the _middle_ of the mat rather than on
+the _sides_. The children learn this method of splicing very quickly and
+the result is much more satisfactory than knotting, because the back of
+the rug or mat will be smooth. As Mrs. Wiggin says: "There should never
+be a wrong side to work any more than there should be to folks."
+
+[Sidenote: _Silkoline, cheese cloth, rags_]
+
+[Sidenote: _Candle-wicking, chenille, and macremé cord_]
+
+In splicing such materials as silkoline, rags, candle-wicking, chenille,
+and macremé cord, lay the end of one piece over another, each lapping
+about one-quarter inch, and sew securely with silk or thread of like
+color. Cut off the selvedge ends of rags. These strips can be run past
+each other, but the work will not be so smooth.
+
+[Sidenote: _Germantown wool, heavy worsteds, and rope silk_]
+
+In splicing Germantown wool, heavy worsteds, or rope silk, thread a
+worsted needle with one strand obtained by unwinding the wool or silk,
+lay one end over the other, and sew over and over. Twist the part just
+sewn between the thumb and finger and the splicing will be hardly
+visible.
+
+When weaving stripes, splice the wool so that the piecing will come on
+top of the rod. In this way the new color will start at the edge of the
+rug, as it should, and the number of loops on the rod will be the same
+on each side. Consider the _under_ side of the weaving as the _right_
+side. It is always smoother and cleaner, and the splicing can be done
+more neatly on top of the rod.
+
+[Sidenote: _Raffia_]
+
+Splicing raffia is the most difficult of all, and the method used in
+braiding and basket weaving is the best. As you near the end of a strip
+in weaving it usually becomes narrower. Find another strip having a
+narrow end, and place one over the other, securing, if necessary, by
+winding a very narrow piece--just a thread torn from a long piece--and
+fastening this by sewing a few times over and over. Or, the two narrow
+ends may be run past each other, as in carpet ravelings. Care should be
+taken to have the splicing the same width as the other parts of the
+weaving, so that the spliced parts will not be noticeable.
+
+[Sidenote: _Leather, leatherette, and celluloid strips_]
+
+Leather, leatherette, and celluloid strips should be long enough to
+extend the entire width and length of the frame without splicing. The
+ends can be cut, as is done in paper weaving, or turned in some pretty
+way like that in the splint work.
+
+
+
+
+Chapter Eight
+
+WOOL AND SILKOLINE RUGS OR MATS
+
+
+[Illustration: _Silkoline rug with three white stripes_]
+
+[Sidenote: _Plain rug with end stripes_]
+
+[Sidenote: _Finishing the ends_]
+
+Silkoline rugs or mats are by far the prettiest for doll-house use. The
+method of preparing the strips is explained under Materials (page 51).
+Make the warp with twine of the same color as the silkoline. It should
+be a three-eighths-inch warp. Choose a plain color for the body of the
+rug, and a short distance from each end weave several stripes of a
+contrasting color. The rug in the illustration is of deep cardinal. The
+stripes can be of olive green, black, or any preferred color. Mottled
+stripes are also attractive and effective. When the stripes at the foot
+are woven, ascertain the distance from the foot piece to the last one.
+To know where to commence the first stripe at the head, measure the
+distance just found from the head piece down, and mark on both rods by
+tying or sewing a colored string to the warp. This helps the child to
+understand where the stripe should begin, which he soon learns to
+measure for himself; and this training in accuracy and independence is
+most excellent. There is nothing better than learning self-reliance, and
+the child who has been taught it, is not apt to ask others to do his
+examples for him. To learn the manner of making the stripes and spaces
+each of the same width, count the loops on the rods (one has to weave
+twice across the loom to have one loop on a rod), and have the same
+number on each side. Care should be taken not to _twist_ the strips in
+weaving. The method of splicing the strips and fastening the warp
+strings is explained in Chapter V. The rug may be finished with a wool
+or silk fringe of the predominating color, or a fringe of the combined
+colors. If desired, it may be left plain, catching the woof strips
+together at each end to conceal the warp strings. When a mistake has
+been made, run the needle back under the same strings instead of pulling
+out what is wrong. It prevents stretching and a destruction of the
+material.
+
+[Sidenote: _Mottled rugs made of figured silkoline_]
+
+Mottled rugs are made of figured silkoline. Choose oriental colors, no
+matter how gaudy the silkoline may look in the piece. It will have a
+beautiful effect when woven. Portières are pretty made in this way.
+These rugs should always be plain--that is, without stripes.
+
+[Illustration: _A mottled rug of figured silkoline, in which the colors
+brown, blue, and old gold predominate_]
+
+[Sidenote: _Plain rugs with mottled borders, or mottled rugs with plain
+borders_]
+
+Plain rugs with mottled borders, or mottled rugs with plain borders, are
+the delight of the children. Adjust the frame for the size required, and
+decide how wide the border is to be. It is necessary to have an extra
+pair of rods, if one desires a smooth and well-finished rug. The border
+of the rug represented in the illustration is two inches. This should be
+woven with a tape needle. Weave the border at the foot of the loom. This
+extends the entire width. Place the extra rods two inches toward the
+center from the side rods on the outside of the rug, keeping them _back_
+of the border already woven at the foot. This will outline the sides of
+the plain oblong in the center. Weave the left and right hand borders up
+to a point two inches from the head piece, taking care to go around the
+rods just placed. Then begin the plain center. As you come to the border
+on each side, run your tape needle _through_ the loops of mottled
+silkoline which are around the rod, but do not go around the rod itself
+with the plain silkoline, since doing so would make a ridge in the rug.
+Draw the woof strips tightly and firmly, so that the work will lie flat
+and smooth when removed from the loom. Be sure to weave the center far
+enough, remembering that the upper woof strips in the border will crowd
+it down. When the center is finished, remove the extra rods and finish
+weaving the border to the head piece. In selecting a color for the
+center, match one of the colors in the figured silkoline. The color for
+the center in the rug of the illustration on page 90 is green, and the
+same color appears also in the mottled border, with yellow and brown.
+The ends should be left plain, the warp strings being concealed as
+directed. These rugs are very beautiful, and can be made in an infinite
+variety through the use of different colors, and by reversing the center
+and border. They can be made of carpet or Germantown wool, in two colors
+or in two tones of one color. In weaving rugs with centers and borders,
+weave a little farther than the exact measure, because the next woof
+threads will push down the woof already made, and you may find that you
+have not woven the correct measure. These rugs are useful as "heel
+rugs"; they are placed under the piano near the pedal to protect the
+carpet from the pressure of the heel. (See also page 82.)
+
+[Illustration: _A plain silkoline rug, with a mottled border_]
+
+[Sidenote: _Holder or mat_]
+
+[Sidenote: _Many squares joined together_]
+
+[Sidenote: _Small rug with fringe_]
+
+[Sidenote: _Stair and hall carpets_]
+
+Adjust the loom for the size required. The plaid effect in the holder
+illustrated on page 92 is obtained by stringing a close warp with green
+and white carpet wool, alternating two of white with four of green. In
+weaving, use two woof threads of white and _four_ of green to make the
+square correct. The kindergarten designs make pretty holders. If you
+have woven a holder, it will be finished when it is removed from the
+loom and the warp strings have been fastened. If you wish your holder to
+be very thick, weave two of these pieces, lay a square of felt or
+flannel between and sew or crochet the edges together. If the work is to
+be a mat, knot a pretty fringe all around it. Many of these squares can
+be joined to make sofa pillows, afghans, slumber robes, and other dainty
+articles. With a continuous warp, one can weave long strips for the same
+articles. If a small rug for Miss Dolly's bedroom is desired, string the
+warp so that the two ends will have a fringe. Stair and hall carpets for
+the doll house can be woven in these pretty designs by adjusting the
+loom for a narrow strip, and, if necessary, a continuous warp.
+
+[Illustration: _Holder of green and white carpet wool_]
+
+
+
+
+Chapter Nine
+
+HAMMOCKS
+
+
+[Illustration: _Back of loom, showing method of stringing warp through
+rings for a hammock_]
+
+[Sidenote: _Method of adjustment_]
+
+[Sidenote: _Use of stripes for various colors_]
+
+[Sidenote: _Lengthwise stripes_]
+
+To weave a hammock, one must first adjust the loom to its full size. Tie
+two rings together and fasten them at the back of the loom, to head,
+foot, and sides, as in the illustration. One must then decide how close
+the warp is to be strung. Measure the string, which should be
+continuous, allowing enough to go to the rings at the back and make a
+buttonhole stitch each time. Then wind on a long thin stick or dress
+steel, in such a way that it will pass easily through the rings. In
+stringing the hammock in the illustration, a penholder was used. The
+rings are tied, with white cord, to the four sides of the loom. By doing
+this, all tangling of the warp string is avoided, and it is far
+preferable to splicing. Tie the first warp string to the top ring. Draw
+it tightly through the first groove, over the face of the loom to the
+opposite groove, then to the back of the loom through the bottom ring.
+Make a buttonhole stitch and return in the same manner over the face of
+the loom, around to the top ring, where you make a buttonhole stitch and
+return, until the whole warp is strung. Care should be taken to make it
+firm and tight. Hold the string and ring firmly in the left hand while
+making the buttonhole stitch with the right. Cut the woof cords long
+enough to allow a fringe on each side of the hammock. Weave each cord
+separately, tying in pairs around the rods. Stripes of one or more
+colors can be woven at each end or at intervals through the hammock. By
+weaving two colors alternately, the stripes will be lengthwise instead
+of crosswise. Knot the fringe at each side. To fasten the top and bottom
+woof cords so that they will not pull out of place, thread a tape needle
+with cord and tie each warp string close to the woof. Another way to
+secure the top and bottom woof cords is to weave two cords at one time,
+twisting one over the other between the warp strings. The bottom one
+should be woven before the hammock is commenced. The top one can be
+woven before the hammock is finished, and pushed up close to the head
+piece. Then fill up the space.
+
+[Illustration: _A hammock made from strings of different colors in
+lengthwise stripes_]
+
+[Sidenote: _Making the fringe_]
+
+[Sidenote: _The stretcher_]
+
+[Sidenote: _The head-rest_]
+
+[Sidenote: _Hammock with lengthwise colored stripes_]
+
+[Sidenote: _Knotted hammocks_]
+
+Instead of knotting the fringe as suggested, two cords can be twisted at
+each side of the hammock in the same way that the woof cords are secured
+at the top and bottom. This forms a heading for the fringe. Take up
+_two_ cords of the fringe at a time. If desired, the strings which
+extend from the rings to the hammock may be woven for the space of an
+inch or so close to the rings instead of making a buttonhole stitch.
+Make a stretcher for the head by covering a piece of rattan with
+buttonhole stitch. Fasten this to the hammock. A head-rest can also be
+woven and adjusted. To remove the hammock from the loom, cut the two
+rings apart, and then lift the warp strings from the grooves. A very
+pretty hammock can be made by stringing the warp of different colors, in
+order to make _lengthwise_ stripes. Weave a neutral color through them.
+In this case, have a close warp. Pretty hammocks can be made by knotting
+instead of weaving.
+
+[Sidenote: _To string warp for hammock in order to have the sides
+shorter than the center_]
+
+Cut two semi-circular pieces from light wood or pasteboard. These should
+suit the width of the hammock to be made. If this is the width of the
+loom, then 9-1/2 inches long and two inches at the widest part. Cut the
+curved edge in notches to correspond with the number taken in the head
+piece. These pieces will be firmer and more satisfactory if made of wood
+and finished at the lower edges like the metal head piece. This can be
+easily done by glueing them to a narrow piece of wood so that they will
+stand. If furnished with perforations, they can be laced to the head and
+foot pieces or the rods can be run through them. By stringing the warp
+in this way, the sides of the hammock will be shorter than the center,
+and there will be no danger of Miss Dolly falling out.
+
+The warp can be strung more quickly and easily if hammock hooks similar
+to those in the two illustrations below are used. Measure the right
+length--22 warp strings 31 inches long for the metal loom, or 29 the
+same length for the wooden loom--and wind as before.
+
+[Illustration: _Hook No. 1_]
+
+[Illustration: _Hook No. 2_]
+
+[Sidenote: _Hammock hooks_]
+
+[Sidenote: _Weaving_]
+
+In using hammock hook No. 1, knot half the number of warp strings in the
+left-hand ring and half in the right-hand ring. If hook No. 2 be used,
+unpin the part at the right, knot the warp strings along the straight
+edge at the bottom, and then pin the right-hand part again. Weaving each
+cord separately across the loom makes a heavy fringe at the sides. If a
+lighter fringe be desired, cut the woof cords twice the width of the
+loom plus twice the length of the fringe. Weave across the loom, leaving
+enough for the fringe at the side, then _around_ the rod and back again,
+drawing the cord through to the same length as the part left at first.
+Weave in the same way with the second color, having the loop on the
+_same_ rod and the fringe at the _same_ side as the other. Weave the
+next two cords with loops on the _opposite_ rod and fringe on the
+_opposite_ side. Continue in this way until the hammock is finished.
+Make a heading at the sides as described, only carry the two cords
+_through_ the loops, crossing them between on top of the rods. The warp
+strings can be passed through the rings without buttonholing. A firm
+pretty finish can be made at the sides by cutting two cords--one of each
+color two yards long and buttonholing around the rods on _top_ of the
+woof cords which extend at each side. Fasten these long cords at the
+bottom of the loom. After two pairs of woof cords have been tied,
+buttonhole the edge over them and around the rods and continue this
+until the hammock is finished.
+
+[Illustration: _A square of silk canvas_]
+
+
+
+
+Chapter Ten
+
+FACE AND DISH CLOTHS AND BATH RUGS
+
+
+[Illustration: _A face cloth made from cheese cloth_]
+
+[Sidenote: _Materials_]
+
+The materials for making face and dish cloths are: cheese cloth cut
+bias, darning or knitting cotton, or candle-wicking. Those made from
+cheese cloth resemble the Turkish rags. Cut and splice the cheese cloth
+according to directions on page 83. The face cloth in the illustration
+is made from white cheese cloth, cut bias. String the warp 3/16 inch
+with white twine. It being desirable to have face and dish cloths as
+soft as possible, do not push the woof threads too closely together.
+When the cloth is removed from the loom, conceal the ends of the warp
+strings as previously directed. Fine white thread should be used. If
+preferred, the edges can be bound with tape. Cloths of candle-wicking
+are very quickly woven, but they are not so soft.
+
+Face cloths of cheese cloth with borders of knitting cotton would be
+durable and satisfactory. Make them according to directions given for
+rugs with centers and borders.
+
+Cross-barred face cloths made of knitting cotton No. 4, in two colors,
+are very pretty.
+
+[Sidenote: _Bath rug made with continuous warp_]
+
+Serviceable bath rugs can be made by making three strips as long as
+desired, and then fastening together. They are made of cheese cloth cut
+bias, but the woof threads are packed much tighter than in the face
+cloths. Finish the edges by stitching a white tape all around. Floor
+rugs of any kind can be made firmer by finishing in this way with tape
+of the same color.
+
+[Illustration: _A pattern for a floor rug_]
+
+
+
+
+Chapter Eleven
+
+RAFFIA MATS
+
+
+[Illustration: _Method of weaving a raffia mat on the loom, showing
+colored stripes_]
+
+[Sidenote: _Method of making raffia mats_]
+
+[Sidenote: _The rods and the warp strings in kindergarten patterns_]
+
+Mats of raffia are made like all the other mats. The warp may be of
+twine or carpet thread. In this case, the mat should be woven of raffia
+in the natural color, with stripes of bright color at each end; or, it
+may be of some dark tone with stripes of a contrasting color. By using
+a warp of raffia, many of the beautiful kindergarten designs can be
+produced. Use one color for the warp and another for the woof. The
+method of stringing a warp of raffia is described in "Methods of
+Stringing Warp," on page 45. The illustration shows a raffia mat in
+process of making. The natural color of raffia is used, with stripes of
+cardinal, and the method of stringing color in the warp to obtain this
+effect is clearly seen. The children will have no difficulty in carrying
+out the pattern, if they remember that the _rods_ correspond to the
+_border_ of the paper mat. Before stringing the warp for a kindergarten
+pattern, count the strips in the paper mat and begin to count on the
+loom _from_ the rods. In this kind of work the string on top of the rod
+does not count. It forms the _border_ of the mat.
+
+[Illustration: _A woven mat of raffia, from a kindergarten pattern in
+green and the natural color of the raffia_]
+
+[Sidenote: _Stringing the warp_]
+
+In making mats, or matting, of raffia, the material can be carried over
+the rods as in wool-weaving, or it can be finished on the edges in the
+same way as the real matting is done. This will be easily understood by
+examining a piece of matting. In stringing the warp, have three strings
+over each bar instead of one. Cut the woof strips several inches longer
+than the width of the loom. Weave the first strip, leaving a piece at
+each side. Thread a tape needle with one end and weave it in and out the
+three warp threads on the rod. Then cut it off close to the edge. Finish
+off all the ends in this way. When the work is removed from the loom,
+press the edges flat with a warm iron. It is a little easier to keep the
+pattern right by weaving in this way, and the work resembles the real
+matting more nearly. Use a tape needle for weaving raffia.
+
+[Sidenote: _Porch curtains_]
+
+If the doll house which we are fitting is a large one with porches, one
+could complete the furnishings with a porch curtain, for sunny
+afternoons.
+
+[Sidenote: _Glove, trinket, and mouchoir boxes_]
+
+Boxes of all kinds can be made of raffia woven in panels. It will make
+the box stronger and firmer to overhand a piece of rattan around the
+edges of the panels before joining them in the form of a box. Thread a
+worsted needle with a narrow strip of raffia and buttonhole the edges of
+the panels together; or, sew them over and over and cover with a braid
+of raffia. Spiral-weaving is pretty for this finishing. It is described
+in an article entitled "Straw-Weaving," in "American Homes" for
+September, 1900, a magazine published in Knoxville, Tenn. Glove,
+trinket, and mouchoir boxes are pretty for holiday gifts. By using
+different patterns and colors a great variety of them can be made.
+
+[Sidenote: _Rugs of carpet wool_]
+
+For rugs made of carpet wool, string a three-eighths-inch warp of twine,
+or oriental cord, the color of the body of the rug. Use a deep tone of
+red, olive green, or any preferred color, with a stripe at each end. A
+study of rugs will soon enable one to get the right proportion of rug
+and stripe. Beautiful rugs are made with a succession of Roman stripes
+separated by a narrow one of deep red, green, or blue, the ends of the
+rug being woven of the same color. Center and corner patterns can be
+woven by placing the pattern under the warp. By stringing a close warp
+of the same material all the designs for paper-weaving can be easily
+reproduced. Lengthwise stripes are also pretty. String the warp with
+different colors and weave a neutral color through them. The rug in the
+frontispiece is woven of heavy carpet wool, some of which is seen on the
+table.
+
+[Sidenote: _Patterns for rugs_]
+
+[Sidenote: _Fundamental form No. 1_]
+
+Beautiful patterns for rugs can be made by cutting squares and triangles
+of paper according to directions given in the "Kindergarten Guides." The
+"Paradise of Childhood" has some very pretty ones. There are two
+fundamental forms for this paper-cutting. The first is made from a
+nine-inch square. Fold one diagonal, place the right acute angle upon
+the left so as to produce four triangles resting upon each other. The
+form now lies before you with the right angle at the right and two acute
+angles (one on top of the other) at the left. Lift one of these acute
+angles and place on top of the angle at the back, creasing the fold;
+then fold the remaining acute angle _under_ to the same angle at the
+back, creasing as before. Now place the form with the right angle at the
+back and hold all the open edges to the left while cutting.
+Illustrations in the "Kindergarten Guides" show a network drawn on the
+triangle at the top as an aid to transferring the pattern.
+
+[Illustration: _A rug pattern from an equilateral triangle_]
+
+[Sidenote: _Fundamental form No. 2_]
+
+The second fundamental form is made from a six-fold equilateral
+triangle. Directions for folding and cutting this from the square are
+given in the "Paradise of Childhood." It can be cut, also, from a circle
+whose diameter is equal to the width of the rug desired. In drawing and
+cutting the pattern, hold the form with the entirely _open sides_ toward
+you. The whole pattern is cut at once and the unfolding often reveals a
+charming design for a rug, which can be woven in tones or contrasting
+colors. If cut from colored paper, it can be mounted on white and placed
+under the warp. Beautiful original designs in conventional leaf and
+flower patterns can also be made.
+
+[Sidenote: _Conventional leaf forms_]
+
+To make a conventional leaf form, use fundamental form No. 1. Cut the
+leaf on the mid-rib and lay this part on the base of the triangle with
+the point of the leaf on the open edges at the left, and the stem on the
+closed part at the right. Draw around the edges of the leaf and cut,
+taking care not to separate the leaf forms at the center, which is at
+the closed part at your right hand.
+
+Some excellent suggestions for this leaf-cutting in centerpieces and
+borders can be found in the "Pratt Institute Monthly" for April, 1900.
+
+[Sidenote: _Dusters_]
+
+Dusters for hardwood floors are best made of strips of old flannel. They
+can be made of stocking strips, or cheese cloth. Make two mats the full
+size of the loom, sew on three sides and run a gathering-string around
+the top. It will fit better if it has a piece of cheese cloth sewn at
+the top through which the gathering-string can be run. This makes a fine
+duster to slip over a broom. If one prefers, a continuous warp can be
+strung--the length to be twice the length of the broom part--and a long
+piece woven which will require sewing on two sides only.
+
+[Illustration: _A doll towel with fringed ends_]
+
+[Sidenote: _Doll towels_]
+
+[Sidenote: _Patterns for towel borders_]
+
+[Sidenote: _Lunch cloths_]
+
+[Sidenote: _Bedspreads_]
+
+[Sidenote: _Quilts_]
+
+Doll towels are very fascinating things to make. Adjust the loom for the
+required size. The exact proportion can be ascertained from a large
+towel. String the close warp with fine darning cotton and have the
+strings in pairs with fringe at each end. Allow several inches for
+fringe so that it can be knotted easily. The woof threads, which are
+also of fine darning cotton, should be pushed very closely and smoothly
+together. Plain stripes of red or blue, or fancy stripes made with a
+kindergarten design, can be woven. Observe the same directions for
+spacing the stripes which are given with the silkoline rug. The towel
+in the illustration is made of white darning cotton, with the stripes
+and initial of red. The children will be delighted to lay towel borders
+with their tablets, and after cutting and pasting with colored paper,
+weave them in towels for Miss Dolly's housekeeping. Cross-stitch the
+initial as previously directed. Lunch cloths and bedspreads can be made
+in the same way. These should be fringed all around. A cross-barred
+cloth or spread can be made by putting the color in the warp at regular
+intervals and weaving across with color and white to form squares.
+Pretty quilts of coarse cotton can be made with kindergarten designs. By
+weaving many squares, a large quilt can be made. See directions on page
+50.
+
+[Sidenote: _Bed and carriage blankets_]
+
+Bed and carriage blankets are best made of single zephyr, although
+Germantown wool will do. The heavy carpet wools are also pretty. Some
+suggestions for this work have already been given under the head of
+Materials. These blankets are really mats, but made only for another
+use, and are to be woven in a similar way. Those with centers and
+borders are pretty, and the plaid ones are always attractive. (See
+illustration of the holder on page 92.)
+
+[Sidenote: _Doll shawls_]
+
+For doll shawls choose a pretty Scotch plaid and match the colors in
+fine wool. String a close warp with wool, copying the Scotch plaid
+exactly. Weave the colors across so that a "truly" plaid shawl may grace
+Miss Dolly's shoulders on the cold winter mornings. A striped shawl is
+pretty, or one having one color for the center and another for the
+border.
+
+[Sidenote: _Doll skirt_]
+
+Miss Dolly may have a lovely petticoat, too. String a continuous warp
+long enough for the width of the skirt. Adjust the rods for the length.
+By using a little color in the warp near the right edge of the weaving,
+the skirt will have some stripes. Twist a cord of the wool and run in
+the top for a draw-string.
+
+[Sidenote: _Reins_]
+
+To make reins, adjust for a narrow strip and string a close, continuous
+warp the length desired. Make a piece, also, to go across the front. Use
+Germantown knitting yarn. A black warp with a bright red woof is pretty.
+
+[Sidenote: _A square Tam O'Shanter_]
+
+In order to obtain a Tam O'Shanter for Dolly, first weave a square the
+required size. String a close warp with wool and weave a kindergarten
+pattern with two colors. When completed, remove from the loom, fold four
+corners to the center, turn them in to form an opening for the head, and
+fasten the edges by sewing, or by lacing with a cord made of the two
+colors. Fasten a tassel on the top and it is finished. Angora wool is
+pretty for these caps.
+
+[Illustration: _Fringe for a rug in red and black_]
+
+[Sidenote: _Fringe_]
+
+[Sidenote: _Threading the needle_]
+
+[Sidenote: _Making the fringe into tassels_]
+
+[Sidenote: _Removing the fringe from the loom_]
+
+The head piece of the loom should be adjusted for the width of the rug
+for which the fringe is required. A rug nine inches wide would require
+fringe nine inches long. Adjust the rods one inch apart--that is, with
+one perforation between the rods. String the warp in every groove, one
+string over each rod and three between, making five in all. Weave over
+and under one until the heading is finished. If you have an extra side
+rod, place it in the sixth perforation from the right-hand rod. This
+will make tassels a little over two inches long. If a shorter fringe is
+preferred, adjust accordingly. If you have not an extra side rod remove
+the _left_ one and place as directed, leaving the _right_ one in the
+heading until the whole fringe is finished. Thread a large tape needle
+with two pieces of worsted, as long as the two can be conveniently
+managed. If the fringe is made of two colors, take one of each for the
+tassels, weaving the heading with the one which predominates in the rug.
+Run the ends in the grooves to fasten them. Wind under the right rod,
+which was left in the heading, through the first stitch, which includes
+the warp string over the rod, then over the extra rod to the right. Wind
+under again through the next stitch in the heading (always around the
+rod) and so on until the end is reached. To make this fringe into
+tassels, separate six strands of each color and tie with the two colors,
+running the tape needle and worsted along from one tassel to another, or
+tie each one securely and cut. The fringe will need no finishing at the
+ends. Run the short ends, which were wound through the grooves in the
+beginning in order to fasten them, through a few stitches in the
+heading. The fringe can be made of one color, and of any width. To take
+the fringe from the loom, first remove the rod at the end of the tassels
+and cut the fringe before removing the rods from the heading. This will
+insure straight cutting at the ends of the tassels. If one prefers a
+knotted fringe, cut and knot before removing the heading. By examining
+rug fringes in the furniture stores one can get a very good idea of the
+manner of knotting. (See also directions for splicing Germantown wool on
+page 84.)
+
+[Sidenote: _Knotting_]
+
+A simple fringe can be knotted quickly and easily in the ends of the
+warp strings, after the rug is taken from the loom. First decide upon
+the length of the fringe when finished. Add at least two inches to allow
+for knotting. Cut each piece of wool twice this length, double, and
+thread a tape needle. Pass the needle from the right side of the rug to
+the wrong, through the warp strings at the end of the rug. Draw the loop
+of wool through and unthread the needle. Pass the two ends of the wool
+down through the loop and draw it tight. When this has been done in
+every pair of warp strings, knot every other piece of the fringe
+together, in the same way that towel fringe is made.
+
+This question of whether a rug should have fringe or not is much
+discussed at present. It is largely a personal one. The best way,
+perhaps, is to study different kinds of rugs and know which ones are
+usually made with fringe and which are not.
+
+[Illustration: _Bed shoes made of white wool_]
+
+[Sidenote: _Bed shoes, or socks_]
+
+[Sidenote: _Bed shoes_]
+
+[Sidenote: _Baby shoes_]
+
+Bed shoes of all sizes are easily woven, and make a useful holiday gift.
+They are made without soles and are intended to be drawn up around the
+ankle like a high moccasin. Use the soft double Germantown wool. White,
+fastened together with pink or blue, or white striped with a color, may
+be used, and are attractive. The socks in the illustration are of white
+wool with a pink seam up the instep and pink scallops around the top.
+One sock is shown on a last, and the other as it appears off the foot.
+The stripes in the knitting can be shown in the weaving by using a
+color. The full size of the loom makes a shoe of medium size. String a
+close warp with white wool. If the shoe is to be all white, weave with
+the same, leaving the color for the finishing. If it is to be striped,
+weave perhaps eight or ten times across with color and then with white;
+when the weaving is finished you will have a mat 9 × 12 inches. Double
+one of the short edges and sew over and over on the wrong side with
+white wool. This is the toe. The two long edges now lie together. They
+may be crocheted, or knitted, with colored wool by holding them close
+and fulling in, or by _puckering_ a little. If this is done in color,
+it makes a pretty seam on the top of the foot and front of the ankle.
+The top may be finished by crocheting a beading and scallops of the
+colored wool. Run a ribbon or worsted cord through the beading. If
+desired, the long edges may be laced together with ribbon one-half inch
+wide. Baby shoes are made in the same way. To ascertain what length to
+adjust the loom, measure the sole, then up, back of the heel, to a point
+above the ankle. For the width, measure around the foot. Finish the cord
+with tassels or balls.
+
+[Sidenote: _Worsted balls for bed shoes, and other articles_]
+
+To make worsted balls, first cut two small circles from cardboard. From
+the center of each cut a smaller circle. Hold one circle over the other,
+and with a worsted or tape needle threaded with wool, wind over and over
+very closely until the hole in the center is completely filled. Always
+piece the wool on the _outside_ edge. Cut the wool all around on the
+outside. Make a cord of the wool and slip _between_ the two circles.
+Then tie so as to fasten all the pieces of wool in the middle, leaving
+the cord long enough to tie in a bow if desired. Tear the pasteboards,
+remove them, and trim the wool evenly. A second ball should be fastened
+on the other end of the cord, _after_ it has been laced through the
+beading.
+
+[Sidenote: _Photograph frames_]
+
+To weave photograph and picture frames of silk, chenille, raffia,
+celluloid, or leather, proceed in the same way as for a bordered rug,
+having the oblong or square center the required size for the picture.
+Foundation frames for mounting the work can be purchased, usually, at
+the stores where tissue paper and flowers are sold.
+
+[Sidenote: _Table mats_]
+
+Square and oblong table mats for hot dishes can be made of
+candle-wicking, knitting cotton, or cheese cloth.
+
+[Sidenote: _Tippet or scarf_]
+
+To-day, tippets and scarfs are very little used, but they are very
+comfortable things to wear to school on a cold day. In order to make
+them, string a continuous warp of the required length with Germantown
+dark colored wool. Weave the same color for the woof, and brighten it at
+intervals with Roman stripes. A plaid scarf can be woven, if preferred;
+while with a close warp one can have a kindergarten pattern in another,
+or contrasting color.
+
+[Sidenote: _Wristlets_]
+
+In making wristlets, one must decide how long they are to be, and adjust
+the length on the loom. Measure around the wrist for the width,
+remembering that the wristlets will stretch when pulled over the hand.
+Weave in stripes or plaid, or, if desired, plain, stringing the warp
+with the same wool as is used in weaving. Remove the mat and sew the
+edges together.
+
+[Sidenote: _Sleeve protectors_]
+
+Sleeve protectors can be woven of raffia in the same way as wristlets.
+Make them so they can be fastened on the outside of the sleeve, like a
+cuff.
+
+[Illustration: _A table mat made from carpet wool_]
+
+[Sidenote: _Purses, or chatelaine bags_]
+
+Purses, or chatelaine bags, are made of knitting-silk. Beads can be
+added, if desired. Adjust the loom for the required size, and string a
+continuous warp, if necessary. One can obtain the silver or nickel tops,
+which open and close, at the department stores.
+
+[Illustration: _Borders for rugs or squares_]
+
+[Sidenote: _Shopping and school bags_]
+
+[Sidenote: _Opera glass bags_]
+
+It will be better to use heavier material for shopping and school bags.
+Raffia makes a strong bag; silk strips are serviceable, and leather
+strips are good for school bags. For opera-glass bags, make two mats and
+lace or weave them together, or string a continuous warp. Use rope silk,
+chenille, or knitting silk with beads.
+
+[Illustration: _Borders for rugs or squares_]
+
+When one has mastered the mysteries of weaving thoroughly enough to make
+a _good_ mat, it is very easy to "turn them into" various articles.
+There is no sleight of hand about it.
+
+[Sidenote: _Panels of silk canvas for boxes_]
+
+Silk canvas panels are made by adjusting the loom for the required size
+of the sides of the box, and weaving a plain mat for the top. A number
+of suggestions have been given on page 52, under the head of Materials.
+
+Pretty neckties of fine knitting silk can be made on the loom by using a
+continuous warp of the same material.
+
+[Illustration: _A square of silk canvas with cross-stitched pattern of
+chenille_]
+
+[Sidenote: _Sofa pillows, cushions, sachet cases and veil cases_]
+
+The accompanying illustration, and another on page 98, and also the
+vignette on the title page, show squares of silk canvas, and will give
+one many ideas of how they may be used. One has a cross-stitched pattern
+of chenille, and in another the chenille was alternated with silk in the
+warp, and both chenille and silk were used in the woof. The squares can
+be made up in cushion and box covers, sachet cases, sofa pillows, or the
+larger squares can be used as veil cases. A number of them can be joined
+for large sofa pillows. In the latter case they can be made of wool, and
+many of them could be crocheted together for an afghan or slumber robe.
+
+[Illustration: _Pattern for rugs or squares_]
+
+The design in the illustration is a pattern which may be used for
+either a Wilton or Axminster rug, or for mats, sachet cases, cushion or
+box covers, or cross-stitch embroidery on burlap, or silk, or wool
+canvas. The patterns given on pages 120, 125, 130, and 134 will be found
+adaptable for rugs or squares.
+
+[Sidenote: _Slumber robes or afghans_]
+
+[Sidenote: _Portières_]
+
+Slumber robes or afghans have been previously mentioned on page 54,
+under the head of Materials. It will be found very easy, after a little
+experience with a continuous warp, to make strips of any length. It is
+better to wind the extra lengths of warp upon spools, as has been
+suggested, or around the tops of the rods. Large portières can be made
+of long strips of silk or silkoline cut bias. Fasten the long strips
+together horizontally in imitation of Bagdad curtains.
+
+[Illustration: _Borders for rugs or squares_]
+
+[Sidenote: _Hair receivers_]
+
+Hair receivers are easily made from raffia. Make a square mat and fold
+it in cornucopia form.
+
+
+
+
+Chapter Twelve
+
+ORIENTAL RUGS
+
+
+[Sidenote: _Rugs and draperies_]
+
+To be quite up to date, Miss Dolly should have oriental rugs and
+draperies in her house beautiful. These are easily made on the loom, and
+the little girl or boy, who has first copied a pattern and then seen it
+grow under patient fingers, has a thing of beauty and a joy forever.
+What could give more pleasure than to be able to say fifty years from
+now: "I wove that, my dear, when I went to school"? Truly the
+grandchildren would reply: "How I wish I could have gone to grandma's
+school!"--only they may have something equally beautiful which will take
+its place in that far-off time--who knows?
+
+[Illustration: _Border for rugs or squares_]
+
+[Illustration: _Borders for rugs or squares_]
+
+[Sidenote: _Patterns_]
+
+[Sidenote: _Oriental colors_]
+
+The patterns for oriental rugs familiar in the East have descended
+through hundreds of years, and the exquisite colors, produced by
+vegetable dyes, and increasing in richness and beauty with age, are only
+to be seen in old rugs. We have nothing in our modern dyes to compare
+with the old color. One is soon interested in the study of these Eastern
+treasures, and it becomes second nature in a short time not only to chat
+familiarly of Kermans, Serebends, Khivas, Bokharas, and Kiz-Kilims, _ad
+infinitum_, but to jot down now and then in one's notebook, or still
+better in one's design book (made of the kindergarten squared paper,
+one-eighth inch), a pretty border or centerpiece for the rug which is to
+grace some doll house. The patterns of Turkish rugs (see page 127) are
+of geometrical or arabesque designs--an edict from the Koran having
+prohibited the reproduction of living things. The Persians, however,
+weave animals, birds, etc., as their ancestors did in days gone by.
+
+[Sidenote: _Inscriptions on Persian rugs_]
+
+There is some very interesting reading in "Oriental Rug Weaving," by V.
+Kurdji, on the subject of inscriptions often found on Persian rugs. He
+says: "If the possessors of some of the rare pieces that are sold in
+this country knew the meaning of the inscriptions woven in their rugs,
+the knowledge would add a charm and interest which would make them more
+valuable than the harmonious colors so beautifully blended."
+
+[Illustration: _Pattern for border of Persian rug_]
+
+[Sidenote: _Bokkara rugs_]
+
+[Sidenote: _Khiva rugs_]
+
+Oriental rugs take their names from the countries or provinces in which
+they are made. Bokhara rugs are made in mountainous districts of
+Turkestan, and have never been successfully imitated, because the dyes
+used are made from a plant grown only in that district. The designs are
+geometrical, and the colors deep maroon or blue. The pile is woven as
+close as velvet. They are noted for the superior quality of their dyes.
+Khiva rugs, sometimes called afghan, are made in Turkestan. They
+resemble the Bokhara rugs, but are coarser in texture and heavier in
+pile, and they differ from them in having a wide selvage at each end.
+Some Khivas have a small pattern in red mosaic over the surface with a
+circle in the center. One often sees a rug made of a rich golden yellow
+with a background of dark red.
+
+[Illustration: _A Kiz-Kilim rug pattern_]
+
+[Illustration: _Pattern for a Kiz-Kilim stripe_]
+
+[Sidenote: _Kiz-Kilim rugs_]
+
+The Kiz-Kilim rugs have no nap, and are woven with a needle. They are
+thin and almost alike on both sides. The larger sizes are woven in two
+strips fastened together so that they can be taken apart and used for
+curtains. "These Kiz-Kilims are woven by Armenians and Turks in Anatolia
+(the land of sunrise, and the Greek name for Asia Minor). The literal
+translation of the word Kiz-Kilim is bride's rug, it being a custom in
+that country for a bride to present to her husband one of these rugs,
+which she has woven during her engagement to him. The quality of the rug
+is supposed to measure the quality of the husband's affection for his
+bride, consequently we have many beautiful specimens of this class, the
+brilliant hues and intricate designs of which could only have been
+inspired by the whisperings of Cupid. They are in open-work
+patterns--called perforated--and often have long tufts of colored silk
+tied to the rugs with blue beads, in order to keep them from the effects
+of the Evil Eye." The Kiz-Kilim rug in the illustration was copied from
+a genuine rug. The filling is a deep blue and the borders are in
+oriental colors. The center figure is white, with red, brown, and yellow
+inside. There are four kinds of Kilims. Much interesting and valuable
+information can be found in John Kimberley Mumford's "Oriental Rugs";
+New York: Charles Scribner's Sons, 1900, where directions for weaving
+Kiz-Kilims, Khivas, and Bokharas are given, with a few patterns.
+
+[Illustration: _A Kiz-Kilim rug_]
+
+[Sidenote: _Materials used_]
+
+[Sidenote: _Perforations_]
+
+[Illustration: _Pattern for a Turkish rug_]
+
+Oriental wools or carpet ravelings are used for these rugs. Copy your
+figures and colors from genuine rugs. The accompanying patterns were
+obtained in this way. See directions on page 47 for stringing a double
+warp with fringe at each end. First fasten the pattern under the warp;
+then weave about one-quarter inch at each end with carpet thread like
+the warp. This will make it look like a "truly" Kiz-Kilim. Next to
+this, weave a very narrow strip of several colors each twice across,
+regarding the double strings as one. Then weave each part of the narrow
+border. To make the perforations, take up one thread of the double warp
+for one side of the pattern, and the other thread for weaving the
+pattern next to it. For instance, the "steps," as the children call
+them, of triangle No. 1, when finished, will stand close to the steps of
+triangle No. 2, with a little slit between. These perforations occur
+only where one pattern joins another of a different color, or the dark
+filling. For instance, in the white figure in the center, where three or
+five squares come together, the slits occur at each end, the part
+between being woven over the double strings as if they were only one. In
+this way the perforations of other parts are closed top and bottom. Use
+a tape needle and weave each section of the pattern separately. Weave
+the filling last. As this peculiar tone of blue could not be obtained in
+carpet ravelings, an eighth of a yard of terry was raveled for the
+purpose. Take care not to draw any part of the pattern too tight, or the
+perforations will be too large. The right and left edges of the rug are
+woven over the rods to keep them straight. Both narrow borders were
+woven before the center was commenced. The pattern in the illustration
+is for a Wilton or Axminster rug, but can be used for mats, or box,
+sachet, and cushion covers. It is made with cross-stitch embroidery on
+burlap, silk, or wool canvas. (See also page 120.)
+
+[Illustration: _A pattern for a rug or square_]
+
+[Sidenote: _Turkish patterns laid with tablets_]
+
+The children can lay these Turkish patterns with square tablets upon
+their desks, the pattern being drawn upon the board, or on paper with a
+rubber pen. It will be a delight to the children to transfer them to
+paper by drawing and then coloring, or by cutting and pasting colored
+papers.
+
+[Sidenote: _Stitches for Khiva and Bokhara rugs_]
+
+The genuine Khiva and Bokhara rugs are made by weaving and knotting
+alternately. It will be easier at first to weave a web, or foundation.
+Choose a tight twisted yarn about the color of the rug to be woven.
+String a close warp of the wool and weave plain up and down, one string
+at a time, until you have a rug of the desired size. Put in the pattern
+first, and then the filling. This work will be almost too difficult for
+_little_ children. Carpet wools and Germantown wool can be used. It will
+not be found difficult to follow the pattern, especially if one is used
+to cross-stitch embroidery. Each stitch counts for one of cross-stitch.
+Keep the stitches very close together so that the nap will stand up well
+when finished. Silk rugs can be copied in the same way, using floss or
+rope silk for the pile. If one prefers, a piece of burlap may be
+stretched across the loom and secured to the rods, instead of weaving a
+foundation, as suggested.
+
+[Illustration: _Stitches for pile weaving_]
+
+[Sidenote: _Stitches for pile weaving_]
+
+[Sidenote: _The first stitch_]
+
+Stitches for pile weaving are very easily made. This illustration
+showing examples of stitches for pile weaving illustrates the methods
+used in the stitches, and may be used for Axminster or Wilton rugs, for
+boxes, sachet cases, and other articles. The tape needle is the kind
+used for weaving when the large needle cannot be used. It is preferable
+to use one of this kind on account of the eye and blunt point, and it
+may be obtained at the notion counter in department stores for a few
+cents. There are two stitches, each occupying half of the illustration
+and numbered from left to right, beginning at the top. Make No. 1 by
+passing a tape needle threaded with wool down through the web, leaving a
+short end, then up one stitch to the left. This is the first step. In
+No. 2 continue over on the right side, _past_ the stitch where you
+started, to the stitch on the right; then down and up through the first
+hole, and cut off the wool the same length as the end you left at first.
+No. 3 shows a stitch completed. No. 4, one row of stitches, and No. 5,
+three rows, showing how one row overlaps another. When the rug is
+finished, the ends should be cut evenly, so that the nap is like velvet.
+The children would say that this stitch looks like a two-legged stool,
+and so it does.
+
+[Sidenote: _The second stitch_]
+
+The second stitch is made so that the nap lies sideways from left to
+right. No. _a_ is just like the preceding stitch. No. _b_ shows the
+needle passing down the stitch where you started and up one stitch to
+the right. Cut off the wool and pull the end left at first over the
+last one. This pile should stand very straight and even. No. _c_ shows a
+completed stitch; No. _d_ one row, and No. _e_ three rows. These
+stitches are useful in mending Khiva and Bokhara rugs.
+
+[Sidenote: _Wilton and Axminster rugs_]
+
+Wilton, Axminster, or any rugs having a pile, can be woven with the same
+stitches. The pattern in the illustration may be used for either a
+Wilton or Axminster rug, for a box cover, cushion, sachet case, or mat;
+and can be cross-stitched embroidery, on burlap, silk or woolen canvas.
+
+[Illustration: _Pattern for a rug, mat or cover_]
+
+
+
+
+Chapter Thirteen
+
+NAVAJO BLANKETS
+
+
+[Illustration: _A miniature Indian loom_]
+
+[Sidenote: _A sketch_]
+
+[Sidenote: _Indian weaving_]
+
+[Sidenote: _The colors used_]
+
+[Sidenote: _Old Indian blankets are rare_]
+
+[Sidenote: _Description of the illustration_]
+
+Navajo blankets were first made by the Pueblo Indians, from whom the
+Navajo Indians learned the art, and not long after the latter excelled
+in the making of them. Among the Pueblo Indians the men do the work; but
+women are the weavers among the Navajos. In the illustration on this
+page is seen a miniature Navajo loom with the blanket commenced. The two
+cords woven at the sides with the woof can be easily seen. Simple looms
+are suspended between two posts or trees, and the weaver sits upon the
+ground. A twig is used for a shuttle, and a reed, fork-shaped like a
+hand, is used to push down the woof threads. The blanket is made
+waterproof by pounding down the threads with a batten, a good picture of
+which is seen in Dr. Washington Matthews' article on Navajo weavers in
+the Third Annual Report of the Bureau of Ethnology. Separate balls of
+color are used to carry out the pattern, which is sometimes traced in
+the sand before the work is commenced. As many as twenty-nine different
+balls have been seen hanging from a single blanket. Some of the designs
+have been handed down from one generation to another, and are carried
+entirely in the memory. They are often symbolical "and unfold a whole
+legend to the knowing eye of the native." The weaving is done from the
+bottom up, some working in one direction, while others weave first at
+the bottom, then turn the loom upside down, and, after weaving about the
+same distance there, finish in the middle. The last part of the weaving
+is like darning, and is often done with a needle. The colors most used
+are white, gray, black, a bright yellow, red (a scarlet, generally
+obtained by raveling bayeta cloth), and sometimes blue. In former times,
+when the Indians used vegetable dyes, the colors were beautiful and
+lasting. These old blankets are becoming more and more rare, and to-day
+in their places we have the bright and not always satisfactory results
+of aniline dyes. The blanket in the illustration facing this page has
+narrow stripes in the following colors: On each end (seven stripes) red,
+black, white, orange, green, white, black. The two groups of six stripes
+in the middle are: Black, white, red, green, white, black. Before the
+advent of the present squaw dress, the black, red, and dark blue
+blankets were used as clothing, but the best blankets were, and still
+are, worn at sacred dances. Dr. Matthews, in his report, gives an
+interesting description of the method of making these blankets, with
+several pictures of the better examples. Navajo blankets are finished
+with four border cords, which are secured as the weaving progresses, and
+the ends are fastened at the four corners by small tassels.
+
+[Illustration: _A Navajo Indian woman weaving a blanket_]
+
+[Sidenote: _Method of making_]
+
+[Sidenote: _Indian blankets_]
+
+Small Navajo blankets can be woven on the loom. Draw the pattern and
+place under the warp, fastening it to the side rods. Use warp or carpet
+thread for the warp, and weave with a tape or upholstery needle. One may
+weave all the pattern first, and then put in the filling; while another
+will weave as the Indians do, filling in from one part of the pattern to
+the other by threading the needle with a different color. This can be
+done, without running the thread underneath, by hooking it in the loop
+of the pattern just finished. These little blankets are very fascinating
+things to make, and the children become much interested in them, and in
+Indian life as well.
+
+[Illustration: _A Navajo blanket_]
+
+[Sidenote: _The colors in the blanket on page 141_]
+
+This very beautiful Navajo blanket, shown in the illustration, has three
+broad red stripes, two narrow red stripes about one-half the width of
+the former, and four gray stripes about one-half the width of narrow red
+stripes. The centers of all the figures are red, like the filling--a
+brilliant scarlet. The colors of the large figures, beginning at the
+center of each, and counting from left to right, are as follows: Nos. 1,
+3, and 5, red, green, and light yellow. Nos. 2 and 4, red, white, and
+black. The small figures, counting the same way, are: Nos. 1, 3, and 5,
+red, white, and black. Nos. 2 and 4, red, yellow, and green. The four
+corners are finished with twisted red cord-like tassels. This cord also
+extends across the warp ends. Dr. Matthews tells in his article on
+"Navajo Weavers" how two cords are twisted and woven at the sides with
+the woof.
+
+[Illustration: _A very beautiful Navajo Indian blanket, showing the
+manner of decoration_]
+
+The two Navajo Indian blankets illustrated in this chapter, and the
+pattern on the following page, may be easily adapted for the loom.
+Germantown knitting wool or carpet ravelings can be used, although to
+obtain softer wool is better. Some of the handsomest Navajo blankets
+have a long nap.
+
+[Sidenote: _Navajo patterns laid with tablets_]
+
+The children will take pleasure in laying Navajo patterns with
+triangular tablets, and then transferring the pattern to paper by
+drawing and coloring, or by cutting and pasting in colors.
+
+[Illustration: _A pattern for a Navajo blanket_]
+
+
+
+
+Chapter Fourteen
+
+SONGS, GAMES, AND STORIES
+
+
+There are many beautiful songs which can be sung during the weaving.
+Thomas Carlyle has said:
+
+[Sidenote: _Songs and games lighten work_]
+
+"Give us, O give us the man who sings at his work! He will do more in
+the same time; he will do it better; he will persevere longer. One is
+scarcely sensible of fatigue whilst he marches to music, and the very
+stars are said to make harmony as they revolve in their spheres."
+
+[Sidenote: _Songs for the children_]
+
+There are songs about the birds' nests, always pleasing to the little
+folks, and doubly so when they have held in their own hands the
+wonderful bit of weaving, so strong and yet so soft, woven by the
+mother-bird for the baby-birds. Mrs. Spider is also very interesting
+with her lace-like webs which are to be found even in well-regulated
+schoolrooms, and the songs of the bleating sheep who give us their wool
+fill every little heart with delight. Miss Poulsson's Finger Play, "The
+Lambs," gives the restless fingers something to do and the "eight white
+sheep all fast asleep" afford a chance for a good laugh over the "two
+old dogs close by" (the thumbs). One has the opportunity, too, of
+noticing whether the eight white sheep on the tiny hands are really
+_white_ enough to do the weaving. A smiling allusion to some small
+_black_ sheep will bring them back clean for the next session.
+
+[Sidenote: _A weaving game_]
+
+The following weaving game can be played in several ways. This extract
+is from the "Kindergarten Guide," by Lois Bates: "Six children stand in
+a row; a tall one at each end for the border of the mat and the other
+four representing the strips. The child who is to be the weaver holds
+one end of a long tape, while the other is fastened to the left shoulder
+of the first child. The weaver weaves the tape in and out among the
+children, placing the second row lower down. It will be easily seen that
+the children who had it passed in _front_ of them in the first row, had
+it _behind_ them in the second, and vice versa."
+
+The following weaving song in the Walker and Jenks book can be sung
+during the weaving. To be sure it is not really "over and under" when
+you think of them as _children_. Remember that they represent a mat,
+and they are for the time the strips and border.
+
+    (_Sung to the tune of "Nellie Bly._")
+
+    Over one, under one,
+    Over one again.
+    Under one, over one,
+    Then we do the same.
+    Hi, weavers! Ho, weavers!
+    Come and weave with me!
+    You'll rarely find, go where you will,
+    A happier band than we!
+
+Kate Douglas Wiggin (Mrs. Riggs) in her "Republic of Childhood"
+describes the game in this way:
+
+[Sidenote: _Explanation of the game_]
+
+"First choose a row of children for threads of the warp, standing at
+such a distance from each other that a child may pass easily between
+them. Second, choose a child, or children, for thread of woof. After
+passing through the warp, each child takes his place at the end and
+other children are chosen." In this way more children can take part than
+if a tape were used. Some teachers play it in a different way, using the
+desks with the seats turned up for the warp and the whole number of
+children for the woof, winding in and out all over the room. This is
+very delightful, indeed, if there is enough space for the children to
+pass easily without tripping on the iron supports of the desks. This is
+a good game for a rainy day, when there is no outdoor recess.
+
+[Sidenote: _Bird games_]
+
+The bird games are beautiful and leave a wholesome impression of home
+life and home love on the children, which will have a lasting influence.
+Few children, brought up in this tender and beautiful way, will ever
+feel an inclination to harm the birds, or indeed any animal.
+
+[Sidenote: _Interesting stories_]
+
+The fund of stories of birds and birds' nests is almost inexhaustible.
+Miss Poulsson's "In the Child's World" contains many stories of the
+weaver (pages 407-412), and several about birds and birds' nests (pages
+292-301). Her talks to teachers with regard to the presentation of each
+subject are very helpful, as well as her suggestions for the teachers'
+reading. Stories of the weaving birds, particularly the African weaver,
+are interesting. It is said that two birds work together, one on the
+inside of the nest and the other on the outside, passing the grass and
+twigs in and out, until the home is completed. The children will enjoy,
+too, stories of weaving in other lands, material for which can be easily
+obtained. In fact, no one need to be without stories in these days of
+books and magazines.
+
+[Sidenote: _Conversation_]
+
+[Sidenote: _Never repress the children_]
+
+Last, but not least, is the conversation during the weaving. Anyone who
+has attended a teachers' meeting, where the industrial work was being
+given, has not failed to remark the sociability all over the room. "How
+are you getting on?" "Let me see yours." "Oh, I cannot get it at all,"
+etc., etc., are heard everywhere, and yet those same teachers go into
+their class rooms the next day and expect the children to work without
+whispering. If they will read what Mrs. Wiggin says in the "Republic of
+Childhood," in her talk on "Sewing," they will never be guilty of it
+again. A good plan is to have the room perfectly quiet while a dictation
+is being given, and then allow a period of relaxation when the little
+folks can compare and admire the work to their hearts' content. Beware
+of too much repression. A child when asked why a tree grew crooked,
+replied: "Somebody stepped on it, I suppose, when it was a little
+fellow." The answer is painfully suggestive. Mrs. Wiggin truly says: "If
+the children are never to speak except when they answer questions, how
+are we to know aught of their inner life?"
+
+The following list of songs, games, and stories suggests interesting
+material to correlate with the work in hand-loom weaving.
+
+
+SONGS AND GAMES
+
+ATKINSON, FRANK H., JR. Singing Songs for Children. See COONLEY.
+
+BEEBE, KATHERINE. Schoolroom Plays. _Chicago: Thomas Charles Co._ 25
+cents.
+
+    A Weaving Game.
+
+BROWN, KATE L. Stories in Song. See EMERSON.
+
+COOLIDGE, ELIZABETH. After Supper Songs. _Chicago: Herbert S. Stone &
+Co._ $2.00.
+
+COONLEY, LYDIA A.; SMITH, ELEANOR; GAYNOR, JESSIE L.; ROOT, FREDERICK
+W.; and ATKINSON, FRANK H., JR. Singing Verses for Children. _New York:
+The Macmillan Co._ $2.00.
+
+DAVIS, KATHERINE WALLACE. Singing Rhymes and Games. _Chicago: Clayton T.
+Summy Co._ 35 cents.
+
+EMERSON, ELIZABETH U., and BROWN, KATE L. Stories in Song. _Boston:
+Oliver Ditson Co._ $1.00.
+
+    The Oriole's Nest.
+
+FORSYTHE, CLARENCE. Old Songs for Young America. _New York: Doubleday,
+Page & Co._ 1901. $2.00.
+
+    Needle's Eye.
+
+GAYNOR, JESSIE L. Songs of the Child World. _New York: The John Church
+Co._ $1.00.
+
+    The Bird's Nest.
+    The Happy Lambkins.
+    Song of the Shearers.
+    Spinning the Yarn.
+    Grandma's Knitting Song.
+    Weaving Song.
+
+GAYNOR, JESSIE L. See also COONLEY.
+
+HILL, PATTY S. Song Stories for the Kindergarten. _Chicago: Clayton T.
+Summy Co._ $1.00.
+
+    The Children and the Sheep.
+
+HOFER, MARI RUEF. Children's Singing Games _Chicago: Published by Mari
+Ruef Hofer, Kindergarten Magazine Co._ 50 cents.
+
+
+HUBBARD, CLARA BEESON. Merry Songs and Games. _St. Louis: Balmer & Weber
+Music Co._ $2.00.
+
+JENKS, HARRIET S. Songs and Games for Little Ones. See WALKER.
+
+NEIDLINGER, W. H. Small Songs for Small Singers. _New York: G.
+Schirmer._ $1.00.
+
+    The Spider.
+    The Bee.
+    The Rainy Day.
+
+NURSERY STORIES and Rhymes for the Kindergarten and Home. _Springfield,
+Mass.: Milton Bradley Co._ $1.00.
+
+    The Song of a Baby's Blanket.
+    The Song of a Baby's Shirt.
+
+PRATT, WALDO S. St. Nicholas Songs. _New York: The Century Co._ $2.00.
+
+ROOT, FREDERICK W. Singing Songs for Children. See COONLEY.
+
+SMITH, ELEANOR. First Book in Vocal Music. _Chicago and New York:
+Silver, Burdette & Co._ 30 cents.
+
+    Oriole's Nest Song.
+    Spinning Song.
+
+
+SMITH, ELEANOR. A Primer of Vocal Music. _Chicago and New York: Silver,
+Burdette & Co._ 25 cents.
+
+    The Lazy Sheep.
+    The Spider.
+    The Silkworm.
+
+---- See also COONLEY.
+
+SONGS IN SEASON. Plan Book. _Chicago: A. Flanagan._ 50 cents.
+
+    The Lambkin.
+
+
+WALKER, GERTRUDE, and JENKS, HARRIET S. Songs and Games for Little Ones.
+_Boston: Oliver Ditson Co._ $1.50.
+
+    Birdies in the Green Wood.
+    Fly, Little Birds.
+    In the Branches of a Tree.
+    Eight White Sheep.
+    Weaving Song.
+
+
+STORIES
+
+ANDREWS, JANE. Each and All. _Boston: Ginn & Co._ 50 cents. _Boston: Lee
+& Shepard._ $1.00.
+
+    New Work for Pense.
+
+CHASE, A., and CLOW, E. Stories of Industry. _Boston: Educational
+Publishing Co._ 2 vols. 60 cents each.
+
+    Stories of Cotton, Wool, Silk, and Carpets.
+
+CLOW, E. Stories of Industry. See CHASE.
+
+FARMER, LYDIA HOYT. Boy's Book of Famous Rulers. _New York: Thomas Y.
+Crowell & Co._ $1.50.
+
+    Robert Bruce and the Spider.
+
+MILLER, OLIVE THORNE. Little Folks in Feathers and Fur, and Others in
+Neither. _New York: E. P. Dutton & Co._ $2.50.
+
+    The Spider Speaks for Herself.
+    Stories of Caterpillars and Butterflies.
+    A Funny Little Log House.
+
+PIERSON, CLARA DILLINGHAM. Among the Farmyard People. _New York: E. P.
+Dutton & Co._ $1.25.
+
+    The Lamb with the Longest Tail.
+    The Twin Lambs.
+    Why the Sheep Ran Away.
+
+POULSSON, EMILIE. Nursery Finger Plays. _Boston: Lothrop Publishing Co._
+$1.25.
+
+    The Lambs.
+
+---- Child Stories and Rhymes. _Boston: Lothrop Publishing Co._ $1.25.
+
+    The Story of Baby's Blanket.
+
+---- In the Child's World. _Springfield, Mass.: Milton Bradley Co._
+$2.00.
+
+    Stories of Caterpillars and Butterflies.
+    A Visit to the Weaver.
+    John's Trousers.
+    How a Little Boy got a New Shirt.
+    Molly's Lamb.
+    Sequel to an Old Story.
+    Cotton Field Stories.
+    The Flax.
+    The Flax Flower.
+    The Silk Worm.
+    The Sparrow's Nest.
+    The Life of a Silk Worm.
+    The Goddess of the Silk Worm.
+    The Nest of Many Colors.
+    The Little Worm that was Glad to be Alive.
+
+SMITH, NORA A. The Story Hour. See WIGGIN.
+
+STORIES IN SEASON. Plan Book. _Chicago: A. Flanagan._ 35 cents.
+
+    The Bramble Bush and the Lambs.
+
+WIGGIN, KATE DOUGLAS (Mrs. George C. Riggs), and SMITH, NORA A. The
+Story Hour. _Boston: Houghton, Mifflin & Co._ $1.00.
+
+    The Child and the World.
+
+WILTSE, SARA A. Kindergarten Stories and Morning Talks. _Boston: Ginn &
+Co._ 75 cents.
+
+    Stories of Wool, etc.
+
+
+
+
+Chapter Fifteen
+
+A LIST OF HELPFUL BOOKS AND MAGAZINE ARTICLES
+
+
+BOOKS
+
+ALBEE, MRS. HELEN R. Abnákee Rugs. _Boston: The Riverside Press. Issued
+by the author, Pequaket, Silver Lake P. O., N. H._
+
+---- Mountain Playmates. _Boston: Houghton, Mifflin & Co._
+
+     (Chapter on Rug-making.)
+
+ASHENHURST, THOMAS R. Designs in Textile Fabrics. _London: Cassell &
+Co._
+
+---- Weaving and Designing of Textile Fabrics. _London: Simpkin,
+Marshall & Co._
+
+     (Chapters on History of Weaving, Color, and Combination and
+     Arrangement of Designs.)
+
+BATES, LOIS. Kindergarten Guide. _New York: Longmans, Green & Co._
+
+BENJAMIN, S. G. W. Persia and the Persians. _Boston: Houghton, Mifflin &
+Co._
+
+BIRDWOOD, SIR GEORGE. Industrial Arts of India. _London: Chapman &
+Hall._
+
+BISHOP, MRS. I. B. Journeys in Persia and Kurdistan. _New York: G. P.
+Putnam's Sons._
+
+CAINE, WILLIAM S. Picturesque India. _New York: George Routledge &
+Sons._
+
+COLLINS, TREACHOR E. In the Kingdom of the Shah. _London: T. Fisher
+Unwin._
+
+DAVIE, OLIVER. Nests and Eggs of North American Birds. _Columbus, Ohio:
+The Landon Press._
+
+DELLENBAUGH, FREDERICK S. North Americans of Yesterday. _New York: G. P.
+Putnam's Sons._
+
+DIXON, CHARLES. Curiosities in Bird Life. _London: George Redway & Son._
+
+---- Curious Nests. _London: George Redway & Son._
+
+DUGMORE, A. RADCLYFFE. Bird Homes. _New York: Doubleday, Page & Co._
+
+EARLE, ALICE MORSE. Home Life in Colonial Days. _New York: The Macmillan
+Co._
+
+FIRTH, ANNIE. Cane Basket Work. _London: L. Upcott Gill. 1899. New York:
+Charles Scribner's Sons._
+
+GRINNELL, GEORGE BIRD. Indians of To-day. _New York: D. Appleton & Co._
+
+---- Story of the Indian. _New York: D. Appleton & Co._
+
+GURDJI, V. Oriental Rug Weaving. _New York: F. Tennyson Neely Co._
+
+HERRICK, FRANCIS HOBART. The Home Life of the Wild Birds. _New York: G.
+P. Putnam's Sons._
+
+HOLT, ROSA BELLE. Rugs: Oriental and Occidental. _Chicago: A. C. McClurg
+& Co._
+
+HOW TO MAKE and How to Mend. (Directions for dyeing.) _New York: The
+Macmillan Co._
+
+HUMMEL, PROF. The Dyeing of Textile Fabrics. _New York: Cassell & Co._
+
+JAMES, GEORGE WHARTON. Indian Basketry. _New York: Henry Malkan. 1902._
+
+KNAPP, ELIZABETH S. Raphia and Reed Weaving. _Springfield, Mass.: Milton
+Bradley Co._
+
+KRAUS-BOELTE, MME. Kindergarten Guide. (Occupations.) _New York: Steiger
+& Co._
+
+MASON, O. T. Woman's Share in Primitive Culture. _New York: D. Appleton
+& Co._
+
+MORRIS, WILLIAM. Some Hints on Pattern Designing. _New York: Longmans,
+Green & Co._
+
+MUMFORD, J. K. Oriental Rugs. _New York: Charles Scribner's Sons._
+
+SHELDON, WILLIAM E., and others. Illustrated Lessons with Paper Folding.
+_Springfield, Mass.: Milton Bradley Co._
+
+WALKER, LOUISA. Varied Occupations in String Work; comprising Knotting,
+Netting, Looping, Plating, and Macremé. _New York: The Macmillan Co._
+
+---- Varied Occupations in Weaving. _New York: The Macmillan Co._
+
+WHEELER, MRS. CANDACE. Home Industries and Domestic Weavings. _New York:
+Associated Artists, 115 East 23d Street._
+
+WHITE, MARY. How to Make Baskets. _New York: Doubleday, Page & Co.
+1902._
+
+WIEBE, EDWARD. Paradise of Childhood. _Springfield, Mass.: Milton
+Bradley Co._
+
+WIGGIN, KATE DOUGLAS (Mrs. George C. Riggs). Republic of Childhood
+(Occupations). _Boston: Houghton, Mifflin & Co._
+
+WORST, EDWARD F. Construction Work. _Chicago: A. W. Mumford. 1901._
+
+
+FINE ART BOOKS
+
+The following books can be found in the Fine Art Collections in some
+public libraries. They are very valuable and contain many very beautiful
+illustrations of oriental rugs and carpets, which are helpful in the
+study of design and of harmony in color:
+
+BURTY, P. Masterpieces of Industrial Art.
+
+COXON, HERBERT. Oriental Carpets.
+
+LESSING, JULIUS. Ancient Oriental Carpet Patterns.
+
+ROBINSON, VINCENT J. Eastern Carpets.
+
+VIENNA IMPERIAL AND ROYAL AUSTRIAN MUSEUM. Oriental Carpets.
+
+
+MAGAZINE ARTICLES
+
+A PROFITABLE PHILANTHROPY, by Mrs. Helen R. Albee. _Review of Reviews,
+July, 1900._
+
+ART OF THE AMERICAN INDIAN. _Chautauquan, March, 1899._
+
+A STUDY OF THE TEXTILE ART, by Wm. H. Holmes. _Sixth Annual Report,
+Bureau of Ethnology, Washington, D. C._ (pp. 84, 85.)
+
+DOMESTIC ART NUMBER. _Pratt Institute Monthly, February, 1901._
+
+HOME INDUSTRIES AND DOMESTIC MANUFACTURES, by Mrs. Candace Wheeler. _The
+Outlook, Oct. 14, 1899._
+
+INDUSTRIAL CLASSES IN SETTLEMENT WORK, by George W. R. Twose. _Pratt
+Institute Monthly, November, 1898._
+
+[Sidenote: _Magazine articles_]
+
+INDUSTRIAL EDUCATION AS A SOCIAL FORCE, by H. W. Stebbins. _Educational
+Review, May, 1902._
+
+JUVENILE PORTIERE MAKERS. _New York Tribune, New York City, March 10,
+1901._ Reprinted in _Minneapolis Journal Junior, April 20, 1901,
+Minneapolis, Minn._
+
+LEAF CUTTING (for rug designs). _Pratt Institute Monthly, April, 1900._
+
+MRS. VOLK AND HER WORK. _Good Housekeeping, September, 1901._
+
+NAVAJO WEAVERS, by Dr. Washington Matthews. _Third Annual Report of
+Bureau of Ethnology, Washington, D. C._
+
+     (This volume also contains a number of fine illustrations of
+     blankets, etc.)
+
+NEW ENGLAND RUGS. _Minneapolis Journal, Minneapolis, Minn., March 28,
+1900._
+
+ON THE DESIGNING AND MAKING OF CARPETS, by F. J. Mayer. _The Artist,
+July and August, 1899._
+
+PREHISTORIC TEXTILE ART OF EASTERN UNITED STATES, by Wm. H. Holmes.
+_Thirteenth Annual Report of Bureau of Ethnology, Washington, D. C._
+(pp. 91, 92.)
+
+SOME SOCIAL ASPECTS OF EDUCATION, by G. Stanley Hall. _Educational
+Review, May, 1902._
+
+STRAW WEAVING. _American Homes, Knoxville, Tenn., September, 1900._
+
+_Teachers' College Record._ Teachers' College, Columbia University, New
+York.
+
+     (Containing a number of articles on weaving.)
+
+TEXTILE INDUSTRIES OF THE UNITED STATES. _Chautauquan, March, 1899._
+
+TEXTILE INDUSTRY SINCE 1890. _Forum, May, 1899._
+
+TEXTILES, OLD AND NEW. _The Craftsman, The United Crafts, Eastwood, N.
+Y., January, 1902._
+
+     (Contains "Notes from the History of Textiles," "A Revival
+     of English Handicrafts," and "Brain and Hand.")
+
+_The Elementary School Record_, by Dr. John Dewey. Numbers 1 to 9. _The
+University of Chicago Press, 1900._
+
+     (Containing a number of articles on weaving and a record of
+     industrial work done in the University Elementary School of
+     the University of Chicago.)
+
+THE LABOR MUSEUM AT HULL HOUSE, by Jessie Luther. _The Commons, Hull
+House, Chicago, Vol. VII., No. 70, May, 1902._
+
+     (Containing valuable illustrations of old looms, and the
+     methods of spinning and weaving.)
+
+WEAVERS OF THE PHILIPPINES, by G. E. Walsh. _The Catholic World, March,
+1902._
+
+WHAT IS BEING DONE IN TEXTILE EDUCATION. _Chautauquan, August, 1900._
+
+Many topics interesting to teachers of industrial work are dealt with in
+the instruction papers of the International Correspondence Schools,
+Textile department. Communications should be addressed to Christopher P.
+Brooks, New Bedford, Mass.
+
+
+
+
+The Index
+
+
+"Abnákee Rug Industry," 63 ff.
+
+Accuracy, weaving develops, 22.
+
+Acids, used in dyeing, 69, 74 ff.
+
+Action, relation to ideas, 8.
+
+Afghans, weaving of, 49, 54, 120, 121.
+
+Albee, Mrs. Helen R., 63, 64 ff.
+
+Angora wool, 57.
+
+Aniline dyes, 73.
+
+Ashenhurst, quotations from, 13, 14, 16.
+
+Axminster rugs, 120-121, 131, 132, 134.
+
+
+Baby shoes, 115.
+
+Balls, worsted, 115.
+
+Basketry, preparation for, 23, 24.
+
+Bates, Lois, 23, 31, 144.
+
+Bath rugs, 100.
+
+Batten, The, Hindoo and Egyptian, 15.
+
+Bed shoes, 113, 114.
+
+Bed spreads, 109.
+
+Blankets, 56-57;
+  carriage, 109.
+
+Blue dye, 59-60;
+  wool carded, 62.
+
+Bokhara rugs, 123, 124-125, 128, 131, 134.
+
+Bookmark, 35-36, 37.
+
+Borders, 89, 109, 118, 121, 122, 123, 124.
+
+
+Candle-wicking, 52, 83-84, 108.
+
+Cap, 40.
+
+Carding, 62 ff.
+
+Carpet ravelings, see _Ravelings_.
+
+Carpet wool, rugs of, 105.
+
+Carriage blankets, 109.
+
+Celluloid strips, 55-56, 85.
+
+Chatelaine bags, 117-118.
+
+Cheese cloth, 51, 58 ff., 99, 108.
+
+Chenille, 42, 53;
+  splicing of, 83-84.
+
+Chinese, weaving practiced by, 13.
+
+Clavigero, on weaving in Mexico, 14.
+
+Clouding, 63.
+
+Coles, C. S., 24.
+
+Colors, 62, 64-65, 136-138;
+  color scheme, 66;
+  shading, 67-68;
+  see also _Dyes_, _Formulas_, and names of colors.
+
+Concentration, weaving develops, 22.
+
+Conversation in class room, 147.
+
+Copperas, 60.
+
+Cotton, darning, 55;
+  knitting, 55.
+
+Couch covers, weaving of, 49.
+
+Creed, The, 7;
+  disregarded, 7-8.
+
+Cushions, 120.
+
+
+Demonstration cards, 31.
+
+Designing, weaving prepares for, 23, 25.
+
+Designs, 27, 31, 33, 35, 47-48, 57, 105 ff., 120, 122.
+
+Dexterity, weaving develops, 22, 24.
+
+Discouragement, Froebel's theory, 17.
+
+Dish cloths, 99-100.
+
+Doll's shawl and skirt, 109-110.
+
+Doll's towel, 55, 108-109.
+
+Dusters, 107-108.
+
+Dyeing, 14, 58-82;
+  formulas, 73 ff.
+
+Dyes, kinds of, 58, 60, 61, 72, 73;
+  see also names of colors.
+
+
+Easel support for loom, 19.
+
+Egyptians, inventors of the loom, 14.
+
+
+Face cloths, 99-100.
+
+Felt mats, 23, 30-32.
+
+Finger Play, 143.
+
+Floor rugs, weaving of, 49-50.
+
+Formulas for colors, 73 ff.
+
+Frames, photograph and picture, 116.
+
+Free-paper weaving, 35.
+
+Fringe, 111-113.
+
+Froebel, Friedrich, 10, 17.
+
+
+Games, 143-152;
+  list of, 148 ff.
+
+Germantown wool, 54, 55, 84, 109, 114.
+
+Gifts, made by children, 21, 34, 37, 55, 113.
+
+Glauber salts, 68, 69, 71, 74 ff.
+
+Glove boxes, 104.
+
+Gray, wool carded, 62-63.
+
+Green dye, 66;
+  dull shade, 69.
+
+
+Hair receivers, 121.
+
+Hammocks, 93-98.
+
+Hand-training in kindergarten, 10, 22.
+
+Hindoo loom, 15-16.
+
+Holders, 91, 92.
+
+Hurwitz, Professor, 13.
+
+
+Indian dyes, 58.
+
+Indian loom, 135, 137.
+
+Individual, The, training of, 28.
+
+Industrial training, 11, 28-29.
+
+Ink stains, 61.
+
+Iron rust, 61.
+
+
+"Jacob's ladder," 39.
+
+
+Kerman rugs, 123.
+
+Khiva rugs, 123, 125, 128, 131, 134.
+
+Kindergarten, hand-training in, 10.
+
+"Kindergarten Guides," 23, 31, 33, 144.
+
+Kiz-Kilim rugs, 47, 123, 125, 126-129.
+
+Knotting fringe, 113.
+
+Kraus-Boelte, Mme., 25.
+
+"Kraus-Boelte Guide," 25.
+
+Kurdji, V., 124.
+
+
+Leaf forms, 107.
+
+Leaf stains, 61.
+
+Leather strips, 55, 85.
+
+Linings, 51.
+
+Loom, The, 13-21.
+
+Loom, The Todd Adjustable Hand, see _Todd_.
+
+Lunch cloths, 109.
+
+
+Macremé cord, 55;
+  splicing of, 83-84.
+
+Making, instinct for, 9.
+
+Manual training, 10.
+
+Materials, 10, 51-57.
+
+Mats, see _Felt_, _Paper_, and _Table_.
+
+Matthews, Dr. W., 58, 136, 138, 140.
+
+Measuring glass, 68-69.
+
+Mill, John Stuart, 8.
+
+Mitten, 40.
+
+Mordants, 68.
+
+Mottled rugs and borders, 87 ff.
+
+Mumford, John Kimberley, 128.
+
+
+Navajo blankets, 48, 135-142.
+
+Needle, used with loom, 19, 20.
+
+Nut stains, 60-61.
+
+
+Opera-glass bags, 118.
+
+Oriental cord, for warp, 43.
+
+Oriental rugs, weaving of, 122-134.
+
+"Oriental Rugs," 128.
+
+"Oriental Rug Weaving," 124.
+
+
+Panels, of silk canvas, 119.
+
+Paper mats, 23, 25, 33 ff.
+
+"Paradise of Childhood," 35, 105, 107.
+
+Patterns, see _Designs_.
+
+Pencil holder, 38.
+
+Persian rugs, designs for, 124.
+
+Photograph and picture frames, 116.
+
+Pile weaving, 132-134.
+
+Pink, wool carded, 62.
+
+Porch curtains, 104.
+
+Portières, 121.
+
+Poulsson, Miss, 143, 146.
+
+Practical training, need of, 10.
+
+Principles, value of learning, 23.
+
+Public schools, practical training in, 10, 18, 26-27.
+
+Purses, 117-118.
+
+"Pussy-cat stairs," 39-40.
+
+
+Quilts, 109.
+
+
+Raffia, 42, 45, 56, 58 ff., 71, 84-85.
+
+Raffia mats, method of weaving, 101-121.
+
+Ravelings, 43, 53, 83.
+
+Red dye, 60.
+
+Reins, 110.
+
+"Republic of Childhood," The, 34, 145.
+
+Rope silk, 42, 52-53;
+  splicing of, 84.
+
+
+Sachet cases, 120.
+
+Scarf, 116.
+
+School bags, 118.
+
+Scientific facts as applied in schools, 8.
+
+Sequence weaving, 35 ff.
+
+Serebend rugs, 123.
+
+Shawls, 109-110.
+
+Shetland wool, 56.
+
+Shoes, bed, 113-114;
+  baby, 115.
+
+Shopping bags, 118.
+
+Shuttle, Egyptian, 13;
+  Hindoo, 15.
+
+Silk, 52;
+  knitting, 57.
+
+Silk canvas, 119-120.
+
+Silkoline, 51, 83;
+  for rugs or mats, 86-92.
+
+Skirt, doll's, 110.
+
+Slats, weaving with, 23-24, 31-32.
+
+Sleeve protectors, 117.
+
+Slumber robes, 49, 54, 120, 121.
+
+Socks, 113-114.
+
+Sofa pillows, 120.
+
+Songs, games, and stories, 143-152, 148 ff.
+
+Splicing, methods of, 83-85.
+
+Splints, weaving with, 23-24, 39.
+
+Star, 37.
+
+Steiger, E., publisher, 35.
+
+Stories, 143, 152;
+  list of, 148 ff.
+
+"Straw Weaving," 104.
+
+Success, Froebel's theory, 17.
+
+Sweater, doll's, 41.
+
+
+Table cover, 49.
+
+Table mats, 38, 116, 117.
+
+Tam O'Shanter, 110.
+
+Tassels, 112.
+
+Tippet, 116.
+
+Todd Adjustable Hand-loom, 18-21.
+
+Towels, doll's, 55, 108-109.
+
+Turkish rugs, designs for, 47-48, 123-124.
+
+
+Vegetable dyes, 58, 61, 72.
+
+Vegetable fibres, for weaving, 13, 14.
+
+Veil cases, 120.
+
+
+Walker and Jenks, song by, 144, 145.
+
+Warp, 20, 42-50.
+
+Weaving, its advantages, 11, 22;
+  oldest of the industrial arts, 12, 13, 14;
+  defined, 22;
+  first steps in, 23, 30-41;
+  free paper, 35.
+
+Wheeler, Mrs. Candace, 58.
+
+Wiebe, Edward, 34, 35.
+
+Wiggin, Mrs. Kate Douglas, 34, 145.
+
+Wilton rugs, 120-121, 131, 132, 134.
+
+Woof, stringing of, 20.
+
+Wool, for weaving, 13, 14, 54, 62 ff.
+
+Worsted, splicing of, 83.
+
+Wristlets, 116-117.
+
+
+
+***END OF THE PROJECT GUTENBERG EBOOK HAND-LOOM WEAVING***
+
+
+******* This file should be named 31630-8.txt or 31630-8.zip *******
+
+
+This and all associated files of various formats will be found in:
+http://www.gutenberg.org/dirs/3/1/6/3/31630
+
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+http://www.gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS', WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at http://www.gutenberg.org/fundraising/pglaf.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at http://www.gutenberg.org/about/contact
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit http://www.gutenberg.org/fundraising/donate
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including checks, online payments and credit card donations.
+To donate, please visit:
+http://www.gutenberg.org/fundraising/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart is the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+Most people start at our Web site which has the main PG search facility:
+
+     http://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+

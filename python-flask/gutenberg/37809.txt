@@ -1,0 +1,2535 @@
+The Project Gutenberg EBook of A Taxonomic Revision of the Leptodactylid
+Frog Genus Syrrhophus Cope, by John D. Lynch
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: A Taxonomic Revision of the Leptodactylid Frog Genus Syrrhophus Cope
+
+Author: John D. Lynch
+
+Release Date: October 21, 2011 [EBook #37809]
+
+Language: English
+
+Character set encoding: ISO-8859-1
+
+*** START OF THIS PROJECT GUTENBERG EBOOK A TAXONOMIC REVISION OF THE ***
+
+
+
+
+Produced by Chris Curnow, Tom Cosmas, Joseph Cooper and
+the Online Distributed Proofreading Team at
+http://www.pgdp.net
+
+
+
+
+
+
+
+
+
+ UNIVERSITY OF KANSAS
+ MUSEUM OF NATURAL HISTORY
+
+ Vol. 20, No. 1, pp. 1-45, 22 figs.
+
+ February 20, 1970
+
+ A Taxonomic Revision
+ of the Leptodactylid Frog Genus
+ Syrrhophus Cope
+
+ BY
+
+ JOHN D. LYNCH
+
+ UNIVERSITY OF KANSAS
+ LAWRENCE
+ 1970
+
+
+
+
+ UNIVERSITY OF KANSAS PUBLICATIONS, MUSEUM OF NATURAL HISTORY
+
+ Editors of this number:
+ Frank B. Cross, Philip S. Humphrey, William E. Duellman
+
+ Volume 20, No. 1, pp. 1-45, 22 figs.
+ Published February 20, 1970
+
+ UNIVERSITY OF KANSAS
+ Lawrence, Kansas
+
+ PRINTED BY
+ THE UNIVERSITY OF KANSAS PRINTING SERVICE
+ LAWRENCE, KANSAS
+ 1970
+
+
+
+
+A Taxonomic Revision of the Leptodactylid Frog Genus Syrrhophus Cope
+
+BY
+
+JOHN D. LYNCH
+
+
+
+
+INTRODUCTION
+
+
+Cope (1878) proposed the genus _Syrrhophus_ for a medium-sized
+leptodactylid frog from central Texas; in the ensuing 75 years the genus
+was expanded to include a heterogeneous group of frogs ranging from
+Texas to Peru. Taylor (1952) and Firschein (1954) limited the genus to
+several species of frogs occurring in Guatemala, México, and Texas.
+Lynch (1968) provided a definition of the previously loosely-defined
+genus.
+
+With the exception of Taylor (1952), who treated the Costa Rican
+species, none of these authors dealt with the present status of the
+nineteen species erroneously assigned to _Syrrhophus_. These species are
+listed in Tables 1 and 2 with the name currently applied. Some of them
+are new combinations and their justifications will be published
+elsewhere. Gorham (1966) is the most recent author to include South
+American species in the genus _Syrrhophus_.
+
+Smith and Taylor (1948) recognized two species groups of the genus in
+México, an eastern and a western group (here termed complexes for
+purposes of discussion), separated on the basis of the number of palmar
+(metacarpal) tubercles (three palmar tubercles in the members of the
+eastern complex and two in those of the western complex). Duellman
+(1958) reviewed the species of the genus occurring in western México and
+concluded that there were five species (two polytypic). Dixon and Webb
+(1966) described an additional species from Jalisco, México. The
+distributions of some species have been extended, but otherwise the
+western complex of species remains unchanged since Duellman's review.
+
+Smith and Taylor (1948) recognized seven species of the genus in eastern
+México. Firschein revised the eastern complex (as then understood), and
+in so doing added one new species and treated _Syrrhophus verruculatus_
+as a _nomen dubium_. Dixon (1957) redefined the related genus
+_Tomodactylus_ and transferred _T. macrotympanum_ Taylor to the genus
+_Syrrhophus_. Neill (1965) described a new subspecies of _S. leprus_
+from British Honduras. Two species (_S. gaigeae_ and _S. marnockii_)
+were recognized in Texas until Milstead, Mecham, and McClintock (1950)
+synonymized _S. gaigeae_ with _S. marnockii_. Thus, at present, nine
+species (one polytypic) are recognized on the eastern slopes and
+lowlands from central Texas to British Honduras. These are currently
+placed on one species group equivalent to the western complex reviewed
+by Duellman (1958).
+
+
+ TABLE 1--Species Described as Members of the Genus _Syrrhophus_ but
+   Now Placed in Other Genera.
+
+ =======================================================================
+ Trivial name and author           Current combination
+ -----------------------------------------------------------------------
+ _areolatus_ Boulenger, 1898       _Eleutherodactylus areolatus_
+ _calcaratus_ Andersson, 1945      _Eleutherodactylus anderssoni_
+ _caryophyllaceus_ Barbour, 1928   _Eleutherodactylus caryophyllaceus_
+ _coeruleus_ Andersson, 1945       _Eleutherodactylus coeruleus_
+ _ineptus_ Barbour, 1928           _Eleutherodactylus diastema_
+ _juninensis_ Shreve, 1938         _Eupsophus juninensis_
+ _lutosus_ Barbour and Dunn, 1921  _Eleutherodactylus lutosus_
+ _molinoi_ Barbour, 1928           _Eleutherodactylus molinoi_
+ _montium_ Shreve, 1938            _Niceforonia montia_
+ _mystaceus_ Barbour, 1922         _Eleutherodactylus rhodopis_
+ _obesus_ Barbour, 1928            _Eleutherodactylus punctariolus_
+ _omiltemanus_ Gunther, 1900       _Eleutherodactylus omiltemanus_[1]
+ _pardalis_ Barbour, 1928          _Eleutherodactylus pardalis_
+ =======================================================================
+
+ [1] New combination.
+
+
+ TABLE 2--Species Incorrectly Regarded as Members of the Genus _Syrrhophus_
+   but Described as Members of Other Genera.
+
+ ==========================================================================
+ Trivial name, original generic
+ assignment, and author                     Current combination
+ --------------------------------------------------------------------------
+ _chalceus_ (_Phyllobates_) Peters, 1873    _Eleutherodactylus chalceus_
+ _festae_ (_Paludicola_) Peracca, 1904      _Niceforonia festae_
+ _hylaeformis_ (_Phyllobates_) Cope, 1875   _Eleutherodactylus hylaeformis_
+ _palmatus_ (_Phyllobates_) Werner, 1899    _Colostethus palmatus_
+ _ridens_ (_Phyllobates_) Cope, 1866        _Eleutherodactylus ridens_
+ _simonsii_ (_Paludicola_) Boulenger, 1900  _Niceforonia simonsii_
+ ==========================================================================
+
+
+ TABLE 3--Nominal Species of _Syrrhophus_ (_sensu strictu_) and the Name
+   Used Herein.
+
+ =======================================================================
+ Original combination                  Current combination
+ -----------------------------------------------------------------------
+ _campi_, _Syrrhophus_                 _cystignathoides campi_
+ _cholorum_, _Syrrhophus leprus_       _leprus_
+ _cystigathoides_, _Phyllobates_       _cystignathoides cystignathoides_
+ _dennisi_, _Syrrhophus_               _dennisi_ new species
+ _gaigeae_, _Syrrhophus_               _guttilatus_
+ _guttilatus_, _Malachylodes_          _guttilatus_
+ _interorbitalis_, _Syrrhophus_        _interorbitalis_
+ _latodactylus_, _Syrrhophus_          _longipes_
+ _leprus_, _Syrrhophus_                _leprus_
+ _longipes_, _Batrachyla_              _longipes_
+ _macrotympanum_, _Tomodactylus_       _verrucipes_
+ _marnockii_, _Syrrhophus_             _marnockii_
+ _modestus_, _Syrrhophus_              _modestus_
+ _nebulosus_, _Syrrhophus_             _pipilans nebulosus_
+ _nivocolimae_, _Syrrhophus_           _nivocolimae_
+ _pallidus_, _Syrrhophus modestus_     _pallidus_
+ _petrophilus_, _Syrrhophus_           _guttilatus_
+ _pipilans_, _Syrrhophus_              _pipilans pipilans_
+ _rubrimaculatus_, _Syrrhophus_        _rubrimaculatus_
+ _smithi_, _Syrrhophus_                _guttilatus_
+ _teretistes_, _Syrrhophus_            _teretistes_
+ _verrucipes_, _Syrrhophus_            _verrucipes_
+ _verruculatus_, _Phyllobates_         _Nomen dubium_
+ =======================================================================
+
+
+In the course of preparing an account of the species of
+_Eleutherodactylus_ occurring in México and northern Central America, it
+became necessary to reëxamine the status of the genus _Syrrhophus_ and
+its nominal species. It soon became evident that there were more names
+than species, that some previously regarded species were geographic
+variants, and that the eastern and western groups (complexes here) were
+artificial divisions of the genus. I conclude that there are seven
+species (one polytypic) of _Syrrhophus_ in eastern México, Texas, and El
+Petén of Guatemala, and seven species (one polytypic) in western México.
+The current status of each of the 23 names correctly assigned to the
+genus is presented in Table 3.
+
+The fourteen species recognized by me are placed in five species groups.
+Two of these groups are presently placed in the western complex
+(_modestus_ and _pipilans_ groups) and three in the eastern complex
+(_leprus_, _longipes_ and _marnockii_ groups). The two complexes do
+not correspond exactly with the eastern and western groups of Smith
+and Taylor (1948), Firschein (1954), and Duellman (1958) since
+_S. rubrimaculatus_ is now associated with the eastern _leprus_ group.
+
+The definitions and contents of the five species groups are as follows:
+
+  _leprus_ group: digital pads not or only slightly expanded, rounded
+     in outline; first finger longer or shorter than second; snout
+     acuminate or subacuminate, not rounded; outer metatarsal tubercle
+     conical; digits lacking distinct lateral fringes.
+
+     content: _cystignathoides_, _leprus_ and _rubrimaculatus_.
+
+  _longipes_ group: digital pads widely expanded, triangular in outline;
+     first finger shorter than second; snout acuminate; outer metatarsal
+     tubercle not conical; digits bearing lateral fringes.
+
+     content: _dennisi_ and _longipes_.
+
+  _marnockii_ group: digital pads expanded, rounded to truncate in
+     outline; first finger equal in length to second or slightly shorter;
+     snout rounded; outer metatarsal tubercle not conical; digits lacking
+     lateral fringes; generally stout-bodied frogs.
+
+     content: _guttilatus_, _marnockii_, and _verrucipes_.
+
+  _modestus_ group: digital pads expanded, truncate in outline; first and
+     second fingers subequal in length, first usually slightly shorter
+     than second; snout subacuminate; inner metatarsal tubercle twice as
+     large (or larger) as outer metatarsal tubercle; digits bearing
+     poorly-defined lateral fringes.
+
+     content: _interorbitalis_, _modestus_, _nivocolimae_, _pallidus_,
+     and _teretistes_.
+
+  _pipilans_ group: digital pads not or only slightly expanded,
+     truncate in outline; first finger equal in length to second; snout
+     subacuminate; metatarsal tubercles subequal in size; digits lacking
+     lateral fringes.
+
+     content: _pipilans_.
+
+
+_Acknowledgments._--For loan of specimens, I am indebted to Richard J.
+Baldauf, Texas A & M University (TCWC); W. Frank Blair, University of
+Texas (TNHC); Charles M. Bogert and Richard G. Zweifel, American Museum
+of Natural History (AMNH); James E. Böhlke and Edmond V. Malnate,
+Academy of Natural Sciences of Philadelphia (ANSP); Robert F. Inger and
+Hymen Marx, Field Museum of Natural History (FMNH); Ernest A. Liner
+(EAL); Michael Ovchynnyk, Michigan State University collection (MSU);
+James A. Peters, United States National Museum (USNM); Douglas A.
+Rossman, Louisiana State University Museum of Zoology (LSUMZ); Hobart M.
+Smith, University of Illinois Museum of Natural History (UIMNH); Charles
+F. Walker, University of Michigan Museum of Zoology (UMMZ); and John W.
+Wright, Los Angeles County Museum (LACM). Specimens in the collection at
+the University of Kansas Museum of Natural History are identified as KU.
+The abbreviations EHT-HMS refer to the Edward H. Taylor-Hobart M. Smith
+collection and FAS to the Frederick A. Shannon collection. The
+type-specimens from these collections are now in the Field Museum of
+Natural History and the University of Illinois Museum of Natural
+History.
+
+I have profited from discussions concerning this problem with several
+persons, most notably William E. Duellman, Hobart M. Smith, Edward H.
+Taylor and Charles F. Walker. Nevertheless, the ideas and conclusions
+presented here should not be construed as necessarily reflecting their
+opinions.
+
+David M. Dennis executed all of the figures, and my wife, Marsha, typed
+the manuscript.
+
+
+_Materials and Methods._--In the course of this study, 1003 specimens
+of the genus were examined. The holotypes of 21 of the 23
+nominal species are extant; I have examined 19 of these. Nine
+measurements were taken, and five ratios computed for each of 338
+specimens. Females are available for all species but one; thus,
+measurements were taken on individuals of both sexes.
+
+
+
+
+ANALYSIS OF CHARACTERS
+
+
+_Size and proportions._--Frogs of this genus range in size from 16
+to 40 mm. in snout-vent length. Five species are relatively small:
+_S. cystignathoides_, _modestus_, _nivocolimae_, _pallidus_ and
+_rubrimaculatus_; one, _S. longipes_, is relatively large, and the
+remaining eight species are intermediate in size (22-30 mm.).
+
+Males are generally smaller than females and have proportionately longer
+heads and usually larger tympani. No significant differences were found
+among proportions, except that _S. longipes_ has a larger tympanum/eye
+ratio than any other species. Frogs in the _Syrrhophus marnockii_ group
+tend to have shorter shanks and feet, thereby giving those species a
+more stocky appearance. However, the differences are not significant.
+
+A summary of the data on size and proportions for the frogs of the genus
+_Syrrhophus_ is given in Tables 4, 5, and 6.
+
+
+_Hands and Feet._--Taylor and Smith (1945), Smith and Taylor (1948),
+Firschein (1954) and Duellman (1958) discussed the value of the palmar
+tubercles in identifying frogs of this genus. The eastern complex in
+general has a well-developed outer palmar tubercle (Fig. 1) in
+distinction to the western complex in which the outer palmar tubercle is
+reduced or absent (Fig. 2). Dixon and Webb (1966) imply that the outer
+palmar tubercle is rarely absent but is usually smaller than the first
+supernumerary tubercle of the fourth finger. My study of the western
+species demonstrates that the outer palmar tubercle is indeed usually
+present and smaller than the first supernumerary tubercle.
+
+Differences in interpretation of the terms "unexpanded" and "narrow," as
+well as differences in techniques of preservation, have led to confusion
+of the reported digital shapes in various species. Constant specific
+differences are evident in the hands (Fig. 1). Except in the cases of
+excessive uptake of fluids, all species have a terminal transverse
+groove at the tip of each digit. Taylor (1940b) stated that _S. smithi_
+lacked grooves, but examination of the holotype reveals faint grooves at
+the tops of the digits. _Syrrhophus guttilatus_, _leprus_, _pipilans_,
+and _verrucipes_ lack lateral fringes on the fingers. Lateral fringes
+are well developed in the _longipes_ and _modestus_ groups but poorly
+defined or absent in the other members of the genus. The digital pads of
+the frogs of the _longipes_ group are much broader than those of the
+other species and are narrowest in the frogs of the _leprus_ group.
+Supernumerary tubercles are present on the palmar surfaces of all
+species of the genus.
+
+
+ TABLE 4--Size and Proportions in the Frogs of the _Syrrhophus leprus_
+   Group.
+
+   A: _cystignathoides campi_
+   B: _c. cystignathoides_
+   C: _leprus_
+   D: _rubrimaculatus_
+
+ ==========================================================================
+                  Snout-vent   Tibia      Head     Tympanum/    Eyelid/
+                    length    length/    width/      Eye     Interorbital
+ Species  Sex  N    (SVL)       SVL       SVL
+ --------------------------------------------------------------------------
+    A     [M]  33  16.3-23.5  41.3-49.6  34.0-40.1  43.7-66.5   43.2-89.6
+                                 (45.8)     (37.0)    (56.2)      (61.5)
+          [F]  12  16.0-25.8  41.5-51.0  33.0-38.0  42.8-60.0   48.2-69.2
+                                 (45.8)     (35.0)    (51.2)      (60.1)
+    B     [M]  15  16.8-22.1  45.1-50.4  33.2-40.7  44.3-68.7   44.6-65.4
+                                 (47.3)     (37.8)    (54.8)      (60.0)
+          [F]   6  19.6-24.2  46.4-50.0  34.1-38.1  43.3-56.5   53.2-65.4
+                                 (47.6)     (36.2)    (46.9)      (59.2)
+    C     [M]  14  20.6-26.4  42.3-52.3  35.0-40.3  47.5-62.5   58.2-72.5
+                                 (46.8)     (37.4)    (56.5)      (67.3)
+          [F]  15  22.1-29.2  43.4-53.3  32.6-38.9  38.6-57.9   50.2-86.9
+                                 (47.1)     (35.8)    (47.1)      (68.1)
+    D     [M]  12  18.2-23.5  40.4-46.2  31.8-35.5  35.5-46.5   65.1-78.5
+                                 (43.4)     (33.8)    (41.7)      (71.7)
+ ==========================================================================
+
+
+ TABLE 5--Size and Proportions in the Frogs of the _Syrrhophus longipes_
+   and _S. marnockii_ Groups.
+
+   A: _dennisi_
+   B: _longipes_
+   C: _guttilatus_
+   D: _marnockii_
+   E: _verrucipes_
+
+ ==========================================================================
+                  Snout-vent   Tibia      Head     Tympanum/    Eyelid/
+                    length    length/    width/      Eye     Interorbital
+ Species  Sex  N    (SVL)       SVL       SVL
+ --------------------------------------------------------------------------
+    A     [M]   16  22.8-28.4  43.9-49.7  35.3-41.2  53.9-64.2   55.3-74.0
+                                 (47.4)     (38.8)     (58.9)      (65.1)
+          [F]   10  25.9-32.0  46.3-50.8  35.6-40.3  50.6-58.7   58.1-70.9
+                                 (48.2)     (37.7)     (54.9)      (63.6)
+    B     [M]   22  22.1-33.2  45.8-51.7  38.7-44.4  61.1-87.2   61.5-83.0
+                                 (48.4)     (41.8)     (72.0)      (72.0)
+          [F]   19  26.8-39.6  44.3-51.0  36.3-40.8  49.5-72.1   55.3-85.9
+                                 (47.2)     (39.1)     (59.5)      (67.9)
+    C     [M]   19  20.6-29.0  41.2-48.1  36.9-44.9  55.1-75.7   53.3-79.5
+                                 (44.5)     (40.6)     (64.1)      (66.0)
+          [F]    5  25.7-31.0  41.4-46.8  35.9-42.3  47.6-61.7   62.3-79.8
+                                 (43.6)     (38.5)     (54.0)      (72.9)
+    D     [M]   14  18.4-28.9  42.3-47.2  36.1-43.0  47.2-68.3   51.6-74.4
+                                 (44.1)     (39.6)     (61.2)      (66.3)
+          [F]   29  20.4-35.4  38.7-46.4  35.9-41.3  45.8-73.3   52.1-70.5
+                                 (42.7)     (38.2)     (60.3)      (60.7)
+    E     [M]   29  17.5-29.2  42.7-49.5  36.2-42.4  56.1-82.2   56.8-82.8
+                                 (46.3)     (39.1)     (67.8)      (70.4)
+          [F]    6  26.5-31.7  42.4-47.7  36.0-38.1  45.8-57.8   61.0-77.9
+                                 (44.6)     (37.0)     (53.9)      (69.0)
+ ==========================================================================
+
+
+ TABLE 6--Size and Proportions in the Frogs of the _Syrrhophus pipilans_
+   and _S. modestus_ Groups.
+
+   A: _pipilans nebulosus_
+   B: _pipilans pipilans_
+   C: _modestus_
+   D: _pallidus_
+   E: _teretistes_
+   F: _nivocolimae_
+   G: _interorbitalis_
+
+ ==========================================================================
+                  Snout-vent   Tibia      Head     Tympanum/    Eyelid/
+                    length    length/    width/      Eye     Interorbital
+ Species  Sex  N    (SVL)       SVL       SVL
+ --------------------------------------------------------------------------
+    A     [M]   17  22.9-28.5  38.1-42.0  34.4-37.2  36.6-47.8   56.1-82.4
+                                 (40.0)     (35.4)     (43.6)      (68.2)
+          [F]    3  21.1-22.7  42.1-44.5  33.2-35.8  36.6-47.6   64.3-65.4
+
+    B     [M]   18  22.6-27.8  37.9-44.0  32.2-36.5  38.0-54.0   56.1-79.5
+                                 (41.4)     (33.0)     (46.2)      (67.3)
+          [F]    1     29.4       38.4       32.5       44.6        55.0
+
+    C     [M]    8  15.8-20.1  38.5-42.6  32.1-38.1  26.8-39.3   57.0-86.9
+                                 (40.6)     (34.2)     (31.5)      (69.1)
+          [F]    1     18.5       44.2       36.0       24.0        52.1
+
+    D     [M]    6  17.9-19.3  41.0-44.9  32.6-36.2  27.0-35.6   59.4-67.7
+                                 (43.4)     (35.2)     (30.9)      (65.2)
+
+    E     [M]   18  19.2-23.2  41.5-45.3  32.5-36.4  28.6-43.8   51.2-75.0
+                                 (43.7)     (34.0)     (33.7)      (62.2)
+          [F]    1     24.8       41.8       30.8       37.9        60.5
+
+    F     [M]   15  18.9-21.1  42.2-48.6  30.9-37.1  30.0-39.3   42.6-69.1
+                                 (45.0)     (33.7)     (34.7)      (55.0)
+          [F]    1     24.1       40.9       33.5       27.6        56.5
+
+    G     [M]    1     25.6       43.0       ----       39.4        57.6
+          [F]    9  20.2-26.7  39.9-47.1  32.6-39.3  29.1-41.2   58.2-76.9
+                                 (43.2)     (35.8)     (36.4)      (69.2)
+ ==========================================================================
+
+
+    [Illustration: FIG. 1: Palmar views of hands of six species of the
+       eastern complex of _Syrrhophus_. (A) _verrucipes_ (UIMNH 15995),
+       (B) _rubrimaculatus_ (KU 58911), (C) _dennisi_ sp. nov. (holotype,
+       UMMZ 101121), (D) _guttilatus_ (UIMNH 55520), (E) _marnockii_
+       (TCWC 4782), and (F) _longipes_ (TCWC 12179). All ×6.5.]
+
+
+    [Illustration: FIG. 2: Palmar views of hands of two species of the
+       western complex of _Syrrhophus_. _pipilans_ (left, KU 58908, ×6)
+       and _teretistes_ (center, KU 75269, and right, KU 75263,
+       respectively, ×9).]
+
+
+In _S. cystignathoides_ and _leprus_, the first finger is longer than
+the second, and the first two fingers are equal in length in
+_guttilatus_ and _marnockii_. In the other species the first finger is
+shorter than the second.
+
+Supernumerary tubercles are well developed on the plantar surfaces in
+all species, except _S. guttilatus_, in which they are poorly defined
+(Fig. 3). The relative sizes of the metatarsal tubercles has been used
+in the classification of the species and species groups of _Syrrhophus_.
+The metatarsal tubercles are similar in all species of the eastern
+complex (including _rubrimaculatus_); the outer tubercle is always about
+one-half the size of the ovoid inner metatarsal tubercle. In the
+_leprus_ group the outer tubercle is conical and compressed. The
+metatarsal tubercles of _pipilans_ are about the same size, or the outer
+is slightly smaller than the inner. In the _modestus_ group the outer
+metatarsal tubercle is about one-third the size of the inner.
+
+All species, except _guttilatus_, have well-defined to poorly defined
+lateral fringes on the toes. All species have expanded toe pads. The
+fifth toe is usually shorter than the third, but the second is equal
+in length to the fifth in some specimens of _S. cystignathoides_ and
+_S. marnockii_. _Syrrhophus nivocolimae_ is the only species with
+tubercles along the outer edge of the tarsus; this is merely a
+reflection of the highly tuberculate nature of the skin in this species.
+
+
+_Skin texture._--The skin of the dorsum is smooth or very weakly
+pustular in all species of the genus except _nivocolimae_ and
+_verrucipes_. The dorsal surfaces of _nivocolimae_ are warty; in
+_verrucipes_ the skin is pustular. The skin of the venter is areolate in
+_cystignathoides cystignathoides_, _dennisi_ and _verrucipes_ but is
+smooth in all other species of the genus.
+
+    [Illustration: FIG. 3: Plantar views of feet of four species of the
+       eastern complex of _Syrrhophus_. (A) _guttilatus_ (UIMNH 55519, ×6),
+       (B) _leprus_ (UIMNH 42726, ×6), (C) _verrucipes_ (UIMNH 15995, ×6),
+       and (D) _longipes_ (TCWC 12179, ×4.6).]
+
+
+_Color pattern._--As is evident in the diagnoses, the color patterns of
+given populations have been regarded as useful in separating the
+species and subspecies. Duellman (1958) suggested that the coloration,
+with the exception of _modestus_, was a dark ground color with pale
+markings. It is a moot point whether the frogs have light spots on a
+dark background or have a light background with an extensive reticulate
+dark pattern. The venters are gray or white, and the vocal sac is nearly
+black in some species. Interorbital dark bars or triangles are absent in
+only two species of the eastern complex, _cystignathoides campi_ and
+_marnockii_; the latter lacks a supratympanic stripe, which is present
+in the other members of the eastern complex. _Syrrhophus interorbitalis_
+and _nivocolimae_ have light interorbital bars; these bars occur in only
+one other population of the genus (_S. c. cystignathoides_). Bars on the
+thighs are ill defined or absent in the members of the _marnockii_ and
+part of the _modestus_ groups. The color in life is noted in the species
+accounts.
+
+
+_Voice._--The voices of all _Syrrhophus_ can be described as a
+single short chirp or peep; without audiospectrographic analyses
+the significance of the differences between a chirp, peep, or short
+whistle cannot be appreciated. Martin (1958) and Wright and
+Wright (1949) reported multi-noted calls, and one collector of
+_S. verrucipes_ noted the frog "trilled."
+
+Fouquette (1960) presented analyses of two species (_marnockii_
+and _pipilans nebulosus_). The voices were very similar; both frogs
+were reported to "trill" and "chirp."
+
+
+
+
+SYSTEMATIC ACCOUNT
+
+
+The genus _Syrrhophus_ has been defined (Lynch, 1968) and limited to the
+group of species occurring in Guatemala, México and the United States.
+The closest relatives of _Syrrhophus_ are the frogs of the genus
+_Tomodactylus_ (Dixon, 1957; Firschein, 1954). Lynch (1968)
+implied there were no osteological bases for the separation of
+_Eleutherodactylus_, _Syrrhophus_, and _Tomodactylus_. At that time, I
+believed such to be the case and derived _Syrrhophus_ and _Tomodactylus_
+from the _rhodopis_ complex of _Eleutherodactylus_, with which they
+share terrestrial habits and relatively short limbs. In the _rhodopis_
+complex there is a tendency for the loss of the outer palmar tubercle, a
+not uncommon condition in _Syrrhophus_ and _Tomodactylus_.
+
+However, the skulls of _Syrrhophus_ and _Tomodactylus_ show departures
+from the pattern observed in the Middle American _Eleutherodactylus_, as
+well as many of those species in western South America. Baldauf and
+Tanzer (1965) reported that the frontoparietals and prootics were fused
+in _Syrrhophus marnockii_ and that the prootics and exoccipitals
+appeared to be one bone (otoccipital). The otoccipital is not uncommon
+in eleutherodactyline frogs, but the fusion of the frontoparietals with
+the prootics (regardless of the fusion of the latter with the
+exoccipital) is uncommon in the family. I have found the
+frontoparietal-prootic fusion only in _Syrrhophus_ (all species),
+_Tomodactylus_ (all species), and _Eleutherodactylus_ (West Indies
+species). None of the Middle American _Eleutherodactylus_ has the two
+bones fused. Examination of the character is difficult in dried skeletal
+preparations. Cleared and stained or macerated preparations are
+satisfactory for checking this character.
+
+Thus, in addition to the presence of numerous plantar supernumerary
+tubercles in the frogs of the genera _Syrrhophus_ and _Tomodactylus_,
+these two genera can be separated from other Middle American
+eleutherodactylines by the fusion of the frontoparietals and prootics.
+This character not only further strengthens the argument that the two
+genera are closely related but poses a problem of zoogeographic analysis
+of the distribution of the character, which will be discussed fully
+elsewhere.
+
+
+Key to the Species of the Frog Genus _Syrrhophus_
+
+  1. Three large, well-developed palmar tubercles                         2
+
+     Two large palmar tubercles; outer (third) palmar tubercle reduced
+     in size or absent                                                    9
+
+  2. Digital pads more than twice (usually three or more) times width
+     of digit                                                             3
+
+     Digital pads less than twice width of digit                          4
+
+  3. Males having vocal slits; dorsum vermiculate; diameter of
+     tympanum in males about one-half diameter of eye          _S. dennisi_
+
+     Males lacking vocal slits; dorsum flecked, spotted, or
+     blotched; diameter of tympanum in male about three-fourths
+     that of eye                                              _S. longipes_
+
+  4. First finger longer than second                                      5
+
+     First finger shorter than or equal to second                         7
+
+  5. Venter smooth; dorsum spotted or vermiculate               _S. leprus_
+
+     Venter areolate, or if smooth, dorsum flecked and interorbital
+     bar lacking                                                          6
+
+  6. Venter areolate; interorbital bar present; ground color
+     yellowish                         _S. cystignathoides cystignathoides_
+
+     Venter smooth; interorbital bar absent; ground color
+     brown                                       _S. cystignathoides campi_
+
+  7. First finger shorter than second; digital tips only slightly
+     dilated; green in life with darker green spots         _S. verrucipes_
+
+     First finger equal to second; digital tips slightly to moderately
+     expanded                                                             8
+
+  8. Dorsum vermiculate; interorbital bar present; ground color
+     cream to brown in life                                 _S. guttilatus_
+
+     Dorsum punctate or flecked; interorbital bar absent;
+     ground color green in life                              _S. marnockii_
+
+  9. Dorsum dark with pale (red in life) spots; digital pads
+     not expanded                                       _S. rubrimaculatus_
+
+     Dorsum pale with dark markings and digital pads slightly to widely
+     expanded                                                            10
+
+ 10. Digital tips not widely expanded; tympanum well-defined;
+     outer metatarsal tubercle more than one-half size of inner          11
+
+     Digital tips widely expanded, truncate in outline; tympanum
+     poorly defined; outer metatarsal tubercle less than one-half
+     size of inner                                                       12
+
+ 11. Dorsum dark brown with large light spots or blotches; tympanum/eye
+     ratio usually greater than 43 percent           _S. pipilans pipilans_
+
+     Dorsum dark brown with small light spots; tympanum/eye
+     ratio less than 48 percent                     _S. pipilans nebulosus_
+
+ 12. Light interorbital bar present                                      13
+
+     Light interorbital bar absent                                       14
+
+ 13. Adults small, less than 22 mm. snout-vent length with a
+     broad mid-dorsal stripe; dark bands on shank narrower than
+     light interspaces                                     _S. nivocolimae_
+
+     Adults larger, more than 22 mm. snout-vent length; dorsum
+     vermiculate; dark bands on shank broader than light
+     interspaces                                        _S. interorbitalis_
+
+ 14. Dorsum spotted with discrete black spots; pattern
+     definite                                                 _S. modestus_
+
+     Dorsum reticulate or vermiculate, pattern poorly defined            15
+
+ 15. Adults small, less than 21 mm. snout-vent length; upper arm
+     not banded                                               _S. pallidus_
+
+     Adults larger, usually greater than 21 mm. snout-vent length;
+     upper arm banded                                       _S. teretistes_
+
+
+
+
+SPECIES ACCOUNTS
+
+
+The following accounts do not include complete descriptions of each
+taxon, because a more than adequate number of descriptions is available
+in the recent (1940-1966) literature. An abbreviated synonymy, in which
+are listed all combinations and emendations of names and significant
+contributions to our knowledge of the taxon, is given for each. For each
+species and subspecies the following are given: descriptive diagnosis,
+statement of range, remarks on taxonomy, list of specimens examined,
+illustration of color pattern, and distribution map.
+
+
+=Syrrhophus cystignathoides= (Cope)
+
+     _Phyllobates cystignathoides_ Cope, 1877:89-90
+        [Syntypes.--Originally USNM 32402-32409, (32405 now in MCZ)
+        from Potrero, near Córdoba, Veracruz, México, Francis Sumichrast
+        collector.]
+
+_Diagnosis._--Adults small, males 16.0 to 23.5 mm. in snout-vent length,
+females 16.0-25.8 mm. in snout-vent length; vocal slits present in
+males; finger tips slightly expanded; first finger longer than second;
+outer metatarsal tubercle one-half size of inner, conical, compressed;
+skin of dorsum weakly pustular, that of venter smooth to areolate;
+tympanum 44 to 69 per cent diameter of eye (mean 55.5 per cent); ground
+color yellow to brown in life with brown to black fleckings on dorsum
+and flanks; limbs banded; interorbital bar present or not.
+
+_Remarks._--Two geographic races (subspecies) are herein recognized;
+previously these were held by various authors to be species (_campi_ and
+_cystignathoides_). Intergradation occurs in southern Tamaulipas and
+eastern San Luis Potosí, México. The two subspecies can be distinguished
+on the basis of color pattern and the condition of the skin of the
+venter.
+
+_Distribution._--Low to moderate elevations from the Río Grande
+embayment to central Veracruz, México (Fig. 5).
+
+
+=Syrrhophus cystignathoides campi= Stejneger, New combination
+
+     _Syrrhophus campi_ Stejneger, 1915:131-32. [Holotype.--USNM 52290,
+        from Brownsville, Cameron Co., Texas; R. D. Camp collector,
+        March 31, 1915]. Smith and Taylor, 1948:52. Martin, 1958:50.
+
+_Diagnosis._--Venter smooth; usually no interorbital light and dark bars
+present; ground color brown in life (Fig. 4a).
+
+_Remarks._--Martin (1958) was the first author to point out
+that _S. campi_ was probably a subspecies of the more southern
+_S. cystignathoides_. Various references in the literature might lead
+one to believe that the two were sympatric over much of northeastern
+México; this error was created by the use of a single character
+(condition of the skin of the venter) to characterize the two
+populations. Specimens from southern Texas have a smooth venter, lack
+interorbital bars and have, in general, a brown ground color, whereas
+specimens from central Veracruz have an areolate venter, interorbital
+light and dark bars and a yellow ground color. In southern Tamaulipas
+and eastern San Luis Potosí, these characters vary discordantly, thereby
+strongly suggesting that the two populations intergrade. Both
+populations agree in other morphological characters; therefore, they are
+here treated as geographic variants.
+
+_Etymology._--Named for the collector of the type specimens, Mr. R. D.
+Camp of Brownsville, Texas.
+
+_Distribution._--Lower Río Grande embayment in Texas to central Nuevo
+León and Tamaulipas, México. Intergrades are known from southern
+Tamaulipas and adjacent San Luis Potosí, México (Fig. 5).
+
+_Specimens examined._--(113) TEXAS, Cameron Co.: MCZ 10277-85, 10286
+(10); Brownsville, AMNH 3215, 3218-20, 3221 (3), 5376, 62117, FMNH
+105336, KU 8135-39, MCZ 3738-42, 3743 (10), TCWC 5908, 7139, TNHC 92-94,
+20909, UMMZ 51760, 54031 (5), USNM 52290 (holotype); 22 mi. SE
+Brownsville, TNMC 14223; 8 mi. SW Brownsville, UMMZ 101127 (3);
+Harlingen, AMNH 62118, UMMZ 105200-205, 105206 (5), 105207 (4). _Hidalgo
+Co._: Bentsen-Río Grande State Park, UMMZ 114378; 6 mi. S McAllen, TNHC
+7136-39; Santa Ana Refuge, TCWC 13495-96; Weslaco, TCWC 17658-60.
+
+MEXICO, _Nuevo León_: Salto Cola de Caballo, AMNH 57953-54, FMNH
+30644-45, 37169-70; Monterrey, UIMNH 13324; 40 km. SE Monterrey, UIMNH
+3686. _Tamaulipas_: 80 km. Matamoros, FMNH 27150 (13).
+
+Intergrades [_S. c. cystignathoides_ × _S. c. campi_ (88)] MÉXICO, _San
+Luis Potosí_: 5 km. E Ciudad del Maiz, UMMZ 106435; 16 km. W Naranjo,
+FMNH 104584; Salto de Agua, 34 km. WSW Antigua Morelos, TCWC 6980.
+_Tamaulipas_: 5 km. W Acuña, 1060 m., UMMZ 101172, 101173 (16),
+101174-76, 101177 (6); 14.5 km. NNW Chamal, 430 m., UMMZ 111337 (2); 20
+km. NNW Chamal, 700 m., UMMZ 111338 (11); 8 km. N Gómez Farías, 450 m.,
+UMMZ 101165; 8 km. NE Gómez Farías, Pano Ayuctle, UMMZ 102264, 102924
+(6); 8 km. NW Gómez Farías, 1060 m., LSUMZ 11084, UMMZ 101199, 102928
+(5), 102929-32, 110124 (3); Río Guayala, near Magiscatzin, MCZ 24138-42,
+85071-81, UMMZ 88242 (2); Magiscatzin, TCWC 6981; Las Yucas, north of
+Aldama, MCZ 29665-68; 16 km. NE Zamorina, UMMZ 101124.
+
+    [Illustration: FIG. 4: _Syrrhophus cystignathoides campi_
+       (left, TCWC 13490) and _S. c. cystignathoides_ (right, KU 105500).
+       Dorsal views ×2, sides of heads ×3.]
+
+
+=Syrrhophus cystignathoides cystignathoides= (Cope), New combination
+
+     _Phyllobates cystignathoides_ Cope, 1877:89-90 [Syntypes.--USNM
+        32402-32409, from Potrero, near Córdoba, Veracruz, México,
+        collected by Francis Sumichrast]. Boulenger, 1882:196.
+
+     _Syrrhophus cystignathoides_: Cope, 1879:268. Kellogg, 1932:
+        126-27. Taylor and Smith, 1945: 582-83. Smith and Taylor, 1948:50.
+        Martin, 1958:49.
+
+     _Syrrhaphus cystignathoides_: Günther, 1900:218.
+
+     _Syrraphus cystignathoides_: Díaz de León, 1904:10.
+
+     _Syrrhopus cystignathoides_: Barbour and Loveridge, 1946:170.
+
+    [Illustration: FIG. 5: Distribution of _Syrrhophus cystignathoides
+       campi_ (solid symbols) and the nominate subspecies (open symbols).]
+
+_Diagnosis._--Venter areolate; interorbital light and dark bars present;
+ground color yellow to brownish-yellow in life (Fig. 4b).
+
+_Remarks._--Firschein (1954) briefly considered the status of Peters'
+(1871) _Phyllobates verruculatus_ and noted that if it was a
+_Syrrhophus_ it would probably be referrable to _S. cystignathoides_.
+Peters' (1871) original description corresponds well with
+_S. cystignathoides_, and the type-locality ("Huanusco" = Huatusco) is
+within the range of that species. Firschein (1954) expressed doubt that
+_verruculatus_ was a _Syrrhophus_, because Peters placed it in another
+genus. However, Peters described _verruculatus_ a decade before Cope
+diagnosed the genus Syrrhophus. Most frogs now called _Syrrhophus_, plus
+a number of lower Central American frogs now placed in a variety of
+genera were placed in _Phyllobates_ by Boulenger, Cope, and Peters.
+
+The types of _Phyllobates verruculatus_ were destroyed during World War
+II (Günther Peters, _in litt._); the specimens subsequently assigned to
+the taxon by Kellogg (1932) are _Syrrhophus cystignathoides_. Because
+the type specimens are lost and because the name antedates the more
+established name, _cystignathoides_, I favor retaining _Phyllobates
+verruculatus_ Peters as a _nomen dubium_.
+
+Smith and Taylor (1948) reported _S. verruculatus_ from Tianguistengo,
+Hidalgo, México. These specimens are examples of _verrucipes_. Smith
+(1947) reported a specimen of _verruculatus_ from San Lorenzo, Veracruz.
+Firschein (1954) referred it to _cystignathoides_, and Duellman (1960)
+concluded that both authors were in error and that the specimen (USNM
+123530) was a _leprus_.
+
+_Etymology._--The trivial name is the diminutive of _Cystignathus_, a
+once-used generic name for several leptodactylid frogs.
+
+_Distribution._--Low and moderate elevations in the foothills along the
+Sierra Madre Oriental from eastern San Luis Potosí to Central Veracruz,
+México (Fig. 5).
+
+_Specimens examined._--(130), MÉXICO, _Puebla_: Necaxa, UMMZ 69519-20.
+_San Luis Potosí_: 5 km. W Aguismón, LSUMZ 4962-63; along Río Axtla,
+road to Xilitla, UMMZ 105500; Tamazunchale, UIMNH 3199; 6.5 km. N
+Tamazunchale, UMMZ 104039; 8 km. N Tamazunchale, UMMZ 119490.
+_Veracruz_: Coatepec, 1210 m., FMNH 704966-67; 11 km. SE Coatepec, 850
+m., FMNH 70468-70; below Córdoba, FMNH 104588, UIMNH 13321; Cuautlapam,
+1000 m., FMNH 106477-80, KU 100364, UIMNH 58200-03, UMMZ 105392; Fortín
+de las Flores, UIMNH 13322, 13339; 1.6 km. N Fortín de las Flores, UIMNH
+42799-808, UMMZ 105389; 3.2 km. N Fortín de las Flores, UIMNH 26633-35;
+4.8 km. N Fortín de las Flores, UIMNH 71967-68; 3.2 km. W Fortín de las
+Flores (Barranca Metlac), 910 m., UIMNH 49294-95, UMMZ 115444-46,
+118221, 119893 (2); Huatusco, KU 100363; Jalapa, 1400 m., FMNH 70440,
+70443-51, 70454-65; 16 km. NE Jalapa, 1300 m., FMNH 70452-53; 8 km. E
+Jalapa, UIMNH 13338; 9.5 km. S Jalapa, UMMZ 122083 (2); Mirador, KU
+23967; Paraja Nuevo, El Suchil, UMMZ 85490 (7), 85491 (2), 90315; La
+Passa, UIMNH 49293, 49297; 1 km. E Plan del Río, 240 m., UMMZ 102067
+(2); Potrero Viejo, FMNH 104583, 104586, 105326-27, KU 26789, 100357-62,
+UIMNH 13323, 13340-43; USNM 32402 (lectotype), 32403-04, 32406-09; 9.6
+km. S Santa Rosa, TCWC 12785; 24 km. NE Tezuitlán (Puebla), UMMZ 105388;
+Teocelo, FMNH 70437-38, KU 26080, 26790; 3.2 km. N Teocelo, FMNH 70439,
+70441-42; 9.6 km. NW Tihuatlán, UIMNH 3684-85; 15 km. ENE Tlacotepec, KU
+23966; 26 km. NW Tuxpan, UMMZ 126419.
+
+
+=Syrrhophus leprus= Cope
+
+     _Syrrhophus leprus_ Cope, 1879:268-69 [Holotype.--USNM 10040, from
+        Santa Efigena, Oaxaca, México, Francis Sumichrast collector].
+        Kellogg, 1932:124-5, 128. Taylor and Smith, 1945:582. Smith and
+        Taylor, 1948:50-51. Duellman, 1958:8, pl. 1, Fig. 2; 1960:56-57.
+        Gorham, 1966:165.
+
+     _Syrrhaphus leprus_: Günther, 1900:217.
+
+     _Syrrhophus leprus leprus_: Neill, 1965:85-86.
+
+     _Syrrhophus leprus cholorum_ Neill, 1965:85-86 [Holotype.--Wilfred
+        T. Neill collection 1525, from 3.9 mi. N San Antonio, Toledo
+        District, British Honduras, collected October 28, 1959, by
+        R. A. Allen, T. C. Allen, and W. T. Neill].
+
+_Diagnosis._--Medium-sized frogs, males 20.5-26.5 mm. in snout-vent,
+females 22.0-29.3 mm. in snout-vent length; vocal slits present in
+males; tips of fingers dilated slightly; first finger longer than
+second; inner metatarsal tubercle twice size of small, conical outer
+metatarsal tubercle; skin of dorsum pustular, that of venter smooth;
+snout subacuminate; diameter of tympanum 47.5-62.5 per cent of eye in
+males, 38.6-57.9 per cent in females; dorsum yellowish-green with
+chocolate brown blotches or spots forming reticulations in most
+specimens; venter white to gray; flanks brown, spotted with white or
+not; limbs banded; interorbital bar obscured by dorsal pattern.
+
+    [Illustration: FIG. 6: Dorsal views of _Syrrhophus leprus_ showing
+       variation in dorsal pattern (left, UMMZ 121244, ×2; right, KU 26106,
+       ×1.7). Side of head (UIMNH 42726, ×7).]
+
+    [Illustration: FIG. 7: Distribution of three species of eastern
+       complex _Syrrhophus_: _leprus_ (circles), _rubrimaculatus_
+       (triangles), and _verrucipes_ (squares).]
+
+_Remarks._--My distribution map (Fig. 7) differs somewhat from that of
+Duellman (1958), who was unaware of specimens reported by Taylor and
+Smith (1945) from central Veracruz, México.
+
+Duellman (1958, 1960) regarded _S. leprus_ as having a gray venter.
+Neill (1965) characterized his new subspecies on the basis of white
+venter and spots on the dorsum. Some specimens from throughout the range
+have only small round spots, instead of vermiculations (Fig. 6). The
+gray ventral coloration is largely restricted to the population in Los
+Tuxtlas, Veracruz, but only about 80 per cent of the specimens from the
+Los Tuxtlas have gray venters, whereas specimens from Guatemala, Oaxaca,
+Tabasco, and central Veracruz, México, have white venters (rarely gray).
+Since the specimens from British Honduras are not distinct from
+specimens throughout most of the range, there is no reason to recognize
+them as a subspecies.
+
+_Etymology._--Greek, _lepra_, leprosy, in reference to the mottled color
+pattern.
+
+_Distribution._--Discontinuous; central Veracruz to British Honduras to
+low elevations in the foothills of the Sierra Madre Oriental, Los
+Tuxtlas, Sierra Madre de Chiapas (Isthmus of Tehuantepec (Fig. 7)).
+
+_Specimens examined._--(84). GUATEMALA, _Alta Verapaz_: Chinajá, KU
+55961-62. _El Petén_: 15 km. NW Chinajá, KU 55963; Piedras Negras, USNM
+114085-92; Tikal, UMMZ 117035; Uaxactún, AMNH 55121-22.
+
+MÉXICO, _Oaxaca_: Cerro San Pedro del Isthmo, UIMNH 35510; Finca La
+Gloria, USNM 114093; 30.5 km. N Matías Romero, UIMNH 39459, 71969; Santa
+Efigenia, USNM 10040 (holotype). _Tabasco_: Teapa, UMMZ 113799-800; 13.5
+km. W Teapa, UMMZ 120253. _Veracruz_: 27.5 km. N Acayucan, UIMNH 42726;
+Atoyac, UIMNH 13331, 49296; 3.2 km. N Catemaco, UIMNH 71976-77; Coyame,
+UIMNH 38995, 38998, 40342; Dos Amates, TCWC 21211; Fortín de Las Flores,
+FMNH 113751, 113753; Paraja Nuevo, El Suchil, UMMZ 90315; Potrero Viejo,
+FMNH 113743-50, 126114-18, KU 26104-06, UIMNH 13332-37, UMMZ 88837; San
+Andrés Tuxtla, UIMNH 27123-31, 28611, 71975, UMMZ 115450 (5); San
+Lorenzo, USNM 123530; 4.5 km. NW Santiago Tuxtla, JDL 992 (skeleton),
+UIMNH 27122; 32 km. S Sayula, EAL 1696; Tepalapan, 1.6 km. S Catemaco,
+UMMZ 118222 (2); Volcán San Martín, south slope, UMMZ 118223; Volcán San
+Martín, Rancho El Tular, UIMNH 35399-400, 40340-41.
+
+
+=Syrrhophus rubrimaculatus= Taylor and Smith
+
+     _Syrrhophus rubrimaculatus_ Taylor and Smith, 1945:583-85
+        [Holotype.--USNM 114070, from La Esperanza, near Escuintla,
+        Chiapas, México, collected May 13, 1940, by H. M. and R. Smith].
+        Duellman, 1958:1-4, 7, 12, 14. Gorham, 1966:167.
+
+     _Syrrhophus rubrimaculata_: Smith and Taylor, 1948:48-49.
+
+    [Illustration: FIG. 8: _Syrrhophus rubrimaculatus_ (upper right,
+       KU 58911, ×1.6; lower right, KU 58910, ×4) and _S. verrucipes_
+       (upper left, UIMNH 15995, ×1.6; lower left, UIMNH 15989, ×3.7).]
+
+_Diagnosis._--Small frogs, males 18.2-23.5 mm. snout-vent, females
+19.0-22.5 mm. snout-vent length (small sample); vocal slits in males;
+digital tips scarcely expanded (Fig. 1); first finger shorter than
+second; outer palmar tubercle reduced in size; inner metatarsal tubercle
+elongate, twice the size of small, conical outer metatarsal tubercle;
+diameter of tympanum 35.5-46.5 per cent that of eye in both sexes;
+dorsum brown with small pale spots (red in life); venter gray.
+
+_Remarks._--Previous authors who treated _Syrrhophus_ placed this
+species in the western complex, because it occurs on the Pacific versant
+and has a reduced outer palmar tubercle. Duellman (1958) placed
+_rubrimaculatus_ apart from the other western species, because of its
+relatively unexpanded digital tips and coloration. The digital tips are
+like those in _leprus_, which _rubrimaculatus_ resembles. Except for the
+reduction of the outer palmar tubercle, _rubrimaculatus_ could be a
+member of the _leprus_ group.
+
+_Syrrhophus rubrimaculatus_ is probably best treated as a Pacific
+derivative of the _leprus_ group, even though the palmar tubercles do
+not agree. The removal of _rubrimaculatus_ from the western complex
+results in a more homogeneous remainder and does not greatly increase
+the heterogeneity of the eastern complex.
+
+_Etymology._--Latin, meaning spotted with red; in reference to the
+colors in life.
+
+_Distribution._--Low to moderate elevations on the Pacific versant of
+southeastern Chiapas, México (Fig. 7); probably extending into
+adjacent Guatemala.
+
+_Specimens examined._--(48) MÉXICO, _Chiapas_: Escuintla, UMMZ 88283; 6
+km. NE Escuintla, UMMZ 87876-80; La Esperanza, UIMNH 13285, UMMZ
+88496-97, USNM 114070 (holotype), 114054-69, 114072; Monte Cristo, UMMZ
+88353; 1.3 km. N Puerto Madero, KU 58910-11; Finca San Jerónimo, 600-650
+m., UIMNH 55299-312, 55313-16 (cleared and stained).
+
+
+=Syrrhophus guttilatus= (Cope)
+
+     _Malachylodes guttilatus_ Cope, 1879:264 [Holotype.--USNM 9888,
+        from Guanajuato, Guanajuato, México; collected in 1877 by
+        Alfredo Duges].
+
+     _Syrrhopus guttulatus_: Boulenger, 1888:204-06.
+
+     _Syrrhaphus guttulatus_: Günther, 1900:317.
+
+     _Syrraphus guttulatus_: Díaz de León, 1904:11.
+
+     _Syrrhophus guttilatus_: Nieden, 1923:399-400. Kellogg, 1932:125,
+        127-28. Smith and Taylor, 1948:49, 51. Firschein, 1954:52-54.
+        Gorham, 1966:164.
+
+     _Syrrhophus smithi_ Taylor, 1940b:43-45, pl. 1 [Holotype.--USNM
+        108594, from 15 mi. SW Galeana, Nuevo León, México, 1575 m.;
+        collected on October 13, 1939, by Hobart M. Smith]. Smith and
+        Taylor, 1948:49, 51. Firschein, 1954:54-55. Martin, 1958:50.
+        Gorham, 1966:167.
+
+     _Syrrhophus gaigeae_ Schmidt and Smith, 1944:80 [Holotype.--FMNH
+        27361, from the Basin, Chisos Mountains, Brewster Co., Texas;
+        collected on July 24, 1937, by Walter L. Necker].
+
+     _Syrrhophus petrophilus_ Firschein, 1954:50-52 [Holotype.--UIMNH
+        7807, from 5 km. SW San Luis Potosí, San Luis Potosí, México;
+        collected on July 18, 1949, by David Langebartel]. Gorham,
+        1966:166.
+
+     _Syrrhophus marnocki_: Milstead, Mecham, and McClintock, 1950:548
+        (in part).
+
+_Diagnosis._--Medium-sized frogs, males 20.6-29.0 mm. snout-vent,
+females 25.7-31.0 mm. snout-vent length; vocal slits in males; digital
+tips slightly expanded (Fig. 1); first and second fingers equal; skin of
+dorsum smooth to moderately pustular, that of venter smooth; snout
+blunt; diameter of tympanum 55.1-75.7 per cent that of eye in males,
+47.6-61.7 in females; dorsum and flanks cream to gray with light brown
+to black flecking and vermiculations; thighs usually not banded;
+interorbital bar present (Fig. 8).
+
+    [Illustration: FIG. 9: _Syrrhophus guttilatus_ (upper left, UIMNH
+       55519, ×1.4; lower left, UIMNH 55519, ×2.3) and _S. marnockii_
+       (upper right, TCWC 9317, ×1.4; lower right, TCWC 13510, ×2.1).]
+
+_Remarks._--Cope (1879) distinguished _Malachylodes_ from _Syrrhophus_
+on the basis of the presence of a frontoparietal fontanelle in the
+holotype of _guttilatus_. The holotype is a juvenile female and as is
+the case in the juveniles of nearly all leptodactylids, a frontoparietal
+fontanelle is present. Firschein (1954) used the presence of the
+fontanelle to distinguish _guttilatus_ from his _petrophilus_.
+
+As is clearly evident from the length of the synonymy, I consider a
+number of currently used names to be synonymous with _guttilatus_. I
+have seen the holotypes of all four names and am unable to recognize
+more than a single species. The holotype of _petrophilus_ is a male,
+whereas that of _smithi_ is a female. The supposed differences are a
+reflection of sexual dimorphism in the size of the eye (Table 5). The
+two holotypes, as well as those of _gaigeae_ and _Malachylodes
+guttilatus_ agree in color pattern.
+
+Schmidt and Smith (1944) named _Syrrhophus gaigeae_ from the Chisos
+Mountains of the Big Bend region of Texas and compared it only with
+_S. marnockii_. Milstead, Mecham and McClintock (1950) synonymized
+_gaigeae_ and _marnockii_ because they were unable to verify the
+characters Wright and Wright (1949) used to separate them. Specimens
+from the Big Bend region differ from those of the Edward and Stockton
+Plateaus in having a vermiculate pattern, an interorbital bar, and a
+supratympanic stripe. In these respects they agree with specimens from
+northern México. Based on limited observations, the Mexican population
+is yellowish to brownish in life whereas the central Texas population is
+green in life. Lacking evidence of genetic exchange, the two are held to
+be specifically distinct.
+
+Nearly every specimen examined was infested with chiggers of the genus
+_Hannemania_. The greatest concentrations are on the venter, in the
+groin, and on the thighs. Many specimens have chiggers on the digits and
+tarsi. The same, or a related, chigger was found on many specimens of
+_Syrrhophus marnockii_ and a few _S. verrucipes_, but on no other
+species of the genus. Mr. Willy Wrenn told me that he has seen heavy
+infestations of _Hannemania_ on _Syrrhophus pallidus_. Infestation by
+_Hannemania_ probably reflects similar ecologies rather than close
+relationships.
+
+    [Illustration: FIG. 10: Distribution of _Syrrhophus guttilatus_.]
+
+_Etymology._--Latin, _guttula_, meaning spotting or flecking, in
+reference to the color pattern.
+
+_Distribution._--Moderate to intermediate elevations (600 to 2000 m.)
+along the Sierra Madre Oriental from the Big Bend Region of Texas to
+Guanajuato, México (Fig. 10).
+
+_Specimens examined._--(32) TEXAS, _Brewster Co._: Juniper Canyon,
+Chisos Mts., FMNH 27361 (holotype of _S. gaigeae_), 27360, 27362-63, MCZ
+15346, 27801, UMMZ 66080, 66082, 66085-91, USNM 76876; Upper Green
+Gulch, TCWC 15943.
+
+MÉXICO: _Coahuila_: 8 km. S Saltillo, UIMNH 55518-21. _Guanajuato_:
+Guanajuato, USNM 9888 (holotype of _Malachulodes guttilatus_); 8 km. E
+Guanajuato, AMNH 73425; Cerro Cubilete, AMNH 73424. _Nuevo León_: 3 km.
+S Galeana, JDL 1215 (skeleton), UIMNH 58204; 24 km. SW Galeana. 1575 m.,
+USNM 108594 (holotype of _Syrrhophus smithi_). _San Luis Potosí_: 5 km.
+SW San Luis Potosí, UIMNH 7807 (holotype of _S. petrophilus_).
+_Tamaulipas_: 1.6 km. NW La Joya de Salas, 1530 m., UMMZ 110736 (4).
+
+
+=Syrrhophus marnockii= Cope
+
+     _Syrrhophus marnockii_ Cope, 1878:253 [Syntypes.--ANSP 10765-68,
+        from "near San Antonio," Bexar Co., Texas; collected by G. W.
+        Marnock].
+
+     _Syrrhophus marnocki_: Yarrow, 1882:24, 193. Milstead, Mecham,
+        and McClintock, 1950:550.
+
+_Diagnosis._--Medium-sized frogs, males 18.4-28.9 mm. snout-vent,
+females 20.4-35.4 mm. snout-vent length; vocal slits in males; digital
+tips widened (Fig. 1); first and second fingers equal; skin of dorsum
+smooth to weakly pustular, that of venter smooth; snout blunt, rounded;
+diameter of tympanum 47.2-68.3 per cent that of eye in males, 45.8-73.3
+in females; dorsum tan to light brown in preservative with rusty-brown
+flecks, venter white; ground color green in life; thighs banded;
+interorbital bar absent.
+
+_Remarks._--Specimens from the southern edge of the Edwards Plateau and
+the eastern edge of the Stockton Plateau have larger flecks on the back
+that tend to form a vermiculate pattern like that of _S. guttilatus_.
+The vermiculation is never well developed (see plate 38 in Conant,
+1958). Most of the specimens from the Edwards Plateau have a punctate
+pattern (Fig. 9).
+
+Fossils are known from the Sangamon interglacial deposits in Foard and
+Knox Counties, Texas (Lynch, 1964; Tihen, 1960).
+
+_Etymology._--A patronym for the collector of the type specimens.
+
+_Distribution._--The Edwards Plateau and the extreme eastern edge of the
+Stockton Plateau in Texas (Fig. 11). The fossil records lie some 200
+miles to the north. Two specimens (FMNH 103216-17) from Brownsville,
+Cameron Co., Texas, were formerly in the EHT-HMS collection (nos.
+31348-49). Data given in Taylor's field catalogue (housed in the
+Division of Reptiles, Field Museum) are "Brownsville, A. J. Kirn
+collector, April 15, 1934." Until verification by recently collected
+material is available, this record must be disregarded.
+
+_Specimens examined._--(103) TEXAS, _Bandera Co._: 10 mi. SW Medina,
+TCWC 13508-10; 8 mi. W Medina, KU 60243; 13 mi. W Medina, KU 60242, TCWC
+13506-07. _Bexar Co._: UIMNH 34694; Classen ranch, near San Antonio.
+UMMZ 98891; Helotes, EAL 1560, MCZ 11837 (2), UMMZ 64045, USNM 13635; 2
+mi. N Helotes, TCWC 9234-35; 3.5 mi. N Helotes, LSUMZ 10363; 8 mi. N
+Helotes, TCWC 1549, 4364; San Antonio, FMNH 15553-56, TCWC 13497-99.
+_Blanco Co._: 8 mi. NE Blanco, TCWC 4782. _Comal Co._: New Braunfels,
+TCWC 13500-05; 5 mi. NE New Braunfels, UMMZ 71016 (10). _Hays Co._: San
+Marcos, AMNH 22661-64, 32700, FMNH 15245-46, 26250, 26253-57, 37617,
+37665, MCZ 15649-50, 23268-69; 6 mi. SW San Marcos, TCWC 5070-71, 7140,
+9232-33, 9236, 9316-17, 9320. _Kendall Co._: 11 mi. E Boerne, AMNH
+54660-61, 54662 (2); 10 mi. W Boerne, KU 18441; Kendalia, UIMNH 21434.
+_Kerr Co._: Kerr W. M. Area, TCWC 15859; 40 mi. NW Kerrville, TCWC 6555.
+_Medina Co._: UIMNH 13287-88; 12 mi. N Castroville, UIMNH 21423; 14 mi.
+N Castroville, UIMNH 21424-25; 16 mi. N Castroville, UIMNH 21421-22; 17
+mi. N Castroville, UIMNH 21428-29; 18 mi. N Castroville, UIMNH 21426-27,
+21430-33; 6.5 mi. NW Rio Medina, KU 18440. _Real Co._: Rio Frio, FMNH
+55156-57. _Travis Co._: Austin, AMNH 44221-22; Mount Bonnell, 5 mi. S
+Austin, UMMZ 101453 (10). _Uvalde Co._: 13 mi. from Uvalde, UIMNH 62322.
+_Val-Verde Co._: 40 mi. N Del Rio, JDL 214 (skeleton).
+
+    [Illustration: FIG. 11: Distribution of _Syrrhophus marnockii_
+       (circles). Starred localities are late Pleistocene records.]
+
+
+=Syrrhophus verrucipes= Cope
+
+     _Syrrhophus verrucipes_ Cope, 1885:383 [Holotype.--ANSP 11325, from
+        near Zacualtipán, Hidalgo, México (1800 feet lower in a rocky gorge
+        of a stream near its junction with the Río San Miguel), collected
+        by Dr. Santiago Bernard]. Kellogg, 1932:126-29. Smith and Taylor,
+        1948:52-53. Firschein, 1954:55-57. Gorham, 1966:167.
+
+     _Syrrhaphus verrucipes_: Günther, 1900:216-17.
+
+     _Tomodactylus macrotympanum_ Taylor, 1940e:496-99, pl. 55,
+        figs. 2a-b. [Holotype.--FMNH 100049 (formerly EHT-HMS 6838),
+        from La Placita, 8 km. S Jacala, Hidalgo, México, 1850 m.;
+        collected on July 2, 1936, by Edward H. Taylor]. Smith and
+        Taylor, 1948:47-48.
+
+     _Syrrhophus macrotympanum_: Dixon, 1957:384. Gorham, 1966:165.
+
+_Diagnosis._--Medium-sized frogs, males 17.5-26.1 mm. snout-vent,
+females 28.0-31.7 mm. snout-vent length; vocal slits in males; digital
+tips slightly expanded; first finger shorter than second; skin of dorsum
+pustular, that of venter areolate; snout elongate, subacuminate;
+diameter of tympanum 56.1-76.7 per cent that of eye in males, 54.3-56.8
+in females; in preservative, dorsum reddish brown with numerous small
+black or dark brown spots (Fig. 8); venter white to cream; in life
+dorsum green with darker green spots, belly white; iris gold above,
+bronze below.
+
+_Remarks._--Cope's (1885) original description was not sufficiently
+clear to enable subsequent authors to recognize this species. Taylor
+(1940e) described it as a _Tomodactylus_, but Dixon (1957) pointed out
+that _T. macrotympanum_ differed from the other species of the genus in
+having a poorly developed lumbo-inguinal (inguinal) gland, and placed
+the species in the genus _Syrrhophus_. Comparison of the holotypes of
+_S. verrucipes_ and _T. macrotympanum_ leaves no doubt in my mind that a
+single species is involved. This same species was reported by Smith and
+Taylor (1948) as _S. verruculatus_.
+
+_Syrrhophus verrucipes_ bears resemblance to members of both the
+_leprus_ and _marnockii_ groups. In snout shape it is closer to the
+_leprus_ group, whereas in digital pad, the shape of the general body
+form, and contiguity of habitat it is most similar to the _marnockii_
+group (_S. guttilatus_).
+
+_Etymology._--Latin, meaning warty foot, probably in reference to the
+numerous plantar supernumerary tubercles.
+
+_Distribution._--Moderate elevations in southeastern San Luis Potosí,
+Queretaro, and northwestern Hidalgo, México (Fig. 7).
+
+_Specimens examined_--(43) MÉXICO, _Hidalgo_: Jacala, UMMZ 106434; 9.6
+km. NE Jacala, Puerto de la Zorra, 1820 m., KU 60240-41, TCWC 11090,
+11147; 8 km. S Jacala, La Placita, 1850 m., FMNH 100049 (holotype of
+_Tomodactylus macrotympanum_), 100791-803, 105334-35, 114287, UIMNH
+15989-92, 15995-96, UMMZ 117252, USNM 137202; Tianguistengo, FMNH
+113705-09, UIMNH 13328-30; near Zacualtipán, ANSP 11325 (holotype of
+_Syrrhophus verrucipes_). _Queretaro_: 3.5 km. S San Juan del Río, EAL
+1343. _San Luis Potosí_: 9.6 km. W Ahuacatlán, LSUMZ 4968-70.
+
+
+=Syrrhophus dennisi= new species
+
+     _Syrrhophus latodactylus_: Martin, 1958:49 (in part).
+
+_Holotype._--UMMZ 101121, adult male from a cave near El Pachón, 8 km. N
+Antiguo Morelos, Tamaulipas, México, 250 m., collected on March 13,
+1949, by Paul S. Martin.
+
+_Paratopotypes._--(26). UMMZ 101122 (10), 101123 (2), 101126, 126993
+(12).
+
+_Diagnosis._--Medium-sized frogs, males 22.8-28.4 mm. snout-vent,
+females 25.9-32.0 mm. snout-vent; vocal slits in males; digital tips
+greatly expanded, more than twice width of digit; first finger shorter
+than second; skin of dorsum shagreened to pustular, that of venter
+weakly to moderately areolate; toes webbed basally; dorsum light brown
+to tan with brown vermiculations; venter white; diameter of tympanum
+53.9 to 64.2 per cent that of eye in males, 50.6 to 58.7 per cent in
+females.
+
+_Description and variation._--(Fig. 12). Head wider than body; head as
+wide or wider than long in males, sometimes longer than wide in females;
+snout acuminate in dorsal view, elongate and rounded in lateral profile;
+canthus rostralis rounded but distinct; loreal region slightly concave,
+sloping abruptly to lip; lips not flared; eyelid about two-thirds
+interorbital distance; length of eye less than distance between eye and
+nostril; diameter of tympanum 53.9 to 64.2 per cent that of eye in
+males, 50.6 to 58.7 per cent in females; tympanum round and distinct in
+both sexes; supratympanic fold moderately distinct; choanae within
+border of jaws, completely visible from directly below, rounded to
+slightly oval; dentigerous processes of prevomers and teeth absent;
+tongue free for posterior one-half, generally oval in outline; vocal
+slits present in males.
+
+Many scattered pustules on dorsum; flanks areolate; skin of venter
+areolate or not (variability may be due to differences in preservation);
+ventral disc distinct on chest and lower abdomen; inguinal gland present
+or not, when present varying from very large and distinct to poorly
+defined; axillary gland absent.
+
+First finger shorter than second; all fingers bearing truncate tips with
+pads, each pad having a terminal groove; fingers fringed; fingers three
+and four having dilated pads two to three times width of digit;
+subarticular tubercles large, conical, rounded, simple; supernumerary
+tubercles numerous on thenar surface, none on digits; three palmar
+tubercles, outer slightly smaller than largest supernumerary tubercles;
+row of tubercles on outer edge of forearm variable, weak to very
+distinct; tips of toes wider than digits, rounded to truncate at tips,
+each pad having terminal groove; toes having lateral fringes, bases of
+toes united by web, web not extending to basal subarticular tubercle;
+subarticular tubercles smaller than those of hand, round, conical,
+simple; supernumerary tubercles numerous on plantar surfaces, extending
+between metatarsal tubercles, present on toes between basal two
+subarticular tubercles in some specimens; outer metatarsal tubercle
+round, conical, one-half as large as ovoid, non-compressed inner
+metatarsal tubercle; tarsal tubercles or folds absent.
+
+Ground color pale reddish-brown to tan dorsally, creamy on flanks;
+dorsal pattern consisting of reddish-brown to brown vermiculations
+extending onto flanks; distinct interorbital light bar present; loreal
+region darker than snout, reddish-brown compared to tan or pale
+reddish-brown; arms colored like dorsum; thighs banded, unicolor brown
+on posterior surfaces; shanks and tarsi banded; venter white to cream
+punctated with brown in some specimens.
+
+The variation in proportions is summarized in Table 5.
+
+_Remarks._--Martin (1958) expressed some doubt that this series of 26
+specimens was identical with "_S. latodactylus_." My study indicates
+that the specimens from El Pachón represent a distinctive but allied
+species. Males of the two species can be readily separated by the
+relative sizes of the tympani, presence or absence of vocal slits, and
+color pattern. Females of the two species can be separated by color
+pattern. Within the type-series, the pattern varies from weakly to
+strongly vermiculate but is always recognizable as vermiculate rather
+than spotted as in _S. longipes_ (= _S. latodactylus_ of Taylor and
+Martin).
+
+    [Illustration: FIG. 12: _Syrrhophus dennisi_ sp. nov., holotype,
+       UMMZ 101121 (dorsum ×1.8, side of head ×6.1).]
+
+_Etymology._--The specific name is a patronym for David M. Dennis, whose
+drawings greatly enhance the worth of this paper.
+
+_Distribution._--Known only from the type series.
+
+
+=Syrrhophus longipes= (Baird), New combination
+
+     _Batrachyla longipes_ Baird, 1859:35, pl. 37, fig. 1-3
+        [Holotype.--apparently USNM 3237 (cited as 3207 by Cope, 1887:16),
+        now lost, from 40 Leagues from (probably north) México City;
+        collected by John Potts]. Kellogg, 1932:107.
+
+     _Epirhexis longipes_: Cope, 1866:96.
+
+     _Eleutherodactylus longipes_: Kellogg, 1932:107 (part). Smith and
+        Taylor, 1948:61. Lynch, 1963:580-581. Gorham, 1966:82.
+
+     _Syrrhophus latodactylus_ Taylor, 1940d:396-401, pl. 43, figs. A-F,
+        text fig. 7 [Holotype.--FMNH 100063 (formerly EHT-HMS 6807), from
+        Huasteca Canyon, 15 km. W Monterrey, Nuevo León, México, 680 m.;
+        collected on June 20, 1936, by Edward H. Taylor]. Smith and
+        Taylor, 1948:50-52. Martin, 1958:48-50. Gorham, 1966:165.
+
+_Diagnosis._--Large frogs, males 22.1-33.2 mm. snout-vent, females
+26.8-39.6 mm. snout-vent length; vocal slits lacking in males; digital
+tips greatly expanded (more than twice the width of digit); first finger
+shorter than second; skin of dorsum pustular, that of venter smooth;
+diameter of tympanum in males 61.1-87.2 per cent that of eye, 49.5-72.1
+per cent in females; dorsum tan with large or small spots and blotches;
+limbs banded; interorbital bar or triangle present.
+
+_Remarks._--I have applied Baird's _Batrachyla longipes_ to the frog
+Taylor (1940d) called _Syrrhophus latodactylus_ because the color
+pattern (Fig. 13) predominant in the southern part of the range agrees
+with that described (figured) for _Batrachyla longipes_.
+
+The color pattern of individuals in the southern part of the range of
+this species consists of large spots or blotches, whereas in the
+northwestern part the pattern is made up of smaller spots. In the
+northeastern part of the range, the pattern is more reduced and tends to
+consist of heavy flecking. The interorbital bar is narrower in specimens
+from Nuevo León and Tamaulipas and is triangular in specimens from
+Hidalgo and Queretaro.
+
+The status of the name _Batrachyla longipes_ is currently that of a
+_nomen dubium_ (Lynch, 1963). At that time, I was unaware of the
+geographic variation in color pattern in _Syrrhophus latodactylus_.
+
+The exact type-locality of _Batrachyla longipes_ is not known. If it is
+40 Leagues north of México City, the locality would be in an area where
+the species has a blotched instead of a flecked or spotted pattern. No
+justifiable evidence was presented to place _Batrachyla longipes_ in
+_Eleutherodactylus_ instead of _Syrrhophus_. Barbour (1923) and Kellogg
+(1932) associated another species (_E. batrachylus_) with _longipes_.
+Taylor (1940a) noted this as a case of misidentification and corrected
+the error but left _longipes_ in the genus _Eleutherodactylus_. Lynch
+(1963) noted several points of morphological agreement between
+_Syrrhophus_ and _B. longipes_ but did not place _longipes_ in
+_Syrrhophus_.
+
+Baird's (1859) figures of the holotype do not illustrate prevomerine
+teeth, but according to Cope (1866) they were present in the holotype.
+The digital tips of the frog in the figure are somewhat narrower than
+those typically seen in _S. latodactylus_. If the specimen was slightly
+desiccated, as possibly was the case, the digits would appear narrower.
+There is no evidence contrary to placing _Syrrhophus latodactylus_ in
+the synonymy of _Batrachyla longipes_.
+
+    [Illustration: FIG. 13: Dorsal views of _Syrrhophus longipes_
+       illustrating geographic variation in pattern (left, TCWC 12179,
+       ×1.5; right, KU 92572, ×1.8); side of head (TCWC 10966, ×6).]
+
+Application of Baird's name _Batrachyla longipes_ to the species of frog
+heretofore called _Syrrhophus latodactylus_ poses one serious problem.
+_Batrachyla longipes_ is the type-species (by original designation) of
+the genus _Epirhexis_ Cope, 1866, which has priority over _Syrrhophus_
+Cope, 1878. If _Batrachyla longipes_ is left in the status of a _nomen
+dubium_, _Epirhexis_ can be forgotten, for the two names are tied
+together. However, since it seems almost certain that _Batrachyla
+longipes_ and _Syrrhophus latodactylus_ are conspecific, the former name
+should not be left as a _nomen dubium_. _Epirhexis_ never came into
+general usage (Cope cited the name four times, but no one else has used
+it), whereas _Syrrhophus_ is well established in the zoological
+literature. It would serve only to confuse the literature to adhere
+strictly to the Law of Priority and replace _Syrrhophus_ with
+_Epirhexis_. Therefore, _Syrrhophus_ is used in this paper, even though
+_Epirhexis_ has priority. A request for the suppression of _Epirhexis_
+Cope, 1866, has been submitted to the International Commission of
+Zoological Nomenclature (Lynch, 1967).
+
+_Etymology._--Latin, meaning long-footed; Taylor's _latodactylus_ refers
+to the wide digital pads.
+
+    [Illustration: FIG. 14: Distribution of _Syrrhophus dennisi_
+       (triangle) and _S. longipes_ (circles).]
+
+_Distribution._--Moderate elevations (650 to 2000 meters) along the
+Sierra Madre Oriental from central Nuevo León to northern Hidalgo,
+México (Fig. 14).
+
+_Specimens examined._--(122) MÉXICO, _Hidalgo_: 3 km. NE Jacala, AMNH
+52977; 9.6 km. NE Jacala, 1800 m., TCWC 10966-70, 12179; 8 km. S Jacala,
+La Placita, 1850 m., FMNH 100266-68, 103244, UIMNH 13291, 13327. _Nuevo
+León_: Salto Cola de Caballo, KU 92572; Huasteca Canyon, 15 km. W
+Monterrey, 680 m., FMNH 100063 (holotype of _S. latodactylus_), UIMNH
+13290; 6.5 km. N Pablillo, EAL 1319; Sabinas Hidalgo, USNM 139728.
+_Queretaro_: Cueva de los Riscos, 8 km. SW Jalpan, KU 106300. _San Luis
+Potosí_: 13 km. E Santa Barberita, LSUMZ 2295; second camp, San Luis
+Potosí road, UIMNH 13326; Xilitla, Cueva sin nombre, UMMZ 125892.
+_Tamaulipas_: 4 km. W El Carrizo, 500 m., UMMZ 111343 (31); 8 km. N
+Chamal, Bee Cave, KU 106299; 14.5 km. NNW Chamal, 420 m., UMMZ
+111339-40, 111342 (4), 111344 (11); 19 km. NNW Chamal, 700 m., UMMZ
+111341 (3); El Chihue, 1880 m., UMMZ 111289 (4); 11 km. N Gómez Farías,
+1060 m., UMMZ 101166; 11 km. WNW Gómez Farías, 1800 m., UMMZ 108507 (3);
+8 km. NW Gómez Farías, 1060-1400 m., LSUMZ 11085, UMMZ 101167 (3),
+101168 (4), 101169 (2), 101170 (3), 101171 (2), 101360-61, 102860,
+102933 (4), 102934 (2), 102935-38, 102939 (2), 102940-43, 108800 (3),
+110735, 111345-46.
+
+
+=Syrrhophus pipilans= Taylor
+
+     _Syrrhophus pipilans_ Taylor, 1940c:95-97, pl. 1 [Holotype.--FMNH
+        100072 (formerly EHT-HMS 6843), 14.6 km. S Mazatlán, Guerrero,
+        México; collected on July 22, 1936, by Edward H. Taylor].
+
+_Diagnosis._--Medium sized frogs, males 22.6-28.5 mm. snout-vent,
+females 21.1-29.4 mm. snout-vent length; vocal slits present in males;
+finger tips slightly expanded, truncate in outline; inner metatarsal
+tubercle less than twice the size of outer; skin of dorsum smooth to
+shagreened, that of venter smooth; tympanum 36.5-54.0 per cent diameter
+of eye; dorsum dark brown with large or small light brown, orange-brown,
+or yellowish spots or blotches; limbs banded; interorbital bar absent.
+
+    [Illustration: FIG. 15: Dicegrams of ear size relative to eye
+       diameter in the two subspecies of _Syrrhophus pipilans_. N = 17
+       in _nebulosus_, 18 in _pipilans_.]
+
+_Remarks._--Two subspecies were recognized by Duellman (1958).
+Previously both had been treated as species. The two populations were
+distinguished on the basis of color pattern and the size of the
+tympanum. Measurements of 17 males of _S. p. nebulosus_ from central
+Chiapas and 18 males of _S. p. pipilans_ from southcentral Oaxaca and
+Guerrero, México, demonstrates that the supposed difference in tympanum
+size is not significant (Fig. 15). There is, however, a tendency for
+the western population of _S. pipilans_ to have larger tympani. Based on
+the present examination of 112 specimens of this species the two
+populations are held to be sufficiently distinct to warrant taxonomic
+recognition as subspecies (Fig. 16).
+
+    [Illustration: FIG. 16: _Syrrhophus pipilans nebulosus_ (left,
+       KU 58908) and _S. p. pipilans_ (right, KU 86885). ×2.7.]
+
+The parotoid glands attributed to this species by Taylor (1940c:95) are
+merely the superficial expression of the _m. depressor mandibulae_ and
+scapula. No true glands are present in the parotoid region.
+
+
+=Syrrhophus pipilans nebulosus= Taylor
+
+     _Syrrhophus nebulosus_ Taylor, 1943:353-55, pl. 27, figs. 3-5
+        [Holotype.--FMNH 100095 (formerly EHT-HMS 3774), near Tonolá,
+        Chiapas, México; collected on August 27, 1935, by Hobart M.
+        Smith and Edward H. Taylor]. Smith and Taylor, 1948:49, 51.
+
+     _Syrrhophus pipilans nebulosus_: Duellman, 1958:2-4, 9, 12, 14.
+        Stuart, 1963:32-33. Gorham, 1966:166-67.
+
+_Diagnosis._--Diameter of tympanum 36.6-47.8 per cent that of eye;
+dorsum dark brown with numerous small light brown to yellowish spots.
+
+_Remarks._--The distribution of this subspecies is adequately described
+by Duellman (1958). Fouquette (1960) described the vocalization of this
+frog.
+
+_Etymology._--Latin, _nebula_, in reference to the clouded dorsal
+pattern.
+
+_Distribution._--Low to moderate elevations along the Pacific versant of
+Chiapas and in the Grijalva valley of Chiapas and Guatemala (Fig. 17).
+
+_Specimens examined._--(54) GUATEMALA, _Huehuetenango_: Jacaltenango,
+UMMZ 117036; 35 km. SE La Mesilla, TNHC 29652. MÉXICO, _Chiapas_: 11.2
+km. N Arriaga, 300 m., UMMZ 125891; 11.8 km. N Arriaga, UMMZ 117279;
+12.8 km. N Arriaga, UMMZ 117280; 17.5 km. S Arriaga, UIMNH 57108-109;
+1.5 km. S Bochil, 1250 m., KU 58898-908; Cerro Hueco, 7 km. S Tuxtla
+Gutierrez, UMMZ 123007; 3.2 km. S Ixtapa, UMMZ 124000; Linda Vista, ca.
+2 km. NW Pueblo Nuevo Solistahuacán, KU 58897; Hda. Monserrate, 40 km.
+NW Arriaga, UMMZ 102258; near San Ricardo, FMNH 100720; Tapachula, FMNH
+75792, 103242, 100695-96, UIMNH 13292; 56 km. E Tapanatepec, Oaxaca,
+TNHC 26942, Tonolá, FMNH 100095 (holotype), 100686-92, UIMNH 13293-95;
+Tuxtla Gutierrez, FMNH 100693-94, UIMNH 13297; 19 km. N Tuxtla
+Gutierrez, TNHC 25229-30; 15.5 km. NE Tuxtla Gutierrez, UMMZ 119892 (3);
+19 km. NE Tuxtla Gutierrez, UMMZ 119891 (3); 8 km. NNW Tuxtla Gutierrez,
+KU 37809; Unión de Juarez, FMNH 105294.
+
+
+=Syrrhophus pipilans pipilans= Taylor
+
+     _?Syrrhopus verruculatus_: Gadow, 1905:194.
+
+     _Syrrhophus pipilans_ Taylor, 1940c:95-97, pl. 1 [Holotype.--FMNH
+        100072 (formerly EHT-HMS 6843), from 14.6 km. S Mazatlán,
+        Guerrero, México; collected on July 22, 1936, by Edward H. Taylor].
+        Taylor and Smith, 1945:581-82. Smith and Taylor, 1948:49, 50-51.
+
+     _Syrrhophus pipilans pipilans_: Duellman, 1958:1-4, 8-9, 13-14,
+        pl. 2, fig. 1. Gorham, 1966:166.
+
+_Diagnosis._--Diameter of tympanum 40.6-54.0 per cent that of eye;
+dorsum dark brown with large light spots or blotches.
+
+_Remarks._--Duellman's (1958) synopsis of this subspecies is adequate;
+the distribution has not been extended, but several records are now
+available which fill in gaps.
+
+    [Illustration: FIG. 17: Distribution of _Syrrhophus pipilans_:
+       _nebulosus_ (open circles) and _pipilans_ (solid circles).]
+
+Gadow's (1905) record of _S. verruculatus_ from "Buena Vista, S.
+Guerrero" is most likely applicable to this species. Gadow simply
+included the name in a list of the species he had collected during his
+trip in México (1902-04); no further comment was made on this species
+although references to _Syrrhopus_ (sic) appear in several places in the
+paper and would appear to apply to the species he had.
+
+_Etymology._--Latin, _pipilo_, chirping, peeping, in reference to the
+call of the male.
+
+_Distribution._--Sea level to about 1800 meters along the Pacific
+versant of western México from central Guerrero to the Isthmus of
+Tehuantepec (Fig. 17).
+
+_Specimens examined._--(62). MÉXICO, _Guerrero_: Acapulco, UMMZ 110125;
+6.4 km. N Acapulco, FMNH 100389, 100525; Agua del Obispo, 980-1000 m.,
+FMNH 75791, 100518-21, 100526, KU 86884-86, UIMNH 13315, UMMZ 119152,
+125890 (4); 13.3 km. NW Coyuca, UIMNH 38367, 71982-83; 14.5 km. S
+Mazatlán, FMNH 100072 (holotype), 100408, 100511-17, UIMNH 13302-309;
+Tierra Colorado, 300 m., KU 67961, UIMNH 13313-14; near El Treinte, FMNH
+126639; Xaltinanguis, FMNH 100522-24, 126640. _Oaxaca_: Cacahuatepec,
+UIMNH 52853; 8 km. NW Río Canoa, 53 km. ESE Cuajinicuilapa, UIMNH
+52852; 6.4 km. N El Candelaria, UIMNH 9501; 11.2 km. S El Candelaria,
+UIMNH 9502; 17 km. NE Juchatengo, 1600 m., KU 86887; 31.5 km. N
+Pochutla, UMMZ 123999 (2); 32.9 km. N Pochutla, 850 m., UMMZ 123996;
+37.1 km. N Pochutla, UMMZ 123998 (2); 41.4 km. N Pochutla, UMMZ 123997
+(2); Cerro Quiengola, FMNH 105653; 3.8 km. N Santiago Chivela, UMMZ
+115449; 14.5 km. W Tehuantepec, UMMZ 115448 (2).
+
+
+=Syrrhophus interorbitalis= Langebartel and Shannon
+
+     _Syrrhophus interorbitalis_ Langebartel and Shannon, 1956: 161-65,
+        figs. 1-2 [Holotype.--UIMNH 67061 (formerly FAS 9378), 36 mi. N
+        Mazatlán, Sinaloa, México, collected on November 17, 1955, by
+        E. C. Bay, J. C. Schaffner, and D. A. Langebartel]. Duellman,
+        1958:1-4, 10, 12, 14. Gorham, 1966:164-65.
+
+     _Syrrhophis interorbitalis_: Campbell and Simmons, 1962:194,
+        fig. 1.
+
+    [Illustration: FIG. 18: Left to right. _Syrrhophus interorbitalis_
+       (UIMNH 38095, ×1.5), _S. nivocolimae_ (LACM 3203, ×1.3), and
+       _S. teretistes_ (KU 75263, ×1.5).]
+
+_Diagnosis._--Medium sized frogs, only known male 25.6 mm. snout-vent,
+females 20.0-26.7 mm. snout-vent length (small sample); vocal slits in
+males; finger tips expanded; first finger shorter than second; outer
+metatarsal tubercle one-third size of inner; skin of dorsum shagreened,
+that of venter smooth; diameter of tympanum 37.7-42.4 per cent that of
+eye in both sexes; pale yellow-brown ground color mottled with brown;
+limb bands broad, much wider than narrow light interspaces; interorbital
+bar very long, edged with dark brown to black (Fig. 18).
+
+_Remarks._--Duellman's (1958) measurements and proportions of
+_S. interorbitalis_ were based exclusively on the type series, which is
+composed of only females; therefore his _interorbitalis_ data are not
+comparable with the data for the other species in his table. Campbell
+and Simmons (1962) collected the only known male. The type series was
+collected beneath rocks in a stream bed; the collectors heard calling
+frogs in the bushes but were unable to obtain specimens (Langebartel and
+Shannon, 1956). Campbell and Simmons (1962) reported that their specimen
+had a poorly developed interorbital bar in life; in preservative the bar
+compares favorably with the bar in the female (Fig. 18).
+
+_Etymology._--Latin, in reference to the pale interocular band.
+
+_Distribution._--Pacific lowlands of Sinaloa, México (Fig. 20).
+
+_Specimens examined._--(10). MÉXICO, _Sinaloa_: 36 mi. N Mazatlán, UIMNH
+38094-96, 67061 (holotype), 71970-74; 65 mi. N Mazatlán, LACM 13773.
+
+
+=Syrrhophus modestus= Taylor
+
+     _Syrrhophus modestus_ Taylor, 1942:304-06, pl. 29 [Holotype.--FMNH
+        100048 (formerly EHT-HMS 3756), from Hacienda Paso del Río,
+        Colima, México; collected on July 8, 1935, by Hobart M. Smith].
+        Smith and Taylor, 1948:49-50.
+
+     _Syrrhophus modestus modestus_: Duellman, 1958:2-5, 7, 14, pl. 1,
+        fig. 1. Gorham, 1966:166.
+
+_Diagnosis._--Small frogs, males 15.8-20.1 mm. snout-vent length, single
+female 18.5 mm.; vocal slits present in males; finger tips widely
+expanded; first finger shorter than second; inner metatarsal tubercle
+about three times size of outer; skin of dorsum shagreened, that of
+venter smooth; tympanum concealed; pale cream in preservative with dark
+brown spots; limbs banded; bands on forearm and thigh poorly developed
+or absent; interorbital bar absent.
+
+_Remarks._--The tympanum is concealed in _S. modestus_,
+_S. nivocolimae_, _S. pallidus_, _S. teretistes_, and to a lesser degree
+in _S. interorbitalis_. However, if the specimen is permitted to dry
+slightly, the annulus tympanicus becomes visible through the skin and a
+tympanum/eye ratio can be computed.
+
+One of the few cases of sympatry within the genus _Syrrhophus_ involves
+this species; _modestus_ and _nivocolimae_ are known to be sympatric at
+one locality in southwestern Jalisco, México.
+
+Duellman (1958) used the trinomial for this population and named a new
+subspecies, _pallidus_, from Nayarit. I consider _pallidus_ to be
+specifically distinct from _modestus_ because there is no evidence of
+genetic exchange, and there is no overlap in the distinguishing
+morphological features. I do consider the two populations to be closely
+related but feel the interrelationships between _modestus_, _pallidus_,
+_nivocolimae_, and _teretistes_ are more complex than would be indicated
+by the use of trinomials. The sympatric occurrence of _modestus_ and
+_nivocolimae_ is significant; morphologically, they might otherwise be
+regarded as subspecies. Although allopatric, similar arguments could be
+advanced for the morphologically similar _pallidus_ and _teretistes_.
+The four are here afforded species rank since morphological similarity
+and allopatry are not sufficient grounds for the assumption of genetic
+exchange.
+
+    [Illustration: FIG. 19: _Syrrhophus modestus_ [left, UMMZ 115447
+       (WED 11155)] and _S. pallidus_ (right, UMMZ 115453). ×2.2.]
+
+_Etymology._--Latin, meaning unassuming, modest, in reference to the
+small size of the species.
+
+_Distribution._--Low elevations (up to 700 meters) in the lowlands and
+foothills of Colima and southwestern Jalisco, México (Fig. 20).
+
+_Specimens examined._--(14). MÉXICO, _Colima_: Hda. Paso del Río, FMNH
+100048 (holotype), 100167, 100299, UIMNH 13300, UMMZ 110877 (2), USNM
+139729; 7.2 km. SW Tecolapa, UMMZ 115477 (4); _Jalisco_: 17.6 km. SW
+Autlan, 606 m., KU 102627; 3.2 km. N La Resolana, UMMZ 102100; Bahía
+Tenacatita, UMMZ 84264.
+
+
+=Syrrhophus nivocolimae= Dixon and Webb
+
+     _Syrrhophus nivocolimae_ Dixon and Webb, 1966:1-4, Fig. 1
+        [Holotype.--LACM 3200, from Nevado de Colima (6 airline miles west
+        of Atenquique), Jalisco, México, 7800 feet; collected on July 20,
+        1964, by Robert G. Webb].
+
+_Diagnosis._--Small frogs, males 18.5-21.1 mm. snout-vent length, only
+known female 24.1 mm. snout-vent; vocal slits present in males; finger
+tips widely expanded; first finger shorter than second; inner metatarsal
+tubercle about three times size of outer; skin of dorsum warty, that of
+venter smooth; tympanum concealed, its diameter 30.0-39.3 per cent that
+of eye in males; mid-dorsal brown band from interorbital bar to anus;
+bands on limbs narrow, dark bands less than one-half width of light
+bands, upper arm not banded; narrow interorbital light bar.
+
+_Remarks._--This species is closely related to _S. modestus_ and differs
+in color pattern and degree of wartiness of the skin. Dixon and Webb
+(1966) held that _nivocolimae_ had no close relatives, but the condition
+of the tympanum, size, nature of the outer palmar tubercle, relative
+sizes of the metatarsal tubercles, and shape and size of the digital
+pads all point to a close relationship between _S. modestus_,
+_S. nivocolimae_, and _S. pallidus_.
+
+    [Illustration: FIG. 20: Distribution of the species of the
+       _modestus_ group: _interorbitalis_ (open circles), _teretistes_
+       (solid circles), _modestus_ (open triangles), _pallidus_ (solid
+       triangles) and _nivocolimae_ (square). Arrow indicates locality of
+       sympatry between _modestus_ and _nivocolimae_. Solid line about the
+       localities for _interorbitalis_ is a range estimate based on call
+       records and specimens examined.]
+
+Dixon and Webb (1966) reported that _S. nivocolimae_ has a large
+tympanum (50.0-59.0 per cent diameter of eye). However, my examination
+of the type series and several other specimens from Jalisco reveals that
+the largest tympanum/eye ratio is 39.3 per cent. Therefore, the
+tympanum/eye ratio in _S. nivocolimae_ is in agreement with those for
+_S. modestus_, _S. pallidus_, and _S. teretistes_ (Table 6).
+
+_Etymology._--_niv_, Latin, and Colima (Nevado de), meaning high on the
+volcano, in reference to the higher distribution of this species (around
+2000 meters) than other members of the group.
+
+_Distribution._--Known from southwestern Jalisco, México, at moderate to
+high elevations (600-2400 meters).
+
+_Specimens examined._--(48) MÉXICO, _Jalisco_: 17.6 km. SW Autlán, 606
+m., KU 102626, 102631; 6.4 km. W Atenquique, 2060 m., KU 102628-30,
+102632; 8 km. W Atenquique, 1970 m., LACM 3210-12; 9.6 km. W Atenquique,
+2360 m., LACM 3200 (holotype), 3201-09; 14.5 km. W Atenquique, 2000 m.,
+LACM 25424-36, 25439-41, 25446; 15 km. W Atenquique, LACM 37044-46,
+37244-47; 16 km. W Atenquique, 2105 m., LACM 25443-45; 17 km. W
+Atenquique, 2180 m., LACM 25442.
+
+
+=Syrrhophus pallidus= Duellman, New combination
+
+     _Syrrhophus modestus_: Davis and Dixon, 1957:146.
+
+     _Syrrhophus modestus pallidus_ Duellman, 1958:2-3, 5-7, 14, pl. 3
+        [Holotype.--UMMZ 115452, from San Blas, Nayarit, México, sea
+        level; collected on August 13, 1956, by William E. and Ann S.
+        Duellman]. Zweifel, 1960:86-88, 91, 93-94, 118, 120-22. Gorham,
+        1966:166.
+
+     _Syrrhophis modestus pallidus_: Campbell and Simmons, 1962:194.
+
+_Diagnosis._--Small frogs, males 17.9-19.3 mm. snout-vent length; vocal
+slits in males; finger tips widely expanded; first finger shorter than
+second; inner metatarsal tubercle about three times size of outer; skin
+of dorsum shagreened, that of venter smooth; tympanum concealed, its
+diameter 27.0-35.6 per cent of eye in males; ground color cream
+vermiculated with brown, upper arm and thigh lacking, or with few,
+indistinct, bands; interorbital bar absent.
+
+_Remarks._--Considerable debate has been waged relative to the value of
+subspecies and to the reasons for recognizing distinct disjunct
+populations as species versus subspecies. Lacking evidence of genetic
+exchange, I prefer to retain disjunct populations that are distinctive
+as species.
+
+All known specimens of _pallidus_ can be separated from those of
+_modestus_ by color pattern. The two nominal species exhibit overlap in
+proportions but the same can be said about nearly every species of
+_Syrrhophus_; therefore, overlap in proportions can be disregarded in
+assessing specific versus subspecific rank. Until contrary evidence is
+forthcoming, I consider the disjunct populations heretofore held to be
+subspecies of _modestus_ to be specifically distinct. The specimens of
+the disjunct population of _pallidus_ on the Tres Marias do not differ
+from the mainland population in Nayarit. This evidence, though perhaps
+secondary, supports my contention that two species should be recognized.
+
+_Etymology._--Latin, in reference to the pale ground color in comparison
+with that of _S. modestus_.
+
+_Distribution._--Low elevations in coastal Nayarit and on Islas Tres
+Marias (Fig. 20).
+
+_Specimens examined._--(12) MÉXICO, _Nayarit_: 18.8 mi. NW Ahuacatlán,
+UIMNH 7808; San Blas, UMMZ 115452 (holotype), 115453-57; 17 km. NE San
+Blas, 150 m., MSU 5085; 12.8 km. E San Blas, UIMNH 71979; 31 km. E San
+Blas, UIMNH 71978; 13.5 km. N Tepic, UIMNH 71980-81.
+
+
+=Syrrhophus teretistes= Duellman
+
+     _Syrrhophus teretistes_ Duellman, 1958:2-3, 10-14, pl. 2, fig. 2
+        [Holotype.--UMMZ 115451, from 4.8 km. NW Tepic, Nayarit, México,
+        840 m.; collected on August 12, 1956, by William E. Duellman].
+        Gorham, 1966:167.
+
+_Diagnosis._--Medium-sized frogs, males 19.2-23.2 mm. snout-vent length,
+single known female 24.8 mm. snout-vent; vocal slits in males; finger
+tips widely expanded; first finger shorter than second; inner metatarsal
+tubercle about three times size of outer; skin of dorsum shagreened,
+that of venter smooth; tympanum partially concealed, its diameter
+28.6-43.8 per cent of eye in males; ground color brown vermiculated with
+dark brown to nearly black; upper arm and thigh banded; interorbital
+light bar absent.
+
+_Remarks._--_S. teretistes_ appears to be most closely related to
+_S. pallidus_; I consider it to be an upland derivative of _pallidus_.
+Morphologically, the differences between the two are few, but lacking
+evidence of genetic exchange they are retained as species.
+
+_Etymology._--Greek, in reference to the whistle-like nature of the
+call.
+
+_Distribution._--Moderate elevations (840-1200 meters) in the Sierra
+Occidental of Nayarit, Sinaloa, and Durango, México (Fig. 20).
+
+_Specimens examined._--(13) MÉXICO, _Nayarit_: 4.8 km. NW Tepic, 840 m.,
+UMMZ 115451 (holotype). _Sinaloa_: Santa Lucía, 1090 m., KU 75263-72; 1
+km. NE Santa Lucía, 1156 m., KU 78257; 2.2 km. NE Santa Lucía, 1156 m.,
+KU 78258.
+
+
+
+
+DISCUSSION
+
+
+There are relatively few clear-cut morphological differences among the
+fourteen species now assigned to _Syrrhophus_. The majority of the
+species are allopatric and differ primarily in color patterns. Sympatric
+occurrence serves as an indicator of specific distinctness and is one of
+the more practical tests of species validity when cross-breeding
+experiments are not possible. Two cases of sympatric occurrence are
+known for the species of _Syrrhophus_ in western México: _modestus_ and
+_nivocolimae_ are sympatric in southern Jalisco and _pipilans nebulosus_
+and _rubrimaculatus_ are sympatric in southeastern Chiapas. In eastern
+México, _longipes_ and _verrucipes_ are sympatric in southern Hidalgo,
+and _longipes_ is sympatric with _cystignathoides_, _dennisi_, and
+_guttilatus_ in southern Tamaulipas. _Syrrhophus cystignathoides_ and
+_leprus_ are apparently sympatric in central Veracruz.
+
+Subspecific assignments have been made only when there is evidence of
+intergradation. The sympatric occurrence of morphologically similar
+species in this genus has led me to adopt a conservative approach to the
+degree of difference philosophy. I have therefore recognized all
+morphologically distinct allopatric populations as species.
+
+    [Illustration: FIG. 21: Generic distributions of _Syrrhophus_
+       (stipple) and _Tomodactylus_ (hatching). Black areas are zones
+       of intergeneric sympatry.]
+
+_Syrrhophus_ is closely allied to another Mexican leptodactylid genus,
+_Tomodactylus_, which was revised by Dixon (1957), who along with
+numerous other authors noted the close relationship between the two
+genera. There is an almost complete lack of sympatry between the two
+genera; in very few places in México do they coexist (Fig. 21).
+_Tomodactylus_ has its greatest diversity in the Cordillera Volcánica
+and Sierra Madre del Sur, whereas _Syrrhophus_ reaches its greatest
+diversity in the Sierra Madre Oriental and eastern foothills. The
+species of both genera are about the same size and presumably have
+similar requirements insofar as food, breeding sites, and habitat
+selection.
+
+Four cases of intergeneric sympatry are known for the two genera:
+1) the Chilpancingo region of Guerrero, 2) the lowlands of Colima and
+the mountains just inland in Jalisco, 3) the lowlands of central Nayarit,
+and 4) the Sierra Madre Occidental on the Durango-Sinaloan border. The
+apparent sympatry in the Chilpancingo region involves four species:
+_S. pipilans_, _T. albolabris_, _T. dilatus_, and _T. nitidus_. Of the
+four, _T. dilatus_ appears to be completely allopatric in that it occurs
+at higher altitudes (above 2000 meters), whereas the other three occur
+below 1800 meters in the region (Davis and Dixon, 1965). In the
+Colima-Jalisco region, _Tomodactylus_ tends to occur higher (Dixon and
+Webb, 1966) than some of the _Syrrhophus_, but one subspecies of
+_Tomodactylus nitidus_ is a lowland frog, occurring sympatrically with
+the lowland _Syrrhophus modestus_. A similar situation is observed in
+Nayarit; the lowland _Tomodactylus_ occurs sympatrically with the small
+_Syrrhophus pallidus_. In both cases the _Syrrhophus_ is smaller than
+the _Tomodactylus_.
+
+    [Illustration: FIG. 22: Altitudinal distributions of _Syrrhophus_
+       and _Tomodactylus_. Widths of the columns are proportional to the
+       numbers of species at a given altitude; narrowest width equals one
+       species.]
+
+Frogs of the genus _Syrrhophus_ tend to occur at lower elevations than
+do their close relatives of the genus _Tomodactylus_ (Fig. 22). This
+generalization is complicated by the occurrence in the Sierra Madre
+Oriental in relatively high altitude _Syrrhophus_ (up to 2000 m.) and
+the occurrence in Michoacán of low altitude _Tomodactylus_ (to sea
+level). There are no _Tomodactylus_ in the Sierra Madre Oriental,
+whereas the genus _Syrrhophus_ is represented in the lowlands of western
+México (_modestus_ group). _Syrrhophus_ and _Tomodactylus_ exhibit
+essentially parapatric distributions. The two genera as now composed can
+be characterized as low to moderate elevation frogs (_Syrrhophus_) and
+moderate to intermediate elevation frogs (_Tomodactylus_).
+
+
+
+
+LITERATURE CITED
+
+
+BAIRD, S. F.
+
+     1859.  Reptiles of the Boundary. United States and Mexican Boundary
+            Survey, pp. 1-35, pls. 1-41.
+
+
+BARBOUR, T.
+
+     1923.  The reappearance of Batrachyla longipes. Proc. New England
+            Zool. Club, 8:81-83.
+
+
+BARBOUR, T., and A. LOVERIDGE
+
+     1946.  Typical reptiles and amphibians; supplement. Bull. Mus. Comp.
+            Zool., 96:59-214.
+
+
+BOULENGER, G. A.
+
+     1882.  Catalogue of the Batrachia Salientia ... British Museum.,
+            2nd ed.
+
+     1888.  Note on the classification of the Ranidae. Proc. Zool. Soc.
+            London, 1888, pt. 2:204-06.
+
+
+CAMPBELL, H. W., and R. S. SIMMONS
+
+     1962.  Notes on some reptiles and amphibians from western Mexico.
+            Bull. So. California Acad. Sci., 61:193-203.
+
+
+CONANT, R.
+
+     1958.  A field guide to reptiles and amphibians. Houghton-Mifflin
+            Co. Boston. 366 pp.
+
+
+COPE, E. D.
+
+     1866.  On the structures and distribution of the genera of the
+            arciferous Anura. J. Acad. Nat. Sci. Philadelphia, n. ser.,
+            6:67-112.
+
+     1877.  Tenth contribution to the herpetology of tropical America.
+            Proc. Amer. Philos. Soc., 17:85-98.
+
+     1878.  New genus of Cystignathidae from Texas. Amer. Nat.,
+            12:252-53.
+
+     1879.  Eleventh contribution to the herpetology of tropical America.
+            Proc. Amer. Philos. Soc., 18:261-77.
+
+     1885.  A contribution to the herpetology of Mexico. _Ibid._,
+            22:379-404.
+
+
+DAVIS, W. B., and J. R. DIXON
+
+     1957.  Notes on Mexican amphibians, with description of a new
+            _Microbatrachylus_. Herpetologica, 13:145-47.
+
+     1965.  Amphibians of the Chilpancingo Region, Mexico. _Ibid._,
+            20:225-33.
+
+
+DÍAZ DE LEÓN, J.
+
+     1904.  Indice de los Batracios que se enquentran en la Republica
+            Méxicana. Imprenta de Ricardo Rodriquez Romo. Aguascalientes.
+            40 pp.
+
+
+DIXON, J. R.
+
+     1957.  Geographic variation and distribution of the genus
+            Tomodactylus in Mexico. Texas J. Sci., 9:379-409.
+
+
+DIXON, J. R., and R. G. WEBB
+
+     1966.  A new _Syrrhophus_ from Mexico (Amphibia: Leptodactylidae).
+            Cont. Sc., Los Angeles Co. Mus., 102:1-5.
+
+
+DUELLMAN, W. E.
+
+     1958.  A review of the frogs of the genus _Syrrhophus_ in western
+            Mexico. Occ. Pap. Mus. Zool. Univ. Michigan, 594:1-15.
+
+     1960.  A distributional study of the amphibians of the Isthmus of
+            Tehuantepec, Mexico. Univ. Kansas Publs. Mus. Nat. Hist.,
+            13:19-72.
+
+
+FIRSCHEIN, I. L.
+
+     1954.  Definition of some little-understood members of the
+            leptodactylid genus _Syrrhophus_, with a description of a new
+            species. Copeia, (1):48-58.
+
+
+FOUQUETTE, M. J.
+
+     1960.  Call structure in frogs of the family Leptodactylidae. Texas
+            J. Sci., 12:201-15.
+
+
+GADOW, H.
+
+     1905.  The distribution of Mexican amphibians and reptiles. Proc.
+            Zool. Soc. London, 1905, pt. 2:191-244.
+
+
+GORHAM, S. W.
+
+     1966.  Liste der rezenten Amphibien und Reptilien.... Das Tierreich.
+            Lief, 85:1-222.
+
+
+GÜNTHER, A. C. L. G.
+
+     1885-1902. Biologia Centrali-Americana. Reptilia and Batrachia.
+            326 pp., 76 pls. Syrrhophus section dated 1900.
+
+
+KELLOGG, R.
+
+     1932.  Mexican tailless amphibians in the United States National
+            Museum. Bull. U.S. Natl. Mus., 160.
+
+
+LANGEBARTEL, D. A., and F. A. SHANNON
+
+     1956.  A new frog (Syrrhophus) from the Sinoloan lowlands of Mexico.
+            Herpetologica, 12:161-65.
+
+
+LYNCH, J. D.
+
+     1963.  The status of _Eleutherodactylus longipes_ (Baird) of Mexico
+            (Amphibia: Leptodactylidae). Copeia, (3):580-81.
+
+     1964.  Additional hylid and leptodactylid remains from the
+            Pleistocene of Texas and Florida Herpetologica. 20:141-42.
+
+     1967.  _Epirhexis_ Cope, 1866 (Amphibia: Salientia): request for
+            suppression under the plenary powers. I. N. (S). Bull. Zool.
+            Nomencl., 24:313-15.
+
+     1968.  Genera of leptodactylid frogs in México. Univ. Kansas Publs.,
+            Mus. Nat. Hist., 17:503-15.
+
+
+MARTIN, P. S.
+
+     1958.  A biogeography of reptiles and amphibians in the Gomez Farias
+            region, Tamaulipas, Mexico. Misc. Publs. Mus. Zool. Univ.
+            Michigan, 101:1-102.
+
+
+MILSTEAD, W. M., J. S. MECHAM, and H. MCCLINTOCK
+
+     1950.  The amphibians and reptiles of the Stockton Plateau in
+            northern Terrell County, Texas. Texas J. Sci., 2:543-62.
+
+
+NEILL, W. T.
+
+     1965.  New and noteworthy amphibians and reptiles from British
+            Honduras. Bull. Florida State Mus., 9:77-130.
+
+
+NIEDEN, F.
+
+     1923.  Anura I ... Das Tierreich. Lief., 46:1-584.
+
+
+PETERS, W.
+
+     1871.  Über neue Amphibien ... des Konigl. Zoologischen Museums.
+            Monatsb. k. k. Preuss. Akad. Wiss. Berlin, 1870:641-52.
+
+
+SCHMIDT, K. P., and T. F. SMITH
+
+     1944.  Amphibians and reptiles of the Big Bend Region of Texas.
+            Field Mus. Nat. Hist., zool. ser., 29:75-96.
+
+
+SMITH, H. M.
+
+     1947.  Notes on Mexican amphibians and reptiles. J. Washington Acad.
+            Sci., 37:408-12.
+
+
+SMITH, H. M., and E. H. TAYLOR
+
+     1948.  An annotated checklist and key to the Amphibia of Mexico.
+            Bull. U.S. Natl. Mus., 194:1-118.
+
+
+STEJNEGER, L.
+
+     1915.  A new species of tailless batrachian from North America.
+            Proc. Biol. Soc. Washington, 28:131-32.
+
+
+TAYLOR, E. H.
+
+     1940a. A new eleutherodactylid frog from Mexico. Proc. New England
+            Zool. Club, 18:13-16.
+
+     1940b. Two new anuran amphibians from Mexico. Proc. U.S. Natl.
+            Mus., 89:43-47, 1 pl.
+
+     1940c. A new Syrrhophus from Guerrero, Mexico. Proc. Biol. Soc.
+            Washington, 53:95-98, 1 pl.
+
+     1940d. New species of Mexican Anura. Univ. Kansas Sci. Bull.,
+            26:385-405.
+
+     1940e. Herpetological miscellany no. I. _Ibid._, 26:489-571.
+
+     1942.  New Caudata and Salientia from México. _Ibid._, 28:295-323.
+
+     1943.  Herpetological novelties from Mexico. _Ibid._, 29:343-61.
+
+     1952.  A review of the frogs and toads of Costa Rica. _Ibid._,
+            35:577-942.
+
+
+TAYLOR, E. H., and H. M. SMITH
+
+     1945.  Summary of the collections of amphibians made in Mexico under
+            the Walter Rathbone Bacon Traveling Scholarship. Proc. U.S.
+            Natl. Mus., 95:521-613.
+
+
+TIHEN, J. A.
+
+     1960.  Notes on Late Cenozoic hylid and leptodactylid frogs from
+            Kansas, Oklahoma and Texas. Southwest. Nat., 5:66-70.
+
+
+WRIGHT, A. H., and A. A. WRIGHT
+
+     1949.  Handbook of frogs and toads. 3rd ed. Comstock. 640 pp.
+
+
+YARROW, H. C.
+
+     1882.  Checklist of North American Reptilia and Batrachia, with
+            catalogue of specimens in U.S. National Museum. Bull. U.S.
+            Natl. Mus., 24:1-249.
+
+
+ZWEIFEL, R. G.
+
+     1960.  Results of the Puritan-American Museum of Natural History
+            Expedition to Western Mexico. 9. Herpetology of the Tres
+            Marias Islands. Bull. Amer. Mus. Nat. Hist., 119:81-128.
+
+
+
+
+TRANSCRIBER'S NOTES
+
+
+Although _Syrrhophus marnocki_ and _Syrrhophus marnockii_ both appear
+in this text, a literature search shows that both spellings have been
+used and the two instances where there is only one "i" at the end are
+in reference to priviously published names. Therefore, they were left
+as is. With the exception of the list below and a number of silent
+corrections, the text presented is that of the original printed version.
+
+Typographical Corrections
+
+ Page  Correction
+ ====  ======================
+   3   otherwse => otherwise
+   5   poltypic => polytypic
+  12   interorbtal => interorbital
+  14   neublosus => nebulosus
+  16   Cuidad => Ciudad
+  16   1946-170 => 1946:170
+  22   rubrimacultaus => rubrimaculatus
+  27   resemblence => resemblance
+
+Text Emphasis
+
+ _Text_ - Italics
+
+ =Text= - Bold
+
+
+
+
+
+
+End of the Project Gutenberg EBook of A Taxonomic Revision of the
+Leptodactylid Frog Genus Syrrhophus Cope, by John D. Lynch
+
+*** END OF THIS PROJECT GUTENBERG EBOOK A TAXONOMIC REVISION OF THE ***
+
+***** This file should be named 37809-8.txt or 37809-8.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.org/3/7/8/0/37809/
+
+Produced by Chris Curnow, Tom Cosmas, Joseph Cooper and
+the Online Distributed Proofreading Team at
+http://www.pgdp.net
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+http://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need, are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at http://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+http://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at http://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit http://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including checks, online payments and credit card donations.
+To donate, please visit: http://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart is the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     http://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.

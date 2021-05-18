@@ -1,0 +1,3688 @@
+The Project Gutenberg EBook of Fishes of Chautauqua, Cowley and Elk
+Counties, Kansas, by Artie L. Metcalf
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: Fishes of Chautauqua, Cowley and Elk Counties, Kansas
+
+Author: Artie L. Metcalf
+
+Release Date: November 30, 2010 [EBook #34523]
+
+Language: English
+
+Character set encoding: ISO-8859-1
+
+*** START OF THIS PROJECT GUTENBERG EBOOK FISHES ***
+
+
+
+
+Produced by Chris Curnow, Joseph Cooper and the Online
+Distributed Proofreading Team at http://www.pgdp.net
+
+
+
+
+
+
+
+
+
+  ====================================================================
+                   UNIVERSITY OF KANSAS PUBLICATIONS
+                       MUSEUM OF NATURAL HISTORY
+
+  Volume 11, No. 6, pp. 345-400, 2 plates, 2 figs. in text, 10 tables
+  ----------------------     May 6, 1959     -------------------------
+
+
+                               Fishes of
+                         Chautauqua, Cowley and
+                          Elk Counties, Kansas
+
+
+                                   BY
+
+                            ARTIE L. METCALF
+
+
+                          UNIVERSITY OF KANSAS
+                                LAWRENCE
+                                  1959
+
+
+
+
+     UNIVERSITY OF KANSAS PUBLICATIONS, MUSEUM OF NATURAL HISTORY
+
+          Editors: E. Raymond Hall, Chairman, Henry S. Fitch,
+                            Robert W. Wilson
+
+  Volume 11, No. 6, pp. 345-400, 2 plates, 2 figs. in text, 10 tables
+                         Published May 6, 1959
+
+
+                          UNIVERSITY OF KANSAS
+                            Lawrence, Kansas
+
+
+                          A CONTRIBUTION FROM
+                 THE STATE BIOLOGICAL SURVEY OF KANSAS
+
+
+                              PRINTED IN
+                       THE STATE PRINTING PLANT
+                            TOPEKA, KANSAS
+                                 1959
+
+                               27-7079
+
+
+
+
+                               Fishes of
+                         Chautauqua, Cowley and
+                          Elk Counties, Kansas
+
+                                  BY
+                            ARTIE L. METCALF
+
+
+CONTENTS
+
+
+                                                      PAGE
+  Introduction                                         347
+  Physical characteristics of the streams              351
+  Climate                                              351
+  Present flora                                        353
+  History                                              354
+  Conservation                                         357
+  Previous ichthyological collections                  357
+  Acknowledgments                                      358
+  Materials and methods                                358
+  Collecting stations                                  359
+  Annotated list of species                            362
+  Fishes of doubtful or possible occurrence            383
+  Faunal comparisons of different streams              384
+  Distributional variations within the same stream     387
+  Faunas of intermittent streams                       390
+  East-west distribution                               392
+  Summary                                              394
+  Literature cited                                     397
+
+
+
+
+INTRODUCTION
+
+
+Aims of the distributional study here reported on concerning the fishes
+of a part of the Arkansas River Basin of south-central Kansas were as
+follows:
+
+(1) Ascertain what species occur in streams of the three counties.
+
+(2) Ascertain habitat preferences for the species found.
+
+(3) Distinguish faunal associations existing in different parts of the
+same stream.
+
+(4) Describe differences and similarities among the fish faunas of the
+several streams in the area.
+
+(5) Relate the findings to the over-all picture of east-west
+distribution of fishes in Kansas.
+
+(6) List any demonstrable effects of intermittency of streams on fish
+distribution within the area.
+
+Cowley and Chautauqua counties form part of the southern border of
+Kansas, and Elk County lies directly north of Chautauqua. The following
+report concerns data only from those three counties unless otherwise
+noted. They make up an area of 2,430 square miles having a population of
+50,960 persons in 1950 (55,552 in 1940, and 60,375 in 1930). The most
+populous portion of the area is western Cowley County where Arkansas
+City with 12,903 inhabitants and Winfield with 10,264 inhabitants are
+located. Each of the other towns has less than 2,000 inhabitants. In the
+Flint Hills, which cross the central portion of the area surveyed,
+population is sparse and chiefly in the valleys.
+
+Topographically, the area is divisible into three general sections: the
+extensive Wellington formation and the floodplain of the Arkansas River
+in western Cowley County; the Flint Hills in the central part of the
+area; and the "Chautauqua Hills" in the eastern part. The drainage
+pattern is shown in Figure 1.
+
+The Wellington formation, which is devoid of sharp relief, borders the
+floodplain of the Arkansas River through most of its course in Cowley
+County. A short distance south of Arkansas City, however, the Arkansas
+is joined by the Walnut River and enters a narrow valley walled by
+steep, wooded slopes. Frye and Leonard (1952:198) suggest that this
+valley was originally carved by the Walnut River, when the Arkansas
+River flowed southward west of its present course. They further suggest
+that during Nebraskan glacial time the Arkansas probably was diverted to
+the rapidly downcutting Walnut. The Arkansas River has a gradient of 3.0
+ft. per mile in Cowley County. This gradient and others cited were
+computed, by use of a cartometer, from maps made by the State Geological
+Survey of Kansas and the United States Geological Survey.
+
+Northward along the Walnut, steep bluffs and eroded gulleys characterize
+both sides of the river, especially in southern Cowley County. Two
+massive limestones, the Fort Riley and the Winfield, form the bluffs in
+most places. The well-defined Winfield limestone is persistent on the
+west bank of the river across the entire county. The Walnut has only a
+few small tributaries in the southern half of Cowley County (Fig. 1). In
+the northern half, however, it is joined from the east by Timber Creek
+and Rock Creek. Timber Creek drains a large level area, formed by the
+eroded upper portion of the Fort Riley limestone, in the north-central
+portion of the county. The gradient of Timber Creek is 12.9 feet per
+mile. The gradient of the Walnut River is only 2.3 ft. per mile from its
+point of entrance into the county to its mouth.
+
+    [Illustration: FIG. 1.
+      Map of Cowley, Chautauqua and Elk counties, Kansas,
+      showing the streams mentioned in the text.]
+
+Grouse Creek, like the Walnut, has formed a valley of one to three miles
+in width, rimmed by prominent wooded bluffs. Those on the west side are
+capped by the Fort Riley limestone with the resistant Wreford and Crouse
+limestones forming lower escarpments. On the east side the Wreford and
+Crouse limestones provide the only escarpments along the stream above
+the Vinton community, except for occasional lower outcrops of Morrill
+limestone. Below Vinton the Fort Riley limestone again appears, capping
+the hills above the Wreford limestone. The headwaters of the western
+tributaries of Grouse Creek are generally in the Doyle shale formation;
+the eastern tributaries are in the Wreford limestone, Matfield shale,
+and Barnestone limestone formations. The gradient of Grouse Creek is 9
+ft. per mile, of Silver Creek 14.6 ft. per mile, and of Crab Creek 14.4
+ft. per mile.
+
+The Big Caney River (Fig. 1), having a gradient of 15.4 ft. per mile in
+the area studied, drains an area with considerable geological and
+topographic variation. The main stream and its western tributaries
+originate in Permian formations, whereas the eastern tributaries
+originate in Pennsylvanian formations. Cedar Creek is exemplary of
+western tributaries of Big Caney. This creek arises in the Wreford
+limestone, as do several nearby tributaries of Grouse Creek. Although
+the Grouse tributaries descend through only part of the Council Grove
+group, Cedar Creek flows downward through the entire Grove, Admire, and
+Wabaunsee groups and part of the Shawnee Group (Moore, 1951). In only 15
+miles, Cedar Creek traverses formations comprising more than 60 per cent
+of the entire exposed stratigraphic section in Cowley County. Bass
+(1929:16) states that reliefs of 350 feet within a mile are present in
+parts of this area.
+
+Large terraces of limestone characterize the eastern flank of the Flint
+Hills, which the western tributaries of Big Caney drain. Most striking
+is the Foraker limestone. It characteristically consists of three
+massive members in Cowley County, the uppermost of which forms the
+prominent first crest of the Flint Hills. As the rapid-flowing western
+tributaries of Big Caney descend over these successive limestone
+members, large quantities of chert and limestone rubble are transported
+and deposited in stream beds of the system. In many places the streams
+of the Big Caney system flow over resistant limestone members, which
+form a bedrock bottom. The eastern tributaries of Big Caney drain, for
+the most part, formations of the Wabaunsee group of the Pennsylvanian.
+Most of these streams have lower gradients than those entering Big Caney
+from the west. The tributaries of Big Caney, along with length in miles
+and gradient in feet per mile, are as follows: Spring Creek, 7.1, 54.5;
+Union Creek, 6.3, 42.9; Otter Creek, 14.6, 27.4; Cedar Creek, 11.6,
+31.0; Rock Creek, 15.9, 26.5; Wolf Creek, 9.3, 17.2; Turkey Creek, 8.5,
+26.4; Grant Creek, 13.9, 23.4; and Sycamore Creek, 8.9, 27.0.
+
+Spring Creek and Union Creek are short and have formed no extensive
+floodplain. The high gradients of these creeks are characteristic also
+of the upper portions of several other tributaries such as Cedar Creek
+and Otter Creek.
+
+Middle Caney Creek (Fig. 1) has its source in the Wabaunsee and Shawnee
+groups of the Pennsylvanian but its watershed is dominated by the
+"Chautauqua Hills" of the Douglas Group. This area is described by Moore
+(1949:127) as "an upland formed by hard sandstone layers." The rough
+rounded hills supporting thick growths of oaks differ in appearance from
+both the Big Caney watershed on the west and the Verdigris River
+watershed on the east. The gradient of Middle Caney in Chautauqua County
+is 10.8 feet per mile. Its largest tributary, North Caney Creek, has a
+gradient of 15.5 feet per mile.
+
+The Elk River Basin resembles the Big Caney River Basin topographically.
+Elk River has a gradient of 14.4 feet per mile.
+
+
+
+
+PHYSICAL CHARACTERISTICS OF STREAMS
+
+
+The stream channels derive their physical characteristics from the
+geological make-up of the area and from land-use. The Arkansas River
+typically has low banks; however, in a few places, as in the NE 1/4 of
+Section 21, T. 33 S, R. 3 E, it cuts into limestone members to form
+steep rocky banks. The bottom is predominantly sand. In years of heavy
+rainfall the river is turbid, but during 1956, when it occupied only a
+small portion of its channel, it was clear each time observed. All
+streams surveyed were clear except after short periods of flooding in
+June, and except in some isolated pools where cattle had access to the
+water.
+
+In the Walnut River, sand bottoms occur in the lower part of the stream
+but the sand is coarser than that of the Arkansas River. Upstream,
+gravel and rubble bottoms become more common. Steep rocky banks border
+most of the course of the Walnut. During 1956, stream-flow was confined
+to the center of the channel, remote from these rocky banks.
+
+The rubble and bedrock bottoms found in most streams of the Flint Hills
+have been described. In the alluvial valleys of their lower courses mud
+bottoms are found. Gravel is present in some places but sand is absent.
+Banks are variable but often steep and wooded. Along east- or
+west-flowing streams the north bank characteristically is low and
+sloping whereas the south bank is high, rises abruptly, and in many
+places is continuous with wooded hills. The lower sections of Otter
+Creek, Cedar Creek, and Rock Creek fit this description (Bass, 1929:19)
+especially well, as does Elk River near Howard.
+
+Streams in the Chautauqua Hills resemble those of the Flint Hills in
+physical characteristics, except that a larger admixture of sandstone
+occurs in the rubble.
+
+
+
+
+CLIMATE
+
+
+The climate of the area is characterized by those fluctuations of
+temperature, wind, and rainfall typical of the Great Plains. The mean
+annual temperature is 58 degrees; the mean July temperature is 81
+degrees; the mean January temperature is approximately 34 degrees. The
+mean annual precipitation is 32.9 in Cowley County, 38.5 in Chautauqua
+County, and 35.1 in Elk County. Wind movement is great; Flora (1948:6)
+states that south-central Kansas ranks close to some of the windiest
+inland areas in the United States.
+
+The area has been periodically subjected to droughts and floods. Such
+phenomena are of special interest to ichthyological workers in the area.
+At the time of this study drought conditions, which began in 1952,
+prevailed. Even in this period of drought, however, flooding occurred on
+Grouse Creek and water was high in Big Caney River after heavy local
+rains on the headwaters of these streams on June 22, 1956. Some of the
+lower tributaries of these same streams (such as Crab Creek and Cedar
+Creek) did not flow while the mainstreams were flooding. This
+illustrates the local nature of many of the summer rains in the area.
+
+Table 1 indicates maximum, minimum, and average discharges in cubic feet
+per second at several stations in the area and on nearby streams. These
+figures were provided by the U. S. Geological Survey.
+
+    TABLE 1.--CUBIC FEET PER SECOND OF WATER DISCHARGED AT GAUGING
+              STATIONS IN CHAUTAUQUA, ELK, MONTGOMERY, AND COWLEY
+              COUNTIES FOR YEARS PRIOR TO 1951.
+
+ =======================================================================
+   Gauging      |Drainage |Avg   |Maximum|          |Minimum|
+   station      |area     |dis-  |dis-   |          |dis-   |
+                |(sq. mi.)|charge|charge |  Date    |charge | Date
+ ---------------|---------|------|-------|----------|-------|-----------
+ Arkansas River |  43,713 |1,630 |103,000| June 10, |  1    |October 9,
+ at Arkansas    |         |      |       | 1923     |       | 1921
+ City           |         |      |       |          |       |
+ ---------------|---------|------|-------|----------|-------|----------
+ Walnut River   |   1,840 |  738 |105,000| April 23,|  0    |1928, 1936
+ at Winfield    |         |      |       | 1944     |       |
+ ---------------|---------|------|-------|----------|-------|----------
+ Big Caney River|     445 |  264 | 35,500| April 10,|  0    |1939, 1940,
+ at Elgin       |         |      |       | 1944     |       |1946, 1947
+ ---------------|---------|------|-------|----------|-------|----------
+ Elk River near |     575 |  393 | 39,200| April 16,|  0    |1939, 1940,
+ Elk City       |         |      |       | 1945     |       |1946
+ ---------------|---------|------|-------|----------|-------|----------
+ Fall River near|     591 |  359 | 45,600| April 16,|  0    |1939, 1940,
+ Fall River     |         |      |       | 1945     |       |1946
+ ---------------|---------|------|-------|----------|-------|----------
+ Verdigris River|   2,892 |1,649 |117,000| April 17,|  0    |1932, 1934,
+ at Independence|         |      |       | 1945     |       |1936, 1939,
+                |         |      |       |          |       |1940
+ -----------------------------------------------------------------------
+
+Something of the effect that drought and flash-flood have had on Big
+Caney River is shown by the monthly means of daily discharge from
+October, 1954, to September, 1956, at the stream-gauging station near
+Elgin, Kansas (Table 2). Within these monthly variations there are also
+pronounced daily fluctuations; on Big Caney River approximately 1/4 mile
+south of Elgin, Kansas, discharge in cubic feet per second for May,
+1944, ranged from .7 to 9,270.0 and for May, 1956, from .03 to 20.0.
+
+    TABLE 2.--MONTHLY MEANS OF DAILY DISCHARGE IN CUBIC FEET PER
+              SECOND FOR BIG CANEY RIVER AT ELGIN, KANSAS
+
+    _Month_    _1954-55_    _1955-56_
+
+    October       103.00        69.60
+    November         .31          .78
+    December         .18         1.92
+    January          .78         1.65
+    February        4.76         2.08
+    March           3.37         1.27
+    April           4.91          .47
+    May           624.00         7.37
+    June           51.30        35.20
+    July            1.20         1.85
+    August          0.00         0.00
+    September        .04         0.00
+
+
+
+
+PRESENT FLORA
+
+
+The flora of the region varies greatly at the present time. Land-use has
+altered the original floral communities, especially in the intensively
+cultivated area of western Cowley County and in the river valleys.
+
+The sandy Arkansas River floodplain exhibits several stages ranging from
+sparsely vegetated sandy mounds near the river through stages of Johnson
+grass, willow, and cottonwood, to an elm-hackberry fringe-forest. The
+Wellington formation bordering the floodplain supports a prairie flora
+where not disturbed by cultivation; Gates (1936:15) designates this as a
+part of the mixed bluestem and short-grass region. _Andropogon gerardi_
+Vitman., _Andropogon scoparius_ Michx., _Sorghastrum nutans_ (L.), and
+_Panicum virgatum_ L. are important grasses in the hilly pasture-lands.
+Although much of this land is virgin prairie, the tall, lush condition
+of the grasses described by early writers such as Mooso (1888:304), and
+by local residents, is not seen today. These residents speak of slough
+grasses (probably _Tripsacum dactyloides_ L. and _Spartina pectinata_
+Link.) that originally formed rank growths. These no doubt helped
+conserve water and stabilize flow in small headwater creeks. Remnants of
+some of these sloughs can still be found. The streams in the Flint Hills
+have fringe-forests of elm, hackberry, walnut, ash, and willow.
+
+Eastward from the Flint Hills these fringe-forests become thicker with a
+greater admixture of hickories and oaks. The north slopes of hills also
+become more wooded. However, grassland remains predominant over woodland
+in western Chautauqua and Elk counties, whereas in the eastern one-half
+of Chautauqua County and the eastern one-third of Elk County the wooded
+Chautauqua Hills prevail. This is one of the most extensive wooded
+upland areas in Kansas. Hale (1955:167) describes this woodland as part
+of an ecotonal scrub-oak forest bordering the Great Plains south through
+Texas. He found stand dominants in these wooded areas to be _Quercus
+marilandica_ Muenchh., _Quercus stellata_ Wang., and _Quercus velutina_
+Lam.
+
+Few true aquatic plants were observed in the Arkansas River although
+mats of duckweed were found in shallow backwater pools at station A-3
+(Fig. 2) on December 22, 1956. In the Walnut River _Najas guadalupensis_
+Spreng. was common at station W-2. Stones were usually covered with
+algae in both the Arkansas and Walnut rivers. A red bloom, possibly
+attributable to _Euglena rubra_ (Johnson), was observed on a tributary
+of the Walnut River on July 9, 1956, at station W-4.
+
+Green algae were abundant at all stations in the Caney, Elk, and Grouse
+systems during May and June, 1956, and reappeared late in September.
+_Chara_ sp. was common in these streams in April and May.
+
+The most characteristic rooted aquatic of streams in the Flint Hills was
+_Justicia americana_ L. At station G-7 on Grouse Creek and Station C-8
+on Big Caney River (Fig. 3), _Nelumbo lutea_ (Willd.) was found.
+_Myriophyllum heterophyllum_ Michx. formed dense floating mats at a
+number of stations. Other aquatic plants observed in the Caney, Elk, and
+Grouse systems included _Potamogeton gramineus_ L., _Potamogeton
+nodosus_ Poir., _Potamogeton foliosus_ Raf., _Sagittaria latifolia_
+Willd., _Typha latifolia_ L., and _Jussiaea diffusa_ Forsk.
+
+
+
+
+HISTORY
+
+
+In 1857, a survey was made of the southern boundary of Kansas. Several
+diaries (Miller, 1932; Caldwell, 1937; Bieber, 1932) were kept by
+members of the surveying party, which traveled from east to west. These
+accounts contain complaints of difficulty in traversing a country of
+broken ridges and gulleys as the party approached the area now
+comprising Chautauqua County. One account by Hugh Campbell, astronomical
+computer for the party (Caldwell, 1937) mentions rocky ridges covered
+with dense growth of "black jack," while another by Col. Joseph Johnson,
+Commander (Miller, 1932) speaks of "a good deal of oakes in the
+heights"--indicating that the upland oak forest of the Chautauqua Hills
+was in existence at that time. On reaching Big Caney River near Elgin,
+Campbell wrote of a stream with very high banks and of a valley timbered
+with oak and black walnut. While the party was encamped on Big Caney
+River some fishing was done. Campbell (Caldwell, 1937:353) described the
+fish taken as "Cat, Trout or Bass, Buffalo and Garr." Eugene Bandel
+(Bieber, 1932:152) wrote, "This forenoon we did not expect to leave
+camp, and therefore we went fishing. In about two hours we caught more
+fish than the whole company could eat. There were some forty fish
+caught, some of them weighing over ten pounds." It was noted that the
+waters of Big Caney and its tributaries were "very clear." Progressing
+up Rock Creek, Johnson wrote of entering a high rolling plain covered
+with fine grass, and crossed occasionally by clear wooded streams
+(probably Big and Little Beaver Creeks and Grouse Creek). The diary of
+Hugh Campbell (Caldwell, 1937:354) contains a description of the
+Arkansas River Valley near the Oklahoma border. "The Arkansas River at
+this point is about 300 yards wide, its waters are muddy, not quite so
+much so, as those of the Mississippi or Rio Bravo. Its valley is wooded
+and about two miles in width, the main bottom here, being on the east
+side. On the west it is a rolling prairie as far as the eye can see,
+affording excellent grass." Some seining was done while encamped on the
+Arkansas River and "buffalo, catfish, sturgeons, and gars" were taken
+(Bieber, 1932:156).
+
+An editorial in the Winfield Courier of November 16, 1899, vigorously
+registers concern about a direct effect of settlement on fish
+populations in rivers of the area:
+
+"The fish in the streams of Cowley County are being slaughtered by the
+thousands, by the unlawful use of the seine and the deadly hoop net.
+Fish are sold on the market every day, sometimes a tubful at a time,
+which never swallowed a hook.
+
+"The fish law says it is unlawful to seine, snare, or trap fish but some
+of the smaller streams in the county, it is said are so full of hoop and
+trammel nets that a minnow cannot get up or down stream. These nets not
+only destroy what fish there are in the streams but they keep other fish
+from coming in, they are not operated as a rule by farmers to supply
+their own tables but by fellows who catch the fish to sell with no
+thought or care for the welfare of others who like to catch and eat
+fish.
+
+"If there is a fishwarden in Cowley County so far as his utility goes
+the county would be as well off without him and his inactivity has
+caused many of those interested to get together for the purpose of
+seeing that the law is enforced.
+
+"Depredations like this work injury in more ways than one. They not only
+deplete the streams of fish large enough to eat and destroy the source
+of supply but if the U. S. Fish Commission discovers that the law is not
+enforced and the fish not protected, there will be no free government
+fish placed in Cowley County streams. It is useless for the Government
+to spend thousands of dollars to keep the streams well supplied if a few
+outlaws are allowed to ruthlessly destroy them. The new organization has
+its eye on certain parties now and something is liable to drop
+unexpectedly soon."
+
+Graham (1885:78) listed 13 species of fish that had already been
+introduced into Kansas waters prior to 1885 by the State Fish
+Commission.
+
+These early references indicate that direct effects of settlement on the
+native flora and fauna were recognized early. Concern such as that
+expressed in the editorial above persists today; however, it is not
+clear whether the fish fauna of the streams of the area has been
+essentially changed by man's predation. The indirect effects through
+human modifications of the environment seem to be of much importance.
+Three modifications which have especially affected streams have been
+agricultural use, urbanization, and industrialization.
+
+The effect of land-use on streams is closely related to its effect on
+the flora of the watershed. Turbidity, sedimentation, and the rate,
+periodicity, and manner of flow all bear some relationship to the
+land-use of the watershed. Stream-flow in the area has been discussed in
+the section on climate.
+
+The effects of urbanization are more tangible and better recognized than
+those of agricultural land-use. Streams that flow through cities and
+other populous areas undergo some modification, especially of the
+streamside flora. Another effect of urbanization has been increased
+loads of sewage discharged into the streams. The combined populations of
+Arkansas City and Winfield rose from 3,986 in 1880 to 23,167 in 1950.
+Arkansas City found it necessary to construct a sewage system in 1889;
+Winfield in 1907.
+
+There are, at the present time, nine towns within the area that have
+municipal sewage systems. The State Training Home at Winfield also has a
+sewage system. The Kansas State Board of Health, Division of Sanitation,
+has provided information concerning adequacy of these systems and
+certain others in nearby counties as of February 5, 1957. This
+information is shown in Table 3.
+
+Representatives of the Division of Sanitation, Kansas State Board of
+Health, expressed the belief that pollution by both domestic sewage and
+industrial wastes would be largely eliminated in the "lower Arkansas"
+and in the Walnut watershed by 1959.
+
+Important oil and gas resources have been discovered in each of the
+three counties. The first producing wells were drilled between 1900 and
+1902 (Jewett and Abernathy, 1945:24). The Arkansas River flows through
+several oilfields in its course across Cowley County (Jewett and
+Abernathy, 1945:97). A number of producing wells have been drilled in
+the Grouse Creek watershed since 1939 and many of these wells are near
+the banks of the creek. In the Big Caney watershed of Cowley and
+Chautauqua counties there has been little oil production in recent
+years; however, a few small pools are presently producing in
+southwestern Elk County.
+
+Clapp (1920:33) stated that "Many of the finest streams of our state are
+now destitute of fish on account of oil and salt pollution. The Walnut
+River, once as  fine a bass stream as could be found anywhere, and a
+beautiful stream, too, is now a murky oil run, and does not contain a
+single fish so far as I know. The Fall and Verdigris rivers are
+practically ruined. Both the Caney rivers are affected, and may soon be
+ruined for fishing." Doze (1924:31) noted "Some of the finest streams in
+the state have been ruined as habitat for wild life, the Walnut River is
+probably the most flagrant example."
+
+    TABLE 3.--SEWAGE DISPOSAL FACILITIES IN SOME SOUTH-CENTRAL KANSAS
+              COMMUNITIES.
+
+ =======================================================================
+        Community       |  Status on February 5, |     Remarks
+                        |             1957       |
+ -----------------------+------------------------+----------------------
+ Cowley County:         |                        |
+   Arkansas City        | Discharging raw sewage | Adequate plant in
+                        |                        |  design stage.
+   Geuda Springs        | Discharging raw sewage |
+   Winfield             | Inadequate             |
+   State training school| Adequate               |
+   Udall                | Adequate               |
+ -----------------------+------------------------+----------------------
+ Chautauqua County:     |                        |
+   Cedar Vale           | Inadequate             |
+   Sedan                | Adequate               | In operation 30
+                        |                        |  days.
+   Elgin                | Adequate               |
+ -----------------------+------------------------+----------------------
+ Elk County:            |                        |
+   Moline               | Inadequate             |
+   Howard               | Adequate               |
+ -----------------------+------------------------+----------------------
+ Sumner County:         |                        |
+   Belle Plaine         | Discharging raw sewage | Adequate plant under
+                        |                        |  construction.
+   Mulvane              | Discharging raw sewage | Adequate plant under
+                        |                        |  construction.
+   Oxford               | Discharging raw sewage | Construction on
+                        |                        |  adequate plant to
+                        |                        |  start soon.
+ -----------------------+------------------------+----------------------
+ Butler County:         |                        |
+   Augusta              | Adequate               |
+   El Dorado            | Discharging raw sewage | Adequate plant under
+                        |                        |  construction.
+   Douglass             | Discharging raw sewage | Adequate plant to
+                        |                        |  go into operation
+                        |                        |  within 30 days.
+ -----------------------------------------------------------------------
+
+Pollution by petroleum wastes from refineries has also affected the
+streams studied. The only refinery within the area is at Arkansas City.
+In Butler County there are four refineries on the Walnut watershed
+upstream from the area surveyed. Metzler (1952) noted that "fish-kills"
+occurred from the mid-1940's until 1952 in connection with wastes
+periodically discharged from these refineries. However, the largest
+kill, in 1944, was attributed to excessive brine pollution.
+
+In Arkansas City a meat-packing plant, a large railroad workshop, two
+flour mills, two milk plants, and several small manufacturing plants
+contribute wastes which may figure in industrial pollution. There are
+milk plants and small poultry processing plants at Winfield. In
+Chautauqua and Elk Counties there is little industrial activity.
+
+
+
+
+CONSERVATION
+
+
+In recent years several measures have been implemented or proposed to
+conserve the water and land resources of the Arkansas River Basin.
+Droughts and floods have focused public attention on such conservation.
+Less spectacular, but nevertheless important, problems confronting
+conservationists include streambank erosion, channel deterioration,
+silting, recreational demands for water, and irrigation needs.
+
+Congress has authorized the U. S. Corps of Engineers (by the Flood
+Control Act of 1941) to construct six dam and reservoir projects in the
+Verdigris watershed. Two of these--Hulah Reservoir in Osage County,
+Oklahoma, on Big Caney River, and Fall River Reservoir in Greenwood
+County, Kansas--have been completed. Other reservoirs authorized in the
+Verdigris watershed include Toronto, Neodesha, and Elk City (Table
+Mound) in Kansas and Oologah in Oklahoma. Construction is underway on
+the Toronto Reservoir and some planning has been accomplished on the
+Neodesha and Elk City projects.
+
+The possibilities of irrigation projects in the Verdigris and Walnut
+River basins are under investigation by the United States Bureau of
+Reclamation (Foley, _et al._, 1955:F18).
+
+An area of 11 square miles in Chautauqua and Montgomery Counties is
+included in the Aiken Creek "Pilot Watershed Project," a co-operative
+effort by federal, state, and local agencies to obtain information as to
+the effects of an integrated watershed protection program (Foley, _et
+al._, 1955:131).
+
+
+
+
+PREVIOUS ICHTHYOLOGICAL COLLECTIONS
+
+
+Few accounts of fishes in the area here reported on have been published.
+Evermann and Fordice (1886:184) made a collection from Timber Creek at
+Winfield in 1884.
+
+The State Biological Survey collected actively from 1910 to 1912, but
+localities visited in the Arkansas River System were limited to the
+Neosho and Verdigris River basins (Breukelman, 1940:377). The only
+collection made in the area considered here was on the Elk River in Elk
+County on July 11, 1912. The total species list of this collection is
+not known.
+
+In the years 1924-1929 Minna E. Jewell collected at various places in
+central Kansas. On June 30, 1925, Jewell and Frank Jobes made
+collections on Timber Creek and Silver Creek in Cowley County.
+
+Hoyle (1936:285) mentions collections made by himself and Dr. Charles E.
+Burt, who was then Professor of Biology at Southwestern College,
+Winfield, Kansas. Records in the Department of Biology, Kansas State
+Teachers College at Emporia, indicate that Dr. Burt and others made
+collections in the area which have not been published on.
+
+    TABLE 4.--COLLECTIONS MADE BY DR. FRANK B. CROSS OF THE STATE
+              BIOLOGICAL SURVEY IN 1955.
+
+  ====================================================================
+  Collection number |     Date      | River     |      Location
+  ------------------+---------------+-----------+---------------------
+        C-131       | April 5, 1955 |  Elk      | Sec. 3, T31S, R11E
+  ------------------+---------------+-----------+---------------------
+        C-132       | April 5, 1955 | Sycamore  | Sec. 5, T34S, R10E
+  ------------------+---------------+-----------+---------------------
+        C-133       | April 5, 1955 | Big Caney | Sec. 12, T34S, R8E
+  ------------------+---------------+-----------+---------------------
+        C-136       | April 6, 1955 |  Walnut   | Sec. 29 or 32, T32S,
+                    |               |           |   R4E
+  --------------------------------------------------------------------
+
+Claire Schelske (1957) studied fishes of the Fall and Verdigris Rivers
+in Wilson and Montgomery counties from March, 1954, to February, 1955.
+
+In the annotated list of species that follows, records other than mine
+are designated by the following symbols:
+
+  E&F--Evermann and Fordice
+  SBS--State Biological Survey (1910-1912)
+  J&J--Jewell and Jobes (collection on Silver Creek)
+  C--Collection number--Cross (State Biological Survey, 1955)
+  UMMZ--University of Michigan Museum of Zoology
+  OAM--Oklahoma A&M College Museum of Zoology
+
+
+
+
+ACKNOWLEDGMENTS
+
+
+I am grateful to Professor Frank B. Cross for his interest in my
+investigation, for his counsel, and for his penetrating criticism of
+this paper. This study would have been impossible without the assistance
+of several persons who helped in the field. Mr. Artie C. Metcalf and Mr.
+Delbert Metcalf deserve special thanks for their enthusiastic and
+untiring co-operation in collecting and preserving of specimens. Mrs.
+Artie C. Metcalf, Miss Patricia Metcalf, Mr. Chester Metcalf, and Mr.
+Forrest W. Metcalf gave help which is much appreciated. I am indebted to
+the following persons for numerous valuable suggestions: Dr. John
+Breukelman, Kansas State Teachers College, Emporia, Kansas; Dr. George
+Moore, Oklahoma A&M College, and Mr. W. L. Minckley, Lawrence, Kansas.
+
+
+
+
+MATERIALS AND METHODS
+
+
+Collections were made by means of: (1) a four-foot net of nylon screen;
+(2) a 10×4-foot "common-sense" woven seine with 1/4-inch mesh; (3) a
+15×4-foot knotted mesh seine; (4) a 20×5-foot 1/4-inch mesh seine; (5)
+pole and line (natural and artificial baits). At most stations the
+four-foot, ten-foot, and twenty-foot seines were used; however, the
+equipment that was used varied according to the size of pool, number of
+obstructions, nature of bottom, amount of flow, and type of streambank.
+Usually several hours were spent at each station and several stations
+were revisited from time to time. Percentages noted in the List of
+Species represent the relative number taken in the first five
+seine-hauls at each station.
+
+
+
+
+COLLECTING STATIONS
+
+
+Collecting was done at stations listed below and shown in Fig. 2. Each
+station was assigned a letter, designating the stream system on which
+the station was located, and a number which indicates the position of
+the station on the stream. This number increases progressively upstream
+from mouth to source. Code letters used are as follows: A--Arkansas
+River; W--Walnut River System; B--Beaver Creek System; C--Big Caney
+River System; G--Grouse Creek System; M--Middle Caney Creek System;
+E--Elk River System. All dates are in the year 1956.
+
+    [Illustration: FIG. 2.
+      Map of Cowley, Chautauqua and Elk counties, Kansas,
+      showing stations at which collecting was done.]
+
+A-1. Arkansas River. Sec. 2 and 3, T. 35 S, R. 4 E. June 14 and August
+20. Braided channel with sand bottom. Water slightly turbid, with layer
+of oil sludge on bottom.
+
+A-2. Arkansas River. Sec. 22, T. 34 S, R. 3 E. August 25. Flowing
+through diverse channels. Average depth 12 inches. Bottom sand. (Plate
+9, fig. 1.)
+
+A-3. Arkansas River. Sec. 21, T. 33 S, R. 3 E. August 27 and December
+22. Flowing over fine sand. Average depth 11 inches. Some areas of
+backwater with oil sludge on bottom.
+
+W-1. Walnut River. Sec. 20, T. 34 S, R. 4 E. July 7. Flowing rapidly,
+with large volume, because of recent rains. Average width 300 feet.
+Bottom gravel. Water turbid.
+
+W-2. Walnut River. Sec. 11, T. 34 S, R. 4 E. July 20. Rubble riffles and
+large shallow pools with gravel bottoms. Average width, 100 feet. Water
+clear.
+
+W-3. Walnut River. Sec. 29, T. 32 S, R. 4 E. July 17. Pools and riffles
+below Tunnel Mill Dam at Winfield. Water clear.
+
+W-4. Badger Creek. Sec. 6, T. 33 S, R. 5 E. July 17. Small pools.
+Average width 7 feet, average length 40 feet, average depth 8 inches.
+Water turbid and malodorous. Bottoms and banks mud. Much detritus
+present.
+
+W-5. Timber Creek. Sec. 35, T. 31 S, R. 4 E. June 6. Intermittent pools,
+widely separated. Average width 9 feet, average depth 8 inches. Bottom
+mud and gravel.
+
+B-1. Big Beaver Creek. Sec. 8, T. 35 S, R. 7 E. May 28. Isolated pools.
+Average width 10 feet, average depth one foot. Water turbid. Bottom
+rubble.
+
+B-2. Little Beaver Creek. Sec. 18, T. 35 S, R. 6 E. July 21.
+Intermittent pools. Average width 10 feet, average length 35 feet,
+average depth 10 inches. Bottoms rubble, mud, and bedrock.
+
+B-3. Big Beaver Creek. Sec. 28, T. 34 S, R. 7 E. July 22. Series of
+small turbid pools.
+
+G-1. Grouse Creek. Sec. 5, T. 35 S, R. 5 E. May 30, September 5, and
+September 24. Intermittent pools in close succession. Average width 22
+feet, average depth 16 inches. Water turbid on May 30 but clear in
+September. Bottom rubble. Steep banks. Little shade for pools.
+
+G-2. Grouse Creek. Sec. 23, T. 34 S, R. 5 E. August 29. Series of
+shallow intermittent pools. Average width 42 feet, average length 120
+feet, average depth 15 inches. Bottom bedrock and mud. (Plate 9, fig.
+2.)
+
+G-3. Grouse Creek. Sec. 6, T. 34 S, R. 6 E. July 12. Intermittent pools.
+Average width 20 feet, average length 65 feet, average depth 14 inches.
+Bottom bedrock and gravel. _Justicia americana_ L. abundant.
+
+G-4. Grouse Creek. Sec. 12, T. 33 S, R. 6 E. June 1 and September 7.
+Intermittent pools. Average width 15 feet, average length 100 feet,
+average depth 18 inches. Water turbid in June, clear in September.
+_Najas guadalupensis_ Spreng., and _Myriophyllum heterophyllum_ Michx.
+common.
+
+G-5. Grouse Creek. Sec. 19, T. 32 S, R. 7 E. July 2. Succession of
+riffles and pools. Water clear. Volume of flow approximately one cubic
+foot per second, but creek bankful after heavy rains on June 22. Average
+width 20 feet, average depth 18 inches.
+
+G-6. Grouse Creek. Sec. 32, T. 31 S, R. 7 E. July 8. Small intermittent
+pools to which cattle had access. Water turbid, bottom mud and rubble.
+Average width 10 feet, average depth 8 inches. Stream-bed covered with
+tangled growths of _Sorghum halepense_ (L.).
+
+G-7. Grouse Creek. Sec. 34, T. 30 S, R. 7 E. July 8. Stream flowing
+slightly. Water clear. Average width of pools 30 feet; average depth 20
+inches. Bottom bedrock and gravel. _Myriophyllum heterophyllum_ Michx.,
+_Nelumbo lutea_ (Willd.), and _Justicia americana_ L. common in shallow
+water.
+
+G-8. Silver Creek. Sec. 1, T. 33 S, R. 5 E. July 17. Intermittent pools.
+Average width 30 feet, average length 120 feet, average depth 12 inches.
+Water clear.
+
+G-9. Silver Creek. Sec. 4, T. 32 S, R. 6 E. July 17. Small upland brook
+with volume less than one-half cfs. Average width 12 feet, average depth
+10 inches. Water clear, bottom mostly rubble.
+
+G-10. Crab Creek. Sec. 33, T. 33 S, R. 6 E. June 24. Intermittent pools,
+showing evidence of having flowed after rains on June 22. Average width
+15 feet, average depth 16 inches.
+
+G-11. Crab Creek. Sec. 35, T. 33 S, R. 6 E. July 16. Small intermittent
+pools. Average width 13 feet, average length 55 feet, average depth 11
+inches. Water clear. Bottom rubble and mud.
+
+G-12. Crab Creek. Sec. 28, T. 33 S, R. 7 E. June 2 and July 20. Isolated
+pools. Average width 18 feet, average depth one foot. Water turbid.
+Bottom bedrock and rubble. _Myriophyllum heterophyllum_ and _Justicia
+americana_ abundant.
+
+G-13. Crab Creek. Sec. 21, T. 33 S, R. 7 E. July 29. Isolated pools 300
+feet by 24 feet. Average depth 12 inches. Water turbid.
+
+G-14. Unnamed creek (hereafter called Grand Summit Creek). Sec. 26, T.
+31 S, R. 7 E. August 30. Intermittent pools. Average width 15 feet,
+average length 45 feet, average depth 11 inches. Water clear. Bottom
+rubble.
+
+    [Illustration: PLATE 9
+
+      1. Station A-2. Arkansas River. (Cowley County, Section 22,
+         T. 34 S, R. 3 E.)
+
+      2. Station G-2. Grouse Creek. (Cowley County, Section 23,
+         T. 34 S, R. 5 E.)]
+
+    [Illustration: PLATE 10
+
+      1. Station C-12. Cedar Creek. (Cowley County, Section 17,
+         T. 34 S, R. 8 E.)
+
+      2. Station C-16. Spring Creek. (Elk County, Section 26,
+         T. 31 S, R. 8 E.) Volume of flow of this small creek
+         is indicated by riffle in foreground.]
+
+G-15. Unnamed creek (same as above). Sec. 17, T. 31 S, R. 8 E. July 27.
+Small upland creek bordered by bluestem pastures. Pools with average
+width of 10 feet, average length 30 feet, average depth 9 inches. Water
+slightly turbid. Bottom rubble and mud.
+
+G-16. Crab Creek. Sec. 22, T. 33 S, R. 7 E. July 25. Small isolated
+pools. Average width 17 feet, average length 58 feet, average depth 9
+inches. Water turbid.
+
+G-17. Crab Creek. Sec. 23, T. 33 S, R. 7 E. July 25. Upland brook
+bordered by bluestem pastures. Unshaded intermittent pools. Average
+width 7 feet, average length 40 feet, average depth 9 inches. Water
+turbid.
+
+C-1. Big Caney River. Sec. 16, T. 33 S, R. 10 E. July 19. Intermittent
+pools. Average width 47 feet, average length 90 feet, average depth 13
+inches. Bottom rubble and bedrock. Water clear to slightly turbid.
+
+C-2. Big Caney River. Sec. 1, T. 35 S, R. 9 E. September 5. Series of
+intermittent pools. Bottom rubble and large stones.
+
+C-3. Big Caney River. Sec. 29, T. 34 S, R. 9 E. June 17. Large shallow
+pool below ledge 3 feet high forming "Osro Falls." Bottom bedrock.
+
+C-4. Big Caney River. Sec. 32, T. 34 S, R. 9 E. June 3. Three large
+pools (50 feet by 300 feet) with connecting riffles. Water turbid.
+Bottom bedrock and rubble.
+
+C-5. Big Caney River. Sec. 11 and 12, T. 34 S, R. 8 E. May 27, May 29,
+June 11, June 18, June 19, and June 27. From a low-water dam, 6 feet
+high, downstream for 1/4 mile. Pools alternating with rubble and bedrock
+riffles. Collecting was done at different times of day and night, and
+when stream was flowing and intermittent.
+
+C-6. Big Caney River. Sec. 26, T. 33 S, R. 8 E. June 16. Intermittent
+pools with bedrock bottom. Water slightly turbid. Average width 16 feet,
+average depth 10 inches.
+
+C-7. Otter Creek. Sec. 26, T. 33 S, R. 8 E. June 16. Pools and riffles.
+Water clear. Algae abundant. Average width 10 feet, average depth 10
+inches.
+
+C-8. Big Caney River. Sec. 1, T. 33 S, R. 8 E. June 10. Intermittent
+pools. Average width 10 feet, average depth 14 inches. Water clear.
+Bottom rubble and gravel. Aquatic plants included _Chara_ sp.,
+_Sagittaria latifolia_ Willd., _Jussiaea diffusa_ Forsk., and _Nelumbo
+lutea_ (Willd.).
+
+C-9. Big Caney River. Sec. 6 and 7, T. 32 S, R. 9 E. June 27. Clear,
+flowing stream, 20 feet wide, volume estimated at 5 cfs. Bottom gravel
+and rubble. Extensive gravel riffles.
+
+C-10. Big Caney River. Sec. 29 and 32, T. 31 S, R. 9 E. June 27. Water
+clear and flowing rapidly, volume estimated at 5-6 cfs. Bottom rubble
+with a few muddy backwater areas.
+
+C-11. Big Caney River. Sec. 7, T. 31 S, R. 9 E. July 26. Flowing, with
+less than 1 cfs. Average width 20 feet, average depth 22 inches. Water
+extremely clear. Bottom gravel and rubble. _Myriophyllum heterophyllum_,
+_Potamogeton foliosus_, and _Justicia americana_ common.
+
+C-12. Cedar Creek. Sec. 17, T. 34 S, R. 8 E. March 10, April 2, June 1,
+June 6, and August 24. Pools and riffles along 1/4 mile of stream were
+seined in the early collections. In August only small isolated pools
+remained. Bottom bedrock and rubble. Much detritus along streambanks.
+(Plate 10, fig. 1.)
+
+C-13. Otter Creek. Sec. 16, T. 33 S, R. 8 E. June 15. Flowing, less than
+1 cfs. Pools interspersed with rubble riffles. Water clear.
+
+C-14. Otter Creek. Sec. 30, T. 32 S, R. 8 E. May 31, and September 3.
+Series of small pools. Average width 10 feet, average depth 15 inches.
+Shallow rubble riffles. Water extremely clear. Temperature 68° at 6:30
+p.m. on May 31; 78° at 2:00 p.m. on September 3.
+
+C-15. Spring Creek. Sec. 35, T. 31 S, R. 8 E. June 28. Small, clear,
+upland brook with rubble bottom. Pools 10 feet in average width and
+11 inches in average depth. Numerous shallow rubble riffles.
+
+C-16. Spring Creek. Sec. 26, T. 31 S, R. 8 E. July 9. Small intermittent
+pools. Average width 10 feet; average depth 8 inches. Bottom gravel.
+(Plate 10, fig. 2.)
+
+C-17. West Fork Big Caney River. Sec. 36, T. 30 S, R. 8 E. July 27.
+Small pool below low-water dam. Pool 20 feet by 30 feet with average
+depth of 20 inches.
+
+C-18. East Fork Big Caney River. Sec. 31, T. 30 S, R. 9 E. July 27.
+Isolated pool 25 feet by 25 feet with an average depth of 15 inches.
+
+M-1. Middle Caney Creek. Sec. 23, T. 33 S, R. 10 E. July 4. Intermittent
+pools. Average width 45 feet, average depth 15 inches. Water stained
+brown. Oil fields nearby but no sludge or surface film of oil noted.
+Bottom rubble and bedrock.
+
+M-2. Pool Creek. Sec. 25, T. 33 S, R. 10 E. May 26. Pool 120 feet by 40
+feet below limestone ledge approximately 12 feet high forming Butcher's
+Falls. Other smaller pools sampled. Water clear. Bottom bedrock and
+rubble.
+
+E-1. Elk River. Sec. 12, T. 31 S, R. 11 E. July 9. Four intermittent
+pools seined. Average width 32 feet, average depth 13 inches. Bottom
+bedrock, rubble, and mud. Water turbid.
+
+E-2. Elk River. Sec. 3, T. 31 S, R. 11 E. June 28. Intermittent pools
+below and above sandstone ledge approximately 6 feet high forming
+"falls" at Elk Falls. Average width 33 feet, average depth 15 inches.
+Bottom bedrock, rubble and mud. Water slightly turbid.
+
+E-3. Elk River. Sec. 21, T. 30 S, R. 11 E. June 28. Two small pools, 10
+feet by 30 feet with average depth of 6 inches. Bottom bedrock.
+
+E-4. Elk River. Sec. 12, T. 30 S, R. 10 E. June 28. One long pool 500
+feet by 50 feet with a variety of depths and bottom conditions ranging
+from mud to bedrock. Average depth 18 inches. Water turbid and pools
+unshaded.
+
+E-5. Elk River. Sec. 32, T. 29 S, R. 10 E. August 30. Intermittent
+pools. Average width 21 feet, average depth 20 inches. Bottom rubble.
+Water clear.
+
+E-6. Elk River. Sec. 23, T. 29 S, R. 9 E. August 30. Small isolated
+pools. River mostly dry. Bottom bedrock. Water slightly turbid with
+gray-green "bloom."
+
+E-7. Wildcat Creek. Sec. 11, T. 31 S, R. 10 E. Volume of flow less than
+one cfs. Average width 20 feet, average depth 18 inches. Domestic sewage
+pollution from town of Moline suspected.
+
+
+
+
+ANNOTATED LIST OF SPECIES
+
+
+#Lepisosteus osseus oxyurus# (Linnaeus): Stations A-1, W-2, W-3, G-2,
+G-3, G-4, C-1, C-2, C-3, C-5, C-8.
+
+Of 34 longnose gar taken, 27 were young-of-the-year. The latter were
+from shallow isolated pools (bedrock bottom at C-1, C-3, C-4; gravel
+bottom at C-6). At station W-1 in moderate flood conditions several
+young-of-the-year were found in the most sheltered water next to the
+banks.
+
+The longnose gar was found only in the lower parts of the streams
+surveyed (but were observed by me in smaller tributaries of these
+streams in years when the streams had a greater volume of flow). A
+preference for downstream habitat is suggested in several other surveys:
+Cross (1950:134, 1954a:307) on the South Fork of the Cottonwood and on
+Stillwater Creek; Cross and Moore (1952:401) on the Poteau and Fourche
+Maline rivers; Moore and Buck (1953:21) on the Chikaskia River.
+
+
+#Lepisosteus platostomus# Rafinesque: One shortnose gar (K. U. 3157) has
+been taken from the Arkansas River in Cowley County. This gar was taken
+by Mr. Richard Rinker on a bank line on April 10, 1955, at station A-3.
+
+
+#Dorosoma cepedianum# (Le Sueur): Stations W-3, G-4, C-4, C-5, M-1, E-1,
+E-4.
+
+In smaller streams such as the Elk and Caney rivers adult gizzard shad
+seemed scarce. They were more common in collections made in larger
+rivers (Walnut, Verdigris, and Neosho). In impoundments of this region
+shad often become extremely abundant. Schoonover (1954:173) found that
+shad comprised 97 per cent by number and 83 per cent by weight of fishes
+taken in a survey of Fall River Reservoir.
+
+
+#Carpiodes carpio carpio# (Rafinesque): Stations A-1, A-2, A-3, W-3,
+G-1, C-3.
+
+Hubbs and Lagler (1947:50) stated that the river carpsucker was "Mostly
+confined to large silty rivers." Of the stations listed above C-3 least
+fits this description being a large shallow pool about 1/3 acre in area
+having bedrock bottom and slightly turbid water. The other stations
+conform to conditions described by Hubbs and Lagler (_loc. cit._).
+
+
+#Carpiodes velifer# (Rafinesque): SBS. Three specimens of the highfin
+carpsucker (K. U. 177-179) were collected on July 11, 1912, from an
+unspecified location on Elk River in Elk County.
+
+
+#Ictiobus bubalus# (Rafinesque): Stations W-3, G-1, G-2, C-1, C-3, C-4,
+C-6, E-1, E-2, E-3.
+
+The smallmouth buffalo shared the downstream proclivities of the river
+carpsucker. In half of the collections (G-2, C-1, E-1, E-2, E-3) only
+large juveniles were taken; in the other half only young-of-the-year
+were found. In one pool at station C-1 hundreds of young buffalo and gar
+were observed. This large shallow pool was 100 × 150 feet, with an
+average depth of 8 inches. The bottom consisted of bedrock. Station C-6
+was a small pool with bedrock bottom, eight feet in diameter, with an
+average depth of only 4 inches. Station E-3 was also a small isolated
+pool with bedrock bottom and an average depth of 6 inches.
+
+
+#Ictiobus niger# (Rafinesque): Station C-5.
+
+Only two specimens of the black buffalo were taken. An adult was caught
+on spinning tackle, with doughballs for bait. The second specimen was a
+juvenile taken by seining one mile below Station C-5 on September 22.
+
+
+#Ictiobus cyprinella# (Valenciennes): Station G-2.
+
+Two juvenal bigmouth buffalo were taken in a shallow pool, along with
+several juvenal smallmouth buffalo.
+
+
+#Moxostoma aureolum pisolabrum# Trautman and #Moxostoma carinatum#
+(Cope): SBS.
+
+Two specimens of _Moxostoma aureolum pisolabrum_ (K. U. 242-243) and one
+specimen of _Moxostoma carinatum_ (K. U. 223) were taken from an
+unspecified locality on Elk River in Elk County on July 11, 1912. There
+are no other records for any of these fish in the collection area. _M.
+aureolum pisolabrum_ has been taken in recent years in eastern Kansas
+(Trautman, 1951:3) and has been found as far west as the Chikaskia
+drainage in northern Oklahoma by Moore and Buck (1953:21). That
+occasional northern redhorse enter the larger rivers of the area here
+reported on seems probable.
+
+_M. carinatum_ has been reported only a few times from Kansas. The only
+recent records are from the Verdigris River (Schelske, 1957:39). Elkins
+(1954:28) took four specimens of _M. carinatum_ from cutoff pools on
+Salt Creek in Osage County, Oklahoma, in 1954. This recent record
+suggests that occurrences in southern Kansas are probable.
+
+
+#Moxostoma erythrurum# (Rafinesque): Stations G-5, G-7, G-10, G-12, C-4,
+C-5, C-6, C-8, C-10, C-11, C-12, C-13, C-15, E-1, E-2, E-4 (C-131,
+C-133, C-136).
+
+The golden redhorse was common in several of the streams surveyed, and
+utilized the upland parts of streams more extensively than any of the
+other catostomids occurring in the area. _M. erythrurum_ and _Ictiobus
+bubalus_ were taken together at only two stations. In no case was _I.
+bubalus_ taken from a tributary of Grouse Creek or of Big Caney River.
+In contrast _M. erythrurum_ reached its greatest concentrations in such
+habitat, although it was always a minor component of the total fish
+population. Stations C-5 and E-2 were the lowermost environments in
+which this redhorse was taken.
+
+The largest relative number of golden redhorse was found at station G-12
+on Crab Creek where 7.5 per cent of the fishes taken were of this
+species. This station consisted of intermittent pools averaging one foot
+in depth. Bottoms were bedrock and rubble and the water was clear and
+shaded. The fish were consistently taken in the deeper, open part of
+the pool where aquatic vegetation, which covered most of the pool, was
+absent.
+
+Another station at which _M. erythrurum_ was abundant was C-12 on Cedar
+Creek. Here a long, narrow, clear pool was the habitat, with average
+depth of 17 inches, and bottom of bedrock.
+
+
+#Minytrema melanops# (Rafinesque): Stations G-10, C-4, C-12, E-1.
+
+Occurrences of the spotted sucker were scattered. At stations C-4 and
+G-10 single specimens were taken. At station E-1 (July 9) one specimen
+was taken at the mouth of a small tributary where water was turbid and
+quiet. This specimen (K. U. 3708) was the largest (9-3/8 inches total
+length) found, and possessed pits of lost tubercles.
+
+
+#Cyprinus carpio# Linnaeus: Stations A-1, W-1, W-2, W-3, W-4, G-3, G-4,
+G-6, G-8, C-3, C-5, E-4.
+
+Carp were taken most often in downstream habitat. No carp were taken
+above station C-5 on Big Caney River.
+
+The earliest date on which young were taken was July 7, when 46
+specimens, approximately 1/2 inch in total length, were taken from the
+Walnut River at station W-1. The small carp showed a preference for
+small shallow pools; adults were found in deeper pools.
+
+
+#Hybopsis aestivalis tetranemus# (Gilbert): Station A-3.
+
+Only one specimen of the speckled chub was taken. The species has been
+recorded from nearby localities in the Arkansas River and its
+tributaries both in Kansas and Oklahoma. Its habitat seems to be shallow
+water over clean, fine sand, and it occurs in strong current in
+mid-channel in the Arkansas River. Suitable habitat does not occur in
+other parts of the area covered by this report.
+
+
+#Notropis blennius# (Girard): Stations A-1, A-2, A-3.
+
+The river shiner was taken only in the Arkansas River and in small
+numbers. In all instances _N. blennius_ was found over sandy bottom in
+flowing water. Females were gravid at station A-1 on June 14. To my
+knowledge there are no published records of this shiner from the
+Arkansas River Basin in Kansas. In Oklahoma this species prefers the
+large, sandy streams such as the Arkansas River. Cross and Moore
+(1952:403) found it in the Poteau River only near the mouth.
+
+
+#Notropis boops# Gilbert: Stations G-5, G-7, C-3, C-5, C-8, C-9, C-10,
+C-11, C-12, C-15, C-16, E-4, E-5, M-1, M-2.
+
+Widespread occurrence of the bigeye shiner in this area seems
+surprising. Except for this area it is known in Kansas only from the
+Spring River drainage in the southeastern corner of the state (Cross,
+1954b:474). _N. boops_ chose habitats that seemed most nearly like
+Ozarkian terrain. The largest relative number of bigeye shiners was
+taken at C-11 in a clear stream described in the discussion of _Notropis
+rubellus_. At this station _N. boops_ comprised 14.11 per cent, and _N.
+boops_ and _N. rubellus_ together comprised 24.78 per cent of all fish
+taken.
+
+At station G-7 on Grouse Creek the percentage of _N. boops_ was 7.15.
+Here, as at station C-11, water was clear. At both stations
+_Myriophyllum heterophyllum_ was abundant and at G-7 _Nelumbo lutea_ was
+also common. At G-7 _N. boops_ seemed most abundant in the deeper water,
+but at C-11 most shiners were found in the shallower part of a large
+pool.
+
+Two other collections in which _N. boops_ were common were from Spring
+Creek. It is a small, clear Flint Hills brook running swiftly over clean
+gravel and rubble. It had, however, been intermittent or completely dry
+in its upper portion throughout the winter of 1955-'56 and until June
+22, 1956. In collections at C-15 on June 28, _N. boops_ formed 6.5 per
+cent of the fish taken. Farther upstream, at C-16 on July 9, in an area
+one mile from the nearest pool of water that existed prior to the rains
+of June 22, _N. boops_ made up 7.2 per cent of the fish taken.
+
+In streams heading in the hilly area of western Elk County, the relative
+abundance of _Notropis boops_ decreased progressively downstream. On
+upper Elk River percentages were lower than on upper Grouse Creek and
+upper Big Caney River.
+
+Hubbs and Lagler (1947:66) characterize the habitat of this species as
+clear creeks of limestone uplands. There are numerous records of the
+bigeye shiner from extreme eastern Oklahoma. It has been reported as far
+west as Beaver Creek in Osage County, Oklahoma. Beaver Creek originates
+in Cowley County, Kansas, near the origin of Cedar Creek and Crab Creek.
+Drought had left a few pools of water in Beaver Creek in Kansas at the
+time of my survey. The fish-fauna seemed sparse and _N. boops_ was not
+among the species taken. Of interest in considering the somewhat
+isolated occurrence of the bigeye shiner in the Flint Hills area of
+Kansas is a record of it by Ortenburger and Hubbs (1926:126) from
+Panther Creek, Comanche County, Oklahoma, in the Wichita Mountain area
+of that state.
+
+
+#Notropis buchanani# Meek: Stations G-1, E-4 (C-131).
+
+At station G-1 the ghost shiner was taken in small numbers in the
+shallow end of a long pool (150 × 40 feet.) The three individuals taken
+at station E-4 were in an isolated pool (50 × 510 feet) averaging 1-1/2
+feet in depth. Water was turbid, and warm due to lack of shade.
+
+The habitat preferences of this species and of the related species _N.
+volucellus_ have been described as follows by Hubbs and Ortenburger
+(1929b:68): "It seems probable that _volucellus_ when occurring in the
+range of _buchanani_ occupies upland streams, whereas _buchanani_ is
+chiefly a form of the large rivers and adjacent creek mouths." The
+results of this survey and impressions gained from other collections,
+some of which are unpublished, are in agreement with this view. A
+collection on the Verdigris River at Independence, Kansas, directly
+downstream from the mouth of the Elk River, showed _N. buchanani_ to be
+common while _N. volucellus_ was not taken. At station E-5 upstream from
+E-4, however, _N. volucellus_ was taken but _N. buchanani_ was not
+found.
+
+In the upper Neosho basin, Cross (1954a:310) took _N. volucellus_ but
+not _N. buchanani_. Other collections have shown _N. buchanani_ to be
+abundant in the lower Neosho River in Kansas. Moore and Paden (1950:85)
+observe that _N. buchanani_ was found only near the mouth of the
+Illinois River in Oklahoma and was sharply segregated ecologically from
+_N. volucellus_ that occupied a niche in the clear main channels in
+contrast to the more sluggish waters inhabited by _N. buchanani_.
+
+
+#Notropis camurus# (Jordan and Meek): Stations C-3, C-4, C-5, C-6, C-7,
+C-8, C-9, C-10, C-11, C-12, C-13, E-1, E-5 (C-131).
+
+Highest concentrations of the bluntface shiner were found close to the
+mouths of two tributaries of Big Caney River: Rock Creek and Otter
+Creek. On Rock Creek (Station C-4) this shiner was abundant in a shallow
+pool below a riffle where water was flowing rapidly. Many large males in
+breeding condition were taken (June 3). The species formed 20.2 per cent
+of the fish taken.
+
+On Otter Creek (Station C-13) the species was common in shallow bedrock
+pools below riffles. It formed 12.1 per cent of the fish taken.
+
+At station C-5, _N. camurus_ was characteristically found in an area of
+shallow pools and riffles. At station C-10 it was found in clear flowing
+water over rubble bottom and in small coves over mud bottom. At C-11
+(July 26) _N. camurus_ was taken only in one small pool with rapidly
+flowing water below a riffle. In this pool _N. camurus_ was the dominant
+fish. At station C-12, on April 2, _N. camurus_ was abundant in the
+stream, which was then clear and flowing. On August 24, it was not taken
+from the same pool, which was then turbid and drying.
+
+The frequent occurrence of this species in clear, flowing water seems
+significant. Cross (1954a:309) notes that the bluntface shiner prefers
+moderately fast, clear water. Hall (1952:57) found _N. camurus_ only in
+upland tributaries east of Grand River and not in lowland tributaries
+west of the river. Moore and Buck (1953:22) took this species in the
+Chikaskia River, which was at that time a clear, flowing stream. They
+noted that in Oklahoma it seems to be found only in relatively clear
+water.
+
+_N. camurus_ did not seem to ascend the smaller tributaries of Big Caney
+River as did _N. rubellus_ and _N. boops_ even when these tributaries
+were flowing.
+
+
+#Notropis deliciosus missuriensis# (Cope): Stations A-1, A-2, A-3, W-1,
+W-2, W-3 (C-136).
+
+Sand shiners seemed to be abundant in the Arkansas River, rare in the
+Walnut River and absent from other streams surveyed. This shiner was
+most abundant in shallow, flowing water in the Arkansas River; in
+backwaters, where _Gambusia affinis_ prevailed, _N. deliciosus_ formed
+only a small percentage of the fish population.
+
+
+#Notropis girardi# Hubbs and Ortenburger: Stations A-2 and A-3.
+
+At station A-2 the Arkansas River shiner made up 14.6 per cent of all
+fish taken. At A-2, it was found only in rapidly-flowing water over
+clean sand in the main channels. It was absent from the shallow,
+slowly-flowing water where _N. deliciosus missuriensis_ was abundant. At
+A-3 _N. girardi_ made up 22 per cent of the total catch, and again
+preferred the deeper, faster water over clean-swept sand. Failure to
+find _N. girardi_ at station A-1 is not understood.
+
+Females were gravid in both collections (August 25 and 27). In neither
+collection were young-of-the-year taken. Moore (1944:210) has suggested
+that _N. girardi_ requires periods of high water and turbidity to spawn.
+Additional collecting was done at station A-3 on December 22, 1957. A
+few adults were taken in flowing water but no young were found.
+
+In this area, _N. girardi_ showed no tendency to ascend tributaries of
+the Arkansas River. Not far to the west, however, this pattern changes
+as shown by Hubbs and Ortenburger (1929a:32) who took this fish at seven
+of ten stations on the Cimarron, Canadian, and Salt Fork of the
+Arkansas. _N. girardi_ was taken only in the lowermost stations on both
+Stillwater Creek (Cross, 1950:136) and the Chikaskia River (Moore and
+Buck, 1953:22). In the next major stream west of the Chikaskia, the
+Medicine River, _N. girardi_ seems to occur farther upstream than in the
+Chikaskia. (Collection C-5-51 by Dr. A. B. Leonard and Dr. Frank B.
+Cross on Elm Creek near Medicine Lodge on July 20, 1951.)
+
+
+#Notropis lutrensis# (Baird and Girard): Stations A-1, A-2, W-1, W-2,
+W-3, W-4, G-1, G-2, G-4, G-5, G-8, G-9, G-10, G-11, G-12, G-13, G-14,
+G-15, G-16, B-1, B-2, B-3, C-1, C-2, C-3, C-4, C-5, C-6, C-9, C-10,
+C-11, C-12, C-13, C-14, M-1, E-1, E-2, E-4, E-7 (E&F, C-131, C-133,
+C-136).
+
+The red shiner was taken in every stream surveyed. The relative
+abundance seemed to be greatest in two types of habitat which were
+separated geographically. The first habitat was in large rivers such as
+the Arkansas and Walnut. In the Arkansas River the red shiner
+consistently made up 20 per cent to 25 per cent of the catch. On the
+Walnut River percentages ranged from 10 per cent (station W-3) to 45 per
+cent (station W-2).
+
+The second habitat in which numbers of _N. lutrensis_ reached high
+proportions was in the upper parts of the most intermittent tributaries.
+At the uppermost station in Silver Creek this species formed 30 per cent
+of the fish taken. In Crab Creek the following percentages were taken in
+six collections from mouth to source: 20.6%, 26.1%, 25%, 85%, 14.6%, and
+1%. In the mainstream of Grouse Creek the highest percentage taken was
+19.27 near the mouth at station G-1. In middle sections of Grouse Creek
+this species was either absent or made up less than 2 per cent of the
+fish taken.
+
+At no station on Big Caney River was the red shiner abundant. The
+smallest relative numbers were found at upstream stations, in contrast
+to collections made on tributaries of Grouse Creek. This distributional
+pattern possibly may be explained by the severe conditions under which
+fish have been forced to live in the upper tributaries of Grouse Creek.
+Water was more turbid, and pools were smaller than in Big Caney. These
+factors possibly decimate numbers of the less hardy species permitting
+expansion by more adaptable species, among which seems to be _N.
+lutrensis_. In the upper tributaries of Big Caney River conditions have
+not been so severe due to greater flow from springs and less cultivation
+of the watershed in most places. Under such conditions _N. lutrensis_
+seems to remain a minor faunal constituent.
+
+
+#Notropis percobromus# (Cope): Stations A-1, A-2, W-1, W-2, W-3, G-1.
+
+At station W-1 the plains shiner constituted 20 per cent of the fish
+taken. The river was flowing rapidly with large volume at the time of
+this collection, and all specimens were taken near the bank in
+comparatively quiet water over gravel bottom. At station W-3, below
+Tunnel Mill Dam at Winfield, _N. percobromus_ comprised 18.7 per cent of
+the fish taken, second only to _Lepomis humilis_ in relative abundance.
+Immediately below the west end of the dam, plains shiners were so
+concentrated that fifty or more were taken in one haul of a four-foot
+nylon net. The amount of water overflowing the dam at this point was
+slight. Water was shallow (8-12 inches) and the bottom consisted of the
+pitted apron or of fine gravel. At the east end of the dam where water
+was deeper (1-3 feet) and the flow over the dam greater, large numbers
+of _Lepomis humilis_ were taken while _N. percobromus_ was rare.
+
+In the Arkansas River smaller relative numbers of this shiner were
+obtained. At station A-2, it formed 4.68 per cent of the total. At this
+station _N. percobromus_ was taken with _N. lutrensis_ in water about 18
+inches deep next to a bank where the current was sluggish and tangled
+roots and detritus offered some shelter.
+
+At station G-1 on Grouse Creek the plains shiner made up 7.68 per cent
+of the fish taken. The habitat consisted of intermittent pools with
+rubble bottoms at this station, which was four miles upstream from the
+mouth of the creek. The plains shiner seems rarely to ascend the upland
+streams of the area.
+
+
+#Notropis rubellus# (Agassiz): Stations C-3, C-5, C-6, C-7, C-8, C-10,
+C-11, C-12, C-13, C-14 (J&J).
+
+No fish in these collections showed a more persistent preference than
+_Notropis rubellus_ for clear, cool streams. All collections of the
+rosyface shiner were in the Big Caney River system, but at only four
+stations in this system was it common. At station C-11 the highest
+relative numbers (10.6 per cent) were obtained. This site possessed the
+most limpid water of any station on the mainstream of Big Caney. Aquatic
+plants (_Myriophyllum heterophyllum_ and _Potamogeton nodosus_) were
+common. Other fishes that flourished at this station were _N. boops_,
+_N. camurus_, _Campostoma anomalum_, and _Etheostoma spectabile_. The
+water temperature was 86° at surface and 80° at bottom whereas air
+temperature was 97°.
+
+_N. rubellus_ was common at all stations in Otter Creek, the clear,
+upland character of which has been discussed. In May and June only
+adults were found. On September 1, examination of several pools in upper
+Otter Creek revealed numerous young-of-the-year in small spring-fed
+pools.
+
+Literature is scarce concerning this shiner in Kansas. Cross (1954a:308)
+stated that it was abundant in the South Fork of the Cottonwood River
+and was one of those fishes primarily associated with the Ozarkian
+fauna, rather than with the fauna of the plains. Elliott (1947) found
+_N. rubellus_ in Spring Creek, a tributary of Fall River which seems
+similar to Otter Creek in physical features. Between the Fall River and
+Big Caney River systems is the Elk River, from which there is no record
+of the rosyface shiner. Perhaps its absence is related to the
+intermittent condition of this stream at present. The Elk River is poor
+in spring-fed tributaries, which seem to be favorite environs of the
+rosyface shiner.
+
+_N. rubellus_ was taken by Minna Jewell and Frank Jobes in Silver Creek
+on June 30, 1925 (UMMZ 67818). The shiner was not found in any stream
+west of the Big Caney system in my collections.
+
+In Oklahoma, Hall (1952:57) found _N. rubellus_ in upland tributaries on
+the east side of Grand River and not in the lowland tributaries on the
+west side. Martin and Campbell (1953:51) characterize _N. rubellus_ as
+preferring riffle channels in moderate to fast current in the Black
+River, Missouri. It is the only species so characterized by them which
+was taken in my collections. Moore and Paden (1950:84) state "_Notropis
+rubellus_ is one of the most abundant fishes of the Illinois River,
+being found in all habitats but showing a distinct preference for fast
+water...."
+
+
+#Notropis topeka# (Gilbert): Two specimens (formerly Indiana University
+4605) of the Topeka shiner labeled "Winfield, Kansas" are now at the
+University of Michigan Museum of Zoology. Collector and other data are
+not given. Evermann and Fordice (1886:185) noted that two specimens of
+_N. topeka_ were taken from Sand Creek near Newton in Harvey County, but
+do not list it from Cowley County near Winfield. They deposited their
+fish in the museum of Indiana University.
+
+
+#Notropis umbratilis# (Girard): Stations G-1, G-3, G-4, G-7, G-8, G-9,
+G-12, G-14, B-2, B-3, C-1, C-2, C-3, C-4, C-5, C-6, C-7, C-8, C-9, C-10,
+C-11, C-12, C-13, C-14, C-15, C-16, E-1, E-2, E-4, E-5, M-1, M-2 (J&J,
+C-131, C-132).
+
+The redfin shiner flourished in all the streams surveyed except the
+Arkansas and Walnut Rivers. _N. umbratilis_ has been found in upland
+tributaries of the Walnut River, some of which originate in terrain
+similar to that in which Elk River, Big Caney River, and Grouse Creek
+originate. (Collection C-26-51 by Cross on Durechon Creek, October 7,
+1951.) This suggests downstream reduction in relative numbers of this
+species, a tendency which also seemed to exist on both Big Caney River
+and Grouse Creek. _N. umbratilis_ was the most abundant species in Big
+Caney River except at the lowermost stations where it was surpassed in
+relative abundance by _N. lutrensis_ and _Gambusia affinis_.
+
+_N. umbratilis_ was a pool-dweller, becoming more concentrated in the
+deeper pools as summer advanced. In May and early June, large
+concentrations of adult _N. umbratilis_ were common in the shallow ends
+of pools together with _N. rubellus_, _N. boops_, _Pimephales notatus_,
+and _Pimephales tenellus_. By July and August, only young of the year
+were taken in shallow water, and adults were scarcely in evidence.
+
+
+#Notropis volucellus# (Cope): Stations G-5, G-8, C-3, C-5, C-7, C-8,
+C-9, C-10, M-1, E-4, E-5.
+
+The mimic shiner was a minor element in the fauna, 2.02 per cent at
+station C-5 being the largest percentage taken. In the Big Caney River
+system _N. volucellus_ was taken only in the main stream. In the Grouse
+Creek drainage it was found at two stations in the upper part of the
+watershed, where water is clearer, gradient greater, and pools
+well-shaded and cool.
+
+In the Elk River the mimic shiner was taken only in the upper part of
+the main stream. The dominant shiner in situations where _N. volucellus_
+was taken was, in all cases, _N. umbratilis_. Elliott (1947) found _N.
+volucellus_ in Spring Creek, a tributary of Fall River. Farther north in
+the Flint Hills region, _N. volucellus_ was reported by Cross
+(1954a:310).
+
+
+#Notemigonus crysoleucas# (Mitchell): Station W-5.
+
+This isolated record for the golden shiner consisted of nine specimens
+collected on June 6 in Timber Creek, a tributary of the Walnut River.
+Most of the creek was dry. _N. crysoleucas_ was taken in one pool with
+dimensions of 8 feet by 4 feet with an average depth of 4 inches. This
+creek is sluggish and silt-laden, even under conditions of favorable
+precipitation. Hubbs and Ortenburger (1929b:89) observed that the golden
+shiner prefers sluggish water. Hall (1952:58) took the golden shiner
+only in the lowland tributaries west of Grand River and not east of the
+river in upland tributaries.
+
+
+#Phenacobius mirabilis# Girard: Stations W-3, C-3.
+
+In no case was the suckermouth minnow common; it never comprised more
+than 1 per cent of the fish population.
+
+
+#Pimephales notatus# (Rafinesque): Stations W-4, G-5, G-7, G-9, G-12,
+G-13, B-3, C-1, C-2, C-3, C-4, C-5, C-6, C-7, C-8, C-9, C-10, C-11,
+C-12, C-13, C-14, C-15, C-16, C-17, C-18, M-1, M-2, E-1, E-2, E-4, E-5,
+E-7 (J&J, C-131, C-132, C-133).
+
+This was much the most abundant of the four species of _Pimephales_ in
+this area. It was taken at 33 stations as compared with 10 for _P.
+tenellus_, 8 for _P. promelas_, and 3 for _P. vigilax_.
+
+The bluntnose minnow was taken almost everywhere except in the main
+stream of the Arkansas and Walnut rivers and in lower Grouse Creek. _P.
+notatus_ seemed to prefer clearer streams of the Flint Hills part of my
+area. There was a marked increase in percentages taken in the upland
+tributaries of both Caney River and Grouse Creek. In the Elk River, too,
+higher concentrations were found upstream.
+
+The highest relative numbers of bluntnose minnows were taken at station
+G-12 on Crab Creek, station C-12 on Cedar Creek and station C-16 on
+Spring Creek. At G-12, this minnow was abundant in the deeper isolated
+pools. Males in breeding condition were taken on June 9. In Cedar Creek
+the population of bluntnose minnows was observed periodically in one
+pool in which they were dominant. This pool was 100 feet by 50 feet,
+shallow, and with bedrock bottom. At its upper end, however, there was a
+small area of heavily-shaded deeper water. Throughout the spring
+bluntnose minnows were found in large schools in the shallow area. As
+the summer progressed they were no longer there, but seining revealed
+their presence in the deeper, upper end.
+
+At station C-16 on Spring Creek on July 9 male _P. notatus_ were taken
+in extreme breeding condition, being light brick-red in color and with
+large tubercles.
+
+
+#Pimephales tenellus# (Girard): Stations G-1, C-2, C-3, C-5, C-6, C-7,
+C-8, M-1, E-2, E-4 (C-131 C-133).
+
+The mountain minnow was never taken far from the mainstream of Big
+Caney, Middle Caney, or Elk River. In this respect it differed from _P.
+notatus_, which reached large concentrations in the small upland
+tributaries. On the other hand, _P. tenellus_ was not so abundant as _P.
+vigilax_ in the silty larger streams. In no collection was the mountain
+minnow common. The highest percentages were 2.4 per cent (Station C-5),
+and 2.1 per cent (Station C-7) on Big Caney River. These stations
+consisted of clear, flowing water over rubble bottoms. Males at C-7
+(June 16) were in breeding condition.
+
+Moore and Buck (1953:23) reported finding this species among rocks in
+very fast water rather than in the quiet backwaters frequented by _P.
+vigilax_. Other records of the mountain minnow from the Flint Hills
+indicate that it seeks areas of maximum gradient and flow; in this
+distributional respect it is like _Notropis camurus_. The two species
+are recorded together from other streams in this region such as the
+Chikaskia (Moore and Buck, 1953:23), Cottonwood (Cross, 1954a:310), and
+Spring Creek, tributary of Fall River (Elliott, 1947). It is conceivable
+that a preference for flowing water might explain its restriction to
+the medium-sized, less intermittent streams in this area. The only
+tributary which the species seemed to ascend to any extent was Otter
+Creek, which is seldom intermittent downstream.
+
+
+#Pimephales vigilax perspicuus# (Girard): Stations A-3, C-1, C-4.
+
+The parrot minnow was found only in downstream habitats. Collection C-4
+(June 3) on Rock Creek was made about 1/2 mile from the mouth of this
+tributary of Big Caney and the creek here had almost the same character
+as the river proper. The presence of other channel fishes such as
+_Ictiobus bubalus_ indicates the downstream nature of the creek. Some
+males of _P. vigilax_ in breeding condition were taken in this
+collection.
+
+At C-1, only one specimen was found in a turbid, isolated pool with
+bedrock bottom. At A-1 only one parrot minnow was taken; it was in deep,
+fairly quiet water near the bank.
+
+Other collections outside the three-county area revealed the following:
+In the Neosho River, several parrot minnows were found in quiet
+backwaters and in shallow pools. In the Verdigris River three were taken
+directly under water spilling over the dam at this station, while others
+were found, together with _P. promelas_, in the mouth of a small creek
+that provided a backwater habitat with mud bottom.
+
+Cross and Moore (1952:405) found this species only at stations in the
+lower portion of the Poteau River. Farther west the minnow may ascend
+the smaller sandy streams to greater distances. Moore and Buck (1953:23)
+took parrot minnows at six of 15 stations on the Chikaskia River and
+found the species as far upstream as Drury, Kansas. Elliott (1947), in
+comparing the South Ninnescah and Spring Creek fish faunas, found only
+_P. vigilax_ and _P. promelas_ on the sandy, "flatter" Ninnescah and
+only _P. notatus_ and _P. tenellus_ on Spring Creek, an upland, Flint
+Hills stream in Greenwood County.
+
+
+#Pimephales promelas# Rafinesque: Stations A-2, A-3, W-3, W-4, G-9, B-1,
+M-1, E-4 (E&F, C-136).
+
+Occurrences of the fathead minnow were scattered, but included all
+streams sampled except Big Caney.
+
+Three of the collections were in small intermittent streams where
+conditions were generally unfavorable for fishes and in one instance
+extremely foul. Two of these stations had turbid water and all suffered
+from siltation.
+
+In Middle Caney Creek the species was rare but in the Elk River (June
+28) more than 100 specimens, predominantly young, were taken. This
+station consisted of a large isolated pool with a variety of bottom
+types. Water was turbid and the surface temperature was high (93° F.).
+In different parts of the pool the following numbers of specimens were
+taken in single seine-hauls: 15 over shallow bedrock; 35 over gravel
+(1-1/2 feet deep); 50 over mud bottom (1 foot deep).
+
+_P. promelas_ was found also in the large, flowing rivers: Arkansas,
+Walnut, Verdigris, and Neosho. The species was scarce in the Arkansas
+River, and was found principally in muddy coves. In the Walnut (W-3),
+this minnow comprised 7.65 per cent of the fish taken and was common in
+quiet pools.
+
+
+#Campostoma anomalum# Rafinesque: Stations W-4, G-4, C-1, C-3, C-5, C-6,
+C-7, C-8, C-9, C-10, C-11, C-12, C-13, C-14, C-15, C-16, C-17, C-18, B-3
+(E&F, C-131, C-136).
+
+Although the stoneroller was found in most streams surveyed, it was
+taken most often in the Big Caney system, where it occurred at 16 of the
+18 stations. In contrast, it was represented at only one of 17 stations
+on Grouse Creek. High percentages were found in three creeks--Cedar,
+Otter, and Spring. As noted above, these streams are normally clear,
+swift and have steep gradients and many rubble and gravel riffles. On
+these riffles young stonerollers abounded. Station C-16 on Spring Creek
+typifies the habitat in which this species was most abundant. The stream
+has an average width of 10 feet and depth of a few inches. The volume of
+flow was less than 1 cubic foot per second but turbulence was great.
+Water was clear and the bottom was gravel and rubble. Following rains in
+June, stonerollers quickly occupied parts of Spring Creek (upstream from
+C-16) that had been dry throughout the previous winter.
+
+On April 2 many _C. anomalum_ and _Etheostoma spectabile_ were taken in
+shallow pools and riffles in an extensive bedrock-riffle area on Cedar
+Creek near station C-12. Most of the females were gravid and the males
+were in breeding condition. On June 6 these pools were revisited. Flow
+had ceased and the pools were drying up. Young-of-the-year of the two
+species were abundant, but only a few mature stonerollers were taken. On
+August 24, prolonged drought had drastically altered the stream and all
+areas from which stonerollers and darters had been taken were dry.
+Seining of other pools which were almost dry revealed no stonerollers.
+
+Collections on May 31, June 15, and June 16 in Otter Creek revealed
+large numbers of stonerollers. They were found in riffle areas, in
+aquatic vegetation, and especially in detritus alongside banks. Most of
+the specimens were young-of-the-year.
+
+
+#Anguilla bostoniensis# (Le Sueur): An American eel was caught by me in
+Grouse Creek in 1949.
+
+
+#Gambusia affinis# (Baird and Girard): Stations A-1, A-2, A-3, W-1, W-2,
+W-3, W-4, W-5, G-1, G-2, G-3, G-4, G-5, G-7, G-8, G-9, C-1, C-2, C-3,
+C-4, C-6, C-15, E-1.
+
+Mosquitofish occurred widely but in varied abundance. Huge populations
+were in the shallow sandy backwaters and cut-off pools of the Arkansas
+River. In the shallow pools of several intermittent streams such as
+station G-8 on Silver Creek this fish also flourished.
+
+_G. affinis_ was taken at every station in the Arkansas, Walnut and
+Grouse systems except those stations on two upland tributaries of Grouse
+Creek (Crab Creek and Grand Summit Creek). The mosquitofish was not
+observed in the clear upland tributaries of Big Caney, nor on upper Big
+Caney River itself in May, June, and July. On September 3, however,
+_Gambusia_ were taken at station C-15 on Otter Creek and others were
+seen at station C-14 on the same date.
+
+Hubbs and Ortenburger (1929b:99) and Cross and Moore (1952:407) observed
+that _G. affinis_ usually was absent from small upland tributaries, even
+though it was abundant in lower parts of the same river systems.
+
+
+#Fundulus kansae# (Garman): Stations A-2, A-3, Evermann and Fordice as
+_Fundulus zebrinus_.
+
+At station A-2, seven plains killifish were taken together with a great
+many _Notropis deliciosus_ and _Gambusia affinis_ in a shallow,
+algae-covered channel with slight flow and sand bottom. At station A-3
+many young killifish were taken in small shallow pools on December 22.
+_Fundulus kansae_ has been found in the lower part of the Walnut River
+Basin, especially where petroleum pollution was evident. Eastward from
+the Walnut River plains killifish have not been taken.
+
+
+#Fundulus notatus# (Rafinesque): Stations B-1, G-1, G-2, G-3, G-4, G-5,
+G-7, G-8, G-10, G-11, G-14, C-1, M-1, E-1, Evermann and Fordice as
+_Zygonectes notatus_.
+
+The black-banded topminnow was not taken in the Arkansas River but was
+common in the Walnut and Grouse systems. It was common also in Middle
+Caney, but in Big Caney and Elk River it was taken only at the lowermost
+stations.
+
+This species did not seem to ascend far into smaller tributaries of
+Grouse Creek. In Crab Creek it was taken at the lower two of six
+stations and in Grand Summit Creek at the lower of two stations.
+
+The highest relative numbers were taken at stations G-3 (17.5 per cent),
+G-4 (24 per cent), G-10 (25.75 per cent) and G-11 (41.52 per
+cent), on Crab Creek and Grouse Creek. Both upstream and downstream from
+these stations, which were within five miles of each other, the relative
+abundance dropped off sharply. The bottoms at these stations were mostly
+rubble and mud, and water was turbid at three of the stations. At G-10
+(June 24) and G-11 (July 16) young-of-the-year were abundant.
+
+
+#Ictalurus melas# (Girard): Stations W-2, W-3, W-4, W-5, B-1, B-2, B-3,
+G-1, G-2, G-3, G-4, G-5, G-8, G-9, G-11, G-12, G-13, G-14, G-17, C-1,
+C-9, C-11, C-12, C-14, C-15, C-17, C-18, E-1, E-2, E-4, E-5, E-6, N-1,
+Evermann and Fordice as _Ameiurus melas_ (C-133).
+
+The black bullhead was taken at slightly more than half of the stations,
+and probably was present at others. Larger numbers were taken in Grouse
+Creek than in any other stream system. In many small, shallow pools in
+the Grouse Creek system young black bullheads shared dominance with
+_Gambusia affinis_ in the late summer. _I. melas_ was also abundant in
+isolated pools at the extreme upper ends of Crab Creek, Beaver Creek and
+Grand Summit Creek. _I. melas_ was most common in areas with silty
+bottoms. The species seemed scarce in the main stream of Big Caney River
+but was common in some of its tributaries.
+
+
+#Pylodictis olivaris# (Rafinesque): Stations A-3, G-1, C-5.
+
+Flathead catfish were taken by angling at stations A-3 and C-5. At
+station G-1 (September 5) a flathead catfish five inches long was taken
+in the four-foot nylon net.
+
+
+#Ictalurus punctatus# (Rafinesque): Stations A-3, W-2, W-3, G-2, C-5,
+E-4.
+
+Channel catfish from stations W-3, A-3, and C-5 were taken on hook and
+line. At station G-2 (August 29) twenty young-of-the-year were seined
+from the shallow narrow end of a large pool. All collections of both _I.
+punctatus_ and _P. olivaris_ were in the larger streams surveyed.
+
+
+#Ictalurus natalis# (LeSueur): Stations G-1, G-2, G-3, G-4, G-8, G-11,
+C-12, C-14, C-15.
+
+The yellow bullhead was taken at only 9 stations, compared with 33
+stations for the black bullhead. _I. natalis_ was represented in 7 of
+17 stations in the Grouse Creek system but in only 3 of 18 stations in
+the Big Caney system. Of the seven records from Grouse Creek four were
+from the main stream. At every station where yellow bullheads were
+taken, black bullheads were found also and were abundant, usually
+several times more abundant than _I. natalis_.
+
+At G-11 on Crab Creek (July 16), _I. natalis_ made up 3.8 per cent of
+the fish taken. All were young-of-the-year, existing in a tiny, gravelly
+pool containing not more than five gallons of water, and were the only
+fish present. Young yellow bullheads were also found in small pools with
+gravel bottoms at station G-4 on September 7.
+
+
+#Labidesthes sicculus# (Cope): Stations G-1, G-2, G-3, G-7, G-10, B-2,
+C-1, C-2, C-3, C-4, C-5, C-12, E-1, E-2, E-3, E-7, M-1 (E&F, C-131).
+
+The brook silversides was taken, sometimes abundantly, in all stream
+systems except the Walnut and Arkansas. At station G-7 on July 8, 41.8
+per cent of the fish taken were of this species. _L. sicculus_ was most
+abundant in large pools where the bottom was predominantly bedrock and
+gravel. The highest concentrations were in the mainstreams of Big Caney,
+Grouse, and Elk Rivers. Brook silversides were taken rarely in the
+smaller tributaries of these streams.
+
+
+#Percina phoxocephala# (Nelson): Stations C-2, C-3, C-5, G-1 (C-133).
+
+Slenderhead darters were scarce, and were found only over gravel
+bottoms. Specimens were taken from flowing and quiet water, and from
+both shallow and deep water.
+
+Larger numbers of _P. phoxocephala_ were taken by the writer in other
+collections made during 1956 on the Neosho and Verdigris Rivers over
+bottoms of rubble or gravel. Restriction of this darter to the larger
+streams follows a pattern observed by Cross (1954a:313) who noted it was
+absent from smaller riffles in minor tributaries. Elliott (1947),
+however, took one specimen of _P. phoxocephala_ in Spring Creek, a
+tributary of Fall River.
+
+
+#Percina caprodes carbonaria# (Baird and Girard): Stations G-3, G-4,
+G-7, G-12, C-5, C-6, C-7, C-9, C-12, C-13, C-14 (J&J, C-131, C-133).
+
+The logperch was generally distributed in the Caney, Elk, and Grouse
+systems. This species usually comprised less than 1 per cent of the fish
+taken; however, at station G-12 it formed 3.76 per cent of the total.
+
+In many instances the logperch was taken over submerged gravel bars,
+often along the edges of the larger pools. At 8 of 13 stations where the
+logperch was taken, the golden redhorse was also found. At every station
+where logperch were found, _Notropis umbratilis_ was taken and
+_Pimephales notatus_ also occurred at all but three of these stations.
+
+
+#Percina copelandi# (Jordan): Stations C-4, C-5, C-6, C-8, G-1 (C-131,
+C-133, J&J).
+
+Channel darters were collected over bottoms of rubble or gravel, both in
+flowing streams and in isolated pools. Although _P. copelandi_ was found
+only in Big Caney River and at the lowermost station on Grouse Creek
+(G-1) in this survey, this species has been taken previously from Elk
+River (K. U. 3463 and K. U. 3197) and from Silver Creek. _Notropis
+camurus_ occurred everywhere that _H. copelandi_ was found. In several
+instances the two species were taken in the same seine-haul.
+
+
+#Etheostoma spectabile pulchellum# (Girard): Stations W-4, G-1, G-4,
+G-5, C-6, C-9, C-11, C-12, C-13, C-14, C-15, C-16, C-17, C-18, E-1, E-5.
+Evermann and Fordice as _Etheostoma coeruleum_ (C-131, C-132).
+
+The habitat preferences of the orangethroat darter seemed similar to
+those of _Campostoma anomalum_. There were sixteen stations at which
+both species were taken, seven where only _E. spectabile pulchellum_ was
+taken and six where only _C. anomalum_ was taken. The largest relative
+numbers of both species were found in the same small, clear upland
+tributaries of Big Caney River. On May 31, collections from riffles at
+station C-15 (upper Otter Creek) consisted almost entirely of these two
+species. On September 1 at this station the stream was intermittent, but
+even the tiniest pools abounded with young darters and stonerollers.
+
+Gravid females and males in breeding condition were taken in riffles in
+Cedar Creek on April 2. During June numerous young and adult
+orangethroat darters were taken in Cedar Creek, in partly decayed leaves
+which lined the banks. On June 15 in Otter Creek young darters were
+abundant in streamside detritus and in clear, shallow, rubble riffles.
+At station C-11 a few darters were taken on rubble riffles; however,
+large numbers were found inhabiting thick mats of _Potamogeton foliosus_
+Raf., which grew in shallow water. Many darters (_Etheostoma spectabile
+pulchellum_ and _Percina phoxocephala_) were taken in September along
+gravelly banks at stations C-2 and C-3 by disturbing small rocks and
+leaf-litter along the shores. Young orangethroat darters seemed to
+seek out sheltered areas and in some cases were found in sluggish, even
+foul, water (Stations W-4, B-1 and G-12). Moore and Buck (1953:26) note
+that the orangethroat darter is able to thrive in Oklahoma in rather
+sluggish and even intermittent waters which reach quite high summer
+temperatures.
+
+Unlike other darters taken in this survey, the orangethroat darter was
+common to abundant at several stations and was found at a great many
+more stations than any other darter. The comparatively great tolerance
+of this species to varying habitats, suggested by this survey, is also
+reflected by its widespread distribution in Kansas.
+
+
+#Micropterus salmoides salmoides# (Lacepede): Stations B-1, G-4, G-5,
+G-7, G-12, C-1, C-3, E-1, E-2, E-3.
+
+Most of the largemouth bass taken were young-of-the-year. In Big Caney
+River this species seemed rare, being found at only two downstream
+stations compared with eight stations at which _M. punctulatus_ was
+taken.
+
+Many ponds in the Flint Hills have been stocked with largemouth bass. At
+present largemouth bass are frequently caught by hook and line in Crab
+Creek (Station G-12); however, Mr. A. C. Metcalf, who has fished this
+stream for approximately 45 years, states that he took no bass in the
+creek prior to the building and stocking of large ponds on nearby
+ranches.
+
+
+#Micropterus punctulatus# (Rafinesque): Stations C-4, C-5, C-6, C-7,
+C-8, C-10, C-14, C-15, E-2, E-5 (C-133).
+
+The spotted bass was taken only in tributaries of the Verdigris River,
+where it seemed more numerous than the preceding species. It has been
+reported from other Verdigris tributaries such as Fall River (Elliott,
+1947) and is common eastward from the Verdigris Basin. A spotted bass
+(K. U. 3467) was taken by Cross on the Little Walnut River in Butler
+County on April 5, 1955. This seems to be the only record of this
+species from the Walnut River Basin at the present time.
+
+
+#Pomoxis annularis# (Rafinesque): Stations W-3, W-5, G-1, G-2, G-5,
+G-10, G-11, G-12, C-1, C-2, C-4, C-5, C-6, M-1, E-1, E-2, E-4, E-5
+(C-136).
+
+White crappie were found in almost all habitats and were taken in all
+rivers except the Arkansas. The relative abundance of this species was
+greater at downstream than at upstream stations on Grouse Creek, Big
+Caney, and Elk River. Schools of young crappie were frequently found and
+the factor of chance in taking or failing to take a school of crappie
+prevented confident appraisal of abundance. White crappie usually sought
+quiet waters. Often they were found in backwaters and many times
+schools were taken over bottoms where mud and detritus had been
+deposited. It was not uncommon to take _Pomoxis annularis_ and
+_Ictalurus melas_ in the same seine-haul in such areas.
+
+
+#Pomoxis nigromaculatus# (LeSueur): Station C-1.
+
+Black crappie were taken in Otter Creek on May 29 and September 3.
+Several ponds in eastern Cowley County are stocked with black crappie,
+but none was taken from streams into which these ponds drain.
+
+
+#Lepomis cyanellus# (Rafinesque): Stations W-3, W-4, W-5, B-1, B-2, B-3,
+G-1, G-2, G-3, G-4, G-5, G-8, G-9, G-10, G-12, G-13, G-14, G-15, G-16,
+G-17, C-1, C-2, C-3, C-4, C-5, C-6, C-7, C-8, C-9, C-10, C-11, C-12,
+C-13, C-14, C-16, C-17, C-18, E-1, E-4, E-5, E-6, E-7, M-2 (C-131,
+C-132, C-133, C-136, E&F).
+
+The green sunfish was taken at 45 of 60 stations, which is the greatest
+number recorded for one species. The only stream from which it was not
+obtained was the Arkansas River. Green sunfish constituted a minor but
+consistent part of the fauna in Big Caney River except for some
+intermittent pools on small tributaries, where it was high in relative
+abundance. It usually comprised approximately 4 per cent of the fish
+taken at stations on Grouse Creek. In some intermittent tributaries of
+Grouse Creek and Elk River percentages also were high.
+
+Funk and Campbell (1953:74) observed that _L. cyanellus_ held a definite
+but minor place in all collections made on the Black River in Missouri.
+This pattern was also observed by the writer in collections made on the
+Neosho and Spring Rivers in southeastern Kansas. This seems to indicate
+that the Big Caney River populations (exclusive of the upstream stations
+in intermittent streams) follow a pattern commonly found in southeastern
+Kansas and probably in the Ozark region.
+
+
+#Lepomis humilis# (Girard): Stations A-3, W-2, W-3, W-4, W-5, G-1, G-2,
+G-3, G-4, G-5, G-7, G-8, G-9, G-10, G-11, G-12, G-14, G-15, C-1, C-2,
+C-3, C-4, C-5, C-6, C-7, C-8, C-9, C-10, C-11, C-12, C-13, C-16, C-17,
+B-2, B-3, E-1, E-2, E-4, E-5, E-6, E-7, M-1. (C-131, C-132, C-133,
+C-136, J&J, E&F.)
+
+The orangespotted sunfish was found in every stream surveyed, although
+only one specimen was taken from the Arkansas River.
+
+The largest relative number of this species (44.6) was taken at station
+G-1. Percentages at other stations on Grouse Creek and its tributaries
+progressively declined in an upstream direction.
+
+In Big Caney River representation of _L. humilis_ in collections varied
+from 1.56 per cent at station C-1 to 23.47 per cent at station
+C-7. This sunfish was usually the dominant species in collections made
+from the Elk River, where the relative abundance ranged from 10 to 30
+per cent.
+
+The orangespotted sunfish is widespread in Kansas and seems to be a
+diagnostic constituent of the Plains Fauna. Moore and Buck (1953:26)
+found it "very common" in the Chikaskia River in Kansas and Oklahoma.
+Cross (1950:140) noted that in Stillwater Creek it seemed to be the most
+tolerant and consequently the most abundant of the stream's cent
+rarchids. Moore and Paden (1950:91) note that _L. humilis_ is most
+common in muddy waters and found in overflow pools, backwaters, and
+oxbow lakes. This species is frequently found in farm ponds in the area
+surveyed, which further suggests a wide range of habitat tolerance.
+
+
+#Lepomis megalotis breviceps# (Baird and Girard): Stations W-3, W-4,
+W-5, B-1, B-2, G-1, G-4, G-5, G-7, G-8, G-9, G-10, G-11, G-12, G-13 (all
+Big Caney River stations except C-18), E-1, E-2, E-3, E-4, E-5, E-6,
+M-1, M-2 (C-131, C-132, C-133, J&J, E&F).
+
+In Big Caney River the longear sunfish shared dominance with the redfin
+shiner (_Notropis umbratilis_) at almost every station. The average of
+its relative abundance at all stations in the Big Caney system was 16.5
+per cent. It was also abundant at several stations on Grouse Creek and
+made up 43.25 per cent of all fish taken at station G-4.
+
+Cross (1950:140) observed that _L. megalotis breviceps_ increased in
+Stillwater Creek probably as a result of clearer water and stabilized
+water level.
+
+In collections made west of the area treated here (Moore and Buck,
+1953:26; Elliott, 1947) the longear sunfish is less abundant than in Big
+Caney River and Grouse Creek.
+
+
+#Lepomis macrochirus# (Rafinesque): Stations W-3, G-3, G-4, G-5, C-3,
+C-5, E-1, E-2 (C-131, C-132, C-133).
+
+The bluegill was, in all cases, a minor constituent in the fish fauna.
+No clear pattern of habitat preference can be deduced. In the Verdigris
+River at Independence (collection AM-53, August 22, 1956) bluegills were
+common in quiet pools and coves below a low-water dam. Moore and Paden
+(1950:91) note that _L. macrochirus_ prefers quiet waters and Hubbs and
+Lagler (1947:94) state that it is "generally restricted to the quieter
+pools."
+
+The bluegill is widely-stocked in impoundments of the area treated
+here.
+
+
+#Aplodinotus grunniens# (Rafinesque): Stations C-4, E-2.
+
+The dearth of stations from which the freshwater drum is reported may
+indicate difficulty in taking this species with seines, rather than
+scarcity. Both collections were at downstream stations. At station C-4
+three half-grown drum were taken. Fishermen take "drum" at least as far
+upstream as station C-5 on Big Caney River. In the Elk River one
+specimen was taken in a 20-foot seine below a dam at Elk Falls.
+
+
+
+
+FISHES OF DOUBTFUL OR POSSIBLE OCCURRENCE
+
+
+In addition to the species listed above, the following species have been
+reported nearby and may occur within the area surveyed.
+
+_Lepisosteus productus_ (Cope)--This gar has not been reported from
+Kansas. It has been taken at several points in the northern half of
+Oklahoma and as far west as Canton Reservoir by Buck and Cross (1951). A
+specimen of the spotted gar was taken by Elkin (1954:28) in Salt Creek
+in Osage County, Oklahoma.
+
+_Polyodon spathula_ (Walbaum)--The paddlefish has never been reported
+from the Arkansas River system in Kansas. Several reports by fishermen
+were traced by the writer, but authentication was not achieved. One
+mounted specimen was examined in a sporting goods store in Arkansas
+City. This fish was said to have been taken on the Arkansas River south
+of Arkansas City but information on the date and method of capture were
+vague. Mr. Darrell Wheat of Arkansas City reported taking four
+paddlefish below a dam at Oxford, Kansas, in 1948 and 1949.
+
+_Hiodon alosoides_ (Rafinesque)--One specimen (K. U. 3095) of the
+goldeye was taken in 1953 on the Arkansas River near Oxford in Sumner
+County. Fishermen also report taking this fish occasionally in the
+Walnut River in Cowley County.
+
+_Noturus flavus_ (Rafinesque)--The stonecat was taken in the Verdigris
+system by R. D. Lindsay in 1911 (K. U. 2058) and more recently by Cross
+in Montgomery County (C-120) and Schelske (1957:46) in Wilson and
+Montgomery Counties. The close proximity of these collection areas to
+lower portions of the Elk River indicate probable occurrence in Elk
+River and other Verdigris tributaries.
+
+_Noturus nocturnus_ (Jordan and Gilbert)--The freckled madtom has been
+taken on all sides of the area studied making its occurrence therein
+highly probable. This madtom has been taken in Beaver Creek in Osage
+County, Oklahoma (OAM 4771); from a tributary of the Walnut River in
+Sedgwick County by Cross (1954); from the Chikaskia River (Moore and
+Buck, 1953:24); and from several localities on the Verdigris River
+(Schelske, 1957:47).
+
+_Etheostoma cragini_ (Gilbert)--One Cragin's darter (K. U. 3470) was
+taken by Cross in the Arkansas River near the Sumner-Cowley county line
+(Sec. 25, T31S, R2E). Records of this darter are few and widely
+scattered geographically. Several collections from north-eastern
+Oklahoma are noted by Moore and Cross (1950:144).
+
+_Etheostoma whipplii_ (Girard)--Schelske (1957:38) reports the redfin
+darter from the Verdigris River three miles southeast of Benedict,
+Kansas. Dr. George Moore of Oklahoma A. & M. College states that it has
+been taken in the Verdigris drainage in Oklahoma at several locations.
+
+_Etheostoma zonale arcansanum_ (Jordan and Gilbert)--Two banded darters
+(K. U. 3213) have been reported by Schelske (1957:49) from Fall River
+near Neodesha, Kansas. Because a tributary of Fall River enters Elk
+County its presence in this and other Verdigris tributaries in the area
+seems possible. This darter has been reported from only one other stream
+in Kansas, Shoal Creek in Cherokee County, where it has been collected
+often.
+
+_Roccus chrysops_ (Rafinesque)--The white bass has been stocked in Hulah
+Reservoir on Big Caney River in Oklahoma. To date it has not been
+reported from the Big Caney in Kansas. White bass are common in many
+reservoirs of Kansas and Oklahoma and have been taken in rivers in both
+states. Mr. Clement Gillespie of Arkansas City, Kansas Forestry, Fish
+and Game Commission wildlife protector for the area, states that two
+hundred young of _R. chrysops_ were released in Grouse Creek several
+years ago under auspices of the Commission. The fish has not been
+reported by fishermen since that time to the knowledge of Mr. Gillespie
+or of the writer.
+
+_Lepomis microlophus_ (Gunther)--One redear sunfish was taken on Salt
+Creek in Osage County, Oklahoma, by Elkin (1954:28). Because this
+species has been stocked widely in Oklahoma its eventual occurrence in
+Kansas seems probable.
+
+_Chaenobryttus gulosus_ (Cuvier)--The warmouth has been taken south of
+the collection area in Osage County on Salt Creek by Elkin (1954:28).
+
+
+
+
+FAUNAL COMPARISONS OF DIFFERENT STREAMS
+
+
+The faunas of Elk River, Big Caney River, and Grouse Creek were
+generally similar. These streams and most of their tributaries originate
+in the same hilly area of eastern Cowley County and western Elk and
+Chautauqua counties; their similarities and differences have been
+pointed out.
+
+The following species were taken in all of these streams:
+
+  _Lepisosteus osseus_
+  _Dorosoma cepedianum_
+  _Ictiobus bubalus_
+  _Moxostoma erythrurum_
+  _Minytrema melanops_
+  _Cyprinus carpio_
+  _Campostoma anomalum_
+  _Notropis boops_
+  _Notropis lutrensis_
+  _Notropis umbratilis_
+  _Notropis volucellus_
+  _Pimephales notatus_
+  _Pimephales tenellus_
+  _Fundulus notatus_
+  _Gambusia affinis_
+  _Ictalurus melas_
+  _Ictalurus punctatus_
+  _Etheostoma spectabile_
+  _Percina caprodes_
+  _Micropterus salmoides_
+  _Pomoxis annularis_
+  _Lepomis cyanellus_
+  _Lepomis humilis_
+  _Lepomis megalotis_
+  _Lepomis macrochirus_
+  _Labidesthes sicculus_
+
+No species was found in Elk River to the exclusion of Big Caney and
+Grouse Creek. Fish taken exclusively in Grouse Creek were _Ictiobus
+cyprinella_ at station G-2 and _Notropis percobromus_ at station G-1.
+The following species were taken only in Big Caney River: _Ictiobus
+niger_, _Notropis rubellus_, _Phenacobius mirabilis_, _Pimephales
+vigilax_, and _Pomoxis nigromaculatus_.
+
+_Notropis buchanani_ and _Pimephales promelas_ were taken in Grouse
+Creek and Elk River, but not in Big Caney River, although the watershed
+of Big Caney lies largely between these two streams. Three species,
+_Notropis camurus_, _Micropterus punctulatus_, and _Aplodinotus
+grunniens_, were found in Elk River and Big Caney but not in Grouse
+Creek. _Ictalurus natalis_, _Pylodictis olivaris_, and _Percina
+phoxocephala_ were taken in Big Caney River and Grouse Creek but not in
+Elk River. _Percina copelandi_ was taken by Cross on Elk River in 1954
+and 1955 (K. U. 3464 and K. U. 3197).
+
+Forty species were taken in Big Caney River, 35 in Grouse Creek and 31
+in Elk River. Collections were made from only six stations on Elk River
+as compared with 18 from Big Caney and 17 from Grouse Creek.
+
+Twenty-four species were taken in the Walnut River system, only one of
+which (_Notemigonus crysoleucas_) was taken exclusively there.
+
+In the Arkansas River 18 species were found, four of which did not occur
+elsewhere. These were _Hybopsis aestivalis_, _Notropis blennius_, _N.
+girardi_, and _Fundulus kansae_.
+
+Table 5 lists the number of stations in each of the streams surveyed
+from which each species was taken.
+
+    TABLE 5.--SPECIES OF FISHES COLLECTED AND NUMBER OF STATIONS IN
+              EACH STREAM SYSTEM AT WHICH EACH SPECIES WAS FOUND.
+
+    KEY:
+    A: Arkansas River 3 stations
+    B: Walnut River 5 stations
+    C: Grouse Creek 17 stations
+    D: Big Caney River 18 stations
+    E: Elk River 6 stations
+    F: Middle Caney 2 stations
+    G: Beaver Creek 3 stations
+
+  ============================================================
+     Total number     |       |   |    |    |        |   |
+     of stations      |   A   | B |  C |  D |   E    | F | G
+  --------------------+-------+---+----+----+--------+---+----
+  _L. osseus_         |   1   | 3 |  3 |  6 |  Seen  |   |
+  _D. cepedianum_     | Seen  | 1 |  1 |  3 |    2   | 1 |
+  _Carpiodes carpio_  |   2   | 1 |  1 |  1 |        |   |
+  _I. bubalus_        |       | 1 |  2 |  4 |    3   |   |
+  _I. cyprinella_     |       |   |  1 |    |        |   |
+  _I. niger_          |       |   |    |  2 |        |   |
+  _M. erythrurum_     |       |   |  4 | 10 |    3   |   |
+  _M. melanops_       |       |   |  1 |  3 |    1   |   |
+  _Cyprinus carpio_   |   1   | 4 |  4 |  2 |    1   |   |
+  _C. anomalum_       |       | 1 |  1 | 14 |    2   |   | 1
+  _H. aestivalis_     |   1   |   |    |    |        |   |
+  _N. blennius_       |   2   |   |    |    |        |   |
+  _N. boops_          |       |   |  2 | 14 |    2   | 2 |
+  _N. buchanani_      |       |   |  1 |    |    1   |   |
+  _N. camurus_        |       |   |    | 13 |    2   |   |
+  _N. deliciosus_     |   3   | 3 |    |    |        |   |
+  _N. girardi_        |   2   |   |    |    |        |   |
+  _N. lutrensis_      |   3   | 4 | 13 | 14 |    5   | 1 | 3
+  _N. rubellus_       |       |   |    | 11 |        |   |
+  _N. percobromus_    |   3   | 3 |  1 |    |        |   |
+  _N. umbratilis_     |       |   |  8 | 18 |    4   | 2 | 2
+  _N. volucellus_     |       |   |  2 |  5 |    2   | 1 |
+  _N. crysoleucas_    |       | 1 |    |    |        |   |
+  _H. placita_        |   3   | 2 |    |    |        |   |
+  _P. mirabilis_      |       | 1 |    |  1 |        |   |
+  _P. notatus_        |       | 1 |  6 | 18 |    5   | 2 | 1
+  _P. promelas_       |   2   | 2 |  1 |    |    1   | 1 | 1
+  _P. vigilax_        |   1   |   |    |  3 |        | 1 |
+  _P. tenellus_       |       |   |  1 |  7 |    1   | 2 |
+  _F. notatus_        |       | 4 | 10 |  1 |    1   |   | 1
+  _F. kansae_         |   2   |   |    |    |        |   |
+  _G. affinis_        |   3   | 5 |  8 |  8 |    1   |   |
+  _I. melas_          |   1   | 4 | 12 |  9 |    5   |   | 3
+  _I. natalis_        |       |   |  6 |  3 |        |   |
+  _I. punctatus_      |   1   | 2 |  1 |  5 |    1   |   |
+  _P. olivaris_       |   1   |   |  1 |  1 |        |   |
+  _E. spectabile_     |       | 1 |  4 | 17 |    2   |   | 1
+  _P. copelandi_      |       |   |  1 |  5 |        |   |
+  _P. phoxocephala_   |       |   |  1 |  4 |        |   |
+  _P. caprodes_       |       |   |  5 |  8 |    1   |   |
+  _M. salmoides_      |       |   |  4 |  2 |    3   |   | 1
+  _M. punctulatus_    |       |   |    |  7 |    1   |   |
+  _P. annularis_      |       | 2 |  7 |  1 |    4   | 1 |
+  _P. nigromaculatus_ |       |   |    |  1 |        |   |
+  _L. cyanellus_      |       | 3 | 14 | 17 |    5   | 1 | 3
+  _L. humilis_        |   1   | 4 | 13 | 17 |    6   | 1 | 2
+  _L. megalotis_      |       | 3 |  9 | 18 |    6   | 2 | 2
+  _L. macrochirus_    |       | 1 |  3 |  3 |    2   |   |
+  _A. grunniens_      |       |   |    |  1 |    1   |   |
+  _L. sicculus_       |       |   |  5 |  7 |    4   | 1 | 1
+  ------------------------------------------------------------
+
+
+
+
+DISTRIBUTIONAL VARIATIONS WITHIN THE SAME STREAM
+
+
+An analysis of faunal variations in different parts of the same stream
+system was made for Big Caney River and Grouse Creek. Collecting was
+more extensive in these streams, and sampling was done over a wider
+range of habitat, than in the Arkansas and Walnut rivers.
+
+The fish taken in the first five seine hauls at each station were
+counted and the number of each species was recorded as a percentage of
+the total number of fish taken. These percentages were calculated for
+the main stream and for each tributary in an attempt to discern possible
+intra-stream faunal patterns. In Table 6 lower, middle, and upper
+segments of each stream have been segregated and the average of all
+stations within each segment is shown.
+
+The results are subject to several sources of error, some of which are
+discussed below:
+
+(1) Seining techniques could not be entirely standardized. One station
+might present a series of long narrow riffles and narrow, shallow pools
+in which only a small seine could be used effectively; another station
+might consist of a large, deep, isolated pool in which a larger seine
+was needed for effective sampling. In practice, the five seine hauls
+were made with any of several seines ranging from ten to twenty feet in
+length.
+
+(2) Seines are species-selective, due partly to the preference of
+certain fishes for special habitat niches. Fishes that are often found
+under stones or in weedy pools require special collecting techniques and
+frequently were not represented in the initial five hauls. If work
+subsequent to the first five hauls indicated that such fish were a
+prominent part of the fauna at a particular station, these results were
+considered before percentages were calculated.
+
+(3) Temporal variations occur in populations at the same station. There
+were both seasonal and diurnal differences in relative numbers of
+species taken in these collections. This was noted especially at station
+C-5 where collecting was done both at night and by day. Spawning by
+certain species during the course of the study complicated estimates of
+their relative abundance.
+
+(4) In tabulating percentages of fishes obtained an arbitrary element is
+often unavoidable in deciding whether a station, especially a station on
+a tributary, should be considered as part of the lower, middle, or upper
+segment of a river system.
+
+Despite these disadvantages it is felt that table 6 has factual basis
+permitting some reliable interpretation.
+
+    TABLE 6.--RELATIVE ABUNDANCE IN PER CENT OF FISHES IN
+              COLLECTIONS FROM THREE STREAM SEGMENTS.
+
+  ====================================================================
+                     |      Big Caney River           Grouse Creek
+                     |------------------------+-----------------------
+                     | Lower | Middle | Upper | Lower | Middle | Upper
+  -------------------+-------+--------+-------+-------+--------+------
+  _L. osseus_        |   .7  |   .5   |       |   .6  |    .02 |
+  _D. cepedianum_    |   .3  |        |       |       |    .02 |
+  _Carpiodes carpio_ |   .06 |        |       |  1.0  |        |
+  _I. bubalus_       |   .6  |   .45  |       |  1.4  |        |
+  _I. cyprinella_    |       |        |       |   .1  |        |
+  _I. niger_         |   .01 |        |       |       |        |
+  _M. erythrurum_    |   .2  |  1.1   |  1.0  |   .03 |    .5  |  1.1
+  _M. melanops_      |   .1  |   .01  |       |       |    .1  |
+  _Cyprinus carpio_  |   .7  |        |       |  1.3  |    .2  |
+  _C. anomalum_      |   .6  |  5.9   | 18.0  |       |    .1  |
+  _N. boops_         |   .6  |   .6   |  5.1  |       |   1.3  |
+  _N. buchanani_     |       |        |       |   .01 |        |
+  _N. camurus_       |  6.4  |  5.5   |   .4  |       |        |
+  _N. lutrensis_     |  8.8  |  1.0   |   .5  |  6.4  |  11.4  | 15.2
+  _N. percobromus_   |       |        |       |  1.1  |        |
+  _N. rubellus_      |   .4  |  1.4   |  3.9  |       |        |
+  _N. umbratilis_    | 17.6  | 28.3   | 15.4  |  2.5  |   3.9  |  5.5
+  _N. volucellus_    |   .3  |   .4   |       |       |    .3  |
+  _P. mirabilis_     |   .3  |        |       |       |        |
+  _P. notatus_       |  3.5  |  5.7   | 13.0  |       |    .9  |  6.6
+  _P. vigilax_       |   .8  |        |       |       |        |
+  _P. promelas_      |       |        |       |       |        |  2.9
+  _P. tenellus_      |   .7  |   .5   |       |   .01 |        |
+  _G. affinis_       | 14.6  |   .4   |   .4  | 20.8  |  10.2  |  1.0
+  _F. notatus_       |   .1  |        |       |  6.6  |  17.2  |  1.4
+  _I. melas_         |   .9  |  2.2   |  2.4  |  5.6  |   2.3  | 18.0
+  _I. natalis_       |       |        |   .5  |   .5  |    .8  |
+  _P. olivaris_      |   .01 |        |       |   .01 |        |
+  _I. punctatus_     |   .3  |        |       |   .4  |        |
+  _E. spectabile_    |  1.9  |  4.9   | 18.0  |   .4  |    .3  |   .3
+  _P. copelandi_     |   .8  |   .1   |       |   .01 |        |
+  _P. phoxocephala_  |   .1  |        |       |   .1  |        |
+  _P. caprodes_      |   .4  |   .6   |   .2  |   .2  |    .2  |   .4
+  _M. salmoides_     |   .06 |        |       |       |   1.1  |   .3
+  _M. punctulatus_   |   .5  |  1.7   |   .4  |       |        |
+  _P. annularis_     |  3.9  |   .8   |       |  2.9  |   4.2  |   .3
+  _L. cyanellus_     |  3.4  |   .8   |  6.6  |  5.2  |   1.8  | 30.5
+  _L. humilis_       | 10.6  | 13.1   |  1.8  | 31.4  |  17.7  | 14.8
+  _L. megalotis_     | 12.4  | 22.3   | 12.0  |  3.6  |  14.0  |  1.7
+  _L. macrochirus_   |   .3  |        |       |   .2  |   1.3  |
+  _A. grunniens_     |   .1  |        |       |       |        |
+  _L. sicculus_      |  7.1  |  1.6   |   .4  |  7.7  |  10.2  |
+  --------------------------------------------------------------------
+
+
+_Big Caney River_
+
+The "lower segment" of Big Caney River is immediately upstream from
+Hulah Reservoir, and is not the lowermost portion of the entire river
+basin, but merely the lower part of the river in the area studied. A
+conspicuous characteristic of the lower segment was the general
+restriction of the deep-bodied suckers and the carp to this part of the
+stream. Other fishes that were most common in the lower section were
+_Pimephales vigilax_, _Percina phoxocephala_, _Gambusia affinis_, and
+_Aplodinotus grunniens_. _Labidesthes sicculus_ and _Lepisosteus osseus_
+ranged into the middle section of the stream, but were present in larger
+numbers downstream. _Ictalurus punctatus_, _Pomoxis annularis_, and
+_Lepomis macrochirus_ were taken chiefly in downstream habitats;
+however, stocking has confused the distributional pattern of these
+species. _Notropis lutrensis_, although found throughout the system,
+progressively declined in numbers taken in the middle and upper
+sections. Approximately 18 species were usually taken in downstream
+collections.
+
+No species were found exclusively in the middle section of the Big Caney
+system. _Micropterus punctulatus_, _Notropis umbratilis_, and _Lepomis
+megalotis_ tended to be most common in the middle section of the main
+stream. These three species were taken together at stations C-5, C-6,
+C-8, and C-10.
+
+The upper section yielded no species that did not occur also in another
+section. Fishes most abundant in the upper section included: _Campostoma
+anomalum_, _Etheostoma spectabile_, _Notropis boops_, _Notropis
+rubellus_, _Pimephales notatus_, and _Lepomis cyanellus_. _Ictalurus
+natalis_ also seemed more common upstream than in lower parts of the
+basin.
+
+_Campostoma anomalum_ was one of the most common fishes taken at many of
+the stations on small upland tributaries. In downstream collections its
+relative abundance was less, although it was often concentrated on
+riffles.
+
+In the Big Caney system as a whole _Notropis umbratilis_ was the most
+abundant species. Several species were present throughout the system in
+proportions varying, sometimes greatly, from station to station.
+_Lepomis megalotis_ and _Lepomis humilis_ were erratic in occurrence,
+and the numbers of _Notropis camurus_ and _Ictalurus melas_ varied
+without pattern.
+
+
+_Grouse Creek_
+
+The fauna of the main stream of Grouse Creek fluctuated more in number
+and kinds of fish from station to station than did the fauna of Big
+Caney River. Again, the deep-bodied suckers showed downstream
+proclivities. In addition, _Notropis buchanani_, _Pimephales tenellus_,
+_Percina copelandi_, _Percina phoxocephala_, _Notropis percobromus_ and
+_Pylodictis olivaris_ were taken only at the lowermost station (G-1). At
+stations G-2 and G-3 the creek is sluggish and often turbid, meandering
+between high mud banks in a flood plain. At these stations _Fundulus
+notatus_, _Gambusia affinis, La_-_bidesthes sicculus_, _Ictalurus
+melas,_ and _Lepomis humilis_ were the most common fishes. Shiners
+(_Notropis_ spp.) and _Lepomis megalotis_ were rarely taken. Hall
+(1953:36) states that _Gambusia affinis_, _Fundulus notatus_, and
+_Labidesthes sicculus_ are usually associated with overflow pools,
+oxbows, and vegetated backwaters.
+
+Those fishes mentioned in the preceding paragraph remained common in
+the middle section of the stream. In addition _Notropis lutrensis_,
+_Notropis umbratilis_, and _Lepomis megalotis_ were important members
+of the fauna.
+
+In the uppermost section shiners (_Notropis_ spp.) were common. In the
+few upstream stations that were still in good condition with clear
+flowing water, the fauna resembled that of the upstream stations on Big
+Caney River. Most upstream stations on Grouse Creek were located on
+highly intermittent streams that are treated below.
+
+
+
+
+FAUNAS OF INTERMITTENT STREAMS
+
+
+Because of severe, protracted drought, most of the streams studied had
+ceased to flow by the close of the survey period. However, the duration
+of intermittency varied greatly in different streams, as did its effect
+in terms of the number and sizes of residual pools, water temperatures,
+pollution, and turbidity. Crab Creek, Beaver Creek, and a small unnamed
+tributary of Grouse Creek were severely affected by intermittency. Their
+faunas are discussed below.
+
+In Crab Creek six collections were made from points near the mouth to
+the uppermost pool in which water was found. Pools near the mouth were
+as large as thirty feet in width and ninety feet in length, while those
+that were uppermost were shallow puddles averaging ten feet in length
+and five feet in width. The uppermost station was situated in bluestem
+pasture without benefit of shade from trees.
+
+The species taken and their relative abundances based on five seine
+hauls at each station are shown in Table 7. At the uppermost pool (G-17)
+only small green sunfish were found. At G-16, next downstream, this
+species was joined by large numbers of black bullheads and a few redfin
+shiners and red shiners. G-13 was similar to G-16, but two additional
+species occurred there. G-12 was a clear, deep pool much larger than any
+at the stations upstream. Here, seven species were added to the fauna,
+and the percentages of _Ictalurus melas_ and _Lepomis cyanellus_ were
+much less. At G-10 _Fundulus notatus_, _Labidesthes sicculus_, and
+_Minytrema melanops_ appeared. Nevertheless, fewer species (10) were
+captured here than at station G-12 upstream.
+
+    TABLE 7.--PERCENTAGES OF FISHES TAKEN ON CRAB CREEK.
+
+  ====================================================================
+         Stations           | G-10 | G-11 | G-12 | G-13 | G-16 | G-17
+  --------------------------+------+------+------+------+------+------
+  _Minytrema melanops_      |  8.7 |      |      |      |      |
+  _Labidesthes sicculus_    | 20.0 |  1.0 |      |      |      |
+  _Fundulus notatus_        | 25.7 | 41.0 |      |      |      |
+  _Ictalurus natalis_       |      |  3.8 |   .43|      |      |
+  _Pomoxis annularis_       |  8.8 | 11.8 |  1.9 |      |      |
+  _Lepomis humilis_         | 15.45|  9.9 |  8.5 |      |      |
+  _Micropterus salmoides_   |      |      |  1.9 |      |      |
+  _Etheostoma spectabile_   |  1.0 |      |  1.9 |      |      |
+  _Percina caprodes_        |      |      |  3.8 |      |      |
+  _Moxostoma erythrurum_    |  1.0 |      |  7.0 |      |      |
+  _Lepomis megalotis_       |  5.7 |  2.3 |  7.0 |  2.0 |      |
+  _Pimephales notatus_      |      | 34.0 |  9.0 |      |      |
+  _Ictalurus melas_         |  5.3 |   .5 | 29.0 | 49.0 |      |
+  _Notropis umbratilis_     |      |  4.7 |  9.0 |  1.0 |      |
+  _Notropis lutrensis_      | 20.6 | 26.0 | 25.0 | 14.0 |  1.0 |
+  _Lepomis cyanellus_       |  1.0 |      |  1.9 | 34.0 | 49.0 | 100.0
+  --------------------------+------+------+------+------+------+------
+
+
+    TABLE 8.--FISH TAKEN IN NINE POOLS ON UPPER BEAVER CREEK
+              (PROGRESSING FROM DOWNSTREAM TO UPSTREAM).
+
+  =====================================================================
+        | _Notropis   | _Notropis | _Lepomis | _Lepomis   | _Ictalurus
+        | umbratilis_ | lutrensis_| humilis_ | cyanellus_ | melas_
+  ------+-------------+-----------+----------+------------+------------
+  Pools:|             |           |          |            |
+   1    | 5 adults    | 4 adults  |  adults  |  young     | 1 juvenile
+        |             | 7 young   | abundant | abundant   |
+        |             |           |          |            |
+   2    | 2 adults    | 4 adults  | 6 adults |  young     |
+        |             |           |          | abundant   |
+        |             |           |          |            |
+   3    |             | 1 adult   | 7 adults | 3 juveniles| 2 juveniles
+        |             |           |          |            |
+   4    |             |           | 4 adults |  young     |  young
+        |             |           |          | abundant   | abundant
+        |             |           |          |            |
+   5    |             |           | 2 adults |            |
+        |             |           |          |            |
+   6    |             |           |          | 28 young   |
+        |             |           |          |            |
+   7    |             |           |          |            |
+        |             |           |          |            |
+   8    |             |           |          |            | 1 adult
+        |             |           |          |            |
+   9    |             |           |          |            | 1 adult
+ -------+-------------+-----------+----------+------------+------------
+
+A series of collections similar to that on Crab Creek was carried out
+along 1-1/2 miles of Beaver Creek on July 22, 1956. Nine pools were
+sampled (Table 8) of which number nine was the uppermost point where
+water was found (except for farm ponds). Mainly young of _Lepomis
+cyanellus_ and _Ictalurus melas_ were found in the uppermost stations,
+as on Crab Creek. Only adults of _Notropis lutrensis_ and _Notropis
+umbratilis_ were taken.
+
+In another small intermittent tributary of Grouse Creek two collections
+(G-14 and G-15) were made. One was from several isolated pools near the
+source of the creek and the other was 1-1/2 miles upstream from the
+mouth. The two stations were approximately four miles apart. Table 9
+indicates approximate percentages of fish taken in five seine hauls at
+these stations.
+
+    TABLE 9.--FISHES TAKEN IN A TRIBUTARY OF GROUSE CREEK.
+
+      =================================================
+      Species                   | Upstream | Downstream
+                                | station  | station
+      --------------------------+----------+-----------
+      _Ictalurus melas_         |    45%   |
+      _Lepomis humilis_         |    48%   |    40%
+      _Notropis lutrensis_      |    5%    |    30%
+      _Lepomis cyanellus_       |    2%    |    20%
+      _Fundulus notatus_        |          |    10%
+      --------------------------+----------+-----------
+
+At two other stations, only _Lepomis cyanellus_ was found. One of these
+stations consisted of several small spring-fed pools in a dry arroyo
+tributary to Little Beaver Creek. Around these small "oases" rushes and
+smartweeds grew and blackbirds were nesting in the rushes. Although
+green sunfish up to eight inches in length were common in the shallow
+pools, no other species was found. The second station (C-17) on the East
+Fork Big Caney River is of special interest. The pool was isolated, had
+dimensions of about 25×25 feet, and had an average depth of 15 inches.
+The water was foul; cows had been fed fodder in a sheltered area above
+the pool during the preceding winter and the entire bottom was covered
+to a depth of 6 inches to 1 foot with a detritus of decomposing fodder,
+cattle feces, and leaves. The water became almost inky in consistency
+when the bottom was stirred and its odor was offensive. A thick
+gray-green bloom lay on the surface. This bloom was full of bubbles
+indicating gases rising from the bottom muds. One hundred fifty-three
+green sunfish, all less than 5 inches in length, were taken in one
+seine-haul at this station.
+
+
+
+
+EAST-WEST DISTRIBUTION
+
+
+In the Arkansas River system in Kansas there are marked differences
+between fish faunas of the western and eastern parts of the state. This
+can be illustrated by comparison of Spring River in Cherokee County with
+the Cimarron River in southwestern Kansas. Single collections from
+Spring River or its tributaries usually contain 25 or more species of
+fish. Collections from the Cimarron rarely contain more than five or six
+species. Many of those fishes found in Spring River are characteristic
+of an Ozarkian fauna, and some are endemic to the Ozark uplands. Fish
+found in the Cimarron or Arkansas in western Kansas are members of a
+plains fauna of wide distribution. There is mingling of these two faunal
+groups across the state, with the number of Ozarkian species diminishing
+westward, and certain plains species diminishing eastward. A number of
+species such as _Moxostoma duquesnii_ and _Notropis spilopterus_ are
+limited, on the basis of present records, to Spring River and its
+tributaries in Kansas. Others have not been taken west of the Neosho
+drainage. The Verdigris River provides the next major avenue of westward
+dispersal followed by Caney River, Grouse Creek, and the Walnut River.
+West of the Walnut River system Ozarkian species have been almost always
+absent from collections. The Chikaskia River is somewhat exceptional.
+Moore and Buck (1953) reported from this river several species that seem
+more typical of eastern faunal associations. Table 10 indicates the
+stream system in which the present westernmost records are located for a
+number of fishes found in the Arkansas River system in Kansas.
+
+    TABLE 10.--PRESENT WESTERNMOST RECORDS OF SOME FISHES IN THE
+               ARKANSAS RIVER BASIN IN KANSAS.
+
+  Spring River
+    _Cottus carolinae_
+    _Dionda nubila_
+    _Etheostoma blennioides_
+    _Etheostoma gracile_
+    _Etheostoma nigrum nigrum_
+    _Etheostoma punctulatum_
+    _Etheostoma saxatile_
+    _Hypentelium nigricans_
+    _Moxostoma duquesnii_
+    _Notropis spilopterus_
+    _Noturus exilis_
+
+  Neosho River
+    _Cycleptus elongatus_
+    _Etheostoma chlorosomum_
+    _Etheostoma flabellare lineolatum_
+    _Hybopsis amblops_
+    _Hybopsis biguttata_
+    _Hybopsis x-punctata_
+    _Notropis zonatus pilsbryi_
+
+  Verdigris River
+    _Etheostoma whipplii_
+    _Etheostoma zonale arcansanum_
+    _Percina copelandi_
+    _Moxostoma carinatum_
+    _Notropis boops_
+    _Notropis volucellus_
+    _Noturus miurus_
+
+  Chikaskia River
+    _Ictalurus natalis_
+    _Percina phoxocephala_
+    _Labidesthes sicculus_
+    _Lepomis megalotis breviceps_
+    _Micropterus punctulatus_
+    _Moxostoma aureolum pisolabrum_
+    _Moxostoma erythrurum_
+    _Notropis camurus_
+    _Pimephales notatus_
+    _Pimephales tenellus_
+    _Noturus nocturnus_
+
+The westernmost records for seven species are in the area studied.
+
+1. _Lepisosteus platostomus._
+
+2. _Carpiodes velifer._
+
+3. _Moxostoma carinatum._
+
+4. _Minytrema melanops._ One specimen taken at station G-10 near the
+mouth of Crab Creek constitutes the present westernmost record. A
+specimen has been taken by Cross (C-24-51) in the headwaters of the
+Walnut River.
+
+5. _Notropis boops._ The westernmost record is station G-5 on Grouse
+Creek. This fish has been reported slightly west of this in Oklahoma on
+Big Beaver Creek in Kay County (number 4776, Oklahoma A & M College
+Museum of Zoology).
+
+6. _Notropis volucellus._ Two specimens were taken at station G-8 on
+Silver Creek.
+
+7. _Percina copelandi._ The westernmost record is from station G-1, two
+miles above the mouth of Grouse Creek.
+
+The easternmost occurrences of four species are in the area studied.
+These species are _Hybopsis aestivalis tetranemus_ (Station A-2),
+_Notropis blennius_ (Station A-1), _Notropis girardi_ (Station A-2),
+and _Fundulus kansae_ (Station A-2 and Walnut River). These fish are
+associated with the Arkansas River proper and its sandy western
+tributaries. In Oklahoma, these fish are found in the Arkansas River
+as it proceeds eastward and in the downstream portions of some of its
+tributaries. These fish show little tendency to ascend the streams of
+the Flint Hills.
+
+
+
+
+SUMMARY
+
+
+The fish fauna of the area studied is transitional between the Ozarkian
+and Great Plains faunas.
+
+Fluctuation in water level seemed especially important in determining
+distribution of fishes in the area studied. Variable climate
+characteristic of the region studied causes recurrent floods and
+intermittency in streams. Both of these conditions have probably been
+accentuated by man's modifications of the habitat. The effects of
+intermittency were most strikingly demonstrated in small creeks of the
+uplands. The number of species of fish in the highly intermittent
+streams was small--especially in the uppermost pools sampled--but the
+actual number of fish was often high even though the number of species
+was low. In several instances the only fishes found in these isolated
+pools were _Lepomis cyanellus_ and _Ictalurus melas_. This phenomenon of
+concentrated numbers of individuals of a few species would indicate the
+presence of limiting factors that allow only those species most
+tolerant of the particular factor to flourish.
+
+Soon after rains restored flow in these intermittent creeks _L.
+cyanellus_ and _I. melas_ appeared in parts of the channels that had
+previously been several miles from the nearest water. Rapid upstream
+movements of other species after rains was also noted.
+
+It was impossible to ascertain the precise effects of gradient and
+bottom-type on distribution, but certain species such as _Notropis
+blennius_, _Notropis girardi_, and _Fundulus kansae_ were taken only in
+streams with sandy bottoms. _Notropis deliciosus_ and _Hybognathus
+placita_ were most abundant over sandy bottoms.
+
+The high gradient of upland tributaries in the Flint Hills area produced
+turbulence and bottoms predominantly of rubble. A fauna of which
+_Etheostoma spectabile_ and _Campostoma anomalum_ were characteristic
+existed in these waters while they were flowing. As flow decreased and
+intermittency commenced, qualitative and quantitative changes in the
+fish faunas were observed. Gradient did not change during drought, but
+turbulence did. Because turbulence varies with water level as well as
+gradient, the effect of gradient on fish distribution ultimately is
+linked to climate.
+
+Probably the small number of fish taken on the Walnut River in
+comparison with other eastern Kansas rivers (Verdigris, Neosho) results,
+in part, from the long-term pollution of the stream noted by Clapp
+(1920:33) and Doze (1924). No percid fishes, black bass, or madtom
+catfish were taken on the Walnut in Cowley County and the species of
+_Notropis_ numbered only three.
+
+Four faunal associations seem to be recognizable in the area.
+
+
+_Arkansas River Fauna_
+
+This fauna contained _Notropis girardi_, _Notropis blennius_, _Hybopsis
+aestivalis tetranemus_, and _Fundulus kansae_ which, in this area, did
+not seem to wander far from the sandy main stream of the Arkansas.
+Minnows abounded; _Notropis lutrensis_ and _N. deliciosus missuriensis_
+predominated; and _Notropis girardi_, _N. percobromus_, and _Hybognathus
+placita_ were common. In quiet backwaters, coves, and shallow pools
+_Gambusia affinis_ occurred in great numbers. _Lepisosteus osseus_
+seemed to be the most important predator.
+
+
+_Lower Walnut River Fauna_
+
+The Walnut River in Cowley County supported large populations of
+deep-bodied suckers, carp, and gar. _Notropis lutrensis_ and _N.
+percobromus_ were characteristic minnows. _Lepomis_ _humilis_ abounded
+at some stations. The fauna of the main stream of the Walnut River was
+somewhat intermediate between that of the Arkansas River and that of the
+three streams considered below. Fifteen of the species common to the Big
+Caney, Elk, and Grouse systems were also taken in the Walnut River main
+stream. Thirteen species were common to the Walnut and Arkansas rivers.
+Seven species were common to all these streams.
+
+
+_Caney-Elk-Grouse Main Stream Fauna_
+
+This fauna includes fishes living not only in the main streams but also
+in the lower parts of the larger tributaries of these streams. The fauna
+was comparatively rich: in the main stream of Big Caney River 39 species
+were taken, in Grouse Creek 35 species, in the Walnut River main stream
+21 species, and in the Arkansas River 19 species. It has been pointed
+out that large rivers such as the Walnut and Arkansas have been
+subjected to greater direct and indirect modification by man, possibly
+resulting in a less diverse fauna than would otherwise occur in these
+streams. At present, there is a paucity of ecological niches in the
+upland tributaries and large rivers, as compared with streams of
+intermediate size. Fishes typical of the Caney-Elk-Grouse association
+were _Notropis umbratilis_, _Lepomis megalotis_, _Lepomis humilis_,
+_Labidesthes sicculus_, _Fundulus notatus_, and the two species of
+_Micropterus (Micropterus punctulatus_ was not taken in Grouse Creek).
+
+
+_Upland Tributary Fauna_
+
+Tributary faunas were divisible into two categories: (1) Those of the
+Walnut River and Grouse Creek (intermittency was severe, species were
+few, with _Ictalurus melas_ and _Lepomis cyanellus_ predominating); (2)
+those of Big Caney River (stream-flow was more stable, and eastern
+fishes, some of which have Ozarkian affinities, occurred in greater
+abundance than in any other part of the area surveyed). In the latter
+streams _Campostoma anomalum_ and _Etheostoma spectabile_ usually were
+dominant. _Pimephales notatus_, _Notropis volucellus_, _N. camurus_, _N.
+boops_, and _N. rubellus_ characteristically occurred. _Notropis
+lutrensis_ was sparsely represented in flowing tributaries. _Notropis
+umbratilis_, which seems to prefer habitats intermediate between those
+of _Notropis lutrensis_ and Ozarkian shiners, was usually represented.
+Deep-bodied suckers and carp were not taken in upland tributaries but
+_Moxostoma erythrurum_ was common and _Minytrema melanops_ was taken.
+
+The kinds and numbers of shiners (_Notropis_) taken at different points
+along Grouse Creek seem significant. _N. lutrensis_ and _N. umbratilis_
+occurred throughout the stream but were rare in sluggish areas where
+populations of _Gambusia affinis_, _Fundulus notatus_, and _Labidesthes
+sicculus_ flourished. At the lowermost station _Notropis percobromus_
+and _N. buchanani_ were taken; these were not present in other
+collections. In the uppermost stations where water remained plentiful,
+_N. boops_ and _N. volucellus_ were taken, and _N. rubellus_ has been
+recorded.
+
+In the broader distributional sense those fishes that seemed most
+tolerant of intermittency (_Lepomis cyanellus_, _Lepomis humilis_,
+_Ictalurus melas_, _Notropis lutrensis_) are widely distributed in the
+Arkansas River Basin, and are common in the western part of the Arkansas
+River Basin. Species less tolerant of intermittency are _Notropis
+boops_, _Notropis camurus_, _Notropis rubellus_, _Notropis volucellus_,
+and _Pimephales tenellus_; they have not been taken far west of the area
+studied, and become more common east of it.
+
+
+
+
+LITERATURE CITED
+
+
+  BASS, N. W.
+
+    1929. The geology of Cowley County, Kansas. Kansas Geol. Survey
+          Bull., 12:1-203, 23 figs., 12 pls.
+
+  BIEBER, R. P.
+
+    1932. Frontier life in the army, 1854-1861. Southwest Historical
+          Series, 2:1-330.
+
+  BREUKELMAN, J.
+
+    1940. A collection of fishes in the State University Museum. Trans.
+          Kansas Acad. Sci., 43:377-384.
+
+  BUCK, H., and CROSS, F. B.
+
+    1951. Early limnological and fish population conditions of Canton
+          Reservoir, Oklahoma, and fishery management recommendations.
+          A Report to the Oklahoma Game and Fish Council reprinted by
+          the Research Foundation, Oklahoma A&M College. 110 pp.,
+          17 figs.
+
+  CALDWELL, M. B.
+
+    1937. The southern Kansas boundary survey. Kansas Hist. Quart.,
+          6:339-377.
+
+  CLAPP, A.
+
+    1920. Stream pollution. Kansas Fish and Game Department Bull.,
+          6:33.
+
+  CROSS, F. B.
+
+    1950. Effects of sewage and of a headwaters impoundment on the
+          fishes of Stillwater Creek in Payne County, Oklahoma. Amer.
+          Midl. Nat., 43 (1):128-145, 1 fig.
+
+   1954a. Fishes of Cedar Creek and the south fork of the Cottonwood
+          River, Chase County, Kansas. Trans. Kansas Acad. Sci.
+          57:303-314.
+
+   1954b. Records of fishes little-known from Kansas. Trans. Kansas
+          Acad. Sci. 57:473-479.
+
+  CROSS, F. B., and MOORE, G. A.
+
+    1952. The fishes of the Poteau River, Oklahoma and Arkansas.
+          American Midl. Nat., 47 (2):396-412.
+
+  DOZE, J. B.
+
+    1924. Stream pollution. Bien. Report. Kansas Fish and Game Dept.
+          5:1-42.
+
+  ELKIN, R. E.
+
+    1954. The fish population of two cut-off pools in Salt Creek, Osage
+          County, Oklahoma. Proc. Oklahoma Acad. Sci., 35:25-29.
+
+  ELLIOTT, A.
+
+    1947. A preliminary survey and ecological study of the fishes of
+          the South Ninnescah and Spring Creek. Unpublished thesis,
+          Kansas State College.
+
+  EVERMANN, B. W., and FORDICE, M. W.
+
+    1886. List of fishes collected in Harvey and Cowley counties,
+          Kansas. Bull. Washburn Lab. Nat. Hist., 1:184-186.
+
+  FLORA, S. D.
+
+    1948. Climate of Kansas. Rept. Kansas State Board Agric.
+          67:xii-320, Illus.
+
+  FOLEY, F. C., SMRHA, R. V., and METZLER, D. F.
+
+    1955. Water in Kansas. A report to the Kansas State Legislature as
+          directed by the Kansas State Finance Council. University of
+          Kansas, pp. 1-216--A1-J6.
+
+  FRYE, J. C., and LEONARD, A. B.
+
+    1952. Pleistocene geology of Kansas. Bull. Kansas Geol. Surv.,
+          99:1-230. 17 figs., 19 pls.
+
+  FUNK, J. L., and CAMPBELL, R. S.
+
+    1953. The population of larger fishes in Black River, Missouri.
+          Univ. Missouri Studies, 26:69-82.
+
+  GATES, F. C.
+
+    1936. Grasses in Kansas. Rept. Kansas State Board Agric., 55
+          (220-A):1-349, frontispiece, 270 figs., 224 maps.
+
+  GRAHAM, I. D.
+
+    1885. Preliminary list of Kansas fishes. Trans. Kansas Acad. Sci.,
+          9:69-78.
+
+  HALE, M. E., Jr.
+
+    1955. A survey of upland forests in the Chautauqua Hills, Kansas.
+          Trans. Kansas Acad. Sci., 58:165-168.
+
+  HALL, G. E.
+
+    1952. Observations on the fishes of the Fort Gibson and Tenkiller
+          reservoir areas, 1952. Proc. Oklahoma Acad. Sci., 33:55-63.
+
+    1953. Preliminary observations on the presence of stream-inhabiting
+          fishes in Tenkiller Reservoir, a new Oklahoma impoundment.
+          Proc. Oklahoma Acad. Sci., 34:34-40.
+
+  HOYLE, W. L.
+
+    1936. Notes on faunal collecting in Kansas. Trans. Kansas Acad.
+          Sci., 39:283-293.
+
+  HUBBS, C. L., and ORTENBURGER, A. I.
+
+   1929a. Further notes on the fishes of Oklahoma with descriptions of
+          new species of cyprinidae. Publ. Univ. Oklahoma Biol. Surv.,
+          1(2):17-43.
+
+   1929b. Fishes collected in Oklahoma and Arkansas in 1927. Publ.
+          Univ. Oklahoma Biol. Surv., 1 (3):47-112, 13 pls.
+
+  HUBBS, C. L., and LAGLER, K. F.
+
+    1947. Fishes of the Great Lakes Region. Cranbrook Inst. Sci. Bull.,
+          26 (Revised Edition):i-xi-1-186, illus.
+
+  JEWETT, J. M., and ABERNATHY, G. E.
+
+    1945. Oil and gas in eastern Kansas. Bull. Kansas Geol. Survey,
+          57:1-244, 21 figs., 4 pls.
+
+  METZLER, D. F.
+
+    1952. Water Pollution Report, Walnut River Basin. Department of
+          Sanitation, Kansas State Board of Health (Unpublished),
+          64 pp.
+
+  MILLER, N. H.
+
+    1932. Surveying the southern boundary line of Kansas. Kansas Hist.
+          Quarterly, 1:104-139.
+
+  MOORE, G. A.
+
+    1944. Notes on the early life history of _Notropis girardi_.
+          Copeia, 1944 (4):209-214, 4 Figs.
+
+  MOORE, G. A., and CROSS, F. B.
+
+    1950. Additional Oklahoma fishes with validation of _Poecilichthys
+          parvipinnis_ (Gilbert and Swain). Copeia, 1950 (2):139-148.
+
+  MOORE, G. A., and PADEN, J. M.
+
+    1950. The fishes of the Illinois River in Oklahoma and Arkansas.
+          Amer. Midl. Nat, 44:76-95, 1 Fig.
+
+  MOORE, G. A., and BUCK, D. H.
+
+    1953. The fishes of the Chikaskia River in Oklahoma and Kansas.
+          Proc. Oklahoma Acad. Sci., 34:19-27.
+
+  MOORE, R. C.
+
+    1949. Divisions of the Pennsylvanian system in Kansas. Bull. Kansas
+          Geol. Survey, 83:1-203, 37 Figs.
+
+  MOORE, R. C., FRYE, J. C., JEWETT, J. M., LEE, W., and O'CONNER, H. G.
+
+    1951. The Kansas rock column. Bull. Kansas Geol. Survey, 89:1-132,
+          52 Figs.
+
+  MOOSO, J.
+
+    1888. The life and travels of Josiah Mooso. Telegram Post,
+          Winfield, Kansas, pp. 1-400.
+
+  ORTENBURGER, A. I., and HUBBS, C. L.
+
+    1926. A report on the fishes of Oklahoma, with descriptions of new
+          genera and species. Proc. Oklahoma Acad. Sci., 6:132-141.
+
+  SCHELSKE, C. L.
+
+    1957. An ecological study of the fishes of the Fall and Verdigris
+          rivers in Wilson and Montgomery counties, Kansas, March 1954,
+          to February 1955. Emporia State Research Studies, 5(3):31-56.
+
+  SCHOONOVER, R., and THOMPSON, W. H.
+
+    1954. A post-impoundment study of the fisheries resources of Fall
+          River Reservoir, Kansas. Trans. Kansas Acad. Sci., 57:172-179.
+
+  TRAUTMAN, M. B.
+
+    1951. _Moxostoma aureolum pisolabrum_, a new subspecies of sucker
+          from the ozarkian streams of the Mississippi River System.
+          Occ. Papers Mus. Zool. Univ. Michigan, 534:1-10, 1 pl.
+
+
+  _Transmitted December 19, 1958._
+
+
+                                27-7079
+
+
+
+
+                   UNIVERSITY OF KANSAS PUBLICATIONS
+                       MUSEUM OF NATURAL HISTORY
+
+
+Institutional libraries interested in publications exchange may obtain
+this series by addressing the Exchange Librarian, University of Kansas
+Library, Lawrence, Kansas. Copies for individuals, persons working in a
+particular field of study, may be obtained by addressing instead the
+Museum of Natural History, University of Kansas, Lawrence, Kansas. There
+is no provision for sale of this series by the University Library which
+meets institutional requests, or by the Museum of Natural History which
+meets the requests of individuals. However, when individuals request
+copies from the Museum, 25 cents should be included, for each separate
+number that is 100 pages or more in length, for the purpose of defraying
+the costs of wrapping and mailing.
+
+* An asterisk designates those numbers of which the Museum's supply (not
+the Library's supply) is exhausted. Numbers published to date, in this
+series, are as follows:
+
+  Vol. 1. Nos. 1-26 and index. Pp. 1-638, 1946-1950.
+
+ *Vol. 2. (Complete) Mammals of Washington. By Walter W. Dalquest.
+          Pp. 1-444, 140 figures in text. April 9, 1948.
+
+  Vol. 3. *1. The avifauna of Micronesia, its origin, evolution, and
+              distribution. By Rollin H. Baker. Pp. 1-359, 16 figures
+              in text. June 12, 1951.
+
+          *2. A quantitative study of the nocturnal migration of birds.
+              By George H. Lowery, Jr. Pp. 361-472, 47 figures in text.
+              June 29, 1951.
+
+           3. Phylogeny of the waxwings and allied birds. By M. Dale
+              Arvey. Pp. 473-530, 49 figures in text, 13 tables.
+              October 10, 1951.
+
+           4. Birds from the state of Veracruz, Mexico. By George H.
+              Lowery, Jr., and Walter W. Dalquest. Pp. 531-649,
+              7 figures in text, 2 tables. October 10, 1951.
+
+          Index. Pp. 651-681.
+
+ *Vol. 4. (Complete) American weasels. By E. Raymond Hall. Pp. 1-466,
+          41 plates, 31 figures in text. December 27, 1951.
+
+  Vol. 5. Nos. 1-37 and index. Pp. 1-676, 1951-1953.
+
+ *Vol. 6. (Complete) Mammals of Utah, _taxonomy and distribution_.
+          By Stephen D. Durrant. Pp. 1-549, 91 figures in text,
+          30 tables. August 10, 1952.
+
+  Vol. 7. *1. Mammals of Kansas. By E. Lendell Cockrum. Pp. 1-303,
+              73 figures in text, 37 tables. August 25, 1952.
+
+           2. Ecology of the opossum on a natural area in
+              northeastern Kansas. By Henry S. Fitch and Lewis L.
+              Sandidge. Pp. 305-338, 5 figures in text. August 24,
+              1953.
+
+           3. The silky pocket mice (Perognathus flavus) of Mexico.
+              By Rollin H. Baker. Pp. 339-347, 1 figure in text.
+              February 15, 1954.
+
+           4. North American jumping mice (Genus Zapus). By Philip
+              H. Krutzsch. Pp. 349-472, 47 figures in text, 4 tables.
+              April 21, 1954.
+
+           5. Mammals from Southeastern Alaska. By Rollin H. Baker
+              and James S. Findley. Pp. 473-477. April 21, 1954.
+
+           6. Distribution of Some Nebraskan Mammals. By J. Knox
+              Jones, Jr. Pp. 479-487. April 21, 1954.
+
+           7. Subspeciation in the montane meadow mouse. Microtus
+              montanus, in Wyoming and Colorado. By Sydney Anderson.
+              Pp. 489-506, 2 figures in text. July 23, 1954.
+
+           8. A new subspecies of bat (Myotis velifer) from
+              southeastern California and Arizona. By Terry A.
+              Vaughan. Pp. 507-512. July 23, 1954.
+
+           9. Mammals of the San Gabriel mountains of California.
+              By Terry A. Vaughan. Pp. 513-582, 1 figure in text, 12
+              tables. November 15, 1954.
+
+          10. A new bat (Genus Pipistrellus) from northeastern
+              Mexico. By Rollin H. Baker. Pp. 583-586. November 15,
+              1954.
+
+          11. A new subspecies of pocket mouse from Kansas. By E.
+              Raymond Hall. Pp. 587-590. November 15, 1954.
+
+          12. Geographic variation in the pocket gopher,
+              Cratogeomys castanops, in Coahuila, Mexico. By Robert J.
+              Russell and Rollin H. Baker. Pp. 591-608. March 15,
+              1955.
+
+          13. A new cottontail (Sylvilagus floridanus) from
+              northeastern Mexico. By Rollin H. Baker. Pp. 609-612.
+              April 8, 1955.
+
+          14. Taxonomy and distribution of some American shrews.
+              By James S. Findley. Pp. 613-618. June 10, 1955.
+
+          15. The pigmy woodrat, Neotoma goldmani, its
+              distribution and systematic position. By Dennis G.
+              Rainey and Rollin H. Baker. Pp. 619-624, 2 figures in
+              text. June 10, 1955.
+
+          Index. Pp. 625-651.
+
+  Vol. 8.  1. Life history and ecology of the five-lined skink,
+              Eumeces fasciatus. By Henry S. Fitch. Pp. 1-156,
+              26 figs, in text. September 1, 1954.
+
+           2. Myology and serology of the Avian Family
+              Fringillidae, a taxonomic study. By William B. Stallcup.
+              Pp. 157-211, 23 figures in text, 4 tables. November 15,
+              1954.
+
+           3. An ecological study of the collared lizard
+              (Crotaphytus collaris). By Henry S. Fitch. Pp. 213-274,
+              10 figures in text. February 10, 1956.
+
+           4. A field study of the Kansas ant-eating frog,
+              Gastrophryne olivacea. By Henry S. Fitch. Pp. 275-306, 9
+              figures in text. February 10, 1956.
+
+           5. Check-list of the birds of Kansas. By Harrison B.
+              Tordoff. Pp. 307-359, 1 figure in text. March 10, 1956.
+
+           6. A population study of the prairie vole (Microtus
+              ochrogaster) in northeastern Kansas. By Edwin P. Martin.
+              Pp. 361-416, 19 figures in text. April 2, 1956.
+
+           7. Temperature responses in free-living amphibians and
+              reptiles of northeastern Kansas. By Henry S. Fitch. Pp.
+              417-476, 10 figures in text, 6 tables. June 1, 1956.
+
+           8. Food of the crow, Corvus brachyrhynchos Brehm, in
+              south-central Kansas. By Dwight Platt. Pp. 477-498, 4
+              tables. June 8, 1956.
+
+           9. Ecological observations on the woodrat, Neotoma
+              floridana. By Henry S. Fitch and Dennis G. Rainey. Pp.
+              499-533, 3 figures in text. June 12, 1956.
+
+          10. Eastern woodrat, Neotoma floridana: Life history and
+              ecology. By Dennis G. Rainey. Pp. 535-646, 12 plates, 13
+              figures in text. August 15, 1956.
+
+          Index. Pp. 647-675.
+
+  Vol. 9.  1. Speciation of the wandering shrew. By James S. Findley.
+              Pp. 1-68, 18 figures in text. December 10, 1955.
+
+           2. Additional records and extensions of ranges of
+              mammals from Utah. By Stephen D, Durrant, M. Raymond
+              Lee, and Richard M. Hansen. Pp. 69-80. December 10,
+              1955.
+
+           3. A new long-eared myotis (Myotis evotis) from
+              northeastern Mexico. By Rollin H. Baker and Howard J.
+              Stains. Pp. 81-84. December 10, 1955.
+
+           4. Subspeciation in the meadow mouse, Microtus
+              pennsylvanicus, in Wyoming. By Sydney Anderson. Pp.
+              85-104, 2 figures in text. May 10, 1956.
+
+           5. The condylarth genus Ellipsodon. By Robert W. Wilson.
+              Pp. 105-116, 6 figures in text. May 19, 1956.
+
+           6. Additional remains of the multituberculate genus
+              Eucosmodon. By Robert W. Wilson. Pp. 117-123, 10 figures
+              in text. May 19, 1956.
+
+           7. Mammals of Coahuila, Mexico. By Rollin H. Baker. Pp.
+              125-335, 75 figures in text. June 15, 1956.
+
+           8. Comments on the taxonomic status of Apodemus
+              peninsulae, with description of a new subspecies from
+              North China. By J. Knox Jones, Jr. Pp. 337-346, 1 figure
+              in text, 1 table. August 15, 1956.
+
+           9. Extensions of known ranges of Mexican bats. By Sydney
+              Anderson. Pp. 347-351. August 15, 1956.
+
+          10. A new bat (Genus Leptonycteris) from Coahuila. By
+              Howard J. Stains. Pp. 353-356. January 21, 1957.
+
+          11. A new species of pocket gopher (Genus Pappogeomys)
+              from Jalisco, Mexico. By Robert J. Russell. Pp. 357-361.
+              January 21, 1957.
+
+          12. Geographic variation in the pocket gopher, Thomomys
+              bottae, in Colorado. By Phillip M. Youngman. Pp.
+              363-387, 7 figures in text. February 21, 1958.
+
+          13. New bog lemming (genus Synaptomys) from Nebraska. By
+              J. Knox Jones, Jr. Pp. 385-388. May 12, 1958.
+
+          14. Pleistocene bats from San Josecito Cave, Nuevo Leon,
+              Mexico. By J. Knox Jones, Jr. Pp. 389-396. December 19,
+              1958.
+
+          15. New Subspecies of the rodent Baiomys from Central
+              America. By Robert L. Packard. Pp. 397-404. December 19,
+              1958.
+
+          More numbers will appear in volume 9.
+
+  Vol. 10. 1. Studies of birds killed in nocturnal migration. By
+              Harrison B. Tordoff and Robert M. Mengel. Pp. 1-44,
+              6 figures in text, 2 tables. September 12, 1956.
+
+           2. Comparative breeding behavior of Ammospiza caudacuta
+              and A. maritima. By Glen E. Woolfenden. Pp. 45-75, 6
+              plates, 1 figure. December 20, 1956.
+
+           3. The forest habitat of the University of Kansas
+              Natural History Reservation. By Henry S. Fitch and
+              Ronald R. McGregor. Pp. 77-127, 2 plates, 7 figures in
+              text, 4 tables. December 31, 1956.
+
+           4. Aspects of reproduction and development in the
+              prairie vole (Microtus ochrogaster). By Henry S. Fitch.
+              Pp. 129-161, 8 figures in text, 4 tables. December 19,
+              1957.
+
+           5. Birds found on the Arctic slope of northern Alaska.
+              By James W. Bee. Pp. 163-211, pls. 9-10, 1 figure in
+              text. March 12, 1958.
+
+           6. The wood rats of Colorado: distribution and ecology.
+              By Robert B. Finley, Jr. Pp. 213-552, 34 plates, 8
+              figures in text, 35 tables. November 7, 1958.
+
+          More number will appear in volume 10.
+
+  Vol. 11. 1. The systematic status of the colubrid snake, Leptodeira
+              discolor Günther. By William E. Duellman. Pp. 1-9,
+              4 figs. July 14, 1958.
+
+           2. Natural history of the six-lined racerunner,
+              Cnemidophorus sexlineatus. By Henry S. Fitch. Pp. 11-62,
+              9 figs., 9 tables. September 19, 1958.
+
+           3. Home ranges, territories, and seasonal movements of
+              vertebrates of the Natural History Reservation. By Henry
+              S. Fitch. Pp. 63-326, 6 plates, 24 figures in text, 3
+              tables. December 12, 1958.
+
+           4. A new snake of the genus Geophis from Chihuahua,
+              Mexico. By John M. Legler. Pp. 327-334, 2 figures in
+              text. January 28, 1959.
+
+           5. A new tortoise, genus Gopherus, from north-central
+              Mexico. By John M. Legler. Pp. 335-343, 2 plates. April
+              24, 1959.
+
+           6. Fishes of Chautauqua, Cowley and Elk counties,
+              Kansas. By Artie L. Metcalf. Pp. 345-400, 2 plates, 2
+              figures in text, 10 tables. May 6, 1959.
+
+          More numbers will appear in Volume 11.
+
+       *       *       *       *       *
+
+
+
+
+                          TRANSCRIBER'S NOTES
+
+
+1. Passages in italics are surrounded by _underscores_.
+
+2. Passages in bold-italics are surrounded by #bold#.
+
+3. Images and tables have been moved from the middle of a paragraph to
+the closest paragraph break.
+
+
+
+
+
+End of the Project Gutenberg EBook of Fishes of Chautauqua, Cowley and Elk
+Counties, Kansas, by Artie L. Metcalf
+
+*** END OF THIS PROJECT GUTENBERG EBOOK FISHES ***
+
+***** This file should be named 34523-8.txt or 34523-8.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.org/3/4/5/2/34523/
+
+Produced by Chris Curnow, Joseph Cooper and the Online
+Distributed Proofreading Team at http://www.pgdp.net
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+http://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need, are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at http://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+http://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at http://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit http://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including checks, online payments and credit card donations.
+To donate, please visit: http://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart is the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     http://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.

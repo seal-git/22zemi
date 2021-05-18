@@ -1,0 +1,818 @@
+The Project Gutenberg EBook of A New Extinct Emydid Turtle from the Lower
+Pliocene of Oklahoma, by Edwin C. Galbreath
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: A New Extinct Emydid Turtle from the Lower Pliocene of Oklahoma
+
+Author: Edwin C. Galbreath
+
+Release Date: November 26, 2010 [EBook #34449]
+
+Language: English
+
+Character set encoding: ISO-8859-1
+
+*** START OF THIS PROJECT GUTENBERG EBOOK A NEW EXTINCT EMYDID TURTLE ***
+
+
+
+
+Produced by Chris Curnow, Joseph Cooper and the Online
+Distributed Proofreading Team at https://www.pgdp.net
+
+
+
+
+
+
+
+
+
+              A New Extinct Emydid Turtle from the Lower
+                         Pliocene of Oklahoma
+
+                                  BY
+
+                          EDWIN C. GALBREATH
+
+
+                  University of Kansas Publications
+                      Museum of Natural History
+
+                Volume 1, No. 16, pp. 265-280, plate 1
+                           August 16, 1948
+
+
+                         University of Kansas
+                               LAWRENCE
+                                 1948
+
+
+
+
+     UNIVERSITY OF KANSAS PUBLICATIONS, MUSEUM OF NATURAL HISTORY
+
+   Editors: E. Raymond Hall, Chairman; H. H. Lane, Edward H. Taylor
+
+                Volume 1, No. 16, pp. 265-280, plate 1
+                           August 16, 1948
+
+
+                         UNIVERSITY OF KANSAS
+                           Lawrence, Kansas
+
+
+                              PRINTED BY
+                   FERD VOILAND, JR., STATE PRINTER
+                            TOPEKA, KANSAS
+                                 1948
+
+                               22-3340
+
+
+
+
+    [Illustration: PLATE 1. _Chrysemys limnodytes._ Univ. Kans.
+    Mus. Nat. Hist., Vert. Paleo. Coll. No. 7676. Fig. A, dorsal
+    view of carapace; fig. B, ventral view of plastron. Both views
+    approximately × .4.]
+
+
+
+
+         A New Extinct Emydid Turtle from the Lower Pliocene
+                             of Oklahoma
+
+                                  By
+
+                          EDWIN C. GALBREATH
+
+
+In the summer of 1946 a party from the University of Kansas Museum of
+Natural History visited exposures of the Laverne formation in Beaver
+County, Oklahoma, at the invitation of Dr. Stuart Schoff of the United
+States Geological Survey. When examining the marl beds an Emydid turtle
+was discovered which appears to be an unnamed species of the genus
+_Chrysemys_. A description of the new species follows.
+
+
+                   Chrysemys limnodytes, new species
+
+  _Holotype._--University of Kansas Museum of Natural History No.
+  7676, vertebrate paleontological collection, a turtle consisting of
+  a fragmental anterior portion of a carapace, left part of the
+  plastron, and several marginals collected by the 1946
+  paleontological field party of the University of Kansas Museum of
+  Natural History.
+
+  _Geological Age and locality._--Marl beds of the Laverne formation,
+  early Pliocene age, in SW 1/4 Sec. 15, T. 4 N., R. 25 ECM, Beaver
+  County, Oklahoma. The specimen was removed from the marl
+  immediately below the fossil leaf zone (see Chaney and Elias, 1936;
+  Frye and Hibbard, 1940).
+
+  _Diagnosis._--Size large (see measurements) and differing from
+  other species of _Chrysemys_ in having: The anterior end of the
+  carapace broadly concave, the posterolateral marginals not greatly
+  flared, the posterior end of the plastron broadly indented, the
+  carapace more sculptured and relatively wider.
+
+_Description of type._--The specimen had been badly damaged before
+preservation, and had suffered further damage from exposure before
+discovery. The anterior and posterior lobes of the plastron had been
+folded over the bridge, forming a three-ply thickness of bone. Of the
+carapace, only the following parts are known: Fragment of the nuchal;
+right 1st, 7th, 8th, and 9th marginals, left 1st, 2d, 7th, 8th, 9th, and
+11th marginals; costals 1-5 on the right side; costals 1-4 on the left
+side; and 1st, 2d, 3d, and 4th neurals. The left half of the plastron is
+relatively complete, lacking only the epiplastron and entoplastron. The
+left 7th, 8th, and 9th marginals are joined to the plastron at the
+inguinal buttress, and the right 7th, 8th, and 9th marginals are
+attached to the fifth costal. The carapace has smooth contours with no
+keel present, but on the lower half of the costals there are seven or
+eight ridges, and the remaining surface of the costals and neurals are
+rugose. The marginals lack ridges, and the posterolateral marginals are
+not serrated. The anterior end of the carapace has a broad shallow
+notch. The first neural is rounded, and the 2d, 3d, and 4th are
+hexagonal, with the broad ends forward. Anterior margins of the 2d and
+3d neurals are concave, and the anterior margin of the 4th neural is
+straight.
+
+The sulci bounding the scutes are moderately impressed. The width of the
+first vertebral scute, anteriorly and posteriorly, is less than the
+width of the second vertebral scute. The costal scutes join the marginal
+scutes on the marginal plates.
+
+The plastron, broadly indented at the posterior end, does not have the
+posterior lobe flared laterally as it is in Recent species of
+_Chrysemys_, and lacks any pronounced notch at the femoro-anal suture.
+The humero-pectoral sulcus crosses the plastron behind the entoplastron
+in a straight line, and reaches the border anterior to the axillary
+notch. The pectoro-abdominal suture is anteriorly convex at the sides
+and concave at the midline.
+
+A comparison of this carapace and plastron with a series of specimens of
+Recent _Chrysemys picta_ and _Pseudemys scripta_ of approximately the
+same size reveals characters indicated in the following chart:
+
+  ==================================================================
+   RECENT _Chrysemys_ | _Chrysemys limnodytes_ | RECENT _Pseudemys_
+  --------------------+------------------------+--------------------
+  Not serrated.       | Posterolateral         | Serrated.
+                      | marginals not serrated.|
+  --------------------+------------------------+--------------------
+  Not notched.        | Carapace with broad    | Notched.
+                      | shallow notch at       |
+                      | anterior end.          |
+  --------------------+------------------------+--------------------
+  Occasional faint    | Plastron does not have | Distinct notch at
+  notch at femoro-anal| a pronounced notch at  | femoro-anal suture.
+  suture.             | femoro-anal suture.    |
+  --------------------+------------------------+--------------------
+  Posterior lobe of   | Posterior lobe of      | Posterior lobe of
+  plastron flares     | plastron does not      | plastron does not
+  laterally.          | flare laterally.       | flare laterally.
+  --------------------+------------------------+--------------------
+  Carapace smooth.    | Carapace has smooth    | Carapace has
+                      | contours.              | depressions and
+                      |                        | elevations.
+  --------------------+------------------------+--------------------
+  Old specimens       | Seven or eight ridges  | Ridges cover
+  occasionally have   | on lower half of       | costals.
+  five or six ridges  | costals.               |
+  near border of      | Remaining surface of   |
+  costals.            | costals and neurals    |
+                      | rugose.                |
+  --------------------+------------------------+--------------------
+  No ridges on        | No ridges on           | May or may not
+  marginals.          | marginals.             | have ridges on
+                      |                        | marginals.
+  --------------------+------------------------+--------------------
+  Nuchal smooth.      | Nuchal smooth.         | Nuchal has ridges.
+  --------------------+------------------------+--------------------
+  Carapace not        | Probably arched less   | Greatly arched.
+  greatly arched.     | than in _Pseudemys_,   |
+                      | but more than in any   |
+                      | Recent _Chrysemys_.    |
+  --------------------+------------------------+--------------------
+  Keel often present  | No keel present.       | Keel often present.
+  at birth, but soon  |                        |
+  lost.               |                        |
+  --------------------+------------------------+--------------------
+  Anterior and        | Anterior and posterior | Anterior width of
+  posterior widths of | widths of first        | first vertebral
+  first vertebral     | vertebral scute less   | scute less than
+  scute approximately | than width of second   | posterior width,
+  same as width of    | vertebral scute.       | or both dimensions
+  second vertebral    |                        | less than width of
+  scute.              |                        | second vertebral
+                      |                        | scute.
+  --------------------+------------------------+--------------------
+  Ribs do not tend    | Ribs not prominent on  | Ribs tend to be
+  to be prominent on  | costals.               | prominent on
+  costals.            |                        | costals.
+  --------------------+------------------------+--------------------
+
+Hay attached considerable taxonomic importance to the characters of the
+nuchal and I find its characters to be fairly constant in the specimens
+of Emydidae examined. Although the nuchal of _Chrysemys limnodytes_ is
+incomplete, it can be distinguished from the nuchals described by Hay as
+types of his several fossil Emydids. Differences in the nuchal, together
+with those in the carapace and plastron, serve to distinguish the
+species from other genera of the Emydidae.
+
+When the specimen is compared with _Chrysemys timida_ Hay, of the
+Nebraska Pleistocene, many similarities, mostly of generic rank, are
+seen. _Chrysemys limnodytes_ is broader in relation to length than is
+either _C. timida_ or any Recent specimen examined of the same size. The
+greatest allowance possible in estimating the length of _C. limnodytes_
+fails to bring the ratio of its breadth to length within the range of
+Recent specimens of similar size. Data from 96 specimens of Recent
+_Chrysemys picta_ show that the ratio of length to width is not affected
+by sex, but that the ratio does vary with the age of the specimen. In
+young animals the length and width are approximately equal, but with
+further growth the length becomes relatively greater. Specimens in the
+length group of 135 to 144 mm. have the widths ranging from 71 to 81 per
+cent of the lengths. In all specimens larger than this, the ratio is in
+the low seventies, and the largest specimen, 177 mm. in length, has the
+width of the carapace amounting to only 74 per cent of the length. The
+fossil species, _C. timida_, with a length of 160 mm., has the width
+amounting to 75 per cent of the length, and _C. limnodytes_, with an
+estimated length of 180 mm., has the width amounting to 80.5 per cent of
+the length. _C. timida_ is widest anteriorly, whereas _C. limnodytes_
+and the other species of the genus are widest posteriorly. Less obvious
+differences between the two fossils are the narrower anterior margin of
+the nuchal, the concave anterior end of the carapace, the sculptured
+surface of the carapace, and the relatively wider neurals and longer
+vertebrals of _C. limnodytes_.
+
+
+DIMENSIONS OF THE TYPE SPECIMEN
+
+(In millimeters)
+
+Total length of carapace, 180 (estimated); greatest width of carapace,
+145 (estimated); height of carapace, more than 50.
+
+Length of plastron, 165 (estimated); width of plastron, 130 (estimated);
+length of anterior lobe, 45 (estimated); width of anterior lobe, 75
+(estimated); length of posterior lobe, 62; width of posterior lobe, 82;
+length of bridge from axillary to inguinal notch, 60.
+
+
+PLATES OF THE CARAPACE AND PLASTRON
+
+Nuchal: Width of anterior margin, 12 (estimated); greatest width, 37
+(estimated); length at midline, 35 (estimated).
+
+First neural: Greatest width, 13; length at midline, 17. Second neural:
+Greatest width, 16; length at midline, 14. Third neural: Greatest width,
+18; length at midline, 16. Fourth neural: Greatest width, 18; length at
+midline, 16.
+
+Costals: Thickness at proximal end, 3-5; thickness at distal end, 2.
+First costal: Length of margin bordering nuchal, 23 (this and the
+following measurements of the costal and marginal plates are of plates
+from the right side of the animal except those indicated by an "L");
+length of margin bordering neurals, 17; length of margin bordering
+marginals, 38; length of margin bordering 2d costal, 51. Second costal:
+Length of margin bordering 1st costal, 53; length of margin bordering
+neurals, 16; length of margin bordering marginals, 25; length of margin
+bordering 3d costal, 56. Third costal: Length of margin bordering 2d
+costal, 55 (L), 56; length of margin bordering neurals, 19; length of
+margin bordering marginals, 18; length of margin bordering 4th costal,
+58. Fourth costal: Length of margin bordering 3d costal, 58; length of
+margin bordering neurals, 16; length of margin bordering marginals, 22;
+length of margin bordering 5th costal, 55. Fifth costal: Length of
+margin bordering 4th costal, 52; length of margin bordering neurals, 16;
+length of margin bordering marginals, 20; length of margin bordering 6th
+costal, 41.
+
+First marginal: Length of margin bordering nuchal, 23 (L), 21; length of
+outer margin, 23 (L), 23; length of inner margin, 12 (L), 12; length of
+margin bordering 2d marginal, 22 (L), 21. Second marginal: Length of
+margin bordering 1st marginal, 22 (L); length of outer margin, 22 (L);
+length of inner margin, 15 (L); length of margin bordering 3d marginal,
+16 (L). Seventh marginal: Length of margin bordering 6th marginal, 18
+(L), 17 (estimated); length of outer margin, 25 (L), 23 (estimated);
+length of inner margin, 18 (L), 18; length of margin bordering 8th
+marginal, 22 (L), 22. Eighth marginal: Length of margin bordering 7th
+marginal, 22 (L), 23; length of outer margin, 22 (estimate of L), 22;
+length of inner margin, 18 (L), 18; length of margin bordering 9th
+marginal, 24 (estimate of L), 23. Ninth marginal: Length of margin
+bordering 8th marginal, 24 (L); length of outer margin, 20 (L), 19;
+length of inner margin, 19 (L); length of margin bordering 10th
+marginal, 23 (L), 23. Eleventh marginal: Length of margin bordering 10th
+marginal, 22 (L); length of outer margin, 16 (L); length of inner
+margin, 12 (L); length of margin bordering pygal, 18 (L).
+
+Entoplastron: Width, 24 (estimated).
+
+Hyoplastron: Length of margin bordering epiplastron, 25; length of
+margin on midline, 37; length from junction of epiplastronal border and
+outer border to point on posterior border equidistant from midline, 53;
+width from midline to axillary notch, 39; distance between axillary
+notch and posterior border, 31.
+
+Hypoplastron: Length of margin bordering midline, 42; length of
+posterior (xiphiplastronal) margin, 40; distance from junction of
+xiphiplastronal margin and outer margin to point on anterior border
+equidistant from midline, 49 (estimated); distance between inguinal
+notch and anterior border, 29.
+
+Xiphiplastron: Length of anterior (hypoplastronal) margin, 38; length of
+margin along midline, 43; distance from extreme posterior extension of
+xiphiplastron to midline, 14.
+
+
+SCUTES OF CARAPACE AND PLASTRON
+
+First marginal scute: Length of margin bordering 2d marginal, 15 (L),
+14; length of anterior margin, 15 (L); length of posterior margin, 14
+(L); length of inner margin, 13 (L); length of outer margin, 23 (L).
+Third marginal scute: Length of anterior margin, 14 (L). Eighth marginal
+scute: Length of anterior margin, 15 (L), 15; length of posterior
+margin, 16 (estimate of L), 16; length of inner margin, 20 (L), 20;
+length of outer margin, 25 (estimate of L), 25. Ninth marginal scute:
+Length of anterior margin, 17 (L), 16; length of posterior margin, 17
+(L), 17; length of inner margin, 18 (L), 20; length of outer margin, 21
+(L), 21. Tenth marginal scute: Length of anterior margin, 17 (L), 17.
+Eleventh marginal scute: Length of posterior margin, 14 (L).
+
+First costal scute: Length of margin bordering vertebrals, 45. Second
+costal scute: Length of margin bordering vertebrals, 35 (L), 35; length
+of margin bordering 3d costal scute, 52.
+
+First vertebral scute: Length of anterior margin, 24 (estimated);
+greatest width, 32 (estimated); length at midline, 35 (estimated).
+Second vertebral scute: Length of anterior margin, 27; greatest width,
+42; length at midline, 29. Third vertebral scute: Length of anterior
+margin, 33; greatest width, 42; length at midline, 40 (estimated).
+
+Pectoral scute: Length of humero-pectoral sulcus from midline to outer
+border, 38; length of margin of pectoral scute on midline, 18; distance
+between junction of humero-pectoral sulcus and outer border and point
+on pectoro-abdominal sulcus equidistant from midline, 19; distance from
+axillary notch to point on pectoro-abdominal sulcus equidistant from
+midline, 17.
+
+Abdominal scute: Length of margin of scute on midline, 43; width of
+posterior border of abdominal scute from midline to inguinal notch, 41;
+distance from inguinal notch to a point on pectoro-abdominal sulcus
+equidistant from midline, 44.
+
+Femoral scute: Length of border of scute on midline, 24; width of
+anterior border of scute from midline to inguinal notch, 41; width of
+posterior border of scute from midline to outer border (along sulcus),
+40; length of outer margin of scute from inguinal notch to femoro-anal
+sulcus, 46.
+
+Anal scute: Length of margin at midline, 36; length of femoro-anal
+sulcus, 40.
+
+
+_Remarks._--Noteworthy is the intermediate nature of _C. limnodytes_
+when compared with species of the genera _Chrysemys_ and _Pseudemys_.
+However, any resemblance to _Pseudemys_ is not to be considered as
+evidence that _C. limnodytes_ is in any way ancestral to the genus
+_Pseudemys_. The fossil specimens of _Pseudemys_ from the Pliocene are
+too poorly known to allow the student certainly to place them in their
+correct systematic positions. The fossil Emydids from Western Europe,
+listed as species of _Chrysemys_, differ very much from this species, or
+belong to other genera of the family.
+
+Only a few turtles are known from the Laverne formation. Hesse (Chaney
+and Elias, 1936) reported a small _Testudo_ from the Laverne of Beaver
+County, Oklahoma, but neglected to state whether it was among the
+material borrowed by him from the University of Kansas Museum of Natural
+History. The Museum has an incomplete carapace and plastron (No. 3101)
+of a small _Testudo_ from that locality and formation. In Harper County,
+Oklahoma, the field party from the University recovered a large number
+of fragments of a large _Testudo_. Although this specimen is as yet
+unprepared, enough fragments have been pieced together to reveal that
+the tibia is 127 mm. long. This dimension and those of some of the
+fragments indicate that the animal may have been four to five feet long.
+
+Mrs. Bernita Mansfield of the Geology Department, University of Kansas,
+prepared the plate.
+
+
+
+
+LITERATURE CITED
+
+
+BERGOUNIOUX, FREDERIC-MARIE.
+
+  1935. Contribution a l'étude paléontoligique des chéloniens:
+        Chéloniens fossiles du Bassin d'Aquitaine. Memoires de la
+        Société géologique de France, vol. 11, Mem. 25, pp. 1-215,
+        44 figs., 16 pls.
+
+  1937. Relations fauniques entre des chélonien fossiles de l'Espagne
+        et de la France. Comptes Rendus Acad. Sci. Paris, vol. 204,
+        pp. 793-795.
+
+  1938. Chéloniens fossiles d'Espagne. Bulletin de la Societe
+        d'histoire Naturelle de Toulouse, vol. 72, pp. 257-288,
+        7 figs.
+
+CHANEY, R. W., and ELIAS, M. K.
+
+  1936. Late Tertiary Floras from the High Plains, with a Chapter
+        on the Lower Pliocene Vertebrate Fossils from the Ogallala
+        Formation (Lavern Zone) of Beaver County, Oklahoma, by
+        Curtis J. Hesse. Publ. Carnegie Inst. Wash., No. 476,
+        pp. 1-72, 11 figs., 7 pls.
+
+FRYE, J. C., and HIBBARD, C. W.
+
+  1941. Pliocene and Pleistocene Stratigraphy and Paleontology of
+        the Meade Basin, Southwestern Kansas. University of Kansas
+        Publications, State Geological Survey of Kansas, Bulletin 38,
+        pp. 389-424, 3 figs., 4 pls.
+
+HAY, O. P.
+
+  1908. The Fossil Turtles of North America. Publ. Carnegie Inst.
+        Wash., No. 75, pp. i-iv, 1-568, 704 figs., 113 pls.
+
+
+  _Transmitted March 1, 1948._
+
+
+                               22-3340
+
+
+
+
+
+End of the Project Gutenberg EBook of A New Extinct Emydid Turtle from the
+Lower Pliocene of Oklahoma, by Edwin C. Galbreath
+
+*** END OF THIS PROJECT GUTENBERG EBOOK A NEW EXTINCT EMYDID TURTLE ***
+
+***** This file should be named 34449-8.txt or 34449-8.zip *****
+This and all associated files of various formats will be found in:
+        https://www.gutenberg.org/3/4/4/4/34449/
+
+Produced by Chris Curnow, Joseph Cooper and the Online
+Distributed Proofreading Team at https://www.pgdp.net
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+https://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at https://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+https://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at https://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit https://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including including checks, online payments and credit card
+donations.  To donate, please visit: https://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart was the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     https://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
