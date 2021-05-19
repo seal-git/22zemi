@@ -1,0 +1,11 @@
+- title: reverse
+  description: 文字列を入力すると逆さ文を下に表示します．
+  link: /reverse
+
+- title: random
+  description: ランダムな文字列を表示します．
+  link: /random
+
+- title: db-sample
+  description: ランダムにサンプルデータベースの内容を表示します．
+  link: /db-sample

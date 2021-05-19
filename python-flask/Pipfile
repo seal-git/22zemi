@@ -48,6 +48,8 @@ Werkzeug = "==1.0.1"
 essential-generators = "*"
 flask-sqlalchemy = "*"
 pymysql = "*"
+cryptography = "*"
+pyyaml = "*"
 
 [dev-packages]
 

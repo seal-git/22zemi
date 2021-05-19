@@ -16,3 +16,7 @@ def view_reverse():
 def view_random():
     return render_template("random.html")
 
+
+@my_app.route('/db-sample')
+def view_db_sample():
+    return render_template("db-sample.html")

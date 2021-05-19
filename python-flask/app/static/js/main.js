@@ -3,7 +3,7 @@
     "use strict";
 
     //submitボタンを押したらajax通信で内容をPOSTする
-    $('.contact100-form').submit(function(event){
+    $('.reverse-sentence').submit(function(event){
         event.preventDefault();
         $('.result-area').html('<font color="red">loading...</font>');
         var data = $('.contact100-form [name=name]').val();
@@ -19,6 +19,8 @@
             console.log(data["result"]);
             var result = '<p>'+data["result"]+'</p>';
             $('.result-area').html(result);
+            $('.reverse-sentence')[0].reset();
+
         }).fail(function(XMLHttpRequest, textStatus, errorThrown){
             console.log('fail');
         });
@@ -56,6 +58,24 @@
         });
 
     })
+
+    //Generate Random Data from Sample Databaseボタンの発火
+    $('.db-sample-random-generate').click(function(){
+        $('.result-area').html('<font color="red">loading...</font>');
+        $.ajax({
+            type: 'POST',
+            contentType: 'application/json;charset=UTF-8',
+            url: '/db_sample_random_generate',
+        }).done(function(data){
+            console.log(data["result"]);
+            var result = '<p>'+data["result"]+'</p>';
+            $('.result-area').html(result);
+        }).fail(function(XMLHttpRequest, textStatus, errorThrown){
+            console.log('fail');
+        });
+
+    })
+
 
 
     /*==================================================================
