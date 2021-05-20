@@ -4,10 +4,10 @@ services:
     image: python-flask
     container_name: python-flask
     build:
-      context: ./
+      context: ./Dockerfiles
       dockerfile: Dockerfile-python
     environment:
-    -  COMPOSE_HTTP_TIMEOUT:240
+    -  COMPOSE_HTTP_TIMEOUT=240
     ports:
     - "10000:5000"
     volumes:
@@ -22,15 +22,15 @@ services:
     image: mysql
     container_name: mysql
     build:
-      context: ./
-      dockerfile: Dockerfile-sql
+      context: ./Dockerfiles
+      dockerfile: Dockerfile-mysql
     restart: on-failure
     hostname: my-mysql
     env_file:
       - .env
     environment:
       MYSQL_USER: sample_user
-      MYSQL_DATABASE: sample_db
+#      MYSQL_DATABASE: sample_db
       TZ: "Asia/Tokyo"
       BIND-ADDRESS: 0.0.0.0
     expose:

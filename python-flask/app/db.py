@@ -8,7 +8,7 @@ import pymysql.cursors
 # ma = Marshmallow()
 
 conn = pymysql.connect(
-    host = 'mysql',
+    host = 'mysql', #docker-compose.ymlで指定したコンテナ名
     port = 3306,
     user = 'sample_user',
     password = 'pass',
