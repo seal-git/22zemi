@@ -6,8 +6,6 @@ services:
     build:
       context: ./Dockerfiles
       dockerfile: Dockerfile-python
-    environment:
-    -  COMPOSE_HTTP_TIMEOUT=240
     ports:
     - "10000:5000"
     volumes:
@@ -29,8 +27,8 @@ services:
     env_file:
       - .env
     environment:
-      MYSQL_USER: sample_user
-#      MYSQL_DATABASE: sample_db
+      MYSQL_USER: sample_user #新たにユーザーを作成する
+#      MYSQL_DATABASE: sample_db #新たにDBを作成する
       TZ: "Asia/Tokyo"
       BIND-ADDRESS: 0.0.0.0
     expose:
@@ -40,9 +38,11 @@ services:
     # データを永続化させる場合
     volumes:
       # 初期データを投入するSQLが格納されているdir
-      - /home/yuki-yos/sampleapp1/mysql/initdb:/docker-entrypoint-initdb.d
-      # 永続化するときにマウントするdir
+      - /home/yuki-yos/sampleapp1/mysql/initdb.d:/docker-entrypoint-initdb.d
+      # 永続化するときにマウントするdir(ホスト側は空のディレクトリをマウントしないと初期データは登録されない！)
       - /home/yuki-yos/sampleapp1/mysql/db:/var/lib/mysql
+    command:
+      --secure-file-priv="/docker-entrypoint-initdb.d"
     tty: true
     networks:
       - my-network

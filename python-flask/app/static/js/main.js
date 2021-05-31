@@ -67,11 +67,18 @@
             contentType: 'application/json;charset=UTF-8',
             url: '/db_sample_random_generate',
         }).done(function(data){
-            console.log(data["result"]);
-            var result = '<p>'+data["result"]+'</p>';
+            console.log(typeof(data))
+            var keys = Object.keys(data);
+            console.log(keys);
+            var result = ''
+            keys.forEach(function(key){
+                result += key + ': '+ data[key]+'<br>';
+            });
+            result = '<p>'+result+'</p>';
             $('.result-area').html(result);
         }).fail(function(XMLHttpRequest, textStatus, errorThrown){
             console.log('fail');
+            $('.result-area').html('<font color="red">error!</font>');
         });
 
     })

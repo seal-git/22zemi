@@ -1,3 +1,16 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container-contact100{
+    align-items: normal;
+    min-height: auto;
+    flex: 1;
+    padding: 15px;
+}
+
+
 .article-inner{
     background-color: antiquewhite;
     display: flex;
@@ -26,3 +39,4 @@
 .top {
     text-align: center;
 }
+
