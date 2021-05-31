@@ -13,8 +13,8 @@ def reverse():
 
 @my_app.route('/reverse_random', methods=['POST'])
 def reverse_random():
-    result = generate_sentence()
-    result = reverse_sentence(result)
+    result = db_random_generate("gutenberg_sentence")
+    result = reverse_sentence(result["content"]["sentence"])
     return jsonify({"result": result})
 
 

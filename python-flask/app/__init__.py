@@ -11,6 +11,7 @@ db = SQLAlchemy(my_app)
 db.init_app(my_app)
 
 import app.make_html
+import app.make_views
 
 import app.views
 import app.models

@@ -1,0 +1,42 @@
+{%extends "layout.html" %}
+{% block content %}
+
+
+<div class="container-contact100">
+    <div class="wrap-contact100">
+        <span class="contact100-form-title">
+            is it sentence?
+        </span>
+        <span>
+            文字列がランダムに表示されます．主語と述語を伴った「正しい文」であればYes，そうでなければNoを押してください．
+        </span>
+        <span>
+            A string of characters will be displayed randomly.
+            If it is a "correct sentence" with a subject and predicate, press Yes; otherwise, press No.
+        </span>
+        <div class="container-contact100-form-btn is-it-sentence">
+            <button class="contact100-form-btn">
+                    <span>
+                        Yes, it's a correct sentence.
+                        <i class="fa fa-long-arrow-right m-l-7"
+                           aria-hidden="true"></i>
+                    </span>
+            </button>
+            <button class="contact100-form-btn">
+                    <span>
+                        Not at all.
+                        <i class="fa fa-long-arrow-right m-l-7"
+                           aria-hidden="true"></i>
+                    </span>
+            </button>
+
+        </div>
+        <div class="result-area">
+
+        </div>
+    </div>
+
+</div>
+
+
+{% endblock %}

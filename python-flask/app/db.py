@@ -49,7 +49,11 @@ def db_random_generate(table):
             SELECT * FROM {table} WHERE {key}={rand_idx}
         """
         cur.execute(sql)
-        result = cur.fetchone()
+        content = cur.fetchone()
+        result = {
+            "keys": list(content.keys()),
+            "content": content
+        }
     return result
 
 

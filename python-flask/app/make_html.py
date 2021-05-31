@@ -1,8 +1,9 @@
-#make html page when app starts from yml
+#make html page from yml when app starts
 import yaml
 from app import my_app, db
 
 
+print("making articles.html")
 with open("app/yaml/articles.yml", "r") as yml:
     index_yml = yaml.safe_load(yml)
 

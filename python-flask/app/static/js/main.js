@@ -68,11 +68,9 @@
             url: '/db_sample_random_generate',
         }).done(function(data){
             console.log(typeof(data))
-            var keys = Object.keys(data);
-            console.log(keys);
             var result = ''
-            keys.forEach(function(key){
-                result += key + ': '+ data[key]+'<br>';
+            data["keys"].forEach(function(key){
+                result += key + ': '+ data["content"][key]+'<br>';
             });
             result = '<p>'+result+'</p>';
             $('.result-area').html(result);
