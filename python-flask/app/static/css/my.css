@@ -11,6 +11,9 @@ body{
     /*text-align: center;*/
 }
 
+.btn-half{
+    width: 50%;
+}
 
 .article-inner{
     background-color: antiquewhite;
