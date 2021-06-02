@@ -1,0 +1,27 @@
+.container-sentence-area{
+    padding: 15px;
+    display: inline-block;
+    flex: 1;
+}
+.wrap-sentence-area{
+    display: flex;
+    flex-flow: column;
+    min-height: 100%;
+}
+
+.btn-half{
+    width: 50%;
+}
+
+.sentence-area{
+    margin-bottom: 15px;
+    background-color: #DDE8C2;
+    flex: 1;
+}
+
+.btn-reload{
+    width: auto;
+    height: auto;
+    font-size: small;
+    padding: 5px;
+}

@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Noto Sans JP Black";
+    src: url('../fonts/NotoSansJP/NotoSansJP-Black.otf') format('opentype');
+}
+@font-face {
+    font-family: "Noto Sans JP Light";
+    src: url('../fonts/NotoSansJP/NotoSansJP-Light.otf') format('opentype');
+}
+@font-face {
+    font-family: "Noto Sans JP Thin";
+    src: url('../fonts/NotoSansJP/NotoSansJP-Thin.otf') format('opentype');
+}
+.about-us-content p,a,li{
+    font-family: "Noto Sans JP Light";
+    color: #666666;
+}
+.about-us-content h2{
+    font-family: "Noto Sans JP Black";
+}
+.about-us-content a{
+    color: #1d3994;
+}
+.about-us-content li{
+    list-style-type: circle;
+}

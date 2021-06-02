@@ -47,9 +47,10 @@ MarkupSafe = "==1.1.1"
 Werkzeug = "==1.0.1"
 essential-generators = "*"
 flask-sqlalchemy = "*"
-pymysql = "*"
 cryptography = "*"
 pyyaml = "*"
+mysql-connector-python = "*"
+markdown = "*"
 
 [dev-packages]
 

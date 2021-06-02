@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <title>Sample App Collection</title>
     <meta charset="UTF-8">
@@ -16,27 +16,30 @@
     <link rel="stylesheet" type="text/css"
           href="/static/fonts/iconic/css/material-design-iconic-font.min.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css"
-          href="/static/vendor/animate/animate.css">
+<!--    <link rel="stylesheet" type="text/css"-->
+<!--          href="/static/vendor/animate/animate.css">-->
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css"
-          href="/static/vendor/css-hamburgers/hamburgers.min.css">
+<!--    <link rel="stylesheet" type="text/css"-->
+<!--          href="/static/vendor/css-hamburgers/hamburgers.min.css">-->
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css"
-          href="/static/vendor/animsition/css/animsition.min.css">
+<!--    <link rel="stylesheet" type="text/css"-->
+<!--          href="/static/vendor/animsition/css/animsition.min.css">-->
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css"
-          href="/static/vendor/select2/select2.min.css">
+<!--    <link rel="stylesheet" type="text/css"-->
+<!--          href="/static/vendor/select2/select2.min.css">-->
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css"
-          href="/static/vendor/daterangepicker/daterangepicker.css">
+<!--    <link rel="stylesheet" type="text/css"-->
+<!--          href="/static/vendor/daterangepicker/daterangepicker.css">-->
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css"
-          href="/static/vendor/noui/nouislider.min.css">
+<!--    <link rel="stylesheet" type="text/css"-->
+<!--          href="/static/vendor/noui/nouislider.min.css">-->
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="/static/css/util.css">
     <link rel="stylesheet" type="text/css" href="/static/css/main.css">
     <link rel="stylesheet" type="text/css" href="/static/css/my.css">
+    {% block css %}
+
+    {% endblock %}
     <!--===============================================================================================-->
 </head>
 <body>
@@ -53,68 +56,76 @@
 
 {% endblock %}
 
+
 <!--===============================================================================================-->
 <script src="/static/vendor/jquery/jquery-3.2.1.min.js"></script>
+
+{% block js %}
+
+{% endblock %}
+
 <!--===============================================================================================-->
-<script src="/static/vendor/animsition/js/animsition.min.js"></script>
+<!--<script src="/static/vendor/animsition/js/animsition.min.js"></script>-->
 <!--===============================================================================================-->
 <script src="/static/vendor/bootstrap/js/popper.js"></script>
 <script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
 <!--===============================================================================================-->
-<script src="/static/vendor/select2/select2.min.js"></script>
-<script>
-    $(".js-select2").each(function () {
-        $(this).select2({
-            minimumResultsForSearch: 20,
-            dropdownParent: $(this).next('.dropDownSelect2')
-        });
+<!--<script src="/static/vendor/select2/select2.min.js"></script>-->
+
+<!--<script>-->
+<!--    $(".js-select2").each(function () {-->
+<!--        $(this).select2({-->
+<!--            minimumResultsForSearch: 20,-->
+<!--            dropdownParent: $(this).next('.dropDownSelect2')-->
+<!--        });-->
 
 
-        $(".js-select2").each(function () {
-            $(this).on('select2:close', function (e) {
-                if ($(this).val() == "Please chooses") {
-                    $('.js-show-service').slideUp();
-                } else {
-                    $('.js-show-service').slideUp();
-                    $('.js-show-service').slideDown();
-                }
-            });
-        });
-    })
-</script>
+<!--        $(".js-select2").each(function () {-->
+<!--            $(this).on('select2:close', function (e) {-->
+<!--                if ($(this).val() == "Please chooses") {-->
+<!--                    $('.js-show-service').slideUp();-->
+<!--                } else {-->
+<!--                    $('.js-show-service').slideUp();-->
+<!--                    $('.js-show-service').slideDown();-->
+<!--                }-->
+<!--            });-->
+<!--        });-->
+<!--    })-->
+<!--</script>-->
 <!--===============================================================================================-->
-<script src="/static/vendor/daterangepicker/moment.min.js"></script>
-<script src="/static/vendor/daterangepicker/daterangepicker.js"></script>
+<!--<script src="/static/vendor/daterangepicker/moment.min.js"></script>-->
+<!--<script src="/static/vendor/daterangepicker/daterangepicker.js"></script>-->
 <!--===============================================================================================-->
-<script src="/static/vendor/countdowntime/countdowntime.js"></script>
+<!--<script src="/static/vendor/countdowntime/countdowntime.js"></script>-->
 <!--===============================================================================================-->
-<script src="/static/vendor/noui/nouislider.min.js"></script>
-<script>
-    var filterBar = document.getElementById('filter-bar');
+<!--<script src="/static/vendor/noui/nouislider.min.js"></script>-->
+<!--<script>-->
+<!--    var filterBar = document.getElementById('filter-bar');-->
 
-    noUiSlider.create(filterBar, {
-        start: [1500, 3900],
-        connect: true,
-        range: {
-            'min': 1500,
-            'max': 7500
-        }
-    });
-    z
+<!--    noUiSlider.create(filterBar, {-->
+<!--        start: [1500, 3900],-->
+<!--        connect: true,-->
+<!--        range: {-->
+<!--            'min': 1500,-->
+<!--            'max': 7500-->
+<!--        }-->
+<!--    });-->
+<!--    z-->
 
-    var skipValues = [
-        document.getElementById('value-lower'),
-        document.getElementById('value-upper')
-    ];
+<!--    var skipValues = [-->
+<!--        document.getElementById('value-lower'),-->
+<!--        document.getElementById('value-upper')-->
+<!--    ];-->
 
-    filterBar.noUiSlider.on('update', function (values, handle) {
-        skipValues[handle].innerHTML = Math.round(values[handle]);
-        $('.contact100-form-range-value input[name="from-value"]').val($('#value-lower').html());
-        $('.contact100-form-range-value input[name="to-value"]').val($('#value-upper').html());
-    });
-</script>
+<!--    filterBar.noUiSlider.on('update', function (values, handle) {-->
+<!--        skipValues[handle].innerHTML = Math.round(values[handle]);-->
+<!--        $('.contact100-form-range-value input[name="from-value"]').val($('#value-lower').html());-->
+<!--        $('.contact100-form-range-value input[name="to-value"]').val($('#value-upper').html());-->
+<!--    });-->
+<!--</script>-->
 <!--===============================================================================================-->
 <script src="/static/js/main.js"></script>
+<script src="/static/js/myutil.js"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>-->
@@ -126,21 +137,15 @@
 <!--  gtag('config', 'UA-23581568-13');-->
 <!--</script>-->
 
-{% block js %}
-
-{% endblock %}
 
 <footer>
-    <p>
-        made by <a href="https://naraiki.com/" target="_blank"> Yuki
-        Yoshinari </a> at <a href="https://nlp.naist.jp/ja/"
-                              target="_blank">NAIST NLP
-        Lab</a>
+    <p class="name">
+        &copy; 2021-<span id="thisYear">2021</span>
+        <a href="https://naraiki.com/"target="_blank"> Yuki Yoshinari </a>
+        at <a href="https://nlp.naist.jp/ja/"target="_blank">NAIST NLP Lab</a>
     </p>
-    <p>
-        referring to <a href="https://colorlib.com/wp/template/contact-form-v5/"
-            target="_blank">
-        Colorlib ComtactForm v5</a>
+    <p class="about">
+        <a href="/about-us">about this website</a>
     </p>
 </footer>
 

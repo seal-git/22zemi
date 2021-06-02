@@ -1,46 +1,40 @@
+/*全ページに共通するcss*/
+
 body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
-.container-contact100{
-    align-items: normal;
-    min-height: auto;
-    flex: 1;
-    padding: 15px;
-    /*text-align: center;*/
-}
-
-.btn-half{
-    width: 50%;
-}
-
-.article-inner{
-    background-color: antiquewhite;
-    display: flex;
-    align-items: center;
-}
-
-.app-list{
-    background-color: darkgray;
-    padding: 3px
-}
-
-.app-content{
-    margin: 10px;
-}
-
-
-.article-pic{
-    display: flex;
-    margin: 10px;
-}
-
-.article-pic img{
-    height: 100px;
-}
 
 .top {
     text-align: center;
 }
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
+footer .name{
+    flex: 1;
+}
+footer .about{
+    border-left: 1px solid darkgray;
+}
+.container-contact100{
+    align-items: normal;
+    min-height: auto;
+    padding: 15px;
+    flex: 1; /*要素が縦サイズより短いときに画面いっぱいに表示する*/
+    /*text-align: center;*/
+}
+
+.wrap-contact100{
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 62px;
+
+}
+
+
+
 

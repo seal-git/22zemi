@@ -1,0 +1,24 @@
+.article-inner{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+}
+
+.app-list{
+    background-color: darkgray;
+    padding: 3px
+}
+
+.app-content{
+    margin: 10px;
+}
+
+
+.article-pic{
+    display: flex;
+    margin: 10px;
+}
+
+.article-pic img{
+    height: 100px;
+}

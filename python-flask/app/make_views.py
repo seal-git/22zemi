@@ -20,6 +20,9 @@ from flask import render_template
 def view_top():
     return render_template("index.html")
     
+@my_app.route('/about-us')
+def view_about_us():
+    return render_template("about-us.html")
     
     '''
     f.write(init_script)
