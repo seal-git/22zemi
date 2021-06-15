@@ -1,5 +1,21 @@
 version: '3'
 services:
+  react:
+    image: react
+    container_name: react
+    hostname: react
+    build:
+      context: ./Dockerfiles
+      dockerfile: Dockerfile-react
+    env_file:
+      - .env
+    ports:
+    - "3000:3000"
+    volumes:
+    - ./react:/workspace
+    tty: true
+
+
   python:
     image: python-flask
     container_name: python-flask
@@ -7,13 +23,13 @@ services:
     build:
       context: ./Dockerfiles
       dockerfile: Dockerfile-python
+    env_file:
+      - .env
     ports:
-    - "10000:5000"
+    - "5000:5000"
     volumes:
     - ./python-flask:/workspace
     tty: true
-#    networks:
-#      - app-network
 
   mysql:
     image: mysql
@@ -41,9 +57,5 @@ services:
     command:
       --secure-file-priv="/docker-entrypoint-initdb.d"
     tty: true
-#    networks:
-#      - app-network
 
-#networks:
-#    app-network:
 

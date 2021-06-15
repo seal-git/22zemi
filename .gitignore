@@ -1,6 +1,6 @@
 __pycache__/
 .pytest_cache
-mysql/db/*
+mysql/db
 .env
 .idea
 .DS_store
