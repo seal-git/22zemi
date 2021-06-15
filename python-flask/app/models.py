@@ -1,45 +1,47 @@
-from flask import request, jsonify
+from sqlalchemy import *
+from flask import jsonify
+from app import app_, db_
+import mysql.connector
+from random import randint
 
-from app import my_app
-from app.utils import reverse_sentence, generate_sentence
-from app.db import db_random_generate
+"""
+mysqlサーバーとの接続はmysql.connectorで行っているが，SQLAlchemyへ換装したい．
+"""
 
+# mysqlサーバーと接続
+conn = mysql.connector.connect(
+    host = 'mysql', #docker-compose.ymlで指定したコンテナ名
+    port = 3306,
+    user = 'root',
+    password = 'pass',
+    database = 'sample_db'
+)
 
-@my_app.route('/reverse', methods=['POST'])
-# postされた文章を逆さ文にして返す
-def reverse():
-    json_data = request.json
-    print(json_data)
-    return jsonify({"result": reverse_sentence(json_data)})
-
-
-@my_app.route('/reverse_random', methods=['POST'])
-# ランダムに逆さの文章を返す
-def reverse_random():
-    result = db_random_generate("gutenberg_sentence")
-    result = reverse_sentence(result["content"]["sentence"])
-    return jsonify({"result": result})
-
-
-@my_app.route('/random', methods=['POST'])
-# ランダムに文章を返す
-def random():
-    return jsonify({"result": generate_sentence()})
+# mysqlサーバーとの接続を確認
+conn.ping(reconnect=True)
+if conn.is_connected():
+    print("db connected!")
 
 
-@my_app.route('/db_sample_random_generate', methods=['POST'])
-# ランダムにsample_db.gutenberg_sentenceから文章を返す
-def db_sample_random_generate():
-    result_dict = db_random_generate("gutenberg_sentence")
-    return jsonify(result_dict)
+@app_.route('/get_sample_db', methods=['POST'])
+# ランダムにsample_db.sample_tableから一つ取得
+def get_sample_db():
+    conn.ping(reconnect=True)  # 接続が途切れた時に再接続する
 
+    cur = conn.cursor(dictionary=True)
 
-@my_app.route('/get_feedback_yes_no', methods=['POST'])
-# yes/noボタンが押されたらfeedbackとして処理する
-def get_feedback_yes_no():
-    json_data = request.json
-    print(json_data)
-    return 
-
+    # keyからランダムに一つ取得
+    rand_idx = randint(1, 6)
+    sql = ("SELECT * "
+           "FROM sample_table "
+           f"WHERE user_id={rand_idx}")
+    cur.execute(sql)
+    content = cur.fetchone()
+    result = {
+        "keys": list(content.keys()),
+        "content": content
+    }
+    cur.close()
+    return jsonify(result)
 
 
