@@ -14,8 +14,8 @@ services:
     volumes:
     - ./react:/workspace
     working_dir: /workspace
+    command: npm start
     tty: true
-
 
   python-flask:
     image: python-flask
@@ -31,7 +31,10 @@ services:
     volumes:
     - ./python-flask:/workspace
     working_dir: /workspace
-#    command: python app.py # flask appの自動起動．デバッグ中は自動起動しないでコンテナ内から手動で起動する．
+    command: python app.py
+      # flask appの起動コマンド
+      # コンテナ内から手動で実行する場合はここをコメントアウトする
+      # デバッグコンソールを見たい場合は手動で起動する必要がある
     tty: true
 
   mysql:

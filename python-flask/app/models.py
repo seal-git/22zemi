@@ -1,4 +1,4 @@
-from sqlalchemy import *
+# from sqlalchemy import *
 from flask import jsonify, make_response
 from app import app_, db_
 import mysql.connector
@@ -23,8 +23,9 @@ if conn.is_connected():
     print("db connected!")
 
 @app_.after_request
+# CORS対策で追記したがうまく働いていない？
 def after_request(response):
-    response.headers.add('Access-Control-Allow-Origin', 'python-flask')
+    response.headers.add('Access-Control-Allow-Origin', '*')
     response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
     response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
     return response
@@ -37,7 +38,7 @@ def get_sample_db():
 
     cur = conn.cursor(dictionary=True)
 
-    # keyからランダムに一つ取得
+    # ランダムに一つ取得
     rand_idx = randint(1, 6)
     sql = ("SELECT * "
            "FROM sample_table "
@@ -47,7 +48,8 @@ def get_sample_db():
     result = {
         "keys": list(content.keys()),
         "content": content
-    }
+    }# JSはオブジェクトのキーの順番を保持しないらしいのでkeyの配列も渡してあげる
+
     cur.close()
     return make_response(jsonify(result))
 
