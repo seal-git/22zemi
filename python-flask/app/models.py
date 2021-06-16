@@ -1,5 +1,5 @@
 from sqlalchemy import *
-from flask import jsonify
+from flask import jsonify, make_response
 from app import app_, db_
 import mysql.connector
 from random import randint
@@ -22,6 +22,13 @@ conn.ping(reconnect=True)
 if conn.is_connected():
     print("db connected!")
 
+@app_.after_request
+def after_request(response):
+    response.headers.add('Access-Control-Allow-Origin', 'python-flask')
+    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
+    return response
+
 
 @app_.route('/get_sample_db', methods=['POST'])
 # ランダムにsample_db.sample_tableから一つ取得
@@ -42,6 +49,6 @@ def get_sample_db():
         "content": content
     }
     cur.close()
-    return jsonify(result)
+    return make_response(jsonify(result))
 
 

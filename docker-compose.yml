@@ -13,10 +13,11 @@ services:
     - "3000:3000"
     volumes:
     - ./react:/workspace
+    working_dir: /workspace
     tty: true
 
 
-  python:
+  python-flask:
     image: python-flask
     container_name: python-flask
     hostname: python-flask
@@ -29,6 +30,8 @@ services:
     - "5000:5000"
     volumes:
     - ./python-flask:/workspace
+    working_dir: /workspace
+#    command: python app.py # flask appの自動起動．デバッグ中は自動起動しないでコンテナ内から手動で起動する．
     tty: true
 
   mysql:

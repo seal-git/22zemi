@@ -6,8 +6,6 @@ docker-compose.ymlのあるディレクトリで
 docker compose build
 docker compose up -d
 ```
-開発環境では，アプリの立ち上げをコンテナ内に入って手動でやる必要がある．(他にいいやり方があれば)
-
 localhost:3000でアプリにアクセスできる．
 
 起動すると，次のポートが開く．
@@ -18,4 +16,8 @@ localhost:3000でアプリにアクセスできる．
 - mysql
   - 3306
 
-
+## コンテナ内に入りたい場合
+```
+docker exec -it react bash
+```
+`react`を`python-flask` `mysql`にすればそれぞれのコンテナに入って作業できる．

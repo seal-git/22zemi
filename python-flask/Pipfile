@@ -51,6 +51,7 @@ cryptography = "*"
 pyyaml = "*"
 mysql-connector-python = "*"
 markdown = "*"
+flask-cors = "*"
 
 [dev-packages]
 
