@@ -14,7 +14,7 @@ services:
     volumes:
     - ./react:/workspace
     working_dir: /workspace
-    command: npm start
+#    command: yarn install && npm start
     tty: true
 
   python-flask:
@@ -31,7 +31,7 @@ services:
     volumes:
     - ./python-flask:/workspace
     working_dir: /workspace
-    command: python app.py
+#    command: bash -c 'pipenv install --system && python app.py'
       # flask appの起動コマンド
       # コンテナ内から手動で実行する場合はここをコメントアウトする
       # デバッグコンソールを見たい場合は手動で起動する必要がある
