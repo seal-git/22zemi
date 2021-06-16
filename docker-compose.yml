@@ -13,7 +13,7 @@ services:
     - "3000:3000"
     volumes:
     - ./react:/workspace
-    working_dir: /workspace
+#    working_dir: /workspace
 #    command: yarn install && npm start
     tty: true
 
@@ -30,7 +30,7 @@ services:
     - "5000:5000"
     volumes:
     - ./python-flask:/workspace
-    working_dir: /workspace
+#    working_dir: /workspace
 #    command: bash -c 'pipenv install --system && python app.py'
       # flask appの起動コマンド
       # コンテナ内から手動で実行する場合はここをコメントアウトする
