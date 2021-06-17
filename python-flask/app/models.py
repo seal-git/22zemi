@@ -14,8 +14,8 @@ mysqlサーバーとの接続はmysql.connectorで行っているが，SQLAlchem
 """
 
 
-# mysqlを使う代わりにとりあえず変数作った
-temp_db = {} # {group_id1: {'Coordinates': (lat,lon), 'Users': { 'user_id1: {'RequestCount': 0, 'Feeling': {restaurant_id1: true, ... }}, ... }}, ... }
+# 現在アプリを使っているグループやユーザを格納する
+current_group = {} # {group_id1: {'Coordinates': (lat,lon), 'Users': { 'user_id1: {'RequestCount': 0, 'Feeling': {restaurant_id1: true, ... }}, ... }}, ... }
 
 
 # mysqlサーバーと接続
@@ -132,13 +132,13 @@ def get_init():
     lat = 35.68001 # 緯度
     lon = 139.73284 # 経度
     
-    if group_id not in temp_db:
-        temp_db[group_id] = {'Coordinates': (lat,lon), 'Users': {}}
-    if user_id not in temp_db[group_id]['Users']:
-        temp_db[group_id]['Users'][user_id] = {'RequestCount': 0, 'Feeling': {}}
+    if group_id not in current_group:
+        current_group[group_id] = {'Coordinates': (lat,lon), 'Users': {}}
+    if user_id not in current_group[group_id]['Users']:
+        current_group[group_id]['Users'][user_id] = {'RequestCount': 0, 'Feeling': {}}
 
 
-    return get_info_from_yahoo_local_search(temp_db[group_id]['Coordinates'], temp_db[group_id]['Users'][user_id]['RequestCount'])
+    return get_info_from_yahoo_local_search(current_group[group_id]['Coordinates'], current_group[group_id]['Users'][user_id]['RequestCount'])
 
 
 @app_.route('/more')
@@ -147,9 +147,9 @@ def get_more():
     user_id = request.args.get('user_id')
     group_id = request.args.get('group_id')
     
-    temp_db[group_id]['Users'][user_id]['RequestCount'] += 1
+    current_group[group_id]['Users'][user_id]['RequestCount'] += 1
 
-    return get_info_from_yahoo_local_search(temp_db[group_id]['Coordinates'], temp_db[group_id]['Users'][user_id]['RequestCount'])
+    return get_info_from_yahoo_local_search(current_group[group_id]['Coordinates'], current_group[group_id]['Users'][user_id]['RequestCount'])
 
 
 @app_.route('/feeling')
@@ -160,7 +160,7 @@ def post_feeling():
     restaurant_id = request.args.get('restaurant_id')
     feeling = request.args.get('feeling')
     
-    temp_db[group_id]['Users'][user_id]['Feeling'][restaurant_id] = feeling
+    current_group[group_id]['Users'][user_id]['Feeling'][restaurant_id] = feeling
 
     return ""
 
