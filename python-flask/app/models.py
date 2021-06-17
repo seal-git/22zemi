@@ -130,9 +130,9 @@ def get_sample_db():
     return make_response(jsonify(result))
 
 
-@app_.route('/init')
+@app_.route('/info')
 # 最初にリクエストするやつ
-def http_init():
+def http_info():
     user_id = request.args.get('user_id')
     group_id = request.args.get('group_id')
     # coordinates = request.args.get('coordinates') # 位置情報
@@ -144,19 +144,9 @@ def http_init():
     if group_id not in current_group:
         current_group[group_id] = {'Coordinates': (lat,lon), 'Users': {}, 'Unanimous': []}
     if user_id not in current_group[group_id]['Users']:
-        current_group[group_id]['Users'][user_id] = {'RequestCount': 0, 'Feeling': {}}
-
-
-    return get_info_from_yahoo_local_search(current_group[group_id]['Coordinates'], current_group[group_id]['Users'][user_id]['RequestCount'])
-
-
-@app_.route('/more')
-# 2回目以降、さらに店舗を検索する
-def http_more():
-    user_id = request.args.get('user_id')
-    group_id = request.args.get('group_id')
-    
-    current_group[group_id]['Users'][user_id]['RequestCount'] += 1
+        current_group[group_id]['Users'][user_id] = {'RequestCount': 0, 'Feeling': {}} # 1回目のリクエストは、ユーザを登録する
+    else:
+        current_group[group_id]['Users'][user_id]['RequestCount'] += 1 # 2回目以降のリクエストは、前回の続きの店舗情報を送る
 
     return get_info_from_yahoo_local_search(current_group[group_id]['Coordinates'], current_group[group_id]['Users'][user_id]['RequestCount'])
 
