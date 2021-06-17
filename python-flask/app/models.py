@@ -161,8 +161,11 @@ def http_feeling():
     
     current_group[group_id]['Users'][user_id]['Feeling'][restaurant_id] = feeling
     
+    if not feeling and restaurant_id in current_group[group_id]['Unanimous']:
+        current_group[group_id]['Unanimous'].remove(restaurant_id)
+    
     # 全員一致だったらcurrent_groupに格納する
-    if all([ u['Feeling'][restaurant_id] for u in current_group[group_id]['Users'].values() ]):
+    if feeling and all([ u['Feeling'][restaurant_id] for u in current_group[group_id]['Users'].values() ]):
         current_group[group_id]['Unanimous'].append( restaurant_id )
     
     # 全会一致の店舗を知らせる
