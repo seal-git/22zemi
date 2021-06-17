@@ -3,6 +3,9 @@ from flask import jsonify, make_response
 from app import app_, db_
 import mysql.connector
 from random import randint
+import os
+import urllib.request
+import json
 
 """
 mysqlサーバーとの接続はmysql.connectorで行っているが，SQLAlchemyへ換装したい．
@@ -13,7 +16,7 @@ conn = mysql.connector.connect(
     host = 'mysql', #docker-compose.ymlで指定したコンテナ名
     port = 3306,
     user = 'root',
-    password = 'pass',
+    password = os.environ['MYSQL_ROOT_PASSWORD'],
     database = 'sample_db'
 )
 
@@ -54,3 +57,14 @@ def get_sample_db():
     return make_response(jsonify(result))
 
 
+@app_.route('/init')
+def test():
+    #  ヤフー本社から3km以内のグルメを検索
+    lat = 35.68001 # 緯度
+    lon = 139.73284 # 経度
+    dist = 3 # 中心地点からの距離
+    # gc=01: グルメ
+    with urllib.request.urlopen('https://map.yahooapis.jp/search/local/V1/localSearch?appid='+os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID']+'&gc=01&lat='+str(lat)+'&lon='+str(lon)+'&dist='+str(dist)+'&output=json') as response:
+        local_search_json = response.read()
+
+    return local_search_json
