@@ -22,13 +22,14 @@ conn.ping(reconnect=True)
 if conn.is_connected():
     print("db connected!")
 
-@app_.after_request
+# @app_.after_request
 # CORS対策で追記したがうまく働いていない？
-def after_request(response):
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
-    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
-    return response
+# def after_request(response):
+#     print("after request is running")
+#     response.headers.add('Access-Control-Allow-Origin', '*')
+#     response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+#     response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
+#     return response
 
 
 @app_.route('/get_sample_db', methods=['POST'])
@@ -44,6 +45,7 @@ def get_sample_db():
            "FROM sample_table "
            f"WHERE user_id={rand_idx}")
     cur.execute(sql)
+    print(sql)
     content = cur.fetchone()
     result = {
         "keys": list(content.keys()),

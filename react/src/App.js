@@ -3,18 +3,24 @@ import './App.css';
 
 import axios from 'axios';
 
-
-function App() {
-  let result;
-  axios.post('python-flask:5000/get_sample_db',{
+function get_api(){
+  let result = "r";
+  axios.post('/api/get_sample_db',{
   })
   .then(function(response){
-    result = response['content'];
+    console.log(response)
+    result = JSON.stringify(response['data']['content']);
+    console.log("result:",result)
   })
   .catch((error) => {
-    console.log(error);
+    console.log("error:",error);
+    result = "error"
   });
+  return result;
+};
+let result = get_api();
 
+function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -22,17 +28,17 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>
-          {result}
-        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React!!!
+          Learn React!
         </a>
+        <p>
+          {result}
+        </p>
       </header>
     </div>
   );
