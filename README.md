@@ -24,6 +24,12 @@ docker exec -it react bash
 ```
 `react`を`python-flask` `mysql`にすればそれぞれのコンテナに入って作業できる．
 
+## flask app
+`.env`に以下を追加する．
+```
+YAHOO_LOCAL_SEARCH_API_CLIENT_ID="＜Slackを参照して追記＞"
+```
+
 ## flask appを手動起動する場合
 デフォルトではDockerfiles/Dockerfile-pythonで自動起動するようにしているが，それだとデバッグモードのコンソールが開かない．flask appをコンソールから起動させたい場合は，
 
