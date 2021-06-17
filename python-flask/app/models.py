@@ -6,6 +6,7 @@ from random import randint
 import os
 import urllib.request
 import json
+import time
 from geopy.distance import great_circle
 
 """
@@ -40,7 +41,8 @@ def get_info_from_yahoo_local_search(coordinates, request_count):
     MAX_LIST_COUNT = 10
     RESULTS_COUNT = 25 # 一回に取得する店舗の数
     
-    lunch_or_dinner = 'dinner' # 価格表示に使用。今のところ検索には使用していない
+    now_time = datetime.datetime.now().hour + datetime.datetime.now().munites / 60
+    lunch_or_dinner = 'lunch' if 10 <= now_time and now_time <15 else 'dinner' # 現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
 
     #  ヤフー本社から1km以内のグルメを検索
     local_search_query = {} # YahooローカルサーチAPIで検索するクエリ
@@ -51,7 +53,7 @@ def get_info_from_yahoo_local_search(coordinates, request_count):
     local_search_query['dist'] = 3 # 中心地点からの距離 # 最大20km
     local_search_query['gc'] = '01' # グルメ
     local_search_query['image'] = True # 画像がある店
-    local_search_query['open'] = 'now' # 現在開店している店舗
+    # local_search_query['open'] = 'now' # 現在開店している店舗
     local_search_query['sort'] = 'hybrid' # 評価や距離などを総合してソート
         # 表示方法↓
     local_search_query['output'] = 'json' #
