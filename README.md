@@ -25,7 +25,7 @@ docker exec -it react bash
 `react`を`python-flask` `mysql`にすればそれぞれのコンテナに入って作業できる．
 
 ## flask appを手動起動する場合
-デフォルトではDockerfiles/Dockerfile-pythonで自動起動するようにしているが，それだとデバッグモードのコンソールが開かない．flask appをコンソールから起動させたい場合は，
+デフォルトではdocker-compose.ymlで自動起動するようにしているが，それだとデバッグモードのコンソールが開かない．flask appをコンソールから起動させたい場合は，
 
 ```
 docker exec -it python-flask bash
