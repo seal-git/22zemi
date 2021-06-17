@@ -33,7 +33,7 @@ if conn.is_connected():
 # @param request_count : int 何回目のリクエストかを指定する。回数に応じて別の店舗を返す。同じ値を指定したら同じ結果が返るはず。
 def get_info_from_yahoo_local_search(request_count):
     MAX_LIST_COUNT = 10
-    RESULTS_COUNT = 20 # 一回に取得する店舗の数
+    RESULTS_COUNT = 25 # 一回に取得する店舗の数
 
     #  ヤフー本社から1km以内のグルメを検索
     lat = 35.68001 # 緯度
