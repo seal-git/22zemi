@@ -40,7 +40,7 @@ def get_info_from_yahoo_local_search(request_count):
     lon = 139.73284 # 経度
     dist_max = 3 # 中心地点からの距離 # 最大20km
     lunch_or_dinner = 'dinner'
-    # gc=01: グルメ, sort=hybrid: 評価や距離などでソート, image=true: 画像がある店, open=now: 今開店している店, 
+    # gc=01: グルメ, sort=hybrid: 評価や距離などでソート, image=true: 画像がある店, open=now: 今開店している店,
     with urllib.request.urlopen('https://map.yahooapis.jp/search/local/V1/localSearch?appid='+os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID']+'&gc=01&lat='+str(lat)+'&lon='+str(lon)+'&dist='+str(dist_max)+'&image=true&open=now&sort=hybrid&output=json&detail=full&start='+str(RESULTS_COUNT*request_count)+'&results='+str(RESULTS_COUNT)) as response:
         local_search_json = json.loads(response.read())
     result_json = []
@@ -60,13 +60,15 @@ def get_info_from_yahoo_local_search(request_count):
     return json.dumps(result_json)
 
 
-@app_.after_request
+
+#@app_.after_request
 # CORS対策で追記したがうまく働いていない？
-def after_request(response):
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
-    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
-    return response
+# def after_request(response):
+#     print("after request is running")
+#     response.headers.add('Access-Control-Allow-Origin', '*')
+#     response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+#     response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
+#     return response
 
 
 @app_.route('/get_sample_db', methods=['POST'])
@@ -98,8 +100,8 @@ def get_init():
     user_id = request.args.get('user_id')
     group_id = request.args.get('group_id')
     location = request.args.get('location')
-    
-    if group_id not in temp_db_by_group:	
+
+    if group_id not in temp_db_by_group:
         temp_db_by_group[group_id] = {}
     if user_id not in temp_db_by_group[group_id]:
         temp_db_by_group[group_id][user_id] = {'request_count': 0, 'feeling': {}}
@@ -111,11 +113,11 @@ def get_init():
 def get_more():
     user_id = request.args.get('user_id')
     group_id = request.args.get('group_id')
-    
+
     temp_db_by_group[group_id][user_id]['request_count'] += 1
 
     return get_info_from_yahoo_local_search(temp_db_by_group[group_id][user_id]['request_count'])
-    
+
 @app_.route('/feeling')
 # キープ・リジェクトの結果を受け取る。メモリに格納
 def post_feeling():
@@ -123,9 +125,9 @@ def post_feeling():
     group_id = request.args.get('group_id')
     restaurant_id = request.args.get('restaurant_id')
     feeling = request.args.get('feeling')
-    
+
     temp_db_by_group[group_id][user_id]['feeling'][restaurant_id] = feeling
 
     return ""
-    
+
 
