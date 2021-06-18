@@ -131,7 +131,7 @@ def get_sample_db():
 
 
 @app_.route('/info')
-# 最初にリクエストするやつ
+# 店情報を要求するリクエスト
 def http_info():
     user_id = request.args.get('user_id')
     group_id = request.args.get('group_id')
@@ -161,6 +161,7 @@ def http_feeling():
     
     current_group[group_id]['Users'][user_id]['Feeling'][restaurant_id] = feeling
     
+    # 全会一致だったのをリジェクトしたら全会一致リストから消す
     if not feeling and restaurant_id in current_group[group_id]['Unanimous']:
         current_group[group_id]['Unanimous'].remove(restaurant_id)
     
