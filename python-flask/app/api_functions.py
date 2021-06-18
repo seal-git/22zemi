@@ -50,7 +50,7 @@ def get_restaurant_info_from_local_search_params(coordinates, local_search_param
         result_json[i]['Name'] = feature['Name']
         result_json[i]['Distance'] = great_circle(coordinates, tuple(reversed([float(x) for x in feature['Geometry']['Coordinates'].split(',')]))).m # 緯度・経度から距離を計算
         result_json[i]['CatchCopy'] = feature['Property'].get('CatchCopy')
-        result_json[i]['Price'] = feature['Property']['Detail']['LunchPrice'] if lunch_or_dinner == 'lunch' and feature['Property']['Detail']['LunchFlag'] == true else feature['Property']['Detail'].get('DinnerPrice')
+        result_json[i]['Price'] = feature['Property']['Detail']['LunchPrice'] if lunch_or_dinner == 'lunch' and feature['Property']['Detail']['LunchFlag'] == True else feature['Property']['Detail'].get('DinnerPrice')
         result_json[i]['TopRankItem'] = [feature['Property']['Detail']['TopRankItem'+str(j)] for j in range(MAX_LIST_COUNT) if 'TopRankItem'+str(j) in feature['Property']['Detail']] # TopRankItem1, TopRankItem2 ... のキーをリストに。
         result_json[i]['CassetteOwnerLogoImage'] = feature['Property']['Detail'].get('CassetteOwnerLogoImage')
 
