@@ -98,13 +98,15 @@ def get_info_from_yahoo_local_search(coordinates, request_count):
     return get_restaurant_info_from_local_search_query(coordinates, local_search_query)
 
 
-@app_.after_request
+
+#@app_.after_request
 # CORS対策で追記したがうまく働いていない？
-def after_request(response):
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
-    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
-    return response
+# def after_request(response):
+#     print("after request is running")
+#     response.headers.add('Access-Control-Allow-Origin', '*')
+#     response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+#     response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
+#     return response
 
 
 @app_.route('/get_sample_db', methods=['POST'])
@@ -149,7 +151,6 @@ def http_info():
         current_group[group_id]['Users'][user_id]['RequestCount'] += 1 # 2回目以降のリクエストは、前回の続きの店舗情報を送る
 
     return get_info_from_yahoo_local_search(current_group[group_id]['Coordinates'], current_group[group_id]['Users'][user_id]['RequestCount'])
-
 
 @app_.route('/feeling')
 # キープ・リジェクトの結果を受け取る。メモリに格納
