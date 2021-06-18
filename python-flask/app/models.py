@@ -90,7 +90,7 @@ def get_sample_db():
     return make_response(jsonify(result))
 
 
-@app_.route('/info')
+@app_.route('/info', methods=['GET','POST'])
 # 店情報を要求するリクエスト
 def http_info():
     user_id = request.args.get('user_id')
@@ -110,7 +110,7 @@ def http_info():
 
     return search_restaurant_info(current_group[group_id]['Coordinates'], current_group[group_id]['Users'][user_id]['RequestCount'])
 
-@app_.route('/feeling')
+@app_.route('/feeling', methods=['GET','POST'])
 # キープ・リジェクトの結果を受け取り、メモリに格納する。全会一致の店舗を知らせる。
 def http_feeling():
     user_id = request.args.get('user_id')
