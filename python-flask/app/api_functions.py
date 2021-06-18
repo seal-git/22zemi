@@ -5,14 +5,13 @@ import datetime
 from geopy.distance import great_circle
 
 
-
-def get_restaurant_info_from_local_search_query(coordinates, local_search_query):
+def get_restaurant_info_from_local_search_params(coordinates, local_search_params):
     '''
     Yahoo local search APIで取得した店舗情報(feature)を、クライアントに送信するjsonの形式に変換する。
     
     Parameters
     ----------------
-    local_search_query : dictionary
+    local_search_params : dictionary
         Yahoo local search APIに送信するクエリ
     
     Returns
@@ -22,21 +21,28 @@ def get_restaurant_info_from_local_search_query(coordinates, local_search_query)
     '''
     
     MAX_LIST_COUNT = 10
-
-    now_time = datetime.datetime.now().hour + datetime.datetime.now().minute / 60
-    lunch_or_dinner = 'lunch' if 10 <= now_time and now_time <15 else 'dinner' # 現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
+    lunch_time_start = 10
+    lunch_time_end = 15
 
     # Yahoo local search APIで店舗情報を取得
-    local_search_query['appid'] = os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID']
-    local_search_query['output'] = 'json' #
-    local_search_query['detail'] = 'full' #
-    with urllib.request.urlopen('https://map.yahooapis.jp/search/local/V1/localSearch?' + urllib.parse.urlencode(local_search_query)) as response:
-        local_search_json = json.loads(response.read())
+    local_search_url = 'https://map.yahooapis.jp/search/local/V1/localSearch?'
+    local_search_params.update({
+        'appid': os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
+        'output': 'json',
+        'detail': 'full'
+    })
+    response = requests.get(local_search_url, params=local_search_params)
+    local_search_json = response.json()
 
     # 検索の該当が無かったとき
     if local_search_json['ResultInfo']['Count'] == 0:
         return "{}"
 
+     # 現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
+    now_time = datetime.datetime.now().hour + datetime.datetime.now().minute / 60
+    lunch_or_dinner = 'lunch' if lunch_time_start <= now_time and now_time < lunch_time_end else 'dinner'
+
+    # Yahoo local search apiで受け取ったjsonをクライアントアプリに送るjsonに変換する
     result_json = []
     for i,feature in enumerate(local_search_json['Feature']):
         result_json.append({})
@@ -76,3 +82,4 @@ def get_lat_lon(query):
     lon = float(coordinates[0])
     lat = float(coordinates[1])
     return lat, lon
+

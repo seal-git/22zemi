@@ -1,10 +1,11 @@
 # from sqlalchemy import *
 from flask import jsonify, make_response, request
 from app import app_, db_
+from app import api_functions
 import mysql.connector
 from random import randint
-import api_functions
-
+import os
+#from app.api_functions import get_restaurant_info_from_local_search_params
 
 """
 mysqlサーバーとの接続はmysql.connectorで行っているが，SQLAlchemyへ換装したい．
@@ -35,26 +36,25 @@ if conn.is_connected():
 # @param coordinates : (int, int) : (緯度, 経度)のタプル
 # @param request_count : int : 何回目のリクエストかを指定する。回数に応じて別の店舗を返す。同じ値を指定したら同じ結果が返るはず。
 # @return : string : json形式
-def get_restaurant_info_from_yahoo_local_search(coordinates, request_count):
+def search_restaurant_info(coordinates, request_count):
     RESULTS_COUNT = 25 # 一回に取得する店舗の数
     
-    #  ヤフー本社から1km以内のグルメを検索
-    local_search_query = {} # YahooローカルサーチAPIで検索するクエリ
-        # 検索条件↓
-    local_search_query['lat'] = coordinates[0] # 緯度
-    local_search_query['lon'] = coordinates[1] # 経度
-    local_search_query['dist'] = 3 # 中心地点からの距離 # 最大20km
-    local_search_query['gc'] = '01' # グルメ
-    local_search_query['image'] = True # 画像がある店
-    local_search_query['open'] = 'now' # 現在開店している店舗
-    local_search_query['sort'] = 'hybrid' # 評価や距離などを総合してソート
-        # 表示方法↓
-    local_search_query['start'] = RESULTS_COUNT * request_count #
-    local_search_query['results'] = RESULTS_COUNT #
+     # YahooローカルサーチAPIで検索するクエリ
+    local_search_params = {
+        # 中心地から1km以内のグルメを検索
+        'lat': coordinates[0], # 緯度
+        'lon': coordinates[1], # 経度
+        'dist': 3, # 中心地点からの距離 # 最大20km
+        'gc': '01', # グルメ
+        'image': True, # 画像がある店
+        'open': 'now', # 現在開店している店舗
+        'sort': 'hybrid', # 評価や距離などを総合してソート
+        'start': RESULTS_COUNT * request_count, # 表示範囲：開始位置
+        'results': RESULTS_COUNT # 表示範囲：店舗数
+    }
 
     # Yahoo local search APIで店舗情報を取得
-    return get_restaurant_info_from_local_search_query(coordinates, local_search_query)
-
+    return api_functions.get_restaurant_info_from_local_search_params(coordinates, local_search_params)
 
 
 #@app_.after_request
@@ -108,7 +108,7 @@ def http_info():
     else:
         current_group[group_id]['Users'][user_id]['RequestCount'] += 1 # 2回目以降のリクエストは、前回の続きの店舗情報を送る
 
-    return get_restaurant_info_from_yahoo_local_search(current_group[group_id]['Coordinates'], current_group[group_id]['Users'][user_id]['RequestCount'])
+    return search_restaurant_info(current_group[group_id]['Coordinates'], current_group[group_id]['Users'][user_id]['RequestCount'])
 
 @app_.route('/feeling')
 # キープ・リジェクトの結果を受け取り、メモリに格納する。全会一致の店舗を知らせる。
@@ -129,7 +129,7 @@ def http_feeling():
         current_group[group_id]['Unanimous'].append( restaurant_id )
     
     # 全会一致の店舗を知らせる
-    local_search_query = { 'uid': ','.join(current_group[group_id]['Unanimous']) }
-    return get_restaurant_info_from_local_search_query(current_group[group_id]['Coordinates'], local_search_query)
+    local_search_params = { 'uid': ','.join(current_group[group_id]['Unanimous']) }
+    return api_functions.get_restaurant_info_from_local_search_params(current_group[group_id]['Coordinates'], local_search_params)
 
 
