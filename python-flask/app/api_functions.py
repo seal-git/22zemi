@@ -9,7 +9,6 @@ def get_lat_lon(query):
     input：query = "千代田区"
     output：lat = 35.69404120, lon = 139.75358630
     '''
-    print(os.getenv('YAHOO_LOCAL_SEARCH_API_CLIENT_ID'))
     geo_coder_url = "https://map.yahooapis.jp/geocode/cont/V1/contentsGeoCoder"
     params = {
         "appid": os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
