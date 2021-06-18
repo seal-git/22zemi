@@ -1,19 +1,20 @@
 # from sqlalchemy import *
 from flask import jsonify, make_response, request
 from app import app_, db_
+from app import api_functions
 import mysql.connector
 from random import randint
 import os
-import urllib.request
-import json
-from geopy.distance import great_circle
+#from app.api_functions import get_restaurant_info_from_local_search_params
 
 """
 mysqlサーバーとの接続はmysql.connectorで行っているが，SQLAlchemyへ換装したい．
 """
 
-# mysqlを使う代わりにとりあえず変数作った
-temp_db_by_group = {} # {group_id1: {user_id1: {request_count: 0, feeling: {restaurant_id1: true, ... }}, ... }, ... }
+
+# 現在アプリを使っているグループやユーザを格納する
+current_group = {} # {group_id1: {'Coordinates': (lat,lon), 'Users': { 'user_id1: {'RequestCount': 0, 'Feeling': {restaurant_id1: true, ... }}, ... }, 'Unanimous': [restaurant_id1, ... ]}, ... }
+
 
 # mysqlサーバーと接続
 conn = mysql.connector.connect(
@@ -24,41 +25,36 @@ conn = mysql.connector.connect(
     database = 'sample_db'
 )
 
+
 # mysqlサーバーとの接続を確認
 conn.ping(reconnect=True)
 if conn.is_connected():
     print("db connected!")
 
+
 # Yahoo local search APIで情報を取得し、json形式で情報を返す
-# @param request_count : int 何回目のリクエストかを指定する。回数に応じて別の店舗を返す。同じ値を指定したら同じ結果が返るはず。
-def get_info_from_yahoo_local_search(request_count):
-    MAX_LIST_COUNT = 10
+# @param coordinates : (int, int) : (緯度, 経度)のタプル
+# @param request_count : int : 何回目のリクエストかを指定する。回数に応じて別の店舗を返す。同じ値を指定したら同じ結果が返るはず。
+# @return : string : json形式
+def search_restaurant_info(coordinates, request_count):
     RESULTS_COUNT = 25 # 一回に取得する店舗の数
+    
+     # YahooローカルサーチAPIで検索するクエリ
+    local_search_params = {
+        # 中心地から1km以内のグルメを検索
+        'lat': coordinates[0], # 緯度
+        'lon': coordinates[1], # 経度
+        'dist': 3, # 中心地点からの距離 # 最大20km
+        'gc': '01', # グルメ
+        'image': True, # 画像がある店
+        'open': 'now', # 現在開店している店舗
+        'sort': 'hybrid', # 評価や距離などを総合してソート
+        'start': RESULTS_COUNT * request_count, # 表示範囲：開始位置
+        'results': RESULTS_COUNT # 表示範囲：店舗数
+    }
 
-    #  ヤフー本社から1km以内のグルメを検索
-    lat = 35.68001 # 緯度
-    lon = 139.73284 # 経度
-    dist_max = 3 # 中心地点からの距離 # 最大20km
-    lunch_or_dinner = 'dinner'
-    # gc=01: グルメ, sort=hybrid: 評価や距離などでソート, image=true: 画像がある店, open=now: 今開店している店,
-    with urllib.request.urlopen('https://map.yahooapis.jp/search/local/V1/localSearch?appid='+os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID']+'&gc=01&lat='+str(lat)+'&lon='+str(lon)+'&dist='+str(dist_max)+'&image=true&open=now&sort=hybrid&output=json&detail=full&start='+str(RESULTS_COUNT*request_count)+'&results='+str(RESULTS_COUNT)) as response:
-        local_search_json = json.loads(response.read())
-    result_json = []
-    for i,feature in enumerate(local_search_json['Feature']):
-        result_json.append({})
-        result_json[i]['Restaurant_id'] = feature['Property']['Uid']
-        result_json[i]['Name'] = feature['Name']
-        result_json[i]['Distance'] = great_circle((lat,lon), tuple(reversed([float(x) for x in feature['Geometry']['Coordinates'].split(',')]))).m # 緯度・経度から距離を計算
-        result_json[i]['CatchCopy'] = feature['Property'].get('CatchCopy')
-        result_json[i]['Price'] = feature['Property']['Detail']['LunchPrice'] if lunch_or_dinner == 'lunch' and feature['Property']['Detail']['LunchFlag'] == true else feature['Property']['Detail'].get('DinnerPrice')
-        result_json[i]['Image'] = [feature['Property']['Detail']['Image'+str(j)] for j in range(MAX_LIST_COUNT) if 'Image'+str(j) in feature['Property']['Detail']] # Image1, Image2 ... のキーをリストに。
-        result_json[i]['LeadImage'] = feature['Property']['LeadImage']
-        result_json[i]['CassetteOwnerLogoImage'] = feature['Property']['Detail']['CassetteOwnerLogoImage']
-        result_json[i]['PersistencyImage'] = [feature['Property']['Detail']['PersistencyImage'+str(j)] for j in range(MAX_LIST_COUNT) if 'PersistencyImage'+str(j) in feature['Property']['Detail']] # PersistencyImage1, PersistencyImage2 ... のキーをリストに。
-        result_json[i]['TopRankItem'] = [feature['Property']['Detail']['TopRankItem'+str(j)] for j in range(MAX_LIST_COUNT) if 'TopRankItem'+str(j) in feature['Property']['Detail']] # TopRankItem1, TopRankItem2 ... のキーをリストに。
-
-    return json.dumps(result_json)
-
+    # Yahoo local search APIで店舗情報を取得
+    return api_functions.get_restaurant_info_from_local_search_params(coordinates, local_search_params)
 
 
 #@app_.after_request
@@ -94,40 +90,46 @@ def get_sample_db():
     return make_response(jsonify(result))
 
 
-@app_.route('/init')
-# 最初にリクエストするやつ
-def get_init():
+@app_.route('/info')
+# 店情報を要求するリクエスト
+def http_info():
     user_id = request.args.get('user_id')
     group_id = request.args.get('group_id')
-    location = request.args.get('location')
+    # coordinates = request.args.get('coordinates') # 位置情報
+    
+    # Yahoo本社の座標を決め打ち
+    lat = 35.68001 # 緯度
+    lon = 139.73284 # 経度
+    
+    if group_id not in current_group:
+        current_group[group_id] = {'Coordinates': (lat,lon), 'Users': {}, 'Unanimous': []}
+    if user_id not in current_group[group_id]['Users']:
+        current_group[group_id]['Users'][user_id] = {'RequestCount': 0, 'Feeling': {}} # 1回目のリクエストは、ユーザを登録する
+    else:
+        current_group[group_id]['Users'][user_id]['RequestCount'] += 1 # 2回目以降のリクエストは、前回の続きの店舗情報を送る
 
-    if group_id not in temp_db_by_group:
-        temp_db_by_group[group_id] = {}
-    if user_id not in temp_db_by_group[group_id]:
-        temp_db_by_group[group_id][user_id] = {'request_count': 0, 'feeling': {}}
-
-    return get_info_from_yahoo_local_search(temp_db_by_group[group_id][user_id]['request_count'])
-
-@app_.route('/more')
-# 2回目以降、さらに店舗を検索する
-def get_more():
-    user_id = request.args.get('user_id')
-    group_id = request.args.get('group_id')
-
-    temp_db_by_group[group_id][user_id]['request_count'] += 1
-
-    return get_info_from_yahoo_local_search(temp_db_by_group[group_id][user_id]['request_count'])
+    return search_restaurant_info(current_group[group_id]['Coordinates'], current_group[group_id]['Users'][user_id]['RequestCount'])
 
 @app_.route('/feeling')
-# キープ・リジェクトの結果を受け取る。メモリに格納
-def post_feeling():
+# キープ・リジェクトの結果を受け取り、メモリに格納する。全会一致の店舗を知らせる。
+def http_feeling():
     user_id = request.args.get('user_id')
     group_id = request.args.get('group_id')
     restaurant_id = request.args.get('restaurant_id')
     feeling = request.args.get('feeling')
-
-    temp_db_by_group[group_id][user_id]['feeling'][restaurant_id] = feeling
-
-    return ""
+    
+    current_group[group_id]['Users'][user_id]['Feeling'][restaurant_id] = feeling
+    
+    # 全会一致だったのをリジェクトしたら全会一致リストから消す
+    if not feeling and restaurant_id in current_group[group_id]['Unanimous']:
+        current_group[group_id]['Unanimous'].remove(restaurant_id)
+    
+    # 全員一致だったらcurrent_groupに格納する
+    if feeling and all([ u['Feeling'][restaurant_id] for u in current_group[group_id]['Users'].values() ]):
+        current_group[group_id]['Unanimous'].append( restaurant_id )
+    
+    # 全会一致の店舗を知らせる
+    local_search_params = { 'uid': ','.join(current_group[group_id]['Unanimous']) }
+    return api_functions.get_restaurant_info_from_local_search_params(current_group[group_id]['Coordinates'], local_search_params)
 
 

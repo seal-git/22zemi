@@ -52,6 +52,7 @@ pyyaml = "*"
 mysql-connector-python = "*"
 markdown = "*"
 flask-cors = "*"
+geopy = "*"
 
 [dev-packages]
 
