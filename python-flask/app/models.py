@@ -133,7 +133,7 @@ def http_feeling():
     local_search_params = { 'uid': ','.join(current_group[group_id]['Unanimous']) }
     return api_functions.get_restaurant_info_from_local_search_params(current_group[group_id]['Coordinates'], local_search_params)
 
-@app_.route('/test',methods=['GET'])
+@app_.route('/test', methods=['GET','POST'])
 # アクセスのテスト用,infoと同じ結果を返す
 def http_test():
     test_result_json = {"Restaurant_id": "a72a5ed2c330467bd4b4b01a0302bdf977ed00df", 
