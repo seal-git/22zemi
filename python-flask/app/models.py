@@ -5,6 +5,7 @@ from app import api_functions
 import mysql.connector
 from random import randint
 import os
+import json
 #from app.api_functions import get_restaurant_info_from_local_search_params
 
 """
@@ -132,4 +133,17 @@ def http_feeling():
     local_search_params = { 'uid': ','.join(current_group[group_id]['Unanimous']) }
     return api_functions.get_restaurant_info_from_local_search_params(current_group[group_id]['Coordinates'], local_search_params)
 
+@app_.route('/test',methods=['GET'])
+# アクセスのテスト用,infoと同じ
+def http_test():
+    test_result_json = {"Restaurant_id": "a72a5ed2c330467bd4b4b01a0302bdf977ed00df", 
+    "Name": "\u30a8\u30af\u30bb\u30eb\u30b7\u30aa\u30fc\u30eb\u3000\u30ab\u30d5\u30a7\u3000\u30db\u30c6\u30eb\u30b5\u30f3\u30eb\u30fc\u30c8\u8d64\u5742\u5e97", 
+    "Distance": 492.80934328345614, 
+    "CatchCopy": "test", 
+    "Price": "test", 
+    "TopRankItem": [], 
+    "CassetteOwnerLogoImage": "https://iwiz-olp.c.yimg.jp/c/olp/6e/6e6c4795b23a5e45540addb5ff6f0d00/info/55/09/logo/logo_doutor.png", 
+    "Images": []
+    }
 
+    return json.dumps(test_result_json)
