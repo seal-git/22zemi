@@ -1,4 +1,5 @@
 # 飯Tinder(仮称)
+名前決めましょう
 ## 起動方法
 docker-compose.ymlのあるディレクトリで
 
