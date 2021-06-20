@@ -14,7 +14,7 @@ mysqlサーバーとの接続はmysql.connectorで行っているが，SQLAlchem
 
 
 # 現在アプリを使っているグループやユーザを格納する
-current_group = {} # {group_id1: {'Coordinates': (lat,lon), 'Users': { 'user_id1: {'RequestCount': 0, 'Feeling': {restaurant_id1: true, ... }}, ... }, 'Unanimous': [restaurant_id1, ... ]}, ... }
+current_group = {} # {group_id1: {'Coordinates': (lat,lon), 'Users': { 'user_id1: {'RequestCount': 0, 'Feeling': {restaurant_id1: true, ... }, 'UnanimousNotice': [restaurant_id1, ... ]}, ... }, 'Unanimous': [restaurant_id1, ... ]}, ... }
 
 
 # mysqlサーバーと接続
@@ -103,13 +103,14 @@ def http_info():
     lon = 139.73284 # 経度
     
     if group_id not in current_group:
-        current_group[group_id] = {'Coordinates': (lat,lon), 'Users': {}, 'Unanimous': []}
+        current_group[group_id] = {'Coordinates': (lat,lon), 'Users': {}, 'Unanimous': set()}
     if user_id not in current_group[group_id]['Users']:
-        current_group[group_id]['Users'][user_id] = {'RequestCount': 0, 'Feeling': {}} # 1回目のリクエストは、ユーザを登録する
+        current_group[group_id]['Users'][user_id] = {'RequestCount': 0, 'Feeling': {}, 'UnanimousNotice': set()} # 1回目のリクエストは、ユーザを登録する
     else:
         current_group[group_id]['Users'][user_id]['RequestCount'] += 1 # 2回目以降のリクエストは、前回の続きの店舗情報を送る
 
     return search_restaurant_info(current_group[group_id]['Coordinates'], current_group[group_id]['Users'][user_id]['RequestCount'])
+
 
 @app_.route('/feeling', methods=['GET','POST'])
 # キープ・リジェクトの結果を受け取り、メモリに格納する。全会一致の店舗を知らせる。
@@ -124,26 +125,37 @@ def http_feeling():
     # 全会一致だったのをリジェクトしたら全会一致リストから消す
     if not feeling and restaurant_id in current_group[group_id]['Unanimous']:
         current_group[group_id]['Unanimous'].remove(restaurant_id)
+        for u in current_group[group_id]['Users'].values():
+            if restaurant_id in u['UnanimousNotice']:
+                u['UnanimousNotice'].remove(restaurant_id)
     
     # 全員一致だったらcurrent_groupに格納する
-    if feeling and all([ u['Feeling'][restaurant_id] for u in current_group[group_id]['Users'].values() ]):
-        current_group[group_id]['Unanimous'].append( restaurant_id )
+    if feeling and all([ u['Feeling'].get(restaurant_id) for u in current_group[group_id]['Users'].values() ]):
+        current_group[group_id]['Unanimous'].add( restaurant_id )
     
-    # 全会一致の店舗を知らせる
-    local_search_params = { 'uid': ','.join(current_group[group_id]['Unanimous']) }
-    return api_functions.get_restaurant_info_from_local_search_params(current_group[group_id]['Coordinates'], local_search_params)
+    # ふたり以上だったら全会一致の店舗を知らせる
+    if len(current_group[group_id]['Users']) >= 2 :
+        unnotice = current_group[group_id]['Unanimous'] - current_group[group_id]['Users'][user_id]['UnanimousNotice']
+        current_group[group_id]['Users'][user_id]['UnanimousNotice'] |= unnotice
+        local_search_params = { 'uid': ','.join(list(unnotice)) }
+        return api_functions.get_restaurant_info_from_local_search_params(current_group[group_id]['Coordinates'], local_search_params)
+    else:
+        return '{}'
+
 
 @app_.route('/test', methods=['GET','POST'])
 # アクセスのテスト用,infoと同じ結果を返す
 def http_test():
-    test_result_json = {"Restaurant_id": "a72a5ed2c330467bd4b4b01a0302bdf977ed00df", 
-    "Name": "\u30a8\u30af\u30bb\u30eb\u30b7\u30aa\u30fc\u30eb\u3000\u30ab\u30d5\u30a7\u3000\u30db\u30c6\u30eb\u30b5\u30f3\u30eb\u30fc\u30c8\u8d64\u5742\u5e97", 
+    test_result_json = [{"Restaurant_id": "a72a5ed2c330467bd4b4b01a0302bdf977ed00df", 
+    "Name": "\u30a8\u30af\u30bb\u30eb\u30b7\u30aa\u30fc\u30eb\u3000\u30ab\u30d5\u30a7\u3000\u30db\u30c6\u30eb\u30b5\u30f3\u30eb\u30fc\u30c8\u8d64\u5742\u5e97", # エクセルシオール　カフェ　ホテルサンルート赤坂店
     "Distance": 492.80934328345614, 
     "CatchCopy": "test", 
     "Price": "test", 
     "TopRankItem": [], 
     "CassetteOwnerLogoImage": "https://iwiz-olp.c.yimg.jp/c/olp/6e/6e6c4795b23a5e45540addb5ff6f0d00/info/55/09/logo/logo_doutor.png", 
     "Images": []
-    }
+    }]
 
     return json.dumps(test_result_json)
+
+
