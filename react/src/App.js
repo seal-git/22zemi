@@ -7,15 +7,20 @@ function App() {
   // setResult で result の値を更新するとリレンダリングが走る
   const [ result, setResult ] = useState('--')
 
-  // post の結果を result に反映させる
-  const getApi = () => {
-    let result = "r";
-    axios.post('/api/get_sample_db',{
+  // 飲食店の情報を api に要求して結果を result に反映させる
+  const getInfo = () => {
+    axios.post('/api/info',{ params: {
+      user_id:1,
+      group_id:1
+    }
     })
     .then(function(response){
-      result = JSON.stringify(response['data']['content']);
-      console.log("result:",result)
-      setResult(result)
+      let data = response['data'][0]
+      let restaurantName = data['Name']
+      let images = data['Images']
+      console.log("restaurantName:",restaurantName)
+      console.log("images:",images)
+      setResult(restaurantName)
     })
     .catch((error) => {
       console.log("error:",error);
@@ -28,7 +33,7 @@ function App() {
         Hello!
       </p>
         {<p>{result}</p>}
-        <button onClick={ ()=>{ getApi() } }>
+        <button onClick={ ()=>{ getInfo() } }>
           Update
         </button>
     </div>
