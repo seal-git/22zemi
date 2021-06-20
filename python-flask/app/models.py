@@ -133,7 +133,7 @@ def http_feeling():
     if feeling and all([ u['Feeling'].get(restaurant_id) for u in current_group[group_id]['Users'].values() ]):
         current_group[group_id]['Unanimous'].add( restaurant_id )
     
-    # ふたり以上だったら全会一致の店舗を知らせる
+    # ふたり以上だったら全会一致の店舗のうち、まだ知らせていないものを知らせる
     if len(current_group[group_id]['Users']) >= 2 :
         unnotice = current_group[group_id]['Unanimous'] - current_group[group_id]['Users'][user_id]['UnanimousNotice']
         current_group[group_id]['Users'][user_id]['UnanimousNotice'] |= unnotice
@@ -157,5 +157,38 @@ def http_test():
     }]
 
     return json.dumps(test_result_json)
+
+
+@app_.route('/popular', methods=['GET','POST'])
+# 得票数の多い店舗のリストを返す。1人のときはキープした店舗のリストを返す。
+def http_popular():
+    group_id = request.args.get('group_id')
+
+    restaurant_popular = {}
+    for u in current_group[group_id]['Users'].values():
+        for restaurant_id, feeling in u['Feeling'].items():
+            if restaurant_id not in restaurant_popular:
+                restaurant_popular[restaurant_id] = 1
+            else:
+                restaurant_popular[restaurant_id] += 1
+
+    if len(restaurant_popular) == 0:
+        return '[]'
+
+    popular_max = max( restaurant_popular.values() )
+    restaurant_id_list = [rid for rid,pop in restaurant_popular.items() if pop == popular_max]
+    local_search_params = { 'uid': ','.join(restaurant_id_list) }
+    return api_functions.get_restaurant_info_from_local_search_params(current_group[group_id]['Coordinates'], local_search_params)
+
+
+@app_.route('/history', methods=['GET','POST'])
+# ユーザに表示した店舗履のリストを返す。履歴。
+def http_history():
+    group_id = request.args.get('group_id')
+    user_id = request.args.get('user_id')
+
+    restaurant_id_list = list(current_group[group_id]['Users'][user_id]['Feeling'].keys())
+    local_search_params = { 'uid': ','.join(restaurant_id_list) }
+    return api_functions.get_restaurant_info_from_local_search_params(current_group[group_id]['Coordinates'], local_search_params)
 
 
