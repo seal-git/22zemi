@@ -33,11 +33,22 @@ if conn.is_connected():
     print("db connected!")
 
 
-# Yahoo local search APIで情報を取得し、json形式で情報を返す
-# @param coordinates : (int, int) : (緯度, 経度)のタプル
-# @param request_count : int : 何回目のリクエストかを指定する。回数に応じて別の店舗を返す。同じ値を指定したら同じ結果が返るはず。
-# @return : string : json形式
 def search_restaurant_info(coordinates, request_count):
+    '''
+    Yahoo local search APIで情報を検索し、json形式で情報を返す
+    
+    Parameters
+    ----------------
+    coordinates : (int, int)
+        (緯度, 経度)のタプル
+    request_count : int
+        何回目のリクエストかを指定する。回数に応じて別の店舗を返す。同じ値を指定したら同じ結果が返るはず。
+    
+    Returns
+    ----------------
+    restaurant_info : string
+        レスポンスするレストラン情報をjson形式で返す。
+    '''
     RESULTS_COUNT = 25 # 一回に取得する店舗の数
     
      # YahooローカルサーチAPIで検索するクエリ
@@ -55,6 +66,26 @@ def search_restaurant_info(coordinates, request_count):
     }
 
     # Yahoo local search APIで店舗情報を取得
+    return api_functions.get_restaurant_info_from_local_search_params(coordinates, local_search_params)
+
+
+def get_restaurant_info(coordinates, restaurant_ids):
+    '''
+    Yahoo local search APIで情報を取得し、json形式で情報を返す
+    
+    Parameters
+    ----------------
+    coordinates : (int, int)
+        (緯度, 経度)のタプル
+    restaurant_ids : [string]
+        restaurant_idのリスト
+    
+    Returns
+    ----------------
+    restaurant_info : string
+        レスポンスするレストラン情報をjson形式で返す。
+    '''
+    local_search_params = { 'uid': ','.join(restaurant_ids) }
     return api_functions.get_restaurant_info_from_local_search_params(coordinates, local_search_params)
 
 
@@ -137,8 +168,7 @@ def http_feeling():
     if len(current_group[group_id]['Users']) >= 2 :
         unnotice = current_group[group_id]['Unanimous'] - current_group[group_id]['Users'][user_id]['UnanimousNotice']
         current_group[group_id]['Users'][user_id]['UnanimousNotice'] |= unnotice
-        local_search_params = { 'uid': ','.join(list(unnotice)) }
-        return api_functions.get_restaurant_info_from_local_search_params(current_group[group_id]['Coordinates'], local_search_params)
+        return get_restaurant_info(current_group[group_id]['Coordinates'], list(unnotice))
     else:
         return '[]'
 
@@ -176,9 +206,8 @@ def http_popular():
         return '[]'
 
     popular_max = max( restaurant_popular.values() )
-    restaurant_id_list = [rid for rid,pop in restaurant_popular.items() if pop == popular_max]
-    local_search_params = { 'uid': ','.join(restaurant_id_list) }
-    return api_functions.get_restaurant_info_from_local_search_params(current_group[group_id]['Coordinates'], local_search_params)
+    restaurant_ids = [rid for rid,pop in restaurant_popular.items() if pop == popular_max]
+    return get_restaurant_info(current_group[group_id]['Coordinates'], restaurant_ids)
 
 
 @app_.route('/history', methods=['GET','POST'])
@@ -187,8 +216,6 @@ def http_history():
     group_id = request.args.get('group_id')
     user_id = request.args.get('user_id')
 
-    restaurant_id_list = list(current_group[group_id]['Users'][user_id]['Feeling'].keys())
-    local_search_params = { 'uid': ','.join(restaurant_id_list) }
-    return api_functions.get_restaurant_info_from_local_search_params(current_group[group_id]['Coordinates'], local_search_params)
-
+    restaurant_ids = list(current_group[group_id]['Users'][user_id]['Feeling'].keys())
+    return get_restaurant_info(current_group[group_id]['Coordinates'], restaurant_ids)
 
