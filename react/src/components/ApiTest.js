@@ -1,20 +1,21 @@
-
 import { useState } from "react"
 import axios from 'axios';
 
-function Home() {
+// APIを試す画面
+function ApiTest() {
   // setResult で result の値を更新するとリレンダリングが走る
   const [ result, setResult ] = useState('--')
 
   // 飲食店の情報を api に要求して結果を result に反映させる
   const getInfo = () => {
-    axios.post('/api/info',{ params: {
-      user_id:1,
-      group_id:1
+    axios.post('/api/test',{ params: {
+      user_id:"hoge",
+      group_id:"fuga"
     }
     })
     .then(function(response){
-      let data = response['data'][0]
+      let data = response['data']
+      console.log(data)
       let restaurantName = data['Name']
       let images = data['Images']
       console.log("restaurantName:",restaurantName)
@@ -27,7 +28,7 @@ function Home() {
   }
 
   return (
-    <div className="Home">
+    <div className="ApiTest">
       <p>
         Hello!
       </p>
@@ -39,4 +40,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default ApiTest;
