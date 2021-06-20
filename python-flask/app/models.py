@@ -155,6 +155,7 @@ def http_test():
 # 各店舗の得票数を返す
 def http_popular():
     group_id = request.args.get('group_id')
+
     popular_json = {} # {restaurant_id_1: 得票数, restaurant_id_2: 得票数, ... }
     for current_user in current_group[group_id]['Users'].values():
         for restaurant_id, feeling in current_user['Feeling'].items():
@@ -165,10 +166,12 @@ def http_popular():
                     popular_json[restaurant_id] = 1
     return json.dumps(popular_json)
 
+
 @app_.route('/popularDetail', methods=['GET','POST'])
-# 各店舗の得票数を返す
+# 各店舗に投票したユーザを返す
 def http_popular_detail():
     group_id = request.args.get('group_id')
+
     popular_json = {} # {restaurant_id_1: {'Keep': [user_id_1, ... ], 'All: [user_id_1, user_id_2, ...]'}, ... }
     for user_id, current_user in current_group[group_id]['Users'].items():
         for restaurant_id, feeling in current_user['Feeling'].items():
