@@ -36,7 +36,7 @@ def get_restaurant_info_from_local_search_params(coordinates, local_search_param
 
     # 検索の該当が無かったとき
     if local_search_json['ResultInfo']['Count'] == 0:
-        return "{}"
+        return "[]"
 
      # 現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
     now_time = datetime.datetime.now().hour + datetime.datetime.now().minute / 60

@@ -140,7 +140,7 @@ def http_feeling():
         local_search_params = { 'uid': ','.join(list(unnotice)) }
         return api_functions.get_restaurant_info_from_local_search_params(current_group[group_id]['Coordinates'], local_search_params)
     else:
-        return '{}'
+        return '[]'
 
 
 @app_.route('/test', methods=['GET','POST'])
