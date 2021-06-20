@@ -151,9 +151,9 @@ def http_test():
     return json.dumps(test_result_json)
 
 
-@app_.route('/popular', methods=['GET','POST'])
+@app_.route('/popular_count', methods=['GET','POST'])
 # 各店舗の得票数を返す
-def http_popular():
+def http_popular_count():
     group_id = request.args.get('group_id')
 
     popular_json = {} # {restaurant_id_1: 得票数, restaurant_id_2: 得票数, ... }
@@ -167,7 +167,7 @@ def http_popular():
     return json.dumps(popular_json)
 
 
-@app_.route('/popularDetail', methods=['GET','POST'])
+@app_.route('/popular_detail', methods=['GET','POST'])
 # 各店舗に投票したユーザを返す
 def http_popular_detail():
     group_id = request.args.get('group_id')
