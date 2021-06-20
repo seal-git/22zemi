@@ -126,7 +126,7 @@ def http_feeling():
         current_group[group_id]['Unanimous'].remove(restaurant_id)
     
     # 全員一致だったらcurrent_groupに格納する
-    if feeling and all([ u['Feeling'][restaurant_id] for u in current_group[group_id]['Users'].values() ]):
+    if feeling and all([ u['Feeling'].get(restaurant_id) for u in current_group[group_id]['Users'].values() ]):
         current_group[group_id]['Unanimous'].append( restaurant_id )
     
     # 全会一致の店舗を知らせる
@@ -136,14 +136,16 @@ def http_feeling():
 @app_.route('/test', methods=['GET','POST'])
 # アクセスのテスト用,infoと同じ結果を返す
 def http_test():
-    test_result_json = {"Restaurant_id": "a72a5ed2c330467bd4b4b01a0302bdf977ed00df", 
-    "Name": "\u30a8\u30af\u30bb\u30eb\u30b7\u30aa\u30fc\u30eb\u3000\u30ab\u30d5\u30a7\u3000\u30db\u30c6\u30eb\u30b5\u30f3\u30eb\u30fc\u30c8\u8d64\u5742\u5e97", 
-    "Distance": 492.80934328345614, 
-    "CatchCopy": "test", 
-    "Price": "test", 
-    "TopRankItem": [], 
-    "CassetteOwnerLogoImage": "https://iwiz-olp.c.yimg.jp/c/olp/6e/6e6c4795b23a5e45540addb5ff6f0d00/info/55/09/logo/logo_doutor.png", 
-    "Images": []
+    test_result_json = {
+        "Restaurant_id": "a72a5ed2c330467bd4b4b01a0302bdf977ed00df", 
+        "Name": "\u30a8\u30af\u30bb\u30eb\u30b7\u30aa\u30fc\u30eb\u3000\u30ab\u30d5\u30a7\u3000\u30db\u30c6\u30eb\u30b5\u30f3\u30eb\u30fc\u30c8\u8d64\u5742\u5e97", # エクセルシオール　カフェ　ホテルサンルート赤坂店
+        "Distance": 492.80934328345614, 
+        "CatchCopy": "test", 
+        "Price": "test", 
+        "TopRankItem": [], 
+        "CassetteOwnerLogoImage": "https://iwiz-olp.c.yimg.jp/c/olp/6e/6e6c4795b23a5e45540addb5ff6f0d00/info/55/09/logo/logo_doutor.png", 
+        "Images": []
     }
 
     return json.dumps(test_result_json)
+
