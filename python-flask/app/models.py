@@ -133,6 +133,7 @@ def http_feeling():
     local_search_params = { 'uid': ','.join(current_group[group_id]['Unanimous']) }
     return api_functions.get_restaurant_info_from_local_search_params(current_group[group_id]['Coordinates'], local_search_params)
 
+
 @app_.route('/test', methods=['GET','POST'])
 # アクセスのテスト用,infoと同じ結果を返す
 def http_test():
@@ -148,4 +149,19 @@ def http_test():
     }
 
     return json.dumps(test_result_json)
+
+
+@app_.route('/popular', methods=['GET','POST'])
+# 各店舗の得票数を返す
+def http_popular():
+    group_id = request.args.get('group_id')
+    popular_json = {}
+    for current_user in current_group[group_id]['Users'].values():
+        for restaurant_id, feeling in current_user['Feeling'].items():
+            if feeling:
+                if restaurant_id in popular_json:
+                    popular_json[restaurant_id] += 1
+                else:
+                    popular_json[restaurant_id] = 1
+    return json.dumps(popular_json)
 
