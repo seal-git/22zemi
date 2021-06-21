@@ -166,16 +166,10 @@ def http_feeling():
     
     # ふたり以上だったら全会一致の店舗のうち、まだ知らせていないものを知らせる
     if len(current_group[group_id]['Users']) >= 2 :
-<<<<<<< HEAD
-        unnotice = current_group[group_id]['Unanimous'] - current_group[group_id]['Users'][user_id]['UnanimousNotice']
-        current_group[group_id]['Users'][user_id]['UnanimousNotice'] |= unnotice
-        return get_restaurant_info(current_group[group_id]['Coordinates'], list(unnotice))
-=======
         new_unanimous = current_group[group_id]['Unanimous'] - current_group[group_id]['Users'][user_id]['UnanimousNoticed']
         current_group[group_id]['Users'][user_id]['UnanimousNoticed'] |= new_unanimous
         local_search_params = { 'uid': ','.join(list(new_unanimous)) }
         return api_functions.get_restaurant_info_from_local_search_params(current_group[group_id]['Coordinates'], local_search_params)
->>>>>>> list_backend
     else:
         return '[]'
 
