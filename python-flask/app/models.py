@@ -195,8 +195,8 @@ def http_history():
 @app_.route('/decision', methods=['GET','POST'])
 # 現状はアクセスのテスト用,最終決定時のURL
 def http_dicision():
-    
-    return {"decision":"test"}
+    decision_json = {"decision":"test"}
+    return decision_json
 
 @app_.route('/test', methods=['GET','POST'])
 # アクセスのテスト用,infoと同じ結果を返す
