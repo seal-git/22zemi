@@ -158,4 +158,8 @@ def http_test():
 
     return json.dumps(test_result_json)
 
-
+@app_.route('/decision', methods=['GET','POST'])
+# 現状はアクセスのテスト用,最終決定時のURL
+def http_dicision():
+    
+    return {"decision":"test"}
