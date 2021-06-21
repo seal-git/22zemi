@@ -2,7 +2,7 @@
 function Group() {
   return (
     <div className="Group">
-        <h1>工事中</h1>
+        <h1>みんなで</h1>
     </div>
   );
 }

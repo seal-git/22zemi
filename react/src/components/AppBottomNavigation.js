@@ -1,19 +1,20 @@
-import React from 'react';
+import { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
-import MenuBookIcon from '@material-ui/icons/MenuBook';
-import TouchAppIcon from '@material-ui/icons/TouchApp';
+import PersonIcon from '@material-ui/icons/Person';
+import GroupIcon from '@material-ui/icons/Group';
+import SettingsIcon from '@material-ui/icons/Settings';
 
 const useStyles = makeStyles({
   root: {
   },
 });
 
-// ナビゲーションを使ってみる
+// ナビゲーション
 export default function AppBottomNavigation(props) {
   const classes = useStyles();
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = useState(0);
 
   return (
     <div className='AppBottomNavigation'>
@@ -25,8 +26,9 @@ export default function AppBottomNavigation(props) {
       showLabels
       className={classes.root}
     >
-      <BottomNavigationAction label="Swipe" icon={<TouchAppIcon />} onClick={()=>{ props.setView("Swipe") }} />
-      <BottomNavigationAction label="Keep List" icon={<MenuBookIcon />} onClick={()=>{ props.setView("KeepList")}}/>
+      <BottomNavigationAction label="ひとりで" icon={<PersonIcon />} onClick={()=>{ props.setView("Alone") }} />
+      <BottomNavigationAction label="設定" icon={<SettingsIcon />} onClick={()=>{ props.setView("Setting") }} />
+      <BottomNavigationAction label="みんなで" icon={<GroupIcon />} onClick={()=>{ props.setView("Group") }} />
     </BottomNavigation>
     </div>
   );
