@@ -209,6 +209,11 @@ def http_test():
 
     return json.dumps(test_result_json)
 
+@app_.route('/decision', methods=['GET','POST'])
+# 現状はアクセスのテスト用,最終決定時のURL
+def http_dicision():
+    
+    return {"decision":"test"}
 
 @app_.route('/popular', methods=['GET','POST'])
 # 得票数の多い店舗のリストを返す。1人のときはキープした店舗のリストを返す。
@@ -241,4 +246,3 @@ def http_history():
 
     restaurant_ids = list(current_group[group_id]['Users'][user_id]['Feeling'].keys())
     return get_restaurant_info(current_group[group_id]['Coordinates'], restaurant_ids)
-
