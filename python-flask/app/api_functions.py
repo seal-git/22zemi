@@ -17,7 +17,7 @@ def get_restaurant_info_from_local_search_params(coordinates, local_search_param
     Returns
     ----------------
     restaurant_info : string
-        クライアントに送信するjson
+        レスポンスするレストラン情報をjson形式で返す。
     '''
     
     MAX_LIST_COUNT = 10
