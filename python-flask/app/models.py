@@ -14,7 +14,7 @@ mysqlサーバーとの接続はmysql.connectorで行っているが，SQLAlchem
 
 
 # 現在アプリを使っているグループやユーザを格納する
-current_group = {} # {group_id1: {'Coordinates': (lat,lon), 'Users': { 'user_id1: {'RequestCount': 0, 'Feeling': {restaurant_id1: true, ... }, 'UnanimousNotice': [restaurant_id1, ... ]}, ... }, 'Unanimous': [restaurant_id1, ... ]}, ... }
+current_group = {} # {group_id1: {'Coordinates': (lat,lon), 'Users': { 'user_id1: {'RequestCount': 0, 'Feeling': {restaurant_id1: true, ... }, 'UnanimousNoticed': [restaurant_id1, ... ]}, ... }, 'Unanimous': [restaurant_id1, ... ]}, ... }
 
 
 # mysqlサーバーと接続
@@ -136,7 +136,7 @@ def http_info():
     if group_id not in current_group:
         current_group[group_id] = {'Coordinates': (lat,lon), 'Users': {}, 'Unanimous': set()}
     if user_id not in current_group[group_id]['Users']:
-        current_group[group_id]['Users'][user_id] = {'RequestCount': 0, 'Feeling': {}, 'UnanimousNotice': set()} # 1回目のリクエストは、ユーザを登録する
+        current_group[group_id]['Users'][user_id] = {'RequestCount': 0, 'Feeling': {}, 'UnanimousNoticed': set()} # 1回目のリクエストは、ユーザを登録する
     else:
         current_group[group_id]['Users'][user_id]['RequestCount'] += 1 # 2回目以降のリクエストは、前回の続きの店舗情報を送る
 
@@ -157,8 +157,8 @@ def http_feeling():
     if not feeling and restaurant_id in current_group[group_id]['Unanimous']:
         current_group[group_id]['Unanimous'].remove(restaurant_id)
         for u in current_group[group_id]['Users'].values():
-            if restaurant_id in u['UnanimousNotice']:
-                u['UnanimousNotice'].remove(restaurant_id)
+            if restaurant_id in u['UnanimousNoticed']:
+                u['UnanimousNoticed'].remove(restaurant_id)
     
     # 全員一致だったらcurrent_groupに格納する
     if feeling and all([ u['Feeling'].get(restaurant_id) for u in current_group[group_id]['Users'].values() ]):
@@ -166,9 +166,16 @@ def http_feeling():
     
     # ふたり以上だったら全会一致の店舗のうち、まだ知らせていないものを知らせる
     if len(current_group[group_id]['Users']) >= 2 :
+<<<<<<< HEAD
         unnotice = current_group[group_id]['Unanimous'] - current_group[group_id]['Users'][user_id]['UnanimousNotice']
         current_group[group_id]['Users'][user_id]['UnanimousNotice'] |= unnotice
         return get_restaurant_info(current_group[group_id]['Coordinates'], list(unnotice))
+=======
+        new_unanimous = current_group[group_id]['Unanimous'] - current_group[group_id]['Users'][user_id]['UnanimousNoticed']
+        current_group[group_id]['Users'][user_id]['UnanimousNoticed'] |= new_unanimous
+        local_search_params = { 'uid': ','.join(list(new_unanimous)) }
+        return api_functions.get_restaurant_info_from_local_search_params(current_group[group_id]['Coordinates'], local_search_params)
+>>>>>>> list_backend
     else:
         return '[]'
 
