@@ -33,6 +33,24 @@ if conn.is_connected():
     print("db connected!")
 
 
+def get_group_id(user_id):
+    '''
+    ユーザIDからグループIDを得る。グループIDを指定しない場合にはこの関数を使う。グループIDを指定する場合はユーザIDに重複があっても良いが、グループIDを指定しない場合にはユーザIDに重複があってはいけない。
+    
+    Parameters
+    ----------------
+    user_id : string
+    
+    Returns
+    ----------------
+    group_id : string
+    '''
+    for gid,g in current_group.items():
+        if user_id in g['Users'].keys():
+            return gid
+    return None
+
+
 def search_restaurant_info(coordinates, request_count):
     '''
     Yahoo local search APIで情報を検索し、json形式で情報を返す
@@ -128,6 +146,7 @@ def http_info():
     user_id = request.args.get('user_id')
     group_id = request.args.get('group_id')
     # coordinates = request.args.get('coordinates') # 位置情報
+    group_id = group_id if group_id != None else get_group_id(user_id)
     
     # Yahoo本社の座標を決め打ち
     lat = 35.68001 # 緯度
@@ -150,6 +169,7 @@ def http_feeling():
     group_id = request.args.get('group_id')
     restaurant_id = request.args.get('restaurant_id')
     feeling = request.args.get('feeling')
+    group_id = group_id if group_id != None else get_group_id(user_id)
     
     current_group[group_id]['Users'][user_id]['Feeling'][restaurant_id] = feeling
     
@@ -194,6 +214,7 @@ def http_test():
 # 得票数の多い店舗のリストを返す。1人のときはキープした店舗のリストを返す。
 def http_popular():
     group_id = request.args.get('group_id')
+    group_id = group_id if group_id != None else get_group_id(request.args.get('user_id'))
 
     restaurant_popular = {}
     for u in current_group[group_id]['Users'].values():
@@ -216,6 +237,7 @@ def http_popular():
 def http_history():
     group_id = request.args.get('group_id')
     user_id = request.args.get('user_id')
+    group_id = group_id if group_id != None else get_group_id(user_id)
 
     restaurant_ids = list(current_group[group_id]['Users'][user_id]['Feeling'].keys())
     return get_restaurant_info(current_group[group_id]['Coordinates'], restaurant_ids)
