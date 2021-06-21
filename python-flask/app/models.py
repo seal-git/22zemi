@@ -6,16 +6,13 @@ import mysql.connector
 from random import randint
 import os
 import json
-#from app.api_functions import get_restaurant_info_from_local_search_params
 
 """
 mysqlサーバーとの接続はmysql.connectorで行っているが，SQLAlchemyへ換装したい．
 """
 
-
 # 現在アプリを使っているグループやユーザを格納する
 current_group = {} # {group_id1: {'Coordinates': (lat,lon), 'Users': { 'user_id1: {'RequestCount': 0, 'Feeling': {restaurant_id1: true, ... }, 'UnanimousNoticed': [restaurant_id1, ... ]}, ... }, 'Unanimous': [restaurant_id1, ... ]}, ... }
-
 
 # mysqlサーバーと接続
 conn = mysql.connector.connect(
@@ -26,12 +23,10 @@ conn = mysql.connector.connect(
     database = 'sample_db'
 )
 
-
 # mysqlサーバーとの接続を確認
 conn.ping(reconnect=True)
 if conn.is_connected():
     print("db connected!")
-
 
 def search_restaurant_info(coordinates, request_count):
     '''
@@ -68,7 +63,6 @@ def search_restaurant_info(coordinates, request_count):
     # Yahoo local search APIで店舗情報を取得
     return api_functions.get_restaurant_info_from_local_search_params(coordinates, local_search_params)
 
-
 def get_restaurant_info(coordinates, restaurant_ids):
     '''
     Yahoo local search APIで情報を取得し、json形式で情報を返す
@@ -88,7 +82,6 @@ def get_restaurant_info(coordinates, restaurant_ids):
     local_search_params = { 'uid': ','.join(restaurant_ids) }
     return api_functions.get_restaurant_info_from_local_search_params(coordinates, local_search_params)
 
-
 #@app_.after_request
 # CORS対策で追記したがうまく働いていない？
 # def after_request(response):
@@ -97,7 +90,6 @@ def get_restaurant_info(coordinates, restaurant_ids):
 #     response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
 #     response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
 #     return response
-
 
 @app_.route('/get_sample_db', methods=['POST'])
 # ランダムにsample_db.sample_tableから一つ取得
@@ -121,7 +113,6 @@ def get_sample_db():
     cur.close()
     return make_response(jsonify(result))
 
-
 @app_.route('/info', methods=['GET','POST'])
 # 店情報を要求するリクエスト
 def http_info():
@@ -141,7 +132,6 @@ def http_info():
         current_group[group_id]['Users'][user_id]['RequestCount'] += 1 # 2回目以降のリクエストは、前回の続きの店舗情報を送る
 
     return search_restaurant_info(current_group[group_id]['Coordinates'], current_group[group_id]['Users'][user_id]['RequestCount'])
-
 
 @app_.route('/feeling', methods=['GET','POST'])
 # キープ・リジェクトの結果を受け取り、メモリに格納する。全会一致の店舗を知らせる。
@@ -173,23 +163,6 @@ def http_feeling():
     else:
         return '[]'
 
-
-@app_.route('/test', methods=['GET','POST'])
-# アクセスのテスト用,infoと同じ結果を返す
-def http_test():
-    test_result_json = [{"Restaurant_id": "a72a5ed2c330467bd4b4b01a0302bdf977ed00df", 
-    "Name": "\u30a8\u30af\u30bb\u30eb\u30b7\u30aa\u30fc\u30eb\u3000\u30ab\u30d5\u30a7\u3000\u30db\u30c6\u30eb\u30b5\u30f3\u30eb\u30fc\u30c8\u8d64\u5742\u5e97", # エクセルシオール　カフェ　ホテルサンルート赤坂店
-    "Distance": 492.80934328345614, 
-    "CatchCopy": "test", 
-    "Price": "test", 
-    "TopRankItem": [], 
-    "CassetteOwnerLogoImage": "https://iwiz-olp.c.yimg.jp/c/olp/6e/6e6c4795b23a5e45540addb5ff6f0d00/info/55/09/logo/logo_doutor.png", 
-    "Images": []
-    }]
-
-    return json.dumps(test_result_json)
-
-
 @app_.route('/popular', methods=['GET','POST'])
 # 得票数の多い店舗のリストを返す。1人のときはキープした店舗のリストを返す。
 def http_popular():
@@ -210,7 +183,6 @@ def http_popular():
     restaurant_ids = [rid for rid,pop in restaurant_popular.items() if pop == popular_max]
     return get_restaurant_info(current_group[group_id]['Coordinates'], restaurant_ids)
 
-
 @app_.route('/history', methods=['GET','POST'])
 # ユーザに表示した店舗履のリストを返す。履歴。
 def http_history():
@@ -220,3 +192,23 @@ def http_history():
     restaurant_ids = list(current_group[group_id]['Users'][user_id]['Feeling'].keys())
     return get_restaurant_info(current_group[group_id]['Coordinates'], restaurant_ids)
 
+@app_.route('/decision', methods=['GET','POST'])
+# 現状はアクセスのテスト用,最終決定時のURL
+def http_dicision():
+    
+    return {"decision":"test"}
+
+@app_.route('/test', methods=['GET','POST'])
+# アクセスのテスト用,infoと同じ結果を返す
+def http_test():
+    test_result_json = [{"Restaurant_id": "a72a5ed2c330467bd4b4b01a0302bdf977ed00df", 
+    "Name": "\u30a8\u30af\u30bb\u30eb\u30b7\u30aa\u30fc\u30eb\u3000\u30ab\u30d5\u30a7\u3000\u30db\u30c6\u30eb\u30b5\u30f3\u30eb\u30fc\u30c8\u8d64\u5742\u5e97", # エクセルシオール　カフェ　ホテルサンルート赤坂店
+    "Distance": 492.80934328345614, 
+    "CatchCopy": "test", 
+    "Price": "test", 
+    "TopRankItem": [], 
+    "CassetteOwnerLogoImage": "https://iwiz-olp.c.yimg.jp/c/olp/6e/6e6c4795b23a5e45540addb5ff6f0d00/info/55/09/logo/logo_doutor.png", 
+    "Images": []
+    }]
+
+    return json.dumps(test_result_json)
