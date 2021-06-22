@@ -65,21 +65,41 @@ def get_restaurant_info_from_local_search_params(coordinates, local_search_param
 def get_lat_lon(query):
     '''
     緯度，経度をfloatで返す関数
-    example：
-    input：query = "千代田区"
-    output：lat = 35.69404120, lon = 139.75358630
+
+    Parameters
+    ----------------
+    query : string
+        場所のキーワードや住所
+        例：千代田区
+    
+    Returns
+    ----------------
+    lat, lon : float
+        queryで入力したキーワード周辺の緯度経度を返す
+        例：lat = 35.69404120, lon = 139.75358630
+    
+    例外処理
+    ----------------
+    不適切なqueryを入力した場合，Yahoo!本社の座標を返す
     '''
+
     geo_coder_url = "https://map.yahooapis.jp/geocode/cont/V1/contentsGeoCoder"
     params = {
         "appid": os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
         "output": "json",
         "query": query
     }
-    response = requests.get(geo_coder_url, params=params)
-    response = response.json()
-    geometry = response["Feature"][0]["Geometry"]
-    coordinates = geometry["Coordinates"].split(",")
-    lon = float(coordinates[0])
-    lat = float(coordinates[1])
+    try:
+        response = requests.get(geo_coder_url, params=params)
+        response = response.json()
+        geometry = response["Feature"][0]["Geometry"]
+        coordinates = geometry["Coordinates"].split(",")
+        lon = float(coordinates[0])
+        lat = float(coordinates[1])
+    except:
+        # Yahoo!本社の座標
+        lon = 139.73284
+        lat = 35.68001 
+        
     return lat, lon
 
