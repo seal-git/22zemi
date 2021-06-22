@@ -45,7 +45,7 @@ def get_group_id(user_id):
             return gid
     return None
 
-def search_restaurant_info(coordinates, request_count):
+def search_restaurant_info(coordinates, request_count, address):
     '''
     Yahoo local search APIで情報を検索し、json形式で情報を返す
     
@@ -78,7 +78,7 @@ def search_restaurant_info(coordinates, request_count):
     }
 
     # Yahoo local search APIで店舗情報を取得
-    return api_functions.get_restaurant_info_from_local_search_params(coordinates, local_search_params)
+    return api_functions.get_restaurant_info_from_local_search_params(coordinates, local_search_params, address)
 
 def get_restaurant_info(coordinates, restaurant_ids):
     '''
@@ -137,19 +137,19 @@ def http_info():
     group_id = request.args.get('group_id')
     # coordinates = request.args.get('coordinates') # 位置情報
     group_id = group_id if group_id != None else get_group_id(user_id)
-    
-    # Yahoo本社の座標を決め打ち
-    lat = 35.68001 # 緯度
-    lon = 139.73284 # 経度
+
+    # Yahoo本社の住所
+    address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-"
+    lat, lon = api_functions.get_lat_lon(address)
     
     if group_id not in current_group:
-        current_group[group_id] = {'Coordinates': (lat,lon), 'Users': {}, 'Unanimous': set()}
+        current_group[group_id] = {'Coordinates': (lat,lon), 'Address': address, 'Users': {}, 'Unanimous': set()}
     if user_id not in current_group[group_id]['Users']:
         current_group[group_id]['Users'][user_id] = {'RequestCount': 0, 'Feeling': {}, 'UnanimousNoticed': set()} # 1回目のリクエストは、ユーザを登録する
     else:
         current_group[group_id]['Users'][user_id]['RequestCount'] += 1 # 2回目以降のリクエストは、前回の続きの店舗情報を送る
 
-    return search_restaurant_info(current_group[group_id]['Coordinates'], current_group[group_id]['Users'][user_id]['RequestCount'])
+    return search_restaurant_info(current_group[group_id]['Coordinates'], current_group[group_id]['Users'][user_id]['RequestCount'], current_group[group_id]['Address'])
 
 @app_.route('/feeling', methods=['GET','POST'])
 # キープ・リジェクトの結果を受け取り、メモリに格納する。全会一致の店舗を知らせる。
