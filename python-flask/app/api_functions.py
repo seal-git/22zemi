@@ -54,6 +54,8 @@ def get_restaurant_info_from_local_search_params(coordinates, local_search_param
         result_json[i]['Price'] = feature['Property']['Detail']['LunchPrice'] if lunch_or_dinner == 'lunch' and feature['Property']['Detail'].get('LunchFlag') == True else feature['Property']['Detail'].get('DinnerPrice')
         result_json[i]['TopRankItem'] = [feature['Property']['Detail']['TopRankItem'+str(j)] for j in range(MAX_LIST_COUNT) if 'TopRankItem'+str(j) in feature['Property']['Detail']] # TopRankItem1, TopRankItem2 ... のキーをリストに。
         result_json[i]['CassetteOwnerLogoImage'] = feature['Property']['Detail'].get('CassetteOwnerLogoImage')
+        result_json[i]['Category'] = ",".join(feature['Category'][0].split(",")[:3])
+        result_json[i]['UrlYahooLoco'] = "https://loco.yahoo.co.jp/place/" + result_json[i]['Restaurant_id']
         result_json[i]['UrlYahooMap'] = "https://map.yahoo.co.jp/route/walk?from=" + address + "&to=" + result_json[i]['Address']
 
         lead_image = [feature['Property']['LeadImage']] if 'LeadImage' in feature['Property'] else []
