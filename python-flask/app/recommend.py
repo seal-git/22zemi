@@ -32,10 +32,16 @@ def recommend_simple(current_group, group_id, user_id):
 
 
 def recommend_industry_code(current_group, group_id, user_id):
+    '''
+    業種コードによるレコメンド
+    '''
     # TODO: 業種コードによるレコメンド
     return [], []
 
 def recommend_review(current_group, group_id, user_id):
+    '''
+    口コミによるレコメンド
+    '''
     # TODO: 口コミによるレコメンド
     return [], []
 
