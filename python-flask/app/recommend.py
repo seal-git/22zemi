@@ -3,6 +3,7 @@ import json
 
 RESULTS_COUNT = 3 # 一回に返す店舗の数
 
+
 def recommend_simple(current_group, group_id, user_id):
     '''
     レコメンドは Yahoo Local Search に任せる
@@ -31,19 +32,19 @@ def recommend_simple(current_group, group_id, user_id):
     return json.dumps(result_json, ensure_ascii=False)
 
 
-def recommend_industry_code(current_group, group_id, user_id):
+def recommend_industry(current_group, group_id, user_id):
     '''
     業種コードによるレコメンド
     '''
     # TODO: 業種コードによるレコメンド
-    return []
+    return '[]'
 
 def recommend_review(current_group, group_id, user_id):
     '''
     口コミによるレコメンド
     '''
     # TODO: 口コミによるレコメンド
-    return []
+    return '[]'
 
 
 def recommend_template(current_group, group_id, user_id):
@@ -87,7 +88,7 @@ def recommend_template(current_group, group_id, user_id):
 
 def local_search_test(current_group, group_id, user_id):
     '''
-    Yahoo Local Searchの出力を見る
+    simpleのYahoo Local Searchの出力を見る
     '''
     coordinates = current_group[group_id]['Coordinates']
     address = current_group[group_id]['Address']
@@ -134,8 +135,8 @@ def recommend_main(current_group, group_id, user_id, recommend_method):
         result_json = recommend_simple(current_group, group_id, user_id)
     elif recommend_method == 'template':
         result_json = recommend_template(current_group, group_id, user_id)
-    elif recommend_method == 'industry_code':
-        result_json = recommend_industry_code(current_group, group_id, user_id)
+    elif recommend_method == 'industry':
+        result_json = recommend_industry(current_group, group_id, user_id)
     elif recommend_method == 'review':
         result_json = recommend_review(current_group, group_id, user_id)
     elif recommend_method == 'local_search_test':
