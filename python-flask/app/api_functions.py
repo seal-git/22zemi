@@ -1,16 +1,19 @@
 import requests
-import json
 import os
 import datetime
 from geopy.distance import great_circle
 
 
-def get_restaurant_info_from_local_search_params(coordinates, local_search_params, address):
+def get_restaurant_info_from_local_search_params(coordinates, address, local_search_params):
     '''
     Yahoo local search APIで取得した店舗情報(feature)を、クライアントに送信するjsonの形式に変換する。
     
     Parameters
     ----------------
+    coordinates : (int, int)
+        (緯度, 経度)のタプル
+    address : string
+        住所
     local_search_params : dictionary
         Yahoo local search APIに送信するクエリ
     
@@ -21,7 +24,7 @@ def get_restaurant_info_from_local_search_params(coordinates, local_search_param
     '''
     
     MAX_LIST_COUNT = 10
-    lunch_time_start = 10
+    lunch_time_start = 10 # 現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
     lunch_time_end = 15
 
     # Yahoo local search APIで店舗情報を取得
@@ -54,7 +57,7 @@ def get_restaurant_info_from_local_search_params(coordinates, local_search_param
         result_json[i]['Price'] = feature['Property']['Detail']['LunchPrice'] if lunch_or_dinner == 'lunch' and feature['Property']['Detail'].get('LunchFlag') == True else feature['Property']['Detail'].get('DinnerPrice')
         result_json[i]['TopRankItem'] = [feature['Property']['Detail']['TopRankItem'+str(j)] for j in range(MAX_LIST_COUNT) if 'TopRankItem'+str(j) in feature['Property']['Detail']] # TopRankItem1, TopRankItem2 ... のキーをリストに。
         result_json[i]['CassetteOwnerLogoImage'] = feature['Property']['Detail'].get('CassetteOwnerLogoImage')
-        result_json[i]['Category'] = feature['Category'][0].split(",")[-1]
+        result_json[i]['Category'] = ','.join(feature['Category'][0].split(",")[-2:-1]) if len(feature['Category']) != 0 else ''
         result_json[i]['UrlYahooLoco'] = "https://loco.yahoo.co.jp/place/" + result_json[i]['Restaurant_id']
         result_json[i]['UrlYahooMap'] = "https://map.yahoo.co.jp/route/walk?from=" + address + "&to=" + result_json[i]['Address']
 
@@ -63,7 +66,7 @@ def get_restaurant_info_from_local_search_params(coordinates, local_search_param
         persistency_image_n = [feature['Property']['Detail']['PersistencyImage'+str(j)] for j in range(MAX_LIST_COUNT) if 'PersistencyImage'+str(j) in feature['Property']['Detail']] # PersistencyImage1, PersistencyImage2 ... のキーをリストに。
         result_json[i]['Images'] = lead_image + image_n + persistency_image_n
 
-    return json.dumps(result_json, ensure_ascii=False)
+    return local_search_json, result_json
 
 
 def get_lat_lon(query):
