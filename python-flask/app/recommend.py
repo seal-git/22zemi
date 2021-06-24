@@ -4,7 +4,7 @@ import json
 RESULTS_COUNT = 3 # 一回に返す店舗の数
 
 
-def recommend_simple(current_group, group_id, user_id):
+def recommend_simple(current_group, group_id, user_id, recommend_method):
     '''
     レコメンドは Yahoo Local Search に任せる
     '''
@@ -21,7 +21,7 @@ def recommend_simple(current_group, group_id, user_id):
         'gc': '01', # グルメ
         'image': True, # 画像がある店
         # 'open': 'now', # 現在開店している店舗 # TODO
-        'sort': 'hybrid', # 評価や距離などを総合してソート
+        'sort': recommend_method, # hyblid # 評価や距離などを総合してソート
         'start': RESULTS_COUNT * request_count, # 表示範囲：開始位置
         'results': RESULTS_COUNT # 表示範囲：店舗数
     }
@@ -126,10 +126,18 @@ def recommend_main(current_group, group_id, user_id, recommend_method):
     restaurant_info : string
         レスポンスするレストラン情報をjson形式で返す。
     '''
+    ratingは、星の数順にソートします。
+scoreは、スコア順にソートします。
+hybridは、口コミ件数や星の数などを重み付けした値の順にソートします。
+reviewは、口コミ件数にソートします。
+kanaは、アイウエオ順にソートします。
+priceは、金額順にソートします。
+distは、2点間の直線距離順にソートします。（geoより高速です）
+geoは、球面三角法による2点間の距離順にソートします。
     
     # TODO: レコメンド関数の追加
-    if recommend_method == 'simple':
-        result_json = recommend_simple(current_group, group_id, user_id)
+    if recommend_method in ['rating', 'score', 'hyblid', 'review', 'kana', 'price', 'dist', 'geo', '-rating', '-score', '-hyblid', '-review', '-kana', '-price', '-dist', '-geo']:
+        result_json = recommend_simple(current_group, group_id, user_id, recommend_method)
     elif recommend_method == 'template':
         result_json = recommend_template(current_group, group_id, user_id)
     elif recommend_method == 'industry':
@@ -139,7 +147,7 @@ def recommend_main(current_group, group_id, user_id, recommend_method):
     elif recommend_method == 'local_search_test':
         result_json = local_search_test(current_group, group_id, user_id)
     else:
-        result_json = recommend_simple(current_group, group_id, user_id)
+        result_json = recommend_simple(current_group, group_id, user_id, 'hyblid')
 
     return result_json
 

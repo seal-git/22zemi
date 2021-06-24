@@ -6,6 +6,7 @@ import mysql.connector
 from random import randint
 import os
 import json
+import random
 
 """
 mysqlサーバーとの接続はmysql.connectorで行っているが，SQLAlchemyへ換装したい．
@@ -96,6 +97,14 @@ def get_sample_db():
 
     cur.close()
     return make_response(jsonify(result))
+
+@app_.route('/init', methods=['GET','POST'])
+# まだ使われていないグループIDを返すだけ
+def http_init():
+    for i in range(1000000):
+        group_id = str(randint(0, 999999))
+        if group_id not in current_group:
+            return group_id
 
 @app_.route('/info', methods=['GET','POST'])
 # 店情報を要求するリクエスト
