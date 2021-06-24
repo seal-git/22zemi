@@ -1,7 +1,7 @@
 # from sqlalchemy import *
 from flask import jsonify, make_response, request
 from app import app_, db_
-from app import api_functions
+from app import recommend, api_functions
 import mysql.connector
 from random import randint
 import os
@@ -44,41 +44,6 @@ def get_group_id(user_id):
         if user_id in g['Users'].keys():
             return gid
     return None
-
-def search_restaurant_info(coordinates, request_count, address):
-    '''
-    Yahoo local search APIで情報を検索し、json形式で情報を返す
-    
-    Parameters
-    ----------------
-    coordinates : (int, int)
-        (緯度, 経度)のタプル
-    request_count : int
-        何回目のリクエストかを指定する。回数に応じて別の店舗を返す。同じ値を指定したら同じ結果が返るはず。
-    
-    Returns
-    ----------------
-    restaurant_info : string
-        レスポンスするレストラン情報をjson形式で返す。
-    '''
-    RESULTS_COUNT = 25 # 一回に取得する店舗の数
-    
-     # YahooローカルサーチAPIで検索するクエリ
-    local_search_params = {
-        # 中心地から1km以内のグルメを検索
-        'lat': coordinates[0], # 緯度
-        'lon': coordinates[1], # 経度
-        'dist': 3, # 中心地点からの距離 # 最大20km
-        'gc': '01', # グルメ
-        'image': True, # 画像がある店
-        'open': 'now', # 現在開店している店舗
-        'sort': 'hybrid', # 評価や距離などを総合してソート
-        'start': RESULTS_COUNT * request_count, # 表示範囲：開始位置
-        'results': RESULTS_COUNT # 表示範囲：店舗数
-    }
-
-    # Yahoo local search APIで店舗情報を取得
-    return api_functions.get_restaurant_info_from_local_search_params(coordinates, local_search_params, address)
 
 def get_restaurant_info(coordinates, restaurant_ids):
     '''
@@ -136,6 +101,7 @@ def http_info():
     user_id = request.args.get('user_id')
     group_id = request.args.get('group_id')
     # coordinates = request.args.get('coordinates') # 位置情報
+    recommend_method = request.args.get('recommend')
     group_id = group_id if group_id != None else get_group_id(user_id)
 
     # Yahoo本社の住所
@@ -149,7 +115,7 @@ def http_info():
     else:
         current_group[group_id]['Users'][user_id]['RequestCount'] += 1 # 2回目以降のリクエストは、前回の続きの店舗情報を送る
 
-    return search_restaurant_info(current_group[group_id]['Coordinates'], current_group[group_id]['Users'][user_id]['RequestCount'], current_group[group_id]['Address'])
+    return recommend.recommend_main(current_group, group_id, user_id, recommend_method)
 
 @app_.route('/feeling', methods=['GET','POST'])
 # キープ・リジェクトの結果を受け取り、メモリに格納する。全会一致の店舗を知らせる。
