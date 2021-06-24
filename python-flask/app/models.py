@@ -150,9 +150,9 @@ def http_feeling():
     else:
         return '[]'
 
-@app_.route('/most_popular', methods=['GET','POST'])
+@app_.route('/popular', methods=['GET','POST'])
 # 得票数の一番多い店舗のリストを返す。1人のときはキープした店舗のリストを返す。
-def http_most_popular():
+def http_popular():
     group_id = request.args.get('group_id')
     group_id = group_id if group_id != None else get_group_id(request.args.get('user_id'))
 
@@ -173,15 +173,15 @@ def http_most_popular():
     result_json = get_restaurant_info(current_group[group_id], restaurant_ids)
     return json.dumps(result_json, ensure_ascii=False)
 
-@app_.route('/popular', methods=['GET','POST'])
+@app_.route('/list', methods=['GET','POST'])
 # 得票数が多い順の店舗リストを返す。1人のときはキープした店舗のリストを返す。
-def http_popular():
+def http_list():
     group_id = request.args.get('group_id')
     group_id = group_id if group_id != None else get_group_id(request.args.get('user_id'))
     
     # ひとりの時はLIKEしたリスト。リジェクトしたら一生お別れ
     if len(current_group[group_id]['Users']) <= 1:
-        return most_popular()
+        return http_popular()
 
     restaurant_ids = list(current_group[group_id]['Users'][user_id]['Feeling'].keys())
     result_json = get_restaurant_info(current_group[group_id], restaurant_ids)
