@@ -10,7 +10,6 @@ def recommend_simple(current_group, group_id, user_id):
     '''
     
     coordinates = current_group[group_id]['Coordinates']
-    address = current_group[group_id]['Address']
     request_count = current_group[group_id]['Users'][user_id]['RequestCount']
     
      # YahooローカルサーチAPIで検索するクエリ
@@ -21,14 +20,14 @@ def recommend_simple(current_group, group_id, user_id):
         'dist': 3, # 中心地点からの距離 # 最大20km
         'gc': '01', # グルメ
         'image': True, # 画像がある店
-        'open': 'now', # 現在開店している店舗
+        # 'open': 'now', # 現在開店している店舗 # TODO
         'sort': 'hybrid', # 評価や距離などを総合してソート
         'start': RESULTS_COUNT * request_count, # 表示範囲：開始位置
         'results': RESULTS_COUNT # 表示範囲：店舗数
     }
 
     # Yahoo local search APIで店舗情報を取得
-    local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(coordinates, address, local_search_params)
+    local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(current_group[group_id], local_search_params)
     return json.dumps(result_json, ensure_ascii=False)
 
 
@@ -54,7 +53,6 @@ def recommend_template(current_group, group_id, user_id):
     LOCAL_SEARCH_RESULTS_COUNT = 30 # 一回に取得する店舗の数 # RESULTS_COUNTの倍数
     
     coordinates = current_group[group_id]['Coordinates']
-    address = current_group[group_id]['Address']
     request_count = current_group[group_id]['Users'][user_id]['RequestCount']
     
      # TODO: YahooローカルサーチAPIで検索するクエリ
@@ -72,7 +70,7 @@ def recommend_template(current_group, group_id, user_id):
     }
 
     # Yahoo local search APIで店舗情報を取得
-    local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(coordinates, address, local_search_params)
+    local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(current_group[group_id], local_search_params)
     
     # TODO: 重みを計算
     weight = [0] * LOCAL_SEARCH_RESULTS_COUNT
@@ -91,7 +89,6 @@ def local_search_test(current_group, group_id, user_id):
     simpleのYahoo Local Searchの出力を見る
     '''
     coordinates = current_group[group_id]['Coordinates']
-    address = current_group[group_id]['Address']
     request_count = current_group[group_id]['Users'][user_id]['RequestCount']
     
      # YahooローカルサーチAPIで検索するクエリ
@@ -109,7 +106,7 @@ def local_search_test(current_group, group_id, user_id):
     }
 
     # Yahoo local search APIで店舗情報を取得
-    local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(coordinates, address, local_search_params)
+    local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(current_group[group_id], local_search_params)
     return str(local_search_json)
 
 

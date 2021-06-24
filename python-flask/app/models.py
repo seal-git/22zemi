@@ -45,14 +45,14 @@ def get_group_id(user_id):
             return gid
     return None
 
-def get_restaurant_info(coordinates, restaurant_ids):
+def get_restaurant_info(group, restaurant_ids):
     '''
     Yahoo local search APIで情報を取得し、json形式で情報を返す
     
     Parameters
     ----------------
-    coordinates : (int, int)
-        (緯度, 経度)のタプル
+    group : dict
+       current_group[group_id]
     restaurant_ids : [string]
         restaurant_idのリスト
     
@@ -62,7 +62,9 @@ def get_restaurant_info(coordinates, restaurant_ids):
         レスポンスするレストラン情報をjson形式で返す。
     '''
     local_search_params = { 'uid': ','.join(restaurant_ids) }
-    return api_functions.get_restaurant_info_from_local_search_params(coordinates, local_search_params)
+    local_search_json, result_json = api_functions.get_restaurant_info_from_local_search_params(group, local_search_params)
+    return json.dumps(result_json, ensure_ascii=False)
+
 
 #@app_.after_request
 # CORS対策で追記したがうまく働いていない？
@@ -144,7 +146,7 @@ def http_feeling():
         new_unanimous = current_group[group_id]['Unanimous'] - current_group[group_id]['Users'][user_id]['UnanimousNoticed']
         current_group[group_id]['Users'][user_id]['UnanimousNoticed'] |= new_unanimous
         local_search_params = { 'uid': ','.join(list(new_unanimous)) }
-        return api_functions.get_restaurant_info_from_local_search_params(current_group[group_id]['Coordinates'], local_search_params)
+        return api_functions.get_restaurant_info_from_local_search_params(current_group[group_id], local_search_params)
     else:
         return '[]'
 
@@ -154,6 +156,7 @@ def http_popular():
     group_id = request.args.get('group_id')
     group_id = group_id if group_id != None else get_group_id(request.args.get('user_id'))
 
+    # 投票数を数える
     restaurant_popular = {}
     for u in current_group[group_id]['Users'].values():
         for restaurant_id, feeling in u['Feeling'].items():
@@ -167,7 +170,7 @@ def http_popular():
 
     popular_max = max( restaurant_popular.values() )
     restaurant_ids = [rid for rid,pop in restaurant_popular.items() if pop == popular_max]
-    return get_restaurant_info(current_group[group_id]['Coordinates'], restaurant_ids)
+    return get_restaurant_info(current_group[group_id], restaurant_ids)
 
 @app_.route('/history', methods=['GET','POST'])
 # ユーザに表示した店舗履のリストを返す。履歴。
@@ -177,7 +180,7 @@ def http_history():
     group_id = group_id if group_id != None else get_group_id(user_id)
 
     restaurant_ids = list(current_group[group_id]['Users'][user_id]['Feeling'].keys())
-    return get_restaurant_info(current_group[group_id]['Coordinates'], restaurant_ids)
+    return get_restaurant_info(current_group[group_id], restaurant_ids)
 
 @app_.route('/decision', methods=['GET','POST'])
 # 現状はアクセスのテスト用,最終決定時のURL
