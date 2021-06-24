@@ -60,6 +60,7 @@ def get_restaurant_info_from_local_search_params(coordinates, address, local_sea
         result_json[i]['Category'] = ','.join(feature['Category'][0].split(",")[-2:-1]) if len(feature['Category']) != 0 else ''
         result_json[i]['UrlYahooLoco'] = "https://loco.yahoo.co.jp/place/" + result_json[i]['Restaurant_id']
         result_json[i]['UrlYahooMap'] = "https://map.yahoo.co.jp/route/walk?from=" + address + "&to=" + result_json[i]['Address']
+        result_json[i]['ReviewRating'] = get_review_rating(feature['Property']['Uid'])
 
         lead_image = [feature['Property']['LeadImage']] if 'LeadImage' in feature['Property'] else []
         image_n = [feature['Property']['Detail']['Image'+str(j)] for j in range(MAX_LIST_COUNT) if 'Image'+str(j) in feature['Property']['Detail']] # Image1, Image2 ... のキーをリストに。
@@ -109,4 +110,28 @@ def get_lat_lon(query):
         lat = 35.68001 
         
     return lat, lon
+
+
+def get_review(uid):
+    '''
+    口コミを見ます
+    '''
+    review_api_url = 'https://map.yahooapis.jp/olp/v1/review/' + uid
+    params = {
+        "appid": os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
+        "output": "json",
+        "results": "100"
+    }
+    try:
+        response = requests.get(review_api_url, params=params)
+        response = response.json()
+    except:
+        return {}
+        
+    return response
+
+def get_review_rating(uid):
+    response = get_review(uid)
+    if response['ResultInfo']['Count'] == 0 : return -1
+    return sum([f['Property']['Comment']['Rating'] for f in response["Feature"]]) / response['ResultInfo']['Count']
 
