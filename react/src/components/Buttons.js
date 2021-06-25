@@ -9,10 +9,8 @@ function Buttons(props) {
   return(
     <div className="Buttons">
       <Grid container spacing={1}>
-        <Grid item xs={3}><RejectButton reject={props.reject}/></Grid>
-        <Grid item xs={3}><DirectButton direct={props.direct}/></Grid>
-        <Grid item xs={3}><ReserveButton reserve={props.reserve}/></Grid>
-        <Grid item xs={3}><KeepButton keep={props.keep}/></Grid>
+        <Grid item xs={6}><RejectButton reject={props.reject}/></Grid>
+        <Grid item xs={6}><KeepButton keep={props.keep}/></Grid>
       </Grid>
     </div>
   );
@@ -23,12 +21,6 @@ function RejectButton(props){
 }
 function KeepButton(props){
     return <IconButton color="primary" component="span" onClick={ ()=>{props.keep()}}><FavoriteIcon /></IconButton>
-}
-function ReserveButton(props){
-    return <IconButton color="primary" component="span" onClick={ ()=>{props.reserve()}}><ScheduleIcon /></IconButton>
-}
-function DirectButton(props){
-    return <IconButton color="primary" component="span" onClick={ ()=>{props.direct()}}><DirectionsWalkIcon /></IconButton>
 }
 
 export default Buttons;
