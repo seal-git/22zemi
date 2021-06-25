@@ -12,11 +12,12 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import {Paper} from "@material-ui/core";
-import { makeStyles } from '@material-ui/core/styles';
+import {makeStyles} from '@material-ui/core/styles';
+
 /*
 「ひとりで」モードから「みんなで」モードに移るボタン
  */
-function ButtonToChangeMode() {
+function ButtonToChangeMode(props) {
     const [open, setOpen] = React.useState(false);
 
     const handleClickOpen = () => {
@@ -48,50 +49,97 @@ function ButtonToChangeMode() {
 
     const classes = useStyles();
 
+    if (props.mode == "Alone") {
+        return (
+            <div className="ButtonToChangeMode">
+                <button className={"button-to-change-mode"}
+                        onClick={handleClickOpen}>
+                    <img src={ButtonNowAlone}
+                         className={"button-icon"}
+                         alt={"ButtonIcon"}/>
+                </button>
+                <Dialog open={open}
+                        onClose={handleClose}
+                        aria-labelledby="form-dialog-title">
+                    <DialogTitle id="form-dialog-title">
+                        グループで選ぶ
+                    </DialogTitle>
+                    <DialogContent>
+                        <Paper className={classes.root}>
+                            <TextField
+                                id="group_id"
+                                label="グループID"
+                                variant="outlined"
+                            />
+                            <Button onClick={handleClose}
+                                    variant="contained"
+                                    color="primary"
+                                    height="100%"
+                            >
+                                入室
+                            </Button>
+                        </Paper>
+                        <div>
+                            <Button onClick={handleClose}
+                                    color="secondary"
+                                    variant="contained"
+                            >
+                                ルームを新規作成
+                            </Button>
+                        </div>
 
-    return (
-        <div className="ButtonToChangeMode">
-            <button className={"button-to-change-mode"} onClick={handleClickOpen}>
-                <img src={ButtonNowAlone}
-                     className={"button-icon"}
-                     alt={"ButtonIcon"}/>
-            </button>
-            <Dialog open={open}
-                    onClose={handleClose}
-                    aria-labelledby="form-dialog-title">
-                <DialogTitle id="form-dialog-title">
-                    グループで選ぶ
-                </DialogTitle>
-                <DialogContent>
-                    <Paper className={classes.root}>
-                        <TextField
-                            id="group_id"
-                            label="グループID"
-                            variant="outlined"
-                        />
-                        <Button onClick={handleClose}
-                                variant="contained"
-                                color="primary"
-                                height="100%"
-                        >
-                            入室
-                        </Button>
-                    </Paper>
-                    <div>
-                        <Button onClick={handleClose}
-                                color="secondary"
-                                variant="contained"
-                        >
-                            ルームを新規作成
-                        </Button>
-                    </div>
+                    </DialogContent>
+                    <DialogActions>
+                    </DialogActions>
+                </Dialog>
+            </div>
+        );
+    }else if(props.mode=="Group"){
+        return (
+            <div className="ButtonToChangeMode">
+                <button className={"button-to-change-mode"}
+                        onClick={handleClickOpen}>
+                    <img src={ButtonNowGroup}
+                         className={"button-icon"}
+                         alt={"ButtonIcon"}/>
+                </button>
+                <Dialog open={open}
+                        onClose={handleClose}
+                        aria-labelledby="form-dialog-title">
+                    <DialogTitle id="form-dialog-title">
+                        グループで選ぶ
+                    </DialogTitle>
+                    <DialogContent>
+                        <Paper className={classes.root}>
+                            <TextField
+                                id="group_id"
+                                label="グループID"
+                                variant="outlined"
+                            />
+                            <Button onClick={handleClose}
+                                    variant="contained"
+                                    color="primary"
+                                    height="100%"
+                            >
+                                入室
+                            </Button>
+                        </Paper>
+                        <div>
+                            <Button onClick={handleClose}
+                                    color="secondary"
+                                    variant="contained"
+                            >
+                                ルームを新規作成
+                            </Button>
+                        </div>
 
-                </DialogContent>
-                <DialogActions>
-                </DialogActions>
-            </Dialog>
-        </div>
-    );
+                    </DialogContent>
+                    <DialogActions>
+                    </DialogActions>
+                </Dialog>
+            </div>
+        );
+    }
 }
 
 export default ButtonToChangeMode;

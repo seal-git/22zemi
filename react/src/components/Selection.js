@@ -85,7 +85,7 @@ function Selection() {
   }
   return (
     <div className="Selection">
-        <ButtonToChangeMode />
+        <ButtonToChangeMode mode={"Group"}/>
         <RestaurantInformation data={data}/>
         <Buttons reject={reject} keep={keep}/>
     </div>
