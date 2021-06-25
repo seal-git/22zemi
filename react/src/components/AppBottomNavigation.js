@@ -5,6 +5,9 @@ import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 
 const useStyles = makeStyles({
   root: {
+    width: '100%',
+    position: 'fixed',
+    bottom: 0,
   },
 });
 
@@ -15,18 +18,18 @@ export default function AppBottomNavigation(props) {
 
   return (
     <div className='AppBottomNavigation'>
-    <BottomNavigation
-      value={value}
-      onChange={(event, newValue) => {
-        setValue(newValue);
-      }}
-      showLabels
-      className={classes.root}
-    >
-      <BottomNavigationAction label="検索条件" onClick={()=>{ props.setView("Setting") }} />
-      <BottomNavigationAction label="選択"  onClick={()=>{ props.setView("Selection") }} />
-      <BottomNavigationAction label="決定"  onClick={()=>{ props.setView("KeepList") }} />
-    </BottomNavigation>
+      <BottomNavigation
+        value={value}
+        onChange={(event, newValue) => {
+          setValue(newValue);
+        }}
+        showLabels
+        className={classes.root}
+      >
+        <BottomNavigationAction label="検索条件" onClick={() => { props.setView("Setting") }} />
+        <BottomNavigationAction label="選択" onClick={() => { props.setView("Selection") }} />
+        <BottomNavigationAction label="決定" onClick={() => { props.setView("KeepList") }} />
+      </BottomNavigation>
     </div>
   );
 }

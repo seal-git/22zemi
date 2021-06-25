@@ -1,16 +1,25 @@
-function KeepList(props){
-//   const direct = () => {
-//     console.log("direct")
-//     window.open(data.UrlYahooMap)
-//   }
-//   const reserve = () => {
-//     console.log("reserve")
-//     window.open(data.UrlYahooLoco)
-//   }
+import KeepListTile from "./KeepListTile";
+import { useEffect, useState } from "react";
+import axios from "axios";
+import sampleData from "./sampleData.json";
+
+import { makeStyles } from '@material-ui/core/styles';
+
+
+
+function KeepList(props) {
+
+    const sample = sampleData;
+
+    console.log(sample)
+
     return (
-        <dib>
+        <div>
             <h1>キープリスト</h1>
-        </dib>
+            {sample.map((data) => (
+                <KeepListTile data={data} />
+            ))}
+        </div>
     );
 }
 
