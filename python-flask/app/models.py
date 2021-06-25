@@ -30,6 +30,7 @@ if conn.is_connected():
     print("db connected!")
 
 def get_group_id(user_id):
+    global current_group
     '''
     ユーザIDからグループIDを得る。グループIDを指定しない場合にはこの関数を使う。グループIDを指定する場合はユーザIDに重複があっても良いが、グループIDを指定しない場合にはユーザIDに重複があってはいけない。
     
@@ -101,6 +102,7 @@ def get_sample_db():
 @app_.route('/init', methods=['GET','POST'])
 # まだ使われていないグループIDを返すだけ
 def http_init():
+    global current_group
     for i in range(1000000):
         group_id = str(randint(0, 999999))
         if group_id not in current_group:
@@ -109,6 +111,7 @@ def http_init():
 @app_.route('/info', methods=['GET','POST'])
 # 店情報を要求するリクエスト
 def http_info():
+    global current_group
     user_id = request.args.get('user_id')
     group_id = request.args.get('group_id')
     # coordinates = request.args.get('coordinates') # 位置情報
@@ -131,6 +134,7 @@ def http_info():
 @app_.route('/feeling', methods=['GET','POST'])
 # キープ・リジェクトの結果を受け取り、メモリに格納する。全会一致の店舗を知らせる。
 def http_feeling():
+    global current_group
     user_id = request.args.get('user_id')
     group_id = request.args.get('group_id')
     restaurant_id = request.args.get('restaurant_id')
@@ -162,6 +166,7 @@ def http_feeling():
 @app_.route('/popular', methods=['GET','POST'])
 # 得票数の一番多い店舗のリストを返す。1人のときはキープした店舗のリストを返す。
 def http_popular():
+    global current_group
     group_id = request.args.get('group_id')
     group_id = group_id if group_id != None else get_group_id(request.args.get('user_id'))
 
@@ -185,6 +190,7 @@ def http_popular():
 @app_.route('/list', methods=['GET','POST'])
 # 得票数が多い順の店舗リストを返す。1人のときはキープした店舗のリストを返す。
 def http_list():
+    global current_group
     group_id = request.args.get('group_id')
     group_id = group_id if group_id != None else get_group_id(request.args.get('user_id'))
     
@@ -205,6 +211,7 @@ def http_list():
 @app_.route('/history', methods=['GET','POST'])
 # ユーザに表示した店舗履のリストを返す。履歴。
 def http_history():
+    global current_group
     group_id = request.args.get('group_id')
     user_id = request.args.get('user_id')
     group_id = group_id if group_id != None else get_group_id(user_id)
