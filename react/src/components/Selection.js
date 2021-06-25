@@ -52,16 +52,35 @@ function Selection() {
     }
   }
 
+  // APIにキープ・リジェクトを送信する
+  const sendFeeling = (feeling) => {
+    axios.post('/api/feeling',{ params: {
+      user_id:1,
+      restaurant_id: data.Restaurant_id,
+      feeling: feeling, 
+    }
+    })
+    .then(function(response){
+      console.log(response)
+      turnCard()
+    })
+    .catch((error) => {
+      console.log("error:",error);
+    });
+  }
+
   // 各ボタンに対応する関数
   const reject = () => {
     console.log("reject")
     if(isLoading) return;
     turnCard()
+    sendFeeling(false)
   }
   const keep = () => {
     console.log("keep")
     if(isLoading) return;
     turnCard()
+    sendFeeling(true)
   }
   return (
     <div className="Selection">
