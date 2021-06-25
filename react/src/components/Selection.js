@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Buttons from "./Buttons";
 import RestaurantInformation from "./RestaurantInformation";
+import ButtonToChangeMode from "./ButtonToChangeMode";
 import axios from "axios";
 
 // スワイプでお店を選ぶ画面
@@ -65,6 +66,7 @@ function Selection() {
   }
   return (
     <div className="Selection">
+        <ButtonToChangeMode />
         <RestaurantInformation data={data}/>
         <Buttons reject={reject} keep={keep}/>
     </div>

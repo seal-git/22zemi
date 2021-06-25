@@ -3,7 +3,6 @@ import {useState} from "react"
 import AppBottomNavigation from "./AppBottomNavigation"
 import KeepList from "./KeepList"
 import Selection from "./Selection"
-import Group from './Group'
 import Setting from "./Setting"
 import { use100vh } from 'react-div-100vh'
 
@@ -15,15 +14,6 @@ function Home() {
     // cssの--myvhの値をドキュメントのルートに設定
     document.documentElement.style.setProperty(
         '--myvh', vh+'px'
-    );
-    const [view, setView] = useState("Alone")
-    return (
-        <div className="Home">
-            {view === "Alone" ? <Alone/>
-                : view === "Group" ? <Group/>
-                    : <Setting/>}
-            <AppBottomNavigation setView={setView}/>
-        </ div>
     );
   const [ view, setView ] = useState("Selection")
   const [ mode, setMode ] = useState("Alone")

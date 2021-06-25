@@ -1,11 +1,11 @@
 body{
     height: 100%;
-    height: calc(var(--myvh) * 100);
+    /*height: calc(var(--myvh) * 100);*/
     background-color: whitesmoke;
 }
 .Home{
     height: 100%;
-    height: calc(var(--myvh, 1vh) * 100);
+    /*height: calc(var(--myvh, 1vh) * 100);*/
     display: flex;
     flex-direction: column;
     max-width: calc(var(--myvh) * 50);

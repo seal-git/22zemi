@@ -1,5 +1,7 @@
 import "./ButtonToChangeMode.css";
-import ButtonIcon from "./button_now_alone.png";
+import ButtonNowAlone from "./button_now_alone.png";
+import ButtonNowGroup from "./button_now_group.png";
+
 
 import React from 'react';
 import Button from '@material-ui/core/Button';
@@ -25,6 +27,10 @@ function ButtonToChangeMode() {
         setOpen(false);
     };
 
+    const setMode = (state) => {
+        setMode(state);
+    };
+
     const useStyles = makeStyles((theme) => ({
         root: {
             '& .MuiTextField-root': {
@@ -42,10 +48,11 @@ function ButtonToChangeMode() {
 
     const classes = useStyles();
 
+
     return (
         <div className="ButtonToChangeMode">
             <button className={"button-to-change-mode"} onClick={handleClickOpen}>
-                <img src={ButtonIcon}
+                <img src={ButtonNowAlone}
                      className={"button-icon"}
                      alt={"ButtonIcon"}/>
             </button>
