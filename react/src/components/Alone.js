@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Buttons from "./Buttons";
 import RestaurantInformation from "./RestaurantInformation";
+import ButtonToChangeMode from "./ButtonToChangeMode";
 
 // ひとりで決める
 function Alone() {
@@ -44,6 +45,7 @@ function Alone() {
   }
   return (
     <div className="Alone">
+        <ButtonToChangeMode />
         <RestaurantInformation data={data}/>
         <Buttons reject={reject} keep={keep} direct={direct} reserve={reserve}/>
     </div>
