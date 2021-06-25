@@ -7,24 +7,14 @@ import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import DirectionsWalkIcon from '@material-ui/icons/DirectionsWalk';
 
-import sample1 from './sample1.png'
-import sample2 from './sample2.png'
-
-const style1 = {
-  width: '100%',
-  height: '20rem',
-  backgroundImage: `url(${sample1})`
-};
-const style2 = {
-  width: '100%',
-  height: '20rem',
-  backgroundImage: `url(${sample2})`
-};
 const useStyles = makeStyles((theme) => ({
+  wrapper: {
+    height: '550px'
+  },
   cardRoot: {
     margin: '10px',
   },
-  root: {
+  cardContent: {
     display: 'block',
     flexWrap: 'wrap',
     justifyContent: 'space-around',
@@ -38,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
   },
   gridList: {
     width: '100%',
-    // height: 450,
+    height: '300px',
   },
   title: {
     fontSize: 14,
@@ -53,7 +43,7 @@ function RestaurantInformation(props) {
   const classes = useStyles();
   const space = <span className={classes.space}>　</span>;
   return (
-    <div className="RestaurantInformation">
+    <div className="RestaurantInformation" className={classes.wrapper}>
       <Card variant="outlined" className={classes.cardRoot}>
         <GridList className={classes.gridList} cols={2}>
           {props.data.Images.map((tile) => (
@@ -63,13 +53,13 @@ function RestaurantInformation(props) {
           ))}
         </GridList>
         {/* <Divider /> */}
-        <CardContent className={classes.root}>
+        <CardContent className={classes.cardContent}>
 
           <Typography variant="h5" component="h2">
             {props.data.Name}
           </Typography>
           <Typography className={classes.title} color="primary" gutterBottom>
-            ★★★☆☆
+            ★★★☆☆３
           </Typography>
           <Typography className={classes.title} color="textSecondary" gutterBottom>
             {props.data.Category}{space}~{props.data.Price}円
