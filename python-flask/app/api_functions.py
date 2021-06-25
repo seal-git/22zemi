@@ -1,16 +1,17 @@
 import requests
-import json
 import os
 import datetime
 from geopy.distance import great_circle
+from app import calc_info
 
-
-def get_restaurant_info_from_local_search_params(coordinates, local_search_params, address):
+def get_restaurant_info_from_local_search_params(group, local_search_params):
     '''
     Yahoo local search APIで取得した店舗情報(feature)を、クライアントに送信するjsonの形式に変換する。
     
     Parameters
     ----------------
+    group : dict
+        current_group[group_id]
     local_search_params : dictionary
         Yahoo local search APIに送信するクエリ
     
@@ -21,7 +22,7 @@ def get_restaurant_info_from_local_search_params(coordinates, local_search_param
     '''
     
     MAX_LIST_COUNT = 10
-    lunch_time_start = 10
+    lunch_time_start = 10 # 現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
     lunch_time_end = 15
 
     # Yahoo local search APIで店舗情報を取得
@@ -36,7 +37,7 @@ def get_restaurant_info_from_local_search_params(coordinates, local_search_param
 
     # 検索の該当が無かったとき
     if local_search_json['ResultInfo']['Count'] == 0:
-        return "[]"
+        return {}, []
 
      # 現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
     now_time = datetime.datetime.now().hour + datetime.datetime.now().minute / 60
@@ -45,25 +46,30 @@ def get_restaurant_info_from_local_search_params(coordinates, local_search_param
     # Yahoo local search apiで受け取ったjsonをクライアントアプリに送るjsonに変換する
     result_json = []
     for i,feature in enumerate(local_search_json['Feature']):
+        restaurant_id = feature['Property']['Uid']
         result_json.append({})
-        result_json[i]['Restaurant_id'] = feature['Property']['Uid']
+        result_json[i]['Restaurant_id'] = restaurant_id
         result_json[i]['Name'] = feature['Name']
         result_json[i]['Address'] = feature['Property']['Address']
-        result_json[i]['Distance'] = great_circle(coordinates, tuple(reversed([float(x) for x in feature['Geometry']['Coordinates'].split(',')]))).m # 緯度・経度から距離を計算
+        result_json[i]['Distance'] = great_circle(group['Coordinates'], tuple(reversed([float(x) for x in feature['Geometry']['Coordinates'].split(',')]))).m # 緯度・経度から距離を計算
         result_json[i]['CatchCopy'] = feature['Property'].get('CatchCopy')
         result_json[i]['Price'] = feature['Property']['Detail']['LunchPrice'] if lunch_or_dinner == 'lunch' and feature['Property']['Detail'].get('LunchFlag') == True else feature['Property']['Detail'].get('DinnerPrice')
         result_json[i]['TopRankItem'] = [feature['Property']['Detail']['TopRankItem'+str(j)] for j in range(MAX_LIST_COUNT) if 'TopRankItem'+str(j) in feature['Property']['Detail']] # TopRankItem1, TopRankItem2 ... のキーをリストに。
         result_json[i]['CassetteOwnerLogoImage'] = feature['Property']['Detail'].get('CassetteOwnerLogoImage')
-        result_json[i]['Category'] = ",".join(feature['Category'][0].split(",")[:3])
-        result_json[i]['UrlYahooLoco'] = "https://loco.yahoo.co.jp/place/" + result_json[i]['Restaurant_id']
-        result_json[i]['UrlYahooMap'] = "https://map.yahoo.co.jp/route/walk?from=" + address + "&to=" + result_json[i]['Address']
+        result_json[i]['Category'] = ','.join(feature['Category'][0].split(",")[-2:-1]) if len(feature['Category']) != 0 else ''
+        result_json[i]['UrlYahooLoco'] = "https://loco.yahoo.co.jp/place/" + restaurant_id
+        result_json[i]['UrlYahooMap'] = "https://map.yahoo.co.jp/route/walk?from=" + group['Address'] + "&to=" + result_json[i]['Address']
+        result_json[i]['ReviewRating'] = get_review_rating(restaurant_id)
+        result_json[i]['RecommendLevel'] = calc_info.recommend_level(group, restaurant_id)
+        result_json[i]['VotesLike'], result_json[i]['VotesAll'] = calc_info.count_votes(group, restaurant_id)
 
-        lead_image = [feature['Property']['LeadImage']] if 'LeadImage' in feature['Property'] else []
-        image_n = [feature['Property']['Detail']['Image'+str(j)] for j in range(MAX_LIST_COUNT) if 'Image'+str(j) in feature['Property']['Detail']] # Image1, Image2 ... のキーをリストに。
+       # Images : 画像をリストにする
+        lead_image = [feature['Property']['LeadImage']] if 'LeadImage' in feature['Property'] else ([feature['Property']['Detail']['Image1']] if 'Image1' in feature['Property']['Detail'] else []) # リードイメージがある時はImage1を出力しない。
+        image_n = [feature['Property']['Detail']['Image'+str(j)] for j in range(2,MAX_LIST_COUNT) if 'Image'+str(j) in feature['Property']['Detail']] # Image1, Image2 ... のキーをリストに。
         persistency_image_n = [feature['Property']['Detail']['PersistencyImage'+str(j)] for j in range(MAX_LIST_COUNT) if 'PersistencyImage'+str(j) in feature['Property']['Detail']] # PersistencyImage1, PersistencyImage2 ... のキーをリストに。
         result_json[i]['Images'] = lead_image + image_n + persistency_image_n
 
-    return json.dumps(result_json, ensure_ascii=False)
+    return local_search_json, result_json
 
 
 def get_lat_lon(query):
@@ -106,4 +112,28 @@ def get_lat_lon(query):
         lat = 35.68001 
         
     return lat, lon
+
+
+def get_review(uid):
+    '''
+    口コミを見ます
+    '''
+    review_api_url = 'https://map.yahooapis.jp/olp/v1/review/' + uid
+    params = {
+        "appid": os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
+        "output": "json",
+        "results": "100"
+    }
+    try:
+        response = requests.get(review_api_url, params=params)
+        response = response.json()
+    except:
+        return {}
+        
+    return response
+
+def get_review_rating(uid):
+    response = get_review(uid)
+    if response['ResultInfo']['Count'] == 0 : return -1
+    return sum([f['Property']['Comment']['Rating'] for f in response["Feature"]]) / response['ResultInfo']['Count']
 

@@ -1,7 +1,8 @@
 import './Home.css';
 import {useState} from "react"
 import AppBottomNavigation from "./AppBottomNavigation"
-import Alone from './Alone'
+import KeepList from "./KeepList"
+import Selection from "./Selection"
 import Group from './Group'
 import Setting from "./Setting"
 import { use100vh } from 'react-div-100vh'
@@ -24,6 +25,16 @@ function Home() {
             <AppBottomNavigation setView={setView}/>
         </ div>
     );
+  const [ view, setView ] = useState("Selection")
+  const [ mode, setMode ] = useState("Alone")
+  return (
+    <div className="Home">
+      {view==="Selection"? <Selection mode={mode} setMode={setMode} />
+      : view==="KeepList"? <KeepList />
+      : <Setting /> }
+     <AppBottomNavigation setView={setView} />
+     </ div>
+  );
 }
 
 export default Home;
