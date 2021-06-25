@@ -60,7 +60,7 @@ def get_restaurant_info_from_local_search_params(group, local_search_params):
         result_json[i]['UrlYahooLoco'] = "https://loco.yahoo.co.jp/place/" + restaurant_id
         result_json[i]['UrlYahooMap'] = "https://map.yahoo.co.jp/route/walk?from=" + group['Address'] + "&to=" + result_json[i]['Address']
         result_json[i]['ReviewRating'] = get_review_rating(restaurant_id)
-        result_json[i]['RecommendLevel'] = calc_info.recommend_level(group, restaurant_id)
+        result_json[i]['RecommendLevel'] = calc_info.calc_recommend_score(group, restaurant_id)
         result_json[i]['VotesLike'], result_json[i]['VotesAll'] = calc_info.count_votes(group, restaurant_id)
 
        # Images : 画像をリストにする
