@@ -38,7 +38,7 @@ def recommend_industry(current_group, group_id, user_id):
     # TODO: 業種コードによるレコメンド
     return '[]'
 
-def recommend_review(current_group, group_id, user_id):
+def recommend_review_words(current_group, group_id, user_id):
     '''
     口コミによるレコメンド
     '''
@@ -126,14 +126,14 @@ def recommend_main(current_group, group_id, user_id, recommend_method):
     restaurant_info : string
         レスポンスするレストラン情報をjson形式で返す。
     '''
-    ratingは、星の数順にソートします。
-scoreは、スコア順にソートします。
-hybridは、口コミ件数や星の数などを重み付けした値の順にソートします。
-reviewは、口コミ件数にソートします。
-kanaは、アイウエオ順にソートします。
-priceは、金額順にソートします。
-distは、2点間の直線距離順にソートします。（geoより高速です）
-geoは、球面三角法による2点間の距離順にソートします。
+    # ratingは、星の数順にソートします。
+    # scoreは、スコア順にソートします。
+    # hybridは、口コミ件数や星の数などを重み付けした値の順にソートします。
+    # reviewは、口コミ件数にソートします。
+    # kanaは、アイウエオ順にソートします。
+    # priceは、金額順にソートします。
+    # distは、2点間の直線距離順にソートします。（geoより高速です）
+    # geoは、球面三角法による2点間の距離順にソートします。
     
     # TODO: レコメンド関数の追加
     if recommend_method in ['rating', 'score', 'hyblid', 'review', 'kana', 'price', 'dist', 'geo', '-rating', '-score', '-hyblid', '-review', '-kana', '-price', '-dist', '-geo']:
@@ -142,8 +142,8 @@ geoは、球面三角法による2点間の距離順にソートします。
         result_json = recommend_template(current_group, group_id, user_id)
     elif recommend_method == 'industry':
         result_json = recommend_industry(current_group, group_id, user_id)
-    elif recommend_method == 'review':
-        result_json = recommend_review(current_group, group_id, user_id)
+    elif recommend_method == 'review_words':
+        result_json = recommend_review_words(current_group, group_id, user_id)
     elif recommend_method == 'local_search_test':
         result_json = local_search_test(current_group, group_id, user_id)
     else:
