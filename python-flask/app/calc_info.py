@@ -1,7 +1,20 @@
 def recommend_level(group, restaurant_id):
     '''
-    オススメ度を計算してパーセントで返す
+    オススメ度を計算する
+    
+     Parameters
+    ----------------
+    group : dict
+        current_group[group_id]
+    restaurant_id : string
+        レストランID
+    
+    Returns
+    ----------------
+    recommend_leve : float
+        オススメ度をパーセントで返す
     '''
+    
     # TODO: オススメ度を計算
     return 100.0
 

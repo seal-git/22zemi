@@ -6,6 +6,7 @@ import mysql.connector
 from random import randint
 import os
 import json
+import random
 
 """
 mysqlサーバーとの接続はmysql.connectorで行っているが，SQLAlchemyへ換装したい．
@@ -63,7 +64,7 @@ def get_restaurant_info(group, restaurant_ids):
     '''
     local_search_params = { 'uid': ','.join(restaurant_ids) }
     local_search_json, result_json = api_functions.get_restaurant_info_from_local_search_params(group, local_search_params)
-    return json.dumps(result_json, ensure_ascii=False)
+    return result_json
 
 
 #@app_.after_request
@@ -96,6 +97,14 @@ def get_sample_db():
 
     cur.close()
     return make_response(jsonify(result))
+
+@app_.route('/init', methods=['GET','POST'])
+# まだ使われていないグループIDを返すだけ
+def http_init():
+    for i in range(1000000):
+        group_id = str(randint(0, 999999))
+        if group_id not in current_group:
+            return group_id
 
 @app_.route('/info', methods=['GET','POST'])
 # 店情報を要求するリクエスト
@@ -151,7 +160,7 @@ def http_feeling():
         return '[]'
 
 @app_.route('/popular', methods=['GET','POST'])
-# 得票数の多い店舗のリストを返す。1人のときはキープした店舗のリストを返す。
+# 得票数の一番多い店舗のリストを返す。1人のときはキープした店舗のリストを返す。
 def http_popular():
     group_id = request.args.get('group_id')
     group_id = group_id if group_id != None else get_group_id(request.args.get('user_id'))
@@ -170,7 +179,28 @@ def http_popular():
 
     popular_max = max( restaurant_popular.values() )
     restaurant_ids = [rid for rid,pop in restaurant_popular.items() if pop == popular_max]
-    return get_restaurant_info(current_group[group_id], restaurant_ids)
+    result_json = get_restaurant_info(current_group[group_id], restaurant_ids)
+    return json.dumps(result_json, ensure_ascii=False)
+
+@app_.route('/list', methods=['GET','POST'])
+# 得票数が多い順の店舗リストを返す。1人のときはキープした店舗のリストを返す。
+def http_list():
+    group_id = request.args.get('group_id')
+    group_id = group_id if group_id != None else get_group_id(request.args.get('user_id'))
+    
+    # ひとりの時はLIKEしたリスト。リジェクトしたら一生お別れ
+    if len(current_group[group_id]['Users']) <= 1:
+        return http_popular()
+
+    restaurant_ids = list(current_group[group_id]['Users'][user_id]['Feeling'].keys())
+    result_json = get_restaurant_info(current_group[group_id], restaurant_ids)
+    
+    # 得票数が多い順に並べる
+    result_json.sort(key=lambda x:x['VotesAll']) # 得票数とオススメ度が同じなら、リジェクトが少ない順
+    result_json.sort(key=lambda x:x['RecommendLevel'], reverse=True) # 得票数が同じなら、オススメ度順
+    result_json.sort(key=lambda x:x['VotesLike'], reverse=True) # 得票数が多い順
+    
+    return json.dumps(result_json, ensure_ascii=False)
 
 @app_.route('/history', methods=['GET','POST'])
 # ユーザに表示した店舗履のリストを返す。履歴。
@@ -180,7 +210,8 @@ def http_history():
     group_id = group_id if group_id != None else get_group_id(user_id)
 
     restaurant_ids = list(current_group[group_id]['Users'][user_id]['Feeling'].keys())
-    return get_restaurant_info(current_group[group_id], restaurant_ids)
+    result_json = get_restaurant_info(current_group[group_id], restaurant_ids)
+    return json.dumps(result_json, ensure_ascii=False)
 
 @app_.route('/decision', methods=['GET','POST'])
 # 現状はアクセスのテスト用,最終決定時のURL
