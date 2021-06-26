@@ -1,8 +1,21 @@
 import math
 def calc_recommend_score(group, restaurant_id):
     '''
-    オススメ度を計算してパーセントで返す
+    オススメ度を計算する
+    
+     Parameters
+    ----------------
+    group : dict
+        current_group[group_id]
+    restaurant_id : string
+        レストランID
+    
+    Returns
+    ----------------
+    recommend_leve : float
+        オススメ度をパーセントで返す
     '''
+    
     # TODO: オススメ度を計算
     # オススメ度は全ての投票数などを格納した後の方が計算しやすい
     # 簡易版として、現状は投票数の割合
@@ -19,11 +32,7 @@ def calc_recommend_score(group, restaurant_id):
 
 def count_votes(group, restaurant_id):
     # 投票数を数える
-    votes_like = 0
-    votes_all = 0
-    for u in group['Users'].values():
-        if restaurant_id in u['Feeling']:
-            votes_all += 1
-            if u['Feeling'][restaurant_id]: 
-                votes_like += 1
-    return votes_like, votes_all
+    if restaurant_id in group['Restaurants']:
+        return len(group['Restaurants'][restaurant_id]['Like']), len(group['Restaurants'][restaurant_id]['All'])
+    else:
+        return 0, 0

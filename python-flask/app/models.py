@@ -6,13 +6,14 @@ import mysql.connector
 from random import randint
 import os
 import json
+import random
 
 """
 mysqlサーバーとの接続はmysql.connectorで行っているが，SQLAlchemyへ換装したい．
 """
 
 # 現在アプリを使っているグループやユーザを格納する
-current_group = {} # {group_id1: {'Coordinates': (lat,lon), 'Users': { 'user_id1: {'RequestCount': 0, 'Feeling': {restaurant_id1: true, ... }, 'UnanimousNoticed': [restaurant_id1, ... ]}, ... }, 'Unanimous': [restaurant_id1, ... ]}, ... }
+current_group = {} # {group_id1: {'Coordinates': (lat,lon), 'Users': { 'user_id1: {'RequestCount': 0, 'Feeling': {restaurant_id1: true, ... }, 'Restaurants': {restaurant_id1, {'Like': [user_id1], 'All': [user_id1, ...]}, ... }, 'UnanimousNoticed': [restaurant_id1, ... ]}, ... }, 'Unanimous': [restaurant_id1, ... ]}, ... }
 
 # mysqlサーバーと接続
 conn = mysql.connector.connect(
@@ -63,7 +64,7 @@ def get_restaurant_info(group, restaurant_ids):
     '''
     local_search_params = { 'uid': ','.join(restaurant_ids) }
     local_search_json, result_json = api_functions.get_restaurant_info_from_local_search_params(group, local_search_params)
-    return json.dumps(result_json, ensure_ascii=False)
+    return result_json
 
 
 #@app_.after_request
@@ -97,6 +98,14 @@ def get_sample_db():
     cur.close()
     return make_response(jsonify(result))
 
+@app_.route('/init', methods=['GET','POST'])
+# まだ使われていないグループIDを返すだけ
+def http_init():
+    for i in range(1000000):
+        group_id = str(randint(0, 999999))
+        if group_id not in current_group:
+            return group_id
+
 @app_.route('/info', methods=['GET','POST'])
 # 店情報を要求するリクエスト
 def http_info():
@@ -111,9 +120,9 @@ def http_info():
     lat, lon = api_functions.get_lat_lon(address)
     
     if group_id not in current_group:
-        current_group[group_id] = {'Coordinates': (lat,lon), 'Address': address, 'Users': {}, 'Unanimous': set()}
+        current_group[group_id] = {'Coordinates': (lat,lon), 'Address': address, 'Users': {}, 'Restaurants': {}}
     if user_id not in current_group[group_id]['Users']:
-        current_group[group_id]['Users'][user_id] = {'RequestCount': 0, 'Feeling': {}, 'UnanimousNoticed': set()} # 1回目のリクエストは、ユーザを登録する
+        current_group[group_id]['Users'][user_id] = {'RequestCount': 0, 'Feeling': {}} # 1回目のリクエストは、ユーザを登録する
     else:
         current_group[group_id]['Users'][user_id]['RequestCount'] += 1 # 2回目以降のリクエストは、前回の続きの店舗情報を送る
 
@@ -128,49 +137,52 @@ def http_feeling():
     feeling = request.args.get('feeling')
     group_id = group_id if group_id != None else get_group_id(user_id)
     
+    # 情報を登録
     current_group[group_id]['Users'][user_id]['Feeling'][restaurant_id] = feeling
-    
-    # 全会一致だったのをリジェクトしたら全会一致リストから消す
-    if not feeling and restaurant_id in current_group[group_id]['Unanimous']:
-        current_group[group_id]['Unanimous'].remove(restaurant_id)
-        for u in current_group[group_id]['Users'].values():
-            if restaurant_id in u['UnanimousNoticed']:
-                u['UnanimousNoticed'].remove(restaurant_id)
-    
-    # 全員一致だったらcurrent_groupに格納する
-    if feeling and all([ u['Feeling'].get(restaurant_id) for u in current_group[group_id]['Users'].values() ]):
-        current_group[group_id]['Unanimous'].add( restaurant_id )
-    
-    # ふたり以上だったら全会一致の店舗のうち、まだ知らせていないものを知らせる
-    if len(current_group[group_id]['Users']) >= 2 :
-        new_unanimous = current_group[group_id]['Unanimous'] - current_group[group_id]['Users'][user_id]['UnanimousNoticed']
-        current_group[group_id]['Users'][user_id]['UnanimousNoticed'] |= new_unanimous
-        local_search_params = { 'uid': ','.join(list(new_unanimous)) }
-        return api_functions.get_restaurant_info_from_local_search_params(current_group[group_id], local_search_params)
+    if restaurant_id not in current_group[group_id]['Restaurants']:
+        current_group[group_id]['Restaurants'][restaurant_id] = {'Like': set(), 'All': set()}
+    if feeling:
+        current_group[group_id]['Restaurants'][restaurant_id]['Like'].add(user_id)
     else:
-        return '[]'
+        current_group[group_id]['Restaurants'][restaurant_id]['Like'].discard(user_id)
+    current_group[group_id]['Restaurants'][restaurant_id]['All'].add(user_id)
+    
+    # 通知の数を返す。全会一致の店の数
+    return str(sum([1 for r in current_group[group_id]['Restaurants'].values() if len(r['Like']) >= len(current_group[group_id]['Users'])]))
 
-@app_.route('/popular', methods=['GET','POST'])
-# 得票数の多い店舗のリストを返す。1人のときはキープした店舗のリストを返す。
-def http_popular():
+@app_.route('/popular_list', methods=['GET','POST'])
+# 得票数の一番多い店舗のリストを返す。1人のときはキープした店舗のリストを返す。
+def http_popular_list():
     group_id = request.args.get('group_id')
     group_id = group_id if group_id != None else get_group_id(request.args.get('user_id'))
 
-    # 投票数を数える
-    restaurant_popular = {}
-    for u in current_group[group_id]['Users'].values():
-        for restaurant_id, feeling in u['Feeling'].items():
-            if restaurant_id not in restaurant_popular:
-                restaurant_popular[restaurant_id] = 1
-            else:
-                restaurant_popular[restaurant_id] += 1
-
-    if len(restaurant_popular) == 0:
+    if len(current_group[group_id]['Restaurants']) == 0:
         return '[]'
 
-    popular_max = max( restaurant_popular.values() )
-    restaurant_ids = [rid for rid,pop in restaurant_popular.items() if pop == popular_max]
-    return get_restaurant_info(current_group[group_id], restaurant_ids)
+    popular_max = max([r['Like'] for r in current_group[group_id]['Restaurants'].values()])
+    restaurant_ids = [rid for rid,r in current_group[group_id]['Restaurants'].items() if r['Like'] == popular_max]
+    result_json = get_restaurant_info(current_group[group_id], restaurant_ids)
+    return json.dumps(result_json, ensure_ascii=False)
+
+@app_.route('/list', methods=['GET','POST'])
+# 得票数が多い順の店舗リストを返す。1人のときはキープした店舗のリストを返す。
+def http_list():
+    group_id = request.args.get('group_id')
+    group_id = group_id if group_id != None else get_group_id(request.args.get('user_id'))
+    
+    # ひとりの時はLIKEしたリスト。リジェクトしたら一生お別れ
+    if len(current_group[group_id]['Users']) <= 1:
+        return http_popular_list()
+
+    restaurant_ids = list(current_group[group_id]['Users'][user_id]['Feeling'].keys())
+    result_json = get_restaurant_info(current_group[group_id], restaurant_ids)
+    
+    # 得票数が多い順に並べる
+    result_json.sort(key=lambda x:x['VotesAll']) # 得票数とオススメ度が同じなら、リジェクトが少ない順
+    result_json.sort(key=lambda x:x['RecommendLevel'], reverse=True) # 得票数が同じなら、オススメ度順
+    result_json.sort(key=lambda x:x['VotesLike'], reverse=True) # 得票数が多い順
+    
+    return json.dumps(result_json, ensure_ascii=False)
 
 @app_.route('/history', methods=['GET','POST'])
 # ユーザに表示した店舗履のリストを返す。履歴。
@@ -180,7 +192,8 @@ def http_history():
     group_id = group_id if group_id != None else get_group_id(user_id)
 
     restaurant_ids = list(current_group[group_id]['Users'][user_id]['Feeling'].keys())
-    return get_restaurant_info(current_group[group_id], restaurant_ids)
+    result_json = get_restaurant_info(current_group[group_id], restaurant_ids)
+    return json.dumps(result_json, ensure_ascii=False)
 
 @app_.route('/decision', methods=['GET','POST'])
 # 現状はアクセスのテスト用,最終決定時のURL

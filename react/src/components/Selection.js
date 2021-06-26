@@ -1,16 +1,17 @@
 import { useEffect, useState } from "react";
 import Buttons from "./Buttons";
 import RestaurantInformation from "./RestaurantInformation";
+import ButtonToChangeMode from "./ButtonToChangeMode";
 import axios from "axios";
 
-// ひとりで決める
-function Alone() {
-  // APIからデータを得る
+// スワイプでお店を選ぶ画面
+function Selection() {
   const [idx, setIndex] = useState(0)
   const [isLoading, setIsLoading] = useState(true)
-  const [dataList, setDataList] = useState([{"Name":"Hello"}])
+  const [dataList, setDataList] = useState([{"Name":"Hello","Images":[""]}])
   const [data, setData] = useState(dataList[0])
 
+  // APIからお店のデータを得る
   const getInfo = () => {
     axios.post('/api/info',{ params: {
       user_id:1,
@@ -31,6 +32,7 @@ function Alone() {
     });
   }
 
+  // 初レンダリング時のみ自動でデータを得る
   useEffect( ()=> {
     if(isLoading) {
       setIsLoading(false)
@@ -38,6 +40,7 @@ function Alone() {
     }
   },[])
 
+  // カードをめくる
   const turnCard = () => {
     if(idx>=dataList.length) return
     const nextIdx = idx + 1
@@ -50,31 +53,43 @@ function Alone() {
     }
   }
 
+  // APIにキープ・リジェクトを送信する
+  const sendFeeling = (feeling) => {
+    axios.post('/api/feeling',{ params: {
+      user_id:1,
+      restaurant_id: data.Restaurant_id,
+      feeling: feeling, 
+    }
+    })
+    .then(function(response){
+      console.log(response)
+      turnCard()
+    })
+    .catch((error) => {
+      console.log("error:",error);
+    });
+  }
+
   // 各ボタンに対応する関数
   const reject = () => {
     console.log("reject")
     if(isLoading) return;
     turnCard()
+    sendFeeling(false)
   }
   const keep = () => {
     console.log("keep")
     if(isLoading) return;
     turnCard()
-  }
-  const direct = () => {
-    console.log("direct")
-    window.open(data.UrlYahooMap)
-  }
-  const reserve = () => {
-    console.log("reserve")
-    window.open(data.UrlYahooLoco)
+    sendFeeling(true)
   }
   return (
-    <div className="Alone">
+    <div className="Selection">
+        <ButtonToChangeMode mode={"Group"}/>
         <RestaurantInformation data={data}/>
-        <Buttons reject={reject} keep={keep} direct={direct} reserve={reserve}/>
+        <Buttons reject={reject} keep={keep}/>
     </div>
   );
 }
 
-export default Alone;
+export default Selection;

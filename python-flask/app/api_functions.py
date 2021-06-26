@@ -51,7 +51,7 @@ def get_restaurant_info_from_local_search_params(group, local_search_params):
         result_json[i]['Restaurant_id'] = restaurant_id
         result_json[i]['Name'] = feature['Name']
         result_json[i]['Address'] = feature['Property']['Address']
-        result_json[i]['Distance'] = great_circle(group['Coordinates'], tuple(reversed([float(x) for x in feature['Geometry']['Coordinates'].split(',')]))).m # 緯度・経度から距離を計算
+        result_json[i]['Distance'] = distance_display(great_circle(group['Coordinates'], tuple(reversed([float(x) for x in feature['Geometry']['Coordinates'].split(',')]))).m) # 緯度・経度から距離を計算
         result_json[i]['CatchCopy'] = feature['Property'].get('CatchCopy')
         result_json[i]['Price'] = feature['Property']['Detail']['LunchPrice'] if lunch_or_dinner == 'lunch' and feature['Property']['Detail'].get('LunchFlag') == True else feature['Property']['Detail'].get('DinnerPrice')
         result_json[i]['TopRankItem'] = [feature['Property']['Detail']['TopRankItem'+str(j)] for j in range(MAX_LIST_COUNT) if 'TopRankItem'+str(j) in feature['Property']['Detail']] # TopRankItem1, TopRankItem2 ... のキーをリストに。
@@ -67,8 +67,8 @@ def get_restaurant_info_from_local_search_params(group, local_search_params):
         lead_image = [feature['Property']['LeadImage']] if 'LeadImage' in feature['Property'] else ([feature['Property']['Detail']['Image1']] if 'Image1' in feature['Property']['Detail'] else []) # リードイメージがある時はImage1を出力しない。
         image_n = [feature['Property']['Detail']['Image'+str(j)] for j in range(2,MAX_LIST_COUNT) if 'Image'+str(j) in feature['Property']['Detail']] # Image1, Image2 ... のキーをリストに。
         persistency_image_n = [feature['Property']['Detail']['PersistencyImage'+str(j)] for j in range(MAX_LIST_COUNT) if 'PersistencyImage'+str(j) in feature['Property']['Detail']] # PersistencyImage1, PersistencyImage2 ... のキーをリストに。
-        result_json[i]['Images'] = lead_image + image_n + persistency_image_n
-
+        result_json[i]['Images'] = list(dict.fromkeys(lead_image + image_n + persistency_image_n))
+        
     return local_search_json, result_json
 
 
@@ -137,3 +137,12 @@ def get_review_rating(uid):
     if response['ResultInfo']['Count'] == 0 : return -1
     return sum([f['Property']['Comment']['Rating'] for f in response["Feature"]]) / response['ResultInfo']['Count']
 
+def distance_display(distance):
+    '''
+    距離の表示を整形します
+    '''
+    distance = int(distance)
+    if len(str(distance)) > 3:
+        distance = round(distance / 1000, 1)
+        return str(distance) + "km"
+    return str(distance) + "m"
