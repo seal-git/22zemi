@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import axios from 'axios';
 
 // APIを試す画面
@@ -8,13 +8,13 @@ function ApiTest() {
 
   // 飲食店の情報を api に要求して結果を result に反映させる
   const getInfo = () => {
-    axios.post('/api/test',{ params: {
+    axios.post('/api/info',{ params: {
       user_id:"hoge",
       group_id:"fuga"
     }
     })
     .then(function(response){
-      let data = response['data']
+      let data = response['data'][0]
       console.log(data)
       let restaurantName = data['Name']
       let images = data['Images']
@@ -26,6 +26,10 @@ function ApiTest() {
       console.log("error:",error);
     });
   }
+
+  useEffect( ()=> {
+    getInfo()
+  },[])
 
   return (
     <div className="ApiTest">

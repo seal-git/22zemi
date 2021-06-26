@@ -1,19 +1,21 @@
 import { useState } from "react"
+import { makeStyles } from '@material-ui/core/styles';
 import AppBottomNavigation from "./AppBottomNavigation"
-import Alone from './Alone'
-import Group from './Group'
+import KeepList from "./KeepList"
+import Selection from "./Selection"
 import Setting from "./Setting"
 
 // ベースコンポーネントとして使う
 function Home() {
-  const [ view, setView ] = useState("Alone")
+  const [view, setView] = useState("Selection")
+  const [mode, setMode] = useState("Alone")
   return (
     <div className="Home">
-      {view==="Alone"? <Alone />
-      :view==="Group"? <Group />
-      :<Setting />}
-     <AppBottomNavigation setView={setView} />
-     </ div>
+      {view === "Selection" ? <Selection mode={mode} setMode={setMode} />
+        : view === "KeepList" ? <KeepList />
+          : <Setting />}
+      <AppBottomNavigation setView={setView} />
+    </ div>
   );
 }
 
