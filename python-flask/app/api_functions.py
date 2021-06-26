@@ -32,9 +32,12 @@ def get_restaurant_info_from_local_search_params(group, local_search_params):
         'output': 'json',
         'detail': 'full'
     })
-    response = requests.get(local_search_url, params=local_search_params)
-    local_search_json = response.json()
-
+    try:
+        response = requests.get(local_search_url, params=local_search_params)
+        local_search_json = response.json()
+    except Exception as e:
+        abort(e.code)
+        
     # 検索の該当が無かったとき
     if local_search_json['ResultInfo']['Count'] == 0:
         return {}, []
@@ -140,3 +143,12 @@ def get_review_rating(uid):
     if response['ResultInfo']['Count'] == 0 : return -1
     return sum([f['Property']['Comment']['Rating'] for f in response["Feature"]]) / response['ResultInfo']['Count']
 
+def distance_display(distance):
+    '''
+    距離の表示を整形します
+    '''
+    distance = int(distance)
+    if len(str(distance)) > 3:
+        distance = round(distance / 1000, 1)
+        return str(distance) + "km"
+    return str(distance) + "m"

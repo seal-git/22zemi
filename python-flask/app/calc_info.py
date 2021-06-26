@@ -20,11 +20,7 @@ def recommend_level(group, restaurant_id):
 
 def count_votes(group, restaurant_id):
     # 投票数を数える
-    votes_like = 0
-    votes_all = 0
-    for u in group['Users'].values():
-        if restaurant_id in u['Feeling']:
-            votes_all += 1
-            if u['Feeling'][restaurant_id]: 
-                votes_like += 1
-    return votes_like, votes_all
+    if restaurant_id in group['Restaurants']:
+        return len(group['Restaurants'][restaurant_id]['Like']), len(group['Restaurants'][restaurant_id]['All'])
+    else:
+        return 0, 0
