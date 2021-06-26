@@ -6,7 +6,7 @@ import axios from "axios";
 import "./Selection.css"
 
 // スワイプでお店を選ぶ画面
-function Selection() {
+function Selection(props) {
   const [idx, setIndex] = useState(0)
   const [isLoading, setIsLoading] = useState(true)
   const [dataList, setDataList] = useState([{"Name":"Hello","Images":[""]}])
@@ -86,7 +86,10 @@ function Selection() {
   }
   return (
     <div className="Selection">
-        <ButtonToChangeMode mode={"Group"}/>
+        <ButtonToChangeMode
+            mode={props.mode}
+            setMode={props.setMode}
+            getInfo={getInfo}/>
         <RestaurantInformation data={data}/>
         <Buttons reject={reject} keep={keep}/>
     </div>
