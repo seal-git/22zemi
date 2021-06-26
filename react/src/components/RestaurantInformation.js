@@ -9,10 +9,12 @@ import DirectionsWalkIcon from '@material-ui/icons/DirectionsWalk';
 
 const useStyles = makeStyles((theme) => ({
   wrapper: {
-    height: '550px'
+    height: '100%',
+    backgroundColor: 'transparent',
   },
   cardRoot: {
-    margin: '10px',
+    marginBottom: '10px',
+    height: '100%',
   },
   cardContent: {
     display: 'block',

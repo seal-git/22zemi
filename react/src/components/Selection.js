@@ -3,6 +3,7 @@ import Buttons from "./Buttons";
 import RestaurantInformation from "./RestaurantInformation";
 import ButtonToChangeMode from "./ButtonToChangeMode";
 import axios from "axios";
+import "./Selection.css"
 
 // スワイプでお店を選ぶ画面
 function Selection() {
