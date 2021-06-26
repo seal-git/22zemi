@@ -51,7 +51,8 @@ def get_restaurant_info_from_local_search_params(group, local_search_params):
         result_json[i]['Restaurant_id'] = restaurant_id
         result_json[i]['Name'] = feature['Name']
         result_json[i]['Address'] = feature['Property']['Address']
-        result_json[i]['Distance'] = distance_display(great_circle(group['Coordinates'], tuple(reversed([float(x) for x in feature['Geometry']['Coordinates'].split(',')]))).m) # 緯度・経度から距離を計算
+        result_json[i]["distance_float"] = great_circle(group['Coordinates'], tuple(reversed([float(x) for x in feature['Geometry']['Coordinates'].split(',')]))).m #距離 メートル float
+        result_json[i]['Distance'] = distance_display(great_circle(group['Coordinates'], tuple(reversed([float(x) for x in feature['Geometry']['Coordinates'].split(',')]))).m) # 緯度・経度から距離を計算 str
         result_json[i]['CatchCopy'] = feature['Property'].get('CatchCopy')
         result_json[i]['Price'] = feature['Property']['Detail']['LunchPrice'] if lunch_or_dinner == 'lunch' and feature['Property']['Detail'].get('LunchFlag') == True else feature['Property']['Detail'].get('DinnerPrice')
         result_json[i]['TopRankItem'] = [feature['Property']['Detail']['TopRankItem'+str(j)] for j in range(MAX_LIST_COUNT) if 'TopRankItem'+str(j) in feature['Property']['Detail']] # TopRankItem1, TopRankItem2 ... のキーをリストに。
@@ -60,7 +61,6 @@ def get_restaurant_info_from_local_search_params(group, local_search_params):
         result_json[i]['UrlYahooLoco'] = "https://loco.yahoo.co.jp/place/" + restaurant_id
         result_json[i]['UrlYahooMap'] = "https://map.yahoo.co.jp/route/walk?from=" + group['Address'] + "&to=" + result_json[i]['Address']
         result_json[i]['ReviewRating'] = get_review_rating(restaurant_id)
-        result_json[i]['RecommendLevel'] = calc_info.calc_recommend_score(group, restaurant_id)
         result_json[i]['VotesLike'], result_json[i]['VotesAll'] = calc_info.count_votes(group, restaurant_id)
 
        # Images : 画像をリストにする
@@ -68,7 +68,9 @@ def get_restaurant_info_from_local_search_params(group, local_search_params):
         image_n = [feature['Property']['Detail']['Image'+str(j)] for j in range(2,MAX_LIST_COUNT) if 'Image'+str(j) in feature['Property']['Detail']] # Image1, Image2 ... のキーをリストに。
         persistency_image_n = [feature['Property']['Detail']['PersistencyImage'+str(j)] for j in range(MAX_LIST_COUNT) if 'PersistencyImage'+str(j) in feature['Property']['Detail']] # PersistencyImage1, PersistencyImage2 ... のキーをリストに。
         result_json[i]['Images'] = list(dict.fromkeys(lead_image + image_n + persistency_image_n))
-        
+    
+    #各お店のオススメ度を追加(相対評価)
+    result_json = calc_info.calc_recommend_score(result_json)
     return local_search_json, result_json
 
 
