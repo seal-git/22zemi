@@ -5,25 +5,25 @@ import ButtonToChangeMode from "./ButtonToChangeMode";
 import axios from "axios";
 
 // スワイプでお店を選ぶ画面
-function Selection() {
+function Selection(props) {
   const [idx, setIndex] = useState(0)
   const [isLoading, setIsLoading] = useState(true)
-  const [dataList, setDataList] = useState([{"Name":"Hello","Images":[""]}])
-  const [data, setData] = useState(dataList[0])
+  const [dataList, setDataList] = useState([{"Name":"Waiting...","Images":[""]}])
 
   // APIからお店のデータを得る
   const getInfo = () => {
-    axios.post('/api/info',{ params: {
-      user_id:1,
-      group_id:1
+    const params = {"user_id":props.userId}
+    if(props.mode==="Group"){
+        params["group_id"] = props.groupId
     }
+    axios.post('/api/info',{ 
+        params: params
     })
     .then(function(response){
       console.log(response)
       let dataList = response['data']
       console.log(dataList[0])
       setIndex(0)
-      setData(dataList[0])
       setDataList(dataList)
       setIsLoading(false)
     })
@@ -32,7 +32,7 @@ function Selection() {
     });
   }
 
-  // 初レンダリング時のみ自動でデータを得る
+  // 初レンダリング時に自動でデータを得る
   useEffect( ()=> {
     if(isLoading) {
       setIsLoading(false)
@@ -49,7 +49,6 @@ function Selection() {
       getInfo()
     }else{
       setIndex(nextIdx)
-      setData(dataList[nextIdx])
     }
   }
 
@@ -57,7 +56,7 @@ function Selection() {
   const sendFeeling = (feeling) => {
     axios.post('/api/feeling',{ params: {
       user_id:1,
-      restaurant_id: data.Restaurant_id,
+      restaurant_id: dataList[idx].Restaurant_id,
       feeling: feeling, 
     }
     })
@@ -74,19 +73,24 @@ function Selection() {
   const reject = () => {
     console.log("reject")
     if(isLoading) return;
-    turnCard()
     sendFeeling(false)
   }
   const keep = () => {
     console.log("keep")
     if(isLoading) return;
-    turnCard()
     sendFeeling(true)
+  }
+  const turnMode = (groupId) => {
+      console.log("Selection:turnMode")
+      props.turnMode(groupId)
+      setIsLoading(true)
+      setDataList([{"Name":"Waiting...","Images":[]}])
+      getInfo()
   }
   return (
     <div className="Selection">
-        <ButtonToChangeMode mode={"Group"}/>
-        <RestaurantInformation data={data}/>
+        <ButtonToChangeMode mode={props.mode} turnMode={turnMode}/>
+        <RestaurantInformation data={dataList[idx]}/>
         <Buttons reject={reject} keep={keep}/>
     </div>
   );

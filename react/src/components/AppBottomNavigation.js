@@ -1,24 +1,59 @@
 import { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import BottomNavigation from '@material-ui/core/BottomNavigation';
-import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
+import SearchIcon from './footer_icon_search.png'
+import SwipeIcon from './footer_icon_swipe.png'
+import ListIcon from './footer_icon_list.png'
+import { Grid } from '@material-ui/core';
 
 const useStyles = makeStyles({
-  root: {
+  AppBottomNavigation: {
     width: '100%',
+    height: '10%',
     position: 'fixed',
     bottom: 0,
+    textAlign: 'center',
+    backgroundColor: 'white',
+  },
+  Button: {
+    backgroundColor: 'transparent',
+    borderColor: 'transparent',
   },
 });
 
 // ナビゲーション
 export default function AppBottomNavigation(props) {
   const classes = useStyles();
-  const [value, setValue] = useState(1);
 
   return (
-    <div className='AppBottomNavigation'>
-      <BottomNavigation
+    <div className={classes.AppBottomNavigation}>
+      <Grid 
+      container 
+      >
+        <Grid item xs={4}>
+            <button onClick={() => { props.setView("Setting") }} className={classes.Button} >
+              <div className={classes.img}>
+                <img src={SearchIcon}
+                  className={"search-icon"}
+                  alt={"SearchIcon"} />
+              </div>
+            </button>
+        </Grid>
+        <Grid item xs={4}>
+          <button onClick={()=>{props.setView("Selection")}} className={classes.Button}>
+            <img src={SwipeIcon}
+              className={"swipe-icon"}
+              alt={"SwipeIcon"} />
+          </button>
+        </Grid>
+        <Grid item xs={4}>
+          <button onClick={()=>{props.setView("KeepList")}} className={classes.Button}>
+            <img src={ListIcon}
+              className={"list-icon"}
+              alt={"ListIcon"} />
+          </button>
+        </Grid>
+      </Grid>
+      {/* <BottomNavigation
         value={value}
         onChange={(event, newValue) => {
           setValue(newValue);
@@ -29,7 +64,7 @@ export default function AppBottomNavigation(props) {
         <BottomNavigationAction label="検索条件" onClick={() => { props.setView("Setting") }} />
         <BottomNavigationAction label="選択" onClick={() => { props.setView("Selection") }} />
         <BottomNavigationAction label="決定" onClick={() => { props.setView("KeepList") }} />
-      </BottomNavigation>
+      </BottomNavigation> */}
     </div>
   );
 }

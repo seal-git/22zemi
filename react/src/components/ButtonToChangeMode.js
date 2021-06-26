@@ -2,8 +2,7 @@ import "./ButtonToChangeMode.css";
 import ButtonNowAlone from "./button_now_alone.png";
 import ButtonNowGroup from "./button_now_group.png";
 
-
-import React from 'react';
+import {useState} from "react";
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import Dialog from '@material-ui/core/Dialog';
@@ -18,7 +17,7 @@ import {makeStyles} from '@material-ui/core/styles';
 「ひとりで」モードから「みんなで」モードに移るボタン
  */
 function ButtonToChangeMode(props) {
-    const [open, setOpen] = React.useState(false);
+    const [open, setOpen] = useState(false);
 
     const handleClickOpen = () => {
         setOpen(true);
@@ -26,10 +25,6 @@ function ButtonToChangeMode(props) {
 
     const handleClose = () => {
         setOpen(false);
-    };
-
-    const setMode = (state) => {
-        setMode(state);
     };
 
     const useStyles = makeStyles((theme) => ({
@@ -71,7 +66,7 @@ function ButtonToChangeMode(props) {
                                 label="グループID"
                                 variant="outlined"
                             />
-                            <Button onClick={handleClose}
+                            <Button onClick={ ()=>{handleClose(); props.turnMode('sampleGroup01')} }
                                     variant="contained"
                                     color="primary"
                                     height="100%"
@@ -80,7 +75,7 @@ function ButtonToChangeMode(props) {
                             </Button>
                         </Paper>
                         <div>
-                            <Button onClick={handleClose}
+                            <Button onClick={ ()=>{handleClose(); props.turnMode('sampleGroup02')} }
                                     color="secondary"
                                     variant="contained"
                             >
@@ -107,7 +102,7 @@ function ButtonToChangeMode(props) {
                         onClose={handleClose}
                         aria-labelledby="form-dialog-title">
                     <DialogTitle id="form-dialog-title">
-                        グループで選ぶ
+                        ひとりで選ぶ
                     </DialogTitle>
                     <DialogContent>
                         <Paper className={classes.root}>
@@ -116,7 +111,7 @@ function ButtonToChangeMode(props) {
                                 label="グループID"
                                 variant="outlined"
                             />
-                            <Button onClick={handleClose}
+                            <Button onClick={ ()=>{handleClose(); props.turnMode()} }
                                     variant="contained"
                                     color="primary"
                                     height="100%"
@@ -125,7 +120,7 @@ function ButtonToChangeMode(props) {
                             </Button>
                         </Paper>
                         <div>
-                            <Button onClick={handleClose}
+                            <Button onClick={ ()=>{handleClose(); props.turnMode()} }
                                     color="secondary"
                                     variant="contained"
                             >
@@ -139,6 +134,8 @@ function ButtonToChangeMode(props) {
                 </Dialog>
             </div>
         );
+    }else{
+        return(<div><h1>error</h1></div>);
     }
 }
 
