@@ -67,8 +67,8 @@ def get_restaurant_info_from_local_search_params(group, local_search_params):
         lead_image = [feature['Property']['LeadImage']] if 'LeadImage' in feature['Property'] else ([feature['Property']['Detail']['Image1']] if 'Image1' in feature['Property']['Detail'] else []) # リードイメージがある時はImage1を出力しない。
         image_n = [feature['Property']['Detail']['Image'+str(j)] for j in range(2,MAX_LIST_COUNT) if 'Image'+str(j) in feature['Property']['Detail']] # Image1, Image2 ... のキーをリストに。
         persistency_image_n = [feature['Property']['Detail']['PersistencyImage'+str(j)] for j in range(MAX_LIST_COUNT) if 'PersistencyImage'+str(j) in feature['Property']['Detail']] # PersistencyImage1, PersistencyImage2 ... のキーをリストに。
-        result_json[i]['Images'] = lead_image + image_n + persistency_image_n
-
+        result_json[i]['Images'] = list(dict.fromkeys(lead_image + image_n + persistency_image_n))
+        
     return local_search_json, result_json
 
 
