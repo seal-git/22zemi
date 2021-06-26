@@ -164,7 +164,6 @@ def http_popular_list():
     result_json = get_restaurant_info(current_group[group_id], restaurant_ids)
     return json.dumps(result_json, ensure_ascii=False)
 
-
 @app_.route('/list', methods=['GET','POST'])
 # 得票数が多い順の店舗リストを返す。1人のときはキープした店舗のリストを返す。
 def http_list():
