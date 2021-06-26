@@ -23,8 +23,7 @@ def recommend_simple(current_group, group_id, user_id, recommend_method):
         # 'open': 'now', # 現在開店している店舗 # TODO
         'sort': recommend_method, # hyblid # 評価や距離などを総合してソート
         'start': RESULTS_COUNT * request_count, # 表示範囲：開始位置
-        # 'results': RESULTS_COUNT # 表示範囲：店舗数
-        'results': 100
+        'results': RESULTS_COUNT # 表示範囲：店舗数
     }
 
     # Yahoo local search APIで店舗情報を取得
