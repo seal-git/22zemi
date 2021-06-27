@@ -60,10 +60,10 @@ def calc_recommend_score(result_json):
 
             if result_json[i]["VotesAll"] > 1:
                 vote_score = (result_json[i]["VoteLike"] / result_json[i]["VoteAll"])
-                score = round(((price_score + distance_score + vote_score) / 3) * 100, 1)
+                score = int(round(((price_score + distance_score + vote_score) / 3) * 100, 0))
                 result_json[i]["RecommendScore"] = score
             else:
-                score = round(((price_score + distance_score) / 2) * 100, 1)
+                score = int(round(((price_score + distance_score) / 2) * 100, 0))
                 result_json[i]["RecommendScore"] = score
         except:
             result_json[i]["RecommendScore"] = -1
