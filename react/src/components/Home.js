@@ -54,7 +54,7 @@ function Home(props) {
                     : view === "KeepList" ? <KeepList/>
                         : <Setting mode={props.mode} turnMode={turnMode} setView={setView}/>}
             </div>
-            <AppBottomNavigation setView={setView}/>
+            <AppBottomNavigation view={view} setView={setView}/>
         </ div>
     );
 }

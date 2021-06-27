@@ -1,3 +1,62 @@
 .AppBottomNavigation{
     margin-top: auto;
 }
+.MuiBottomNavigation-root{
+    /* width: 100%; */
+}
+.footer-background {
+    bottom: 0%;
+    height: 10%;
+    width: 100%;
+    padding: 0;
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+.button-search{
+    bottom: 0%;
+    height: 9%;
+    width: 30%;
+    left: 0%;
+    padding: 0;
+    background-color: transparent;
+    border-color: transparent;
+    /* border-color: black; */ /*確認用*/
+    position: absolute;
+    z-index: 2;
+}
+.button-search-icon{
+    height: 100%;
+}
+.button-swipe{
+    bottom: 0%;
+    height: 9%;
+    width: 30%;
+    left: 35%;
+    padding: 0;
+    background-color: transparent;
+    border-color: transparent;
+    /* border-color: black; */ /*確認用*/
+    position: absolute;
+    z-index: 2;
+}
+.button-swipe-icon{
+    height: 100%;
+}
+.button-list{
+    bottom: 0%;
+    height: 9%;
+    width: 30%;
+    left: 70%;
+    padding: 0;
+    background-color: transparent;
+    border-color: transparent;
+    /* border-color: black; */ /*確認用*/
+    position: absolute;
+    z-index: 2;
+}
+.button-list-icon{
+    height: 100%;
+}
