@@ -2,18 +2,20 @@ import { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
+import "./AppBottomNavigation.css"
 
-const useStyles = makeStyles({
-  root: {
-    width: '100%',
-    position: 'fixed',
-    bottom: 0,
-  },
-});
+//App
+// const useStyles = makeStyles({
+//   root: {
+//     width: '100%',
+//     position: 'fixed',
+//     bottom: 0,
+//   },
+// });
 
 // ナビゲーション
 export default function AppBottomNavigation(props) {
-  const classes = useStyles();
+  // const classes = useStyles();
   const [value, setValue] = useState(1);
 
   return (
@@ -24,7 +26,7 @@ export default function AppBottomNavigation(props) {
           setValue(newValue);
         }}
         showLabels
-        className={classes.root}
+        // className={classes.root}
       >
         <BottomNavigationAction label="検索条件" onClick={() => { props.setView("Setting") }} />
         <BottomNavigationAction label="選択" onClick={() => { props.setView("Selection") }} />
