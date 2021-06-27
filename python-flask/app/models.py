@@ -8,13 +8,28 @@ import os
 import json
 import random
 from werkzeug.exceptions import NotFound,BadRequest,InternalServerError
+import datetime
 
 """
 mysqlサーバーとの接続はmysql.connectorで行っているが，SQLAlchemyへ換装したい．
 """
 
-# 現在アプリを使っているグループやユーザを格納する
-current_group = {} # {group_id1: {'Coordinates': (lat,lon), 'Users': { 'user_id1: {'RequestCount': 0, 'Feeling': {restaurant_id1: true, ... }, 'Restaurants': {restaurant_id1, {'Like': [user_id1], 'All': [user_id1, ...]}, ... }, 'UnanimousNoticed': [restaurant_id1, ... ]}, ... }, 'Unanimous': [restaurant_id1, ... ]}, ... }
+'''
+現在アプリを使っているグループやユーザを格納する
+{group_id1: {
+    'Coordinates': (lat,lon),
+    'Address': 住所,
+    'FilterParams': {}
+    'Users': { 'user_id1: {
+        'RequestCount': 0,
+        'Feeling': {restaurant_id1: true, ... },
+        'UnanimousNoticed': [restaurant_id1, ... ]
+    }, ... },
+    'Restaurants': {restaurant_id1, {'Like': [user_id1, ...], 'All': [user_id1, ...]}, ... },
+    'Unanimous': [restaurant_id1, ... ]
+}, ... }
+'''
+current_group = {}
 
 # mysqlサーバーと接続
 conn = mysql.connector.connect(
@@ -116,19 +131,49 @@ def http_info():
     user_id = request.args.get('user_id')
     group_id = request.args.get('group_id')
     # coordinates = request.args.get('coordinates') # 位置情報
+    place = request.args.get('place') # 場所
+    genre = request.args.get('genre') # ジャンル
+    query = request.args.get('query') # 場所やジャンルなどの検索窓入力
+    open_day = request.args.get('open_day') # 
+    open_hour = request.args.get('open_hour') # 時間
+    maxprice = request.args.get('maxprice') # 最高値
+    minprice = request.args.get('minprice') # 最安値
     recommend_method = request.args.get('recommend')
+    
     group_id = group_id if group_id != None else get_group_id(user_id)
 
     # Yahoo本社の住所
     address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-"
-    lat, lon = api_functions.get_lat_lon(address)
+    lat,lon,address = api_functions.get_lat_lon(address)
     
     if group_id not in current_group:
-        current_group[group_id] = {'Coordinates': (lat,lon), 'Address': address, 'Users': {}, 'Restaurants': {}}
+        current_group[group_id] = {'Coordinates': (lat,lon), 'Address': address, 'FilterParams': {}, 'Users': {}, 'Restaurants': {}}
     if user_id not in current_group[group_id]['Users']:
         current_group[group_id]['Users'][user_id] = {'RequestCount': 0, 'Feeling': {}} # 1回目のリクエストは、ユーザを登録する
     else:
         current_group[group_id]['Users'][user_id]['RequestCount'] += 1 # 2回目以降のリクエストは、前回の続きの店舗情報を送る
+
+    # 検索条件
+    if place is not None:
+        lat,lon,address = api_functions.get_lat_lon(place)
+        current_group[group_id]['Coordinates'] = (lat,lon)
+        current_group[group_id]['Address'] = address
+    if genre is not None or query is not None:
+        if genre is None:
+            current_group[group_id]['FilterParams']['query'] = query
+        elif query is None:
+            current_group[group_id]['FilterParams']['query'] = genre
+        else:
+            current_group[group_id]['FilterParams']['query'] = query + ' ' + query
+    if open_hour is not None:
+        if open_day is not None:
+            current_group[group_id]['FilterParams']['open'] = open_day + ',' + open_hour
+        else:
+            current_group[group_id]['FilterParams']['open'] = str(datetime.datetime.now().day) + ',' + open_hour
+    if maxprice is not None:
+        current_group[group_id]['FilterParams']['maxprice'] = int(maxprice)
+    if minprice is not None:
+        current_group[group_id]['FilterParams']['minprice'] = int(minprice)
 
     return recommend.recommend_main(current_group, group_id, user_id, recommend_method)
 

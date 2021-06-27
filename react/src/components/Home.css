@@ -4,19 +4,15 @@ body{
     background-color: whitesmoke;
 }
 .Home{
-    height: 100%;
+    height: 100vh;
     /*height: calc(var(--myvh, 1vh) * 100);*/
     display: flex;
     flex-direction: column;
-    max-width: calc(var(--myvh) * 50);
+    max-width: 50vh;
     margin: 0 auto;
     position: relative;
 }
-.Alone{
+.Content{
     flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-.RestaurantInformation{
-    flex: 1;
+    margin: 0px 10px 10px 10px;
 }
