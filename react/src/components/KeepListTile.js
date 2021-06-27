@@ -6,8 +6,7 @@ import CardActions from '@material-ui/core/CardActions';
 import IconButton from '@material-ui/core/IconButton';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
-
-import GridListTileBar from '@material-ui/core/GridListTileBar';
+import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
 
 import CloseIcon from '@material-ui/icons/Close';
@@ -16,6 +15,9 @@ import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 
 const useStyles = makeStyles((theme) => ({
+    space: {
+        fontSize: '10px'
+    },
     root: {
         margin: '0 0 10px 0',
         padding: '0px',
@@ -46,7 +48,19 @@ const useStyles = makeStyles((theme) => ({
         fontWeight: 'bold'
     },
     textSecondary: {
-        fontSize: '0.8rem'
+        fontSize: '0.8rem',
+        color: '#777777',
+        display: 'flex'
+    },
+    textStars: {
+        color: '#fbc02d',
+        display: 'inline-block',
+        width: '40%'
+    },
+    textRecommend: {
+        display: 'inlineblock',
+        width: '60%',
+        textAlign: 'right'
     },
     textVotes: {
         margin: '5px 0 0 30px',
@@ -56,8 +70,9 @@ const useStyles = makeStyles((theme) => ({
         width: '100%',
         backgroundColor: '#FFECC8',
         borderTopLeftRadius: '24px',
-        border: 'solid 1px #A03A00',
-        color: '#777'
+        borderTop: 'solid 1px #A03A00',
+        borderLeft: 'solid 1px #A03A00',
+        color: '#777777'
     },
     textVoteResult: {
         fontSize: '1.4rem'
@@ -83,14 +98,20 @@ function KeepListTile(props) {
                 <Typography className={classes.textShopName}>
                     {props.data.Name}
                 </Typography>
+                <Divider />
                 <Typography variant="h6" className={classes.textSecondary} color="primary" >
-                    ★★★☆☆{space}3
+                    <span className={classes.textStars}>
+                        ★★★☆☆{space}3
+                    </span>
+                    <span className={classes.textRecommend}>
+                        あなたへのおすすめ度：99%
+                    </span>
                 </Typography>
                 <Typography className={classes.textSecondary}>
                     {props.data.Category}{space}~{props.data.Price}円
                 </Typography>
                 <Typography className={classes.textSecondary} >
-                    300{space}10:00~22:00{space}営業中
+                    300{space}10:00~22:00{space}
                 </Typography>
             </CardContent>
             <Box className={classes.cardContentSub}>
