@@ -1,13 +1,16 @@
-import { Button, Grid,FormControl,Select, Container } from "@material-ui/core";
+import './Setting.css'
+import { Button, Grid,FormControl,Input, Container,TextField, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core";
-
+import SearchButtonOne from "./search_button_one.png"
+import SearchButtonAll from "./search_button_all.png"
 // 設定画面
 
-const useStyles = makeStyles({
-  Setting: {
-    textAlign: 'center',
-  },
-});
+const getCurrentTime = () => {
+  const date = new Date()
+  const time = ('00' + date.getHours().toString()).slice(-2) + ':' + ('00'+date.getMinutes().toString()).slice(-2)
+  console.log(time)
+  return time
+}
 
 function Setting(props) {
   const proceedToSelection = (newMode,groupId) => {
@@ -16,52 +19,65 @@ function Setting(props) {
     }
     props.setView("Selection")
   }
-  const classes = useStyles()
+  const CustomTextField = (props) => {
+    return(
+      <Input defaultValue={props.defaultValue} inputProps={{ 'aria-label': 'description' }} />
+    )
+  }
+  const TimePicker = () => {
+    return (
+      <form className='container' noValidate>
+        <TextField
+          id="time-local"
+          type="time"
+          defaultValue={getCurrentTime()}
+          inputProps={{ min: 0, style: { textAlign: 'left' } }}
+          InputLabelProps={{
+            shrink: false,
+          }}
+        />
+      </form>
+    );
+  }
   return (
-    <div className={classes.Setting}>
+    <div className="setting">
       <h1>飯T</h1>
-      <Grid container>
-        <Grid item xs='6'>
-          エリア
+      <Grid container spacing={2}>
+        <Grid item xs='4' className='label-area'>
+          <Typography>エリア</Typography>
         </Grid>
-        <Grid item xs='6'>
-          <FormControl>
-            <Select id="select">
-              <option value="hoge">Hoge</option>
-            </Select>
-          </FormControl>
+        <Grid item xs='7'>
+          <CustomTextField defaultValue="四ツ谷駅"></CustomTextField>
         </Grid>
       </Grid>
-      <Grid container>
-        <Grid item xs='6'>
+      <Grid container spacing={2}>
+        <Grid item xs='4' className='label-genre'>
           ジャンル
         </Grid>
-        <Grid item xs='6'>
-          <FormControl>
-            <Select id="select">
-              <option value="hoge">Hoge</option>
-            </Select>
-          </FormControl>
+        <Grid item xs='7'>
+          <CustomTextField defaultValue="居酒屋"></CustomTextField>
         </Grid>
       </Grid>
-      <Grid container>
-        <Grid item xs='6'>
-          人数
+      <Grid container spacing={2}>
+        <Grid item xs='4' className='label-time'>
+          時間
         </Grid>
-        <Grid item xs='6'>
-          <FormControl>
-            <Select id="select">
-              <option value="hoge">Hoge</option>
-            </Select>
-          </FormControl>
+        <Grid item xs='7'>
+          <TimePicker />
         </Grid>
       </Grid>
-      <Container>
-        <Button variant="contained" color="primary" onClick={()=>{proceedToSelection("Alone",'--')}}>ひとりで決める</Button>
-      </Container>
-      <Container>
-        <Button variant="contained" color="secondary" onClick={()=>{proceedToSelection("Group",'--')}}>みんなで決める</Button>
-      </Container>
+      <button className="button-alone" onClick={()=>{proceedToSelection("Alone","")}}>
+        <img 
+          src={SearchButtonOne}
+          className={"button-alone-image"}
+          alt={"ButtonAlone"} />
+      </button>
+      <button className="button-group" onClick={()=>{proceedToSelection("Group","")}}>
+        <img 
+          src={SearchButtonAll}
+          className={"button-group-image"}
+          alt={"ButtonGroup"} />
+      </button>
     </div>
   );
 }

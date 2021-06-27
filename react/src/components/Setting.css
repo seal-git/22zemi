@@ -1,0 +1,36 @@
+.setting {
+    height: 90%;
+    text-align: center;
+    position: relative;
+}
+
+.button-alone{
+    top: 60%;
+    width: 100%;
+    left: 0;
+    padding: 0;
+    background-color: transparent;
+    border-color: transparent;
+    /* border-color: black; 確認用 */
+    position: absolute;
+    z-index: 2;
+}
+
+.button-alone-image{
+    width: 100%;
+}
+.button-group{
+    top: 80%;
+    width: 100%;
+    left: 0;
+    padding: 0;
+    background-color: transparent;
+    border-color: transparent;
+    /* border-color: black; 確認用 */
+    position: absolute;
+    z-index: 2;
+}
+
+.button-group-image{
+    width: 100%;
+}
