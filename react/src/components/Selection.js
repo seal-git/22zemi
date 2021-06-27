@@ -8,23 +8,25 @@ import "./Selection.css"
 // スワイプでお店を選ぶ画面
 function Selection(props) {
   const [idx, setIndex] = useState(0)
-  const [isLoading, setIsLoading] = useState(true)
-  const [dataList, setDataList] = useState([{"Name":"Hello","Images":[""]}])
-  const [data, setData] = useState(dataList[0])
+  const [isLoading, setIsLoading] = useState(false)
+  const [dataList, setDataList] = useState([{"Name":"Waiting...","Images":[""]}])
 
   // APIからお店のデータを得る
   const getInfo = () => {
-    axios.post('/api/info',{ params: {
-      user_id:1,
-      group_id:1
+    if(isLoading) return;
+    setIsLoading(true)
+    const params = {"user_id":props.userId}
+    if(props.mode==="Group"){
+        params["group_id"] = props.groupId
     }
+    axios.post('/api/info',{ 
+        params: params
     })
     .then(function(response){
       console.log(response)
       let dataList = response['data']
       console.log(dataList[0])
       setIndex(0)
-      setData(dataList[0])
       setDataList(dataList)
       setIsLoading(false)
     })
@@ -33,12 +35,9 @@ function Selection(props) {
     });
   }
 
-  // 初レンダリング時のみ自動でデータを得る
+  // 初レンダリング時に自動でデータを得る
   useEffect( ()=> {
-    if(isLoading) {
-      setIsLoading(false)
-      getInfo()
-    }
+    getInfo()
   },[])
 
   // カードをめくる
@@ -46,11 +45,9 @@ function Selection(props) {
     if(idx>=dataList.length) return
     const nextIdx = idx + 1
     if(nextIdx===dataList.length){
-      setIsLoading(true)
       getInfo()
     }else{
       setIndex(nextIdx)
-      setData(dataList[nextIdx])
     }
   }
 
@@ -58,7 +55,7 @@ function Selection(props) {
   const sendFeeling = (feeling) => {
     axios.post('/api/feeling',{ params: {
       user_id:1,
-      restaurant_id: data.Restaurant_id,
+      restaurant_id: dataList[idx].Restaurant_id,
       feeling: feeling, 
     }
     })
@@ -75,22 +72,26 @@ function Selection(props) {
   const reject = () => {
     console.log("reject")
     if(isLoading) return;
-    turnCard()
     sendFeeling(false)
   }
   const keep = () => {
     console.log("keep")
     if(isLoading) return;
-    turnCard()
     sendFeeling(true)
+  }
+  const turnMode = (groupId) => {
+      console.log("Selection:turnMode")
+      props.turnMode(groupId)
+      setIsLoading(true)
+      setDataList([{"Name":"Waiting...","Images":[]}])
+      getInfo()
   }
   return (
     <div className="Selection">
         <ButtonToChangeMode
             mode={props.mode}
-            setMode={props.setMode}
-            getInfo={getInfo}/>
-        <RestaurantInformation data={data}/>
+            turnMode={turnMode} />
+        <RestaurantInformation data={dataList[idx]}/>
         <Buttons reject={reject} keep={keep}/>
     </div>
   );

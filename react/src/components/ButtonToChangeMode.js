@@ -3,7 +3,7 @@ import ButtonNowAlone from "./button_now_alone.png";
 import ButtonNowGroup from "./button_now_group.png";
 
 
-import React, {useRef} from 'react';
+import {useState, useRef} from 'react';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import Dialog from '@material-ui/core/Dialog';
@@ -18,7 +18,7 @@ import {makeStyles} from '@material-ui/core/styles';
 「ひとりで」モードから「みんなで」モードに移るボタン
  */
 function ButtonToChangeMode(props) {
-    const [open, setOpen] = React.useState(false);
+    const [open, setOpen] = useState(false);
 
     const handleClickOpen = () => {
         setOpen(true);
@@ -28,27 +28,31 @@ function ButtonToChangeMode(props) {
         setOpen(false);
     };
 
-    const group_id = useRef('');
+    const group_id = useRef("");
 
     const enterGroup = () => {
         console.log("enter group "+group_id.current.value);
         handleClose();
-        props.setMode("Group");
-        props.getInfo();
+        // props.setMode("Group");
+        // props.setGroupId(group_id);
+        // props.getInfo();
+        props.turnMode(group_id)
     };
 
     const createGroup = () => {
         console.log("create group!");
         handleClose();
-        props.setMode("Group");
-        props.getInfo();
+        // props.setMode("Group");
+        // props.getInfo();
+        props.turnMode("")
     }
 
     const leaveGroup = () => {
         console.log("leave group!");
         handleClose();
-        props.setMode("Alone");
-        props.getInfo();
+        // props.setMode("Alone");
+        // props.getInfo();
+        props.turnMode("")
     }
 
     const useStyles = makeStyles((theme) => ({
@@ -136,6 +140,8 @@ function ButtonToChangeMode(props) {
                 </Dialog>
             </div>
         );
+    }else{
+        return(<div><h1>error</h1></div>);
     }
 }
 

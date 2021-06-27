@@ -5,21 +5,48 @@ import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 import "./AppBottomNavigation.css"
 
 //App
-// const useStyles = makeStyles({
-//   root: {
-//     width: '100%',
-//     position: 'fixed',
-//     bottom: 0,
-//   },
-// });
+const useStyles = makeStyles({
+  AppBottomNavigation: {
+    // width: '100%',
+    // position: 'fixed',
+    // bottom: 0,
+  },
+});
 
 // ナビゲーション
 export default function AppBottomNavigation(props) {
-  // const classes = useStyles();
+  const classes = useStyles();
   const [value, setValue] = useState(1);
 
   return (
-    <div className='AppBottomNavigation'>
+    <div className={classes.AppBottomNavigation}>
+      {/* <Grid 
+      container 
+      >
+        <Grid item xs={4}>
+            <button onClick={() => { props.setView("Setting") }} className={classes.Button} >
+              <div className={classes.img}>
+                <img src={SearchIcon}
+                  className={"search-icon"}
+                  alt={"SearchIcon"} />
+              </div>
+            </button>
+        </Grid>
+        <Grid item xs={4}>
+          <button onClick={()=>{props.setView("Selection")}} className={classes.Button}>
+            <img src={SwipeIcon}
+              className={"swipe-icon"}
+              alt={"SwipeIcon"} />
+          </button>
+        </Grid>
+        <Grid item xs={4}>
+          <button onClick={()=>{props.setView("KeepList")}} className={classes.Button}>
+            <img src={ListIcon}
+              className={"list-icon"}
+              alt={"ListIcon"} />
+          </button>
+        </Grid>
+      </Grid> */}
       <BottomNavigation
         value={value}
         onChange={(event, newValue) => {
