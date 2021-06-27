@@ -101,17 +101,20 @@ function KeepListTile(props) {
                 <Divider />
                 <Typography variant="h6" className={classes.textSecondary} color="primary" >
                     <span className={classes.textStars}>
-                        ★★★☆☆{space}3
+                        ★★★未☆☆{space}{props.data.ReviewRating}
                     </span>
                     <span className={classes.textRecommend}>
-                        あなたへのおすすめ度：99%
+                        あなたへのおすすめ度：未99%
                     </span>
                 </Typography>
                 <Typography className={classes.textSecondary}>
-                    {props.data.Category}{space}~{props.data.Price}円
+                    {props.data.Category == ""
+                        ? "カテゴリなし"
+                        : props.data.Category}
+                    {space}~{props.data.Price}円
                 </Typography>
                 <Typography className={classes.textSecondary} >
-                    300{space}10:00~22:00{space}
+                    {props.data.Distance}{space}10:未~22:00{space}
                 </Typography>
             </CardContent>
             <Box className={classes.cardContentSub}>
@@ -119,17 +122,23 @@ function KeepListTile(props) {
                     <IconButton>
                         <CloseIcon />
                     </IconButton>
-                    <IconButton>
+                    <IconButton onClick={(e) => {
+                        e.preventDefault();
+                        window.open(props.data.UrlYahooMap, '_blank');
+                    }}>
                         <RoomIcon />
                     </IconButton>
-                    <IconButton>
+                    <IconButton onClick={(e) => {
+                        e.preventDefault();
+                        window.open(props.data.UrlYahooLoco, '_blank')
+                    }}>
                         <InfoOutlinedIcon />
                     </IconButton>
                 </CardActions>
                 <Typography className={classes.textVotes}>
                     <FavoriteIcon style={{ fontSize: 18 }} />
-                    <span className={classes.textVoteResult}>12</span>
-                    /20
+                    <span className={classes.textVoteResult}>{props.data.VotesLike}</span>
+                    /{props.data.VotesAll}
                 </Typography>
             </Box>
         </Card >

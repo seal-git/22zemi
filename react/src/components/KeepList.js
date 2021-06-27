@@ -19,11 +19,13 @@ const useStyles = makeStyles((theme) => ({
     participantNum: {
         lineHeight: '25px',
         textAlign: 'center',
-        margin: '8px -1px 10px auto',
+        margin: '8px 0px 10px auto',
         padding: '3px 15px 0 20px',
         backgroundColor: '#FFECC8',
         borderRadius: '24px 0 0 24px',
-        border: 'solid 1px #A03A00',
+        borderLeft: 'solid 1px #A03A00',
+        borderTop: 'solid 1px #A03A00',
+        borderBottom: 'solid 1px #A03A00',
         fontSize: '0.8rem',
     },
     formControl: {
@@ -74,13 +76,13 @@ function KeepList(props) {
                         id="selectRef"
                         ref={selectRef}
                     >
-                        <option value={10} >おすすめ順</option>
+                        <option value={10} >未おすすめ順</option>
                         <option value={20}>評価が高い順</option>
                         <option value={30}>距離が近い順</option>
                     </Select>
                 </FormControl>
                 <Typography className={classes.participantNum}>
-                    投票人数    30人
+                    投票人数 未実装人
                 </Typography>
             </Box>
             {sample.map((data) => (
