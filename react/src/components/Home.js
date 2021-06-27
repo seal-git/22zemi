@@ -56,7 +56,7 @@ function Home(props) {
                         : <Setting mode={props.mode} turnMode={turnMode}
                                    setView={setView}/>}
             </div>
-            <AppBottomNavigation setView={setView}/>
+            <AppBottomNavigation view={view} setView={setView}/>
             <div className="Credit">
                 <a href={"https://developer.yahoo.co.jp/sitemap/"}>
                     <img src={"https://s.yimg.jp/images/yjdn/yjdn_attbtn2_105_17.gif"}
