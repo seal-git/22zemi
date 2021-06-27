@@ -52,11 +52,17 @@ def calc_recommend_score(result_json):
     for i in range(len(result_json)):
         try:
             for p in price_list:
-                    if i in p:
+                if i in p:
+                    try:
                         price_score = (len(p) / len(result_json))
+                    except:
+                        price_score = 0
             for d in distance_list:
                 if i in d:
-                    distance_score = (len(d) / len(result_json))
+                    try:
+                        distance_score = (len(d) / len(result_json))
+                    except:
+                        distance_score = 0
 
             if result_json[i]["VotesAll"] > 1:
                 vote_score = (result_json[i]["VoteLike"] / result_json[i]["VoteAll"])
@@ -66,7 +72,7 @@ def calc_recommend_score(result_json):
                 score = int(round(((price_score + distance_score) / 2) * 100, 0))
                 result_json[i]["RecommendScore"] = score
         except:
-            result_json[i]["RecommendScore"] = -1
+            result_json[i]["RecommendScore"] = 0
 
     return result_json
 
