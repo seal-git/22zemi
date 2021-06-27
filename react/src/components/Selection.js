@@ -3,15 +3,18 @@ import Buttons from "./Buttons";
 import RestaurantInformation from "./RestaurantInformation";
 import ButtonToChangeMode from "./ButtonToChangeMode";
 import axios from "axios";
+import "./Selection.css"
 
 // スワイプでお店を選ぶ画面
 function Selection(props) {
   const [idx, setIndex] = useState(0)
-  const [isLoading, setIsLoading] = useState(true)
+  const [isLoading, setIsLoading] = useState(false)
   const [dataList, setDataList] = useState([{"Name":"Waiting...","Images":[""]}])
 
   // APIからお店のデータを得る
   const getInfo = () => {
+    if(isLoading) return;
+    setIsLoading(true)
     const params = {"user_id":props.userId}
     if(props.mode==="Group"){
         params["group_id"] = props.groupId
@@ -34,10 +37,7 @@ function Selection(props) {
 
   // 初レンダリング時に自動でデータを得る
   useEffect( ()=> {
-    if(isLoading) {
-      setIsLoading(false)
-      getInfo()
-    }
+    getInfo()
   },[])
 
   // カードをめくる
@@ -45,7 +45,6 @@ function Selection(props) {
     if(idx>=dataList.length) return
     const nextIdx = idx + 1
     if(nextIdx===dataList.length){
-      setIsLoading(true)
       getInfo()
     }else{
       setIndex(nextIdx)
@@ -89,7 +88,9 @@ function Selection(props) {
   }
   return (
     <div className="Selection">
-        <ButtonToChangeMode mode={props.mode} turnMode={turnMode}/>
+        <ButtonToChangeMode
+            mode={props.mode}
+            turnMode={turnMode} />
         <RestaurantInformation data={dataList[idx]}/>
         <Buttons reject={reject} keep={keep}/>
     </div>

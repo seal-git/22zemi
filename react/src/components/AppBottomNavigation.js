@@ -1,32 +1,26 @@
 import { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import SearchIcon from './footer_icon_search.png'
-import SwipeIcon from './footer_icon_swipe.png'
-import ListIcon from './footer_icon_list.png'
-import { Grid } from '@material-ui/core';
+import BottomNavigation from '@material-ui/core/BottomNavigation';
+import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
+import "./AppBottomNavigation.css"
 
+//App
 const useStyles = makeStyles({
   AppBottomNavigation: {
-    width: '100%',
-    height: '10%',
-    position: 'fixed',
-    bottom: 0,
-    textAlign: 'center',
-    backgroundColor: 'white',
-  },
-  Button: {
-    backgroundColor: 'transparent',
-    borderColor: 'transparent',
+    // width: '100%',
+    // position: 'fixed',
+    // bottom: 0,
   },
 });
 
 // ナビゲーション
 export default function AppBottomNavigation(props) {
   const classes = useStyles();
+  const [value, setValue] = useState(1);
 
   return (
     <div className={classes.AppBottomNavigation}>
-      <Grid 
+      {/* <Grid 
       container 
       >
         <Grid item xs={4}>
@@ -52,19 +46,19 @@ export default function AppBottomNavigation(props) {
               alt={"ListIcon"} />
           </button>
         </Grid>
-      </Grid>
-      {/* <BottomNavigation
+      </Grid> */}
+      <BottomNavigation
         value={value}
         onChange={(event, newValue) => {
           setValue(newValue);
         }}
         showLabels
-        className={classes.root}
+        // className={classes.root}
       >
         <BottomNavigationAction label="検索条件" onClick={() => { props.setView("Setting") }} />
         <BottomNavigationAction label="選択" onClick={() => { props.setView("Selection") }} />
         <BottomNavigationAction label="決定" onClick={() => { props.setView("KeepList") }} />
-      </BottomNavigation> */}
+      </BottomNavigation>
     </div>
   );
 }

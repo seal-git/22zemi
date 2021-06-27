@@ -2,7 +2,8 @@ import "./ButtonToChangeMode.css";
 import ButtonNowAlone from "./button_now_alone.png";
 import ButtonNowGroup from "./button_now_group.png";
 
-import {useState} from "react";
+
+import {useState, useRef} from 'react';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import Dialog from '@material-ui/core/Dialog';
@@ -26,6 +27,33 @@ function ButtonToChangeMode(props) {
     const handleClose = () => {
         setOpen(false);
     };
+
+    const group_id = useRef("");
+
+    const enterGroup = () => {
+        console.log("enter group "+group_id.current.value);
+        handleClose();
+        // props.setMode("Group");
+        // props.setGroupId(group_id);
+        // props.getInfo();
+        props.turnMode(group_id)
+    };
+
+    const createGroup = () => {
+        console.log("create group!");
+        handleClose();
+        // props.setMode("Group");
+        // props.getInfo();
+        props.turnMode("")
+    }
+
+    const leaveGroup = () => {
+        console.log("leave group!");
+        handleClose();
+        // props.setMode("Alone");
+        // props.getInfo();
+        props.turnMode("")
+    }
 
     const useStyles = makeStyles((theme) => ({
         root: {
@@ -65,31 +93,28 @@ function ButtonToChangeMode(props) {
                                 id="group_id"
                                 label="グループID"
                                 variant="outlined"
-                            />
-                            <Button onClick={ ()=>{handleClose(); props.turnMode('sampleGroup01')} }
+                                InputLabelProps={{style:{fontSize: 12}}}
+                                inputRef={group_id}/>
+                            <Button onClick={enterGroup}
                                     variant="contained"
                                     color="primary"
-                                    height="100%"
-                            >
+                                    height="100%">
                                 入室
                             </Button>
                         </Paper>
                         <div>
-                            <Button onClick={ ()=>{handleClose(); props.turnMode('sampleGroup02')} }
+                            <Button onClick={createGroup}
                                     color="secondary"
-                                    variant="contained"
-                            >
+                                    variant="contained">
                                 ルームを新規作成
                             </Button>
                         </div>
 
                     </DialogContent>
-                    <DialogActions>
-                    </DialogActions>
                 </Dialog>
             </div>
         );
-    }else if(props.mode=="Group"){
+    } else if (props.mode == "Group") {
         return (
             <div className="ButtonToChangeMode">
                 <button className={"button-to-change-mode"}
@@ -100,36 +125,17 @@ function ButtonToChangeMode(props) {
                 </button>
                 <Dialog open={open}
                         onClose={handleClose}
-                        aria-labelledby="form-dialog-title">
-                    <DialogTitle id="form-dialog-title">
-                        ひとりで選ぶ
-                    </DialogTitle>
+                        aria-labelledby="dialog-title">
                     <DialogContent>
-                        <Paper className={classes.root}>
-                            <TextField
-                                id="group_id"
-                                label="グループID"
-                                variant="outlined"
-                            />
-                            <Button onClick={ ()=>{handleClose(); props.turnMode()} }
-                                    variant="contained"
-                                    color="primary"
-                                    height="100%"
-                            >
-                                入室
-                            </Button>
-                        </Paper>
-                        <div>
-                            <Button onClick={ ()=>{handleClose(); props.turnMode()} }
-                                    color="secondary"
-                                    variant="contained"
-                            >
-                                ルームを新規作成
-                            </Button>
-                        </div>
-
+                        この部屋から退室してひとりで選びますか？
                     </DialogContent>
                     <DialogActions>
+                        <Button onClick={handleClose} color="primary">
+                            いいえ
+                        </Button>
+                        <Button onClick={leaveGroup} color="primary">
+                            退室
+                        </Button>
                     </DialogActions>
                 </Dialog>
             </div>

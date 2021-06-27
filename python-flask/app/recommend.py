@@ -41,9 +41,33 @@ def recommend_industry(current_group, group_id, user_id):
 def recommend_review_words(current_group, group_id, user_id):
     '''
     口コミによるレコメンド
+    ReviewRatingが3以上の店舗を返す
+    一回のレスポンスで返す店舗数は0~10の間
     '''
     # TODO: 口コミによるレコメンド
-    return '[]'
+    LOCAL_SEARCH_RESULTS_COUNT = 10 # 一回に取得する店舗の数
+    coordinates = current_group[group_id]['Coordinates']
+    address = current_group[group_id]['Address']
+    request_count = current_group[group_id]['Users'][user_id]['RequestCount']
+
+    local_search_params = {
+        # 中心地から1km以内のグルメを検索
+        'lat': coordinates[0], # 緯度
+        'lon': coordinates[1], # 経度
+        'dist': 3, # 中心地点からの距離 # 最大20km
+        'gc': '01', # グルメ
+        'image': True, # 画像がある店
+        'open': 'now', # 現在開店している店舗
+        'sort': 'hybrid', # 評価や距離などを総合してソート
+        'start': LOCAL_SEARCH_RESULTS_COUNT * request_count, # 表示範囲：開始位置
+        'results': LOCAL_SEARCH_RESULTS_COUNT
+    }
+    
+    local_search_json, result_json = api_functions.get_restaurant_info_from_local_search_params(coordinates, address, local_search_params)
+    result_json = sorted(result_json, key=lambda x:x['ReviewRating'], reverse=True)
+    stop_index = [i for i, x in enumerate(result_json) if x['ReviewRating'] < 3][0]
+    result_json = result_json[:stop_index]
+    return json.dumps(result_json, ensure_ascii=False)
 
 
 def recommend_template(current_group, group_id, user_id):
