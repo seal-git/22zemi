@@ -9,6 +9,7 @@ import json
 import random
 from werkzeug.exceptions import NotFound,BadRequest,InternalServerError
 import datetime
+import string
 
 """
 mysqlサーバーとの接続はmysql.connectorで行っているが，SQLAlchemyへ換装したい．
@@ -45,6 +46,21 @@ conn.ping(reconnect=True)
 if conn.is_connected():
     print("db connected!")
 
+def generate_group_id():
+    '''
+    重複しないグループIDを生成する
+    
+    Returns
+    ----------------
+    group_id : string
+    '''
+    global current_group
+    for i in range(1000000):
+        group_id = str(randint(0, 999999))
+        if group_id not in current_group:
+            return group_id
+    return group_id
+
 def get_group_id(user_id):
     global current_group
     '''
@@ -62,6 +78,53 @@ def get_group_id(user_id):
         if user_id in g['Users'].keys():
             return gid
     return None
+
+def generate_user_id():
+    '''
+    重複しないユーザIDを生成する
+    
+    Returns
+    ----------------
+    user_id : string
+    '''
+    global current_group
+    for i in range(1000000):
+        user_id = ''.join([random.choice(string.ascii_letters + string.digits) for j in range(12)])
+        for g in current_group.values():
+            for u in g['Users'].items():
+                if u == user_id:
+                    user_id = ""
+        if user_id != "":
+            return user_id
+    return user_id
+
+def set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice):
+    '''
+    検索条件を受け取り、current_groupを更新する。
+    '''
+    global current_group
+    if place is None and genre is None and query is None and open_hour is None and maxprice is None and minprice is None: return
+    
+    if place is not None:
+        lat,lon,address = api_functions.get_lat_lon(place)
+        current_group[group_id]['Coordinates'] = (lat,lon)
+        current_group[group_id]['Address'] = address
+    if genre is not None or query is not None:
+        if genre is None:
+            current_group[group_id]['FilterParams']['query'] = query
+        elif query is None:
+            current_group[group_id]['FilterParams']['query'] = genre
+        else:
+            current_group[group_id]['FilterParams']['query'] = query + ' ' + query
+    if open_hour is not None:
+        if open_day is not None:
+            current_group[group_id]['FilterParams']['open'] = open_day + ',' + open_hour
+        else:
+            current_group[group_id]['FilterParams']['open'] = str(datetime.datetime.now().day) + ',' + open_hour
+    if maxprice is not None:
+        current_group[group_id]['FilterParams']['maxprice'] = int(maxprice)
+    if minprice is not None:
+        current_group[group_id]['FilterParams']['minprice'] = int(minprice)
 
 def get_restaurant_info(group, restaurant_ids):
     '''
@@ -119,10 +182,33 @@ def get_sample_db():
 # まだ使われていないグループIDを返すだけ
 def http_init():
     global current_group
-    for i in range(1000000):
-        group_id = str(randint(0, 999999))
-        if group_id not in current_group:
-            return group_id
+    group_id = generate_group_id()
+    user_id = generate_user_id()
+    result = {'GroupId': group_id, 'UserId': user_id}
+    return json.dumps(result, ensure_ascii=False)
+
+@app_.route('/invite', methods=['GET','POST'])
+# 検索条件を指定して、招待URLを返す
+def http_invite():
+    group_id = request.args.get('group_id')
+    # coordinates = request.args.get('coordinates') # 位置情報 # TODO: デモ以降に実装
+    place = request.args.get('place') # 場所
+    genre = request.args.get('genre') # ジャンル
+    query = request.args.get('query') # 場所やジャンルなどの検索窓入力
+    open_day = request.args.get('open_day') # 
+    open_hour = request.args.get('open_hour') # 時間
+    maxprice = request.args.get('maxprice') # 最高値
+    minprice = request.args.get('minprice') # 最安値
+    recommend_method = request.args.get('recommend')
+    
+    group_id = group_id if group_id != None else generate_group_id()
+    
+    set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice)
+    
+    URL = 'http://localhost:3000' # TODO: ドメインを取得したら書き換える。
+    invite_url = URL + '?group_id=' + str(group_id)
+    result = {'GroupId': group_id, 'UserId': generate_user_id(), 'Url': invite_url}
+    return json.dumps(result, ensure_ascii=False)
 
 @app_.route('/info', methods=['GET','POST'])
 # 店情報を要求するリクエスト
@@ -130,7 +216,7 @@ def http_info():
     global current_group
     user_id = request.args.get('user_id')
     group_id = request.args.get('group_id')
-    # coordinates = request.args.get('coordinates') # 位置情報
+    # coordinates = request.args.get('coordinates') # 位置情報 # TODO: デモ以降に実装
     place = request.args.get('place') # 場所
     genre = request.args.get('genre') # ジャンル
     query = request.args.get('query') # 場所やジャンルなどの検索窓入力
@@ -154,26 +240,7 @@ def http_info():
         current_group[group_id]['Users'][user_id]['RequestCount'] += 1 # 2回目以降のリクエストは、前回の続きの店舗情報を送る
 
     # 検索条件
-    if place is not None:
-        lat,lon,address = api_functions.get_lat_lon(place)
-        current_group[group_id]['Coordinates'] = (lat,lon)
-        current_group[group_id]['Address'] = address
-    if genre is not None or query is not None:
-        if genre is None:
-            current_group[group_id]['FilterParams']['query'] = query
-        elif query is None:
-            current_group[group_id]['FilterParams']['query'] = genre
-        else:
-            current_group[group_id]['FilterParams']['query'] = query + ' ' + query
-    if open_hour is not None:
-        if open_day is not None:
-            current_group[group_id]['FilterParams']['open'] = open_day + ',' + open_hour
-        else:
-            current_group[group_id]['FilterParams']['open'] = str(datetime.datetime.now().day) + ',' + open_hour
-    if maxprice is not None:
-        current_group[group_id]['FilterParams']['maxprice'] = int(maxprice)
-    if minprice is not None:
-        current_group[group_id]['FilterParams']['minprice'] = int(minprice)
+    set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice)
 
     return recommend.recommend_main(current_group, group_id, user_id, recommend_method)
 
