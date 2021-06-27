@@ -26,7 +26,7 @@ def get_restaurant_info_from_local_search_params(group, local_search_params):
     lunch_time_end = 15
 
     # Yahoo local search APIで店舗情報を取得
-    local_search_url = 'https://map.yahooapis.jp/search/local/V1/localSearch?'
+    local_search_url = 'https://map.yahooapis.jp/search/local/V1/localSearch'
     local_search_params.update({
         'appid': os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
         'output': 'json',
@@ -108,13 +108,14 @@ def get_lat_lon(query):
         coordinates = geometry["Coordinates"].split(",")
         lon = float(coordinates[0])
         lat = float(coordinates[1])
+        address = response["Feature"][0]["Property"]["Address"]
     except:
         # Yahoo!本社の座標
         lon = 139.73284
         lat = 35.68001 
+        address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-"
         
-    return lat, lon
-
+    return lat, lon, address
 
 def get_review(uid):
     '''
@@ -130,7 +131,7 @@ def get_review(uid):
         response = requests.get(review_api_url, params=params)
         response = response.json()
     except:
-        return {}
+        return {'ResultInfo':{'Count':0}}
         
     return response
 
