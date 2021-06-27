@@ -6,15 +6,18 @@ import axios from "axios";
 import "./Selection.css"
 
 // スワイプでお店を選ぶ画面
+
+const initDataList = [{"Name":"Waiting...","Images":[""]}]
+
 function Selection(props) {
   const [idx, setIndex] = useState(0)
-  const [isLoading, setIsLoading] = useState(false)
-  const [dataList, setDataList] = useState([{"Name":"Waiting...","Images":[""]}])
+  const [dataList, setDataList] = useState(initDataList)
+  let isLoading = false
 
   // APIからお店のデータを得る
   const getInfo = () => {
     if(isLoading) return;
-    setIsLoading(true)
+    isLoading = true
     const params = {"user_id":props.userId}
     if(props.mode==="Group"){
         params["group_id"] = props.groupId
@@ -28,7 +31,7 @@ function Selection(props) {
       console.log(dataList[0])
       setIndex(0)
       setDataList(dataList)
-      setIsLoading(false)
+      isLoading = false
     })
     .catch((error) => {
       console.log("error:",error);
@@ -42,11 +45,21 @@ function Selection(props) {
 
   // カードをめくる
   const turnCard = () => {
+    // データリストが初期状態の場合何もしない
+    if(dataList[0].Name==initDataList[0].Name) return;
+    // インデックスがリストのサイズを超えようとしてる場合何もしない
     if(idx>=dataList.length) return
+    // 次のインデックスが out of range の場合新たにリストを取得する
+    // range に収まる場合は カードをめくる
     const nextIdx = idx + 1
     if(nextIdx===dataList.length){
+      // データリストの取得待ちであることを明示する
+      setIndex(0)
+      setDataList(initDataList)
+      // リスト取得
       getInfo()
     }else{
+      // カードをめくる
       setIndex(nextIdx)
     }
   }
@@ -79,11 +92,16 @@ function Selection(props) {
     if(isLoading) return;
     sendFeeling(true)
   }
+  // Home コンポーネント から受け取った turnMode を
+  // ButtonToChangeMode 用に加工
   const turnMode = (groupId) => {
       console.log("Selection:turnMode")
+      // データリストの取得待ちであることを明示する
+      setIndex(0)
+      setDataList(initDataList)
+      // モード切り替え
       props.turnMode(groupId)
-      setIsLoading(true)
-      setDataList([{"Name":"Waiting...","Images":[]}])
+      // リスト取得
       getInfo()
   }
   return (
