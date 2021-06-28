@@ -1,11 +1,83 @@
 .setting {
-    height: 90%;
+    height: 80%;
     text-align: center;
     position: relative;
 }
 
+.box-title{
+    top: 10%;
+    height: 8%;
+    width: 100%;
+    /* background-color: #c4c4c4;  */
+    position: absolute;
+}
+.label-title{
+    text-align: center;
+}
+.box-area{
+    position: absolute;
+    background-color: #c4c4c4;
+    top: 30%;
+    width: 30%;
+    height: 8%;
+    left: 0;
+    position: absolute;
+}
+.label-area {
+    text-align: left;
+}
+.input-area{
+    text-align: left;
+    top: 30%;
+    width: 40%;
+    height: 8%;
+    left: 50%;
+    position: absolute;
+}
+.box-genre{
+    background-color: #c4c4c4;
+    top: 40%;
+    width: 30%;
+    height: 8%;
+    left: 0;
+    position: absolute;
+}
+.label-genre{
+    text-align: left;
+    vertical-align: middle;
+}
+.input-genre{
+    text-align: left;
+    top: 40%;
+    width: 40%;
+    height: 8%;
+    left: 50%;
+    position: absolute;
+}
+.box-time{
+    background-color: #c4c4c4;
+    top: 50%;
+    width: 30%;
+    height: 8%;
+    left: 0;
+    position: absolute;
+}
+.label-time {
+    height: 100%;
+    text-align: left;
+    vertical-align: middle;
+    position: relative;
+}
+.input-time{
+    text-align: left;
+    top: 50%;
+    width: 40%;
+    height: 8%;
+    left: 50%;
+    position: absolute;
+}
 .button-alone{
-    top: 60%;
+    top: 65%;
     width: 100%;
     left: 0;
     padding: 0;
@@ -15,12 +87,11 @@
     position: absolute;
     z-index: 2;
 }
-
 .button-alone-image{
     width: 100%;
 }
 .button-group{
-    top: 80%;
+    top: 85%;
     width: 100%;
     left: 0;
     padding: 0;
@@ -30,7 +101,6 @@
     position: absolute;
     z-index: 2;
 }
-
 .button-group-image{
     width: 100%;
 }
