@@ -10,6 +10,10 @@ import random
 from werkzeug.exceptions import NotFound,BadRequest,InternalServerError
 import datetime
 import string
+import qrcode
+from PIL import Image
+import base64
+from io import BytesIO
 
 """
 mysqlサーバーとの接続はmysql.connectorで行っているが，SQLAlchemyへ換装したい．
@@ -190,6 +194,8 @@ def http_init():
 @app_.route('/invite', methods=['GET','POST'])
 # 検索条件を指定して、招待URLを返す
 def http_invite():
+    URL = 'http://localhost:3000' # TODO: ドメインを取得したら書き換える。
+    
     group_id = request.args.get('group_id')
     # coordinates = request.args.get('coordinates') # 位置情報 # TODO: デモ以降に実装
     place = request.args.get('place') # 場所
@@ -205,9 +211,12 @@ def http_invite():
     
     set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice)
     
-    URL = 'http://localhost:3000' # TODO: ドメインを取得したら書き換える。
     invite_url = URL + '?group_id=' + str(group_id)
-    result = {'GroupId': group_id, 'UserId': generate_user_id(), 'Url': invite_url}
+    qr_img = qrcode.make(invite_url)
+    buf = BytesIO()
+    qr_img.save(buf, format="jpeg")
+    qr_img_base64 = base64.b64encode(buf.getvalue()).decode("ascii")
+    result = {'GroupId': group_id, 'UserId': generate_user_id(), 'Url': invite_url, 'Qr': qr_img_base64}
     return json.dumps(result, ensure_ascii=False)
 
 @app_.route('/info', methods=['GET','POST'])

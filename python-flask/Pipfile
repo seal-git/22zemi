@@ -53,6 +53,8 @@ mysql-connector-python = "*"
 markdown = "*"
 flask-cors = "*"
 geopy = "*"
+qrcode = "*"
+pillow = "*"
 
 [dev-packages]
 
