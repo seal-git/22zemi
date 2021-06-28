@@ -9,22 +9,15 @@ jobs:
     name: Build Deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Check out code
-        uses: actions/checkout@v2
-      - name: Setup SSH
-        run: |
-          # 初期状態では.sshがなかったので作成
-          mkdir ~/.ssh
-          # SSH鍵を環境変数からデコード
-          echo ${SSH_KEY} > ~/.ssh/my-ssh-key
-          # echo ${SSH_KEY_PUB} > ~/.ssh/my-ssh-key.pub
-          chmod 600 ~/.ssh/my-ssh-key
-        env:
-          SERVER_HOST: 34.146.166.191 # 接続先のGCEの外部IP
-          SSH_KEY: ${{ secrets.ID_RSA_GCE }}
-          SSH_KEY_PUB: ${{ secrets.ID_RSA_GCE_PUB }}
-      - name: Deploy
-        run: |
-          ssh -i ~/.ssh/my-ssh-key seal-git@${SERVER_HOST} 'bash -s ~/deploy.sh'
-        env:
-          SERVER_HOST: 34.146.166.191 # 接続先のGCEの外部IP
+    - name: Install SSH key
+      uses: shimataro/ssh-key-action@v2
+      with:
+        key: ${{ secrets.ID_RSA_GCE }}
+        name: id_rsa # optional
+        known_hosts: ${{ secrets.KNOWN_HOSTS }}
+        if_key_exists: fail # replace / ignore / fail; optional (defaults to fail)
+    - name: Deploy
+      run: |
+        ssh -i ~/.ssh/my-ssh-key seal-git@${SERVER_HOST} 'bash -s ~/deploy.sh'
+      env:
+        SERVER_HOST: 34.146.166.191 # 接続先のGCEの外部IP
