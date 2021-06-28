@@ -26,6 +26,6 @@ jobs:
           SSH_KEY_PUB: ${{ secrets.ID_RSA_GCE_PUB }}
       - name: Deploy
         run: |
-          ssh yuki@${SERVER_HOST} -i ~/.ssh/my-ssh-key 'bash -s ~/deploy.sh'
+          ssh -i ~/.ssh/my-ssh-key seal-git@${SERVER_HOST} 'bash -s ~/deploy.sh'
         env:
           SERVER_HOST: 34.146.166.191 # 接続先のGCEの外部IP
