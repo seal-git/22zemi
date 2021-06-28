@@ -142,9 +142,11 @@ def http_info():
     
     group_id = group_id if group_id != None else get_group_id(user_id)
 
-    # Yahoo本社の住所
+    # Yahoo本社の住所 # TODO
     address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-"
     lat,lon,address = api_functions.get_lat_lon(address)
+    # TODO: 開発用に時間を固定
+    open_hour = '18'
     
     if group_id not in current_group:
         current_group[group_id] = {'Coordinates': (lat,lon), 'Address': address, 'FilterParams': {}, 'Users': {}, 'Restaurants': {}}
@@ -167,6 +169,7 @@ def http_info():
             current_group[group_id]['FilterParams']['query'] = query + ' ' + query
     if open_hour is not None:
         if open_day is not None:
+            # TODO: 数値で入力されているかチェック
             current_group[group_id]['FilterParams']['open'] = open_day + ',' + open_hour
         else:
             current_group[group_id]['FilterParams']['open'] = str(datetime.datetime.now().day) + ',' + open_hour

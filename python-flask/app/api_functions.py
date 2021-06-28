@@ -66,6 +66,7 @@ def get_restaurant_info_from_local_search_params(group, local_search_params):
             result_json[i]['UrlYahooMap'] = "https://map.yahoo.co.jp/route/walk?from=" + group['Address'] + "&to=" + result_json[i]['Address']
             result_json[i]['ReviewRating'] = get_review_rating(restaurant_id)
             result_json[i]['VotesLike'], result_json[i]['VotesAll'] = calc_info.count_votes(group, restaurant_id)
+            result_json[i]['BusinessHour'] = (feature['Property']['Detail'].get('BusinessHour')).replace('\n' , '    ')
 
         # Images : 画像をリストにする
             lead_image = [feature['Property']['LeadImage']] if 'LeadImage' in feature['Property'] else ([feature['Property']['Detail']['Image1']] if 'Image1' in feature['Property']['Detail'] else []) # リードイメージがある時はImage1を出力しない。
@@ -140,10 +141,14 @@ def get_review(uid):
         
     return response
 
+
 def get_review_rating(uid):
     response = get_review(uid)
-    if response['ResultInfo']['Count'] == 0 : return -1
-    return sum([f['Property']['Comment']['Rating'] for f in response["Feature"]]) / response['ResultInfo']['Count']
+    if response['ResultInfo']['Count'] == 0 : return 'レビューがありません'# review_rating = -1
+    review_rating = sum([f['Property']['Comment']['Rating'] for f in response["Feature"]]) / response['ResultInfo']['Count']
+    review_rating_int = int(review_rating + 0.5)
+    review_rating_star = '★' * review_rating_int + '☆' * (5-review_rating_int)
+    return review_rating_star + '    ' + ('%.1f' % review_rating)
 
 def distance_display(distance):
     '''

@@ -21,7 +21,7 @@ def recommend_simple(current_group, group_id, user_id, recommend_method):
         'dist': 3, # 中心地点からの距離 # 最大20km
         'gc': '01', # グルメ
         'image': True, # 画像がある店
-        # 'open': 'now', # 現在開店している店舗 # TODO
+        'open': 'now', # 現在開店している店舗
         'sort': recommend_method, # hyblid # 評価や距離などを総合してソート
         'start': RESULTS_COUNT * request_count, # 表示範囲：開始位置
         'results': RESULTS_COUNT # 表示範囲：店舗数
