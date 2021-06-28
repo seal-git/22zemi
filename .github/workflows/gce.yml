@@ -48,7 +48,7 @@ jobs:
     # Build the Docker image
     - name: Build
       run: |-
-        docker compose build --tag "gcr.io/$PROJECT_ID/$GCE_INSTANCE-image:$GITHUB_SHA" .
+        docker-compose build --tag "gcr.io/$PROJECT_ID/$GCE_INSTANCE-image:$GITHUB_SHA" .
     # Push the Docker image to Google Container Registry
     - name: Publish
       run: |-
