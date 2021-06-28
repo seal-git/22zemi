@@ -16,8 +16,8 @@ jobs:
           # 初期状態では.sshがなかったので作成
           mkdir ~/.ssh
           # SSH鍵を環境変数からデコード
-          echo ${SSH_KEY} | base64 -d > ~/.ssh/my-ssh-key
-          echo ${SSH_KEY_PUB} | base64 -d > ~/.ssh/my-ssh-key.pub
+          echo ${SSH_KEY} >> ~/.ssh/my-ssh-key
+          echo ${SSH_KEY_PUB} >> ~/.ssh/my-ssh-key.pub
           chmod 600 ~/.ssh/my-ssh-key
           eval "$(ssh-agent -s)"
           ssh-keyscan -H ${SERVER_HOST} >> ~/.ssh/known_hosts
