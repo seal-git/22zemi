@@ -16,11 +16,16 @@ jobs:
           # 初期状態では.sshがなかったので作成
           mkdir ~/.ssh
           # SSH鍵を環境変数からデコード
-          echo ${SSH_KEY} >> ~/.ssh/my-ssh-key
+          echo ${SSH_KEY} | base64 -d > ~/.ssh/my-ssh-key
+          echo ${SSH_KEY_PUB} | base64 -d > ~/.ssh/my-ssh-key.pub
           chmod 600 ~/.ssh/my-ssh-key
+          eval "$(ssh-agent -s)"
+          ssh-keyscan -H ${SERVER_HOST} >> ~/.ssh/known_hosts
+          ssh-add ~/.ssh/my-ssh-key
         env:
           SERVER_HOST: 34.146.166.191 # 接続先のGCEの外部IP
           SSH_KEY: ${{ secrets.ID_RSA_GCE }}
+          SSH_KEY_PUB: ${{ secrets.ID_RSA_GCE_PUB }}
       - name: Deploy
         run: |
           ssh yuki@${SERVER_HOST} -i ~/.ssh/my-ssh-key 'bash -s ~/deploy.sh'
