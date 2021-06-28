@@ -1,5 +1,5 @@
-import {useState} from "react"
-import {makeStyles} from '@material-ui/core/styles';
+import { useState } from "react"
+import { makeStyles } from '@material-ui/core/styles';
 import AppBottomNavigation from "./AppBottomNavigation"
 import KeepList from "./KeepList"
 import Selection from "./Selection"
@@ -52,24 +52,17 @@ function Home(props) {
                         setMode={props.setMode}
                         turnMode={turnMode}
                     />
-                    : view === "KeepList" ? <KeepList/>
+                    : view === "KeepList" ? <KeepList
+                        userId={userId}
+                        groupId={groupId}
+                        mode={props.mode}
+                        setMode={props.setMode}
+                        turnMode={turnMode}
+                    />
                         : <Setting mode={props.mode} turnMode={turnMode}
-                                   setView={setView}/>}
+                            setView={setView} />}
             </div>
-            <AppBottomNavigation view={view} setView={setView}/>
-            <div className="Credit">
-                <a href={"https://developer.yahoo.co.jp/sitemap/"}>
-                    <img src={"https://s.yimg.jp/images/yjdn/yjdn_attbtn2_105_17.gif"}
-                    style={{
-                        width:"105",
-                        height:"17",
-                        title:"Webサービス by Yahoo! JAPAN",
-                        alt:"Webサービス by Yahoo! JAPAN",
-                        border:"0",
-                        style:"margin:15px 15px 15px 15px",
-                    }}/>
-                </a>
-            </div>
+            <AppBottomNavigation view={view} setView={setView} />
         </div>
     );
 }
