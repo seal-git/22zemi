@@ -33,12 +33,13 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    # Setup gcloud CLI
+    # Setup gcloud C
     - uses: google-github-actions/setup-gcloud@master
       with:
         version: '290.0.1'
         service_account_key: ${{ secrets.GCE_SA_KEY }}
         project_id: ${{ secrets.GCE_PROJECT }}
+        export_default_credentials: true
 
     # Configure Docker to use the gcloud command-line tool as a credential
     # helper for authentication
