@@ -1,5 +1,5 @@
-# 飯Tinder(仮称)
-名前決めましょう
+# Reskima
+test
 ## 起動方法
 docker-compose.ymlのあるディレクトリで
 
