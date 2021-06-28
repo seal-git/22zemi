@@ -23,6 +23,6 @@ jobs:
           SSH_KEY: ${{ secrets.ID_RSA_GCE }}
       - name: Deploy
         run: |
-          ssh yuki@${SERVER_HOST} -i ~/.ssh/my-ssh-key 'bash -s' < ~/deploy.sh
+          ssh yuki@${SERVER_HOST} -i ~/.ssh/my-ssh-key 'bash -s ~/deploy.sh'
         env:
           SERVER_HOST: 34.146.166.191 # 接続先のGCEの外部IP
