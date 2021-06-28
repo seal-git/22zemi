@@ -18,6 +18,6 @@ jobs:
         if_key_exists: fail # replace / ignore / fail; optional (defaults to fail)
     - name: Deploy
       run: |
-        ssh -i ~/.ssh/my-ssh-key seal-git@${SERVER_HOST} 'bash -s ~/deploy.sh'
+        ssh seal-git@${SERVER_HOST} 'bash -s ~/deploy.sh'
       env:
         SERVER_HOST: 34.146.166.191 # 接続先のGCEの外部IP
