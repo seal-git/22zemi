@@ -9,9 +9,6 @@ jobs:
     name: Build Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: clean
-      run : |
-        rm ~/.ssh/known_hosts
     - name: Install SSH key
       uses: shimataro/ssh-key-action@v2
       with:
