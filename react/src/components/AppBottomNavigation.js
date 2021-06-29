@@ -13,6 +13,7 @@ import { Box, Container } from '@material-ui/core';
 import Image from 'react'
 import Badge from '@material-ui/core/Badge';
 import Credit from './Credit';
+import React from 'react'
 
 //App
 const useStyles = makeStyles({
