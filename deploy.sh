@@ -2,6 +2,8 @@
 # GCEでdocker-composeコマンドが使えなかったため、それ用のdocker imageを使用
 cd 22zemi
 git checkout production
+git add .
+git commit -m "update"
 git fetch origin
 git merge origin/production
 docker stop react python-flask mysql
