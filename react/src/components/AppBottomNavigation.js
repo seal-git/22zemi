@@ -1,3 +1,4 @@
+import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { withStyles } from '@material-ui/core/styles';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
@@ -13,7 +14,6 @@ import { Box, Container } from '@material-ui/core';
 import Image from 'react'
 import Badge from '@material-ui/core/Badge';
 import Credit from './Credit';
-import React from 'react'
 
 //App
 const useStyles = makeStyles({
