@@ -25,7 +25,6 @@ jobs:
           SERVER_HOST: 35.111.111.111 # 接続先のGCEの外部IP
       - name: Deploy
         run: |
-          ssh-keygen -R ${SERVER_HOST}
-          ssh -i ~/.ssh/my-ssh-key yuki@${SERVER_HOST} 'bash -s ~/deploy.sh'
+          ssh -oStrictHostKeyChecking=no -i ~/.ssh/my-ssh-key yuki@${SERVER_HOST} 'bash -s ~/deploy.sh'
         env:
           SERVER_HOST: 34.146.166.191 # 接続先のGCEの外部IP
