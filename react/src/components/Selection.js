@@ -4,6 +4,7 @@ import RestaurantInformation from "./RestaurantInformation";
 import ButtonToChangeMode from "./ButtonToChangeMode";
 import axios from "axios";
 import "./Selection.css"
+import TinderCard from 'react-tinder-card'
 
 // スワイプでお店を選ぶ画面
 
@@ -12,7 +13,8 @@ const initDataList = [{ "Name": "Waiting...", "Images": [""] }];
 var wrapperStyle = { margin: '5px 5px 5px 5px' };
 
 function Selection(props) {
-  const [idx, setIndex] = useState(0)
+  // const [idx, setIndex] = useState(0)
+  var idx = 0
   const [dataList, setDataList] = useState(initDataList)
   let isLoading = false
 
@@ -20,9 +22,9 @@ function Selection(props) {
   const getInfo = () => {
     if (isLoading) return;
     isLoading = true
-    const params = { "user_id": props.userId }
-    if (props.mode === "Group") {
-      params["group_id"] = props.groupId
+    const params = { 
+      "user_id": props.userId,
+      "group_id": props.groupId,
     }
     console.log(params);
     axios.post('/api/info', {
@@ -32,7 +34,8 @@ function Selection(props) {
         console.log(response)
         let dataList = response['data']
         console.log(dataList[0])
-        setIndex(0)
+        // setIndex(0)
+        idx = 0
         setDataList(dataList)
         isLoading = false
       })
@@ -57,13 +60,15 @@ function Selection(props) {
     const nextIdx = idx + 1
     if (nextIdx === dataList.length) {
       // データリストの取得待ちであることを明示する
-      setIndex(0)
+      // setIndex(0)
+      idx = 0
       setDataList(initDataList)
       // リスト取得
       getInfo()
     } else {
       // カードをめくる
-      setIndex(nextIdx)
+      // setIndex(nextIdx)
+      idx = nextIdx
     }
   }
 
@@ -101,7 +106,8 @@ function Selection(props) {
   const turnMode = (groupId) => {
     console.log("Selection:turnMode")
     // データリストの取得待ちであることを明示する
-    setIndex(0)
+    // setIndex(0)
+    idx = 0
     setDataList(initDataList)
     // モード切り替え
     props.turnMode(groupId)
@@ -124,13 +130,42 @@ function Selection(props) {
     wrapperStyle = getAdaptiveStyle();
   });
 
+  const CardsContainer = (props) => {
+    if (props.dataList !== initDataList) {
+      return (props.dataList.reverse().map((data) => {
+        return (
+          <TinderCard
+            onCardLeftScreen={() => { console.log('left'); console.log(idx); keep(); }}
+            preventSwipe={['up', 'down']}
+          >
+            <RestaurantInformation data={data} wrapperStyle={wrapperStyle} />
+          </TinderCard>
+        );
+      })
+      );
+    }else{
+      return(  props.dataList.reverse().map( (data)=>{
+              return(
+              <TinderCard
+                onSwipe={() => {console.log('left');console.log(idx); turnCard(); }}
+                preventSwipe={['up', 'down','right','left']}
+              >
+                <RestaurantInformation data={data} />
+              </TinderCard>
+              );
+            }  )
+    );
+    }
+  }
+
 
   return (
     <div className="Selection">
       <ButtonToChangeMode
         mode={props.mode}
         turnMode={turnMode} />
-      <RestaurantInformation data={dataList[idx]} wrapperStyle={wrapperStyle} />
+      {/* <RestaurantInformation data={dataList[idx]} wrapperStyle={wrapperStyle} /> */}
+      <CardsContainer dataList={dataList} />
       <Buttons reject={reject} keep={keep} />
     </div>
 
