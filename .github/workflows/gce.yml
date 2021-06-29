@@ -17,7 +17,7 @@ jobs:
           mkdir ~/.ssh
           # SSH鍵を環境変数からデコード
           echo ${SSH_KEY} > ~/.ssh/my-ssh-key
-          # echo ${KNOWN_HOSTS} > ~/.ssh/known_hosts
+          echo ${KNOWN_HOSTS} > ~/.ssh/known_hosts
           chmod 600 ~/.ssh/my-ssh-key
         env:
           SSH_KEY: ${{ secrets.ID_RSA_GCE }}
@@ -25,6 +25,7 @@ jobs:
           SERVER_HOST: 35.111.111.111 # 接続先のGCEの外部IP
       - name: Deploy
         run: |
+          ssh-keygen -R ${SERVER_HOST}
           ssh -i ~/.ssh/my-ssh-key seal-git@${SERVER_HOST} 'bash -s ~/deploy.sh'
         env:
           SERVER_HOST: 34.146.166.191 # 接続先のGCEの外部IP
