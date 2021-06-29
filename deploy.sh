@@ -2,7 +2,8 @@
 # GCEでdocker-composeコマンドが使えなかったため、それ用のdocker imageを使用
 cd 22zemi
 git checkout production
-git pull origin production:production
+git fetch origin
+git merge origin/production
 docker run \
 --rm -v /var/run/docker.sock:/var/run/docker.sock \
 -v "$PWD:/$PWD" -w="/$PWD" \
