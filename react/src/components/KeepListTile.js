@@ -1,3 +1,4 @@
+import React from 'react';
 import { Box, CardContent } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { createMuiTheme } from '@material-ui/core/styles';
@@ -13,7 +14,6 @@ import CloseIcon from '@material-ui/icons/Close';
 import RoomIcon from '@material-ui/icons/Room';
 import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined';
 import FavoriteIcon from '@material-ui/icons/Favorite';
-import React from 'react'
 
 const useStyles = makeStyles((theme) => ({
     space: {

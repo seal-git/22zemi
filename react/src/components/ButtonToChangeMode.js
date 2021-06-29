@@ -1,3 +1,4 @@
+import React from 'react';
 import "./ButtonToChangeMode.css";
 import ButtonNowAlone from "./button_now_alone.png";
 import ButtonNowGroup from "./button_now_group.png";
@@ -13,7 +14,6 @@ import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import {Paper} from "@material-ui/core";
 import {makeStyles} from '@material-ui/core/styles';
-import React from 'react'
 
 /*
 「ひとりで」モードから「みんなで」モードに移るボタン
