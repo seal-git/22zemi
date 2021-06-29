@@ -12,7 +12,7 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v2
       - name: execute via ssh
-        uses: garygrossgarten/github-action-ssh@v0.6.4
+        uses: garygrossgarten/github-action-ssh@release
         with:
           command: |
             touch ~/a.txt
