@@ -182,6 +182,13 @@ def get_sample_db():
     cur.close()
     return make_response(jsonify(result))
 
+@app_.route('/initialize_current_group', methods=['GET','POST'])
+# current_groupを初期化
+def http_initialize_current_group():
+    global current_group
+    current_group = {}
+    return "current_groupの初期化に成功！"
+
 @app_.route('/init', methods=['GET','POST'])
 # まだ使われていないグループIDを返すだけ
 def http_init():
