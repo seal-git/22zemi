@@ -5,6 +5,7 @@ import ButtonToChangeMode from "./ButtonToChangeMode";
 import axios from "axios";
 import "./Selection.css"
 import TinderCard from 'react-tinder-card'
+import React from 'react'
 
 // スワイプでお店を選ぶ画面
 

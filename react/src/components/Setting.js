@@ -3,6 +3,7 @@ import { Button, Grid,FormControl,Input, Container,TextField, Typography } from 
 import { makeStyles } from "@material-ui/core";
 import SearchButtonOne from "./search_button_one.png"
 import SearchButtonAll from "./search_button_all.png"
+import React from 'react'
 
 // 現在時刻を文字列で取得
 const getCurrentTime = () => {

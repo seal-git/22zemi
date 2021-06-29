@@ -4,6 +4,7 @@ import DirectionsWalkIcon from '@material-ui/icons/DirectionsWalk';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import ScheduleIcon from '@material-ui/icons/Schedule';
 import "./Buttons.css"
+import React from 'react'
 
 // ボタンをGridでまとめたもの
 function Buttons(props) {
