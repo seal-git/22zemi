@@ -20,4 +20,4 @@ jobs:
           port: 22
           script: |
             touch ~/a.txt
-            source ~/deploy.sh
+            # source ~/deploy.sh
