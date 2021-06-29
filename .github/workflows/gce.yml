@@ -17,7 +17,7 @@ jobs:
           mkdir ~/.ssh
           # SSH鍵を環境変数からデコード
           echo ${SSH_KEY} > ~/.ssh/my-ssh-key
-          echo ${KNOWN_HOSTS} > ~/.ssh/known_hosts
+          # echo ${KNOWN_HOSTS} > ~/.ssh/known_hosts
           chmod 600 ~/.ssh/my-ssh-key
         env:
           SSH_KEY: ${{ secrets.ID_RSA_GCE }}
