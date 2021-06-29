@@ -21,44 +21,45 @@ const theme = createMuiTheme({
 
 const useStyles = makeStyles((theme) => ({
   AppAlone: {
-    height:'100%',
-    backgroundImage: 'linear-gradient(180.02deg, #FFEEAA 0.02%, #FDFFEB 80.2%)'
+    height: '100%',
+    backgroundImage: 'linear-gradient(180.02deg, #FFEEAA 0.02%, #FDFFEB 80.2%)',
+    backgroundSize: 'cover'
   },
   AppGroup: {
-    height:'100%',
+    height: '100%',
     backgroundImage: 'linear-gradient(180.02deg, #FFDDAA 0.02%, #FFFBFB 80.2%)'
   }
 }));
 
 function App() {
   // alone/group を抱える
-  const [mode,setMode] = useState("Alone")
+  const [mode, setMode] = useState("Alone")
   const classes = useStyles();
   const [className, setClassName] = useState(classes.AppAlone)
 
   // モードが切り替わるとスタイルが変わる
-  useEffect( () => {
-    if(mode==="Alone"){
+  useEffect(() => {
+    if (mode === "Alone") {
       setClassName(classes.AppAlone)
-    }else if(mode==="Group"){
+    } else if (mode === "Group") {
       setClassName(classes.AppGroup)
     }
     console.log("App:useEffect[mode]")
-  },[mode])
+  }, [mode])
 
-    return (
-      <ThemeProvider theme={theme} >
-        <div className={className}>
-          <div className="App-header"></div>
-          <Router>
-            <Switch>
-              <Route path="/" exact><Home mode={mode} setMode={setMode} /></Route>
-              <Route path="/api-test" exact><ApiTest /></Route>
-            </Switch>
-          </Router>
-        </div>
-      </ThemeProvider>
-    )
+  return (
+    <ThemeProvider theme={theme} >
+      <div className={className}>
+        <div className="App-header"></div>
+        <Router>
+          <Switch>
+            <Route path="/" exact><Home mode={mode} setMode={setMode} /></Route>
+            <Route path="/api-test" exact><ApiTest /></Route>
+          </Switch>
+        </Router>
+      </div>
+    </ThemeProvider>
+  )
 }
 
 export default App;
