@@ -20,4 +20,4 @@ jobs:
           port: 22
           script: |
             touch ~/a.txt
-            bash -s ~/hello.sh
+            source ~/hello.sh
