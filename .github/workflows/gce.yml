@@ -2,7 +2,7 @@ name: Deploy docker-compose to GCE
 
 on:
   push:
-    branches: [ main ]
+    branches: [ production ]
 
 jobs:
   build-deploy:
