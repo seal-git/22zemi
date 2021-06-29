@@ -1,4 +1,4 @@
 FROM node:16.3.0
 WORKDIR /workspace
-# CMD yarn install && npm start
+CMD yarn install && yarn global add react-scripts && npm start
 
