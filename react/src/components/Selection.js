@@ -4,6 +4,7 @@ import RestaurantInformation from "./RestaurantInformation";
 import ButtonToChangeMode from "./ButtonToChangeMode";
 import axios from "axios";
 import "./Selection.css"
+import React from 'react'
 
 // スワイプでお店を選ぶ画面
 
