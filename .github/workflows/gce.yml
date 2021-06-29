@@ -19,4 +19,4 @@ jobs:
         run: |
           echo "$SECRET_KEY" > secret_key
           chmod 600 secret_key
-          ssh -oStrictHostKeyChecking=no ${SSH_USER}@${SSH_ADDR} -i secret_key "source hello.sh" 
+          ssh -oStrictHostKeyChecking=no ${SSH_USER}@${SSH_ADDR} -i secret_key "source ~/22zemi/deploy.sh"
