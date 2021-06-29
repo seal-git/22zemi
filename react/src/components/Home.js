@@ -5,6 +5,7 @@ import KeepList from "./KeepList"
 import Selection from "./Selection"
 import Setting from "./Setting"
 import "./Home.css"
+import React from 'react'
 
 const produceId = () => {
     return Math.random().toString(32).substring(2)
