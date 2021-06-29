@@ -13,6 +13,7 @@ import CloseIcon from '@material-ui/icons/Close';
 import RoomIcon from '@material-ui/icons/Room';
 import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined';
 import FavoriteIcon from '@material-ui/icons/Favorite';
+import React from 'react'
 
 const useStyles = makeStyles((theme) => ({
     space: {
