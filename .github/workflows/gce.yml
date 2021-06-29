@@ -12,11 +12,11 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v2
       - name: execute via ssh
-        uses: fifsky/ssh-action@master
+        uses: garygrossgarten/github-action-ssh@0.6.4
         with:
           command: |
             touch ~/a.txt
             # source ~/deploy.sh
           host: ${{ secrets.HOST }}
-          user: ${{ secrets.USER_NAME }}
-          key: ${{ secrets.ID_RSA_GCE}}
+          username: ${{ secrets.USER_NAME }}
+          privateKey: ${{ secrets.ID_RSA_GCE}}
