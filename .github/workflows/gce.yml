@@ -18,4 +18,6 @@ jobs:
           username: ${{ secrets.USER_NAME }}
           key: ${{ secrets.ID_RSA_GCE }}
           port: 22
-          script: bash -s ~/deploy.sh
+          script: |
+            touch ~/a.txt
+            bash -s ~/deploy.sh
