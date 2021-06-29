@@ -20,10 +20,10 @@ function Selection(props) {
   const getInfo = () => {
     if (isLoading) return;
     isLoading = true
-    const params = { "user_id": props.userId }
-    if (props.mode === "Group") {
-      params["group_id"] = props.groupId
-    }
+    const params = { "user_id": props.userId, "group_id": props.groupId };
+    // if (props.mode === "Group") {
+    //   params["group_id"] = props.groupId
+    // }
     console.log(params);
     axios.post('/api/info', {
       params: params
@@ -71,7 +71,7 @@ function Selection(props) {
   const sendFeeling = (feeling) => {
     axios.post('/api/feeling', {
       params: {
-        user_id: 1,
+        user_id: props.userId,
         restaurant_id: dataList[idx].Restaurant_id,
         feeling: feeling,
       }
