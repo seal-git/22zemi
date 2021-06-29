@@ -11,13 +11,12 @@ jobs:
     steps:
       - name: Check out code
         uses: actions/checkout@v2
-      - name: executing remote ssh commands using ssh key
-        uses: appleboy/ssh-action@master
+      - name: execute via ssh
+        uses: fifsky/ssh-action@master
         with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USER_NAME }}
-          key: ${{ secrets.ID_RSA_GCE }}
-          port: 22
-          script: |
+          command: |
             touch ~/a.txt
             # source ~/deploy.sh
+          host: ${{ secrets.HOST }}
+          user: ${{ secrets.USER_NAME }}
+          key: ${{ secrets.ID_RSA_GCE}}
