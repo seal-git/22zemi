@@ -231,7 +231,7 @@ def http_invite():
 def http_info():
     global current_group
     user_id = request.form['user_id']
-    group_id = request.form['group_id')]
+    group_id = request.form['group_id']
     # coordinates = request.form['coordinates'] # 位置情報 # TODO: デモ以降に実装
     place = request.form['place'] # 場所
     genre = request.form['genre'] # ジャンル
