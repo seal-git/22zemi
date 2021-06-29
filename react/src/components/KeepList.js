@@ -12,15 +12,21 @@ import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import Typography from '@material-ui/core/Typography';
 
-
-var keepListStyle = { overflow: 'scroll' };
-
 const useStyles = makeStyles((theme) => ({
+    aloneStyle: {
+        height: '100%',
+        backgroundImage: 'linear-gradient(180.02deg, #FFEEAA 0.02%, #FDFFEB 80.2%)',
+        backgroundSize: 'cover'
+    },
+    groupStyle: {
+        height: '100%',
+        backgroundImage: 'linear-gradient(180.02deg, #FFDDAA 0.02%, #FFFBFB 80.2%)'
+    },
     topWrapper: {
         display: 'flex',
-        position: 'fixed',
-        top: '0', left: '0', right: '0',
-        zIndex: '2'
+        // position: 'fixed',
+        // top: '0', left: '0', right: '0',
+        // zIndex: '2'
     },
     participantNum: {
         lineHeight: '25px',
@@ -57,21 +63,6 @@ const initDataList = [{
     "Category": "-", "ReviewRating": "-", "VotesLike": 0, "VotesAll": 0,
 }]
 
-// カードの高さを指定する
-function getAdaptiveStyle() {
-    let height = window.innerHeight;
-    let keepListStyle = {
-        overflow: 'scroll',
-        height: height - 108 + 'px',
-    };
-    // console.log(wrapperStyle)
-    return keepListStyle;
-};
-//windowサイズの変更検知のイベントハンドラを設定
-window.addEventListener('load', () => {
-    keepListStyle = getAdaptiveStyle();
-});
-
 function KeepList(props) {
 
     const classes = useStyles();
@@ -86,7 +77,7 @@ function KeepList(props) {
             params["group_id"] = props.groupId
         }
         console.log(params);
-        axios.post('/api/list', {
+        axios.get('/api/list', {
             params: params
         })
             .then(function (response) {
@@ -104,6 +95,20 @@ function KeepList(props) {
         getList()
     }, []);
 
+
+    // モードが切り替わるとスタイルが変わる
+    // Appが指定している高さをぶち抜いてリストが表示されるので
+    // 全体に背景色を適用させるために、あらためて背景色を設定する
+    const [className, setClassName] = useState(classes.AppAlone)
+    useEffect(() => {
+        if (props.mode === "Alone") {
+            setClassName(classes.aloneStyle)
+        } else if (props.mode === "Group") {
+            setClassName(classes.groupStyle)
+        }
+        console.log("App:useEffect[mode]")
+    }, [props.mode])
+
     const selectControll = (event) => {
 
         console.log(event.target.value)
@@ -117,8 +122,7 @@ function KeepList(props) {
     console.log(sample)
 
     return (
-        <div >
-            <Box style={{ height: '48px' }}></Box>
+        <div className={className}>
             <Box className={classes.topWrapper}>
                 <FormControl variant="outlined" className={classes.formControl}>
                     <Select
@@ -141,11 +145,12 @@ function KeepList(props) {
                     投票人数 未実装人
                 </Typography>
             </Box>
-            <Box style={keepListStyle}>
+            <Box>
                 {sample.map((data) => (
                     <KeepListTile data={data} />
                 ))}
             </Box>
+            <Box style={{ height: '48px' }}></Box>
         </div >
     );
 }
