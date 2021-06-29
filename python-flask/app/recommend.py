@@ -4,6 +4,24 @@ import os
 
 RESULTS_COUNT = 3 # 一回に返す店舗の数
 
+#カテゴリの類似度が高い物
+with open("./data/category_high_sim.json","rb") as f:
+    category_high_sim = json.load(f)
+#カテゴリの類似度が低い物
+with open("./data/category_low_sim.json","rb") as f:
+    category_low_sim = json.load(f)
+#カテゴリの業種コード3, 検索用
+with open("./data/category_code.json","rb") as f:
+    category_code = json.load(f)
+
+def recommend_category(current_group, group_id, user_id, recommend_method):
+    #平均価格
+    #カテゴリを狭める+ランダムにも
+    group_result = current_group[group_id]
+    
+    local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(current_group[group_id], local_search_params)
+    return json.dumps(result_json, ensure_ascii=False)
+
 
 def recommend_simple(current_group, group_id, user_id, recommend_method):
     '''
