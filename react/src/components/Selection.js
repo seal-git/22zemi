@@ -8,24 +8,22 @@ import TinderCard from 'react-tinder-card'
 
 // スワイプでお店を選ぶ画面
 
-const initDataList = [{ "Name": "Waiting...", "Images": [""] }];
+const initDataList = [{ "Name": "Loading...", "Images": [""] }];
 
 var wrapperStyle = { margin: '5px 5px 5px 5px' };
 
 function Selection(props) {
   // const [idx, setIndex] = useState(0)
-  var idx = 0
+  // var idx = 0
   const [dataList, setDataList] = useState(initDataList)
+  let cardNum = dataList.length
   let isLoading = false
 
   // APIからお店のデータを得る
   const getInfo = () => {
     if (isLoading) return;
     isLoading = true
-    const params = { 
-      "user_id": props.userId,
-      "group_id": props.groupId,
-    }
+    const params = { "user_id": props.userId, "group_id": props.groupId };
     console.log(params);
     axios.post('/api/info', {
       params: params
@@ -33,9 +31,10 @@ function Selection(props) {
       .then(function (response) {
         console.log(response)
         let dataList = response['data']
+        cardNum = dataList.length
         console.log(dataList[0])
         // setIndex(0)
-        idx = 0
+        // idx = 0
         setDataList(dataList)
         isLoading = false
       })
@@ -53,31 +52,23 @@ function Selection(props) {
   const turnCard = () => {
     // データリストが初期状態の場合何もしない
     if (dataList[0].Name == initDataList[0].Name) return;
-    // インデックスがリストのサイズを超えようとしてる場合何もしない
-    if (idx >= dataList.length) return
-    // 次のインデックスが out of range の場合新たにリストを取得する
-    // range に収まる場合は カードをめくる
-    const nextIdx = idx + 1
-    if (nextIdx === dataList.length) {
+    // カード枚数を1減らす
+    cardNum -= 1
+    if(cardNum==0){
       // データリストの取得待ちであることを明示する
-      // setIndex(0)
-      idx = 0
+      cardNum = 1
       setDataList(initDataList)
       // リスト取得
       getInfo()
-    } else {
-      // カードをめくる
-      // setIndex(nextIdx)
-      idx = nextIdx
-    }
+    } 
   }
 
   // APIにキープ・リジェクトを送信する
-  const sendFeeling = (feeling) => {
+  const sendFeeling = (feeling,restaurant_id) => {
     axios.post('/api/feeling', {
       params: {
-        user_id: 1,
-        restaurant_id: dataList[idx].Restaurant_id,
+        user_id: props.userId,
+        restaurant_id: restaurant_id,
         feeling: feeling,
       }
     })
@@ -91,23 +82,22 @@ function Selection(props) {
   }
 
   // 各ボタンに対応する関数
-  const reject = () => {
+  const reject = (restaurant_id) => {
     console.log("reject")
     if (isLoading) return;
-    sendFeeling(false)
+    sendFeeling(false,restaurant_id)
   }
-  const keep = () => {
-    console.log("keep")
+  const keep = (restaurant_id) => {
+    console.log("keep:",restaurant_id)
     if (isLoading) return;
-    sendFeeling(true)
+    sendFeeling(true,restaurant_id)
   }
   // Home コンポーネント から受け取った turnMode を
   // ButtonToChangeMode 用に加工
   const turnMode = (groupId) => {
     console.log("Selection:turnMode")
     // データリストの取得待ちであることを明示する
-    // setIndex(0)
-    idx = 0
+    cardNum = 1
     setDataList(initDataList)
     // モード切り替え
     props.turnMode(groupId)
@@ -119,9 +109,11 @@ function Selection(props) {
   function getAdaptiveStyle() {
     let height = window.innerHeight;
     let wrapperStyle = {
-      backgroundColor: 'transparent',
+      // backgroundColor: 'transparent', // 描画ずれを回避するため色をつける
+      backgroundColor: 'white', 
       margin: '5px 5px 5px 5px',
       height: height - 100 + 'px',
+      position: 'absolute',
     };
     return wrapperStyle;
   };
@@ -130,34 +122,34 @@ function Selection(props) {
     wrapperStyle = getAdaptiveStyle();
   });
 
+  // swipe 操作をハンドル
+  const handleLeftScreen = (dir,restaurant_id) => {
+    console.log(dir)
+    if(dir==='right'){
+      keep(restaurant_id)
+    }else{
+      reject(restaurant_id)
+    }
+  }
   const CardsContainer = (props) => {
-    if (props.dataList !== initDataList) {
-      return (props.dataList.reverse().map((data) => {
-        return (
+    // スワイプできない方向を設定
+    let prevents = ['up','down']
+    if(props.dataList===initDataList){
+      prevents = ['up', 'down', 'right', 'left']
+    }
+    // お店ごとに情報カードを生成
+    // TinderCard として扱うことでスワイプを可能にしている
+    return (props.dataList.reverse().map((data) => {
+      return (
           <TinderCard
-            onCardLeftScreen={() => { console.log('left'); console.log(idx); keep(); }}
-            preventSwipe={['up', 'down']}
+            onCardLeftScreen={ (dir) => { handleLeftScreen(dir,data.Restaurant_id); } }
+            preventSwipe={prevents} 
           >
             <RestaurantInformation data={data} wrapperStyle={wrapperStyle} />
           </TinderCard>
         );
-      })
-      );
-    }else{
-      return(  props.dataList.reverse().map( (data)=>{
-              return(
-              <TinderCard
-                onSwipe={() => {console.log('left');console.log(idx); turnCard(); }}
-                preventSwipe={['up', 'down','right','left']}
-              >
-                <RestaurantInformation data={data} />
-              </TinderCard>
-              );
-            }  )
-    );
-    }
+    }))
   }
-
 
   return (
     <div className="Selection">
@@ -165,8 +157,10 @@ function Selection(props) {
         mode={props.mode}
         turnMode={turnMode} />
       {/* <RestaurantInformation data={dataList[idx]} wrapperStyle={wrapperStyle} /> */}
-      <CardsContainer dataList={dataList} />
-      <Buttons reject={reject} keep={keep} />
+      <div className='card-container' >
+        <CardsContainer dataList={dataList} />
+      </div>
+      {/* <Buttons reject={reject} keep={keep} /> */}{/*ボタンを取り付けようとすると工数が激増する。一旦保留*/}
     </div>
 
   );
