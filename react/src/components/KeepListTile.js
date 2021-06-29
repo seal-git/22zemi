@@ -99,7 +99,7 @@ function KeepListTile(props) {
                     {props.data.Name}
                 </Typography>
                 <Divider />
-                <Typography variant="h6" className={classes.textSecondary} color="primary" >
+                <Typography className={classes.textSecondary} color="primary" >
                     <span className={classes.textStars}>
                         ★★★未☆☆{space}{props.data.ReviewRating}
                     </span>

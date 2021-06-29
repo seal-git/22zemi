@@ -89,7 +89,10 @@ def calc_recommend_score(result_json):
     M = 100 #設定したい最大値
     m = 50 #設定したい最小値
     for s in score_list:
-        norm_score = ((s - min_score)*(M - m) / (max_score - min_score)) + m
+        try:
+            norm_score = ((s - min_score)*(M - m) / (max_score - min_score)) + m
+        except:
+            norm_score = 100 #maxとminが同じ場合は全て100
         norm_score_list.append(norm_score)
     
     for i, n_s in zip(index_list, norm_score_list):
