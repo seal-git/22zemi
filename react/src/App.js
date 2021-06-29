@@ -1,7 +1,7 @@
 import './App.css';
 import ApiTest from './components/ApiTest'
 import Home from './components/Home'
-import yello from '@material-ui/core/colors/yellow';
+import yellow from '@material-ui/core/colors/yellow';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { ThemeProvider } from "@material-ui/styles";
 import { createMuiTheme } from '@material-ui/core/styles';
@@ -12,7 +12,7 @@ import React from 'react'
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: yello[700],
+      main: yellow[700],
     },
     secondary: {
       main: '#f44336',

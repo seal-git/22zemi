@@ -13,6 +13,7 @@ import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import {Paper} from "@material-ui/core";
 import {makeStyles} from '@material-ui/core/styles';
+import React from 'react'
 
 /*
 「ひとりで」モードから「みんなで」モードに移るボタン
