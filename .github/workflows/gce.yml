@@ -11,20 +11,11 @@ jobs:
     steps:
       - name: Check out code
         uses: actions/checkout@v2
-      - name: Setup SSH
-        run: |
-          # 初期状態では.sshがなかったので作成
-          mkdir ~/.ssh
-          # SSH鍵を環境変数からデコード
-          echo ${SSH_KEY} > ~/.ssh/my-ssh-key
-          # echo ${KNOWN_HOSTS} > ~/.ssh/known_hosts
-          chmod 600 ~/.ssh/my-ssh-key
-        env:
-          SSH_KEY: ${{ secrets.ID_RSA_GCE }}
-          KNOWN_HOSTS: ${{ secrets.KNOWN_HOSTS }}
-          SERVER_HOST: 35.111.111.111 # 接続先のGCEの外部IP
-      - name: Deploy
-        run: |
-          ssh -oStrictHostKeyChecking=no -i ~/.ssh/my-ssh-key yuki@${SERVER_HOST} 'bash -s ~/deploy.sh'
-        env:
-          SERVER_HOST: 34.146.166.191 # 接続先のGCEの外部IP
+      - name: executing remote ssh commands using ssh key
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.ID_RSA_GCE }}
+          port: 22
+          script: bash -s ~/deploy.sh
