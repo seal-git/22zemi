@@ -203,16 +203,16 @@ def http_init():
 def http_invite():
     URL = 'http://localhost:3000' # TODO: ドメインを取得したら書き換える。
     
-    group_id = request.args.get('group_id')
-    # coordinates = request.args.get('coordinates') # 位置情報 # TODO: デモ以降に実装
-    place = request.args.get('place') # 場所
-    genre = request.args.get('genre') # ジャンル
-    query = request.args.get('query') # 場所やジャンルなどの検索窓入力
-    open_day = request.args.get('open_day') # 
-    open_hour = request.args.get('open_hour') # 時間
-    maxprice = request.args.get('maxprice') # 最高値
-    minprice = request.args.get('minprice') # 最安値
-    recommend_method = request.args.get('recommend')
+    group_id = request.form['group_id']
+    # coordinates = request.form['coordinates'] # 位置情報 # TODO: デモ以降に実装
+    place = request.form['place'] # 場所
+    genre = request.form['genre'] # ジャンル
+    query = request.form['query'] # 場所やジャンルなどの検索窓入力
+    open_day = request.form['open_day'] # 
+    open_hour = request.form['open_hour'] # 時間
+    maxprice = request.form['maxprice'] # 最高値
+    minprice = request.form['minprice'] # 最安値
+    recommend_method = request.form['recommend']
     
     group_id = group_id if group_id != None else generate_group_id()
     
@@ -230,17 +230,17 @@ def http_invite():
 # 店情報を要求するリクエスト
 def http_info():
     global current_group
-    user_id = request.args.get('user_id')
-    group_id = request.args.get('group_id')
-    # coordinates = request.args.get('coordinates') # 位置情報 # TODO: デモ以降に実装
-    place = request.args.get('place') # 場所
-    genre = request.args.get('genre') # ジャンル
-    query = request.args.get('query') # 場所やジャンルなどの検索窓入力
-    open_day = request.args.get('open_day') # 
-    open_hour = request.args.get('open_hour') # 時間
-    maxprice = request.args.get('maxprice') # 最高値
-    minprice = request.args.get('minprice') # 最安値
-    recommend_method = request.args.get('recommend')
+    user_id = request.form['user_id']
+    group_id = request.form['group_id')]
+    # coordinates = request.form['coordinates'] # 位置情報 # TODO: デモ以降に実装
+    place = request.form['place'] # 場所
+    genre = request.form['genre'] # ジャンル
+    query = request.form['query'] # 場所やジャンルなどの検索窓入力
+    open_day = request.form['open_day'] # 
+    open_hour = request.form['open_hour'] # 時間
+    maxprice = request.form['maxprice'] # 最高値
+    minprice = request.form['minprice'] # 最安値
+    recommend_method = request.form['recommend']
     
     group_id = group_id if group_id != None else get_group_id(user_id)
 
@@ -266,17 +266,17 @@ def http_info():
 # キープ・リジェクトの結果を受け取り、メモリに格納する。全会一致の店舗を知らせる。
 def http_feeling():
     global current_group
-    user_id = request.args.get('user_id')
-    group_id = request.args.get('group_id')
-    restaurant_id = request.args.get('restaurant_id')
-    feeling = request.args.get('feeling')
+    user_id = request.form['user_id']
+    group_id = request.form['group_id']
+    restaurant_id = request.form['restaurant_id']
+    feeling = request.form['feeling']
     group_id = group_id if group_id != None else get_group_id(user_id)
     
     # 情報を登録
     current_group[group_id]['Users'][user_id]['Feeling'][restaurant_id] = (feeling == 'true')
     if restaurant_id not in current_group[group_id]['Restaurants']:
         current_group[group_id]['Restaurants'][restaurant_id] = {'Like': set(), 'All': set()}
-    if feeling:
+    if feeling == 'true':
         current_group[group_id]['Restaurants'][restaurant_id]['Like'].add(user_id)
     else:
         current_group[group_id]['Restaurants'][restaurant_id]['Like'].discard(user_id)
@@ -289,8 +289,8 @@ def http_feeling():
 # 得票数の一番多い店舗のリストを返す。1人のときはキープした店舗のリストを返す。
 
 def http_popular_list():
-    group_id = request.args.get('group_id')
-    group_id = group_id if group_id != None else get_group_id(request.args.get('user_id'))
+    group_id = request.form['group_id']
+    group_id = group_id if group_id != None else get_group_id(request.form['user_id'])
 
     if len(current_group[group_id]['Restaurants']) == 0:
         return '[]'
@@ -304,8 +304,8 @@ def http_popular_list():
 # 得票数が多い順の店舗リストを返す。1人のときはキープした店舗のリストを返す。
 def http_list():
     global current_group
-    group_id = request.args.get('group_id')
-    group_id = group_id if group_id != None else get_group_id(request.args.get('user_id'))
+    group_id = request.form['group_id']
+    group_id = group_id if group_id != None else get_group_id(request.form['user_id'])
     
     # ひとりの時はLIKEしたリスト。リジェクトしたら一生お別れ
     if len(current_group[group_id]['Users']) <= 1:
@@ -325,8 +325,8 @@ def http_list():
 # ユーザに表示した店舗履のリストを返す。履歴。
 def http_history():
     global current_group
-    group_id = request.args.get('group_id')
-    user_id = request.args.get('user_id')
+    group_id = request.form['group_id']
+    user_id = request.form['user_id']
     group_id = group_id if group_id != None else get_group_id(user_id)
 
     restaurant_ids = list(current_group[group_id]['Users'][user_id]['Feeling'].keys())
