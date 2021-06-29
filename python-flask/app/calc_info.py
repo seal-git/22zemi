@@ -49,6 +49,8 @@ def calc_recommend_score(result_json):
         except:
             continue
         
+    score_list = []
+    index_list = []
     for i in range(len(result_json)):
         try:
             for p in price_list:
@@ -67,12 +69,31 @@ def calc_recommend_score(result_json):
             if result_json[i]["VotesAll"] > 1:
                 vote_score = (result_json[i]["VoteLike"] / result_json[i]["VoteAll"])
                 score = int(round(((price_score + distance_score + vote_score) / 3) * 100, 0))
-                result_json[i]["RecommendScore"] = score
+                #result_json[i]["RecommendScore"] = score
+                score_list.append(score)
+                index_list.append(i)
             else:
                 score = int(round(((price_score + distance_score) / 2) * 100, 0))
-                result_json[i]["RecommendScore"] = score
+                #result_json[i]["RecommendScore"] = score
+                score_list.append(score)
+                index_list.append(i)
         except:
-            result_json[i]["RecommendScore"] = 0
+            score_list.append(0)
+            index_list.append(i)
+            #result_json[i]["RecommendScore"] = 0
+    
+    #normalize score
+    max_score = max(score_list)
+    min_score = min(score_list)
+    norm_score_list = []
+    M = 100 #設定したい最大値
+    m = 50 #設定したい最小値
+    for s in score_list:
+        norm_score = ((s - min_score)*(M - m) / (max_score - min_score)) + m
+        norm_score_list.append(norm_score)
+    
+    for i, n_s in zip(index_list, norm_score_list):
+        result_json[i]["RecommendScore"] = round(n_s)
 
     return result_json
 
