@@ -14,7 +14,7 @@ services:
     ports:
     - "3000:3000"
     volumes:
-    - ./react:/workspace
+    - /home/yuki/22zemi/react:/workspace
     tty: true
 
   python-flask:
@@ -33,7 +33,7 @@ services:
     expose:
       - "5000"
     volumes:
-    - ./python-flask:/workspace
+    - /home/yuki/22zemi/python-flask:/workspace
     tty: true
 
   mysql:
@@ -56,9 +56,9 @@ services:
     # データを永続化させる場合
     volumes:
       # 初期データを投入するSQLが格納されているdir
-      - ./mysql/initdb.d:/docker-entrypoint-initdb.d
+      - /home/yuki/22zemi/mysql/initdb.d:/docker-entrypoint-initdb.d
       # 永続化するときにマウントするdir(ホスト側は空のディレクトリをマウントしないと初期データは登録されない！)
-      - ./mysql/db:/var/lib/mysql
+      - /home/yuki/22zemi/mysql/db:/var/lib/mysql
     command:
       --secure-file-priv="/docker-entrypoint-initdb.d"
     tty: true
