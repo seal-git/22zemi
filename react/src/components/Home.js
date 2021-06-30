@@ -11,6 +11,14 @@ const produceId = () => {
     return Math.random().toString(32).substring(2)
 }
 
+// 現在時刻を文字列で取得
+const getCurrentTime = () => {
+  const date = new Date()
+  const time = ('00' + date.getHours().toString()).slice(-2) + ':' + ('00'+date.getMinutes().toString()).slice(-2)
+  console.log(time)
+  return time
+}
+
 // ベースコンポーネントとして使う
 function Home(props) {
     // view を抱える。背景操作の都合で mode は上位コンポーネント App に持たせる
@@ -18,7 +26,11 @@ function Home(props) {
     // ユーザID、グループIDを抱える。現状自前で用意しているがAPIに要求できるほうが嬉しい
     const [userId, setUserId] = useState(produceId())
     const [groupId, setGroupId] = useState(produceId())
-    const [paramsForSearch, setParamsForSearch] = useState({})
+    const [paramsForSearch, setParamsForSearch] = useState(
+        {"place":"新宿",
+        "genre":"居酒屋",
+        "open_hour_str":getCurrentTime()}
+    )
 
     const createNewSession = (groupId) => {
         // userID はモードが変わるごとに作り直す？
@@ -70,6 +82,7 @@ function Home(props) {
                             setMode={props.setMode} 
                             createNewSession={createNewSession}
                             setView={setView} 
+                            paramsForSearch={paramsForSearch}
                             setParamsForSearch={setParamsForSearch}/>}
             </div>
             <AppBottomNavigation view={view} setView={setView} />

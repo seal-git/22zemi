@@ -6,13 +6,6 @@ import { makeStyles } from "@material-ui/core";
 import SearchButtonOne from "./search_button_one.png"
 import SearchButtonAll from "./search_button_all.png"
 
-// 現在時刻を文字列で取得
-const getCurrentTime = () => {
-  const date = new Date()
-  const time = ('00' + date.getHours().toString()).slice(-2) + ':' + ('00'+date.getMinutes().toString()).slice(-2)
-  console.log(time)
-  return time
-}
 
 // 設定画面
 function Setting(props) {
@@ -21,11 +14,11 @@ function Setting(props) {
     // 検索条件を取得
     const area = document.getElementById("inputArea").value
     const genre = document.getElementById("inputGenre").value
-    const time = +document.getElementById("inputTime").value.slice(0,2) // time は int にする
+    const time = document.getElementById("inputTime").value
     console.log(area,genre,time)
 
     // パラメータを更新
-    props.setParamsForSearch({"place":area, "genre":genre, "open_hour":time })
+    props.setParamsForSearch({"place":area, "genre":genre, "open_hour_str":time })
 
     // モード切り替え
     props.setMode(newMode)
@@ -95,7 +88,7 @@ function Setting(props) {
         </label>
       </div>
       <div class="input-area">
-        <CustomInput defaultValue="四ツ谷駅" id="inputArea"></CustomInput>
+        <CustomInput defaultValue={props.paramsForSearch['place']} id="inputArea"></CustomInput>
       </div>
       <div class="box-genre">
         <label className="label-genre">
@@ -105,7 +98,7 @@ function Setting(props) {
         </label>
       </div>
       <div class="input-genre">
-        <CustomInput defaultValue="居酒屋" id="inputGenre"></CustomInput>
+        <CustomInput defaultValue={props.paramsForSearch['genre']} id="inputGenre"></CustomInput>
       </div>
       <div class="box-time">
         <label className="label-time">
@@ -114,7 +107,9 @@ function Setting(props) {
           </Typography>
         </label>
       </div>
-      <TextField className="input-time" defaultValue={getCurrentTime()} type="time" id="inputTime" />
+      <div class="input-time">
+        <TextField defaultValue={props.paramsForSearch['open_hour_str']} type="time" id="inputTime" />
+      </div>
       <button className="button-alone" onClick={()=>{proceedToSelection("Alone","")}}>
         <img 
           src={SearchButtonOne}
