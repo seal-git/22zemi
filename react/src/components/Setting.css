@@ -1,5 +1,5 @@
 .setting {
-    height: 80%;
+    height: 100%;
     text-align: center;
     position: relative;
 }
@@ -17,10 +17,10 @@
 .box-area{
     position: absolute;
     background-color: #c4c4c4;
-    top: 30%;
+    top: 20%;
     width: 30%;
     height: 8%;
-    left: 0;
+    left: 10%;
     position: absolute;
 }
 .label-area {
@@ -28,7 +28,7 @@
 }
 .input-area{
     text-align: left;
-    top: 30%;
+    top: 20%;
     width: 40%;
     height: 8%;
     left: 50%;
@@ -36,10 +36,10 @@
 }
 .box-genre{
     background-color: #c4c4c4;
-    top: 40%;
+    top: 30%;
     width: 30%;
     height: 8%;
-    left: 0;
+    left: 10%;
     position: absolute;
 }
 .label-genre{
@@ -48,7 +48,7 @@
 }
 .input-genre{
     text-align: left;
-    top: 40%;
+    top: 30%;
     width: 40%;
     height: 8%;
     left: 50%;
@@ -56,10 +56,10 @@
 }
 .box-time{
     background-color: #c4c4c4;
-    top: 50%;
+    top: 40%;
     width: 30%;
     height: 8%;
-    left: 0;
+    left: 10%;
     position: absolute;
 }
 .label-time {
@@ -70,16 +70,17 @@
 }
 .input-time{
     text-align: left;
-    top: 50%;
+    top: 40%;
     width: 40%;
-    height: 8%;
+    height: 0%;
     left: 50%;
     position: absolute;
 }
 .button-alone{
-    top: 65%;
+    top: 50%;
     width: 100%;
-    left: 0;
+    max-width: 50vh;
+    left: 30%;
     padding: 0;
     background-color: transparent;
     border-color: transparent;
@@ -91,9 +92,10 @@
     width: 100%;
 }
 .button-group{
-    top: 85%;
+    top: 70%;
     width: 100%;
-    left: 0;
+    max-width: 50vh;
+    left: 30%;
     padding: 0;
     background-color: transparent;
     border-color: transparent;

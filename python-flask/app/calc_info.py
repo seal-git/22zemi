@@ -29,20 +29,20 @@ def calc_recommend_score(result_json):
             distance = result_json[i]["distance_float"]
             if price < 1500:
                 price_list[0].append(i)
-            elif 1500 >= price < 3000:
+            elif 1500 <= price < 3000:
                 price_list[1].append(i)
-            elif 3000 >= price < 5000:
+            elif 3000 <= price < 5000:
                 price_list[2].append(i)
-            elif 5000 >= price < 10000:
+            elif 5000 <= price < 10000:
                 price_list[3].append(i)
             elif price >= 10000:
                 price_list[4].append(i)
             
             if distance < 500:
                 distance_list[0].append(i)
-            elif 500 >= distance < 1000:
+            elif 500 <= distance < 1000:
                 distance_list[1].append(i)
-            elif 1000 >= distance < 2000:
+            elif 1000 <= distance < 2000:
                 distance_list[2].append(i)
             elif distance >= 2000:
                 distance_list[3].append(i)
