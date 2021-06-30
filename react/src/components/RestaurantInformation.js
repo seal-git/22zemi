@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
     height: '100%',
   },
   cardContent: {
+    // width: "100%",
     display: 'block',
     flexWrap: 'wrap',
     justifyContent: 'space-around',
@@ -36,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 'bold'
   },
   textSecondary: {
-    fontSize: '0.8rem',
+    fontSize: '1rem',
     color: '#777777',
     display: 'flex'
   },
@@ -84,24 +85,23 @@ function RestaurantInformation(props) {
         </GridList>
         {/* <Divider /> */}
         <CardContent className={classes.cardContent}>
-
           <Typography className={classes.textShopName}>
             {props.data.Name}
           </Typography>
           <Divider />
           <Typography className={classes.textSecondary} color="primary" >
             <span className={classes.textStars}>
-              ★★★未☆☆{space}{props.data.ReviewRating}
+              {props.data.ReviewRating}
             </span>
           </Typography>
           <Typography className={classes.textSecondary}>
             {props.data.Category == ""
               ? "カテゴリなし"
               : props.data.Category}
-            {space}~{props.data.Price}円
+            {space}~{props.data.Price}円{space}{props.data.Distance}
           </Typography>
           <Typography className={classes.textSecondary} >
-            {props.data.Distance}{space}10:未~22:00{space}
+            {props.data.BusinessHour}
           </Typography>
         </CardContent>
       </Card>
