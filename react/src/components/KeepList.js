@@ -17,12 +17,14 @@ const useStyles = makeStyles((theme) => ({
     aloneStyle: {
         height: '100%',
         backgroundImage: 'linear-gradient(180.02deg, #FFEEAA 0.02%, #FDFFEB 80.2%)',
-        backgroundSize: 'cover'
+        backgroundSize: 'cover',
+        overflow: 'scroll',
     },
     groupStyle: {
         height: '100%',
         backgroundImage: 'linear-gradient(180.02deg, #FFDDAA 0.02%, #FFFBFB 80.2%)',
-        backgroundSize: 'cover'
+        backgroundSize: 'cover',
+        overflow: 'scroll',
     },
     topWrapper: {
         display: 'flex',
