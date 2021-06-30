@@ -144,7 +144,7 @@ def get_review(uid):
 
 def get_review_rating(uid):
     response = get_review(uid)
-    if response['ResultInfo']['Count'] == 0 : return 'レビューがありません'# review_rating = -1
+    if response['ResultInfo']['Count'] == 0 : return ''
     review_rating = sum([f['Property']['Comment']['Rating'] for f in response["Feature"]]) / response['ResultInfo']['Count']
     review_rating_int = int(review_rating + 0.5)
     review_rating_star = '★' * review_rating_int + '☆' * (5-review_rating_int)
