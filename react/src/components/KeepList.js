@@ -99,15 +99,14 @@ function KeepList(props) {
     // Appが指定している高さをぶち抜いてリストが表示されるので
     // 全体に背景色を適用させるために、あらためて背景色を設定する
     const [className, setClassName] = useState(classes.AppAlone);
-    const mode = props.mode;
     useEffect(() => {
-        if (mode === "Alone") {
+        if (props.mode === "Alone") {
             setClassName(classes.aloneStyle)
-        } else if (mode === "Group") {
+        } else if (props.mode === "Group") {
             setClassName(classes.groupStyle)
         }
         console.log("App:useEffect[mode]")
-    }, [mode])
+    }, [props.mode])
 
     const selectControll = (event) => {
 
@@ -146,7 +145,7 @@ function KeepList(props) {
             </Box>
             <Box>
                 {dataList.map((data) => (
-                    <KeepListTile data={data} mode={mode} />
+                    <KeepListTile data={data} mode={props.mode} />
                 ))}
             </Box>
             {/* <Box style={{ height: '48px' }}></Box> */}
