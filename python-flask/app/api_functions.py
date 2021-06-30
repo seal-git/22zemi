@@ -44,7 +44,7 @@ def get_restaurant_info_from_local_search_params(group, local_search_params):
 
     # 現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
     if 'open' in local_search_params and local_search_params['open'] != 'now':
-        lunch_or_dinner = 'lunch' if lunch_time_start <= (local_search_params['open'].split(','))[1] < lunch_time_end else 'dinner'
+        lunch_or_dinner = 'lunch' if lunch_time_start <= int((local_search_params['open'].split(','))[1]) < lunch_time_end else 'dinner'
     else:
         now_time = datetime.datetime.now().hour + datetime.datetime.now().minute / 60
         lunch_or_dinner = 'lunch' if lunch_time_start <= now_time < lunch_time_end else 'dinner'
