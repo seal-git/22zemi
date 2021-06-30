@@ -120,8 +120,6 @@ function KeepList(props) {
         }
     }
 
-    console.log(sample)
-
     return (
         <div className={className}>
             <Box className={classes.topWrapper}>
@@ -146,8 +144,8 @@ function KeepList(props) {
                     投票人数 未実装人
                 </Typography>
             </Box>
-            <Box>
-                {sample.map((data) => (
+            <Box style={keepListStyle}>
+                {dataList.map((data) => (
                     <KeepListTile data={data} />
                 ))}
             </Box>

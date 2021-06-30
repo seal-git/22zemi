@@ -83,6 +83,7 @@ const useStyles = makeStyles((theme) => ({
 function KeepListTile(props) {
     const classes = useStyles();
     const space = <span className={classes.space}>　</span>;
+    const text = "hello\nhello";
 
     return (
         <Card variant="outlined" className={classes.root}>
@@ -102,20 +103,21 @@ function KeepListTile(props) {
                 <Divider />
                 <Typography className={classes.textSecondary} color="primary" >
                     <span className={classes.textStars}>
-                        ★★★未☆☆{space}{props.data.ReviewRating}
+                        {/* ☆☆☆☆☆　0 */}
+                        {props.data.ReviewRating}
                     </span>
                     <span className={classes.textRecommend}>
-                        あなたへのおすすめ度：未99%
+                        あなたへのおすすめ度{props.data.RecommendScore}%
                     </span>
                 </Typography>
                 <Typography className={classes.textSecondary}>
                     {props.data.Category == ""
-                        ? "カテゴリなし"
+                        ? "カテゴリ未分類"
                         : props.data.Category}
-                    {space}~{props.data.Price}円
+                    {space}~{props.data.Price}円{space}{props.data.Distance}
                 </Typography>
                 <Typography className={classes.textSecondary} >
-                    {props.data.Distance}{space}10:未~22:00{space}
+                    {props.data.BusinessHour}
                 </Typography>
             </CardContent>
             <Box className={classes.cardContentSub}>
