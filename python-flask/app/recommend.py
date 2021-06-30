@@ -50,8 +50,8 @@ def recommend_simple(current_group, group_id, user_id, recommend_method):
     local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(current_group[group_id], local_search_params)
     save_result(current_group, group_id, user_id, result_json)
     print("recommend_simple")
-    print(f"data_num{len(result_json)}")
-    return json.dumps(result_json, ensure_ascii=False)
+    print(f"data_num {len(result_json)}")
+    return result_json
 
 def recommend_industry(current_group, group_id, user_id):
     '''
@@ -133,13 +133,13 @@ def recommend_template(current_group, group_id, user_id):
     result_json = sorted(zip(weight, result_json), key=lambda x:x[0], reverse=True)
     result_json = [rj[1] for rj in result_json]
     result_json = result_json[request_count * RESULTS_COUNT : (request_count+1) * RESULTS_COUNT]
-    return json.dumps(result_json, ensure_ascii=False)
+    return result_json
 
 def recommend_genre(current_group, group_id, user_id):
     #データがなければsimple
     if len(current_group[group_id]["Restaurants"].keys()) == 0:
         result_json = recommend_simple(current_group, group_id, user_id, 'hyblid')
-        return result_json #json.dumps(result_json, ensure_ascii=False)
+        return result_json
 
     else:
         LOCAL_SEARCH_RESULTS_COUNT = 10 # 一回に取得する店舗の数 # RESULTS_COUNTの倍数
@@ -181,7 +181,7 @@ def recommend_genre(current_group, group_id, user_id):
             meandistance = int((keep_distance / like_num) / 1000)
         else:
             result_json = recommend_simple(current_group, group_id, user_id, 'hyblid')
-            return json.dumps(result_json, ensure_ascii=False)
+            return result_json
 
         #ジャンル 投票数が多い順にジャンルをみる
         genre = [l[3] for l in keep_list]
@@ -227,8 +227,8 @@ def recommend_genre(current_group, group_id, user_id):
         result_json = recommend_simple(current_group, group_id, user_id, 'hyblid')
         return result_json
     print("recommend_genre")
-    print(f"data_num{len(result_json)}")
-    return json.dumps(result_json, ensure_ascii=False)
+    print(f"data_num {len(result_json)}")
+    return result_json
 
 def local_search_test(current_group, group_id, user_id):
     '''
@@ -332,7 +332,5 @@ def recommend_main(current_group, group_id, user_id, recommend_method):
     else:
         #result_json = recommend_simple(current_group, group_id, user_id, 'hyblid')
         result_json = recommend_genre(current_group, group_id, user_id)
-        #print(result_json)
 
-    return result_json
-
+    return json.dumps(result_json, ensure_ascii=False)
