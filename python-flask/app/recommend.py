@@ -17,8 +17,6 @@ with open("./data/category_code.json","rb") as f:
 
 def save_result(current_group, group_id, user_id, result_json):
     for i in range(len(result_json)):
-        print(result_json[i])
-        print(type(result_json[i]))
         if result_json[i]["Restaurant_id"] not in current_group[group_id]['Restaurants']:
              current_group[group_id]["Restaurants"][result_json[i]["Restaurant_id"]] = {"info":result_json[i]}
              current_group[group_id]['Restaurants'][result_json[i]["Restaurant_id"]]['Like'] = set()
@@ -95,7 +93,6 @@ def recommend_review_words(current_group, group_id, user_id):
         if len(result_json) >= 1:
             return json.dumps(result_json, ensure_ascii=False)
         current_group[group_id]['Users'][user_id]['RequestCount'] += 1
-
 
 def recommend_template(current_group, group_id, user_id):
     '''
