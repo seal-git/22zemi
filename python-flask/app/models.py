@@ -146,7 +146,9 @@ def get_restaurant_info(group, restaurant_ids):
     restaurant_info : string
         レスポンスするレストラン情報をjson形式で返す。
     '''
-    local_search_params = { 'uid': ','.join(restaurant_ids) }
+    restaurant_ids_del_None = [x for x in restaurant_ids if x]
+    local_search_params = { 'uid': ','.join(restaurant_ids_del_None) }
+    
     local_search_json, result_json = api_functions.get_restaurant_info_from_local_search_params(group, local_search_params)
     return result_json
 

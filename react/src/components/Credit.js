@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Credit(props) {
     return (
         <div className="Credit"
