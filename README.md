@@ -1,5 +1,9 @@
 # Reskima
+https://reskima.com
 
+mainブランチは開発環境．
+
+本番環境はproductionブランチに置く．本番環境についての詳細はproductionブランチのREADMEに記載．productionにpushすると自動デプロイが走るので注意．
 
 ## 起動方法
 docker-compose.ymlのあるディレクトリで
@@ -37,3 +41,4 @@ python app.py
 
 ## pytest
 flask appのテストは，app.pyのあるディレクトリで`pytest ./test`を実行する．
+
