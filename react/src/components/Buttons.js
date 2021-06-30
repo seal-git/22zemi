@@ -1,10 +1,10 @@
+import React from 'react';
 import { IconButton, Grid } from "@material-ui/core";
 import ClearIcon from '@material-ui/icons/Clear';
 import DirectionsWalkIcon from '@material-ui/icons/DirectionsWalk';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import ScheduleIcon from '@material-ui/icons/Schedule';
 import "./Buttons.css"
-import React from 'react'
 
 // ボタンをGridでまとめたもの
 function Buttons(props) {

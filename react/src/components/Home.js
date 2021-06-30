@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from "react"
 import { makeStyles } from '@material-ui/core/styles';
 import AppBottomNavigation from "./AppBottomNavigation"
@@ -5,7 +6,6 @@ import KeepList from "./KeepList"
 import Selection from "./Selection"
 import Setting from "./Setting"
 import "./Home.css"
-import React from 'react'
 
 const produceId = () => {
     return Math.random().toString(32).substring(2)

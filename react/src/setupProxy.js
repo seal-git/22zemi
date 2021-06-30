@@ -1,5 +1,3 @@
-import React from 'react'
-
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
 module.exports = app => {
