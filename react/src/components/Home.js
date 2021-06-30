@@ -6,6 +6,7 @@ import KeepList from "./KeepList"
 import Selection from "./Selection"
 import Setting from "./Setting"
 import "./Home.css"
+import Credit from "./Credit";
 
 const produceId = () => {
     return Math.random().toString(32).substring(2)
@@ -60,30 +61,33 @@ function Home(props) {
 
     return (
         <div className="Home">
-            <div className="Content">
-                {view === "Selection" ?
-                    <Selection
-                        userId={userId}
-                        groupId={groupId}
-                        mode={props.mode}
-                        setMode={props.setMode}
-                        turnMode={turnMode}
-                        paramsForSearch={paramsForSearch}
-                    />
-                    : view === "KeepList" ? <KeepList
-                        userId={userId}
-                        groupId={groupId}
-                        mode={props.mode}
-                        setMode={props.setMode}
-                        turnMode={turnMode}
-                    />
-                        : <Setting 
-                            mode={props.mode} 
-                            setMode={props.setMode} 
-                            createNewSession={createNewSession}
-                            setView={setView} 
+            <div className="Content-wrapper">
+                <div className="Content">
+                    {view === "Selection" ?
+                        <Selection
+                            userId={userId}
+                            groupId={groupId}
+                            mode={props.mode}
+                            setMode={props.setMode}
+                            turnMode={turnMode}
                             paramsForSearch={paramsForSearch}
-                            setParamsForSearch={setParamsForSearch}/>}
+                        />
+                        : view === "KeepList" ? <KeepList
+                            userId={userId}
+                            groupId={groupId}
+                            mode={props.mode}
+                            setMode={props.setMode}
+                            turnMode={turnMode}
+                        />
+                            : <Setting
+                                mode={props.mode}
+                                setMode={props.setMode}
+                                createNewSession={createNewSession}
+                                setView={setView}
+                                paramsForSearch={paramsForSearch}
+                                setParamsForSearch={setParamsForSearch}/>}
+                </div>
+            <Credit />
             </div>
             <AppBottomNavigation view={view} setView={setView} />
         </div>
