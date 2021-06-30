@@ -144,7 +144,7 @@ function KeepList(props) {
                     投票人数 未実装人
                 </Typography>
             </Box>
-            <Box style={keepListStyle}>
+            <Box>
                 {dataList.map((data) => (
                     <KeepListTile data={data} />
                 ))}
