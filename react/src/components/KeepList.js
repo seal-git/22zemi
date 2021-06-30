@@ -58,7 +58,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const initDataList = [{
-    "Name": "Waiting...", "Images": [""], "Distance": "-m", "Price": "-円",
+    "Name": "Loading...", "Images": [""], "Distance": "-m", "Price": "-円",
     "Category": "-", "ReviewRating": "-", "VotesLike": 0, "VotesAll": 0,
 }]
 
