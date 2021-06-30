@@ -114,8 +114,6 @@ function KeepList(props) {
         }
     }
 
-    console.log(sample)
-
     return (
         <div >
             <Box style={{ height: '48px' }}></Box>
@@ -142,7 +140,7 @@ function KeepList(props) {
                 </Typography>
             </Box>
             <Box style={keepListStyle}>
-                {sample.map((data) => (
+                {dataList.map((data) => (
                     <KeepListTile data={data} />
                 ))}
             </Box>
