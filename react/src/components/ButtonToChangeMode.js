@@ -1,3 +1,4 @@
+import React from 'react';
 import "./ButtonToChangeMode.css";
 import ButtonNowAlone from "./button_now_alone.png";
 import ButtonNowGroup from "./button_now_group.png";

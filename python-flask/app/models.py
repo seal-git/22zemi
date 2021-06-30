@@ -146,7 +146,9 @@ def get_restaurant_info(group, restaurant_ids):
     restaurant_info : string
         レスポンスするレストラン情報をjson形式で返す。
     '''
-    local_search_params = { 'uid': ','.join(restaurant_ids) }
+    restaurant_ids_del_None = [x for x in restaurant_ids if x]
+    local_search_params = { 'uid': ','.join(restaurant_ids_del_None) }
+    
     local_search_json, result_json = api_functions.get_restaurant_info_from_local_search_params(group, local_search_params)
     return result_json
 
@@ -202,17 +204,18 @@ def http_init():
 # 検索条件を指定して、招待URLを返す
 def http_invite():
     URL = 'http://localhost:3000' # TODO: ドメインを取得したら書き換える。
-    
-    group_id = request.args.get('group_id')
-    # coordinates = request.args.get('coordinates') # 位置情報 # TODO: デモ以降に実装
-    place = request.args.get('place') # 場所
-    genre = request.args.get('genre') # ジャンル
-    query = request.args.get('query') # 場所やジャンルなどの検索窓入力
-    open_day = request.args.get('open_day') # 
-    open_hour = request.args.get('open_hour') # 時間
-    maxprice = request.args.get('maxprice') # 最高値
-    minprice = request.args.get('minprice') # 最安値
-    recommend_method = request.args.get('recommend')
+
+    data = request.get_json()["params"]
+    group_id = data["group_id"] if data.get("group_id", False) else None
+    # coordinates = data["coordinates"] if data.get("coordinates", False) else None # TODO: デモ以降に実装
+    place = data["place"] if data.get("place", False) else None
+    genre = data["genre"] if data.get("genre", False) else None
+    query = data["query"] if data.get("query", False) else None
+    open_day = data["open_day"] if data.get("open_day", False) else None
+    open_hour = data["open_hour"] if data.get("open_hour", False) else None
+    maxprice = data["maxprice"] if data.get("maxprice", False) else None
+    minprice = data["minprice"] if data.get("minprice", False) else None
+    recommend_method = data["recommend_method"] if data.get("recommend_method", False) else None
     
     group_id = group_id if group_id != None else generate_group_id()
     
@@ -230,18 +233,19 @@ def http_invite():
 # 店情報を要求するリクエスト
 def http_info():
     global current_group
-    user_id = request.args.get('user_id')
-    group_id = request.args.get('group_id')
-    # coordinates = request.args.get('coordinates') # 位置情報 # TODO: デモ以降に実装
-    place = request.args.get('place') # 場所
-    genre = request.args.get('genre') # ジャンル
-    query = request.args.get('query') # 場所やジャンルなどの検索窓入力
-    open_day = request.args.get('open_day') # 
-    open_hour = request.args.get('open_hour') # 時間
-    maxprice = request.args.get('maxprice') # 最高値
-    minprice = request.args.get('minprice') # 最安値
-    recommend_method = request.args.get('recommend')
-    recommend_method = 'category'
+    data = request.get_json()["params"]
+    user_id = data["user_id"] if data.get("user_id", False) else None
+    group_id = data["group_id"] if data.get("group_id", False) else None
+    # coordinates = data["coordinates"] if data.get("coordinates", False) else None # TODO: デモ以降に実装
+    place = data["place"] if data.get("place", False) else None
+    genre = data["genre"] if data.get("genre", False) else None
+    query = data["query"] if data.get("query", False) else None
+    open_day = data["open_day"] if data.get("open_day", False) else None
+    open_hour = data["open_hour"] if data.get("open_hour", False) else None
+    maxprice = data["maxprice"] if data.get("maxprice", False) else None
+    minprice = data["minprice"] if data.get("minprice", False) else None
+    recommend_method = data["recommend_method"] if data.get("recommend_method", False) else None
+
     group_id = group_id if group_id != None else get_group_id(user_id)
 
     # Yahoo本社の住所 # TODO
@@ -266,10 +270,12 @@ def http_info():
 # キープ・リジェクトの結果を受け取り、メモリに格納する。全会一致の店舗を知らせる。
 def http_feeling():
     global current_group
-    user_id = request.args.get('user_id')
-    group_id = request.args.get('group_id')
-    restaurant_id = request.args.get('restaurant_id')
-    feeling = request.args.get('feeling')
+    data = request.get_json()["params"]
+    user_id = data["user_id"] if data.get("user_id", False) else None
+    group_id = data["group_id"] if data.get("group_id", False) else None
+    restaurant_id = data["restaurant_id"] if data.get("restaurant_id", False) else None
+    feeling = data["feeling"] if data.get("feeling", False) else None
+
     group_id = group_id if group_id != None else get_group_id(user_id)
     
     # 情報を登録
@@ -287,8 +293,10 @@ def http_feeling():
 # 得票数の一番多い店舗のリストを返す。1人のときはキープした店舗のリストを返す。
 
 def http_popular_list():
-    group_id = request.args.get('group_id')
-    group_id = group_id if group_id != None else get_group_id(request.args.get('user_id'))
+    data = request.get_json()["params"]
+    user_id = data["user_id"] if data.get("user_id", False) else None
+    group_id = data["group_id"] if data.get("group_id", False) else None
+    group_id = group_id if group_id != None else get_group_id(user_id)
 
     if len(current_group[group_id]['Restaurants']) == 0:
         return '[]'
@@ -302,8 +310,10 @@ def http_popular_list():
 # 得票数が多い順の店舗リストを返す。1人のときはキープした店舗のリストを返す。
 def http_list():
     global current_group
-    group_id = request.args.get('group_id')
-    group_id = group_id if group_id != None else get_group_id(request.args.get('user_id'))
+    data = request.get_json()["params"]
+    user_id = data["user_id"] if data.get("user_id", False) else None
+    group_id = data["group_id"] if data.get("group_id", False) else None
+    group_id = group_id if group_id != None else get_group_id(user_id)
     
     # ひとりの時はLIKEしたリスト。リジェクトしたら一生お別れ
     if len(current_group[group_id]['Users']) <= 1:
@@ -323,8 +333,10 @@ def http_list():
 # ユーザに表示した店舗履のリストを返す。履歴。
 def http_history():
     global current_group
-    group_id = request.args.get('group_id')
-    user_id = request.args.get('user_id')
+    data = request.get_json()["params"]
+    user_id = data["user_id"] if data.get("user_id", False) else None
+    group_id = data["group_id"] if data.get("group_id", False) else None
+
     group_id = group_id if group_id != None else get_group_id(user_id)
 
     restaurant_ids = list(current_group[group_id]['Users'][user_id]['Feeling'].keys())
