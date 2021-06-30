@@ -66,7 +66,7 @@ def get_restaurant_info_from_local_search_params(group, local_search_params):
             result_json[i]['UrlYahooMap'] = "https://map.yahoo.co.jp/route/walk?from=" + group['Address'] + "&to=" + result_json[i]['Address']
             result_json[i]['ReviewRating'] = get_review_rating(restaurant_id)
             result_json[i]['VotesLike'], result_json[i]['VotesAll'] = calc_info.count_votes(group, restaurant_id)
-            result_json[i]['BusinessHour'] = (feature['Property']['Detail'].get('BusinessHour')).replace('\n' , '    ')
+            result_json[i]['BusinessHour'] = (feature['Property']['Detail'].get('BusinessHour')).replace('<br>', '\n')
 
         # Images : 画像をリストにする
             lead_image = [feature['Property']['LeadImage']] if 'LeadImage' in feature['Property'] else ([feature['Property']['Detail']['Image1']] if 'Image1' in feature['Property']['Detail'] else []) # リードイメージがある時はImage1を出力しない。
