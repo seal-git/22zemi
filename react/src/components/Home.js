@@ -18,6 +18,20 @@ function Home(props) {
     // ユーザID、グループIDを抱える。現状自前で用意しているがAPIに要求できるほうが嬉しい
     const [userId, setUserId] = useState(produceId())
     const [groupId, setGroupId] = useState(produceId())
+    const [paramsForSearch, setParamsForSearch] = useState({})
+
+    const createNewSession = (groupId) => {
+        // userID はモードが変わるごとに作り直す？
+        setUserId(produceId())
+
+        // groupId が指定されていない場合システム側で用意する
+        // 指定されている場合はそのIDを使う
+        if (groupId === undefined || groupId === "") {
+            setGroupId(produceId())
+        } else {
+            setGroupId(groupId)
+        }
+    }
 
     const turnMode = (groupId) => {
         // mode を反転させる
@@ -29,17 +43,7 @@ function Home(props) {
             console.log("Home:turnMode:undefined mode")
             return;
         }
-
-        // userID はモードが変わるごとに作り直す？
-        setUserId(produceId())
-
-        // groupId が指定されていない場合システム側で用意する
-        // 指定されている場合はそのIDを使う
-        if (groupId === undefined || groupId === "") {
-            setGroupId(produceId())
-        } else {
-            setGroupId(groupId)
-        }
+        createNewSession(groupId)
     };
 
     return (
@@ -52,6 +56,7 @@ function Home(props) {
                         mode={props.mode}
                         setMode={props.setMode}
                         turnMode={turnMode}
+                        paramsForSearch={paramsForSearch}
                     />
                     : view === "KeepList" ? <KeepList
                         userId={userId}
@@ -60,8 +65,12 @@ function Home(props) {
                         setMode={props.setMode}
                         turnMode={turnMode}
                     />
-                        : <Setting mode={props.mode} turnMode={turnMode}
-                            setView={setView} />}
+                        : <Setting 
+                            mode={props.mode} 
+                            setMode={props.setMode} 
+                            createNewSession={createNewSession}
+                            setView={setView} 
+                            setParamsForSearch={setParamsForSearch}/>}
             </div>
             <AppBottomNavigation view={view} setView={setView} />
         </div>
