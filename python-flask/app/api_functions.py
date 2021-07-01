@@ -64,12 +64,13 @@ def get_restaurant_info_from_local_search_params(group, local_search_params):
             result_json[i]['Price'] = feature['Property']['Detail']['LunchPrice'] if lunch_or_dinner == 'lunch' and feature['Property']['Detail'].get('LunchFlag') == True else feature['Property']['Detail'].get('DinnerPrice')
             result_json[i]['TopRankItem'] = [feature['Property']['Detail']['TopRankItem'+str(j)] for j in range(MAX_LIST_COUNT) if 'TopRankItem'+str(j) in feature['Property']['Detail']] # TopRankItem1, TopRankItem2 ... のキーをリストに。
             result_json[i]['CassetteOwnerLogoImage'] = feature['Property']['Detail'].get('CassetteOwnerLogoImage')
-            result_json[i]['Category'] = ','.join(feature['Category'][0].split(",")[-2:-1]) if len(feature['Category']) != 0 else ''
+            result_json[i]['Category'] = feature['Property']['Genre'][0]['Name']
             result_json[i]['UrlYahooLoco'] = "https://loco.yahoo.co.jp/place/" + restaurant_id
             result_json[i]['UrlYahooMap'] = "https://map.yahoo.co.jp/route/walk?from=" + group['Address'] + "&to=" + result_json[i]['Address']
             result_json[i]['ReviewRating'] = get_review_rating(restaurant_id)
             result_json[i]['VotesLike'], result_json[i]['VotesAll'] = calc_info.count_votes(group, restaurant_id)
             result_json[i]['BusinessHour'] = (feature['Property']['Detail'].get('BusinessHour')).replace('<br>', '\n').replace('<br />', '')
+            result_json[i]['Genre'] = feature['Property']['Genre']
             result_json[i]['NumberOfParticipants'] = str(len(group['Users']))
 
         # Images : 画像をリストにする
