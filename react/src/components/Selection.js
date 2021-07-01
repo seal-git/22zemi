@@ -3,6 +3,7 @@ import {useEffect, useState} from "react";
 import Buttons from "./Buttons";
 import RestaurantInformation from "./RestaurantInformation";
 import ButtonToChangeMode from "./ButtonToChangeMode";
+import ButtonToInvite from "./ButtonToInvite";
 import axios from "axios";
 import "./Selection.css"
 import TinderCard from 'react-tinder-card'
@@ -174,19 +175,8 @@ function Selection(props) {
             );
         }))
     }
-
-    const ButtonToInvite = withStyles((theme) => ({
-        root: {
-            height: '30px',
-            background: 'linear-gradient(116.73deg,' +
-                ' #FFCD4E 27.25%,' +
-                ' #FFB74A' +
-                ' 71.71%)',
-            margin: '5px',
-            border: '0px',
-            fontSize: '0.8rem',
-        }
-    }))(Button);
+    var display_style;
+    props.mode == "Alone" ? display_style = {display:"none"} : display_style = "null";
 
     return (
         <div className="Selection-wrapper">
@@ -194,11 +184,12 @@ function Selection(props) {
                 mode={props.mode}
                 turnMode={turnMode}/>
             <div className="Selection-header">
-                <ButtonToInvite>
-                    招待
-                </ButtonToInvite>
-                <div className="group-id">
-                    ルームID:{props.groupId}
+                <div style={display_style}>
+                    <ButtonToInvite
+                        url={"http"}/>
+                    <div className="group-id">
+                        ルームID:{props.groupId}
+                    </div>
                 </div>
             </div>
             <div className="Selection">
