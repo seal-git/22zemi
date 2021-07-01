@@ -1,11 +1,9 @@
-.Content{
-    flex: 1;
-}
-
 #AppBottomNavigation{
     position: static;
 }
-
+.Selection-wrapper{
+    height: 100%;
+}
 .Selection{
     height: 100%;
     position: relative;
