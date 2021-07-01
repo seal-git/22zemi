@@ -190,15 +190,18 @@ function Selection(props) {
 
     return (
         <div className="Selection-wrapper">
+            <ButtonToChangeMode
+                mode={props.mode}
+                turnMode={turnMode}/>
             <div className="Selection-header">
                 <ButtonToInvite>
-                    aaa
+                    招待
                 </ButtonToInvite>
+                <div className="group-id">
+                    ルームID:{props.groupId}
+                </div>
             </div>
             <div className="Selection">
-                <ButtonToChangeMode
-                    mode={props.mode}
-                    turnMode={turnMode}/>
                 {/* <RestaurantInformation data={dataList[idx]} wrapperStyle={wrapperStyle} /> */}
                 <div className='card-container'>
                     <CardsContainer dataList={dataList}/>

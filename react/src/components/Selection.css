@@ -6,15 +6,21 @@
     display: flex;
     flex-direction: column;
 }
+.Selection-header{
+    display: flex;
+    align-items: center;
+}
+
 .Selection{
     flex: 1;
     height: calc(100% - 30);
     position: relative;
 }
 
-.tinder-ui{
-    height: auto;
+.group-id{
+    font-size: 12px;
 }
+
 .card-container{
     height: 100%;
     position: relative;
