@@ -1,4 +1,16 @@
+.Content{
+    flex: 1;
+}
+
+#AppBottomNavigation{
+    position: static;
+}
+
 .Selection{
+    height: 100%;
+    position: relative;
+}
+.card-container{
     height: 100%;
     position: relative;
 }

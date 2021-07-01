@@ -21,13 +21,11 @@ const useStyles = makeStyles((theme) => ({
     },
     groupStyle: {
         height: '100%',
-        backgroundImage: 'linear-gradient(180.02deg, #FFDDAA 0.02%, #FFFBFB 80.2%)'
+        backgroundImage: 'linear-gradient(180.02deg, #FFDDAA 0.02%, #FFFBFB 80.2%)',
+        backgroundSize: 'cover'
     },
     topWrapper: {
         display: 'flex',
-        // position: 'fixed',
-        // top: '0', left: '0', right: '0',
-        // zIndex: '2'
     },
     participantNum: {
         lineHeight: '25px',
@@ -60,9 +58,16 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const initDataList = [{
-    "Name": "Waiting...", "Images": [""], "Distance": "-m", "Price": "-円",
+    "Name": "Loading...", "Images": [""], "Distance": "-m", "Price": "-円",
     "Category": "-", "ReviewRating": "-", "VotesLike": 0, "VotesAll": 0,
+    "distance_float": 0.,"RecommendScore": 0,
 }]
+
+const sortByRecommendScore = 10
+const sortByDistance = 20
+const sortByFeeAscend = 30
+const sortByFeeDescend = 40
+
 
 function KeepList(props) {
 
@@ -78,13 +83,25 @@ function KeepList(props) {
             params["group_id"] = props.groupId
         }
         console.log(params);
-        axios.get('/api/list', {
+        axios.post('/api/list', {
             params: params
         })
             .then(function (response) {
                 console.log(response)
                 let dataList = response['data']
                 console.log(dataList[0])
+                dataList.sort( function(a,b){
+                    // 降順ソート
+                    if(+a.RecommendScore>+b.RecommendScore) return -1;
+                    if(+a.RecommendScore<+b.RecommendScore) return 1;
+                    return 0
+                });
+                dataList.sort( function(a,b){
+                    // 降順ソート
+                    if(+a.VotesAll>+b.VotesAll) return -1;
+                    if(+a.VotesAll<+b.VotesAll) return 1;
+                    return 0
+                });
                 setDataList(dataList)
             })
             .catch((error) => {
@@ -100,7 +117,7 @@ function KeepList(props) {
     // モードが切り替わるとスタイルが変わる
     // Appが指定している高さをぶち抜いてリストが表示されるので
     // 全体に背景色を適用させるために、あらためて背景色を設定する
-    const [className, setClassName] = useState(classes.AppAlone)
+    const [className, setClassName] = useState(classes.AppAlone);
     useEffect(() => {
         if (props.mode === "Alone") {
             setClassName(classes.aloneStyle)
@@ -110,9 +127,61 @@ function KeepList(props) {
         console.log("App:useEffect[mode]")
     }, [props.mode])
 
-    const selectControll = (event) => {
+    const selectControl = (event) => {
+        // ソート用にリストを複製
+        let newDataList = [...dataList]
 
-        console.log(event.target.value)
+        // ソートの条件を取得
+        // 注：文字列型として扱われるのを回避するため + で数値に変換
+        let sortValue = +event.target.value 
+        // 条件に合わせてソートを実行
+
+        if(sortValue===sortByRecommendScore){
+            console.log('sort by recommend score')
+            newDataList.sort( function(a,b){
+                // おすすめ度で降順ソート
+                if(+a.RecommendScore>+b.RecommendScore) return -1;
+                if(+a.RecommendScore<+b.RecommendScore) return 1;
+                return 0
+            });
+            newDataList.sort( function(a,b){
+                // 投票数で降順ソート
+                if(+a.VotesAll>+b.VotesAll) return -1;
+                if(+a.VotesAll<+b.VotesAll) return 1;
+                return 0
+            });
+        }
+        else if(sortValue===sortByDistance){
+            console.log('sort by distance')
+            newDataList.sort( function(a,b){
+                // 距離で昇順ソート
+                if(+a.distance_float>+b.distance_float) return 1;
+                if(+a.distance_float<+b.distance_float) return -1;
+                return 0
+            });
+        }
+        else if(sortValue===sortByFeeAscend){
+            console.log('sort by fee; ascending')
+            newDataList.sort( function(a,b){
+                // 価格帯で昇順ソート
+                if(+a.Price>+b.Price) return 1;
+                if(+a.Price<+b.Price) return -1;
+                return 0
+            });
+        }
+        else if(sortValue===sortByFeeDescend){
+            console.log('sort by fee; descending')
+            newDataList.sort( function(a,b){
+                // 価格帯で降順ソート
+                if(+a.Price>+b.Price) return -1;
+                if(+a.Price<+b.Price) return 1;
+                return 0
+            });
+        }
+        // ソート結果を反映
+        console.log(newDataList)
+        setDataList(newDataList)
+
         // フォーカスを外さないと見た目が残念になる
         var obj = document.activeElement;
         if (obj) {
@@ -120,7 +189,17 @@ function KeepList(props) {
         }
     }
 
-    console.log(sample)
+    const KeepListTiles = () =>{
+        return( 
+            dataList.map((data) => (
+                <KeepListTile data={data} mode={props.mode} />
+            ))
+        );
+    }
+
+    const getNumberOfParticipants = () =>{
+        return dataList[0].NumberOfParticipants
+    }
 
     return (
         <div className={className}>
@@ -133,26 +212,27 @@ function KeepList(props) {
                             id: 'outlined-age-native-simple',
                         }}
                         className={classes.select}
-                        onChange={selectControll}
+                        onChange={(event)=>{selectControl(event)}}
                         id="selectRef"
                         ref={selectRef}
                     >
-                        <option value={10} >未おすすめ順</option>
-                        <option value={20}>評価が高い順</option>
-                        <option value={30}>距離が近い順</option>
+                        <option value={sortByRecommendScore} >おすすめ順</option>
+                        <option value={sortByDistance}>距離が近い順</option>
+                        <option value={sortByFeeDescend}>予算が高い順</option>
+                        <option value={sortByFeeAscend}>予算が低い順</option>
                     </Select>
                 </FormControl>
-                <Typography className={classes.participantNum}>
-                    投票人数 未実装人
+                <Typography className={classes.participantNum}
+                    style={props.mode == "Alone" ? { display: "none", } : { display: "block", }}>
+                    投票人数 {getNumberOfParticipants()}人
                 </Typography>
             </Box>
             <Box>
-                {sample.map((data) => (
-                    <KeepListTile data={data} />
-                ))}
+                <KeepListTiles />
             </Box>
-            <Box style={{ height: '48px' }}></Box>
+            {/* <Box style={{ height: '48px' }}></Box> */}
         </div >
+
     );
 }
 

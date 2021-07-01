@@ -49,9 +49,10 @@ const useStyles = makeStyles((theme) => ({
         fontWeight: 'bold'
     },
     textSecondary: {
-        fontSize: '0.8rem',
+        fontSize: '1rem',
         color: '#777777',
-        display: 'flex'
+        display: 'flex',
+        whiteSpace: 'pre-line'
     },
     textStars: {
         color: '#fbc02d',
@@ -83,10 +84,11 @@ const useStyles = makeStyles((theme) => ({
 function KeepListTile(props) {
     const classes = useStyles();
     const space = <span className={classes.space}>　</span>;
+    const text = "hello\nhello";
+    // const swichStyle = { props.mode == "Alone" ? { display: "none", } : { display: "block", } }
 
     return (
         <Card variant="outlined" className={classes.root}>
-
             <GridList className={classes.gridList} cols={2.5} cellHeight={100}>
                 {props.data.Images.map((tile) => (
                     <GridListTile key={tile} className={classes.gridListTile}>
@@ -102,20 +104,20 @@ function KeepListTile(props) {
                 <Divider />
                 <Typography className={classes.textSecondary} color="primary" >
                     <span className={classes.textStars}>
-                        ★★★未☆☆{space}{props.data.ReviewRating}
+                        {props.data.ReviewRating}
                     </span>
                     <span className={classes.textRecommend}>
-                        あなたへのおすすめ度：未99%
+                        あなたへのおすすめ度{props.data.RecommendScore}%
                     </span>
                 </Typography>
                 <Typography className={classes.textSecondary}>
                     {props.data.Category == ""
-                        ? "カテゴリなし"
+                        ? "カテゴリ未分類"
                         : props.data.Category}
-                    {space}~{props.data.Price}円
+                    {space}~{props.data.Price}円{space}{props.data.Distance}
                 </Typography>
                 <Typography className={classes.textSecondary} >
-                    {props.data.Distance}{space}10:未~22:00{space}
+                    {props.data.BusinessHour}
                 </Typography>
             </CardContent>
             <Box className={classes.cardContentSub}>
@@ -136,7 +138,8 @@ function KeepListTile(props) {
                         <InfoOutlinedIcon />
                     </IconButton>
                 </CardActions>
-                <Typography className={classes.textVotes}>
+                <Typography className={classes.textVotes}
+                    style={props.mode == "Alone" ? { display: "none", } : { display: "block", }}>
                     <FavoriteIcon style={{ fontSize: 18 }} />
                     <span className={classes.textVoteResult}>{props.data.VotesLike}</span>
                     /{props.data.VotesAll}
