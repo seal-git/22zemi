@@ -23,7 +23,7 @@ def save_result(current_group, group_id, user_id, result_json):
              current_group[group_id]['Restaurants'][result_json[i]["Restaurant_id"]]['Like'] = set()
              current_group[group_id]['Restaurants'][result_json[i]["Restaurant_id"]]['All'] = set()
 
-def recommend_simple(current_group, group_id, user_id, recommend_method):
+def recommend_simple(current_group, group_id, user_id, recommend_method, params={}):
     '''
     レコメンドは Yahoo Local Search に任せる
     '''
@@ -31,19 +31,29 @@ def recommend_simple(current_group, group_id, user_id, recommend_method):
     coordinates = current_group[group_id]['Coordinates']
     request_count = current_group[group_id]['Users'][user_id]['RequestCount']
     code = '0' + random.choice(list(category_code.values()))
+    if "dist" in params.keys():
+        dist = params["dist"]
+    else:
+        dist = 10
+    if "price" in params.keys():
+        price = params["price"]
+    else:
+        price = None
+
     # YahooローカルサーチAPIで検索するクエリ
     local_search_params = {
         # 中心地から1km以内のグルメを検索
         'lat': coordinates[0], # 緯度
         'lon': coordinates[1], # 経度
-        'dist': MAX_DISTANCE, # 中心地点からの距離 # 最大20km
+        'dist': dist, # 中心地点からの距離 # 最大20km
         'gc': '01', # グルメ
-        # 'gc': code, #ランダムなジャンル
+        #'gc': code, #ランダムなジャンル 滅多にお店が取れない
         'image': True, # 画像がある店
         'open': 'now', # 現在開店している店舗
         'sort': recommend_method, # hyblid # 評価や距離などを総合してソート
         'start': RESULTS_COUNT * request_count, # 表示範囲：開始位置
-        'results': RESULTS_COUNT # 表示範囲：店舗数
+        'results': RESULTS_COUNT, # 表示範囲：店舗数
+        'maxprice': price
     }
     local_search_params.update(current_group[group_id]['FilterParams'])
     
@@ -164,22 +174,20 @@ def recommend_genre(current_group, group_id, user_id):
                     group_result[r_id]['info']['distance_float'], group_result[r_id]['info']['Genre'][0]['Name'], \
                         group_result[r_id]['info']['Genre'][0]['Code'] ] )
 
-                print(through_list)
-
         #平均価格, 平均距離
         keep_price = 0
         keep_distance = 0
         like_num = 0
         for keep in keep_list:
-            for k in keep:
-                print(f"{k}, {type(k)}")
             like_num += keep[0]
             if keep[1] is not None:
                 keep_price += keep[0] * int(keep[1]) #投票数で重み付け TODO:投票率で重み付？
             keep_distance += keep[0] * keep[2]
         if like_num != 0:
             meanprice = int(keep_price / like_num)
-            meandistance = int((keep_distance / like_num) / 1000)
+            meandistance = round( ((keep_distance / like_num) / 1000), 2)
+            print(f"MaxPrice:{meanprice}")
+            print(f"Maxdict:{meandistance}")
         else:
             result_json = recommend_simple(current_group, group_id, user_id, 'hyblid')
             return result_json
@@ -208,7 +216,8 @@ def recommend_genre(current_group, group_id, user_id):
         if code is None:
             result_json = recommend_simple(current_group, group_id, user_id, 'hyblid')
             return json.dumps(result_json, ensure_ascii=False)
-            
+        print(f"HighCountGenre:{high_count_genre}")
+        print(f"RecommendGenre:{recommend_genre}")
         local_search_params = {
             # 中心地から1km以内のグルメを検索
             'lat': coordinates[0], # 緯度
@@ -225,7 +234,8 @@ def recommend_genre(current_group, group_id, user_id):
     local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(current_group[group_id], local_search_params)
     save_result(current_group, group_id, user_id, result_json)
     if len(result_json) == 0:
-        result_json = recommend_simple(current_group, group_id, user_id, 'hyblid')
+        params = {"dist":meandistance, "price":meanprice}
+        result_json = recommend_simple(current_group, group_id, user_id, 'hyblid', params)
         return result_json
     print("recommend_genre")
     print(f"data_num {len(result_json)}")
