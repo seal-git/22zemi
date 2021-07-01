@@ -11,6 +11,10 @@
     height: calc(100% - 30);
     position: relative;
 }
+
+.tinder-ui{
+    height: auto;
+}
 .card-container{
     height: 100%;
     position: relative;

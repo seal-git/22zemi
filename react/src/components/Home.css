@@ -30,6 +30,7 @@ body {
 .Content {
     flex: 1;
     height: calc(100%- 17 - 30); /*これがないとflex:1が効かなくなるというバグがある*/
+    padding-bottom: 5px;
 }
 
 /* Chrome, Safari 対応 */

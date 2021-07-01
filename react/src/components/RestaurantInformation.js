@@ -16,8 +16,9 @@ const useStyles = makeStyles((theme) => ({
   //   height: '100%',
   // },
   cardRoot: {
-    marginBottom: '10px',
+    // marginBottom: '10px',
     height: '100%',
+    boxSizing: "border-box",
   },
   cardContent: {
     width: "100%",

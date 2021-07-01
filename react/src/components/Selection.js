@@ -19,7 +19,9 @@ import Button from "@material-ui/core/Button";
 const initDataList = [{"Name": "Loading...", "Images": [""]}];
 const emptyDataList = [{"Name": "No Data: 検索条件を変えてみてください", "Images": [""]}];
 
-var wrapperStyle = {margin: '5px 5px 5px 5px'};
+var wrapperStyle = {
+    margin: 0,
+};
 
 function Selection(props) {
     // const [idx, setIndex] = useState(0)
@@ -123,12 +125,14 @@ function Selection(props) {
     // カードの高さを指定する
     function getAdaptiveStyle() {
         let height = window.innerHeight;
+        // height = Selection.getBoundingClientRect().height;
         let wrapperStyle = {
             // backgroundColor: 'transparent', // 描画ずれを回避するため色をつける
             backgroundColor: 'white',
-            margin: '5px 5px 5px 5px',
-            height: height - 100 + 'px',
+            height: height - 120 + 'px',
+            // height: '600px',
             width: '100%',
+            margin: '3px',
             position: 'absolute',
         };
         return wrapperStyle;
@@ -162,6 +166,7 @@ function Selection(props) {
                         handleLeftScreen(dir, data.Restaurant_id);
                     }}
                     preventSwipe={prevents}
+                    className={'tinder-ui'}
                 >
                     <RestaurantInformation data={data}
                                            wrapperStyle={wrapperStyle}/>
@@ -177,6 +182,7 @@ function Selection(props) {
                 ' #FFCD4E 27.25%,' +
                 ' #FFB74A' +
                 ' 71.71%)',
+            margin: '5px',
             border: '0px',
             fontSize: '0.8rem',
         }
