@@ -126,11 +126,11 @@ function Selection(props) {
     // カードの高さを指定する
     function getAdaptiveStyle() {
         let height = window.innerHeight;
-        // height = Selection.getBoundingClientRect().height;
+        height = document.getElementById("selection").getBoundingClientRect().height;
         let wrapperStyle = {
             // backgroundColor: 'transparent', // 描画ずれを回避するため色をつける
             backgroundColor: 'white',
-            height: height - 120 + 'px',
+            height: height,
             // height: '600px',
             width: '100%',
             margin: '3px',
@@ -194,7 +194,7 @@ function Selection(props) {
                     </div>
                 </div>
             </div>
-            <div className="Selection">
+            <div className="Selection" id={"selection"}>
                 {/* <RestaurantInformation data={dataList[idx]} wrapperStyle={wrapperStyle} /> */}
                 <div className='card-container'>
                     <CardsContainer dataList={dataList}/>
