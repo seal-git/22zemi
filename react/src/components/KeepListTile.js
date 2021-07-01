@@ -49,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
         fontWeight: 'bold'
     },
     textSecondary: {
-        fontSize: '0.8rem',
+        fontSize: '1rem',
         color: '#777777',
         display: 'flex'
     },
@@ -84,10 +84,10 @@ function KeepListTile(props) {
     const classes = useStyles();
     const space = <span className={classes.space}>　</span>;
     const text = "hello\nhello";
+    // const swichStyle = { props.mode == "Alone" ? { display: "none", } : { display: "block", } }
 
     return (
         <Card variant="outlined" className={classes.root}>
-
             <GridList className={classes.gridList} cols={2.5} cellHeight={100}>
                 {props.data.Images.map((tile) => (
                     <GridListTile key={tile} className={classes.gridListTile}>
@@ -103,7 +103,6 @@ function KeepListTile(props) {
                 <Divider />
                 <Typography className={classes.textSecondary} color="primary" >
                     <span className={classes.textStars}>
-                        {/* ☆☆☆☆☆　0 */}
                         {props.data.ReviewRating}
                     </span>
                     <span className={classes.textRecommend}>
@@ -138,7 +137,8 @@ function KeepListTile(props) {
                         <InfoOutlinedIcon />
                     </IconButton>
                 </CardActions>
-                <Typography className={classes.textVotes}>
+                <Typography className={classes.textVotes}
+                    style={props.mode == "Alone" ? { display: "none", } : { display: "block", }}>
                     <FavoriteIcon style={{ fontSize: 18 }} />
                     <span className={classes.textVoteResult}>{props.data.VotesLike}</span>
                     /{props.data.VotesAll}

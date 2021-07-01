@@ -21,13 +21,11 @@ const useStyles = makeStyles((theme) => ({
     },
     groupStyle: {
         height: '100%',
-        backgroundImage: 'linear-gradient(180.02deg, #FFDDAA 0.02%, #FFFBFB 80.2%)'
+        backgroundImage: 'linear-gradient(180.02deg, #FFDDAA 0.02%, #FFFBFB 80.2%)',
+        backgroundSize: 'cover'
     },
     topWrapper: {
         display: 'flex',
-        // position: 'fixed',
-        // top: '0', left: '0', right: '0',
-        // zIndex: '2'
     },
     participantNum: {
         lineHeight: '25px',
@@ -60,7 +58,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const initDataList = [{
-    "Name": "Waiting...", "Images": [""], "Distance": "-m", "Price": "-円",
+    "Name": "Loading...", "Images": [""], "Distance": "-m", "Price": "-円",
     "Category": "-", "ReviewRating": "-", "VotesLike": 0, "VotesAll": 0,
 }]
 
@@ -100,7 +98,7 @@ function KeepList(props) {
     // モードが切り替わるとスタイルが変わる
     // Appが指定している高さをぶち抜いてリストが表示されるので
     // 全体に背景色を適用させるために、あらためて背景色を設定する
-    const [className, setClassName] = useState(classes.AppAlone)
+    const [className, setClassName] = useState(classes.AppAlone);
     useEffect(() => {
         if (props.mode === "Alone") {
             setClassName(classes.aloneStyle)
@@ -140,17 +138,19 @@ function KeepList(props) {
                         <option value={30}>距離が近い順</option>
                     </Select>
                 </FormControl>
-                <Typography className={classes.participantNum}>
+                <Typography className={classes.participantNum}
+                    style={props.mode == "Alone" ? { display: "none", } : { display: "block", }}>
                     投票人数 未実装人
                 </Typography>
             </Box>
             <Box>
                 {dataList.map((data) => (
-                    <KeepListTile data={data} />
+                    <KeepListTile data={data} mode={props.mode} />
                 ))}
             </Box>
-            <Box style={{ height: '48px' }}></Box>
+            {/* <Box style={{ height: '48px' }}></Box> */}
         </div >
+
     );
 }
 

@@ -42,9 +42,12 @@ def get_restaurant_info_from_local_search_params(group, local_search_params):
     if local_search_json['ResultInfo']['Count'] == 0:
         return {}, []
 
-     # 現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
-    now_time = datetime.datetime.now().hour + datetime.datetime.now().minute / 60
-    lunch_or_dinner = 'lunch' if lunch_time_start <= now_time and now_time < lunch_time_end else 'dinner'
+    # 現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
+    if 'open' in local_search_params and local_search_params['open'] != 'now':
+        lunch_or_dinner = 'lunch' if lunch_time_start <= int((local_search_params['open'].split(','))[1]) < lunch_time_end else 'dinner'
+    else:
+        now_time = datetime.datetime.now().hour + datetime.datetime.now().minute / 60
+        lunch_or_dinner = 'lunch' if lunch_time_start <= now_time < lunch_time_end else 'dinner'
 
     # Yahoo local search apiで受け取ったjsonをクライアントアプリに送るjsonに変換する
     result_json = []
@@ -61,13 +64,14 @@ def get_restaurant_info_from_local_search_params(group, local_search_params):
             result_json[i]['Price'] = feature['Property']['Detail']['LunchPrice'] if lunch_or_dinner == 'lunch' and feature['Property']['Detail'].get('LunchFlag') == True else feature['Property']['Detail'].get('DinnerPrice')
             result_json[i]['TopRankItem'] = [feature['Property']['Detail']['TopRankItem'+str(j)] for j in range(MAX_LIST_COUNT) if 'TopRankItem'+str(j) in feature['Property']['Detail']] # TopRankItem1, TopRankItem2 ... のキーをリストに。
             result_json[i]['CassetteOwnerLogoImage'] = feature['Property']['Detail'].get('CassetteOwnerLogoImage')
-            result_json[i]['Category'] = ','.join(feature['Category'][0].split(",")[-2:-1]) if len(feature['Category']) != 0 else ''
+            result_json[i]['Category'] = feature['Property']['Genre'][0]['Name']
             result_json[i]['UrlYahooLoco'] = "https://loco.yahoo.co.jp/place/" + restaurant_id
             result_json[i]['UrlYahooMap'] = "https://map.yahoo.co.jp/route/walk?from=" + group['Address'] + "&to=" + result_json[i]['Address']
             result_json[i]['ReviewRating'] = get_review_rating(restaurant_id)
             result_json[i]['VotesLike'], result_json[i]['VotesAll'] = calc_info.count_votes(group, restaurant_id)
-            result_json[i]['BusinessHour'] = (feature['Property']['Detail'].get('BusinessHour')).replace('\n' , '    ')
             result_json[i]['Genre'] = feature['Property']['Genre']
+            result_json[i]['BusinessHour'] = (feature['Property']['Detail'].get('BusinessHour')).replace('<br>', '\n')
+            result_json[i]['NumberOfParticipants'] = str(len(group['Users']))
 
         # Images : 画像をリストにする
             lead_image = [feature['Property']['LeadImage']] if 'LeadImage' in feature['Property'] else ([feature['Property']['Detail']['Image1']] if 'Image1' in feature['Property']['Detail'] else []) # リードイメージがある時はImage1を出力しない。
@@ -145,7 +149,7 @@ def get_review(uid):
 
 def get_review_rating(uid):
     response = get_review(uid)
-    if response['ResultInfo']['Count'] == 0 : return 'レビューがありません'# review_rating = -1
+    if response['ResultInfo']['Count'] == 0 : return ''
     review_rating = sum([f['Property']['Comment']['Rating'] for f in response["Feature"]]) / response['ResultInfo']['Count']
     review_rating_int = int(review_rating + 0.5)
     review_rating_star = '★' * review_rating_int + '☆' * (5-review_rating_int)

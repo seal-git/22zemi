@@ -11,6 +11,7 @@ import TinderCard from 'react-tinder-card'
 // スワイプでお店を選ぶ画面
 
 const initDataList = [{ "Name": "Loading...", "Images": [""] }];
+const emptyDataList = [{ "Name": "No Data: 検索条件を変えてみてください", "Images": [""] }];
 
 var wrapperStyle = { margin: '5px 5px 5px 5px' };
 
@@ -25,7 +26,8 @@ function Selection(props) {
   const getInfo = () => {
     if (isLoading) return;
     isLoading = true
-    const params = { "user_id": props.userId, "group_id": props.groupId };
+    const paramsId = { "user_id": props.userId, "group_id": props.groupId };
+    const params = {...paramsId, ...props.paramsForSearch,'open_hour':+props.paramsForSearch['open_hour_str'].slice(0,2) }
     console.log(params);
     axios.post('/api/info', {
       params: params
@@ -34,10 +36,12 @@ function Selection(props) {
         console.log(response)
         let dataList = response['data']
         cardNum = dataList.length
-        console.log(dataList[0])
-        // setIndex(0)
-        // idx = 0
-        setDataList(dataList)
+        if(cardNum>0){
+          console.log(dataList[0])
+          setDataList(dataList)
+        }else{
+          setDataList(emptyDataList)
+        }
         isLoading = false
       })
       .catch((error) => {
@@ -115,6 +119,7 @@ function Selection(props) {
       backgroundColor: 'white', 
       margin: '5px 5px 5px 5px',
       height: height - 100 + 'px',
+      width: '100%',
       position: 'absolute',
     };
     return wrapperStyle;
@@ -136,7 +141,7 @@ function Selection(props) {
   const CardsContainer = (props) => {
     // スワイプできない方向を設定
     let prevents = ['up','down']
-    if(props.dataList===initDataList){
+    if(props.dataList===initDataList || props.dataList==emptyDataList){
       prevents = ['up', 'down', 'right', 'left']
     }
     // お店ごとに情報カードを生成

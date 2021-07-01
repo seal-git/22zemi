@@ -34,25 +34,19 @@ function ButtonToChangeMode(props) {
     const enterGroup = () => {
         console.log("enter group "+group_id.current.value);
         handleClose();
-        // props.setMode("Group");
-        // props.setGroupId(group_id);
-        // props.getInfo();
-        props.turnMode(group_id)
+        console.log(group_id.current.value)
+        props.turnMode(group_id.current.value)
     };
 
     const createGroup = () => {
         console.log("create group!");
         handleClose();
-        // props.setMode("Group");
-        // props.getInfo();
         props.turnMode("")
     }
 
     const leaveGroup = () => {
         console.log("leave group!");
         handleClose();
-        // props.setMode("Alone");
-        // props.getInfo();
         props.turnMode("")
     }
 

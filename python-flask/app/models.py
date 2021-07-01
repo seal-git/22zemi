@@ -279,7 +279,7 @@ def http_feeling():
     group_id = group_id if group_id != None else get_group_id(user_id)
     
     # 情報を登録
-    current_group[group_id]['Users'][user_id]['Feeling'][restaurant_id] = (feeling == 'true')
+    current_group[group_id]['Users'][user_id]['Feeling'][restaurant_id] = feeling
     if feeling:
         current_group[group_id]['Restaurants'][restaurant_id]['Like'].add(user_id)
     else:
