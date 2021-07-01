@@ -3,7 +3,8 @@ import json
 import os
 import random
 
-RESULTS_COUNT = 3 # 一回に返す店舗の数
+RESULTS_COUNT = 15 # 一回に返す店舗の数
+MAX_DISTANCE = 10 # 中心地からの距離
 
 #カテゴリの類似度が高い物
 with open("./data/category_high_sim.json","rb") as f:
@@ -88,7 +89,7 @@ def recommend_review_words(current_group, group_id, user_id):
             # 中心地から1km以内のグルメを検索
             'lat': coordinates[0], # 緯度
             'lon': coordinates[1], # 経度
-            'dist': 3, # 中心地点からの距離 # 最大20km
+            'dist': MAX_DISTANCE, # 中心地点からの距離 # 最大20km
             'gc': '01', # グルメ
             'image': True, # 画像がある店
             'open': 'now', # 現在開店している店舗
@@ -111,7 +112,7 @@ def recommend_template(current_group, group_id, user_id):
     '''
     simpleと同じ動きをするテンプレート
     '''
-    LOCAL_SEARCH_RESULTS_COUNT = 30 # 一回に取得する店舗の数 # RESULTS_COUNTの倍数
+    LOCAL_SEARCH_RESULTS_COUNT = RESULTS_COUNT*3 # 一回に取得する店舗の数 # RESULTS_COUNTの倍数
     
     coordinates = current_group[group_id]['Coordinates']
     request_count = current_group[group_id]['Users'][user_id]['RequestCount']
@@ -121,7 +122,7 @@ def recommend_template(current_group, group_id, user_id):
         # 中心地から1km以内のグルメを検索
         'lat': coordinates[0], # 緯度
         'lon': coordinates[1], # 経度
-        'dist': 3, # 中心地点からの距離 # 最大20km
+        'dist': MAX_DISTANCE, # 中心地点からの距離 # 最大20km
         'gc': '01', # グルメ
         'image': True, # 画像がある店
         'open': 'now', # 現在開店している店舗
@@ -252,7 +253,7 @@ def local_search_test(current_group, group_id, user_id):
         # 中心地から1km以内のグルメを検索
         'lat': coordinates[0], # 緯度
         'lon': coordinates[1], # 経度
-        'dist': 3, # 中心地点からの距離 # 最大20km
+        'dist': MAX_DISTANCE, # 中心地点からの距離 # 最大20km
         'gc': '01', # グルメ
         'image': True, # 画像がある店
         'open': 'now', # 現在開店している店舗
@@ -278,7 +279,7 @@ def local_search_test_URL(current_group, group_id, user_id):
         # 中心地から1km以内のグルメを検索
         'lat': coordinates[0], # 緯度
         'lon': coordinates[1], # 経度
-        'dist': 3, # 中心地点からの距離 # 最大20km
+        'dist': MAX_DISTANCE, # 中心地点からの距離 # 最大20km
         'gc': '01', # グルメ
         'image': True, # 画像がある店
         'open': 'now', # 現在開店している店舗
