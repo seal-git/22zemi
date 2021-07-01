@@ -47,8 +47,7 @@ export default function AppBottomNavigation(props) {
   }
 
   return (
-    <div className={classes.AppBottomNavigation}>
-      <Credit />
+    <div className={classes.AppBottomNavigation} id="AppBottomNavigation">
       <figure>
         <img
           src={FooterBackground}

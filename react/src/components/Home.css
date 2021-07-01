@@ -1,5 +1,6 @@
 body{
-    height: 100%;
+    height: 100vh;
+    overflow: hidden;
     /*height: calc(var(--myvh) * 100);*/
     background-color: whitesmoke;
 }
@@ -13,11 +14,20 @@ body{
     position: relative;
     padding: 0;
 }
-.Content{
-    /* flex: 1; */
-    margin: 0px 0px 10px ;
+.Content-wrapper{
+    display: flex;
+    flex-direction: column;
     height: 100%;
-    /* position: fixed;
-    bottom: 60px;
-    left:0 */
+    overflow-y: scroll;
+    /* IE, Edge 対応 */
+    -ms-overflow-style: none;
+    /* Firefox 対応 */
+    scrollbar-width: none;
+}
+.Content{
+    flex: 1;
+}
+/* Chrome, Safari 対応 */
+.Content-wrapper::-webkit-scrollbar {
+display:none;
 }

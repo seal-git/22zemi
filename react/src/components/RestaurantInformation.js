@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     height: '100%',
   },
   cardContent: {
-    // width: "100%",
+    width: "100%",
     display: 'block',
     flexWrap: 'wrap',
     justifyContent: 'space-around',
@@ -74,7 +74,7 @@ function RestaurantInformation(props) {
   const space = <span className={classes.space}>　</span>;
 
   return (
-    <div className="RestaurantInformation" className={classes.wrapper} style={props.wrapperStyle}>
+    <div className="RestaurantInformation" style={props.wrapperStyle}>
       <Card variant="outlined" className={classes.cardRoot}>
         <GridList className={classes.gridList} cols={2} spacing={2}>
           {props.data.Images.map((tile) => (

@@ -119,6 +119,7 @@ function Selection(props) {
       backgroundColor: 'white', 
       margin: '5px 5px 5px 5px',
       height: height - 100 + 'px',
+      width: '100%',
       position: 'absolute',
     };
     return wrapperStyle;
