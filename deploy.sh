@@ -3,10 +3,8 @@
 docker stop react python-flask mysql
 cd 22zemi
 git checkout production
-git add .
-git commit -m "update"
 git fetch origin
-git merge origin/production
+git reset --hard origin/production
 
 docker run \
 --rm -v /var/run/docker.sock:/var/run/docker.sock \
