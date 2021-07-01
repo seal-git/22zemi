@@ -200,22 +200,21 @@ def http_init():
     result = {'GroupId': group_id, 'UserId': user_id}
     return json.dumps(result, ensure_ascii=False)
 
-@app_.route('/invite', methods=['GET','POST'])
+@app_.route('/invite', methods=['GET'])
 # 検索条件を指定して、招待URLを返す
 def http_invite():
-    URL = 'http://localhost:3000' # TODO: ドメインを取得したら書き換える。
+    URL = 'https://reskima.com' # TODO: ドメインを取得したら書き換える。
 
-    data = request.get_json()["params"]
-    group_id = data["group_id"] if data.get("group_id", False) else None
+    group_id = request.args.get('group_id')
     # coordinates = data["coordinates"] if data.get("coordinates", False) else None # TODO: デモ以降に実装
-    place = data["place"] if data.get("place", False) else None
-    genre = data["genre"] if data.get("genre", False) else None
-    query = data["query"] if data.get("query", False) else None
-    open_day = data["open_day"] if data.get("open_day", False) else None
-    open_hour = data["open_hour"] if data.get("open_hour", False) else None
-    maxprice = data["maxprice"] if data.get("maxprice", False) else None
-    minprice = data["minprice"] if data.get("minprice", False) else None
-    recommend_method = data["recommend_method"] if data.get("recommend_method", False) else None
+    place = request.args.get('place')
+    genre = request.args.get("genre")
+    query = request.args.get('query')
+    open_day = request.args.get('open_day')
+    open_hour = request.args.get('open_hour')
+    maxprice = request.args.get('maxprice')
+    minprice = request.args.get('minprice')
+    recommend_method = request.args.get('recommend_method')
     
     group_id = group_id if group_id != None else generate_group_id()
     
@@ -298,7 +297,7 @@ def http_popular_list():
     group_id = data["group_id"] if data.get("group_id", False) else None
     group_id = group_id if group_id != None else get_group_id(user_id)
 
-    if len(current_group[group_id]['Restaurants']) == 0:
+    if sum([r['All'] for rid,r in current_group[group_id]['Restaurants'].items()]) == 0:
         return '[]'
 
     popular_max = max([r['Like'] for r in current_group[group_id]['Restaurants'].values()])
