@@ -27,7 +27,7 @@ function Selection(props) {
     if (isLoading) return;
     isLoading = true
     const paramsId = { "user_id": props.userId, "group_id": props.groupId };
-    const params = {...paramsId, ...props.paramsForSearch,'open_hour':+props.paramsForSearch['open_hour_str'].slice(0,2) }
+    const params = { ...paramsId, ...props.paramsForSearch, 'open_hour': +props.paramsForSearch['open_hour_str'].slice(0, 2) }
     console.log(params);
     axios.post('/api/info', {
       params: params
@@ -36,10 +36,10 @@ function Selection(props) {
         console.log(response)
         let dataList = response['data']
         cardNum = dataList.length
-        if(cardNum>0){
+        if (cardNum > 0) {
           console.log(dataList[0])
           setDataList(dataList)
-        }else{
+        } else {
           setDataList(emptyDataList)
         }
         isLoading = false
@@ -60,17 +60,17 @@ function Selection(props) {
     if (dataList[0].Name == initDataList[0].Name) return;
     // カード枚数を1減らす
     cardNum -= 1
-    if(cardNum==0){
+    if (cardNum == 0) {
       // データリストの取得待ちであることを明示する
       cardNum = 1
       setDataList(initDataList)
       // リスト取得
       getInfo()
-    } 
+    }
   }
 
   // APIにキープ・リジェクトを送信する
-  const sendFeeling = (feeling,restaurant_id) => {
+  const sendFeeling = (feeling, restaurant_id) => {
     axios.post('/api/feeling', {
       params: {
         user_id: props.userId,
@@ -80,6 +80,7 @@ function Selection(props) {
     })
       .then(function (response) {
         console.log(response)
+        props.setListNum(response.data)
         turnCard()
       })
       .catch((error) => {
@@ -91,12 +92,12 @@ function Selection(props) {
   const reject = (restaurant_id) => {
     console.log("reject")
     if (isLoading) return;
-    sendFeeling(false,restaurant_id)
+    sendFeeling(false, restaurant_id)
   }
   const keep = (restaurant_id) => {
-    console.log("keep:",restaurant_id)
+    console.log("keep:", restaurant_id)
     if (isLoading) return;
-    sendFeeling(true,restaurant_id)
+    sendFeeling(true, restaurant_id)
   }
   // Home コンポーネント から受け取った turnMode を
   // ButtonToChangeMode 用に加工
@@ -116,7 +117,7 @@ function Selection(props) {
     let height = window.innerHeight;
     let wrapperStyle = {
       // backgroundColor: 'transparent', // 描画ずれを回避するため色をつける
-      backgroundColor: 'white', 
+      backgroundColor: 'white',
       margin: '5px 5px 5px 5px',
       height: height - 100 + 'px',
       width: '100%',
@@ -130,31 +131,31 @@ function Selection(props) {
   });
 
   // swipe 操作をハンドル
-  const handleLeftScreen = (dir,restaurant_id) => {
+  const handleLeftScreen = (dir, restaurant_id) => {
     console.log(dir)
-    if(dir==='right'){
+    if (dir === 'right') {
       keep(restaurant_id)
-    }else{
+    } else {
       reject(restaurant_id)
     }
   }
   const CardsContainer = (props) => {
     // スワイプできない方向を設定
-    let prevents = ['up','down']
-    if(props.dataList===initDataList || props.dataList==emptyDataList){
+    let prevents = ['up', 'down']
+    if (props.dataList === initDataList || props.dataList == emptyDataList) {
       prevents = ['up', 'down', 'right', 'left']
     }
     // お店ごとに情報カードを生成
     // TinderCard として扱うことでスワイプを可能にしている
     return (props.dataList.reverse().map((data) => {
       return (
-          <TinderCard
-            onCardLeftScreen={ (dir) => { handleLeftScreen(dir,data.Restaurant_id); } }
-            preventSwipe={prevents} 
-          >
-            <RestaurantInformation data={data} wrapperStyle={wrapperStyle} />
-          </TinderCard>
-        );
+        <TinderCard
+          onCardLeftScreen={(dir) => { handleLeftScreen(dir, data.Restaurant_id); }}
+          preventSwipe={prevents}
+        >
+          <RestaurantInformation data={data} wrapperStyle={wrapperStyle} />
+        </TinderCard>
+      );
     }))
   }
 

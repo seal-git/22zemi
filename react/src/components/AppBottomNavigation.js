@@ -77,7 +77,7 @@ export default function AppBottomNavigation(props) {
 
       <button className={"button-list"} onClick={() => { moveToKeepList() }}>
 
-        <StyledBadge badgeContent={4} color="secondary">
+        <StyledBadge badgeContent={props.listNum} color="secondary">
           <img
             src={
               props.view === "KeepList"
