@@ -5,8 +5,9 @@ import RestaurantInformation from "./RestaurantInformation";
 import ButtonToChangeMode from "./ButtonToChangeMode";
 import ButtonToInvite from "./ButtonToInvite";
 import axios from "axios";
-import "./Selection.css"
-import TinderCard from 'react-tinder-card'
+import "./Selection.css";
+import TinderCard from 'react-tinder-card';
+import noImageIcon from "./no_image.png";
 import {Box} from "@material-ui/core";
 import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
@@ -17,8 +18,8 @@ import Button from "@material-ui/core/Button";
 
 // スワイプでお店を選ぶ画面
 
-const initDataList = [{"Name": "Loading...", "Images": [""]}];
-const emptyDataList = [{"Name": "No Data: 検索条件を変えてみてください", "Images": [""]}];
+const initDataList = [{"Name": "Loading...", "Images": [noImageIcon, noImageIcon]}];
+const emptyDataList = [{"Name": "No Data: 検索条件を変えてみてください", "Images": [noImageIcon, noImageIcon]}];
 
 var wrapperStyle = {
     margin: 0,
