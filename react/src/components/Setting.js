@@ -15,6 +15,7 @@ import {
     Typography
 } from "@material-ui/core";
 import {makeStyles} from "@material-ui/core";
+import Logo from "./Reskima_Logo.png"
 import SearchButtonOne from "./search_button_one.png"
 import SearchButtonAll from "./search_button_all.png"
 
@@ -95,7 +96,10 @@ function Setting(props) {
         <div className="setting">
             <div class="title-wrapper">
                 <div class="title">
-                    <Typography>Reskima</Typography>
+                    <img
+                        src={Logo}
+                        className={"title-image"}
+                        alt={"title"}/>
                 </div>
             </div>
             <div class="forms-wrapper">
