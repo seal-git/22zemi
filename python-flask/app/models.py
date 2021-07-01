@@ -119,7 +119,7 @@ def set_filter_params(group_id, place, genre, query, open_day, open_hour, maxpri
         elif query is None:
             current_group[group_id]['FilterParams']['query'] = genre
         else:
-            current_group[group_id]['FilterParams']['query'] = query + ' ' + query
+            current_group[group_id]['FilterParams']['query'] = genre + ' ' + query
     if open_hour is not None:
         if open_day is not None:
             current_group[group_id]['FilterParams']['open'] = open_day + ',' + open_hour
@@ -280,8 +280,6 @@ def http_feeling():
     
     # 情報を登録
     current_group[group_id]['Users'][user_id]['Feeling'][restaurant_id] = feeling
-    if restaurant_id not in current_group[group_id]['Restaurants']:
-        current_group[group_id]['Restaurants'][restaurant_id] = {'Like': set(), 'All': set()}
     if feeling:
         current_group[group_id]['Restaurants'][restaurant_id]['Like'].add(user_id)
     else:
@@ -289,7 +287,7 @@ def http_feeling():
     current_group[group_id]['Restaurants'][restaurant_id]['All'].add(user_id)
     
     # 通知の数を返す。全会一致の店の数
-    return str(sum([1 for r in current_group[group_id]['Restaurants'].values() if len(r['Like']) >= len(current_group[group_id]['Users'])]))
+    return str(sum([1 for r in current_group[group_id]['Restaurants'].keys() if len(current_group[group_id]["Restaurants"][r]['Like']) >= len(current_group[group_id]['Users'])]))
 
 @app_.route('/popular_list', methods=['GET','POST'])
 # 得票数の一番多い店舗のリストを返す。1人のときはキープした店舗のリストを返す。
