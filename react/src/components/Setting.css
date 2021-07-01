@@ -8,6 +8,11 @@
 .title-wrapper {
     flex: 1;
 }
+.title-image {
+    width: 65%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
 
 .forms-wrapper {
     flex: 3;
