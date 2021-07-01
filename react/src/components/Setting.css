@@ -45,6 +45,7 @@
 
 .buttons-wrapper > button{
     width: 100%;
+    margin-bottom: 10px;
     padding: 0;
     background-color: transparent;
     border-color: transparent;
@@ -52,10 +53,6 @@
     cursor: pointer;
 }
 
-.button-alone-image {
-    width: 100%;
-}
-
-.button-group-image {
+.buttons-wrapper > button > img {
     width: 100%;
 }

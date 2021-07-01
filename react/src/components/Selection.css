@@ -1,15 +1,26 @@
-.Content{
-    flex: 1;
-}
-
 #AppBottomNavigation{
     position: static;
 }
+.Selection-wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Selection-header{
+    display: flex;
+    align-items: center;
+}
 
 .Selection{
-    height: 100%;
+    flex: 1;
+    height: calc(100% - 30);
     position: relative;
 }
+
+.group-id{
+    font-size: 12px;
+}
+
 .card-container{
     height: 100%;
     position: relative;
