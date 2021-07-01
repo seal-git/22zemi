@@ -297,8 +297,7 @@ def http_popular_list():
     group_id = data["group_id"] if data.get("group_id", False) else None
     group_id = group_id if group_id != None else get_group_id(user_id)
 
-    # if len(current_group[group_id]['Restaurants']) == 0:
-    if sum([r['All'] for rid,r in current_group[group_id]['Restaurants'].items()]):
+    if sum([r['All'] for rid,r in current_group[group_id]['Restaurants'].items()]) != 0:
         return '[]'
 
     popular_max = max([r['Like'] for r in current_group[group_id]['Restaurants'].values()])
