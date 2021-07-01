@@ -34,7 +34,7 @@ def recommend_simple(current_group, group_id, user_id, recommend_method, params=
     if "dist" in params.keys():
         dist = params["dist"]
     else:
-        dist = 10
+        dist = MAX_DISTANCE
     if "price" in params.keys():
         price = params["price"]
     else:
