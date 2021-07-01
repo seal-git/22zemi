@@ -13,7 +13,7 @@ docker compose build
 docker compose up -d
 ```
 コンテナのcreateがdoneになっても，アプリの起動が完了するまでは待つ必要がある．
-
+初めてのbuild時は，/mysqlにdbディレクトリを作る必要がある．
 **localhost:3000でアプリにアクセスできる．**
 
 起動後は次のポートが開く．
