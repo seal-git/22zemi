@@ -40,7 +40,7 @@ body {
 
 .Content {
     flex: 1;
-    height: calc(100% - 17 - 30); /*これがないとflex:1が効かなくなるというバグがある*/
+    height: calc(10%); /*これがないとflex:1が効かなくなるというバグがある*/
     padding-bottom: 5px;
 }
 
