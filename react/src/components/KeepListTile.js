@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from "axios";
 import { Box, CardContent } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { createMuiTheme } from '@material-ui/core/styles';
@@ -14,6 +15,7 @@ import CloseIcon from '@material-ui/icons/Close';
 import RoomIcon from '@material-ui/icons/Room';
 import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined';
 import FavoriteIcon from '@material-ui/icons/Favorite';
+import ReskimaNoImage from './Reskima_Logo_margin.png';
 
 const useStyles = makeStyles((theme) => ({
     space: {
@@ -84,8 +86,28 @@ const useStyles = makeStyles((theme) => ({
 function KeepListTile(props) {
     const classes = useStyles();
     const space = <span className={classes.space}>　</span>;
-    const text = "hello\nhello";
     // const swichStyle = { props.mode == "Alone" ? { display: "none", } : { display: "block", } }
+    // APIにやっぱりリジェクトを送信する
+    const sendFeeling = (feeling, restaurant_id) => {
+        console.log(feeling, restaurant_id, props.userId)
+        axios.post('/api/feeling', {
+            params: {
+                user_id: props.userId,
+                restaurant_id: restaurant_id,
+                feeling: feeling,
+            }
+        })
+            .then(function (response) {
+                console.log(response)
+                props.setListNum(response.data)
+                props.getList()
+            })
+            .catch((error) => {
+                console.log("error:", error);
+            });
+    }
+
+    const noImages = [ReskimaNoImage, ReskimaNoImage, ReskimaNoImage];
 
     return (
         <Card variant="outlined" className={classes.root}>
@@ -107,7 +129,7 @@ function KeepListTile(props) {
                         {props.data.ReviewRating}
                     </span>
                     <span className={classes.textRecommend}>
-                        あなたへのおすすめ度{props.data.RecommendScore}%
+                        おすすめ度{props.data.RecommendScore}%
                     </span>
                 </Typography>
                 <Typography className={classes.textSecondary}>
@@ -122,7 +144,9 @@ function KeepListTile(props) {
             </CardContent>
             <Box className={classes.cardContentSub}>
                 <CardActions className={classes.cardActions}>
-                    <IconButton>
+                    <IconButton onClick={() => {
+                        sendFeeling(false, props.data.Restaurant_id)
+                    }}>
                         <CloseIcon />
                     </IconButton>
                     <IconButton onClick={(e) => {

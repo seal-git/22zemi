@@ -1,5 +1,6 @@
 import React from 'react';
 import KeepListTile from "./KeepListTile";
+import KeepListSkeleton from './KeepListSkeleton';
 import { useEffect, useState, useRef } from "react";
 import axios from "axios";
 import sampleData from "./sampleData.json";
@@ -58,10 +59,16 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const initDataList = [{
-    "Name": "Loading...", "Images": [""], "Distance": "-m", "Price": "-円",
+    "Name": "Loading...", "Images": [""], "Distance": "-m", "Price": "-",
     "Category": "-", "ReviewRating": "-", "VotesLike": 0, "VotesAll": 0,
-    "distance_float": 0.,"RecommendScore": 0,
-}]
+    "distance_float": 0., "RecommendScore": 0, "NumberOfParticipants": 1,
+},
+{
+    "Name": "Loading...", "Images": [""], "Distance": "-m", "Price": "-",
+    "Category": "-", "ReviewRating": "-", "VotesLike": 0, "VotesAll": 0,
+    "distance_float": 0., "RecommendScore": 0, "NumberOfParticipants": 1,
+},
+]
 
 const sortByRecommendScore = 10
 const sortByDistance = 20
@@ -75,9 +82,12 @@ function KeepList(props) {
     const sample = sampleData;
     const selectRef = useRef(null);
     const [dataList, setDataList] = useState(initDataList)
+    let isLoading = false;
 
     // APIからキープリストのデータを得る
     const getList = () => {
+        if (isLoading) return;
+        isLoading = true;
         const params = { "user_id": props.userId }
         if (props.mode === "Group") {
             params["group_id"] = props.groupId
@@ -90,19 +100,20 @@ function KeepList(props) {
                 console.log(response)
                 let dataList = response['data']
                 console.log(dataList[0])
-                dataList.sort( function(a,b){
+                dataList.sort(function (a, b) {
                     // 降順ソート
-                    if(+a.RecommendScore>+b.RecommendScore) return -1;
-                    if(+a.RecommendScore<+b.RecommendScore) return 1;
+                    if (+a.RecommendScore > +b.RecommendScore) return -1;
+                    if (+a.RecommendScore < +b.RecommendScore) return 1;
                     return 0
                 });
-                dataList.sort( function(a,b){
+                dataList.sort(function (a, b) {
                     // 降順ソート
-                    if(+a.VotesAll>+b.VotesAll) return -1;
-                    if(+a.VotesAll<+b.VotesAll) return 1;
+                    if (+a.VotesAll > +b.VotesAll) return -1;
+                    if (+a.VotesAll < +b.VotesAll) return 1;
                     return 0
                 });
                 setDataList(dataList)
+                isLoading = false;
             })
             .catch((error) => {
                 console.log(error);
@@ -133,48 +144,48 @@ function KeepList(props) {
 
         // ソートの条件を取得
         // 注：文字列型として扱われるのを回避するため + で数値に変換
-        let sortValue = +event.target.value 
+        let sortValue = +event.target.value
         // 条件に合わせてソートを実行
 
-        if(sortValue===sortByRecommendScore){
+        if (sortValue === sortByRecommendScore) {
             console.log('sort by recommend score')
-            newDataList.sort( function(a,b){
+            newDataList.sort(function (a, b) {
                 // おすすめ度で降順ソート
-                if(+a.RecommendScore>+b.RecommendScore) return -1;
-                if(+a.RecommendScore<+b.RecommendScore) return 1;
+                if (+a.RecommendScore > +b.RecommendScore) return -1;
+                if (+a.RecommendScore < +b.RecommendScore) return 1;
                 return 0
             });
-            newDataList.sort( function(a,b){
+            newDataList.sort(function (a, b) {
                 // 投票数で降順ソート
-                if(+a.VotesAll>+b.VotesAll) return -1;
-                if(+a.VotesAll<+b.VotesAll) return 1;
+                if (+a.VotesAll > +b.VotesAll) return -1;
+                if (+a.VotesAll < +b.VotesAll) return 1;
                 return 0
             });
         }
-        else if(sortValue===sortByDistance){
+        else if (sortValue === sortByDistance) {
             console.log('sort by distance')
-            newDataList.sort( function(a,b){
+            newDataList.sort(function (a, b) {
                 // 距離で昇順ソート
-                if(+a.distance_float>+b.distance_float) return 1;
-                if(+a.distance_float<+b.distance_float) return -1;
+                if (+a.distance_float > +b.distance_float) return 1;
+                if (+a.distance_float < +b.distance_float) return -1;
                 return 0
             });
         }
-        else if(sortValue===sortByFeeAscend){
+        else if (sortValue === sortByFeeAscend) {
             console.log('sort by fee; ascending')
-            newDataList.sort( function(a,b){
+            newDataList.sort(function (a, b) {
                 // 価格帯で昇順ソート
-                if(+a.Price>+b.Price) return 1;
-                if(+a.Price<+b.Price) return -1;
+                if (+a.Price > +b.Price) return 1;
+                if (+a.Price < +b.Price) return -1;
                 return 0
             });
         }
-        else if(sortValue===sortByFeeDescend){
+        else if (sortValue === sortByFeeDescend) {
             console.log('sort by fee; descending')
-            newDataList.sort( function(a,b){
+            newDataList.sort(function (a, b) {
                 // 価格帯で降順ソート
-                if(+a.Price>+b.Price) return -1;
-                if(+a.Price<+b.Price) return 1;
+                if (+a.Price > +b.Price) return -1;
+                if (+a.Price < +b.Price) return 1;
                 return 0
             });
         }
@@ -189,16 +200,29 @@ function KeepList(props) {
         }
     }
 
-    const KeepListTiles = () =>{
-        return( 
+    const KeepListTiles = () => {
+        return (
             dataList.map((data) => (
-                <KeepListTile data={data} mode={props.mode} />
+                <KeepListTile data={data} mode={props.mode} userId={props.userId}
+                    setListNum={props.setListNum} getList={getList} />
             ))
         );
     }
 
-    const getNumberOfParticipants = () =>{
-        return dataList[0].NumberOfParticipants
+    const SkeltonTiles = () => {
+        return (
+            <div>
+                <KeepListSkeleton />
+                <KeepListSkeleton />
+                <KeepListSkeleton />
+            </div>
+
+        )
+    }
+
+    const getNumberOfParticipants = () => {
+        if (isLoading) return
+        return dataList.NumberOfParticipants;
     }
 
     return (
@@ -212,7 +236,7 @@ function KeepList(props) {
                             id: 'outlined-age-native-simple',
                         }}
                         className={classes.select}
-                        onChange={(event)=>{selectControl(event)}}
+                        onChange={(event) => { selectControl(event) }}
                         id="selectRef"
                         ref={selectRef}
                     >

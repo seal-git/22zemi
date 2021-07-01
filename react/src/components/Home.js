@@ -83,6 +83,7 @@ function Home(props) {
                             mode={props.mode}
                             setMode={props.setMode}
                             turnMode={turnMode}
+                            setListNum={setListNum}
                         />
                             : <Setting
                                 mode={props.mode}
