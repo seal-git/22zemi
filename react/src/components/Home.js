@@ -29,7 +29,7 @@ function Home(props) {
     const [groupId, setGroupId] = useState(produceId())
     const [paramsForSearch, setParamsForSearch] = useState(
         {"place":"新宿",
-        "genre":"居酒屋",
+        "genre":"",
         "open_hour_str":getCurrentTime()}
     )
 
