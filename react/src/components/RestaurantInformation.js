@@ -39,7 +39,8 @@ const useStyles = makeStyles((theme) => ({
   textSecondary: {
     fontSize: '1rem',
     color: '#777777',
-    display: 'flex'
+    display: 'flex',
+    whiteSpace: 'pre-line'
   },
   textStars: {
     color: '#fbc02d',
