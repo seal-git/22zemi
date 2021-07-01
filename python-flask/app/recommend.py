@@ -163,8 +163,6 @@ def recommend_genre(current_group, group_id, user_id):
                     group_result[r_id]['info']['distance_float'], group_result[r_id]['info']['Genre'][0]['Name'], \
                         group_result[r_id]['info']['Genre'][0]['Code'] ] )
 
-                print(through_list)
-
         #平均価格, 平均距離
         keep_price = 0
         keep_distance = 0
