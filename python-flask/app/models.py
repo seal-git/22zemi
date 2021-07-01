@@ -119,7 +119,7 @@ def set_filter_params(group_id, place, genre, query, open_day, open_hour, maxpri
         elif query is None:
             current_group[group_id]['FilterParams']['query'] = genre
         else:
-            current_group[group_id]['FilterParams']['query'] = query + ' ' + query
+            current_group[group_id]['FilterParams']['query'] = genre + ' ' + query
     if open_hour is not None:
         if open_day is not None:
             current_group[group_id]['FilterParams']['open'] = open_day + ',' + open_hour
