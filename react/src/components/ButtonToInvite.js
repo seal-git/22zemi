@@ -52,10 +52,12 @@ function ButtonToInvite(props) {
                     onClose={handleClose}
                     aria-labelledby="form-dialog-title">
                 <DialogTitle id="form-dialog-title">
-                    招待URL
                 </DialogTitle>
                 <DialogContent>
-                    {props.url}
+                    招待したい人に{props.groupId}を伝えて入室してもらおう！
+                </DialogContent>
+                <DialogContent>
+                    ({props.url}は未実装)
                 </DialogContent>
             </Dialog>
         </div>

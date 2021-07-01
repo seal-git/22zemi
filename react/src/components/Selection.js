@@ -176,7 +176,7 @@ function Selection(props) {
         }))
     }
     var display_style;
-    props.mode == "Alone" ? display_style = {display:"none"} : display_style = "null";
+    props.mode == "Alone" ? display_style = {display:"none"} : display_style = null;
 
     return (
         <div className="Selection-wrapper">
@@ -184,9 +184,11 @@ function Selection(props) {
                 mode={props.mode}
                 turnMode={turnMode}/>
             <div className="Selection-header">
-                <div style={display_style}>
+                <div className={"Selection-header-content"}
+                     style={display_style}>
                     <ButtonToInvite
-                        url={"http"}/>
+                        url={"invite_url"}
+                        groupId={props.groupId}/>
                     <div className="group-id">
                         ルームID:{props.groupId}
                     </div>
