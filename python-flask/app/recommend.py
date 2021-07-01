@@ -3,7 +3,7 @@ import json
 import os
 import random
 
-RESULTS_COUNT = 3 # 一回に返す店舗の数
+RESULTS_COUNT = 15 # 一回に返す店舗の数
 
 #カテゴリの類似度が高い物
 with open("./data/category_high_sim.json","rb") as f:
@@ -35,7 +35,7 @@ def recommend_simple(current_group, group_id, user_id, recommend_method):
         # 中心地から1km以内のグルメを検索
         'lat': coordinates[0], # 緯度
         'lon': coordinates[1], # 経度
-        'dist': 3, # 中心地点からの距離 # 最大20km
+        'dist': 10, # 中心地点からの距離 # 最大20km
         'gc': '01', # グルメ
         # 'gc': code, #ランダムなジャンル
         'image': True, # 画像がある店
