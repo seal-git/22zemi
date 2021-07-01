@@ -3,9 +3,12 @@
 }
 .Selection-wrapper{
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .Selection{
-    height: 100%;
+    flex: 1;
+    height: calc(100% - 30);
     position: relative;
 }
 .card-container{

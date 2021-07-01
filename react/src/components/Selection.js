@@ -6,7 +6,13 @@ import ButtonToChangeMode from "./ButtonToChangeMode";
 import axios from "axios";
 import "./Selection.css"
 import TinderCard from 'react-tinder-card'
-
+import {Box} from "@material-ui/core";
+import FormControl from "@material-ui/core/FormControl";
+import Select from "@material-ui/core/Select";
+import Typography from "@material-ui/core/Typography";
+import {Backspace} from "@material-ui/icons";
+import {withStyles} from "@material-ui/core/styles";
+import Button from "@material-ui/core/Button";
 
 // スワイプでお店を選ぶ画面
 
@@ -164,9 +170,25 @@ function Selection(props) {
         }))
     }
 
+    const ButtonToInvite = withStyles((theme) => ({
+        root: {
+            height: '30px',
+            background: 'linear-gradient(116.73deg,' +
+                ' #FFCD4E 27.25%,' +
+                ' #FFB74A' +
+                ' 71.71%)',
+            border: '0px',
+            fontSize: '0.8rem',
+        }
+    }))(Button);
+
     return (
         <div className="Selection-wrapper">
-
+            <div className="Selection-header">
+                <ButtonToInvite>
+                    aaa
+                </ButtonToInvite>
+            </div>
             <div className="Selection">
                 <ButtonToChangeMode
                     mode={props.mode}

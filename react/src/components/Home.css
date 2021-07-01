@@ -29,7 +29,7 @@ body {
 
 .Content {
     flex: 1;
-    height: calc(100%- 17 );
+    height: calc(100%- 17 - 30); /*これがないとflex:1が効かなくなるというバグがある*/
 }
 
 /* Chrome, Safari 対応 */

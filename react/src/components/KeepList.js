@@ -44,7 +44,6 @@ const useStyles = makeStyles((theme) => ({
         minWidth: 120,
     },
     select: {
-        height: '30px',
         color: 'black',
         background:
             'linear-gradient(116.73deg, #FFCD4E 27.25%, #FFB74A 71.71%)',
