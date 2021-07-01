@@ -28,11 +28,9 @@ function Home(props) {
     const [userId, setUserId] = useState(produceId())
     const [groupId, setGroupId] = useState(produceId())
     const [paramsForSearch, setParamsForSearch] = useState(
-        {
-            "place": "新宿",
-            "genre": "居酒屋",
-            "open_hour_str": getCurrentTime()
-        }
+        {"place":"新宿",
+        "genre":"",
+        "open_hour_str":getCurrentTime()}
     )
     const [listNum, setListNum] = useState(0);
 

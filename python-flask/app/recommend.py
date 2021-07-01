@@ -16,12 +16,25 @@ with open("./data/category_low_sim.json","rb") as f:
 with open("./data/category_code.json","rb") as f:
     category_code = json.load(f)
 
-def save_result(current_group, group_id, user_id, result_json):
+def save_result(current_group, group_id, user_id, result_json, params = {}):
     for i in range(len(result_json)):
         if result_json[i]["Restaurant_id"] not in current_group[group_id]['Restaurants']:
              current_group[group_id]["Restaurants"][result_json[i]["Restaurant_id"]] = {"info":result_json[i]}
              current_group[group_id]['Restaurants'][result_json[i]["Restaurant_id"]]['Like'] = set()
              current_group[group_id]['Restaurants'][result_json[i]["Restaurant_id"]]['All'] = set()
+
+    if "dist" in params.keys():
+        dist = params["dist"]
+        current_group[group_id]["GroupDistance"] = dist
+    else:
+        current_group[group_id]["GroupDistance"] = None
+    if "price" in params.keys():
+        price = params["price"]
+        current_group[group_id]["GroupPrice"] = price
+    else:
+        current_group[group_id]["GroupPrice"] = None
+
+
 
 def recommend_simple(current_group, group_id, user_id, recommend_method, params={}):
     '''
@@ -34,7 +47,7 @@ def recommend_simple(current_group, group_id, user_id, recommend_method, params=
     if "dist" in params.keys():
         dist = params["dist"]
     else:
-        dist = 10
+        dist = MAX_DISTANCE
     if "price" in params.keys():
         price = params["price"]
     else:
@@ -59,6 +72,10 @@ def recommend_simple(current_group, group_id, user_id, recommend_method, params=
     
     # Yahoo local search APIで店舗情報を取得
     local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(current_group[group_id], local_search_params)
+
+    if not price is None:
+         result_json = get_result_json_price_filter(price, result_json)
+
     save_result(current_group, group_id, user_id, result_json)
     print("recommend_simple")
     print(f"data_num {len(result_json)}")
@@ -149,6 +166,7 @@ def recommend_template(current_group, group_id, user_id):
 def recommend_genre(current_group, group_id, user_id):
     #データがなければsimple
     if len(current_group[group_id]["Restaurants"].keys()) == 0:
+        print("start")
         result_json = recommend_simple(current_group, group_id, user_id, 'hyblid')
         return result_json
 
@@ -186,10 +204,13 @@ def recommend_genre(current_group, group_id, user_id):
         if like_num != 0:
             meanprice = int(keep_price / like_num)
             meandistance = round( ((keep_distance / like_num) / 1000), 2)
+            params = {"dist":meandistance, "price":meanprice}
             print(f"MaxPrice:{meanprice}")
             print(f"Maxdict:{meandistance}")
         else:
-            result_json = recommend_simple(current_group, group_id, user_id, 'hyblid')
+            print("No Data : like restaurant")
+            params = {}
+            result_json = recommend_simple(current_group, group_id, user_id, 'hyblid', params)
             return result_json
 
         #ジャンル 投票数が多い順にジャンルをみる
@@ -214,7 +235,8 @@ def recommend_genre(current_group, group_id, user_id):
         
         #レコメンドデータがなければ、simpleで検索
         if code is None:
-            result_json = recommend_simple(current_group, group_id, user_id, 'hyblid')
+            print("No recommend genre code ")
+            result_json = recommend_simple(current_group, group_id, user_id, 'hyblid', params)
             return json.dumps(result_json, ensure_ascii=False)
         print(f"HighCountGenre:{high_count_genre}")
         print(f"RecommendGenre:{recommend_genre}")
@@ -232,13 +254,14 @@ def recommend_genre(current_group, group_id, user_id):
         }
         local_search_params.update(current_group[group_id]['FilterParams'])
     local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(current_group[group_id], local_search_params)
-    save_result(current_group, group_id, user_id, result_json)
+    result_json = get_result_json_price_filter(meanprice, result_json)
     if len(result_json) == 0:
-        params = {"dist":meandistance, "price":meanprice}
+        print("No Data: recommend genre restaurant")
         result_json = recommend_simple(current_group, group_id, user_id, 'hyblid', params)
         return result_json
     print("recommend_genre")
     print(f"data_num {len(result_json)}")
+    save_result(current_group, group_id, user_id, result_json, params) #ジャンルレコメンドの結果を保存
     return result_json
 
 def local_search_test(current_group, group_id, user_id):
@@ -345,3 +368,19 @@ def recommend_main(current_group, group_id, user_id, recommend_method):
         result_json = recommend_genre(current_group, group_id, user_id)
 
     return json.dumps(result_json, ensure_ascii=False)
+
+
+def get_result_json_price_filter(meanprice, result_json):
+    new_result_json = []
+    for result in result_json:
+        if not result['LunchPrice'] is None:
+            if int(result['LunchPrice']) > meanprice:
+                continue
+
+        if not result['DinnerPrice'] is None:
+            if int(result['DinnerPrice']) > meanprice:
+                continue
+
+        new_result_json.append(result)
+
+    return new_result_json
