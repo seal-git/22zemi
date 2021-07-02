@@ -217,7 +217,7 @@ def http_invite():
     minprice = data["minprice"] if data.get("minprice", False) else None
     recommend_method = data["recommend_method"] if data.get("recommend_method", False) else None
     
-    group_id = group_id if group_id != None else generate_group_id()
+    group_id = group_id if group_id is not None else generate_group_id()
     
     set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice)
     
