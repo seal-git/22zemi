@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState,useEffect} from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { withStyles } from '@material-ui/core/styles';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
@@ -14,6 +14,7 @@ import { Box, Container } from '@material-ui/core';
 import Image from 'react'
 import Badge from '@material-ui/core/Badge';
 import Credit from './Credit';
+import { numGlobal } from './global';
 
 //App
 const useStyles = makeStyles({
@@ -36,6 +37,7 @@ const StyledBadge = withStyles((theme) => ({
 // ナビゲーション
 export default function AppBottomNavigation(props) {
   const classes = useStyles();
+  const [numOfCardInKeepList, setNumOfCardInKeepList] = useState(0)
   const moveToSetting = () => {
     props.setView('Setting')
   }
@@ -45,6 +47,13 @@ export default function AppBottomNavigation(props) {
   const moveToKeepList = () => {
     props.setView('KeepList')
   }
+  let id,demon;
+  useEffect( ()=>{
+    console.log("called")
+        id = setInterval( ()=>{
+          setNumOfCardInKeepList(numGlobal)
+        } ,1000);
+  },[])
 
   return (
     <div className={classes.AppBottomNavigation} id="AppBottomNavigation">
@@ -77,7 +86,7 @@ export default function AppBottomNavigation(props) {
 
       <button className={"button-list"} onClick={() => { moveToKeepList() }}>
 
-        <StyledBadge badgeContent={4} color="secondary">
+        <StyledBadge badgeContent={numOfCardInKeepList} color="secondary">
           <img
             src={
               props.view === "KeepList"

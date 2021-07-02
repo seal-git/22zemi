@@ -15,6 +15,7 @@ import Typography from "@material-ui/core/Typography";
 import {Backspace} from "@material-ui/icons";
 import {withStyles} from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
+import { assignNumGlobal } from './global';
 
 // スワイプでお店を選ぶ画面
 
@@ -93,6 +94,7 @@ function Selection(props) {
         })
             .then(function (response) {
                 console.log(response)
+                assignNumGlobal(response.data)
                 turnCard()
             })
             .catch((error) => {

@@ -18,6 +18,7 @@ import {makeStyles} from "@material-ui/core";
 import Logo from "./Reskima_Logo.png"
 import SearchButtonOne from "./search_button_one.png"
 import SearchButtonAll from "./search_button_all.png"
+import {assignNumGlobal} from './global'
 
 
 // 設定画面
@@ -42,6 +43,9 @@ function Setting(props) {
 
         // 新規セッションを作成
         props.createNewSession(groupId)
+
+        // カード枚数表示を0にする
+        assignNumGlobal(0)
 
         // Selection に移る
         props.setView("Selection")
