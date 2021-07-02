@@ -297,9 +297,15 @@ def http_popular_list():
     group_id = data["group_id"] if data.get("group_id", False) else None
     group_id = group_id if group_id != None else get_group_id(user_id)
     
+    #投票したお店がなければデータがないjsonを返しておく
     if sum([len(r['All']) for rid,r in current_group[group_id]['Restaurants'].items()]) == 0:
-    # if len(current_group[group_id]['Restaurants']) == 0:
-        return '[]'
+        not_like_json = {'Restaurant_id': 'None', 'Name': 'Likeしたお店がありません', 'Address': 'None', \
+            'distance_float': None, 'Distance': 'None', 'CatchCopy': None, 'Price': None, 'LunchPrice': None, \
+                'DinnerPrice': None, 'TopRankItem': [], 'CassetteOwnerLogoImage': None, 'Category': None, 'UrlYahooLoco': None, \
+                     'UrlYahooMap': None, 'ReviewRating': '', 'VotesLike': 0, 'VotesAll': 0, 'BusinessHour': None, 'Genre': None}
+        #return "[]"
+        #return "['Likeしたお店がありません']"
+        return json.dumps(not_like_json, ensure_ascii=False)
 
     popular_max = max([r['Like'] for r in current_group[group_id]['Restaurants'].values()])
     restaurant_ids = [rid for rid,r in current_group[group_id]['Restaurants'].items() if r['Like'] == popular_max]
