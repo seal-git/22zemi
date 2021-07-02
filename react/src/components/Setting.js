@@ -45,7 +45,7 @@ function Setting(props) {
         }
         props.setGroupId(newGroupId)
         // 招待URLを更新
-        props.setInviteUrl(props.callInviteUrl(newGroupId))
+        props.callInviteUrl(newGroupId)
 
         // モード設定
         props.setMode(newMode)
