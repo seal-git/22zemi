@@ -8,7 +8,7 @@ import Setting from "./Setting"
 import "./Home.css"
 import Credit from "./Credit";
 import axios from "axios";
-import { useHistory, useParams } from 'react-router-dom'
+import { useHistory, useLocation } from 'react-router-dom'
 
 const produceId = () => {
     return Math.random().toString(32).substring(2)
@@ -22,24 +22,6 @@ const getCurrentTime = () => {
   return time
 }
 
-// 招待URLを取得
-const callInviteUrl = (groupId) => {
-    const inviteUrl = "http: "+groupId;
-    const params = {groupId: groupId, }
-    //postになったら実装
-    // axios.post('/api/invite', {
-    //     params: params
-    // })
-    //     .then(function (response) {
-    //         console.log(response)
-    //     })
-    //     .catch((error) => {
-    //         console.log("error:", error);
-    //     });
-
-    console.log("inviteUrl called: "+inviteUrl);
-    return inviteUrl;
-}
 
 // ベースコンポーネントとして使う
 function Home(props) {
@@ -49,7 +31,9 @@ function Home(props) {
     const [userId, setUserId] = useState(produceId())
 
     // 招待URLの処理
-    const { invitedGroupId } = useParams()
+    const location = useLocation()
+    console.log(location)
+    let invitedGroupId = location.search.slice(10)
     let initGroupId = produceId()
     const history = useHistory()
     if(invitedGroupId!==undefined && invitedGroupId!==null && invitedGroupId.length>0){
@@ -65,7 +49,7 @@ function Home(props) {
         "open_hour_str":getCurrentTime()}
     )        
     //グループID作成時に招待urをセットする
-    const [inviteUrl, setInviteUrl] = useState(callInviteUrl(groupId))
+    const [inviteUrl, setInviteUrl] = useState("")
 
     // const createNewSession = (groupId) => {
     //     // userID はモードが変わるごとに作り直す？
@@ -91,6 +75,25 @@ function Home(props) {
             return;
         }
     };
+    // 招待URLを取得
+    const callInviteUrl = (groupId) => {
+        const params = {group_id: groupId, }
+        console.log('params',params)
+        //postになったら実装
+        axios.post('/api/invite', {
+            params: params
+        })
+            .then((response) => {
+                console.log(response)
+                const newInviteUrl = response.data.Url
+                setInviteUrl(newInviteUrl)
+                console.log('new_inviteUrl',newInviteUrl)
+                console.log('set_inviteUrl',inviteUrl)
+            })
+            .catch((error) => {
+                console.log("error:", error);
+            });
+    }
 
     return (
         <div className="Home">
@@ -106,9 +109,9 @@ function Home(props) {
                             setGroupId={setGroupId}
                             produceId={produceId}
                             inviteUrl={inviteUrl}
-                            setInviteUrl={setInviteUrl}
                             callInviteUrl={callInviteUrl}
                             paramsForSearch={paramsForSearch}
+                            inviteUrl={props.inviteUrl}
                         />
                         : view === "KeepList" ? 
                         <KeepList
@@ -124,7 +127,6 @@ function Home(props) {
                             setUserId={setUserId}
                             setGroupId={setGroupId}
                             produceId={produceId}
-                            setInviteUrl={setInviteUrl}
                             callInviteUrl={callInviteUrl}
                             paramsForSearch={paramsForSearch}
                             setParamsForSearch={setParamsForSearch}

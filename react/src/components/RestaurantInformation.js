@@ -96,7 +96,7 @@ function RestaurantInformation(props) {
   };
 
   useEffect(() => {
-    console.log(gl.current);
+    // console.log(gl.current);
   }, []);
 
   return (

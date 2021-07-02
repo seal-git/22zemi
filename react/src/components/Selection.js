@@ -203,8 +203,6 @@ function Selection(props) {
         setUserId={props.setUserId}
         setGroupId={props.setGroupId}
         produceId={props.produceId}
-        setInviteUrl={props.setInviteUrl}
-        callInviteUrl={props.callInviteUrl}
         getInfo={getInfo}
       />
       <div className="Selection-header">
@@ -212,7 +210,9 @@ function Selection(props) {
           style={display_style}>
           <ButtonToInvite
             url={props.inviteUrl}
-            groupId={props.groupId} />
+            groupId={props.groupId} 
+            callInviteUrl={props.callInviteUrl}
+            />
           <div className="group-id">
             ルームID:{props.groupId}
           </div>

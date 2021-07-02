@@ -54,7 +54,7 @@ function ButtonToChangeMode(props) {
         console.log("enter group ",newGroupId)
 
         // 招待URLを設定
-        props.setInviteUrl(props.callInviteUrl(newGroupId))
+        // props.callInviteUrl(newGroupId)
          
         // モード切り替え
         props.turnMode()
@@ -71,7 +71,7 @@ function ButtonToChangeMode(props) {
         let [newUserId,newGroupId] = setNewIds()
         console.log("create group ",newGroupId);
         // 招待URLを設定
-        props.setInviteUrl(props.callInviteUrl(newGroupId))
+        // props.callInviteUrl(newGroupId)
         // モード切り替え
         props.turnMode()
         // カード枚数表示を0にする
@@ -87,7 +87,7 @@ function ButtonToChangeMode(props) {
         console.log("leave group to group ",newGroupId);
 
         // 招待URLを設定
-        props.setInviteUrl(props.callInviteUrl(newGroupId))
+        // props.setInviteUrl(props.callInviteUrl(newGroupId))
         // モード切り替え
         props.turnMode()
         // カード枚数表示を0にする
