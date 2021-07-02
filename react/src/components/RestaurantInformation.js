@@ -101,7 +101,7 @@ function RestaurantInformation(props) {
     };
 
     useEffect(() => {
-        console.log(gl.current);
+        // console.log(gl.current);
     }, []);
 
     const ScrollButton = withStyles({
