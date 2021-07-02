@@ -26,13 +26,13 @@ def save_result(current_group, group_id, user_id, result_json, params = {}):
     if "dist" in params.keys():
         dist = params["dist"]
         current_group[group_id]["GroupDistance"] = dist
-    else:
-        current_group[group_id]["GroupDistance"] = None
+    # else:
+    #     current_group[group_id]["GroupDistance"] = None
     if "price" in params.keys():
         price = params["price"]
         current_group[group_id]["GroupPrice"] = price
-    else:
-        current_group[group_id]["GroupPrice"] = None
+    # else:
+    #     current_group[group_id]["GroupPrice"] = None
 
 
 def delete_duplicate_result(current_group, group_id, user_id, result_json):
@@ -220,14 +220,17 @@ def recommend_genre(current_group, group_id, user_id):
             keep_distance += keep[0] * keep[2]
         if like_num != 0:
             meanprice = int(keep_price / like_num)
+            if meanprice == 0:
+                meanprice = None
             meandistance = round( ((keep_distance / like_num) / 1000), 2)
+            if meandistance == 0:
+                meandistance = None
             params = {"dist":meandistance, "price":meanprice}
             print(f"MaxPrice:{meanprice}")
             print(f"Maxdict:{meandistance}")
         else:
             print("No Data : like restaurant")
-            params = {}
-            result_json = recommend_simple(current_group, group_id, user_id, simple_method, params)
+            result_json = recommend_simple(current_group, group_id, user_id, simple_method)
             return result_json
 
         #ジャンル keep数 or through数が多い順にジャンルをみる
