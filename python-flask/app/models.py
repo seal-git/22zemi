@@ -203,18 +203,30 @@ def http_init():
 @app_.route('/invite', methods=['GET'])
 # 検索条件を指定して、招待URLを返す
 def http_invite():
-    URL = 'https://reskima.com' # TODO: ドメインを取得したら書き換える。
-
-    group_id = request.args.get('group_id')
+    URL = 'https://reskima.com'
+    data = request.get_json()["params"]
+    user_id = data["user_id"] if data.get("user_id", False) else None
+    group_id = data["group_id"] if data.get("group_id", False) else None
     # coordinates = data["coordinates"] if data.get("coordinates", False) else None # TODO: デモ以降に実装
-    place = request.args.get('place')
-    genre = request.args.get("genre")
-    query = request.args.get('query')
-    open_day = request.args.get('open_day')
-    open_hour = request.args.get('open_hour')
-    maxprice = request.args.get('maxprice')
-    minprice = request.args.get('minprice')
-    recommend_method = request.args.get('recommend_method')
+    place = data["place"] if data.get("place", False) else None
+    genre = data["genre"] if data.get("genre", False) else None
+    query = data["query"] if data.get("query", False) else None
+    open_day = data["open_day"] if data.get("open_day", False) else None
+    open_hour = data["open_hour"] if data.get("open_hour", False) else None
+    maxprice = data["maxprice"] if data.get("maxprice", False) else None
+    minprice = data["minprice"] if data.get("minprice", False) else None
+    recommend_method = data["recommend_method"] if data.get("recommend_method", False) else None
+
+    # group_id = request.args.get('group_id')
+    # coordinates = data["coordinates"] if data.get("coordinates", False) else None # TODO: デモ以降に実装
+    # place = request.args.get('place')
+    # genre = request.args.get("genre")
+    # query = request.args.get('query')
+    # open_day = request.args.get('open_day')
+    # open_hour = request.args.get('open_hour')
+    # maxprice = request.args.get('maxprice')
+    # minprice = request.args.get('minprice')
+    # recommend_method = request.args.get('recommend_method')
     
     group_id = group_id if group_id != None else generate_group_id()
     
