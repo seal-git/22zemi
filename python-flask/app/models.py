@@ -216,17 +216,6 @@ def http_invite():
     maxprice = data["maxprice"] if data.get("maxprice", False) else None
     minprice = data["minprice"] if data.get("minprice", False) else None
     recommend_method = data["recommend_method"] if data.get("recommend_method", False) else None
-
-    # group_id = request.args.get('group_id')
-    # coordinates = data["coordinates"] if data.get("coordinates", False) else None # TODO: デモ以降に実装
-    # place = request.args.get('place')
-    # genre = request.args.get("genre")
-    # query = request.args.get('query')
-    # open_day = request.args.get('open_day')
-    # open_hour = request.args.get('open_hour')
-    # maxprice = request.args.get('maxprice')
-    # minprice = request.args.get('minprice')
-    # recommend_method = request.args.get('recommend_method')
     
     group_id = group_id if group_id != None else generate_group_id()
     
