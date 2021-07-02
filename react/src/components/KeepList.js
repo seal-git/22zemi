@@ -98,19 +98,24 @@ function KeepList(props) {
             .then(function (response) {
                 console.log(response)
                 let dataList = response['data']
-                console.log(dataList[0])
-                dataList.sort(function (a, b) {
-                    // 降順ソート
-                    if (+a.RecommendScore > +b.RecommendScore) return -1;
-                    if (+a.RecommendScore < +b.RecommendScore) return 1;
-                    return 0
-                });
-                dataList.sort(function (a, b) {
-                    // 降順ソート
-                    if (+a.VotesAll > +b.VotesAll) return -1;
-                    if (+a.VotesAll < +b.VotesAll) return 1;
-                    return 0
-                });
+                console.log(dataList.length)
+                if(dataList.length==0){
+
+                }else {
+                    console.log(dataList[0])
+                    dataList.sort(function (a, b) {
+                        // 降順ソート
+                        if (+a.RecommendScore > +b.RecommendScore) return -1;
+                        if (+a.RecommendScore < +b.RecommendScore) return 1;
+                        return 0
+                    });
+                    dataList.sort(function (a, b) {
+                        // 降順ソート
+                        if (+a.VotesAll > +b.VotesAll) return -1;
+                        if (+a.VotesAll < +b.VotesAll) return 1;
+                        return 0
+                    });
+                }
                 setDataList(dataList)
             })
             .catch((error) => {
@@ -240,7 +245,11 @@ function KeepList(props) {
                         </Typography>
                     </Box>
                     <Box>
-                        <KeepListTiles/>
+                        {dataList.length>0 ?
+                            <KeepListTiles/> :
+                            <Typography>
+                                キープされたお店はありません
+                            </Typography>}
                     </Box>
                     {/* <Box style={{ height: '48px' }}></Box> */}
                 </div>

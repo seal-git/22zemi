@@ -7,6 +7,7 @@ import Selection from "./Selection"
 import Setting from "./Setting"
 import "./Home.css"
 import Credit from "./Credit";
+import axios from "axios";
 
 const produceId = () => {
     return Math.random().toString(32).substring(2)
@@ -21,8 +22,21 @@ const getCurrentTime = () => {
 }
 
 // 招待URLを取得
-const getInviteUrl = () => {
-    const inviteUrl = "aaa";
+const callInviteUrl = (groupId) => {
+    const inviteUrl = "http: "+groupId;
+    const params = {groupId: groupId, }
+    //postになったら実装
+    // axios.post('/api/invite', {
+    //     params: params
+    // })
+    //     .then(function (response) {
+    //         console.log(response)
+    //     })
+    //     .catch((error) => {
+    //         console.log("error:", error);
+    //     });
+
+    console.log("inviteUrl called: "+inviteUrl);
     return inviteUrl;
 }
 
@@ -39,7 +53,7 @@ function Home(props) {
         "open_hour_str":getCurrentTime()}
     )
     //グループID作成時に招待urをセットする
-    const [inviteUrl, setInviteUrl] = useState(getInviteUrl())
+    const [inviteUrl, setInviteUrl] = useState(callInviteUrl(groupId))
 
     const createNewSession = (groupId) => {
         // userID はモードが変わるごとに作り直す？
@@ -51,7 +65,7 @@ function Home(props) {
             groupId = produceId();
         }
         setGroupId(groupId)
-        setInviteUrl(groupId);
+        setInviteUrl(callInviteUrl(groupId));
     }
 
     const turnMode = (groupId) => {
@@ -75,6 +89,7 @@ function Home(props) {
                         <Selection
                             userId={userId}
                             groupId={groupId}
+                            inviteUrl={inviteUrl}
                             mode={props.mode}
                             setMode={props.setMode}
                             turnMode={turnMode}

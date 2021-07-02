@@ -19,8 +19,14 @@ import Credit from "./Credit";
 
 // スワイプでお店を選ぶ画面
 
-const initDataList = [{"Name": "Loading...", "Images": [noImageIcon, noImageIcon]}];
-const emptyDataList = [{"Name": "No Data: 検索条件を変えてみてください", "Images": [noImageIcon, noImageIcon]}];
+const initDataList = [{
+    "Name": "Loading...",
+    "Images": [noImageIcon, noImageIcon]
+}];
+const emptyDataList = [{
+    "Name": "No Data: 検索条件を変えてみてください",
+    "Images": [noImageIcon, noImageIcon]
+}];
 
 var wrapperStyle = {
     margin: 0,
@@ -178,7 +184,7 @@ function Selection(props) {
         }))
     }
     var display_style;
-    props.mode == "Alone" ? display_style = {display:"none"} : display_style = null;
+    props.mode == "Alone" ? display_style = {display: "none"} : display_style = null;
 
     return (
         <div className="Selection-wrapper">
@@ -189,7 +195,7 @@ function Selection(props) {
                 <div className={"Selection-header-content"}
                      style={display_style}>
                     <ButtonToInvite
-                        url={"invite_url"}
+                        url={props.inviteUrl}
                         groupId={props.groupId}/>
                     <div className="group-id">
                         ルームID:{props.groupId}
@@ -203,7 +209,7 @@ function Selection(props) {
                 </div>
                 {/* <Buttons reject={reject} keep={keep} /> */}{/*ボタンを取り付けようとすると工数が激増する。一旦保留*/}
             </div>
-            <Credit />
+            <Credit/>
         </div>
 
     );
