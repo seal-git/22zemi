@@ -80,6 +80,10 @@ def get_restaurant_info_from_local_search_params(group, local_search_params):
             image_n = [feature['Property']['Detail']['Image'+str(j)] for j in range(2,MAX_LIST_COUNT) if 'Image'+str(j) in feature['Property']['Detail']] # Image1, Image2 ... のキーをリストに。
             persistency_image_n = [feature['Property']['Detail']['PersistencyImage'+str(j)] for j in range(MAX_LIST_COUNT) if 'PersistencyImage'+str(j) in feature['Property']['Detail']] # PersistencyImage1, PersistencyImage2 ... のキーをリストに。
             result_json[i]['Images'] = list(dict.fromkeys(lead_image + image_n + persistency_image_n))
+            if len(result_json[i]["Images"]) == 0:
+                #no_image_url = "https://drive.google.com/file/d/1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn/view?usp=sharing"
+                no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
+                result_json[i]["Images"] = [no_image_url, no_image_url]
         except:
             continue
     #各お店のオススメ度を追加(相対評価)
