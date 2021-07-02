@@ -109,11 +109,10 @@ function KeepList(props) {
             .then(function (response) {
                 console.log(response)
                 let dataList = response['data']
-                console.log(dataList.length)
-                if (dataList.length == 0) {
-
-                } else {
-                    console.log(dataList[0])
+                if(dataList == 0){
+                    console.log("no data");
+                    dataList = [];
+                }else {
                     dataList.sort(function (a, b) {
                         // 降順ソート
                         if (+a.RecommendScore > +b.RecommendScore) return -1;
@@ -127,6 +126,7 @@ function KeepList(props) {
                         return 0
                     });
                 }
+                console.log("keeplist length:"+dataList.length);
                 setDataList(dataList)
             })
             .catch((error) => {
@@ -155,50 +155,52 @@ function KeepList(props) {
     const selectControl = (event) => {
         // ソート用にリストを複製
         let newDataList = [...dataList]
+        if (newDataList.length>0) {
 
-        // ソートの条件を取得
-        // 注：文字列型として扱われるのを回避するため + で数値に変換
-        let sortValue = +event.target.value
-        // 条件に合わせてソートを実行
+            // ソートの条件を取得
+            // 注：文字列型として扱われるのを回避するため + で数値に変換
+            let sortValue = +event.target.value
+            // 条件に合わせてソートを実行
 
-        if (sortValue === sortByRecommendScore) {
-            console.log('sort by recommend score')
-            newDataList.sort(function (a, b) {
-                // おすすめ度で降順ソート
-                if (+a.RecommendScore > +b.RecommendScore) return -1;
-                if (+a.RecommendScore < +b.RecommendScore) return 1;
-                return 0
-            });
-            newDataList.sort(function (a, b) {
-                // 投票数で降順ソート
-                if (+a.VotesAll > +b.VotesAll) return -1;
-                if (+a.VotesAll < +b.VotesAll) return 1;
-                return 0
-            });
-        } else if (sortValue === sortByDistance) {
-            console.log('sort by distance')
-            newDataList.sort(function (a, b) {
-                // 距離で昇順ソート
-                if (+a.distance_float > +b.distance_float) return 1;
-                if (+a.distance_float < +b.distance_float) return -1;
-                return 0
-            });
-        } else if (sortValue === sortByFeeAscend) {
-            console.log('sort by fee; ascending')
-            newDataList.sort(function (a, b) {
-                // 価格帯で昇順ソート
-                if (+a.Price > +b.Price) return 1;
-                if (+a.Price < +b.Price) return -1;
-                return 0
-            });
-        } else if (sortValue === sortByFeeDescend) {
-            console.log('sort by fee; descending')
-            newDataList.sort(function (a, b) {
-                // 価格帯で降順ソート
-                if (+a.Price > +b.Price) return -1;
-                if (+a.Price < +b.Price) return 1;
-                return 0
-            });
+            if (sortValue === sortByRecommendScore) {
+                console.log('sort by recommend score')
+                newDataList.sort(function (a, b) {
+                    // おすすめ度で降順ソート
+                    if (+a.RecommendScore > +b.RecommendScore) return -1;
+                    if (+a.RecommendScore < +b.RecommendScore) return 1;
+                    return 0
+                });
+                newDataList.sort(function (a, b) {
+                    // 投票数で降順ソート
+                    if (+a.VotesAll > +b.VotesAll) return -1;
+                    if (+a.VotesAll < +b.VotesAll) return 1;
+                    return 0
+                });
+            } else if (sortValue === sortByDistance) {
+                console.log('sort by distance')
+                newDataList.sort(function (a, b) {
+                    // 距離で昇順ソート
+                    if (+a.distance_float > +b.distance_float) return 1;
+                    if (+a.distance_float < +b.distance_float) return -1;
+                    return 0
+                });
+            } else if (sortValue === sortByFeeAscend) {
+                console.log('sort by fee; ascending')
+                newDataList.sort(function (a, b) {
+                    // 価格帯で昇順ソート
+                    if (+a.Price > +b.Price) return 1;
+                    if (+a.Price < +b.Price) return -1;
+                    return 0
+                });
+            } else if (sortValue === sortByFeeDescend) {
+                console.log('sort by fee; descending')
+                newDataList.sort(function (a, b) {
+                    // 価格帯で降順ソート
+                    if (+a.Price > +b.Price) return -1;
+                    if (+a.Price < +b.Price) return 1;
+                    return 0
+                });
+            }
         }
         // ソート結果を反映
         console.log(newDataList)
@@ -220,7 +222,11 @@ function KeepList(props) {
     }
 
     const getNumberOfParticipants = () => {
-        return dataList[0].NumberOfParticipants
+        if(dataList.length > 0) {
+            return dataList[0].NumberOfParticipants;
+        }else{
+            return 0;
+        }
     }
 
     return (
