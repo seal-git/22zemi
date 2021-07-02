@@ -188,19 +188,17 @@ def recommend_genre(current_group, group_id, user_id):
         restaurant_ids = list(group_result.keys())
         keep_restaurant_ids = []
         through_restaurant_ids = []
-        keep_list = [] #[[Like数, 価格, 距離, ジャンル名, ジャンルコード ], ...]
-        through_list = [] #[[All数, Like数, 価格, 距離,　ジャンル名, ジャンルコード], ...]
+        keep_list = [] #[[Like数, 価格, 距離, [ジャンル]],...] ジャンル=[{Name:???, Code:???}, {Name:???, Code:???}] 
+        through_list = [] #[[All数, Like数, 価格, 距離,　[ジャンル]],...] 
         for r_id in restaurant_ids:
             if len(group_result[r_id]["Like"]) > 0:
                 keep_restaurant_ids.append(r_id)
                 keep_list.append([ len(group_result[r_id]['Like']), group_result[r_id]['info']['Price'], \
-                    group_result[r_id]['info']['distance_float'], group_result[r_id]['info']['Genre'][0]['Name'], \
-                    group_result[r_id]['info']['Genre'][0]['Code'] ] )
+                    group_result[r_id]['info']['distance_float'], group_result[r_id]['info']['Genre'] ] )
             else:
                 through_restaurant_ids.append(r_id)
                 through_list.append([ len(group_result[r_id]['All']), len(group_result[r_id]['Like']), group_result[r_id]['info']['Price'], \
-                    group_result[r_id]['info']['distance_float'], group_result[r_id]['info']['Genre'][0]['Name'], \
-                        group_result[r_id]['info']['Genre'][0]['Code'] ] )
+                    group_result[r_id]['info']['distance_float'], group_result[r_id]['info']['Genre'] ] )
         
         #keep or throughの結果からジャンルを決定
         if random.random() <= 0.7:
@@ -230,11 +228,19 @@ def recommend_genre(current_group, group_id, user_id):
             result_json = recommend_simple(current_group, group_id, user_id, simple_method, params)
             return result_json
 
-        #ジャンル keep数 or through数が多い順にジャンルをみる
+        #keep or throughのジャンルを格納
         if recommend_type == "keep":
-            genre = [l[3] for l in keep_list]
+            genre = []
+            for k in keep_list:
+                for g in k[3]:
+                    genre.append(g["Name"])
         elif recommend_type == "through":
-            genre = [l[4] for l in through_list]
+            genre = []
+            for th in through_list:
+                for g in th[4]:
+                    genre.append(g["Name"])
+        
+        #ジャンルの頻度をカウント
         genre_count = [] #[[カウント数, ジャンル名], ...]
         counted = []
         for c in genre:
@@ -242,6 +248,8 @@ def recommend_genre(current_group, group_id, user_id):
                 genre_count.append([genre.count(c), c])
                 counted.append(c)
         genre_count.sort(reverse=True)
+        
+        #カウントが多いものからレコメンドするジャンルを決定
         code = None
         for c in genre_count:
             high_count_genre = c[1]
