@@ -52,7 +52,7 @@ export default function AppBottomNavigation(props) {
     console.log("called")
         id = setInterval( ()=>{
           setNumOfCardInKeepList(numGlobal)
-        } ,1000);
+        } ,500);
   },[])
 
   return (
