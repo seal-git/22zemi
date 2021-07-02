@@ -138,7 +138,11 @@ function RestaurantInformation(props) {
             {props.data.Category == ""
               ? "カテゴリなし"
               : props.data.Category}
-            {space}~{props.data.Price}円{space}{props.data.Distance}
+            {space}
+            {props.data.Price == ""
+              ? ""
+              : "~" + props.data.Price + "円"}
+            {space}{props.data.Distance}
           </Typography>
           <Typography className={classes.textSecondary} >
             {props.data.BusinessHour}

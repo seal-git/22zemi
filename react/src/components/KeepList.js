@@ -1,13 +1,13 @@
 import React from 'react';
 import "./Keeplist.css"
 import KeepListTile from "./KeepListTile";
-import {useEffect, useState, useRef} from "react";
+import { useEffect, useState, useRef } from "react";
 import axios from "axios";
 import sampleData from "./sampleData.json";
 import noImageIcon from "./no_image.png";
 
-import {makeStyles} from '@material-ui/core/styles';
-import {Box} from "@material-ui/core";
+import { makeStyles } from '@material-ui/core/styles';
+import { Box } from "@material-ui/core";
 import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormHelperText from '@material-ui/core/FormHelperText';
@@ -62,10 +62,21 @@ const useStyles = makeStyles((theme) => ({
 const initDataList = [{
     "Name": "Loading...",
     "Images": [noImageIcon, noImageIcon],
-    "Distance": "-m",
-    "Price": "-円",
-    "Category": "-",
-    "ReviewRating": "-",
+    "Distance": "",
+    "Price": "",
+    "Category": "",
+    "ReviewRating": "",
+    "VotesLike": 0,
+    "VotesAll": 0,
+    "distance_float": 0.,
+    "RecommendScore": 0,
+}, {
+    "Name": "Loading...",
+    "Images": [noImageIcon, noImageIcon],
+    "Distance": "",
+    "Price": "",
+    "Category": "",
+    "ReviewRating": "",
     "VotesLike": 0,
     "VotesAll": 0,
     "distance_float": 0.,
@@ -87,7 +98,7 @@ function KeepList(props) {
 
     // APIからキープリストのデータを得る
     const getList = () => {
-        const params = {"user_id": props.userId}
+        const params = { "user_id": props.userId }
         if (props.mode === "Group") {
             params["group_id"] = props.groupId
         }
@@ -99,9 +110,9 @@ function KeepList(props) {
                 console.log(response)
                 let dataList = response['data']
                 console.log(dataList.length)
-                if(dataList.length==0){
+                if (dataList.length == 0) {
 
-                }else {
+                } else {
                     console.log(dataList[0])
                     dataList.sort(function (a, b) {
                         // 降順ソート
@@ -203,7 +214,7 @@ function KeepList(props) {
     const KeepListTiles = () => {
         return (
             dataList.map((data) => (
-                <KeepListTile data={data} mode={props.mode}/>
+                <KeepListTile data={data} mode={props.mode} />
             ))
         );
     }
@@ -218,7 +229,7 @@ function KeepList(props) {
                 <div className={className}>
                     <Box className={classes.topWrapper}>
                         <FormControl variant="outlined"
-                                     className={classes.formControl}>
+                            className={classes.formControl}>
                             <Select
                                 native
                                 inputProps={{
@@ -240,13 +251,13 @@ function KeepList(props) {
                             </Select>
                         </FormControl>
                         <Typography className={classes.participantNum}
-                                    style={props.mode == "Alone" ? {display: "none",} : {display: "block",}}>
+                            style={props.mode == "Alone" ? { display: "none", } : { display: "block", }}>
                             投票人数 {getNumberOfParticipants()}人
                         </Typography>
                     </Box>
                     <Box>
-                        {dataList.length>0 ?
-                            <KeepListTiles/> :
+                        {dataList.length > 0 ?
+                            <KeepListTiles /> :
                             <Typography>
                                 キープされたお店はありません
                             </Typography>}
@@ -254,7 +265,7 @@ function KeepList(props) {
                     {/* <Box style={{ height: '48px' }}></Box> */}
                 </div>
             </div>
-            <Credit/>
+            <Credit />
         </div>
     );
 }

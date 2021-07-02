@@ -84,7 +84,6 @@ const useStyles = makeStyles((theme) => ({
 function KeepListTile(props) {
     const classes = useStyles();
     const space = <span className={classes.space}>　</span>;
-    const text = "hello\nhello";
     // const swichStyle = { props.mode == "Alone" ? { display: "none", } : { display: "block", } }
 
     return (
@@ -107,14 +106,21 @@ function KeepListTile(props) {
                         {props.data.ReviewRating}
                     </span>
                     <span className={classes.textRecommend}>
-                        あなたへのおすすめ度{props.data.RecommendScore}%
+                        {props.data.RecommendScore == ""
+                            ? ""
+                            : "おすすめ度" + props.data.RecommendScore + "%"}
+
                     </span>
                 </Typography>
                 <Typography className={classes.textSecondary}>
                     {props.data.Category == ""
-                        ? "カテゴリ未分類"
+                        ? ""
                         : props.data.Category}
-                    {space}~{props.data.Price}円{space}{props.data.Distance}
+                    {space}
+                    {props.data.Price == ""
+                        ? ""
+                        : "~" + props.data.Price + "円"}
+                    {space}{props.data.Distance}
                 </Typography>
                 <Typography className={classes.textSecondary} >
                     {props.data.BusinessHour}
@@ -122,9 +128,9 @@ function KeepListTile(props) {
             </CardContent>
             <Box className={classes.cardContentSub}>
                 <CardActions className={classes.cardActions}>
-                    <IconButton>
+                    {/* <IconButton>
                         <CloseIcon />
-                    </IconButton>
+                    </IconButton> */}
                     <IconButton onClick={(e) => {
                         e.preventDefault();
                         window.open(props.data.UrlYahooMap, '_blank');

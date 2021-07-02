@@ -23,7 +23,8 @@ import sampleData from "./sampleData.json";
 
 const initDataList = [{
   "Name": "Loading...",
-  "Images": [noImageIcon, noImageIcon]
+  "Images": [noImageIcon, noImageIcon],
+  "Price": ""
 }];
 const emptyDataList = [{
   "Name": "No Data: 検索条件を変えてみてください",
