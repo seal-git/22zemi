@@ -339,7 +339,7 @@ def http_list():
         return "0"
         # return "['Likeしたお店がありません']"
         # return json.dumps(not_like_json, ensure_ascii=False)
-    print(str(current_group[group_id]['Users']))
+
     if len(current_group[group_id]['Users']) <= 1:
         # ひとりの時はLIKEしたリスト。リジェクトしたら一生お別れ
         # ひとりの時は投票数ゼロの店はリストに入れない
