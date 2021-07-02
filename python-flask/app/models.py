@@ -246,7 +246,7 @@ def http_info():
     minprice = data["minprice"] if data.get("minprice", False) else None
     recommend_method = data["recommend_method"] if data.get("recommend_method", False) else None
 
-    group_id = group_id if group_id != None else get_group_id(user_id)
+    group_id = group_id if group_id is not None else get_group_id(user_id)
 
     # Yahoo本社の住所 # TODO
     address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-"
@@ -276,7 +276,7 @@ def http_feeling():
     restaurant_id = data["restaurant_id"] if data.get("restaurant_id", False) else None
     feeling = data["feeling"] if data.get("feeling", False) else None
 
-    group_id = group_id if group_id != None else get_group_id(user_id)
+    group_id = group_id if group_id is not None else get_group_id(user_id)
     
     # 情報を登録
     current_group[group_id]['Users'][user_id]['Feeling'][restaurant_id] = feeling
