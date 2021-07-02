@@ -178,7 +178,6 @@ def recommend_genre(current_group, group_id, user_id):
     if len(current_group[group_id]["Restaurants"].keys()) == 0:
         print("start")
         result_json = recommend_simple(current_group, group_id, user_id, simple_method)
-        print(result_json[0])
         return result_json
 
     else:
