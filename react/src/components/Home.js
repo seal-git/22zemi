@@ -8,6 +8,7 @@ import Setting from "./Setting"
 import "./Home.css"
 import Credit from "./Credit";
 import axios from "axios";
+import { useHistory, useParams } from 'react-router-dom'
 
 const produceId = () => {
     return Math.random().toString(32).substring(2)
@@ -46,7 +47,18 @@ function Home(props) {
     const [view, setView] = useState("Selection")
     // ユーザID、グループIDを抱える。現状自前で用意しているがAPIに要求できるほうが嬉しい
     const [userId, setUserId] = useState(produceId())
-    const [groupId, setGroupId] = useState(produceId())
+
+    // 招待URLの処理
+    const { invitedGroupId } = useParams()
+    let initGroupId = produceId()
+    const history = useHistory()
+    if(invitedGroupId!==undefined && invitedGroupId!==null && invitedGroupId.length>0){
+        initGroupId = invitedGroupId
+        props.setMode("Group")
+        history.replace('/')
+    }
+    
+    const [groupId, setGroupId] = useState(initGroupId)
     const [paramsForSearch, setParamsForSearch] = useState(
         {"place":"新宿",
         "genre":"",

@@ -54,8 +54,8 @@ function App() {
         <div className="App-header"></div>
         <Router>
           <Switch>
-            <Route path="/" exact><Home mode={mode} setMode={setMode} /></Route>
-            <Route path="/api-test" exact><ApiTest /></Route>
+            <Route path="/:invitedGroupId"><Home mode={mode} setMode={setMode} /></Route>
+            <Route path="/"><Home mode={mode} setMode={setMode} /></Route>
           </Switch>
         </Router>
       </div>
