@@ -17,6 +17,7 @@ import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import { assignNumGlobal } from './global';
 import Credit from "./Credit";
+import sampledata from "./sampleData.json"
 
 // スワイプでお店を選ぶ画面
 
@@ -66,6 +67,7 @@ function Selection(props) {
       .then(function (response) {
         console.log(response)
         let dataList = response['data']
+        // let dataList = sampledata
         cardNum = dataList.length
         if (cardNum > 0) {
           console.log(dataList[0])
