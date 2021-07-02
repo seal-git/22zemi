@@ -14,10 +14,14 @@ import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import {Paper} from "@material-ui/core";
 import {makeStyles} from '@material-ui/core/styles';
+import { assignNumGlobal } from './global';
 
 /*
 「ひとりで」モードから「みんなで」モードに移るボタン
  */
+const produceId = () => {
+    return Math.random().toString(32).substring(2)
+}
 function ButtonToChangeMode(props) {
     const [open, setOpen] = useState(false);
 
@@ -36,18 +40,24 @@ function ButtonToChangeMode(props) {
         handleClose();
         console.log(group_id.current.value)
         props.turnMode(group_id.current.value)
+        // カード枚数表示を0にする
+        assignNumGlobal(0)
     };
 
     const createGroup = () => {
         console.log("create group!");
         handleClose();
         props.turnMode("")
+        // カード枚数表示を0にする
+        assignNumGlobal(0)
     }
 
     const leaveGroup = () => {
         console.log("leave group!");
         handleClose();
         props.turnMode("")
+        // カード枚数表示を0にする
+        assignNumGlobal(0)
     }
 
     const useStyles = makeStyles((theme) => ({

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState } from "react"
+import { useState, useContext } from "react"
 import { makeStyles } from '@material-ui/core/styles';
 import AppBottomNavigation from "./AppBottomNavigation"
 import KeepList from "./KeepList"
@@ -37,7 +37,8 @@ function Home(props) {
         {"place":"新宿",
         "genre":"",
         "open_hour_str":getCurrentTime()}
-    )
+    )        
+    let numOfCardInKeepList = 0
     //グループID作成時に招待urをセットする
     const [inviteUrl, setInviteUrl] = useState(getInviteUrl())
 
