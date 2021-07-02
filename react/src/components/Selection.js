@@ -17,7 +17,6 @@ import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import { assignNumGlobal } from './global';
 import Credit from "./Credit";
-import sampleData from "./sampleData.json";
 
 // スワイプでお店を選ぶ画面
 
@@ -27,8 +26,8 @@ const initDataList = [{
   "Price": ""
 }];
 const emptyDataList = [{
-    "Name": "No Data:\n検索条件を変えてみてください",
-    "Images": [noImageIcon, noImageIcon]
+  "Name": "No Data:\n検索条件を変えてみてください",
+  "Images": [noImageIcon, noImageIcon]
 }];
 
 var wrapperStyle = {
@@ -36,49 +35,29 @@ var wrapperStyle = {
 };
 
 function Selection(props) {
-    const [dataList, setDataList] = useState(initDataList)
-    let cardNum = dataList.length
-    let isLoading = false
+  const [dataList, setDataList] = useState(initDataList)
+  let cardNum = dataList.length
+  let isLoading = false
 
-    // APIからお店のデータを得る
-    const getInfo = (newUserId, newGroupId) => {
-        if (isLoading) return;
-        isLoading = true
+  // APIからお店のデータを得る
+  const getInfo = (newUserId, newGroupId) => {
+    if (isLoading) return;
+    isLoading = true
 
-        // ユーザID を設定
-        let userId = newUserId
-        if(newUserId===undefined || newUserId===null || newUserId.length===0){
-            userId = props.userId
-        }
-        // グループID を設定
-        let groupId = newGroupId
-        if(newGroupId===undefined || newGroupId===null || newGroupId.length===0){
-            groupId = props.groupId
-        }
-        const paramsId = {"user_id": userId, "group_id": groupId};
-        const params = {
-            ...paramsId, ...props.paramsForSearch,
-            'open_hour': +props.paramsForSearch['open_hour_str'].slice(0, 2)
-        }
-        console.log(params);
-        axios.post('/api/info', {
-            params: params
-        })
-            .then(function (response) {
-                console.log(response)
-                let dataList = response['data']
-                cardNum = dataList.length
-                if (cardNum > 0) {
-                    console.log(dataList[0])
-                    setDataList(dataList)
-                } else {
-                    setDataList(emptyDataList)
-                }
-                isLoading = false
-            })
-            .catch((error) => {
-                console.log("error:", error);
-            });
+    // ユーザID を設定
+    let userId = newUserId
+    if (newUserId === undefined || newUserId === null || newUserId.length === 0) {
+      userId = props.userId
+    }
+    // グループID を設定
+    let groupId = newGroupId
+    if (newGroupId === undefined || newGroupId === null || newGroupId.length === 0) {
+      groupId = props.groupId
+    }
+    const paramsId = { "user_id": userId, "group_id": groupId };
+    const params = {
+      ...paramsId, ...props.paramsForSearch,
+      'open_hour': +props.paramsForSearch['open_hour_str'].slice(0, 2)
     }
     console.log(params);
     axios.post('/api/info', {
@@ -86,9 +65,7 @@ function Selection(props) {
     })
       .then(function (response) {
         console.log(response)
-        // let dataList = response['data']
-        // テスト用データ
-        let dataList = sampleData;
+        let dataList = response['data']
         cardNum = dataList.length
         if (cardNum > 0) {
           console.log(dataList[0])
@@ -142,26 +119,26 @@ function Selection(props) {
       });
   }
 
-    // 各ボタンに対応する関数
-    const reject = (restaurant_id) => {
-        console.log("reject")
-        if (isLoading) return;
-        sendFeeling(false, restaurant_id)
-    }
-    const keep = (restaurant_id) => {
-        console.log("keep:", restaurant_id)
-        if (isLoading) return;
-        sendFeeling(true, restaurant_id)
-    }
-    // Home コンポーネント から受け取った turnMode を
-    // ButtonToChangeMode 用に加工
-    const turnMode = () => {
-        // データリストの取得待ちであることを明示する
-        cardNum = 1
-        setDataList(initDataList)
-        // モード切り替え
-        props.turnMode()
-    }
+  // 各ボタンに対応する関数
+  const reject = (restaurant_id) => {
+    console.log("reject")
+    if (isLoading) return;
+    sendFeeling(false, restaurant_id)
+  }
+  const keep = (restaurant_id) => {
+    console.log("keep:", restaurant_id)
+    if (isLoading) return;
+    sendFeeling(true, restaurant_id)
+  }
+  // Home コンポーネント から受け取った turnMode を
+  // ButtonToChangeMode 用に加工
+  const turnMode = () => {
+    // データリストの取得待ちであることを明示する
+    cardNum = 1
+    setDataList(initDataList)
+    // モード切り替え
+    props.turnMode()
+  }
 
   // カードの高さを指定する
   function getAdaptiveStyle() {
@@ -218,37 +195,33 @@ function Selection(props) {
   var display_style;
   props.mode == "Alone" ? display_style = { display: "none" } : display_style = null;
 
-    return (
-        <div className="Selection-wrapper">
-            <ButtonToChangeMode
-                mode={props.mode}
-                turnMode={turnMode}
-                setUserId={props.setUserId}
-                setGroupId={props.setGroupId}
-                produceId={props.produceId}
-                setInviteUrl={props.setInviteUrl}
-                callInviteUrl={props.callInviteUrl}
-                getInfo={getInfo}
-            />
-            <div className="Selection-header">
-                <div className={"Selection-header-content"}
-                     style={display_style}>
-                    <ButtonToInvite
-                        url={props.inviteUrl}
-                        groupId={props.groupId}/>
-                    <div className="group-id">
-                        ルームID:{props.groupId}
-                    </div>
-                </div>
-            </div>
-            <div className="Selection" id={"selection"}>
-                {/* <RestaurantInformation data={dataList[idx]} wrapperStyle={wrapperStyle} /> */}
-                <div className='card-container'>
-                    <CardsContainer dataList={dataList}/>
-                </div>
-                {/* <Buttons reject={reject} keep={keep} /> */}{/*ボタンを取り付けようとすると工数が激増する。一旦保留*/}
-            </div>
-            <Credit/>
+  return (
+    <div className="Selection-wrapper">
+      <ButtonToChangeMode
+        mode={props.mode}
+        turnMode={turnMode}
+        setUserId={props.setUserId}
+        setGroupId={props.setGroupId}
+        produceId={props.produceId}
+        setInviteUrl={props.setInviteUrl}
+        callInviteUrl={props.callInviteUrl}
+        getInfo={getInfo}
+      />
+      <div className="Selection-header">
+        <div className={"Selection-header-content"}
+          style={display_style}>
+          <ButtonToInvite
+            url={props.inviteUrl}
+            groupId={props.groupId} />
+          <div className="group-id">
+            ルームID:{props.groupId}
+          </div>
+        </div>
+      </div>
+      <div className="Selection" id={"selection"}>
+        {/* <RestaurantInformation data={dataList[idx]} wrapperStyle={wrapperStyle} /> */}
+        <div className='card-container'>
+          <CardsContainer dataList={dataList} />
         </div>
         {/* <Buttons reject={reject} keep={keep} /> */}{/*ボタンを取り付けようとすると工数が激増する。一旦保留*/}
       </div>
