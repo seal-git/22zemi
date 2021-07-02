@@ -37,7 +37,8 @@ const useStyles = makeStyles((theme) => ({
   },
   textShopName: {
     fontSize: '1.4rem',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    whiteSpace: 'pre-wrap',
   },
   textSecondary: {
     fontSize: '1rem',
