@@ -7,7 +7,7 @@
     flex-direction: column;
 }
 .Selection-header{
-    min-height: 30px;
+    height: 40px;
 }
 .Selection-header-content{
     display: flex;
