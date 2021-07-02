@@ -27,13 +27,13 @@ def save_result(current_group, group_id, user_id, result_json, params = {}):
     if "dist" in params.keys():
         dist = params["dist"]
         current_group[group_id]["GroupDistance"] = dist
-    else:
-        current_group[group_id]["GroupDistance"] = None
+    # else:
+    #     current_group[group_id]["GroupDistance"] = None
     if "price" in params.keys():
         price = params["price"]
         current_group[group_id]["GroupPrice"] = price
-    else:
-        current_group[group_id]["GroupPrice"] = None
+    # else:
+    #     current_group[group_id]["GroupPrice"] = None
 
 
 def delete_duplicate_result(current_group, group_id, user_id, result_json):
@@ -202,106 +202,117 @@ def recommend_genre(current_group, group_id, user_id):
 
         else:
             LOCAL_SEARCH_RESULTS_COUNT = 10 # 一回に取得する店舗の数 # RESULTS_COUNTの倍数
-            coordinates = current_group[group_id]['Coordinates']
-            request_count = current_group[group_id]['Users'][user_id]['RequestCount']
-            group_result = current_group[group_id]["Restaurants"]
-            restaurant_ids = list(group_result.keys())
-            keep_restaurant_ids = []
-            through_restaurant_ids = []
-            keep_list = [] #[[Like数, 価格, 距離, ジャンル名, ジャンルコード ], ...]
-            through_list = [] #[[All数, Like数, 価格, 距離,　ジャンル名, ジャンルコード], ...]
-            for r_id in restaurant_ids:
-                if len(group_result[r_id]["Like"]) > 0:
-                    keep_restaurant_ids.append(r_id)
-                    keep_list.append([ len(group_result[r_id]['Like']), group_result[r_id]['info']['Price'], \
-                        group_result[r_id]['info']['distance_float'], group_result[r_id]['info']['Genre'][0]['Name'], \
-                        group_result[r_id]['info']['Genre'][0]['Code'] ] )
-                else:
-                    through_restaurant_ids.append(r_id)
-                    through_list.append([ len(group_result[r_id]['All']), len(group_result[r_id]['Like']), group_result[r_id]['info']['Price'], \
-                        group_result[r_id]['info']['distance_float'], group_result[r_id]['info']['Genre'][0]['Name'], \
-                            group_result[r_id]['info']['Genre'][0]['Code'] ] )
-            
-            #keep or throughの結果からジャンルを決定
-            if random.random() <= 0.7:
-                recommend_type = "keep"
+        coordinates = current_group[group_id]['Coordinates']
+        request_count = current_group[group_id]['Users'][user_id]['RequestCount']
+        group_result = current_group[group_id]["Restaurants"]
+        restaurant_ids = list(group_result.keys())
+        keep_restaurant_ids = []
+        through_restaurant_ids = []
+        keep_list = [] #[[Like数, 価格, 距離, [ジャンル]],...] ジャンル=[{Name:???, Code:???}, {Name:???, Code:???}] 
+        through_list = [] #[[All数, Like数, 価格, 距離,　[ジャンル]],...] 
+        for r_id in restaurant_ids:
+            if len(group_result[r_id]["Like"]) > 0:
+                keep_restaurant_ids.append(r_id)
+                keep_list.append([ len(group_result[r_id]['Like']), group_result[r_id]['info']['Price'], \
+                    group_result[r_id]['info']['distance_float'], group_result[r_id]['info']['Genre'] ] )
             else:
-                recommend_type = "through"
-            print(f"RecommendType:{recommend_type}")
-
-            #keepから 平均価格, 平均距離を算出
-            keep_price = 0
-            keep_distance = 0
-            like_num = 0
-            for keep in keep_list:
-                like_num += keep[0]
-                if keep[1] is not None:
-                    keep_price += keep[0] * int(keep[1]) #投票数で重み付け TODO:投票率で重み付？
-                keep_distance += keep[0] * keep[2]
-            if like_num != 0:
-                meanprice = int(keep_price / like_num)
-                meandistance = round( ((keep_distance / like_num) / 1000), 2)
-                params = {"dist":meandistance, "price":meanprice}
-                print(f"MaxPrice:{meanprice}")
-                print(f"Maxdict:{meandistance}")
-            else:
-                print("No Data : like restaurant")
-                params = {}
-                result_json = recommend_simple(current_group, group_id, user_id, simple_method, params)
-                return result_json
-
-            #ジャンル keep数 or through数が多い順にジャンルをみる
-            if recommend_type == "keep":
-                genre = [l[3] for l in keep_list]
-            elif recommend_type == "through":
-                genre = [l[4] for l in through_list]
-            genre_count = [] #[[カウント数, ジャンル名], ...]
-            counted = []
-            for c in genre:
-                if c not in counted:
-                    genre_count.append([genre.count(c), c])
-                    counted.append(c)
-            genre_count.sort(reverse=True)
-            code = None
-            for c in genre_count:
-                high_count_genre = c[1]
-                try:
-                    if recommend_type == "keep":
-                        recommend_genre_list = category_high_sim[high_count_genre]
-                    elif recommend_type == "through":
-                        recommend_genre_list = category_low_sim[high_count_genre]
-                    recommend_genre = random.choice(recommend_genre_list)
-                    code = '0' + category_code[recommend_genre]
-                    break
-                except:
-                    continue
-
-            #レコメンドデータがなければ、simpleで検索
-            if code is None:
-                print("No recommend genre code ")
-                result_json = recommend_simple(current_group, group_id, user_id, simple_method, params)
-                return json.dumps(result_json, ensure_ascii=False)
-
-            print(f"HighCountGenre:{high_count_genre}")
-            print(f"RecommendGenre:{recommend_genre}")
-            local_search_params = {
-                # 中心地から1km以内のグルメを検索
-                'lat': coordinates[0], # 緯度
-                'lon': coordinates[1], # 経度
-                'dist': meandistance, # 中心地点からの距離 # 最大20km
-                'image': 'true', # 画像がある店
-                'open': 'now', # 現在開店している店舗
-                'start': RESULTS_COUNT * request_count, # 表示範囲：開始位置
-                'results': RESULTS_COUNT,
-                'maxprice': meanprice,
-                'gc': code
-            }
-            local_search_params.update(current_group[group_id]['FilterParams'])
+                through_restaurant_ids.append(r_id)
+                through_list.append([ len(group_result[r_id]['All']), len(group_result[r_id]['Like']), group_result[r_id]['info']['Price'], \
+                    group_result[r_id]['info']['distance_float'], group_result[r_id]['info']['Genre'] ] )
         
+        #keep or throughの結果からジャンルを決定
+        if random.random() <= 0.7:
+            recommend_type = "keep"
+        else:
+            recommend_type = "through"
+        print(f"RecommendType:{recommend_type}")
+
+        #keepから 平均価格, 平均距離を算出
+        keep_price = 0
+        keep_distance = 0
+        like_num = 0
+        for keep in keep_list:
+            like_num += keep[0]
+            if keep[1] is not None:
+                keep_price += keep[0] * int(keep[1]) #投票数で重み付け TODO:投票率で重み付？
+            keep_distance += keep[0] * keep[2]
+        if like_num != 0:
+            meanprice = int(keep_price / like_num)
+            if meanprice == 0:
+                meanprice = None
+            meandistance = round( ((keep_distance / like_num) / 1000), 2)
+            if meandistance == 0:
+                meandistance = None
+            params = {"dist":meandistance, "price":meanprice}
+            print(f"MaxPrice:{meanprice}")
+            print(f"Maxdict:{meandistance}")
+        else:
+            print("No Data : like restaurant")
+            result_json = recommend_simple(current_group, group_id, user_id, simple_method)
+            return result_json
+
+        #keep or throughのジャンルを格納
+        if recommend_type == "keep":
+            genre = []
+            for k in keep_list:
+                for g in k[3]:
+                    genre.append(g["Name"])
+        elif recommend_type == "through":
+            genre = []
+            for th in through_list:
+                for g in th[4]:
+                    genre.append(g["Name"])
+        
+        #ジャンルの頻度をカウント
+        genre_count = [] #[[カウント数, ジャンル名], ...]
+        counted = []
+        for c in genre:
+            if c not in counted:
+                genre_count.append([genre.count(c), c])
+                counted.append(c)
+        genre_count.sort(reverse=True)
+        
+        #カウントが多いものからレコメンドするジャンルを決定
+        code = None
+        for c in genre_count:
+            high_count_genre = c[1]
+            try:
+                if recommend_type == "keep":
+                    recommend_genre_list = category_high_sim[high_count_genre]
+                elif recommend_type == "through":
+                    recommend_genre_list = category_low_sim[high_count_genre]
+                recommend_genre = random.choice(recommend_genre_list)
+                code = '0' + category_code[recommend_genre]
+                break
+            except:
+                continue
+
+        #レコメンドデータがなければ、simpleで検索
+        if code is None:
+            print("No recommend genre code ")
+            result_json = recommend_simple(current_group, group_id, user_id, simple_method, params)
+            return json.dumps(result_json, ensure_ascii=False)
+
+        print(f"HighCountGenre:{high_count_genre}")
+        print(f"RecommendGenre:{recommend_genre}")
+        local_search_params = {
+            # 中心地から1km以内のグルメを検索
+            'lat': coordinates[0], # 緯度
+            'lon': coordinates[1], # 経度
+            'dist': meandistance, # 中心地点からの距離 # 最大20km
+            'image': 'true', # 画像がある店
+            'open': 'now', # 現在開店している店舗
+            'start': RESULTS_COUNT * request_count, # 表示範囲：開始位置
+            'results': RESULTS_COUNT,
+            'maxprice': meanprice,
+            'gc': code
+        }
+        local_search_params.update(current_group[group_id]['FilterParams'])
+    
         local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(current_group[group_id], local_search_params)
         result_json = delete_duplicate_result(current_group, group_id, user_id, result_json)
         result_json = get_result_json_price_filter(meanprice, result_json)
-
+        
         if len(result_json) == 0:
             print("No Data: recommend genre restaurant")
             result_json = recommend_simple(current_group, group_id, user_id, simple_method, params)
