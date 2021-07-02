@@ -1,10 +1,11 @@
-body{
+body {
     height: 100vh;
     overflow: hidden;
     /*height: calc(var(--myvh) * 100);*/
     background-color: whitesmoke;
 }
-.Home{
+
+.Home {
     height: 100vh;
     /*height: calc(var(--myvh, 1vh) * 100);*/
     display: flex;
@@ -14,7 +15,8 @@ body{
     position: relative;
     padding: 0;
 }
-.Content-wrapper{
+
+.Content-wrapper {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -24,10 +26,14 @@ body{
     /* Firefox 対応 */
     scrollbar-width: none;
 }
-.Content{
+
+.Content {
     flex: 1;
+    height: calc(100%- 17 - 30); /*これがないとflex:1が効かなくなるというバグがある*/
+    padding-bottom: 5px;
 }
+
 /* Chrome, Safari 対応 */
 .Content-wrapper::-webkit-scrollbar {
-display:none;
+    display: none;
 }
