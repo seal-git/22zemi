@@ -3,8 +3,8 @@ import json
 import os
 import random
 
-RESULTS_COUNT = 15 # 一回に返す店舗の数
-MAX_DISTANCE = 10 # 中心地からの距離
+RESULTS_COUNT = 10 # 一回に返す店舗の数
+MAX_DISTANCE = 20 # 中心地からの距離 上限20
 
 #カテゴリの類似度が高い物
 with open("./data/category_high_sim.json","rb") as f:
@@ -35,6 +35,12 @@ def save_result(current_group, group_id, user_id, result_json, params = {}):
         current_group[group_id]["GroupPrice"] = None
 
 
+def delete_duplicate_result(current_group, group_id, user_id, result_json):
+    result_json_tmp = []
+    for i in range(len(result_json)):
+        if result_json[i]["Restaurant_id"] not in current_group[group_id]["Restaurants"]:
+            result_json_tmp.append(result_json[i])
+    return result_json_tmp
 
 def recommend_simple(current_group, group_id, user_id, recommend_method, params={}):
     '''
@@ -72,12 +78,14 @@ def recommend_simple(current_group, group_id, user_id, recommend_method, params=
     
     # Yahoo local search APIで店舗情報を取得
     local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(current_group[group_id], local_search_params)
+    result_json = delete_duplicate_result(current_group, group_id, user_id, result_json)
 
     if not price is None:
          result_json = get_result_json_price_filter(price, result_json)
 
     save_result(current_group, group_id, user_id, result_json)
     print("recommend_simple")
+    print(f"RecommendMethod:{recommend_method}")
     print(f"data_num {len(result_json)}")
     return result_json
 
@@ -164,10 +172,12 @@ def recommend_template(current_group, group_id, user_id):
     return result_json
 
 def recommend_genre(current_group, group_id, user_id):
+    
+    simple_method = random.choice(['rating', 'score', 'hyblid', 'review', 'kana', 'price', 'dist', 'geo', '-rating', '-score', '-hyblid', '-review', '-kana', '-price', '-dist', '-geo'])
     #データがなければsimple
     if len(current_group[group_id]["Restaurants"].keys()) == 0:
         print("start")
-        result_json = recommend_simple(current_group, group_id, user_id, 'hyblid')
+        result_json = recommend_simple(current_group, group_id, user_id, simple_method)
         return result_json
 
     else:
@@ -179,7 +189,7 @@ def recommend_genre(current_group, group_id, user_id):
         keep_restaurant_ids = []
         through_restaurant_ids = []
         keep_list = [] #[[Like数, 価格, 距離, ジャンル名, ジャンルコード ], ...]
-        through_list = [] #[[All数, 価格, 距離,　ジャンル名, ジャンルコード], ...]
+        through_list = [] #[[All数, Like数, 価格, 距離,　ジャンル名, ジャンルコード], ...]
         for r_id in restaurant_ids:
             if len(group_result[r_id]["Like"]) > 0:
                 keep_restaurant_ids.append(r_id)
@@ -188,11 +198,18 @@ def recommend_genre(current_group, group_id, user_id):
                     group_result[r_id]['info']['Genre'][0]['Code'] ] )
             else:
                 through_restaurant_ids.append(r_id)
-                through_list.append([ len(group_result[r_id]['All']), group_result[r_id]['info']['Price'], \
+                through_list.append([ len(group_result[r_id]['All']), len(group_result[r_id]['Like']), group_result[r_id]['info']['Price'], \
                     group_result[r_id]['info']['distance_float'], group_result[r_id]['info']['Genre'][0]['Name'], \
                         group_result[r_id]['info']['Genre'][0]['Code'] ] )
+        
+        #keep or throughの結果からジャンルを決定
+        if random.random() <= 0.7:
+            recommend_type = "keep"
+        else:
+            recommend_type = "through"
+        print(f"RecommendType:{recommend_type}")
 
-        #平均価格, 平均距離
+        #keepから 平均価格, 平均距離を算出
         keep_price = 0
         keep_distance = 0
         like_num = 0
@@ -210,11 +227,14 @@ def recommend_genre(current_group, group_id, user_id):
         else:
             print("No Data : like restaurant")
             params = {}
-            result_json = recommend_simple(current_group, group_id, user_id, 'hyblid', params)
+            result_json = recommend_simple(current_group, group_id, user_id, simple_method, params)
             return result_json
 
-        #ジャンル 投票数が多い順にジャンルをみる
-        genre = [l[3] for l in keep_list]
+        #ジャンル keep数 or through数が多い順にジャンルをみる
+        if recommend_type == "keep":
+            genre = [l[3] for l in keep_list]
+        elif recommend_type == "through":
+            genre = [l[4] for l in through_list]
         genre_count = [] #[[カウント数, ジャンル名], ...]
         counted = []
         for c in genre:
@@ -226,18 +246,22 @@ def recommend_genre(current_group, group_id, user_id):
         for c in genre_count:
             high_count_genre = c[1]
             try:
-                recommend_genre_list = category_high_sim[high_count_genre]
+                if recommend_type == "keep":
+                    recommend_genre_list = category_high_sim[high_count_genre]
+                elif recommend_type == "through":
+                    recommend_genre_list = category_low_sim[high_count_genre]
                 recommend_genre = random.choice(recommend_genre_list)
                 code = '0' + category_code[recommend_genre]
                 break
             except:
                 continue
-        
+
         #レコメンドデータがなければ、simpleで検索
         if code is None:
             print("No recommend genre code ")
-            result_json = recommend_simple(current_group, group_id, user_id, 'hyblid', params)
+            result_json = recommend_simple(current_group, group_id, user_id, simple_method, params)
             return json.dumps(result_json, ensure_ascii=False)
+
         print(f"HighCountGenre:{high_count_genre}")
         print(f"RecommendGenre:{recommend_genre}")
         local_search_params = {
@@ -253,15 +277,19 @@ def recommend_genre(current_group, group_id, user_id):
             'gc': code
         }
         local_search_params.update(current_group[group_id]['FilterParams'])
+    
     local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(current_group[group_id], local_search_params)
+    result_json = delete_duplicate_result(current_group, group_id, user_id, result_json)
     result_json = get_result_json_price_filter(meanprice, result_json)
+
     if len(result_json) == 0:
         print("No Data: recommend genre restaurant")
-        result_json = recommend_simple(current_group, group_id, user_id, 'hyblid', params)
+        result_json = recommend_simple(current_group, group_id, user_id, simple_method, params)
         return result_json
+    
     print("recommend_genre")
     print(f"data_num {len(result_json)}")
-    save_result(current_group, group_id, user_id, result_json, params) #ジャンルレコメンドの結果を保存
+    save_result(current_group, group_id, user_id, result_json, params) #レコメンドの結果を保存
     return result_json
 
 def local_search_test(current_group, group_id, user_id):

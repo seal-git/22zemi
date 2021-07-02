@@ -296,7 +296,7 @@ def http_popular_list():
     user_id = data["user_id"] if data.get("user_id", False) else None
     group_id = data["group_id"] if data.get("group_id", False) else None
     group_id = group_id if group_id != None else get_group_id(user_id)
-
+    
     if sum([len(r['All']) for rid,r in current_group[group_id]['Restaurants'].items()]) == 0:
     # if len(current_group[group_id]['Restaurants']) == 0:
         return '[]'
