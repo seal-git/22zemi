@@ -157,16 +157,22 @@ function Setting(props) {
                     proceedToSelection("Alone", "")
                 }}>
                     <img
+                        //buttonのstyleはここで指定しないと描画がずれる
                         src={SearchButtonOne}
                         className={"button-alone-image"}
+                        height="100%"
+                        width={"auto"}
                         alt={"ButtonAlone"}/>
                 </button>
                 <button className="button-group" onClick={() => {
                     handleClickOpen("")
                 }}>
                     <img
+                        //buttonのstyleはここで指定しないと描画がずれる
                         src={SearchButtonAll}
                         className={"button-group-image"}
+                        height="100%"
+                        width={"auto"}
                         alt={"ButtonGroup"}/>
                 </button>
                 <Dialog open={open}
