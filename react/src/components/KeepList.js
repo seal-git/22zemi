@@ -121,8 +121,8 @@ function KeepList(props) {
                     });
                     dataList.sort(function (a, b) {
                         // 降順ソート
-                        if (+a.VotesAll > +b.VotesAll) return -1;
-                        if (+a.VotesAll < +b.VotesAll) return 1;
+                        if (+a.VotesLike > +b.VotesLike) return -1;
+                        if (+a.VotesLike < +b.VotesLike) return 1;
                         return 0
                     });
                 }
