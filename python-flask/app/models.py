@@ -217,7 +217,7 @@ def http_invite():
     minprice = data["minprice"] if data.get("minprice", False) else None
     recommend_method = data["recommend_method"] if data.get("recommend_method", False) else None
     
-    group_id = group_id if group_id != None else generate_group_id()
+    group_id = group_id if group_id is not None else generate_group_id()
     
     set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice)
     
@@ -255,16 +255,18 @@ def http_info():
     open_hour = '18'
     
     if group_id not in current_group:
-        current_group[group_id] = {'Coordinates': (lat,lon), 'Address': address, 'FilterParams': {}, 'Users': {}, 'Restaurants': {}}
+        current_group[group_id] = {'Coordinates': (lat,lon), 'Address': address, 'FilterParams': {}, 'Users': {}, 'Restaurants': {}, "RestaurantsOrder": []}
     if user_id not in current_group[group_id]['Users']:
-        current_group[group_id]['Users'][user_id] = {'RequestCount': 0, 'Feeling': {}} # 1回目のリクエストは、ユーザを登録する
+        current_group[group_id]['Users'][user_id] = {'RequestCount': 0, 'Feeling': {}, "RequestRestaurantsNum": 0} # 1回目のリクエストは、ユーザを登録する
     else:
         current_group[group_id]['Users'][user_id]['RequestCount'] += 1 # 2回目以降のリクエストは、前回の続きの店舗情報を送る
 
     # 検索条件
     set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice)
-
-    return recommend.recommend_main(current_group, group_id, user_id, recommend_method)
+    result_json = recommend.recommend_main(current_group, group_id, user_id, recommend_method)
+    current_group[group_id]['Users'][user_id]["RequestRestaurantsNum"] += len(result_json)
+    print(result_json)
+    return json.dumps(result_json, ensure_ascii=False)
 
 @app_.route('/feeling', methods=['GET','POST'])
 # キープ・リジェクトの結果を受け取り、メモリに格納する。全会一致の店舗を知らせる。
