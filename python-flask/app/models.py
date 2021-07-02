@@ -200,7 +200,7 @@ def http_init():
     result = {'GroupId': group_id, 'UserId': user_id}
     return json.dumps(result, ensure_ascii=False)
 
-@app_.route('/invite', methods=['GET'])
+@app_.route('/invite', methods=['GET', 'POST'])
 # 検索条件を指定して、招待URLを返す
 def http_invite():
     URL = 'https://reskima.com'
@@ -217,7 +217,7 @@ def http_invite():
     minprice = data["minprice"] if data.get("minprice", False) else None
     recommend_method = data["recommend_method"] if data.get("recommend_method", False) else None
     
-    group_id = group_id if group_id != None else generate_group_id()
+    group_id = group_id if group_id is not None else generate_group_id()
     
     set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice)
     
@@ -255,16 +255,18 @@ def http_info():
     open_hour = '18'
     
     if group_id not in current_group:
-        current_group[group_id] = {'Coordinates': (lat,lon), 'Address': address, 'FilterParams': {}, 'Users': {}, 'Restaurants': {}}
+        current_group[group_id] = {'Coordinates': (lat,lon), 'Address': address, 'FilterParams': {}, 'Users': {}, 'Restaurants': {}, "RestaurantsOrder": []}
     if user_id not in current_group[group_id]['Users']:
-        current_group[group_id]['Users'][user_id] = {'RequestCount': 0, 'Feeling': {}} # 1回目のリクエストは、ユーザを登録する
+        current_group[group_id]['Users'][user_id] = {'RequestCount': 0, 'Feeling': {}, "RequestRestaurantsNum": 0} # 1回目のリクエストは、ユーザを登録する
     else:
         current_group[group_id]['Users'][user_id]['RequestCount'] += 1 # 2回目以降のリクエストは、前回の続きの店舗情報を送る
 
     # 検索条件
     set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice)
-
-    return recommend.recommend_main(current_group, group_id, user_id, recommend_method)
+    result_json = recommend.recommend_main(current_group, group_id, user_id, recommend_method)
+    current_group[group_id]['Users'][user_id]["RequestRestaurantsNum"] += len(result_json)
+    print(result_json)
+    return json.dumps(result_json, ensure_ascii=False)
 
 @app_.route('/feeling', methods=['GET','POST'])
 # キープ・リジェクトの結果を受け取り、メモリに格納する。全会一致の店舗を知らせる。
@@ -354,7 +356,9 @@ def http_list():
         return json.dumps(result_json, ensure_ascii=False)
     else:
         # みんなのときは全アイテムを投票数順に返す．ゼロ票も含む
-        restaurant_ids = list(current_group[group_id]['Users'][user_id]['Feeling'].keys())
+        restaurant_ids = []
+        for u in current_group[group_id]['Users'].values():
+            restaurant_ids += list(u['Feeling'].keys())
         result_json = get_restaurant_info(current_group[group_id], restaurant_ids)
 
         # 得票数が多い順に並べる

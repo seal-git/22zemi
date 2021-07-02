@@ -86,7 +86,7 @@ def get_restaurant_info_from_local_search_params(group, local_search_params):
         except:
             continue
     #各お店のオススメ度を追加(相対評価)
-    result_json = calc_info.calc_recommend_score(result_json)
+    result_json = calc_info.calc_recommend_score(group,result_json)
     return local_search_json, result_json
 
 
