@@ -25,7 +25,7 @@ const initDataList = [{
     "Images": [noImageIcon, noImageIcon]
 }];
 const emptyDataList = [{
-    "Name": "No Data: 検索条件を変えてみてください",
+    "Name": "No Data:\n検索条件を変えてみてください",
     "Images": [noImageIcon, noImageIcon]
 }];
 
@@ -34,17 +34,26 @@ var wrapperStyle = {
 };
 
 function Selection(props) {
-    // const [idx, setIndex] = useState(0)
-    // var idx = 0
     const [dataList, setDataList] = useState(initDataList)
     let cardNum = dataList.length
     let isLoading = false
 
     // APIからお店のデータを得る
-    const getInfo = () => {
+    const getInfo = (newUserId, newGroupId) => {
         if (isLoading) return;
         isLoading = true
-        const paramsId = {"user_id": props.userId, "group_id": props.groupId};
+
+        // ユーザID を設定
+        let userId = newUserId
+        if(newUserId===undefined || newUserId===null || newUserId.length===0){
+            userId = props.userId
+        }
+        // グループID を設定
+        let groupId = newGroupId
+        if(newGroupId===undefined || newGroupId===null || newGroupId.length===0){
+            groupId = props.groupId
+        }
+        const paramsId = {"user_id": userId, "group_id": groupId};
         const params = {
             ...paramsId, ...props.paramsForSearch,
             'open_hour': +props.paramsForSearch['open_hour_str'].slice(0, 2)
@@ -122,15 +131,12 @@ function Selection(props) {
     }
     // Home コンポーネント から受け取った turnMode を
     // ButtonToChangeMode 用に加工
-    const turnMode = (groupId) => {
-        console.log("Selection:turnMode")
+    const turnMode = () => {
         // データリストの取得待ちであることを明示する
         cardNum = 1
         setDataList(initDataList)
         // モード切り替え
-        props.turnMode(groupId)
-        // リスト取得
-        getInfo()
+        props.turnMode()
     }
 
     // カードの高さを指定する
@@ -192,7 +198,14 @@ function Selection(props) {
         <div className="Selection-wrapper">
             <ButtonToChangeMode
                 mode={props.mode}
-                turnMode={turnMode}/>
+                turnMode={turnMode}
+                setUserId={props.setUserId}
+                setGroupId={props.setGroupId}
+                produceId={props.produceId}
+                setInviteUrl={props.setInviteUrl}
+                callInviteUrl={props.callInviteUrl}
+                getInfo={getInfo}
+            />
             <div className="Selection-header">
                 <div className={"Selection-header-content"}
                      style={display_style}>

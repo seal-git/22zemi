@@ -52,24 +52,23 @@ function Home(props) {
         "genre":"",
         "open_hour_str":getCurrentTime()}
     )        
-    let numOfCardInKeepList = 0
     //グループID作成時に招待urをセットする
     const [inviteUrl, setInviteUrl] = useState(callInviteUrl(groupId))
 
-    const createNewSession = (groupId) => {
-        // userID はモードが変わるごとに作り直す？
-        setUserId(produceId())
+    // const createNewSession = (groupId) => {
+    //     // userID はモードが変わるごとに作り直す？
+    //     setUserId(produceId())
 
-        // groupId が指定されていない場合システム側で用意する
-        // 指定されている場合はそのIDを使う
-        if (groupId === undefined || groupId === "") {
-            groupId = produceId();
-        }
-        setGroupId(groupId)
-        setInviteUrl(callInviteUrl(groupId));
-    }
+    //     // groupId が指定されていない場合システム側で用意する
+    //     // 指定されている場合はそのIDを使う
+    //     if (groupId === undefined || groupId === "") {
+    //         groupId = produceId();
+    //     }
+    //     setGroupId(groupId)
+    //     setInviteUrl(callInviteUrl(groupId));
+    // }
 
-    const turnMode = (groupId) => {
+    const turnMode = () => {
         // mode を反転させる
         if (props.mode === "Group") {
             props.setMode('Alone')
@@ -79,7 +78,6 @@ function Home(props) {
             console.log("Home:turnMode:undefined mode")
             return;
         }
-        createNewSession(groupId)
     };
 
     return (
@@ -88,28 +86,37 @@ function Home(props) {
                 <div className="Content">
                     {view === "Selection" ?
                         <Selection
+                            mode={props.mode}
+                            turnMode={turnMode}
                             userId={userId}
                             groupId={groupId}
+                            setUserId={setUserId}
+                            setGroupId={setGroupId}
+                            produceId={produceId}
                             inviteUrl={inviteUrl}
-                            mode={props.mode}
-                            setMode={props.setMode}
-                            turnMode={turnMode}
+                            setInviteUrl={setInviteUrl}
+                            callInviteUrl={callInviteUrl}
                             paramsForSearch={paramsForSearch}
                         />
-                        : view === "KeepList" ? <KeepList
+                        : view === "KeepList" ? 
+                        <KeepList
+                            mode={props.mode}
                             userId={userId}
                             groupId={groupId}
+                        />
+                        :
+                        <Setting
                             mode={props.mode}
                             setMode={props.setMode}
-                            turnMode={turnMode}
-                        />
-                            : <Setting
-                                mode={props.mode}
-                                setMode={props.setMode}
-                                createNewSession={createNewSession}
-                                setView={setView}
-                                paramsForSearch={paramsForSearch}
-                                setParamsForSearch={setParamsForSearch}/>}
+                            setView={setView}
+                            setUserId={setUserId}
+                            setGroupId={setGroupId}
+                            produceId={produceId}
+                            setInviteUrl={setInviteUrl}
+                            callInviteUrl={callInviteUrl}
+                            paramsForSearch={paramsForSearch}
+                            setParamsForSearch={setParamsForSearch}
+                        />}
                 </div>
             </div>
             <AppBottomNavigation view={view} setView={setView} />
