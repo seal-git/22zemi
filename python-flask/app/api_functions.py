@@ -60,7 +60,7 @@ def get_restaurant_info_from_local_search_params(group, local_search_params):
             result_json[i]['Address'] = feature['Property']['Address']
             result_json[i]["distance_float"] = great_circle(group['Coordinates'], tuple(reversed([float(x) for x in feature['Geometry']['Coordinates'].split(',')]))).m #距離 メートル float
             result_json[i]['Distance'] = distance_display(great_circle(group['Coordinates'], tuple(reversed([float(x) for x in feature['Geometry']['Coordinates'].split(',')]))).m) # 緯度・経度から距離を計算 str
-            result_json[i]['CatchCopy'] = feature['Property'].get('CatchCopy')
+            # result_json[i]['CatchCopy'] = feature['Property'].get('CatchCopy')
             result_json[i]['Price'] = feature['Property']['Detail']['LunchPrice'] if lunch_or_dinner == 'lunch' and feature['Property']['Detail'].get('LunchFlag') == True else feature['Property']['Detail'].get('DinnerPrice')
             result_json[i]['LunchPrice'] = feature['Property']['Detail'].get('LunchPrice')
             result_json[i]['DinnerPrice'] = feature['Property']['Detail'].get('DinnerPrice')

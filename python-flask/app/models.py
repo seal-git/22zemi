@@ -297,9 +297,11 @@ def http_popular_list():
     group_id = data["group_id"] if data.get("group_id", False) else None
     group_id = group_id if group_id != None else get_group_id(user_id)
 
-    if sum([len(r['All']) for rid,r in current_group[group_id]['Restaurants'].items()]) == 0:
-    # if len(current_group[group_id]['Restaurants']) == 0:
-        return '[]'
+    # まだ登録されていない場合。
+    if sum([len(r['Like']) for r in current_group[group_id]['Restaurants'].values()]) == 0:
+        # 投票していない
+        return json.dumps({'Restaurant_id':'0', 'Name': 'まだキープされていません', 'Distance':'', 'Price':'', 'LunchPrice':'', 'DinnerPrice':'', 'Category':'', 'UrlYahooLoco':'https://loco.yahoo.co.jp', 'UrlYahooMap': "https://map.yahoo.co.jp", 'VotesLike':0, 'VotesAll':0, 'BusinessHour':'', 'NumberOfParticipants':'1'}, ensure_ascii=False)
+            
 
     popular_max = max([r['Like'] for r in current_group[group_id]['Restaurants'].values()])
     restaurant_ids = [rid for rid,r in current_group[group_id]['Restaurants'].items() if r['Like'] == popular_max]
