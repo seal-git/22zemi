@@ -1,12 +1,24 @@
-body{
+body {
     height: 100vh;
     overflow: hidden;
     /*height: calc(var(--myvh) * 100);*/
     background-color: whitesmoke;
 }
-.Home{
-    height: 100vh;
-    /*height: calc(var(--myvh, 1vh) * 100);*/
+
+/*PCで見るときはサイト下部を空けない*/
+@media screen and (min-width: 767px) {
+    .Home {
+        height: 100vh;
+    }
+}
+/*タブレット・スマホのブラウザで見るときはサイト下部を空ける*/
+@media screen and (max-width: 767px) {
+    .Home {
+        height: 90vh;
+    }
+}
+
+.Home {
     display: flex;
     flex-direction: column;
     max-width: 50vh;
@@ -14,7 +26,8 @@ body{
     position: relative;
     padding: 0;
 }
-.Content-wrapper{
+
+.Content-wrapper {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -24,10 +37,14 @@ body{
     /* Firefox 対応 */
     scrollbar-width: none;
 }
-.Content{
+
+.Content {
     flex: 1;
+    height: calc(10%); /*これがないとflex:1が効かなくなるというバグがある*/
+    padding-bottom: 5px;
 }
+
 /* Chrome, Safari 対応 */
 .Content-wrapper::-webkit-scrollbar {
-display:none;
+    display: none;
 }

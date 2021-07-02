@@ -200,12 +200,12 @@ def http_init():
     result = {'GroupId': group_id, 'UserId': user_id}
     return json.dumps(result, ensure_ascii=False)
 
-@app_.route('/invite', methods=['GET','POST'])
+@app_.route('/invite', methods=['GET'])
 # 検索条件を指定して、招待URLを返す
 def http_invite():
-    URL = 'http://localhost:3000' # TODO: ドメインを取得したら書き換える。
-
+    URL = 'https://reskima.com'
     data = request.get_json()["params"]
+    user_id = data["user_id"] if data.get("user_id", False) else None
     group_id = data["group_id"] if data.get("group_id", False) else None
     # coordinates = data["coordinates"] if data.get("coordinates", False) else None # TODO: デモ以降に実装
     place = data["place"] if data.get("place", False) else None
@@ -246,7 +246,7 @@ def http_info():
     minprice = data["minprice"] if data.get("minprice", False) else None
     recommend_method = data["recommend_method"] if data.get("recommend_method", False) else None
 
-    group_id = group_id if group_id != None else get_group_id(user_id)
+    group_id = group_id if group_id is not None else get_group_id(user_id)
 
     # Yahoo本社の住所 # TODO
     address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-"
@@ -276,7 +276,7 @@ def http_feeling():
     restaurant_id = data["restaurant_id"] if data.get("restaurant_id", False) else None
     feeling = data["feeling"] if data.get("feeling", False) else None
 
-    group_id = group_id if group_id != None else get_group_id(user_id)
+    group_id = group_id if group_id is not None else get_group_id(user_id)
     
     # 情報を登録
     current_group[group_id]['Users'][user_id]['Feeling'][restaurant_id] = feeling
@@ -297,9 +297,16 @@ def http_popular_list():
     user_id = data["user_id"] if data.get("user_id", False) else None
     group_id = data["group_id"] if data.get("group_id", False) else None
     group_id = group_id if group_id != None else get_group_id(user_id)
-
-    if len(current_group[group_id]['Restaurants']) == 0:
-        return '[]'
+    
+    #投票したお店がなければデータがないjsonを返しておく
+    if sum([len(r['All']) for rid,r in current_group[group_id]['Restaurants'].items()]) == 0:
+        not_like_json = {'Restaurant_id': 'None', 'Name': 'Likeしたお店がありません', 'Address': 'None', \
+            'distance_float': None, 'Distance': 'None', 'CatchCopy': None, 'Price': None, 'LunchPrice': None, \
+                'DinnerPrice': None, 'TopRankItem': [], 'CassetteOwnerLogoImage': None, 'Category': None, 'UrlYahooLoco': None, \
+                     'UrlYahooMap': None, 'ReviewRating': '', 'VotesLike': 0, 'VotesAll': 0, 'BusinessHour': None, 'Genre': None}
+        #return "[]"
+        #return "['Likeしたお店がありません']"
+        return json.dumps(not_like_json, ensure_ascii=False)
 
     popular_max = max([r['Like'] for r in current_group[group_id]['Restaurants'].values()])
     restaurant_ids = [rid for rid,r in current_group[group_id]['Restaurants'].items() if r['Like'] == popular_max]
@@ -308,26 +315,54 @@ def http_popular_list():
 
 @app_.route('/list', methods=['GET','POST'])
 # 得票数が多い順の店舗リストを返す。1人のときはキープした店舗のリストを返す。
+# リストのアイテムが存在しない場合はnullを返す
 def http_list():
     global current_group
     data = request.get_json()["params"]
     user_id = data["user_id"] if data.get("user_id", False) else None
     group_id = data["group_id"] if data.get("group_id", False) else None
     group_id = group_id if group_id != None else get_group_id(user_id)
-    
-    # ひとりの時はLIKEしたリスト。リジェクトしたら一生お別れ
-    if len(current_group[group_id]['Users']) <= 1:
-        return http_popular_list()
+    # リストに存在しないとき
+    if sum([len(r['Like']) for rid, r in
+            current_group[group_id]['Restaurants'].items()]) == 0:
+        # not_like_json = {'Restaurant_id': 'None', 'Name': 'Likeしたお店がありません',
+        #                  'Address': 'None', \
+        #                  'distance_float': None, 'Distance': 'None',
+        #                  'CatchCopy': None, 'Price': None,
+        #                  'LunchPrice': None, \
+        #                  'DinnerPrice': None, 'TopRankItem': [],
+        #                  'CassetteOwnerLogoImage': None, 'Category': None,
+        #                  'UrlYahooLoco': None, \
+        #                  'UrlYahooMap': None, 'ReviewRating': '',
+        #                  'VotesLike': 0, 'VotesAll': 0,
+        #                  'BusinessHour': None, 'Genre': None}
+        return "0"
+        # return "['Likeしたお店がありません']"
+        # return json.dumps(not_like_json, ensure_ascii=False)
 
-    restaurant_ids = list(current_group[group_id]['Users'][user_id]['Feeling'].keys())
-    result_json = get_restaurant_info(current_group[group_id], restaurant_ids)
-    
-    # 得票数が多い順に並べる
-    result_json.sort(key=lambda x:x['VotesAll']) # 得票数とオススメ度が同じなら、リジェクトが少ない順
-    result_json.sort(key=lambda x:x['RecommendLevel'], reverse=True) # 得票数が同じなら、オススメ度順
-    result_json.sort(key=lambda x:x['VotesLike'], reverse=True) # 得票数が多い順
-    
-    return json.dumps(result_json, ensure_ascii=False)
+    if len(current_group[group_id]['Users']) <= 1:
+        # ひとりの時はLIKEしたリスト。リジェクトしたら一生お別れ
+        # ひとりの時は投票数ゼロの店はリストに入れない
+
+        popular_max = max([r['Like'] for r in
+                           current_group[group_id]['Restaurants'].values()])
+        restaurant_ids = [rid for rid, r in
+                          current_group[group_id]['Restaurants'].items() if
+                          r['Like'] == popular_max]
+        result_json = get_restaurant_info(current_group[group_id],
+                                          restaurant_ids)
+        return json.dumps(result_json, ensure_ascii=False)
+    else:
+        # みんなのときは全アイテムを投票数順に返す．ゼロ票も含む
+        restaurant_ids = list(current_group[group_id]['Users'][user_id]['Feeling'].keys())
+        result_json = get_restaurant_info(current_group[group_id], restaurant_ids)
+
+        # 得票数が多い順に並べる
+        result_json.sort(key=lambda x:x['VotesAll']) # 得票数とオススメ度が同じなら、リジェクトが少ない順
+        result_json.sort(key=lambda x:x['RecommendLevel'], reverse=True) # 得票数が同じなら、オススメ度順
+        result_json.sort(key=lambda x:x['VotesLike'], reverse=True) # 得票数が多い順
+
+        return json.dumps(result_json, ensure_ascii=False)
 
 @app_.route('/history', methods=['GET','POST'])
 # ユーザに表示した店舗履のリストを返す。履歴。

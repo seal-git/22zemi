@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState } from "react"
+import { useState, useContext } from "react"
 import { makeStyles } from '@material-ui/core/styles';
 import AppBottomNavigation from "./AppBottomNavigation"
 import KeepList from "./KeepList"
@@ -7,6 +7,7 @@ import Selection from "./Selection"
 import Setting from "./Setting"
 import "./Home.css"
 import Credit from "./Credit";
+import axios from "axios";
 
 const produceId = () => {
     return Math.random().toString(32).substring(2)
@@ -20,6 +21,25 @@ const getCurrentTime = () => {
   return time
 }
 
+// 招待URLを取得
+const callInviteUrl = (groupId) => {
+    const inviteUrl = "http: "+groupId;
+    const params = {groupId: groupId, }
+    //postになったら実装
+    // axios.post('/api/invite', {
+    //     params: params
+    // })
+    //     .then(function (response) {
+    //         console.log(response)
+    //     })
+    //     .catch((error) => {
+    //         console.log("error:", error);
+    //     });
+
+    console.log("inviteUrl called: "+inviteUrl);
+    return inviteUrl;
+}
+
 // ベースコンポーネントとして使う
 function Home(props) {
     // view を抱える。背景操作の都合で mode は上位コンポーネント App に持たせる
@@ -29,9 +49,12 @@ function Home(props) {
     const [groupId, setGroupId] = useState(produceId())
     const [paramsForSearch, setParamsForSearch] = useState(
         {"place":"新宿",
-        "genre":"居酒屋",
+        "genre":"",
         "open_hour_str":getCurrentTime()}
-    )
+    )        
+    let numOfCardInKeepList = 0
+    //グループID作成時に招待urをセットする
+    const [inviteUrl, setInviteUrl] = useState(callInviteUrl(groupId))
 
     const createNewSession = (groupId) => {
         // userID はモードが変わるごとに作り直す？
@@ -40,10 +63,10 @@ function Home(props) {
         // groupId が指定されていない場合システム側で用意する
         // 指定されている場合はそのIDを使う
         if (groupId === undefined || groupId === "") {
-            setGroupId(produceId())
-        } else {
-            setGroupId(groupId)
+            groupId = produceId();
         }
+        setGroupId(groupId)
+        setInviteUrl(callInviteUrl(groupId));
     }
 
     const turnMode = (groupId) => {
@@ -67,6 +90,7 @@ function Home(props) {
                         <Selection
                             userId={userId}
                             groupId={groupId}
+                            inviteUrl={inviteUrl}
                             mode={props.mode}
                             setMode={props.setMode}
                             turnMode={turnMode}
@@ -87,7 +111,6 @@ function Home(props) {
                                 paramsForSearch={paramsForSearch}
                                 setParamsForSearch={setParamsForSearch}/>}
                 </div>
-            <Credit />
             </div>
             <AppBottomNavigation view={view} setView={setView} />
         </div>

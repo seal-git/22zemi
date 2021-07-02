@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
   },
   AppGroup: {
     height: '100%',
-    backgroundImage: 'linear-gradient(180.02deg, #FFDDAA 0.02%, #FFFBFB 80.2%)'
+    backgroundImage: 'linear-gradient(180.02deg, #FFDDAA 0.02%, #FFFBEB 80.2%)'
   }
 }));
 
