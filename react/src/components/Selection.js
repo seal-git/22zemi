@@ -8,13 +8,6 @@ import axios from "axios";
 import "./Selection.css";
 import TinderCard from 'react-tinder-card';
 import noImageIcon from "./no_image.png";
-import { Box } from "@material-ui/core";
-import FormControl from "@material-ui/core/FormControl";
-import Select from "@material-ui/core/Select";
-import Typography from "@material-ui/core/Typography";
-import { Backspace } from "@material-ui/icons";
-import { withStyles } from "@material-ui/core/styles";
-import Button from "@material-ui/core/Button";
 import { assignNumGlobal } from './global';
 import Credit from "./Credit";
 import sampledata from "./sampleData.json"
@@ -150,7 +143,6 @@ function Selection(props) {
       // backgroundColor: 'transparent', // 描画ずれを回避するため色をつける
       backgroundColor: 'white',
       height: height,
-      // height: '600px',
       width: '100%',
       margin: '3px',
       position: 'absolute',
