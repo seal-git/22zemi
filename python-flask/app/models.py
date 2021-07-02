@@ -331,7 +331,7 @@ def http_list():
     
     # 得票数が多い順に並べる
     result_json.sort(key=lambda x:x['VotesAll']) # 得票数とオススメ度が同じなら、リジェクトが少ない順
-    result_json.sort(key=lambda x:x['RecommendLevel'], reverse=True) # 得票数が同じなら、オススメ度順
+    result_json.sort(key=lambda x:x['RecommendScore'], reverse=True) # 得票数が同じなら、オススメ度順
     result_json.sort(key=lambda x:x['VotesLike'], reverse=True) # 得票数が多い順
     
     return json.dumps(result_json, ensure_ascii=False)
