@@ -1,12 +1,10 @@
 #!/bin/bash
-# GCEでdocker-composeコマンドが使えなかったため、それ用のdocker imageを使用
+# GCEでdocker-composeコマンドが使えなかったため,それ用のdocker imageを使用
+docker stop react python-flask mysql
 cd 22zemi
 git checkout production
-git add .
-git commit -m "update"
 git fetch origin
-git merge origin/production
-docker stop react python-flask mysql
+git reset --hard origin/production
 
 docker run \
 --rm -v /var/run/docker.sock:/var/run/docker.sock \
