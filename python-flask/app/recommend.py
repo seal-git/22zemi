@@ -67,7 +67,7 @@ def recommend_simple(current_group, group_id, user_id, recommend_method, params=
         'dist': dist, # 中心地点からの距離 # 最大20km
         'gc': '01', # グルメ
         #'gc': code, #ランダムなジャンル 滅多にお店が取れない
-        'image': True, # 画像がある店
+        'image': 'true', # 画像がある店
         'open': 'now', # 現在開店している店舗
         'sort': recommend_method, # hyblid # 評価や距離などを総合してソート
         'start': RESULTS_COUNT * request_count, # 表示範囲：開始位置
@@ -116,7 +116,7 @@ def recommend_review_words(current_group, group_id, user_id):
             'lon': coordinates[1], # 経度
             'dist': MAX_DISTANCE, # 中心地点からの距離 # 最大20km
             'gc': '01', # グルメ
-            'image': True, # 画像がある店
+            'image': 'true', # 画像がある店
             'open': 'now', # 現在開店している店舗
             'sort': 'hybrid', # 評価や距離などを総合してソート
             'start': LOCAL_SEARCH_RESULTS_COUNT * request_count, # 表示範囲：開始位置
@@ -149,7 +149,7 @@ def recommend_template(current_group, group_id, user_id):
         'lon': coordinates[1], # 経度
         'dist': MAX_DISTANCE, # 中心地点からの距離 # 最大20km
         'gc': '01', # グルメ
-        'image': True, # 画像がある店
+        'image': 'true', # 画像がある店
         'open': 'now', # 現在開店している店舗
         'sort': 'hybrid', # 評価や距離などを総合してソート
         'start': LOCAL_SEARCH_RESULTS_COUNT * int(request_count * RESULTS_COUNT / LOCAL_SEARCH_RESULTS_COUNT), # 表示範囲：開始位置
@@ -269,7 +269,7 @@ def recommend_genre(current_group, group_id, user_id):
             'lat': coordinates[0], # 緯度
             'lon': coordinates[1], # 経度
             'dist': meandistance, # 中心地点からの距離 # 最大20km
-            'image': True, # 画像がある店
+            'image': 'true', # 画像がある店
             'open': 'now', # 現在開店している店舗
             'start': RESULTS_COUNT * request_count, # 表示範囲：開始位置
             'results': RESULTS_COUNT,
