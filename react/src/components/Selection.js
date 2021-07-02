@@ -25,7 +25,7 @@ const initDataList = [{
     "Images": [noImageIcon, noImageIcon]
 }];
 const emptyDataList = [{
-    "Name": "No Data: 検索条件を変えてみてください",
+    "Name": "No Data:\n検索条件を変えてみてください",
     "Images": [noImageIcon, noImageIcon]
 }];
 
