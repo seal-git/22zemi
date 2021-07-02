@@ -265,6 +265,7 @@ def http_info():
     set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice)
     result_json = recommend.recommend_main(current_group, group_id, user_id, recommend_method)
     current_group[group_id]['Users'][user_id]["RequestRestaurantsNum"] += len(result_json)
+    print(result_json)
     return json.dumps(result_json, ensure_ascii=False)
 
 @app_.route('/feeling', methods=['GET','POST'])

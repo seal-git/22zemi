@@ -3,7 +3,7 @@ import json
 import os
 import random
 
-RESULTS_COUNT = 10 # 一回に返す店舗の数
+RESULTS_COUNT = 1 # 一回に返す店舗の数
 MAX_DISTANCE = 20 # 中心地からの距離 上限20
 
 #カテゴリの類似度が高い物
@@ -147,7 +147,7 @@ def recommend_review_words(current_group, group_id, user_id):
         stop_index = [i for i, x in enumerate(result_json) if x['ReviewRating'] < 3][0]
         result_json = result_json[:stop_index]
         if len(result_json) >= 1:
-            return json.dumps(result_json, ensure_ascii=False)
+            return result_json
         current_group[group_id]['Users'][user_id]['RequestCount'] += 1
 
 def recommend_template(current_group, group_id, user_id):
@@ -291,7 +291,7 @@ def recommend_genre(current_group, group_id, user_id):
         if code is None:
             print("No recommend genre code ")
             result_json = recommend_simple(current_group, group_id, user_id, simple_method, params)
-            return json.dumps(result_json, ensure_ascii=False)
+            return result_json
 
         print(f"HighCountGenre:{high_count_genre}")
         print(f"RecommendGenre:{recommend_genre}")
@@ -312,7 +312,7 @@ def recommend_genre(current_group, group_id, user_id):
         local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(current_group[group_id], local_search_params)
         result_json = delete_duplicate_result(current_group, group_id, user_id, result_json)
         result_json = get_result_json_price_filter(meanprice, result_json)
-        
+
         if len(result_json) == 0:
             print("No Data: recommend genre restaurant")
             result_json = recommend_simple(current_group, group_id, user_id, simple_method, params)
