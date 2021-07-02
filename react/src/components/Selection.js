@@ -140,12 +140,7 @@ function Selection(props) {
     let height = window.innerHeight;
     height = document.getElementById("selection").getBoundingClientRect().height;
     let wrapperStyle = {
-      // backgroundColor: 'transparent', // 描画ずれを回避するため色をつける
-      backgroundColor: 'white',
       height: height,
-      width: '100%',
-      margin: '3px',
-      position: 'absolute',
     };
     return wrapperStyle;
   };

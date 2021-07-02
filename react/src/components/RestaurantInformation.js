@@ -23,6 +23,7 @@ const useStyles = makeStyles((theme) => ({
         boxSizing: "border-box",
         display: "flex",
         flexDirection: "column",
+        borderRadius: '30px',
     },
 
     gridList: {
