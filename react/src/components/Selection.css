@@ -17,6 +17,7 @@
     flex: 1;
     height: calc(100% - 30);
     position: relative;
+    margin-bottom: 5px;
 }
 
 .group-id{
