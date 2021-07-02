@@ -3,6 +3,7 @@ import KeepListTile from "./KeepListTile";
 import { useEffect, useState, useRef } from "react";
 import axios from "axios";
 import sampleData from "./sampleData.json";
+import noImageIcon from "./no_image.png";
 
 import { makeStyles } from '@material-ui/core/styles';
 import { Box } from "@material-ui/core";
@@ -57,7 +58,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const initDataList = [{
-    "Name": "Loading...", "Images": [""], "Distance": "-m", "Price": "-円",
+    "Name": "Loading...", "Images": [noImageIcon,noImageIcon], "Distance": "-m", "Price": "-円",
     "Category": "-", "ReviewRating": "-", "VotesLike": 0, "VotesAll": 0,
     "distance_float": 0.,"RecommendScore": 0,
 }]
@@ -216,9 +217,9 @@ function KeepList(props) {
                         ref={selectRef}
                     >
                         <option value={sortByRecommendScore} >おすすめ順</option>
+                        <option value={sortByFeeAscend}>予算が低い順</option>
                         <option value={sortByDistance}>距離が近い順</option>
                         <option value={sortByFeeDescend}>予算が高い順</option>
-                        <option value={sortByFeeAscend}>予算が低い順</option>
                     </Select>
                 </FormControl>
                 <Typography className={classes.participantNum}

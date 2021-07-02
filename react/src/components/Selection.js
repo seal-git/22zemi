@@ -3,9 +3,11 @@ import {useEffect, useState} from "react";
 import Buttons from "./Buttons";
 import RestaurantInformation from "./RestaurantInformation";
 import ButtonToChangeMode from "./ButtonToChangeMode";
+import ButtonToInvite from "./ButtonToInvite";
 import axios from "axios";
-import "./Selection.css"
-import TinderCard from 'react-tinder-card'
+import "./Selection.css";
+import TinderCard from 'react-tinder-card';
+import noImageIcon from "./no_image.png";
 import {Box} from "@material-ui/core";
 import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
@@ -16,8 +18,8 @@ import Button from "@material-ui/core/Button";
 
 // スワイプでお店を選ぶ画面
 
-const initDataList = [{"Name": "Loading...", "Images": [""]}];
-const emptyDataList = [{"Name": "No Data: 検索条件を変えてみてください", "Images": [""]}];
+const initDataList = [{"Name": "Loading...", "Images": [noImageIcon, noImageIcon]}];
+const emptyDataList = [{"Name": "No Data: 検索条件を変えてみてください", "Images": [noImageIcon, noImageIcon]}];
 
 var wrapperStyle = {
     margin: 0,
@@ -125,11 +127,11 @@ function Selection(props) {
     // カードの高さを指定する
     function getAdaptiveStyle() {
         let height = window.innerHeight;
-        // height = Selection.getBoundingClientRect().height;
+        height = document.getElementById("selection").getBoundingClientRect().height;
         let wrapperStyle = {
             // backgroundColor: 'transparent', // 描画ずれを回避するため色をつける
             backgroundColor: 'white',
-            height: height - 120 + 'px',
+            height: height,
             // height: '600px',
             width: '100%',
             margin: '3px',
@@ -174,19 +176,8 @@ function Selection(props) {
             );
         }))
     }
-
-    const ButtonToInvite = withStyles((theme) => ({
-        root: {
-            height: '30px',
-            background: 'linear-gradient(116.73deg,' +
-                ' #FFCD4E 27.25%,' +
-                ' #FFB74A' +
-                ' 71.71%)',
-            margin: '5px',
-            border: '0px',
-            fontSize: '0.8rem',
-        }
-    }))(Button);
+    var display_style;
+    props.mode == "Alone" ? display_style = {display:"none"} : display_style = null;
 
     return (
         <div className="Selection-wrapper">
@@ -194,14 +185,17 @@ function Selection(props) {
                 mode={props.mode}
                 turnMode={turnMode}/>
             <div className="Selection-header">
-                <ButtonToInvite>
-                    招待
-                </ButtonToInvite>
-                <div className="group-id">
-                    ルームID:{props.groupId}
+                <div className={"Selection-header-content"}
+                     style={display_style}>
+                    <ButtonToInvite
+                        url={"invite_url"}
+                        groupId={props.groupId}/>
+                    <div className="group-id">
+                        ルームID:{props.groupId}
+                    </div>
                 </div>
             </div>
-            <div className="Selection">
+            <div className="Selection" id={"selection"}>
                 {/* <RestaurantInformation data={dataList[idx]} wrapperStyle={wrapperStyle} /> */}
                 <div className='card-container'>
                     <CardsContainer dataList={dataList}/>

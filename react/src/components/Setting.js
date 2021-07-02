@@ -95,12 +95,10 @@ function Setting(props) {
     return (
         <div className="setting">
             <div class="title-wrapper">
-                <div class="title">
-                    <img
-                        src={Logo}
-                        className={"title-image"}
-                        alt={"title"}/>
-                </div>
+                <img
+                    src={Logo}
+                    className={"title-image"}
+                    alt={"title"}/>
             </div>
             <div class="forms-wrapper">
                 <div class="form-content-wrapper">

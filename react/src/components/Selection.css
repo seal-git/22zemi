@@ -7,10 +7,12 @@
     flex-direction: column;
 }
 .Selection-header{
+    min-height: 30px;
+}
+.Selection-header-content{
     display: flex;
     align-items: center;
 }
-
 .Selection{
     flex: 1;
     height: calc(100% - 30);
