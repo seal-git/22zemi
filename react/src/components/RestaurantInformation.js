@@ -1,4 +1,5 @@
 import React from 'react';
+import { useRef, useEffect } from 'react';
 import { CardContent } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { Box } from "@material-ui/core";
@@ -7,6 +8,7 @@ import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
+import IconButton from '@material-ui/core/IconButton';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -74,11 +76,37 @@ const useStyles = makeStyles((theme) => ({
 function RestaurantInformation(props) {
   const classes = useStyles();
   const space = <span className={classes.space}>　</span>;
+  const gl = useRef(null);
+
+  const scroll = (stepNum, scrollStep, vector) => {
+    const step = scrollStep / stepNum
+    gl.current.scrollTop += vector * step;
+  }
+
+  const scrollGrid = (vector) => {
+    console.log(vector);
+    if (gl.current.scrollHeight > gl.current.clientHeight) {
+      const scrollStep = 150;
+      const stepNum = 20
+      for (let i = 1; i <= stepNum; i++) {
+        setTimeout(() => (scroll(stepNum, scrollStep, vector)), i * 5)
+      }
+    }
+  };
+
+  useEffect(() => {
+    console.log(gl.current);
+  }, []);
 
   return (
     <div className="RestaurantInformation" style={props.wrapperStyle}>
       <Card variant="outlined" className={classes.cardRoot}>
-        <GridList className={classes.gridList} cols={2} spacing={2}>
+        <GridList
+          className={classes.gridList}
+          cols={props.data.Images.length <= 4 ? 1 : 2}
+          spacing={2}
+          ref={gl}
+        >
           {props.data.Images.map((tile) => (
             <GridListTile key={tile} className={classes.gridListTile}>
               <img src={tile} />
@@ -87,6 +115,16 @@ function RestaurantInformation(props) {
         </GridList>
         {/* <Divider /> */}
         <CardContent className={classes.cardContent}>
+          <IconButton onClick={() => {
+            scrollGrid(-1)
+          }}>
+            上
+          </IconButton>
+          <IconButton onClick={() => {
+            scrollGrid(1)
+          }}>
+            下
+          </IconButton>
           <Typography className={classes.textShopName}>
             {props.data.Name}
           </Typography>
