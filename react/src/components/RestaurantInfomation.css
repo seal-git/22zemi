@@ -1,0 +1,15 @@
+.glWrapper {
+    position: relative;
+    alignItems: center;
+}
+
+.iconButtonTop {
+    verticalAlign: top;
+    top: 0;
+}
+
+.iconButtonBottom {
+    verticalAlign: bottom;
+    bottom: 0;
+}
+
