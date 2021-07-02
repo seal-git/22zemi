@@ -1,33 +1,29 @@
 import React from 'react';
-
-import {useState, useRef} from 'react';
+import {useState} from 'react';
 import Button from '@material-ui/core/Button';
-import TextField from '@material-ui/core/TextField';
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
-import {Paper} from "@material-ui/core";
-import {makeStyles, withStyles} from '@material-ui/core/styles';
-
+import {withStyles} from '@material-ui/core/styles';
+import {CopyToClipboard} from 'react-copy-to-clipboard';
 /*
 招待ボタン：押すと招待URLが表示される
  */
 
 function ButtonToInvite(props) {
     const [open, setOpen] = useState(false);
+    const [isCopied, setIsCopied] = useState(false)
 
     const handleClickOpen = () => {
         setOpen(true);
+        setIsCopied(false)
     };
 
     const handleClose = () => {
         setOpen(false);
     };
-
-
-
     const MyButton = withStyles((theme) => ({
     root: {
         height: '30px',
@@ -41,7 +37,7 @@ function ButtonToInvite(props) {
     }
 }))(Button);
 
-
+const url = "https://reskima.com?group_id="+props.groupId
     return (
         <div className="ButtonToInvite">
             <MyButton className={"button-to-invite"}
@@ -55,8 +51,15 @@ function ButtonToInvite(props) {
                     招待URL
                 </DialogTitle>
                 <DialogContent>
-                    {props.url} コピーする
+                    {url} 
                 </DialogContent>
+                    <CopyToClipboard text={url} onCopy={()=>{setIsCopied(true)}}>
+                        <Button variant='contained' color='primary'>
+                            {isCopied?
+                            <div>URLをコピーしました!</div>:
+                            <div>URLをコピーする</div>}
+                        </Button>
+                    </CopyToClipboard>
             </Dialog>
         </div>
     )

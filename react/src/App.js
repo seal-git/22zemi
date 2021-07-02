@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import ApiTest from './components/ApiTest'
 import Home from './components/Home'
 import yellow from '@material-ui/core/colors/yellow';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -54,8 +53,7 @@ function App() {
         <div className="App-header"></div>
         <Router>
           <Switch>
-            <Route path="/" exact><Home mode={mode} setMode={setMode} /></Route>
-            <Route path="/api-test" exact><ApiTest /></Route>
+            <Route path="/"><Home mode={mode} setMode={setMode} /></Route>
           </Switch>
         </Router>
       </div>
