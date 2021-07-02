@@ -16,6 +16,7 @@ import {Backspace} from "@material-ui/icons";
 import {withStyles} from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import { assignNumGlobal } from './global';
+import Credit from "./Credit";
 
 // スワイプでお店を選ぶ画面
 
@@ -204,6 +205,7 @@ function Selection(props) {
                 </div>
                 {/* <Buttons reject={reject} keep={keep} /> */}{/*ボタンを取り付けようとすると工数が激増する。一旦保留*/}
             </div>
+            <Credit />
         </div>
 
     );

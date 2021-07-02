@@ -20,6 +20,12 @@ const getCurrentTime = () => {
   return time
 }
 
+// 招待URLを取得
+const getInviteUrl = () => {
+    const inviteUrl = "aaa";
+    return inviteUrl;
+}
+
 // ベースコンポーネントとして使う
 function Home(props) {
     // view を抱える。背景操作の都合で mode は上位コンポーネント App に持たせる
@@ -33,6 +39,8 @@ function Home(props) {
         "open_hour_str":getCurrentTime()}
     )        
     let numOfCardInKeepList = 0
+    //グループID作成時に招待urをセットする
+    const [inviteUrl, setInviteUrl] = useState(getInviteUrl())
 
     const createNewSession = (groupId) => {
         // userID はモードが変わるごとに作り直す？
@@ -41,10 +49,10 @@ function Home(props) {
         // groupId が指定されていない場合システム側で用意する
         // 指定されている場合はそのIDを使う
         if (groupId === undefined || groupId === "") {
-            setGroupId(produceId())
-        } else {
-            setGroupId(groupId)
+            groupId = produceId();
         }
+        setGroupId(groupId)
+        setInviteUrl(groupId);
     }
 
     const turnMode = (groupId) => {
@@ -88,7 +96,6 @@ function Home(props) {
                                 paramsForSearch={paramsForSearch}
                                 setParamsForSearch={setParamsForSearch}/>}
                 </div>
-            <Credit />
             </div>
             <AppBottomNavigation view={view} setView={setView} />
         </div>
