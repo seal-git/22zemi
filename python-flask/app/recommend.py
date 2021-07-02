@@ -3,7 +3,7 @@ import json
 import os
 import random
 
-RESULTS_COUNT = 1 # 一回に返す店舗の数
+RESULTS_COUNT = 6 # 一回に返す店舗の数
 MAX_DISTANCE = 20 # 中心地からの距離 上限20
 
 #カテゴリの類似度が高い物
