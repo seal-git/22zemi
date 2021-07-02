@@ -2,7 +2,6 @@ import React from 'react';
 import { useRef, useEffect } from 'react';
 import { CardContent } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import { Box } from "@material-ui/core";
 import Card from '@material-ui/core/Card'
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
@@ -21,19 +20,59 @@ const useStyles = makeStyles((theme) => ({
     // marginBottom: '10px',
     height: '100%',
     boxSizing: "border-box",
+    display: "flex",
+    flexDirection: "column",
   },
+  glWrapper: {
+    position: "relative",
+    alignItems: "center",
+  },
+
+  gridList: {
+    width: '100%',
+    padding: '1px',
+    flex: '1',
+  },
+
+  gridListTile: {
+
+  },
+
+  iconButtonTop: {
+    width: "100%",
+    // height: "40%",
+    textAlign: 'center',
+    verticalAlign: "top",
+    position: "absolute",
+    zIndex: 1,
+    top: 0,
+    color: "white",
+  },
+  iconButtonBottom: {
+    width: "100%",
+    // height: "40%",
+    textAlign: 'center',
+    verticalAlign: "bottom",
+    position: "absolute",
+    zIndex: 1,
+    bottom: "0",
+    color: "white",
+  },
+
   cardContent: {
     width: "100%",
+    boxSizing: "border-box",
+    paddingBottom: "0px",
     display: 'block',
     flexWrap: 'wrap',
     justifyContent: 'space-around',
     overflow: 'hidden',
     backgroundColor: theme.palette.background.paper,
     textAlign: 'left',
-    padding: '5px 10px',
-    "&:last-child": {
-      paddingBottom: '5px'
-    }
+    // padding: '3px',
+    // "&:last-child": {
+    //   paddingBottom: '5px'
+    // }
   },
   textShopName: {
     fontSize: '1.4rem',
@@ -55,14 +94,6 @@ const useStyles = makeStyles((theme) => ({
     display: 'inline-block',
     margin: '0 2px',
   },
-  gridList: {
-    width: '100%',
-    maxHeight: '70%',
-    padding: '1px',
-  },
-  // gridListTile: {
-  //   padding: '1px'
-  // },
   title: {
     fontSize: 14,
   },
@@ -102,6 +133,14 @@ function RestaurantInformation(props) {
   return (
     <div className="RestaurantInformation" style={props.wrapperStyle}>
       <Card variant="outlined" className={classes.cardRoot}>
+        <div className={classes.glWrapper}>
+          <IconButton className={classes.iconButtonTop}
+                      onClick={() => {
+            scrollGrid(-1)
+          }}>
+            ^
+          </IconButton>
+
         <GridList
           className={classes.gridList}
           cols={props.data.Images.length <= 4 ? 1 : 2}
@@ -114,18 +153,14 @@ function RestaurantInformation(props) {
             </GridListTile>
           ))}
         </GridList>
+        <IconButton className={classes.iconButtonBottom} onClick={() => {
+          scrollGrid(1)
+        }}>
+          v
+        </IconButton>
         {/* <Divider /> */}
+        </div>
         <CardContent className={classes.cardContent}>
-          <IconButton onClick={() => {
-            scrollGrid(-1)
-          }}>
-            上
-          </IconButton>
-          <IconButton onClick={() => {
-            scrollGrid(1)
-          }}>
-            下
-          </IconButton>
           <Typography className={classes.textShopName}>
             {props.data.Name}
           </Typography>
