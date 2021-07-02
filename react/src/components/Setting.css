@@ -8,13 +8,14 @@
 
 .title-wrapper {
     height: 30%;
-    margin-top: 30px;
-}
-.title-image {
-    height: 80%;
+    width: 100%;
+    margin-top: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.title-wrapper > img {
+    height: 80%;
 }
 
 .forms-wrapper {
@@ -29,6 +30,11 @@
 .buttons-wrapper {
     height: 30%;
     flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .form-content-wrapper{
@@ -51,6 +57,7 @@
 
 .buttons-wrapper > button{
     height: 40%;
+    width: 100%;
     margin-bottom: 10px;
     padding: 0;
     background-color: transparent;
