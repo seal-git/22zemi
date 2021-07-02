@@ -200,7 +200,7 @@ def http_init():
     result = {'GroupId': group_id, 'UserId': user_id}
     return json.dumps(result, ensure_ascii=False)
 
-@app_.route('/invite', methods=['GET'])
+@app_.route('/invite', methods=['GET', 'POST'])
 # 検索条件を指定して、招待URLを返す
 def http_invite():
     URL = 'https://reskima.com'
@@ -339,7 +339,7 @@ def http_list():
         return "0"
         # return "['Likeしたお店がありません']"
         # return json.dumps(not_like_json, ensure_ascii=False)
-
+    print(str(current_group[group_id]['Users']))
     if len(current_group[group_id]['Users']) <= 1:
         # ひとりの時はLIKEしたリスト。リジェクトしたら一生お別れ
         # ひとりの時は投票数ゼロの店はリストに入れない
@@ -354,7 +354,9 @@ def http_list():
         return json.dumps(result_json, ensure_ascii=False)
     else:
         # みんなのときは全アイテムを投票数順に返す．ゼロ票も含む
-        restaurant_ids = list(current_group[group_id]['Users'][user_id]['Feeling'].keys())
+        restaurant_ids = []
+        for u in current_group[group_id]['Users'].values():
+            restaurant_ids += list(u['Feeling'].keys())
         result_json = get_restaurant_info(current_group[group_id], restaurant_ids)
 
         # 得票数が多い順に並べる
