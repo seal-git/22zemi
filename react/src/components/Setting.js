@@ -20,7 +20,6 @@ import SearchButtonOne from "./search_button_one.png"
 import SearchButtonAll from "./search_button_all.png"
 import {assignNumGlobal} from './global'
 
-
 // 設定画面
 function Setting(props) {
     // 「選ぶ」画面に進む処理
@@ -38,11 +37,18 @@ function Setting(props) {
             "open_hour_str": time
         })
 
-        // モード切り替え
-        props.setMode(newMode)
-
         // 新規セッションを作成
-        props.createNewSession(groupId)
+        props.setUserId(props.produceId())
+        let newGroupId = groupId
+        if(groupId===undefined || groupId==null || groupId.length===0){
+            newGroupId = props.produceId()
+        }
+        props.setGroupId(newGroupId)
+        // 招待URLを更新
+        props.setInviteUrl(props.callInviteUrl(newGroupId))
+
+        // モード設定
+        props.setMode(newMode)
 
         // カード枚数表示を0にする
         assignNumGlobal(0)

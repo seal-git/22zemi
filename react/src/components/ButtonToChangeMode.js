@@ -19,9 +19,6 @@ import { assignNumGlobal } from './global';
 /*
 「ひとりで」モードから「みんなで」モードに移るボタン
  */
-const produceId = () => {
-    return Math.random().toString(32).substring(2)
-}
 function ButtonToChangeMode(props) {
     const [open, setOpen] = useState(false);
 
@@ -33,31 +30,71 @@ function ButtonToChangeMode(props) {
         setOpen(false);
     };
 
-    const group_id = useRef("");
+    const groupIdRef = useRef("");
+
+    const setNewIds = (groupId) => {
+        // ユーザID を設定
+        let newUserId = props.produceId()
+        props.setUserId(newUserId)
+
+        let newGroupId = groupId
+        // グループIDを設定
+        if(newGroupId===undefined || newGroupId===null || newGroupId.length===0){
+            newGroupId = props.produceId()
+        }
+        props.setGroupId(newGroupId)
+        return [newUserId, newGroupId]
+    }
 
     const enterGroup = () => {
-        console.log("enter group "+group_id.current.value);
         handleClose();
-        console.log(group_id.current.value)
-        props.turnMode(group_id.current.value)
+
+        // ID の再設定
+        let [newUserId,newGroupId] = setNewIds(groupIdRef.current.value)
+        console.log("enter group ",newGroupId)
+
+        // 招待URLを設定
+        props.setInviteUrl(props.callInviteUrl(newGroupId))
+         
+        // モード切り替え
+        props.turnMode()
         // カード枚数表示を0にする
         assignNumGlobal(0)
+        // 情報取り直し
+        props.getInfo(newUserId, newGroupId)
     };
 
     const createGroup = () => {
-        console.log("create group!");
         handleClose();
-        props.turnMode("")
+
+        // ID を再設定
+        let [newUserId,newGroupId] = setNewIds()
+        console.log("create group ",newGroupId);
+        // 招待URLを設定
+        props.setInviteUrl(props.callInviteUrl(newGroupId))
+        // モード切り替え
+        props.turnMode()
         // カード枚数表示を0にする
         assignNumGlobal(0)
+        // 情報取り直し
+        props.getInfo(newUserId, newGroupId)
     }
 
     const leaveGroup = () => {
-        console.log("leave group!");
         handleClose();
-        props.turnMode("")
+        // ID を再設定
+        let [newUserId,newGroupId] = setNewIds()
+        console.log("leave group to group ",newGroupId);
+
+        // 招待URLを設定
+        props.setInviteUrl(props.callInviteUrl(newGroupId))
+        // モード切り替え
+        props.turnMode()
         // カード枚数表示を0にする
         assignNumGlobal(0)
+
+        // 情報取り直し
+        props.getInfo(newUserId, newGroupId)
     }
 
     const useStyles = makeStyles((theme) => ({
@@ -95,11 +132,11 @@ function ButtonToChangeMode(props) {
                     <DialogContent>
                         <Paper className={classes.root}>
                             <TextField
-                                id="group_id"
+                                id="groupIdRef"
                                 label="グループID"
                                 variant="outlined"
                                 InputLabelProps={{style:{fontSize: 12}}}
-                                inputRef={group_id}/>
+                                inputRef={groupIdRef}/>
                             <Button onClick={enterGroup}
                                     variant="contained"
                                     color="primary"

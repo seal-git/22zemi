@@ -392,8 +392,8 @@ def recommend_main(current_group, group_id, user_id, recommend_method):
     elif recommend_method == 'genre':
         result_json = recommend_genre(current_group, group_id, user_id)
     else:
-        #result_json = recommend_simple(current_group, group_id, user_id, 'hyblid')
-        result_json = recommend_genre(current_group, group_id, user_id)
+        result_json = recommend_simple(current_group, group_id, user_id, 'hyblid')
+        # result_json = recommend_genre(current_group, group_id, user_id)
 
     return json.dumps(result_json, ensure_ascii=False)
 
