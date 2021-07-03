@@ -62,7 +62,10 @@
     padding: 0;
     background-color: transparent;
     border-color: transparent;
-    z-index: 2;
     cursor: pointer;
+}
+
+.buttons-wrapper > button img{
+    height: 10vh;
 }
 
