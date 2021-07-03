@@ -11,7 +11,17 @@ import axios from "axios";
 import { useHistory, useLocation } from 'react-router-dom'
 
 const produceId = () => {
-    return Math.random().toString(32).substring(2)
+    // return Math.random().toString(32).substring(2)
+    var digit = 6; //桁数
+    var nines = '';
+    var zeros = '';
+    for(var i=0; i<digit; i++){
+        nines += '9';
+        zeros += '0';
+    }
+    var Id = Math.floor(Math.random() * Number(nines) + 1);
+    Id = (zeros+Id).slice(-6);
+    return Id;
 }
 
 // 現在時刻を文字列で取得

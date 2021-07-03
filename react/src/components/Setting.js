@@ -150,6 +150,7 @@ function Setting(props) {
                             <CustomInput
                                 defaultValue={props.paramsForSearch['maxprice']}
                                 id="inputMaxPrice"></CustomInput>
+                            円以内
                         </div>
                     </div>
                 </div>
@@ -176,7 +177,6 @@ function Setting(props) {
                         //buttonのstyleはここで指定しないと描画がずれる
                         src={SearchButtonOne}
                         className={"button-alone-image"}
-                        height="100%"
                         width={"auto"}
                         alt={"ButtonAlone"}/>
                 </button>
@@ -187,7 +187,6 @@ function Setting(props) {
                         //buttonのstyleはここで指定しないと描画がずれる
                         src={SearchButtonAll}
                         className={"button-group-image"}
-                        height="100%"
                         width={"auto"}
                         alt={"ButtonGroup"}/>
                 </button>
