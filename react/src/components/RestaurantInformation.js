@@ -24,12 +24,14 @@ const useStyles = makeStyles((theme) => ({
         display: "flex",
         flexDirection: "column",
         borderRadius: '30px',
+        position: 'relative',
     },
 
     gridList: {
         width: '100%',
+        height: '100%',
         padding: '1px',
-        flex: '1',
+        overflowY: 'scroll',
     },
 
     gridListTile: {},
@@ -42,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
         display: 'block',
         flexWrap: 'wrap',
         justifyContent: 'space-around',
-        overflow: 'hidden',
+        // overflow: 'hidden',
         backgroundColor: theme.palette.background.paper,
         textAlign: 'left',
         // padding: '3px',
@@ -111,7 +113,7 @@ function RestaurantInformation(props) {
             height: '28%',
             textAlign: 'center',
             position: 'absolute',
-            zIndex: '1',
+            zIndex: '2',
             color: 'white',
         },
     })(IconButton);
@@ -144,7 +146,6 @@ function RestaurantInformation(props) {
                                   onTouchEnd={() => scrollGrid(-1)}>
                         ^
                     </ScrollButtonTop>
-
                     <GridList
                         className={classes.gridList}
                         cols={props.data.Images.length <= 4 ? 1 : 2}
@@ -158,6 +159,7 @@ function RestaurantInformation(props) {
                             </GridListTile>
                         ))}
                     </GridList>
+
                     <ScrollButtonBottom onClick={() => {
                       scrollGrid(1)}}
                       onTouchEnd={() => scrollGrid(1)}>
@@ -165,6 +167,8 @@ function RestaurantInformation(props) {
                     </ScrollButtonBottom>
                     {/* <Divider /> */}
                 </div>
+                <div className={"cardContentWrapper"}>
+
                 <CardContent className={classes.cardContent}>
                     <Typography className={classes.textShopName}>
                         {props.data.Name}
@@ -190,6 +194,7 @@ function RestaurantInformation(props) {
                         {props.data.BusinessHour}
                     </Typography>
                 </CardContent>
+                </div>
             </Card>
         </div>
 
