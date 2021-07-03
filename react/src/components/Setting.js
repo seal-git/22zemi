@@ -150,6 +150,7 @@ function Setting(props) {
                             <CustomInput
                                 defaultValue={props.paramsForSearch['maxprice']}
                                 id="inputMaxPrice"></CustomInput>
+                            円以内
                         </div>
                     </div>
                 </div>

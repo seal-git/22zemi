@@ -1,0 +1,23 @@
+
+.RestaurantInformation {
+    backgroundColor: transparent;
+    width: 100%;
+    margin: 3px;
+    position: absolute;
+}
+
+.glWrapper {
+    position: relative;
+    alignItems: center;
+}
+
+.iconButtonTop {
+    verticalAlign: top;
+    top: 0;
+}
+
+.iconButtonBottom {
+    verticalAlign: bottom;
+    bottom: 0;
+}
+
