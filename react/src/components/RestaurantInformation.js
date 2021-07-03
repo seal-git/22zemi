@@ -42,6 +42,7 @@ const useStyles = makeStyles((theme) => ({
 
   cardContent: {
     width: "100%",
+    height: "40%",
     boxSizing: "border-box",
     paddingBottom: "0px",
     display: 'block',
@@ -50,10 +51,6 @@ const useStyles = makeStyles((theme) => ({
     overflow: 'hidden',
     backgroundColor: theme.palette.background.paper,
     textAlign: 'left',
-    // padding: '3px',
-    // "&:last-child": {
-    //   paddingBottom: '5px'
-    // }
   },
   textShopName: {
     fontSize: '1.4rem',
@@ -116,7 +113,6 @@ function RestaurantInformation(props) {
       height: '10%',
       textAlign: 'center',
       position: 'absolute',
-      zIndex: '1',
       color: 'white',
 
     },
@@ -143,15 +139,6 @@ function RestaurantInformation(props) {
   return (
     <div className="RestaurantInformation" style={props.wrapperStyle}>
       <Card variant="outlined" className={classes.cardRoot}>
-        {/* <Box className='glWrapper'> */}
-
-        <ScrollButtonTop
-          onClick={() => {
-            scrollGrid(-1)
-          }}
-          onTouchEnd={() => scrollGrid(-1)}>
-          <KeyboardArrowUpIcon fontSize="large" />
-        </ScrollButtonTop>
         <GridList
           className={classes.gridList}
           cols={props.data.Images.length <= 4 ? 1 : 2}
@@ -165,6 +152,13 @@ function RestaurantInformation(props) {
             </GridListTile>
           ))}
         </GridList>
+        <ScrollButtonTop
+          onClick={() => {
+            scrollGrid(-1)
+          }}
+          onTouchEnd={() => scrollGrid(-1)}>
+          <KeyboardArrowUpIcon fontSize="large" />
+        </ScrollButtonTop>
         <ScrollButtonBottom
           onClick={() => {
             scrollGrid(1)
@@ -172,8 +166,6 @@ function RestaurantInformation(props) {
           onTouchEnd={() => scrollGrid(1)}>
           <KeyboardArrowDownIcon fontSize="large" />
         </ScrollButtonBottom>
-        {/* <Divider /> */}
-        {/* </Box> */}
         <CardContent className={classes.cardContent}>
           <Typography className={classes.textShopName}>
             {props.data.Name}
