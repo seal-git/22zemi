@@ -7,8 +7,10 @@
 }
 
 .glWrapper {
+    min-height: 0;
     position: relative;
     alignItems: center;
+    flex: 1
 }
 
 .iconButtonTop {
