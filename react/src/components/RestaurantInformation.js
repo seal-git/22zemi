@@ -113,7 +113,7 @@ function RestaurantInformation(props) {
             height: '28%',
             textAlign: 'center',
             position: 'absolute',
-            zIndex: '2',
+            // zIndex: '2',
             color: 'white',
         },
     })(IconButton);
@@ -140,12 +140,6 @@ function RestaurantInformation(props) {
         <div className="RestaurantInformation" style={props.wrapperStyle}>
             <Card variant="outlined" className={classes.cardRoot}>
                 <div className='glWrapper'>
-                    <ScrollButtonTop onClick={() => {
-                                      scrollGrid(-1)
-                                  }}
-                                  onTouchEnd={() => scrollGrid(-1)}>
-                        ^
-                    </ScrollButtonTop>
                     <GridList
                         className={classes.gridList}
                         cols={props.data.Images.length <= 4 ? 1 : 2}
@@ -159,6 +153,12 @@ function RestaurantInformation(props) {
                             </GridListTile>
                         ))}
                     </GridList>
+                    <ScrollButtonTop onClick={() => {
+                                      scrollGrid(-1)
+                                  }}
+                                  onTouchEnd={() => scrollGrid(-1)}>
+                        ^
+                    </ScrollButtonTop>
 
                     <ScrollButtonBottom onClick={() => {
                       scrollGrid(1)}}
