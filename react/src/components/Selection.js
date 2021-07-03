@@ -199,9 +199,9 @@ function Selection(props) {
           style={display_style}>
           <ButtonToInvite
             url={props.inviteUrl}
-            groupId={props.groupId} 
+            groupId={props.groupId}
             callInviteUrl={props.callInviteUrl}
-            />
+          />
           <div className="group-id">
             ルームID:{props.groupId}
           </div>
