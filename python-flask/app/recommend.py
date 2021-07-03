@@ -3,8 +3,8 @@ import json
 import os
 import random
 
-RESULTS_COUNT = 1 # 一回に返す店舗の数
-MAX_DISTANCE = 20 # 中心地からの距離 上限20
+RESULTS_COUNT = 10 # 一回に返す店舗の数
+MAX_DISTANCE = 8 # 中心地からの距離 上限20
 
 #カテゴリの類似度が高い物
 with open("./data/category_high_sim.json","rb") as f:
@@ -423,8 +423,8 @@ def recommend_main(current_group, group_id, user_id, recommend_method):
     elif recommend_method == 'genre':
         result_json = recommend_genre(current_group, group_id, user_id)
     else:
-        #result_json = recommend_simple(current_group, group_id, user_id, 'hyblid')
-        result_json = recommend_genre(current_group, group_id, user_id)
+        result_json = recommend_simple(current_group, group_id, user_id, 'hyblid')
+        # result_json = recommend_genre(current_group, group_id, user_id)
 
     return result_json
 
