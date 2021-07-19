@@ -70,7 +70,7 @@ services:
         - '80:80'
         - '443:443'
       environment:
-        DOMAINS: 'localhost -> react:3000'
+        DOMAINS: 'reskima.com -> react:3000'
         STAGE: 'staging'
         # STAGE: 'production' # Don't use production until staging works
         # FORCE_RENEW: 'true'
