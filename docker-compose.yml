@@ -69,7 +69,7 @@ services:
         - '443:443'
       environment:
         DOMAINS: 'localhost -> react:3000'
-        STAGE: 'local'
+        STAGE: 'staging'
         # STAGE: 'production' # Don't use production until staging works
         # FORCE_RENEW: 'true'
       restart: on-failure
