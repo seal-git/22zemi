@@ -72,6 +72,7 @@ def recommend_simple(current_group, group_id, user_id, recommend_method, params=
             dist = params["dist"]
         else:
             dist = MAX_DISTANCE
+        dist = MAX_DISTANCE #距離固定
         if "price" in params.keys():
             price = params["price"]
         else:
@@ -194,6 +195,7 @@ def recommend_genre(current_group, group_id, user_id):
         return result_json
     else:
         simple_method = random.choice(['rating', 'score', 'hyblid', 'review', 'kana', 'price', 'dist', 'geo', '-rating', '-score', '-hyblid', '-review', '-kana', '-price', '-dist', '-geo'])
+        simple_method = 'rating'
         #データがなければsimple
         if len(current_group[group_id]["Restaurants"].keys()) == 0:
             print("start")
@@ -309,7 +311,8 @@ def recommend_genre(current_group, group_id, user_id):
         }
         local_search_params.update(current_group[group_id]['FilterParams'])
     
-        local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(current_group[group_id], local_search_params)
+        #local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(current_group[group_id], local_search_params)
+        result_json = recommend_simple(current_group, group_id, user_id, simple_method, params)
         result_json = delete_duplicate_result(current_group, group_id, user_id, result_json)
         result_json = get_result_json_price_filter(meanprice, result_json)
 
