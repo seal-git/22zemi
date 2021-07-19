@@ -64,6 +64,8 @@ services:
   https-portal:
       image: steveltn/https-portal:1
       container_name: https
+      depends_on:
+        - react
       ports:
         - '80:80'
         - '443:443'
