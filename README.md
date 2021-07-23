@@ -13,16 +13,19 @@ docker compose build
 docker compose up -d
 ```
 コンテナのcreateがdoneになっても，アプリの起動が完了するまでは待つ必要がある．
-初めてのbuild時は，/mysqlにdbディレクトリを作る必要がある．
-**localhost:3000でアプリにアクセスできる．**
+~~初めてのbuild時は，/mysqlにdbディレクトリを作る必要がある．~~
+dbの実体はdockerが作るvolumeに保存される．
+**localhost:80でアプリにアクセスできる．**
 
-起動後は次のポートが開く．
+起動後は次のポートが内部に開く．各コンテナの内部からは見ることができる．
 - react 
   - 3000
 - python-flask
   - 5000
 - mysql
   - 3306
+- https
+  - 80, 443
 
 ## コンテナ内に入りたい場合
 ```
