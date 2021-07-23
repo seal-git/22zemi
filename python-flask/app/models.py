@@ -14,6 +14,7 @@ import qrcode
 from PIL import Image
 import base64
 from io import BytesIO
+import time
 
 """
 mysqlサーバーとの接続はmysql.connectorで行っているが，SQLAlchemyへ換装したい．
@@ -21,7 +22,7 @@ mysqlサーバーとの接続はmysql.connectorで行っているが，SQLAlchem
 
 '''
 現在アプリを使っているグループやユーザを格納する
-{group_id1: {
+current_group = {group_id1: {
     'Coordinates': (lat,lon),
     'Address': 住所,
     'FilterParams': {}
@@ -34,7 +35,6 @@ mysqlサーバーとの接続はmysql.connectorで行っているが，SQLAlchem
     'Unanimous': [restaurant_id1, ... ]
 }, ... }
 '''
-current_group = {}
 
 # mysqlサーバーと接続
 conn = mysql.connector.connect(
@@ -50,6 +50,59 @@ conn.ping(reconnect=True)
 if conn.is_connected():
     print("db connected!")
 
+
+def initialize_db():
+    db_construction = {
+        "Users": {
+            "id": "int unsigned auto_increment primary key",
+            "name": "varchar(50)",
+            "email": "varchar(80)",
+            "created_at": "timestamp not null",
+            "updated_at": "timestamp not null",
+            "password": "varchar(50)"
+        },
+        "Groups": {
+            "id": "int unsigned auto_increment primary key",
+            "created_at": "timestamp",
+            "updated_at": "timestamp",
+            "password": "varchar(50)"
+        },
+        "Restaurants": {
+            "id": "varchar(40) primary key",
+            "created_at": "timestamp not null",
+            "updated_at": "timestamp not null",
+            "images": "varchar(80)",
+            "price": "int unsigned",
+            "open_hour": "int unsigned",
+            "address": "varchar(80)",
+            "menu": "varchar(80)"
+        },
+        "Belongs": {
+            "user": "int unsigned not null",
+            "group": "int unsigned not null",
+            "created_at": "timestamp not null",
+            "updated_at": "timestamp not null",
+            "requestcount": "int unsigned default 0", # request count
+            "requestrestaurantsnum": "int unsigned default 0"
+        }
+    }
+
+    db_additional_setting = {
+        "Users": "",
+        "Groups": "",
+        "Restaurants": "",
+        "Belongs": "PRIMARY KEY(`user`, `group`)"
+    }
+
+    cur = conn.cursor()
+    for table,columns in db_construction.items():
+        cur.execute("DROP TABLE IF EXISTS `%s`;" % table)
+        cur.execute("CREATE TABLE IF NOT EXISTS `%s` ( %s ) %s ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;" % (
+            table, ", ".join(["`%s` %s"%(c,d) for c,d in columns.items()]), db_additional_setting[table]
+        ))
+    cur.close()
+    return "complete create_db\n"
+
 def generate_group_id():
     '''
     重複しないグループIDを生成する
@@ -58,15 +111,17 @@ def generate_group_id():
     ----------------
     group_id : string
     '''
-    global current_group
     for i in range(1000000):
         group_id = str(randint(0, 999999))
-        if group_id not in current_group:
+        cur = conn.cursor()
+        cur.execute("SELECT `id` FROM `Groups` WHERE `id` = %s;" % group_id)
+        fetch = cur.fetchone()
+        cur.close()
+        if fetch is not None:
             return group_id
-    return group_id
+    return group_id # error
 
 def get_group_id(user_id):
-    global current_group
     '''
     ユーザIDからグループIDを得る。グループIDを指定しない場合にはこの関数を使う。グループIDを指定する場合はユーザIDに重複があっても良いが、グループIDを指定しない場合にはユーザIDに重複があってはいけない。
     
@@ -78,10 +133,14 @@ def get_group_id(user_id):
     ----------------
     group_id : string
     '''
-    for gid,g in current_group.items():
-        if user_id in g['Users'].keys():
-            return gid
-    return None
+    cur = conn.cursor()
+    cur.execute("SELECT `group` FROM `Belongs` WHERE `user` = %s;" % user_id)
+    fetch = cur.fetchone()
+    cur.close()
+    if fetch is not None:
+        return fetch[0]
+    else:
+        return None # error
 
 def generate_user_id():
     '''
@@ -91,20 +150,19 @@ def generate_user_id():
     ----------------
     user_id : string
     '''
-    global current_group
     for i in range(1000000):
         user_id = ''.join([random.choice(string.ascii_letters + string.digits) for j in range(12)])
-        for g in current_group.values():
-            for u in g['Users'].items():
-                if u == user_id:
-                    user_id = ""
-        if user_id != "":
+        cur = conn.cursor()
+        cur.execute("SELECT `id` FROM `Users` WHERE `id` = %s;" % user_id)
+        fetch = cur.fetchone()
+        cur.close()
+        if fetch is not None:
             return user_id
-    return user_id
+    return user_id # error
 
 def set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice):
     '''
-    検索条件を受け取り、current_groupを更新する。
+    検索条件を受け取り、dbを更新する。
     '''
     global current_group
     if place is None and genre is None and query is None and open_hour is None and maxprice is None and minprice is None: return
@@ -187,8 +245,7 @@ def get_sample_db():
 @app_.route('/initialize_current_group', methods=['GET','POST'])
 # current_groupを初期化
 def http_initialize_current_group():
-    global current_group
-    current_group = {}
+    initialize_db()
     return "current_groupの初期化に成功！"
 
 @app_.route('/init', methods=['GET','POST'])
@@ -232,7 +289,6 @@ def http_invite():
 @app_.route('/info', methods=['GET','POST'])
 # 店情報を要求するリクエスト
 def http_info():
-    global current_group
     data = request.get_json()["params"]
     user_id = data["user_id"] if data.get("user_id", False) else None
     group_id = data["group_id"] if data.get("group_id", False) else None
@@ -254,17 +310,23 @@ def http_info():
     # TODO: 開発用に時間を固定
     open_hour = '18'
     
-    if group_id not in current_group:
-        current_group[group_id] = {'Coordinates': (lat,lon), 'Address': address, 'FilterParams': {}, 'Users': {}, 'Restaurants': {}, "RestaurantsOrder": []}
-    if user_id not in current_group[group_id]['Users']:
-        current_group[group_id]['Users'][user_id] = {'RequestCount': 0, 'Feeling': {}, "RequestRestaurantsNum": 0} # 1回目のリクエストは、ユーザを登録する
+    cur = conn.cursor(dictionary=True)
+    cur.execute("SELECT `id` FROM `Groups` WHERE `id` = %s;" % group_id)
+    if cur.fetchone() is None:
+        cur.execute("INSERT INTO `Groups` (`id`, `created_at`, `updated_at`) VALUES (%s, NOW(), NOW())" % (group_id))
+    
+    cur.execute("SELECT * FROM Belongs WHERE user = %s, group = %s;" % (user_id, group_id))
+    fetch = cur.fetchone()
+    if fetch is None:
+        cur.execute("INSERT INTO `Belong` (`user`, `group`, `created_at`, `updated_at`, `requestcount`) VALUES (%s, %s, %d, %d, %d);" % (user_id, group_id, int(time.time(), int(time.time()), 0)))
     else:
-        current_group[group_id]['Users'][user_id]['RequestCount'] += 1 # 2回目以降のリクエストは、前回の続きの店舗情報を送る
+        cur.execute("UPDATE `Belong` SET `requestcount` = %d WHERE user = %s, group = %s" % (fetch['requestcount'] + 1, user_id, group_id)) # 2回目以降のリクエストは、前回の続きの店舗情報を送る
 
     # 検索条件
     set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice)
-    result_json = recommend.recommend_main(current_group, group_id, user_id, recommend_method)
-    current_group[group_id]['Users'][user_id]["RequestRestaurantsNum"] += len(result_json)
+    result_json = recommend.recommend_main(group_id, user_id, recommend_method)
+    cur.execute("UPDATE `Belong` SET `requestrestaurantsnum` = %d WHERE user = %s, group = %s" % (len(result_json) + 1, user_id, group_id)) # 2回目以降のリクエストは、前回の続きの店舗情報を送る
+    cur.close()
     return json.dumps(result_json, ensure_ascii=False)
 
 @app_.route('/feeling', methods=['GET','POST'])
