@@ -1,43 +1,43 @@
-import React from 'react';
-import {useState} from 'react';
-import Button from '@material-ui/core/Button';
-import Dialog from '@material-ui/core/Dialog';
-import DialogActions from '@material-ui/core/DialogActions';
-import DialogContent from '@material-ui/core/DialogContent';
-import DialogContentText from '@material-ui/core/DialogContentText';
-import DialogTitle from '@material-ui/core/DialogTitle';
-import {withStyles} from '@material-ui/core/styles';
-import {CopyToClipboard} from 'react-copy-to-clipboard';
+import React from 'react'
+// パッケージからインポート
+import { useState } from 'react'
+import Button from '@material-ui/core/Button'
+import Dialog from '@material-ui/core/Dialog'
+import DialogContent from '@material-ui/core/DialogContent'
+import DialogTitle from '@material-ui/core/DialogTitle'
+import { withStyles } from '@material-ui/core/styles'
+import { CopyToClipboard } from 'react-copy-to-clipboard'
+
 /*
 招待ボタン：押すと招待URLが表示される
  */
-
 function ButtonToInvite(props) {
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(false)
     const [isCopied, setIsCopied] = useState(false)
 
     const handleClickOpen = () => {
-        setOpen(true);
+        setOpen(true)
         setIsCopied(false)
     };
 
     const handleClose = () => {
-        setOpen(false);
+        setOpen(false)
     };
-    const MyButton = withStyles((theme) => ({
-    root: {
-        height: '30px',
-        background: 'linear-gradient(116.73deg,' +
-            ' #FFCD4E 27.25%,' +
-            ' #FFB74A' +
-            ' 71.71%)',
-        margin: '5px',
-        border: '0px',
-        fontSize: '0.8rem',
-    }
-}))(Button);
 
-const url = "https://reskima.com?group_id="+props.groupId
+    const MyButton = withStyles((theme) => ({
+        root: {
+            height: '30px',
+            background: 'linear-gradient(116.73deg,' +
+                ' #FFCD4E 27.25%,' +
+                ' #FFB74A' +
+                ' 71.71%)',
+            margin: '5px',
+            border: '0px',
+            fontSize: '0.8rem',
+        }
+    }))(Button);
+
+    const url = "https://reskima.com?group_id="+props.groupId
     return (
         <div className="ButtonToInvite">
             <MyButton className={"button-to-invite"}
@@ -65,4 +65,4 @@ const url = "https://reskima.com?group_id="+props.groupId
     )
 }
 
-export default ButtonToInvite;
+export default ButtonToInvite

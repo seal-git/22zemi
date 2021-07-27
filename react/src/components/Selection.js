@@ -1,33 +1,34 @@
-import React from 'react';
-import { useEffect, useState } from "react";
-import Buttons from "./Buttons";
-import RestaurantInformation from "./RestaurantInformation";
-import ButtonToChangeMode from "./ButtonToChangeMode";
-import ButtonToInvite from "./ButtonToInvite";
-import axios from "axios";
-import "./Selection.css";
-import TinderCard from 'react-tinder-card';
-import noImageIcon from "./no_image.png";
-import { assignNumGlobal } from './global';
-import Credit from "./Credit";
-import sampledata from "./sampleData.json"
-
-// スワイプでお店を選ぶ画面
+import React from 'react'
+import "./Selection.css"
+// パッケージからインポート
+import axios from "axios"
+import { useEffect, useState } from "react"
+import TinderCard from 'react-tinder-card'
+// 他のファイルからインポート
+import { assignNumGlobal } from './global'
+import ButtonToChangeMode from "./ButtonToChangeMode"
+import ButtonToInvite from "./ButtonToInvite"
+import Credit from "./Credit"
+import RestaurantInformation from "./RestaurantInformation"
+import noImageIcon from "..//img/no_image.png"
 
 const initDataList = [{
   "Name": "Loading...",
   "Images": [noImageIcon, noImageIcon],
   "Price": ""
-}];
+}]
 const emptyDataList = [{
   "Name": "No Data:\n検索条件を変えてみてください",
   "Images": [noImageIcon, noImageIcon]
-}];
+}]
 
 var wrapperStyle = {
   margin: 0,
-};
+}
 
+/*
+ スワイプでお店を選ぶコンポーネント
+ */
 function Selection(props) {
   const [dataList, setDataList] = useState(initDataList)
   let cardNum = dataList.length
@@ -48,7 +49,7 @@ function Selection(props) {
     if (newGroupId === undefined || newGroupId === null || newGroupId.length === 0) {
       groupId = props.groupId
     }
-    const paramsId = { "user_id": userId, "group_id": groupId };
+    const paramsId = { "user_id": userId, "group_id": groupId }
     const params = {
       ...paramsId, ...props.paramsForSearch,
       'open_hour': +props.paramsForSearch['open_hour_str'].slice(0, 2)
@@ -75,18 +76,19 @@ function Selection(props) {
       });
   }
 
-  // 初レンダリング時に自動でデータを得る
   useEffect(() => {
     getInfo()
+    // Mount 時にだけ呼び出す
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   // カードをめくる
   const turnCard = () => {
     // データリストが初期状態の場合何もしない
-    if (dataList[0].Name == initDataList[0].Name) return;
+    if (dataList[0].Name === initDataList[0].Name) return;
     // カード枚数を1減らす
     cardNum -= 1
-    if (cardNum == 0) {
+    if (cardNum === 0) {
       // データリストの取得待ちであることを明示する
       cardNum = 1
       setDataList(initDataList)
@@ -137,17 +139,17 @@ function Selection(props) {
 
   // カードの高さを指定する
   function getAdaptiveStyle() {
-    let height = window.innerHeight;
-    height = document.getElementById("selection").getBoundingClientRect().height;
+    // let height = window.innerHeight
+    let height = document.getElementById("selection").getBoundingClientRect().height
     let wrapperStyle = {
       height: height,
-    };
-    return wrapperStyle;
+    }
+    return wrapperStyle
   };
   //windowサイズの変更検知のイベントハンドラを設定
   window.addEventListener('load', () => {
-    wrapperStyle = getAdaptiveStyle();
-  });
+    wrapperStyle = getAdaptiveStyle()
+  })
 
   // swipe 操作をハンドル
   const handleLeftScreen = (dir, restaurant_id) => {
@@ -161,7 +163,7 @@ function Selection(props) {
   const CardsContainer = (props) => {
     // スワイプできない方向を設定
     let prevents = ['up', 'down']
-    if (props.dataList === initDataList || props.dataList == emptyDataList) {
+    if (props.dataList === initDataList || props.dataList === emptyDataList) {
       prevents = ['up', 'down', 'right', 'left']
     }
     // お店ごとに情報カードを生成
@@ -178,11 +180,11 @@ function Selection(props) {
           <RestaurantInformation data={data}
             wrapperStyle={wrapperStyle} />
         </TinderCard>
-      );
+      )
     }))
   }
   var display_style;
-  props.mode == "Alone" ? display_style = { display: "none" } : display_style = null;
+  props.mode === "Alone" ? display_style = { display: "none" } : display_style = null;
 
   return (
     <div className="Selection-wrapper">
@@ -220,4 +222,4 @@ function Selection(props) {
   );
 }
 
-export default Selection;
+export default Selection
