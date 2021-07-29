@@ -2,9 +2,9 @@
 from flask import jsonify, make_response, request
 from app import app_, db_
 from app import recommend, api_functions
+from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History
 import mysql.connector
 from random import randint
-import os
 import json
 import random
 from werkzeug.exceptions import NotFound,BadRequest,InternalServerError
@@ -15,26 +15,14 @@ from PIL import Image
 import base64
 from io import BytesIO
 import time
+import sqlalchemy
+from sqlalchemy.sql.functions import current_timestamp
+
+
 
 """
 mysqlサーバーとの接続はmysql.connectorで行っているが，SQLAlchemyへ換装したい．
 """
-
-'''
-現在アプリを使っているグループやユーザを格納する
-current_group = {group_id1: {
-    'Coordinates': (lat,lon),
-    'Address': 住所,
-    'FilterParams': {}
-    'Users': { 'user_id1: {
-        'RequestCount': 0,
-        'Feeling': {restaurant_id1: true, ... },
-        'UnanimousNoticed': [restaurant_id1, ... ]
-    }, ... },
-    'Restaurants': {restaurant_id1, {'Like': [user_id1, ...], 'All': [user_id1, ...]}, ... },
-    'Unanimous': [restaurant_id1, ... ]
-}, ... }
-'''
 
 # mysqlサーバーと接続
 conn = mysql.connector.connect(
@@ -51,58 +39,6 @@ if conn.is_connected():
     print("db connected!")
 
 
-def initialize_db():
-    db_construction = {
-        "Users": {
-            "id": "int unsigned auto_increment primary key",
-            "name": "varchar(50)",
-            "email": "varchar(80)",
-            "created_at": "timestamp not null",
-            "updated_at": "timestamp not null",
-            "password": "varchar(50)"
-        },
-        "Groups": {
-            "id": "int unsigned auto_increment primary key",
-            "created_at": "timestamp",
-            "updated_at": "timestamp",
-            "password": "varchar(50)"
-        },
-        "Restaurants": {
-            "id": "varchar(40) primary key",
-            "created_at": "timestamp not null",
-            "updated_at": "timestamp not null",
-            "images": "varchar(80)",
-            "price": "int unsigned",
-            "open_hour": "int unsigned",
-            "address": "varchar(80)",
-            "menu": "varchar(80)"
-        },
-        "Belongs": {
-            "user": "int unsigned not null",
-            "group": "int unsigned not null",
-            "created_at": "timestamp not null",
-            "updated_at": "timestamp not null",
-            "requestcount": "int unsigned default 0", # request count
-            "requestrestaurantsnum": "int unsigned default 0"
-        }
-    }
-
-    db_additional_setting = {
-        "Users": "",
-        "Groups": "",
-        "Restaurants": "",
-        "Belongs": "PRIMARY KEY(`user`, `group`)"
-    }
-
-    cur = conn.cursor()
-    for table,columns in db_construction.items():
-        cur.execute("DROP TABLE IF EXISTS `%s`;" % table)
-        cur.execute("CREATE TABLE IF NOT EXISTS `%s` ( %s ) %s ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;" % (
-            table, ", ".join(["`%s` %s"%(c,d) for c,d in columns.items()]), db_additional_setting[table]
-        ))
-    cur.close()
-    return "complete create_db\n"
-
 def generate_group_id():
     '''
     重複しないグループIDを生成する
@@ -113,11 +49,8 @@ def generate_group_id():
     '''
     for i in range(1000000):
         group_id = str(randint(0, 999999))
-        cur = conn.cursor()
-        cur.execute("SELECT `id` FROM `Groups` WHERE `id` = %s;" % group_id)
-        fetch = cur.fetchone()
-        cur.close()
-        if fetch is not None:
+        fetch = session.query(Group).filter(Group.id==group_id).first()
+        if fetch is None:
             return group_id
     return group_id # error
 
@@ -133,12 +66,9 @@ def get_group_id(user_id):
     ----------------
     group_id : string
     '''
-    cur = conn.cursor()
-    cur.execute("SELECT `group` FROM `Belongs` WHERE `user` = %s;" % user_id)
-    fetch = cur.fetchone()
-    cur.close()
-    if fetch is not None:
-        return fetch[0]
+    fetch_belong = session.query(Belong.group).filter(Belong.user==user_id).first()
+    if fetch_belong is not None:
+        return fetch_belong.group
     else:
         return None # error
 
@@ -152,11 +82,8 @@ def generate_user_id():
     '''
     for i in range(1000000):
         user_id = ''.join([random.choice(string.ascii_letters + string.digits) for j in range(12)])
-        cur = conn.cursor()
-        cur.execute("SELECT `id` FROM `Users` WHERE `id` = %s;" % user_id)
-        fetch = cur.fetchone()
-        cur.close()
-        if fetch is not None:
+        fetch = session.query(User).filter(User.id==user_id).first()
+        if fetch is None:
             return user_id
     return user_id # error
 
@@ -164,38 +91,38 @@ def set_filter_params(group_id, place, genre, query, open_day, open_hour, maxpri
     '''
     検索条件を受け取り、dbを更新する。
     '''
-    global current_group
     if place is None and genre is None and query is None and open_hour is None and maxprice is None and minprice is None: return
     
+    fetch_group = session.query(Group).filter(Group.id==group_id).first()
+
     if place is not None:
         lat,lon,address = api_functions.get_lat_lon(place)
-        current_group[group_id]['Coordinates'] = (lat,lon)
-        current_group[group_id]['Address'] = address
-    if genre is not None or query is not None:
-        if genre is None:
-            current_group[group_id]['FilterParams']['query'] = query
-        elif query is None:
-            current_group[group_id]['FilterParams']['query'] = genre
-        else:
-            current_group[group_id]['FilterParams']['query'] = genre + ' ' + query
+        fetch_group.lat = lat
+        fetch_group.lon = lon
+        fetch_group.address = address
+    fetch_group.query = query
+    fetch_group.genre = genre
+    fetch_group.max_price = maxprice
+    fetch_group.min_price = minprice
     if open_hour is not None:
         if open_day is not None:
-            current_group[group_id]['FilterParams']['open'] = open_day + ',' + open_hour
+            fetch_group.open_day = open_day
         else:
-            current_group[group_id]['FilterParams']['open'] = str(datetime.datetime.now().day) + ',' + open_hour
-    if maxprice is not None:
-        current_group[group_id]['FilterParams']['maxprice'] = int(maxprice)
-    if minprice is not None:
-        current_group[group_id]['FilterParams']['minprice'] = int(minprice)
+            fetch_group.open_day = datetime.datetime.strftime(datetime.date.today() if datetime.datetime.now().hour<=open_hour else datetime.date.today() + datetime.timedelta(days=1), '%Y-%m-%d')
+    else:
+        fetch_group.open_day = current_timestamp()
+    fetch_group.open_hour = open_hour if open_hour is not None else current_timestamp()
 
-def get_restaurant_info(group, restaurant_ids):
+    session.commit()
+
+def get_restaurant_info(group_id, restaurant_ids):
     '''
     Yahoo local search APIで情報を取得し、json形式で情報を返す
     
     Parameters
     ----------------
-    group : dict
-       current_group[group_id]
+    group_id: String
+        group ID
     restaurant_ids : [string]
         restaurant_idのリスト
     
@@ -206,8 +133,8 @@ def get_restaurant_info(group, restaurant_ids):
     '''
     restaurant_ids_del_None = [x for x in restaurant_ids if x]
     local_search_params = { 'uid': ','.join(restaurant_ids_del_None) }
-    
-    local_search_json, result_json = api_functions.get_restaurant_info_from_local_search_params(group, local_search_params)
+    fetch_group = session.query(Group).filter(Group.id==group_id).first()
+    local_search_json, result_json = api_functions.get_restaurant_info_from_local_search_params(fetch_group, group_id, local_search_params)
     return result_json
 
 
@@ -243,15 +170,14 @@ def get_sample_db():
     return make_response(jsonify(result))
 
 @app_.route('/initialize_current_group', methods=['GET','POST'])
-# current_groupを初期化
+# dbを初期化
 def http_initialize_current_group():
-    initialize_db()
-    return "current_groupの初期化に成功！"
+    Base.metadata.create_all(bind=ENGINE)
+    return "complete create_db\n"
 
 @app_.route('/init', methods=['GET','POST'])
 # まだ使われていないグループIDを返すだけ
 def http_init():
-    global current_group
     group_id = generate_group_id()
     user_id = generate_user_id()
     result = {'GroupId': group_id, 'UserId': user_id}
@@ -310,29 +236,36 @@ def http_info():
     # TODO: 開発用に時間を固定
     open_hour = '18'
     
-    cur = conn.cursor(dictionary=True)
-    cur.execute("SELECT `id` FROM `Groups` WHERE `id` = %s;" % group_id)
-    if cur.fetchone() is None:
-        cur.execute("INSERT INTO `Groups` (`id`, `created_at`, `updated_at`) VALUES (%s, NOW(), NOW())" % (group_id))
-    
-    cur.execute("SELECT * FROM Belongs WHERE user = %s, group = %s;" % (user_id, group_id))
-    fetch = cur.fetchone()
-    if fetch is None:
-        cur.execute("INSERT INTO `Belong` (`user`, `group`, `created_at`, `updated_at`, `requestcount`) VALUES (%s, %s, %d, %d, %d);" % (user_id, group_id, int(time.time(), int(time.time()), 0)))
+    fetch_group = session.query(Group).filter(Group.id==group_id).first()
+    if fetch_group is None:
+        new_group = Group()
+        new_group.id = group_id
+        session.add(new_group)
+        session.commit()
+        fetch_group = session.query(Group).filter(Group.id==group_id).one()
+
+    fetch_belong = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).first()
+    if fetch_belong is None:
+        new_belong = Belong()
+        new_belong.user = user_id
+        new_belong.group = group_id
+        session.add(new_belong)
+        session.commit()
+        fetch_belong = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()
     else:
-        cur.execute("UPDATE `Belong` SET `requestcount` = %d WHERE user = %s, group = %s" % (fetch['requestcount'] + 1, user_id, group_id)) # 2回目以降のリクエストは、前回の続きの店舗情報を送る
+        fetch_belong.request_count += 1
+        session.commit()
 
     # 検索条件
     set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice)
-    result_json = recommend.recommend_main(group_id, user_id, recommend_method)
-    cur.execute("UPDATE `Belong` SET `requestrestaurantsnum` = %d WHERE user = %s, group = %s" % (len(result_json) + 1, user_id, group_id)) # 2回目以降のリクエストは、前回の続きの店舗情報を送る
-    cur.close()
+    result_json = recommend.recommend_main(fetch_group, group_id, user_id, recommend_method)
+    fetch_belong.request_restaurants_num = len(result_json) + 1
+    session.commit()
     return json.dumps(result_json, ensure_ascii=False)
 
 @app_.route('/feeling', methods=['GET','POST'])
 # キープ・リジェクトの結果を受け取り、メモリに格納する。全会一致の店舗を知らせる。
 def http_feeling():
-    global current_group
     data = request.get_json()["params"]
     user_id = data["user_id"] if data.get("user_id", False) else None
     group_id = data["group_id"] if data.get("group_id", False) else None
@@ -341,69 +274,58 @@ def http_feeling():
 
     group_id = group_id if group_id is not None else get_group_id(user_id)
     
-    # 情報を登録
-    current_group[group_id]['Users'][user_id]['Feeling'][restaurant_id] = feeling
-    if feeling:
-        current_group[group_id]['Restaurants'][restaurant_id]['Like'].add(user_id)
-    else:
-        current_group[group_id]['Restaurants'][restaurant_id]['Like'].discard(user_id)
-    current_group[group_id]['Restaurants'][restaurant_id]['All'].add(user_id)
-    
+    # feelingを登録
+    fetch_exist_history = session.query(History).filter(History.group==group_id, History.user==user_id, History.restaurant==restaurant_id).first()
+    if fetch_exist_history is not None:
+        session.delete(fetch_exist_history)
+
+    new_history = History()
+    new_history.group = group_id
+    new_history.user = user_id
+    new_history.restaurant = restaurant_id
+    new_history.feeling = feeling
+    session.add(new_history)
+    session.commit()
+
     # 通知の数を返す。全会一致の店の数
-    return str(sum([1 for r in current_group[group_id]['Restaurants'].keys() if len(current_group[group_id]["Restaurants"][r]['Like']) >= len(current_group[group_id]['Users'])]))
+    alln = session.query(Belong).filter(Belong.group==group_id).count()
+    return str( session.query(sqlalchemy.func.count("*").label("count")).filter(History.group==group_id, History.feeling==True).group_by(History.restaurant).having(count>=alln).count() )
+
 
 @app_.route('/list', methods=['GET','POST'])
 # 得票数が多い順の店舗リストを返す。1人のときはキープした店舗のリストを返す。
 # リストのアイテムが存在しない場合はnullを返す
 def http_list():
-    global current_group
     data = request.get_json()["params"]
     user_id = data["user_id"] if data.get("user_id", False) else None
     group_id = data["group_id"] if data.get("group_id", False) else None
     group_id = group_id if group_id != None else get_group_id(user_id)
+
+    fetch_histories = session.query(History.restaurant, sqlalchemy.func.count("*").label("count")).filter(History.group==group_id).group_by(History.restaurant).order_by(desc(count)).all()
     # リストに存在しないとき
-    if sum([len(r['Like']) for rid, r in
-            current_group[group_id]['Restaurants'].items()]) == 0:
-        return "0"
+    if len(fetch_histories) == 0:
+        return "[]"
+    alln = session.query(Belong).filter(Belong.group==group_id).count()
+    restaurant_ids = [h.restaurant for h in fetch_histories] if alln >= 2 else [h.restaurant for h in fetch_histories if h.count != 0]
+    result_json = get_restaurant_info(group_id, restaurant_ids)
 
-    if len(current_group[group_id]['Users']) <= 1:
-        # ひとりの時はLIKEしたリスト。リジェクトしたら一生お別れ
-        # ひとりの時は投票数ゼロの店はリストに入れない
+    # 得票数が多い順に並べる
+    result_json.sort(key=lambda x:x['VotesAll']) # 得票数とオススメ度が同じなら、リジェクトが少ない順
+    result_json.sort(key=lambda x:x['RecommendScore'], reverse=True) # 得票数が同じなら、オススメ度順
+    result_json.sort(key=lambda x:x['VotesLike'], reverse=True) # 得票数が多い順
 
-        popular_max = max([r['Like'] for r in
-                           current_group[group_id]['Restaurants'].values()])
-        restaurant_ids = [rid for rid, r in
-                          current_group[group_id]['Restaurants'].items() if
-                          r['Like'] == popular_max]
-        result_json = get_restaurant_info(current_group[group_id],
-                                          restaurant_ids)
-        return json.dumps(result_json, ensure_ascii=False)
-    else:
-        # みんなのときは全アイテムを投票数順に返す．ゼロ票も含む
-        restaurant_ids = []
-        for u in current_group[group_id]['Users'].values():
-            restaurant_ids += list(u['Feeling'].keys())
-        result_json = get_restaurant_info(current_group[group_id], restaurant_ids)
-
-        # 得票数が多い順に並べる
-        result_json.sort(key=lambda x:x['VotesAll']) # 得票数とオススメ度が同じなら、リジェクトが少ない順
-        result_json.sort(key=lambda x:x['RecommendScore'], reverse=True) # 得票数が同じなら、オススメ度順
-        result_json.sort(key=lambda x:x['VotesLike'], reverse=True) # 得票数が多い順
-
-        return json.dumps(result_json, ensure_ascii=False)
+    return json.dumps(result_json, ensure_ascii=False)
 
 @app_.route('/history', methods=['GET','POST'])
 # ユーザに表示した店舗履のリストを返す。履歴。
 def http_history():
-    global current_group
     data = request.get_json()["params"]
     user_id = data["user_id"] if data.get("user_id", False) else None
     group_id = data["group_id"] if data.get("group_id", False) else None
-
     group_id = group_id if group_id != None else get_group_id(user_id)
 
-    restaurant_ids = list(current_group[group_id]['Users'][user_id]['Feeling'].keys())
-    result_json = get_restaurant_info(current_group[group_id], restaurant_ids)
+    fetch_histories = session.query(History.restaurant).filter(History.group==group_id).order_by(updated_at).all()
+    result_json = get_restaurant_info(group_id, [h.restaurant for h in fetch_histories])
     return json.dumps(result_json, ensure_ascii=False)
 
 @app_.route('/decision', methods=['GET','POST'])
