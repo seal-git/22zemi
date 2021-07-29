@@ -7,11 +7,12 @@ from sqlalchemy.sql.expression import text
 import os
 
 
-DATABASE = 'mysql://%s:%s@%s/%s?charset=utf8mb4' % (
+DATABASE = 'mysql://%s:%s@%s:%s/%s?charset=utf8mb4' % (
     "root", # user_name
     os.environ['MYSQL_ROOT_PASSWORD'], # password
-    'localhost:3306', # host_ip,
-    'reskima_db' # db_name,
+    'mysql', # host_ip
+    '3306', # port
+    'reskima_db' # db_name
 )
 ENGINE = create_engine(
     DATABASE,
@@ -29,7 +30,6 @@ session = scoped_session(
 
 # modelで使用する
 Base = declarative_base()
-Base.query = session.query_property()
 
 
 class User(Base):
@@ -77,7 +77,7 @@ class Restaurants(Base):
     password = Column('password', String(50))
 
 
-class Belongs(Base):
+class Belong(Base):
     __tablename__ = 'belongs'
     __table_args__=({"mysql_charset": "utf8mb4", "mysql_engine": "InnoDB"})
     user = Column('user', Integer, primary_key=True)
@@ -97,3 +97,7 @@ class History(Base):
     feeling = Column('feeling', Boolean)
     created_at = Column('created_at', Timestamp, server_default=current_timestamp())
     updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'))
+
+
+Base.metadata.create_all(ENGINE) # create tables
+Base.query = session.query_property()

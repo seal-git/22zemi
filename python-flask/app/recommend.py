@@ -3,6 +3,8 @@ import json
 import os
 import random
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History
+from sqlalchemy import distinct
+
 
 
 RESULTS_COUNT = 10 # 一回に返す店舗の数
@@ -31,15 +33,15 @@ def save_result(fetch_group, group_id, user_id, result_json, params = {}):
             session.commit()
 
     if "dist" in params.keys():
-        dist = params["dist"]
-        current_group[group_id]["GroupDistance"] = dist
+        fetch_group.group_distance = params["dist"]
+        session.commit()
     # else:
-    #     current_group[group_id]["GroupDistance"] = None
+    #     fetch_group.group_distance = None
     if "price" in params.keys():
-        price = params["price"]
-        current_group[group_id]["GroupPrice"] = price
+        fetch_group.group_price = params["price"]
+        session.commit()
     # else:
-    #     current_group[group_id]["GroupPrice"] = None
+    #     fetch_group.group_price = None
 
 
 def delete_duplicate_result(fetch_group, group_id, user_id, result_json):
@@ -51,24 +53,24 @@ def delete_duplicate_result(fetch_group, group_id, user_id, result_json):
     return result_json_tmp
 
 def get_continued_restaurants(fetch_group, group_id, user_id):
-    user_num = current_group[group_id]['Users'][user_id]['RequestRestaurantsNum']
-    restaurant_num = len(current_group[group_id]["RestaurantsOrder"])
+    user_num = session.query(History).distinct(History.restaurant).filter(History.group==group_id, History.user==user_id).count()
+    restaurant_num = session.query(Belong).distinct(Belong.restaurant).filter(Belong.group==group_id).count()
     result_json = []
     return_restaurant_ids = []
     if user_num < restaurant_num:
         try:
-            return_restaurant_ids = current_group[group_id]["RestaurantsOrder"][user_num:user_num+RESULTS_COUNT]
+            return_restaurant_ids = fetch_group[group_id]["RestaurantsOrder"][user_num:user_num+RESULTS_COUNT]
         except:
-            return_restaurant_ids = current_group[group_id]["RestaurantsOrder"][user_num:]
+            return_restaurant_ids = fetch_group[group_id]["RestaurantsOrder"][user_num:]
     for i, r_id in enumerate(return_restaurant_ids):
-        result_json.append(current_group[group_id]['Restaurants'][r_id]['info'])
+        result_json.append(fetch_group[group_id]['Restaurants'][r_id]['info'])
     return result_json
 
 def recommend_simple(fetch_group, group_id, user_id, recommend_method, params={}):
     '''
     レコメンドは Yahoo Local Search に任せる
     '''
-    result_json = get_continued_restaurants(fetch_group, group_id, user_id)
+    result_json = [] # TODO: get_continued_restaurants(fetch_group, group_id, user_id)
     if len(result_json) != 0:
         return result_json
     else:
@@ -94,7 +96,7 @@ def recommend_simple(fetch_group, group_id, user_id, recommend_method, params={}
             'image': 'true', # 画像がある店
             'open': 'now', # 現在開店している店舗
             'sort': recommend_method, # hyblid # 評価や距離などを総合してソート
-            'start': RESULTS_COUNT * fetch_group.request_count, # 表示範囲：開始位置
+            'start': RESULTS_COUNT * (session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()).request_count, # 表示範囲：開始位置
             'results': RESULTS_COUNT, # 表示範囲：店舗数
         }
         if price is not None:
@@ -104,7 +106,7 @@ def recommend_simple(fetch_group, group_id, user_id, recommend_method, params={}
         if fetch_group.genre is not None:
             local_search_params['query'] = fetch_group.genre
         if fetch_group.open_hour is not None:
-            local_search_params['open_day'] = fetch_group.open_day + ',' + fetch_group.open_hour
+            local_search_params['open_day'] = str(fetch_group.open_day.day) + ',' + str(fetch_group.open_hour.hour)
         if fetch_group.max_price is not None:
             local_search_params['maxprice'] = fetch_group.max_price
         if fetch_group.min_price is not None:
@@ -112,7 +114,7 @@ def recommend_simple(fetch_group, group_id, user_id, recommend_method, params={}
 
         
         # Yahoo local search APIで店舗情報を取得
-        local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(fetch_group, local_search_params)
+        local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(fetch_group, group_id, local_search_params)
         result_json = delete_duplicate_result(fetch_group, group_id, user_id, result_json)
         if not price is None:
             result_json = get_result_json_price_filter(price, result_json)

@@ -1,5 +1,4 @@
 import math
-from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History
 
     
 def calc_recommend_score(fetch_group, group_id, result_json):
