@@ -71,8 +71,8 @@ services:
         - '443:443'
       environment:
         DOMAINS: 'reskima.com -> react:3000'
-        STAGE: 'staging'
-        # STAGE: 'production' # Don't use production until staging works
+#        STAGE: 'staging'
+         STAGE: 'production' # Don't use production until staging works
         # FORCE_RENEW: 'true'
       restart: on-failure
       volumes:
