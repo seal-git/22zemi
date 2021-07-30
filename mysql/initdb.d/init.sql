@@ -1,3 +1,7 @@
+DROP DATABASE IF EXISTS reskima_db;
+CREATE DATABASE reskima_db;
+
+
 DROP DATABASE IF EXISTS sample_db;
 CREATE DATABASE sample_db;
 USE sample_db;
@@ -15,3 +19,5 @@ LOAD DATA
     FIELDS TERMINATED BY ','
     ENCLOSED BY '"'
     LINES TERMINATED BY '\n';
+
+
