@@ -66,7 +66,7 @@ class Group(Base):
 class Restaurants(Base):
     __tablename__ = 'restaurants'
     __table_args__=({"mysql_charset": "utf8mb4", "mysql_engine": "InnoDB"})
-    id = Column('id', Integer, primary_key=True)
+    id = Column('id', String(50), primary_key=True)
     images = Column('images', String(100))
     price = Column('price', Integer)
     open_hour = Column('open_hour', Integer)
@@ -93,7 +93,7 @@ class History(Base):
     __table_args__=({"mysql_charset": "utf8mb4", "mysql_engine": "InnoDB"})
     user = Column('user', Integer, primary_key=True)
     group = Column('group', Integer, primary_key=True)
-    restaurant = Column('restaurant', Integer, primary_key=True)
+    restaurant = Column('restaurant', String(50), primary_key=True)
     feeling = Column('feeling', Boolean)
     created_at = Column('created_at', Timestamp, server_default=current_timestamp())
     updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'))

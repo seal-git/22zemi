@@ -27,7 +27,7 @@ def save_result(fetch_group, group_id, user_id, result_json, params = {}):
             new_history = History()
             new_history.group = group_id
             new_history.user = user_id
-            new_history.restaurant = result_json[i]
+            new_history.restaurant = result_json[i]["Restaurant_id"]
             new_history.feeling = None
             session.add(new_history)
             session.commit()
