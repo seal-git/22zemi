@@ -81,7 +81,7 @@ def generate_user_id():
     user_id : string
     '''
     for i in range(1000000):
-        user_id = ''.join([random.choice(string.ascii_letters + string.digits) for j in range(12)])
+        user_id = str(randint(0, 999999)) # ''.join([random.choice(string.ascii_letters + string.digits) for j in range(12)])
         fetch = session.query(User).filter(User.id==user_id).first()
         if fetch is None:
             return user_id
@@ -108,7 +108,7 @@ def set_filter_params(group_id, place, genre, query, open_day, open_hour, maxpri
         if open_day is not None:
             fetch_group.open_day = open_day
         else:
-            fetch_group.open_day = datetime.datetime.strftime(datetime.date.today() if datetime.datetime.now().hour<=int(open_hour) else datetime.date.today() + datetime.timedelta(days=1), '%Y-%m-%d')
+            fetch_group.open_day = datetime.datetime.strftime( datetime.date.today() if datetime.datetime.now().hour<=int(open_hour) else datetime.date.today() + datetime.timedelta(days=1), '%Y-%m-%d')
     else:
         fetch_group.open_day = current_timestamp()
     fetch_group.open_hour = open_hour if open_hour is not None else current_timestamp()
@@ -188,8 +188,8 @@ def http_init():
 def http_invite():
     URL = 'https://reskima.com'
     data = request.get_json()["params"]
-    user_id = int(data["user_id"] if data.get("user_id", False) else None)
-    group_id = int(data["group_id"] if data.get("group_id", False) else None)
+    user_id = int(data["user_id"]) if data.get("user_id", False) else None
+    group_id = int(data["group_id"]) if data.get("group_id", False) else None
     # coordinates = data["coordinates"] if data.get("coordinates", False) else None # TODO: デモ以降に実装
     place = data["place"] if data.get("place", False) else None
     genre = data["genre"] if data.get("genre", False) else None
@@ -216,9 +216,9 @@ def http_invite():
 # 店情報を要求するリクエスト
 def http_info():
     data = request.get_json()["params"]
-    user_id = int(data["user_id"] if data.get("user_id", False) else None)
-    group_id = int(data["group_id"] if data.get("group_id", False) else None)
-    # coordinates = data["coordinates"] if data.get("coordinates", False) else None # TODO: デモ以降に実装
+    user_id = int(data["user_id"]) if data.get("user_id", False) else None
+    group_id = int(data["group_id"]) if data.get("group_id", False) else None
+    # coordinates = data["coordinates"] if data.get("coordinates", False) else one # TODO: デモ以降に実装
     place = data["place"] if data.get("place", False) else None
     genre = data["genre"] if data.get("genre", False) else None
     query = data["query"] if data.get("query", False) else None
@@ -267,8 +267,8 @@ def http_info():
 # キープ・リジェクトの結果を受け取り、メモリに格納する。全会一致の店舗を知らせる。
 def http_feeling():
     data = request.get_json()["params"]
-    user_id = int(data["user_id"] if data.get("user_id", False) else None)
-    group_id = int(data["group_id"] if data.get("group_id", False) else None)
+    user_id = int(data["user_id"]) if data.get("user_id", False) else None
+    group_id = int(data["group_id"]) if data.get("group_id", False) else None
     restaurant_id = data["restaurant_id"] if data.get("restaurant_id", False) else None
     feeling = data["feeling"] if data.get("feeling", False) else None
 
@@ -289,7 +289,7 @@ def http_feeling():
 
     # 通知の数を返す。全会一致の店の数
     alln = session.query(Belong).filter(Belong.group==group_id).count()
-    return str( session.query(sqlalchemy.func.count("*").label("count")).filter(History.group==group_id, History.feeling==True).group_by(History.restaurant).having(count>=alln).count() )
+    return str( session.query(sqlalchemy.func.count("*")).filter(History.group==group_id, History.feeling==True).group_by(History.restaurant).having(sqlalchemy.func.count("*")>=alln).count() )
 
 
 @app_.route('/list', methods=['GET','POST'])
@@ -297,11 +297,11 @@ def http_feeling():
 # リストのアイテムが存在しない場合はnullを返す
 def http_list():
     data = request.get_json()["params"]
-    user_id = int(data["user_id"] if data.get("user_id", False) else None)
-    group_id = int(data["group_id"] if data.get("group_id", False) else None)
+    user_id = int(data["user_id"]) if data.get("user_id", False) else None
+    group_id = int(data["group_id"]) if data.get("group_id", False) else None
     group_id = group_id if group_id != None else get_group_id(user_id)
 
-    fetch_histories = session.query(History.restaurant, sqlalchemy.func.count("*").label("count")).filter(History.group==group_id).group_by(History.restaurant).order_by(desc(count)).all()
+    fetch_histories = session.query(History.restaurant, sqlalchemy.func.count("*").label("count")).filter(History.group==group_id).group_by(History.restaurant).order_by(desc(sqlalchemy.func.count("*"))).all()
     # リストに存在しないとき
     if len(fetch_histories) == 0:
         return "[]"
@@ -320,8 +320,8 @@ def http_list():
 # ユーザに表示した店舗履のリストを返す。履歴。
 def http_history():
     data = request.get_json()["params"]
-    user_id = int(data["user_id"] if data.get("user_id", False) else None)
-    group_id = int(data["group_id"] if data.get("group_id", False) else None)
+    user_id = int(data["user_id"]) if data.get("user_id", False) else None
+    group_id = int(data["group_id"]) if data.get("group_id", False) else None
     group_id = group_id if group_id != None else get_group_id(user_id)
 
     fetch_histories = session.query(History.restaurant).filter(History.group==group_id).order_by(updated_at).all()

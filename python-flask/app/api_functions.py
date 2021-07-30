@@ -54,7 +54,7 @@ def get_restaurant_info_from_local_search_params(fetch_group, group_id, local_se
     # Yahoo local search apiで受け取ったjsonをクライアントアプリに送るjsonに変換する
     result_json = []
     for i,feature in enumerate(local_search_json['Feature']):
-        try:
+        #try:
             restaurant_id = feature['Property']['Uid']
             result_json.append({})
             result_json[i]['Restaurant_id'] = restaurant_id
@@ -70,10 +70,10 @@ def get_restaurant_info_from_local_search_params(fetch_group, group_id, local_se
             result_json[i]['CassetteOwnerLogoImage'] = feature['Property']['Detail'].get('CassetteOwnerLogoImage')
             result_json[i]['Category'] = feature['Property']['Genre'][0]['Name']
             result_json[i]['UrlYahooLoco'] = "https://loco.yahoo.co.jp/place/" + restaurant_id
-            result_json[i]['UrlYahooMap'] = "https://map.yahoo.co.jp/route/walk?from=" + fetch_group.address + "&to=" + result_json[i]['Address']
+            result_json[i]['UrlYahooMap'] = "https://map.yahoo.co.jp/route/walk?from=" + str(fetch_group.address) + "&to=" + result_json[i]['Address']
             result_json[i]['ReviewRating'] = get_review_rating(restaurant_id)
-            result_json[i]['VotesLike'] = str(session.query(History).filter(History.group==group_id, History.restaurant==restaurant_id, Hisotry.feeling==True).count)
-            result_json[i]['VotesAll'] = str(session.query(History).filter(History.group==group_id, History.restaurant==restaurant_id, Hisotry.feeling is not None).count)
+            result_json[i]['VotesLike'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurant_id, History.feeling==True).count()
+            result_json[i]['VotesAll'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurant_id, History.feeling is not None).count()
             result_json[i]['BusinessHour'] = (feature['Property']['Detail'].get('BusinessHour')).replace('<br>', '\n').replace('<br />', '')
             result_json[i]['Genre'] = feature['Property']['Genre']
             result_json[i]['NumberOfParticipants'] = str(session.query(Belong).filter(Belong.group==group_id).count())
@@ -86,8 +86,8 @@ def get_restaurant_info_from_local_search_params(fetch_group, group_id, local_se
             if len(result_json[i]["Images"]) == 0:
                 no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
                 result_json[i]["Images"] = [no_image_url, no_image_url]
-        except:
-            continue
+        #except:
+        #    continue
     #各お店のオススメ度を追加(相対評価)
     result_json = calc_info.calc_recommend_score(fetch_group, group_id,result_json)
     return local_search_json, result_json
