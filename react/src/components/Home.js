@@ -1,27 +1,26 @@
-import React from 'react';
-import { useState, useContext } from "react"
-import { makeStyles } from '@material-ui/core/styles';
+import React from 'react'
+import "./Home.css"
+// パッケージからインポート
+import axios from "axios"
+import { useState } from "react"
+import { useHistory, useLocation } from 'react-router-dom'
+// 他のファイルからインポート
 import AppBottomNavigation from "./AppBottomNavigation"
 import KeepList from "./KeepList"
 import Selection from "./Selection"
 import Setting from "./Setting"
-import "./Home.css"
-import Credit from "./Credit";
-import axios from "axios";
-import { useHistory, useLocation } from 'react-router-dom'
 
 const produceId = () => {
-    // return Math.random().toString(32).substring(2)
-    var digit = 6; //桁数
-    var nines = '';
-    var zeros = '';
+    var digit = 6 //桁数
+    var nines = ''
+    var zeros = ''
     for(var i=0; i<digit; i++){
-        nines += '9';
-        zeros += '0';
+        nines += '9'
+        zeros += '0'
     }
-    var Id = Math.floor(Math.random() * Number(nines) + 1);
-    Id = (zeros+Id).slice(-6);
-    return Id;
+    var Id = Math.floor(Math.random() * Number(nines) + 1)
+    Id = (zeros+Id).slice(-6)
+    return Id
 }
 
 // 現在時刻を文字列で取得
@@ -32,12 +31,12 @@ const getCurrentTime = () => {
   return time
 }
 
-
-// ベースコンポーネントとして使う
+/*
+ メイン画面を統括するコンポーネント
+ */
 function Home(props) {
     // view を抱える。背景操作の都合で mode は上位コンポーネント App に持たせる
     const [view, setView] = useState("Selection")
-    // ユーザID、グループIDを抱える。現状自前で用意しているがAPIに要求できるほうが嬉しい
     const [userId, setUserId] = useState(produceId())
 
     // 招待URLの処理
@@ -54,25 +53,14 @@ function Home(props) {
     
     const [groupId, setGroupId] = useState(initGroupId)
     const [paramsForSearch, setParamsForSearch] = useState(
-        {"place":"新宿",
-        "genre":"",
-        "open_hour_str":getCurrentTime()}
+        {
+            "place":"新宿",
+            "genre":"",
+            "open_hour_str":getCurrentTime()
+        }
     )        
-    //グループID作成時に招待urをセットする
+    //グループID作成時に招待urlをセットする
     const [inviteUrl, setInviteUrl] = useState("")
-
-    // const createNewSession = (groupId) => {
-    //     // userID はモードが変わるごとに作り直す？
-    //     setUserId(produceId())
-
-    //     // groupId が指定されていない場合システム側で用意する
-    //     // 指定されている場合はそのIDを使う
-    //     if (groupId === undefined || groupId === "") {
-    //         groupId = produceId();
-    //     }
-    //     setGroupId(groupId)
-    //     setInviteUrl(callInviteUrl(groupId));
-    // }
 
     const turnMode = () => {
         // mode を反転させる
@@ -82,27 +70,25 @@ function Home(props) {
             props.setMode('Group')
         } else {
             console.log("Home:turnMode:undefined mode")
-            return;
         }
     };
     // 招待URLを取得
     const callInviteUrl = (groupId) => {
         const params = {group_id: groupId, }
         console.log('params',params)
-        //postになったら実装
         axios.post('/api/invite', {
             params: params
         })
-            .then((response) => {
-                console.log(response)
-                const newInviteUrl = response.data.Url
-                setInviteUrl(newInviteUrl)
-                console.log('new_inviteUrl',newInviteUrl)
-                console.log('set_inviteUrl',inviteUrl)
-            })
-            .catch((error) => {
-                console.log("error:", error);
-            });
+        .then((response) => {
+            console.log(response)
+            const newInviteUrl = response.data.Url
+            setInviteUrl(newInviteUrl)
+            console.log('new_inviteUrl',newInviteUrl)
+            console.log('set_inviteUrl',inviteUrl)
+        })
+        .catch((error) => {
+            console.log("error:", error)
+        });
     }
 
     return (
@@ -121,7 +107,6 @@ function Home(props) {
                             inviteUrl={inviteUrl}
                             callInviteUrl={callInviteUrl}
                             paramsForSearch={paramsForSearch}
-                            inviteUrl={props.inviteUrl}
                         />
                         : view === "KeepList" ? 
                         <KeepList
@@ -145,7 +130,7 @@ function Home(props) {
             </div>
             <AppBottomNavigation view={view} setView={setView} />
         </div>
-    );
+    )
 }
 
-export default Home;
+export default Home

@@ -1,26 +1,26 @@
-import React from 'react';
-import { useState, useRef } from 'react';
+import React from 'react'
 import './Setting.css'
+// パッケージからインポート
+import { useState, useRef } from 'react'
 import {
     Button,
     Dialog,
     DialogContent,
     DialogTitle,
+    makeStyles,
     Paper,
-    Grid,
-    FormControl,
-    Input,
-    Container,
     TextField,
     Typography
-} from "@material-ui/core";
-import { makeStyles } from "@material-ui/core";
-import Logo from "./Reskima_Logo.png"
-import SearchButtonOne from "./search_button_one.png"
-import SearchButtonAll from "./search_button_all.png"
+} from "@material-ui/core"
+// 他のファイルからインポート
 import { assignNumGlobal } from './global'
+import Logo from "..//img/Reskima_Logo.png"
+import SearchButtonOne from "..//img/search_button_one.png"
+import SearchButtonAll from "..//img/search_button_all.png"
 
-// 設定画面
+/*
+ 設定画面のコンポーネント
+ */
 function Setting(props) {
     // 「選ぶ」画面に進む処理
     const proceedToSelection = (newMode, groupId) => {
@@ -46,6 +46,7 @@ function Setting(props) {
             newGroupId = props.produceId()
         }
         props.setGroupId(newGroupId)
+
         // 招待URLを更新
         props.callInviteUrl(newGroupId)
 

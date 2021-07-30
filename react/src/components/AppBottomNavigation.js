@@ -1,22 +1,19 @@
-import React, {useState,useEffect} from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import { withStyles } from '@material-ui/core/styles';
-import BottomNavigation from '@material-ui/core/BottomNavigation';
+import React, {useState,useEffect} from 'react'
 import "./AppBottomNavigation.css"
-import SearchIcon from './footer_icon_search.png'
-import SwipeIcon from './footer_icon_swipe.png'
-import ListIcon from './footer_icon_list.png'
-import SearchIconSelected from './footer_icon_search_selected.png'
-import SwipeIconSelected from './footer_icon_swipe_selected.png'
-import ListIconSelected from './footer_icon_list_selected.png'
-import FooterBackground from './footer_background.png'
-import { Box, Container } from '@material-ui/core';
-import Image from 'react'
-import Badge from '@material-ui/core/Badge';
-import Credit from './Credit';
-import { numGlobal } from './global';
+// パッケージからインポート
+import { makeStyles } from '@material-ui/core/styles'
+import { withStyles } from '@material-ui/core/styles'
+import Badge from '@material-ui/core/Badge'
+// 他のファイルからインポート
+import SearchIcon from '..//img/footer_icon_search.png'
+import SwipeIcon from '..//img/footer_icon_swipe.png'
+import ListIcon from '..//img/footer_icon_list.png'
+import SearchIconSelected from '..//img/footer_icon_search_selected.png'
+import SwipeIconSelected from '..//img/footer_icon_swipe_selected.png'
+import ListIconSelected from '..//img/footer_icon_list_selected.png'
+import FooterBackground from '..//img/footer_background.png'
+import { numGlobal } from './global'
 
-//App
 const useStyles = makeStyles({
   AppBottomNavigation: {
     height: '60px',
@@ -25,7 +22,7 @@ const useStyles = makeStyles({
     left: '0',
     bottom: '0',
   },
-});
+})
 const StyledBadge = withStyles((theme) => ({
   badge: {
     right: -2,
@@ -33,10 +30,13 @@ const StyledBadge = withStyles((theme) => ({
     // border: `2px solid ${theme.palette.background.paper}`,
     // padding: '0 4px',
   },
-}))(Badge);
-// ナビゲーション
+}))(Badge)
+
+/*
+ ナビゲーション
+*/
 export default function AppBottomNavigation(props) {
-  const classes = useStyles();
+  const classes = useStyles()
   const [numOfCardInKeepList, setNumOfCardInKeepList] = useState(0)
   const moveToSetting = () => {
     props.setView('Setting')
@@ -47,12 +47,12 @@ export default function AppBottomNavigation(props) {
   const moveToKeepList = () => {
     props.setView('KeepList')
   }
-  let id,demon;
+
   useEffect( ()=>{
     console.log("called")
-        id = setInterval( ()=>{
-          setNumOfCardInKeepList(numGlobal)
-        } ,500);
+    setInterval( ()=>{
+      setNumOfCardInKeepList(numGlobal)
+    } ,500)
   },[])
 
   return (
