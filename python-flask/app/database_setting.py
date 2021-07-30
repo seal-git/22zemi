@@ -32,6 +32,7 @@ session = scoped_session(
 Base = declarative_base()
 
 
+# ユーザ
 class User(Base):
     __tablename__ = 'users'
     __table_args__=({"mysql_charset": "utf8mb4", "mysql_engine": "InnoDB"})
@@ -43,26 +44,28 @@ class User(Base):
     password = Column('password', String(50))
 
 
+# グループ
 class Group(Base):
     __tablename__ = 'groups'
     __table_args__=({"mysql_charset": "utf8mb4", "mysql_engine": "InnoDB"})
     id = Column('id', Integer, primary_key=True)
-    lat = Column('lat', Float)
-    lon = Column('lon', Float)
-    address = Column('address', String(100))
-    query = Column('query', String(100))
-    genre = Column('genre', String(50))
-    open_day = Column('open_day', Date)
-    open_hour = Column('open_hour', Time)
-    max_price = Column('max_price', Integer)
-    min_price = Column('min_price', Integer)
-    group_price = Column('group_price', Integer)
-    group_distance = Column('group_distance', Float)
+    lat = Column('lat', Float, nullable=False) # 検索条件 # 緯度
+    lon = Column('lon', Float, nullable=False) # 検索条件 # 経度
+    address = Column('address', String(100), nullable=False) # 検索条件 # 住所
+    query = Column('query', String(100)) # 検索条件 # フリーワード
+    genre = Column('genre', String(50)) # 検索条件 # ジャンル
+    open_day = Column('open_day', Date) # 検索条件 # 日付
+    open_hour = Column('open_hour', Time) # 検索条件 # 時間
+    max_price = Column('max_price', Integer) # 検索条件 # 金額上限
+    min_price = Column('min_price', Integer) # 検索条件 # 金額下限
+    group_price = Column('group_price', Integer) # レコメンド # 平均価格
+    group_distance = Column('group_distance', Float) # レコメンド # 平均距離
     created_at = Column('created_at', Timestamp, server_default=current_timestamp())
     updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'))
     password = Column('password', String(50))
 
 
+# レストラン
 class Restaurants(Base):
     __tablename__ = 'restaurants'
     __table_args__=({"mysql_charset": "utf8mb4", "mysql_engine": "InnoDB"})
@@ -77,17 +80,18 @@ class Restaurants(Base):
     password = Column('password', String(50))
 
 
+# 所属．ユーザがどのグループに所属しているか
 class Belong(Base):
     __tablename__ = 'belongs'
     __table_args__=({"mysql_charset": "utf8mb4", "mysql_engine": "InnoDB"})
     user = Column('user', Integer, primary_key=True)
     group = Column('group', Integer, primary_key=True)
-    request_count = Column('request_count', Integer, nullable=False, server_default='0')
-    request_restaurants_num = Column('request_restaurants_num', Integer, nullable=False, server_default='0')
+    request_count = Column('request_count', Integer, nullable=False, server_default='0') # レコメンド # リクエスト回数
+    request_restaurants_num = Column('request_restaurants_num', Integer, nullable=False, server_default='0') # レコメンド # レストランを受け取った数
     created_at = Column('created_at', Timestamp, server_default=current_timestamp())
     updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'))
 
-
+# 履歴．ユーザのfeeling
 class History(Base):
     __tablename__ = 'histories'
     __table_args__=({"mysql_charset": "utf8mb4", "mysql_engine": "InnoDB"})
