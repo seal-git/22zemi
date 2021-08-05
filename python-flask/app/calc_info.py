@@ -1,6 +1,7 @@
 import math
+
     
-def calc_recommend_score(group, result_json):
+def calc_recommend_score(fetch_group, group_id, result_json):
     '''
     オススメ度を計算する
     
@@ -22,8 +23,8 @@ def calc_recommend_score(group, result_json):
     # 以下はrestaurant_idを格納
     
     try:
-        group_price = group["GroupPrice"] #グループの平均価格
-        group_distance = group["GroupDistance"] * 1000 #グループの平均距離 m
+        group_price = fetch_group.group_price #グループの平均価格
+        group_distance = fetch_group.group_distance * 1000 #グループの平均距離 m
     except:
         group_price = None
         group_distance = None
@@ -75,10 +76,3 @@ def calc_recommend_score(group, result_json):
         result_json[i]["RecommendScore"] = round(n_s)
 
     return result_json
-
-def count_votes(group, restaurant_id):
-    # 投票数を数える
-    if restaurant_id in group['Restaurants']:
-        return len(group['Restaurants'][restaurant_id]['Like']), len(group['Restaurants'][restaurant_id]['All'])
-    else:
-        return 0, 0

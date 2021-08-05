@@ -3,15 +3,17 @@ import os
 import datetime
 from geopy.distance import great_circle
 from app import calc_info
+from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History
 
-def get_restaurant_info_from_local_search_params(group, local_search_params):
+
+def get_restaurant_info_from_local_search_params(fetch_group, group_id, local_search_params):
     '''
     Yahoo local search APIで取得した店舗情報(feature)を、クライアントに送信するjsonの形式に変換する。
     
     Parameters
     ----------------
-    group : dict
-        current_group[group_id]
+    group_id : string
+        groupID
     local_search_params : dictionary
         Yahoo local search APIに送信するクエリ
     
@@ -52,14 +54,14 @@ def get_restaurant_info_from_local_search_params(group, local_search_params):
     # Yahoo local search apiで受け取ったjsonをクライアントアプリに送るjsonに変換する
     result_json = []
     for i,feature in enumerate(local_search_json['Feature']):
-        try:
+        #try:
             restaurant_id = feature['Property']['Uid']
             result_json.append({})
             result_json[i]['Restaurant_id'] = restaurant_id
             result_json[i]['Name'] = feature['Name']
             result_json[i]['Address'] = feature['Property']['Address']
-            result_json[i]["distance_float"] = great_circle(group['Coordinates'], tuple(reversed([float(x) for x in feature['Geometry']['Coordinates'].split(',')]))).m #距離 メートル float
-            result_json[i]['Distance'] = distance_display(great_circle(group['Coordinates'], tuple(reversed([float(x) for x in feature['Geometry']['Coordinates'].split(',')]))).m) # 緯度・経度から距離を計算 str
+            result_json[i]["distance_float"] = great_circle((fetch_group.lat, fetch_group.lon), tuple(reversed([float(x) for x in feature['Geometry']['Coordinates'].split(',')]))).m #距離 メートル float
+            result_json[i]['Distance'] = distance_display(great_circle((fetch_group.lat, fetch_group.lon), tuple(reversed([float(x) for x in feature['Geometry']['Coordinates'].split(',')]))).m) # 緯度・経度から距離を計算 str
             result_json[i]['CatchCopy'] = feature['Property'].get('CatchCopy')
             result_json[i]['Price'] = feature['Property']['Detail']['LunchPrice'] if lunch_or_dinner == 'lunch' and feature['Property']['Detail'].get('LunchFlag') == True else feature['Property']['Detail'].get('DinnerPrice')
             result_json[i]['LunchPrice'] = feature['Property']['Detail'].get('LunchPrice')
@@ -68,12 +70,13 @@ def get_restaurant_info_from_local_search_params(group, local_search_params):
             result_json[i]['CassetteOwnerLogoImage'] = feature['Property']['Detail'].get('CassetteOwnerLogoImage')
             result_json[i]['Category'] = feature['Property']['Genre'][0]['Name']
             result_json[i]['UrlYahooLoco'] = "https://loco.yahoo.co.jp/place/" + restaurant_id
-            result_json[i]['UrlYahooMap'] = "https://map.yahoo.co.jp/route/walk?from=" + group['Address'] + "&to=" + result_json[i]['Address']
+            result_json[i]['UrlYahooMap'] = "https://map.yahoo.co.jp/route/walk?from=" + str(fetch_group.address) + "&to=" + result_json[i]['Address']
             result_json[i]['ReviewRating'] = get_review_rating(restaurant_id)
-            result_json[i]['VotesLike'], result_json[i]['VotesAll'] = calc_info.count_votes(group, restaurant_id)
+            result_json[i]['VotesLike'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurant_id, History.feeling==True).count()
+            result_json[i]['VotesAll'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurant_id, History.feeling is not None).count()
             result_json[i]['BusinessHour'] = (feature['Property']['Detail'].get('BusinessHour')).replace('<br>', '\n').replace('<br />', '')
             result_json[i]['Genre'] = feature['Property']['Genre']
-            result_json[i]['NumberOfParticipants'] = str(len(group['Users']))
+            result_json[i]['NumberOfParticipants'] = str(session.query(Belong).filter(Belong.group==group_id).count())
 
         # Images : 画像をリストにする
             lead_image = [feature['Property']['LeadImage']] if 'LeadImage' in feature['Property'] else ([feature['Property']['Detail']['Image1']] if 'Image1' in feature['Property']['Detail'] else []) # リードイメージがある時はImage1を出力しない。
@@ -83,10 +86,10 @@ def get_restaurant_info_from_local_search_params(group, local_search_params):
             if len(result_json[i]["Images"]) == 0:
                 no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
                 result_json[i]["Images"] = [no_image_url, no_image_url]
-        except:
-            continue
+        #except:
+        #    continue
     #各お店のオススメ度を追加(相対評価)
-    result_json = calc_info.calc_recommend_score(group,result_json)
+    result_json = calc_info.calc_recommend_score(fetch_group, group_id,result_json)
     return local_search_json, result_json
 
 
