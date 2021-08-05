@@ -93,6 +93,34 @@ def get_restaurant_info_from_local_search_params(fetch_group, group_id, local_se
     return local_search_json, result_json
 
 
+def search_restaurant_info(fetch_group, group_id, search_params):
+    
+    local_search_json, result_json =  get_restaurant_info_from_local_search_params(fetch_group, group_id, search_params)
+    return result_json
+
+
+def get_restaurant_info(fetch_group, group_id, restaurant_ids):
+    '''
+    Yahoo local search APIで情報を取得し、json形式で情報を返す
+    
+    Parameters
+    ----------------
+    group_id: int
+        group ID
+    restaurant_ids : [string]
+        restaurant_idのリスト
+    
+    Returns
+    ----------------
+    result_json : dict
+        レスポンスするレストラン情報をjson形式で返す。
+    '''
+    restaurant_ids_del_None = [x for x in restaurant_ids if x]
+    local_search_params = { 'uid': ','.join(restaurant_ids_del_None) }
+    local_search_json, result_json = get_restaurant_info_from_local_search_params(fetch_group, group_id, local_search_params)
+    return result_json
+
+
 def get_lat_lon(query):
     '''
     緯度，経度をfloatで返す関数
