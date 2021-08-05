@@ -45,7 +45,7 @@
 .form-content {
     /*display: inline-flex;*/
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
 }
 
 .form-title {
