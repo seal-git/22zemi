@@ -304,7 +304,8 @@ def http_list():
     # 表示する店舗を選ぶ．ひとりのときはLIKEした店だけ．2人以上のときはすべて表示．
     alln = session.query(Belong).filter(Belong.group==group_id).count() # 参加人数
     restaurant_ids = [h.restaurant for h in fetch_histories] if alln >= 2 else [h.restaurant for h in fetch_histories if h.count != 0]
-    result_json = api_functions.get_restaurant_info(group_id, restaurant_ids)
+    fetch_group = session.query(Group).filter(Group.id==group_id).first()
+    result_json = api_functions.get_restaurant_info(fetch_group, group_id, restaurant_ids)
 
     # 得票数が多い順に並べる
     result_json.sort(key=lambda x:x['VotesAll']) # 得票数とオススメ度が同じなら、リジェクトが少ない順
