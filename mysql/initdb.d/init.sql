@@ -1,3 +1,5 @@
+ALTER USER 'root' IDENTIFIED WITH mysql_native_password BY 'pass';
+
 DROP DATABASE IF EXISTS reskima_db;
 CREATE DATABASE reskima_db;
 
