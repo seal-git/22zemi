@@ -20,50 +20,50 @@ from sqlalchemy.sql.functions import current_timestamp
 
 
 
-# mysqlサーバーと接続
-conn = mysql.connector.connect(
-    host = 'mysql', #docker-compose.ymlで指定したコンテナ名
-    port = 3306,
-    user = 'root',
-    password = os.environ['MYSQL_ROOT_PASSWORD'],
-    database = 'sample_db'
-)
+# # mysqlサーバーと接続
+# conn = mysql.connector.connect(
+#     host = 'mysql', #docker-compose.ymlで指定したコンテナ名
+#     port = 3306,
+#     user = 'root',
+#     password = os.environ['MYSQL_ROOT_PASSWORD'],
+#     database = 'sample_db'
+# )
 
-# mysqlサーバーとの接続を確認
-conn.ping(reconnect=True)
-if conn.is_connected():
-    print("db connected!")
+# # mysqlサーバーとの接続を確認
+# conn.ping(reconnect=True)
+# if conn.is_connected():
+#     print("db connected!")
 
-#@app_.after_request
-# CORS対策で追記したがうまく働いていない？
-# def after_request(response):
-#     print("after request is running")
-#     response.headers.add('Access-Control-Allow-Origin', '*')
-#     response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
-#     response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
-#     return response
+# #@app_.after_request
+# # CORS対策で追記したがうまく働いていない？
+# # def after_request(response):
+# #     print("after request is running")
+# #     response.headers.add('Access-Control-Allow-Origin', '*')
+# #     response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+# #     response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
+# #     return response
 
-@app_.route('/get_sample_db', methods=['POST'])
-# ランダムにsample_db.sample_tableから一つ取得
-def get_sample_db():
-    conn.ping(reconnect=True)  # 接続が途切れた時に再接続する
+# @app_.route('/get_sample_db', methods=['POST'])
+# # ランダムにsample_db.sample_tableから一つ取得
+# def get_sample_db():
+#     conn.ping(reconnect=True)  # 接続が途切れた時に再接続する
 
-    cur = conn.cursor(dictionary=True)
+#     cur = conn.cursor(dictionary=True)
 
-    # ランダムに一つ取得
-    rand_idx = randint(1, 6)
-    sql = ("SELECT * "
-           "FROM sample_table "
-           f"WHERE user_id={rand_idx}")
-    cur.execute(sql)
-    content = cur.fetchone()
-    result = {
-        "keys": list(content.keys()),
-        "content": content
-    }# JSはオブジェクトのキーの順番を保持しないらしいのでkeyの配列も渡してあげる
+#     # ランダムに一つ取得
+#     rand_idx = randint(1, 6)
+#     sql = ("SELECT * "
+#            "FROM sample_table "
+#            f"WHERE user_id={rand_idx}")
+#     cur.execute(sql)
+#     content = cur.fetchone()
+#     result = {
+#         "keys": list(content.keys()),
+#         "content": content
+#     }# JSはオブジェクトのキーの順番を保持しないらしいのでkeyの配列も渡してあげる
 
-    cur.close()
-    return make_response(jsonify(result))
+#     cur.close()
+#     return make_response(jsonify(result))
 
 
 def generate_group_id():
@@ -144,29 +144,6 @@ def set_filter_params(group_id, place, genre, query, open_day, open_hour, maxpri
     fetch_group.open_hour = open_hour if open_hour is not None else current_timestamp()
 
     session.commit()
-
-
-def get_restaurant_info(group_id, restaurant_ids):
-    '''
-    Yahoo local search APIで情報を取得し、json形式で情報を返す
-    
-    Parameters
-    ----------------
-    group_id: int
-        group ID
-    restaurant_ids : [string]
-        restaurant_idのリスト
-    
-    Returns
-    ----------------
-    result_json : dict
-        レスポンスするレストラン情報をjson形式で返す。
-    '''
-    restaurant_ids_del_None = [x for x in restaurant_ids if x]
-    local_search_params = { 'uid': ','.join(restaurant_ids_del_None) }
-    fetch_group = session.query(Group).filter(Group.id==group_id).first()
-    local_search_json, result_json = api_functions.get_restaurant_info_from_local_search_params(fetch_group, group_id, local_search_params)
-    return result_json
 
 
 @app_.route('/initialize_current_group', methods=['GET','POST'])
@@ -256,6 +233,7 @@ def http_info():
         new_group.lat = lat
         new_group.lon = lon
         new_group.address = address
+        new_group.recommend_method = recommend_method
         session.add(new_group)
         session.commit()
         fetch_group = session.query(Group).filter(Group.id==group_id).one()
@@ -275,7 +253,7 @@ def http_info():
 
     # 検索条件
     set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice)
-    result_json = recommend.recommend_main(fetch_group, group_id, user_id, recommend_method)
+    result_json = recommend.recommend_main(fetch_group, group_id, user_id)
     fetch_belong.request_restaurants_num = len(result_json) + 1
     session.commit()
     return json.dumps(result_json, ensure_ascii=False)
@@ -326,7 +304,8 @@ def http_list():
     # 表示する店舗を選ぶ．ひとりのときはLIKEした店だけ．2人以上のときはすべて表示．
     alln = session.query(Belong).filter(Belong.group==group_id).count() # 参加人数
     restaurant_ids = [h.restaurant for h in fetch_histories] if alln >= 2 else [h.restaurant for h in fetch_histories if h.count != 0]
-    result_json = get_restaurant_info(group_id, restaurant_ids)
+    fetch_group = session.query(Group).filter(Group.id==group_id).first()
+    result_json = api_functions.get_restaurant_info(fetch_group, group_id, restaurant_ids)
 
     # 得票数が多い順に並べる
     result_json.sort(key=lambda x:x['VotesAll']) # 得票数とオススメ度が同じなら、リジェクトが少ない順
@@ -345,7 +324,7 @@ def http_history():
     group_id = group_id if group_id != None else get_group_id(user_id)
 
     fetch_histories = session.query(History.restaurant).filter(History.group==group_id).order_by(updated_at).all()
-    result_json = get_restaurant_info(group_id, [h.restaurant for h in fetch_histories])
+    result_json = api_functions.get_restaurant_info(group_id, [h.restaurant for h in fetch_histories])
     return json.dumps(result_json, ensure_ascii=False)
 
 

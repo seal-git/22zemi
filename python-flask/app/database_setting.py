@@ -52,12 +52,15 @@ class Group(Base):
     lat = Column('lat', Float, nullable=False) # 検索条件 # 緯度
     lon = Column('lon', Float, nullable=False) # 検索条件 # 経度
     address = Column('address', String(100), nullable=False) # 検索条件 # 住所
+    max_dist = Column('max_dist', Float) # 検索条件 # 距離上限
     query = Column('query', String(100)) # 検索条件 # フリーワード
     genre = Column('genre', String(50)) # 検索条件 # ジャンル
     open_day = Column('open_day', Date) # 検索条件 # 日付
     open_hour = Column('open_hour', Time) # 検索条件 # 時間
     max_price = Column('max_price', Integer) # 検索条件 # 金額上限
     min_price = Column('min_price', Integer) # 検索条件 # 金額下限
+    sort = Column('sort', String(50)) # 検索条件 # 表示順
+    recommend_method = Column('recommend_method', String(50)) # 検索条件 # レコメンド
     group_price = Column('group_price', Integer) # レコメンド # 平均価格
     group_distance = Column('group_distance', Float) # レコメンド # 平均距離
     created_at = Column('created_at', Timestamp, server_default=current_timestamp())
@@ -103,5 +106,6 @@ class History(Base):
     updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'))
 
 
+Base.metadata.drop_all(ENGINE)
 Base.metadata.create_all(ENGINE) # create tables
 Base.query = session.query_property()
