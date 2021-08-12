@@ -4,6 +4,10 @@
     width: 100%;
     margin: 3px;
     position: absolute;
+    -webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 }
 
 .glWrapper {
