@@ -1,5 +1,5 @@
 import React from 'react'
-import './RestaurantInfomation.css'
+import './RestaurantInformation.css'
 // パッケージからインポート
 import { useRef, useEffect } from 'react'
 import { CardContent } from '@material-ui/core'
