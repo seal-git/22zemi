@@ -10,6 +10,8 @@ import GridListTile from '@material-ui/core/GridListTile'
 import Typography from '@material-ui/core/Typography'
 import Divider from '@material-ui/core/Divider'
 import IconButton from '@material-ui/core/IconButton'
+// 他ファイルからインポート
+import Buttons from './Buttons'
 
 const useStyles = makeStyles((theme) => ({
     wrapper: {
@@ -134,65 +136,91 @@ function RestaurantInformation(props) {
         },
     })(ScrollButton)
 
+
+    // お店画像の描画
+    const renderImages = (images) =>{
+        return(
+            <div className='glWrapper'>
+                <GridList
+                    className={classes.gridList}
+                    cols={props.data.Images.length <= 4 ? 1 : 2}
+                    spacing={2}
+                    ref={gl}
+                >
+                    {images.map((tile) => (
+                        <GridListTile key={tile}
+                            className={classes.gridListTile}>
+                            <img src={tile} alt="" />
+                        </GridListTile>
+                    ))}
+                </GridList>
+                <ScrollButtonTop onClick={() => {
+                    scrollGrid(-1)
+                }}
+                    onTouchEnd={() => scrollGrid(-1)}>
+                    ^
+                </ScrollButtonTop>
+
+                <ScrollButtonBottom onClick={() => {
+                    scrollGrid(1)
+                }}
+                    onTouchEnd={() => scrollGrid(1)}>
+                    v
+                </ScrollButtonBottom>
+                {/* <Divider /> */}
+            </div>
+        )
+    }
+
+    // お店情報の描画
+    const renderCardContent = (data) =>{
+        return (
+            <div className={"cardContentWrapper"}>
+                <CardContent className={classes.cardContent}>
+                    <Typography className={classes.textShopName}>
+                        {data.Name}
+                    </Typography>
+                    <Divider />
+                    <Typography className={classes.textSecondary}
+                        color="primary">
+                        <span className={classes.textStars}>
+                            {data.ReviewRating}
+                        </span>
+                    </Typography>
+                    <Typography className={classes.textSecondary}>
+                        {data.Category === ""
+                            ? "カテゴリなし"
+                            : data.Category}
+                        {space}
+                        {data.Price === ""
+                            ? ""
+                            : "~" + data.Price + "円"}
+                        {space}{data.Distance}
+                    </Typography>
+                    <Typography className={classes.textSecondary}>
+                        {data.BusinessHour}
+                    </Typography>
+                </CardContent>
+            </div>
+        )
+    }
+
+    // Keep/Rejectボタンの描画
+    const renderButtons = () => {
+        return (
+            <Buttons 
+                keep={props.keep}
+                reject={props.reject}
+            />
+        )
+    }
+
     return (
         <div className="RestaurantInformation" style={props.wrapperStyle}>
             <Card variant="outlined" className={classes.cardRoot}>
-                <div className='glWrapper'>
-                    <GridList
-                        className={classes.gridList}
-                        cols={props.data.Images.length <= 4 ? 1 : 2}
-                        spacing={2}
-                        ref={gl}
-                    >
-                        {props.data.Images.map((tile) => (
-                            <GridListTile key={tile}
-                                          className={classes.gridListTile}>
-                                <img src={tile} alt=""/>
-                            </GridListTile>
-                        ))}
-                    </GridList>
-                    <ScrollButtonTop onClick={() => {
-                                      scrollGrid(-1)
-                                  }}
-                                  onTouchEnd={() => scrollGrid(-1)}>
-                        ^
-                    </ScrollButtonTop>
-
-                    <ScrollButtonBottom onClick={() => {
-                      scrollGrid(1)}}
-                      onTouchEnd={() => scrollGrid(1)}>
-                        v
-                    </ScrollButtonBottom>
-                    {/* <Divider /> */}
-                </div>
-                <div className={"cardContentWrapper"}>
-
-                <CardContent className={classes.cardContent}>
-                    <Typography className={classes.textShopName}>
-                        {props.data.Name}
-                    </Typography>
-                    <Divider/>
-                    <Typography className={classes.textSecondary}
-                                color="primary">
-            <span className={classes.textStars}>
-              {props.data.ReviewRating}
-            </span>
-                    </Typography>
-                    <Typography className={classes.textSecondary}>
-                        {props.data.Category === ""
-                            ? "カテゴリなし"
-                            : props.data.Category}
-                        {space}
-                        {props.data.Price === ""
-                            ? ""
-                            : "~" + props.data.Price + "円"}
-                        {space}{props.data.Distance}
-                    </Typography>
-                    <Typography className={classes.textSecondary}>
-                        {props.data.BusinessHour}
-                    </Typography>
-                </CardContent>
-                </div>
+                {renderImages(props.data.Images)}
+                {renderCardContent(props.data)}
+                {renderButtons()}
             </Card>
         </div>
     )
