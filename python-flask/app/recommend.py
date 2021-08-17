@@ -637,16 +637,16 @@ def recommend_main(fetch_group, group_id, user_id):
     # result_json = get_continued_restaurants(fetch_group, group_id, user_id) # 2回目以降
     # if len(result_json) != 0:
     #     return result_json
-    else:
-        for i in range(1000):
-            pre_search_params = recomm.pre_info(fetch_group, group_id, user_id)
-            pre_result_json = api_functions.search_restaurant_info(fetch_group, group_id, pre_search_params)
-            restaurants_list = recomm.responce_info(fetch_group, group_id, user_id, pre_result_json)
-            result_json = api_functions.get_restaurant_info(fetch_group, group_id, restaurants_list)
+    # else:
+    for i in range(1000):
+        pre_search_params = recomm.pre_info(fetch_group, group_id, user_id)
+        pre_result_json = api_functions.search_restaurant_info(fetch_group, group_id, pre_search_params)
+        restaurants_list = recomm.responce_info(fetch_group, group_id, user_id, pre_result_json)
+        result_json = api_functions.get_restaurant_info(fetch_group, group_id, restaurants_list)
 
-            save_result(fetch_group, group_id, user_id, result_json)
-            print(f"RecommendMethod:{recommend_method}")
-            print(f"data_num {len(result_json)}")
-            if len(result_json) >= 1:
-                return result_json
+        save_result(fetch_group, group_id, user_id, result_json)
+        print(f"RecommendMethod:{recommend_method}")
+        print(f"data_num {len(result_json)}")
+        if len(result_json) >= 1:
+            return result_json
 
