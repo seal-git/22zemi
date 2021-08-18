@@ -126,7 +126,7 @@ def set_filter_params(group_id, place, genre, query, open_day, open_hour, maxpri
     fetch_group = session.query(Group).filter(Group.id==group_id).first()
 
     if place is not None:
-        lat,lon,address = api_functions.get_lat_lon(place)
+        lat,lon,address = api_functions.get_lat_lon_address(place)
         fetch_group.lat = lat
         fetch_group.lon = lon
         fetch_group.address = address
@@ -213,7 +213,7 @@ def http_info():
 
     # Yahoo本社の住所 # TODO
     address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-"
-    lat,lon,address = api_functions.get_lat_lon(address)
+    lat,lon,address = api_functions.get_lat_lon_address(address)
     # TODO: 開発用に時間を固定
     open_hour = '18'
     
@@ -305,7 +305,7 @@ def http_list():
     alln = session.query(Belong).filter(Belong.group==group_id).count() # 参加人数
     restaurant_ids = [h.restaurant for h in fetch_histories] if alln >= 2 else [h.restaurant for h in fetch_histories if h.count != 0]
     fetch_group = session.query(Group).filter(Group.id==group_id).first()
-    result_json = api_functions.get_restaurant_info(fetch_group, group_id, restaurant_ids)
+    result_json = api_functions.get_restaurants_info(fetch_group, group_id, restaurant_ids)
 
     # 得票数が多い順に並べる
     result_json.sort(key=lambda x:x['VotesAll']) # 得票数とオススメ度が同じなら、リジェクトが少ない順
@@ -324,7 +324,7 @@ def http_history():
     group_id = group_id if group_id != None else get_group_id(user_id)
 
     fetch_histories = session.query(History.restaurant).filter(History.group==group_id).order_by(updated_at).all()
-    result_json = api_functions.get_restaurant_info(group_id, [h.restaurant for h in fetch_histories])
+    result_json = api_functions.get_restaurants_info(group_id, [h.restaurant for h in fetch_histories])
     return json.dumps(result_json, ensure_ascii=False)
 
 

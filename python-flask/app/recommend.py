@@ -8,14 +8,16 @@ from abc import ABCMeta, abstractmethod
 
 
 '''
+
 レコメンドを行う．
 ================
 recommend_main関数が最初に呼ばれる．
 
 # 新しいレコメンドの記述
-Recommendクラスを継承して，レコメンドアルゴリズムを記述してください．
-RecommendTemplateクラスの例を参考にしてください．
-recommend_mainに作ったクラスを追加してください．
+ - Recommendクラスを継承して，レコメンドアルゴリズムを記述してください．
+ - RecommendTemplateクラスの例を参考にしてください．
+ - recommend_mainに作ったクラスを追加してください．
+
 '''
 
 RESULTS_COUNT = 10 # 一回に返す店舗の数
@@ -33,7 +35,7 @@ with open("./data/category_code.json","rb") as f:
 
 
 # ============================================================================================================
-# recommendクラス関連
+# Recommendクラス関連
 
 class Recommend(metaclass=ABCMeta):
 
@@ -357,7 +359,7 @@ class RecommendGenre(Recommend):
             }
             local_search_params.update(current_group[group_id]['FilterParams'])
         
-            #local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(current_group[group_id], local_search_params)
+            #local_search_json, result_json =  api_functions.get_restaurants_info_from_local_search_params(current_group[group_id], local_search_params)
             result_json = recommend_simple(fetch_group, group_id, user_id, simple_method, params)
             result_json = delete_duplicate_result(fetch_group, group_id, user_id, result_json)
             result_json = get_result_json_price_filter(meanprice, result_json)
@@ -411,7 +413,7 @@ class RecommendGenre(Recommend):
             local_search_params.update(current_group[group_id]['FilterParams'])
             
             # Yahoo local search APIで店舗情報を取得
-            local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(current_group[group_id], local_search_params)
+            local_search_json, result_json =  api_functions.ApiFunctionsYahoo.get_info_from_api(current_group[group_id], local_search_params)
             result_json = delete_duplicate_result(current_group, group_id, user_id, result_json)
             if not price is None:
                 result_json = get_result_json_price_filter(price, result_json)
@@ -486,7 +488,7 @@ def local_search_test(fetch_group, group_id, user_id):
     local_search_params.update(current_group[group_id]['FilterParams'])
 
     # Yahoo local search APIで店舗情報を取得
-    local_search_json, result_json =  api_functions.get_restaurant_info_from_local_search_params(current_group[group_id], local_search_params)
+    local_search_json, result_json =  api_functions.get_restaurants_info_from_local_search_params(current_group[group_id], local_search_params)
     return str(local_search_json)
 
 
@@ -605,7 +607,7 @@ def recommend_main(fetch_group, group_id, user_id):
     
     Returns
     ----------------
-    restaurant_info : dict
+    restaurants_info : dict
         レスポンスするレストラン情報をjson形式で返す。
     '''
     # ratingは、星の数順にソートします。
@@ -640,9 +642,9 @@ def recommend_main(fetch_group, group_id, user_id):
     # else:
     for i in range(1000):
         pre_search_params = recomm.pre_info(fetch_group, group_id, user_id)
-        pre_result_json = api_functions.search_restaurant_info(fetch_group, group_id, pre_search_params)
+        pre_result_json = api_functions.search_restaurants_info(fetch_group, group_id, pre_search_params)
         restaurants_list = recomm.responce_info(fetch_group, group_id, user_id, pre_result_json)
-        result_json = api_functions.get_restaurant_info(fetch_group, group_id, restaurants_list)
+        result_json = api_functions.get_restaurants_info(fetch_group, group_id, restaurants_list)
 
         save_result(fetch_group, group_id, user_id, result_json)
         print(f"RecommendMethod:{recommend_method}")
