@@ -432,7 +432,6 @@ def http_decision():
     decision_json = {"decision":"test"}
     return decision_json
 
-
 @app_.route('/test', methods=['GET','POST'])
 def http_test():
     '''
