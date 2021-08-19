@@ -1,5 +1,15 @@
 import math
 
+def distance_display(distance):
+    '''
+    距離の表示を整形します
+    '''
+    distance = int(distance)
+    if len(str(distance)) > 3:
+        distance = round(distance / 1000, 1)
+        return str(distance) + "km"
+    return str(distance) + "m"
+
     
 def calc_recommend_score(fetch_group, group_id, result_json):
     '''
