@@ -1,3 +1,4 @@
+from geopy import distance
 from sqlalchemy import *
 from sqlalchemy.orm import *
 from sqlalchemy.ext.declarative import declarative_base
@@ -39,8 +40,8 @@ class User(Base):
     id = Column('id', Integer, primary_key=True)
     name = Column('name', String(50))
     email = Column('email', String(100))
-    created_at = Column('created_at', Timestamp, server_default=current_timestamp())
-    updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'))
+    created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
+    updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)
     password = Column('password', String(50))
 
 
@@ -63,24 +64,37 @@ class Group(Base):
     recommend_method = Column('recommend_method', String(50)) # 検索条件 # レコメンド
     group_price = Column('group_price', Integer) # レコメンド # 平均価格
     group_distance = Column('group_distance', Float) # レコメンド # 平均距離
-    created_at = Column('created_at', Timestamp, server_default=current_timestamp())
-    updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'))
+    created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
+    updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)
     password = Column('password', String(50))
 
 
 # レストラン
-class Restaurants(Base):
+class Restaurant(Base):
     __tablename__ = 'restaurants'
     __table_args__=({"mysql_charset": "utf8mb4", "mysql_engine": "InnoDB"})
     id = Column('id', String(50), primary_key=True)
-    images = Column('images', String(100))
+    name = Column('name', String(100), nullable=False)
+    address = Column('address', String(400), nullable=False)
+    distance_float = Column('distance_float', Float)
+    distance = Column('distance', String(20))
+    catchcopy = Column('catchcopy', String(400))
     price = Column('price', Integer)
-    open_hour = Column('open_hour', Integer)
-    address = Column('address', String(100))
-    menu = Column('menu', String(100))
-    created_at = Column('created_at', Timestamp, server_default=current_timestamp())
-    updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'))
-    password = Column('password', String(50))
+    lunch_price = Column('lunch_price', Integer)
+    dinner_price = Column('dinner_price', Integer)
+    category = Column('category', String(400))
+    url_yahoo_loco = Column('url_yahoo_loco', String(400))
+    url_yahoo_map = Column('url_yahoo_map', String(400))
+    review_rating = Column('review_rating', String(100))
+    business_hour = Column('business_hour', String(400))
+    open_hour = Column('open_hour', Float)
+    close_hour = Column('close_hour', Float)
+    genre_code = Column('genre_code', String(200))
+    genre_name = Column('genre_name', String(200))
+    images = Column('images', String(800))
+    menu = Column('menu', String(400))
+    created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
+    updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)
 
 
 # 所属．ユーザがどのグループに所属しているか
@@ -91,8 +105,8 @@ class Belong(Base):
     group = Column('group', Integer, primary_key=True)
     request_count = Column('request_count', Integer, nullable=False, server_default='0') # レコメンド # リクエスト回数
     request_restaurants_num = Column('request_restaurants_num', Integer, nullable=False, server_default='0') # レコメンド # レストランを受け取った数
-    created_at = Column('created_at', Timestamp, server_default=current_timestamp())
-    updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'))
+    created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
+    updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)
 
 # 履歴．ユーザのfeeling
 class History(Base):
@@ -102,8 +116,8 @@ class History(Base):
     group = Column('group', Integer, primary_key=True)
     restaurant = Column('restaurant', String(50), primary_key=True)
     feeling = Column('feeling', Boolean)
-    created_at = Column('created_at', Timestamp, server_default=current_timestamp())
-    updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'))
+    created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
+    updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)
 
 
 Base.metadata.drop_all(ENGINE)
