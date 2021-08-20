@@ -22,6 +22,7 @@ search_params : dict
 restaurants_info = result_json: dict
     ユーザにレスポンスするjson
 
+calc_info.pyにapi_functions.py関係の関数があります．
 '''
 
 # ============================================================================================================
@@ -324,51 +325,3 @@ def get_restaurants_info(fetch_group, group_id, restaurant_ids):
     restaurants_info = calc_info.add_votes_distance(fetch_group, group_id, restaurants_info)
 
     return restaurants_info
-
-# ============================================================================================================
-
-
-def get_lat_lon_address(query):
-    '''
-    Yahoo APIを使って，緯度・経度・住所を返す関数
-
-    Parameters
-    ----------------
-    query : string
-        場所のキーワードや住所
-        例：千代田区
-    
-    Returns
-    ----------------
-    lat, lon : float
-        queryで入力したキーワード周辺の緯度経度を返す
-        例：lat = 35.69404120, lon = 139.75358630
-    address : string
-        住所
-
-    例外処理
-    ----------------
-    不適切なqueryを入力した場合，Yahoo!本社の座標を返す
-    '''
-
-    geo_coder_url = "https://map.yahooapis.jp/geocode/cont/V1/contentsGeoCoder"
-    params = {
-        "appid": os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
-        "output": "json",
-        "query": query
-    }
-    try:
-        response = requests.get(geo_coder_url, params=params)
-        response = response.json()
-        geometry = response["Feature"][0]["Geometry"]
-        coordinates = geometry["Coordinates"].split(",")
-        lon = float(coordinates[0])
-        lat = float(coordinates[1])
-        address = response["Feature"][0]["Property"]["Address"]
-    except:
-        # Yahoo!本社の座標
-        lon = 139.73284
-        lat = 35.68001 
-        address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-"
-        
-    return lat, lon, address

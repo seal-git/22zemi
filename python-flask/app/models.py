@@ -3,7 +3,6 @@ from flask import jsonify, make_response, request
 from app import app_, db_
 from app import recommend, api_functions
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History
-import mysql.connector
 from random import randint
 import json
 import random
@@ -15,55 +14,9 @@ from PIL import Image
 import base64
 from io import BytesIO
 import time
+import requests
 import sqlalchemy
 from sqlalchemy.sql.functions import current_timestamp
-
-
-
-# # mysqlサーバーと接続
-# conn = mysql.connector.connect(
-#     host = 'mysql', #docker-compose.ymlで指定したコンテナ名
-#     port = 3306,
-#     user = 'root',
-#     password = os.environ['MYSQL_ROOT_PASSWORD'],
-#     database = 'sample_db'
-# )
-
-# # mysqlサーバーとの接続を確認
-# conn.ping(reconnect=True)
-# if conn.is_connected():
-#     print("db connected!")
-
-# #@app_.after_request
-# # CORS対策で追記したがうまく働いていない？
-# # def after_request(response):
-# #     print("after request is running")
-# #     response.headers.add('Access-Control-Allow-Origin', '*')
-# #     response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
-# #     response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
-# #     return response
-
-# @app_.route('/get_sample_db', methods=['POST'])
-# # ランダムにsample_db.sample_tableから一つ取得
-# def get_sample_db():
-#     conn.ping(reconnect=True)  # 接続が途切れた時に再接続する
-
-#     cur = conn.cursor(dictionary=True)
-
-#     # ランダムに一つ取得
-#     rand_idx = randint(1, 6)
-#     sql = ("SELECT * "
-#            "FROM sample_table "
-#            f"WHERE user_id={rand_idx}")
-#     cur.execute(sql)
-#     content = cur.fetchone()
-#     result = {
-#         "keys": list(content.keys()),
-#         "content": content
-#     }# JSはオブジェクトのキーの順番を保持しないらしいのでkeyの配列も渡してあげる
-
-#     cur.close()
-#     return make_response(jsonify(result))
 
 
 def generate_group_id():
@@ -126,7 +79,7 @@ def set_filter_params(group_id, place, genre, query, open_day, open_hour, maxpri
     fetch_group = session.query(Group).filter(Group.id==group_id).first()
 
     if place is not None:
-        lat,lon,address = api_functions.get_lat_lon_address(place)
+        lat,lon,address = get_lat_lon_address(place)
         fetch_group.lat = lat
         fetch_group.lon = lon
         fetch_group.address = address
@@ -144,6 +97,56 @@ def set_filter_params(group_id, place, genre, query, open_day, open_hour, maxpri
     fetch_group.open_hour = open_hour if open_hour is not None else current_timestamp()
 
     session.commit()
+
+
+def get_lat_lon_address(query):
+    '''
+    Yahoo APIを使って，緯度・経度・住所を返す関数
+
+    Parameters
+    ----------------
+    query : string
+        場所のキーワードや住所
+        例：千代田区
+    
+    Returns
+    ----------------
+    lat, lon : float
+        queryで入力したキーワード周辺の緯度経度を返す
+        例：lat = 35.69404120, lon = 139.75358630
+    address : string
+        住所
+
+    例外処理
+    ----------------
+    不適切なqueryを入力した場合，Yahoo!本社の座標を返す
+    '''
+
+    geo_coder_url = "https://map.yahooapis.jp/geocode/cont/V1/contentsGeoCoder"
+    params = {
+        "appid": os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
+        "output": "json",
+        "query": query
+    }
+    try:
+        response = requests.get(geo_coder_url, params=params)
+        response = response.json()
+        geometry = response["Feature"][0]["Geometry"]
+        coordinates = geometry["Coordinates"].split(",")
+        lon = float(coordinates[0])
+        lat = float(coordinates[1])
+        address = response["Feature"][0]["Property"]["Address"]
+    except:
+        # Yahoo!本社の座標
+        lon = 139.73284
+        lat = 35.68001 
+        address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-"
+        
+    return lat, lon, address
+
+
+
+# ============================================================================================================
 
 
 @app_.route('/initialize_current_group', methods=['GET','POST'])
@@ -213,7 +216,7 @@ def http_info():
 
     # Yahoo本社の住所 # TODO
     address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-"
-    lat,lon,address = api_functions.get_lat_lon_address(address)
+    lat,lon,address = get_lat_lon_address(address)
     # TODO: 開発用に時間を固定
     open_hour = '18'
     
