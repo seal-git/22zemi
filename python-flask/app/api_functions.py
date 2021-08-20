@@ -3,7 +3,6 @@ import os
 import datetime
 from geopy.distance import great_circle
 from app import calc_info
-from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History
 from abc import ABCMeta, abstractmethod
 
 '''
@@ -132,8 +131,6 @@ class ApiFunctionsYahoo(ApiFunctions):
         restaurant_info['Restaurant_id'] = restaurant_id
         restaurant_info['Name'] = feature['Name']
         restaurant_info['Address'] = feature['Property']['Address']
-        restaurant_info["distance_float"] = great_circle((fetch_group.lat, fetch_group.lon), tuple(reversed([float(x) for x in feature['Geometry']['Coordinates'].split(',')]))).m #距離 メートル float
-        restaurant_info['Distance'] = calc_info.distance_display(great_circle((fetch_group.lat, fetch_group.lon), tuple(reversed([float(x) for x in feature['Geometry']['Coordinates'].split(',')]))).m) # 緯度・経度から距離を計算 str
         restaurant_info['CatchCopy'] = feature['Property'].get('CatchCopy')
         restaurant_info['Price'] = feature['Property']['Detail']['LunchPrice'] if lunch_or_dinner == 'lunch' and feature['Property']['Detail'].get('LunchFlag') == True else feature['Property']['Detail'].get('DinnerPrice')
         restaurant_info['LunchPrice'] = feature['Property']['Detail'].get('LunchPrice')
@@ -146,10 +143,9 @@ class ApiFunctionsYahoo(ApiFunctions):
         restaurant_info['ReviewRating'] = self.get_review_rating(restaurant_id)
         restaurant_info['BusinessHour'] = (feature['Property']['Detail'].get('BusinessHour')).replace('<br>', '\n').replace('<br />', '')
         restaurant_info['Genre'] = feature['Property']['Genre']
-        restaurant_info['VotesLike'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurant_id, History.feeling==True).count()
-        restaurant_info['VotesAll'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurant_id, History.feeling is not None).count()
-        restaurant_info['NumberOfParticipants'] = str(session.query(Belong).filter(Belong.group==group_id).count())
+        restaurant_info['Lon'], restaurant_info['Lat'] = tuple([float(x) for x in feature['Geometry']['Coordinates'].split(',')])
 
+        
         # Images : 画像をリストにする
         lead_image = [feature['Property']['LeadImage']] if 'LeadImage' in feature['Property'] else ([feature['Property']['Detail']['Image1']] if 'Image1' in feature['Property']['Detail'] else []) # リードイメージがある時はImage1を出力しない。
         image_n = [feature['Property']['Detail']['Image'+str(j)] for j in range(2,MAX_LIST_COUNT) if 'Image'+str(j) in feature['Property']['Detail']] # Image1, Image2 ... のキーをリストに。
@@ -279,8 +275,15 @@ def search_restaurants_info(fetch_group, group_id, search_params):
     
     api_f = ApiFunctionsYahoo() # TODO
 
+    # APIで店舗情報を取得
     restaurants_info = api_f.search_restaurants_info(fetch_group, group_id, search_params)
+
+    # データベースに店舗情報を保存
     calc_info.save_restaurants_info(restaurants_info)
+
+    # 投票数と距離を計算
+    restaurants_info = calc_info.add_votes_distance(fetch_group, group_id, restaurants_info)
+
     return restaurants_info
 
 
@@ -305,9 +308,22 @@ def get_restaurants_info(fetch_group, group_id, restaurant_ids):
 
     api_f = ApiFunctionsYahoo() # TODO
 
-    restaurant_ids_del_none = [x for x in restaurant_ids if x]
-    calc_info.load_restaurants_info(api_f, fetch_group, group_id, restaurant_ids)
-    return api_f.get_restaurants_info(fetch_group, group_id, restaurant_ids_del_none)
+    # データベースから店舗情報を取得
+    restaurant_ids_del_none = [x for x in restaurant_ids if x is not None]
+    restaurants_info = calc_info.load_restaurants_info(fetch_group, group_id, restaurant_ids_del_none)
+
+    # データベースにない店舗の情報をAPIで取得
+    rest_ids = [rid for rid, r_info in zip(restaurant_ids, restaurants_info) if r_info is None]
+    rs_info = api_f.get_restaurants_info(fetch_group, group_id, rest_ids)
+    print(str(rest_ids), str(rs_info))
+    for r_info in rs_info:
+        restaurants_info[ restaurant_ids_del_none.index(r_info['Restaurant_id']) ] = r_info
+    restaurants_info = [r for r in restaurants_info if r is not None] # feelingリクエストで架空のrestaurants_idだったときには，それを除く
+    
+    # 投票数と距離を計算
+    restaurants_info = calc_info.add_votes_distance(fetch_group, group_id, restaurants_info)
+
+    return restaurants_info
 
 # ============================================================================================================
 

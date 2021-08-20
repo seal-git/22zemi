@@ -1,6 +1,12 @@
 import math
+from geopy.distance import great_circle
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History
 
+'''
+
+api_functionsで使う情報を計算する
+
+'''
 
 def save_restaurants_info(restaurants_info):
     for restaurant_info in restaurants_info:
@@ -10,8 +16,8 @@ def save_restaurants_info(restaurants_info):
             new_restaurant.id = restaurant_info['Restaurant_id']
             new_restaurant.name = restaurant_info['Name']
             new_restaurant.address = restaurant_info['Address']
-            new_restaurant.distance_float = restaurant_info.get('DistanceFloat')
-            new_restaurant.distance = restaurant_info.get('Distance')
+            new_restaurant.lat = restaurant_info.get('Lat')
+            new_restaurant.lon = restaurant_info.get('Lon')
             new_restaurant.catchcopy = restaurant_info.get('Catchcopy')
             new_restaurant.price = restaurant_info.get('Price')
             new_restaurant.lunch_price = restaurant_info.get('LunchPrice')
@@ -32,7 +38,7 @@ def save_restaurants_info(restaurants_info):
             session.commit()
 
 
-def load_restaurants_info(self_class, fetch_group, group_id, restaurant_ids):
+def load_restaurants_info(fetch_group, group_id, restaurant_ids):
 
     restaurants_info = [None for rid in restaurant_ids]
     fetch_restaurants = session.query(Restaurant).filter(Restaurant.id.in_(restaurant_ids)).all()
@@ -41,8 +47,10 @@ def load_restaurants_info(self_class, fetch_group, group_id, restaurant_ids):
         restaurant_info['Restaurant_id'] = f_restaurant.id
         restaurant_info['Name'] = f_restaurant.name
         restaurant_info['Address'] = f_restaurant.address
-        restaurant_info['DistanceFloat'] = f_restaurant.distance_float
-        restaurant_info['Distance'] = f_restaurant.distance
+        restaurant_info['DistanceFloat'] = great_circle((fetch_group.lat, fetch_group.lon), (f_restaurant.lat, f_restaurant.lon)).m  # f_restaurant.distance_float
+        restaurant_info['Distance'] = distance_display( restaurant_info['DistanceFloat']) # f_restaurant.distance
+        restaurant_info['Lat'] = f_restaurant.lat
+        restaurant_info['Lon'] = f_restaurant.lon
         restaurant_info['Catchcopy'] = f_restaurant.catchcopy
         restaurant_info['Price'] = f_restaurant.price
         restaurant_info['LunchPrice'] = f_restaurant.lunch_price
@@ -59,12 +67,22 @@ def load_restaurants_info(self_class, fetch_group, group_id, restaurant_ids):
         restaurant_info['Menu'] = f_restaurant.menu
 
         restaurants_info[ restaurant_ids.index(f_restaurant.id) ] = restaurant_info
+    
+    return restaurants_info
 
-    rest_ids = [rid for rid, r_info in zip(restaurant_ids, restaurants_info) if r_info is None]
-    rs_info = self_class.get_restaurants_info(fetch_group, group_id, rest_ids)
-    for r_info in rs_info:
-        restaurants_info[ restaurant_ids.index(r_info['Restaurant_id']) ] = r_info
-        
+
+def add_votes_distance(fetch_group, group_id, restaurants_info):
+
+    for i in range(len(restaurants_info)):
+        restaurants_info[i]['VotesLike'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling==True).count()
+        restaurants_info[i]['VotesAll'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling is not None).count()
+        restaurants_info[i]['NumberOfParticipants'] = str(session.query(Belong).filter(Belong.group==group_id).count())
+        restaurants_info[i]["distance_float"] = great_circle((fetch_group.lat, fetch_group.lon), (restaurants_info[i]['Lat'], restaurants_info[i]['Lon'])).m #距離 メートル float
+        restaurants_info[i]['Distance'] = distance_display(restaurants_info[i]["distance_float"]) # 緯度・経度から距離を計算 str
+    restaurants_info = calc_recommend_score(fetch_group, group_id, restaurants_info)
+
+    return restaurants_info
+
 
 def distance_display(distance):
     '''
