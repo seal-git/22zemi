@@ -9,6 +9,15 @@ api_functionsで使う情報を計算する
 '''
 
 def save_restaurants_info(restaurants_info):
+    '''
+    restaurants_infoをデータベースに保存する
+
+    Parameters
+    ----------------
+    restaurants_info : [dict]
+        保存する情報
+    '''
+
     for restaurant_info in restaurants_info:
         fetch_restaurant = session.query(Restaurant).filter(Restaurant.id==restaurant_info['Restaurant_id']).first()
         if fetch_restaurant is None:
@@ -39,7 +48,23 @@ def save_restaurants_info(restaurants_info):
 
 
 def load_restaurants_info(fetch_group, group_id, restaurant_ids):
+    '''
+    データベースからrestaurants_infoを取得
 
+    Parameters
+    ----------------
+    fetch_group : 
+        データベースのグループ情報
+    group_id : int
+        グループID
+    restaurant_ids : [string]
+        レストランIDのリスト
+    
+    Returns
+    ----------------
+    restaurants_info : [dict]
+        レスポンスするレストラン情報を返す。
+    '''
     restaurants_info = [None for rid in restaurant_ids]
     fetch_restaurants = session.query(Restaurant).filter(Restaurant.id.in_(restaurant_ids)).all()
     for f_restaurant in fetch_restaurants:
@@ -72,11 +97,27 @@ def load_restaurants_info(fetch_group, group_id, restaurant_ids):
 
 
 def add_votes_distance(fetch_group, group_id, restaurants_info):
+    '''
+    restaurants_infoに投票数と現在位置からの距離を加える
 
+    Parameters
+    ----------------
+    fetch_group : 
+        データベースのグループ情報
+    group_id : int
+        グループID
+    restaurants_info : [dict]
+        レストランIDのリスト
+    
+    Returns
+    ----------------
+    restaurants_info : [dict]
+        レスポンスするレストラン情報を返す。
+    '''
     for i in range(len(restaurants_info)):
-        restaurants_info[i]['VotesLike'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling==True).count()
-        restaurants_info[i]['VotesAll'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling is not None).count()
-        restaurants_info[i]['NumberOfParticipants'] = str(session.query(Belong).filter(Belong.group==group_id).count())
+        restaurants_info[i]['VotesLike'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling==True).count() # レストランのいいね数
+        restaurants_info[i]['VotesAll'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling is not None).count() # レストランの投票人数
+        restaurants_info[i]['NumberOfParticipants'] = str(session.query(Belong).filter(Belong.group==group_id).count()) # グループの参加人数
         restaurants_info[i]["distance_float"] = great_circle((fetch_group.lat, fetch_group.lon), (restaurants_info[i]['Lat'], restaurants_info[i]['Lon'])).m #距離 メートル float
         restaurants_info[i]['Distance'] = distance_display(restaurants_info[i]["distance_float"]) # 緯度・経度から距離を計算 str
     restaurants_info = calc_recommend_score(fetch_group, group_id, restaurants_info)
@@ -95,17 +136,17 @@ def distance_display(distance):
     return str(distance) + "m"
 
     
-def calc_recommend_score(fetch_group, group_id, result_json):
+def calc_recommend_score(fetch_group, group_id, restaurants_info):
     '''
     オススメ度を計算する
     
     Parameters
     ----------------
-    result_json : dict
+    restaurants_info : [dict]
     
     Returns
     ----------------
-    result_json : dict
+    restaurants_info : [dict]
         追加
         resul_json[i]["RecommendScore"] : float
             オススメ度をパーセントで返す
@@ -124,10 +165,10 @@ def calc_recommend_score(fetch_group, group_id, result_json):
         group_distance = None
     score_list = []
     index_list = []
-    for i in range(len(result_json)):
+    for i in range(len(restaurants_info)):
         try:
-            price = int(result_json[i]["Price"])
-            distance = result_json[i]["distance_float"]
+            price = int(restaurants_info[i]["Price"])
+            distance = restaurants_info[i]["distance_float"]
             try:
                 price_score = 1 if price <= group_price else group_price / price #グループ価格に対する比でスコア付
             except:
@@ -139,10 +180,10 @@ def calc_recommend_score(fetch_group, group_id, result_json):
                 distance_score = 0
 
             #投票されていればスコアが計算される
-            if result_json[i]["VotesAll"] > 0:
-                vote_score = (result_json[i]["VotesLike"] / result_json[i]["VotesAll"])
+            if restaurants_info[i]["VotesAll"] > 0:
+                vote_score = (restaurants_info[i]["VotesLike"] / restaurants_info[i]["VotesAll"])
                 score = int(round(((price_score + distance_score + vote_score) / 3) * 100, 0))
-                #result_json[i]["RecommendScore"] = score
+                #restaurants_info[i]["RecommendScore"] = score
                 score_list.append(score)
                 index_list.append(i)
             else:
@@ -167,6 +208,6 @@ def calc_recommend_score(fetch_group, group_id, result_json):
         norm_score_list.append(norm_score)
     
     for i, n_s in zip(index_list, norm_score_list):
-        result_json[i]["RecommendScore"] = round(n_s)
+        restaurants_info[i]["RecommendScore"] = round(n_s)
 
-    return result_json
+    return restaurants_info

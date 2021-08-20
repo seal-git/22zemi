@@ -7,22 +7,28 @@ from abc import ABCMeta, abstractmethod
 
 '''
 
-APIで店舗情報を取得する．
+APIで店舗情報を取得する。
 ========
-search_restaurant_infoとget_restaurant_infoが最初に呼ばれる．
+search_restaurant_infoとget_restaurant_infoが最初に呼ばれる。
 
 # 新しいAPIの記述
- - ApiFunctionsクラスを継承して記述してください．
+ - ApiFunctionsクラスを継承して記述してください。
  - ApiFunctionsYahooクラスを参考にしてください
- - search_restaurant_info関数とget_restaurant_info関数に作ったクラスを追加してください．
+ - search_restaurant_info関数とget_restaurant_info関数に作ったクラスを追加してください。
+
+# 主な流れ
+search_restaurants_info関数は検索条件(search_params)から店の情報(restaurants_info)を取得する。
+get_restaurants_info関数は検索条件(restaurant_ids)から店の情報(restaurants_info)を取得する。
 
 # 主な変数
+restaurants_info: [dict]
+    ユーザにレスポンスするjson
 search_params : dict
     Yahoo Local Search API の検索クエリと一緒
-restaurants_info = result_json: dict
-    ユーザにレスポンスするjson
+restaurant_ids : [string]
+    レストランIDのリスト
 
-calc_info.pyにapi_functions.py関係の関数があります．
+calc_info.pyにapi_functions.py関係の関数があります。
 '''
 
 # ============================================================================================================
@@ -47,7 +53,7 @@ class ApiFunctions(metaclass=ABCMeta):
         
         Returns
         ----------------
-        result_json : dict
+        restaurants_info : [dict]
             レスポンスするレストラン情報を返す。
         '''
         pass
@@ -68,7 +74,7 @@ class ApiFunctions(metaclass=ABCMeta):
         
         Returns
         ----------------
-        result_json : dict
+        restaurants_info : [dict]
             レスポンスするレストラン情報を返す。
         '''
         pass
@@ -79,7 +85,7 @@ class ApiFunctionsYahoo(ApiFunctions):
 
     def get_review(self, uid):
         '''
-        口コミを見ます
+        Yahoo APIにアクセスして口コミを見ます
         '''
         review_api_url = 'https://map.yahooapis.jp/olp/v1/review/' + uid
         params = {
@@ -97,6 +103,9 @@ class ApiFunctionsYahoo(ApiFunctions):
 
 
     def get_review_rating(self, uid):
+        '''
+        Yahoo APIにアクセスして口コミを文字列で返す
+        '''
         response = self.get_review(uid)
         if response['ResultInfo']['Count'] == 0 : return ''
         review_rating = sum([f['Property']['Comment']['Rating'] for f in response["Feature"]]) / response['ResultInfo']['Count']
@@ -167,14 +176,14 @@ class ApiFunctionsYahoo(ApiFunctions):
         ----------------
         fetch_group : 
             データベースのグループ情報
-        group_id : string
+        group_id : int
             groupID
-        search_params : dictionary
+        search_params : dict
             Yahoo local search APIに送信するクエリ
         
         Returns
         ----------------
-        restaurant_info : string
+        restaurants_info : [dict]
             レスポンスするレストラン情報をjson形式で返す。
         '''
 
@@ -206,23 +215,23 @@ class ApiFunctionsYahoo(ApiFunctions):
             lunch_or_dinner = 'lunch' if lunch_time_start <= now_time < lunch_time_end else 'dinner'
 
         # Yahoo local search apiで受け取ったjsonをクライアントアプリに送るjsonに変換する
-        result_json = []
+        restaurants_info = []
         for i,feature in enumerate(local_search_json['Feature']):
-            result_json.append(self.get_restaurant_info(fetch_group, group_id, lunch_or_dinner, feature))
+            restaurants_info.append(self.get_restaurant_info(fetch_group, group_id, lunch_or_dinner, feature))
             
         #各お店のオススメ度を追加(相対評価)
-        result_json = calc_info.calc_recommend_score(fetch_group, group_id,result_json)
-        return local_search_json, result_json
+        restaurants_info = calc_info.calc_recommend_score(fetch_group, group_id, restaurants_info)
+        return local_search_json, restaurants_info
 
 
     def search_restaurants_info(self, fetch_group, group_id, search_params):
-        local_search_json, result_json = self.get_info_from_api(fetch_group, group_id, search_params)
-        return result_json
+        local_search_json, restaurants_info = self.get_info_from_api(fetch_group, group_id, search_params)
+        return restaurants_info
 
     def get_restaurants_info(self, fetch_group, group_id, restaurant_ids):
         search_params = { 'uid': ','.join(restaurant_ids) }
-        local_search_json, result_json = self.get_info_from_api(fetch_group, group_id, search_params)
-        return result_json
+        local_search_json, restaurants_info = self.get_info_from_api(fetch_group, group_id, search_params)
+        return restaurants_info
 
 
 
@@ -258,19 +267,20 @@ class ApiFunctionsHotpepper (ApiFunctions):
 def search_restaurants_info(fetch_group, group_id, search_params):
     '''
     レコメンドするために条件に合う店を取ってくる
+    recommend.pyのRecommend.pre_info()から呼ばれる。
 
     Parameters
     ----------------
     fetch_group : 
         データベースのグループ情報
-    group_id: int
+    group_id : int
         グループID
     search_params : dict
         検索条件
     
     Returns
     ----------------
-    restaurants_info : dict
+    restaurants_info : [dict]
         レスポンスするレストラン情報を返す。
     '''
     
@@ -291,6 +301,8 @@ def search_restaurants_info(fetch_group, group_id, search_params):
 def get_restaurants_info(fetch_group, group_id, restaurant_ids):
     '''
     restaurant_idsのお店をユーザに返す
+    recommend.pyのRecommend.response_info()から呼ばれる。listリクエストでも呼ばれる。
+    restaurants_idsの順序でrestaurants_infoを返す。
 
     Parameters
     ----------------
@@ -303,7 +315,7 @@ def get_restaurants_info(fetch_group, group_id, restaurant_ids):
     
     Returns
     ----------------
-    restaurants_info : dict
+    restaurants_info : [dict]
         レスポンスするレストラン情報を返す。
     '''
 
@@ -319,7 +331,7 @@ def get_restaurants_info(fetch_group, group_id, restaurant_ids):
     print(str(rest_ids), str(rs_info))
     for r_info in rs_info:
         restaurants_info[ restaurant_ids_del_none.index(r_info['Restaurant_id']) ] = r_info
-    restaurants_info = [r for r in restaurants_info if r is not None] # feelingリクエストで架空のrestaurants_idだったときには，それを除く
+    restaurants_info = [r for r in restaurants_info if r is not None] # feelingリクエストで架空のrestaurants_idだったときには、それを除く
     
     # 投票数と距離を計算
     restaurants_info = calc_info.add_votes_distance(fetch_group, group_id, restaurants_info)

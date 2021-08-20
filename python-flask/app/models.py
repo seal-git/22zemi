@@ -101,7 +101,7 @@ def set_filter_params(group_id, place, genre, query, open_day, open_hour, maxpri
 
 def get_lat_lon_address(query):
     '''
-    Yahoo APIを使って，緯度・経度・住所を返す関数
+    Yahoo APIを使って、緯度・経度・住所を返す関数
 
     Parameters
     ----------------
@@ -119,7 +119,7 @@ def get_lat_lon_address(query):
 
     例外処理
     ----------------
-    不適切なqueryを入力した場合，Yahoo!本社の座標を返す
+    不適切なqueryを入力した場合、Yahoo!本社の座標を返す
     '''
 
     geo_coder_url = "https://map.yahooapis.jp/geocode/cont/V1/contentsGeoCoder"
@@ -256,10 +256,10 @@ def http_info():
 
     # 検索条件
     set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice)
-    result_json = recommend.recommend_main(fetch_group, group_id, user_id)
-    fetch_belong.request_restaurants_num = len(result_json) + 1
+    restaurants_info = recommend.recommend_main(fetch_group, group_id, user_id)
+    fetch_belong.request_restaurants_num = len(restaurants_info) + 1
     session.commit()
-    return json.dumps(result_json, ensure_ascii=False)
+    return json.dumps(restaurants_info, ensure_ascii=False)
 
 
 @app_.route('/feeling', methods=['GET','POST'])
@@ -304,18 +304,18 @@ def http_list():
     # リストに存在しない時は空のリストを返す
     if len(fetch_histories) == 0:
         return "[]"
-    # 表示する店舗を選ぶ．ひとりのときはLIKEした店だけ．2人以上のときはすべて表示．
+    # 表示する店舗を選ぶ。ひとりのときはLIKEした店だけ。2人以上のときはすべて表示。
     alln = session.query(Belong).filter(Belong.group==group_id).count() # 参加人数
     restaurant_ids = [h.restaurant for h in fetch_histories] if alln >= 2 else [h.restaurant for h in fetch_histories if h.count != 0]
     fetch_group = session.query(Group).filter(Group.id==group_id).first()
-    result_json = api_functions.get_restaurants_info(fetch_group, group_id, restaurant_ids)
+    restaurants_info = api_functions.get_restaurants_info(fetch_group, group_id, restaurant_ids)
 
     # 得票数が多い順に並べる
-    result_json.sort(key=lambda x:x['VotesAll']) # 得票数とオススメ度が同じなら、リジェクトが少ない順
-    result_json.sort(key=lambda x:x['RecommendScore'], reverse=True) # 得票数が同じなら、オススメ度順
-    result_json.sort(key=lambda x:x['VotesLike'], reverse=True) # 得票数が多い順
+    restaurants_info.sort(key=lambda x:x['VotesAll']) # 得票数とオススメ度が同じなら、リジェクトが少ない順
+    restaurants_info.sort(key=lambda x:x['RecommendScore'], reverse=True) # 得票数が同じなら、オススメ度順
+    restaurants_info.sort(key=lambda x:x['VotesLike'], reverse=True) # 得票数が多い順
 
-    return json.dumps(result_json, ensure_ascii=False)
+    return json.dumps(restaurants_info, ensure_ascii=False)
 
 
 @app_.route('/history', methods=['GET','POST'])
@@ -327,8 +327,8 @@ def http_history():
     group_id = group_id if group_id != None else get_group_id(user_id)
 
     fetch_histories = session.query(History.restaurant).filter(History.group==group_id).order_by(updated_at).all()
-    result_json = api_functions.get_restaurants_info(group_id, [h.restaurant for h in fetch_histories])
-    return json.dumps(result_json, ensure_ascii=False)
+    restaurants_info = api_functions.get_restaurants_info(group_id, [h.restaurant for h in fetch_histories])
+    return json.dumps(restaurants_info, ensure_ascii=False)
 
 
 @app_.route('/decision', methods=['GET','POST'])
@@ -341,7 +341,7 @@ def http_decision():
 @app_.route('/test', methods=['GET','POST'])
 # アクセスのテスト用,infoと同じ結果を返す
 def http_test():
-    test_result_json = [{"Restaurant_id": "a72a5ed2c330467bd4b4b01a0302bdf977ed00df", 
+    test_restaurants_info = [{"Restaurant_id": "a72a5ed2c330467bd4b4b01a0302bdf977ed00df", 
     "Name": "\u30a8\u30af\u30bb\u30eb\u30b7\u30aa\u30fc\u30eb\u3000\u30ab\u30d5\u30a7\u3000\u30db\u30c6\u30eb\u30b5\u30f3\u30eb\u30fc\u30c8\u8d64\u5742\u5e97", # エクセルシオール　カフェ　ホテルサンルート赤坂店
     "Distance": 492.80934328345614, 
     "CatchCopy": "test", 
@@ -351,7 +351,7 @@ def http_test():
     "Images": []
     }]
 
-    return json.dumps(test_result_json)
+    return json.dumps(test_restaurants_info)
 
 
 # アクセスエラー処理
