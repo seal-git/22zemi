@@ -72,7 +72,7 @@ def generate_user_id():
 
 def set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice):
     '''
-    検索条件を受け取り、dbを更新する。
+    検索条件を受け取り、データベースのグループの表を更新する。
     '''
     if place is None and genre is None and query is None and open_hour is None and maxprice is None and minprice is None: return
     
@@ -150,8 +150,9 @@ def get_lat_lon_address(query):
 
 
 @app_.route('/initialize_current_group', methods=['GET','POST'])
-# dbを初期化
+# データベースを初期化
 def http_initialize_current_group():
+    Base.metadata.drop_all(ENGINE)
     Base.metadata.create_all(bind=ENGINE)
     return "complete create_db\n"
 
@@ -169,6 +170,8 @@ def http_init():
 # 検索条件を指定して、招待URLを返す
 def http_invite():
     URL = 'https://reskima.com'
+
+    # リクエストクエリを受け取る
     data = request.get_json()["params"]
     user_id = int(data["user_id"]) if data.get("user_id", False) else None
     group_id = int(data["group_id"]) if data.get("group_id", False) else None
@@ -184,10 +187,12 @@ def http_invite():
     
     group_id = group_id if group_id is not None else generate_group_id()
     
+    # 検索条件をデータベースに保存
     set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice)
     
-    # QRコードを作って返す
+    # 招待URL
     invite_url = URL + '?group_id=' + str(group_id)
+    # 招待QRコード
     qr_img = qrcode.make(invite_url)
     buf = BytesIO()
     qr_img.save(buf, format="jpeg")
@@ -199,6 +204,7 @@ def http_invite():
 @app_.route('/info', methods=['GET','POST'])
 # 店情報を要求するリクエスト
 def http_info():
+    # リクエストクエリを受け取る
     data = request.get_json()["params"]
     user_id = int(data["user_id"]) if data.get("user_id", False) else None
     group_id = int(data["group_id"]) if data.get("group_id", False) else None
@@ -254,9 +260,12 @@ def http_info():
         fetch_belong.request_count += 1
         session.commit()
 
-    # 検索条件
+    # 検索条件をデータベースに保存
     set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice)
+
+    # 検索して店舗情報を取得
     restaurants_info = recommend.recommend_main(fetch_group, group_id, user_id)
+
     fetch_belong.request_restaurants_num = len(restaurants_info) + 1
     session.commit()
     return json.dumps(restaurants_info, ensure_ascii=False)
@@ -265,6 +274,7 @@ def http_info():
 @app_.route('/feeling', methods=['GET','POST'])
 # キープ・リジェクトの結果を受け取り、メモリに格納する。全会一致の店舗を知らせる。
 def http_feeling():
+    # リクエストクエリを受け取る
     data = request.get_json()["params"]
     user_id = int(data["user_id"]) if data.get("user_id", False) else None
     group_id = int(data["group_id"]) if data.get("group_id", False) else None
@@ -276,14 +286,16 @@ def http_feeling():
     # 履歴にfeelingを登録
     fetch_exist_history = session.query(History).filter(History.group==group_id, History.user==user_id, History.restaurant==restaurant_id).first()
     if fetch_exist_history is not None:
-        session.delete(fetch_exist_history)
-    new_history = History()
-    new_history.group = group_id
-    new_history.user = user_id
-    new_history.restaurant = restaurant_id
-    new_history.feeling = feeling
-    session.add(new_history)
-    session.commit()
+        fetch_exist_history.feeling = feeling
+        session.commit()
+    else:
+        new_history = History()
+        new_history.group = group_id
+        new_history.user = user_id
+        new_history.restaurant = restaurant_id
+        new_history.feeling = feeling
+        session.add(new_history)
+        session.commit()
 
     # 通知の数を返す。全会一致の店の数
     alln = session.query(Belong).filter(Belong.group==group_id).count() # 参加人数
@@ -294,6 +306,7 @@ def http_feeling():
 # 得票数が多い順の店舗リストを返す。1人のときはキープした店舗のリストを返す。
 # リストのアイテムが存在しない場合はnullを返す
 def http_list():
+    # リクエストクエリを受け取る
     data = request.get_json()["params"]
     user_id = int(data["user_id"]) if data.get("user_id", False) else None
     group_id = int(data["group_id"]) if data.get("group_id", False) else None
@@ -319,13 +332,15 @@ def http_list():
 
 
 @app_.route('/history', methods=['GET','POST'])
-# ユーザに表示した店舗履のリストを返す。履歴。
+# ユーザに表示した店舗履歴のリストを返す。
 def http_history():
+    # リクエストクエリを受け取る
     data = request.get_json()["params"]
     user_id = int(data["user_id"]) if data.get("user_id", False) else None
     group_id = int(data["group_id"]) if data.get("group_id", False) else None
     group_id = group_id if group_id != None else get_group_id(user_id)
 
+    # 履歴を取得する
     fetch_histories = session.query(History.restaurant).filter(History.group==group_id).order_by(updated_at).all()
     restaurants_info = api_functions.get_restaurants_info(group_id, [h.restaurant for h in fetch_histories])
     return json.dumps(restaurants_info, ensure_ascii=False)
