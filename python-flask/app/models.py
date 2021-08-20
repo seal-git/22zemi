@@ -5,10 +5,8 @@ from app import recommend, api_functions
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History
 from random import randint
 import json
-import random
 from werkzeug.exceptions import NotFound,BadRequest,InternalServerError
 import datetime
-import string
 import qrcode
 from PIL import Image
 import base64
@@ -150,16 +148,27 @@ def get_lat_lon_address(query):
 
 
 @app_.route('/initialize_current_group', methods=['GET','POST'])
-# データベースを初期化
 def http_initialize_current_group():
+    '''
+    データベースを初期化
+    '''
+
     Base.metadata.drop_all(ENGINE)
     Base.metadata.create_all(bind=ENGINE)
     return "complete create_db\n"
 
 
 @app_.route('/init', methods=['GET','POST'])
-# まだ使われていないグループIDを返す
 def http_init():
+    '''
+    まだ使われていないグループIDを返す
+
+    Returns
+    ----------------
+    GroupId
+    UserId
+    '''
+
     group_id = generate_group_id()
     user_id = generate_user_id()
     result = {'GroupId': str(group_id), 'UserId': str(user_id)}
@@ -167,8 +176,18 @@ def http_init():
 
 
 @app_.route('/invite', methods=['GET', 'POST'])
-# 検索条件を指定して、招待URLを返す
 def http_invite():
+    '''
+    検索条件を指定して、招待URLを返す
+
+    Returns
+    ----------------
+    GroupId
+    UserId
+    Url : 招待URL
+    Qr : 招待QRコード
+    '''
+
     URL = 'https://reskima.com'
 
     # リクエストクエリを受け取る
@@ -202,8 +221,15 @@ def http_invite():
 
 
 @app_.route('/info', methods=['GET','POST'])
-# 店情報を要求するリクエスト
 def http_info():
+    '''
+    店情報を要求するリクエスト
+
+    Returns
+    ----------------
+    restaurants_info : [dict]
+    '''
+
     # リクエストクエリを受け取る
     data = request.get_json()["params"]
     user_id = int(data["user_id"]) if data.get("user_id", False) else None
@@ -272,8 +298,15 @@ def http_info():
 
 
 @app_.route('/feeling', methods=['GET','POST'])
-# キープ・リジェクトの結果を受け取り、メモリに格納する。全会一致の店舗を知らせる。
 def http_feeling():
+    '''
+    キープ・リジェクトの結果を受け取り、メモリに格納する。全会一致の店舗を知らせる。
+
+    Returns
+    ----------------
+    全会一致の店の数 : int
+    '''
+
     # リクエストクエリを受け取る
     data = request.get_json()["params"]
     user_id = int(data["user_id"]) if data.get("user_id", False) else None
@@ -303,9 +336,16 @@ def http_feeling():
 
 
 @app_.route('/list', methods=['GET','POST'])
-# 得票数が多い順の店舗リストを返す。1人のときはキープした店舗のリストを返す。
-# リストのアイテムが存在しない場合はnullを返す
 def http_list():
+    '''
+    得票数が多い順の店舗リストを返す。1人のときはキープした店舗のリストを返す。
+    リストのアイテムが存在しない場合はnullを返す
+
+    Returns
+    ----------------
+    restaurants_info : [dict]
+    '''
+
     # リクエストクエリを受け取る
     data = request.get_json()["params"]
     user_id = int(data["user_id"]) if data.get("user_id", False) else None
@@ -332,8 +372,15 @@ def http_list():
 
 
 @app_.route('/history', methods=['GET','POST'])
-# ユーザに表示した店舗履歴のリストを返す。
 def http_history():
+    '''
+    ユーザに表示した店舗履歴のリストを返す。
+
+    Returns
+    ----------------
+    restaurants_info : [dict]
+    '''
+
     # リクエストクエリを受け取る
     data = request.get_json()["params"]
     user_id = int(data["user_id"]) if data.get("user_id", False) else None
@@ -347,15 +394,25 @@ def http_history():
 
 
 @app_.route('/decision', methods=['GET','POST'])
-# 現状はアクセスのテスト用,最終決定時のURL
 def http_decision():
+    '''
+    現状はアクセスのテスト用,最終決定時のURL
+    '''
+
     decision_json = {"decision":"test"}
     return decision_json
 
 
 @app_.route('/test', methods=['GET','POST'])
-# アクセスのテスト用,infoと同じ結果を返す
 def http_test():
+    '''
+    アクセスのテスト用,infoと同じ結果を返す
+
+    Returns
+    ----------------
+    restaurants_info : [dict]
+    '''
+
     test_restaurants_info = [{"Restaurant_id": "a72a5ed2c330467bd4b4b01a0302bdf977ed00df", 
     "Name": "\u30a8\u30af\u30bb\u30eb\u30b7\u30aa\u30fc\u30eb\u3000\u30ab\u30d5\u30a7\u3000\u30db\u30c6\u30eb\u30b5\u30f3\u30eb\u30fc\u30c8\u8d64\u5742\u5e97", # エクセルシオール　カフェ　ホテルサンルート赤坂店
     "Distance": 492.80934328345614, 

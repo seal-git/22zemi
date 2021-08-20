@@ -1,7 +1,6 @@
 import requests
 import os
 import datetime
-from geopy.distance import great_circle
 from app import calc_info
 from abc import ABCMeta, abstractmethod
 

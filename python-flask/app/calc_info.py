@@ -1,4 +1,3 @@
-import math
 from geopy.distance import great_circle
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History
 
