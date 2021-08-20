@@ -68,13 +68,14 @@ def generate_user_id():
     return user_id # error
 
 
-def set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice):
+def set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort, fetch_group=None):
     '''
     検索条件を受け取り、データベースのグループの表を更新する。
     '''
-    if place is None and genre is None and query is None and open_hour is None and maxprice is None and minprice is None: return
+    if place is None and genre is None and query is None and open_hour is None and maxprice is None and minprice is None and sort is None: return
     
-    fetch_group = session.query(Group).filter(Group.id==group_id).first()
+    if fetch_group is None:
+        fetch_group = session.query(Group).filter(Group.id==group_id).first()
 
     if place is not None:
         lat,lon,address = get_lat_lon_address(place)
@@ -93,6 +94,7 @@ def set_filter_params(group_id, place, genre, query, open_day, open_hour, maxpri
     else:
         fetch_group.open_day = current_timestamp()
     fetch_group.open_hour = open_hour if open_hour is not None else current_timestamp()
+    fetch_group.sort = sort
 
     session.commit()
 
@@ -202,12 +204,13 @@ def http_invite():
     open_hour = data["open_hour"] if data.get("open_hour", False) else None
     maxprice = data["maxprice"] if data.get("maxprice", False) else None
     minprice = data["minprice"] if data.get("minprice", False) else None
+    sort = data["sort"] if data.get("sort", False) else None
     recommend_method = data["recommend_method"] if data.get("recommend_method", False) else None
     
     group_id = group_id if group_id is not None else generate_group_id()
     
     # 検索条件をデータベースに保存
-    set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice)
+    set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort)
     
     # 招待URL
     invite_url = URL + '?group_id=' + str(group_id)
@@ -242,6 +245,7 @@ def http_info():
     open_hour = data["open_hour"] if data.get("open_hour", False) else None
     maxprice = data["maxprice"] if data.get("maxprice", False) else None
     minprice = data["minprice"] if data.get("minprice", False) else None
+    sort = data["sort"] if data.get("sort", False) else None
     recommend_method = data["recommend_method"] if data.get("recommend_method", False) else None
 
     group_id = group_id if group_id is not None else get_group_id(user_id)
@@ -287,7 +291,7 @@ def http_info():
         session.commit()
 
     # 検索条件をデータベースに保存
-    set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice)
+    set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort, fetch_group=fetch_group)
 
     # 検索して店舗情報を取得
     restaurants_info = recommend.recommend_main(fetch_group, group_id, user_id)

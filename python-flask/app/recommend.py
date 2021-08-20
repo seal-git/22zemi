@@ -94,30 +94,14 @@ class RecommendTemplate(Recommend):
     例
     '''
     def pre_info(self, fetch_group, group_id, user_id):
-    
         # YahooローカルサーチAPIで検索するクエリ
-        pre_search_params = {
-            # 中心地から1km以内のグルメを検索
-            'lat': fetch_group.lat, # 緯度
-            'lon': fetch_group.lon, # 経度
-            'dist': fetch_group.max_dist, # 中心地点からの距離 # 最大20km
-            'gc': '01', # グルメ
+        pre_search_params = get_search_params_from_fetch_group(fetch_group)
+        pre_search_params.update({
             'image': 'true', # 画像がある店
             'open': 'now', # 現在開店している店舗
-            'sort': fetch_group.sort, # hyblid # 評価や距離などを総合してソート
             'start': RESULTS_COUNT * (session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()).request_count, # 表示範囲：開始位置
             'results': RESULTS_COUNT, # 表示範囲：店舗数
-        }
-        if fetch_group.query is not None:
-            pre_search_params['query'] = fetch_group.query + ' '
-        if fetch_group.genre is not None:
-            pre_search_params['query'] = fetch_group.genre
-        if fetch_group.open_hour is not None:
-            pre_search_params['open_day'] = str(fetch_group.open_day.day) + ',' + str(fetch_group.open_hour.hour)
-        if fetch_group.max_price is not None:
-            pre_search_params['maxprice'] = fetch_group.max_price
-        if fetch_group.min_price is not None:
-            pre_search_params['minprice'] = fetch_group.min_price
+        })
         return pre_search_params
 
     
@@ -136,32 +120,16 @@ class RecommendTemplate(Recommend):
 
 
 class RecommendSimple(Recommend):
+
     def pre_info(self, fetch_group, group_id, user_id):
-    
         # YahooローカルサーチAPIで検索するクエリ
-        pre_search_params = {
-            # 中心地から1km以内のグルメを検索
-            'lat': fetch_group.lat, # 緯度
-            'lon': fetch_group.lon, # 経度
-            'dist': fetch_group.max_dist, # 中心地点からの距離 # 最大20km
-            'gc': '01', # グルメ
-            #'gc': code, #ランダムなジャンル 滅多にお店が取れない
+        pre_search_params = get_search_params_from_fetch_group(fetch_group)
+        pre_search_params.update({
             'image': 'true', # 画像がある店
             'open': 'now', # 現在開店している店舗
-            'sort': fetch_group.sort, # hyblid # 評価や距離などを総合してソート
             'start': RESULTS_COUNT * (session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()).request_count, # 表示範囲：開始位置
             'results': RESULTS_COUNT, # 表示範囲：店舗数
-        }
-        if fetch_group.query is not None:
-            pre_search_params['query'] = fetch_group.query
-        if fetch_group.genre is not None:
-            pre_search_params['query'] = fetch_group.genre
-        if fetch_group.open_hour is not None:
-            pre_search_params['open_day'] = str(fetch_group.open_day.day) + ',' + str(fetch_group.open_hour.hour)
-        if fetch_group.max_price is not None:
-            pre_search_params['maxprice'] = fetch_group.max_price
-        if fetch_group.min_price is not None:
-            pre_search_params['minprice'] = fetch_group.min_price
+        })
         return pre_search_params
 
 
@@ -200,31 +168,17 @@ class RecommendYahoo(Recommend):
     '''
     レコメンドは Yahoo Local Search に任せる
     '''
+
     def pre_info(self, fetch_group, group_id, user_id):
-    
         # YahooローカルサーチAPIで検索するクエリ
-        pre_search_params = {
-            # 中心地から1km以内のグルメを検索
-            'lat': fetch_group.lat, # 緯度
-            'lon': fetch_group.lon, # 経度
-            'dist': fetch_group.max_dist, # 中心地点からの距離 # 最大20km
-            'gc': '01', # グルメ
+        pre_search_params = get_search_params_from_fetch_group(fetch_group)
+        pre_search_params.update({
             'image': 'true', # 画像がある店
             'open': 'now', # 現在開店している店舗
-            'sort': fetch_group.sort, # hyblid # 評価や距離などを総合してソート
+            'sort': 'hyblid', # 評価や距離などを総合してソート
             'start': RESULTS_COUNT * (session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()).request_count, # 表示範囲：開始位置
             'results': RESULTS_COUNT, # 表示範囲：店舗数
-        }
-        if fetch_group.query is not None:
-            pre_search_params['query'] = fetch_group.query + ' '
-        if fetch_group.genre is not None:
-            pre_search_params['query'] = fetch_group.genre
-        if fetch_group.open_hour is not None:
-            pre_search_params['open_day'] = str(fetch_group.open_day.day) + ',' + str(fetch_group.open_hour.hour)
-        if fetch_group.max_price is not None:
-            pre_search_params['maxprice'] = fetch_group.max_price
-        if fetch_group.min_price is not None:
-            pre_search_params['minprice'] = fetch_group.min_price
+        })
         return pre_search_params
 
     
@@ -441,19 +395,14 @@ class RecommendWords(Recommend):
         address = current_group[group_id]['Address']
         
         request_count = current_group[group_id]['Users'][user_id]['RequestCount']
-
-        pre_search_params = {
-            # 中心地から1km以内のグルメを検索
-            'lat': fetch_group.lat, # 緯度
-            'lon': fetch_group.lon, # 経度
-            'dist': fetch_group.max_dist, # 中心地点からの距離 # 最大20km
-            'gc': '01', # グルメ
+        # YahooローカルサーチAPIで検索するクエリ
+        pre_search_params = get_search_params_from_fetch_group(fetch_group)
+        pre_search_params.update({
             'image': 'true', # 画像がある店
             'open': 'now', # 現在開店している店舗
-            'sort': 'hybrid', # 評価や距離などを総合してソート
-            'start': LOCAL_SEARCH_RESULTS_COUNT * request_count, # 表示範囲：開始位置
-            'results': LOCAL_SEARCH_RESULTS_COUNT
-        }
+            'start': RESULTS_COUNT * (session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()).request_count, # 表示範囲：開始位置
+            'results': RESULTS_COUNT, # 表示範囲：店舗数
+        })
         pre_search_params.update(current_group[group_id]['FilterParams'])
         return pre_search_params
     
@@ -504,7 +453,35 @@ def local_search_test_URL(fetch_group, group_id, user_id):
 # ============================================================================================================
 # recommend_mainで使う関数など
 
+def get_search_params_from_fetch_group(fetch_group, search_params={}):
+    '''
+    ユーザが指定した検索条件からAPIで使用する検索条件に変換
+    '''
+    search_params.update({
+        'lat': fetch_group.lat, # 緯度
+        'lon': fetch_group.lon, # 経度
+        'dist': fetch_group.max_dist, # 中心地点からの距離 # 最大20km
+        'gc': '01', # グルメ
+        'sort': fetch_group.sort # hyblid # 評価や距離などを総合してソート
+    })
+
+    if fetch_group.query is not None:
+        search_params['query'] = fetch_group.query + ' '
+    if fetch_group.genre is not None:
+        search_params['query'] = fetch_group.genre
+    if fetch_group.open_hour is not None:
+        search_params['open_day'] = str(fetch_group.open_day.day) + ',' + str(fetch_group.open_hour.hour)
+    if fetch_group.max_price is not None:
+        search_params['maxprice'] = fetch_group.max_price
+    if fetch_group.min_price is not None:
+        search_params['minprice'] = fetch_group.min_price
+    return search_params
+
+
 def save_histories(fetch_group, group_id, user_id, restaurants_info, params = {}):
+    '''
+    ユーザの表示履歴を保存する
+    '''
     for i in range(len(restaurants_info)):
         fetch_history = session.query(History).filter(History.group==group_id, History.user==user_id, History.restaurant==restaurants_info[i]["Restaurant_id"]).first()
         if fetch_history is None:
