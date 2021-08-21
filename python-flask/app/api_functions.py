@@ -17,7 +17,7 @@ search_restaurant_infoとget_restaurant_infoが最初に呼ばれる．
  - ApiFunctionsYahooクラスを参考にしてください
  - search_restaurant_info関数とget_restaurant_info関数に作ったクラスを追加してください．
 
- # 主な変数
+# 主な変数
 search_params : dict
     Yahoo Local Search API の検索クエリと一緒
 restaurants_info = result_json: dict
@@ -144,10 +144,10 @@ class ApiFunctionsYahoo(ApiFunctions):
         restaurant_info['UrlYahooLoco'] = "https://loco.yahoo.co.jp/place/" + restaurant_id
         restaurant_info['UrlYahooMap'] = "https://map.yahoo.co.jp/route/walk?from=" + str(fetch_group.address) + "&to=" + restaurant_info['Address']
         restaurant_info['ReviewRating'] = self.get_review_rating(restaurant_id)
-        restaurant_info['VotesLike'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurant_id, History.feeling==True).count()
-        restaurant_info['VotesAll'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurant_id, History.feeling is not None).count()
         restaurant_info['BusinessHour'] = (feature['Property']['Detail'].get('BusinessHour')).replace('<br>', '\n').replace('<br />', '')
         restaurant_info['Genre'] = feature['Property']['Genre']
+        restaurant_info['VotesLike'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurant_id, History.feeling==True).count()
+        restaurant_info['VotesAll'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurant_id, History.feeling is not None).count()
         restaurant_info['NumberOfParticipants'] = str(session.query(Belong).filter(Belong.group==group_id).count())
 
         # Images : 画像をリストにする
@@ -253,6 +253,7 @@ class ApiFunctionsHotpepper (ApiFunctions):
         pass
 
 
+
 # ============================================================================================================
 # api_functions.pyで最初に呼ばれる
 
@@ -278,7 +279,9 @@ def search_restaurants_info(fetch_group, group_id, search_params):
     
     api_f = ApiFunctionsYahoo() # TODO
 
-    return api_f.search_restaurants_info(fetch_group, group_id, search_params)
+    restaurants_info = api_f.search_restaurants_info(fetch_group, group_id, search_params)
+    calc_info.save_restaurants_info(restaurants_info)
+    return restaurants_info
 
 
 def get_restaurants_info(fetch_group, group_id, restaurant_ids):
@@ -303,6 +306,7 @@ def get_restaurants_info(fetch_group, group_id, restaurant_ids):
     api_f = ApiFunctionsYahoo() # TODO
 
     restaurant_ids_del_none = [x for x in restaurant_ids if x]
+    calc_info.load_restaurants_info(api_f, fetch_group, group_id, restaurant_ids)
     return api_f.get_restaurants_info(fetch_group, group_id, restaurant_ids_del_none)
 
 # ============================================================================================================
@@ -310,7 +314,7 @@ def get_restaurants_info(fetch_group, group_id, restaurant_ids):
 
 def get_lat_lon_address(query):
     '''
-    緯度，経度をfloatで返す関数
+    Yahoo APIを使って，緯度・経度・住所を返す関数
 
     Parameters
     ----------------
@@ -323,7 +327,9 @@ def get_lat_lon_address(query):
     lat, lon : float
         queryで入力したキーワード周辺の緯度経度を返す
         例：lat = 35.69404120, lon = 139.75358630
-    
+    address : string
+        住所
+
     例外処理
     ----------------
     不適切なqueryを入力した場合，Yahoo!本社の座標を返す
