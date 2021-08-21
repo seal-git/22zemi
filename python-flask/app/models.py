@@ -2,7 +2,7 @@
 from flask import jsonify, make_response, request
 from app import app_, db_
 from app import recommend, api_functions
-from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History
+from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 from random import randint
 import json
 from werkzeug.exceptions import NotFound,BadRequest,InternalServerError
@@ -318,25 +318,46 @@ def http_feeling():
     restaurant_id = data["restaurant_id"] if data.get("restaurant_id", False) else None
     feeling = data["feeling"] if data.get("feeling", False) else None
 
-    group_id = group_id if group_id is not None else get_group_id(user_id)
-    
-    # 履歴にfeelingを登録
-    fetch_exist_history = session.query(History).filter(History.group==group_id, History.user==user_id, History.restaurant==restaurant_id).first()
-    if fetch_exist_history is not None:
-        fetch_exist_history.feeling = feeling
-        session.commit()
-    else:
-        new_history = History()
-        new_history.group = group_id
-        new_history.user = user_id
-        new_history.restaurant = restaurant_id
-        new_history.feeling = feeling
-        session.add(new_history)
-        session.commit()
+    if user_id is not None and restaurant_id is not None and feeling is not None:
+
+        group_id = group_id if group_id is not None else get_group_id(user_id)
+        
+        # 履歴にfeelingを登録
+        fetch_history = session.query(History).filter(History.group==group_id, History.user==user_id, History.restaurant==restaurant_id).first()
+        if fetch_history is not None:
+            prev_feeling = fetch_history.feeling
+            fetch_history.feeling = feeling
+            session.commit()
+        else:
+            # ここは実行されないはず
+            prev_feeling = None
+            new_history = History()
+            new_history.group = group_id
+            new_history.user = user_id
+            new_history.restaurant = restaurant_id
+            new_history.feeling = feeling
+            session.add(new_history)
+            session.commit()
+        
+        # 投票数を更新
+        fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==restaurant_id).first()
+        if fetch_vote is not None:
+            fetch_vote.votes_all += 1 if prev_feeling is None else 0
+            fetch_vote.votes_like += (1 if feeling else 0) if prev_feeling is None else ((0 if feeling else -1) if prev_feeling else (1 if feeling else 0))
+            session.commit()
+        else:
+            # ここは実行されないはず
+            new_vote = Vote()
+            new_vote.group = group_id
+            new_vote.restaurant = restaurant_id
+            new_vote.votes_all = 1
+            new_vote.votes_like = 1 if feeling else 0
+            session.add(new_vote)
+            session.commit()
 
     # 通知の数を返す。全会一致の店の数
     alln = session.query(Belong).filter(Belong.group==group_id).count() # 参加人数
-    return str( session.query(sqlalchemy.func.count("*")).filter(History.group==group_id, History.feeling==True).group_by(History.restaurant).having(sqlalchemy.func.count("*")>=alln).count() )
+    return str( session.query(Vote).filter(Vote.group==group_id, Vote.votes_like==alln).count() )
 
 
 @app_.route('/list', methods=['GET','POST'])
@@ -357,13 +378,13 @@ def http_list():
     group_id = group_id if group_id != None else get_group_id(user_id)
 
     # レストランごとに投票数をカウント
-    fetch_histories = session.query(History.restaurant, sqlalchemy.func.count("*").label("count")).filter(History.group==group_id, History.feeling==True).group_by(History.restaurant).order_by(desc(sqlalchemy.func.count("*"))).all()
+    fetch_votes = session.query(Vote.restaurant, Vote.votes_like).filter(Vote.group==group_id).order_by(desc(Vote.votes_like)).all()
     # リストに存在しない時は空のリストを返す
-    if len(fetch_histories) == 0:
+    if len(fetch_votes) == 0:
         return "[]"
     # 表示する店舗を選ぶ。ひとりのときはLIKEした店だけ。2人以上のときはすべて表示。
     alln = session.query(Belong).filter(Belong.group==group_id).count() # 参加人数
-    restaurant_ids = [h.restaurant for h in fetch_histories] if alln >= 2 else [h.restaurant for h in fetch_histories if h.count != 0]
+    restaurant_ids = [h.restaurant for h in fetch_votes] if alln >= 2 else [h.restaurant for h in fetch_votes if h.votes_like != 0]
     fetch_group = session.query(Group).filter(Group.id==group_id).first()
     restaurants_info = api_functions.get_restaurants_info(fetch_group, group_id, restaurant_ids)
 
@@ -392,7 +413,7 @@ def http_history():
     group_id = group_id if group_id != None else get_group_id(user_id)
 
     # 履歴を取得する
-    fetch_histories = session.query(History.restaurant).filter(History.group==group_id).order_by(updated_at).all()
+    fetch_histories = session.query(History.restaurant).filter(History.group==group_id, History.user==user_id).order_by(updated_at).all()
     restaurants_info = api_functions.get_restaurants_info(group_id, [h.restaurant for h in fetch_histories])
     return json.dumps(restaurants_info, ensure_ascii=False)
 
@@ -402,6 +423,11 @@ def http_decision():
     '''
     現状はアクセスのテスト用,最終決定時のURL
     '''
+
+    # Groupのアーカイブ
+    # BelongからGroupをアーカイブ
+    # HistoryからGroupをアーカイブ
+    # Voteのレストランを削除
 
     decision_json = {"decision":"test"}
     return decision_json

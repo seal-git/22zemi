@@ -1,8 +1,8 @@
-from app import api_functions
+from app import api_functions, calc_info
 import json
 import os
 import random
-from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History
+from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 from sqlalchemy import distinct
 from abc import ABCMeta, abstractmethod
 
@@ -25,6 +25,7 @@ recommend_main関数が最初に呼ばれる。
 '''
 
 RESULTS_COUNT = 10 # 一回に返す店舗の数
+STOCK_COUNT = 100 # APIで取得するデータの数．STOCK_COUNT個の店からRESULTS_COUNT個選ぶ
 MAX_DISTANCE = 20 # 中心地からの距離 上限20
 
 #カテゴリの類似度が高い物
@@ -83,7 +84,7 @@ class Recommend(metaclass=ABCMeta):
 
         Returns
         ----------------
-        restaurants_list : [restaurant_id]
+        restaurants_ids : [string]
 
         '''
         pass
@@ -99,8 +100,6 @@ class RecommendTemplate(Recommend):
         pre_search_params.update({
             'image': 'true', # 画像がある店
             'open': 'now', # 現在開店している店舗
-            'start': RESULTS_COUNT * (session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()).request_count, # 表示範囲：開始位置
-            'results': RESULTS_COUNT, # 表示範囲：店舗数
         })
         return pre_search_params
 
@@ -134,7 +133,7 @@ class RecommendSimple(Recommend):
 
 
     def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info):
-        restaurants_info = delete_duplicate_restaurants_info(fetch_group, group_id, user_id, pre_restaurants_info)
+        restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info)
         # if fetch_group.max_price is not None: restaurants_info = get_restaurants_info_price_filter(fetch_group.max_price, restaurants_info)
         return [r['Restaurant_id'] for r in restaurants_info]
     
@@ -154,14 +153,6 @@ class RecommendSimple(Recommend):
 
         return new_restaurants_info
 
-
-    def delete_duplicate_restaurants_info(self, fetch_group, group_id, user_id, restaurants_info):
-        restaurants_info_tmp = []
-        for i in range(len(restaurants_info)):
-            fetch_history = session.query(History).filter(History.group==group_id, History.user==user_id, History.restaurant==restaurants_info[i]["Restaurant_id"]).first()
-            if fetch_history is None:
-                restaurants_info_tmp.append(restaurants_info[i])
-        return restaurants_info_tmp
 
 
 class RecommendYahoo(Recommend):
@@ -309,8 +300,6 @@ class RecommendGenre(Recommend):
                 'dist': meandistance, # 中心地点からの距離 # 最大20km
                 'image': 'true', # 画像がある店
                 'open': 'now', # 現在開店している店舗
-                'start': RESULTS_COUNT * request_count, # 表示範囲：開始位置
-                'results': RESULTS_COUNT,
                 'maxprice': meanprice,
                 'gc': code
             }
@@ -318,7 +307,7 @@ class RecommendGenre(Recommend):
         
             #local_search_json, restaurants_info =  api_functions.get_restaurants_info_from_pre_search_params(current_group[group_id], pre_search_params)
             restaurants_info = recommend_simple(fetch_group, group_id, user_id, simple_method, params)
-            restaurants_info = delete_duplicate_restaurants_info(fetch_group, group_id, user_id, restaurants_info)
+            restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, restaurants_info)
             restaurants_info = get_restaurants_info_price_filter(meanprice, restaurants_info)
 
             if len(restaurants_info) == 0:
@@ -371,7 +360,7 @@ class RecommendGenre(Recommend):
             
             # Yahoo local search APIで店舗情報を取得
             local_search_json, restaurants_info =  api_functions.ApiFunctionsYahoo.get_info_from_api(current_group[group_id], pre_search_params)
-            restaurants_info = delete_duplicate_restaurants_info(current_group, group_id, user_id, restaurants_info)
+            restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, restaurants_info)
             if not price is None:
                 restaurants_info = get_restaurants_info_price_filter(price, restaurants_info)
 
@@ -400,8 +389,6 @@ class RecommendWords(Recommend):
         pre_search_params.update({
             'image': 'true', # 画像がある店
             'open': 'now', # 現在開店している店舗
-            'start': RESULTS_COUNT * (session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()).request_count, # 表示範囲：開始位置
-            'results': RESULTS_COUNT, # 表示範囲：店舗数
         })
         pre_search_params.update(current_group[group_id]['FilterParams'])
         return pre_search_params
@@ -470,7 +457,7 @@ def get_search_params_from_fetch_group(fetch_group, search_params={}):
     if fetch_group.genre is not None:
         search_params['query'] = fetch_group.genre
     if fetch_group.open_hour is not None:
-        search_params['open_day'] = str(fetch_group.open_day.day) + ',' + str(fetch_group.open_hour.hour)
+        search_params['open'] = str(fetch_group.open_day.day) + ',' + str(fetch_group.open_hour.hour)
     if fetch_group.max_price is not None:
         search_params['maxprice'] = fetch_group.max_price
     if fetch_group.min_price is not None:
@@ -478,40 +465,57 @@ def get_search_params_from_fetch_group(fetch_group, search_params={}):
     return search_params
 
 
-def save_histories(fetch_group, group_id, user_id, restaurants_info, params = {}):
+def save_histories(group_id, user_id, restaurants_info):
     '''
     ユーザの表示履歴を保存する
     '''
-    for i in range(len(restaurants_info)):
-        fetch_history = session.query(History).filter(History.group==group_id, History.user==user_id, History.restaurant==restaurants_info[i]["Restaurant_id"]).first()
+    for i,r in enumerate(restaurants_info):
+        fetch_history = session.query(History).filter(History.group==group_id, History.user==user_id, History.restaurant==r["Restaurant_id"]).first()
         if fetch_history is None:
             new_history = History()
             new_history.group = group_id
             new_history.user = user_id
-            new_history.restaurant = restaurants_info[i]["Restaurant_id"]
+            new_history.restaurant = r["Restaurant_id"]
             new_history.feeling = None
             session.add(new_history)
             session.commit()
+        
+        fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==r["Restaurant_id"]).first()
+        if fetch_vote is None:
+            new_vote = Vote()
+            new_vote.group = group_id
+            new_vote.restaurant = r["Restaurant_id"]
+            new_vote.votes_all = 0
+            new_vote.votes_like = 0
+            session.add(new_vote)
+            session.commit()
+        else:
+            if fetch_vote.votes_all==-1:
+                fetch_vote.votes_all = 0
+                fetch_vote.votes_like = 0
+                session.commit()
 
-    if "dist" in params.keys():
-        fetch_group.group_distance = params["dist"]
-        session.commit()
-    # else:
-    #     fetch_group.group_distance = None
-    if "price" in params.keys():
-        fetch_group.group_price = params["price"]
-        session.commit()
-    # else:
-    #     fetch_group.group_price = None
+# ============================================================================================================
+# 未使用の関数？
 
+def delete_duplicate_restaurants_info(group_id, user_id, restaurants_info):
+    '''
+    一度ユーザに送信したレストランはリストから除く
 
-def delete_duplicate_restaurants_info(fetch_group, group_id, user_id, restaurants_info):
-    restaurants_info_tmp = []
-    for i in range(len(restaurants_info)):
-        fetch_history = session.query(History).filter(History.group==group_id, History.user==user_id, History.restaurant==restaurants_info[i]["Restaurant_id"]).first()
-        if fetch_history is None:
-            restaurants_info_tmp.append(restaurants_info[i])
-    return restaurants_info_tmp
+    Parameters
+    ----------------
+    group_id : int
+    user_id : int
+    restaurants_info : [dict]
+    
+    Returns
+    ----------------
+    restaurants_info : [dict]
+        レストラン情報
+    '''
+
+    histories_restaurants = [h.restaurant for h in session.query(History.restaurant).filter(History.group==group_id, History.user==user_id).all()]
+    return [ri for ri in restaurants_info if not ri['Restaurant_id'] in histories_restaurants]
 
 
 def get_continued_restaurants(fetch_group, group_id, user_id):
@@ -592,17 +596,17 @@ def recommend_main(fetch_group, group_id, user_id):
             # 検索条件から、
         pre_search_params = recomm.pre_info(fetch_group, group_id, user_id)
             # APIで情報を取得し、
-        pre_restaurants_info = api_functions.search_restaurants_info(fetch_group, group_id, pre_search_params)
+        pre_restaurants_info = api_functions.search_restaurants_info(fetch_group, group_id, user_id, pre_search_params, STOCK_COUNT)
             # ユーザに表示する店を選び、
-        restaurants_list = recomm.response_info(fetch_group, group_id, user_id, pre_restaurants_info)
+        restaurants_ids = recomm.response_info(fetch_group, group_id, user_id, pre_restaurants_info)
             # 店舗情報を返す。
-        restaurants_info = api_functions.get_restaurants_info(fetch_group, group_id, restaurants_list)
+        restaurants_info = api_functions.get_restaurants_info(fetch_group, group_id, restaurants_ids)
 
-        # 履歴を保存
-        save_histories(fetch_group, group_id, user_id, restaurants_info)
 
         print(f"RecommendMethod:{recommend_method}")
         print(f"data_num {len(restaurants_info)}")
         if len(restaurants_info) >= 1:
+            # 履歴を保存
+            save_histories(group_id, user_id, restaurants_info)
             return restaurants_info
 
