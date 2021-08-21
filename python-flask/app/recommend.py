@@ -69,6 +69,7 @@ class Recommend(metaclass=ABCMeta):
     def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info):
         '''
         レスポンスでユーザに返す店を決める
+        pre_restaurants_infoをおすすめ順に並び替えて，RESULTS_COUNT個選ぶ
 
         Parameters
         ----------------
@@ -81,6 +82,8 @@ class Recommend(metaclass=ABCMeta):
 
         pre_restaurants_info : [dict]
             pre_infoで取ってきた店の情報
+            一度ユーザに送信した店は排除済み
+
 
         Returns
         ----------------
@@ -106,16 +109,14 @@ class RecommendTemplate(Recommend):
     
     def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info):
         # TODO: 重みを計算
-        LOCAL_SEARCH_RESULTS_COUNT = 10
-        weight = [0] * LOCAL_SEARCH_RESULTS_COUNT
+        weight = [0] * len(pre_restaurants_info)
         for i, pre_restaurant_info in enumerate(pre_restaurants_info):
-            weight[i] = LOCAL_SEARCH_RESULTS_COUNT - i
+            weight[i] = len(pre_restaurants_info) - i
 
         # 重み順にソートして出力
-        restaurants_info = sorted(zip(weight, pre_restaurants_info), key=lambda x:x[0], reverse=True)
-        restaurants_info = [rj[1] for rj in restaurants_info]
-        restaurants_info = restaurants_info[request_count * RESULTS_COUNT : (request_count+1) * RESULTS_COUNT]
-        return restaurants_info
+        restaurants_info_tuple = sorted(zip(weight, pre_restaurants_info), key=lambda x:x[0], reverse=True)
+        restaurants_ids = [rj[1]['Restaurant_id'] for rj in restaurants_info_tuple]
+        return restaurants_ids[0 : RESULTS_COUNT]
 
 
 class RecommendSimple(Recommend):
@@ -379,26 +380,21 @@ class RecommendWords(Recommend):
     '''
 
     def pre_info(self, fetch_group, group_id, user_id):
-        LOCAL_SEARCH_RESULTS_COUNT = 10 # 一回に取得する店舗の数
-        coordinates = current_group[group_id]['Coordinates']
-        address = current_group[group_id]['Address']
-        
-        request_count = current_group[group_id]['Users'][user_id]['RequestCount']
         # YahooローカルサーチAPIで検索するクエリ
         pre_search_params = get_search_params_from_fetch_group(fetch_group)
         pre_search_params.update({
             'image': 'true', # 画像がある店
             'open': 'now', # 現在開店している店舗
         })
-        pre_search_params.update(current_group[group_id]['FilterParams'])
         return pre_search_params
     
     def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info):
 
         restaurants_info = sorted(pre_restaurants_info, key=lambda x:x['ReviewRating'], reverse=True)
         stop_index = [i for i, x in enumerate(restaurants_info) if x['ReviewRating'] < 3][0]
-        restaurants_info = restaurants_info[:stop_index]
-        return restaurants_info
+        restaurants_info = restaurants_info[:min(stop_index, RESULTS_COUNT)]
+        return [r['Restaurant_id'] for r in restaurants_info]
+
 
 
 # ============================================================================================================
@@ -578,7 +574,9 @@ def recommend_main(fetch_group, group_id, user_id):
     
     # TODO: レコメンド関数の追加
     recommend_method = fetch_group.recommend_method
-    recomm = RecommendSimple() # レコメンドに使うクラスを指定
+    #recomm = RecommendSimple() # レコメンドに使うクラスを指定
+    recomm = RecommendTemplate() # レコメンドに使うクラスを指定
+    #recomm = RecommendYahoo() # レコメンドに使うクラスを指定
     if recommend_method in ['rating', 'score', 'hyblid', 'review', 'kana', 'price', 'dist', 'geo', '-rating', '-score', '-hyblid', '-review', '-kana', '-price', '-dist', '-geo']:
         recomm = RecommendSimple()
     elif recommend_method == 'template':
