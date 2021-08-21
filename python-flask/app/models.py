@@ -295,6 +295,10 @@ def http_info():
 
     # 検索して店舗情報を取得
     restaurants_info = recommend.recommend_main(fetch_group, group_id, user_id)
+    print("-------------------------------------------\n\n")
+    print(restaurants_info)
+    print({})
+    print("\n\n-------------------------------------------")
 
     fetch_belong.request_restaurants_num = len(restaurants_info) + 1
     session.commit()
