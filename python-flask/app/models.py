@@ -297,7 +297,7 @@ def http_list():
     group_id = group_id if group_id != None else get_group_id(user_id)
 
     # レストランごとに投票数をカウント
-    fetch_histories = session.query(History.restaurant, sqlalchemy.func.count("*").label("count")).filter(History.group==group_id).group_by(History.restaurant).order_by(desc(sqlalchemy.func.count("*"))).all()
+    fetch_histories = session.query(History.restaurant, sqlalchemy.func.count("*").label("count")).filter(History.group==group_id, History.feeling==True).group_by(History.restaurant).order_by(desc(sqlalchemy.func.count("*"))).all()
     # リストに存在しない時は空のリストを返す
     if len(fetch_histories) == 0:
         return "[]"

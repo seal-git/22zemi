@@ -42,7 +42,7 @@ class Recommend(metaclass=ABCMeta):
     @abstractmethod
     def pre_info(self, fetch_group, group_id, user_id):
         '''
-        APIを使って候補となる店の情報を取ってくる --> responce_info.pre_result_json
+        APIを使って候補となる店の情報を取ってくる --> response_info.pre_result_json
 
         Parameters
         ----------------
@@ -61,7 +61,7 @@ class Recommend(metaclass=ABCMeta):
         pass
     
     @abstractmethod
-    def responce_info(self, fetch_group, group_id, user_id, pre_result_json):
+    def response_info(self, fetch_group, group_id, user_id, pre_result_json):
         '''
         レスポンスでユーザに返す店を決める
 
@@ -117,7 +117,7 @@ class RecommendTemplate(Recommend):
         return local_search_params
 
     
-    def responce_info(self, fetch_group, group_id, user_id, pre_result_json):
+    def response_info(self, fetch_group, group_id, user_id, pre_result_json):
         # TODO: 重みを計算
         LOCAL_SEARCH_RESULTS_COUNT = 10
         weight = [0] * LOCAL_SEARCH_RESULTS_COUNT
@@ -161,7 +161,7 @@ class RecommendSimple(Recommend):
         return local_search_params
 
 
-    def responce_info(self, fetch_group, group_id, user_id, pre_result_json):
+    def response_info(self, fetch_group, group_id, user_id, pre_result_json):
         result_json = delete_duplicate_result(fetch_group, group_id, user_id, pre_result_json)
         if not fetch_group.max_price is None:
             result_json = get_result_json_price_filter(fetch_group.max_price, result_json)
@@ -226,7 +226,7 @@ class RecommendYahoo(Recommend):
         return local_search_params
 
     
-    def responce_info(self, fetch_group, group_id, user_id, pre_result_json):
+    def response_info(self, fetch_group, group_id, user_id, pre_result_json):
         return [r['Restaurant_id'] for r in pre_result_json]
 
 
@@ -234,7 +234,7 @@ class RecommendGenre(Recommend):
     def pre_info(self, fetch_group, group_id, user_id):
         return {}
     
-    def responce_info(self, fetch_group, group_id, user_id, pre_result_json):
+    def response_info(self, fetch_group, group_id, user_id, pre_result_json):
         return []
 
     def __TODO(self, fetch_group, group_id, user_id, pre_result_json):
@@ -454,7 +454,7 @@ class RecommendWords(Recommend):
         local_search_params.update(current_group[group_id]['FilterParams'])
         return local_search_params
     
-    def responce_info(self, fetch_group, group_id, user_id, pre_result_json):
+    def response_info(self, fetch_group, group_id, user_id, pre_result_json):
 
         result_json = sorted(pre_result_json, key=lambda x:x['ReviewRating'], reverse=True)
         stop_index = [i for i, x in enumerate(result_json) if x['ReviewRating'] < 3][0]
@@ -643,7 +643,7 @@ def recommend_main(fetch_group, group_id, user_id):
     for i in range(1000):
         pre_search_params = recomm.pre_info(fetch_group, group_id, user_id)
         pre_result_json = api_functions.search_restaurants_info(fetch_group, group_id, pre_search_params)
-        restaurants_list = recomm.responce_info(fetch_group, group_id, user_id, pre_result_json)
+        restaurants_list = recomm.response_info(fetch_group, group_id, user_id, pre_result_json)
         result_json = api_functions.get_restaurants_info(fetch_group, group_id, restaurants_list)
 
         save_result(fetch_group, group_id, user_id, result_json)
