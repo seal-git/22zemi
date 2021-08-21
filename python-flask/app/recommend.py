@@ -443,9 +443,9 @@ def get_search_params_from_fetch_group(fetch_group, search_params={}):
     search_params.update({
         'lat': fetch_group.lat, # 緯度
         'lon': fetch_group.lon, # 経度
-        'dist': fetch_group.max_dist, # 中心地点からの距離 # 最大20km
+        'dist': fetch_group.max_dist if fetch_group.max_dist is not None else MAX_DISTANCE, # 中心地点からの距離 # 最大20km
         'gc': '01', # グルメ
-        'sort': fetch_group.sort # hyblid # 評価や距離などを総合してソート
+        'sort': fetch_group.sort if fetch_group.sort is not None else 'hyblid' # hyblid: 評価や距離などを総合してソート
     })
 
     if fetch_group.query is not None:
@@ -575,8 +575,8 @@ def recommend_main(fetch_group, group_id, user_id):
     # TODO: レコメンド関数の追加
     recommend_method = fetch_group.recommend_method
     #recomm = RecommendSimple() # レコメンドに使うクラスを指定
-    recomm = RecommendTemplate() # レコメンドに使うクラスを指定
-    #recomm = RecommendYahoo() # レコメンドに使うクラスを指定
+    #recomm = RecommendTemplate() # レコメンドに使うクラスを指定
+    recomm = RecommendYahoo() # レコメンドに使うクラスを指定
     if recommend_method in ['rating', 'score', 'hyblid', 'review', 'kana', 'price', 'dist', 'geo', '-rating', '-score', '-hyblid', '-review', '-kana', '-price', '-dist', '-geo']:
         recomm = RecommendSimple()
     elif recommend_method == 'template':
