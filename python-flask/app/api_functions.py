@@ -2,6 +2,7 @@ import requests
 import os
 import datetime
 from app import calc_info
+from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 from abc import ABCMeta, abstractmethod
 
 '''
@@ -263,7 +264,7 @@ class ApiFunctionsHotpepper (ApiFunctions):
 # api_functions.pyで最初に呼ばれる
 
 
-def search_restaurants_info(fetch_group, group_id, search_params):
+def search_restaurants_info(fetch_group, group_id, user_id, search_params, stock):
     '''
     レコメンドするために条件に合う店を取ってくる
     recommend.pyのRecommend.pre_info()から呼ばれる。
@@ -273,7 +274,7 @@ def search_restaurants_info(fetch_group, group_id, search_params):
     fetch_group : 
         データベースのグループ情報
     group_id : int
-        グループID
+    user_id : int
     search_params : dict
         検索条件
     
@@ -285,11 +286,27 @@ def search_restaurants_info(fetch_group, group_id, search_params):
     
     api_f = ApiFunctionsYahoo() # TODO
 
+    # 重複して表示しないようにするため、履歴を取得
+    histories_restaurants = [h.restaurant for h in session.query(History.restaurant).filter(History.group==group_id, History.user==user_id).all()]
+    
     # APIで店舗情報を取得
+    if 'start' not in search_params or 'result' not in search_params:
+        start = session.query(Vote.restaurant).filter(Vote.group==group_id).count()
+        result = stock + len(histories_restaurants) - start
+        search_params.update({'start': start, 'result': result})
+    
     restaurants_info = api_f.search_restaurants_info(fetch_group, group_id, search_params)
 
     # データベースに店舗情報を保存
     calc_info.save_restaurants_info(restaurants_info)
+    calc_info.save_votes(group_id, restaurants_info)
+
+    # 以前に検索したレストランはデータベースから取得する
+    fetch_restaurants = session.query(Restaurant).filter(Vote.group==group_id, Vote.votes_all==-1, Vote.restaurant==Restaurant.id).all()
+    restaurants_info += [calc_info.convert_restaurants_info_from_fetch_restaurants(r) for r in fetch_restaurants]
+
+    # 一度ユーザに送信したレストランはリストから除く
+    restaurants_info = [ri for ri in restaurants_info if not ri['Restaurant_id'] in histories_restaurants]
 
     # 投票数と距離を計算
     restaurants_info = calc_info.add_votes_distance(fetch_group, group_id, restaurants_info)
@@ -322,7 +339,7 @@ def get_restaurants_info(fetch_group, group_id, restaurant_ids):
 
     # データベースから店舗情報を取得
     restaurant_ids_del_none = [x for x in restaurant_ids if x is not None]
-    restaurants_info = calc_info.load_restaurants_info(fetch_group, group_id, restaurant_ids_del_none)
+    restaurants_info = calc_info.load_restaurants_info(restaurant_ids_del_none)
 
     # データベースにない店舗の情報をAPIで取得
     rest_ids = [rid for rid, r_info in zip(restaurant_ids, restaurants_info) if r_info is None]

@@ -1,11 +1,26 @@
 from geopy.distance import great_circle
-from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History
+from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 
 '''
 
 api_functionsで使う情報を計算する
 
 '''
+
+
+def save_votes(group_id, restaurants_info):
+
+    for i,r in enumerate(restaurants_info):
+        fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==r["Restaurant_id"]).first()
+        if fetch_vote is None:
+            new_vote = Vote()
+            new_vote.group = group_id
+            new_vote.restaurant = r["Restaurant_id"]
+            new_vote.votes_all = -1
+            new_vote.votes_like = -1
+            session.add(new_vote)
+            session.commit()
+
 
 def save_restaurants_info(restaurants_info):
     '''
@@ -46,16 +61,36 @@ def save_restaurants_info(restaurants_info):
             session.commit()
 
 
-def load_restaurants_info(fetch_group, group_id, restaurant_ids):
+def convert_restaurants_info_from_fetch_restaurants(f_restaurant):
+    restaurant_info = {}
+    restaurant_info['Restaurant_id'] = f_restaurant.id
+    restaurant_info['Name'] = f_restaurant.name
+    restaurant_info['Address'] = f_restaurant.address
+    restaurant_info['Lat'] = f_restaurant.lat
+    restaurant_info['Lon'] = f_restaurant.lon
+    restaurant_info['Catchcopy'] = f_restaurant.catchcopy
+    restaurant_info['Price'] = f_restaurant.price
+    restaurant_info['LunchPrice'] = f_restaurant.lunch_price
+    restaurant_info['DinnerPrice'] = f_restaurant.dinner_price
+    restaurant_info['Category'] = f_restaurant.category
+    restaurant_info['UrlYahooLoco'] = f_restaurant.url_yahoo_loco
+    restaurant_info['UrlYahooMap'] = f_restaurant.url_yahoo_map
+    restaurant_info['ReviewRating'] = f_restaurant.review_rating
+    restaurant_info['BusinessHour'] = f_restaurant.business_hour
+    restaurant_info['OpenHour'] = f_restaurant.open_hour
+    restaurant_info['CloseHour'] = f_restaurant.close_hour
+    restaurant_info['Genre'] = [{'Code':c, 'Name':n} for c,n in zip(f_restaurant.genre_code.split('\n'), f_restaurant.genre_name.split('\n'))]
+    restaurant_info['Images'] = f_restaurant.images.split('\n')
+    restaurant_info['Menu'] = f_restaurant.menu
+    return restaurant_info
+
+
+def load_restaurants_info(restaurant_ids):
     '''
     データベースからrestaurants_infoを取得
 
     Parameters
     ----------------
-    fetch_group : 
-        データベースのグループ情報
-    group_id : int
-        グループID
     restaurant_ids : [string]
         レストランIDのリスト
     
@@ -67,29 +102,7 @@ def load_restaurants_info(fetch_group, group_id, restaurant_ids):
     restaurants_info = [None for rid in restaurant_ids]
     fetch_restaurants = session.query(Restaurant).filter(Restaurant.id.in_(restaurant_ids)).all()
     for f_restaurant in fetch_restaurants:
-        restaurant_info = {}
-        restaurant_info['Restaurant_id'] = f_restaurant.id
-        restaurant_info['Name'] = f_restaurant.name
-        restaurant_info['Address'] = f_restaurant.address
-        restaurant_info['DistanceFloat'] = great_circle((fetch_group.lat, fetch_group.lon), (f_restaurant.lat, f_restaurant.lon)).m  # f_restaurant.distance_float
-        restaurant_info['Distance'] = distance_display( restaurant_info['DistanceFloat']) # f_restaurant.distance
-        restaurant_info['Lat'] = f_restaurant.lat
-        restaurant_info['Lon'] = f_restaurant.lon
-        restaurant_info['Catchcopy'] = f_restaurant.catchcopy
-        restaurant_info['Price'] = f_restaurant.price
-        restaurant_info['LunchPrice'] = f_restaurant.lunch_price
-        restaurant_info['DinnerPrice'] = f_restaurant.dinner_price
-        restaurant_info['Category'] = f_restaurant.category
-        restaurant_info['UrlYahooLoco'] = f_restaurant.url_yahoo_loco
-        restaurant_info['UrlYahooMap'] = f_restaurant.url_yahoo_map
-        restaurant_info['ReviewRating'] = f_restaurant.review_rating
-        restaurant_info['BusinessHour'] = f_restaurant.business_hour
-        restaurant_info['OpenHour'] = f_restaurant.open_hour
-        restaurant_info['CloseHour'] = f_restaurant.close_hour
-        restaurant_info['Genre'] = [{'Code':c, 'Name':n} for c,n in zip(f_restaurant.genre_code.split('\n'), f_restaurant.genre_name.split('\n'))]
-        restaurant_info['Images'] = f_restaurant.images.split('\n')
-        restaurant_info['Menu'] = f_restaurant.menu
-
+        restaurant_info = convert_restaurants_info_from_fetch_restaurants(f_restaurant)
         restaurants_info[ restaurant_ids.index(f_restaurant.id) ] = restaurant_info
     
     return restaurants_info

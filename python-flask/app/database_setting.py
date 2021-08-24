@@ -18,7 +18,7 @@ DATABASE = 'mysql://%s:%s@%s:%s/%s?charset=utf8mb4' % (
 ENGINE = create_engine(
     DATABASE,
     encoding = "utf-8",
-    echo=True # Trueだと実行のたびにSQLが出力される
+    echo=False # Trueだと実行のたびにSQLが出力される
 )
 
 session = scoped_session(
@@ -32,6 +32,7 @@ session = scoped_session(
 # modelで使用する
 Base = declarative_base()
 
+# ============================================================================================================
 
 # ユーザ
 class User(Base):
@@ -120,6 +121,18 @@ class History(Base):
     created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
     updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)
 
+# レコメンドの候補として取得した店と，投票数
+class Vote(Base):
+    __tablename__ = 'votes'
+    __table_args__=({"mysql_charset": "utf8mb4", "mysql_engine": "InnoDB"})
+    group = Column('group', Integer, primary_key=True)
+    restaurant = Column('restaurant', String(50), primary_key=True)
+    votes_like = Column('votes_like', Integer, nullable=False) # -1: 未送信 # session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling==True).count() # レストランのいいね数
+    votes_all = Column('votes_all', Integer, nullable=False) # -1: 未送信 # session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling is not None).count() # レストランの投票人数
+    created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
+    updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)
+
+# ============================================================================================================
 
 Base.metadata.drop_all(ENGINE)
 Base.metadata.create_all(ENGINE) # create tables
