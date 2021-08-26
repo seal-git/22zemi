@@ -14,7 +14,7 @@ import {
 } from "@material-ui/core"
 // 他のファイルからインポート
 import { assignNumGlobal } from './global'
-import Logo from "..//img/Reskima_Logo.png"
+import Logo from "..//img/Reskima_Logo2.svg"
 import SearchButtonOne from "..//img/search_button_one.png"
 import SearchButtonAll from "..//img/search_button_all.png"
 
@@ -102,7 +102,13 @@ function Setting(props) {
         return (
             <TextField id={props.id}
                 defaultValue={props.defaultValue}
-                inputProps={{ 'aria-label': 'description' }} />
+                inputProps={{ 'aria-label': 'description' }}
+                variant={"outlined"}
+                sx={{
+                    width: 300,
+                    color: 'success.main',
+                }}
+            />
         )
     }
     return (
@@ -113,114 +119,105 @@ function Setting(props) {
                     className={"title-image"}
                     alt={"title"} />
             </div>
-            <div class="forms-wrapper">
-                <div class="form-content-wrapper">
-                    <div class="form-content">
-                        <div className="form-title">
-                            <Typography>
+            <div class="setting-wrapper">
+
+                <div class="forms-wrapper">
+                    <div class="form-label">
+                        <strong>
+                            条件を決める
+                        </strong>
+                    </div>
+                    <div class="form-content-wrapper">
+                        <div class="form-content">
+                            <div class="form-title">
                                 エリア
-                            </Typography>
+                            </div>
+                            <div class="input-wrapper">
+                                <input
+                                    placeholder="新宿"
+                                />
+                            </div>
                         </div>
-                        <CustomInput
-                            defaultValue={props.paramsForSearch['place']}
-                            id="inputArea"></CustomInput>
                     </div>
-                </div>
-                <div className="form-content-wrapper">
-                    <div className="form-content">
-                        <div className="form-title">
-                            <Typography>
+                    <div className="form-content-wrapper">
+                        <div className="form-content">
+                            <div className="form-title">
                                 ジャンル
-                            </Typography>
-                        </div>
-                        <div className="input-genre">
-                            <CustomInput
-                                defaultValue={props.paramsForSearch['genre']}
-                                id="inputGenre"></CustomInput>
+                            </div>
+                            <div>
+                                <input
+                                    placeholder="中華料理"
+                                />
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="form-content-wrapper">
-                    <div className="form-content">
-                        <div className="form-title">
-                            <Typography>
+                    <div className="form-content-wrapper">
+                        <div className="form-content">
+                            <div className="form-title">
                                 予算
-                            </Typography>
+                            </div>
+                            <div>
+                                <input
+                                    type="text"
+                                    placeholder="4000"
+                                    data-format="$1 円以内"
+                                />
+                            </div>
                         </div>
-                        <div className="input-genre">
-                            <CustomInput
-                                defaultValue={props.paramsForSearch['maxprice']}
-                                id="inputMaxPrice"></CustomInput>
-                            円以内
+                    </div>
+                    <div className="form-content-wrapper">
+                        <div className="form-content">
+                            <div className="form-title">
+                                入店時間
+                            </div>
+                            <div>
+                                <input
+                                    placeholder="22:00"
+                                    type="time"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="form-content-wrapper">
-                    <div className="form-content">
-                        <div className="form-title">
-                            <Typography>
-                                時間
-                            </Typography>
-                        </div>
-                        <div className="input-time">
-                            <TextField
-                                defaultValue={props.paramsForSearch['open_hour_str']}
-                                type="time" id="inputTime" />
-                        </div>
-                    </div>
+                <div class="buttons-wrapper">
+                    <button className="button-alone" onClick={() => {
+                        proceedToSelection("Alone", "")
+                    }}>
+                        <strong>
+                            みんなを招待する
+                        </strong>
+                    </button>
+                    {/* <Dialog open={open}
+                        onClose={handleClose}
+                        aria-labelledby="form-dialog-title">
+                        <DialogTitle id="form-dialog-title">
+                            グループで選ぶ
+                        </DialogTitle>
+                        <DialogContent>
+                            <Paper className={classes.root}>
+                                <TextField
+                                    id="group_id"
+                                    label="グループID"
+                                    variant="outlined"
+                                    InputLabelProps={{ style: { fontSize: 12 } }}
+                                    inputRef={group_id} />
+                                <Button onClick={enterGroup}
+                                    variant="contained"
+                                    color="primary"
+                                    height="100%">
+                                    入室
+                                </Button>
+                            </Paper>
+                            <div>
+                                <Button onClick={createGroup}
+                                    color="secondary"
+                                    variant="contained">
+                                    ルームを新規作成
+                                </Button>
+                            </div>
+                        </DialogContent>
+                    </Dialog> */}
                 </div>
-            </div>
-            <div class="buttons-wrapper">
-                <button className="button-alone" onClick={() => {
-                    proceedToSelection("Alone", "")
-                }}>
-                    <img
-                        //buttonのstyleはここで指定しないと描画がずれる
-                        src={SearchButtonOne}
-                        className={"button-alone-image"}
-                        width={"auto"}
-                        alt={"ButtonAlone"}/>
-                </button>
-                <button className="button-group" onClick={() => {
-                    handleClickOpen("")
-                }}>
-                    <img
-                        //buttonのstyleはここで指定しないと描画がずれる
-                        src={SearchButtonAll}
-                        className={"button-group-image"}
-                        width={"auto"}
-                        alt={"ButtonGroup"}/>
-                </button>
-                <Dialog open={open}
-                    onClose={handleClose}
-                    aria-labelledby="form-dialog-title">
-                    <DialogTitle id="form-dialog-title">
-                        グループで選ぶ
-                    </DialogTitle>
-                    <DialogContent>
-                        <Paper className={classes.root}>
-                            <TextField
-                                id="group_id"
-                                label="グループID"
-                                variant="outlined"
-                                InputLabelProps={{ style: { fontSize: 12 } }}
-                                inputRef={group_id} />
-                            <Button onClick={enterGroup}
-                                variant="contained"
-                                color="primary"
-                                height="100%">
-                                入室
-                            </Button>
-                        </Paper>
-                        <div>
-                            <Button onClick={createGroup}
-                                color="secondary"
-                                variant="contained">
-                                ルームを新規作成
-                            </Button>
-                        </div>
-                    </DialogContent>
-                </Dialog>
             </div>
         </div>
     );

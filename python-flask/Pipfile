@@ -55,6 +55,7 @@ flask-cors = "*"
 geopy = "*"
 qrcode = "*"
 pillow = "*"
+mysqlclient = "*"
 
 [dev-packages]
 

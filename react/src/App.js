@@ -24,12 +24,12 @@ const theme = createMuiTheme({
 const useStyles = makeStyles((theme) => ({
   AppAlone: {
     height: '100%',
-    backgroundImage: 'linear-gradient(180.02deg, #FFEEAA 0.02%, #FDFFEB 80.2%)',
-    backgroundSize: 'cover'
+    // backgroundImage: 'linear-gradient(180.02deg, #FFEEAA 0.02%, #FDFFEB 80.2%)',
+    // backgroundSize: 'cover'
   },
   AppGroup: {
     height: '100%',
-    backgroundImage: 'linear-gradient(180.02deg, #FFDDAA 0.02%, #FFFBEB 80.2%)'
+    // backgroundImage: 'linear-gradient(180.02deg, #FFDDAA 0.02%, #FFFBEB 80.2%)'
   }
 }));
 
