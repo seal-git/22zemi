@@ -14,21 +14,21 @@ const produceId = () => {
     var digit = 6 //桁数
     var nines = ''
     var zeros = ''
-    for(var i=0; i<digit; i++){
+    for (var i = 0; i < digit; i++) {
         nines += '9'
         zeros += '0'
     }
     var Id = Math.floor(Math.random() * Number(nines) + 1)
-    Id = (zeros+Id).slice(-6)
+    Id = (zeros + Id).slice(-6)
     return Id
 }
 
 // 現在時刻を文字列で取得
 const getCurrentTime = () => {
-  const date = new Date()
-  const time = ('00' + date.getHours().toString()).slice(-2) + ':' + ('00'+date.getMinutes().toString()).slice(-2)
-  console.log(time)
-  return time
+    const date = new Date()
+    const time = ('00' + date.getHours().toString()).slice(-2) + ':' + ('00' + date.getMinutes().toString()).slice(-2)
+    console.log(time)
+    return time
 }
 
 /*
@@ -45,20 +45,20 @@ function Home(props) {
     let invitedGroupId = location.search.slice(10)
     let initGroupId = produceId()
     const history = useHistory()
-    if(invitedGroupId!==undefined && invitedGroupId!==null && invitedGroupId.length>0){
+    if (invitedGroupId !== undefined && invitedGroupId !== null && invitedGroupId.length > 0) {
         initGroupId = invitedGroupId
         props.setMode("Group")
         history.replace('/')
     }
-    
+
     const [groupId, setGroupId] = useState(initGroupId)
     const [paramsForSearch, setParamsForSearch] = useState(
         {
-            "place":"新宿",
-            "genre":"",
-            "open_hour_str":getCurrentTime()
+            "place": "新宿",
+            "genre": "",
+            "open_hour_str": getCurrentTime()
         }
-    )        
+    )
     //グループID作成時に招待urlをセットする
     const [inviteUrl, setInviteUrl] = useState("")
 
@@ -74,21 +74,21 @@ function Home(props) {
     };
     // 招待URLを取得
     const callInviteUrl = (groupId) => {
-        const params = {group_id: groupId, }
-        console.log('params',params)
+        const params = { group_id: groupId, }
+        console.log('params', params)
         axios.post('/api/invite', {
             params: params
         })
-        .then((response) => {
-            console.log(response)
-            const newInviteUrl = response.data.Url
-            setInviteUrl(newInviteUrl)
-            console.log('new_inviteUrl',newInviteUrl)
-            console.log('set_inviteUrl',inviteUrl)
-        })
-        .catch((error) => {
-            console.log("error:", error)
-        });
+            .then((response) => {
+                console.log(response)
+                const newInviteUrl = response.data.Url
+                setInviteUrl(newInviteUrl)
+                console.log('new_inviteUrl', newInviteUrl)
+                console.log('set_inviteUrl', inviteUrl)
+            })
+            .catch((error) => {
+                console.log("error:", error)
+            });
     }
 
     return (
@@ -108,27 +108,28 @@ function Home(props) {
                             callInviteUrl={callInviteUrl}
                             paramsForSearch={paramsForSearch}
                         />
-                        : view === "KeepList" ? 
-                        <KeepList
-                            mode={props.mode}
-                            userId={userId}
-                            groupId={groupId}
-                        />
-                        :
-                        <Setting
-                            mode={props.mode}
-                            setMode={props.setMode}
-                            setView={setView}
-                            setUserId={setUserId}
-                            setGroupId={setGroupId}
-                            produceId={produceId}
-                            callInviteUrl={callInviteUrl}
-                            paramsForSearch={paramsForSearch}
-                            setParamsForSearch={setParamsForSearch}
-                        />}
+                        : view === "KeepList" ?
+                            <KeepList
+                                mode={props.mode}
+                                userId={userId}
+                                groupId={groupId}
+                            />
+                            :
+                            <Setting
+                                mode={props.mode}
+                                setMode={props.setMode}
+                                setView={setView}
+                                setUserId={setUserId}
+                                setGroupId={setGroupId}
+                                produceId={produceId}
+                                callInviteUrl={callInviteUrl}
+                                paramsForSearch={paramsForSearch}
+                                setParamsForSearch={setParamsForSearch}
+                            />}
                 </div>
             </div>
             <AppBottomNavigation view={view} setView={setView} />
+
         </div>
     )
 }
