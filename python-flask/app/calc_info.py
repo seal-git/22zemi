@@ -56,6 +56,7 @@ def save_restaurants_info(restaurants_info):
                 new_restaurant.genre_code = '\n'.join([g.get('Code') for g in restaurant_info['Genre']])
                 new_restaurant.genre_name = '\n'.join([g.get('Name') for g in restaurant_info['Genre']])
             new_restaurant.images = '\n'.join(restaurant_info.get('Images'))
+            new_restaurant.image = restaurant_info.get('Image')
             new_restaurant.menu = restaurant_info.get('Menu')
             session.add(new_restaurant)
             session.commit()
@@ -81,6 +82,7 @@ def convert_restaurants_info_from_fetch_restaurants(f_restaurant):
     restaurant_info['CloseHour'] = f_restaurant.close_hour
     restaurant_info['Genre'] = [{'Code':c, 'Name':n} for c,n in zip(f_restaurant.genre_code.split('\n'), f_restaurant.genre_name.split('\n'))]
     restaurant_info['Images'] = f_restaurant.images.split('\n')
+    restaurant_info['Image'] = f_restaurant.image
     restaurant_info['Menu'] = f_restaurant.menu
     return restaurant_info
 
