@@ -223,3 +223,26 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
         restaurants_info[i]["RecommendScore"] = round(n_s)
 
     return restaurants_info
+
+
+# ============================================================================================================
+# api_functions.pyで最初に呼ばれる
+
+
+def create_image(restaurants_info):
+    '''
+    画像を繋げて1枚にする
+    
+    Parameters
+    ----------------
+    restaurants_info : [dict]
+    
+    Returns
+    ----------------
+    image : string
+    '''
+
+    images_url_list = restaurants_info['Images']
+    # TODO
+    image = ''
+    return image

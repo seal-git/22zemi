@@ -310,6 +310,7 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, stock
 
     # 投票数と距離を計算
     restaurants_info = calc_info.add_votes_distance(fetch_group, group_id, restaurants_info)
+    restaurants_info['Image'] = calc_info.create_image(restaurants_info)
 
     return restaurants_info
 
