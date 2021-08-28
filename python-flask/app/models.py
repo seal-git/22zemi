@@ -291,7 +291,7 @@ def http_info():
     # 検索条件をデータベースに保存
     set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort, fetch_group=fetch_group)
 
-    # 検索して店舗情報を取得
+    # 他のスレッドで検索中だったら待つ
     if not fetch_belong.writable:
         result = [False]
         while not result[0]:
@@ -299,6 +299,7 @@ def http_info():
             t = threading.Thread(target=thread_info_wait, args=(group_id, user_id, result))
             t.start()
             t.join()
+    # 検索して店舗情報を取得
     response = fetch_belong.next_response
     if response is None:
         response = thread_info(group_id, user_id, fetch_belong=fetch_belong, fetch_group=fetch_group)
