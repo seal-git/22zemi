@@ -208,16 +208,20 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
             score_list.append(0)
             index_list.append(i)
 
+    if len(score_list) == 0:
+        for i,r in enumerate(restaurants_info):
+            restaurants_info[i]["RecommendScore"] = 100
+
     #normalize score
-    max_score = max(score_list)
-    min_score = min(score_list)
+    max_score = max(score_list) if len(score_list) != 0 else 100
+    min_score = min(score_list) if len(score_list) != 0 else 100
     norm_score_list = []
     M = 100 #設定したい最大値
     m = 50 #設定したい最小値
     for s in score_list:
-        try:
+        if (max_score != min_score):
             norm_score = ((s - min_score)*(M - m) / (max_score - min_score)) + m
-        except:
+        else:
             norm_score = 100 #maxとminが同じ場合は全て100
         norm_score_list.append(norm_score)
     
