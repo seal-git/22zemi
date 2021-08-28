@@ -107,8 +107,8 @@ class Belong(Base):
     group = Column('group', Integer, primary_key=True)
     request_count = Column('request_count', Integer, nullable=False, server_default='0') # レコメンド # リクエスト回数
     request_restaurants_num = Column('request_restaurants_num', Integer, nullable=False, server_default='0') # レコメンド # レストランを受け取った数
-    next_response = Column('next_response', String(16000))
-    writable = Column('writable', Boolean, nullable=False, default=True)
+    next_response = Column('next_response', String(16000)) # 次のレスポンスをあらかじめ検索して保持する
+    writable = Column('writable', Boolean, nullable=False, default=True) # スレッドで検索している途中でリクエストが来たときのために，排他処理をする
     created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
     updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)
 
