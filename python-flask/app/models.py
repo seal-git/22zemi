@@ -295,11 +295,6 @@ def http_info():
 
     # 検索して店舗情報を取得
     restaurants_info = recommend.recommend_main(fetch_group, group_id, user_id)
-    print("-------------------------------------------\n\n")
-    print(restaurants_info)
-    print({})
-    print("\n\n-------------------------------------------")
-
     fetch_belong.request_restaurants_num = len(restaurants_info) + 1
     session.commit()
     return json.dumps(restaurants_info, ensure_ascii=False)
@@ -346,7 +341,7 @@ def http_feeling():
         # 投票数を更新
         fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==restaurant_id).first()
         if fetch_vote is not None:
-            fetch_vote.votes_all += 1 if prev_feeling is None else 0
+            fetch_vote.votes_all += 1 if prev_feeling is not None else 0
             fetch_vote.votes_like += (1 if feeling else 0) if prev_feeling is None else ((0 if feeling else -1) if prev_feeling else (1 if feeling else 0))
             session.commit()
         else:
