@@ -523,10 +523,9 @@ def recommend_main(fetch_group, group_id, user_id):
     
     # TODO: レコメンド関数の追加
     recommend_method = fetch_group.recommend_method
-    #recomm = RecommendSimple() # レコメンドに使うクラスを指定
+    recomm = RecommendSimple() # レコメンドに使うクラスを指定
     #recomm = RecommendTemplate() # レコメンドに使うクラスを指定
     #recomm = RecommendYahoo() # レコメンドに使うクラスを指定
-    recommend_method = "original"
     if recommend_method in ['rating', 'score', 'hyblid', 'review', 'kana', 'price', 'dist', 'geo', '-rating', '-score', '-hyblid', '-review', '-kana', '-price', '-dist', '-geo']:
         recomm = RecommendSimple()
     elif recommend_method == 'template':
