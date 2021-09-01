@@ -341,7 +341,7 @@ def http_feeling():
         # 投票数を更新
         fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==restaurant_id).first()
         if fetch_vote is not None:
-            fetch_vote.votes_all += 1 if prev_feeling is not None else 0
+            fetch_vote.votes_all += 1 if prev_feeling is None else 0
             fetch_vote.votes_like += (1 if feeling else 0) if prev_feeling is None else ((0 if feeling else -1) if prev_feeling else (1 if feeling else 0))
             session.commit()
         else:

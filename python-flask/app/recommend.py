@@ -179,21 +179,13 @@ class RecommendYahoo(Recommend):
         return [r['Restaurant_id'] for r in pre_restaurants_info]
 
 class RecommendOriginal(Recommend):
-    def pre_info(self, fetch_group, group_id, user_id):
+    def pre_info(self, fetch_group):
         # YahooローカルサーチAPIで検索するクエリ
-        pre_search_params = {
-            # 中心地から1km以内のグルメを検索
-            'lat': fetch_group.lat, # 緯度
-            'lon': fetch_group.lon, # 経度
-            'dist': fetch_group.max_dist, # 中心地点からの距離 # 最大20km
-            'gc': '01', # グルメ
+        pre_search_params = get_search_params_from_fetch_group(fetch_group)
+        pre_search_params.update({
             'image': 'true', # 画像がある店
             'open': 'now', # 現在開店している店舗
-            'sort': fetch_group.sort, # hyblid # 評価や距離などを総合してソート
-            'start': RESULTS_COUNT * (session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()).request_count, # 表示範囲：開始位置
-            'results': RESULTS_COUNT, # 表示範囲：店舗数
-        }
-
+        })
         return pre_search_params
 
     def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info):
@@ -292,8 +284,8 @@ class RecommendOriginal(Recommend):
             recommend_restaurants_info = calc_info.add_votes_distance(fetch_group, group_id, recommend_restaurants_info)
             restaurants_id_list = []
             for r in recommend_restaurants_info:
-                if r["Price"] <= group_price:
-                        if r["distance_float"] <= group_distance:
+                if r["Price"] <= group_price * 2:
+                        if r["distance_float"] <= group_distance * 1.5:
                             if recommend_genre != "":#genreがあれば
                                 genre = r["Genre"]
                                 for g in genre:
