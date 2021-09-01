@@ -297,6 +297,10 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, stock
     
     restaurants_info = api_f.search_restaurants_info(fetch_group, group_id, search_params)
 
+    # 画像を繋げて1枚にする
+    for i,r_info in enumerate(restaurants_info):
+        restaurants_info[i]['Image'] = calc_info.create_image(r_info)
+
     # データベースに店舗情報を保存
     calc_info.save_restaurants_info(restaurants_info)
     calc_info.save_votes(group_id, restaurants_info)
@@ -349,6 +353,11 @@ def get_restaurants_info(fetch_group, group_id, restaurant_ids):
         restaurants_info[ restaurant_ids_del_none.index(r_info['Restaurant_id']) ] = r_info
     restaurants_info = [r for r in restaurants_info if r is not None] # feelingリクエストで架空のrestaurants_idだったときには、それを除く
     
+    # 画像を繋げて1枚にする
+    for i,r_info in enumerate(restaurants_info):
+        if 'Image' not in r_info:
+            restaurants_info[i]['Image'] = calc_info.create_image(r_info)
+
     # 投票数と距離を計算
     restaurants_info = calc_info.add_votes_distance(fetch_group, group_id, restaurants_info)
 
