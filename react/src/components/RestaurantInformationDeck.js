@@ -53,15 +53,22 @@ export default function RestaurantInformationDeck (props) {
 
     // スワイプ操作をハンドルする関数
     const handleLeftScreen = (dir, restaurant_id) => {
+        if (restaurant_id==="init") return
         if (dir === 'right') {
             props.keep(restaurant_id)
         } else {
             props.reject(restaurant_id)
         }
+        // スワイプし切る前にカードを読み込み
+        if(gone.size===Math.max(props.dataList.length-2,1)){
+            console.log("preloading")
+            props.getInfo(null,null,true)
+        }
+
         // スワイプしきったらカードを更新
-        if(gone.size===props.dataList.length){
-            setTimeout( ()=>{
-                props.getInfo()
+        if(gone.size===Math.max(props.dataList.length-1,1)){
+            setInterval( ()=>{
+                props.setPreloadedDataList()
             }, 1000 )
         }
     }
@@ -113,7 +120,7 @@ export default function RestaurantInformationDeck (props) {
         }))
         // api は必ずあるはず
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    },props.dataList)
+    },)
 
     // Keep/Reject ボタンの共通動作
     const handlePushButton = (dir,index) =>{
@@ -157,7 +164,7 @@ export default function RestaurantInformationDeck (props) {
     // アニメーション付きのカードを描画
     return (springProps.map(({x,y,scale,rot,delay},i) => {
       return (
-        <animated.div key={i} style={{x,y}}>
+        <animated.div key={'card'+props.dataList[i].Restaurant_id} style={{x,y}}>
           <animated.div 
             {...bind(i) }
             style = { {

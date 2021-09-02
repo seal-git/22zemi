@@ -14,11 +14,13 @@ import noImageIcon from "..//img/no_image.png"
 const initDataList = [{
   "Name": "Loading...",
   "Images": [noImageIcon, noImageIcon],
-  "Price": ""
+  "Price": "",
+  "Restaurant_id": "init",
 }]
 const emptyDataList = [{
   "Name": "No Data:\n検索条件を変えてみてください",
-  "Images": [noImageIcon, noImageIcon]
+  "Images": [noImageIcon, noImageIcon],
+  "Restaurant_id": "empty",
 }]
 
 /*
@@ -27,11 +29,12 @@ const emptyDataList = [{
 function Selection(props) {
   const [dataList, setDataList] = useState(initDataList)
   let isLoading = false
+  let preloadedDataList = null
 
   // APIからお店のデータを得る
-  const getInfo = (newUserId, newGroupId) => {
+  const getInfo = (newUserId, newGroupId, isPreloading=false) => {
     if (isLoading) return;
-    if(dataList!==initDataList) setDataList(initDataList)
+    if(dataList!==initDataList && !isPreloading) setDataList(initDataList)
     isLoading = true
 
     // ユーザID を設定
@@ -60,15 +63,31 @@ function Selection(props) {
         let cardNum = dataList.length
         if (cardNum > 0) {
           console.log(dataList[0])
-          setDataList(dataList)
+          const newDataList = initDataList.concat(dataList) 
+          if(isPreloading){
+            preloadedDataList = newDataList
+          } else {
+            setDataList(newDataList)
+          }
         } else {
-          setDataList(emptyDataList)
-        }
+          if(isPreloading){
+            preloadedDataList = emptyDataList
+          } else { 
+            setDataList(emptyDataList)
+          }
+        }   
         isLoading = false
       })
       .catch((error) => {
         console.log("error:", error);
       });
+  }
+  const setPreloadedDataList = () =>{
+    if(preloadedDataList!==null){
+      const newDataList = preloadedDataList 
+      preloadedDataList = null
+      setDataList(newDataList)
+    }
   }
 
   useEffect(() => {
@@ -76,7 +95,6 @@ function Selection(props) {
     // Mount 時にだけ呼び出す
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
-
 
   // APIにキープ・リジェクトを送信する
   const sendFeeling = (feeling, restaurant_id) => {
@@ -149,6 +167,7 @@ function Selection(props) {
         keep={keep}
         reject={reject}
         getInfo={getInfo}
+        setPreloadedDataList={setPreloadedDataList}
       />
     )
   }
@@ -178,7 +197,6 @@ function Selection(props) {
       </div>
       <Credit />
     </div>
-
   );
 }
 
