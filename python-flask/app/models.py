@@ -295,7 +295,6 @@ def http_info():
 
     # 検索して店舗情報を取得
     restaurants_info = recommend.recommend_main(fetch_group, group_id, user_id)
-
     fetch_belong.request_restaurants_num = len(restaurants_info) + 1
     session.commit()
     return json.dumps(restaurants_info, ensure_ascii=False)
@@ -431,7 +430,6 @@ def http_decision():
 
     decision_json = {"decision":"test"}
     return decision_json
-
 
 @app_.route('/test', methods=['GET','POST'])
 def http_test():
