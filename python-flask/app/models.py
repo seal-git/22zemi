@@ -317,6 +317,7 @@ def thread_info_wait(group_id, user_id, result):
 def thread_info(group_id, user_id, fetch_belong=None, fetch_group=None):
     fetch_belong = fetch_belong if fetch_belong is not None else session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()
     fetch_belong.writable = False
+
     session.commit()
     fetch_group = fetch_group if fetch_group is not None else session.query(Group).filter(Group.id==group_id).one()
     restaurants_info = recommend.recommend_main(fetch_group, group_id, user_id)
@@ -466,7 +467,6 @@ def http_decision():
 
     decision_json = {"decision":"test"}
     return decision_json
-
 
 @app_.route('/test', methods=['GET','POST'])
 def http_test():
