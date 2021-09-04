@@ -18,7 +18,8 @@ DATABASE = 'mysql://%s:%s@%s:%s/%s?charset=utf8mb4' % (
 ENGINE = create_engine(
     DATABASE,
     encoding = "utf-8",
-    echo=False # Trueだと実行のたびにSQLが出力される
+    echo=False, # Trueだと実行のたびにSQLが出力される
+    max_overflow=-1
 )
 
 session = scoped_session(

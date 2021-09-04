@@ -352,7 +352,7 @@ def http_feeling():
     user_id = int(data["user_id"]) if data.get("user_id", False) else None
     group_id = int(data["group_id"]) if data.get("group_id", False) else None
     restaurant_id = data["restaurant_id"] if data.get("restaurant_id", False) else None
-    feeling = data["feeling"] if data.get("feeling", False) else None
+    feeling = data["feeling"]
 
     if user_id is not None and restaurant_id is not None and feeling is not None:
 
