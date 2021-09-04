@@ -15,6 +15,7 @@ import time
 import requests
 import sqlalchemy
 from sqlalchemy.sql.functions import current_timestamp
+import threading
 
 
 def generate_group_id():
@@ -286,18 +287,54 @@ def http_info():
         session.add(new_belong)
         session.commit()
         fetch_belong = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()
-    else:
-        fetch_belong.request_count += 1
-        session.commit()
 
     # 検索条件をデータベースに保存
     set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort, fetch_group=fetch_group)
 
+    # 他のスレッドで検索中だったら待つ
+    if not fetch_belong.writable:
+        result = [False]
+        while not result[0]:
+            time.sleep(1)
+            t = threading.Thread(target=thread_info_wait, args=(group_id, user_id, result))
+            t.start()
+            t.join()
     # 検索して店舗情報を取得
-    restaurants_info = recommend.recommend_main(fetch_group, group_id, user_id)
-    fetch_belong.request_restaurants_num = len(restaurants_info) + 1
+    response = fetch_belong.next_response
+    if response is None:
+        response = thread_info(group_id, user_id, fetch_belong=fetch_belong, fetch_group=fetch_group)
+    
+    # 高速化：次回のアクセスで返す情報を生成しておく
+    fetch_belong.next_response = None
     session.commit()
-    return json.dumps(restaurants_info, ensure_ascii=False)
+    t = threading.Thread(target=thread_info, args=(group_id, user_id))
+    t.start()
+    return response
+
+def thread_info_wait(group_id, user_id, result):
+    result[0] = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one().writable
+
+def thread_info(group_id, user_id, fetch_belong=None, fetch_group=None):
+    fetch_belong = fetch_belong if fetch_belong is not None else session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()
+    fetch_belong.writable = False
+
+    session.commit()
+    fetch_group = fetch_group if fetch_group is not None else session.query(Group).filter(Group.id==group_id).one()
+    restaurants_info = recommend.recommend_main(fetch_group, group_id, user_id)
+    
+    if restaurants_info == None:
+        # error
+        restaurants_info = []
+        fetch_belong.next_response = None
+
+    response = json.dumps(restaurants_info, ensure_ascii=False)
+    fetch_belong.next_response = str(response)
+    fetch_belong.request_count += 1
+    fetch_belong.request_restaurants_num += len(restaurants_info)
+    fetch_belong.writable = True
+    session.commit()
+    return response
+
 
 
 @app_.route('/feeling', methods=['GET','POST'])
