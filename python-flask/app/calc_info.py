@@ -172,11 +172,11 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
     # 以下はrestaurant_idを格納
     
     try:
-        group_price = fetch_group.group_price #グループの平均価格
-        group_distance = fetch_group.group_distance * 1000 #グループの平均距離 m
+        price_average = fetch_group.price_average #グループの平均価格
+        distance_average = fetch_group.distance_average #グループの平均距離 m
     except:
-        group_price = None
-        group_distance = None
+        price_average = None
+        distance_average = None
     score_list = []
     index_list = []
     for i in range(len(restaurants_info)):
@@ -184,12 +184,12 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
             price = int(restaurants_info[i]["Price"])
             distance = restaurants_info[i]["distance_float"]
             try:
-                price_score = 1 if price <= group_price else group_price / price #グループ価格に対する比でスコア付
+                price_score = 1 if price <= price_average else price_average / price #グループ価格に対する比でスコア付
             except:
                 price_score = 0
 
             try:
-                distance_score = 1 if distance <= group_distance else group_distance / distance #グループ距離に対する比でスコア付
+                distance_score = 1 if distance <= distance_average else distance_average / distance #グループ距離に対する比でスコア付
             except:
                 distance_score = 0
 

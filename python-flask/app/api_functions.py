@@ -264,7 +264,7 @@ class ApiFunctionsHotpepper (ApiFunctions):
 # api_functions.pyで最初に呼ばれる
 
 
-def search_restaurants_info(fetch_group, group_id, user_id, search_params, stock):
+def search_restaurants_info(fetch_group, group_id, user_id, search_params, histories_restaurants):
     '''
     レコメンドするために条件に合う店を取ってくる
     recommend.pyのRecommend.pre_info()から呼ばれる。
@@ -286,13 +286,10 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, stock
     
     api_f = ApiFunctionsYahoo() # TODO
 
-    # 重複して表示しないようにするため、履歴を取得
-    histories_restaurants = [h.restaurant for h in session.query(History.restaurant).filter(History.group==group_id, History.user==user_id).all()]
-    
     # APIで店舗情報を取得
     if 'start' not in search_params or 'result' not in search_params:
         start = session.query(Vote.restaurant).filter(Vote.group==group_id).count()
-        result = stock + len(histories_restaurants) - start
+        result = search_params['stock'] + len(histories_restaurants) - start
         search_params.update({'start': start, 'result': result})
     
     restaurants_info = api_f.search_restaurants_info(fetch_group, group_id, search_params)
@@ -307,10 +304,7 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, stock
 
     # 以前に検索したレストランはデータベースから取得する
     fetch_restaurants = session.query(Restaurant).filter(Vote.group==group_id, Vote.votes_all==-1, Vote.restaurant==Restaurant.id).all()
-    restaurants_info += [calc_info.convert_restaurants_info_from_fetch_restaurants(r) for r in fetch_restaurants]
-
-    # 一度ユーザに送信したレストランはリストから除く
-    restaurants_info = [ri for ri in restaurants_info if not ri['Restaurant_id'] in histories_restaurants]
+    restaurants_info = [calc_info.convert_restaurants_info_from_fetch_restaurants(r) for r in fetch_restaurants] + restaurants_info
 
     # 投票数と距離を計算
     restaurants_info = calc_info.add_votes_distance(fetch_group, group_id, restaurants_info)
