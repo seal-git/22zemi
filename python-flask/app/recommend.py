@@ -429,7 +429,7 @@ def save_histories(group_id, user_id, restaurants_info):
             session.commit()
         else:
             if fetch_vote.votes_all==-1:
-                fetch_vote.votes_all = 1
+                fetch_vote.votes_all = 0
                 fetch_vote.votes_like = 0
                 session.commit()
 
