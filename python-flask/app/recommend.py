@@ -702,3 +702,4 @@ def recommend_main(fetch_group, group_id, user_id):
                     # 履歴を保存
                     save_histories(group_id, user_id, restaurants_info)
                     return restaurants_info
+    return []
