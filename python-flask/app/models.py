@@ -366,6 +366,7 @@ def http_feeling():
             session.commit()
         else:
             # ここは実行されないはず
+            print("models.py/feeling: error")
             prev_feeling = None
             new_history = History()
             new_history.group = group_id
