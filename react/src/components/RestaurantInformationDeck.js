@@ -115,6 +115,45 @@ export default function RestaurantInformationDeck (props) {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     },props.dataList)
 
+    // Keep/Reject ボタンの共通動作
+    const handlePushButton = (dir,index) =>{
+      if(!props.hasRestaurant) return
+      gone.add(index)
+      api.start(i => {
+        if(index !== i) return
+        if(!gone.has(index)) return
+        setTimeout( ()=> {
+          handleLeftScreen(dir>0?'right':'left',props.dataList[i].Restaurant_id)
+        },500)
+        const x = (200 + window.innerWidth) * dir
+        return {
+          x,
+          config: {friction: 100, tension: 700}
+        }
+      })
+    }
+
+    // Keepボタンの動作
+    const handlePushKeepButton = (index) =>{
+      handlePushButton(1,index)
+    }
+    // Rejectボタンの動作
+    const handlePushRejectButton = (index) =>{
+      handlePushButton(-1,index)
+    }
+
+    // お店情報の描画
+    const renderRestaurantInformation = (index) =>{
+      return(
+        <RestaurantInformation
+          data={props.dataList[index]}
+          wrapperStyle={wrapperStyle}
+          keep={() => { handlePushKeepButton(index) }}
+          reject={() => { handlePushRejectButton(index) }}
+        />
+      )
+    }
+
     // アニメーション付きのカードを描画
     return (springProps.map(({x,y,scale,rot,delay},i) => {
       return (
@@ -125,7 +164,7 @@ export default function RestaurantInformationDeck (props) {
               transform: interpolate([scale],trans),
             }}
           >
-            <RestaurantInformation data={props.dataList[i]} wrapperStyle={wrapperStyle}/>
+            {renderRestaurantInformation(i)}
           </animated.div>
         </animated.div>
       )
