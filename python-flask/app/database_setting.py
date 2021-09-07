@@ -64,6 +64,7 @@ class Group(Base):
     min_price = Column('min_price', Integer) # 検索条件 # 金額下限
     sort = Column('sort', String(50)) # 検索条件 # 表示順
     recommend_method = Column('recommend_method', String(50)) # 検索条件 # レコメンド
+    api_method = Column('api_method', String(50)) # 検索条件 # レコメンド
     group_price = Column('group_price', Integer) # レコメンド # 平均価格
     group_distance = Column('group_distance', Float) # レコメンド # 平均距離
     created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
@@ -85,15 +86,15 @@ class Restaurant(Base):
     lunch_price = Column('lunch_price', Integer) # 昼食の価格帯
     dinner_price = Column('dinner_price', Integer) # 夕食の価格帯
     category = Column('category', String(400)) # カテゴリー
-    url_yahoo_loco = Column('url_yahoo_loco', String(400)) # Yahoo!ロコのURL
-    url_yahoo_map = Column('url_yahoo_map', String(400)) # Yahoo!MapのURL
+    url_web = Column('url_web', String(400)) # お店のURL
+    url_map = Column('url_map', String(400)) # MapのURL
     review_rating = Column('review_rating', String(100)) # 顧客レビューの評価値
     business_hour = Column('business_hour', String(400)) # 営業時間
     open_hour = Column('open_hour', Float) # 開店時間
     close_hour = Column('close_hour', Float) # 閉店時間
     genre_code = Column('genre_code', String(200)) # ジャンルコード: Yahoo Local Search API を参照
     genre_name = Column('genre_name', String(200)) # ジャンル名
-    images = Column('images', String(800)) # 写真
+    images = Column('images', String(2000)) # 写真
     image = Column('image', String(10000)) # 写真
     menu = Column('menu', String(400)) # メニュー (2021/08/21 未使用)
     created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
