@@ -15,6 +15,7 @@ import time
 import requests
 import sqlalchemy
 from sqlalchemy.sql.functions import current_timestamp
+import threading
 
 
 def generate_group_id():
@@ -206,6 +207,7 @@ def http_invite():
     minprice = data["minprice"] if data.get("minprice", False) else None
     sort = data["sort"] if data.get("sort", False) else None
     recommend_method = data["recommend_method"] if data.get("recommend_method", False) else None
+    api_method = data["api_method"] if data.get("api_method", False) else None
     
     group_id = group_id if group_id is not None else generate_group_id()
     
@@ -247,6 +249,8 @@ def http_info():
     minprice = data["minprice"] if data.get("minprice", False) else None
     sort = data["sort"] if data.get("sort", False) else None
     recommend_method = data["recommend_method"] if data.get("recommend_method", False) else None
+    api_method = data["api_method"] if data.get("api_method", False) else None
+
 
     group_id = group_id if group_id is not None else get_group_id(user_id)
 
@@ -254,7 +258,7 @@ def http_info():
     address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-"
     lat,lon,address = get_lat_lon_address(address)
     # TODO: 開発用に時間を固定
-    open_hour = '18'
+    #open_hour = '18'
     
     # ユーザが未登録ならばデータベースに登録する
     fetch_user = session.query(User).filter(User.id==user_id).first()
@@ -273,6 +277,7 @@ def http_info():
         new_group.lon = lon
         new_group.address = address
         new_group.recommend_method = recommend_method
+        new_group.api_method = api_method
         session.add(new_group)
         session.commit()
         fetch_group = session.query(Group).filter(Group.id==group_id).one()
@@ -286,19 +291,54 @@ def http_info():
         session.add(new_belong)
         session.commit()
         fetch_belong = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()
-    else:
-        fetch_belong.request_count += 1
-        session.commit()
 
     # 検索条件をデータベースに保存
     set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort, fetch_group=fetch_group)
 
+    # 他のスレッドで検索中だったら待つ
+    if not fetch_belong.writable:
+        result = [False]
+        while not result[0]:
+            time.sleep(1)
+            t = threading.Thread(target=thread_info_wait, args=(group_id, user_id, result))
+            t.start()
+            t.join()
     # 検索して店舗情報を取得
-    restaurants_info = recommend.recommend_main(fetch_group, group_id, user_id)
-
-    fetch_belong.request_restaurants_num = len(restaurants_info) + 1
+    response = fetch_belong.next_response
+    if response is None:
+        response = thread_info(group_id, user_id, fetch_belong=fetch_belong, fetch_group=fetch_group)
+    
+    # 高速化：次回のアクセスで返す情報を生成しておく
+    fetch_belong.next_response = None
     session.commit()
-    return json.dumps(restaurants_info, ensure_ascii=False)
+    t = threading.Thread(target=thread_info, args=(group_id, user_id))
+    t.start()
+    return response
+
+def thread_info_wait(group_id, user_id, result):
+    result[0] = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one().writable
+
+def thread_info(group_id, user_id, fetch_belong=None, fetch_group=None):
+    fetch_belong = fetch_belong if fetch_belong is not None else session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()
+    fetch_belong.writable = False
+
+    session.commit()
+    fetch_group = fetch_group if fetch_group is not None else session.query(Group).filter(Group.id==group_id).one()
+    restaurants_info = recommend.recommend_main(fetch_group, group_id, user_id)
+    
+    if restaurants_info == None:
+        # error
+        restaurants_info = []
+        fetch_belong.next_response = None
+
+    response = json.dumps(restaurants_info, ensure_ascii=False)
+    fetch_belong.next_response = str(response)
+    fetch_belong.request_count += 1
+    fetch_belong.request_restaurants_num += len(restaurants_info)
+    fetch_belong.writable = True
+    session.commit()
+    return response
+
 
 
 @app_.route('/feeling', methods=['GET','POST'])
@@ -316,7 +356,7 @@ def http_feeling():
     user_id = int(data["user_id"]) if data.get("user_id", False) else None
     group_id = int(data["group_id"]) if data.get("group_id", False) else None
     restaurant_id = data["restaurant_id"] if data.get("restaurant_id", False) else None
-    feeling = data["feeling"] if data.get("feeling", False) else None
+    feeling = data["feeling"]
 
     if user_id is not None and restaurant_id is not None and feeling is not None:
 
@@ -431,7 +471,6 @@ def http_decision():
 
     decision_json = {"decision":"test"}
     return decision_json
-
 
 @app_.route('/test', methods=['GET','POST'])
 def http_test():
