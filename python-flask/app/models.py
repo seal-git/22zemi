@@ -207,6 +207,7 @@ def http_invite():
     minprice = data["minprice"] if data.get("minprice", False) else None
     sort = data["sort"] if data.get("sort", False) else None
     recommend_method = data["recommend_method"] if data.get("recommend_method", False) else None
+    api_method = data["api_method"] if data.get("api_method", False) else None
     
     group_id = group_id if group_id is not None else generate_group_id()
     
@@ -248,6 +249,8 @@ def http_info():
     minprice = data["minprice"] if data.get("minprice", False) else None
     sort = data["sort"] if data.get("sort", False) else None
     recommend_method = data["recommend_method"] if data.get("recommend_method", False) else None
+    api_method = data["api_method"] if data.get("api_method", False) else None
+
 
     group_id = group_id if group_id is not None else get_group_id(user_id)
 
@@ -255,7 +258,7 @@ def http_info():
     address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-"
     lat,lon,address = get_lat_lon_address(address)
     # TODO: 開発用に時間を固定
-    open_hour = '18'
+    #open_hour = '18'
     
     # ユーザが未登録ならばデータベースに登録する
     fetch_user = session.query(User).filter(User.id==user_id).first()
@@ -274,6 +277,7 @@ def http_info():
         new_group.lon = lon
         new_group.address = address
         new_group.recommend_method = recommend_method
+        new_group.api_method = api_method
         session.add(new_group)
         session.commit()
         fetch_group = session.query(Group).filter(Group.id==group_id).one()

@@ -46,8 +46,8 @@ def save_restaurants_info(restaurants_info):
             new_restaurant.lunch_price = restaurant_info.get('LunchPrice')
             new_restaurant.dinner_price = restaurant_info.get('DinnerPrice')
             new_restaurant.category = restaurant_info.get('Category')
-            new_restaurant.url_yahoo_loco = restaurant_info.get('UrlYahooLoco')
-            new_restaurant.url_yahoo_map = restaurant_info.get('UrlYahooMap')
+            new_restaurant.url_web = restaurant_info.get('UrlWeb')
+            new_restaurant.url_map = restaurant_info.get('UrloMap')
             new_restaurant.review_rating = restaurant_info.get('ReviewRating')
             new_restaurant.business_hour = restaurant_info.get('BusinessHour')
             new_restaurant.open_hour = restaurant_info.get('OpenHour')
@@ -74,8 +74,8 @@ def convert_restaurants_info_from_fetch_restaurants(f_restaurant):
     restaurant_info['LunchPrice'] = f_restaurant.lunch_price
     restaurant_info['DinnerPrice'] = f_restaurant.dinner_price
     restaurant_info['Category'] = f_restaurant.category
-    restaurant_info['UrlYahooLoco'] = f_restaurant.url_yahoo_loco
-    restaurant_info['UrlYahooMap'] = f_restaurant.url_yahoo_map
+    restaurant_info['UrlWeb'] = f_restaurant.url_web
+    restaurant_info['UrlMap'] = f_restaurant.url_map
     restaurant_info['ReviewRating'] = f_restaurant.review_rating
     restaurant_info['BusinessHour'] = f_restaurant.business_hour
     restaurant_info['OpenHour'] = f_restaurant.open_hour

@@ -134,13 +134,13 @@ class RecommendSimple(Recommend):
     def pre_info(self, fetch_group, group_id, user_id):
         # YahooローカルサーチAPIで検索するクエリ
         pre_search_params = get_search_params_from_fetch_group(fetch_group)
-        pre_search_params.update({
-            'image': 'true', # 画像がある店
-            'open': 'now', # 現在開店している店舗
-            'stock': RESULTS_COUNT,
-            #'start': RESULTS_COUNT * (session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()).request_count, # 表示範囲：開始位置
-            #'results': RESULTS_COUNT, # 表示範囲：店舗数
-        })
+        # pre_search_params.update({
+        #     'image': 'true', # 画像がある店
+        #     'open': 'now', # 現在開店している店舗
+        #     'stock': RESULTS_COUNT,
+        #     #'start': RESULTS_COUNT * (session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()).request_count, # 表示範囲：開始位置
+        #     #'results': RESULTS_COUNT, # 表示範囲：店舗数
+        # })
         return pre_search_params
 
 
@@ -149,6 +149,7 @@ class RecommendSimple(Recommend):
         restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
 
         # if fetch_group.max_price is not None: restaurants_info = get_restaurants_info_price_filter(fetch_group.max_price, restaurants_info)
+        restaurants_info = restaurants_info[:RESULTS_COUNT] # 指定した数だのお店だけを選択
         return [r['Restaurant_id'] for r in restaurants_info]
 
 
@@ -536,24 +537,34 @@ def get_search_params_from_fetch_group(fetch_group, search_params={}):
     '''
     ユーザが指定した検索条件からAPIで使用する検索条件に変換
     '''
-    search_params.update({
-        'lat': fetch_group.lat, # 緯度
-        'lon': fetch_group.lon, # 経度
-        'dist': fetch_group.max_dist if fetch_group.max_dist is not None else MAX_DISTANCE, # 中心地点からの距離 # 最大20km
-        'gc': '01', # グルメ
-        'sort': fetch_group.sort if fetch_group.sort is not None else 'hyblid' # hyblid: 評価や距離などを総合してソート
-    })
+    api_method = fetch_group.api_method
+    api_method = "google"
 
-    if fetch_group.query is not None:
-        search_params['query'] = fetch_group.query + ' '
-    if fetch_group.genre is not None:
-        search_params['query'] = fetch_group.genre
-    if fetch_group.open_hour is not None:
-        search_params['open'] = str(fetch_group.open_day.day) + ',' + str(fetch_group.open_hour.hour)
-    if fetch_group.max_price is not None:
-        search_params['maxprice'] = fetch_group.max_price
-    if fetch_group.min_price is not None:
-        search_params['minprice'] = fetch_group.min_price
+    if api_method == "yahoo":
+        search_params.update({
+            'lat': fetch_group.lat, # 緯度
+            'lon': fetch_group.lon, # 経度
+            'dist': fetch_group.max_dist if fetch_group.max_dist is not None else MAX_DISTANCE, # 中心地点からの距離 # 最大20km
+            'gc': '01', # グルメ
+            'sort': fetch_group.sort if fetch_group.sort is not None else 'hyblid' # hyblid: 評価や距離などを総合してソート
+        })
+    elif api_method == "google":
+        search_params.update({
+            'location': f'{fetch_group.lat},{fetch_group.lon}', # 緯度,経度
+            'radius': fetch_group.max_dist * 1000 if fetch_group.max_dist is not None else MAX_DISTANCE * 1000, # 半径 m
+            'type': 'restaurant',
+        })
+
+    # if fetch_group.query is not None:
+    #     search_params['query'] = fetch_group.query + ' '
+    # if fetch_group.genre is not None:
+    #     search_params['query'] = fetch_group.genre
+    # if fetch_group.open_hour is not None:
+    #     search_params['open'] = str(fetch_group.open_day.day) + ',' + str(fetch_group.open_hour.hour)
+    # if fetch_group.max_price is not None:
+    #     search_params['maxprice'] = fetch_group.max_price
+    # if fetch_group.min_price is not None:
+    #     search_params['minprice'] = fetch_group.min_price
     return search_params
 
 
@@ -662,6 +673,10 @@ def recommend_main(fetch_group, group_id, user_id):
         # 主な処理
             # 検索条件から、
         pre_search_params = recomm.pre_info(fetch_group, group_id, user_id)
+        print("=========================")
+        print("pre_search_params")
+        print(pre_search_params)
+        print("=========================")
             # APIで情報を取得し、
         pre_restaurants_info = api_functions.search_restaurants_info(fetch_group, group_id, user_id, pre_search_params, histories_restaurants)
         print("stock =", len(pre_restaurants_info), ", history =", len(histories_restaurants))
