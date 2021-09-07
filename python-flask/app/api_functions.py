@@ -444,15 +444,6 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, histo
         レスポンスするレストラン情報を返す。
     '''
 
-<<<<<<< HEAD
-    # restaurant_info内の、stockからstartとresultを求める
-    if 'start' not in search_params or 'result' not in search_params:
-        start = session.query(Vote.restaurant).filter(Vote.group==group_id).count()
-        result = search_params['stock'] + len(histories_restaurants) - start
-        search_params.update({'start': start, 'result': result})
-        print('A start=',start,', result=',result)
-    print('B start=',search_params['start'],', result=',search_params['result'])
-=======
     api_method = "google"
     if api_method == "yahoo":
         api_f = ApiFunctionsYahoo() # TODO
@@ -468,7 +459,7 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, histo
             start = session.query(Vote.restaurant).filter(Vote.group==group_id).count()
             result = stock + len(histories_restaurants) - start
             search_params.update({'start': start, 'result': result})
->>>>>>> main
+            print('B start=',search_params['start'],', result=',search_params['result'])
     
     # APIで店舗情報を取得
     restaurants_info = api_f.search_restaurants_info(fetch_group, group_id, search_params)
@@ -527,10 +518,6 @@ def get_restaurants_info(fetch_group, group_id, restaurant_ids):
     # データベースにない店舗の情報をAPIで取得
     rest_ids = [rid for rid, r_info in zip(restaurant_ids, restaurants_info) if r_info is None]
     rs_info = api_f.get_restaurants_info(fetch_group, group_id, rest_ids)
-<<<<<<< HEAD
-    if(len(rest_ids)!=0): print(str(rest_ids), str(rs_info))
-=======
->>>>>>> main
     for r_info in rs_info:
         restaurants_info[ restaurant_ids_del_none.index(r_info['Restaurant_id']) ] = r_info
     restaurants_info = [r for r in restaurants_info if r is not None] # feelingリクエストで架空のrestaurants_idだったときには、それを除く
