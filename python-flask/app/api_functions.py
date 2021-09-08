@@ -146,6 +146,7 @@ class ApiFunctionsYahoo(ApiFunctions):
         restaurant_info['Address'] = feature['Property']['Address']
         restaurant_info['CatchCopy'] = feature['Property'].get('CatchCopy')
         restaurant_info['Price'] = feature['Property']['Detail']['LunchPrice'] if lunch_or_dinner == 'lunch' and feature['Property']['Detail'].get('LunchFlag') == True else feature['Property']['Detail'].get('DinnerPrice')
+        restaurant_info['Price'] = int(restaurant_info['Price']) if type(restaurant_info['Price']) is str else restaurant_info['Price']
         restaurant_info['LunchPrice'] = feature['Property']['Detail'].get('LunchPrice')
         restaurant_info['DinnerPrice'] = feature['Property']['Detail'].get('DinnerPrice')
         restaurant_info['TopRankItem'] = [feature['Property']['Detail']['TopRankItem'+str(j)] for j in range(MAX_LIST_COUNT) if 'TopRankItem'+str(j) in feature['Property']['Detail']] # TopRankItem1, TopRankItem2 ... のキーをリストに。
@@ -423,7 +424,7 @@ class ApiFunctionsHotpepper (ApiFunctions):
 # api_functions.pyで最初に呼ばれる
 
 
-def search_restaurants_info(fetch_group, group_id, user_id, search_params, stock):
+def search_restaurants_info(fetch_group, group_id, user_id, search_params, histories_restaurants):
     '''
     レコメンドするために条件に合う店を取ってくる
     recommend.pyのRecommend.pre_info()から呼ばれる。
@@ -458,7 +459,9 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, stock
             start = session.query(Vote.restaurant).filter(Vote.group==group_id).count()
             result = stock + len(histories_restaurants) - start
             search_params.update({'start': start, 'result': result})
+            print('B start=',search_params['start'],', result=',search_params['result'])
     
+    # APIで店舗情報を取得
     restaurants_info = api_f.search_restaurants_info(fetch_group, group_id, search_params)
 
     # 画像を繋げて1枚にする
@@ -471,10 +474,9 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, stock
 
     # 以前に検索したレストランはデータベースから取得する
     fetch_restaurants = session.query(Restaurant).filter(Vote.group==group_id, Vote.votes_all==-1, Vote.restaurant==Restaurant.id).all()
-    restaurants_info += [calc_info.convert_restaurants_info_from_fetch_restaurants(r) for r in fetch_restaurants]
-
-    # 一度ユーザに送信したレストランはリストから除く
-    restaurants_info = [ri for ri in restaurants_info if not ri['Restaurant_id'] in histories_restaurants]
+    restaurants_info_from_db = [calc_info.convert_restaurants_info_from_fetch_restaurants(r) for r in fetch_restaurants]
+    restaurants_list_from_db = [r['Restaurant_id'] for r in restaurants_info_from_db]
+    restaurants_info = restaurants_info_from_db + [r for r in restaurants_info if r['Restaurant_id'] not in restaurants_list_from_db]
 
     # 投票数と距離を計算
     restaurants_info = calc_info.add_votes_distance(fetch_group, group_id, restaurants_info)

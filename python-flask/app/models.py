@@ -370,6 +370,7 @@ def http_feeling():
             session.commit()
         else:
             # ここは実行されないはず
+            print("models.py/feeling: error")
             prev_feeling = None
             new_history = History()
             new_history.group = group_id
@@ -424,7 +425,7 @@ def http_list():
         return "[]"
     # 表示する店舗を選ぶ。ひとりのときはLIKEした店だけ。2人以上のときはすべて表示。
     alln = session.query(Belong).filter(Belong.group==group_id).count() # 参加人数
-    restaurant_ids = [h.restaurant for h in fetch_votes] if alln >= 2 else [h.restaurant for h in fetch_votes if h.votes_like != 0]
+    restaurant_ids = [h.restaurant for h in fetch_votes if h.votes_all > 0] if alln >= 2 else [h.restaurant for h in fetch_votes if h.votes_like > 0]
     fetch_group = session.query(Group).filter(Group.id==group_id).first()
     restaurants_info = api_functions.get_restaurants_info(fetch_group, group_id, restaurant_ids)
 

@@ -64,9 +64,9 @@ class Group(Base):
     min_price = Column('min_price', Integer) # 検索条件 # 金額下限
     sort = Column('sort', String(50)) # 検索条件 # 表示順
     recommend_method = Column('recommend_method', String(50)) # 検索条件 # レコメンド
+    price_average = Column('group_price', Float) # レコメンド # 平均価格
+    distance_average = Column('group_distance', Float) # レコメンド # 平均距離
     api_method = Column('api_method', String(50)) # 検索条件 # レコメンド
-    group_price = Column('group_price', Integer) # レコメンド # 平均価格
-    group_distance = Column('group_distance', Float) # レコメンド # 平均距離
     created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
     updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)
     password = Column('password', String(50)) # パスワード (2021/08/21 未使用)
@@ -134,6 +134,7 @@ class Vote(Base):
     restaurant = Column('restaurant', String(50), primary_key=True)
     votes_like = Column('votes_like', Integer, nullable=False) # -1: 未送信 # session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling==True).count() # レストランのいいね数
     votes_all = Column('votes_all', Integer, nullable=False) # -1: 未送信 # session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling is not None).count() # レストランの投票人数
+    recommend_priority = Column('recommend_priority', Float)
     created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
     updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)
 
