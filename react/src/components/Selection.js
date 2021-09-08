@@ -8,6 +8,7 @@ import { assignNumGlobal } from './global'
 import ButtonToChangeMode from "./ButtonToChangeMode"
 import ButtonToInvite from "./ButtonToInvite"
 import Credit from "./Credit"
+import RestaurantInformation from './RestaurantInformation'
 import RestaurantInformationDeck from './RestaurantInformationDeck'
 import noImageIcon from "..//img/no_image.png"
 
@@ -23,18 +24,41 @@ const emptyDataList = [{
   "Restaurant_id": "empty",
 }]
 
+// カードのスタイル
+var wrapperStyle = {
+  margin: 0,
+}
+
+// カードの高さを指定する
+function getAdaptiveStyle() {
+    // let height = window.innerHeight
+    let height = document.getElementById("selection").getBoundingClientRect().height
+    let wrapperStyle = {
+        height: height,
+    }
+    return wrapperStyle
+};
+
+//windowサイズの変更検知のイベントハンドラを設定
+window.addEventListener('load', () => {
+    wrapperStyle = getAdaptiveStyle()
+})
+
 /*
  スワイプでお店を選ぶコンポーネント
  */
 function Selection(props) {
-  const [dataList, setDataList] = useState(initDataList)
+  const [dataLists, setDataLists] = useState({
+    "topDataList":initDataList,
+    "standbyDataList":null,
+  })
+  let hiddenDataList = null
   let isLoading = false
-  let preloadedDataList = null
 
   // APIからお店のデータを得る
-  const getInfo = (newUserId, newGroupId, isPreloading=false) => {
+  const getInfo = (newUserId, newGroupId, type="init", topDataList=null) => {
     if (isLoading) return;
-    if(dataList!==initDataList && !isPreloading) setDataList(initDataList)
+    // if(dataList!==initDataList && !isPreloading) setDataList(initDataList)
     isLoading = true
 
     // ユーザID を設定
@@ -58,35 +82,61 @@ function Selection(props) {
     })
       .then(function (response) {
         console.log(response)
-        let dataList = response['data']
-        // let dataList = sampledata
-        let cardNum = dataList.length
+        let receivedDataList = response['data']
+        let cardNum = receivedDataList.length
         if (cardNum > 0) {
-          console.log(dataList[0])
-          const newDataList = initDataList.concat(dataList) 
-          if(isPreloading){
-            preloadedDataList = newDataList
-          } else {
-            setDataList(newDataList)
+          console.log(receivedDataList[0])
+          const newDataList = receivedDataList
+          if(type==="init"){
+            console.log("received topDataList")
+            isLoading = false
+            getInfo(null,null,"standby",newDataList)
+          } 
+          else if(type==="standby"){
+            setDataLists({
+              "topDataList":topDataList,
+              "standbyDataList":newDataList,
+            })
+          } 
+          else if(type==="preload"){
+            hiddenDataList = newDataList
+          } 
+          else {
+            console.log("undefined type")
           }
         } else {
-          if(isPreloading){
-            preloadedDataList = emptyDataList
-          } else { 
-            setDataList(emptyDataList)
+          if(type==="init"){
+            setDataLists({
+              "topDataList":emptyDataList,
+              "standbyDataList":emptyDataList,
+            })
           }
-        }   
+          else if(type==="standby"){
+            setDataLists({
+              "topDataList":topDataList,
+              "standbyDataList":emptyDataList,
+            })
+          } 
+          else if(type==="preload"){
+            hiddenDataList = emptyDataList
+          } else {
+            console.log("undefined type")
+          }
+        }
         isLoading = false
       })
       .catch((error) => {
-        console.log("error:", error);
+        console.log("error:", error)
       });
   }
   const setPreloadedDataList = () =>{
-    if(preloadedDataList!==null){
-      const newDataList = preloadedDataList 
-      preloadedDataList = null
-      setDataList(newDataList)
+    if(hiddenDataList!==null){
+      const newStandbyDataList = hiddenDataList 
+      hiddenDataList = null
+      setDataLists({
+        "topDataList":dataLists.standbyDataList,
+        "standbyDataList":newStandbyDataList,
+      })
     }
   }
 
@@ -117,19 +167,22 @@ function Selection(props) {
   // 各ボタンに対応する関数
   const reject = (restaurant_id) => {
     console.log("reject")
-    if (isLoading) return;
+    if (isLoading) return null
     sendFeeling(false, restaurant_id)
   }
   const keep = (restaurant_id) => {
     console.log("keep:", restaurant_id)
-    if (isLoading) return;
+    if (isLoading) return null
     sendFeeling(true, restaurant_id)
   }
   // Home コンポーネント から受け取った turnMode を
   // ButtonToChangeMode 用に加工
   const turnMode = () => {
     // データリストの取得待ちであることを明示する
-    setDataList(initDataList)
+    setDataLists({
+      "topDataList":initDataList,
+      "standbyDataList":null,
+    })
     // モード切り替え
     props.turnMode()
   }
@@ -149,21 +202,35 @@ function Selection(props) {
 
   let renderButtonToInvite = () =>{
     return (
-        <ButtonToInvite
-          url={props.inviteUrl}
-          groupId={props.groupId} 
-          callInviteUrl={props.callInviteUrl}
-          />
+      <ButtonToInvite
+        url={props.inviteUrl}
+        groupId={props.groupId} 
+        callInviteUrl={props.callInviteUrl}
+      />
+    )
+  }
+
+  let renderStandbyRestaurantInformation = () =>{
+    if(dataLists.standbyDataList===null) return null
+    return (
+      <RestaurantInformation 
+        data={dataLists.standbyDataList[0]}
+        wrapperStyle={wrapperStyle}
+        keep={()=>{ console.log("pushed")}}
+        reject={()=>{console.log("pushed")}}
+      />
     )
   }
 
   let renderRestaurantInformationDeck = () =>{
     return (
       <RestaurantInformationDeck
-        dataList={dataList}
+        topDataList={dataLists.topDataList}
+        standbyDataList={dataLists.standbyDataList}
         hasRestaurant={
-          dataList !== initDataList 
-          && dataList !== emptyDataList}
+          dataLists.topDataList !== initDataList 
+          && dataLists.topDataList !== emptyDataList}
+        wrapperStyle={wrapperStyle}
         keep={keep}
         reject={reject}
         getInfo={getInfo}
@@ -172,10 +239,8 @@ function Selection(props) {
     )
   }
 
-  var display_style;
-  props.mode === "Alone" 
-  ? display_style = { display: "none" } 
-  : display_style = null;
+  const display_style = 
+    (props.mode==="Alone")? {display:"none"}: null
 
   return (
     <div className="Selection-wrapper">
@@ -190,6 +255,7 @@ function Selection(props) {
         </div>
       </div>
       <div className="Selection" id={"selection"}>
+        { renderStandbyRestaurantInformation() }
         <div className='information-deck'>
           {/* <RestaurantInformation data={dataList[idx]} wrapperStyle={wrapperStyle} /> */}
           { renderRestaurantInformationDeck() }
@@ -197,7 +263,7 @@ function Selection(props) {
       </div>
       <Credit />
     </div>
-  );
+  )
 }
 
 export default Selection
