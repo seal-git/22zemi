@@ -49,6 +49,7 @@ def save_restaurants_info(restaurants_info):
             new_restaurant.url_web = restaurant_info.get('UrlWeb')
             new_restaurant.url_map = restaurant_info.get('UrloMap')
             new_restaurant.review_rating = restaurant_info.get('ReviewRating')
+            new_restaurant.review_rating_float = restaurant_info.get('ReviewRatingFloat')
             new_restaurant.business_hour = restaurant_info.get('BusinessHour')
             new_restaurant.open_hour = restaurant_info.get('OpenHour')
             new_restaurant.close_hour = restaurant_info.get('CloseHour')
@@ -77,6 +78,7 @@ def convert_restaurants_info_from_fetch_restaurants(f_restaurant):
     restaurant_info['UrlWeb'] = f_restaurant.url_web
     restaurant_info['UrlMap'] = f_restaurant.url_map
     restaurant_info['ReviewRating'] = f_restaurant.review_rating
+    restaurant_info['ReviewRatingFloat'] = f_restaurant.review_rating_float
     restaurant_info['BusinessHour'] = f_restaurant.business_hour
     restaurant_info['OpenHour'] = f_restaurant.open_hour
     restaurant_info['CloseHour'] = f_restaurant.close_hour

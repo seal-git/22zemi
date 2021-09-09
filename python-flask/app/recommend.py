@@ -574,7 +574,7 @@ class RecommendSVM(Recommend):
         unvoted_restaurants_count = len(pre_restaurants_info) - voted_restaurants_count
 
         # 学習のためのベクトル生成
-        VEC_SIZE = 6
+        VEC_SIZE = 7
         rid_train = [''] * voted_restaurants_count
         x_train = np.zeros((voted_restaurants_count, VEC_SIZE))
         y_train = np.zeros(voted_restaurants_count)
@@ -613,6 +613,8 @@ class RecommendSVM(Recommend):
                 if g in genre_feeling:
                     genre_score += genre_feeling[g]['Dislike'] - genre_feeling[g]['Like']
             vec[5] = genre_score * 1000
+
+            vec[6] = r['ReviewRatingFloat']
 
             # 変数に格納
             if r["VotesAll"] <= 0:

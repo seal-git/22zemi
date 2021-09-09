@@ -89,6 +89,7 @@ class Restaurant(Base):
     url_web = Column('url_web', String(400)) # お店のURL
     url_map = Column('url_map', String(400)) # MapのURL
     review_rating = Column('review_rating', String(100)) # 顧客レビューの評価値
+    review_rating_float = Column('review_rating_float', Float) # 顧客レビューの評価値
     business_hour = Column('business_hour', String(400)) # 営業時間
     open_hour = Column('open_hour', Float) # 開店時間
     close_hour = Column('close_hour', Float) # 閉店時間
