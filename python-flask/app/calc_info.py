@@ -234,7 +234,6 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
 
 
 # ============================================================================================================
-# api_functions.pyで最初に呼ばれる
 
 
 def create_image(restaurants_info):
