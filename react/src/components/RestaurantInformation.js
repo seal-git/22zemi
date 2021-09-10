@@ -147,8 +147,8 @@ function RestaurantInformation(props) {
                     spacing={2}
                     ref={gl}
                 >
-                    {images.map((tile) => (
-                        <GridListTile key={tile}
+                    {images.map((tile,i) => (
+                        <GridListTile key={props.data.Restaurant_id+i}
                             className={classes.gridListTile}>
                             <img src={tile} alt="" />
                         </GridListTile>
