@@ -5,6 +5,9 @@ import random
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 from sqlalchemy import distinct
 from abc import ABCMeta, abstractmethod
+import math
+import sys
+# import threading
 
 
 '''
@@ -24,7 +27,7 @@ recommend_main関数が最初に呼ばれる。
 
 '''
 
-RESULTS_COUNT = 10 # 一回に返す店舗の数
+RESULTS_COUNT = 3 # 一回に返す店舗の数
 STOCK_COUNT = 100 # APIで取得するデータの数．STOCK_COUNT個の店からRESULTS_COUNT個選ぶ
 MAX_DISTANCE = 20 # 中心地からの距離 上限20
 
@@ -66,7 +69,7 @@ class Recommend(metaclass=ABCMeta):
         pass
     
     @abstractmethod
-    def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info):
+    def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
         '''
         レスポンスでユーザに返す店を決める
         pre_restaurants_infoをおすすめ順に並び替えて，RESULTS_COUNT個選ぶ
@@ -83,6 +86,9 @@ class Recommend(metaclass=ABCMeta):
         pre_restaurants_info : [dict]
             pre_infoで取ってきた店の情報
             一度ユーザに送信した店は排除済み
+
+        histories_restaurants : [string]
+            既にユーザに送信した店のリスト
 
 
         Returns
@@ -103,11 +109,15 @@ class RecommendTemplate(Recommend):
         pre_search_params.update({
             'image': 'true', # 画像がある店
             'open': 'now', # 現在開店している店舗
+            'stock': STOCK_COUNT
         })
         return pre_search_params
 
     
-    def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info):
+    def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+        # 一度ユーザに送信したレストランはリストから除く
+        pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
+
         # TODO: 重みを計算
         weight = [0] * len(pre_restaurants_info)
         for i, pre_restaurant_info in enumerate(pre_restaurants_info):
@@ -124,36 +134,23 @@ class RecommendSimple(Recommend):
     def pre_info(self, fetch_group, group_id, user_id):
         # YahooローカルサーチAPIで検索するクエリ
         pre_search_params = get_search_params_from_fetch_group(fetch_group)
-        pre_search_params.update({
-            'image': 'true', # 画像がある店
-            'open': 'now', # 現在開店している店舗
-            'start': RESULTS_COUNT * (session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()).request_count, # 表示範囲：開始位置
-            'results': RESULTS_COUNT, # 表示範囲：店舗数
-        })
+        # pre_search_params.update({
+        #     'image': 'true', # 画像がある店
+        #     'open': 'now', # 現在開店している店舗
+        #     'stock': RESULTS_COUNT,
+        #     #'start': RESULTS_COUNT * (session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()).request_count, # 表示範囲：開始位置
+        #     #'results': RESULTS_COUNT, # 表示範囲：店舗数
+        # })
         return pre_search_params
 
 
-    def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info):
-        restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info)
+    def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+        # 一度ユーザに送信したレストランはリストから除く
+        restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
+
         # if fetch_group.max_price is not None: restaurants_info = get_restaurants_info_price_filter(fetch_group.max_price, restaurants_info)
+        restaurants_info = restaurants_info[:RESULTS_COUNT] # 指定した数だのお店だけを選択
         return [r['Restaurant_id'] for r in restaurants_info]
-    
-
-    def get_restaurants_info_price_filter(self, meanprice, restaurants_info):
-        new_restaurants_info = []
-        for restaurant_info in restaurants_info:
-            if restaurant_info['LunchPrice'] is not None:
-                if int(restaurant_info['LunchPrice']) > meanprice:
-                    continue
-
-            if restaurant_info['DinnerPrice'] is not None:
-                if int(restaurant_info['DinnerPrice']) > meanprice:
-                    continue
-
-            new_restaurants_info.append(restaurant_info)
-
-        return new_restaurants_info
-
 
 
 class RecommendYahoo(Recommend):
@@ -168,209 +165,148 @@ class RecommendYahoo(Recommend):
             'image': 'true', # 画像がある店
             'open': 'now', # 現在開店している店舗
             'sort': 'hyblid', # 評価や距離などを総合してソート
-            'start': RESULTS_COUNT * (session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()).request_count, # 表示範囲：開始位置
-            'results': RESULTS_COUNT, # 表示範囲：店舗数
+            'stock': RESULTS_COUNT,
+            #'start': RESULTS_COUNT * (session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()).request_count, # 表示範囲：開始位置
+            #'results': RESULTS_COUNT, # 表示範囲：店舗数
         })
         return pre_search_params
 
     
-    def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info):
+    def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+        # 一度ユーザに送信したレストランはリストから除く
+        pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
+
         # 何もしない
         return [r['Restaurant_id'] for r in pre_restaurants_info]
 
 
-class RecommendGenre(Recommend):
-    def pre_info(self, fetch_group, group_id, user_id):
-        return {}
-    
-    def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info):
-        return []
+class RecommendOriginal(Recommend):
+    def pre_info(self, fetch_group):
+        # YahooローカルサーチAPIで検索するクエリ
+        pre_search_params = get_search_params_from_fetch_group(fetch_group)
+        pre_search_params.update({
+            'image': 'true', # 画像がある店
+            'open': 'now', # 現在開店している店舗
+            'stock': STOCK_COUNT,
+        })
+        return pre_search_params
 
-    def __TODO(self, fetch_group, group_id, user_id, pre_restaurants_info):
-        restaurants_info = get_continued_restaurants(fetch_group, group_id, user_id)
-        if len(restaurants_info) != 0:
-            return restaurants_info
+    def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+        # 一度ユーザに送信したレストランはリストから除く
+        pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
+
+        voted= [[v.restaurant, v.votes_like, v.votes_all] for v in session.query(Vote).filter(Vote.group==group_id, Vote.votes_all>0).all()]
+        if len(voted) == 0:
+            return [r['Restaurant_id'] for r in pre_restaurants_info][0:RESULTS_COUNT]
         else:
-            simple_method = random.choice(['rating', 'score', 'hyblid', 'review', 'kana', 'price', 'dist', 'geo', '-rating', '-score', '-hyblid', '-review', '-kana', '-price', '-dist', '-geo'])
-            simple_method = 'rating'
-            #データがなければsimple
-            if len(current_group[group_id]["Restaurants"].keys()) == 0:
-                print("start")
-                restaurants_info = recommend_simple(fetch_group, group_id, user_id, simple_method)
-                return restaurants_info
+            #keepに関して
+            keep_restaurant_ids = [v[0] for v in voted if v[1] > 0]
+            if len(keep_restaurant_ids) > 0:
+                keep_count = 0
+                keep_genre = [] #keepした店のgenre
+                keep_genre_count = []
+                weight_price = 0
+                weight_distance = 0
+                keep_restaurants_info = calc_info.load_restaurants_info(keep_restaurant_ids)
+                keep_restaurants_info = calc_info.add_votes_distance(fetch_group, group_id, keep_restaurants_info)
+                for r in keep_restaurants_info:
+                    id = r["Restaurant_id"]
+                    votelike = r["VotesLike"]
+                    #price処理
+                    price = r["Price"]
+                    try:
+                        weight_price += votelike * price
+                    except:
+                        pass
+                    #distance処理
+                    distance = r["distance_float"]
+                    weight_distance += votelike * distance
+                    #genre処理
+                    genre = r["Genre"]
+                    for g in genre:
+                        if g["Name"] not in keep_genre:
+                            keep_genre.append(g["Name"])
+                            keep_genre_count.append(votelike)
+                        else:
+                            keep_genre_count[keep_genre.index(g["Name"])] += votelike
+                    #keep数
+                    keep_count += votelike
 
-            else:
-                LOCAL_SEARCH_RESULTS_COUNT = 10 # 一回に取得する店舗の数 # RESULTS_COUNTの倍数
-            coordinates = current_group[group_id]['Coordinates']
-            request_count = current_group[group_id]['Users'][user_id]['RequestCount']
-            group_result = current_group[group_id]["Restaurants"]
-            restaurant_ids = list(group_result.keys())
-            keep_restaurant_ids = []
-            through_restaurant_ids = []
-            keep_list = [] #[[Like数, 価格, 距離, [ジャンル]],...] ジャンル=[{Name:???, Code:???}, {Name:???, Code:???}] 
-            through_list = [] #[[All数, Like数, 価格, 距離,　[ジャンル]],...] 
-            for r_id in restaurant_ids:
-                if len(group_result[r_id]["Like"]) > 0:
-                    keep_restaurant_ids.append(r_id)
-                    keep_list.append([ len(group_result[r_id]['Like']), group_result[r_id]['info']['Price'], \
-                        group_result[r_id]['info']['distance_float'], group_result[r_id]['info']['Genre'] ] )
+                keep_genre_rank = [[count, genre] for count, genre in zip(keep_genre_count, keep_genre)]
+                keep_genre_rank.sort(reverse=True)
+                price_average = weight_price / keep_count
+                distance_average = weight_distance / keep_count
+                fetch_group.price_average = price_average
+                fetch_group.distance_average = distance_average
+                session.commit()
+
+            #throughに関して
+            through_restaurant_ids = [v[0] for v in voted if v[1] == 0]
+            if len(through_restaurant_ids) > 0:
+                through_genre = [] #throughした店のgenre
+                through_genre_count = []
+                through_restaurants_info = calc_info.load_restaurants_info(through_restaurant_ids)
+                through_restaurants_info = calc_info.add_votes_distance(fetch_group, group_id, through_restaurants_info)
+                for r in through_restaurants_info:
+                    id = r["Restaurant_id"]
+                    # votelike = r["VotesLike"]
+                    # voteall = r["VotesAll"]
+                    # votedislike = voteall - votelike
+                    #genre処理
+                    genre = r["Genre"]
+                    for g in genre:
+                        if g["Name"] not in through_genre:
+                            through_genre.append(g["Name"])
+                            #through_genre_count.append(votedislike)
+                        # else:
+                        #     through_genre_count[keep_genre.index(g["Name"])] += votedislike
+                #through_genre_rank = [[count, genre] for count, genre in zip(through_genre_count, through_genre)]
+                #through_genre_rank.sort(reverse=True)
+
+            try:
+                if len(keep_restaurant_ids) == len(voted):#全部keepなら
+                    high_rank_genre = [g[1] for g in keep_genre_rank if g[0]==max(keep_genre_count)]
+                    recommend_genre = random.choice(category_high_sim[random.choice(high_rank_genre)])
+                    recommend_type = "high_sim"
                 else:
-                    through_restaurant_ids.append(r_id)
-                    through_list.append([ len(group_result[r_id]['All']), len(group_result[r_id]['Like']), group_result[r_id]['info']['Price'], \
-                        group_result[r_id]['info']['distance_float'], group_result[r_id]['info']['Genre'] ] )
+                    if random.random() < 0.7:
+                        if len(keep_genre) > 0:
+                            high_rank_genre = [g[1] for g in keep_genre_rank if g[0]==max(keep_genre_count)]
+                            recommend_genre = random.choice(category_high_sim[random.choice(high_rank_genre)])
+                            recommend_type = "high_sim"
+                        else:#全部throughなら
+                            recommend_genre = random.choice(category_low_sim[random.choice(through_genre)])
+                            recommend_type = "low_sim"
+                    else:
+                        recommend_genre = random.choice(category_low_sim[random.choice(through_genre)])
+                        recommend_type = "low_sim"
+            except:
+                recommend_type = "non genre"
+                recommend_genre = ""
             
-            #keep or throughの結果からジャンルを決定
-            if random.random() <= 0.7:
-                recommend_type = "keep"
-            else:
-                recommend_type = "through"
-            print(f"RecommendType:{recommend_type}")
-
-            #keepから 平均価格, 平均距離を算出
-            keep_price = 0
-            keep_distance = 0
-            like_num = 0
-            for keep in keep_list:
-                like_num += keep[0]
-                if keep[1] is not None:
-                    keep_price += keep[0] * int(keep[1]) #投票数で重み付け TODO:投票率で重み付？
-                keep_distance += keep[0] * keep[2]
-            if like_num != 0:
-                meanprice = int(keep_price / like_num)
-                if meanprice == 0:
-                    meanprice = None
-                meandistance = round( ((keep_distance / like_num) / 1000), 2)
-                if meandistance == 0:
-                    meandistance = None
-                params = {"dist":meandistance, "price":meanprice}
-                print(f"MaxPrice:{meanprice}")
-                print(f"Maxdict:{meandistance}")
-            else:
-                print("No Data : like restaurant")
-                restaurants_info = recommend_simple(fetch_group, group_id, user_id, simple_method)
-                return restaurants_info
-
-            #keep or throughのジャンルを格納
-            if recommend_type == "keep":
-                genre = []
-                for k in keep_list:
-                    for g in k[3]:
-                        genre.append(g["Name"])
-            elif recommend_type == "through":
-                genre = []
-                for th in through_list:
-                    for g in th[4]:
-                        genre.append(g["Name"])
-            
-            #ジャンルの頻度をカウント
-            genre_count = [] #[[カウント数, ジャンル名], ...]
-            counted = []
-            for c in genre:
-                if c not in counted:
-                    genre_count.append([genre.count(c), c])
-                    counted.append(c)
-            genre_count.sort(reverse=True)
-            
-            #カウントが多いものからレコメンドするジャンルを決定
-            code = None
-            for c in genre_count:
-                high_count_genre = c[1]
-                try:
-                    if recommend_type == "keep":
-                        recommend_genre_list = category_high_sim[high_count_genre]
-                    elif recommend_type == "through":
-                        recommend_genre_list = category_low_sim[high_count_genre]
-                    recommend_genre = random.choice(recommend_genre_list)
-                    code = '0' + category_code[recommend_genre]
-                    break
-                except:
-                    continue
-
-            #レコメンドデータがなければ、simpleで検索
-            if code is None:
-                print("No recommend genre code ")
-                restaurants_info = recommend_simple(fetch_group, group_id, user_id, simple_method, params)
-                return restaurants_info
-
-            print(f"HighCountGenre:{high_count_genre}")
-            print(f"RecommendGenre:{recommend_genre}")
-            pre_search_params = {
-                # 中心地から1km以内のグルメを検索
-                'lat': coordinates[0], # 緯度
-                'lon': coordinates[1], # 経度
-                'dist': meandistance, # 中心地点からの距離 # 最大20km
-                'image': 'true', # 画像がある店
-                'open': 'now', # 現在開店している店舗
-                'maxprice': meanprice,
-                'gc': code
-            }
-            pre_search_params.update(current_group[group_id]['FilterParams'])
-        
-            #local_search_json, restaurants_info =  api_functions.get_restaurants_info_from_pre_search_params(current_group[group_id], pre_search_params)
-            restaurants_info = recommend_simple(fetch_group, group_id, user_id, simple_method, params)
-            restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, restaurants_info)
-            restaurants_info = get_restaurants_info_price_filter(meanprice, restaurants_info)
-
-            if len(restaurants_info) == 0:
-                print("No Data: recommend genre restaurant")
-                restaurants_info = recommend_simple(fetch_group, group_id, user_id, simple_method, params)
-                return restaurants_info
-            
-            print("recommend_genre")
-            print(f"data_num {len(restaurants_info)}")
-            return restaurants_info
-
-
-    def recommend_simple(self, current_group, group_id, user_id, recommend_method, params={}):
-        '''
-        レコメンドは Yahoo Local Search に任せる
-        '''
-        restaurants_info = get_continued_restaurants(current_group, group_id, user_id)
-        if len(restaurants_info) != 0:
-            return restaurants_info
-        else:
-            coordinates = current_group[group_id]['Coordinates']
-            request_count = current_group[group_id]['Users'][user_id]['RequestCount']
-            code = '0' + random.choice(list(category_code.values()))
-            if "dist" in params.keys():
-                dist = params["dist"]
-            else:
-                dist = MAX_DISTANCE
-            dist = MAX_DISTANCE #距離固定
-            if "price" in params.keys():
-                price = params["price"]
-            else:
-                price = None
-
-            # YahooローカルサーチAPIで検索するクエリ
-            pre_search_params = {
-                # 中心地から1km以内のグルメを検索
-                'lat': coordinates[0], # 緯度
-                'lon': coordinates[1], # 経度
-                'dist': dist, # 中心地点からの距離 # 最大20km
-                'gc': '01', # グルメ b
-                #'gc': code, #ランダムなジャンル 滅多にお店が取れない
-                'image': 'true', # 画像がある店
-                'open': 'now', # 現在開店している店舗
-                'sort': recommend_method, # hyblid # 評価や距離などを総合してソート
-                'start': RESULTS_COUNT * request_count, # 表示範囲：開始位置
-                'results': RESULTS_COUNT, # 表示範囲：店舗数
-                'maxprice': price
-            }
-            pre_search_params.update(current_group[group_id]['FilterParams'])
-            
-            # Yahoo local search APIで店舗情報を取得
-            local_search_json, restaurants_info =  api_functions.ApiFunctionsYahoo.get_info_from_api(current_group[group_id], pre_search_params)
-            restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, restaurants_info)
-            if not price is None:
-                restaurants_info = get_restaurants_info_price_filter(price, restaurants_info)
-
-            save_histories(current_group, group_id, user_id, restaurants_info)
-            print("recommend_simple")
-            print(f"RecommendMethod:{recommend_method}")
-            print(f"data_num {len(restaurants_info)}")
-            return restaurants_info
-
+            # 履歴からrecommendするお店を取得
+            non_voted_restaurant_ids =[v.restaurant for v in session.query(Vote).filter(Vote.votes_all==-1)]
+            recommend_restaurants_info = calc_info.load_restaurants_info(non_voted_restaurant_ids)
+            recommend_restaurants_info = calc_info.add_votes_distance(fetch_group, group_id, recommend_restaurants_info)
+            restaurants_id_list = []
+            for r in recommend_restaurants_info:
+                if r["Price"] <= price_average * 2:
+                        if r["distance_float"] <= distance_average * 1.5:
+                            if recommend_genre != "":#genreがあれば
+                                genre = r["Genre"]
+                                for g in genre:
+                                    if g["Name"] == recommend_genre:
+                                        restaurants_id_list.append(r["Restaurant_id"])
+                            else:
+                                restaurants_id_list.append(r["Restaurant_id"])
+            print("===================================")
+            print(recommend_type)
+            print(recommend_genre)
+            print(price_average)
+            print(distance_average)
+            print(restaurants_id_list)
+            print("===================================")
+        return restaurants_id_list
 
 class RecommendWords(Recommend):
     '''
@@ -385,10 +321,13 @@ class RecommendWords(Recommend):
         pre_search_params.update({
             'image': 'true', # 画像がある店
             'open': 'now', # 現在開店している店舗
+            'stock': STOCK_COUNT,
         })
         return pre_search_params
     
-    def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info):
+    def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+        # 一度ユーザに送信したレストランはリストから除く
+        pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
 
         restaurants_info = sorted(pre_restaurants_info, key=lambda x:x['ReviewRating'], reverse=True)
         stop_index = [i for i, x in enumerate(restaurants_info) if x['ReviewRating'] < 3][0]
@@ -397,67 +336,235 @@ class RecommendWords(Recommend):
 
 
 
+class RecommendQueue(Recommend):
+    '''
+    キューを持っておいてレコメンドする
+    '''
+
+
+    def __calc_recommend_priority(self, fetch_group, group_id, pre_restaurants_info):
+        '''
+        Vote.recommend_priorityを計算する。
+        '''
+        # 価格と距離の平均と標準偏差を求める
+        like_price_count = 0
+        like_price_sum = 0
+        like_price2_sum = 0
+        like_distance_count = 0
+        like_distance_sum = 0
+        like_distance2_sum = 0
+        genre_list = []
+        like_genre_count = []
+
+        dislike_price_count = 0
+        dislike_price_sum = 0
+        dislike_price2_sum = 0
+        dislike_distance_count = 0
+        dislike_distance_sum = 0
+        dislike_distance2_sum = 0
+        dislike_genre_count = []
+
+        for r in pre_restaurants_info:
+            vote_like = r["VotesLike"]
+            vote_dislike = r["VotesAll"] - vote_like
+            if r["VotesAll"] <= 0:
+                continue
+
+            #price処理
+            price = r["Price"]
+            if price is not None and price != 0:
+                like_price_sum += vote_like * price
+                like_price2_sum += vote_like * price*price
+                like_price_count += vote_like
+                dislike_price_sum += vote_dislike * price
+                dislike_price2_sum += vote_dislike * price*price
+                dislike_price_count += vote_dislike
+
+            #distance処理
+            distance = r["distance_float"]
+            like_distance_sum += vote_like * distance
+            like_distance2_sum += vote_like * distance*distance
+            like_distance_count += vote_like
+            dislike_distance_sum += vote_dislike * distance
+            dislike_distance2_sum += vote_dislike * distance*distance
+            dislike_distance_count += vote_dislike
+
+            #genre処理
+            genre = r["Genre"]
+            for g in genre:
+                if g["Name"] not in genre_list:
+                    genre_list.append(g["Name"])
+                    like_genre_count.append(vote_like)
+                    dislike_genre_count.append(vote_dislike)
+                else:
+                    like_genre_count[genre_list.index(g["Name"])] += vote_like
+                    dislike_genre_count[genre_list.index(g["Name"])] += vote_dislike
+
+        genre_feeling = {genre: {'Like':like,'Dislike':dislike} for genre, like, dislike in zip(genre_list, like_genre_count, dislike_genre_count)}
+        like_price_average = like_price_sum / like_price_count if like_price_count != 0 else 0
+        like_distance_average = like_distance_sum / like_distance_count if like_distance_count != 0 else 0
+        like_price_sigma = math.sqrt(like_price2_sum / like_price_count) if like_price_count != 0 else sys.float_info.max/16
+        like_distance_sigma = math.sqrt(like_distance2_sum / like_distance_count) if like_distance_count != 0 else sys.float_info.max/16
+        dislike_price_average = dislike_price_sum / dislike_price_count if dislike_price_count != 0 else 0
+        dislike_distance_average = dislike_distance_sum / dislike_distance_count if dislike_distance_count != 0 else 0
+        dislike_price_sigma = math.sqrt(dislike_price2_sum / dislike_price_count) if dislike_price_count != 0 else sys.float_info.max/16
+        dislike_distance_sigma = math.sqrt(dislike_distance2_sum / dislike_distance_count) if dislike_distance_count != 0 else sys.float_info.max/16
+        fetch_group.price_average = like_price_average
+        fetch_group.distance_average = like_distance_average
+        session.commit()
+
+        # recommend_priorityを計算する。
+        weight_votes_like = 2.5
+        weight_price = 0.4
+        weight_distance = 0.3
+        weight_genre = 0.3
+        alln = session.query(Belong).filter(Belong.group==group_id).count() # 参加人数
+        for ri in pre_restaurants_info:
+            fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==ri['Restaurant_id']).one()
+            
+            # votes_like_score
+            votes_like_score = fetch_vote.votes_like - alln * (fetch_vote.votes_all - fetch_vote.votes_like) # 1人でも反対した店は後回し
+            
+            # price_score
+            price = ri['Price']
+            if price is not None and price != 0:
+                price_score = (abs(price - like_price_average) / like_price_sigma - abs(price - dislike_price_average) / dislike_price_sigma) / 1000 # 偏差値のような何か
+            else:
+                price_score = 1024 # 価格表示の無いものは後回しにしたいので，大きいスコアを与える
+            
+            # distance_score
+            distance = ri['distance_float']
+            distance_score = abs(distance - like_distance_average) / like_distance_sigma - abs(distance - dislike_distance_average) / dislike_distance_sigma # 偏差値のような何か
+            
+            # genre_score
+            genre_score = 0
+            for g in [gt['Name'] for gt in ri['Genre']]:
+                if g in genre_feeling:
+                    genre_score += genre_feeling[g]['Dislike'] - genre_feeling[g]['Like']
+            
+            fetch_vote.recommend_priority = votes_like_score * weight_votes_like + price_score * weight_price + distance_score * weight_distance + genre_score * weight_genre
+            session.commit()
+
+
+    def pre_info(self, fetch_group, group_id, user_id):
+        # YahooローカルサーチAPIで検索するクエリ
+        pre_search_params = get_search_params_from_fetch_group(fetch_group)
+        pre_search_params.update({
+            'image': 'true', # 画像がある店
+            'open': 'now', # 現在開店している店舗
+            'stock': STOCK_COUNT,
+        })
+        return pre_search_params
+ 
+
+    def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+
+        fetch_votes = session.query(Vote.votes_all).filter(Vote.group==group_id, Vote.votes_all>0).all()
+        if sum([v.votes_all for v in fetch_votes]) < 3:
+            pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
+            return [r['Restaurant_id'] for r in pre_restaurants_info][0:RESULTS_COUNT]
+        
+        # Vote.recommend_priorityを計算する。
+        self.__calc_recommend_priority(fetch_group, group_id, pre_restaurants_info)
+        # t = threading.Thread(target=self.__calc_recommend_priority, args=(fetch_group, group_id, pre_restaurants_info))
+        # t.start()
+
+        # recommend_priorityの小さい順にユーザに送信する。
+        fetch_votes = session.query(Vote).filter(Vote.group==group_id, Vote.recommend_priority is not None).order_by(Vote.recommend_priority).all()
+        restaurants_ids = []
+        for fv in fetch_votes:
+            if fv.restaurant not in histories_restaurants:
+                restaurants_ids.append(fv.restaurant)
+                if len(restaurants_ids) == RESULTS_COUNT:
+                    return restaurants_ids
+        return restaurants_ids
+
+
+
+
 # ============================================================================================================
 # Yahoo Local Search テスト用
 
-def local_search_test_URL(fetch_group, group_id, user_id):
-    '''
-    simpleのYahoo Local Searchの出力を見る
-    '''
-    coordinates = current_group[group_id]['Coordinates']
-    request_count = current_group[group_id]['Users'][user_id]['RequestCount']
+# def local_search_test_URL(fetch_group, group_id, user_id):
+#     '''
+#     simpleのYahoo Local Searchの出力を見る
+#     '''
+#     coordinates = current_group[group_id]['Coordinates']
+#     request_count = current_group[group_id]['Users'][user_id]['RequestCount']
     
-     # YahooローカルサーチAPIで検索するクエリ
-    search_params = {
-        # 中心地から1km以内のグルメを検索
-        'lat': coordinates[0], # 緯度
-        'lon': coordinates[1], # 経度
-        'dist': MAX_DISTANCE, # 中心地点からの距離 # 最大20km
-        'gc': '01', # グルメ
-        'image': True, # 画像がある店
-        'open': 'now', # 現在開店している店舗
-        'sort': 'hybrid', # 評価や距離などを総合してソート
-        'start': RESULTS_COUNT * request_count, # 表示範囲：開始位置
-        'results': RESULTS_COUNT # 表示範囲：店舗数
-    }
-    search_params.update(current_group[group_id]['FilterParams'])
+#      # YahooローカルサーチAPIで検索するクエリ
+#     search_params = {
+#         # 中心地から1km以内のグルメを検索
+#         'lat': coordinates[0], # 緯度
+#         'lon': coordinates[1], # 経度
+#         'dist': MAX_DISTANCE, # 中心地点からの距離 # 最大20km
+#         'gc': '01', # グルメ
+#         'image': True, # 画像がある店
+#         'open': 'now', # 現在開店している店舗
+#         'sort': 'hybrid', # 評価や距離などを総合してソート
+#         'start': RESULTS_COUNT * request_count, # 表示範囲：開始位置
+#         'results': RESULTS_COUNT # 表示範囲：店舗数
+#     }
+#     search_params.update(current_group[group_id]['FilterParams'])
 
-    # Yahoo local search APIで店舗情報を取得
-    local_search_url = 'https://map.yahooapis.jp/search/local/V1/localSearch'
-    search_params.update({
-        'appid': os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
-        'output': 'json',
-        'detail': 'full'
-    })
-    return local_search_url + '?' + '&'.join([k+'='+str(v) for k,v in search_params.items()])
+#     # Yahoo local search APIで店舗情報を取得
+#     local_search_url = 'https://map.yahooapis.jp/search/local/V1/localSearch'
+#     search_params.update({
+#         'appid': os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
+#         'output': 'json',
+#         'detail': 'full'
+#     })
+#     return local_search_url + '?' + '&'.join([k+'='+str(v) for k,v in search_params.items()])
 
 
 
 # ============================================================================================================
 # recommend_mainで使う関数など
+def normalize_pre_search_params(fetch_group, pre_search_params):
+    if fetch_group.query is not None:
+        pre_search_params['query'] = fetch_group.query + ' '
+    if fetch_group.genre is not None:
+        pre_search_params['query'] = fetch_group.genre
+    if fetch_group.open_hour is not None:
+        pre_search_params['open_day'] = str(fetch_group.open_day.day) + ',' + str(fetch_group.open_hour.hour)
+    if fetch_group.max_price is not None:
+        pre_search_params['maxprice'] = fetch_group.max_price
+    if fetch_group.min_price is not None:
+        pre_search_params['minprice'] = fetch_group.min_price
+    return pre_search_params
 
 def get_search_params_from_fetch_group(fetch_group, search_params={}):
     '''
     ユーザが指定した検索条件からAPIで使用する検索条件に変換
     '''
-    search_params.update({
-        'lat': fetch_group.lat, # 緯度
-        'lon': fetch_group.lon, # 経度
-        'dist': fetch_group.max_dist if fetch_group.max_dist is not None else MAX_DISTANCE, # 中心地点からの距離 # 最大20km
-        'gc': '01', # グルメ
-        'sort': fetch_group.sort if fetch_group.sort is not None else 'hyblid' # hyblid: 評価や距離などを総合してソート
-    })
+    api_method = fetch_group.api_method
+    api_method = "google"
 
-    if fetch_group.query is not None:
-        search_params['query'] = fetch_group.query + ' '
-    if fetch_group.genre is not None:
-        search_params['query'] = fetch_group.genre
-    if fetch_group.open_hour is not None:
-        search_params['open'] = str(fetch_group.open_day.day) + ',' + str(fetch_group.open_hour.hour)
-    if fetch_group.max_price is not None:
-        search_params['maxprice'] = fetch_group.max_price
-    if fetch_group.min_price is not None:
-        search_params['minprice'] = fetch_group.min_price
+    if api_method == "yahoo":
+        search_params.update({
+            'lat': fetch_group.lat, # 緯度
+            'lon': fetch_group.lon, # 経度
+            'dist': fetch_group.max_dist if fetch_group.max_dist is not None else MAX_DISTANCE, # 中心地点からの距離 # 最大20km
+            'gc': '01', # グルメ
+            'sort': fetch_group.sort if fetch_group.sort is not None else 'hyblid' # hyblid: 評価や距離などを総合してソート
+        })
+    elif api_method == "google":
+        search_params.update({
+            'location': f'{fetch_group.lat},{fetch_group.lon}', # 緯度,経度
+            'radius': fetch_group.max_dist * 1000 if fetch_group.max_dist is not None else MAX_DISTANCE * 1000, # 半径 m
+            'type': 'restaurant',
+        })
+
+    # if fetch_group.query is not None:
+    #     search_params['query'] = fetch_group.query + ' '
+    # if fetch_group.genre is not None:
+    #     search_params['query'] = fetch_group.genre
+    # if fetch_group.open_hour is not None:
+    #     search_params['open'] = str(fetch_group.open_day.day) + ',' + str(fetch_group.open_hour.hour)
+    # if fetch_group.max_price is not None:
+    #     search_params['maxprice'] = fetch_group.max_price
+    # if fetch_group.min_price is not None:
+    #     search_params['minprice'] = fetch_group.min_price
     return search_params
 
 
@@ -491,10 +598,8 @@ def save_histories(group_id, user_id, restaurants_info):
                 fetch_vote.votes_like = 0
                 session.commit()
 
-# ============================================================================================================
-# 未使用の関数？
 
-def delete_duplicate_restaurants_info(group_id, user_id, restaurants_info):
+def delete_duplicate_restaurants_info(group_id, user_id, restaurants_info, histories_restaurants=None):
     '''
     一度ユーザに送信したレストランはリストから除く
 
@@ -509,41 +614,9 @@ def delete_duplicate_restaurants_info(group_id, user_id, restaurants_info):
     restaurants_info : [dict]
         レストラン情報
     '''
-
-    histories_restaurants = [h.restaurant for h in session.query(History.restaurant).filter(History.group==group_id, History.user==user_id).all()]
+    if histories_restaurants is None:
+        histories_restaurants = [h.restaurant for h in session.query(History.restaurant).filter(History.group==group_id, History.user==user_id).all()]
     return [ri for ri in restaurants_info if not ri['Restaurant_id'] in histories_restaurants]
-
-
-def get_continued_restaurants(fetch_group, group_id, user_id):
-    user_num = session.query(History).distinct(History.restaurant).filter(History.group==group_id, History.user==user_id).count()
-    restaurant_num = session.query(Hisotry).distinct(History.restaurant).filter(History.group==group_id).count()
-    restaurants_info = []
-    return_restaurant_ids = []
-    if user_num < restaurant_num:
-        try:
-            return_restaurant_ids = fetch_group[group_id]["RestaurantsOrder"][user_num:user_num+RESULTS_COUNT]
-        except:
-            return_restaurant_ids = fetch_group[group_id]["RestaurantsOrder"][user_num:]
-    for i, r_id in enumerate(return_restaurant_ids):
-        restaurants_info.append(fetch_group[group_id]['Restaurants'][r_id]['info'])
-    return restaurants_info
-
-
-def get_restaurants_info_price_filter(meanprice, restaurants_info):
-    new_restaurants_info = []
-    for restaurant_info in restaurants_info:
-        if not restaurant_info['LunchPrice'] is None:
-            if int(restaurant_info['LunchPrice']) > meanprice:
-                continue
-
-        if not restaurant_info['DinnerPrice'] is None:
-            if int(restaurant_info['DinnerPrice']) > meanprice:
-                continue
-
-        new_restaurants_info.append(restaurant_info)
-
-    return new_restaurants_info
-
 
 # ============================================================================================================
 # recommend.pyで最初に呼ばれる
@@ -576,35 +649,72 @@ def recommend_main(fetch_group, group_id, user_id):
     recommend_method = fetch_group.recommend_method
     #recomm = RecommendSimple() # レコメンドに使うクラスを指定
     #recomm = RecommendTemplate() # レコメンドに使うクラスを指定
-    recomm = RecommendYahoo() # レコメンドに使うクラスを指定
+    #recomm = RecommendYahoo() # レコメンドに使うクラスを指定
+    recomm = RecommendQueue()
     if recommend_method in ['rating', 'score', 'hyblid', 'review', 'kana', 'price', 'dist', 'geo', '-rating', '-score', '-hyblid', '-review', '-kana', '-price', '-dist', '-geo']:
         recomm = RecommendSimple()
     elif recommend_method == 'template':
         recomm = RecommendTemplate()
     elif recommend_method == 'review_words':
         recomm = RecommendWords()
-    elif recommend_method == 'genre':
-        recomm = RecommendGenre()
-    elif recommend_method == 'local_search_test_URL':
-        return local_search_test_URL(fetch_group, group_id, user_id)
+    elif recommend_method == 'original':
+        recomm = RecommendOriginal()
+    # elif recommend_method == 'local_search_test':
+    #     return local_search_test(fetch_group, group_id, user_id)
+    # elif recommend_method == 'local_search_test_URL':
+    #     return local_search_test_URL(fetch_group, group_id, user_id)
 
+
+    # 重複して表示しないようにするため、履歴を取得
+    histories_restaurants = [h.restaurant for h in session.query(History.restaurant).filter(History.group==group_id, History.user==user_id).all()]
+    
     # 結果が0件なら繰り返す
-    for i in range(10):
+    for i in range(3):
         # 主な処理
             # 検索条件から、
         pre_search_params = recomm.pre_info(fetch_group, group_id, user_id)
+        print("=========================")
+        print("pre_search_params")
+        print(pre_search_params)
+        print("=========================")
             # APIで情報を取得し、
-        pre_restaurants_info = api_functions.search_restaurants_info(fetch_group, group_id, user_id, pre_search_params, STOCK_COUNT)
+        pre_restaurants_info = api_functions.search_restaurants_info(fetch_group, group_id, user_id, pre_search_params, histories_restaurants)
+        print("stock =", len(pre_restaurants_info), ", history =", len(histories_restaurants))
             # ユーザに表示する店を選び、
-        restaurants_ids = recomm.response_info(fetch_group, group_id, user_id, pre_restaurants_info)
+        restaurants_ids = recomm.response_info(fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants)
             # 店舗情報を返す。
         restaurants_info = api_functions.get_restaurants_info(fetch_group, group_id, restaurants_ids)
 
-
-        print(f"RecommendMethod:{recommend_method}")
         print(f"data_num {len(restaurants_info)}")
         if len(restaurants_info) >= 1:
             # 履歴を保存
             save_histories(group_id, user_id, restaurants_info)
             return restaurants_info
+        else:
+            if i > 1:
+                histories_restaurants = [] # 結果が0件のときは履歴をなかったことにしてもう一周
+    
+    # originalでダメならば、simpleで返す　TODO
+    if recommend_method=="original":
+        if len(restaurants_info) == 0:
+            recomm = RecommendSimple()
+            recommend_method = "simple"
+            for i in range(10):
+                    # 検索条件から、
+                pre_search_params = recomm.pre_info(fetch_group, group_id, user_id)
+                        # 重複して表示しないようにするため、履歴を取得
+                histories_restaurants = [h.restaurant for h in session.query(History.restaurant).filter(History.group==group_id, History.user==user_id).all()]
+                    # APIで情報を取得し、
+                pre_restaurants_info = api_functions.search_restaurants_info(fetch_group, group_id, user_id, pre_search_params, histories_restaurants)
+                    # ユーザに表示する店を選び、
+                restaurants_ids = recomm.response_info(fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants)
+                    # 店舗情報を返す。
+                restaurants_info = api_functions.get_restaurants_info(fetch_group, group_id, restaurants_ids)
 
+                print(f"RecommendMethod:{recommend_method}")
+                print(f"data_num {len(restaurants_info)}")
+                if len(restaurants_info) >= 1:
+                    # 履歴を保存
+                    save_histories(group_id, user_id, restaurants_info)
+                    return restaurants_info
+    return []

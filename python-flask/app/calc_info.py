@@ -46,8 +46,8 @@ def save_restaurants_info(restaurants_info):
             new_restaurant.lunch_price = restaurant_info.get('LunchPrice')
             new_restaurant.dinner_price = restaurant_info.get('DinnerPrice')
             new_restaurant.category = restaurant_info.get('Category')
-            new_restaurant.url_yahoo_loco = restaurant_info.get('UrlYahooLoco')
-            new_restaurant.url_yahoo_map = restaurant_info.get('UrlYahooMap')
+            new_restaurant.url_web = restaurant_info.get('UrlWeb')
+            new_restaurant.url_map = restaurant_info.get('UrloMap')
             new_restaurant.review_rating = restaurant_info.get('ReviewRating')
             new_restaurant.business_hour = restaurant_info.get('BusinessHour')
             new_restaurant.open_hour = restaurant_info.get('OpenHour')
@@ -56,6 +56,7 @@ def save_restaurants_info(restaurants_info):
                 new_restaurant.genre_code = '\n'.join([g.get('Code') for g in restaurant_info['Genre']])
                 new_restaurant.genre_name = '\n'.join([g.get('Name') for g in restaurant_info['Genre']])
             new_restaurant.images = '\n'.join(restaurant_info.get('Images'))
+            new_restaurant.image = restaurant_info.get('Image')
             new_restaurant.menu = restaurant_info.get('Menu')
             session.add(new_restaurant)
             session.commit()
@@ -73,14 +74,15 @@ def convert_restaurants_info_from_fetch_restaurants(f_restaurant):
     restaurant_info['LunchPrice'] = f_restaurant.lunch_price
     restaurant_info['DinnerPrice'] = f_restaurant.dinner_price
     restaurant_info['Category'] = f_restaurant.category
-    restaurant_info['UrlYahooLoco'] = f_restaurant.url_yahoo_loco
-    restaurant_info['UrlYahooMap'] = f_restaurant.url_yahoo_map
+    restaurant_info['UrlWeb'] = f_restaurant.url_web
+    restaurant_info['UrlMap'] = f_restaurant.url_map
     restaurant_info['ReviewRating'] = f_restaurant.review_rating
     restaurant_info['BusinessHour'] = f_restaurant.business_hour
     restaurant_info['OpenHour'] = f_restaurant.open_hour
     restaurant_info['CloseHour'] = f_restaurant.close_hour
     restaurant_info['Genre'] = [{'Code':c, 'Name':n} for c,n in zip(f_restaurant.genre_code.split('\n'), f_restaurant.genre_name.split('\n'))]
     restaurant_info['Images'] = f_restaurant.images.split('\n')
+    restaurant_info['Image'] = f_restaurant.image
     restaurant_info['Menu'] = f_restaurant.menu
     return restaurant_info
 
@@ -170,11 +172,11 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
     # 以下はrestaurant_idを格納
     
     try:
-        group_price = fetch_group.group_price #グループの平均価格
-        group_distance = fetch_group.group_distance * 1000 #グループの平均距離 m
+        price_average = fetch_group.price_average #グループの平均価格
+        distance_average = fetch_group.distance_average #グループの平均距離 m
     except:
-        group_price = None
-        group_distance = None
+        price_average = None
+        distance_average = None
     score_list = []
     index_list = []
     for i in range(len(restaurants_info)):
@@ -182,12 +184,12 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
             price = int(restaurants_info[i]["Price"])
             distance = restaurants_info[i]["distance_float"]
             try:
-                price_score = 1 if price <= group_price else group_price / price #グループ価格に対する比でスコア付
+                price_score = 1 if price <= price_average else price_average / price #グループ価格に対する比でスコア付
             except:
                 price_score = 0
 
             try:
-                distance_score = 1 if distance <= group_distance else group_distance / distance #グループ距離に対する比でスコア付
+                distance_score = 1 if distance <= distance_average else distance_average / distance #グループ距離に対する比でスコア付
             except:
                 distance_score = 0
 
@@ -206,16 +208,20 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
             score_list.append(0)
             index_list.append(i)
 
+    if len(score_list) == 0:
+        for i,r in enumerate(restaurants_info):
+            restaurants_info[i]["RecommendScore"] = 100
+
     #normalize score
-    max_score = max(score_list)
-    min_score = min(score_list)
+    max_score = max(score_list) if len(score_list) != 0 else 100
+    min_score = min(score_list) if len(score_list) != 0 else 100
     norm_score_list = []
     M = 100 #設定したい最大値
     m = 50 #設定したい最小値
     for s in score_list:
-        try:
+        if (max_score != min_score):
             norm_score = ((s - min_score)*(M - m) / (max_score - min_score)) + m
-        except:
+        else:
             norm_score = 100 #maxとminが同じ場合は全て100
         norm_score_list.append(norm_score)
     
@@ -223,3 +229,26 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
         restaurants_info[i]["RecommendScore"] = round(n_s)
 
     return restaurants_info
+
+
+# ============================================================================================================
+# api_functions.pyで最初に呼ばれる
+
+
+def create_image(restaurants_info):
+    '''
+    画像を繋げて1枚にする
+    
+    Parameters
+    ----------------
+    restaurants_info : [dict]
+    
+    Returns
+    ----------------
+    image : string
+    '''
+
+    images_url_list = restaurants_info['Images']
+    # TODO
+    image = ''
+    return image
