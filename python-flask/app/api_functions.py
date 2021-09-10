@@ -469,7 +469,7 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, histo
         # APIで店舗情報を取得
         if 'start' not in search_params or 'result' not in search_params:
             start = session.query(Vote.restaurant).filter(Vote.group==group_id).count()
-            result = stock + len(histories_restaurants) - start
+            result = search_params['stock'] + len(histories_restaurants) - start
             search_params.update({'start': start, 'result': result})
             print('B start=',search_params['start'],', result=',search_params['result'])
     
