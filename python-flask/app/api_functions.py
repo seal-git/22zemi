@@ -161,12 +161,13 @@ class ApiFunctionsYahoo(ApiFunctions):
 
         
         # Images : 画像をリストにする
-        # lead_image = [feature['Property']['LeadImage']] if 'LeadImage' in feature['Property'] else ([feature['Property']['Detail']['Image1']] if 'Image1' in feature['Property']['Detail'] else []) # リードイメージがある時はImage1を出力しない。
-        # image_n = [feature['Property']['Detail']['Image'+str(j)] for j in range(2,MAX_LIST_COUNT) if 'Image'+str(j) in feature['Property']['Detail']] # Image1, Image2 ... のキーをリストに。
-        # persistency_image_n = [feature['Property']['Detail']['PersistencyImage'+str(j)] for j in range(MAX_LIST_COUNT) if 'PersistencyImage'+str(j) in feature['Property']['Detail']] # PersistencyImage1, PersistencyImage2 ... のキーをリストに。
-        #restaurant_info['Images'] = list(dict.fromkeys(lead_image + image_n + persistency_image_n))
+        lead_image = [feature['Property']['LeadImage']] if 'LeadImage' in feature['Property'] else ([feature['Property']['Detail']['Image1']] if 'Image1' in feature['Property']['Detail'] else []) # リードイメージがある時はImage1を出力しない。
+        image_n = [feature['Property']['Detail']['Image'+str(j)] for j in range(2,MAX_LIST_COUNT) if 'Image'+str(j) in feature['Property']['Detail']] # Image1, Image2 ... のキーをリストに。
+        persistency_image_n = [feature['Property']['Detail']['PersistencyImage'+str(j)] for j in range(MAX_LIST_COUNT) if 'PersistencyImage'+str(j) in feature['Property']['Detail']] # PersistencyImage1, PersistencyImage2 ... のキーをリストに。
+        restaurant_info['Images'] = list(dict.fromkeys(lead_image + image_n + persistency_image_n))
+
         restaurant_info["Image_references"] = calc_info.get_google_images(feature['Name']) #google apiの画像のreferenceを保存
-        restaurant_info["Images"] = calc_info.create_image(restaurant_info) #1枚の画像のURLを保存
+        restaurant_info["ImageFiles"] = calc_info.create_image(restaurant_info) #1枚の画像のURLを保存
         if len(restaurant_info["Images"]) == 0:
             no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
             restaurant_info["Images"] = [no_image_url, no_image_url]
@@ -353,8 +354,8 @@ class ApiFunctionsGoogle(ApiFunctions):
         # Images : 画像をリストにする
         photo_references = [photo['photo_reference'] for photo in feature['photos']] #photo_referenceを複数取得
         photo_nums = 3 #画像のURL数
-        images = self.get_place_photo_urls(photo_references, photo_nums)
-        restaurant_info['Images'] = images
+        restaurant_info['ImageFiles'] = calc_info.create_image(restaurant_info)
+        restaurant_info['Images'] = self.get_place_photo_urls(photo_references, photo_nums)
         if len(restaurant_info["Images"]) == 0:
             no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
             restaurant_info["Images"] = [no_image_url, no_image_url]
@@ -516,7 +517,7 @@ def get_restaurants_info(fetch_group, group_id, restaurant_ids):
     '''
     api_method = fetch_group.api_method
     if api_method == "yahoo":
-        api_f = ApiFunctionsYahoo() # TODO
+        api_f = ApiFunctionsYahoo()
     elif api_method == "google":
         api_f = ApiFunctionsGoogle() 
 

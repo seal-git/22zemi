@@ -156,13 +156,14 @@ def create_response_from_restaurants_info(restaurants_info):
     # 画像を返す
     for r in restaurants_info:
         images_binary = []
-        for path in r['Images']:
-            with open(IMAGE_DIRECTORY_PATH+path,"r") as f:
-                images_binary.append( f.read() )
+        for path in r['ImageFiles']:
+            if len(path) != 0:
+                with open(IMAGE_DIRECTORY_PATH+path,"r") as f:
+                    images_binary.append( f.read() )
         r['ImagesBinary'] = images_binary
 
     # レスポンスするためにいらないキーを削除する
-    response_keys = ['Restaurant_id', 'Name', 'Address', 'CatchCopy', 'Price', 'Category', 'UrlWeb', 'UrlMap', 'ReviewRating', 'BusinessHour', 'Genre', 'ImagesBinary']
+    response_keys = ['Restaurant_id', 'Name', 'Address', 'CatchCopy', 'Price', 'Category', 'UrlWeb', 'UrlMap', 'ReviewRating', 'BusinessHour', 'Genre', 'Images', 'ImagesBinary']
     response = [{k:v for k,v in r.items() if k in response_keys} for r in restaurants_info] # response_keysに含まれているキーを残す
     return json.dumps(response, ensure_ascii=False)
 

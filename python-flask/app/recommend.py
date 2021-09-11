@@ -825,7 +825,12 @@ def restaurants_info_price_filter(max_price, min_price, restaurants_info):
     ----------------
     restaurnats_info
     '''
-    return [r for r in restaurants_info if min_price <= r['Price'] <= max_price]
+    if min_price is None:
+        min_price = 0
+    if max_price is None:
+        return [r for r in restaurants_info if (r['Price'] is None or min_price <= r['Price'])]
+    else:
+        return [r for r in restaurants_info if (r['Price'] is not None and min_price <= r['Price'] <= max_price)]
 
 def delete_duplicate_restaurants_info(group_id, user_id, restaurants_info, histories_restaurants=None):
     '''
