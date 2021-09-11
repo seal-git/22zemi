@@ -1,5 +1,6 @@
 from geopy.distance import great_circle
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
+import requests
 
 '''
 
@@ -234,6 +235,26 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
 # ============================================================================================================
 # api_functions.pyで最初に呼ばれる
 
+def get_google_images(restaurant_name):
+    url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
+    params = {
+        'key': os.environ["GOOGLE_API_KEY"],
+        'input': restaurant_name,
+        'inputtype': 'textquery',
+    }
+    res = requests.get(url=url, params=params)
+    dic = res.json()
+    place_id = dic['candidates'][0]['place_id']
+
+    url = 'https://maps.googleapis.com/maps/api/place/details/json'
+    params = {
+        'key': os.environ["GOOGLE_API_KEY"],
+        'place_id': place_id,
+    }
+    res = requests.get(url=url, params=params)
+    dic = res.json()
+    photo_references = [photo['photo_reference'] for photo in dic['result']['photos']]
+    return photo_references
 
 def create_image(restaurants_info):
     '''
