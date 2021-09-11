@@ -53,10 +53,10 @@ export default function AppBottomNavigation(props) {
     return(
       <div className={classes.Content}>
         <button className={classes.Button} onClick={() => { moveToSetting() }}>
-          条件の設定
+          &lt; 条件の設定
         </button>
         <button className={classes.Button} onClick={() => { moveToKeepList() }}>
-          結果を見る
+          結果をみる &gt;
         </button>
       </div>
     )
@@ -66,7 +66,7 @@ export default function AppBottomNavigation(props) {
     return(
       <div className={classes.Content}>
         <button className={classes.Button} onClick={() => { moveToSelection() }}>
-          スワイプに戻る
+          &lt; スワイプに戻る
         </button>
       </div>
     )
