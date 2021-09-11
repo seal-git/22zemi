@@ -269,7 +269,7 @@ def create_image(restaurants_info):
     image : string
     '''
 
-    images_url_list = restaurants_info['Images']
+    images_url_list = restaurants_info['Image_references']
     # TODO
-    image = ''
+    image = ['']
     return image
