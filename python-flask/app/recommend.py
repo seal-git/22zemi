@@ -742,10 +742,10 @@ def normalize_pre_search_params(fetch_group, pre_search_params):
         pre_search_params['query'] = fetch_group.genre
     if fetch_group.open_hour is not None:
         pre_search_params['open_day'] = str(fetch_group.open_day.day) + ',' + str(fetch_group.open_hour.hour)
-    if fetch_group.max_price is not None:
-        pre_search_params['maxprice'] = fetch_group.max_price
-    if fetch_group.min_price is not None:
-        pre_search_params['minprice'] = fetch_group.min_price
+    # if fetch_group.max_price is not None:
+    #     pre_search_params['maxprice'] = fetch_group.max_price
+    # if fetch_group.min_price is not None:
+    #     pre_search_params['minprice'] = fetch_group.min_price
     return pre_search_params
 
 def get_search_params_from_fetch_group(fetch_group, search_params={}):
