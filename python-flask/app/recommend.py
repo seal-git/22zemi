@@ -753,8 +753,6 @@ def get_search_params_from_fetch_group(fetch_group, search_params={}):
     ユーザが指定した検索条件からAPIで使用する検索条件に変換
     '''
     api_method = fetch_group.api_method
-    api_method = "google"
-
     if api_method == "yahoo":
         search_params.update({
             'lat': fetch_group.lat, # 緯度

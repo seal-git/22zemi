@@ -110,7 +110,7 @@ class ApiFunctionsYahoo(ApiFunctions):
         Yahoo APIにアクセスして口コミを文字列で返す
         '''
         response = self.get_review(uid)
-        if response['ResultInfo']['Count'] == 0 : return ''
+        if response['ResultInfo']['Count'] == 0 : return '', 0
         review_rating = sum([f['Property']['Comment']['Rating'] for f in response["Feature"]]) / response['ResultInfo']['Count']
         review_rating_int = int(review_rating + 0.5)
         review_rating_star = '★' * review_rating_int + '☆' * (5-review_rating_int)
@@ -455,10 +455,9 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, histo
     restaurants_info : [dict]
         レスポンスするレストラン情報を返す。
     '''
-
-    api_method = "google"
+    api_method = fetch_group.api_method
     if api_method == "yahoo":
-        api_f = ApiFunctionsYahoo() # TODO
+        api_f = ApiFunctionsYahoo()
     elif api_method == "google":
         api_f = ApiFunctionsGoogle() 
     
@@ -517,7 +516,6 @@ def get_restaurants_info(fetch_group, group_id, restaurant_ids):
         レスポンスするレストラン情報を返す。
     '''
     api_method = fetch_group.api_method
-    api_method = "google"
     if api_method == "yahoo":
         api_f = ApiFunctionsYahoo() # TODO
     elif api_method == "google":

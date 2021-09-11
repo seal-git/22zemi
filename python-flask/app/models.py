@@ -250,6 +250,7 @@ def http_info():
     sort = data["sort"] if data.get("sort", False) else None
     recommend_method = data["recommend_method"] if data.get("recommend_method", False) else None
     api_method = data["api_method"] if data.get("api_method", False) else None
+    api_method = "yahoo"
 
 
     group_id = group_id if group_id is not None else get_group_id(user_id)
