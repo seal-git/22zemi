@@ -161,10 +161,12 @@ class ApiFunctionsYahoo(ApiFunctions):
 
         
         # Images : 画像をリストにする
-        lead_image = [feature['Property']['LeadImage']] if 'LeadImage' in feature['Property'] else ([feature['Property']['Detail']['Image1']] if 'Image1' in feature['Property']['Detail'] else []) # リードイメージがある時はImage1を出力しない。
-        image_n = [feature['Property']['Detail']['Image'+str(j)] for j in range(2,MAX_LIST_COUNT) if 'Image'+str(j) in feature['Property']['Detail']] # Image1, Image2 ... のキーをリストに。
-        persistency_image_n = [feature['Property']['Detail']['PersistencyImage'+str(j)] for j in range(MAX_LIST_COUNT) if 'PersistencyImage'+str(j) in feature['Property']['Detail']] # PersistencyImage1, PersistencyImage2 ... のキーをリストに。
-        restaurant_info['Images'] = list(dict.fromkeys(lead_image + image_n + persistency_image_n))
+        # lead_image = [feature['Property']['LeadImage']] if 'LeadImage' in feature['Property'] else ([feature['Property']['Detail']['Image1']] if 'Image1' in feature['Property']['Detail'] else []) # リードイメージがある時はImage1を出力しない。
+        # image_n = [feature['Property']['Detail']['Image'+str(j)] for j in range(2,MAX_LIST_COUNT) if 'Image'+str(j) in feature['Property']['Detail']] # Image1, Image2 ... のキーをリストに。
+        # persistency_image_n = [feature['Property']['Detail']['PersistencyImage'+str(j)] for j in range(MAX_LIST_COUNT) if 'PersistencyImage'+str(j) in feature['Property']['Detail']] # PersistencyImage1, PersistencyImage2 ... のキーをリストに。
+        #restaurant_info['Images'] = list(dict.fromkeys(lead_image + image_n + persistency_image_n))
+        restaurant_info["Image_references"] = calc_info.get_google_images(feature['Name']) #google apiの画像のreferenceを保存
+        restaurant_info["Images"] = calc_info.create_image(restaurant_info) #1枚の画像のURLを保存
         if len(restaurant_info["Images"]) == 0:
             no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
             restaurant_info["Images"] = [no_image_url, no_image_url]
@@ -444,7 +446,7 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, histo
         レスポンスするレストラン情報を返す。
     '''
 
-    api_method = "google"
+    api_method = fetch_group.api_method
     if api_method == "yahoo":
         api_f = ApiFunctionsYahoo() # TODO
     elif api_method == "google":
@@ -457,16 +459,12 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, histo
         # APIで店舗情報を取得
         if 'start' not in search_params or 'result' not in search_params:
             start = session.query(Vote.restaurant).filter(Vote.group==group_id).count()
-            result = stock + len(histories_restaurants) - start
+            result = search_params["stock"] + len(histories_restaurants) - start
             search_params.update({'start': start, 'result': result})
             print('B start=',search_params['start'],', result=',search_params['result'])
     
     # APIで店舗情報を取得
     restaurants_info = api_f.search_restaurants_info(fetch_group, group_id, search_params)
-
-    # 画像を繋げて1枚にする
-    for i,r_info in enumerate(restaurants_info):
-        restaurants_info[i]['Image'] = calc_info.create_image(r_info)
 
     # データベースに店舗情報を保存
     calc_info.save_restaurants_info(restaurants_info)
@@ -505,7 +503,6 @@ def get_restaurants_info(fetch_group, group_id, restaurant_ids):
         レスポンスするレストラン情報を返す。
     '''
     api_method = fetch_group.api_method
-    api_method = "google"
     if api_method == "yahoo":
         api_f = ApiFunctionsYahoo() # TODO
     elif api_method == "google":
@@ -522,11 +519,6 @@ def get_restaurants_info(fetch_group, group_id, restaurant_ids):
         restaurants_info[ restaurant_ids_del_none.index(r_info['Restaurant_id']) ] = r_info
     restaurants_info = [r for r in restaurants_info if r is not None] # feelingリクエストで架空のrestaurants_idだったときには、それを除く
     
-    # 画像を繋げて1枚にする
-    for i,r_info in enumerate(restaurants_info):
-        if 'Image' not in r_info:
-            restaurants_info[i]['Image'] = calc_info.create_image(r_info)
-
     # 投票数と距離を計算
     restaurants_info = calc_info.add_votes_distance(fetch_group, group_id, restaurants_info)
 
