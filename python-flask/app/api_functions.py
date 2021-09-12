@@ -110,11 +110,11 @@ class ApiFunctionsYahoo(ApiFunctions):
         Yahoo APIにアクセスして口コミを文字列で返す
         '''
         response = self.get_review(uid)
-        if response['ResultInfo']['Count'] == 0 : return ''
+        if response['ResultInfo']['Count'] == 0 : return '', 0
         review_rating = sum([f['Property']['Comment']['Rating'] for f in response["Feature"]]) / response['ResultInfo']['Count']
         review_rating_int = int(review_rating + 0.5)
         review_rating_star = '★' * review_rating_int + '☆' * (5-review_rating_int)
-        return review_rating_star + '    ' + ('%.1f' % review_rating)
+        return review_rating_star + '    ' + ('%.1f' % review_rating), review_rating
 
 
     def get_restaurant_info(self, fetch_group, group_id, lunch_or_dinner, feature):
@@ -154,7 +154,7 @@ class ApiFunctionsYahoo(ApiFunctions):
         restaurant_info['Category'] = feature['Property']['Genre'][0]['Name']
         restaurant_info['UrlWeb'] = "https://loco.yahoo.co.jp/place/" + restaurant_id
         restaurant_info['UrlMap'] = "https://map.yahoo.co.jp/route/walk?from=" + str(fetch_group.address) + "&to=" + restaurant_info['Address']
-        restaurant_info['ReviewRating'] = self.get_review_rating(restaurant_id)
+        restaurant_info['ReviewRating'], restaurant_info['ReviewRatingFloat'] = self.get_review_rating(restaurant_id)
         restaurant_info['BusinessHour'] = (feature['Property']['Detail'].get('BusinessHour')).replace('<br>', '\n').replace('<br />', '')
         restaurant_info['Genre'] = feature['Property']['Genre']
         restaurant_info['Lon'], restaurant_info['Lat'] = tuple([float(x) for x in feature['Geometry']['Coordinates'].split(',')])
@@ -240,6 +240,17 @@ class ApiFunctionsYahoo(ApiFunctions):
         return restaurants_info
 
 class ApiFunctionsGoogle(ApiFunctions):
+
+
+    def get_review_rating_string(self, review_rating):
+        '''
+        口コミを文字列で返す
+        '''
+        review_rating = float(review_rating)
+        review_rating_int = int(review_rating + 0.5)
+        review_rating_star = '★' * review_rating_int + '☆' * (5-review_rating_int)
+        return review_rating_star + '    ' + ('%.1f' % review_rating)
+
         
     def get_place_details(self, fetch_group, group_id, restaurant_ids):
         
@@ -332,7 +343,8 @@ class ApiFunctionsGoogle(ApiFunctions):
         restaurant_info['Category'] = feature['types'][0]
         restaurant_info['UrlWeb'] = feature['website'] if 'website' in feature.keys() else ""
         restaurant_info['UrlMap'] = feature['url'] if 'url' in feature.keys() else ""
-        restaurant_info['ReviewRating'] = feature['rating'] if 'rating' in feature.keys() else ""
+        restaurant_info['ReviewRating'] = self.get_review_rating_string(feature['rating']) if 'rating' in feature.keys() else ""
+        restaurant_info['ReviewRatingFloat'] = float(feature['rating'])
         restaurant_info['BusinessHour'] = feature['opening_hours']['weekday_text'] if ('opening_hours' in feature.keys()) and ('weekday_text' in feature['opening_hours'].keys()) else "unknown"
         restaurant_info['Genre'] = [{'Code': '0', 'Name': 'UnKnown'}]
         #[{'Code': '0110005', 'Name': 'ビアホール'}]この形式にしたい
@@ -445,10 +457,10 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, histo
     restaurants_info : [dict]
         レスポンスするレストラン情報を返す。
     '''
-
+    
     api_method = fetch_group.api_method
     if api_method == "yahoo":
-        api_f = ApiFunctionsYahoo() # TODO
+        api_f = ApiFunctionsYahoo()
     elif api_method == "google":
         api_f = ApiFunctionsGoogle() 
     
@@ -459,7 +471,7 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, histo
         # APIで店舗情報を取得
         if 'start' not in search_params or 'result' not in search_params:
             start = session.query(Vote.restaurant).filter(Vote.group==group_id).count()
-            result = search_params["stock"] + len(histories_restaurants) - start
+            result = search_params['stock'] + len(histories_restaurants) - start
             search_params.update({'start': start, 'result': result})
             print('B start=',search_params['start'],', result=',search_params['result'])
     
