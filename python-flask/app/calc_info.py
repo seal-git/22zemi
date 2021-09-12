@@ -265,8 +265,13 @@ def get_google_images(restaurant_name):
 
 def create_image(restaurant_info, debug=True):
     '''
-    画像を繋げて1枚にする
-    
+    画像をGoogleAPIから読み込んで、つなぎ合わせる。
+    縦2列に並んだ画像が800x1200の1枚の画像になる。
+    生成された画像はbase64でエンコードされる。
+    画像ファイル名は、「restaurantID_」+通し番号で、data/imageに保存される。
+    確認用に実際のjpg画像を保存することもできる。コメントアウトして使用。
+    デバッグ中は余計なAPIを呼ばないようにtest/dataの画像を呼び出す。環境変数のUSE_APIをTrueすると実際のAPIを呼び出せる。
+
     Parameters
     ----------------
     restaurant_info : [dict]
@@ -274,14 +279,14 @@ def create_image(restaurant_info, debug=True):
     
     Returns
     ----------------
-    image_url : string base64でエンコードしたバイナリファイルのファイル名
+    image_files : [string] base64でエンコードしたバイナリファイルのファイル名のリスト
     '''
     from PIL import Image
     import os
     import requests
     from io import BytesIO
     import base64
-    debug = os.environ["GET_IMAGE_FROM_API"]
+    debug = os.environ["USE_API"]
     print(debug)
     image_references = restaurant_info['Image_references']
     url = 'https://maps.googleapis.com/maps/api/place/photo'

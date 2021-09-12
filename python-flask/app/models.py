@@ -330,9 +330,11 @@ def http_info():
     if cache_file is None:
         response = thread_info(group_id, user_id, fetch_belong=fetch_belong, fetch_group=fetch_group)
     else:
+        # キャッシュを読み込んで、読んだら削除する
         with open(f"data/tmp/{cache_file}") as f:
             response = f.read()
         os.remove(f"data/tmp/{cache_file}")
+
     # 高速化：次回のアクセスで返す情報を生成しておく
     fetch_belong.next_response = None
     session.commit()
