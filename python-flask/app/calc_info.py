@@ -263,7 +263,7 @@ def get_google_images(restaurant_name):
         photo_references = []
     return photo_references
 
-def create_image(restaurant_info, debug=False):
+def create_image(restaurant_info, debug=True):
     '''
     画像を繋げて1枚にする
     
@@ -280,7 +280,9 @@ def create_image(restaurant_info, debug=False):
     import os
     import requests
     from io import BytesIO
-
+    import base64
+    debug = os.environ["GET_IMAGE_FROM_API"]
+    print(debug)
     image_references = restaurant_info['Image_references']
     url = 'https://maps.googleapis.com/maps/api/place/photo'
     image_width = 400 #画像1枚の最大幅
@@ -331,14 +333,14 @@ def create_image(restaurant_info, debug=False):
         for i in rows[idx*2]:
             row1_image.paste(images[i], (0,_height))
             _height += images[i].height + 10
-        row1_image = row1_image.crop((0,0,400,_height-10))
+        row1_image = row1_image.crop((0,0,400,max(1,_height-10)))
         # 2行目の生成
         row2_image = Image.new("RGB", (400,1200))
         _height = 0
         for i in rows[idx*2+1]:
             row2_image.paste(images[i], (0,_height))
             _height += images[i].height + 10
-        row2_image = row2_image.crop((0,0,400,_height-10))
+        row2_image = row2_image.crop((0,0,400,max(1,_height-10)))
         # 2行目をリサイズして1行目の高さに合わせる
         row2_image = row2_image.resize(
             (int(row2_image.width*row1_image.height/row2_image.height),
@@ -354,16 +356,23 @@ def create_image(restaurant_info, debug=False):
         row12_image.paste(row2_image, (row1_image.width+10, 0))
         row12_image = row12_image.resize(
             (800,
-            int(row12_image.height*800/row12_image.width))
+            max(1,int(row12_image.height*800/row12_image.width)))
         )
         # new_imageにつなぎ合わせる
         new_image = Image.new("RGB", (800, 1200))
         new_image.paste(row12_image, (0, 0))
-        filename = restaurant_info['Restaurant_id']+"_"+str(idx)+".jpg"
-        if debug:
-            new_image.save(f"./test/data/{filename}")
-        else:
-            new_image.save(f"./data/images/{filename}")
+
+        # データの保存
+        filename = restaurant_info['Restaurant_id']+"_"+str(idx)
+        buffer = BytesIO()
+        new_image.save(buffer, format="jpeg")
+        new_image_str = base64.b64encode(buffer.getvalue()).decode("ascii")
+        with open(f"./data/image/{filename}", "w") as f:
+            f.write(new_image_str)
+        # if debug:
+        #     new_image.save(f"./test/data/{filename}.jpg")
+        # else:
+        #     new_image.save(f"./data/tmp/{filename}.jpg")
         image_files.append(filename)
 
     return image_files

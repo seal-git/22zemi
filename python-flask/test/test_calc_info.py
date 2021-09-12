@@ -9,4 +9,4 @@ def test_create_image():
         "Image_references": image_references,
     }
     image_files = create_image(restaurants_info, debug=True)
-    assert image_files[0]=="test_0.jpg"
+    assert image_files[0]=="test_0"
