@@ -116,6 +116,10 @@ function RestaurantInformation(props) {
         )
     }
 
+    const isNotEmpty = (str) =>{
+        return str!==undefined && str!==null && str!==""
+    }
+
     // お店情報の描画
     const renderCardContent = (data) =>{
         return (
@@ -125,16 +129,16 @@ function RestaurantInformation(props) {
                 </Typography>
                 {space}
                 <Typography >
-                    {!isNaN(data.ReviewRating)
-                    ?<StyledChipRating label={'☆'+data.ReviewRating} /> 
-                    :<StyledChipRating label={data.ReviewRating} />}
+                    {isNotEmpty(data.ReviewRating)
+                    ?<StyledChipRating label={data.ReviewRating} />
+                    :null}
                 </Typography>
                 {space}
                 <Typography className={classes.tagsContainer}>
-                    {data.Category.length>0? <StyledChipTag label={data.Category} />: null }
-                    {data.Price.length>0?<StyledChipTag label={'~\xA5'+data.Price} />:null}
-                    {data.BusinessHour.length>0?<StyledChipTag label={data.BusinessHour.substring(0,20)} />:null}
-                    {data.Distance.length>0?<StyledChipTag label={data.Distance} />:null}
+                    {isNotEmpty(data.Category)? <StyledChipTag label={data.Category} />: null }
+                    {isNotEmpty(data.Price)?<StyledChipTag label={'~\xA5'+data.Price} />:null}
+                    {isNotEmpty(data.BusinessHour)?<StyledChipTag label={data.BusinessHour} />:null}
+                    {isNotEmpty(data.Distance)?<StyledChipTag label={data.Distance} />:null}
                 </Typography>
             </div>
         )

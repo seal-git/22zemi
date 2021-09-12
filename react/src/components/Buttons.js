@@ -1,9 +1,6 @@
 import React from 'react'
 import { Grid } from "@material-ui/core"
-import ClearIcon from '@material-ui/icons/Clear'
-import FavoriteIcon from '@material-ui/icons/Favorite'
 import { makeStyles } from '@material-ui/core'
-
 
 /* 
 ボタンをGridでまとめたもの
@@ -22,6 +19,7 @@ const useStyles = makeStyles({
     backgroundColor: '#ff7474',
     borderRadius: '50%',
     position: 'relative',
+    cursor: 'pointer',
     '&:before':{
       content: '""',
       backgroundColor: 'white',
@@ -53,6 +51,7 @@ const useStyles = makeStyles({
     borderRadius: '50%',
     position: 'relative',
     boxSizing: 'border-box',
+    cursor: 'pointer',
     '&:after':{
       content: '""',
       width: '30px',

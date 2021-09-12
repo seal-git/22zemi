@@ -51,7 +51,7 @@ var wrapperStyle = {
  */
 function Selection(props) {
   const [dataLists, setDataLists] = useState({
-    "topDataList":sampleDataList,
+    "topDataList":initDataList,
     "standbyDataList":null,
   })
   let hiddenDataList = null
