@@ -4,7 +4,6 @@ import "./Selection.css"
 import axios from "axios"
 import { useEffect, useState } from "react"
 // 他のファイルからインポート
-import ButtonToChangeMode from "./ButtonToChangeMode"
 import ButtonToInvite from "./ButtonToInvite"
 import RestaurantInformation from './RestaurantInformation'
 import RestaurantInformationDeck from './RestaurantInformationDeck'
@@ -245,20 +244,19 @@ function Selection(props) {
 
   return (
     <div className="Selection-wrapper">
-      {/* { renderButtonToChangeMode() } */}
       <div className="Selection-header">
         <div className={"Selection-header-content"}
           style={display_style}>
-          {/* { renderButtonToInvite() } */}
-          <div className="group-id">
+          {/* <div className="group-id">
             ルームID:{props.groupId}
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="Selection" id={"selection"}>
         { renderStandbyRestaurantInformation() }
           {/* <RestaurantInformation data={dataList[idx]} wrapperStyle={wrapperStyle} /> */}
         { renderRestaurantInformationDeck() }
+        { renderButtonToInvite() }
       </div>
     </div>
   )
