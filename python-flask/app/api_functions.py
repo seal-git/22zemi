@@ -110,11 +110,11 @@ class ApiFunctionsYahoo(ApiFunctions):
         Yahoo APIにアクセスして口コミを文字列で返す
         '''
         response = self.get_review(uid)
-        if response['ResultInfo']['Count'] == 0 : return ''
+        if response['ResultInfo']['Count'] == 0 : return '', 0
         review_rating = sum([f['Property']['Comment']['Rating'] for f in response["Feature"]]) / response['ResultInfo']['Count']
         review_rating_int = int(review_rating + 0.5)
         review_rating_star = '★' * review_rating_int + '☆' * (5-review_rating_int)
-        return review_rating_star + '    ' + ('%.1f' % review_rating)
+        return review_rating_star + '    ' + ('%.1f' % review_rating), review_rating
 
 
     def get_restaurant_info(self, fetch_group, group_id, lunch_or_dinner, feature):
@@ -154,7 +154,7 @@ class ApiFunctionsYahoo(ApiFunctions):
         restaurant_info['Category'] = feature['Property']['Genre'][0]['Name']
         restaurant_info['UrlWeb'] = "https://loco.yahoo.co.jp/place/" + restaurant_id
         restaurant_info['UrlMap'] = "https://map.yahoo.co.jp/route/walk?from=" + str(fetch_group.address) + "&to=" + restaurant_info['Address']
-        restaurant_info['ReviewRating'] = self.get_review_rating(restaurant_id)
+        restaurant_info['ReviewRating'], restaurant_info['ReviewRatingFloat'] = self.get_review_rating(restaurant_id)
         restaurant_info['BusinessHour'] = (feature['Property']['Detail'].get('BusinessHour')).replace('<br>', '\n').replace('<br />', '')
         restaurant_info['Genre'] = feature['Property']['Genre']
         restaurant_info['Lon'], restaurant_info['Lat'] = tuple([float(x) for x in feature['Geometry']['Coordinates'].split(',')])
@@ -165,6 +165,9 @@ class ApiFunctionsYahoo(ApiFunctions):
         image_n = [feature['Property']['Detail']['Image'+str(j)] for j in range(2,MAX_LIST_COUNT) if 'Image'+str(j) in feature['Property']['Detail']] # Image1, Image2 ... のキーをリストに。
         persistency_image_n = [feature['Property']['Detail']['PersistencyImage'+str(j)] for j in range(MAX_LIST_COUNT) if 'PersistencyImage'+str(j) in feature['Property']['Detail']] # PersistencyImage1, PersistencyImage2 ... のキーをリストに。
         restaurant_info['Images'] = list(dict.fromkeys(lead_image + image_n + persistency_image_n))
+
+        restaurant_info["Image_references"] = calc_info.get_google_images(feature['Name']) #google apiの画像のreferenceを保存
+        restaurant_info["ImageFiles"] = calc_info.create_image(restaurant_info) #1枚の画像のURLを保存
         if len(restaurant_info["Images"]) == 0:
             no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
             restaurant_info["Images"] = [no_image_url, no_image_url]
@@ -238,7 +241,18 @@ class ApiFunctionsYahoo(ApiFunctions):
         return restaurants_info
 
 class ApiFunctionsGoogle(ApiFunctions):
-        
+
+
+    def get_review_rating_string(self, review_rating):
+        '''
+        口コミを文字列で返す
+        '''
+        review_rating = float(review_rating)
+        review_rating_int = int(review_rating + 0.5)
+        review_rating_star = '★' * review_rating_int + '☆' * (5-review_rating_int)
+        return review_rating_star + '    ' + ('%.1f' % review_rating)
+
+
     def get_place_details(self, fetch_group, group_id, restaurant_ids):
         
         url = 'https://maps.googleapis.com/maps/api/place/details/json'
@@ -330,7 +344,8 @@ class ApiFunctionsGoogle(ApiFunctions):
         restaurant_info['Category'] = feature['types'][0]
         restaurant_info['UrlWeb'] = feature['website'] if 'website' in feature.keys() else ""
         restaurant_info['UrlMap'] = feature['url'] if 'url' in feature.keys() else ""
-        restaurant_info['ReviewRating'] = feature['rating'] if 'rating' in feature.keys() else ""
+        restaurant_info['ReviewRating'] = self.get_review_rating_string(feature['rating']) if 'rating' in feature.keys() else ""
+        restaurant_info['ReviewRatingFloat'] = float(feature['rating'])
         restaurant_info['BusinessHour'] = feature['opening_hours']['weekday_text'] if ('opening_hours' in feature.keys()) and ('weekday_text' in feature['opening_hours'].keys()) else "unknown"
         restaurant_info['Genre'] = [{'Code': '0', 'Name': 'UnKnown'}]
         #[{'Code': '0110005', 'Name': 'ビアホール'}]この形式にしたい
@@ -339,8 +354,8 @@ class ApiFunctionsGoogle(ApiFunctions):
         # Images : 画像をリストにする
         photo_references = [photo['photo_reference'] for photo in feature['photos']] #photo_referenceを複数取得
         photo_nums = 3 #画像のURL数
-        images = self.get_place_photo_urls(photo_references, photo_nums)
-        restaurant_info['Images'] = images
+        restaurant_info['ImageFiles'] = calc_info.create_image(restaurant_info)
+        restaurant_info['Images'] = self.get_place_photo_urls(photo_references, photo_nums)
         if len(restaurant_info["Images"]) == 0:
             no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
             restaurant_info["Images"] = [no_image_url, no_image_url]
@@ -444,9 +459,9 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, histo
         レスポンスするレストラン情報を返す。
     '''
 
-    api_method = "google"
+    api_method = fetch_group.api_method
     if api_method == "yahoo":
-        api_f = ApiFunctionsYahoo() # TODO
+        api_f = ApiFunctionsYahoo()
     elif api_method == "google":
         api_f = ApiFunctionsGoogle() 
     
@@ -457,16 +472,12 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, histo
         # APIで店舗情報を取得
         if 'start' not in search_params or 'result' not in search_params:
             start = session.query(Vote.restaurant).filter(Vote.group==group_id).count()
-            result = stock + len(histories_restaurants) - start
+            result = search_params['stock'] + len(histories_restaurants) - start
             search_params.update({'start': start, 'result': result})
             print('B start=',search_params['start'],', result=',search_params['result'])
     
     # APIで店舗情報を取得
     restaurants_info = api_f.search_restaurants_info(fetch_group, group_id, search_params)
-
-    # 画像を繋げて1枚にする
-    for i,r_info in enumerate(restaurants_info):
-        restaurants_info[i]['Image'] = calc_info.create_image(r_info)
 
     # データベースに店舗情報を保存
     calc_info.save_restaurants_info(restaurants_info)
@@ -505,9 +516,8 @@ def get_restaurants_info(fetch_group, group_id, restaurant_ids):
         レスポンスするレストラン情報を返す。
     '''
     api_method = fetch_group.api_method
-    api_method = "google"
     if api_method == "yahoo":
-        api_f = ApiFunctionsYahoo() # TODO
+        api_f = ApiFunctionsYahoo()
     elif api_method == "google":
         api_f = ApiFunctionsGoogle() 
 
@@ -521,11 +531,6 @@ def get_restaurants_info(fetch_group, group_id, restaurant_ids):
     for r_info in rs_info:
         restaurants_info[ restaurant_ids_del_none.index(r_info['Restaurant_id']) ] = r_info
     restaurants_info = [r for r in restaurants_info if r is not None] # feelingリクエストで架空のrestaurants_idだったときには、それを除く
-    
-    # 画像を繋げて1枚にする
-    for i,r_info in enumerate(restaurants_info):
-        if 'Image' not in r_info:
-            restaurants_info[i]['Image'] = calc_info.create_image(r_info)
 
     # 投票数と距離を計算
     restaurants_info = calc_info.add_votes_distance(fetch_group, group_id, restaurants_info)
