@@ -4,4 +4,6 @@ mysql/db
 .env
 .idea
 .DS_store
-tmp/
+data/tmp/*
+data/image/*
+data/thumbnail/*
