@@ -1,13 +1,21 @@
 import React from 'react'
 // パッケージからインポート
+import { makeStyles } from '@material-ui/core'
 import { useEffect } from 'react'
 import { useSprings, animated, to as interpolate } from '@react-spring/web'
 import { useDrag } from 'react-use-gesture'
 // 他ファイルからインポート
 import RestaurantInformation from './RestaurantInformation'
 
+const useStyles = makeStyles((theme) => ({
+  RestaurantInformationDeck: {
+    position:'relative',
+  }
+}))
+
 // お店ごとに swipe カードを生成して積むコンポーネント
 export default function RestaurantInformationDeck (props) {
+    const classes = useStyles()
     // 開始地点のプロパティを与えるための関数
     const initFrom = i => {
         return {
@@ -158,16 +166,20 @@ export default function RestaurantInformationDeck (props) {
       springProps.reverse().map(({x,y,scale},i) => {
         const index = maxIndex - i
         return (
-          <animated.div key={'card'+props.topDataList[index].Restaurant_id} style={{x,y}}>
+          <div className={classes.RestaurantInformationDeck}>
             <animated.div 
-              {...bind(index) }
-              style = { {
-                transform: interpolate([scale],trans),
-              }}
-            >
-              {renderRestaurantInformation(index)}
+              key={'card'+props.topDataList[index].Restaurant_id} 
+              style={{x,y}}>
+              <animated.div 
+                {...bind(index) }
+                style = { {
+                  transform: interpolate([scale],trans),
+                }}
+              >
+                {renderRestaurantInformation(index)}
+              </animated.div>
             </animated.div>
-          </animated.div>
+          </div>
         )
       })
     )
