@@ -4,3 +4,4 @@ mysql/db
 .env
 .idea
 .DS_store
+tmp/
