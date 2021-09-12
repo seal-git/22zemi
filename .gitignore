@@ -4,6 +4,6 @@ mysql/db
 .env
 .idea
 .DS_store
-data/tmp/*
-data/image/*
-data/thumbnail/*
+python-flask/data/tmp/*
+python-flask/data/image/*
+python-flask/data/thumbnail/*
