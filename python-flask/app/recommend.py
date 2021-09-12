@@ -120,6 +120,7 @@ class RecommendTemplate(Recommend):
     def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
         # 一度ユーザに送信したレストランはリストから除く
         pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
+        pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
 
         # TODO: 重みを計算
         weight = [0] * len(pre_restaurants_info)
@@ -150,6 +151,7 @@ class RecommendSimple(Recommend):
     def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
         # 一度ユーザに送信したレストランはリストから除く
         restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
+        pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
 
         # if fetch_group.max_price is not None: restaurants_info = get_restaurants_info_price_filter(fetch_group.max_price, restaurants_info)
         restaurants_info = restaurants_info[:RESULTS_COUNT] # 指定した数だのお店だけを選択
@@ -197,6 +199,7 @@ class RecommendOriginal(Recommend):
     def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
         # 一度ユーザに送信したレストランはリストから除く
         pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
+        pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
 
         voted= [[v.restaurant, v.votes_like, v.votes_all] for v in session.query(Vote).filter(Vote.group==group_id, Vote.votes_all>0).all()]
         if len(voted) == 0:
@@ -331,6 +334,7 @@ class RecommendWords(Recommend):
     def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
         # 一度ユーザに送信したレストランはリストから除く
         pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
+        pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
 
         restaurants_info = sorted(pre_restaurants_info, key=lambda x:x['ReviewRating'], reverse=True)
         stop_index = [i for i, x in enumerate(restaurants_info) if x['ReviewRating'] < 3][0]
@@ -461,6 +465,8 @@ class RecommendQueue(Recommend):
  
 
     def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+
+        pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
 
         fetch_votes = session.query(Vote.votes_all).filter(Vote.group==group_id, Vote.votes_all>0).all()
         if sum([v.votes_all for v in fetch_votes]) < 3:
@@ -666,6 +672,8 @@ class RecommendSVM(Recommend):
 
     def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
 
+        pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
+
         fetch_votes = session.query(Vote.votes_all).filter(Vote.group==group_id, Vote.votes_all>0).all()
         if sum([v.votes_all for v in fetch_votes]) < 3:
             pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
@@ -734,10 +742,10 @@ def normalize_pre_search_params(fetch_group, pre_search_params):
         pre_search_params['query'] = fetch_group.genre
     if fetch_group.open_hour is not None:
         pre_search_params['open_day'] = str(fetch_group.open_day.day) + ',' + str(fetch_group.open_hour.hour)
-    if fetch_group.max_price is not None:
-        pre_search_params['maxprice'] = fetch_group.max_price
-    if fetch_group.min_price is not None:
-        pre_search_params['minprice'] = fetch_group.min_price
+    # if fetch_group.max_price is not None:
+    #     pre_search_params['maxprice'] = fetch_group.max_price
+    # if fetch_group.min_price is not None:
+    #     pre_search_params['minprice'] = fetch_group.min_price
     return pre_search_params
 
 def get_search_params_from_fetch_group(fetch_group, search_params={}):
@@ -803,6 +811,26 @@ def save_histories(group_id, user_id, restaurants_info):
                 fetch_vote.votes_like = 0
                 session.commit()
 
+
+def restaurants_info_price_filter(max_price, min_price, restaurants_info):
+    '''
+    検索条件に合わない店を排除する
+
+    Parameters
+    ----------------
+    fetch_group
+    restaurants_info
+
+    Returns
+    ----------------
+    restaurnats_info
+    '''
+    if min_price is None:
+        min_price = 0
+    if max_price is None:
+        return [r for r in restaurants_info if (r['Price'] is None or min_price <= r['Price'])]
+    else:
+        return [r for r in restaurants_info if (r['Price'] is not None and min_price <= r['Price'] <= max_price)]
 
 def delete_duplicate_restaurants_info(group_id, user_id, restaurants_info, histories_restaurants=None):
     '''

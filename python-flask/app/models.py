@@ -146,6 +146,27 @@ def get_lat_lon_address(query):
     return lat, lon, address
 
 
+def create_response_from_restaurants_info(restaurants_info):
+    '''
+    レスポンスを生成する仕上げ
+    '''
+
+    IMAGE_DIRECTORY_PATH = './data/image/'
+
+    # 画像を返す
+    for r in restaurants_info:
+        images_binary = []
+        for path in r['ImageFiles']:
+            if len(path) != 0:
+                with open(IMAGE_DIRECTORY_PATH+path,"r") as f:
+                    images_binary.append( f.read() )
+        r['ImagesBinary'] = images_binary
+
+    # レスポンスするためにいらないキーを削除する
+    response_keys = ['Restaurant_id', 'Name', 'Address', 'CatchCopy', 'Price', 'Category', 'UrlWeb', 'UrlMap', 'ReviewRating', 'BusinessHour', 'Genre', 'Images', 'ImagesBinary']
+    response = [{k:v for k,v in r.items() if k in response_keys} for r in restaurants_info] # response_keysに含まれているキーを残す
+    return json.dumps(response, ensure_ascii=False)
+
 
 # ============================================================================================================
 
@@ -332,7 +353,7 @@ def thread_info(group_id, user_id, fetch_belong=None, fetch_group=None):
         restaurants_info = []
         fetch_belong.next_response = None
 
-    response = json.dumps(restaurants_info, ensure_ascii=False)
+    response = create_response_from_restaurants_info(restaurants_info)
     fetch_belong.next_response = str(response)
     fetch_belong.request_count += 1
     fetch_belong.request_restaurants_num += len(restaurants_info)
@@ -435,7 +456,7 @@ def http_list():
     restaurants_info.sort(key=lambda x:x['RecommendScore'], reverse=True) # 得票数が同じなら、オススメ度順
     restaurants_info.sort(key=lambda x:x['VotesLike'], reverse=True) # 得票数が多い順
 
-    return json.dumps(restaurants_info, ensure_ascii=False)
+    return create_response_from_restaurants_info(restaurants_info)
 
 
 @app_.route('/history', methods=['GET','POST'])
@@ -457,7 +478,7 @@ def http_history():
     # 履歴を取得する
     fetch_histories = session.query(History.restaurant).filter(History.group==group_id, History.user==user_id).order_by(updated_at).all()
     restaurants_info = api_functions.get_restaurants_info(group_id, [h.restaurant for h in fetch_histories])
-    return json.dumps(restaurants_info, ensure_ascii=False)
+    return create_response_from_restaurants_info(restaurants_info)
 
 
 @app_.route('/decision', methods=['GET','POST'])
