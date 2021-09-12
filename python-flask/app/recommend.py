@@ -7,6 +7,9 @@ from sqlalchemy import distinct
 from abc import ABCMeta, abstractmethod
 import math
 import sys
+import numpy as np
+import sklearn
+from sklearn.svm import SVR
 # import threading
 
 
@@ -117,6 +120,7 @@ class RecommendTemplate(Recommend):
     def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
         # 一度ユーザに送信したレストランはリストから除く
         pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
+        pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
 
         # TODO: 重みを計算
         weight = [0] * len(pre_restaurants_info)
@@ -147,6 +151,7 @@ class RecommendSimple(Recommend):
     def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
         # 一度ユーザに送信したレストランはリストから除く
         restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
+        pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
 
         # if fetch_group.max_price is not None: restaurants_info = get_restaurants_info_price_filter(fetch_group.max_price, restaurants_info)
         restaurants_info = restaurants_info[:RESULTS_COUNT] # 指定した数だのお店だけを選択
@@ -194,6 +199,7 @@ class RecommendOriginal(Recommend):
     def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
         # 一度ユーザに送信したレストランはリストから除く
         pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
+        pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
 
         voted= [[v.restaurant, v.votes_like, v.votes_all] for v in session.query(Vote).filter(Vote.group==group_id, Vote.votes_all>0).all()]
         if len(voted) == 0:
@@ -328,6 +334,7 @@ class RecommendWords(Recommend):
     def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
         # 一度ユーザに送信したレストランはリストから除く
         pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
+        pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
 
         restaurants_info = sorted(pre_restaurants_info, key=lambda x:x['ReviewRating'], reverse=True)
         stop_index = [i for i, x in enumerate(restaurants_info) if x['ReviewRating'] < 3][0]
@@ -346,7 +353,7 @@ class RecommendQueue(Recommend):
         '''
         Vote.recommend_priorityを計算する。
         '''
-        # 価格と距離の平均と標準偏差を求める
+        # 価格と距離の平均と標準偏差を求める --------
         like_price_count = 0
         like_price_sum = 0
         like_price2_sum = 0
@@ -413,7 +420,7 @@ class RecommendQueue(Recommend):
         fetch_group.distance_average = like_distance_average
         session.commit()
 
-        # recommend_priorityを計算する。
+        # recommend_priorityを計算する。 --------
         weight_votes_like = 2.5
         weight_price = 0.4
         weight_distance = 0.3
@@ -423,7 +430,7 @@ class RecommendQueue(Recommend):
             fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==ri['Restaurant_id']).one()
             
             # votes_like_score
-            votes_like_score = fetch_vote.votes_like - alln * (fetch_vote.votes_all - fetch_vote.votes_like) # 1人でも反対した店は後回し
+            votes_like_score = alln * (fetch_vote.votes_all - fetch_vote.votes_like) - fetch_vote.votes_like # 1人でも反対した店は後回し
             
             # price_score
             price = ri['Price']
@@ -458,6 +465,214 @@ class RecommendQueue(Recommend):
  
 
     def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+
+        pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
+
+        fetch_votes = session.query(Vote.votes_all).filter(Vote.group==group_id, Vote.votes_all>0).all()
+        if sum([v.votes_all for v in fetch_votes]) < 3:
+            pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
+            return [r['Restaurant_id'] for r in pre_restaurants_info][0:RESULTS_COUNT]
+        
+        # Vote.recommend_priorityを計算する。
+        self.__calc_recommend_priority(fetch_group, group_id, pre_restaurants_info)
+        # t = threading.Thread(target=self.__calc_recommend_priority, args=(fetch_group, group_id, pre_restaurants_info))
+        # t.start()
+
+        # recommend_priorityの小さい順にユーザに送信する。
+        fetch_votes = session.query(Vote).filter(Vote.group==group_id, Vote.recommend_priority is not None).order_by(Vote.recommend_priority).all()
+        restaurants_ids = []
+        for fv in fetch_votes:
+            if fv.restaurant not in histories_restaurants:
+                restaurants_ids.append(fv.restaurant)
+                if len(restaurants_ids) == RESULTS_COUNT:
+                    return restaurants_ids
+        return restaurants_ids
+
+
+class RecommendSVM(Recommend):
+    '''
+    RecommendQueueの重みをSVMで決める
+
+    1. 投票された結果はLIKE数の多い順に表示
+    2. 未投票の結果は価格・距離・ジャンルからSVMで評価値を推定して表示
+    '''
+
+
+    def __calc_recommend_priority(self, fetch_group, group_id, pre_restaurants_info):
+        '''
+        Vote.recommend_priorityを計算する。
+        投票数が0だと死ぬ
+        '''
+        # 価格と距離の平均と標準偏差を求める --------
+        like_price_count = 0
+        like_price_sum = 0
+        like_price2_sum = 0
+        like_distance_count = 0
+        like_distance_sum = 0
+        like_distance2_sum = 0
+        genre_list = []
+        like_genre_count = []
+
+        dislike_price_count = 0
+        dislike_price_sum = 0
+        dislike_price2_sum = 0
+        dislike_distance_count = 0
+        dislike_distance_sum = 0
+        dislike_distance2_sum = 0
+        dislike_genre_count = []
+
+        voted_restaurants_count = 0
+
+        for r in pre_restaurants_info:
+            if r["VotesAll"] <= 0:
+                continue
+            voted_restaurants_count += 1
+            vote_like = r["VotesLike"]
+            vote_dislike = r["VotesAll"] - vote_like
+            
+
+            #price処理
+            price = r["Price"]
+            if price is not None and price != 0:
+                like_price_sum += vote_like * price
+                like_price2_sum += vote_like * price*price
+                like_price_count += vote_like
+                dislike_price_sum += vote_dislike * price
+                dislike_price2_sum += vote_dislike * price*price
+                dislike_price_count += vote_dislike
+
+            #distance処理
+            distance = r["distance_float"]
+            like_distance_sum += vote_like * distance
+            like_distance2_sum += vote_like * distance*distance
+            like_distance_count += vote_like
+            dislike_distance_sum += vote_dislike * distance
+            dislike_distance2_sum += vote_dislike * distance*distance
+            dislike_distance_count += vote_dislike
+
+            #genre処理
+            genre = r["Genre"]
+            for g in genre:
+                if g["Name"] not in genre_list:
+                    genre_list.append(g["Name"])
+                    like_genre_count.append(vote_like)
+                    dislike_genre_count.append(vote_dislike)
+                else:
+                    like_genre_count[genre_list.index(g["Name"])] += vote_like
+                    dislike_genre_count[genre_list.index(g["Name"])] += vote_dislike
+
+        genre_feeling = {genre: {'Like':like,'Dislike':dislike} for genre, like, dislike in zip(genre_list, like_genre_count, dislike_genre_count)}
+        like_price_average = like_price_sum / like_price_count if like_price_count != 0 else 0
+        like_distance_average = like_distance_sum / like_distance_count if like_distance_count != 0 else 0
+        like_price_sigma = math.sqrt(like_price2_sum / like_price_count) if like_price_count != 0 else sys.float_info.max/16
+        like_distance_sigma = math.sqrt(like_distance2_sum / like_distance_count) if like_distance_count != 0 else sys.float_info.max/16
+        dislike_price_average = dislike_price_sum / dislike_price_count if dislike_price_count != 0 else 0
+        dislike_distance_average = dislike_distance_sum / dislike_distance_count if dislike_distance_count != 0 else 0
+        dislike_price_sigma = math.sqrt(dislike_price2_sum / dislike_price_count) if dislike_price_count != 0 else sys.float_info.max/16
+        dislike_distance_sigma = math.sqrt(dislike_distance2_sum / dislike_distance_count) if dislike_distance_count != 0 else sys.float_info.max/16
+        fetch_group.price_average = like_price_average
+        fetch_group.distance_average = like_distance_average
+        session.commit()
+
+        # recommend_priorityを計算する。--------
+
+        alln = session.query(Belong).filter(Belong.group==group_id).count() # 参加人数
+        unvoted_restaurants_count = len(pre_restaurants_info) - voted_restaurants_count
+
+        # 学習のためのベクトル生成
+        VEC_SIZE = 7
+        rid_train = [''] * voted_restaurants_count
+        x_train = np.zeros((voted_restaurants_count, VEC_SIZE))
+        y_train = np.zeros(voted_restaurants_count)
+        i_train = 0
+        rid_test = [''] * unvoted_restaurants_count
+        x_test = np.zeros((unvoted_restaurants_count, VEC_SIZE))
+        y_test = np.zeros(unvoted_restaurants_count)
+        i_test = 0
+
+        for r in pre_restaurants_info:
+
+            vec = np.zeros(VEC_SIZE)
+
+            # price_score
+            price = r['Price']
+            if price is not None and price != 0:
+                vec[0] = abs(price - like_price_average) / like_price_sigma
+                vec[1] = -abs(price - dislike_price_average) / dislike_price_sigma
+                vec[2] = price / 1000
+            else:
+                vec[0] = 0
+                vec[1] = 0
+                if (like_price_count + dislike_price_count) == 0:
+                    vec[2] = (like_price_average + dislike_price_average) / 2
+                else:
+                    vec[2] = (like_price_average * like_price_count + dislike_price_average * dislike_price_count) / (like_price_count + dislike_price_count)
+
+            # distance_score
+            distance = r['distance_float']
+            vec[3] = abs(distance - like_distance_average) / like_distance_sigma * 1000
+            vec[4] = -abs(distance - dislike_distance_average) / dislike_distance_sigma * 1000
+            
+            # genre_score
+            genre_score = 0
+            for g in [gt['Name'] for gt in r['Genre']]:
+                if g in genre_feeling:
+                    genre_score += genre_feeling[g]['Dislike'] - genre_feeling[g]['Like']
+            vec[5] = genre_score * 1000
+
+            vec[6] = r['ReviewRatingFloat']
+
+            # 変数に格納
+            if r["VotesAll"] <= 0:
+                rid_test[i_test] = r["Restaurant_id"]
+                x_test[i_test][:] = vec[:]
+                i_test += 1
+            else:
+                rid_train[i_train] = r["Restaurant_id"]
+                x_train[i_train][:] = vec[:]
+                y_train[i_train] = alln * (r["VotesAll"] - r["VotesLike"]) - r["VotesLike"] # 訓練データのラベル
+                i_train += 1
+
+
+        print("itest=", i_test, " , unvoted_restaurants_count=", unvoted_restaurants_count)
+        if i_test <= 0:
+            for rid, y in zip(rid_train, y_train):
+                fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==rid).one()
+                fetch_vote.recommend_priority = y
+                session.commit()
+            return
+
+        # 学習器で評価値を求める
+        # regressor = sklearn.linear_model.LogisticRegression() # ロジスティック回帰
+        regressor = SVR() # SVM
+        regressor.fit(x_train, y_train)
+        y_train = regressor.predict(x_train)
+        y_test = regressor.predict(x_test)
+        
+        for rid, y in zip(rid_train, y_train):
+            fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==rid).one()
+            fetch_vote.recommend_priority = y
+            session.commit()
+        for rid, y in zip(rid_test, y_test):
+            fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==rid).one()
+            fetch_vote.recommend_priority = y
+            session.commit()
+
+
+    def pre_info(self, fetch_group, group_id, user_id):
+        # YahooローカルサーチAPIで検索するクエリ
+        pre_search_params = get_search_params_from_fetch_group(fetch_group)
+        pre_search_params.update({
+            'image': 'true', # 画像がある店
+            'open': 'now', # 現在開店している店舗
+            'stock': STOCK_COUNT,
+        })
+        return pre_search_params
+ 
+
+    def response_info(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+
+        pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
 
         fetch_votes = session.query(Vote.votes_all).filter(Vote.group==group_id, Vote.votes_all>0).all()
         if sum([v.votes_all for v in fetch_votes]) < 3:
@@ -527,10 +742,10 @@ def normalize_pre_search_params(fetch_group, pre_search_params):
         pre_search_params['query'] = fetch_group.genre
     if fetch_group.open_hour is not None:
         pre_search_params['open_day'] = str(fetch_group.open_day.day) + ',' + str(fetch_group.open_hour.hour)
-    if fetch_group.max_price is not None:
-        pre_search_params['maxprice'] = fetch_group.max_price
-    if fetch_group.min_price is not None:
-        pre_search_params['minprice'] = fetch_group.min_price
+    # if fetch_group.max_price is not None:
+    #     pre_search_params['maxprice'] = fetch_group.max_price
+    # if fetch_group.min_price is not None:
+    #     pre_search_params['minprice'] = fetch_group.min_price
     return pre_search_params
 
 def get_search_params_from_fetch_group(fetch_group, search_params={}):
@@ -538,7 +753,6 @@ def get_search_params_from_fetch_group(fetch_group, search_params={}):
     ユーザが指定した検索条件からAPIで使用する検索条件に変換
     '''
     api_method = fetch_group.api_method
-
     if api_method == "yahoo":
         search_params.update({
             'lat': fetch_group.lat, # 緯度
@@ -598,6 +812,26 @@ def save_histories(group_id, user_id, restaurants_info):
                 session.commit()
 
 
+def restaurants_info_price_filter(max_price, min_price, restaurants_info):
+    '''
+    検索条件に合わない店を排除する
+
+    Parameters
+    ----------------
+    fetch_group
+    restaurants_info
+
+    Returns
+    ----------------
+    restaurnats_info
+    '''
+    if min_price is None:
+        min_price = 0
+    if max_price is None:
+        return [r for r in restaurants_info if (r['Price'] is None or min_price <= r['Price'])]
+    else:
+        return [r for r in restaurants_info if (r['Price'] is not None and min_price <= r['Price'] <= max_price)]
+
 def delete_duplicate_restaurants_info(group_id, user_id, restaurants_info, histories_restaurants=None):
     '''
     一度ユーザに送信したレストランはリストから除く
@@ -646,10 +880,11 @@ def recommend_main(fetch_group, group_id, user_id):
     
     # TODO: レコメンド関数の追加
     recommend_method = fetch_group.recommend_method
-    #recomm = RecommendSimple() # レコメンドに使うクラスを指定
-    #recomm = RecommendTemplate() # レコメンドに使うクラスを指定
-    #recomm = RecommendYahoo() # レコメンドに使うクラスを指定
-    recomm = RecommendQueue()
+    #recomm = RecommendSimple()
+    #recomm = RecommendTemplate()
+    #recomm = RecommendYahoo()
+    #recomm = RecommendQueue()
+    recomm = RecommendSVM()
     if recommend_method in ['rating', 'score', 'hyblid', 'review', 'kana', 'price', 'dist', 'geo', '-rating', '-score', '-hyblid', '-review', '-kana', '-price', '-dist', '-geo']:
         recomm = RecommendSimple()
     elif recommend_method == 'template':

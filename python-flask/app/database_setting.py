@@ -89,13 +89,15 @@ class Restaurant(Base):
     url_web = Column('url_web', String(400)) # お店のURL
     url_map = Column('url_map', String(400)) # MapのURL
     review_rating = Column('review_rating', String(100)) # 顧客レビューの評価値
+    review_rating_float = Column('review_rating_float', Float) # 顧客レビューの評価値
     business_hour = Column('business_hour', String(400)) # 営業時間
     open_hour = Column('open_hour', Float) # 開店時間
     close_hour = Column('close_hour', Float) # 閉店時間
     genre_code = Column('genre_code', String(200)) # ジャンルコード: Yahoo Local Search API を参照
     genre_name = Column('genre_name', String(200)) # ジャンル名
     images = Column('images', String(2000)) # 写真
-    image = Column('image', String(10000)) # 写真
+    image_files = Column('image_files', String(2000)) # 写真
+    image = Column('image', String(1000)) # 写真
     menu = Column('menu', String(400)) # メニュー (2021/08/21 未使用)
     created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
     updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)

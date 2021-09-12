@@ -50,6 +50,7 @@ def save_restaurants_info(restaurants_info):
             new_restaurant.url_web = restaurant_info.get('UrlWeb')
             new_restaurant.url_map = restaurant_info.get('UrloMap')
             new_restaurant.review_rating = restaurant_info.get('ReviewRating')
+            new_restaurant.review_rating_float = restaurant_info.get('ReviewRatingFloat')
             new_restaurant.business_hour = restaurant_info.get('BusinessHour')
             new_restaurant.open_hour = restaurant_info.get('OpenHour')
             new_restaurant.close_hour = restaurant_info.get('CloseHour')
@@ -57,6 +58,7 @@ def save_restaurants_info(restaurants_info):
                 new_restaurant.genre_code = '\n'.join([g.get('Code') for g in restaurant_info['Genre']])
                 new_restaurant.genre_name = '\n'.join([g.get('Name') for g in restaurant_info['Genre']])
             new_restaurant.images = '\n'.join(restaurant_info.get('Images'))
+            new_restaurant.image_files = '\n'.join(restaurant_info.get('ImageFiles'))
             new_restaurant.image = restaurant_info.get('Image')
             new_restaurant.menu = restaurant_info.get('Menu')
             session.add(new_restaurant)
@@ -78,11 +80,13 @@ def convert_restaurants_info_from_fetch_restaurants(f_restaurant):
     restaurant_info['UrlWeb'] = f_restaurant.url_web
     restaurant_info['UrlMap'] = f_restaurant.url_map
     restaurant_info['ReviewRating'] = f_restaurant.review_rating
+    restaurant_info['ReviewRatingFloat'] = f_restaurant.review_rating_float
     restaurant_info['BusinessHour'] = f_restaurant.business_hour
     restaurant_info['OpenHour'] = f_restaurant.open_hour
     restaurant_info['CloseHour'] = f_restaurant.close_hour
     restaurant_info['Genre'] = [{'Code':c, 'Name':n} for c,n in zip(f_restaurant.genre_code.split('\n'), f_restaurant.genre_name.split('\n'))]
     restaurant_info['Images'] = f_restaurant.images.split('\n')
+    restaurant_info['ImageFiles'] = f_restaurant.image_files.split('\n')
     restaurant_info['Image'] = f_restaurant.image
     restaurant_info['Menu'] = f_restaurant.menu
     return restaurant_info
@@ -233,7 +237,6 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
 
 
 # ============================================================================================================
-# api_functions.pyで最初に呼ばれる
 
 def get_google_images(restaurant_name):
     url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
@@ -253,7 +256,10 @@ def get_google_images(restaurant_name):
     }
     res = requests.get(url=url, params=params)
     dic = res.json()
-    photo_references = [photo['photo_reference'] for photo in dic['result']['photos']]
+    if 'photos' in dic['result']:
+        photo_references = [photo['photo_reference'] for photo in dic['result']['photos']]
+    else:
+        photo_references = []
     return photo_references
 
 def create_image(restaurants_info):
@@ -271,5 +277,5 @@ def create_image(restaurants_info):
 
     images_url_list = restaurants_info['Image_references']
     # TODO
-    image = ['']
+    image = [] # ['']
     return image
