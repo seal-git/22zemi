@@ -5,6 +5,7 @@ import axios from "axios"
 import { useEffect, useState } from "react"
 // 他のファイルからインポート
 import ButtonToInvite from "./ButtonToInvite"
+import ButtonToShowComment from "./ButtonToShowComment"
 import RestaurantInformation from './RestaurantInformation'
 import RestaurantInformationDeck from './RestaurantInformationDeck'
 import noImageIcon from "..//img/no_image.png"
@@ -209,6 +210,12 @@ function Selection(props) {
       />
     )
   }
+  let renderButtonToShowComment = () =>{
+    return (
+      <ButtonToShowComment
+      />
+    )
+  }
 
   let renderStandbyRestaurantInformation = () =>{
     if(dataLists.standbyDataList===null) return null
@@ -257,6 +264,7 @@ function Selection(props) {
           {/* <RestaurantInformation data={dataList[idx]} wrapperStyle={wrapperStyle} /> */}
         { renderRestaurantInformationDeck() }
         { renderButtonToInvite() }
+        { renderButtonToShowComment() }
       </div>
     </div>
   )
