@@ -1,3 +1,4 @@
+import glob
 import os
 
 from geopy.distance import great_circle
@@ -245,7 +246,7 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
 # api_functions.pyで最初に呼ばれる
 
 def get_google_images(restaurant_name):
-    if not os.environ["USE_LOCAL_IMAGE"]: # debug mode
+    if os.getenv("USE_LOCAL_IMAGE"): # debug mode
         print("getting image reference from test/data")
         with open("test/data/references.txt", "r")as f:
             image_references = [l for l in f]
@@ -299,13 +300,20 @@ def create_image(restaurant_info, debug=True):
     import requests
     from io import BytesIO
     import base64
+    import gc
+
+    class ImageInfo:
+        def __init__(self, filename=None, width=None, height=None):
+            self.filename = filename
+            self.width = width
+            self.height = height
 
     debug = os.getenv("USE_LOCAL_IMAGE")
 
     image_references = restaurant_info['Image_references']
     url = 'https://maps.googleapis.com/maps/api/place/photo'
     image_width = 400 #画像1枚の最大幅
-    images = [] # お店の写真のImageオブジェクトのリスト
+    images = [] # お店の写真のfilename, width, heightのリスト
     height_sum = 0
     # image_referenceごとに画像を取得
     for i, reference in enumerate(image_references):
@@ -323,8 +331,14 @@ def create_image(restaurant_info, debug=True):
             res = requests.get(url=url, params=params)
             # 返ってきたバイナリをImageオブジェクトに変換
             _image = Image.open(BytesIO(res.content))
+            _image.save(f"data/tmp/image{i}.jpg")
 
-        images.append(_image)
+        _image_info = ImageInfo(
+            filename = f"data/tmp/image{i}.jpg",
+            width = _image.width,
+            height = _image.height
+        )
+        images.append(_image_info)
         height_sum += _image.height
 
     # 1行に入る画像のインデックスを計算する
@@ -351,14 +365,14 @@ def create_image(restaurant_info, debug=True):
         row1_image = Image.new("RGB", (400,1200))
         _height = 0
         for i in rows[idx*2]:
-            row1_image.paste(images[i], (0,_height))
+            row1_image.paste(Image.open(images[i].filename), (0,_height))
             _height += images[i].height + 10
         row1_image = row1_image.crop((0,0,400,max(1,_height-10)))
         # 2行目の生成
         row2_image = Image.new("RGB", (400,1200))
         _height = 0
         for i in rows[idx*2+1]:
-            row2_image.paste(images[i], (0,_height))
+            row2_image.paste(Image.open(images[i].filename), (0,_height))
             _height += images[i].height + 10
         row2_image = row2_image.crop((0,0,400,max(1,_height-10)))
         # 2行目をリサイズして1行目の高さに合わせる
@@ -394,5 +408,12 @@ def create_image(restaurant_info, debug=True):
         else:
             new_image.save(f"./data/tmp/{filename}.jpg")
         image_files.append(filename)
+        print(f"create_image: file saved as {filename}")
+
+    # メモリ,キャッシュ解放
+    del row1_image, row2_image, row12_image, new_image, new_image_str, buffer
+    gc.collect()
+    for file in glob.glob("data/tmp/*.jpg"):
+        os.remove(file)
 
     return image_files
