@@ -8,5 +8,6 @@ def test_create_image():
         "Restaurant_id": "test",
         "Image_references": image_references,
     }
-    image_files = create_image(restaurants_info, debug=True)
-    assert image_files[0]=="test_0"
+    image_files = create_image(restaurants_info, use_local_image=True)
+    print(image_files)
+    assert image_files[0]
