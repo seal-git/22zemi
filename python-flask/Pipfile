@@ -56,7 +56,6 @@ geopy = "*"
 qrcode = "*"
 pillow = "*"
 sklearn = "*"
-sqlalchemy = "*"
 mysqlclient = "*"
 
 [dev-packages]
