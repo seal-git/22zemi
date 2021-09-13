@@ -55,7 +55,6 @@ flask-cors = "*"
 geopy = "*"
 qrcode = "*"
 pillow = "*"
-mysqlclient = "*"
 sklearn = "*"
 
 [dev-packages]
