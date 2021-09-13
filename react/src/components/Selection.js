@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Selection.css"
+import "./css/Selection.css"
 // パッケージからインポート
 import axios from "axios"
 import { useEffect, useState } from "react"
@@ -13,13 +13,13 @@ import sampleDataList from "./sampleData.json"
 
 const initDataList = [{
   "Name": "Loading...",
-  "Images": [noImageIcon, noImageIcon],
+  "Images": [noImageIcon ],
   "Price": "",
   "Restaurant_id": "init",
 }]
 const emptyDataList = [{
   "Name": "No Data:\n検索条件を変えてみてください",
-  "Images": [noImageIcon, noImageIcon],
+  "Images": [noImageIcon ],
   "Restaurant_id": "empty",
 }]
 
@@ -51,7 +51,7 @@ var wrapperStyle = {
  */
 function Selection(props) {
   const [dataLists, setDataLists] = useState({
-    "topDataList":initDataList,
+    "topDataList": initDataList,
     "standbyDataList":null,
   })
   let hiddenDataList = null

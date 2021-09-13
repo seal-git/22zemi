@@ -1,5 +1,6 @@
 import React from 'react'
 // パッケージからインポート
+import { useState, useEffect } from 'react'
 import { makeStyles, withStyles } from '@material-ui/core/styles'
 import Card from '@material-ui/core/Card'
 import { Chip } from '@material-ui/core'
@@ -56,15 +57,19 @@ const useStyles = makeStyles((theme) => ({
         position: 'absolute',
         width: '100%',
         height: '100%',
+        backgroundColor: 'transparent',
     },
     image :{
         height: '100%',
         objectFit: 'cover',
+        backgroundColor: 'transparent',
         webkitUserSelect: 'none',
         mozUserSelect: 'none',
-            MsUserSelect: 'none',
-                userSelect: 'none',
+        MsUserSelect: 'none',
+        userSelect: 'none',
         pointerEvents: 'none',
+        willChange: 'opacity',
+        position: 'absolute',
     },
     imageFilter :{
         width: '100%',
@@ -82,6 +87,34 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         flexWrap: 'wrap',
         alignContent: 'space-evenly',
+    },
+    imageBarContainer:{
+        width: '80%',
+        height: '10px',
+        top: '5%',
+        left: '10%',
+        display: 'flex',
+        position: 'absolute',
+    },
+    imageBarSelected :{
+        height: '100%',
+        width: '100%',
+        background: 'rgba(255,255,255,1)',
+        boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.75)',
+        border: '2px solid gray',
+        borderRadius: '10%',
+        margin: '1%',
+        cursor: 'pointer',
+    },
+    imageBar :{
+        height: '100%',
+        width: '100%',
+        background: 'rgba(0,0,0,0.4)',
+        boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.75)',
+        border: '2px solid gray',
+        borderRadius: '10%',
+        margin: '1%',
+        cursor: 'pointer',
     }
 }));
 
@@ -107,20 +140,55 @@ function RestaurantInformation(props) {
     const classes = useStyles(props)
     const space = <span className={classes.space}>　</span>
 
-    // お店画像の描画
-    const renderImages = (images,restaurant_id) =>{
+    const [index, setIndex] = useState(0)
+
+    const renderBars = () => {
         return(
-            <div className={classes.imageContainer}>
-                <img src={images[0]} alt="restaurant-image" className={classes.image} />
+            <div className={classes.imageBarContainer}>
+                {props.data.Images.map( (image,i) =>{
+                    return <div 
+                    className={i===index?classes.imageBarSelected:classes.imageBar}
+                    onClick={()=>{ setIndex(i)}}
+                    />
+                })} 
             </div>
         )
     }
 
+    useEffect(() => {
+        const currentIndex = index
+        const t = setInterval(
+            () => {
+                if(currentIndex!==undefined && currentIndex===index){
+                    setIndex(state => (state + 1) % props.data.Images.length)
+                }
+            }
+        , 5000)
+        return ()=>{clearInterval(t)}
+    },[index])
+
+    // お店画像の描画
+    const renderImages = (restaurant_id) =>{
+        return(
+            <div className={classes.imageContainer}>
+                {props.data.Images.map( (image,i)=>{
+                    return <img 
+                        className={classes.image}
+                        id={restaurant_id+'-image'+i}
+                        alt={'restaurant-image'+i}
+                        src={image} 
+                        style={{opacity: index===i?1:0, transition:'0.5s',}}
+                    />
+                  })}
+            </div>
+        )
+    }
+
+
+    // お店情報の描画
     const isNotEmpty = (str) =>{
         return str!==undefined && str!==null && str!==""
     }
-
-    // お店情報の描画
     const renderCardContent = (data) =>{
         return (
             <div className={classes.cardContentWrapper}>
@@ -157,10 +225,11 @@ function RestaurantInformation(props) {
     return (
         <div className={classes.RestaurantInformation} style={props.wrapperStyle}>
             <Card variant="outlined" className={classes.cardRoot}>
-                {renderImages(props.data.Images,props.data.restaurant_id)}
+                {renderImages(props.data.restaurant_id)}
                 <div className={classes.imageFilter} />
                 {renderCardContent(props.data)}
                 {renderButtons()}
+                {renderBars()}
             </Card>
         </div>
     )
