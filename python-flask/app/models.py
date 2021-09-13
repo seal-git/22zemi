@@ -364,7 +364,7 @@ def thread_info(group_id, user_id, fetch_belong=None, fetch_group=None):
     response = create_response_from_restaurants_info(restaurants_info)
     filename = hashlib.md5(base64.b64encode(str(response).encode())).hexdigest()
     print(filename)
-    with open("filename", "w")as f:
+    with open(f"data/tmp/{filename}", "w")as f:
         f.write(str(response))
     fetch_belong.next_response = filename
     fetch_belong.request_count += 1
