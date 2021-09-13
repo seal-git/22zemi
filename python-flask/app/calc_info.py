@@ -284,7 +284,8 @@ def create_image(restaurant_info, use_local_image=True):
     生成された画像はbase64でエンコードされる。
     画像ファイル名は、「restaurantID_」+通し番号で、data/imageに保存される。
     確認用に実際のjpg画像を保存することもできる。コメントアウトして使用。
-    デバッグ中は余計なAPIを呼ばないようにtest/dataの画像を呼び出す。環境変数のUSE_APIをTrueすると実際のAPIを呼び出せる。
+    環境変数のUSE_LOCAL_APIをTrueにすると画像をtest/dataからとってくる。
+    環境変数のUSE_RAW_IMAGEをTrueにすると画像を結合せずそのままb64で保存する。
 
     Parameters
     ----------------
