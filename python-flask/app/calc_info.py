@@ -300,6 +300,8 @@ def create_image(restaurant_info, debug=True):
     from io import BytesIO
     import base64
 
+    debug = os.getenv("USE_LOCAL_IMAGE")
+
     image_references = restaurant_info['Image_references']
     url = 'https://maps.googleapis.com/maps/api/place/photo'
     image_width = 400 #画像1枚の最大幅
@@ -313,7 +315,7 @@ def create_image(restaurant_info, debug=True):
             'photoreference': reference,
             'maxwidth': image_width,
         }
-        if os.getenv("USE_LOCAL_IMAGE"): # debug mode
+        if debug: # debug mode
             print("create_image: getting test data")
             _image = Image.open(f"test/data/image{i}.jpg")
         else:
@@ -387,10 +389,10 @@ def create_image(restaurant_info, debug=True):
         new_image_str = base64.b64encode(buffer.getvalue()).decode("ascii")
         with open(f"./data/image/{filename}", "w") as f:
             f.write(new_image_str)
-        # if debug:
-        #     new_image.save(f"./test/data/{filename}.jpg")
-        # else:
-        #     new_image.save(f"./data/tmp/{filename}.jpg")
+        if debug:
+            new_image.save(f"./data/tmp/{filename}.jpg")
+        else:
+            new_image.save(f"./data/tmp/{filename}.jpg")
         image_files.append(filename)
 
     return image_files
