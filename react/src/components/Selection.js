@@ -10,6 +10,7 @@ import RestaurantInformation from './RestaurantInformation'
 import RestaurantInformationDeck from './RestaurantInformationDeck'
 import noImageIcon from "..//img/no_image.png"
 import sampleDataList from "./sampleData.json"
+import LinearProgress from '@material-ui/core/LinearProgress';
 
 const initDataList = [{
   "Name": "Loading...",
@@ -31,21 +32,6 @@ var wrapperStyle = {
 
 }
 
-// // カードの高さを指定する
-// function getAdaptiveStyle() {
-//     // let height = window.innerHeight
-//     let height = document.getElementById("selection").getBoundingClientRect().height
-//     let wrapperStyle = {
-//         height: height,
-//     }
-//     return wrapperStyle
-// };
-
-// //windowサイズの変更検知のイベントハンドラを設定
-// window.addEventListener('load', () => {
-//     wrapperStyle = getAdaptiveStyle()
-// })
-
 /*
  スワイプでお店を選ぶコンポーネント
  */
@@ -54,14 +40,13 @@ function Selection(props) {
     "topDataList": initDataList,
     "standbyDataList":null,
   })
+  const [isLoading, setIsLoading] = useState(false)
   let hiddenDataList = null
-  let isLoading = false
 
   // APIからお店のデータを得る
   const getInfo = (newUserId, newGroupId, type="init", topDataList=null) => {
     if (isLoading) return;
-    // if(dataList!==initDataList && !isPreloading) setDataList(initDataList)
-    isLoading = true
+    setIsLoading(true)
 
     // ユーザID を設定
     let userId = newUserId
@@ -91,7 +76,7 @@ function Selection(props) {
           const newDataList = receivedDataList
           if(type==="init"){
             console.log("received topDataList")
-            isLoading = false
+            setIsLoading(false)
             getInfo(null,null,"standby",newDataList)
           } 
           else if(type==="standby"){
@@ -125,7 +110,7 @@ function Selection(props) {
             console.log("undefined type")
           }
         }
-        isLoading = false
+        setIsLoading(false)
       })
       .catch((error) => {
         console.log("error:", error)
@@ -188,19 +173,6 @@ function Selection(props) {
     props.turnMode()
   }
 
-  let renderButtonToChangeMode = () =>{
-    return (
-      <ButtonToChangeMode
-        mode={props.mode}
-        turnMode={turnMode}
-        setUserId={props.setUserId}
-        setGroupId={props.setGroupId}
-        produceId={props.produceId}
-        getInfo={getInfo}
-      />
-    )
-  }
-
   let renderButtonToInvite = () =>{
     return (
       <ButtonToInvite
@@ -246,18 +218,10 @@ function Selection(props) {
     )
   }
 
-  const display_style = 
-    (props.mode==="Alone")? {display:"none"}: null
-
   return (
     <div className="Selection-wrapper">
       <div className="Selection-header">
-        <div className={"Selection-header-content"}
-          style={display_style}>
-          {/* <div className="group-id">
-            ルームID:{props.groupId}
-          </div> */}
-        </div>
+        { isLoading?<LinearProgress />:null }
       </div>
       <div className="Selection" id={"selection"}>
         { renderStandbyRestaurantInformation() }

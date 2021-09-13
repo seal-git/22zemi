@@ -163,24 +163,26 @@ export default function RestaurantInformationDeck (props) {
     const maxIndex = props.topDataList.length - 1
     // アニメーション付きのカードを描画
     return (
-      springProps.reverse().map(({x,y,scale},i) => {
-        const index = maxIndex - i
-        return (
-          <div className={classes.RestaurantInformationDeck}>
-            <animated.div 
-              key={'card'+props.topDataList[index].Restaurant_id} 
-              style={{x,y}}>
+      <div>
+        {springProps.reverse().map(({x,y,scale},i) => {
+          const index = maxIndex - i
+          return (
+            <div className={classes.RestaurantInformationDeck}>
               <animated.div 
-                {...bind(index) }
-                style = { {
-                  transform: interpolate([scale],trans),
-                }}
-              >
-                {renderRestaurantInformation(index)}
+                key={'card'+props.topDataList[index].Restaurant_id} 
+                style={{x,y}}>
+                <animated.div 
+                  {...bind(index) }
+                  style = { {
+                    transform: interpolate([scale],trans),
+                  }}
+                >
+                  {renderRestaurantInformation(index)}
+                </animated.div>
               </animated.div>
-            </animated.div>
-          </div>
-        )
-      })
+            </div>
+          )
+        })}
+      </div>
     )
 }

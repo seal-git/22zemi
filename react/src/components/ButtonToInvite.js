@@ -18,6 +18,7 @@ const useStyles = makeStyles({
         position: 'relative',
         top: '50vh',
         textAlign: 'right',
+        pointerEvents: 'none',
     },
     ModalButton:{
         height: '60px',
@@ -27,6 +28,7 @@ const useStyles = makeStyles({
         cursor: 'pointer',
         margin: '10px',
         border: 'solid',
+        pointerEvents: 'auto',
     },
     CopyButton:{
         height: '100%',
@@ -37,6 +39,7 @@ const useStyles = makeStyles({
         backgroundColor: '#ff7474',
         borderRadius: '9px',
         cursor: 'pointer',
+        pointerEvents: 'auto',
     }
 })
 

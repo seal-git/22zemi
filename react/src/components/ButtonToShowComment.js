@@ -26,21 +26,11 @@ const useStyles = makeStyles({
         position: 'relative',
         top: '50vh',
         textAlign: 'right',
-    },
-    ModalButton:{
+        pointerEvents: 'none',
     },
     CommentIcon:{
+        pointerEvents: 'auto',
     },
-    CopyButton:{
-        height: '100%',
-        width: '40%',
-        border: 'none',
-        padding: '0',
-        color: 'white',
-        backgroundColor: '#ff7474',
-        borderRadius: '9px',
-        cursor: 'pointer',
-    }
 })
 
 function ButtonToShowComment(props) {
