@@ -302,6 +302,7 @@ def create_image(restaurant_info, debug=True):
     import base64
     import gc
 
+    # imageをそのまま扱うとメモリリークするので、サイズとファイル名の構造体として扱う
     class ImageInfo:
         def __init__(self, filename=None, width=None, height=None):
             self.filename = filename
@@ -309,6 +310,8 @@ def create_image(restaurant_info, debug=True):
             self.height = height
 
     debug = os.getenv("USE_LOCAL_IMAGE")
+    if debug:
+        print("create_image: getting test data")
 
     image_references = restaurant_info['Image_references']
     url = 'https://maps.googleapis.com/maps/api/place/photo'
@@ -324,15 +327,14 @@ def create_image(restaurant_info, debug=True):
             'maxwidth': image_width,
         }
         if debug: # debug mode
-            print("create_image: getting test data")
             _image = Image.open(f"test/data/image{i}.jpg")
         else:
             # image_referenceごとにAPIを叩いて画像を取得
             res = requests.get(url=url, params=params)
             # 返ってきたバイナリをImageオブジェクトに変換
             _image = Image.open(BytesIO(res.content))
-            _image.save(f"data/tmp/image{i}.jpg")
 
+        _image.save(f"data/tmp/image{i}.jpg")
         _image_info = ImageInfo(
             filename = f"data/tmp/image{i}.jpg",
             width = _image.width,
