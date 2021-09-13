@@ -537,8 +537,8 @@ def http_test():
 def error_handler(e):
     res = jsonify({ 
                      "error": {
-                          "name": error.name, 
-                          "description": error.description 
+                          "name": e.name,
+                          "description": e.description
                       }
                    })
     return res, e.code

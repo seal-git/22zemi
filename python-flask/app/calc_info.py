@@ -1,3 +1,5 @@
+import os
+
 from geopy.distance import great_circle
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 import requests
@@ -35,7 +37,10 @@ def save_restaurants_info(restaurants_info):
 
     for restaurant_info in restaurants_info:
         fetch_restaurant = session.query(Restaurant).filter(Restaurant.id==restaurant_info['Restaurant_id']).first()
-        if fetch_restaurant is None:
+        if fetch_restaurant is not None:
+            fetch_restaurant.review_rating = restaurant_info.get('ReviewRating')
+            fetch_restaurant.review_rating_float = restaurant_info.get('ReviewRatingFloat')
+        else:
             new_restaurant = Restaurant()
             new_restaurant.id = restaurant_info['Restaurant_id']
             new_restaurant.name = restaurant_info['Name']
@@ -48,7 +53,7 @@ def save_restaurants_info(restaurants_info):
             new_restaurant.dinner_price = restaurant_info.get('DinnerPrice')
             new_restaurant.category = restaurant_info.get('Category')
             new_restaurant.url_web = restaurant_info.get('UrlWeb')
-            new_restaurant.url_map = restaurant_info.get('UrloMap')
+            new_restaurant.url_map = restaurant_info.get('UrlMap')
             new_restaurant.review_rating = restaurant_info.get('ReviewRating')
             new_restaurant.review_rating_float = restaurant_info.get('ReviewRatingFloat')
             new_restaurant.business_hour = restaurant_info.get('BusinessHour')
@@ -240,27 +245,35 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
 # api_functions.pyで最初に呼ばれる
 
 def get_google_images(restaurant_name):
-    url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
-    params = {
-        'key': os.environ["GOOGLE_API_KEY"],
-        'input': restaurant_name,
-        'inputtype': 'textquery',
-    }
-    res = requests.get(url=url, params=params)
-    dic = res.json()
-    place_id = dic['candidates'][0]['place_id']
-
-    url = 'https://maps.googleapis.com/maps/api/place/details/json'
-    params = {
-        'key': os.environ["GOOGLE_API_KEY"],
-        'place_id': place_id,
-    }
-    res = requests.get(url=url, params=params)
-    dic = res.json()
-    if 'photos' in dic['result']:
-        photo_references = [photo['photo_reference'] for photo in dic['result']['photos']]
+    if not os.environ["USE_LOCAL_IMAGE"]: # debug mode
+        print("getting image reference from test/data")
+        with open("test/data/references.txt", "r")as f:
+            image_references = [l for l in f]
+        return image_references
     else:
-        photo_references = []
+        # place検索
+        url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
+        params = {
+            'key': os.environ["GOOGLE_API_KEY"],
+            'input': restaurant_name,
+            'inputtype': 'textquery',
+        }
+        res = requests.get(url=url, params=params)
+        dic = res.json()
+        place_id = dic['candidates'][0]['place_id']
+
+        # place_detailを取得
+        url = 'https://maps.googleapis.com/maps/api/place/details/json'
+        params = {
+            'key': os.environ["GOOGLE_API_KEY"],
+            'place_id': place_id,
+        }
+        res = requests.get(url=url, params=params)
+        dic = res.json()
+        if 'photos' in dic['result']:
+            photo_references = [photo['photo_reference'] for photo in dic['result']['photos']]
+        else:
+            photo_references = []
     return photo_references
 
 def create_image(restaurant_info, debug=True):
@@ -286,8 +299,7 @@ def create_image(restaurant_info, debug=True):
     import requests
     from io import BytesIO
     import base64
-    debug = os.environ["USE_API"]
-    print(debug)
+
     image_references = restaurant_info['Image_references']
     url = 'https://maps.googleapis.com/maps/api/place/photo'
     image_width = 400 #画像1枚の最大幅
@@ -301,7 +313,8 @@ def create_image(restaurant_info, debug=True):
             'photoreference': reference,
             'maxwidth': image_width,
         }
-        if debug:
+        if os.getenv("USE_LOCAL_IMAGE"): # debug mode
+            print("create_image: getting test data")
             _image = Image.open(f"test/data/image{i}.jpg")
         else:
             # image_referenceごとにAPIを叩いて画像を取得
