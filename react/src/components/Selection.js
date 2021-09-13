@@ -10,7 +10,6 @@ import RestaurantInformation from './RestaurantInformation'
 import RestaurantInformationDeck from './RestaurantInformationDeck'
 import noImageIcon from "..//img/no_image.png"
 import sampleDataList from "./sampleData.json"
-import LinearProgress from '@material-ui/core/LinearProgress';
 
 const initDataList = [{
   "Name": "Loading...",
@@ -40,13 +39,14 @@ function Selection(props) {
     "topDataList": initDataList,
     "standbyDataList":null,
   })
-  const [isLoading, setIsLoading] = useState(false)
+  let isLoading = false
   let hiddenDataList = null
 
   // APIからお店のデータを得る
   const getInfo = (newUserId, newGroupId, type="init", topDataList=null) => {
     if (isLoading) return;
-    setIsLoading(true)
+    isLoading = true
+    
 
     // ユーザID を設定
     let userId = newUserId
@@ -76,7 +76,7 @@ function Selection(props) {
           const newDataList = receivedDataList
           if(type==="init"){
             console.log("received topDataList")
-            setIsLoading(false)
+            isLoading = false
             getInfo(null,null,"standby",newDataList)
           } 
           else if(type==="standby"){
@@ -110,7 +110,7 @@ function Selection(props) {
             console.log("undefined type")
           }
         }
-        setIsLoading(false)
+        isLoading = false
       })
       .catch((error) => {
         console.log("error:", error)
@@ -221,7 +221,6 @@ function Selection(props) {
   return (
     <div className="Selection-wrapper">
       <div className="Selection-header">
-        { isLoading?<LinearProgress />:null }
       </div>
       <div className="Selection" id={"selection"}>
         { renderStandbyRestaurantInformation() }

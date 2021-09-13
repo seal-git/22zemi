@@ -84,6 +84,4 @@ function Buttons(props) {
     </div>
   );
 }
-
-
 export default Buttons;
