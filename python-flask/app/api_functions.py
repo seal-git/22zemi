@@ -252,7 +252,7 @@ class ApiFunctionsGoogle(ApiFunctions):
         review_rating_star = '★' * review_rating_int + '☆' * (5-review_rating_int)
         return review_rating_star + '    ' + ('%.1f' % review_rating)
 
-        
+
     def get_place_details(self, fetch_group, group_id, restaurant_ids):
         
         url = 'https://maps.googleapis.com/maps/api/place/details/json'
@@ -458,7 +458,7 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, histo
     restaurants_info : [dict]
         レスポンスするレストラン情報を返す。
     '''
-    
+
     api_method = fetch_group.api_method
     if api_method == "yahoo":
         api_f = ApiFunctionsYahoo()
@@ -531,7 +531,7 @@ def get_restaurants_info(fetch_group, group_id, restaurant_ids):
     for r_info in rs_info:
         restaurants_info[ restaurant_ids_del_none.index(r_info['Restaurant_id']) ] = r_info
     restaurants_info = [r for r in restaurants_info if r is not None] # feelingリクエストで架空のrestaurants_idだったときには、それを除く
-    
+
     # 投票数と距離を計算
     restaurants_info = calc_info.add_votes_distance(fetch_group, group_id, restaurants_info)
 
