@@ -117,7 +117,7 @@ class ApiFunctionsYahoo(ApiFunctions):
         return review_rating_star + '    ' + ('%.1f' % review_rating), review_rating
 
 
-    def get_restaurant_info(self, fetch_group, group_id, lunch_or_dinner, feature):
+    def get_restaurant_info(self, fetch_group, group_id, lunch_or_dinner, feature, access_flag):
         '''
         Yahoo local search APIで取得した店舗情報(feature)を、クライアントに送信するjsonの形式に変換する。
         
@@ -154,8 +154,8 @@ class ApiFunctionsYahoo(ApiFunctions):
         restaurant_info['Category'] = feature['Property']['Genre'][0]['Name']
         restaurant_info['UrlWeb'] = "https://loco.yahoo.co.jp/place/" + restaurant_id
         restaurant_info['UrlMap'] = "https://map.yahoo.co.jp/route/walk?from=" + str(fetch_group.address) + "&to=" + restaurant_info['Address']
-        restaurant_info['ReviewRating'], restaurant_info['ReviewRatingFloat'] = self.get_review_rating(restaurant_id)
-        restaurant_info['BusinessHour'] = (feature['Property']['Detail'].get('BusinessHour')).replace('<br>', '\n').replace('<br />', '')
+        restaurant_info['ReviewRating'], restaurant_info['ReviewRatingFloat'] = self.get_review_rating(restaurant_id) if access_flag == "get" else "", 0
+        restaurant_info['BusinessHour'] = (feature['Property']['Detail'].get('BusinessHour')).replace('<br>', '\n').replace('<br />', '') if feature['Property']['Detail'].get('BusinessHour') is not None else ""
         restaurant_info['Genre'] = feature['Property']['Genre']
         restaurant_info['Lon'], restaurant_info['Lat'] = tuple([float(x) for x in feature['Geometry']['Coordinates'].split(',')])
 
@@ -166,8 +166,8 @@ class ApiFunctionsYahoo(ApiFunctions):
         persistency_image_n = [feature['Property']['Detail']['PersistencyImage'+str(j)] for j in range(MAX_LIST_COUNT) if 'PersistencyImage'+str(j) in feature['Property']['Detail']] # PersistencyImage1, PersistencyImage2 ... のキーをリストに。
         restaurant_info['Images'] = list(dict.fromkeys(lead_image + image_n + persistency_image_n))
 
-        restaurant_info["Image_references"] = calc_info.get_google_images(feature['Name']) #google apiの画像のreferenceを保存
-        restaurant_info["ImageFiles"] = calc_info.create_image(restaurant_info) #1枚の画像のURLを保存
+        restaurant_info["Image_references"] = calc_info.get_google_images(feature['Name']) if access_flag=="get" else [] #google apiの画像のreferenceを保存
+        restaurant_info["ImageFiles"] = calc_info.create_image(restaurant_info) if access_flag=="get" else [] #1枚の画像のURLを保存 
         if len(restaurant_info["Images"]) == 0:
             no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
             restaurant_info["Images"] = [no_image_url, no_image_url]
@@ -175,7 +175,7 @@ class ApiFunctionsYahoo(ApiFunctions):
         return restaurant_info
 
 
-    def get_info_from_api(self, fetch_group, group_id, search_params):
+    def get_info_from_api(self, fetch_group, group_id, search_params, access_flag):
         '''
         Yahoo local search APIで店舗情報(feature)を取得する。
         
@@ -224,7 +224,7 @@ class ApiFunctionsYahoo(ApiFunctions):
         # Yahoo local search apiで受け取ったjsonをクライアントアプリに送るjsonに変換する
         restaurants_info = []
         for i,feature in enumerate(local_search_json['Feature']):
-            restaurants_info.append(self.get_restaurant_info(fetch_group, group_id, lunch_or_dinner, feature))
+            restaurants_info.append(self.get_restaurant_info(fetch_group, group_id, lunch_or_dinner, feature, access_flag))
             
         #各お店のオススメ度を追加(相対評価)
         restaurants_info = calc_info.calc_recommend_score(fetch_group, group_id, restaurants_info)
@@ -232,12 +232,14 @@ class ApiFunctionsYahoo(ApiFunctions):
 
 
     def search_restaurants_info(self, fetch_group, group_id, search_params):
-        local_search_json, restaurants_info = self.get_info_from_api(fetch_group, group_id, search_params)
+        access_flag = "search"
+        local_search_json, restaurants_info = self.get_info_from_api(fetch_group, group_id, search_params, access_flag)
         return restaurants_info
 
     def get_restaurants_info(self, fetch_group, group_id, restaurant_ids):
+        access_flag = "get"
         search_params = { 'uid': ','.join(restaurant_ids) }
-        local_search_json, restaurants_info = self.get_info_from_api(fetch_group, group_id, search_params)
+        local_search_json, restaurants_info = self.get_info_from_api(fetch_group, group_id, search_params, access_flag)
         return restaurants_info
 
 class ApiFunctionsGoogle(ApiFunctions):
