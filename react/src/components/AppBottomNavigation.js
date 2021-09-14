@@ -19,10 +19,13 @@ const useStyles = makeStyles({
     justifyContent: 'space-evenly',
   },
   Button: {
-    height: '60%',
+    height: '50%',
     width: '25%',
     border: 'none',
     padding: '0',
+    top: '0',
+    bottom: '0',
+    margin: 'auto',
     color: 'white',
     background: '#ff7474',
     // boxShadow: '5px 5px 4px rgba(0, 0, 0, 0.75)',
@@ -36,7 +39,9 @@ const useStyles = makeStyles({
 */
 export default function AppBottomNavigation(props) {
   const config = {
-    height : props.view==='Setting'?'0':'60px',
+    height : props.view==='Setting'?'0'
+            :props.view==='Setting'?'10vh'
+            :'10vh'
   }
   const classes = useStyles(config)
   const moveToSetting = () => {
