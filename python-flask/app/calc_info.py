@@ -1,3 +1,6 @@
+import glob
+import os
+
 from geopy.distance import great_circle
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 import requests
@@ -35,7 +38,10 @@ def save_restaurants_info(restaurants_info):
 
     for restaurant_info in restaurants_info:
         fetch_restaurant = session.query(Restaurant).filter(Restaurant.id==restaurant_info['Restaurant_id']).first()
-        if fetch_restaurant is None:
+        if fetch_restaurant is not None:
+            fetch_restaurant.review_rating = restaurant_info.get('ReviewRating')
+            fetch_restaurant.review_rating_float = restaurant_info.get('ReviewRatingFloat')
+        else:
             new_restaurant = Restaurant()
             new_restaurant.id = restaurant_info['Restaurant_id']
             new_restaurant.name = restaurant_info['Name']
@@ -48,7 +54,7 @@ def save_restaurants_info(restaurants_info):
             new_restaurant.dinner_price = restaurant_info.get('DinnerPrice')
             new_restaurant.category = restaurant_info.get('Category')
             new_restaurant.url_web = restaurant_info.get('UrlWeb')
-            new_restaurant.url_map = restaurant_info.get('UrloMap')
+            new_restaurant.url_map = restaurant_info.get('UrlMap')
             new_restaurant.review_rating = restaurant_info.get('ReviewRating')
             new_restaurant.review_rating_float = restaurant_info.get('ReviewRatingFloat')
             new_restaurant.business_hour = restaurant_info.get('BusinessHour')
@@ -240,58 +246,89 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
 # api_functions.pyで最初に呼ばれる
 
 def get_google_images(restaurant_name):
-    url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
-    params = {
-        'key': os.environ["GOOGLE_API_KEY"],
-        'input': restaurant_name,
-        'inputtype': 'textquery',
-    }
-    res = requests.get(url=url, params=params)
-    dic = res.json()
-    place_id = dic['candidates'][0]['place_id']
-
-    url = 'https://maps.googleapis.com/maps/api/place/details/json'
-    params = {
-        'key': os.environ["GOOGLE_API_KEY"],
-        'place_id': place_id,
-    }
-    res = requests.get(url=url, params=params)
-    dic = res.json()
-    if 'photos' in dic['result']:
-        photo_references = [photo['photo_reference'] for photo in dic['result']['photos']]
+    if os.getenv("USE_LOCAL_IMAGE")=="True": # debug mode
+        print("getting image reference from test/data")
+        with open("test/data/references.txt", "r")as f:
+            image_references = [l for l in f]
+        return image_references
     else:
-        photo_references = []
+        # place検索
+        url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
+        params = {
+            'key': os.environ["GOOGLE_API_KEY"],
+            'input': restaurant_name,
+            'inputtype': 'textquery',
+        }
+        res = requests.get(url=url, params=params)
+        dic = res.json()
+        place_id = dic['candidates'][0]['place_id']
+
+        # place_detailを取得
+        url = 'https://maps.googleapis.com/maps/api/place/details/json'
+        params = {
+            'key': os.environ["GOOGLE_API_KEY"],
+            'place_id': place_id,
+        }
+        res = requests.get(url=url, params=params)
+        dic = res.json()
+        if 'photos' in dic['result']:
+            photo_references = [photo['photo_reference'] for photo in dic['result']['photos']]
+        else:
+            photo_references = []
     return photo_references
 
-def create_image(restaurant_info, debug=True):
+from memory_profiler import profile
+@profile
+def create_image(restaurant_info):
     '''
     画像をGoogleAPIから読み込んで、つなぎ合わせる。
     縦2列に並んだ画像が800x1200の1枚の画像になる。
     生成された画像はbase64でエンコードされる。
     画像ファイル名は、「restaurantID_」+通し番号で、data/imageに保存される。
     確認用に実際のjpg画像を保存することもできる。コメントアウトして使用。
-    デバッグ中は余計なAPIを呼ばないようにtest/dataの画像を呼び出す。環境変数のUSE_APIをTrueすると実際のAPIを呼び出せる。
+    環境変数のUSE_LOCAL_APIをTrueにすると画像をtest/dataからとってくる。
+    環境変数のUSE_RAW_IMAGEをTrueにすると画像を結合せずそのままb64で保存する。
 
     Parameters
     ----------------
     restaurant_info : [dict]
-    debug : bool : デバッグ中はAPIを呼び出さないようにtest/data/から画像を読み込む。
-    
+
     Returns
     ----------------
     image_files : [string] base64でエンコードしたバイナリファイルのファイル名のリスト
     '''
     from PIL import Image
-    import os
-    import requests
+    import os, sys, requests, base64, gc
     from io import BytesIO
-    import base64
-    debug = os.environ["USE_API"]
-    print(debug)
+
+    # imageをそのまま扱うとメモリリークするので、サイズとファイル名の構造体として扱う
+    class ImageInfo:
+        def __init__(self, filename=None, width=None, height=None):
+            self.filename = filename
+            self.width = width
+            self.height = height
+    
+    def save_b64(filename, image):
+        buffer = BytesIO()
+        image.save(buffer, format="jpeg")
+        with open(filename, "w") as f:
+            f.write(base64.b64encode(buffer.getvalue()).decode("ascii")
+)
+        del buffer, image
+        gc.collect()
+
+    use_local_image = os.getenv("USE_LOCAL_IMAGE")=="True"
+    use_raw_image = os.getenv("USE_RAW_IMAGE")=="True"
+    if use_local_image:
+        print("create_image: getting test data")
+    if use_raw_image:
+        print("create_image: return raw image: not create one image")
+
     image_references = restaurant_info['Image_references']
     url = 'https://maps.googleapis.com/maps/api/place/photo'
     image_width = 400 #画像1枚の最大幅
-    images = [] # お店の写真のImageオブジェクトのリスト
+    image_info_list = [] # お店の写真のfilename, width, heightのリスト
+    image_file_list = [] # 画像のb64のパスのリスト
     height_sum = 0
     # image_referenceごとに画像を取得
     for i, reference in enumerate(image_references):
@@ -301,23 +338,40 @@ def create_image(restaurant_info, debug=True):
             'photoreference': reference,
             'maxwidth': image_width,
         }
-        if debug:
+        filename = restaurant_info['Restaurant_id'] + "_" + str(i)
+
+        if use_local_image: # debug mode
             _image = Image.open(f"test/data/image{i}.jpg")
+            _image.save(f"data/tmp/image{i}.jpg")
         else:
             # image_referenceごとにAPIを叩いて画像を取得
             res = requests.get(url=url, params=params)
             # 返ってきたバイナリをImageオブジェクトに変換
             _image = Image.open(BytesIO(res.content))
+            _image.save(f"data/tmp/image{i}.jpg")
 
-        images.append(_image)
+        _image_info = ImageInfo(
+            filename = f"data/tmp/image{i}.jpg",
+            width = _image.width,
+            height = _image.height
+        )
+        image_info_list.append(_image_info)
         height_sum += _image.height
+        print(f"_image{i}", sys.getsizeof(_image.tobytes()))
+
+        if use_raw_image:
+            save_b64(f"data/image/{filename}", _image)
+            image_file_list.append(f"{filename}")
+
+    if use_raw_image:
+        return image_file_list
 
     # 1行に入る画像のインデックスを計算する
     rows = []
     rows.append([])
     _row_count = 0
     _height = 0
-    for i, _image in enumerate(images):
+    for i, _image in enumerate(image_info_list):
         if _height+_image.height < 1200:
             rows[_row_count].append(i)
             _height += _image.height + 10
@@ -330,54 +384,69 @@ def create_image(restaurant_info, debug=True):
     print(rows)
 
     # 2行ごとに画像生成し、リサイズしてつなぎ合わせて保存
-    image_files = []
-    for idx in range(int(len(rows)/2)):
+    image_file_list = []
+    for idx in range(len(rows)//2):
         # 1行目の生成
-        row1_image = Image.new("RGB", (400,1200))
+        row1_image = Image.new("RGB", (400, 1200), "#ffffff")
         _height = 0
         for i in rows[idx*2]:
-            row1_image.paste(images[i], (0,_height))
-            _height += images[i].height + 10
+            row1_image.paste(Image.open(image_info_list[i].filename), (0,_height))
+            _height += image_info_list[i].height + 10
         row1_image = row1_image.crop((0,0,400,max(1,_height-10)))
         # 2行目の生成
-        row2_image = Image.new("RGB", (400,1200))
         _height = 0
+        row2_image = Image.new("RGB", (400, 1200), "#ffffff")
         for i in rows[idx*2+1]:
-            row2_image.paste(images[i], (0,_height))
-            _height += images[i].height + 10
+            row2_image.paste(Image.open(image_info_list[i].filename), (0,_height))
+            _height += image_info_list[i].height + 10
         row2_image = row2_image.crop((0,0,400,max(1,_height-10)))
         # 2行目をリサイズして1行目の高さに合わせる
         row2_image = row2_image.resize(
-            (int(row2_image.width*row1_image.height/row2_image.height),
+            (row2_image.width*row1_image.height//row2_image.height,
             row1_image.height)
         )
+        print(f"row_image{idx}", sys.getsizeof(row1_image.tobytes()))
+        print(f"row1_image{idx}", sys.getsizeof(row2_image.tobytes()))
         # 1行目と2行目をつなぎ合わせてリサイズする
         row12_image = Image.new(
             "RGB",
             (row1_image.width+row2_image.width+10,
-            row1_image.height)
+            row1_image.height),
+            "#ffffff"
         )
         row12_image.paste(row1_image,(0,0))
         row12_image.paste(row2_image, (row1_image.width+10, 0))
         row12_image = row12_image.resize(
             (800,
-            max(1,int(row12_image.height*800/row12_image.width)))
+            max(1,row12_image.height*800//row12_image.width))
         )
         # new_imageにつなぎ合わせる
         new_image = Image.new("RGB", (800, 1200))
         new_image.paste(row12_image, (0, 0))
 
-        # データの保存
+        # 画像のb64の保存
         filename = restaurant_info['Restaurant_id']+"_"+str(idx)
-        buffer = BytesIO()
-        new_image.save(buffer, format="jpeg")
-        new_image_str = base64.b64encode(buffer.getvalue()).decode("ascii")
-        with open(f"./data/image/{filename}", "w") as f:
-            f.write(new_image_str)
-        # if debug:
-        #     new_image.save(f"./test/data/{filename}.jpg")
-        # else:
-        #     new_image.save(f"./data/tmp/{filename}.jpg")
-        image_files.append(filename)
+        save_b64(f"data/image/{filename}", new_image)
+        image_file_list.append(filename)
+        print(f"create_image: file saved at data/image/{filename}")
+        # 画像の保存
+        if use_local_image:
+            new_image.save(f"./data/tmp/{filename}.jpg")
+        else:
+            new_image.save(f"./data/tmp/{filename}.jpg")
+        print(f"new_image{idx}", sys.getsizeof(new_image.tobytes()))
 
-    return image_files
+        # メモリ解放
+        # del row12_image
+        # gc.collect()
+
+
+    # メモリ解放
+    del row1_image, row2_image, row12_image, new_image
+    gc.collect()
+    # キャッシュファイル削除
+    [os.remove(file) for file in glob.glob("data/tmp/image*.jpg")]
+
+
+    return image_file_list
+

@@ -908,7 +908,7 @@ def recommend_main(fetch_group, group_id, user_id):
             # 検索条件から、
         pre_search_params = recomm.pre_info(fetch_group, group_id, user_id)
         print("=========================")
-        print("pre_search_params")
+        print("recommend_main: pre_search_params:")
         print(pre_search_params)
         print("=========================")
             # APIで情報を取得し、

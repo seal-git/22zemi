@@ -56,8 +56,8 @@ geopy = "*"
 qrcode = "*"
 pillow = "*"
 sklearn = "*"
-sqlalchemy = "*"
 mysqlclient = "*"
+memory-profiler = "*"
 
 [dev-packages]
 
