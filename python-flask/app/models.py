@@ -346,8 +346,8 @@ def thread_info_wait(group_id, user_id, result):
     result[0] = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one().writable
 
 def thread_info(group_id, user_id, fetch_belong=None, fetch_group=None):
-    import hashlib
-    import base64
+    import hashlib, base64
+
     fetch_belong = fetch_belong if fetch_belong is not None else session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()
     fetch_belong.writable = False
 
@@ -363,7 +363,7 @@ def thread_info(group_id, user_id, fetch_belong=None, fetch_group=None):
     # restaurants_infoをテキスト化してdata/tmpにキャッシュとして保存
     response = create_response_from_restaurants_info(restaurants_info)
     filename = hashlib.md5(base64.b64encode(str(response).encode())).hexdigest()
-    print(filename)
+    print(f"thread_info: save cache at data/tmp/{filename}")
     with open(f"data/tmp/{filename}", "w")as f:
         f.write(str(response))
     fetch_belong.next_response = filename

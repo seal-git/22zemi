@@ -117,7 +117,7 @@ class ApiFunctionsYahoo(ApiFunctions):
         return review_rating_star + '    ' + ('%.1f' % review_rating), review_rating
 
 
-    def get_restaurant_info(self, fetch_group, group_id, lunch_or_dinner, feature, access_flag):
+    def feature_to_info(self, fetch_group, group_id, lunch_or_dinner, feature, access_flag):
         '''
         Yahoo local search APIで取得した店舗情報(feature)を、クライアントに送信するjsonの形式に変換する。
         
@@ -137,6 +137,7 @@ class ApiFunctionsYahoo(ApiFunctions):
         restaurant_info : dict
             レスポンスするレストラン情報をjson形式で返す。
         '''
+        print(f"feature_to_info(api_yahoo):{access_flag}")
         MAX_LIST_COUNT = 10
 
         restaurant_info = {}
@@ -194,6 +195,8 @@ class ApiFunctionsYahoo(ApiFunctions):
             レスポンスするレストラン情報をjson形式で返す。
         '''
 
+        print(f"get_info_from_api(api_yahoo):{access_flag}")
+
         lunch_time_start = 10 # 現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
         lunch_time_end = 15
 
@@ -224,7 +227,7 @@ class ApiFunctionsYahoo(ApiFunctions):
         # Yahoo local search apiで受け取ったjsonをクライアントアプリに送るjsonに変換する
         restaurants_info = []
         for i,feature in enumerate(local_search_json['Feature']):
-            restaurants_info.append(self.get_restaurant_info(fetch_group, group_id, lunch_or_dinner, feature, access_flag))
+            restaurants_info.append(self.feature_to_info(fetch_group, group_id, lunch_or_dinner, feature, access_flag))
             
         #各お店のオススメ度を追加(相対評価)
         restaurants_info = calc_info.calc_recommend_score(fetch_group, group_id, restaurants_info)
@@ -392,6 +395,7 @@ class ApiFunctionsGoogle(ApiFunctions):
             'opennow': 'true',
         })  # 検索クエリの設定(詳しくはPlace Search APIのドキュメント参照)
         print("================================")
+        print(f"google nearby search:")
         print(search_params)
         print("================================")
         try:
@@ -476,7 +480,9 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, histo
             start = session.query(Vote.restaurant).filter(Vote.group==group_id).count()
             result = search_params['stock'] + len(histories_restaurants) - start
             search_params.update({'start': start, 'result': result})
-            print('B start=',search_params['start'],', result=',search_params['result'])
+            print(f"search_restaurant_info: "
+                  f"B start={search_params['start']}, "
+                  f"result={search_params['result']}")
     
     # APIで店舗情報を取得
     restaurants_info = api_f.search_restaurants_info(fetch_group, group_id, search_params)
