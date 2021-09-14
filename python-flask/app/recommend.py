@@ -141,7 +141,6 @@ class RecommendSimple(Recommend):
         pre_search_params.update({
             'image': 'true', # 画像がある店
             #'open': 'now', # 現在開店している店舗
-            'stock': RESULTS_COUNT,
             'start': RESULTS_COUNT * (session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()).request_count, # 表示範囲：開始位置
             'results': RESULTS_COUNT, # 表示範囲：店舗数
         })
@@ -458,7 +457,7 @@ class RecommendQueue(Recommend):
         pre_search_params = get_search_params_from_fetch_group(fetch_group)
         pre_search_params.update({
             'image': 'true', # 画像がある店
-            'open': 'now', # 現在開店している店舗
+            # 'open': 'now', # 現在開店している店舗
             'stock': STOCK_COUNT,
         })
         return pre_search_params
@@ -633,12 +632,20 @@ class RecommendSVM(Recommend):
                 y_train[i_train] = alln * (r["VotesAll"] - r["VotesLike"]) - r["VotesLike"] # 訓練データのラベル
                 i_train += 1
 
-
-        print("itest=", i_test, " , unvoted_restaurants_count=", unvoted_restaurants_count)
+        print("i_train=", i_train, "i_test=", i_test)
         if i_test <= 0:
+            print("i_test=", i_test, " , unvoted_restaurants_count=", unvoted_restaurants_count)
             for rid, y in zip(rid_train, y_train):
                 fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==rid).one()
                 fetch_vote.recommend_priority = y
+                session.commit()
+            return
+        
+        if i_train <= 0:
+            print("i_train=", i_train, " , unvoted_restaurants_count=", unvoted_restaurants_count)
+            for rid, y in zip(rid_train, y_train):
+                fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==rid).one()
+                fetch_vote.recommend_priority = 0
                 session.commit()
             return
 
@@ -664,7 +671,7 @@ class RecommendSVM(Recommend):
         pre_search_params = get_search_params_from_fetch_group(fetch_group)
         pre_search_params.update({
             'image': 'true', # 画像がある店
-            'open': 'now', # 現在開店している店舗
+            # 'open': 'now', # 現在開店している店舗
             'stock': STOCK_COUNT,
         })
         return pre_search_params
@@ -880,11 +887,11 @@ def recommend_main(fetch_group, group_id, user_id):
     
     # TODO: レコメンド関数の追加
     recommend_method = fetch_group.recommend_method
-    recomm = RecommendSimple()
+    #recomm = RecommendSimple()
     #recomm = RecommendTemplate()
     #recomm = RecommendYahoo()
     #recomm = RecommendQueue()
-   #recomm = RecommendSVM()
+    recomm = RecommendSVM()
     if recommend_method in ['rating', 'score', 'hyblid', 'review', 'kana', 'price', 'dist', 'geo', '-rating', '-score', '-hyblid', '-review', '-kana', '-price', '-dist', '-geo']:
         recomm = RecommendSimple()
     elif recommend_method == 'template':
