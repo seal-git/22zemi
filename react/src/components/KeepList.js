@@ -13,8 +13,6 @@ import sampleData from "./sampleData2.json"
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import SortButton from './SortButton'
-import KeepListModal from './KeepListModal'
-import { CSSTransition, Transition } from 'react-transition-group';
 
 const useStyles = makeStyles((theme) => ({
     aloneStyle: {
@@ -27,17 +25,9 @@ const useStyles = makeStyles((theme) => ({
         backgroundImage: 'linear-gradient(180.02deg, #FFDDAA 0.02%, #FFFBFB 80.2%)',
         backgroundSize: 'cover',
     },
-    Keeplist_wrapper: {
-        minHeight: "100%",
-        display: "flex",
-        flexDirection: "column",
-    },
-    Keeplist: {
-        flex: 1,
-    },
     topWrapper: {
+        // display: 'block',
         width: '100%',
-        position: 'relative'
     },
     pageTitle: {
         display: 'block',
@@ -49,20 +39,14 @@ const useStyles = makeStyles((theme) => ({
         paddingLeft: '8px'
     },
     sortButtonWrapper: {
-        // width: '100%',
         paddingLeft: '6px',
+        width: '100%',
         display: 'flex',
         flexWrap: 'wrap',
-    },
-    modalWrapper: {
-        position: 'absolute',
-        height: '100%',
-        width: '100%',
-        justifyContent: 'space-around',
-        zIndex: 5,
+        // justifyContent: 'space-around',
+        // overflow: 'hidden',
     },
 }));
-
 
 // const initDataList = [{
 //     "Name": "Loading...",
@@ -115,9 +99,25 @@ function KeepList(props) {
                 // let dataList = response['data']
                 // テスト用データ
                 let dataList = sampleData
-
+                if (dataList === 0) {
+                    console.log("no data")
+                    dataList = []
+                } else {
+                    dataList.sort(function (a, b) {
+                        // 降順ソート
+                        if (+a.VotesLike > +b.VotesLike) return -1
+                        if (+a.VotesLike < +b.VotesLike) return 1
+                        return 0
+                    });
+                    dataList.sort(function (a, b) {
+                        // 降順ソート
+                        if (+a.VotesLike > +b.VotesLike) return -1
+                        if (+a.VotesLike < +b.VotesLike) return 1
+                        return 0
+                    });
+                }
                 console.log("keeplist length:" + dataList.length)
-                selectControl('sortByFavos');
+                setDataList(dataList)
             })
             .catch((error) => {
                 console.log(error);
@@ -206,7 +206,7 @@ function KeepList(props) {
     const KeepListTiles = () => {
         return (
             dataList.map((data) => (
-                <KeepListTile data={data} mode={props.mode} onClick={openModal} />
+                <KeepListTile data={data} mode={props.mode} />
             ))
         )
     }
@@ -226,34 +226,9 @@ function KeepList(props) {
         { text: 'おすすめ順', sortType: 'sortByRecommended' }
     ];
 
-    const [modalState, setModalState] = useState(false);
-    const [modalData, setModalData] = useState(['none']);
-
-    // KeepListTileに渡す関数、モーダルを開状態にしてデータを渡す
-    const openModal = (data) => {
-        console.log('open modal!')
-        setModalState(true);
-        setModalData(data);
-    }
-
-    // KeepListModalに渡す関数、モーダルを閉状態にする
-    const closeModal = () => {
-        setModalState(false);
-        // setModalData(['none']);
-    }
-
-
     return (
-        <div className={classes.Keeplist_wrapper}>
-            <CSSTransition in={modalState} classNames="modal" timeout={500} unmountOnExit>
-                <div className={classes.modalWrapper}>
-                    <KeepListModal
-                        data={modalData}
-                        modalState={modalState}
-                        onClick={closeModal} />
-                </div>
-            </CSSTransition>
-            <div className={classes.KeepList}>
+        <div className="Keeplist-wrapper">
+            <div className="Keeplist">
                 <div className={className}>
                     <Box className={classes.topWrapper}>
                         <Typography className={classes.pageTitle}>
@@ -280,7 +255,6 @@ function KeepList(props) {
                                 キープされたお店はありません
                             </Typography>}
                     </Box>
-
                     {/* <Box style={{ height: '48px' }}></Box> */}
                 </div>
             </div>

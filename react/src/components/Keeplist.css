@@ -1,14 +1,10 @@
-.modal-enter {
-  opacity: 0;
+.Keeplist-wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
-.modal-enter-active {
-  opacity: 1;
-  transition: opacity 300ms;
+
+.Keeplist{
+    flex: 1;
 }
-.modal-exit {
-  opacity: 1;
-}
-.modal-exit-active {
-  opacity: 0;
-  transition: opacity 300ms;
-}
+

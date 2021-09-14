@@ -13,6 +13,12 @@ const useStyles = makeStyles((theme) => ({
         margin: '10px',
         borderRadius: '10px',
     },
+    gridList: {
+        flexWrap: 'nowrap',
+        transform: 'translateZ(0)',
+        margin: '20px',
+        padding: '5px',
+    },
     media: {
         height: '130px',
     },
@@ -24,10 +30,6 @@ const useStyles = makeStyles((theme) => ({
 function KeepListTile(props) {
     const classes = useStyles()
     // const swichStyle = { props.mode == "Alone" ? { display: "none", } : { display: "block", } }
-
-    const onInfoBtnClicked = () => {
-        props.onClick(props.data)
-    }
 
     return (
         <Card className={classes.root}>
@@ -72,8 +74,8 @@ function KeepListTile(props) {
                     <Grid item xs={4}>
                         <div class="buttonWrapper">
                             <div class="buttonContainer">
-                                <div class="cardAction" onClick={() => { onInfoBtnClicked() }}>詳細を見る<span class="playIcon">▶︎</span></div>
-                                <div class="cardAction">予約する</div>
+                                <button class="cardAction">詳細を見る<span class="playIcon">▶︎</span></button>
+                                <button class="cardAction">予約する</button>
                             </div>
                         </div>
                     </Grid>
