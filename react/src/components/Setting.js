@@ -1,26 +1,10 @@
-import React from 'react';
-import { useState, useRef } from 'react';
-import './Setting.css'
-import {
-    Button,
-    Dialog,
-    DialogContent,
-    DialogTitle,
-    Paper,
-    Grid,
-    FormControl,
-    Input,
-    Container,
-    TextField,
-    Typography
-} from "@material-ui/core";
-import { makeStyles } from "@material-ui/core";
-import Logo from "./Reskima_Logo.png"
-import SearchButtonOne from "./search_button_one.png"
-import SearchButtonAll from "./search_button_all.png"
-import { assignNumGlobal } from './global'
-
-// 設定画面
+import React from 'react'
+import './css/Setting.css'
+// 他のファイルからインポート
+import Logo from "..//img/Reskima_Logo2.svg"
+/*
+ 設定画面のコンポーネント
+ */
 function Setting(props) {
     // 「選ぶ」画面に進む処理
     const proceedToSelection = (newMode, groupId) => {
@@ -46,64 +30,17 @@ function Setting(props) {
             newGroupId = props.produceId()
         }
         props.setGroupId(newGroupId)
+
         // 招待URLを更新
         props.callInviteUrl(newGroupId)
 
         // モード設定
         props.setMode(newMode)
 
-        // カード枚数表示を0にする
-        assignNumGlobal(0)
-
         // Selection に移る
         props.setView("Selection")
     }
 
-    // ポップアップ関連の設定
-    const useStyles = makeStyles((theme) => ({
-        root: {
-            '& .MuiTextField-root': {
-                margin: theme.spacing(0),
-                width: '14ch',
-                height: '2ch',
-                padding: '0',
-            },
-            '& .MuiOutlinedInput-input': {
-                padding: '8px',
-                height: '2ch'
-            }
-        },
-    }));
-    const classes = useStyles();
-
-    // ポップアップ制御
-    const [open, setOpen] = useState(false);
-    const handleClickOpen = () => {
-        setOpen(true);
-    };
-    const handleClose = () => {
-        setOpen(false);
-    };
-    const group_id = useRef("");
-    const enterGroup = () => {
-        console.log("enter group " + group_id.current.value);
-        handleClose();
-        proceedToSelection('Group', group_id.current.value)
-    };
-    const createGroup = () => {
-        console.log("create group!");
-        handleClose();
-        proceedToSelection('Group', "")
-    }
-
-    // フォーム
-    const CustomInput = (props) => {
-        return (
-            <TextField id={props.id}
-                defaultValue={props.defaultValue}
-                inputProps={{ 'aria-label': 'description' }} />
-        )
-    }
     return (
         <div className="setting">
             <div class="title-wrapper">
@@ -112,114 +49,79 @@ function Setting(props) {
                     className={"title-image"}
                     alt={"title"} />
             </div>
-            <div class="forms-wrapper">
-                <div class="form-content-wrapper">
-                    <div class="form-content">
-                        <div className="form-title">
-                            <Typography>
+            <div class="setting-wrapper">
+
+                <div class="forms-wrapper">
+                    <div class="form-label">
+                        <strong>
+                            条件を決める
+                        </strong>
+                    </div>
+                    <div class="form-content-wrapper">
+                        <div class="form-content">
+                            <div class="form-title">
                                 エリア
-                            </Typography>
+                            </div>
+                            <div class="input-wrapper">
+                                <input
+                                    id="inputArea"
+                                    placeholder="新宿"
+                                />
+                            </div>
                         </div>
-                        <CustomInput
-                            defaultValue={props.paramsForSearch['place']}
-                            id="inputArea"></CustomInput>
                     </div>
-                </div>
-                <div className="form-content-wrapper">
-                    <div className="form-content">
-                        <div className="form-title">
-                            <Typography>
+                    <div className="form-content-wrapper">
+                        <div className="form-content">
+                            <div className="form-title">
                                 ジャンル
-                            </Typography>
-                        </div>
-                        <div className="input-genre">
-                            <CustomInput
-                                defaultValue={props.paramsForSearch['genre']}
-                                id="inputGenre"></CustomInput>
+                            </div>
+                            <div>
+                                <input
+                                    id="inputGenre"
+                                    placeholder="中華料理"
+                                />
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="form-content-wrapper">
-                    <div className="form-content">
-                        <div className="form-title">
-                            <Typography>
+                    <div className="form-content-wrapper">
+                        <div className="form-content">
+                            <div className="form-title">
                                 予算
-                            </Typography>
+                            </div>
+                            <div>
+                                <input
+                                    id="inputMaxPrice"
+                                    type="text"
+                                    placeholder="4000"
+                                    data-format="$1 円以内"
+                                />
+                            </div>
                         </div>
-                        <div className="input-genre">
-                            <CustomInput
-                                defaultValue={props.paramsForSearch['maxprice']}
-                                id="inputMaxPrice"></CustomInput>
-                            円以内
+                    </div>
+                    <div className="form-content-wrapper">
+                        <div className="form-content">
+                            <div className="form-title">
+                                入店時間
+                            </div>
+                            <div>
+                                <input
+                                    id="inputTime"
+                                    value="12:00"
+                                    type="time"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="form-content-wrapper">
-                    <div className="form-content">
-                        <div className="form-title">
-                            <Typography>
-                                時間
-                            </Typography>
-                        </div>
-                        <div className="input-time">
-                            <TextField
-                                defaultValue={props.paramsForSearch['open_hour_str']}
-                                type="time" id="inputTime" />
-                        </div>
-                    </div>
+                <div class="buttons-wrapper">
+                    <button className="button-alone" onClick={() => {
+                        proceedToSelection("Alone", "")
+                    }}>
+                        <strong>
+                            みんなを招待する
+                        </strong>
+                    </button>
                 </div>
-            </div>
-            <div class="buttons-wrapper">
-                <button className="button-alone" onClick={() => {
-                    proceedToSelection("Alone", "")
-                }}>
-                    <img
-                        //buttonのstyleはここで指定しないと描画がずれる
-                        src={SearchButtonOne}
-                        className={"button-alone-image"}
-                        width={"auto"}
-                        alt={"ButtonAlone"}/>
-                </button>
-                <button className="button-group" onClick={() => {
-                    handleClickOpen("")
-                }}>
-                    <img
-                        //buttonのstyleはここで指定しないと描画がずれる
-                        src={SearchButtonAll}
-                        className={"button-group-image"}
-                        width={"auto"}
-                        alt={"ButtonGroup"}/>
-                </button>
-                <Dialog open={open}
-                    onClose={handleClose}
-                    aria-labelledby="form-dialog-title">
-                    <DialogTitle id="form-dialog-title">
-                        グループで選ぶ
-                    </DialogTitle>
-                    <DialogContent>
-                        <Paper className={classes.root}>
-                            <TextField
-                                id="group_id"
-                                label="グループID"
-                                variant="outlined"
-                                InputLabelProps={{ style: { fontSize: 12 } }}
-                                inputRef={group_id} />
-                            <Button onClick={enterGroup}
-                                variant="contained"
-                                color="primary"
-                                height="100%">
-                                入室
-                            </Button>
-                        </Paper>
-                        <div>
-                            <Button onClick={createGroup}
-                                color="secondary"
-                                variant="contained">
-                                ルームを新規作成
-                            </Button>
-                        </div>
-                    </DialogContent>
-                </Dialog>
             </div>
         </div>
     );

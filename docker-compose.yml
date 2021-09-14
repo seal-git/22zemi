@@ -33,6 +33,7 @@ services:
     volumes:
     - ./python-flask:/workspace
     tty: true
+    restart: on-failure
 
   mysql:
     image: mysql

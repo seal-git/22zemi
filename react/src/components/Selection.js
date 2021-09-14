@@ -1,42 +1,52 @@
-import React from 'react';
-import { useEffect, useState } from "react";
-import Buttons from "./Buttons";
-import RestaurantInformation from "./RestaurantInformation";
-import ButtonToChangeMode from "./ButtonToChangeMode";
-import ButtonToInvite from "./ButtonToInvite";
-import axios from "axios";
-import "./Selection.css";
-import TinderCard from 'react-tinder-card';
-import noImageIcon from "./no_image.png";
-import { assignNumGlobal } from './global';
-import Credit from "./Credit";
-import sampledata from "./sampleData.json"
-
-// スワイプでお店を選ぶ画面
+import React from 'react'
+import "./css/Selection.css"
+// パッケージからインポート
+import axios from "axios"
+import { useEffect, useState } from "react"
+// 他のファイルからインポート
+import ButtonToInvite from "./ButtonToInvite"
+import ButtonToShowComment from "./ButtonToShowComment"
+import RestaurantInformation from './RestaurantInformation'
+import RestaurantInformationDeck from './RestaurantInformationDeck'
+import noImageIcon from "..//img/no_image.png"
+import sampleDataList from "./sampleData.json"
 
 const initDataList = [{
   "Name": "Loading...",
-  "Images": [noImageIcon, noImageIcon],
-  "Price": ""
-}];
+  "Images": [noImageIcon ],
+  "Price": "",
+  "Restaurant_id": "init",
+}]
 const emptyDataList = [{
   "Name": "No Data:\n検索条件を変えてみてください",
-  "Images": [noImageIcon, noImageIcon]
-}];
+  "Images": [noImageIcon ],
+  "Restaurant_id": "empty",
+}]
 
+// カードのスタイル
 var wrapperStyle = {
   margin: 0,
-};
+  height: '90vh',
+  position: 'absolute',
 
+}
+
+/*
+ スワイプでお店を選ぶコンポーネント
+ */
 function Selection(props) {
-  const [dataList, setDataList] = useState(initDataList)
-  let cardNum = dataList.length
+  const [dataLists, setDataLists] = useState({
+    "topDataList": initDataList,
+    "standbyDataList":null,
+  })
   let isLoading = false
+  let hiddenDataList = null
 
   // APIからお店のデータを得る
-  const getInfo = (newUserId, newGroupId) => {
+  const getInfo = (newUserId, newGroupId, type="init", topDataList=null) => {
     if (isLoading) return;
     isLoading = true
+    
 
     // ユーザID を設定
     let userId = newUserId
@@ -48,7 +58,7 @@ function Selection(props) {
     if (newGroupId === undefined || newGroupId === null || newGroupId.length === 0) {
       groupId = props.groupId
     }
-    const paramsId = { "user_id": userId, "group_id": groupId };
+    const paramsId = { "user_id": userId, "group_id": groupId }
     const params = {
       ...paramsId, ...props.paramsForSearch,
       'open_hour': +props.paramsForSearch['open_hour_str'].slice(0, 2)
@@ -59,41 +69,69 @@ function Selection(props) {
     })
       .then(function (response) {
         console.log(response)
-        let dataList = response['data']
-        // let dataList = sampledata
-        cardNum = dataList.length
+        let receivedDataList = response['data']
+        let cardNum = receivedDataList.length
         if (cardNum > 0) {
-          console.log(dataList[0])
-          setDataList(dataList)
+          console.log(receivedDataList[0])
+          const newDataList = receivedDataList
+          if(type==="init"){
+            console.log("received topDataList")
+            isLoading = false
+            getInfo(null,null,"standby",newDataList)
+          } 
+          else if(type==="standby"){
+            setDataLists({
+              "topDataList":topDataList,
+              "standbyDataList":newDataList,
+            })
+          } 
+          else if(type==="preload"){
+            hiddenDataList = newDataList
+          } 
+          else {
+            console.log("undefined type")
+          }
         } else {
-          setDataList(emptyDataList)
+          if(type==="init"){
+            setDataLists({
+              "topDataList":emptyDataList,
+              "standbyDataList":emptyDataList,
+            })
+          }
+          else if(type==="standby"){
+            setDataLists({
+              "topDataList":topDataList,
+              "standbyDataList":emptyDataList,
+            })
+          } 
+          else if(type==="preload"){
+            hiddenDataList = emptyDataList
+          } else {
+            console.log("undefined type")
+          }
         }
         isLoading = false
       })
       .catch((error) => {
-        console.log("error:", error);
+        console.log("error:", error)
       });
   }
-
-  // 初レンダリング時に自動でデータを得る
-  useEffect(() => {
-    getInfo()
-  }, [])
-
-  // カードをめくる
-  const turnCard = () => {
-    // データリストが初期状態の場合何もしない
-    if (dataList[0].Name == initDataList[0].Name) return;
-    // カード枚数を1減らす
-    cardNum -= 1
-    if (cardNum == 0) {
-      // データリストの取得待ちであることを明示する
-      cardNum = 1
-      setDataList(initDataList)
-      // リスト取得
-      getInfo()
+  const setPreloadedDataList = () =>{
+    if(hiddenDataList!==null){
+      const newStandbyDataList = hiddenDataList 
+      hiddenDataList = null
+      setDataLists({
+        "topDataList":dataLists.standbyDataList,
+        "standbyDataList":newStandbyDataList,
+      })
     }
   }
+
+  useEffect(() => {
+    getInfo()
+    // Mount 時にだけ呼び出す
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   // APIにキープ・リジェクトを送信する
   const sendFeeling = (feeling, restaurant_id) => {
@@ -106,8 +144,6 @@ function Selection(props) {
     })
       .then(function (response) {
         console.log(response)
-        assignNumGlobal(response.data)
-        turnCard()
       })
       .catch((error) => {
         console.log("error:", error);
@@ -117,107 +153,84 @@ function Selection(props) {
   // 各ボタンに対応する関数
   const reject = (restaurant_id) => {
     console.log("reject")
-    if (isLoading) return;
+    if (isLoading) return null
     sendFeeling(false, restaurant_id)
   }
   const keep = (restaurant_id) => {
     console.log("keep:", restaurant_id)
-    if (isLoading) return;
+    if (isLoading) return null
     sendFeeling(true, restaurant_id)
   }
   // Home コンポーネント から受け取った turnMode を
   // ButtonToChangeMode 用に加工
   const turnMode = () => {
     // データリストの取得待ちであることを明示する
-    cardNum = 1
-    setDataList(initDataList)
+    setDataLists({
+      "topDataList":initDataList,
+      "standbyDataList":null,
+    })
     // モード切り替え
     props.turnMode()
   }
 
-  // カードの高さを指定する
-  function getAdaptiveStyle() {
-    let height = window.innerHeight;
-    height = document.getElementById("selection").getBoundingClientRect().height;
-    let wrapperStyle = {
-      height: height,
-    };
-    return wrapperStyle;
-  };
-  //windowサイズの変更検知のイベントハンドラを設定
-  window.addEventListener('load', () => {
-    wrapperStyle = getAdaptiveStyle();
-  });
+  let renderButtonToInvite = () =>{
+    return (
+      <ButtonToInvite
+        url={props.inviteUrl}
+        groupId={props.groupId} 
+        callInviteUrl={props.callInviteUrl}
+      />
+    )
+  }
+  let renderButtonToShowComment = () =>{
+    return (
+      <ButtonToShowComment
+      />
+    )
+  }
 
-  // swipe 操作をハンドル
-  const handleLeftScreen = (dir, restaurant_id) => {
-    console.log(dir)
-    if (dir === 'right') {
-      keep(restaurant_id)
-    } else {
-      reject(restaurant_id)
-    }
+  let renderStandbyRestaurantInformation = () =>{
+    if(dataLists.standbyDataList===null) return null
+    return (
+      <RestaurantInformation 
+        data={dataLists.standbyDataList[0]}
+        wrapperStyle={wrapperStyle}
+        keep={()=>{ console.log("pushed")}}
+        reject={()=>{console.log("pushed")}}
+      />
+    )
   }
-  const CardsContainer = (props) => {
-    // スワイプできない方向を設定
-    let prevents = ['up', 'down']
-    if (props.dataList === initDataList || props.dataList == emptyDataList) {
-      prevents = ['up', 'down', 'right', 'left']
-    }
-    // お店ごとに情報カードを生成
-    // TinderCard として扱うことでスワイプを可能にしている
-    return (props.dataList.reverse().map((data) => {
-      return (
-        <TinderCard
-          onCardLeftScreen={(dir) => {
-            handleLeftScreen(dir, data.Restaurant_id);
-          }}
-          preventSwipe={prevents}
-          className={'tinder-ui'}
-        >
-          <RestaurantInformation data={data}
-            wrapperStyle={wrapperStyle} />
-        </TinderCard>
-      );
-    }))
+
+  let renderRestaurantInformationDeck = () =>{
+    return (
+      <RestaurantInformationDeck
+        topDataList={dataLists.topDataList}
+        standbyDataList={dataLists.standbyDataList}
+        hasRestaurant={
+          dataLists.topDataList !== initDataList 
+          && dataLists.topDataList !== emptyDataList}
+        wrapperStyle={wrapperStyle}
+        keep={keep}
+        reject={reject}
+        getInfo={getInfo}
+        setPreloadedDataList={setPreloadedDataList}
+      />
+    )
   }
-  var display_style;
-  props.mode == "Alone" ? display_style = { display: "none" } : display_style = null;
 
   return (
     <div className="Selection-wrapper">
-      <ButtonToChangeMode
-        mode={props.mode}
-        turnMode={turnMode}
-        setUserId={props.setUserId}
-        setGroupId={props.setGroupId}
-        produceId={props.produceId}
-        getInfo={getInfo}
-      />
       <div className="Selection-header">
-        <div className={"Selection-header-content"}
-          style={display_style}>
-          <ButtonToInvite
-            url={props.inviteUrl}
-            groupId={props.groupId} 
-            callInviteUrl={props.callInviteUrl}
-            />
-          <div className="group-id">
-            ルームID:{props.groupId}
-          </div>
-        </div>
       </div>
       <div className="Selection" id={"selection"}>
-        {/* <RestaurantInformation data={dataList[idx]} wrapperStyle={wrapperStyle} /> */}
-        <div className='card-container'>
-          <CardsContainer dataList={dataList} />
-        </div>
-        {/* <Buttons reject={reject} keep={keep} /> */}{/*ボタンを取り付けようとすると工数が激増する。一旦保留*/}
+        { renderStandbyRestaurantInformation() }
+          {/* <RestaurantInformation data={dataList[idx]} wrapperStyle={wrapperStyle} /> */}
+        { renderRestaurantInformationDeck() }
+        { renderButtonToInvite() }
+        { renderButtonToShowComment() }
       </div>
-      <Credit />
     </div>
-
-  );
+  )
 }
 
-export default Selection;
+export default Selection

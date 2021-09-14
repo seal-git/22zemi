@@ -5,9 +5,10 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: #ff7474;
 }
 .Selection-header{
-    height: 40px;
+    height: 0;
 }
 .Selection-header-content{
     display: flex;
@@ -24,7 +25,7 @@
     font-size: 12px;
 }
 
-.card-container{
+.information-deck{
     height: 100%;
     position: relative;
 }

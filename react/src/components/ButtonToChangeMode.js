@@ -1,20 +1,19 @@
-import React from 'react';
-import "./ButtonToChangeMode.css";
-import ButtonNowAlone from "./button_now_alone.png";
-import ButtonNowGroup from "./button_now_group.png";
-
-
-import {useState, useRef} from 'react';
-import Button from '@material-ui/core/Button';
-import TextField from '@material-ui/core/TextField';
-import Dialog from '@material-ui/core/Dialog';
-import DialogActions from '@material-ui/core/DialogActions';
-import DialogContent from '@material-ui/core/DialogContent';
-import DialogContentText from '@material-ui/core/DialogContentText';
-import DialogTitle from '@material-ui/core/DialogTitle';
-import {Paper} from "@material-ui/core";
-import {makeStyles} from '@material-ui/core/styles';
-import { assignNumGlobal } from './global';
+import React from 'react'
+import "./ButtonToChangeMode.css"
+// パッケージからインポート
+import { useState, useRef } from 'react'
+import Button from '@material-ui/core/Button'
+import TextField from '@material-ui/core/TextField'
+import Dialog from '@material-ui/core/Dialog'
+import DialogActions from '@material-ui/core/DialogActions'
+import DialogContent from '@material-ui/core/DialogContent'
+import DialogTitle from '@material-ui/core/DialogTitle'
+import { Paper } from "@material-ui/core"
+import { makeStyles } from '@material-ui/core/styles'
+// 他のファイルからインポート
+import ButtonNowAlone from "..//img/button_now_alone.png"
+import ButtonNowGroup from "..//img/button_now_group.png"
+import { assignNumGlobal } from './global'
 
 /*
 「ひとりで」モードから「みんなで」モードに移るボタン
@@ -37,12 +36,14 @@ function ButtonToChangeMode(props) {
         let newUserId = props.produceId()
         props.setUserId(newUserId)
 
-        let newGroupId = groupId
         // グループIDを設定
+        let newGroupId = groupId
         if(newGroupId===undefined || newGroupId===null || newGroupId.length===0){
             newGroupId = props.produceId()
         }
         props.setGroupId(newGroupId)
+
+        // 設定したIDを返す
         return [newUserId, newGroupId]
     }
 
@@ -53,13 +54,12 @@ function ButtonToChangeMode(props) {
         let [newUserId,newGroupId] = setNewIds(groupIdRef.current.value)
         console.log("enter group ",newGroupId)
 
-        // 招待URLを設定
-        // props.callInviteUrl(newGroupId)
-         
         // モード切り替え
         props.turnMode()
+
         // カード枚数表示を0にする
         assignNumGlobal(0)
+
         // 情報取り直し
         props.getInfo(newUserId, newGroupId)
     };
@@ -70,26 +70,27 @@ function ButtonToChangeMode(props) {
         // ID を再設定
         let [newUserId,newGroupId] = setNewIds()
         console.log("create group ",newGroupId);
-        // 招待URLを設定
-        // props.callInviteUrl(newGroupId)
+
         // モード切り替え
         props.turnMode()
+
         // カード枚数表示を0にする
         assignNumGlobal(0)
+
         // 情報取り直し
         props.getInfo(newUserId, newGroupId)
     }
 
     const leaveGroup = () => {
         handleClose();
+
         // ID を再設定
         let [newUserId,newGroupId] = setNewIds()
         console.log("leave group to group ",newGroupId);
 
-        // 招待URLを設定
-        // props.setInviteUrl(props.callInviteUrl(newGroupId))
         // モード切り替え
         props.turnMode()
+
         // カード枚数表示を0にする
         assignNumGlobal(0)
 
@@ -114,7 +115,7 @@ function ButtonToChangeMode(props) {
 
     const classes = useStyles();
 
-    if (props.mode == "Alone") {
+    if (props.mode === "Alone") {
         return (
             <div className="ButtonToChangeMode">
                 <button className={"button-to-change-mode"}
@@ -156,7 +157,7 @@ function ButtonToChangeMode(props) {
                 </Dialog>
             </div>
         );
-    } else if (props.mode == "Group") {
+    } else if (props.mode === "Group") {
         return (
             <div className="ButtonToChangeMode">
                 <button className={"button-to-change-mode"}
@@ -187,4 +188,4 @@ function ButtonToChangeMode(props) {
     }
 }
 
-export default ButtonToChangeMode;
+export default ButtonToChangeMode

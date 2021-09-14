@@ -1,158 +1,89 @@
-import React from 'react';
-import { Box, CardContent } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
-import { createMuiTheme } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import IconButton from '@material-ui/core/IconButton';
-import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
-import Divider from '@material-ui/core/Divider';
-import Typography from '@material-ui/core/Typography';
-
-import CloseIcon from '@material-ui/icons/Close';
-import RoomIcon from '@material-ui/icons/Room';
-import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined';
-import FavoriteIcon from '@material-ui/icons/Favorite';
+import React from 'react'
+import './KeepListTile.css'
+// パッケージからインポート
+import { Box, CardContent, Grid } from '@material-ui/core'
+import { makeStyles } from '@material-ui/core/styles'
+import Card from '@material-ui/core/Card'
+import CardMedia from '@material-ui/core/CardMedia'
+import Typography from '@material-ui/core/Typography'
+import FavoriteIcon from '@material-ui/icons/Favorite'
 
 const useStyles = makeStyles((theme) => ({
-    space: {
-        fontSize: '10px'
-    },
     root: {
-        margin: '0 0 10px 0',
-        padding: '0px',
+        margin: '10px',
+        borderRadius: '10px',
     },
     gridList: {
         flexWrap: 'nowrap',
         transform: 'translateZ(0)',
         margin: '20px',
-        padding: '5px'
+        padding: '5px',
     },
-    titleBar: {
-        background:
-            'linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
+    media: {
+        height: '130px',
     },
-    cardContent: {
-        padding: '5px 10px'
-    },
-    cardContentSub: {
-        display: 'flex',
-        margin: '0px',
-        padding: '0px 0px',
-    },
-    cardActions: {
-        padding: '0',
-    },
-    textShopName: {
-        fontSize: '1.2rem',
-        fontWeight: 'bold'
-    },
-    textSecondary: {
-        fontSize: '1rem',
-        color: '#777777',
-        display: 'flex',
-        whiteSpace: 'pre-line'
-    },
-    textStars: {
-        color: '#fbc02d',
-        display: 'inline-block',
-        width: '40%'
-    },
-    textRecommend: {
-        display: 'inlineblock',
-        width: '60%',
-        textAlign: 'right'
-    },
-    textVotes: {
-        margin: '5px 0 0 30px',
-        padding: '5px 0 0 0',
-        textAlign: 'center',
-        fontSize: '1.2rem',
-        width: '100%',
-        backgroundColor: '#FFECC8',
-        borderTopLeftRadius: '24px',
-        borderTop: 'solid 1px #A03A00',
-        borderLeft: 'solid 1px #A03A00',
-        color: '#777777'
-    },
-    textVoteResult: {
-        fontSize: '1.4rem'
-    }
 }));
 
+/*
+ キープしたお店の情報1件を表示するコンポーネント
+ */
 function KeepListTile(props) {
-    const classes = useStyles();
-    const space = <span className={classes.space}>　</span>;
+    const classes = useStyles()
     // const swichStyle = { props.mode == "Alone" ? { display: "none", } : { display: "block", } }
 
     return (
-        <Card variant="outlined" className={classes.root}>
-            <GridList className={classes.gridList} cols={2.5} cellHeight={100}>
-                {props.data.Images.map((tile) => (
-                    <GridListTile key={tile} className={classes.gridListTile}>
-                        <img src={tile} />
-                    </GridListTile>
-                ))}
-            </GridList>
-            <CardContent className={classes.cardContent}>
+        <Card className={classes.root}>
 
-                <Typography className={classes.textShopName}>
-                    {props.data.Name}
-                </Typography>
-                <Divider />
-                <Typography className={classes.textSecondary} color="primary" >
-                    <span className={classes.textStars}>
-                        {props.data.ReviewRating}
-                    </span>
-                    <span className={classes.textRecommend}>
-                        {props.data.RecommendScore == ""
-                            ? ""
-                            : "おすすめ度" + props.data.RecommendScore + "%"}
-
-                    </span>
-                </Typography>
-                <Typography className={classes.textSecondary}>
-                    {props.data.Category == ""
-                        ? ""
-                        : props.data.Category}
-                    {space}
-                    {props.data.Price == ""
-                        ? ""
-                        : "~" + props.data.Price + "円"}
-                    {space}{props.data.Distance}
-                </Typography>
-                <Typography className={classes.textSecondary} >
-                    {props.data.BusinessHour}
-                </Typography>
+            <CardMedia
+                className={classes.media}
+                image="https://thumb.photo-ac.com/3d/3d0a74fabc7dfa20c50ef766bf733f45_w.jpeg"
+                title="tempImg"
+            />
+            <CardContent class="cardContent">
+                <Grid container spacing={0}>
+                    <Grid item xs={12}>
+                        <Typography class="textVotes"
+                            style={props.mode === "Alone" ? { display: "block", } : { display: "block", }}>
+                            <span class="textVoteResult">
+                                <FavoriteIcon style={{ fontSize: 16, paddingRight: '5px' }} />
+                                {props.data.VotesLike}
+                            </span>
+                            /{props.data.VotesAll}
+                        </Typography>
+                    </Grid>
+                    <Grid item xs={8}>
+                        <Grid container spacing={0}>
+                            <Grid item xs={12}>
+                                <Typography class="textShopName">
+                                    {props.data.Name}
+                                </Typography>
+                            </Grid>
+                            <Grid item xs={12}>
+                                <Typography class="textSecondary">
+                                    {props.data.Category}/~¥{props.data.Price}/{props.data.BusinessHour}
+                                </Typography>
+                            </Grid>
+                            <Grid item xs={12}>
+                                <Typography class="textSecondary">
+                                    <span class="textStars">★</span>
+                                    {props.data.ReviewRating}
+                                </Typography>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <div class="buttonWrapper">
+                            <div class="buttonContainer">
+                                <button class="cardAction">詳細を見る<span class="playIcon">▶︎</span></button>
+                                <button class="cardAction">予約する</button>
+                            </div>
+                        </div>
+                    </Grid>
+                </Grid>
             </CardContent>
-            <Box className={classes.cardContentSub}>
-                <CardActions className={classes.cardActions}>
-                    {/* <IconButton>
-                        <CloseIcon />
-                    </IconButton> */}
-                    <IconButton onClick={(e) => {
-                        e.preventDefault();
-                        window.open(props.data.UrlYahooMap, '_blank');
-                    }}>
-                        <RoomIcon />
-                    </IconButton>
-                    <IconButton onClick={(e) => {
-                        e.preventDefault();
-                        window.open(props.data.UrlYahooLoco, '_blank')
-                    }}>
-                        <InfoOutlinedIcon />
-                    </IconButton>
-                </CardActions>
-                <Typography className={classes.textVotes}
-                    style={props.mode == "Alone" ? { display: "none", } : { display: "block", }}>
-                    <FavoriteIcon style={{ fontSize: 18 }} />
-                    <span className={classes.textVoteResult}>{props.data.VotesLike}</span>
-                    /{props.data.VotesAll}
-                </Typography>
-            </Box>
+
         </Card >
-    );
+    )
 }
 
-export default KeepListTile;
+export default KeepListTile

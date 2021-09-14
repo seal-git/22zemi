@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 import { useState, useEffect } from "react"
-import axios from 'axios';
+import axios from 'axios'
 
 // APIを試す画面
 function ApiTest() {
@@ -11,7 +11,7 @@ function ApiTest() {
   const getInfo = () => {
     axios.post('/api/info',{ params: {
       user_id:"hoge",
-      group_id:"fuga"
+      group_id:"fuga",
     }
     })
     .then(function(response){
@@ -24,8 +24,8 @@ function ApiTest() {
       setResult(restaurantName)
     })
     .catch((error) => {
-      console.log("error:",error);
-    });
+      console.log("error:",error)
+    })
   }
 
   useEffect( ()=> {
@@ -42,7 +42,7 @@ function ApiTest() {
           Update
         </button>
     </div>
-  );
+  )
 }
 
-export default ApiTest;
+export default ApiTest
