@@ -112,6 +112,7 @@ def load_restaurants_info(restaurant_ids):
     restaurants_info : [dict]
         レスポンスするレストラン情報を返す。
     '''
+    print(f"load_restaurants_info: load {len(restaurant_ids)} items")
     restaurants_info = [None for rid in restaurant_ids]
     fetch_restaurants = session.query(Restaurant).filter(Restaurant.id.in_(restaurant_ids)).all()
     for f_restaurant in fetch_restaurants:
