@@ -44,12 +44,13 @@ function Setting(props) {
     return (
         <div className="setting">
             <div class="title-wrapper">
-                {/* <img
+                <img
                     src={Logo}
                     className={"title-image"}
-                    alt={"title"} /> */}
+                    alt={"title"} />
             </div>
             <div class="setting-wrapper">
+
                 <div class="forms-wrapper">
                     <div class="form-label">
                         <strong>
