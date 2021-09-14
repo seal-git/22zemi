@@ -57,6 +57,7 @@ qrcode = "*"
 pillow = "*"
 sklearn = "*"
 mysqlclient = "*"
+memory-profiler = "*"
 
 [dev-packages]
 

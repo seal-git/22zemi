@@ -1,4 +1,5 @@
 from app.models import *
+from memory_profiler import profile
 
 def test_http_info():
     url = 'http://localhost:5000/info'
@@ -10,5 +11,4 @@ def test_http_info():
     }
     headers = {"Content-Type":"application/json"}
     res = requests.post(url=url, data=json.dumps(params), headers=headers)
-    print(res)
     assert res

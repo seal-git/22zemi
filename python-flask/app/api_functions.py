@@ -7,6 +7,7 @@ from abc import ABCMeta, abstractmethod
 from flask import abort
 # from PIL import Image
 # from io import BytesIO
+from memory_profiler import profile
 
 
 '''
@@ -691,7 +692,7 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, histo
 
     return restaurants_info
 
-
+@profile
 def get_restaurants_info(fetch_group, group_id, restaurant_ids):
     '''
     restaurant_idsのお店をユーザに返す

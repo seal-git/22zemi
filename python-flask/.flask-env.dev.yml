@@ -1,0 +1,4 @@
+#デバッグ用の環境変数。使わないものはFalseにする。
+DEBUG: True
+USE_LOCAL_IMAGE: False
+USE_RAW_IMAGE: False
