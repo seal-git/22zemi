@@ -1,5 +1,5 @@
 import React from 'react'
-import "./css/KeepList.css"
+import "./Keeplist.css"
 // パッケージからインポート
 import { useEffect, useState, useRef } from "react"
 import axios from "axios"
