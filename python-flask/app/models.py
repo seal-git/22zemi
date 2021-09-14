@@ -21,7 +21,7 @@ import threading
 #   Trueにすると高速化できるが、レコメンドの反映が遅れる
 #   RecommendSimpleなら NEXT_RESPONSE = True , RECOMMEND_PRIORITY = False 。
 #   RecommendSVM   なら NEXT_RESPONSE = False, RECOMMEND_PRIORITY = True  。
-NEXT_RESPONSE = False
+NEXT_RESPONSE = True
 RECOMMEND_PRIORITY = True # RecommendSimpleでTrueにすると死にます
 
 RECOMMEND_METHOD = 'svm'
@@ -485,10 +485,13 @@ def http_feeling():
     alln = session.query(Belong).filter(Belong.group==group_id).count() # 参加人数
     notification_badge = str( session.query(Vote).filter(Vote.group==group_id, Vote.votes_like==alln).count() )
     if RECOMMEND_PRIORITY:
-        fetch_group = session.query(Group).filter(Group.id==group_id).one()
-        recommend.recommend_main(fetch_group, group_id, user_id)
+        t = threading.Thread(target=thread_feeling, args=(group_id, user_id))
+        t.start()
     return notification_badge
 
+def thread_feeling(group_id, user_id):
+    fetch_group = session.query(Group).filter(Group.id==group_id).one()
+    recommend.recommend_main(fetch_group, group_id, user_id)
 
 @app_.route('/list', methods=['GET','POST'])
 def http_list():
