@@ -1,206 +1,213 @@
 import React from 'react'
-import './RestaurantInformation.css'
 // パッケージからインポート
-import { useRef, useEffect } from 'react'
-import { CardContent } from '@material-ui/core'
+import { useState, useEffect } from 'react'
 import { makeStyles, withStyles } from '@material-ui/core/styles'
 import Card from '@material-ui/core/Card'
-import GridList from '@material-ui/core/GridList'
-import GridListTile from '@material-ui/core/GridListTile'
+import { Chip } from '@material-ui/core'
 import Typography from '@material-ui/core/Typography'
-import Divider from '@material-ui/core/Divider'
-import IconButton from '@material-ui/core/IconButton'
 // 他ファイルからインポート
 import Buttons from './Buttons'
 
 const useStyles = makeStyles((theme) => ({
-    wrapper: {
+    RestaurantInformation :{
         backgroundColor: 'transparent',
-        margin: '5px 5px 100px 5px',
         height: '100%',
+        width: '100%',
+        margin: '3px',
+        position: 'absolute',
+        webkitUserSelect: 'none',
+        mozUserSelect: 'none',
+            MsUserSelect: 'none',
+                userSelect: 'none',
     },
     cardRoot: {
-        // marginBottom: '10px',
-        height: '100%',
+        height: '99%',
+        width: '98%',
+        right: '0',
+        left: '0',
+        top: '0',
+        bottom: '0',
+        margin: 'auto',
         boxSizing: "border-box",
-        display: "flex",
-        flexDirection: "column",
         borderRadius: '30px',
-        position: 'relative',
+        position: 'absolute',
     },
-    gridList: {
-        width: '100%',
-        height: '100%',
-        padding: '1px',
-        overflowY: 'scroll',
-    },
-    gridListTile: {
-    },
-    cardContent: {
-        width: "100%",
-        boxSizing: "border-box",
-        paddingBottom: "0px",
-        display: 'block',
-        flexWrap: 'wrap',
-        justifyContent: 'space-around',
-        // overflow: 'hidden',
-        backgroundColor: theme.palette.background.paper,
-        textAlign: 'left',
-        // padding: '3px',
-        // "&:last-child": {
-        //   paddingBottom: '5px'
-        // }
-    },
-    textShopName: {
-        fontSize: '1.4rem',
+    textPrimary: {
+        fontSize: '2rem',
         fontWeight: 'bold',
         whiteSpace: 'pre-wrap',
+        color: 'white',
     },
     textSecondary: {
         fontSize: '1rem',
-        color: '#777777',
+        color: 'white',
         display: 'flex',
         whiteSpace: 'pre-line',
     },
     textStars: {
-        color: '#fbc02d',
+        color: 'white',
         display: 'inline-block',
         width: '40%',
     },
     space: {
         display: 'inline-block',
-        margin: '0 2px',
+        margin: '0',
     },
-    title: {
-        fontSize: 14,
+    imageContainer :{
+        position: 'absolute',
+        width: '100%',
+        height: '100%',
+        backgroundColor: 'transparent',
     },
-    pos: {
-        marginBottom: 12,
+    image :{
+        height: '100%',
+        objectFit: 'cover',
+        backgroundColor: 'transparent',
+        webkitUserSelect: 'none',
+        mozUserSelect: 'none',
+        MsUserSelect: 'none',
+        userSelect: 'none',
+        pointerEvents: 'none',
+        willChange: 'opacity',
+        position: 'absolute',
     },
+    imageFilter :{
+        width: '100%',
+        height: '100%',
+        position: 'absolute',
+        background: `linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 70%,rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 1))`,
+    },
+    cardContentWrapper :{
+        height: 'auto',
+        width: '100%',
+        position: 'absolute',
+        bottom: '15%',
+    },
+    tagsContainer: {
+        display: 'flex',
+        flexWrap: 'wrap',
+        alignContent: 'space-evenly',
+    },
+    imageBarContainer:{
+        width: '80%',
+        height: '10px',
+        top: '5%',
+        left: '10%',
+        display: 'flex',
+        position: 'absolute',
+    },
+    imageBarSelected :{
+        height: '100%',
+        width: '100%',
+        background: 'rgba(255,255,255,1)',
+        boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.75)',
+        border: '2px solid gray',
+        borderRadius: '10%',
+        margin: '1%',
+        cursor: 'pointer',
+    },
+    imageBar :{
+        height: '100%',
+        width: '100%',
+        background: 'rgba(0,0,0,0.4)',
+        boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.75)',
+        border: '2px solid gray',
+        borderRadius: '10%',
+        margin: '1%',
+        cursor: 'pointer',
+    }
 }));
+
+const StyledChipRating = withStyles({
+    root: {
+        backgroundColor: '#FFAD0D',
+        color: 'white',
+        fontSize: '1rem',
+    }
+})(Chip);
+const StyledChipTag = withStyles({
+    root: {
+        backgroundColor: '#FF7474',
+        color: 'white',
+        fontSize: '1rem',
+    }
+})(Chip);
 
 /*
  キープ/リジェクト画面にてお店の情報 1件を表示するコンポーネント
  */
 function RestaurantInformation(props) {
-    const classes = useStyles()
+    const classes = useStyles(props)
     const space = <span className={classes.space}>　</span>
-    const gl = useRef(null)
 
-    const scroll = (stepNum, scrollStep, vector) => {
-        const step = scrollStep / stepNum
-        gl.current.scrollTop += vector * step
-    }
+    const [index, setIndex] = useState(0)
 
-    const scrollGrid = (vector) => {
-        console.log(vector);
-        if (gl.current.scrollHeight > gl.current.clientHeight) {
-            const scrollStep = 150
-            const stepNum = 20
-            for (let i = 1; i <= stepNum; i++) {
-                setTimeout(() => (scroll(stepNum, scrollStep, vector)), i * 5)
-            }
-        }
-    };
-
-    useEffect(() => {
-        // console.log(gl.current);
-    }, [])
-
-    const ScrollButton = withStyles({
-        root: {
-            width: '100%',
-            height: '28%',
-            textAlign: 'center',
-            position: 'absolute',
-            // zIndex: '2',
-            color: 'white',
-        },
-    })(IconButton);
-    const ScrollButtonTop = withStyles({
-        root: {
-            top: '0',
-        },
-        label:{
-            verticalAlign: 'top',
-            marginBottom: 'auto',
-        },
-    })(ScrollButton)
-    const ScrollButtonBottom = withStyles({
-        root: {
-            bottom: '0',
-        },
-        label:{
-            verticalAlign: 'bottom',
-            marginTop: 'auto',
-        },
-    })(ScrollButton)
-
-
-    // お店画像の描画
-    const renderImages = (images) =>{
+    const renderBars = () => {
         return(
-            <div className='glWrapper'>
-                <GridList
-                    className={classes.gridList}
-                    cols={props.data.Images.length <= 4 ? 1 : 2}
-                    spacing={2}
-                    ref={gl}
-                >
-                    {images.map((tile,i) => (
-                        <GridListTile key={props.data.Restaurant_id+i}
-                            className={classes.gridListTile}>
-                            <img src={tile} alt="" />
-                        </GridListTile>
-                    ))}
-                </GridList>
-                <ScrollButtonTop onClick={() => {
-                    scrollGrid(-1)
-                }}
-                    onTouchEnd={() => scrollGrid(-1)}>
-                    ^
-                </ScrollButtonTop>
-
-                <ScrollButtonBottom onClick={() => {
-                    scrollGrid(1)
-                }}
-                    onTouchEnd={() => scrollGrid(1)}>
-                    v
-                </ScrollButtonBottom>
-                {/* <Divider /> */}
+            <div className={classes.imageBarContainer}>
+                {props.data.Images.map( (image,i) =>{
+                    return <div 
+                    className={i===index?classes.imageBarSelected:classes.imageBar}
+                    onClick={()=>{ setIndex(i)}}
+                    />
+                })} 
             </div>
         )
     }
 
+    useEffect(() => {
+        const currentIndex = index
+        const t = setInterval(
+            () => {
+                if(currentIndex!==undefined && currentIndex===index){
+                    setIndex(state => (state + 1) % props.data.Images.length)
+                }
+            }
+        , 5000)
+        return ()=>{clearInterval(t)}
+    },[index])
+
+    // お店画像の描画
+    const renderImages = (restaurant_id) =>{
+        return(
+            <div className={classes.imageContainer}>
+                {props.data.Images.map( (image,i)=>{
+                    return <img 
+                        className={classes.image}
+                        id={restaurant_id+'-image'+i}
+                        alt={'restaurant-image'+i}
+                        src={image} 
+                        style={{opacity: index===i?1:0, transition:'0.5s',}}
+                    />
+                  })}
+            </div>
+        )
+    }
+
+
     // お店情報の描画
+    const isNotEmpty = (str) =>{
+        return str!==undefined && str!==null && str!==""
+    }
     const renderCardContent = (data) =>{
         return (
-            <div className={"cardContentWrapper"}>
-                <CardContent className={classes.cardContent}>
-                    <Typography className={classes.textShopName}>
-                        {data.Name}
-                    </Typography>
-                    <Divider />
-                    <Typography className={classes.textSecondary}
-                        color="primary">
-                        <span className={classes.textStars}>
-                            {data.ReviewRating}
-                        </span>
-                    </Typography>
-                    <Typography className={classes.textSecondary}>
-                        {data.Category === ""
-                            ? "カテゴリなし"
-                            : data.Category}
-                        {space}
-                        {data.Price === ""
-                            ? ""
-                            : "~" + data.Price + "円"}
-                        {space}{data.Distance}
-                    </Typography>
-                    <Typography className={classes.textSecondary}>
-                        {data.BusinessHour}
-                    </Typography>
-                </CardContent>
+            <div className={classes.cardContentWrapper}>
+                <Typography className={classes.textPrimary}>
+                    {data.Name}
+                </Typography>
+                {space}
+                <Typography >
+                    {isNotEmpty(data.ReviewRating)
+                    ?<StyledChipRating label={data.ReviewRating} />
+                    :null}
+                </Typography>
+                {space}
+                <Typography className={classes.tagsContainer}>
+                    {isNotEmpty(data.Category)? <StyledChipTag label={data.Category} />: null }
+                    {isNotEmpty(data.Price)?<StyledChipTag label={'~\xA5'+data.Price} />:null}
+                    {isNotEmpty(data.BusinessHour)?<StyledChipTag label={data.BusinessHour} />:null}
+                    {isNotEmpty(data.Distance)?<StyledChipTag label={data.Distance} />:null}
+                </Typography>
             </div>
         )
     }
@@ -216,11 +223,13 @@ function RestaurantInformation(props) {
     }
 
     return (
-        <div className="RestaurantInformation" style={props.wrapperStyle}>
+        <div className={classes.RestaurantInformation} style={props.wrapperStyle}>
             <Card variant="outlined" className={classes.cardRoot}>
-                {renderImages(props.data.Images)}
+                {renderImages(props.data.restaurant_id)}
+                <div className={classes.imageFilter} />
                 {renderCardContent(props.data)}
                 {renderButtons()}
+                {renderBars()}
             </Card>
         </div>
     )
