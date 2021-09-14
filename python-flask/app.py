@@ -13,5 +13,5 @@ for key,value in config.items():
 from app import app_
 
 if __name__ == '__main__':
-    app_.run(host="0.0.0.0", port=5000, debug=True)  #
+    app_.run(host="0.0.0.0", port=5000)  #
     # debug=Trueで自動更新されるようになる
