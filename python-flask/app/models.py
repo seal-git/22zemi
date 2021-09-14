@@ -326,10 +326,15 @@ def http_info():
             t.start()
             t.join()
     # 検索して店舗情報を取得
-    response = fetch_belong.next_response
-    if response is None:
+    cache_file = fetch_belong.next_response
+    if cache_file is None:
         response = thread_info(group_id, user_id, fetch_belong=fetch_belong, fetch_group=fetch_group)
-    
+    else:
+        # キャッシュを読み込んで、読んだら削除する
+        with open(f"data/tmp/{cache_file}") as f:
+            response = f.read()
+        os.remove(f"data/tmp/{cache_file}")
+
     # 高速化：次回のアクセスで返す情報を生成しておく
     fetch_belong.next_response = None
     session.commit()
@@ -341,6 +346,8 @@ def thread_info_wait(group_id, user_id, result):
     result[0] = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one().writable
 
 def thread_info(group_id, user_id, fetch_belong=None, fetch_group=None):
+    import hashlib, base64
+
     fetch_belong = fetch_belong if fetch_belong is not None else session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()
     fetch_belong.writable = False
 
@@ -348,13 +355,18 @@ def thread_info(group_id, user_id, fetch_belong=None, fetch_group=None):
     fetch_group = fetch_group if fetch_group is not None else session.query(Group).filter(Group.id==group_id).one()
     restaurants_info = recommend.recommend_main(fetch_group, group_id, user_id)
     
-    if restaurants_info == None:
+    if restaurants_info is None:
         # error
         restaurants_info = []
         fetch_belong.next_response = None
 
+    # restaurants_infoをテキスト化してdata/tmpにキャッシュとして保存
     response = create_response_from_restaurants_info(restaurants_info)
-    fetch_belong.next_response = str(response)
+    filename = hashlib.md5(base64.b64encode(str(response).encode())).hexdigest()
+    print(f"thread_info: save cache at data/tmp/{filename}")
+    with open(f"data/tmp/{filename}", "w")as f:
+        f.write(str(response))
+    fetch_belong.next_response = filename
     fetch_belong.request_count += 1
     fetch_belong.request_restaurants_num += len(restaurants_info)
     fetch_belong.writable = True
@@ -525,8 +537,8 @@ def http_test():
 def error_handler(e):
     res = jsonify({ 
                      "error": {
-                          "name": error.name, 
-                          "description": error.description 
+                          "name": e.name,
+                          "description": e.description
                       }
                    })
     return res, e.code

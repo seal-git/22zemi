@@ -138,13 +138,13 @@ class RecommendSimple(Recommend):
     def pre_info(self, fetch_group, group_id, user_id):
         # YahooローカルサーチAPIで検索するクエリ
         pre_search_params = get_search_params_from_fetch_group(fetch_group)
-        # pre_search_params.update({
-        #     'image': 'true', # 画像がある店
-        #     'open': 'now', # 現在開店している店舗
-        #     'stock': RESULTS_COUNT,
-        #     #'start': RESULTS_COUNT * (session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()).request_count, # 表示範囲：開始位置
-        #     #'results': RESULTS_COUNT, # 表示範囲：店舗数
-        # })
+        pre_search_params.update({
+            'image': 'true', # 画像がある店
+            #'open': 'now', # 現在開店している店舗
+            'stock': RESULTS_COUNT,
+            'start': RESULTS_COUNT * (session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()).request_count, # 表示範囲：開始位置
+            'results': RESULTS_COUNT, # 表示範囲：店舗数
+        })
         return pre_search_params
 
 
@@ -880,11 +880,11 @@ def recommend_main(fetch_group, group_id, user_id):
     
     # TODO: レコメンド関数の追加
     recommend_method = fetch_group.recommend_method
-    #recomm = RecommendSimple()
+    recomm = RecommendSimple()
     #recomm = RecommendTemplate()
     #recomm = RecommendYahoo()
     #recomm = RecommendQueue()
-    recomm = RecommendSVM()
+   #recomm = RecommendSVM()
     if recommend_method in ['rating', 'score', 'hyblid', 'review', 'kana', 'price', 'dist', 'geo', '-rating', '-score', '-hyblid', '-review', '-kana', '-price', '-dist', '-geo']:
         recomm = RecommendSimple()
     elif recommend_method == 'template':
@@ -908,7 +908,7 @@ def recommend_main(fetch_group, group_id, user_id):
             # 検索条件から、
         pre_search_params = recomm.pre_info(fetch_group, group_id, user_id)
         print("=========================")
-        print("pre_search_params")
+        print("recommend_main: pre_search_params:")
         print(pre_search_params)
         print("=========================")
             # APIで情報を取得し、
@@ -918,7 +918,7 @@ def recommend_main(fetch_group, group_id, user_id):
         restaurants_ids = recomm.response_info(fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants)
             # 店舗情報を返す。
         restaurants_info = api_functions.get_restaurants_info(fetch_group, group_id, restaurants_ids)
-
+        print(f"RecommendMethod:{recommend_method}")
         print(f"data_num {len(restaurants_info)}")
         if len(restaurants_info) >= 1:
             # 履歴を保存

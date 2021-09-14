@@ -1,65 +1,52 @@
 import React from 'react'
-import "./Selection.css"
+import "./css/Selection.css"
 // パッケージからインポート
 import axios from "axios"
 import { useEffect, useState } from "react"
 // 他のファイルからインポート
-import { assignNumGlobal } from './global'
-import ButtonToChangeMode from "./ButtonToChangeMode"
 import ButtonToInvite from "./ButtonToInvite"
-import Credit from "./Credit"
+import ButtonToShowComment from "./ButtonToShowComment"
 import RestaurantInformation from './RestaurantInformation'
 import RestaurantInformationDeck from './RestaurantInformationDeck'
 import noImageIcon from "..//img/no_image.png"
+import sampleDataList from "./sampleData.json"
 
 const initDataList = [{
   "Name": "Loading...",
-  "Images": [noImageIcon, noImageIcon],
+  "Images": [noImageIcon ],
   "Price": "",
   "Restaurant_id": "init",
 }]
 const emptyDataList = [{
   "Name": "No Data:\n検索条件を変えてみてください",
-  "Images": [noImageIcon, noImageIcon],
+  "Images": [noImageIcon ],
   "Restaurant_id": "empty",
 }]
 
 // カードのスタイル
 var wrapperStyle = {
   margin: 0,
+  height: '90vh',
+  position: 'absolute',
+
 }
-
-// カードの高さを指定する
-function getAdaptiveStyle() {
-    // let height = window.innerHeight
-    let height = document.getElementById("selection").getBoundingClientRect().height
-    let wrapperStyle = {
-        height: height,
-    }
-    return wrapperStyle
-};
-
-//windowサイズの変更検知のイベントハンドラを設定
-window.addEventListener('load', () => {
-    wrapperStyle = getAdaptiveStyle()
-})
 
 /*
  スワイプでお店を選ぶコンポーネント
  */
 function Selection(props) {
   const [dataLists, setDataLists] = useState({
-    "topDataList":initDataList,
+    "topDataList": initDataList,
     "standbyDataList":null,
   })
-  let hiddenDataList = null
   let isLoading = false
+  let hiddenDataList = null
 
   // APIからお店のデータを得る
   const getInfo = (newUserId, newGroupId, type="init", topDataList=null) => {
     if (isLoading) return;
-    // if(dataList!==initDataList && !isPreloading) setDataList(initDataList)
     isLoading = true
+    
 
     // ユーザID を設定
     let userId = newUserId
@@ -157,7 +144,6 @@ function Selection(props) {
     })
       .then(function (response) {
         console.log(response)
-        assignNumGlobal(response.data)
       })
       .catch((error) => {
         console.log("error:", error);
@@ -187,25 +173,18 @@ function Selection(props) {
     props.turnMode()
   }
 
-  let renderButtonToChangeMode = () =>{
-    return (
-      <ButtonToChangeMode
-        mode={props.mode}
-        turnMode={turnMode}
-        setUserId={props.setUserId}
-        setGroupId={props.setGroupId}
-        produceId={props.produceId}
-        getInfo={getInfo}
-      />
-    )
-  }
-
   let renderButtonToInvite = () =>{
     return (
       <ButtonToInvite
         url={props.inviteUrl}
         groupId={props.groupId} 
         callInviteUrl={props.callInviteUrl}
+      />
+    )
+  }
+  let renderButtonToShowComment = () =>{
+    return (
+      <ButtonToShowComment
       />
     )
   }
@@ -239,29 +218,17 @@ function Selection(props) {
     )
   }
 
-  const display_style = 
-    (props.mode==="Alone")? {display:"none"}: null
-
   return (
     <div className="Selection-wrapper">
-      { renderButtonToChangeMode() }
       <div className="Selection-header">
-        <div className={"Selection-header-content"}
-          style={display_style}>
-          { renderButtonToInvite() }
-          <div className="group-id">
-            ルームID:{props.groupId}
-          </div>
-        </div>
       </div>
       <div className="Selection" id={"selection"}>
         { renderStandbyRestaurantInformation() }
-        <div className='information-deck'>
           {/* <RestaurantInformation data={dataList[idx]} wrapperStyle={wrapperStyle} /> */}
-          { renderRestaurantInformationDeck() }
-        </div>
+        { renderRestaurantInformationDeck() }
+        { renderButtonToInvite() }
+        { renderButtonToShowComment() }
       </div>
-      <Credit />
     </div>
   )
 }
