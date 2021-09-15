@@ -471,18 +471,17 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, histo
     elif api_method == "google":
         api_f = ApiFunctionsGoogle() 
     
-    # 重複して表示しないようにするため、履歴を取得
-    histories_restaurants = [h.restaurant for h in session.query(History.restaurant).filter(History.group==group_id, History.user==user_id).all()]
-    
     if api_method == "yahoo":
         # APIで店舗情報を取得
-        if 'start' not in search_params or 'result' not in search_params:
+        if 'stock' in search_params:
             start = session.query(Vote.restaurant).filter(Vote.group==group_id).count()
             result = search_params['stock'] + len(histories_restaurants) - start
             search_params.update({'start': start, 'result': result})
             print(f"search_restaurant_info: "
-                  f"B start={search_params['start']}, "
+                  f"start={search_params['start']}, "
                   f"result={search_params['result']}")
+        else:
+            print("search_restaurant_info: not use stock.")
     
     # APIで店舗情報を取得
     restaurants_info = api_f.search_restaurants_info(fetch_group, group_id, search_params)
@@ -492,7 +491,7 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, histo
     calc_info.save_votes(group_id, restaurants_info)
 
     # 以前に検索したレストランはデータベースから取得する
-    fetch_restaurants = session.query(Restaurant).filter(Vote.group==group_id, Vote.votes_all==-1, Vote.restaurant==Restaurant.id).all()
+    fetch_restaurants = session.query(Restaurant).filter(Vote.group==group_id, Vote.restaurant==Restaurant.id).all() # 未送信のもののみを取得するときはfilterに`Vote.votes_all==-1`を加える
     restaurants_info_from_db = [calc_info.convert_restaurants_info_from_fetch_restaurants(r) for r in fetch_restaurants]
     restaurants_list_from_db = [r['Restaurant_id'] for r in restaurants_info_from_db]
     restaurants_info = restaurants_info_from_db + [r for r in restaurants_info if r['Restaurant_id'] not in restaurants_list_from_db]

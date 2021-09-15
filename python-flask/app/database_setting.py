@@ -63,10 +63,10 @@ class Group(Base):
     max_price = Column('max_price', Integer) # 検索条件 # 金額上限
     min_price = Column('min_price', Integer) # 検索条件 # 金額下限
     sort = Column('sort', String(50)) # 検索条件 # 表示順
-    recommend_method = Column('recommend_method', String(50)) # 検索条件 # レコメンド
+    recommend_method = Column('recommend_method', String(50), nullable=False) # 検索条件 # レコメンド
+    api_method = Column('api_method', String(50), nullable=False) # 検索条件 # レコメンド
     price_average = Column('group_price', Float) # レコメンド # 平均価格
     distance_average = Column('group_distance', Float) # レコメンド # 平均距離
-    api_method = Column('api_method', String(50)) # 検索条件 # レコメンド
     created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
     updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)
     password = Column('password', String(50)) # パスワード (2021/08/21 未使用)

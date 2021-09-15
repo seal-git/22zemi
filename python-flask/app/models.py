@@ -17,6 +17,15 @@ import sqlalchemy
 from sqlalchemy.sql.functions import current_timestamp
 import threading
 
+# SPEED_UP_FLG
+#   Trueにすると高速化できるが、レコメンドの反映が遅れる
+#   RecommendSimpleなら NEXT_RESPONSE = True , RECOMMEND_PRIORITY = False 。
+#   RecommendSVM   なら NEXT_RESPONSE = False, RECOMMEND_PRIORITY = True  。
+NEXT_RESPONSE = True
+RECOMMEND_PRIORITY = True # RecommendSimpleでTrueにすると死にます
+
+RECOMMEND_METHOD = 'svm'
+API_METHOD = 'yahoo'
 
 def generate_group_id():
     '''
@@ -145,6 +154,40 @@ def get_lat_lon_address(query):
         
     return lat, lon, address
 
+def get_restaurants_info_from_recommend_priority(fetch_group, group_id, user_id):
+    '''
+    あらかじめ優先度が計算されていたら、優先度順にレストランを取得する。
+    
+    Parameters
+    ----------------
+    fetch_group
+    group_id
+    user_id
+    
+    Returns
+    ----------------
+    restaurnts_info : [dict]
+    '''
+    histories_restaurants = [h.restaurant for h in session.query(History.restaurant).filter(History.group==group_id, History.user==user_id).all()]
+    fetch_votes = session.query(Vote).filter(Vote.group==group_id, Vote.recommend_priority is not None).order_by(Vote.recommend_priority).all()
+    restaurants_ids = []
+    for fv in fetch_votes:
+        if fv.restaurant not in histories_restaurants:
+            restaurants_ids.append(fv.restaurant)
+            if len(restaurants_ids) == recommend.RESULTS_COUNT:
+                return api_functions.get_restaurants_info(fetch_group, group_id, restaurants_ids)
+    
+    # まだ優先度を計算していない時や，RecommendSimple等で優先度を計算しない時
+    fetch_votes = session.query(Vote).filter(Vote.group==group_id, Vote.recommend_priority is None).all()
+    for fv in fetch_votes:
+        if fv.restaurant not in histories_restaurants:
+            restaurants_ids.append(fv.restaurant)
+            if len(restaurants_ids) == recommend.RESULTS_COUNT:
+                return api_functions.get_restaurants_info(fetch_group, group_id, restaurants_ids)
+    
+    # ストックしている店舗数が足りない時。最初のリクエスト等。
+    return recommend.recommend_main(fetch_group, group_id, user_id)
+
 
 def create_response_from_restaurants_info(restaurants_info):
     '''
@@ -227,8 +270,8 @@ def http_invite():
     maxprice = data["maxprice"] if data.get("maxprice", False) else None
     minprice = data["minprice"] if data.get("minprice", False) else None
     sort = data["sort"] if data.get("sort", False) else None
-    recommend_method = data["recommend_method"] if data.get("recommend_method", False) else None
-    api_method = data["api_method"] if data.get("api_method", False) else None
+    recommend_method = data["recommend_method"] if data.get("recommend_method", False) else RECOMMEND_METHOD
+    api_method = data["api_method"] if data.get("api_method", False) else API_METHOD
     
     group_id = group_id if group_id is not None else generate_group_id()
     
@@ -269,10 +312,8 @@ def http_info():
     maxprice = data["maxprice"] if data.get("maxprice", False) else None
     minprice = data["minprice"] if data.get("minprice", False) else None
     sort = data["sort"] if data.get("sort", False) else None
-    recommend_method = data["recommend_method"] if data.get("recommend_method", False) else None
-    api_method = data["api_method"] if data.get("api_method", False) else None
-    api_method = "yahoo"
-
+    recommend_method = data["recommend_method"] if data.get("recommend_method", False) else RECOMMEND_METHOD
+    api_method = data["api_method"] if data.get("api_method", False) else API_METHOD
 
     group_id = group_id if group_id is not None else get_group_id(user_id)
 
@@ -317,43 +358,52 @@ def http_info():
     # 検索条件をデータベースに保存
     set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort, fetch_group=fetch_group)
 
-    # 他のスレッドで検索中だったら待つ
-    if not fetch_belong.writable:
-        result = [False]
-        while not result[0]:
-            time.sleep(1)
-            t = threading.Thread(target=thread_info_wait, args=(group_id, user_id, result))
-            t.start()
-            t.join()
-    # 検索して店舗情報を取得
-    cache_file = fetch_belong.next_response
-    if cache_file is None:
-        response = thread_info(group_id, user_id, fetch_belong=fetch_belong, fetch_group=fetch_group)
-    else:
-        # キャッシュを読み込んで、読んだら削除する
-        with open(f"data/tmp/{cache_file}") as f:
-            response = f.read()
-        os.remove(f"data/tmp/{cache_file}")
+    if NEXT_RESPONSE:
+        # 他のスレッドで検索中だったら待つ
+        if not fetch_belong.writable:
+            result = [False]
+            while not result[0]:
+                time.sleep(1)
+                t = threading.Thread(target=thread_info_wait, args=(group_id, user_id, result))
+                t.start()
+                t.join()
+        # 検索して店舗情報を取得
+        cache_file = fetch_belong.next_response
+        if cache_file is None:
+            response = thread_info(False, group_id, user_id, fetch_belong=fetch_belong, fetch_group=fetch_group)
+        else:
+            # キャッシュを読み込んで、読んだら削除する
+            with open(f"data/tmp/{cache_file}") as f:
+                response = f.read()
+            os.remove(f"data/tmp/{cache_file}")
 
-    # 高速化：次回のアクセスで返す情報を生成しておく
-    fetch_belong.next_response = None
-    session.commit()
-    t = threading.Thread(target=thread_info, args=(group_id, user_id))
-    t.start()
-    return response
+        # 高速化：次回のアクセスで返す情報を生成しておく
+        fetch_belong.next_response = None
+        session.commit()
+        t = threading.Thread(target=thread_info, args=(True, group_id, user_id))
+        t.start()
+        return response
+    
+    else:
+        response = thread_info(False, group_id, user_id, fetch_belong=fetch_belong, fetch_group=fetch_group)
+        return response
 
 def thread_info_wait(group_id, user_id, result):
     result[0] = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one().writable
 
-def thread_info(group_id, user_id, fetch_belong=None, fetch_group=None):
+def thread_info(make_cache, group_id, user_id, fetch_belong=None, fetch_group=None):
     import hashlib, base64
 
     fetch_belong = fetch_belong if fetch_belong is not None else session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()
     fetch_belong.writable = False
-
     session.commit()
+
     fetch_group = fetch_group if fetch_group is not None else session.query(Group).filter(Group.id==group_id).one()
-    restaurants_info = recommend.recommend_main(fetch_group, group_id, user_id)
+    
+    if RECOMMEND_PRIORITY:
+        restaurants_info = get_restaurants_info_from_recommend_priority(fetch_group, group_id, user_id)
+    else:
+        restaurants_info = recommend.recommend_main(fetch_group, group_id, user_id)
     
     if restaurants_info is None:
         # error
@@ -362,11 +412,12 @@ def thread_info(group_id, user_id, fetch_belong=None, fetch_group=None):
 
     # restaurants_infoをテキスト化してdata/tmpにキャッシュとして保存
     response = create_response_from_restaurants_info(restaurants_info)
-    filename = hashlib.md5(base64.b64encode(str(response).encode())).hexdigest()
-    print(f"thread_info: save cache at data/tmp/{filename}")
-    with open(f"data/tmp/{filename}", "w")as f:
-        f.write(str(response))
-    fetch_belong.next_response = filename
+    if make_cache:
+        filename = hashlib.md5(base64.b64encode(str(response).encode())).hexdigest()
+        print(f"thread_info: save cache at data/tmp/{filename}")
+        with open(f"data/tmp/{filename}", "w")as f:
+            f.write(str(response))
+        fetch_belong.next_response = filename
     fetch_belong.request_count += 1
     fetch_belong.request_restaurants_num += len(restaurants_info)
     fetch_belong.writable = True
@@ -432,8 +483,15 @@ def http_feeling():
 
     # 通知の数を返す。全会一致の店の数
     alln = session.query(Belong).filter(Belong.group==group_id).count() # 参加人数
-    return str( session.query(Vote).filter(Vote.group==group_id, Vote.votes_like==alln).count() )
+    notification_badge = str( session.query(Vote).filter(Vote.group==group_id, Vote.votes_like==alln).count() )
+    if RECOMMEND_PRIORITY:
+        t = threading.Thread(target=thread_feeling, args=(group_id, user_id))
+        t.start()
+    return notification_badge
 
+def thread_feeling(group_id, user_id):
+    fetch_group = session.query(Group).filter(Group.id==group_id).one()
+    recommend.recommend_main(fetch_group, group_id, user_id)
 
 @app_.route('/list', methods=['GET','POST'])
 def http_list():
