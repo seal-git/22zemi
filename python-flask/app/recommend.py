@@ -914,10 +914,11 @@ def recommend_main(fetch_group, group_id, user_id):
         # 主な処理
         # APIで情報を取得し、
         restaurants_info = recomm.search(fetch_group, group_id, user_id)
-        print("stock =", len(restaurants_info), ", history =", len(histories_restaurants))
-            # ユーザに表示する店を選び、
+        print(f"results ={len(restaurants_info)}, "
+              f"history ={len(histories_restaurants)}")
+        # ユーザに表示する店を選び、
         restaurants_ids = recomm.filter(fetch_group, group_id, user_id, restaurants_info, histories_restaurants)
-            # 店舗情報を返す。
+        # 店舗情報を返す。
         restaurants_info = api_functions.get_restaurants_info(fetch_group, group_id, restaurants_ids)
         print(f"data_num {len(restaurants_info)}")
         if len(restaurants_info) >= 1:
