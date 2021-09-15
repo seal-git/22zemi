@@ -1,4 +1,4 @@
-from app import api_functions, calc_info
+from app import database_functions, api_functions, calc_info
 import json
 import os
 import random
@@ -213,7 +213,7 @@ class RecommendOriginal(Recommend):
                 keep_genre_count = []
                 weight_price = 0
                 weight_distance = 0
-                keep_restaurants_info = calc_info.load_restaurants_info(keep_restaurant_ids)
+                keep_restaurants_info = database_functions.load_restaurants_info(keep_restaurant_ids)
                 keep_restaurants_info = calc_info.add_votes_distance(fetch_group, group_id, keep_restaurants_info)
                 for r in keep_restaurants_info:
                     id = r["Restaurant_id"]
@@ -251,7 +251,7 @@ class RecommendOriginal(Recommend):
             if len(through_restaurant_ids) > 0:
                 through_genre = [] #throughした店のgenre
                 through_genre_count = []
-                through_restaurants_info = calc_info.load_restaurants_info(through_restaurant_ids)
+                through_restaurants_info = database_functions.load_restaurants_info(through_restaurant_ids)
                 through_restaurants_info = calc_info.add_votes_distance(fetch_group, group_id, through_restaurants_info)
                 for r in through_restaurants_info:
                     id = r["Restaurant_id"]
@@ -292,7 +292,7 @@ class RecommendOriginal(Recommend):
             
             # 履歴からrecommendするお店を取得
             non_voted_restaurant_ids =[v.restaurant for v in session.query(Vote).filter(Vote.votes_all==-1)]
-            recommend_restaurants_info = calc_info.load_restaurants_info(non_voted_restaurant_ids)
+            recommend_restaurants_info = database_functions.load_restaurants_info(non_voted_restaurant_ids)
             recommend_restaurants_info = calc_info.add_votes_distance(fetch_group, group_id, recommend_restaurants_info)
             restaurants_id_list = []
             for r in recommend_restaurants_info:
@@ -425,12 +425,12 @@ class RecommendQueue(Recommend):
         weight_price = 0.4
         weight_distance = 0.3
         weight_genre = 0.3
-        alln = session.query(Belong).filter(Belong.group==group_id).count() # 参加人数
+        participants_count = database_functions.participants_count(group_id)
         for ri in pre_restaurants_info:
             fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==ri['Restaurant_id']).one()
             
             # votes_like_score
-            votes_like_score = alln * (fetch_vote.votes_all - fetch_vote.votes_like) - fetch_vote.votes_like # 1人でも反対した店は後回し
+            votes_like_score = participants_count * (fetch_vote.votes_all - fetch_vote.votes_like) - fetch_vote.votes_like # 1人でも反対した店は後回し
             
             # price_score
             price = ri['Price']
@@ -576,7 +576,7 @@ class RecommendSVM(Recommend):
 
         # recommend_priorityを計算する。--------
 
-        alln = session.query(Belong).filter(Belong.group==group_id).count() # 参加人数
+        participants_count = database_functions.participants_count(group_id) # 参加人数
         unvoted_restaurants_count = len(pre_restaurants_info) - voted_restaurants_count
 
         # 学習のためのベクトル生成
@@ -630,7 +630,7 @@ class RecommendSVM(Recommend):
             else:
                 rid_train[i_train] = r["Restaurant_id"]
                 x_train[i_train][:] = vec[:]
-                y_train[i_train] = alln * (r["VotesAll"] - r["VotesLike"]) - r["VotesLike"] # 訓練データのラベル
+                y_train[i_train] = participants_count * (r["VotesAll"] - r["VotesLike"]) - r["VotesLike"] # 訓練データのラベル
                 i_train += 1
 
         print("i_train=", i_train, "i_test=", i_test)
@@ -789,36 +789,6 @@ def get_search_params_from_fetch_group(fetch_group, search_params={}):
     return search_params
 
 
-def save_histories(group_id, user_id, restaurants_info):
-    '''
-    ユーザの表示履歴を保存する
-    '''
-    for i,r in enumerate(restaurants_info):
-        fetch_history = session.query(History).filter(History.group==group_id, History.user==user_id, History.restaurant==r["Restaurant_id"]).first()
-        if fetch_history is None:
-            new_history = History()
-            new_history.group = group_id
-            new_history.user = user_id
-            new_history.restaurant = r["Restaurant_id"]
-            new_history.feeling = None
-            session.add(new_history)
-            session.commit()
-        
-        fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==r["Restaurant_id"]).first()
-        if fetch_vote is None:
-            new_vote = Vote()
-            new_vote.group = group_id
-            new_vote.restaurant = r["Restaurant_id"]
-            new_vote.votes_all = 0
-            new_vote.votes_like = 0
-            session.add(new_vote)
-            session.commit()
-        else:
-            if fetch_vote.votes_all==-1:
-                fetch_vote.votes_all = 0
-                fetch_vote.votes_like = 0
-                session.commit()
-
 
 def restaurants_info_price_filter(max_price, min_price, restaurants_info):
     '''
@@ -910,7 +880,7 @@ def recommend_main(fetch_group, group_id, user_id):
     histories_restaurants = [h.restaurant for h in session.query(History.restaurant).filter(History.group==group_id, History.user==user_id).all()]
     
     # 結果が0件なら繰り返す
-    for i in range(3):
+    for i in range(5):
         # 主な処理
             # 検索条件から、
         pre_search_params = recomm.pre_info(fetch_group, group_id, user_id)
@@ -928,34 +898,15 @@ def recommend_main(fetch_group, group_id, user_id):
         print(f"RecommendMethod:{recommend_method}")
         print(f"data_num {len(restaurants_info)}")
         if len(restaurants_info) >= 1:
-            # 履歴を保存
-            save_histories(group_id, user_id, restaurants_info)
             return restaurants_info
+
         else:
-            if i > 1:
+            # error: 検索結果なし
+            print("検索結果なし:", i)
+            if i >= 2 and recommend_method=="original":
+                recomm = RecommendSimple()
+                recommend_method = "simple"
+            if i >= 3:
                 histories_restaurants = [] # 結果が0件のときは履歴をなかったことにしてもう一周
     
-    # originalでダメならば、simpleで返す　TODO
-    if recommend_method=="original":
-        if len(restaurants_info) == 0:
-            recomm = RecommendSimple()
-            recommend_method = "simple"
-            for i in range(10):
-                    # 検索条件から、
-                pre_search_params = recomm.pre_info(fetch_group, group_id, user_id)
-                        # 重複して表示しないようにするため、履歴を取得
-                histories_restaurants = [h.restaurant for h in session.query(History.restaurant).filter(History.group==group_id, History.user==user_id).all()]
-                    # APIで情報を取得し、
-                pre_restaurants_info = api_functions.search_restaurants_info(fetch_group, group_id, user_id, pre_search_params, histories_restaurants)
-                    # ユーザに表示する店を選び、
-                restaurants_ids = recomm.response_info(fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants)
-                    # 店舗情報を返す。
-                restaurants_info = api_functions.get_restaurants_info(fetch_group, group_id, restaurants_ids)
-
-                print(f"RecommendMethod:{recommend_method}")
-                print(f"data_num {len(restaurants_info)}")
-                if len(restaurants_info) >= 1:
-                    # 履歴を保存
-                    save_histories(group_id, user_id, restaurants_info)
-                    return restaurants_info
     return []

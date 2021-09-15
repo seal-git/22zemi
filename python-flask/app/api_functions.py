@@ -1,7 +1,7 @@
 import requests
 import os
 import datetime
-from app import calc_info
+from app import database_functions, calc_info
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 from abc import ABCMeta, abstractmethod
 # from PIL import Image
@@ -12,12 +12,12 @@ from abc import ABCMeta, abstractmethod
 
 APIで店舗情報を取得する。
 ========
-search_restaurant_infoとget_restaurant_infoが最初に呼ばれる。
+search_restaurants_infoとget_restaurants_infoが最初に呼ばれる。
 
 # 新しいAPIの記述
  - ApiFunctionsクラスを継承して記述してください。
  - ApiFunctionsYahooクラスを参考にしてください
- - search_restaurant_info関数とget_restaurant_info関数に作ったクラスを追加してください。
+ - search_restaurants_info関数とget_restaurants_info関数に作ったクラスを追加してください。
 
 # 主な流れ
 search_restaurants_info関数は検索条件(search_params)から店の情報(restaurants_info)を取得する。
@@ -274,7 +274,7 @@ class ApiFunctionsGoogle(ApiFunctions):
             except Exception as e:
                 abort(e.code)
             feature = local_search_json['result']
-            restaurant_info = self.get_restaurant_info(fetch_group, group_id, feature)
+            restaurant_info = self.feature_to_info(fetch_group, group_id, feature)
             restaurants_info.append(restaurant_info)
             
         #各お店のオススメ度を追加(相対評価)
@@ -312,7 +312,7 @@ class ApiFunctionsGoogle(ApiFunctions):
                 return image_urls
         return image_urls
 
-    def get_restaurant_info(self, fetch_group, group_id, feature):
+    def feature_to_info(self, fetch_group, group_id, feature):
         '''
         Google APIで取得した店舗情報(feature)を、クライアントに送信するjsonの形式に変換する。
         
@@ -412,7 +412,7 @@ class ApiFunctionsGoogle(ApiFunctions):
         # apiで受け取ったjsonをクライアントアプリに送るjsonに変換する
         restaurants_info = []
         for i,feature in enumerate(local_search_json['results']): #最大20件まで取れる
-            restaurant_info = self.get_restaurant_info(fetch_group, group_id, feature)
+            restaurant_info = self.feature_to_info(fetch_group, group_id, feature)
             restaurants_info.append(restaurant_info)
             
         #各お店のオススメ度を追加(相対評価)
@@ -487,12 +487,12 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, histo
     restaurants_info = api_f.search_restaurants_info(fetch_group, group_id, search_params)
 
     # データベースに店舗情報を保存
-    calc_info.save_restaurants_info(restaurants_info)
-    calc_info.save_votes(group_id, restaurants_info)
+    database_functions.save_restaurants_info(restaurants_info)
+    database_functions.save_votes(group_id, restaurants_info)
 
     # 以前に検索したレストランはデータベースから取得する
     fetch_restaurants = session.query(Restaurant).filter(Vote.group==group_id, Vote.restaurant==Restaurant.id).all() # 未送信のもののみを取得するときはfilterに`Vote.votes_all==-1`を加える
-    restaurants_info_from_db = [calc_info.convert_restaurants_info_from_fetch_restaurants(r) for r in fetch_restaurants]
+    restaurants_info_from_db = [database_functions.convert_restaurants_info_from_fetch_restaurants(r) for r in fetch_restaurants]
     restaurants_list_from_db = [r['Restaurant_id'] for r in restaurants_info_from_db]
     restaurants_info = restaurants_info_from_db + [r for r in restaurants_info if r['Restaurant_id'] not in restaurants_list_from_db]
 
@@ -530,7 +530,7 @@ def get_restaurants_info(fetch_group, group_id, restaurant_ids):
 
     # データベースから店舗情報を取得
     restaurant_ids_del_none = [x for x in restaurant_ids if x is not None]
-    restaurants_info = calc_info.load_restaurants_info(restaurant_ids_del_none)
+    restaurants_info = database_functions.load_stable_restaurants_info(restaurant_ids_del_none)
 
     # データベースにない店舗の情報をAPIで取得
     rest_ids = [rid for rid, r_info in zip(restaurant_ids, restaurants_info) if r_info is None]
