@@ -181,7 +181,7 @@ def get_restaurants_info_from_recommend_priority(fetch_group, group_id, user_id)
     for fv in fetch_votes:
         if fv.restaurant not in histories_restaurants:
             restaurants_ids.append(fv.restaurant)
-            if len(restaurants_ids) == recommend.RESULTS_COUNT:
+            if len(restaurants_ids) == recommend.RESPONSE_COUNT:
                 return api_functions.get_restaurants_info(fetch_group, group_id, restaurants_ids)
     
     # まだ優先度を計算していない時や，RecommendSimple等で優先度を計算しない時
@@ -189,7 +189,7 @@ def get_restaurants_info_from_recommend_priority(fetch_group, group_id, user_id)
     for fv in fetch_votes:
         if fv.restaurant not in histories_restaurants:
             restaurants_ids.append(fv.restaurant)
-            if len(restaurants_ids) == recommend.RESULTS_COUNT:
+            if len(restaurants_ids) == recommend.RESPONSE_COUNT:
                 return api_functions.get_restaurants_info(fetch_group, group_id, restaurants_ids)
     
     # ストックしている店舗数が足りない時。最初のリクエスト等。

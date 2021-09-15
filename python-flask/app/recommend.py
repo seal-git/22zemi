@@ -32,8 +32,8 @@ recommend_main関数が最初に呼ばれる。
 
 '''
 
-RESULTS_COUNT = config.MyConfig.RESULTS_COUNT # 一回に返す店舗の数
-STOCK_COUNT = config.MyConfig.STOCK_COUNT # APIで取得するデータの数．STOCK_COUNT個の店からRESULTS_COUNT個選ぶ
+RESPONSE_COUNT = config.MyConfig.RESPONSE_COUNT # 一回に返す店舗の数
+SEARCH_COUNT = config.MyConfig.SEARCH_COUNT # APIで取得するデータの数
 MAX_DISTANCE = config.MyConfig.MAX_DISTANCE # 中心地からの距離 上限20
 
 #カテゴリの類似度が高い物
@@ -135,7 +135,7 @@ class RecommendTemplate(Recommend):
         # 重み順にソートして出力
         restaurants_info_tuple = sorted(zip(weight, pre_restaurants_info), key=lambda x:x[0], reverse=True)
         restaurants_ids = [rj[1]['Restaurant_id'] for rj in restaurants_info_tuple]
-        return restaurants_ids[0 : RESULTS_COUNT]
+        return restaurants_ids[0: RESPONSE_COUNT]
 
 
 class RecommendSimple(Recommend):
@@ -146,7 +146,7 @@ class RecommendSimple(Recommend):
         # 検索条件を追加
         search_params.image = True  # 画像がある店
         search_params.sort = "hybrid"
-        search_params.results = config.MyConfig.RESULTS_COUNT
+        search_params.results = config.MyConfig.RESPONSE_COUNT
 
         # Yahooの形式にして検索
         search_params = search_params.get_yahoo_params()
@@ -161,7 +161,7 @@ class RecommendSimple(Recommend):
         pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
 
         # if fetch_group.max_price is not None: restaurants_info = get_restaurants_info_price_filter(fetch_group.max_price, restaurants_info)
-        restaurants_info = pre_restaurants_info[:RESULTS_COUNT] # 指定した数だのお店だけを選択
+        restaurants_info = pre_restaurants_info[:RESPONSE_COUNT] # 指定した数だのお店だけを選択
         return [r['Restaurant_id'] for r in restaurants_info]
 
 
@@ -178,7 +178,7 @@ class RecommendYahoo(Recommend):
         search_params.image = True  # 画像がある店
         search_params.open_now = True  # 現在開店している店舗
         search_params.sort = "hybrid" # 評価や距離などを総合してソート
-        search_params.results = config.MyConfig.RESULTS_COUNT
+        search_params.results = config.MyConfig.RESPONSE_COUNT
 
         # Yahooの形式にして検索
         search_params = search_params.get_yahoo_params()
@@ -215,7 +215,7 @@ class RecommendOriginal(Recommend):
 
         voted= [[v.restaurant, v.votes_like, v.votes_all] for v in session.query(Vote).filter(Vote.group==group_id, Vote.votes_all>0).all()]
         if len(voted) == 0:
-            return [r['Restaurant_id'] for r in pre_restaurants_info][0:RESULTS_COUNT]
+            return [r['Restaurant_id'] for r in pre_restaurants_info][0:RESPONSE_COUNT]
         else:
             #keepに関して
             keep_restaurant_ids = [v[0] for v in voted if v[1] > 0]
@@ -352,7 +352,7 @@ class RecommendWords(Recommend):
 
         restaurants_info = sorted(pre_restaurants_info, key=lambda x:x['ReviewRating'], reverse=True)
         stop_index = [i for i, x in enumerate(restaurants_info) if x['ReviewRating'] < 3][0]
-        restaurants_info = restaurants_info[:min(stop_index, RESULTS_COUNT)]
+        restaurants_info = restaurants_info[:min(stop_index, RESPONSE_COUNT)]
         return [r['Restaurant_id'] for r in restaurants_info]
 
 
@@ -486,7 +486,7 @@ class RecommendQueue(Recommend):
         fetch_votes = session.query(Vote.votes_all).filter(Vote.group==group_id, Vote.votes_all>0).all()
         if sum([v.votes_all for v in fetch_votes]) < 3:
             pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
-            return [r['Restaurant_id'] for r in pre_restaurants_info][0:RESULTS_COUNT]
+            return [r['Restaurant_id'] for r in pre_restaurants_info][0:RESPONSE_COUNT]
         
         # Vote.recommend_priorityを計算する。
         self.__calc_recommend_priority(fetch_group, group_id, pre_restaurants_info)
@@ -499,7 +499,7 @@ class RecommendQueue(Recommend):
         for fv in fetch_votes:
             if fv.restaurant not in histories_restaurants:
                 restaurants_ids.append(fv.restaurant)
-                if len(restaurants_ids) == RESULTS_COUNT:
+                if len(restaurants_ids) == RESPONSE_COUNT:
                     return restaurants_ids
         return restaurants_ids
 
@@ -702,7 +702,7 @@ class RecommendSVM(Recommend):
         fetch_votes = session.query(Vote.votes_all).filter(Vote.group==group_id, Vote.votes_all>0).all()
         if sum([v.votes_all for v in fetch_votes]) < 3:
             pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
-            return [r['Restaurant_id'] for r in pre_restaurants_info][0:RESULTS_COUNT]
+            return [r['Restaurant_id'] for r in pre_restaurants_info][0:RESPONSE_COUNT]
         
         # Vote.recommend_priorityを計算する。
         self.__calc_recommend_priority(fetch_group, group_id, pre_restaurants_info)
@@ -715,7 +715,7 @@ class RecommendSVM(Recommend):
         for fv in fetch_votes:
             if fv.restaurant not in histories_restaurants:
                 restaurants_ids.append(fv.restaurant)
-                if len(restaurants_ids) == RESULTS_COUNT:
+                if len(restaurants_ids) == RESPONSE_COUNT:
                     return restaurants_ids
         return restaurants_ids
 

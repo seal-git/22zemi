@@ -28,7 +28,7 @@ class Params:
         self.min_price: int = None # 値段の最小値(円)
         self.loco_mode: bool = False # Yahooロコの検索機能(ランチ、飲み放題、食べ放題、女子会、個室で検索できる)
         self.image: bool = False # 画像のあるものだけを出力
-        self.results: int = config.MyConfig.STOCK_COUNT # 取得件数
+        self.results: int = config.MyConfig.SEARCH_COUNT # 取得件数
         self.start: int = 0  # 取得開始位置
         self.sort: str = None # ソート順の指定
 
