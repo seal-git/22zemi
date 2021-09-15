@@ -1,5 +1,5 @@
-from app import app_, config
-import os, subprocess
+from app import app_
+import subprocess
 
 res = subprocess.call('pipenv install --system', shell=True)
 

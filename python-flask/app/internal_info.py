@@ -25,7 +25,8 @@ class Params:
         self.min_price: int = None # 値段の最小値(円)
         self.loco_mode: bool = False # Yahooロコの検索機能(ランチ、飲み放題、食べ放題、女子会、個室で検索できる)
         self.image: bool = False # 画像のあるものだけを出力
-        self.results: int = None # 取得件数
+        self.results: int = config.MyConfig.STOCK_COUNT # 取得件数
+        self.start: int = 0  # 取得開始位置
         self.sort: str = None # ソート順の指定
 
     def get_all(self):
@@ -66,6 +67,7 @@ class Params:
         params = {
             "query": self.query,
             "results": self.results,
+            "start": self.start,
             "lat": self.lat,
             "lon": self.lon,
             "sort": sort,
@@ -75,7 +77,6 @@ class Params:
             "minprice": self.min_price,
             "loco_mode": loco_mode,
             "open": open,
-
         }
         return params
 
@@ -103,7 +104,7 @@ class Params:
     def get_nearbysearch_params(self):
         """
         nearbysearch用クエリを出力する。
-        query, location, radius, maxprice, minprice, rankbyが設定できる。
+        keyword, location, radius, maxprice, minprice, rankbyが設定できる。
         Returns
         -------
         """

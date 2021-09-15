@@ -1,7 +1,8 @@
 # from sqlalchemy import *
 from flask import jsonify, make_response, request
+
 from app import app_, db_
-from app import recommend, api_functions
+from app import recommend, api_functions, config
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 from random import randint
 import json
@@ -78,10 +79,12 @@ def generate_user_id():
     return user_id # error
 
 
-def set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort, fetch_group=None):
+def set_search_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort, fetch_group=None):
     '''
     検索条件を受け取り、データベースのグループの表を更新する。
     '''
+    print(f"set_filter_params renewed")
+
     if place is None and genre is None and query is None and open_hour is None and maxprice is None and minprice is None and sort is None: return
     
     if fetch_group is None:
@@ -103,7 +106,11 @@ def set_filter_params(group_id, place, genre, query, open_day, open_hour, maxpri
             fetch_group.open_day = datetime.datetime.strftime( datetime.date.today() if datetime.datetime.now().hour<=int(open_hour) else datetime.date.today() + datetime.timedelta(days=1), '%Y-%m-%d')
     else:
         fetch_group.open_day = current_timestamp()
+
     fetch_group.open_hour = open_hour if open_hour is not None else current_timestamp()
+    if config.MyConfig.SET_OPEN_HOUR:
+        fetch_group.open_hour = config.MyConfig.OPEN_HOUR
+
     fetch_group.sort = sort
 
     session.commit()
@@ -276,7 +283,7 @@ def http_invite():
     group_id = group_id if group_id is not None else generate_group_id()
     
     # 検索条件をデータベースに保存
-    set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort)
+    set_search_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort)
     
     # 招待URL
     invite_url = URL + '?group_id=' + str(group_id)
@@ -330,6 +337,7 @@ def http_info():
         new_user.id = user_id
         session.add(new_user)
         session.commit()
+        print(f"new user {user_id} registered")
     
     # グループが未登録ならばデータベースに登録する
     fetch_group = session.query(Group).filter(Group.id==group_id).first()
@@ -344,6 +352,7 @@ def http_info():
         session.add(new_group)
         session.commit()
         fetch_group = session.query(Group).filter(Group.id==group_id).one()
+        print(f"new group {group_id} registered")
 
     # 所属が未登録ならばデータベースに登録する
     fetch_belong = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).first()
@@ -356,7 +365,7 @@ def http_info():
         fetch_belong = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()
 
     # 検索条件をデータベースに保存
-    set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort, fetch_group=fetch_group)
+    set_search_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort, fetch_group=fetch_group)
 
     if NEXT_RESPONSE:
         # 他のスレッドで検索中だったら待つ
