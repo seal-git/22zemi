@@ -22,7 +22,7 @@ class MyConfig:
     MAX_DISTANCE = 200000  # 中心地からの距離 上限20
     RESPONSE_COUNT = 3  # 一回に返す店舗の数
     SEARCH_COUNT = 15  # 検索で取得するデータの数．SEARCH_COUNT個の店からRESPONSE_COUNT個選ぶ
-    RECOMMEND_METHOD = "queue"  # レコメンドメソッド
+    RECOMMEND_METHOD = "simple"  # レコメンドメソッド
     SET_OPEN_HOUR = True  # 開店時間固定する場合はTrueにする
     OPEN_HOUR = "12:00"  # 固定の開店時間
 

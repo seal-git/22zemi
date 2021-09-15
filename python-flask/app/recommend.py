@@ -34,7 +34,7 @@ recommend_main関数が最初に呼ばれる。
 
 RESPONSE_COUNT = config.MyConfig.RESPONSE_COUNT # 一回に返す店舗の数
 SEARCH_COUNT = config.MyConfig.SEARCH_COUNT # APIで取得するデータの数
-MAX_DISTANCE = config.MyConfig.MAX_DISTANCE # 中心地からの距離 上限20
+MAX_DISTANCE = config.MyConfig.MAX_DISTANCE # 中心地からの距離 上限20000m
 
 #カテゴリの類似度が高い物
 with open("./data/category_high_sim.json","rb") as f:
@@ -146,7 +146,7 @@ class RecommendSimple(Recommend):
         # 検索条件を追加
         search_params.image = True  # 画像がある店
         search_params.sort = "hybrid"
-        search_params.results = config.MyConfig.RESPONSE_COUNT
+        search_params.results = config.MyConfig.SEARCH_COUNT
 
         # Yahooの形式にして検索
         search_params = search_params.get_yahoo_params()
@@ -178,7 +178,7 @@ class RecommendYahoo(Recommend):
         search_params.image = True  # 画像がある店
         search_params.open_now = True  # 現在開店している店舗
         search_params.sort = "hybrid" # 評価や距離などを総合してソート
-        search_params.results = config.MyConfig.RESPONSE_COUNT
+        search_params.results = config.MyConfig.SEARCH_COUNT
 
         # Yahooの形式にして検索
         search_params = search_params.get_yahoo_params()
