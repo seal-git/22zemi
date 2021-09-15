@@ -11,7 +11,10 @@ from app import config
 
 
 class Params:
-
+    """
+    内部で共通の検索クエリを扱うことで、APIごとに異なる検索クエリの違いを吸収する。
+    このパラメータはGroupテーブルで定義されているものに対応している。(TODO: 未対応のものもまだある)
+    """
     def __init__(self):
         self.query: str = None # キーワード
         self.inputtype: str = "textquery"  # textquery/phonenumber
@@ -125,3 +128,4 @@ class Params:
         }
         return params
 
+# TODO: RestaurantInfoクラスを作る

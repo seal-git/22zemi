@@ -524,18 +524,6 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params):
     elif api_method == "google":
         api_f = ApiFunctionsGoogle()
 
-#TODO:yoshinari: ここは何してるのか把握する
-    # if 'stock' in search_params:
-    #     start = session.query(Vote.restaurant).filter(
-    #         Vote.group == group_id).count()
-    #     result = search_params['stock'] + len(histories_restaurants) - start
-    #     search_params.update({'start': start, 'result': result})
-    #     print(f"search_restaurant_info: "
-    #           f"start={search_params['start']}, "
-    #           f"result={search_params['result']}")
-    # else:
-    #     print("search_restaurant_info: not use stock.")
-
     # APIで店舗情報を取得
     restaurants_info = api_f.search_restaurants_info(fetch_group, group_id, search_params)
 
