@@ -3,6 +3,7 @@ import os
 import datetime
 from app import calc_info
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
+from app.internal_info import *
 from abc import ABCMeta, abstractmethod
 from flask import abort
 # from PIL import Image

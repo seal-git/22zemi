@@ -2,8 +2,8 @@
 pytest
 """
 
-import os, yaml
-with open(".flask-env.dev.yml", "r") as f:
-    config = yaml.load(f, Loader=yaml.SafeLoader)
-for key,value in config.items():
-    os.environ[key] = str(value)
+from app import config
+
+for key, value in config.TestConfig.__dict__.items():
+    if not key.startswith("__"): print(f"{key}: {value}")
+

@@ -3,6 +3,7 @@ import json
 import os
 import random
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
+from app.internal_info import *
 from sqlalchemy import distinct
 from abc import ABCMeta, abstractmethod
 import math
@@ -30,9 +31,9 @@ recommend_main関数が最初に呼ばれる。
 
 '''
 
-RESULTS_COUNT = 3 # 一回に返す店舗の数
-STOCK_COUNT = 100 # APIで取得するデータの数．STOCK_COUNT個の店からRESULTS_COUNT個選ぶ
-MAX_DISTANCE = 20 # 中心地からの距離 上限20
+RESULTS_COUNT = config.MyConfig.RESULTS_COUNT # 一回に返す店舗の数
+STOCK_COUNT = config.MyConfig.STOCK_COUNT # APIで取得するデータの数．STOCK_COUNT個の店からRESULTS_COUNT個選ぶ
+MAX_DISTANCE = config.MyConfig.MAX_DISTANCE # 中心地からの距離 上限20
 
 #カテゴリの類似度が高い物
 with open("./data/category_high_sim.json","rb") as f:
@@ -66,7 +67,7 @@ class Recommend(metaclass=ABCMeta):
 
         Returns
         ----------------
-        pre_search_params : dict
+        pre_search_params : Param
 
         '''
         pass
@@ -756,36 +757,35 @@ def normalize_pre_search_params(fetch_group, pre_search_params):
     #     pre_search_params['minprice'] = fetch_group.min_price
     return pre_search_params
 
-def get_search_params_from_fetch_group(fetch_group, search_params={}):
+def get_search_params_from_fetch_group(fetch_group):
     '''
     ユーザが指定した検索条件からAPIで使用する検索条件に変換
     '''
+    params = Params()
+
+    if fetch_group.query is not None:
+        params.query = fetch_group.query
+    if fetch_group.genre is not None:
+        params.query = fetch_group.genre  # genreがあるならqueryは上書きされる
+
+    params.lat = fetch_group.lat
+    params.lon = fetch_group.lon
+    params.max_dist = fetch_group.max_dist
+    params.sort = fetch_group.sort
+
+    params.open_hour = fetch_group.open_hour
+    params.open_day = fetch_group.open_day
+    params.max_price = fetch_group.max_price
+    params.min_price = fetch_group.min_price
+
+    print(params.get_all())
+
     api_method = fetch_group.api_method
     if api_method == "yahoo":
-        search_params.update({
-            'lat': fetch_group.lat, # 緯度
-            'lon': fetch_group.lon, # 経度
-            'dist': fetch_group.max_dist if fetch_group.max_dist is not None else MAX_DISTANCE, # 中心地点からの距離 # 最大20km
-            'gc': '01', # グルメ
-            'sort': fetch_group.sort if fetch_group.sort is not None else 'hyblid' # hyblid: 評価や距離などを総合してソート
-        })
+        search_params = params.get_yahoo_params()
     elif api_method == "google":
-        search_params.update({
-            'location': f'{fetch_group.lat},{fetch_group.lon}', # 緯度,経度
-            'radius': fetch_group.max_dist * 1000 if fetch_group.max_dist is not None else MAX_DISTANCE * 1000, # 半径 m
-            'type': 'restaurant',
-        })
+        search_params = params.get_nearbysearch_params()
 
-    # if fetch_group.query is not None:
-    #     search_params['query'] = fetch_group.query + ' '
-    # if fetch_group.genre is not None:
-    #     search_params['query'] = fetch_group.genre
-    # if fetch_group.open_hour is not None:
-    #     search_params['open'] = str(fetch_group.open_day.day) + ',' + str(fetch_group.open_hour.hour)
-    # if fetch_group.max_price is not None:
-    #     search_params['maxprice'] = fetch_group.max_price
-    # if fetch_group.min_price is not None:
-    #     search_params['minprice'] = fetch_group.min_price
     return search_params
 
 
