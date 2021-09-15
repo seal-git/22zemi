@@ -425,7 +425,7 @@ class RecommendQueue(Recommend):
         weight_price = 0.4
         weight_distance = 0.3
         weight_genre = 0.3
-        participants_count = database_functions.participants_count(group_id)
+        participants_count = database_functions.get_participants_count(group_id)
         for ri in pre_restaurants_info:
             fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==ri['Restaurant_id']).one()
             
@@ -576,7 +576,7 @@ class RecommendSVM(Recommend):
 
         # recommend_priorityを計算する。--------
 
-        participants_count = database_functions.participants_count(group_id) # 参加人数
+        participants_count = database_functions.get_participants_count(group_id) # 参加人数
         unvoted_restaurants_count = len(pre_restaurants_info) - voted_restaurants_count
 
         # 学習のためのベクトル生成

@@ -137,8 +137,9 @@ class ApiFunctionsYahoo(ApiFunctions):
         restaurant_info : dict
             レスポンスするレストラン情報をjson形式で返す。
         '''
-        print(f"feature_to_info(api_yahoo):{access_flag}")
         MAX_LIST_COUNT = 10
+        
+        if access_flag=='get': print(f"feature_to_info(api_yahoo):{access_flag}")
 
         restaurant_info = {}
         restaurant_id = feature['Property']['Uid']

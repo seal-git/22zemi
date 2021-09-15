@@ -61,7 +61,7 @@ def get_restaurants_info_from_recommend_priority(fetch_group, group_id, user_id)
     return recommend.recommend_main(fetch_group, group_id, user_id)
 
 
-def create_response_from_restaurants_info(restaurants_info):
+def create_response_from_restaurants_info(group_id, user_id, restaurants_info):
     '''
     レスポンスを生成する仕上げ
     '''
@@ -257,7 +257,7 @@ def thread_info(make_cache, group_id, user_id, fetch_belong=None, fetch_group=No
         fetch_belong.next_response = None
 
     # restaurants_infoをテキスト化してdata/tmpにキャッシュとして保存
-    response = create_response_from_restaurants_info(restaurants_info)
+    response = create_response_from_restaurants_info(group_id, user_id, restaurants_info)
     if make_cache:
         filename = hashlib.md5(base64.b64encode(str(response).encode())).hexdigest()
         print(f"thread_info: save cache at data/tmp/{filename}")
@@ -340,7 +340,7 @@ def http_list():
     restaurants_info.sort(key=lambda x:x['RecommendScore'], reverse=True) # 得票数が同じなら、オススメ度順
     restaurants_info.sort(key=lambda x:x['VotesLike'], reverse=True) # 得票数が多い順
 
-    return create_response_from_restaurants_info(restaurants_info)
+    return create_response_from_restaurants_info(group_id, user_id, restaurants_info)
 
 
 @app_.route('/history', methods=['GET','POST'])
@@ -362,7 +362,7 @@ def http_history():
     # 履歴を取得する
     fetch_histories = session.query(History).filter(History.group==group_id, History.user==user_id).order_by(updated_at).all()
     restaurants_info = api_functions.get_restaurants_info(group_id, [h.restaurant for h in fetch_histories])
-    return create_response_from_restaurants_info(restaurants_info)
+    return create_response_from_restaurants_info(group_id, user_id, restaurants_info)
 
 
 @app_.route('/decision', methods=['GET','POST'])

@@ -35,7 +35,7 @@ def add_votes_distance(fetch_group, group_id, restaurants_info):
     for i in range(len(restaurants_info)):
         restaurants_info[i]['VotesLike'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling==True).count() # レストランのいいね数
         restaurants_info[i]['VotesAll'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling is not None).count() # レストランの投票人数
-        restaurants_info[i]['NumberOfParticipants'] = str(database_functions.participants_count(group_id)) # グループの参加人数
+        restaurants_info[i]['NumberOfParticipants'] = str(database_functions.get_participants_count(group_id)) # グループの参加人数
         restaurants_info[i]["distance_float"] = great_circle((fetch_group.lat, fetch_group.lon), (restaurants_info[i]['Lat'], restaurants_info[i]['Lon'])).m #距離 メートル float
         restaurants_info[i]['Distance'] = distance_display(restaurants_info[i]["distance_float"]) # 緯度・経度から距離を計算 str
     restaurants_info = calc_recommend_score(fetch_group, group_id, restaurants_info)
