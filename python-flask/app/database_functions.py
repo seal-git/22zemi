@@ -1,5 +1,6 @@
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 import datetime
+import requests
 
 '''
 データベース関連の関数
@@ -20,9 +21,69 @@ def get_participants_count(group_id):
     '''
     return session.query(Belong).filter(Belong.group==group_id).count()
 
+def get_histories_restaurants(group_id, user_id):
+    '''
+    ユーザへの送信履歴
+
+    Parameters
+    ----------------
+    group_id : int
+    user_id : int
+
+    Returns
+    ----------------
+    restaurant_ids : [str]
+    '''
+    return [h.restaurant for h in session.query(History.restaurant).filter(History.group==group_id, History.user==user_id).all()]
 
 # ============================================================================================================
 # models.py
+
+
+def get_lat_lon_address(query):
+    '''
+    Yahoo APIを使って、緯度・経度・住所を返す関数
+
+    Parameters
+    ----------------
+    query : string
+        場所のキーワードや住所
+        例：千代田区
+    
+    Returns
+    ----------------
+    lat, lon : float
+        queryで入力したキーワード周辺の緯度経度を返す
+        例：lat = 35.69404120, lon = 139.75358630
+    address : string
+        住所
+
+    例外処理
+    ----------------
+    不適切なqueryを入力した場合、Yahoo!本社の座標を返す
+    '''
+
+    geo_coder_url = "https://map.yahooapis.jp/geocode/cont/V1/contentsGeoCoder"
+    params = {
+        "appid": os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
+        "output": "json",
+        "query": query
+    }
+    try:
+        response = requests.get(geo_coder_url, params=params)
+        response = response.json()
+        geometry = response["Feature"][0]["Geometry"]
+        coordinates = geometry["Coordinates"].split(",")
+        lon = float(coordinates[0])
+        lat = float(coordinates[1])
+        address = response["Feature"][0]["Property"]["Address"]
+    except:
+        # Yahoo!本社の座標
+        lon = 139.73284
+        lat = 35.68001 
+        address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-"
+        
+    return lat, lon, address
 
 
 def generate_group_id():
@@ -75,7 +136,7 @@ def generate_user_id():
             return user_id
     return user_id # error
 
-def register_user_and_group_if_not_exist(group_id, user_id, lat, lon, address, recommend_method, api_method):
+def register_user_and_group_if_not_exist(group_id, user_id, place, recommend_method, api_method):
     
     # ユーザが未登録ならばデータベースに登録する
     fetch_user = session.query(User).filter(User.id==user_id).first()
@@ -88,6 +149,7 @@ def register_user_and_group_if_not_exist(group_id, user_id, lat, lon, address, r
     # グループが未登録ならばデータベースに登録する
     fetch_group = session.query(Group).filter(Group.id==group_id).first()
     if fetch_group is None:
+        lat,lon,address = get_lat_lon_address(place)
         new_group = Group()
         new_group.id = group_id
         new_group.lat = lat
@@ -150,51 +212,6 @@ def update_feeling(group_id, user_id, restaurant_id, feeling):
         session.add(new_vote)
         session.commit()
 
-
-def get_lat_lon_address(query):
-    '''
-    Yahoo APIを使って、緯度・経度・住所を返す関数
-
-    Parameters
-    ----------------
-    query : string
-        場所のキーワードや住所
-        例：千代田区
-    
-    Returns
-    ----------------
-    lat, lon : float
-        queryで入力したキーワード周辺の緯度経度を返す
-        例：lat = 35.69404120, lon = 139.75358630
-    address : string
-        住所
-
-    例外処理
-    ----------------
-    不適切なqueryを入力した場合、Yahoo!本社の座標を返す
-    '''
-
-    geo_coder_url = "https://map.yahooapis.jp/geocode/cont/V1/contentsGeoCoder"
-    params = {
-        "appid": os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
-        "output": "json",
-        "query": query
-    }
-    try:
-        response = requests.get(geo_coder_url, params=params)
-        response = response.json()
-        geometry = response["Feature"][0]["Geometry"]
-        coordinates = geometry["Coordinates"].split(",")
-        lon = float(coordinates[0])
-        lat = float(coordinates[1])
-        address = response["Feature"][0]["Property"]["Address"]
-    except:
-        # Yahoo!本社の座標
-        lon = 139.73284
-        lat = 35.68001 
-        address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-"
-        
-    return lat, lon, address
 
 def set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort, fetch_group=None):
     '''

@@ -11,7 +11,6 @@ from PIL import Image
 import base64
 from io import BytesIO
 import time
-import requests
 from sqlalchemy.sql.functions import current_timestamp
 import threading
 
@@ -40,7 +39,7 @@ def get_restaurants_info_from_recommend_priority(fetch_group, group_id, user_id)
     ----------------
     restaurnts_info : [dict]
     '''
-    histories_restaurants = [h.restaurant for h in session.query(History.restaurant).filter(History.group==group_id, History.user==user_id).all()]
+    histories_restaurants = database_functions.get_histories_restaurants(group_id, user_id)
     fetch_votes = session.query(Vote).filter(Vote.group==group_id, Vote.recommend_priority is not None).order_by(Vote.recommend_priority).all()
     restaurants_ids = []
     for fv in fetch_votes:
@@ -112,7 +111,7 @@ def http_init():
     '''
 
     group_id = database_functions.generate_group_id()
-    user_id = generate_user_id()
+    user_id = database_functions.generate_user_id()
     result = {'GroupId': str(group_id), 'UserId': str(user_id)}
     return json.dumps(result, ensure_ascii=False)
 
@@ -160,7 +159,7 @@ def http_invite():
     buf = BytesIO()
     qr_img.save(buf, format="jpeg")
     qr_img_base64 = base64.b64encode(buf.getvalue()).decode("ascii")
-    result = {'GroupId': group_id, 'UserId': generate_user_id(), 'Url': invite_url, 'Qr': qr_img_base64}
+    result = {'GroupId': group_id, 'UserId': database_functions.generate_user_id(), 'Url': invite_url, 'Qr': qr_img_base64}
     return json.dumps(result, ensure_ascii=False)
 
 
@@ -193,13 +192,12 @@ def http_info():
     group_id = group_id if group_id is not None else database_functions.get_group_id(user_id)
 
     # Yahoo本社の住所 # TODO
-    address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-"
-    lat,lon,address = database_functions.get_lat_lon_address(address)
+    address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-" if place is None else place
     # TODO: 開発用に時間を固定
     #open_hour = '18'
     
     # 未登録ならデータベースにユーザとグループを登録する
-    fetch_user, fetch_group, fetch_belong = database_functions.register_user_and_group_if_not_exist(group_id, user_id, lat, lon, address, recommend_method, api_method)
+    fetch_user, fetch_group, fetch_belong = database_functions.register_user_and_group_if_not_exist(group_id, user_id, address, recommend_method, api_method)
 
     # 検索条件をデータベースに保存
     database_functions.set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort, fetch_group=fetch_group)

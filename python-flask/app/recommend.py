@@ -826,7 +826,7 @@ def delete_duplicate_restaurants_info(group_id, user_id, restaurants_info, histo
         レストラン情報
     '''
     if histories_restaurants is None:
-        histories_restaurants = [h.restaurant for h in session.query(History.restaurant).filter(History.group==group_id, History.user==user_id).all()]
+        histories_restaurants = database_functions.get_histories_restaurants(group_id, user_id)
     return [ri for ri in restaurants_info if not ri['Restaurant_id'] in histories_restaurants]
 
 # ============================================================================================================
@@ -874,10 +874,13 @@ def recommend_main(fetch_group, group_id, user_id):
     #     return local_search_test(fetch_group, group_id, user_id)
     # elif recommend_method == 'local_search_test_URL':
     #     return local_search_test_URL(fetch_group, group_id, user_id)
-
+    else:
+        # error
+        print("recommend_method is None.")
+        recomm = RecommendSimple()
 
     # 重複して表示しないようにするため、履歴を取得
-    histories_restaurants = [h.restaurant for h in session.query(History.restaurant).filter(History.group==group_id, History.user==user_id).all()]
+    histories_restaurants = database_functions.get_histories_restaurants(group_id, user_id)
     
     # 結果が0件なら繰り返す
     for i in range(5):
