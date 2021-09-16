@@ -127,7 +127,7 @@ const StyledChipRating = withStyles({
 })(Chip);
 const StyledChipTag = withStyles({
     root: {
-        backgroundColor: '#FF7474',
+        backgroundColor: '#D90060',
         color: 'white',
         fontSize: '1rem',
     }

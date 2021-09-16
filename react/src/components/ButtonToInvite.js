@@ -8,27 +8,18 @@ import ListItemText from '@material-ui/core/ListItemText';
 import DialogTitle from '@material-ui/core/DialogTitle'
 import { makeStyles,withStyles } from '@material-ui/core/styles'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
-import PersonAddIcon from '@material-ui/icons/PersonAdd';
+// 他ファイルからインポート
+import InviteIcon from '../icon/InviteIcon'
 /*
 招待ボタン：押すと招待URLが表示される
  */
 
 const useStyles = makeStyles({
-    ButtonToInvite:{
+    ButtonToInviteContainer:{
         position: 'relative',
         top: '50vh',
         textAlign: 'right',
         pointerEvents: 'none',
-    },
-    ModalButton:{
-        height: '60px',
-        width: '60px',
-        borderRadius: '50%',
-        backgroundColor: 'white',
-        cursor: 'pointer',
-        margin: '10px',
-        border: 'solid',
-        pointerEvents: 'auto',
     },
     CopyButton:{
         height: '100%',
@@ -57,6 +48,17 @@ function ButtonToInvite(props) {
         setOpen(false)
     };
 
+    const StyledInviteIcon = withStyles( (theme) => ({
+        root:{
+            height: '60px',
+            width: '60px',
+            margin: '10px',
+            opacity: '0.88',
+            cursor: 'pointer',
+            pointerEvents: 'auto',
+        }
+    }))(InviteIcon);
+
     const StyledDialog = withStyles( (theme) => ({
         root:{
             alignItems: 'center',
@@ -67,20 +69,11 @@ function ButtonToInvite(props) {
         },
     }))(Dialog);
 
-    const StyledPersonAddIcon = withStyles( (theme) => ({
-        root:{
-            transform: 'scale(-1,1)',
-        }
-    }))(PersonAddIcon);
 
     const url = "https://localhost?group_id="+props.groupId
     return (
-        <div className={classes.ButtonToInvite}>
-            <button 
-                className={classes.ModalButton}
-                onClick={handleClickOpen}>
-                    <StyledPersonAddIcon fontSize='large'/>
-            </button>
+        <div className={classes.ButtonToInviteContainer}>
+            <StyledInviteIcon onClick={()=>{handleClickOpen()}} />
             <StyledDialog open={open}
                     onClose={handleClose}
                     aria-labelledby="form-dialog-title">
