@@ -1,4 +1,5 @@
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
+from app import config
 import datetime
 import requests
 from random import randint

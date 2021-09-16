@@ -891,6 +891,10 @@ def recommend_main(fetch_group, group_id, user_id):
         restaurants_info = api_functions.get_restaurants_info(fetch_group, group_id, restaurants_ids)
         print(f"data_num {len(restaurants_info)}")
         if len(restaurants_info) >= 1:
+            
+            # 履歴を保存
+            database_functions.save_histories(group_id, user_id, restaurants_info)
+            
             fetch_group.start = 0
             session.commit()
             return restaurants_info
