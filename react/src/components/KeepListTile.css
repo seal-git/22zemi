@@ -2,12 +2,6 @@
     margin: 10px;
     border-radius: 10px;
 }
-.gridList {
-    flex-wrap: nowrap;
-    transform: translateZ(0);
-    margin: 20px;
-    padding: 5px;
-}
 .media {
     height: 130px;
 }
@@ -15,13 +9,9 @@
     padding-top: 7px;
     padding-right: 0px;
     padding-left: 9px;
-    
 }
 .cardContent:last-child {
     padding-bottom: 7px
-}
-.cardActions {
-    padding: 0;
 }
 .textShopName {
     padding: 2px 0 0 0;
@@ -52,7 +42,6 @@
     font-size: 20px;
     color: #FF0000;
 }
-
 .buttonWrapper {
     height: 100%;
     width: 100%;
@@ -76,11 +65,5 @@
     border: none;
     border-radius: 4px;
     align-items: center;
-}
-.playIcon {
-    /* font-size: 6px;
-    background-color: white;
-    color: #D90060;
-    padding: 3px;
-    border-radius: 8px; */
+    cursor: pointer;
 }
