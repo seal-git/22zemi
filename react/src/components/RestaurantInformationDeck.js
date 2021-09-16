@@ -10,6 +10,7 @@ import RestaurantInformation from './RestaurantInformation'
 const useStyles = makeStyles((theme) => ({
     RestaurantInformationDeck: {
         height: '100%',
+        width: '100%',
         position: 'absolute',
     }
 }))
@@ -39,16 +40,17 @@ export default function RestaurantInformationDeck(props) {
     }
 
     // スワイプ操作時のプロパティを与える関数
-    const swipeTo = (x, scale, down, isGone) => {
+    const swipeTo = (x, scale, down, isGoing) => {
         return {
             x: x,
             scale: scale,
-            config: { friction: 20, tension: down ? 170 : isGone ? 400 : 500 },
+            config: { friction: 20, tension: down ? 170 : isGoing ? 400 : 500 },
         }
     }
 
     // スワイプ済みカードを管理するセット
-    const gone = new Set()
+    const willGo = new Set()
+    const hasGone = new Set()
 
     // スワイプやボタンによる選択操作をハンドルする関数
     const handleSelection = (dir, restaurant_id) => {
@@ -59,13 +61,13 @@ export default function RestaurantInformationDeck(props) {
             props.reject(restaurant_id)
         }
         // 選び切る前にカードを読み込み
-        if (gone.size === Math.max(props.topDataList.length - 1, 1)) {
+        if (willGo.size === Math.max(props.topDataList.length - 1, 1)) {
             console.log("preloading")
             props.getInfo(null, null, "preload", null)
         }
 
         // 選び切ったらカードを更新
-        if (gone.size === Math.max(props.topDataList.length, 1)) {
+        if (willGo.size === Math.max(props.topDataList.length, 1)) {
             setInterval(() => {
                 props.setPreloadedDataList()
             }, 500)
@@ -91,24 +93,26 @@ export default function RestaurantInformationDeck(props) {
             const dir = xDir < 0 ? -1 : 1
             // 選択が行われた場合選択済みインデックスセットに index を追加する
             if (!down && trigger && props.hasRestaurant) {
-                gone.add(index)
+                willGo.add(index)
             }
             // アニメーションの起動
             api.start(i => {
                 if (index !== i) return;
-                const isGone = gone.has(index)
-                if (isGone) {
+                if (hasGone.has(index)) return;
+                const isGoing = willGo.has(index)
+                if (isGoing) {
                     setTimeout(() => {
                         handleSelection(dir, props.topDataList[i].Restaurant_id)
                     }, 400)
+                    hasGone.add(index);
                 }
                 const x =
                     !props.hasRestaurant ? 0
-                        : isGone ? (200 + window.innerWidth) * dir
+                        : isGoing ? (200 + window.innerWidth) * dir
                             : down ? mx
                                 : 0
                 const scale = down ? 1.01 : 1
-                return swipeTo(x, scale, down, isGone)
+                return swipeTo(x, scale, down, isGoing)
             })
         }
     )
@@ -127,11 +131,13 @@ export default function RestaurantInformationDeck(props) {
         // 不適な状態の場合何も行わず return
         if (!props.hasRestaurant) return
         // 選択済みインデックスのセットに index を追加
-        gone.add(index)
+        willGo.add(index)
         // アニメーションの起動
         api.start(i => {
             if (index !== i) return
-            if (!gone.has(index)) return
+            if (hasGone.has(index)) return
+            if (!willGo.has(index)) return
+            hasGone.add(index)
             setTimeout(() => {
                 handleSelection(dir, props.topDataList[i].Restaurant_id)
             }, 400)
@@ -164,25 +170,28 @@ export default function RestaurantInformationDeck(props) {
     const maxIndex = props.topDataList.length - 1
     // アニメーション付きのカードを描画
     return (
-        <div style={{height:"100%"}}>
+        <div className={classes.RestaurantInformationDeck} >
             {springProps.reverse().map(({ x, y, scale }, i) => {
                 const index = maxIndex - i
                 return (
-                    <div className={classes.RestaurantInformationDeck} >
                         <animated.div
                             key={'card' + props.topDataList[index].Restaurant_id}
-                            style={{ x, y, height: '100%', }}>
+                            style={{ x, y, 
+                            height: '100%',
+                            width:'100%', 
+                            position: 'absolute',
+                            }}>
                             <animated.div
                                 {...bind(index)}
                                 style={{
                                     transform: interpolate([scale], trans),
                                     height: '100%',
+                                    width: '100%',
                                 }}
                             >
                                 {renderRestaurantInformation(index)}
                             </animated.div>
                         </animated.div>
-                    </div>
                 )
             })}
         </div>

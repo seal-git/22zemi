@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: 'transparent',
         height: '70%',
         width: '100%',
-        margin: '3px',
+        margin: '.5%',
         position: 'absolute',
         webkitUserSelect: 'none',
         mozUserSelect: 'none',
@@ -29,20 +29,15 @@ const useStyles = makeStyles((theme) => ({
         bottom: '0',
         margin: 'auto',
         boxSizing: "border-box",
-        borderRadius: '30px',
+        borderRadius: '5%',
         position: 'absolute',
+        color: 'transparent',
     },
     textPrimary: {
         fontSize: '2rem',
         fontWeight: 'bold',
         whiteSpace: 'pre-wrap',
         color: 'white',
-    },
-    textSecondary: {
-        fontSize: '1rem',
-        color: 'white',
-        display: 'flex',
-        whiteSpace: 'pre-line',
     },
     space: {
         display: 'inline-block',
@@ -82,10 +77,11 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         flexWrap: 'wrap',
         alignContent: 'space-evenly',
+        height: '',
     },
     imageBarContainer:{
         width: '80%',
-        height: '10px',
+        height: '1%',
         top: '5%',
         left: '10%',
         display: 'flex',
@@ -117,14 +113,15 @@ const StyledChipRating = withStyles({
     root: {
         backgroundColor: '#FFAD0D',
         color: 'white',
-        fontSize: '1rem',
+        fontSize: '1.5rem',
     }
 })(Chip);
 const StyledChipTag = withStyles({
     root: {
         backgroundColor: '#D90060',
+        height: '10%',
         color: 'white',
-        fontSize: '1rem',
+        fontSize: '1.5rem',
     }
 })(Chip);
 

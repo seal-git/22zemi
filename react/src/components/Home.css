@@ -31,7 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  overflow-y: scroll;
+  overflow: hidden;
   /* IE, Edge 対応 */
   -ms-overflow-style: none;
   /* Firefox 対応 */
