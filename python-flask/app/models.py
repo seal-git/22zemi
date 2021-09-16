@@ -78,6 +78,7 @@ def create_response_from_restaurants_info(group_id, user_id, restaurants_info):
     
     # 履歴を保存
     database_functions.save_histories(group_id, user_id, restaurants_info)
+    print("create_response_from_restaurants_info:", len(restaurants_info))
 
     # レスポンスするためにいらないキーを削除する
     response_keys = ['Restaurant_id', 'Name', 'Address', 'CatchCopy', 'Price', 'Category', 'UrlWeb', 'UrlMap', 'ReviewRating', 'BusinessHour', 'Genre', 'Images', 'ImagesBinary']
@@ -286,10 +287,11 @@ def http_feeling():
     group_id = int(data["group_id"]) if data.get("group_id", False) else None
     restaurant_id = data["restaurant_id"] if data.get("restaurant_id", False) else None
     feeling = data["feeling"]
+    
+    group_id = group_id if group_id is not None else database_functions.get_group_id(user_id)
 
     if user_id is not None and restaurant_id is not None and feeling is not None:
 
-        group_id = group_id if group_id is not None else database_functions.get_group_id(user_id)
         database_functions.update_feeling(group_id, user_id, restaurant_id, feeling) # 投票をデータベースに反映する
         
 

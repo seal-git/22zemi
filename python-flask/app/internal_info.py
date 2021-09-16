@@ -28,9 +28,25 @@ class Params:
         self.min_price: int = None # 値段の最小値(円)
         self.loco_mode: bool = False # Yahooロコの検索機能(ランチ、飲み放題、食べ放題、女子会、個室で検索できる)
         self.image: bool = False # 画像のあるものだけを出力
-        self.results: int = config.MyConfig.SEARCH_COUNT # 取得件数
+        self.results: int = config.MyConfig.RESPONSE_COUNT # 取得件数
         self.start: int = 0  # 取得開始位置
         self.sort: str = None # ソート順の指定
+    
+    def set_start_and_results_from_stock(self, group_id, stock, histories_restaurants):
+        """
+        STOCK_COUNT個の中から選べるように、足りなければAPIで取得する
+        """
+        self.start = session.query(Vote.restaurant).filter(Vote.group==group_id).count()
+        self.results = stock + len(histories_restaurants) - self.start
+        if self.results < 0: self.results = 0
+    
+    def set_start_and_results_just_responce_count(self, group_id, user_id):
+        """
+        レスポンスで返すぶんだけAPIで取得する
+        """
+        self.start = config.MyConfig.RESPONSE_COUNT * (session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()).request_count, # 表示範囲：開始位置
+        self.results = config.MyConfig.RESPONSE_COUNT
+
 
     def get_all(self):
         """

@@ -527,6 +527,7 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params):
         api_f = ApiFunctionsGoogle()
 
     # APIで店舗情報を取得
+    print(f"search_restaurants_info: params: {str(search_params)}")
     restaurants_info = api_f.search_restaurants_info(fetch_group, group_id, search_params)
 
     # データベースに店舗情報を保存

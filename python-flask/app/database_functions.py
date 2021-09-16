@@ -286,7 +286,6 @@ def save_histories(group_id, user_id, restaurants_info):
 # ============================================================================================================
 # api_functions.py
 
-
 def save_votes(group_id, restaurants_info):
 
     for i,r in enumerate(restaurants_info):
