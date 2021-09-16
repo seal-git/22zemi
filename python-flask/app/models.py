@@ -1,9 +1,9 @@
 # from sqlalchemy import *
 from flask import jsonify, make_response, request
+
 from app import app_, db_
-from app import database_functions, recommend, api_functions
+from app import database_functions, recommend, api_functions, config
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
-from random import randint
 import json
 from werkzeug.exceptions import NotFound,BadRequest,InternalServerError
 import qrcode
@@ -18,11 +18,11 @@ import threading
 #   Trueにすると高速化できるが、レコメンドの反映が遅れる
 #   RecommendSimpleなら NEXT_RESPONSE = True , RECOMMEND_PRIORITY = False 。
 #   RecommendSVM   なら NEXT_RESPONSE = False, RECOMMEND_PRIORITY = True  。
-NEXT_RESPONSE = True
-RECOMMEND_PRIORITY = True # RecommendSimpleでTrueにすると死にます
+NEXT_RESPONSE = config.MyConfig.NEXT_RESPONSE
+RECOMMEND_PRIORITY = config.MyConfig.RECOMMEND_PRIORITY
 
-RECOMMEND_METHOD = 'svm'
-API_METHOD = 'yahoo'
+RECOMMEND_METHOD = config.MyConfig.RECOMMEND_METHOD
+API_METHOD = config.MyConfig.API_METHOD
 
 
 def get_restaurants_info_from_recommend_priority(fetch_group, group_id, user_id):
@@ -45,7 +45,7 @@ def get_restaurants_info_from_recommend_priority(fetch_group, group_id, user_id)
     for fv in fetch_votes:
         if fv.restaurant not in histories_restaurants:
             restaurants_ids.append(fv.restaurant)
-            if len(restaurants_ids) == recommend.RESULTS_COUNT:
+            if len(restaurants_ids) == recommend.RESPONSE_COUNT:
                 return api_functions.get_restaurants_info(fetch_group, group_id, restaurants_ids)
     
     # まだ優先度を計算していない時や，RecommendSimple等で優先度を計算しない時
@@ -53,7 +53,7 @@ def get_restaurants_info_from_recommend_priority(fetch_group, group_id, user_id)
     for fv in fetch_votes:
         if fv.restaurant not in histories_restaurants:
             restaurants_ids.append(fv.restaurant)
-            if len(restaurants_ids) == recommend.RESULTS_COUNT:
+            if len(restaurants_ids) == recommend.RESPONSE_COUNT:
                 return api_functions.get_restaurants_info(fetch_group, group_id, restaurants_ids)
     
     # ストックしている店舗数が足りない時。最初のリクエスト等。
@@ -150,7 +150,7 @@ def http_invite():
     group_id = group_id if group_id is not None else database_functions.generate_group_id()
     
     # 検索条件をデータベースに保存
-    database_functions.set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort)
+    database_functions.set_search_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort)
     
     # 招待URL
     invite_url = URL + '?group_id=' + str(group_id)
@@ -200,7 +200,7 @@ def http_info():
     fetch_user, fetch_group, fetch_belong = database_functions.register_user_and_group_if_not_exist(group_id, user_id, address, recommend_method, api_method)
 
     # 検索条件をデータベースに保存
-    database_functions.set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort, fetch_group=fetch_group)
+    database_functions.set_search_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort, fetch_group=fetch_group)
 
     if NEXT_RESPONSE:
         # 他のスレッドで検索中だったら待つ

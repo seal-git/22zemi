@@ -13,7 +13,6 @@ api_functionsで使う情報を計算する
 '''
 
 
-
 def add_votes_distance(fetch_group, group_id, restaurants_info):
     '''
     restaurants_infoに投票数と現在位置からの距離を加える

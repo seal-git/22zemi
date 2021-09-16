@@ -1,6 +1,7 @@
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 import datetime
 import requests
+from random import randint
 
 '''
 データベース関連の関数
@@ -145,6 +146,7 @@ def register_user_and_group_if_not_exist(group_id, user_id, place, recommend_met
         new_user.id = user_id
         session.add(new_user)
         session.commit()
+        print(f"new user {user_id} registered")
     
     # グループが未登録ならばデータベースに登録する
     fetch_group = session.query(Group).filter(Group.id==group_id).first()
@@ -160,6 +162,7 @@ def register_user_and_group_if_not_exist(group_id, user_id, place, recommend_met
         session.add(new_group)
         session.commit()
         fetch_group = session.query(Group).filter(Group.id==group_id).one()
+        print(f"new group {group_id} registered")
 
     # 所属が未登録ならばデータベースに登録する
     fetch_belong = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).first()
@@ -213,10 +216,12 @@ def update_feeling(group_id, user_id, restaurant_id, feeling):
         session.commit()
 
 
-def set_filter_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort, fetch_group=None):
+def set_search_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort, fetch_group=None):
     '''
     検索条件を受け取り、データベースのグループの表を更新する。
     '''
+    print(f"set_filter_params renewed")
+
     if place is None and genre is None and query is None and open_hour is None and maxprice is None and minprice is None and sort is None: return
     
     if fetch_group is None:
@@ -238,7 +243,11 @@ def set_filter_params(group_id, place, genre, query, open_day, open_hour, maxpri
             fetch_group.open_day = datetime.datetime.strftime( datetime.date.today() if datetime.datetime.now().hour<=int(open_hour) else datetime.date.today() + datetime.timedelta(days=1), '%Y-%m-%d')
     else:
         fetch_group.open_day = current_timestamp()
+
     fetch_group.open_hour = open_hour if open_hour is not None else current_timestamp()
+    if config.MyConfig.SET_OPEN_HOUR:
+        fetch_group.open_hour = config.MyConfig.OPEN_HOUR
+
     fetch_group.sort = sort
 
     session.commit()
@@ -289,7 +298,6 @@ def save_votes(group_id, restaurants_info):
             new_vote.votes_like = -1
             session.add(new_vote)
             session.commit()
-
 
 def save_restaurants_info(restaurants_info):
     '''
@@ -377,6 +385,7 @@ def load_stable_restaurants_info(restaurant_ids):
     restaurants_info : [dict]
         レスポンスするレストラン情報を返す。
     '''
+    print(f"load_restaurants_info: load {len(restaurant_ids)} items")
     restaurants_info = [None for rid in restaurant_ids]
     fetch_restaurants = session.query(Restaurant).filter(Restaurant.id.in_(restaurant_ids)).all()
     for f_restaurant in fetch_restaurants:
