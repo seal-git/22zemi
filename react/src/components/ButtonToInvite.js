@@ -16,8 +16,9 @@ import InviteIcon from '../icon/InviteIcon'
 
 const useStyles = makeStyles({
     ButtonToInviteContainer:{
-        position: 'relative',
-        top: '50vh',
+        position: 'absolute',
+        top: '50%',
+        width: '100%',
         textAlign: 'right',
         pointerEvents: 'none',
     },
@@ -50,9 +51,9 @@ function ButtonToInvite(props) {
 
     const StyledInviteIcon = withStyles( (theme) => ({
         root:{
-            height: '60px',
-            width: '60px',
-            margin: '10px',
+            width: '15%',
+            height: 'auto',
+            margin: '2% 2%',
             opacity: '0.88',
             cursor: 'pointer',
             pointerEvents: 'auto',

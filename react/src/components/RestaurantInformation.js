@@ -11,7 +11,7 @@ import Buttons from './Buttons'
 const useStyles = makeStyles((theme) => ({
     RestaurantInformation :{
         backgroundColor: 'transparent',
-        height: '100%',
+        height: '70%',
         width: '100%',
         margin: '3px',
         position: 'absolute',
@@ -43,11 +43,6 @@ const useStyles = makeStyles((theme) => ({
         color: 'white',
         display: 'flex',
         whiteSpace: 'pre-line',
-    },
-    textStars: {
-        color: 'white',
-        display: 'inline-block',
-        width: '40%',
     },
     space: {
         display: 'inline-block',

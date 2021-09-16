@@ -9,7 +9,8 @@ import RestaurantInformation from './RestaurantInformation'
 
 const useStyles = makeStyles((theme) => ({
     RestaurantInformationDeck: {
-        position: 'relative',
+        height: '100%',
+        position: 'absolute',
     }
 }))
 
@@ -163,18 +164,19 @@ export default function RestaurantInformationDeck(props) {
     const maxIndex = props.topDataList.length - 1
     // アニメーション付きのカードを描画
     return (
-        <div>
+        <div style={{height:"100%"}}>
             {springProps.reverse().map(({ x, y, scale }, i) => {
                 const index = maxIndex - i
                 return (
-                    <div className={classes.RestaurantInformationDeck}>
+                    <div className={classes.RestaurantInformationDeck} >
                         <animated.div
                             key={'card' + props.topDataList[index].Restaurant_id}
-                            style={{ x, y }}>
+                            style={{ x, y, height: '100%', }}>
                             <animated.div
                                 {...bind(index)}
                                 style={{
                                     transform: interpolate([scale], trans),
+                                    height: '100%',
                                 }}
                             >
                                 {renderRestaurantInformation(index)}

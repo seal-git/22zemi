@@ -1,6 +1,4 @@
-
 .RestaurantInformation {
-    backgroundColor: transparent;
     width: 100%;
     margin: 3px;
     position: absolute;
@@ -9,21 +7,3 @@
 	    -ms-user-select: none;
 	        user-select: none;
 }
-
-.glWrapper {
-    min-height: 0;
-    position: relative;
-    alignItems: center;
-    flex: 1
-}
-
-.iconButtonTop {
-    verticalAlign: top;
-    top: 0;
-}
-
-.iconButtonBottom {
-    verticalAlign: bottom;
-    bottom: 0;
-}
-

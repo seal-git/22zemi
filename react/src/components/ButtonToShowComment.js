@@ -14,8 +14,9 @@ import CommentIcon from '../icon/CommentIcon'
 
 const useStyles = makeStyles({
     ButtonToShowCommentContainer:{
-        position: 'relative',
-        top: '50vh',
+        position: 'absolute',
+        top: '60%',
+        width: '100%',
         textAlign: 'right',
         pointerEvents: 'none',
     },
@@ -45,10 +46,10 @@ function ButtonToShowComment(props) {
 
     const StyledCommentIcon = withStyles( (theme) => ({
         root:{
-            height: '60px',
-            width: '60px',
+            width: '15%',
+            height: 'auto',
             cursor: 'pointer',
-            margin: '10px',
+            margin: '2% 2%',
             opacity: '0.88',
             pointerEvents: 'auto',
         },
