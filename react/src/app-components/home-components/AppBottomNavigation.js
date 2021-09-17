@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core/styles'
 // 他ファイルからインポート
 import { ReactComponent as GoSetting } from './../../img/navigation-go-setting.svg'
 import { ReactComponent as GoResult } from './../../img/navigation-go-result.svg'
+import Credit from './Credit'
 
 const useStyles = makeStyles({
   AppBottomNavigation: {
@@ -39,7 +40,7 @@ const useStyles = makeStyles({
 */
 export default function AppBottomNavigation(props) {
   const config = {
-    height : props.view==='Setting'?'0'
+    height : props.view==='Setting'?'5%'
             :props.view==='Setting'?'10%'
             :'10%',
   }
@@ -86,6 +87,7 @@ export default function AppBottomNavigation(props) {
         :props.view==='KeepList'? renderOnKeepList()
         :null
       }
+      <Credit />
     </div>
   );
 }
