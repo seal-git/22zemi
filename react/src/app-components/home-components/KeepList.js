@@ -9,7 +9,7 @@ import Typography from '@material-ui/core/Typography'
 // 他のファイルからインポート
 import Credit from "./Credit"
 import KeepListTile from "./keeplist-components/KeepListTile"
-import sampleData from "./../../samples/sampleData2.json"
+import sampleData from "./../../samples/sampleData3.json"
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import SortButton from './keeplist-components/SortButton'
@@ -64,30 +64,19 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-// const initDataList = [{
-//     "Name": "Loading...",
-//     "Images": [noImageIcon, noImageIcon],
-//     "Distance": "",
-//     "Price": "",
-//     "Category": "",
-//     "ReviewRating": "",
-//     "VotesLike": 0,
-//     "VotesAll": 0,
-//     "distance_float": 0.,
-//     "RecommendScore": 0,
-// }, {
-//     "Name": "Loading...",
-//     "Images": [noImageIcon, noImageIcon],
-//     "Distance": "",
-//     "Price": "",
-//     "Category": "",
-//     "ReviewRating": "",
-//     "VotesLike": 0,
-//     "VotesAll": 0,
-//     "distance_float": 0.,
-//     "RecommendScore": 0,
-// }]
-const initDataList = sampleData
+const initDataList = {
+    "Restaurant_id": "　",
+    "Name": "NowLoading",
+    "Address": "　",
+    "Price": 0,
+    "Category": "…",
+    "ReviewRating": "…",
+    "BusinessHour": "00:00~00:00",
+    "Images": [""],
+    "ImagesBinary": [""]
+}
+
+// const initDataList = sampleData
 
 
 /*
@@ -111,11 +100,10 @@ function KeepList(props) {
             params: params
         })
             .then(function (response) {
-                console.log(response)
-                // let dataList = response['data']
+                console.log(response);
+                setDataList(response.data);
                 // テスト用データ
-                let dataList = sampleData
-
+                // let dataList = sampleData
                 console.log("keeplist length:" + dataList.length)
                 selectControl('sortByFavos');
             })
@@ -147,11 +135,10 @@ function KeepList(props) {
 
     const selectControl = (event) => {
         // ソート用にリストを複製
+        console.log(dataList);
         let newDataList = [...dataList]
+        // let newDataList = dataList;
         if (newDataList.length > 0) {
-
-            console.log(event)
-
             if (event == 'sortByFavos') {
                 console.log('みんなの人気順')
                 newDataList.sort(function (a, b) {
@@ -193,8 +180,10 @@ function KeepList(props) {
             }
         }
         // ソート結果を反映
-        console.log(newDataList)
+        console.log("sortFinished");
         setDataList(newDataList)
+        console.log(newDataList)
+        console.log(dataList);
 
         // フォーカスを外さないと見た目が残念になる
         var obj = document.activeElement
@@ -239,7 +228,6 @@ function KeepList(props) {
     // KeepListModalに渡す関数、モーダルを閉状態にする
     const closeModal = () => {
         setModalState(false);
-        // setModalData(['none']);
     }
 
 

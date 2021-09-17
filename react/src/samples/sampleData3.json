@@ -1,0 +1,22 @@
+{
+    "Restaurant_id": "124",
+    "Name": "すき家",
+    "Address": "東京都千代田区紀尾井町1-2 ザ･プリンスギャラリー 東京紀尾井町,ラグジュアリーコレクションホテル36F",
+    "Price": 300,
+    "Category": "牛丼",
+    "UrlWeb": "https://loco.yahoo.co.jp/place/0716acd04c30d4d8232503439bd28d07911c9bcf",
+    "UrlMap": "https://map.yahoo.co.jp/route/walk?from=東京都新宿区新宿&to=東京都千代田区紀尾井町1-2 ザ･プリンスギャラリー 東京紀尾井町,ラグジュアリーコレクションホテル36F",
+    "ReviewRating": "",
+    "BusinessHour": "２４時間",
+    "Genre": [
+        {
+            "Code": "0102004",
+            "Name": "洋食（その他）"
+        }
+    ],
+    "Images": [
+        "https://restaurant.img-ikyu.com/rsDatas/rsData107000/r106681/106681ga10000062.jpg",
+        "https://restaurant.img-ikyu.com/rsDatas/rsData107000/r106681/106681ga10000063.jpg"
+    ],
+    "ImagesBinary": []
+}
