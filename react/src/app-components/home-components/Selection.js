@@ -1,15 +1,14 @@
 import React from 'react'
-import "./css/Selection.css"
+import "./../../css/Selection.css"
 // パッケージからインポート
 import axios from "axios"
 import { useEffect, useState } from "react"
 // 他のファイルからインポート
-import ButtonToInvite from "./ButtonToInvite"
-import ButtonToShowComment from "./ButtonToShowComment"
-import RestaurantInformation from './RestaurantInformation'
-import RestaurantInformationDeck from './RestaurantInformationDeck'
-import noImageIcon from "..//img/no_image.png"
-import sampleDataList from "./sampleData.json"
+import ButtonToInvite from "./selection-components/ButtonToInvite"
+import ButtonToShowComment from "./selection-components/ButtonToShowComment"
+import RestaurantInformation from './selection-components/RestaurantInformation'
+import RestaurantInformationDeck from './selection-components/RestaurantInformationDeck'
+import noImageIcon from "./../../img/no_image.png"
 
 const initDataList = [{
   "Name": "Loading...",

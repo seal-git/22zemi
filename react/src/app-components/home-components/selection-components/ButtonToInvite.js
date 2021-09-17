@@ -9,7 +9,7 @@ import DialogTitle from '@material-ui/core/DialogTitle'
 import { makeStyles,withStyles } from '@material-ui/core/styles'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 // 他ファイルからインポート
-import InviteIcon from '../icon/InviteIcon'
+import InviteIcon from './../../../icon/InviteIcon'
 /*
 招待ボタン：押すと招待URLが表示される
  */
