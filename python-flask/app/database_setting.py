@@ -68,9 +68,9 @@ class Group(Base):
     price_average = Column('group_price', Float) # レコメンド # 平均価格
     distance_average = Column('group_distance', Float) # レコメンド # 平均距離
     created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
+    # start = Column('start', Integer, default=0)  # 取得開始位置 
     updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)
     password = Column('password', String(50)) # パスワード (2021/08/21 未使用)
-
 
 # レストラン
 class Restaurant(Base):

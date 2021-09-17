@@ -1,9 +1,11 @@
 import requests
 import os
 import datetime
-from app import calc_info
+from app import database_functions, calc_info
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
+from app.internal_info import *
 from abc import ABCMeta, abstractmethod
+from flask import abort
 # from PIL import Image
 # from io import BytesIO
 
@@ -12,12 +14,12 @@ from abc import ABCMeta, abstractmethod
 
 APIで店舗情報を取得する。
 ========
-search_restaurant_infoとget_restaurant_infoが最初に呼ばれる。
+search_restaurants_infoとget_restaurants_infoが最初に呼ばれる。
 
 # 新しいAPIの記述
  - ApiFunctionsクラスを継承して記述してください。
  - ApiFunctionsYahooクラスを参考にしてください
- - search_restaurant_info関数とget_restaurant_info関数に作ったクラスを追加してください。
+ - search_restaurants_info関数とget_restaurants_info関数に作ったクラスを追加してください。
 
 # 主な流れ
 search_restaurants_info関数は検索条件(search_params)から店の情報(restaurants_info)を取得する。
@@ -137,8 +139,11 @@ class ApiFunctionsYahoo(ApiFunctions):
         restaurant_info : dict
             レスポンスするレストラン情報をjson形式で返す。
         '''
-        print(f"feature_to_info(api_yahoo):{access_flag}")
+        # print(f"feature_to_info(api_yahoo):{access_flag}")
+
         MAX_LIST_COUNT = 10
+        
+        if access_flag=='get': print(f"feature_to_info(api_yahoo):{access_flag}")
 
         restaurant_info = {}
         restaurant_id = feature['Property']['Uid']
@@ -152,7 +157,8 @@ class ApiFunctionsYahoo(ApiFunctions):
         restaurant_info['DinnerPrice'] = feature['Property']['Detail'].get('DinnerPrice')
         restaurant_info['TopRankItem'] = [feature['Property']['Detail']['TopRankItem'+str(j)] for j in range(MAX_LIST_COUNT) if 'TopRankItem'+str(j) in feature['Property']['Detail']] # TopRankItem1, TopRankItem2 ... のキーをリストに。
         restaurant_info['CassetteOwnerLogoImage'] = feature['Property']['Detail'].get('CassetteOwnerLogoImage')
-        restaurant_info['Category'] = feature['Property']['Genre'][0]['Name']
+        if len(feature['Property']['Genre'])>0:
+            restaurant_info['Category'] = feature['Property']['Genre'][0]['Name']
         restaurant_info['UrlWeb'] = "https://loco.yahoo.co.jp/place/" + restaurant_id
         restaurant_info['UrlMap'] = "https://map.yahoo.co.jp/route/walk?from=" + str(fetch_group.address) + "&to=" + restaurant_info['Address']
         restaurant_info['ReviewRating'], restaurant_info['ReviewRatingFloat'] = self.get_review_rating(restaurant_id) if access_flag == "get" else "", 0
@@ -167,8 +173,11 @@ class ApiFunctionsYahoo(ApiFunctions):
         persistency_image_n = [feature['Property']['Detail']['PersistencyImage'+str(j)] for j in range(MAX_LIST_COUNT) if 'PersistencyImage'+str(j) in feature['Property']['Detail']] # PersistencyImage1, PersistencyImage2 ... のキーをリストに。
         restaurant_info['Images'] = list(dict.fromkeys(lead_image + image_n + persistency_image_n))
 
-        restaurant_info["Image_references"] = calc_info.get_google_images(feature['Name']) if access_flag=="get" else [] #google apiの画像のreferenceを保存
-        restaurant_info["ImageFiles"] = calc_info.create_image(restaurant_info) if access_flag=="get" else [] #1枚の画像のURLを保存 
+        restaurant_info["Image_references"] = calc_info.get_google_images(
+            feature['Name']) if access_flag=="xxx" else [] #google
+        # apiの画像のreferenceを保存
+        restaurant_info["ImageFiles"] = calc_info.create_image(
+            restaurant_info) if access_flag=="xxx" else [] #1枚の画像のURLを保存
         if len(restaurant_info["Images"]) == 0:
             no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
             restaurant_info["Images"] = [no_image_url, no_image_url]
@@ -176,7 +185,8 @@ class ApiFunctionsYahoo(ApiFunctions):
         return restaurant_info
 
 
-    def get_info_from_api(self, fetch_group, group_id, search_params, access_flag):
+    def get_feature_from_api(self, fetch_group, group_id, search_params,
+                             access_flag):
         '''
         Yahoo local search APIで店舗情報(feature)を取得する。
         
@@ -191,20 +201,18 @@ class ApiFunctionsYahoo(ApiFunctions):
         
         Returns
         ----------------
-        restaurants_info : [dict]
-            レスポンスするレストラン情報をjson形式で返す。
+        feature_list : [list]
+        APIから返ってきたレストラン情報のリスト
         '''
 
         print(f"get_info_from_api(api_yahoo):{access_flag}")
-
-        lunch_time_start = 10 # 現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
-        lunch_time_end = 15
 
         # Yahoo local search APIで店舗情報を取得
         local_search_url = 'https://map.yahooapis.jp/search/local/V1/localSearch'
         search_params.update({
             'appid': os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
             'output': 'json',
+            'gc': '01',
             'detail': 'full'
         })
         try:
@@ -215,34 +223,80 @@ class ApiFunctionsYahoo(ApiFunctions):
             
         # 検索の該当が無かったとき
         if local_search_json['ResultInfo']['Count'] == 0:
-            return {}, []
+            return []
+
+        feature_list = local_search_json['Feature']
+        return feature_list
+
+
+    def search_restaurants_info(self, fetch_group, group_id, search_params):
+        access_flag = "search"
 
         # 現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
+        lunch_time_start = 10 # 現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
+        lunch_time_end = 15
         if 'open' in search_params and search_params['open'] != 'now':
             lunch_or_dinner = 'lunch' if lunch_time_start <= int((search_params['open'].split(','))[1]) < lunch_time_end else 'dinner'
         else:
             now_time = datetime.datetime.now().hour + datetime.datetime.now().minute / 60
             lunch_or_dinner = 'lunch' if lunch_time_start <= now_time < lunch_time_end else 'dinner'
 
-        # Yahoo local search apiで受け取ったjsonをクライアントアプリに送るjsonに変換する
-        restaurants_info = []
-        for i,feature in enumerate(local_search_json['Feature']):
-            restaurants_info.append(self.feature_to_info(fetch_group, group_id, lunch_or_dinner, feature, access_flag))
-            
-        #各お店のオススメ度を追加(相対評価)
-        restaurants_info = calc_info.calc_recommend_score(fetch_group, group_id, restaurants_info)
-        return local_search_json, restaurants_info
+        #YahooAPIからレストランのfeatureのリストを取得する
+        feature_list = self.get_feature_from_api(
+            fetch_group,
+            group_id,
+            search_params
+            , access_flag
+        )
+        print(f"search_restaurants_info: result: {len(feature_list)} items")
 
+        # feature_listをクライアントアプリに送るjsonに変換する
+        restaurants_info = list(map(lambda feature:
+                                   self.feature_to_info(
+                                        fetch_group,
+                                        group_id,
+                                        lunch_or_dinner,
+                                        feature,
+                                        access_flag)
+                                   , feature_list))
 
-    def search_restaurants_info(self, fetch_group, group_id, search_params):
-        access_flag = "search"
-        local_search_json, restaurants_info = self.get_info_from_api(fetch_group, group_id, search_params, access_flag)
         return restaurants_info
 
     def get_restaurants_info(self, fetch_group, group_id, restaurant_ids):
         access_flag = "get"
+
         search_params = { 'uid': ','.join(restaurant_ids) }
-        local_search_json, restaurants_info = self.get_info_from_api(fetch_group, group_id, search_params, access_flag)
+        print(f"get_restaurants_info: get {len(restaurant_ids)} items")
+        #YahooAPIからレストランの情報を取得する
+        feature_list = self.get_feature_from_api(
+            fetch_group,
+            group_id,
+            search_params
+            , access_flag
+        )
+        print(f"get_restaurants_info: get {len(feature_list)} items")
+
+        # 現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
+        lunch_time_start = 10 # 現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
+        lunch_time_end = 15
+        if 'open' in search_params and search_params['open'] != 'now':
+            lunch_or_dinner = 'lunch' if lunch_time_start <= int((search_params['open'].split(','))[1]) < lunch_time_end else 'dinner'
+        else:
+            now_time = datetime.datetime.now().hour + datetime.datetime.now().minute / 60
+            lunch_or_dinner = 'lunch' if lunch_time_start <= now_time < lunch_time_end else 'dinner'
+
+        # feature_listをクライアントアプリに送るjsonに変換する
+        restaurants_info = list(map(lambda feature:
+                                   self.feature_to_info(
+                                        fetch_group,
+                                        group_id,
+                                        lunch_or_dinner,
+                                        feature,
+                                        access_flag)
+                                   , feature_list))
+
+        #各お店のオススメ度を追加(相対評価)
+        restaurants_info = calc_info.calc_recommend_score(fetch_group, group_id, restaurants_info)
         return restaurants_info
 
 class ApiFunctionsGoogle(ApiFunctions):
@@ -274,7 +328,7 @@ class ApiFunctionsGoogle(ApiFunctions):
             except Exception as e:
                 abort(e.code)
             feature = local_search_json['result']
-            restaurant_info = self.get_restaurant_info(fetch_group, group_id, feature)
+            restaurant_info = self.feature_to_info(fetch_group, group_id, feature)
             restaurants_info.append(restaurant_info)
             
         #各お店のオススメ度を追加(相対評価)
@@ -312,7 +366,7 @@ class ApiFunctionsGoogle(ApiFunctions):
                 return image_urls
         return image_urls
 
-    def get_restaurant_info(self, fetch_group, group_id, feature):
+    def feature_to_info(self, fetch_group, group_id, feature):
         '''
         Google APIで取得した店舗情報(feature)を、クライアントに送信するjsonの形式に変換する。
         
@@ -392,7 +446,8 @@ class ApiFunctionsGoogle(ApiFunctions):
         url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json' #緯度経度と半径からお店を取得
         search_params.update({
             'key': os.environ['GOOGLE_API_KEY'],
-            'opennow': 'true',
+            'output': 'json',
+            'type': 'restaurant'
         })  # 検索クエリの設定(詳しくはPlace Search APIのドキュメント参照)
         print("================================")
         print(f"google nearby search:")
@@ -412,7 +467,7 @@ class ApiFunctionsGoogle(ApiFunctions):
         # apiで受け取ったjsonをクライアントアプリに送るjsonに変換する
         restaurants_info = []
         for i,feature in enumerate(local_search_json['results']): #最大20件まで取れる
-            restaurant_info = self.get_restaurant_info(fetch_group, group_id, feature)
+            restaurant_info = self.feature_to_info(fetch_group, group_id, feature)
             restaurants_info.append(restaurant_info)
             
         #各お店のオススメ度を追加(相対評価)
@@ -445,10 +500,10 @@ class ApiFunctionsHotpepper (ApiFunctions):
 # api_functions.pyで最初に呼ばれる
 
 
-def search_restaurants_info(fetch_group, group_id, user_id, search_params, histories_restaurants):
+def search_restaurants_info(fetch_group, group_id, user_id, search_params):
     '''
     レコメンドするために条件に合う店を取ってくる
-    recommend.pyのRecommend.pre_info()から呼ばれる。
+    recommend.pyのRecommend.search()から呼ばれる。
 
     Parameters
     ----------------
@@ -469,30 +524,19 @@ def search_restaurants_info(fetch_group, group_id, user_id, search_params, histo
     if api_method == "yahoo":
         api_f = ApiFunctionsYahoo()
     elif api_method == "google":
-        api_f = ApiFunctionsGoogle() 
-    
-    if api_method == "yahoo":
-        # APIで店舗情報を取得
-        if 'stock' in search_params:
-            start = session.query(Vote.restaurant).filter(Vote.group==group_id).count()
-            result = search_params['stock'] + len(histories_restaurants) - start
-            search_params.update({'start': start, 'result': result})
-            print(f"search_restaurant_info: "
-                  f"start={search_params['start']}, "
-                  f"result={search_params['result']}")
-        else:
-            print("search_restaurant_info: not use stock.")
-    
+        api_f = ApiFunctionsGoogle()
+
     # APIで店舗情報を取得
+    print(f"search_restaurants_info: params: {str(search_params)}")
     restaurants_info = api_f.search_restaurants_info(fetch_group, group_id, search_params)
 
     # データベースに店舗情報を保存
-    calc_info.save_restaurants_info(restaurants_info)
-    calc_info.save_votes(group_id, restaurants_info)
+    database_functions.save_restaurants_info(restaurants_info)
+    database_functions.save_votes(group_id, restaurants_info)
 
     # 以前に検索したレストランはデータベースから取得する
     fetch_restaurants = session.query(Restaurant).filter(Vote.group==group_id, Vote.restaurant==Restaurant.id).all() # 未送信のもののみを取得するときはfilterに`Vote.votes_all==-1`を加える
-    restaurants_info_from_db = [calc_info.convert_restaurants_info_from_fetch_restaurants(r) for r in fetch_restaurants]
+    restaurants_info_from_db = [database_functions.convert_restaurants_info_from_fetch_restaurants(r) for r in fetch_restaurants]
     restaurants_list_from_db = [r['Restaurant_id'] for r in restaurants_info_from_db]
     restaurants_info = restaurants_info_from_db + [r for r in restaurants_info if r['Restaurant_id'] not in restaurants_list_from_db]
 
@@ -529,14 +573,17 @@ def get_restaurants_info(fetch_group, group_id, restaurant_ids):
         api_f = ApiFunctionsGoogle() 
 
     # データベースから店舗情報を取得
+    print(f"get_restaurants_info: ids: {restaurant_ids}")
+
     restaurant_ids_del_none = [x for x in restaurant_ids if x is not None]
-    restaurants_info = calc_info.load_restaurants_info(restaurant_ids_del_none)
+    restaurants_info = database_functions.load_stable_restaurants_info(restaurant_ids_del_none)
 
     # データベースにない店舗の情報をAPIで取得
     rest_ids = [rid for rid, r_info in zip(restaurant_ids, restaurants_info) if r_info is None]
-    rs_info = api_f.get_restaurants_info(fetch_group, group_id, rest_ids)
-    for r_info in rs_info:
-        restaurants_info[ restaurant_ids_del_none.index(r_info['Restaurant_id']) ] = r_info
+    if len(rest_ids)>0:
+        rs_info = api_f.get_restaurants_info(fetch_group, group_id, rest_ids)
+        for r_info in rs_info:
+            restaurants_info[ restaurant_ids_del_none.index(r_info['Restaurant_id']) ] = r_info
     restaurants_info = [r for r in restaurants_info if r is not None] # feelingリクエストで架空のrestaurants_idだったときには、それを除く
 
     # 投票数と距離を計算
