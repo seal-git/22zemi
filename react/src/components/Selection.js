@@ -26,9 +26,8 @@ const emptyDataList = [{
 // カードのスタイル
 var wrapperStyle = {
   margin: 0,
-  height: '90vh',
+  height: '100%',
   position: 'absolute',
-
 }
 
 /*

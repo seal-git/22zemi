@@ -19,6 +19,10 @@ const theme = createMuiTheme({
       main: '#f44336',
     },
   },
+  typography:{
+    fontFamily: ['"Noto Sans JP"', '"Hiragino Kaku Gothic ProN"', 'Meiryo', 'sans-serif' ].join(','),
+    fontWeight: 'bold',
+  },
 });
 
 const useStyles = makeStyles((theme) => ({
