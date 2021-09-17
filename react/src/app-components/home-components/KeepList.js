@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Keeplist.css"
+import "./../../css/Keeplist.css"
 // パッケージからインポート
 import { useEffect, useState, useRef } from "react"
 import axios from "axios"
@@ -8,12 +8,12 @@ import { Box, Grid } from "@material-ui/core"
 import Typography from '@material-ui/core/Typography'
 // 他のファイルからインポート
 import Credit from "./Credit"
-import KeepListTile from "./KeepListTile"
-import sampleData from "./sampleData2.json"
+import KeepListTile from "./keeplist-components/KeepListTile"
+import sampleData from "./../../samples/sampleData2.json"
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
-import SortButton from './SortButton'
-import KeepListModal from './KeepListModal'
+import SortButton from './keeplist-components/SortButton'
+import KeepListModal from './keeplist-components/KeepListModal'
 import { CSSTransition, Transition } from 'react-transition-group';
 
 const useStyles = makeStyles((theme) => ({

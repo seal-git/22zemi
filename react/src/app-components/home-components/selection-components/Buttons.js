@@ -3,8 +3,8 @@ import { Grid } from "@material-ui/core"
 import { makeStyles,withStyles } from '@material-ui/core'
 
 // 他ファイルからインポート
-import CircleIcon from '../icon/CircleIcon.js'
-import CrossIcon from '../icon/CrossIcon.js'
+import CircleIcon from './../../../icon/CircleIcon.js'
+import CrossIcon from './../../../icon/CrossIcon.js'
 
 /* 
 ボタンをGridでまとめたもの

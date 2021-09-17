@@ -6,7 +6,8 @@ import DialogTitle from '@material-ui/core/DialogTitle'
 import { DialogContent } from '@material-ui/core'
 import { makeStyles,withStyles } from '@material-ui/core/styles'
 // 他ファイルからインポート
-import CommentIcon from '../icon/CommentIcon'
+import CommentIcon from './../../../icon/CommentIcon'
+
 /*
 招待ボタン：押すと招待URLが表示される
  */

@@ -1,7 +1,5 @@
 import React from 'react'
-import './css/Setting.css'
-// 他のファイルからインポート
-import Logo from "..//img/Reskima_Logo2.svg"
+import './../../css/Setting.css'
 /*
  設定画面のコンポーネント
  */
