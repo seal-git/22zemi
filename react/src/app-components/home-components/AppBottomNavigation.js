@@ -1,6 +1,9 @@
 import React from 'react'
 // パッケージからインポート
 import { makeStyles } from '@material-ui/core/styles'
+// 他ファイルからインポート
+import { ReactComponent as GoSetting } from './../../img/navigation-go-setting.svg'
+import { ReactComponent as GoResult } from './../../img/navigation-go-result.svg'
 
 const useStyles = makeStyles({
   AppBottomNavigation: {
@@ -19,17 +22,14 @@ const useStyles = makeStyles({
     justifyContent: 'space-evenly',
   },
   Button: {
-    height: '50%',
-    width: '25%',
-    border: 'none',
+    width: '35%',
+    height: 'auto',
     padding: '0',
     top: '0',
     bottom: '0',
     margin: 'auto',
-    color: 'white',
-    background: '#ff7474',
-    // boxShadow: '5px 5px 4px rgba(0, 0, 0, 0.75)',
-    borderRadius: '9px',
+    border: 'none',
+    background: 'transparent',
     cursor: 'pointer',
   }
 })
@@ -40,8 +40,8 @@ const useStyles = makeStyles({
 export default function AppBottomNavigation(props) {
   const config = {
     height : props.view==='Setting'?'0'
-            :props.view==='Setting'?'10vh'
-            :'10vh'
+            :props.view==='Setting'?'10%'
+            :'10%',
   }
   const classes = useStyles(config)
   const moveToSetting = () => {
@@ -57,12 +57,14 @@ export default function AppBottomNavigation(props) {
   const renderOnSelection = () => {
     return(
       <div className={classes.Content}>
-        <button className={classes.Button} onClick={() => { moveToSetting() }}>
-          &lt; 条件の設定
-        </button>
-        <button className={classes.Button} onClick={() => { moveToKeepList() }}>
-          結果をみる &gt;
-        </button>
+        <GoSetting 
+          className={classes.Button} 
+          onClick={() => { moveToSetting() }}
+        />
+        <GoResult 
+          className={classes.Button} 
+          onClick={() => { moveToKeepList() }}
+        />
       </div>
     )
   }
