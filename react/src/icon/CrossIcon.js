@@ -4,7 +4,7 @@ import SvgIcon from "@material-ui/core/SvgIcon";
 
 // 他ファイルからインポート
  
-export default function CommentIcon(props){
+export default function CrossIcon(props){
   return (
     <SvgIcon {...props}>
       <circle cx="12" cy="12" r="12" fill="#d90060"/>
