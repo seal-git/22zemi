@@ -783,8 +783,8 @@ def get_search_params_from_fetch_group(fetch_group):
     params.lon = fetch_group.lon
     params.max_dist = fetch_group.max_dist
     params.sort = fetch_group.sort
-    params.open_hour = fetch_group.open_hour.hour
-    params.open_day = fetch_group.open_day.day
+    params.open_hour = fetch_group.open_hour.hour if fetch_group.open_hour is not None else None
+    params.open_day = fetch_group.open_day.day if fetch_group.open_hour is not None else None
     params.max_price = fetch_group.max_price
     params.min_price = fetch_group.min_price
     # params.start = fetch_group.start
