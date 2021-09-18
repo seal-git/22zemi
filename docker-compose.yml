@@ -1,0 +1,82 @@
+version: '3'
+services:
+  react:
+    image: react
+    container_name: react
+    hostname: react
+    build:
+      context: ./Dockerfiles
+      dockerfile: Dockerfile-react
+    depends_on:
+      - python-flask
+    env_file:
+      - .env
+    expose:
+    - "3000"
+    volumes:
+    - ./react:/workspace
+    tty: true
+
+  python-flask:
+    image: python-flask
+    container_name: python-flask
+    hostname: python-flask
+    build:
+      context: ./Dockerfiles
+      dockerfile: Dockerfile-python
+    depends_on:
+      - mysql
+    env_file:
+      - .env
+    expose:
+    - "5000"
+    volumes:
+    - ./python-flask:/workspace
+    tty: true
+    restart: on-failure
+
+  mysql:
+    image: mysql
+    container_name: mysql
+    hostname: mysql
+    build:
+      context: ./Dockerfiles
+      dockerfile: Dockerfile-mysql
+    restart: on-failure
+    env_file:
+      - .env
+    environment:
+#      MYSQL_USER: sample_user #新たにユーザーを作成する
+#      MYSQL_DATABASE: sample_db #新たにDBを作成する
+      TZ: "Asia/Tokyo"
+      BIND-ADDRESS: 0.0.0.0
+    expose:
+      - "3306"
+    # データを永続化させる場合
+    volumes:
+      # 初期データを投入するSQLが格納されているdir
+      - ./mysql/initdb.d:/docker-entrypoint-initdb.d
+      # 永続化するときにマウントするdir(ホスト側は空のディレクトリをマウントしないと初期データは登録されない！)
+      - mysql-data:/var/lib/mysql
+    command:
+      --secure-file-priv="/docker-entrypoint-initdb.d"
+    tty: true
+
+  https-portal:
+      image: steveltn/https-portal:1
+      container_name: https
+      ports:
+        - '80:80'
+        - '443:443'
+      environment:
+        DOMAINS: 'localhost -> react:3000'
+        STAGE: 'local'
+        # STAGE: 'production' # Don't use production until staging works
+        # FORCE_RENEW: 'true'
+      restart: on-failure
+      volumes:
+        - https-portal-data:/var/lib/https-portal
+
+volumes:
+    mysql-data:
+    https-portal-data:

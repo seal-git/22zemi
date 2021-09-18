@@ -1,0 +1,5 @@
+FROM python
+RUN pip install --upgrade pip &&\
+ pip install pipenv
+WORKDIR /workspace
+CMD pipenv install --system && python app.py

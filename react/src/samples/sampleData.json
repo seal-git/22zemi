@@ -1,0 +1,40 @@
+[
+    {
+        "Restaurant_id": "f177d0a7e2b62f926f4b939e4146e2bedb4bf021",
+        "Name": "ル・パリジャン",
+        "Address": "東京都新宿区岩戸町19 高野ビル1F",
+        "distance_float": 2410.568750679528,
+        "Distance": "2.4km",
+        "CatchCopy": "神楽坂にいながらフランス・パリの雰囲気を味わいながらお料理、ワインをお愉しみ頂けます。",
+        "Price": "5000",
+        "LunchPrice": "1800",
+        "DinnerPrice": "5000",
+        "TopRankItem": [],
+        "CassetteOwnerLogoImage": "https://iwiz-olp.c.yimg.jp/c/olp/18/1852ed1e9b6d12c23cd34e79a4be4c71/image/5c/74/logo_restaurantikyu.png",
+        "Category": "フランス料理（フレンチ）",
+        "UrlYahooLoco": "https://loco.yahoo.co.jp/place/f177d0a7e2b62f926f4b939e4146e2bedb4bf021",
+        "UrlYahooMap": "https://map.yahoo.co.jp/route/walk?from=東京都新宿区新宿&to=東京都新宿区岩戸町19 高野ビル1F",
+        "ReviewRating": "",
+        "VotesLike": 0,
+        "VotesAll": 0,
+        "BusinessHour": "営業時間を変更しております。\n■ランチ  11:30～14:30. L.O.\n■ディナー 17:00～20:00(19:00)\n\n【テイクアウト営業時間】\n11:30～14:30\n17:00～21:00",
+        "Genre": [
+            {
+                "Code": "0102005",
+                "Name": "フランス料理（フレンチ）"
+            }
+        ],
+        "NumberOfParticipants": "1",
+        "Images": [
+            "https://restaurant.img-ikyu.com/rsDatas/rsData105000/r104804/104804ga10000018.jpg",
+            "https://restaurant.img-ikyu.com/rsDatas/rsData105000/r104804/104804ga10000019.jpg",
+            "https://restaurant.img-ikyu.com/rsDatas/rsData114000/r113849/113849ga10000020.jpg",
+            "https://restaurant.img-ikyu.com/rsDatas/rsData114000/r113849/113849ga10000021.jpg",
+            "https://restaurant.img-ikyu.com/rsDatas/rsData102500/r102113/102113ga10000013.jpg",
+            "https://restaurant.img-ikyu.com/rsDatas/rsData102500/r102113/102113ga10000014.jpg",
+            "https://restaurant.img-ikyu.com/rsDatas/rsData109000/r108955/108955ga10000012.jpg",
+            "https://restaurant.img-ikyu.com/rsDatas/rsData109000/r108955/108955ga10000013.jpg"
+        ],
+        "RecommendScore": 100
+    }
+]
