@@ -173,8 +173,6 @@ class ApiFunctionsYahoo(ApiFunctions):
         persistency_image_n = [feature['Property']['Detail']['PersistencyImage'+str(j)] for j in range(MAX_LIST_COUNT) if 'PersistencyImage'+str(j) in feature['Property']['Detail']] # PersistencyImage1, PersistencyImage2 ... のキーをリストに。
         restaurant_info['Images'] = list(dict.fromkeys(lead_image + image_n + persistency_image_n))
 
-        restaurant_info["Image_references"] = calc_info.get_google_images(
-            feature['Name']) if access_flag=="xxx" else [] #google
         # apiの画像のreferenceを保存
         restaurant_info["ImageFiles"] = calc_info.create_image(
             restaurant_info) if access_flag=="xxx" else [] #1枚の画像のURLを保存
@@ -249,6 +247,9 @@ class ApiFunctionsYahoo(ApiFunctions):
             , access_flag
         )
         print(f"search_restaurants_info: result: {len(feature_list)} items")
+
+        # Googleから画像を取得する
+        images_list = calc_info.get_google_images_list([f['Name'] for f in feature_list])
 
         # feature_listをクライアントアプリに送るjsonに変換する
         restaurants_info = list(map(lambda feature:

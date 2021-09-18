@@ -112,9 +112,9 @@ function KeepList(props) {
         })
             .then(function (response) {
                 console.log(response)
-                // let dataList = response['data']
+                let dataList = response['data']
                 // テスト用データ
-                let dataList = sampleData
+                // let dataList = sampleData
 
                 console.log("keeplist length:" + dataList.length)
                 selectControl('sortByFavos');

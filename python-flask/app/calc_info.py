@@ -5,6 +5,7 @@ from geopy.distance import great_circle
 from app import database_functions
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 import requests
+import threading
 
 '''
 
@@ -137,7 +138,23 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
 # ============================================================================================================
 # image
 
-def get_google_images(restaurant_name):
+def google_google_images_list(name_list):
+    '''
+    Googleから複数の店の画像を並列に取得する
+    '''
+    images_list = [[] for name in name_list]
+    thread_list = [None for name in name_list]
+    for index,name in enumerate(name_list):
+        thread_list[index] = threading.Thread(target=get_google_images, args=(index, name, images_list))
+        thread_list[index].start()
+    for t in thread_list:
+        t.join()
+    return images_list
+
+def get_google_images(index, restaurant_name, images_list):
+    '''
+    店名からGoogleから画像を取得する
+    '''
     if os.getenv("USE_LOCAL_IMAGE")=="True": # debug mode
         print("getting image reference from test/data")
         with open("test/data/references.txt", "r")as f:
@@ -167,7 +184,7 @@ def get_google_images(restaurant_name):
             photo_references = [photo['photo_reference'] for photo in dic['result']['photos']]
         else:
             photo_references = []
-    return photo_references
+    images_list[index] = photo_references
 
 from memory_profiler import profile
 @profile
