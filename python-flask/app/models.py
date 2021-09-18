@@ -1,5 +1,5 @@
 # from sqlalchemy import *
-from flask import jsonify, make_response, request
+from flask import jsonify, make_response, request, send_file
 
 from app import app_, db_
 from app import database_functions, recommend, api_functions, config
@@ -65,14 +65,12 @@ def create_response_from_restaurants_info(group_id, user_id, restaurants_info):
     レスポンスを生成する仕上げ
     '''
 
-    IMAGE_DIRECTORY_PATH = './data/image/'
-
     # 画像を返す
     for r in restaurants_info:
         images_binary = []
         for path in r['ImageFiles']:
             if len(path) != 0:
-                with open(IMAGE_DIRECTORY_PATH+path,"r") as f:
+                with open(config.MyConfig.IMAGE_DIRECTORY_PATH+path,"r") as f:
                     images_binary.append( f.read() )
         r['ImagesBinary'] = images_binary
     
@@ -130,8 +128,6 @@ def http_invite():
     Qr : 招待QRコード
     '''
 
-    URL = 'https://reskima.com'
-
     # リクエストクエリを受け取る
     data = request.get_json()["params"]
     user_id = int(data["user_id"]) if data.get("user_id", False) else None
@@ -154,7 +150,7 @@ def http_invite():
     database_functions.set_search_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort)
     
     # 招待URL
-    invite_url = URL + '?group_id=' + str(group_id)
+    invite_url = config.MyConfig.SERVER_URL + '?group_id=' + str(group_id)
     # 招待QRコード
     qr_img = qrcode.make(invite_url)
     buf = BytesIO()
@@ -378,6 +374,13 @@ def http_decision():
 
     decision_json = {"decision":"test"}
     return decision_json
+
+@app_.route('/image', methods=['GET'])
+def http_image():
+    name = request.args.get('name')
+    print(f"http_image: name={name}")
+    return send_file(f"../{config.MyConfig.IMAGE_DIRECTORY_PATH}{name}")
+
 
 @app_.route('/test', methods=['GET','POST'])
 def http_test():

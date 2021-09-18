@@ -248,9 +248,6 @@ class ApiFunctionsYahoo(ApiFunctions):
         )
         print(f"search_restaurants_info: result: {len(feature_list)} items")
 
-        # Googleから画像を取得する
-        images_list = calc_info.get_google_images_list([f['Name'] for f in feature_list])
-
         # feature_listをクライアントアプリに送るjsonに変換する
         restaurants_info = list(map(lambda feature:
                                    self.feature_to_info(
@@ -260,6 +257,11 @@ class ApiFunctionsYahoo(ApiFunctions):
                                         feature,
                                         access_flag)
                                    , feature_list))
+
+        # Googleから画像を取得する
+        images_list = calc_info.get_google_images_list([r['Name'] for r in restaurants_info])
+        for r, images in zip(restaurants_info, images_list):
+            r['Images'] = images + r['Images']
 
         return restaurants_info
 

@@ -36,6 +36,9 @@ class MyConfig:
     SET_OPEN_HOUR = True  # 開店時間固定する場合はTrueにする
     OPEN_HOUR = "12:00"  # 固定の開店時間
 
+    IMAGE_DIRECTORY_PATH = 'data/image/'
+    SERVER_URL = 'https://localhost' # 'https://reskima.com'
+
 
 # pytest実行時に読まれる設定
 class TestConfig:
@@ -52,3 +55,6 @@ class TestConfig:
     STOCK_COUNT = 50  # 検索で取得するデータの数．STOCK_COUNT個の店からRESPONSE_COUNT個選ぶ
     SET_OPEN_HOUR = True  # 開店時間固定する場合はTrueにする
     OPEN_HOUR = "12:00"  # 固定の開店時間
+    
+    IMAGE_DIRECTORY_PATH = 'data/image/'
+    SERVER_URL = 'https://localhost'

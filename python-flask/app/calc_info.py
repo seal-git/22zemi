@@ -2,7 +2,7 @@ import glob
 import os
 
 from geopy.distance import great_circle
-from app import database_functions
+from app import database_functions, config
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 import requests
 import threading
@@ -138,7 +138,7 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
 # ============================================================================================================
 # image
 
-def google_google_images_list(name_list):
+def get_google_images_list(name_list):
     '''
     Googleから複数の店の画像を並列に取得する
     '''
@@ -155,6 +155,11 @@ def get_google_images(index, restaurant_name, images_list):
     '''
     店名からGoogleから画像を取得する
     '''
+
+    from PIL import Image
+    import os, sys, requests, base64, gc
+    from io import BytesIO
+
     if os.getenv("USE_LOCAL_IMAGE")=="True": # debug mode
         print("getting image reference from test/data")
         with open("test/data/references.txt", "r")as f:
@@ -184,7 +189,59 @@ def get_google_images(index, restaurant_name, images_list):
             photo_references = [photo['photo_reference'] for photo in dic['result']['photos']]
         else:
             photo_references = []
-    images_list[index] = photo_references
+    
+    urls = []
+    for i, reference in enumerate(photo_references):
+        # image_referenceごとにAPIを叩いて画像を取得
+        url = 'https://maps.googleapis.com/maps/api/place/photo'
+        params = {
+            'key': os.environ['GOOGLE_API_KEY'],
+            'photoreference': reference
+        }
+        res = requests.get(url=url, params=params)
+        # 返ってきたバイナリをImageオブジェクトに変換
+        filename = f"{config.MyConfig.IMAGE_DIRECTORY_PATH}{reference}.png"
+        image = Image.open(BytesIO(res.content))
+        image.save(filename)
+        urls.append(f"{config.MyConfig.SERVER_URL}:5000/image?name={reference}.png")
+
+    images_list[index] = urls
+
+
+# def get_google_images_references(restaurant_name):
+#     '''
+#     店名からGoogleから画像を取得する
+#     '''
+#     if os.getenv("USE_LOCAL_IMAGE")=="True": # debug mode
+#         print("getting image reference from test/data")
+#         with open("test/data/references.txt", "r")as f:
+#             image_references = [l for l in f]
+#         return image_references
+#     else:
+#         # place検索
+#         url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
+#         params = {
+#             'key': os.environ["GOOGLE_API_KEY"],
+#             'input': restaurant_name,
+#             'inputtype': 'textquery',
+#         }
+#         res = requests.get(url=url, params=params)
+#         dic = res.json()
+#         place_id = dic['candidates'][0]['place_id']
+
+#         # place_detailを取得
+#         url = 'https://maps.googleapis.com/maps/api/place/details/json'
+#         params = {
+#             'key': os.environ["GOOGLE_API_KEY"],
+#             'place_id': place_id,
+#         }
+#         res = requests.get(url=url, params=params)
+#         dic = res.json()
+#         if 'photos' in dic['result']:
+#             photo_references = [photo['photo_reference'] for photo in dic['result']['photos']]
+#         else:
+#             photo_references = []
+#     return photo_references
 
 from memory_profiler import profile
 @profile
@@ -221,8 +278,7 @@ def create_image(restaurant_info):
         buffer = BytesIO()
         image.save(buffer, format="jpeg")
         with open(filename, "w") as f:
-            f.write(base64.b64encode(buffer.getvalue()).decode("ascii")
-)
+            f.write(base64.b64encode(buffer.getvalue()).decode("ascii"))
         del buffer, image
         gc.collect()
 
@@ -269,7 +325,7 @@ def create_image(restaurant_info):
         print(f"_image{i}", sys.getsizeof(_image.tobytes()))
 
         if use_raw_image:
-            save_b64(f"data/image/{filename}", _image)
+            save_b64(f"{config.MyConfig.IMAGE_DIRECTORY_PATH}{filename}", _image)
             image_file_list.append(f"{filename}")
 
     if use_raw_image:
@@ -354,7 +410,7 @@ def create_image(restaurant_info):
     del row1_image, row2_image, row12_image, new_image
     gc.collect()
     # キャッシュファイル削除
-    [os.remove(file) for file in glob.glob("data/tmp/image*.jpg")]
+    [os.remove(file) for file in glob.glob(f"{config.MyConfig.IMAGE_DIRECTORY_PATH}image*.jpg")]
 
 
     return image_file_list
