@@ -7,11 +7,11 @@ import { DialogContent } from '@material-ui/core'
 import { makeStyles,withStyles } from '@material-ui/core/styles'
 // 他ファイルからインポート
 import CommentIcon from './../../../icon/CommentIcon'
+import CommentModal from './CommentModal'
 
 /*
-招待ボタン：押すと招待URLが表示される
+招待ボタン：押すと招待リンク共有用のモーダルが開かれる
  */
-
 
 const useStyles = makeStyles({
     ButtonToShowCommentContainer:{
@@ -59,12 +59,17 @@ function ButtonToShowComment(props) {
     return (
         <div className={classes.ButtonToShowCommentContainer}>
                 <StyledCommentIcon onClick={()=>{handleClickOpen()}} />
-            <StyledDialog open={open}
+            {/* <StyledDialog open={open}
                     onClose={handleClose}
                     aria-labelledby="form-dialog-title">
                 <DialogTitle >Title</DialogTitle>
                 <DialogContent>Content</DialogContent>
-            </StyledDialog>
+            </StyledDialog> */}
+            <CommentModal 
+                open={open}
+                handleClose={handleClose}
+                data={props.data}
+            />
         </div>
     )
 }
