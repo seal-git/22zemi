@@ -35,16 +35,6 @@ function ButtonToShowComment(props) {
         setOpen(false)
     };
 
-    const StyledDialog = withStyles( (theme) => ({
-        root:{
-            alignItems: 'center',
-            webkitUserSelect: 'none',
-            mozUserSelect: 'none',
-            MsUserSelect: 'none',
-            userSelect: 'none',
-        },
-    }))(Dialog);
-
     const StyledCommentIcon = withStyles( (theme) => ({
         root:{
             width: '15%',
@@ -58,13 +48,7 @@ function ButtonToShowComment(props) {
 
     return (
         <div className={classes.ButtonToShowCommentContainer}>
-                <StyledCommentIcon onClick={()=>{handleClickOpen()}} />
-            {/* <StyledDialog open={open}
-                    onClose={handleClose}
-                    aria-labelledby="form-dialog-title">
-                <DialogTitle >Title</DialogTitle>
-                <DialogContent>Content</DialogContent>
-            </StyledDialog> */}
+            <StyledCommentIcon onClick={()=>{handleClickOpen()}} />
             <CommentModal 
                 open={open}
                 handleClose={handleClose}
