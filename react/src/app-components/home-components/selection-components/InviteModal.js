@@ -6,15 +6,15 @@ import Dialog from '@material-ui/core/Dialog'
 import DialogTitle from '@material-ui/core/DialogTitle'
 import { makeStyles,withStyles } from '@material-ui/core/styles'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
+import { DialogContent, Typography } from '@material-ui/core'
 
 // 他ファイルからインポート
 import { ReactComponent as CopyBefore } from '../../../img/copy-before.svg'
 import { ReactComponent as CopyAfter } from '../../../img/copy-after.svg'
-import { DialogContent, Typography } from '@material-ui/core'
 
 const useStyles = makeStyles({
     CopyButton:{
-        width: '90%',
+        width: '100%',
         border: 'none',
         padding: '0',
         backgroundColor: 'transparent',
@@ -27,7 +27,13 @@ function CopyButton(props){
     const [isCopied, setIsCopied] = useState(false)
     const classes = useStyles()
     return(
-        <CopyToClipboard text={props.url} onCopy={() => { console.log(props.url); setIsCopied(true) }}>
+        <CopyToClipboard 
+            text={props.url} 
+            onCopy={() => { 
+                console.log(props.url); 
+                setIsCopied(true);
+            }} 
+        >
                 {isCopied ?
                     <CopyAfter className={classes.CopyButton}/>:
                     <CopyBefore className={classes.CopyButton}/>
@@ -58,10 +64,10 @@ function InviteModal(props){
             open={props.open}
                 onClose={()=>{props.handleClose();}}
                 aria-labelledby="form-dialog-title" >
-            <DialogTitle id="form-dialog-title" variant='h5'>
+            <DialogTitle id="form-dialog-title" >
                 みんなを招待しよう
             </DialogTitle>
-            <DialogContent variant='body1'>
+            <DialogContent>
                 リンクをシェアして友達と一緒に<br />
                 レストランを決めよう！
             </DialogContent>
