@@ -180,6 +180,7 @@ function Selection(props) {
         wrapperStyle={wrapperStyle}
         keep={()=>{ console.log("pushed")}}
         reject={()=>{console.log("pushed")}}
+        groupId={props.groupId}
       />
     )
   }
@@ -197,6 +198,7 @@ function Selection(props) {
         reject={reject}
         getInfo={getInfo}
         setPreloadedDataList={setPreloadedDataList}
+        groupId={props.groupId}
       />
     )
   }
