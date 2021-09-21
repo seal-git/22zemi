@@ -1,4 +1,5 @@
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
+from app.internal_info import *
 from app import config
 import datetime
 import requests
@@ -344,30 +345,28 @@ def save_restaurants_info(restaurants_info):
             session.commit()
 
 
-def convert_restaurants_info_from_fetch_restaurants(f_restaurant):
-    restaurant_info = {}
-    restaurant_info['Restaurant_id'] = f_restaurant.id
-    restaurant_info['Name'] = f_restaurant.name
-    restaurant_info['Address'] = f_restaurant.address
-    restaurant_info['Lat'] = f_restaurant.lat
-    restaurant_info['Lon'] = f_restaurant.lon
-    restaurant_info['Catchcopy'] = f_restaurant.catchcopy
-    restaurant_info['Price'] = f_restaurant.price
-    restaurant_info['LunchPrice'] = f_restaurant.lunch_price
-    restaurant_info['DinnerPrice'] = f_restaurant.dinner_price
-    restaurant_info['Category'] = f_restaurant.category
-    restaurant_info['UrlWeb'] = f_restaurant.url_web
-    restaurant_info['UrlMap'] = f_restaurant.url_map
-    restaurant_info['ReviewRating'] = f_restaurant.review_rating
-    restaurant_info['ReviewRatingFloat'] = f_restaurant.review_rating_float
-    restaurant_info['BusinessHour'] = f_restaurant.business_hour
-    restaurant_info['OpenHour'] = f_restaurant.open_hour
-    restaurant_info['CloseHour'] = f_restaurant.close_hour
-    restaurant_info['Genre'] = [{'Code':c, 'Name':n} for c,n in zip(f_restaurant.genre_code.split('\n'), f_restaurant.genre_name.split('\n'))]
-    restaurant_info['Images'] = f_restaurant.images.split('\n')
-    restaurant_info['ImageFiles'] = f_restaurant.image_files.split('\n')
-    restaurant_info['Image'] = f_restaurant.image
-    restaurant_info['Menu'] = f_restaurant.menu
+def get_restaurant_info_from_fetch_restaurant(f_restaurant):
+    restaurant_info = Restaurant_info()
+    restaurant_info.id = f_restaurant.id
+    restaurant_info.name = f_restaurant.name
+    restaurant_info.address = f_restaurant.address
+    restaurant_info.lat = f_restaurant.lat
+    restaurant_info.lon = f_restaurant.lon
+    restaurant_info.catchcopy = f_restaurant.catchcopy
+    restaurant_info.lunch_price = f_restaurant.lunch_price
+    restaurant_info.dinner_price = f_restaurant.dinner_price
+    restaurant_info.category = f_restaurant.category
+    restaurant_info.web_url = f_restaurant.url_web
+    restaurant_info.map_url = f_restaurant.url_map
+    restaurant_info.rating = f_restaurant.review_rating_float
+    # restaurant_info.monday_opening_hour = f_restaurant.business_hour
+    # restaurant_info.tuesday_opening_hour = f_restaurant.business_hour
+    # restaurant_info.wednesday_opening_hour = f_restaurant.business_hour
+    # restaurant_info.thursday_opening_hour = f_restaurant.business_hour
+    # restaurant_info.friday_opening_hour = f_restaurant.business_hour
+    # restaurant_info.saturday_opening_hour = f_restaurant.business_hour
+    # restaurant_info.sunday_opening_hour = f_restaurant.business_hour
+    restaurant_info.image_url = f_restaurant.images.split('\n')
     return restaurant_info
 
 
@@ -389,7 +388,9 @@ def load_stable_restaurants_info(restaurant_ids):
     restaurants_info = [None for rid in restaurant_ids]
     fetch_restaurants = session.query(Restaurant).filter(Restaurant.id.in_(restaurant_ids)).all()
     for f_restaurant in fetch_restaurants:
-        restaurant_info = convert_restaurants_info_from_fetch_restaurants(f_restaurant)
+        restaurant_info = get_restaurant_info_from_fetch_restaurant(f_restaurant)
         restaurants_info[ restaurant_ids.index(f_restaurant.id) ] = restaurant_info
     
     return restaurants_info
+
+

@@ -1,7 +1,6 @@
 import requests
 import os
 import datetime
-from app import calc_info
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 from abc import ABCMeta, abstractmethod
 from flask import abort
@@ -152,6 +151,7 @@ class RestaurantInfo:
     このパラメータはRestaurantテーブルで定義されているものに対応している。(TODO: 未対応のものもまだある)
     """
     def __init__(self):
+        # 静的パラメーター(DBに保存するもの)
         self.id: str = None  # レストランID。yahoo_idとgoogle_id先に入った方。
         self.yahoo_id: str = None  # YahooのUid
         self.google.id: str = None  # Googleのplace_id
@@ -164,6 +164,7 @@ class RestaurantInfo:
         self.railway: list[str] = None  # 路線
         self.phone: str = None  # 電話番号
         self.category: str = None  # カテゴリ
+        self.genre: [str] = None  # ジャンル
         self.lunch_price: int = None  # ランチの値段
         self.dinner_price: int = None  # ディナーの値段
         self.monday_opening_hours: str = None  # 月曜の営業時間
@@ -181,6 +182,16 @@ class RestaurantInfo:
         self.rating: float = None  # 星評価
         self.review: [str] = None  # レビュー
         self.image_url: [str] = None  # 画像のurl
+
+        # 動的パラメーター(呼び出す度に計算するもの)
+        self.price: int = None  # 指定時刻の値段
+        self.votes_all: int = None  # 投票数
+        self.votes_like: int = None  # like投票数
+        self.number_of_participants: int = None  # グループの参加人数
+        self.distance_float: float = None  # 中心地からの距離
+        self.distance: str = None  # 距離(文字列)
+        self.recommend_score: float = None  # おすすめ度
+
 
     def get_info_from_yahoo(self):
         """

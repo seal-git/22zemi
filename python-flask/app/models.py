@@ -2,7 +2,7 @@
 from flask import jsonify, make_response, request
 
 from app import app_, db_
-from app import database_functions, recommend, api_functions, config
+from app import database_functions, recommend, api_functions, config, call_api
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 import json
 from werkzeug.exceptions import NotFound,BadRequest,InternalServerError
@@ -46,7 +46,7 @@ def get_restaurants_info_from_recommend_priority(fetch_group, group_id, user_id)
         if fv.restaurant not in histories_restaurants:
             restaurants_ids.append(fv.restaurant)
             if len(restaurants_ids) == recommend.RESPONSE_COUNT:
-                return api_functions.get_restaurants_info(fetch_group, group_id, restaurants_ids)
+                return call_api.get_restaurants_info(fetch_group, group_id, restaurants_ids)
     
     # まだ優先度を計算していない時や，RecommendSimple等で優先度を計算しない時
     fetch_votes = session.query(Vote).filter(Vote.group==group_id, Vote.recommend_priority is None).all()
@@ -54,7 +54,7 @@ def get_restaurants_info_from_recommend_priority(fetch_group, group_id, user_id)
         if fv.restaurant not in histories_restaurants:
             restaurants_ids.append(fv.restaurant)
             if len(restaurants_ids) == recommend.RESPONSE_COUNT:
-                return api_functions.get_restaurants_info(fetch_group, group_id, restaurants_ids)
+                return call_api.get_restaurants_info(fetch_group, group_id, restaurants_ids)
     
     # ストックしている店舗数が足りない時。最初のリクエスト等。
     return recommend.recommend_main(fetch_group, group_id, user_id)
@@ -333,7 +333,7 @@ def http_list():
     participants_count = database_functions.get_participants_count(group_id) # 参加人数
     restaurant_ids = [h.restaurant for h in fetch_votes if h.votes_all > 0] if participants_count >= 2 else [h.restaurant for h in fetch_votes if h.votes_like > 0]
     fetch_group = session.query(Group).filter(Group.id==group_id).first()
-    restaurants_info = api_functions.get_restaurants_info(fetch_group, group_id, restaurant_ids)
+    restaurants_info = call_api.get_restaurants_info(fetch_group, group_id, restaurant_ids) #database_func?
 
     # 得票数が多い順に並べる
     restaurants_info.sort(key=lambda x:x['VotesAll']) # 得票数とオススメ度が同じなら、リジェクトが少ない順
@@ -361,7 +361,7 @@ def http_history():
 
     # 履歴を取得する
     fetch_histories = session.query(History).filter(History.group==group_id, History.user==user_id).order_by(updated_at).all()
-    restaurants_info = api_functions.get_restaurants_info(group_id, [h.restaurant for h in fetch_histories])
+    restaurants_info = call_api.get_restaurants_info(group_id, [h.restaurant for h in fetch_histories]) #database_func?
     return create_response_from_restaurants_info(group_id, user_id, restaurants_info)
 
 

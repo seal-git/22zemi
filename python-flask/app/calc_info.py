@@ -2,7 +2,7 @@ import glob
 import os
 
 from geopy.distance import great_circle
-from app import database_functions
+from app import database_functions, api_functions
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 import requests
 
@@ -32,12 +32,11 @@ def add_votes_distance(fetch_group, group_id, restaurants_info):
         レスポンスするレストラン情報を返す。
     '''
     for i in range(len(restaurants_info)):
-        restaurants_info[i]['VotesLike'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling==True).count() # レストランのいいね数
-        restaurants_info[i]['VotesAll'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling is not None).count() # レストランの投票人数
-        restaurants_info[i]['NumberOfParticipants'] = str(database_functions.get_participants_count(group_id)) # グループの参加人数
-        restaurants_info[i]["distance_float"] = great_circle((fetch_group.lat, fetch_group.lon), (restaurants_info[i]['Lat'], restaurants_info[i]['Lon'])).m #距離 メートル float
-        restaurants_info[i]['Distance'] = distance_display(restaurants_info[i]["distance_float"]) # 緯度・経度から距離を計算 str
-    restaurants_info = calc_recommend_score(fetch_group, group_id, restaurants_info)
+        restaurants_info.votes_like = session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i].id, History.feeling==True).count() # レストランのいいね数
+        restaurants_info[i].votes_all = session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i].id, History.feeling is not None).count() # レストランの投票人数
+        restaurants_info[i].number_of_participants = str(database_functions.get_participants_count(group_id)) # グループの参加人数
+        restaurants_info[i].distance_float = great_circle((fetch_group.lat, fetch_group.lon), (restaurants_info.lat, restaurants_info[i].lon)).m #距離 メートル float
+        restaurants_info[i].distance = distance_display(restaurants_info[i].distance_float) # 緯度・経度から距離を計算 str
 
     return restaurants_info
 
@@ -84,8 +83,8 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
     index_list = []
     for i in range(len(restaurants_info)):
         try:
-            price = int(restaurants_info[i]["Price"])
-            distance = restaurants_info[i]["distance_float"]
+            price = int(restaurants_info[i].price)
+            distance = restaurants_info[i].distance_float
             try:
                 price_score = 1 if price <= price_average else price_average / price #グループ価格に対する比でスコア付
             except:
@@ -97,8 +96,8 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
                 distance_score = 0
 
             #投票されていればスコアが計算される
-            if restaurants_info[i]["VotesAll"] > 0:
-                vote_score = (restaurants_info[i]["VotesLike"] / restaurants_info[i]["VotesAll"])
+            if restaurants_info[i].votes_all > 0:
+                vote_score = (restaurants_info[i].votes_like / restaurants_info[i].votes_all)
                 score = int(round(((price_score + distance_score + vote_score) / 3) * 100, 0))
                 #restaurants_info[i]["RecommendScore"] = score
                 score_list.append(score)
@@ -113,7 +112,7 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
 
     if len(score_list) == 0:
         for i,r in enumerate(restaurants_info):
-            restaurants_info[i]["RecommendScore"] = 100
+            restaurants_info[i].recommend_score = 100
 
     #normalize score
     max_score = max(score_list) if len(score_list) != 0 else 100
@@ -129,13 +128,33 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
         norm_score_list.append(norm_score)
     
     for i, n_s in zip(index_list, norm_score_list):
-        restaurants_info[i]["RecommendScore"] = round(n_s)
+        restaurants_info[i].recommend_score = round(n_s)
 
     return restaurants_info
 
 
-# ============================================================================================================
-# image
+def add_price(fetch_group, group_id, restaurants_info):
+    restaurant_info.price = feature['Property']['Detail'][
+        'LunchPrice'] if lunch_or_dinner == 'lunch' and feature['Property']['Detail'].get(
+        'LunchFlag') == True else feature['Property']['Detail'].get('DinnerPrice')
+    restaurant_info.price = int(restaurant_info.price) if type(
+        restaurant_info.price) is str else restaurant_info.price
+
+    return restaurants_info
+
+
+
+# calc_info行き
+def get_review_rating(restaurant_info):
+    '''
+    Yahoo APIにアクセスして口コミを文字列で返す
+    '''
+    review_rating_int = int(review_rating + 0.5)
+    review_rating_star = '★' * review_rating_int + '☆' * (5-review_rating_int)
+
+    restaurant_info.rating = review_rating_star + '    ' + ('%.1f' % review_rating)
+
+    return restaurant_info
 
 def get_google_images(restaurant_name):
     if os.getenv("USE_LOCAL_IMAGE")=="True": # debug mode
