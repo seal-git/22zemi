@@ -1,0 +1,29 @@
+#AppBottomNavigation{
+    position: static;
+}
+.Selection-wrapper{
+    height: 100%;
+    position: relative;
+    background-color: #D90060;
+}
+.Selection-header{
+    height: 0;
+}
+.Selection-header-content{
+    display: flex;
+    align-items: center;
+}
+.Selection{
+    position: relative;
+    margin-bottom: 5px;
+    height: 100%;
+}
+
+.group-id{
+    font-size: 12px;
+}
+
+.information-deck{
+    height: 100%;
+    position: relative;
+}
