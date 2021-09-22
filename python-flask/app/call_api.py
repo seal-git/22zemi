@@ -129,4 +129,16 @@ def get_restaurants_info(fetch_group, group_id, restaurant_ids):
         no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
         restaurant_info["Images"] = [no_image_url, no_image_url]
 
+    # 設定された時間でのpriceを設定する
+    if fetch_group.open_now:
+        hour = int(fetch_group.open.hour)
+    else:
+        hour = datetime.datetime.now().hour + datetime.datetime.now().minute / 60
+
+    if config.MyConfig.LUNCH_TIME_START <= hour < config.MyConfig.LUNCH_TIME_END:
+        r_info.price = r_info.lunch_price
+    else:
+        r_info.price = r_info.dinner_price
+
+
     return restaurants_info

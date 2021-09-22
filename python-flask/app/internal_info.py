@@ -20,8 +20,8 @@ class Params:
         self.lat: float = None # 中心の緯度
         self.lon: float = None # 中心の経度
         self.max_dist: int = config.MyConfig.MAX_DISTANCE # 中心からの検索距離(m)
-        self.open_day: str = None # 日付指定
-        self.open_hour: str = None # 時間指定
+        self.open_day: str = datetime.datetime.now().day  # 日付指定
+        self.open_hour: str = datetime.datetime.now().hour  # 時間指定
         self.open_now: bool = False # 今開店しているか
         self.max_price: int = None # 値段の最大値(円)
         self.min_price: int = None # 値段の最小値(円)
@@ -154,7 +154,7 @@ class RestaurantInfo:
         # 静的パラメーター(DBに保存するもの)
         self.id: str = None  # レストランID。yahoo_idとgoogle_id先に入った方。
         self.yahoo_id: str = None  # YahooのUid
-        self.google.id: str = None  # Googleのplace_id
+        self.google_id: str = None  # Googleのplace_id
         self.name: str = None  # 店名
         self.address: str = None  # 住所
         self.lat: float = None  # 緯度
@@ -178,7 +178,7 @@ class RestaurantInfo:
         self.catchcopy: str = None  # キャッチコピー
         self.health_info: str = None  # 感染症対策情報
         self.web_url: str = None  # webサイトURL
-        self.map_url: str = None  # 地図URL
+        self.map_url: str = None  # 地図URL 現在地からの経路ならば動的パラメータ？
         self.rating: float = None  # 星評価
         self.review: [str] = None  # レビュー
         self.image_url: [str] = None  # 画像のurl
@@ -193,40 +193,18 @@ class RestaurantInfo:
         self.recommend_score: float = None  # おすすめ度
 
 
-    def get_info_from_yahoo(self):
+    def get_dict(self):
         """
-        yahooAPIからの情報をRestaurantInfoにまとめる
+        RestaurantInfoの情報をdictで出力
 
         Returns
         -------
-        self
+        r_info_dict
 
         """
-        return self
+        r_info_dict = {}
+        for key, value in self.__dict__.items():
+            if not key.startswith("__"):
+                r_info_dict[key] = value
 
-    def get_info_from_google(self):
-        """
-        google find placeからの情報をRestaurantInfoにまとめる
-
-        Returns
-        -------
-        self
-        """
-        return self
-
-    # ここから下はメンバ関数として実装するか未確定
-    def get_yahoo_review(self):
-        """"
-        yahooAPIからレビューをとってくる
-        """
-        return self
-
-    def get_google_photo(self):
-        """
-        googleの画像をとってくる
-        Returns
-        -------
-
-        """
-
-        return self
+        return r_info_dict

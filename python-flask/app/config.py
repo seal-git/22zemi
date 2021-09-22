@@ -36,6 +36,10 @@ class MyConfig:
     SET_OPEN_HOUR = True  # 開店時間固定する場合はTrueにする
     OPEN_HOUR = "12:00"  # 固定の開店時間
 
+    LUNCH_TIME_START = 10  # ランチの開始時間
+    LUNCH_TIME_END = 15  # ランチの終了時間
+
+
 
 # pytest実行時に読まれる設定
 class TestConfig:
