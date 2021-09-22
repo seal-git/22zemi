@@ -163,6 +163,7 @@ export default function RestaurantInformationDeck(props) {
                 wrapperStyle={props.wrapperStyle}
                 keep={() => { handlePushKeepButton(index) }}
                 reject={() => { handlePushRejectButton(index) }}
+                groupId={props.groupId}
             />
         )
     }

@@ -10,6 +10,7 @@ import { makeStyles,withStyles } from '@material-ui/core/styles'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 // 他ファイルからインポート
 import InviteIcon from './../../../icon/InviteIcon'
+import InviteModal from './InviteModal'
 /*
 招待ボタン：押すと招待URLが表示される
  */
@@ -37,12 +38,10 @@ const useStyles = makeStyles({
 
 function ButtonToInvite(props) {
     const [open, setOpen] = useState(false)
-    const [isCopied, setIsCopied] = useState(false)
     const classes = useStyles()
 
     const handleClickOpen = () => {
         setOpen(true)
-        setIsCopied(false)
     };
 
     const handleClose = () => {
@@ -60,44 +59,15 @@ function ButtonToInvite(props) {
         }
     }))(InviteIcon);
 
-    const StyledDialog = withStyles( (theme) => ({
-        root:{
-            alignItems: 'center',
-            webkitUserSelect: 'none',
-            mozUserSelect: 'none',
-            MsUserSelect: 'none',
-            userSelect: 'none',
-        },
-    }))(Dialog);
-
-
     const url = "https://localhost?group_id="+props.groupId
     return (
         <div className={classes.ButtonToInviteContainer}>
             <StyledInviteIcon onClick={()=>{handleClickOpen()}} />
-            <StyledDialog open={open}
-                    onClose={handleClose}
-                    aria-labelledby="form-dialog-title">
-                <DialogTitle id="form-dialog-title">
-                    みんなを招待しよう
-                </DialogTitle>
-                <List>
-                    <ListItem>
-                        <ListItemText>
-                            リンクをシェアして友達と一緒にレストランを決めよう！
-                        </ListItemText>
-                    </ListItem>
-                    <ListItem>
-                        <CopyToClipboard text={url} onCopy={()=>{setIsCopied(true)}}>
-                            <button className={classes.CopyButton}>
-                                {isCopied?
-                                <div>コピー成功!</div>:
-                                <div>URLをコピーする</div>}
-                            </button>
-                        </CopyToClipboard>
-                    </ListItem>
-                </List>
-            </StyledDialog>
+            <InviteModal 
+                open = {open}
+                handleClose = {handleClose}
+                url = {url}
+            />
         </div>
     )
 }
