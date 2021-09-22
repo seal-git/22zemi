@@ -200,10 +200,15 @@ def get_google_images(index, restaurant_name, images_list):
         }
         res = requests.get(url=url, params=params)
         # 返ってきたバイナリをImageオブジェクトに変換
-        filename = f"{config.MyConfig.IMAGE_DIRECTORY_PATH}{reference}.png"
+        # filename = f"{config.MyConfig.IMAGE_DIRECTORY_PATH}{reference}.png"
+        # image = Image.open(BytesIO(res.content))
+        # image.save(filename)
+        # urls.append(f"{config.MyConfig.SERVER_URL}:5000/image?name={reference}.png")
+
+        filename = f"static/{reference}.png"
         image = Image.open(BytesIO(res.content))
         image.save(filename)
-        urls.append(f"{config.MyConfig.SERVER_URL}:5000/image?name={reference}.png")
+        urls.append(f"{config.MyConfig.SERVER_URL}:5000/static/{reference}.png")
 
     images_list[index] = urls
 

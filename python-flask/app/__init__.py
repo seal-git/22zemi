@@ -3,7 +3,7 @@ from flask_cors import CORS
 from app import config
 from flask_sqlalchemy import SQLAlchemy
 
-app_ = Flask(__name__, static_folder='data/image/')
+app_ = Flask(__name__, static_folder='static')
 app_.config.from_object(config.Config)
 # CORS(app_)
 
