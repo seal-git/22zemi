@@ -145,3 +145,77 @@ class Params:
         return params
 
 # TODO: RestaurantInfoクラスを作る
+
+class RestaurantInfo:
+    """
+    内部で共通のレストラン情報を扱うことで、APIごとに異なるデータ構造の違いを吸収する。
+    このパラメータはRestaurantテーブルで定義されているものに対応している。(TODO: 未対応のものもまだある)
+    """
+    def __init__(self):
+        self.id: str = None  # レストランID。yahoo_idとgoogle_id先に入った方。
+        self.yahoo_id: str = None  # YahooのUid
+        self.google.id: str = None  # Googleのplace_id
+        self.name: str = None  # 店名
+        self.address: str = None  # 住所
+        self.lat: float = None  # 緯度
+        self.lon: float = None  # 経度
+        self.address: str = None  # 住所
+        self.station: list[str] = None  # 駅
+        self.railway: list[str] = None  # 路線
+        self.phone: str = None  # 電話番号
+        self.category: str = None  # カテゴリ
+        self.lunch_price: int = None  # ランチの値段
+        self.dinner_price: int = None  # ディナーの値段
+        self.monday_opening_hours: str = None  # 月曜の営業時間
+        self.tuesday_opening_hours: str = None  # 火曜の営業時間
+        self.wednesday_opening_hours: str = None  # 水曜の営業時間
+        self.thursday_opening_hours: str = None  # 木曜の営業時間
+        self.friday_opening_hours: str = None  # 金曜の営業時間
+        self.saturday_opening_hours: str = None  # 土曜の営業時間
+        self.sunday_opening_hours: str = None  # 日曜の営業時間
+        self.access: str = None  # アクセス方法
+        self.catchcopy: str = None  # キャッチコピー
+        self.health_info: str = None  # 感染症対策情報
+        self.web_url: str = None  # webサイトURL
+        self.map_url: str = None  # 地図URL
+        self.rating: float = None  # 星評価
+        self.review: [str] = None  # レビュー
+        self.image_url: [str] = None  # 画像のurl
+
+    def get_info_from_yahoo(self):
+        """
+        yahooAPIからの情報をRestaurantInfoにまとめる
+
+        Returns
+        -------
+        self
+
+        """
+        return self
+
+    def get_info_from_google(self):
+        """
+        google find placeからの情報をRestaurantInfoにまとめる
+
+        Returns
+        -------
+        self
+        """
+        return self
+
+    # ここから下はメンバ関数として実装するか未確定
+    def get_yahoo_review(self):
+        """"
+        yahooAPIからレビューをとってくる
+        """
+        return self
+
+    def get_google_photo(self):
+        """
+        googleの画像をとってくる
+        Returns
+        -------
+
+        """
+
+        return self

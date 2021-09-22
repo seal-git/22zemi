@@ -171,21 +171,6 @@ function Selection(props) {
     props.turnMode()
   }
 
-  let renderButtonToInvite = () =>{
-    return (
-      <ButtonToInvite
-        url={props.inviteUrl}
-        groupId={props.groupId} 
-        callInviteUrl={props.callInviteUrl}
-      />
-    )
-  }
-  let renderButtonToShowComment = () =>{
-    return (
-      <ButtonToShowComment
-      />
-    )
-  }
 
   let renderStandbyRestaurantInformation = () =>{
     if(dataLists.standbyDataList===null) return null
@@ -195,6 +180,7 @@ function Selection(props) {
         wrapperStyle={wrapperStyle}
         keep={()=>{ console.log("pushed")}}
         reject={()=>{console.log("pushed")}}
+        groupId={props.groupId}
       />
     )
   }
@@ -212,6 +198,7 @@ function Selection(props) {
         reject={reject}
         getInfo={getInfo}
         setPreloadedDataList={setPreloadedDataList}
+        groupId={props.groupId}
       />
     )
   }
@@ -224,8 +211,8 @@ function Selection(props) {
         { renderStandbyRestaurantInformation() }
           {/* <RestaurantInformation data={dataList[idx]} wrapperStyle={wrapperStyle} /> */}
         { renderRestaurantInformationDeck() }
-        { renderButtonToInvite() }
-        { renderButtonToShowComment() }
+        {/* { renderButtonToInvite() } */}
+        {/* { renderButtonToShowComment() } */}
       </div>
     </div>
   )

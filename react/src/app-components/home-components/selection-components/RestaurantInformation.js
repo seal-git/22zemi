@@ -5,8 +5,11 @@ import { makeStyles, withStyles } from '@material-ui/core/styles'
 import Card from '@material-ui/core/Card'
 import { Chip } from '@material-ui/core'
 import Typography from '@material-ui/core/Typography'
+import Box from '@material-ui/core/Box'
 // 他ファイルからインポート
 import Buttons from './Buttons'
+import ButtonToShowComment from './ButtonToShowComment'
+import ButtonToInvite from './ButtonToInvite'
 
 const useStyles = makeStyles((theme) => ({
     RestaurantInformation :{
@@ -17,8 +20,8 @@ const useStyles = makeStyles((theme) => ({
         position: 'absolute',
         webkitUserSelect: 'none',
         mozUserSelect: 'none',
-            MsUserSelect: 'none',
-                userSelect: 'none',
+        MsUserSelect: 'none',
+        userSelect: 'none',
     },
     cardRoot: {
         height: '99%',
@@ -67,47 +70,40 @@ const useStyles = makeStyles((theme) => ({
         position: 'absolute',
         background: `linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 70%,rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 1))`,
     },
-    cardContentWrapper :{
-        height: 'auto',
-        width: '100%',
-        position: 'absolute',
-        bottom: '15%',
-    },
-    tagsContainer: {
-        display: 'flex',
-        flexWrap: 'wrap',
-        alignContent: 'space-evenly',
-        height: '',
-    },
-    imageBarContainer:{
-        width: '80%',
-        height: '1%',
-        top: '5%',
-        left: '10%',
-        display: 'flex',
-        position: 'absolute',
-    },
-    imageBarSelected :{
-        height: '100%',
-        width: '100%',
-        background: 'rgba(255,255,255,1)',
-        boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.75)',
-        border: '2px solid gray',
-        borderRadius: '10%',
-        margin: '1%',
-        cursor: 'pointer',
-    },
-    imageBar :{
-        height: '100%',
-        width: '100%',
-        background: 'rgba(0,0,0,0.4)',
-        boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.75)',
-        border: '2px solid gray',
-        borderRadius: '10%',
-        margin: '1%',
-        cursor: 'pointer',
-    }
 }));
+
+function Bar(props){
+    const background=props.isSelected===true?'rgba(255,255,255,1)':'rgba(0,0,0,.4)'
+    return (
+        <Box
+            height='100%'
+            width='100%'
+            boxShadow='0px 4px 4px rgba(0, 0, 0, 0.75)'
+            border='2px solid gray'
+            borderRadius='10%'
+            margin='1%'
+            cursor='pointer'
+            css={{background:background}}
+        />
+    )
+}
+
+function Bars(props){
+    return(
+        <Box 
+            width='80%'
+            height='1%'
+            top='5%'
+            left='10%'
+            display='flex'
+            position='absolute'
+        >
+            {props.Images.map( (image,i) =>{
+                return <Bar isSelected={i===props.index} onClick={()=>{ setIndex(i)}} />
+            })} 
+        </Box>
+    )
+}
 
 const StyledChipRating = withStyles({
     root: {
@@ -133,19 +129,6 @@ function RestaurantInformation(props) {
     const space = <span className={classes.space}>　</span>
 
     const [index, setIndex] = useState(0)
-
-    const renderBars = () => {
-        return(
-            <div className={classes.imageBarContainer}>
-                {props.data.Images.map( (image,i) =>{
-                    return <div 
-                    className={i===index?classes.imageBarSelected:classes.imageBar}
-                    onClick={()=>{ setIndex(i)}}
-                    />
-                })} 
-            </div>
-        )
-    }
 
     useEffect(() => {
         const currentIndex = index
@@ -176,31 +159,56 @@ function RestaurantInformation(props) {
         )
     }
 
-
     // お店情報の描画
     const isNotEmpty = (str) =>{
         return str!==undefined && str!==null && str!==""
     }
     const renderCardContent = (data) =>{
         return (
-            <div className={classes.cardContentWrapper}>
+            <Box
+                height='auto'
+                width='100%'
+                position='absolute'
+                bottom='15%'
+            >
                 <Typography className={classes.textPrimary}>
                     {data.Name}
                 </Typography>
-                {space}
                 <Typography >
                     {isNotEmpty(data.ReviewRating)
                     ?<StyledChipRating label={data.ReviewRating} />
                     :null}
                 </Typography>
-                {space}
-                <Typography className={classes.tagsContainer}>
+                <Box 
+                    display='flex'
+                    flexWrap='wrap'
+                    alignContent='space-evenly'
+                >
                     {isNotEmpty(data.Category)? <StyledChipTag label={data.Category} />: null }
                     {isNotEmpty(data.Price)?<StyledChipTag label={'~\xA5'+data.Price} />:null}
                     {isNotEmpty(data.BusinessHour)?<StyledChipTag label={data.BusinessHour} />:null}
                     {isNotEmpty(data.Distance)?<StyledChipTag label={data.Distance} />:null}
-                </Typography>
-            </div>
+                </Box>
+            </Box>
+        )
+    }
+    // 招待ボタンの描画
+    let renderButtonToInvite = () =>{
+        return (
+        <ButtonToInvite
+            url={props.inviteUrl}
+            groupId={props.groupId} 
+            callInviteUrl={props.callInviteUrl}
+        />
+        )
+    }
+    // コメントボタンの描画
+    const renderButtonToShowComment = () =>{
+        const ok = props.data.Restaurant_id !== 'init' && props.data.Restaurant_id !== 'empty'
+        return (
+            ok
+            ?<ButtonToShowComment data={props.data} />
+            :null
         )
     }
 
@@ -221,7 +229,9 @@ function RestaurantInformation(props) {
                 <div className={classes.imageFilter} />
                 {renderCardContent(props.data)}
                 {renderButtons()}
-                {renderBars()}
+                <Bars Images={props.data.Images} index={index}/>
+                {renderButtonToInvite()}
+                {renderButtonToShowComment()}
             </Card>
         </div>
     )
