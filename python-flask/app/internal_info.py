@@ -8,7 +8,11 @@ from flask import abort
 # from io import BytesIO
 from app import config
 
-
+"""
+internal_info.py
+検索クエリと店舗情報を内部で扱うためのクラス。
+パラメータを増やしたい場合はここを増やしてからdatabase_functionsとapi_functionsをそれぞれ編集する。
+"""
 class Params:
     """
     内部で共通の検索クエリを扱うことで、APIごとに異なる検索クエリの違いを吸収する。

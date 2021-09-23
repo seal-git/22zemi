@@ -307,7 +307,7 @@ def google_place_details(r_info:RestaurantInfo=None):
     if res.get("reviews") is not None:
         r_info.review += [r["text"] for r in res.get("reviews")]
     r_info.google_photo_reference = [r["photo_reference"] for r in res.get("photos")]
-
+    # TODO: xxxday_opening_hoursを取得する
     return r_info
 
 

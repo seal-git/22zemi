@@ -103,9 +103,9 @@ def get_restaurants_info(fetch_group,
     print(f"get_restaurants_info: {len(restaurants_info)} items")
 
     # データベースから店舗情報を取得(full_info_flagが必要？)
-    # restaurant_ids_del_none = [x for x in restaurant_ids if x is not None]
-    # restaurants_info = database_functions.load_stable_restaurants_info(
-    #     restaurant_ids_del_none)
+    restaurant_ids_del_none = [r.id for r in restaurants_info if r.id is not None]
+    restaurants_info = database_functions.load_stable_restaurants_info(
+        restaurant_ids_del_none)
 
     # データベースにない情報を店舗ごとにAPIで取得
     ## feelingリクエストで架空のrestaurants_idだったときには、それを除く

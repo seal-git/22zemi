@@ -762,44 +762,6 @@ class RecommendSVM(Recommend):
         return restaurants_ids
 
 
-
-
-# ============================================================================================================
-# Yahoo Local Search テスト用
-
-# def local_search_test_URL(fetch_group, group_id, user_id):
-#     '''
-#     simpleのYahoo Local Searchの出力を見る
-#     '''
-#     coordinates = current_group[group_id]['Coordinates']
-#     request_count = current_group[group_id]['Users'][user_id]['RequestCount']
-    
-#      # YahooローカルサーチAPIで検索するクエリ
-#     search_params = {
-#         # 中心地から1km以内のグルメを検索
-#         'lat': coordinates[0], # 緯度
-#         'lon': coordinates[1], # 経度
-#         'dist': MAX_DISTANCE, # 中心地点からの距離 # 最大20km
-#         'gc': '01', # グルメ
-#         'image': True, # 画像がある店
-#         'open': 'now', # 現在開店している店舗
-#         'sort': 'hybrid', # 評価や距離などを総合してソート
-#         'start': RESULTS_COUNT * request_count, # 表示範囲：開始位置
-#         'results': RESULTS_COUNT # 表示範囲：店舗数
-#     }
-#     search_params.update(current_group[group_id]['FilterParams'])
-
-#     # Yahoo local search APIで店舗情報を取得
-#     local_search_url = 'https://map.yahooapis.jp/search/local/V1/localSearch'
-#     search_params.update({
-#         'appid': os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
-#         'output': 'json',
-#         'detail': 'full'
-#     })
-#     return local_search_url + '?' + '&'.join([k+'='+str(v) for k,v in search_params.items()])
-
-
-
 # ============================================================================================================
 # recommend_mainで使う関数など
 
@@ -872,6 +834,7 @@ def recommend_main(fetch_group, group_id, user_id):
     # geoは、球面三角法による2点間の距離順にソートします。
     
     # TODO: レコメンド関数の追加
+    # TODO: search_paramを毎回更新して保存する
     recommend_method = config.MyConfig.RECOMMEND_METHOD
     if recommend_method == 'template':
         recomm = RecommendTemplate()
