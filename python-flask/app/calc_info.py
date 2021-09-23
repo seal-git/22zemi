@@ -204,7 +204,7 @@ def get_google_image_from_reference(index, reference, url_list):
     import os, requests
     from io import BytesIO
 
-    image_width = 800 #画像1枚の最大幅
+    image_width = 400 #画像1枚の最大幅
 
     # print(f"get_google_image: index={index}, i={i}/{len(photo_references)}")
     # image_referenceごとにAPIを叩いて画像を取得
