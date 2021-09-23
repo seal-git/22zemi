@@ -60,46 +60,10 @@ class Params:
             if not key.startswith("__"): params[key] = value
         return params
 
-    def get_yahoo_params(self):
-        # distの計算
-        if self.max_dist is not None:
-            dist = self.max_dist/1000
-        else:
-            dist = config.MyConfig.MAX_DISTANCE
-
-        # sortのチェック
-        sort_param = ["rating", "score", "hybrid", "review", "kana", "price",
-                      "dist", "geo", "match"]
-        sort_param += ["-"+i for i in sort_param]
-        sort = self.sort if self.sort in sort_param else "hybrid"
-        # boolの変換
-        image = "true" if self.image else None
-        loco_mode = "true" if self.loco_mode else None
-        # 時間指定
-        if self.open_day is not None and self.open_hour is not None:
-            open = str(self.open_day) + "," + str(self.open_hour)
-        else:
-            open = "now"
-
-        # パラメータをdictにして返す
-        params = {
-            "query": self.query,
-            "results": self.results,
-            "start": self.start,
-            "lat": self.lat,
-            "lon": self.lon,
-            "sort": sort,
-            "dist": dist,
-            "image": image,
-            "maxprice": self.max_price,
-            "minprice": self.min_price,
-            "loco_mode": loco_mode,
-            "open": open,
-        }
-        return params
 
     def get_textsearch_params(self):
         """
+        じきに消す
         textsearch用クエリを出力する。
         query, location, radius, maxprice, minprice, regionが設定できる。
         Returns
@@ -121,6 +85,7 @@ class Params:
 
     def get_nearbysearch_params(self):
         """
+        じきに消す
         nearbysearch用クエリを出力する。
         keyword, location, radius, maxprice, minprice, rankbyが設定できる。
         Returns

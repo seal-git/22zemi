@@ -245,7 +245,6 @@ class RecommendOriginal(Recommend):
         search_params.set_start_and_results_from_stock(group_id, STOCK_COUNT, histories_restaurants)
 
         # Yahooの形式にして検索
-        search_params = search_params.get_yahoo_params()
         return call_api.search_restaurants_info(fetch_group, group_id,
                                                      user_id, search_params)
 
@@ -382,8 +381,7 @@ class RecommendWords(Recommend):
         search_params.open_now = True  # 現在開店している店舗
         search_params.set_start_and_results_from_stock(group_id, STOCK_COUNT, histories_restaurants)
 
-        # Yahooの形式にして検索
-        search_params = search_params.get_yahoo_params()
+        # Yahooで検索
         return call_api.search_restaurants_info(fetch_group, group_id,
                                                      user_id, search_params)
 
@@ -518,8 +516,7 @@ class RecommendQueue(Recommend):
         search_params.open_now = True  # 現在開店している店舗
         search_params.set_start_and_results_from_stock(group_id, STOCK_COUNT, histories_restaurants)
 
-        # Yahooの形式にして検索
-        search_params = search_params.get_yahoo_params()
+        # Yahooで検索
         return call_api.search_restaurants_info(fetch_group, group_id,
                                                      user_id, search_params)
  
