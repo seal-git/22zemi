@@ -187,7 +187,7 @@ def get_google_images(index, restaurant_name, images_list):
     else:
         photo_references = []
     
-    url_list = [None for p in photo_references]
+    url_list = [[] for p in photo_references]
     thread_list = [None for p in photo_references]
     for i, reference in enumerate(photo_references):
         thread_list[i] = threading.Thread(target=get_google_image_from_reference, args=(i, reference, url_list))
