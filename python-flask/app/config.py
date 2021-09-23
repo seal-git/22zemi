@@ -22,10 +22,10 @@ class MyConfig:
     #   Trueにすると高速化できるが、レコメンドの反映が遅れる
     #   RecommendSimpleなら NEXT_RESPONSE = True , RECOMMEND_PRIORITY = False 。
     #   RecommendSVM   なら NEXT_RESPONSE = False, RECOMMEND_PRIORITY = True  。
-    NEXT_RESPONSE = True
-    RECOMMEND_PRIORITY = False # RecommendSimpleでTrueにすると死にます
+    NEXT_RESPONSE = False
+    RECOMMEND_PRIORITY = True # RecommendSimpleでTrueにすると死にます
 
-    RECOMMEND_METHOD = 'simple'
+    RECOMMEND_METHOD = 'svm'
     API_METHOD = 'yahoo'
     
     USE_LOCAL_IMAGE = False
