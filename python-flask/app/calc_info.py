@@ -2,10 +2,11 @@ import glob
 import os
 
 from geopy.distance import great_circle
-from app import database_functions, api_functions
+from app import database_functions, config, api_functions
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 import requests
 import datetime
+import threading
 
 '''
 
@@ -170,37 +171,124 @@ def get_review_rating(restaurant_info):
 
     return restaurant_info
 
-def get_google_images(restaurant_name):
-    if os.getenv("USE_LOCAL_IMAGE")=="True": # debug mode
-        print("getting image reference from test/data")
-        with open("test/data/references.txt", "r")as f:
-            image_references = [l for l in f]
-        return image_references
-    else:
-        # place検索
-        url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
-        params = {
-            'key': os.environ["GOOGLE_API_KEY"],
-            'input': restaurant_name,
-            'inputtype': 'textquery',
-        }
-        res = requests.get(url=url, params=params)
-        dic = res.json()
-        place_id = dic['candidates'][0]['place_id']
+def get_google_images_list(name_list):
+    '''
+    Googleから複数の店の画像を並列に取得する
+    '''
+    images_list = [[] for name in name_list]
 
-        # place_detailを取得
-        url = 'https://maps.googleapis.com/maps/api/place/details/json'
-        params = {
-            'key': os.environ["GOOGLE_API_KEY"],
-            'place_id': place_id,
-        }
-        res = requests.get(url=url, params=params)
-        dic = res.json()
-        if 'photos' in dic['result']:
-            photo_references = [photo['photo_reference'] for photo in dic['result']['photos']]
-        else:
-            photo_references = []
-    return photo_references
+    # 並列処理
+    thread_list = [None for name in name_list]
+    for index,name in enumerate(name_list):
+        thread_list[index] = threading.Thread(target=get_google_images, args=(index, name, images_list))
+        thread_list[index].start()
+    for t in thread_list:
+        t.join()
+
+    # # 逐次処理
+    # for index,name in enumerate(name_list):
+    #     get_google_images(index, name, images_list)
+
+    return images_list
+
+def get_google_images(index, restaurant_name, images_list):
+    '''
+    店名からGoogleから画像を取得する
+    '''
+
+    # place検索
+    url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
+    params = {
+        'key': os.environ["GOOGLE_API_KEY"],
+        'input': restaurant_name,
+        'inputtype': 'textquery',
+    }
+    res = requests.get(url=url, params=params)
+    dic = res.json()
+    place_id = dic['candidates'][0]['place_id']
+
+    # place_detailを取得
+    url = 'https://maps.googleapis.com/maps/api/place/details/json'
+    params = {
+        'key': os.environ["GOOGLE_API_KEY"],
+        'place_id': place_id,
+    }
+    res = requests.get(url=url, params=params)
+    dic = res.json()
+    if 'photos' in dic['result']:
+        photo_references = [photo['photo_reference'] for photo in dic['result']['photos']]
+    else:
+        photo_references = []
+
+    url_list = [[] for p in photo_references]
+    thread_list = [None for p in photo_references]
+    for i, reference in enumerate(photo_references):
+        thread_list[i] = threading.Thread(target=get_google_image_from_reference, args=(i, reference, url_list))
+        thread_list[i].start()
+    for t in thread_list:
+        t.join()
+
+    print(f"images_list[{index}].url_list = {url_list}")
+    images_list[index] = url_list
+
+
+def get_google_image_from_reference(index, reference, url_list):
+    from PIL import Image
+    import os, requests
+    from io import BytesIO
+
+    image_width = 400 #画像1枚の最大幅
+
+    # print(f"get_google_image: index={index}, i={i}/{len(photo_references)}")
+    # image_referenceごとにAPIを叩いて画像を取得
+    url = 'https://maps.googleapis.com/maps/api/place/photo'
+    params = {
+        'key': os.environ['GOOGLE_API_KEY'],
+        'photoreference': reference,
+        'maxwidth': image_width,
+    }
+    res = requests.get(url=url, params=params)
+    # 返ってきたバイナリをImageオブジェクトに変換
+    filename = f"static/{reference}.png"
+    image = Image.open(BytesIO(res.content))
+    image.save(filename)
+    url_list[index] = f"http://{config.MyConfig.SERVER_URL}:5000/static/{reference}.png"
+
+
+# def get_google_images_references(restaurant_name):
+#     '''
+#     店名からGoogleから画像を取得する
+#     '''
+#     if os.getenv("USE_LOCAL_IMAGE")=="True": # debug mode
+#         print("getting image reference from test/data")
+#         with open("test/data/references.txt", "r")as f:
+#             image_references = [l for l in f]
+#         return image_references
+#     else:
+#         # place検索
+#         url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
+#         params = {
+#             'key': os.environ["GOOGLE_API_KEY"],
+#             'input': restaurant_name,
+#             'inputtype': 'textquery',
+#         }
+#         res = requests.get(url=url, params=params)
+#         dic = res.json()
+#         place_id = dic['candidates'][0]['place_id']
+
+#         # place_detailを取得
+#         url = 'https://maps.googleapis.com/maps/api/place/details/json'
+#         params = {
+#             'key': os.environ["GOOGLE_API_KEY"],
+#             'place_id': place_id,
+#         }
+#         res = requests.get(url=url, params=params)
+#         dic = res.json()
+#         if 'photos' in dic['result']:
+#             photo_references = [photo['photo_reference'] for photo in dic['result']['photos']]
+#         else:
+#             photo_references = []
+#     return photo_references
 
 from memory_profiler import profile
 @profile
@@ -237,8 +325,7 @@ def create_image(restaurant_info):
         buffer = BytesIO()
         image.save(buffer, format="jpeg")
         with open(filename, "w") as f:
-            f.write(base64.b64encode(buffer.getvalue()).decode("ascii")
-)
+            f.write(base64.b64encode(buffer.getvalue()).decode("ascii"))
         del buffer, image
         gc.collect()
 
@@ -285,7 +372,7 @@ def create_image(restaurant_info):
         print(f"_image{i}", sys.getsizeof(_image.tobytes()))
 
         if use_raw_image:
-            save_b64(f"data/image/{filename}", _image)
+            save_b64(f"{config.MyConfig.IMAGE_DIRECTORY_PATH}{filename}", _image)
             image_file_list.append(f"{filename}")
 
     if use_raw_image:
@@ -351,9 +438,9 @@ def create_image(restaurant_info):
 
         # 画像のb64の保存
         filename = restaurant_info['Restaurant_id']+"_"+str(idx)
-        save_b64(f"data/image/{filename}", new_image)
+        save_b64(f"{config.MyConfig.IMAGE_DIRECTORY_PATH}{filename}", new_image)
         image_file_list.append(filename)
-        print(f"create_image: file saved at data/image/{filename}")
+        print(f"create_image: file saved at {config.MyConfig.IMAGE_DIRECTORY_PATH}{filename}")
         # 画像の保存
         if use_local_image:
             new_image.save(f"./data/tmp/{filename}.jpg")
@@ -370,7 +457,7 @@ def create_image(restaurant_info):
     del row1_image, row2_image, row12_image, new_image
     gc.collect()
     # キャッシュファイル削除
-    [os.remove(file) for file in glob.glob("data/tmp/image*.jpg")]
+    [os.remove(file) for file in glob.glob(f"data/tmp/image*.jpg")]
 
 
     return image_file_list

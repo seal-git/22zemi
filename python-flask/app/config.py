@@ -17,6 +17,7 @@ class Config:
 
 # アプリ内で使うオリジナルの設定
 class MyConfig:
+    
     # SPEED_UP_FLG
     #   Trueにすると高速化できるが、レコメンドの反映が遅れる
     #   RecommendSimpleなら NEXT_RESPONSE = True , RECOMMEND_PRIORITY = False 。
@@ -27,6 +28,7 @@ class MyConfig:
     RECOMMEND_METHOD = 'yahoo'
     API_METHOD = 'yahoo'
     
+    GET_GOOGLE_IMAGE = True
     USE_LOCAL_IMAGE = False
     USE_RAW_IMAGE = False
     MAX_DISTANCE = 200000  # 中心地からの距離 上限20
@@ -38,7 +40,10 @@ class MyConfig:
     LUNCH_TIME_START = 10  # ランチの開始時間
     LUNCH_TIME_END = 15  # ランチの終了時間
 
+    IMAGE_DIRECTORY_PATH = 'data/image/'
+    SERVER_URL = 'localhost' # 'reskima.com'
     INIT_DB = False  # Trueならば再起動時にDBをリセットする
+
 
     TEST = False  # test時はTrueにする
     if TEST:
@@ -48,13 +53,13 @@ class MyConfig:
         RECOMMEND_METHOD = 'svm'
         API_METHOD = 'yahoo'
 
+        GET_GOOGLE_IMAGE = True
         USE_LOCAL_IMAGE = True
         USE_RAW_IMAGE = False
+        IMAGE_DIRECTORY_PATH = 'data/image/'
+        SERVER_URL = 'localhost'
         MAX_DISTANCE = 200000  # 中心地からの距離 上限20
         RESPONSE_COUNT = 3  # 一回に返す店舗の数
         STOCK_COUNT = 50  # 検索で取得するデータの数．STOCK_COUNT個の店からRESPONSE_COUNT個選ぶ
         SET_OPEN_HOUR = True  # 開店時間固定する場合はTrueにする
         OPEN_HOUR = "12:00"  # 固定の開店時間
-
-
-

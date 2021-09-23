@@ -1,6 +1,8 @@
 import requests
 import os
 import datetime
+from app import database_functions, calc_info, config
+from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 from app.database_setting import *  # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 from app.internal_info import *
 from abc import ABCMeta, abstractmethod
@@ -291,6 +293,13 @@ def feature_to_info(self, fetch_group, group_id, lunch_or_dinner, feature, acces
     restaurant_info['Images'] = list(
         dict.fromkeys(lead_image + image_n + persistency_image_n))
 
+    # apiの画像のreferenceを保存
+    restaurant_info["ImageFiles"] = calc_info.create_image(
+        restaurant_info) if access_flag=="xxx" else [] #1枚の画像のURLを保存
+    if len(restaurant_info["Images"]) == 0:
+        no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
+        restaurant_info["Images"] = [no_image_url, no_image_url]
+        
     # restaurant_info["Image_references"] = calc_info.get_google_images(
     #     feature['Name']) if access_flag=="xxx" else [] #google
     # # apiの画像のreferenceを保存
@@ -378,6 +387,13 @@ def search_restaurants_info(self, fetch_group, group_id, search_params):
                                     feature,
                                     access_flag)
                                 , feature_list))
+
+
+    # Googleから画像を取得する
+    if config.MyConfig.GET_GOOGLE_IMAGE:
+        images_list = calc_info.get_google_images_list([r['Name'] for r in restaurants_info])
+        for r, images in zip(restaurants_info, images_list):
+            r['Images'] = images + r['Images']
 
     return restaurants_info
 
