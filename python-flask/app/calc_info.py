@@ -163,35 +163,29 @@ def get_google_images(index, restaurant_name, images_list):
     店名からGoogleから画像を取得する
     '''
 
-    if os.getenv("USE_LOCAL_IMAGE")=="True": # debug mode
-        print("getting image reference from test/data")
-        with open("test/data/references.txt", "r")as f:
-            image_references = [l for l in f]
-        return image_references
-    else:
-        # place検索
-        url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
-        params = {
-            'key': os.environ["GOOGLE_API_KEY"],
-            'input': restaurant_name,
-            'inputtype': 'textquery',
-        }
-        res = requests.get(url=url, params=params)
-        dic = res.json()
-        place_id = dic['candidates'][0]['place_id']
+    # place検索
+    url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
+    params = {
+        'key': os.environ["GOOGLE_API_KEY"],
+        'input': restaurant_name,
+        'inputtype': 'textquery',
+    }
+    res = requests.get(url=url, params=params)
+    dic = res.json()
+    place_id = dic['candidates'][0]['place_id']
 
-        # place_detailを取得
-        url = 'https://maps.googleapis.com/maps/api/place/details/json'
-        params = {
-            'key': os.environ["GOOGLE_API_KEY"],
-            'place_id': place_id,
-        }
-        res = requests.get(url=url, params=params)
-        dic = res.json()
-        if 'photos' in dic['result']:
-            photo_references = [photo['photo_reference'] for photo in dic['result']['photos']]
-        else:
-            photo_references = []
+    # place_detailを取得
+    url = 'https://maps.googleapis.com/maps/api/place/details/json'
+    params = {
+        'key': os.environ["GOOGLE_API_KEY"],
+        'place_id': place_id,
+    }
+    res = requests.get(url=url, params=params)
+    dic = res.json()
+    if 'photos' in dic['result']:
+        photo_references = [photo['photo_reference'] for photo in dic['result']['photos']]
+    else:
+        photo_references = []
     
     url_list = [None for p in photo_references]
     thread_list = [None for p in photo_references]

@@ -1,7 +1,7 @@
 import requests
 import os
 import datetime
-from app import database_functions, calc_info
+from app import database_functions, calc_info, config
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 from app.internal_info import *
 from abc import ABCMeta, abstractmethod
@@ -259,9 +259,10 @@ class ApiFunctionsYahoo(ApiFunctions):
                                    , feature_list))
 
         # Googleから画像を取得する
-        images_list = calc_info.get_google_images_list([r['Name'] for r in restaurants_info])
-        for r, images in zip(restaurants_info, images_list):
-            r['Images'] = images + r['Images']
+        if config.MyConfig.GET_GOOGLE_IMAGE:
+            images_list = calc_info.get_google_images_list([r['Name'] for r in restaurants_info])
+            for r, images in zip(restaurants_info, images_list):
+                r['Images'] = images + r['Images']
 
         return restaurants_info
 
