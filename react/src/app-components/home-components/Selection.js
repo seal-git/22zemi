@@ -4,8 +4,6 @@ import "./../../css/Selection.css"
 import axios from "axios"
 import { useEffect, useState } from "react"
 // 他のファイルからインポート
-import ButtonToInvite from "./selection-components/ButtonToInvite"
-import ButtonToShowComment from "./selection-components/ButtonToShowComment"
 import RestaurantInformation from './selection-components/RestaurantInformation'
 import RestaurantInformationDeck from './selection-components/RestaurantInformationDeck'
 import noImageIcon from "./../../img/no_image.png"

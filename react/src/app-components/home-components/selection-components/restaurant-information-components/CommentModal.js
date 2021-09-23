@@ -6,7 +6,7 @@ import Chip from '@material-ui/core/Chip';
 import { Box, Dialog, DialogContent, DialogContentText, DialogTitle } from '@material-ui/core';
 import { Slide } from '@material-ui/core';
 // 他ファイルからインポート
-import { ReactComponent as CommentClose } from '../../../img/comment-close.svg';
+import { ReactComponent as CommentClose } from '../../../../img/comment-close.svg';
 
 // モーダルの遷移方法を規定する
 const Transition = React.forwardRef(function Transition(props, ref) {
