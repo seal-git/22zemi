@@ -7,6 +7,7 @@ from sqlalchemy.sql.functions import current_timestamp
 from sqlalchemy.sql.expression import text
 import os
 
+from app import config
 
 DATABASE = 'mysql://%s:%s@%s:%s/%s?charset=utf8mb4' % (
     "root", # user_name
@@ -111,7 +112,7 @@ class Belong(Base):
     group = Column('group', Integer, primary_key=True)
     request_count = Column('request_count', Integer, nullable=False, server_default='0') # レコメンド # リクエスト回数
     request_restaurants_num = Column('request_restaurants_num', Integer, nullable=False, server_default='0') # レコメンド # レストランを受け取った数
-    next_response = Column('next_response', String(16000)) # 次のレスポンスをあらかじめ検索して保持する
+    next_response = Column('next_response', String(16000)) # 次のレスポンスをあらかじめ検索して新しい順に保持する
     writable = Column('writable', Boolean, nullable=False, default=True) # スレッドで検索している途中でリクエストが来たときのために，排他処理をする
     created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
     updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)
@@ -140,8 +141,9 @@ class Vote(Base):
     created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
     updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)
 
-# ============================================================================================================
 
-Base.metadata.drop_all(ENGINE)
-Base.metadata.create_all(ENGINE) # create tables
+# ============================================================================================================
+# INIT_DBがTrueならDBを初期化する
+if config.MyConfig.INIT_DB: Base.metadata.drop_all(ENGINE)
+Base.metadata.create_all(ENGINE)  # create tables
 Base.query = session.query_property()

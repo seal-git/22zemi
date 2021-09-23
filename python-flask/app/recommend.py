@@ -115,7 +115,7 @@ class RecommendTemplate(Recommend):
                ):
         # YahooローカルサーチAPIで検索する
         # グループの検索条件を取得
-        search_params = get_search_params_from_fetch_group(fetch_group)
+        search_params = database_functions.get_search_params_from_fetch_group(fetch_group)
 
         # 検索条件を追加
         search_params.image = True # 画像がある店
@@ -159,7 +159,7 @@ class RecommendSimple(Recommend):
                user_id,
                histories_restaurants):
         # YahooローカルサーチAPIで検索するクエリ
-        search_params = get_search_params_from_fetch_group(fetch_group)
+        search_params = database_functions.get_search_params_from_fetch_group(fetch_group)
 
         # 検索条件を追加
         search_params.image = True  # 画像がある店
@@ -186,7 +186,7 @@ class RecommendSimple(Recommend):
 
         # if fetch_group.max_price is not None: restaurants_info = get_restaurants_info_price_filter(fetch_group.max_price, restaurants_info)
         restaurants_info = pre_restaurants_info[:RESPONSE_COUNT] # 指定した数だのお店だけを選択
-        return [r.id for r in restaurants_info]
+        return restaurants_info
 
 
 class RecommendYahoo(Recommend):
@@ -195,33 +195,45 @@ class RecommendYahoo(Recommend):
     '''
 
     def search(self, fetch_group, group_id, user_id, histories_restaurants):
-        # YahooローカルサーチAPIで検索するクエリ
-        search_params = get_search_params_from_fetch_group(fetch_group)
+        """
+        YahooローカルサーチAPIで検索する
+        Returns
+        -------
+        restaurants_info: RestaurantsInfo
+        """
+        search_params = database_functions.get_search_params_from_fetch_group(fetch_group)
 
         # 検索条件を追加
         search_params.image = True  # 画像がある店
         search_params.open_now = True  # 現在開店している店舗
-        search_params.sort = "hybrid" # 評価や距離などを総合してソート
-        search_params.set_start_and_results_just_responce_count(group_id, user_id)
+        search_params.sort = "hybrid"  # 評価や距離などを総合してソート
+        ## start, resultsを指定
+        request_count = (session.query(Belong).filter(Belong.group==group_id,
+                                                      Belong.user==user_id).one()
+                         ).request_count
+        search_params.start = config.MyConfig.RESPONSE_COUNT * request_count
+        search_params.results = config.MyConfig.RESPONSE_COUNT
 
-        # Yahooの形式にして検索
-        search_params = search_params.get_yahoo_params()
-        return call_api.search_restaurants_info(fetch_group, group_id,
-                                                     user_id, search_params)
+        # Yahoo_local_searchで検索
+        return call_api.search_restaurants_info(fetch_group,
+                                                group_id,
+                                                user_id,
+                                                search_params)
 
     
     def filter(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
         # 一度ユーザに送信したレストランはリストから除く
         pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
 
-        # 何もしない
-        return [r.id for r in pre_restaurants_info]
+        # 指定した数のお店だけを選択
+        restaurants_info = pre_restaurants_info[:RESPONSE_COUNT]
+        return restaurants_info
 
 
 class RecommendOriginal(Recommend):
     def search(self, fetch_group, group_id, user_id, histories_restaurants):
         # YahooローカルサーチAPIで検索するクエリ
-        search_params = get_search_params_from_fetch_group(fetch_group)
+        search_params = database_functions.get_search_params_from_fetch_group(fetch_group)
 
         # 検索条件を追加
         search_params.image = True  # 画像がある店
@@ -359,7 +371,7 @@ class RecommendWords(Recommend):
     '''
     def search(self, fetch_group, group_id, user_id, histories_restaurants):
         # YahooローカルサーチAPIで検索するクエリ
-        search_params = get_search_params_from_fetch_group(fetch_group)
+        search_params = database_functions.get_search_params_from_fetch_group(fetch_group)
 
         # 検索条件を追加
         search_params.image = True  # 画像がある店
@@ -495,7 +507,7 @@ class RecommendQueue(Recommend):
 
     def search(self, fetch_group, group_id, user_id, histories_restaurants):
         # YahooローカルサーチAPIで検索するクエリ
-        search_params = get_search_params_from_fetch_group(fetch_group)
+        search_params = database_functions.get_search_params_from_fetch_group(fetch_group)
 
         # 検索条件を追加
         search_params.image = True  # 画像がある店
@@ -712,7 +724,7 @@ class RecommendSVM(Recommend):
 
     def search(self, fetch_group, group_id, user_id, histories_restaurants):
         # YahooローカルサーチAPIで検索するクエリ
-        search_params = get_search_params_from_fetch_group(fetch_group)
+        search_params = database_functions.get_search_params_from_fetch_group(fetch_group)
 
         # 検索条件を追加
         search_params.image = True  # 画像がある店
@@ -789,31 +801,6 @@ class RecommendSVM(Recommend):
 
 # ============================================================================================================
 # recommend_mainで使う関数など
-def get_search_params_from_fetch_group(fetch_group):
-    '''
-    ユーザが指定した検索条件からAPIで使用する検索条件を取得
-    return: params: 内部で定義したパラメータ
-
-    '''
-    params = Params()
-
-    if fetch_group.query is not None:
-        params.query = fetch_group.query
-    if fetch_group.genre is not None:
-        params.query = fetch_group.genre  # genreがあるならqueryは上書きされる
-
-    params.lat = fetch_group.lat
-    params.lon = fetch_group.lon
-    params.max_dist = fetch_group.max_dist
-    params.sort = fetch_group.sort
-    params.open_hour = fetch_group.open_hour.hour if fetch_group.open_hour is not None else None
-    params.open_day = fetch_group.open_day.day if fetch_group.open_hour is not None else None
-    params.max_price = fetch_group.max_price
-    params.min_price = fetch_group.min_price
-    # params.start = fetch_group.start
-
-    return params
-
 
 def restaurants_info_price_filter(max_price, min_price, restaurants_info):
     '''
@@ -855,17 +842,6 @@ def delete_duplicate_restaurants_info(group_id, user_id, restaurants_info, histo
     return [ri for ri in restaurants_info if not ri.id in histories_restaurants]
 
 
-def get_restaurant_info():
-    """
-
-    Returns
-    -------
-
-    """
-
-
-    return
-
 
 # ============================================================================================================
 # recommend.pyで最初に呼ばれる
@@ -882,8 +858,8 @@ def recommend_main(fetch_group, group_id, user_id):
     
     Returns
     ----------------
-    restaurants_info : [dict]
-        レスポンスするレストラン情報をjson形式で返す。
+    restaurant_ids : [dict]
+        レスポンスするレストランidのリスト
     '''
     # ratingは、星の数順にソートします。
     # scoreは、スコア順にソートします。
@@ -900,6 +876,8 @@ def recommend_main(fetch_group, group_id, user_id):
         recomm = RecommendTemplate()
     elif recommend_method == 'review_words':
         recomm = RecommendWords()
+    elif recommend_method == 'yahoo':
+        recomm = RecommendYahoo()
     elif recommend_method == 'original':
         recomm = RecommendOriginal()
     elif recommend_method == 'queue':
@@ -916,25 +894,33 @@ def recommend_main(fetch_group, group_id, user_id):
         recomm = RecommendSimple()
 
     # 重複して表示しないようにするため、履歴を取得
-    histories_restaurants = database_functions.get_histories_restaurants(group_id, user_id)
+    histories_restaurants = database_functions.get_histories_restaurants(group_id,
+                                                                         user_id)
     
     # 結果が0件なら繰り返す
     for i in range(5):
         # 主な処理
         # APIで情報を取得し、
-        restaurants_info = recomm.search(fetch_group, group_id, user_id, histories_restaurants)
-        print(f"results ={len(restaurants_info)}, "
+        restaurants_info = recomm.search(fetch_group,
+                                         group_id,
+                                         user_id,
+                                         histories_restaurants)
+        print(f"recommend_main:"
+              f"results ={len(restaurants_info)}, "
               f"history ={len(histories_restaurants)}")
         # ユーザに表示する店を選び、
-        restaurants_ids = recomm.filter(fetch_group, group_id, user_id, restaurants_info, histories_restaurants)
-        # 店舗情報を返す。
-        restaurants_info = call_api.get_restaurants_info(fetch_group, group_id, restaurants_ids)
+        restaurants_info = recomm.filter(fetch_group,
+                                         group_id,
+                                         user_id,
+                                         restaurants_info,
+                                         histories_restaurants)
+        # 店舗情報を保存する。
+        restaurants_info = call_api.get_restaurants_info(fetch_group,
+                                                         group_id,
+                                                         restaurants_info)
         print(f"data_num {len(restaurants_info)}")
         if len(restaurants_info) >= 1:
-            
-            fetch_group.start = 0
-            session.commit()
-            return restaurants_info
+            return [r.id for r in restaurants_info]
 
         else:
             # error: 検索結果なし

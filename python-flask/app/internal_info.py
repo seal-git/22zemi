@@ -27,7 +27,7 @@ class Params:
         self.min_price: int = None # 値段の最小値(円)
         self.loco_mode: bool = False # Yahooロコの検索機能(ランチ、飲み放題、食べ放題、女子会、個室で検索できる)
         self.image: bool = False # 画像のあるものだけを出力
-        self.results: int = config.MyConfig.RESPONSE_COUNT # 取得件数
+        self.results: int = config.MyConfig.STOCK_COUNT # 取得件数
         self.start: int = 0  # 取得開始位置
         self.sort: str = None # ソート順の指定
     
@@ -206,5 +206,34 @@ class RestaurantInfo:
         for key, value in self.__dict__.items():
             if not key.startswith("__"):
                 r_info_dict[key] = value
+
+        return r_info_dict
+
+    def get_dict_for_react(self):
+        """
+        RestaurantInfoの情報をreact用のdictで出力
+        Returns
+        -------
+
+        """
+        r_info_dict = {
+            'Restaurant_id': self.id,
+            'Name': self.name,
+            'Distance': self.distance,
+            'CatchCopy': self.catchcopy,
+            'Price': self.price,
+            'Address': self.address,
+            'Images': self.image_url,
+            'ReviewRating': self.rating,
+            'VotesLike': self.votes_like,
+            'VotesAll': self.votes_all,
+            'NumberOfParticipants': self.number_of_participants,
+            'RecommendScore': self.recommend_score,
+            'BusinessHour': self.sunday_opening_hours,
+            # TODO: 以下は導入するか別途決める
+            'TopRankItem': [],
+            'CassetteOwnerLogoImage': [],
+            'ImagesBinary': [],
+        }
 
         return r_info_dict

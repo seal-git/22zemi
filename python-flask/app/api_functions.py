@@ -69,7 +69,9 @@ def get_rating(r_info):
     return r_info
 
 
-def yahoo_local_search(params: Params = None, r_info: RestaurantInfo = None):
+def yahoo_local_search(params: Params = None,
+                       r_info: RestaurantInfo = None,
+                       r_id: str = None):
     """
     yahoo localsearchを使ってRestaruantInfoのリストを返す。
     Parameters
@@ -79,12 +81,10 @@ def yahoo_local_search(params: Params = None, r_info: RestaurantInfo = None):
     どちらかが入力されていればそれに応じて検索する
     Returns
     -------
-
     """
-    print(f"yahoo_local_search")
-
-    # paramsをyahoo用の検索クエリに変換
     if params is not None:
+        # paramsで検索
+        # print(f"yahoo_local_search with params")
         ## distの計算
         if params.max_dist is not None:
             dist = params.max_dist / 1000
@@ -120,6 +120,8 @@ def yahoo_local_search(params: Params = None, r_info: RestaurantInfo = None):
             "open": open,
         }
     elif r_info is not None:
+        # restaurant_infoで検索
+        # print(f"yahoo_local_search with r_info")
         if r_info.yahoo_id is not None:
             params_dict = {
                 "uid": r_info.yahoo_id
@@ -155,8 +157,10 @@ def yahoo_local_search(params: Params = None, r_info: RestaurantInfo = None):
     restaurants_info = []
 
     for feature in feature_list:
-        r_info = RestaurantInfo()
-        r_info.id = feature['Property']['Uid']
+        if params is not None:
+            r_info = RestaurantInfo()
+            r_info.id = feature['Property']['Uid']
+
         r_info.yahoo_id = feature['Property']['Uid']
         r_info.name = feature['Name']
         r_info.address = feature['Property'].get('Address')
@@ -170,13 +174,13 @@ def yahoo_local_search(params: Params = None, r_info: RestaurantInfo = None):
         r_info.category = feature['Property'].get('Genre')[0]['Name']
         r_info.genre = [feature['Property'].get('Genre')[0]['Name']]
         r_info.web_url = "https://loco.yahoo.co.jp/place/" + feature['Property']['Uid']
-        r_info.monday_opening_hours = feature["Property"]["MondayBusinessHour"]
-        r_info.tuesday_opening_hours = feature["Property"]["TuesdayBusinessHour"]
-        r_info.wednesday_opening_hours = feature["Property"]["WednesdayBusinessHour"]
-        r_info.thursday_opening_hours = feature["Property"]["ThursdayBusinessHour"]
-        r_info.friday_opening_hours = feature["Property"]["FridayBusinessHour"]
-        r_info.saturday_opening_hours = feature["Property"]["SaturdayBusinessHour"]
-        r_info.sunday_opening_hours = feature["Property"]["SundayBusinessHour"]
+        r_info.monday_opening_hours = feature["Property"].get("MondayBusinessHour")
+        r_info.tuesday_opening_hours = feature["Property"].get("TuesdayBusinessHour")
+        r_info.wednesday_opening_hours = feature["Property"].get("WednesdayBusinessHour")
+        r_info.thursday_opening_hours = feature["Property"].get("ThursdayBusinessHour")
+        r_info.friday_opening_hours = feature["Property"].get("FridayBusinessHour")
+        r_info.saturday_opening_hours = feature["Property"].get("SaturdayBusinessHour")
+        r_info.sunday_opening_hours = feature["Property"].get("SundayBusinessHour")
         r_info.access = feature["Property"].get("Access1")
         r_info.health_info = feature["Property"].get("HealthInfo")
 
@@ -199,8 +203,12 @@ def yahoo_local_search(params: Params = None, r_info: RestaurantInfo = None):
         for key, value in feature['Property']['Detail'].items():
             if re.fullmatch(r"Image\d+|PersistencyImage\d|ItemImageUrl\d", key):
                 images.append(value)
+        # 画像が1枚もないときはnoimageを出力
+        if len(images) == 0:
+            no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
+            images = [no_image_url]
 
-        r_info.image_url = images
+        r_info.image_url = set(images) # setで重複をなくす
 
         restaurants_info.append(r_info)
 

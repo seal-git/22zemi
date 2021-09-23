@@ -25,41 +25,6 @@ RECOMMEND_METHOD = config.MyConfig.RECOMMEND_METHOD
 API_METHOD = config.MyConfig.API_METHOD
 
 
-def get_restaurants_info_from_recommend_priority(fetch_group, group_id, user_id):
-    '''
-    あらかじめ優先度が計算されていたら、優先度順にレストランを取得する。
-    
-    Parameters
-    ----------------
-    fetch_group
-    group_id
-    user_id
-    
-    Returns
-    ----------------
-    restaurnts_info : [dict]
-    '''
-    histories_restaurants = database_functions.get_histories_restaurants(group_id, user_id)
-    fetch_votes = session.query(Vote).filter(Vote.group==group_id, Vote.recommend_priority is not None).order_by(Vote.recommend_priority).all()
-    restaurants_ids = []
-    for fv in fetch_votes:
-        if fv.restaurant not in histories_restaurants:
-            restaurants_ids.append(fv.restaurant)
-            if len(restaurants_ids) == recommend.RESPONSE_COUNT:
-                return call_api.get_restaurants_info(fetch_group, group_id, restaurants_ids)
-    
-    # まだ優先度を計算していない時や，RecommendSimple等で優先度を計算しない時
-    fetch_votes = session.query(Vote).filter(Vote.group==group_id, Vote.recommend_priority is None).all()
-    for fv in fetch_votes:
-        if fv.restaurant not in histories_restaurants:
-            restaurants_ids.append(fv.restaurant)
-            if len(restaurants_ids) == recommend.RESPONSE_COUNT:
-                return call_api.get_restaurants_info(fetch_group, group_id, restaurants_ids)
-    
-    # ストックしている店舗数が足りない時。最初のリクエスト等。
-    return recommend.recommend_main(fetch_group, group_id, user_id)
-
-
 def create_response_from_restaurants_info(group_id, user_id, restaurants_info):
     '''
     レスポンスを生成する仕上げ
@@ -67,20 +32,21 @@ def create_response_from_restaurants_info(group_id, user_id, restaurants_info):
 
     IMAGE_DIRECTORY_PATH = './data/image/'
 
-    # 画像を返す
-    for r in restaurants_info:
-        images_binary = []
-        for path in r['ImageFiles']:
-            if len(path) != 0:
-                with open(IMAGE_DIRECTORY_PATH+path,"r") as f:
-                    images_binary.append( f.read() )
-        r['ImagesBinary'] = images_binary
+    # 画像を返す(urlで表現するので不要)
+    # for r in restaurants_info:
+    #     images_binary = []
+    #     for path in r['ImageFiles']:
+    #         if len(path) != 0:
+    #             with open(IMAGE_DIRECTORY_PATH+path,"r") as f:
+    #                 images_binary.append( f.read() )
+    #     r['ImagesBinary'] = images_binary
     
     # 履歴を保存
     database_functions.save_histories(group_id, user_id, restaurants_info)
     print("create_response_from_restaurants_info:", len(restaurants_info))
 
     # レスポンスするためにいらないキーを削除する
+    restaurants_info = [r.get_dict_for_react() for r in restaurants_info]
     response_keys = ['Restaurant_id', 'Name', 'Address', 'CatchCopy', 'Price', 'Category', 'UrlWeb', 'UrlMap', 'ReviewRating', 'BusinessHour', 'Genre', 'Images', 'ImagesBinary']
     response = [{k:v for k,v in r.items() if k in response_keys} for r in restaurants_info] # response_keysに含まれているキーを残す
     return json.dumps(response, ensure_ascii=False)
@@ -168,10 +134,12 @@ def http_invite():
 def http_info():
     '''
     店情報を要求するリクエスト
+    threadingでrecommendとget_restaurant_infoをバックグラウンドで行う。
+    next_responseからidをRESPONSE_COUNT個とってきて、DBからinfoをとってresponseを作る。
 
     Returns
     ----------------
-    restaurants_info : [dict]
+    response : [dict]
     '''
 
     # リクエストクエリを受け取る
@@ -203,71 +171,89 @@ def http_info():
     # 検索条件をデータベースに保存
     database_functions.set_search_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort, fetch_group=fetch_group)
 
-    if NEXT_RESPONSE:
-        # 他のスレッドで検索中だったら待つ
-        if not fetch_belong.writable:
-            result = [False]
-            while not result[0]:
-                time.sleep(1)
-                t = threading.Thread(target=thread_info_wait, args=(group_id, user_id, result))
-                t.start()
-                t.join()
-        # 検索して店舗情報を取得
-        cache_file = fetch_belong.next_response
-        if cache_file is None:
-            response = thread_info(False, group_id, user_id, fetch_belong=fetch_belong, fetch_group=fetch_group)
-        else:
-            # キャッシュを読み込んで、読んだら削除する
-            with open(f"data/tmp/{cache_file}") as f:
-                response = f.read()
-            os.remove(f"data/tmp/{cache_file}")
-
-        # 高速化：次回のアクセスで返す情報を生成しておく
-        fetch_belong.next_response = None
-        session.commit()
-        t = threading.Thread(target=thread_info, args=(True, group_id, user_id))
-        t.start()
-        return response
-    
+    # response_queueから取得してresponseを作る
+    ## 他のスレッドで更新中だったら待つ
+    if not fetch_belong.writable:
+        result = [False]
+        while not result[0]:
+            print("waiting")
+            time.sleep(1)
+            t = threading.Thread(target=thread_info_wait, args=(group_id, user_id, result))
+            t.start()
+            t.join()
+    ## response_queueからid取得
+    if fetch_belong.next_response is not None:
+        response_queue = fetch_belong.next_response.split('\n')
     else:
-        response = thread_info(False, group_id, user_id, fetch_belong=fetch_belong, fetch_group=fetch_group)
-        return response
+        response_queue = []
+    if len(response_queue) < config.MyConfig.RESPONSE_COUNT:
+        restaurant_ids = recommend.recommend_main(fetch_group, group_id, user_id)
+    else:
+        for i in range(config.MyConfig.RESPONSE_COUNT):
+            restaurant_ids = response_queue.pop()
+        fetch_belong.next_response = response_queue.join("\n")
+    ## responseを作る
+    restaurants_info = database_functions.load_stable_restaurants_info(restaurant_ids)
+    response = create_response_from_restaurants_info(group_id, user_id, restaurants_info)
+    fetch_belong.request_count += 1
+    fetch_belong.request_restaurants_num += len(restaurant_ids)
+    session.commit()
+
+    # 裏でrecommendを走らせる
+    t = threading.Thread(target=thread_info,
+                         args=(group_id,
+                               user_id,
+                               fetch_belong,
+                               fetch_group))
+    t.start()
+    return response
 
 def thread_info_wait(group_id, user_id, result):
     result[0] = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one().writable
 
-def thread_info(make_cache, group_id, user_id, fetch_belong=None, fetch_group=None):
-    import hashlib, base64
+def thread_info(group_id, user_id, fetch_belong, fetch_group):
+    """
+    裏でrecommend_mainを実行する。
+    get_restaurant_infoまで処理する。
+    結果のrestaurant_idをnext_responseに文字列で保存する。
 
-    fetch_belong = fetch_belong if fetch_belong is not None else session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()
+    Parameters
+    ----------
+    group_id
+    user_id
+    fetch_belong
+    fetch_group
+
+    Returns
+    -------
+
+    """
+
     fetch_belong.writable = False
     session.commit()
 
-    fetch_group = fetch_group if fetch_group is not None else session.query(Group).filter(Group.id==group_id).one()
+    restaurant_ids = recommend.recommend_main(fetch_group, group_id, user_id)
     
-    if RECOMMEND_PRIORITY:
-        restaurants_info = get_restaurants_info_from_recommend_priority(fetch_group, group_id, user_id)
-    else:
-        restaurants_info = recommend.recommend_main(fetch_group, group_id, user_id)
-    
-    if restaurants_info is None:
+    if restaurant_ids is None:
         # error
-        restaurants_info = []
+        restaurant_ids = []
         fetch_belong.next_response = None
 
-    # restaurants_infoをテキスト化してdata/tmpにキャッシュとして保存
-    response = create_response_from_restaurants_info(group_id, user_id, restaurants_info)
-    if make_cache:
-        filename = hashlib.md5(base64.b64encode(str(response).encode())).hexdigest()
-        print(f"thread_info: save cache at data/tmp/{filename}")
-        with open(f"data/tmp/{filename}", "w")as f:
-            f.write(str(response))
-        fetch_belong.next_response = filename
-    fetch_belong.request_count += 1
-    fetch_belong.request_restaurants_num += len(restaurants_info)
+    # idをnext_responseに保存
+    if fetch_belong.next_response is not None:
+        response_queue = fetch_belong.next_response.split('\n')
+    else:
+        response_queue = []
+    response_queue = response_queue + restaurant_ids
+    over_queue_count = len(response_queue)-config.MyConfig.QUEUE_COUNT
+    if over_queue_count > 0:
+        # キューの数が多すぎたら古いのを削除
+        response_queue = response_queue[over_queue_count:]
+
+    fetch_belong.next_response = '\n'.join(response_queue)
     fetch_belong.writable = True
     session.commit()
-    return response
+    print("thread end")
 
 
 
@@ -299,6 +285,7 @@ def http_feeling():
     participants_count = database_functions.get_participants_count(group_id) # 参加人数
     notification_badge = str( session.query(Vote).filter(Vote.group==group_id, Vote.votes_like==participants_count).count() )
     if RECOMMEND_PRIORITY:
+        # 裏でrecommendを走らせる
         t = threading.Thread(target=thread_feeling, args=(group_id, user_id))
         t.start()
     return notification_badge
