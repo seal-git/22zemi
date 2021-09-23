@@ -258,6 +258,7 @@ class ApiFunctionsYahoo(ApiFunctions):
                                         access_flag)
                                    , feature_list))
 
+
         # Googleから画像を取得する
         if config.MyConfig.GET_GOOGLE_IMAGE:
             images_list = calc_info.get_google_images_list([r['Name'] for r in restaurants_info])
