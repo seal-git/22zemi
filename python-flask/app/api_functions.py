@@ -173,12 +173,12 @@ class ApiFunctionsYahoo(ApiFunctions):
         persistency_image_n = [feature['Property']['Detail']['PersistencyImage'+str(j)] for j in range(MAX_LIST_COUNT) if 'PersistencyImage'+str(j) in feature['Property']['Detail']] # PersistencyImage1, PersistencyImage2 ... のキーをリストに。
         restaurant_info['Images'] = list(dict.fromkeys(lead_image + image_n + persistency_image_n))
 
-        # # apiの画像のreferenceを保存
-        # restaurant_info["ImageFiles"] = calc_info.create_image(
-        #     restaurant_info) if access_flag=="xxx" else [] #1枚の画像のURLを保存
-        # if len(restaurant_info["Images"]) == 0:
-        #     no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
-        #     restaurant_info["Images"] = [no_image_url, no_image_url]
+        # apiの画像のreferenceを保存
+        restaurant_info["ImageFiles"] = calc_info.create_image(
+            restaurant_info) if access_flag=="xxx" else [] #1枚の画像のURLを保存
+        if len(restaurant_info["Images"]) == 0:
+            no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
+            restaurant_info["Images"] = [no_image_url, no_image_url]
         
         return restaurant_info
 
