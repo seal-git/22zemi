@@ -84,6 +84,7 @@ function Bar(props){
             margin='1%'
             cursor='pointer'
             css={{background:background}}
+            onClick={props.onClick}
         />
     )
 }
@@ -99,7 +100,7 @@ function Bars(props){
             position='absolute'
         >
             {props.Images.map( (image,i) =>{
-                return <Bar isSelected={i===props.index} onClick={()=>{ setIndex(i)}} />
+                return <Bar isSelected={i===props.index} onClick={()=>{ props.setIndex(i)}} />
             })} 
         </Box>
     )
@@ -229,7 +230,7 @@ function RestaurantInformation(props) {
                 <div className={classes.imageFilter} />
                 {renderCardContent(props.data)}
                 {renderButtons()}
-                <Bars Images={props.data.Images} index={index}/>
+                <Bars Images={props.data.Images} index={index} setIndex={setIndex}/>
                 {renderButtonToInvite()}
                 {renderButtonToShowComment()}
             </Card>
