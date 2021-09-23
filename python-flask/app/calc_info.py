@@ -153,76 +153,60 @@ def add_price(fetch_group, group_id, restaurants_info):
         if config.MyConfig.LUNCH_TIME_START <= hour < config.MyConfig.LUNCH_TIME_END:
             restaurants_info[i].price = restaurants_info[i].lunch_price
         else:
-            restaurants_info.price = restaurants_info.dinner_price
+            restaurants_info[i].price = restaurants_info[i].dinner_price
 
     return restaurants_info
 
 
 
-# calc_info行き
-def get_review_rating(restaurant_info):
+def add_review_rating(restaurants_info):
     '''
     Yahoo APIにアクセスして口コミを文字列で返す
     '''
-    review_rating_int = int(review_rating + 0.5)
-    review_rating_star = '★' * review_rating_int + '☆' * (5-review_rating_int)
+    for i in range(len(restaurants_info)):
+        rating = restaurants_info[i].yahoo_rating
+        if rating is None:
+            continue
+        review_rating = sum(rating)/len(rating)
+        review_rating_int = int(review_rating + 0.5)
+        review_rating_star = '★' * review_rating_int + '☆' * (5-review_rating_int)
+        review_rating_star = review_rating_star + '    ' + ('%.1f' % review_rating)
+        restaurants_info[i].yahoo_rating_str = review_rating_star
+        restaurants_info[i].yahoo_rating_float = review_rating
 
-    restaurant_info.rating = review_rating_star + '    ' + ('%.1f' % review_rating)
+    return restaurants_info
 
-    return restaurant_info
 
-def get_google_images_list(name_list):
+def get_google_images_list(restaurants_info):
     '''
     Googleから複数の店の画像を並列に取得する
     '''
-    images_list = [[] for name in name_list]
-
+    images_list = [[] for r in restaurants_info]
     # 並列処理
-    thread_list = [None for name in name_list]
-    for index,name in enumerate(name_list):
-        thread_list[index] = threading.Thread(target=get_google_images, args=(index, name, images_list))
+    thread_list = [None for r in restaurants_info]
+    for index,r_info in enumerate(restaurants_info):
+        thread_list[index] = threading.Thread(target=get_google_images, args=(index, r_info, images_list))
         thread_list[index].start()
     for t in thread_list:
         t.join()
 
+    for i in range(len(restaurants_info)):
+        restaurants_info[i].image_url += images_list[i]
     # # 逐次処理
     # for index,name in enumerate(name_list):
     #     get_google_images(index, name, images_list)
 
-    return images_list
+    return restaurants_info
 
-def get_google_images(index, restaurant_name, images_list):
+
+def get_google_images(index, r_info, images_list):
     '''
     店名からGoogleから画像を取得する
     '''
 
-    # place検索
-    url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
-    params = {
-        'key': os.environ["GOOGLE_API_KEY"],
-        'input': restaurant_name,
-        'inputtype': 'textquery',
-    }
-    res = requests.get(url=url, params=params)
-    dic = res.json()
-    place_id = dic['candidates'][0]['place_id']
-
-    # place_detailを取得
-    url = 'https://maps.googleapis.com/maps/api/place/details/json'
-    params = {
-        'key': os.environ["GOOGLE_API_KEY"],
-        'place_id': place_id,
-    }
-    res = requests.get(url=url, params=params)
-    dic = res.json()
-    if 'photos' in dic['result']:
-        photo_references = [photo['photo_reference'] for photo in dic['result']['photos']]
-    else:
-        photo_references = []
-
-    url_list = [[] for p in photo_references]
-    thread_list = [None for p in photo_references]
-    for i, reference in enumerate(photo_references):
+    url_list = [[] for p in r_info.google_photo_reference]
+    thread_list = [None for p in r_info.google_photo_reference]
+    for i, reference in enumerate(r_info.google_photo_reference):
         thread_list[i] = threading.Thread(target=get_google_image_from_reference, args=(i, reference, url_list))
         thread_list[i].start()
     for t in thread_list:
@@ -292,7 +276,7 @@ def get_google_image_from_reference(index, reference, url_list):
 
 from memory_profiler import profile
 @profile
-def create_image(restaurant_info):
+def add_google_image(restaurant_info):
     '''
     画像をGoogleAPIから読み込んで、つなぎ合わせる。
     縦2列に並んだ画像が800x1200の1枚の画像になる。

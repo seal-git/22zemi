@@ -97,8 +97,6 @@ class Restaurant(Base):
     genre_code = Column('genre_code', String(200)) # ジャンルコード: Yahoo Local Search API を参照
     genre_name = Column('genre_name', String(200)) # ジャンル名
     images = Column('images', String(5000)) # 写真
-    image_files = Column('image_files', String(500)) # 写真
-    image = Column('image', String(1000)) # 写真
     menu = Column('menu', String(400)) # メニュー (2021/08/21 未使用)
     created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
     updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)

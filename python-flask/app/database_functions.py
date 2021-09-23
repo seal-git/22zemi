@@ -45,6 +45,7 @@ def get_histories_restaurants(group_id, user_id):
 
 def get_lat_lon_address(query):
     '''
+    api_function行き?
     Yahoo APIを使って、緯度・経度・住所を返す関数
 
     Parameters
@@ -337,12 +338,11 @@ def save_restaurants_info(restaurants_info):
         fetch_restaurant.category = r_info.category
         fetch_restaurant.url_web = r_info.web_url
         fetch_restaurant.url_map = r_info.map_url
-        fetch_restaurant.review_rating = str(r_info.rating)
-        fetch_restaurant.review_rating_float = r_info.rating
+        fetch_restaurant.review_rating = r_info.yahoo_rating_str
+        fetch_restaurant.review_rating_float = r_info.yahoo_rating_float
         # fetch_restaurant.business_hour = r_info.sunday_opening_hours
         fetch_restaurant.genre_name = '\n'.join(r_info.genre)
         fetch_restaurant.images = '\n'.join(r_info.image_url)
-        fetch_restaurant.image_files = '\n'.join(r_info.image_url)
         session.add(fetch_restaurant)
         session.commit()
         print(f"save_restaurants_info: saved {fetch_restaurant.id}")
@@ -421,5 +421,6 @@ def get_search_params_from_fetch_group(fetch_group):
     # params.start = fetch_group.start
 
     return params
+
 
 

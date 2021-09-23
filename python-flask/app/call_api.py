@@ -1,6 +1,13 @@
 """
 call_api
 search_restaurant_infoとget_restaurant_infoを実行する。
+
+
+# 主な流れ
+search_restaurants_info関数は検索条件(search_params)から店の情報(restaurants_info)を取得する。
+get_restaurants_info関数はrestaurant_infoを更新する。
+
+calc_info.pyには、APIと関係ないがget_restaurant_info内で呼ぶ関数があります。
 """
 
 from app import api_functions, database_functions, calc_info
@@ -101,35 +108,45 @@ def get_restaurants_info(fetch_group,
     #     restaurant_ids_del_none)
 
     # データベースにない情報を店舗ごとにAPIで取得
-    # feelingリクエストで架空のrestaurants_idだったときには、それを除く
+    ## feelingリクエストで架空のrestaurants_idだったときには、それを除く
     restaurants_info = [r for r in restaurants_info if
                         r is not None]
     for i in range(len(restaurants_info)):
+        if restaurants_info[i].yahoo_id is not None and restaurants_info[i].google_id is not None:
+            # APIから取得済みの場合は飛ばす
+            continue
         if restaurants_info[i].yahoo_id is None:
-            # yahooの情報を追加
+            ## yahoo_idを追加
             restaurants_info[i] = api_functions.yahoo_local_search(r_info=restaurants_info[i])[0]
         if restaurants_info[i].google_id is None:
-            # TODO: googleの情報を追加
-            pass
-            # restaurants_info[i] = api_functions.google_find_place(r_info=restaurants_info[i])[0]
+            ## google_idを追加
+            restaurants_info[i] = api_functions.google_find_place(r_info=restaurants_info[i])
 
-    # 投票数と距離を計算
-    restaurants_info = calc_info.add_votes_distance(fetch_group, group_id,
-                                                    restaurants_info)
-    # 画像生成
-    # restaurant_info["Image_references"] = calc_info.get_google_images(
-    #     feature['Name']) if access_flag == "xxx" else []  # google
-    # # apiの画像のreferenceを保存
-    # restaurant_info["ImageFiles"] = calc_info.create_image(
-    #     restaurant_info) if access_flag == "xxx" else []  # 1枚の画像のURLを保存
-    # if len(restaurant_info["Images"]) == 0:
-    #     no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
-    #     restaurant_info["Images"] = [no_image_url, no_image_url]
+        if restaurants_info[i].yahoo_id is not None:
+            ## yahooレビューを取得
+            restaurants_info[i] = api_functions.yahoo_review(restaurants_info[i])
 
-    # 設定された時間でのpriceを設定する
+        if restaurants_info[i].google_id is not None:
+            ## googleの情報を追加
+            restaurants_info[i] = api_functions.google_place_details(r_info=restaurants_info[i])
+    # Googleから画像を取得する
+    if config.MyConfig.GET_GOOGLE_IMAGE:
+        restaurants_info = calc_info.get_google_images_list(restaurants_info)
+    ## 画像生成
+    # restaurants_info = calc_info.add_google_images(restaurants_info)
+
+
+    # グループごとの情報を計算する
+    ## 設定された時間でのpriceを設定する
     restaurants_info = calc_info.add_price(fetch_group,
                                            group_id,
                                            restaurants_info)
+
+    ## レーティングの文字列を生成する
+    restaurants_info = calc_info.add_review_rating(restaurants_info)
+
+    database_functions.save_restaurants_info(restaurants_info)
+    database_functions.save_votes(group_id, restaurants_info)
 
     return restaurants_info
 

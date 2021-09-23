@@ -6,7 +6,16 @@ import pprint
 def test_search_restaurants_info():
     user_id = 123
     group_id = 456789
-    fetch_group = session.query(Group).one()
+    place = "新宿駅"
+    recommend_method = config.MyConfig.RECOMMEND_METHOD
+    api_method = "yahoo"
+    database_functions.register_user_and_group_if_not_exist(group_id,
+                                                            user_id,
+                                                            place,
+                                                            recommend_method,
+                                                            api_method
+                                                            )
+    fetch_group = session.query(Group).filter(Group.id==group_id).first()
     api = "yahoo_local_search"
 
     params = Params()
@@ -25,12 +34,13 @@ def test_search_restaurants_info():
     assert len(restaurants_info)>0
 
 def test_get_restaurants_info():
-    fetch_group = session.query(Group).one()
     group_id = 456789
-    r_id = ["5ce1ffb50b7c586e52e37235d076fd7ba6e647d4"]
+    fetch_group = session.query(Group).filter(Group.id==group_id).first()
+    r_id = session.query(Restaurant.id).first()
     restaurants_info = database_functions.load_stable_restaurants_info(r_id)
     restaurants_info = get_restaurants_info(fetch_group,
                                             group_id,
                                             restaurants_info)
+    [pprint.PrettyPrinter(indent=2).pprint(r.get_dict()) for r in restaurants_info]
     assert len(restaurants_info)>0
 

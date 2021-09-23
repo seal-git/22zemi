@@ -31,13 +31,13 @@ def create_response_from_restaurants_info(group_id, user_id, restaurants_info):
     '''
 
     # 画像を返す
-    for r in restaurants_info:
-        images_binary = []
-        for path in r['ImageFiles']:
-            if len(path) != 0:
-                with open(config.MyConfig.IMAGE_DIRECTORY_PATH+path,"r") as f:
-                    images_binary.append( f.read() )
-        r['ImagesBinary'] = images_binary
+    # for r in restaurants_info:
+    #     images_binary = []
+    #     for path in r['ImageFiles']:
+    #         if len(path) != 0:
+    #             with open(config.MyConfig.IMAGE_DIRECTORY_PATH+path,"r") as f:
+    #                 images_binary.append( f.read() )
+    #     r['ImagesBinary'] = images_binary
     
     # 履歴を保存
     database_functions.save_histories(group_id, user_id, restaurants_info)
@@ -282,13 +282,32 @@ def http_feeling():
     notification_badge = str( session.query(Vote).filter(Vote.group==group_id, Vote.votes_like==participants_count).count() )
     if RECOMMEND_PRIORITY:
         # 裏でrecommendを走らせる
-        t = threading.Thread(target=thread_feeling, args=(group_id, user_id))
+        ## 他のスレッドで更新中だったら待つ
+        fetch_group = session.query(Group).filter(Group.id==group_id).first()
+        fetch_belong = session.query(Belong).filter(Belong.user==user_id,
+                                                    Belong.group==group_id
+                                                    ).first()
+        if not fetch_belong.writable:
+            result = [False]
+            while not result[0]:
+                print("waiting")
+                time.sleep(1)
+                t = threading.Thread(target=thread_info_wait,
+                                     args=(group_id,
+                                           user_id,
+                                           result))
+                t.start()
+                t.join()
+
+        t = threading.Thread(target=thread_info,
+                             args=(group_id,
+                                   user_id,
+                                   fetch_belong,
+                                   fetch_group
+                                   ))
         t.start()
     return notification_badge
 
-def thread_feeling(group_id, user_id):
-    fetch_group = session.query(Group).filter(Group.id==group_id).one()
-    recommend.recommend_main(fetch_group, group_id, user_id)
 
 @app_.route('/list', methods=['GET','POST'])
 def http_list():

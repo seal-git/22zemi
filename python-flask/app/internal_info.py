@@ -143,7 +143,6 @@ class Params:
         }
         return params
 
-# TODO: RestaurantInfoクラスを作る
 
 class RestaurantInfo:
     """
@@ -179,9 +178,13 @@ class RestaurantInfo:
         self.health_info: str = None  # 感染症対策情報
         self.web_url: str = None  # webサイトURL
         self.map_url: str = None  # 地図URL 現在地からの経路ならば動的パラメータ？
-        self.rating: float = None  # 星評価
-        self.review: [str] = None  # レビュー
+        self.yahoo_rating: [float] = None  # 星評価のリスト
+        self.yahoo_rating_float: str = None  # 星評価の平均
+        self.yahoo_rating_str: str = None  # 星評価の平均を文字列で表したもの
+        self.google_rating: float = None  # 星評価
+        self.review: [str] = []  # レビュー
         self.image_url: [str] = None  # 画像のurl
+        self.google_photo_reference: [str] = None
 
         # 動的パラメーター(呼び出す度に計算するもの)
         self.price: int = None  # 指定時刻の値段

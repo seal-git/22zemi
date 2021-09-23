@@ -28,7 +28,7 @@ class MyConfig:
     RECOMMEND_METHOD = 'yahoo'
     API_METHOD = 'yahoo'
     
-    GET_GOOGLE_IMAGE = True
+    GET_GOOGLE_IMAGE = False
     USE_LOCAL_IMAGE = False
     USE_RAW_IMAGE = False
     MAX_DISTANCE = 200000  # 中心地からの距離 上限20
@@ -39,6 +39,7 @@ class MyConfig:
     OPEN_HOUR = "12:00"  # 固定の開店時間
     LUNCH_TIME_START = 10  # ランチの開始時間
     LUNCH_TIME_END = 15  # ランチの終了時間
+    MAX_LIST_COUNT = 10  # 画像の最大枚数
 
     IMAGE_DIRECTORY_PATH = 'data/image/'
     SERVER_URL = 'localhost' # 'reskima.com'
