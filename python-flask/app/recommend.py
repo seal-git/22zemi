@@ -598,7 +598,7 @@ class RecommendSVM(Recommend):
                 dislike_price_count += vote_dislike
 
             #distance処理
-            distance = r["distance_float"]
+            distance = r.distance_float
             like_distance_sum += vote_like * distance
             like_distance2_sum += vote_like * distance*distance
             like_distance_count += vote_like
@@ -607,15 +607,16 @@ class RecommendSVM(Recommend):
             dislike_distance_count += vote_dislike
 
             #genre処理
-            genre = r["Genre"]
-            for g in genre:
-                if g["Name"] not in genre_list:
-                    genre_list.append(g["Name"])
-                    like_genre_count.append(vote_like)
-                    dislike_genre_count.append(vote_dislike)
-                else:
-                    like_genre_count[genre_list.index(g["Name"])] += vote_like
-                    dislike_genre_count[genre_list.index(g["Name"])] += vote_dislike
+            genre = r.genre
+            if genre is not None:
+                for g in genre:
+                    if g not in genre_list:
+                        genre_list.append(g)
+                        like_genre_count.append(vote_like)
+                        dislike_genre_count.append(vote_dislike)
+                    else:
+                        like_genre_count[genre_list.index(g)] += vote_like
+                        dislike_genre_count[genre_list.index(g)] += vote_dislike
 
         genre_feeling = {genre: {'Like':like,'Dislike':dislike} for genre, like, dislike in zip(genre_list, like_genre_count, dislike_genre_count)}
         like_price_average = like_price_sum / like_price_count if like_price_count != 0 else 0
@@ -676,15 +677,15 @@ class RecommendSVM(Recommend):
                     genre_score += genre_feeling[g]['Dislike'] - genre_feeling[g]['Like']
             vec[5] = genre_score * 1000
 
-            vec[6] = r['ReviewRatingFloat']
+            vec[6] = r.yahoo_rating_float
 
             # 変数に格納
             if r.votes_all <= 0:
-                rid_test[i_test] = r["Restaurant_id"]
+                rid_test[i_test] = r.id
                 x_test[i_test][:] = vec[:]
                 i_test += 1
             else:
-                rid_train[i_train] = r["Restaurant_id"]
+                rid_train[i_train] = r.id
                 x_train[i_train][:] = vec[:]
                 y_train[i_train] = participants_count * (r.votes_all - r.votes_like) - r.votes_like # 訓練データのラベル
                 i_train += 1
@@ -744,7 +745,7 @@ class RecommendSVM(Recommend):
         fetch_votes = session.query(Vote.votes_all).filter(Vote.group==group_id, Vote.votes_all>0).all()
         if sum([v.votes_all for v in fetch_votes]) < 3:
             pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
-            return [r.id for r in pre_restaurants_info][0:RESPONSE_COUNT]
+            return [r for r in pre_restaurants_info][0:RESPONSE_COUNT]
         
         # Vote.recommend_priorityを計算する。
         self.__calc_recommend_priority(fetch_group, group_id, pre_restaurants_info)
@@ -758,8 +759,11 @@ class RecommendSVM(Recommend):
             if fv.restaurant not in histories_restaurants:
                 restaurants_ids.append(fv.restaurant)
                 if len(restaurants_ids) == RESPONSE_COUNT:
-                    return restaurants_ids
-        return restaurants_ids
+                    break
+
+        restaurants_info = [r for r in pre_restaurants_info
+                            if r.id in restaurants_ids]
+        return restaurants_info
 
 
 # ============================================================================================================
