@@ -411,9 +411,9 @@ def create_image(restaurant_info):
 
         # 画像のb64の保存
         filename = restaurant_info['Restaurant_id']+"_"+str(idx)
-        save_b64(f"data/image/{filename}", new_image)
+        save_b64(f"{config.MyConfig.IMAGE_DIRECTORY_PATH}{filename}", new_image)
         image_file_list.append(filename)
-        print(f"create_image: file saved at data/image/{filename}")
+        print(f"create_image: file saved at {config.MyConfig.IMAGE_DIRECTORY_PATH}{filename}")
         # 画像の保存
         if use_local_image:
             new_image.save(f"./data/tmp/{filename}.jpg")
@@ -430,7 +430,7 @@ def create_image(restaurant_info):
     del row1_image, row2_image, row12_image, new_image
     gc.collect()
     # キャッシュファイル削除
-    [os.remove(file) for file in glob.glob(f"{config.MyConfig.IMAGE_DIRECTORY_PATH}image*.jpg")]
+    [os.remove(file) for file in glob.glob(f"data/tmp/image*.jpg")]
 
 
     return image_file_list
