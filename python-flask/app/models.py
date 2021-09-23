@@ -150,7 +150,7 @@ def http_invite():
     database_functions.set_search_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort)
     
     # 招待URL
-    invite_url = config.MyConfig.SERVER_URL + '?group_id=' + str(group_id)
+    invite_url = 'https://' + config.MyConfig.SERVER_URL + '?group_id=' + str(group_id)
     # 招待QRコード
     qr_img = qrcode.make(invite_url)
     buf = BytesIO()
@@ -202,12 +202,11 @@ def http_info():
     if NEXT_RESPONSE:
         # 他のスレッドで検索中だったら待つ
         if not fetch_belong.writable:
-            result = [False]
-            while not result[0]:
+            result = False
+            while not result:
                 time.sleep(1)
-                t = threading.Thread(target=thread_info_wait, args=(group_id, user_id, result))
-                t.start()
-                t.join()
+                session.commit()
+                result = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one().writable
         # 検索して店舗情報を取得
         cache_file = fetch_belong.next_response
         if cache_file is None:
@@ -228,9 +227,6 @@ def http_info():
     else:
         response = thread_info(False, group_id, user_id, fetch_belong=fetch_belong, fetch_group=fetch_group)
         return response
-
-def thread_info_wait(group_id, user_id, result):
-    result[0] = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one().writable
 
 def thread_info(make_cache, group_id, user_id, fetch_belong=None, fetch_group=None):
     import hashlib, base64

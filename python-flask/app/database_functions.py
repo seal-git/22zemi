@@ -310,6 +310,7 @@ def save_restaurants_info(restaurants_info):
     '''
 
     for restaurant_info in restaurants_info:
+        session.commit()
         fetch_restaurant = session.query(Restaurant).filter(Restaurant.id==restaurant_info['Restaurant_id']).first()
         if fetch_restaurant is not None:
             fetch_restaurant.review_rating = restaurant_info.get('ReviewRating')
@@ -340,6 +341,7 @@ def save_restaurants_info(restaurants_info):
             new_restaurant.image_files = '\n'.join(restaurant_info.get('ImageFiles'))
             new_restaurant.image = restaurant_info.get('Image')
             new_restaurant.menu = restaurant_info.get('Menu')
+            if (session.query(Restaurant).filter(Restaurant.id==restaurant_info['Restaurant_id']).first()) is not None: continue
             session.add(new_restaurant)
             session.commit()
 

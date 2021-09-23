@@ -154,7 +154,7 @@ class RestaurantInfo:
     def __init__(self):
         self.id: str = None  # レストランID。yahoo_idとgoogle_id先に入った方。
         self.yahoo_id: str = None  # YahooのUid
-        self.google.id: str = None  # Googleのplace_id
+        self.google_id: str = None  # Googleのplace_id
         self.name: str = None  # 店名
         self.address: str = None  # 住所
         self.lat: float = None  # 緯度

@@ -143,22 +143,25 @@ def get_google_images_list(name_list):
     Googleから複数の店の画像を並列に取得する
     '''
     images_list = [[] for name in name_list]
+
+    # 並列処理
     thread_list = [None for name in name_list]
     for index,name in enumerate(name_list):
         thread_list[index] = threading.Thread(target=get_google_images, args=(index, name, images_list))
         thread_list[index].start()
     for t in thread_list:
         t.join()
+
+    # # 逐次処理
+    # for index,name in enumerate(name_list):
+    #     get_google_images(index, name, images_list)
+
     return images_list
 
 def get_google_images(index, restaurant_name, images_list):
     '''
     店名からGoogleから画像を取得する
     '''
-
-    from PIL import Image
-    import os, sys, requests, base64, gc
-    from io import BytesIO
 
     if os.getenv("USE_LOCAL_IMAGE")=="True": # debug mode
         print("getting image reference from test/data")
@@ -190,27 +193,39 @@ def get_google_images(index, restaurant_name, images_list):
         else:
             photo_references = []
     
-    urls = []
+    url_list = [None for p in photo_references]
+    thread_list = [None for p in photo_references]
     for i, reference in enumerate(photo_references):
-        # image_referenceごとにAPIを叩いて画像を取得
-        url = 'https://maps.googleapis.com/maps/api/place/photo'
-        params = {
-            'key': os.environ['GOOGLE_API_KEY'],
-            'photoreference': reference
-        }
-        res = requests.get(url=url, params=params)
-        # 返ってきたバイナリをImageオブジェクトに変換
-        # filename = f"{config.MyConfig.IMAGE_DIRECTORY_PATH}{reference}.png"
-        # image = Image.open(BytesIO(res.content))
-        # image.save(filename)
-        # urls.append(f"{config.MyConfig.SERVER_URL}:5000/image?name={reference}.png")
+        thread_list[i] = threading.Thread(target=get_google_image_from_reference, args=(i, reference, url_list))
+        thread_list[i].start()
+    for t in thread_list:
+        t.join()
 
-        filename = f"static/{reference}.png"
-        image = Image.open(BytesIO(res.content))
-        image.save(filename)
-        urls.append(f"{config.MyConfig.SERVER_URL}:5000/static/{reference}.png")
+    print(f"images_list[{index}].url_list = {url_list}")
+    images_list[index] = url_list
 
-    images_list[index] = urls
+
+def get_google_image_from_reference(index, reference, url_list):
+    from PIL import Image
+    import os, requests
+    from io import BytesIO
+
+    image_width = 800 #画像1枚の最大幅
+
+    # print(f"get_google_image: index={index}, i={i}/{len(photo_references)}")
+    # image_referenceごとにAPIを叩いて画像を取得
+    url = 'https://maps.googleapis.com/maps/api/place/photo'
+    params = {
+        'key': os.environ['GOOGLE_API_KEY'],
+        'photoreference': reference,
+        'maxwidth': image_width,
+    }
+    res = requests.get(url=url, params=params)
+    # 返ってきたバイナリをImageオブジェクトに変換
+    filename = f"static/{reference}.png"
+    image = Image.open(BytesIO(res.content))
+    image.save(filename)
+    url_list[index] = f"http://{config.MyConfig.SERVER_URL}:5000/static/{reference}.png"
 
 
 # def get_google_images_references(restaurant_name):
