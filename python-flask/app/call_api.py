@@ -120,15 +120,16 @@ def get_restaurants_info(fetch_group,
             restaurants_info[i] = api_functions.yahoo_local_search(r_info=restaurants_info[i])[0]
         if restaurants_info[i].google_id is None:
             ## google_idを追加
-            restaurants_info[i] = api_functions.google_find_place(r_info=restaurants_info[i])
-
+            # restaurants_info[i] = api_functions.google_find_place(r_info=restaurants_info[i])
+            pass
         if restaurants_info[i].yahoo_id is not None:
             ## yahooレビューを取得
             restaurants_info[i] = api_functions.yahoo_review(restaurants_info[i])
 
         if restaurants_info[i].google_id is not None:
             ## googleの情報を追加
-            restaurants_info[i] = api_functions.google_place_details(r_info=restaurants_info[i])
+            # restaurants_info[i] = api_functions.google_place_details(r_info=restaurants_info[i])
+            pass
     # Googleから画像を取得する
     if config.MyConfig.GET_GOOGLE_IMAGE:
         restaurants_info = calc_info.get_google_images_list(restaurants_info)

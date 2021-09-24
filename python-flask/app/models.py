@@ -183,10 +183,12 @@ def http_info():
     else:
         response_queue = []
     if len(response_queue) < config.MyConfig.RESPONSE_COUNT:
+        print("queue is less than response_size. exec recommend_main. ")
         restaurant_ids = recommend.recommend_main(fetch_group, group_id, user_id)
     else:
+        restaurant_ids = []
         for i in range(config.MyConfig.RESPONSE_COUNT):
-            restaurant_ids = response_queue.pop()
+            restaurant_ids.append(response_queue.pop())
         fetch_belong.next_response = response_queue.join("\n")
     ## responseを作る
     restaurants_info = database_functions.load_stable_restaurants_info(restaurant_ids)
@@ -225,11 +227,11 @@ def thread_info(group_id, user_id, fetch_belong, fetch_group):
 
     """
 
+    restaurant_ids = recommend.recommend_main(fetch_group, group_id, user_id)
+
     fetch_belong.writable = False
     session.commit()
 
-    restaurant_ids = recommend.recommend_main(fetch_group, group_id, user_id)
-    
     if restaurant_ids is None:
         # error
         restaurant_ids = []
