@@ -65,43 +65,6 @@ class Params:
         return params
 
 
-    def get_textsearch_params(self):
-        """
-        じきに消す
-        textsearch用クエリを出力する。
-        query, location, radius, maxprice, minprice, regionが設定できる。
-        Returns
-        -------
-
-        """
-        return params
-
-    def get_nearbysearch_params(self):
-        """
-        じきに消す
-        nearbysearch用クエリを出力する。
-        keyword, location, radius, maxprice, minprice, rankbyが設定できる。
-        Returns
-        -------
-        """
-
-        if self.lat is not None and self.lon is not None:
-            location = str(self.lat)+","+str(self.lon) # 緯度経度
-        if self.max_price is not None: maxprice = min(self.max_price/2500, 4.0)
-        if self.min_price is not None: minprice = min(self.min_price/2500, 4.0)
-        rankby = "distance" if self.sort in ["dist", "geo"] else "prominence"
-
-        params = {
-            "keyword": self.query,
-            "location": location,
-            "radius": self.max_dist,
-            "maxprice": maxprice,
-            "minprice": minprice,
-            "rankby": rankby,
-        }
-        return params
-
-
 class RestaurantInfo:
     """
     内部で共通のレストラン情報を扱うことで、APIごとに異なるデータ構造の違いを吸収する。

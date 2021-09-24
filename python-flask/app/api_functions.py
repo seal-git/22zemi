@@ -218,16 +218,19 @@ def google_nearby_search(params):
         location = str(params.lat) + "," + str(params.lon)  # 緯度経度
     if params.max_price is not None: maxprice = min(params.max_price / 2500, 4.0)
     if params.min_price is not None: minprice = min(params.min_price / 2500, 4.0)
+    rankby = "distance" if params.sort in ["dist", "geo"] else "prominence"
+
     search_params = {
-        "query": params.query,
+        "keyword": params.query,
         "location": location,
         "radius": params.max_dist,
         "maxprice": maxprice,
         "minprice": minprice,
+        "rankby": rankby,
     }
 
     url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json'  # 緯度経度と半径からお店を取得
-    params.update({
+    search_params.update({
         'key': os.environ['GOOGLE_API_KEY'],
         'output': 'json',
         'type': 'restaurant'
@@ -238,7 +241,7 @@ def google_nearby_search(params):
 
     # 検索の該当が無かったとき
     if len(local_search_json['results']) == 0:
-        print("non nearby search")
+        print("nearby search:result 0")
         return []
 
     # apiで受け取ったjsonをクライアントアプリに送るjsonに変換する
@@ -250,6 +253,49 @@ def google_nearby_search(params):
         restaurants_info.append(r_info)
 
     return restaurants_info
+
+
+def google_text_search(params):
+    print(f"google text search:")
+    if params.lat is not None and params.lon is not None:
+        location = str(params.lat) + "," + str(params.lon)  # 緯度経度
+    if params.max_price is not None: maxprice = min(params.max_price / 2500, 4.0)
+    if params.min_price is not None: minprice = min(params.min_price / 2500, 4.0)
+    search_params = {
+        "query": params.query,
+        "location": location,
+        "radius": params.max_dist,
+        "maxprice": maxprice,
+        "minprice": minprice,
+    }
+
+    url = 'https://maps.googleapis.com/maps/api/place/textsearch/json'  # 緯度経度と半径からお店を取得
+    params.update({
+        'key': os.environ['GOOGLE_API_KEY'],
+        'output': 'json',
+        'type': 'restaurant',
+        'language': 'ja'
+    })  # 検索クエリの設定(詳しくはPlace Search APIのドキュメント参照)
+
+    response = requests.get(url=url, params=search_params)
+    local_search_json = response.json()  # レスポンスのjsonをdict型にする
+
+    # 検索の該当が無かったとき
+    if len(local_search_json['results']) == 0:
+        print("text search: result 0")
+        return []
+
+    # apiで受け取ったjsonをクライアントアプリに送るjsonに変換する
+    restaurants_info = []
+    for i, res in enumerate(local_search_json['results']):  # 最大20件まで取れる
+        r_info = RestaurantInfo()
+        r_info.id = res["place_id"]
+        r_info.google_id = res["place_id"]
+        restaurants_info.append(r_info)
+
+    return restaurants_info
+
+
 
 def google_find_place(r_info):
     """
