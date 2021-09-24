@@ -213,24 +213,25 @@ def google_nearby_search(params):
         レスポンスするレストラン情報をjson形式で返す。
     '''
 
-    url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json'  # 緯度経度と半径からお店を取得
-    params.update({
-        'key': os.environ['GOOGLE_API_KEY'],
-        'output': 'json',
-        'type': 'restaurant'
-    })  # 検索クエリの設定(詳しくはPlace Search APIのドキュメント参照)
     print(f"google nearby search:")
     if params.lat is not None and params.lon is not None:
         location = str(params.lat) + "," + str(params.lon)  # 緯度経度
     if params.max_price is not None: maxprice = min(params.max_price / 2500, 4.0)
     if params.min_price is not None: minprice = min(params.min_price / 2500, 4.0)
-    params = {
+    search_params = {
         "query": params.query,
         "location": location,
         "radius": params.max_dist,
         "maxprice": maxprice,
         "minprice": minprice,
     }
+
+    url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json'  # 緯度経度と半径からお店を取得
+    params.update({
+        'key': os.environ['GOOGLE_API_KEY'],
+        'output': 'json',
+        'type': 'restaurant'
+    })  # 検索クエリの設定(詳しくはPlace Search APIのドキュメント参照)
 
     response = requests.get(url=url, params=search_params)
     local_search_json = response.json()  # レスポンスのjsonをdict型にする
