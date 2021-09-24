@@ -143,7 +143,7 @@ class Vote(Base):
 
 # ============================================================================================================
 # INIT_DBがTrueならDBを初期化する
-# if config.MyConfig.INIT_DB: 
-Base.metadata.drop_all(ENGINE)
+if config.MyConfig.INIT_DB: 
+    Base.metadata.drop_all(ENGINE)
 Base.metadata.create_all(ENGINE)  # create tables
 Base.query = session.query_property()

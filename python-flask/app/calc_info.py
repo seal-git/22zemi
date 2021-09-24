@@ -205,7 +205,7 @@ def get_google_images_list(restaurants_info):
 
 def get_google_images(index, r_info, images_list):
     '''
-    店名からGoogleから画像を取得する
+    店名からGoogle画像を取得する
     '''
 
     url_list = [[] for p in r_info.google_photo_reference]
@@ -213,6 +213,7 @@ def get_google_images(index, r_info, images_list):
     for i, reference in enumerate(r_info.google_photo_reference):
         thread_list[i] = threading.Thread(target=get_google_image_from_reference, args=(i, reference, url_list))
         thread_list[i].start()
+        if i >= config.MyConfig.MAX_GOOGLE_IMAGES_COUNT: break
     for t in thread_list:
         t.join()
 
