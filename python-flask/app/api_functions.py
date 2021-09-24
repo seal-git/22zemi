@@ -194,7 +194,7 @@ def yahoo_local_search(params: Params = None,
     return restaurants_info
 
 
-def google_nearby_search(fetch_group, group_id, search_params):
+def google_nearby_search(params):
     '''
     Google APIで店舗情報(feature)を取得する。
 
@@ -213,38 +213,41 @@ def google_nearby_search(fetch_group, group_id, search_params):
         レスポンスするレストラン情報をjson形式で返す。
     '''
 
-    lunch_time_start = 10  # 現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
-    lunch_time_end = 15
-
     url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json'  # 緯度経度と半径からお店を取得
-    search_params.update({
+    params.update({
         'key': os.environ['GOOGLE_API_KEY'],
         'output': 'json',
         'type': 'restaurant'
     })  # 検索クエリの設定(詳しくはPlace Search APIのドキュメント参照)
-    print("================================")
     print(f"google nearby search:")
-    print(search_params)
-    print("================================")
-    try:
-        response = requests.get(url=url, params=search_params)
-        local_search_json = response.json()  # レスポンスのjsonをdict型にする
-    except Exception as e:
-        abort(e.code)
+    if params.lat is not None and params.lon is not None:
+        location = str(params.lat) + "," + str(params.lon)  # 緯度経度
+    if params.max_price is not None: maxprice = min(params.max_price / 2500, 4.0)
+    if params.min_price is not None: minprice = min(params.min_price / 2500, 4.0)
+    params = {
+        "query": params.query,
+        "location": location,
+        "radius": params.max_dist,
+        "maxprice": maxprice,
+        "minprice": minprice,
+    }
+
+    response = requests.get(url=url, params=search_params)
+    local_search_json = response.json()  # レスポンスのjsonをdict型にする
 
     # 検索の該当が無かったとき
     if len(local_search_json['results']) == 0:
         print("non nearby search")
-        return {}, []
+        return []
 
     # apiで受け取ったjsonをクライアントアプリに送るjsonに変換する
     restaurants_info = []
-    for i, feature in enumerate(local_search_json['results']):  # 最大20件まで取れる
-        restaurant_info = self.feature_to_info(fetch_group, group_id, feature)
-        restaurants_info.append(restaurant_info)
+    for i, res in enumerate(local_search_json['results']):  # 最大20件まで取れる
+        r_info = RestaurantInfo()
+        r_info.id = res["place_id"]
+        r_info.google_id = res["place_id"]
+        restaurants_info.append(r_info)
 
-    # 各お店のオススメ度を追加(相対評価)
-    # restaurants_info = calc_info.calc_recommend_score(fetch_group, group_id, restaurants_info)
     return restaurants_info
 
 def google_find_place(r_info):
@@ -292,7 +295,7 @@ def google_place_details(r_info:RestaurantInfo=None):
         'key': os.environ["GOOGLE_API_KEY"],
         'place_id': r_info.google_id,
         'language': 'ja',
-        'fields': 'formatted_address,geometry,name,photo,rating,review,price_level'
+        'fields': 'name,photo,rating,review'
     }
     res = requests.get(url=url, params=params)
     res = res.json()['result']

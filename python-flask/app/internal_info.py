@@ -74,17 +74,6 @@ class Params:
         -------
 
         """
-        if self.lat is not None and self.lon is not None:
-            location = str(self.lat)+","+str(self.lon) # 緯度経度
-        if self.max_price is not None: maxprice = min(self.max_price/2500, 4.0)
-        if self.min_price is not None: minprice = min(self.min_price/2500, 4.0)
-        params = {
-            "query": self.query,
-            "location": location,
-            "radius": self.max_dist,
-            "maxprice": maxprice,
-            "minprice": minprice,
-        }
         return params
 
     def get_nearbysearch_params(self):
