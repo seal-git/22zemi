@@ -702,7 +702,7 @@ class RecommendSVM(Recommend):
                         genre_score += genre_feeling[g]['Dislike'] - genre_feeling[g]['Like']
             vec[5] = genre_score * 1000
 
-            vec[6] = r.yahoo_rating_float
+            vec[6] = r.yahoo_rating_float if r.yahoo_rating_float is not None else 0
 
             # 変数に格納
             if r.votes_all <= 0:
