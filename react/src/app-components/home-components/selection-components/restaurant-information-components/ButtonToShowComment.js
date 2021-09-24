@@ -41,8 +41,9 @@ function ButtonToShowComment(props) {
             height: 'auto',
             cursor: 'pointer',
             margin: '2% 2%',
-            opacity: '0.88',
             pointerEvents: 'auto',
+            opacity: '.88',
+            filter: 'drop-shadow(0 0 1rem black)',
         },
     }))(CommentIcon);
 
