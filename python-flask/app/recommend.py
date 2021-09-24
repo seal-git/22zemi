@@ -868,26 +868,26 @@ def recommend_main(fetch_group, group_id, user_id):
     # 結果が0件なら繰り返す
     for i in range(5):
         # 主な処理
-        # APIで情報を取得し、
+        # APIで情報を取得し、履歴にあるものを削除し、
         restaurants_info = recomm.search(fetch_group,
                                          group_id,
                                          user_id,
                                          histories_restaurants)
-        print(f"recommend_main:"
-              f"results ={len(restaurants_info)}, "
-              f"history ={len(histories_restaurants)}")
-        # searchでとってきた店のpriorityを計算し、
-        t1 = thread_calc_priority()
-        t1.start()
-        # 店舗情報を保存する。
-        t2 = thread_get_restaurant_info()
-        t2.start()
-
-        t1.join()
-        t2.join()
-        # restaurants_infoができていたら
-        print(f"data_num {len(restaurants_info)}")
         if len(restaurants_info) >= 1:
+            print(f"recommend_main:"
+                  f"results ={len(restaurants_info)}, "
+                  f"history ={len(histories_restaurants)}")
+            # searchでとってきた店のpriorityを計算し、
+            t1 = thread_calc_priority()
+            t1.start()
+            # 店舗情報を保存する。
+            t2 = thread_get_restaurant_info()
+            t2.start()
+
+            t1.join()
+            t2.join()
+            # restaurants_infoができたらrecommend終了。
+            print(f"data_num {len(restaurants_info)}")
             return [r.id for r in restaurants_info]
 
         else:
