@@ -56,7 +56,6 @@ def create_response_from_restaurants_info(group_id, user_id, restaurants_info):
 def get_restaurant_ids_from_recommend_priority(fetch_group, group_id,
                                                user_id):
     '''
-    TODO: ここを実装
     Voteテーブルの優先度順にレストランIDを取得する。
 
     Parameters
@@ -71,9 +70,10 @@ def get_restaurant_ids_from_recommend_priority(fetch_group, group_id,
     '''
     histories_restaurants = database_functions.get_histories_restaurants(
         group_id, user_id)
-    fetch_votes = session.query(Vote).filter(Vote.group == group_id,
-                                             Vote.recommend_priority is not None).order_by(
-        Vote.recommend_priority).all()
+    fetch_votes = session.query(Vote).filter(
+            Vote.group == group_id,
+            Vote.recommend_priority is not None
+        ).order_by(Vote.recommend_priority).all()
     restaurants_ids = []
     for fv in fetch_votes:
         if fv.restaurant not in histories_restaurants:
@@ -225,7 +225,7 @@ def http_info():
                                          fetch_group=fetch_group)
 
     ## priorityの高い順にid取得
-    restaurant_ids = get_restaurant_ids_from_recommend_priority()
+    restaurant_ids = get_restaurant_ids_from_recommend_priority(fetch_group, group_id, user_id)
 
     ## responseを作る
     restaurants_info = database_functions.load_stable_restaurants_info(

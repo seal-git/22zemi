@@ -11,7 +11,7 @@ import sys
 import numpy as np
 import sklearn
 from sklearn.svm import SVR
-# import threading
+import threading
 
 
 '''
@@ -73,7 +73,7 @@ class Recommend(metaclass=ABCMeta):
         pass
     
     @abstractmethod
-    def calc_proprity(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+    def calc_priority(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
         '''
         レスポンスでユーザに返す店を決める
         pre_restaurants_infoをおすすめ順に並び替えて，RESULTS_COUNT個選ぶ
@@ -130,7 +130,7 @@ class RecommendTemplate(Recommend):
                                                 "yahoo_local_search"
                                                 )
 
-    def calc_proprity(self,
+    def calc_priority(self,
                fetch_group,
                group_id,
                user_id,
@@ -173,7 +173,7 @@ class RecommendSimple(Recommend):
                                                 search_params,
                                                 "yahoo_local_search")
 
-    def calc_proprity(self,
+    def calc_priority(self,
                fetch_group,
                group_id,
                user_id,
@@ -225,7 +225,7 @@ class RecommendYahoo(Recommend):
                                                 search_params)
 
     
-    def calc_proprity(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+    def calc_priority(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
         # 一度ユーザに送信したレストランはリストから除く
         pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
 
@@ -248,7 +248,7 @@ class RecommendOriginal(Recommend):
         return call_api.search_restaurants_info(fetch_group, group_id,
                                                      user_id, search_params)
 
-    def calc_proprity(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+    def calc_priority(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
         # 一度ユーザに送信したレストランはリストから除く
         pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
         pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
@@ -385,7 +385,7 @@ class RecommendWords(Recommend):
         return call_api.search_restaurants_info(fetch_group, group_id,
                                                      user_id, search_params)
 
-    def calc_proprity(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+    def calc_priority(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
         # 一度ユーザに送信したレストランはリストから除く
         pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
         pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
@@ -520,7 +520,7 @@ class RecommendQueue(Recommend):
         return call_api.search_restaurants_info(fetch_group, group_id,
                                                      user_id, search_params)
  
-    def calc_proprity(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+    def calc_priority(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
 
         pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
 
@@ -552,6 +552,12 @@ class RecommendSVM(Recommend):
     1. 投票された結果はLIKE数の多い順に表示
     2. 未投票の結果は価格・距離・ジャンルからSVMで評価値を推定して表示
     '''
+
+    def __zero_recommend_priority(self, fetch_group, group_id, pre_restaurants_info):
+        for r_info in pre_restaurants_info:
+            fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==r_info.id).one()
+            fetch_vote.recommend_priority = 0
+            session.commit()
 
 
     def __calc_recommend_priority(self, fetch_group, group_id, pre_restaurants_info):
@@ -738,7 +744,7 @@ class RecommendSVM(Recommend):
                                                      user_id, search_params)
 
 
-    def calc_proprity(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+    def filter(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
 
         pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
 
@@ -764,6 +770,20 @@ class RecommendSVM(Recommend):
         restaurants_info = [r for r in pre_restaurants_info
                             if r.id in restaurants_ids]
         return restaurants_info
+
+
+    def calc_priority(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+
+        pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
+
+        fetch_votes = session.query(Vote.votes_all).filter(Vote.group==group_id, Vote.votes_all>0).all()
+
+        # Vote.recommend_priorityを計算する。
+        if sum([v.votes_all for v in fetch_votes]) < 3:
+            self.__zero_recommend_priority(fetch_group, group_id, pre_restaurants_info)
+        else:
+            self.__calc_recommend_priority(fetch_group, group_id, pre_restaurants_info)
+
 
 
 # ============================================================================================================
@@ -878,10 +898,20 @@ def recommend_main(fetch_group, group_id, user_id):
                   f"results ={len(restaurants_info)}, "
                   f"history ={len(histories_restaurants)}")
             # searchでとってきた店のpriorityを計算し、
-            t1 = thread_calc_priority()
+            t1 = threading.Thread(
+                    target=thread_calc_priority,
+                    args=(fetch_group,
+                          group_id,
+                          user_id,
+                          restaurants_info,
+                          histories_restaurants))
             t1.start()
             # 店舗情報を保存する。
-            t2 = thread_get_restaurant_info()
+            t2 = threading.Thread(
+                    target=thread_get_restaurant_info,
+                    args=(fetch_group,
+                          group_id,
+                          restaurants_info))
             t2.start()
 
             t1.join()
@@ -904,17 +934,16 @@ def recommend_main(fetch_group, group_id, user_id):
     
     return []
 
-def thread_calc_priority():
-    # TODO: 実装
-    restaurants_info = recomm.calc_proprity(fetch_group,
-                                            group_id,
-                                            user_id,
-                                            restaurants_info,
-                                            histories_restaurants)
+def thread_calc_priority(fetch_group, group_id, user_id, restaurants_info, histories_restaurants):
+    recomm = RecommendSVM()
+    recomm.calc_priority(fetch_group,
+                        group_id,
+                        user_id,
+                        restaurants_info,
+                        histories_restaurants)
     pass
 
-def thread_get_restaurant_info():
-    # TODO: 実装
+def thread_get_restaurant_info(fetch_group, group_id, restaurants_info):
     restaurants_info = call_api.get_restaurants_info(fetch_group,
                                                      group_id,
                                                      restaurants_info)

@@ -69,7 +69,7 @@ class Group(Base):
     price_average = Column('group_price', Float) # レコメンド # 平均価格
     distance_average = Column('group_distance', Float) # レコメンド # 平均距離
     created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
-    start = Column('start', Integer, default=0)  # 取得開始位置
+    start = Column('start', Integer)  # 取得開始位置
     updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)
     password = Column('password', String(50)) # パスワード (2021/08/21 未使用)
 
@@ -90,7 +90,7 @@ class Restaurant(Base):
     category = Column('category', String(400)) # カテゴリー
     url_web = Column('url_web', String(400)) # お店のURL
     url_map = Column('url_map', String(400)) # MapのURL
-    review_rating = Column('review_rating', String(100)) # 顧客レビューの評価値
+    review_rating_str = Column('review_rating_str', String(100)) # 顧客レビューの評価値
     review_rating_float = Column('review_rating_float', Float) # 顧客レビューの評価値
     business_hour = Column('business_hour', String(400)) # 営業時間
     open_hour = Column('open_hour', Float) # 開店時間
@@ -143,6 +143,7 @@ class Vote(Base):
 
 # ============================================================================================================
 # INIT_DBがTrueならDBを初期化する
-if config.MyConfig.INIT_DB: Base.metadata.drop_all(ENGINE)
+# if config.MyConfig.INIT_DB: 
+Base.metadata.drop_all(ENGINE)
 Base.metadata.create_all(ENGINE)  # create tables
 Base.query = session.query_property()
