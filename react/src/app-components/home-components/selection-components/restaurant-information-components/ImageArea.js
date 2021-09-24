@@ -74,7 +74,7 @@ function ImageArea(props){
                     setIndex(state => (state + 1) % props.Images.length)
                 }
             }
-        , 5000)
+        , 2500)
         return ()=>{clearInterval(t)}
     },[index])
 

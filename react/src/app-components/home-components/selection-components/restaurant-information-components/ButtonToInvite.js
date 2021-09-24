@@ -17,7 +17,7 @@ import InviteModal from './InviteModal'
 const useStyles = makeStyles({
     ButtonToInviteContainer:{
         position: 'absolute',
-        top: '50%',
+        top: '40%',
         width: '100%',
         textAlign: 'right',
         pointerEvents: 'none',

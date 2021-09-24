@@ -128,7 +128,10 @@ function RestaurantInformation(props) {
     }
     // コメントボタンの描画
     const renderButtonToShowComment = () =>{
-        const ok = props.data.Restaurant_id !== 'init' && props.data.Restaurant_id !== 'empty'
+        const ok = props.data.Restaurant_id !== 'init' 
+            && props.data.Restaurant_id !== 'empty' 
+            && props.data.Restaurant_id.indexOf('tutorial')==-1
+
         return (
             ok
             ?<ButtonToShowComment data={props.data} />
