@@ -160,6 +160,7 @@ def yahoo_local_search(params: Params = None,
         r_info.sunday_opening_hours = feature["Property"].get("SundayBusinessHour")
         r_info.access = feature["Property"].get("Access1")
         r_info.health_info = feature["Property"].get("HealthInfo")
+        r_info.yahoo_rating_float = feature["Property"].get("Rating")
 
         # レガシーなパラメータ
         # restaurant_info['TopRankItem'] = [

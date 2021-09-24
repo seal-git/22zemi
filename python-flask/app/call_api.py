@@ -59,9 +59,10 @@ def search_restaurants_info(fetch_group,
     database_functions.save_restaurants_info(restaurants_info)
     database_functions.save_votes(group_id, restaurants_info)
 
-    # 以前に検索したレストランはデータベースから取得する
+    # 以前に検索したレストランはデータベースから取得する(複数人で選ぶために)
     fetch_restaurants = session.query(Restaurant).filter(Vote.group == group_id,
-                                                         Vote.restaurant == Restaurant.id).all()  # 未送信のもののみを取得するときはfilterに`Vote.votes_all==-1`を加える
+                                                         Vote.restaurant == Restaurant.id
+                                                         ).all()  # 未送信のもののみを取得するときはfilterに`Vote.votes_all==-1`を加える
     restaurants_info_from_db = [
         database_functions.get_restaurant_info_from_fetch_restaurant(r) for r in
         fetch_restaurants]
@@ -152,46 +153,3 @@ def get_restaurants_info(fetch_group,
     return restaurants_info
 
 
-def get_restaurants_info_from_recommend_priority(fetch_group, group_id,
-                                                 user_id):
-    '''
-    call_api行き
-    あらかじめ優先度が計算されていたら、優先度順にレストランを取得する。
-
-    Parameters
-    ----------------
-    fetch_group
-    group_id
-    user_id
-
-    Returns
-    ----------------
-    restaurnts_info : [dict]
-    '''
-    histories_restaurants = database_functions.get_histories_restaurants(
-        group_id, user_id)
-    fetch_votes = session.query(Vote).filter(Vote.group == group_id,
-                                             Vote.recommend_priority is not None).order_by(
-        Vote.recommend_priority).all()
-    restaurants_ids = []
-    for fv in fetch_votes:
-        if fv.restaurant not in histories_restaurants:
-            restaurants_ids.append(fv.restaurant)
-            if len(restaurants_ids) == config.MyConfig.RESPONSE_COUNT:
-                return get_restaurants_info(fetch_group,
-                                            group_id,
-                                            restaurants_ids)
-
-    # まだ優先度を計算していない時や，RecommendSimple等で優先度を計算しない時
-    fetch_votes = session.query(Vote).filter(Vote.group == group_id,
-                                             Vote.recommend_priority is None).all()
-    for fv in fetch_votes:
-        if fv.restaurant not in histories_restaurants:
-            restaurants_ids.append(fv.restaurant)
-            if len(restaurants_ids) == config.MyConfig.RESPONSE_COUNT:
-                return get_restaurants_info(fetch_group,
-                                            group_id,
-                                            restaurants_ids)
-
-    # ストックしている店舗数が足りない時。最初のリクエスト等。
-    return []

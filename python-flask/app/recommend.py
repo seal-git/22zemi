@@ -73,7 +73,7 @@ class Recommend(metaclass=ABCMeta):
         pass
     
     @abstractmethod
-    def filter(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+    def calc_proprity(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
         '''
         レスポンスでユーザに返す店を決める
         pre_restaurants_infoをおすすめ順に並び替えて，RESULTS_COUNT個選ぶ
@@ -130,7 +130,7 @@ class RecommendTemplate(Recommend):
                                                 "yahoo_local_search"
                                                 )
 
-    def filter(self,
+    def calc_proprity(self,
                fetch_group,
                group_id,
                user_id,
@@ -173,7 +173,7 @@ class RecommendSimple(Recommend):
                                                 search_params,
                                                 "yahoo_local_search")
 
-    def filter(self,
+    def calc_proprity(self,
                fetch_group,
                group_id,
                user_id,
@@ -225,7 +225,7 @@ class RecommendYahoo(Recommend):
                                                 search_params)
 
     
-    def filter(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+    def calc_proprity(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
         # 一度ユーザに送信したレストランはリストから除く
         pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
 
@@ -248,7 +248,7 @@ class RecommendOriginal(Recommend):
         return call_api.search_restaurants_info(fetch_group, group_id,
                                                      user_id, search_params)
 
-    def filter(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+    def calc_proprity(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
         # 一度ユーザに送信したレストランはリストから除く
         pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
         pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
@@ -385,7 +385,7 @@ class RecommendWords(Recommend):
         return call_api.search_restaurants_info(fetch_group, group_id,
                                                      user_id, search_params)
 
-    def filter(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+    def calc_proprity(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
         # 一度ユーザに送信したレストランはリストから除く
         pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
         pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
@@ -520,7 +520,7 @@ class RecommendQueue(Recommend):
         return call_api.search_restaurants_info(fetch_group, group_id,
                                                      user_id, search_params)
  
-    def filter(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+    def calc_proprity(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
 
         pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
 
@@ -738,7 +738,7 @@ class RecommendSVM(Recommend):
                                                      user_id, search_params)
 
 
-    def filter(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+    def calc_proprity(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
 
         pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
 
@@ -876,16 +876,16 @@ def recommend_main(fetch_group, group_id, user_id):
         print(f"recommend_main:"
               f"results ={len(restaurants_info)}, "
               f"history ={len(histories_restaurants)}")
-        # ユーザに表示する店を選び、
-        restaurants_info = recomm.filter(fetch_group,
-                                         group_id,
-                                         user_id,
-                                         restaurants_info,
-                                         histories_restaurants)
+        # searchでとってきた店のpriorityを計算し、
+        t1 = thread_calc_priority()
+        t1.start()
         # 店舗情報を保存する。
-        restaurants_info = call_api.get_restaurants_info(fetch_group,
-                                                         group_id,
-                                                         restaurants_info)
+        t2 = thread_get_restaurant_info()
+        t2.start()
+
+        t1.join()
+        t2.join()
+        # restaurants_infoができていたら
         print(f"data_num {len(restaurants_info)}")
         if len(restaurants_info) >= 1:
             return [r.id for r in restaurants_info]
@@ -893,6 +893,9 @@ def recommend_main(fetch_group, group_id, user_id):
         else:
             # error: 検索結果なし
             print("検索結果なし:", i)
+            # TODO: set_start_and_resultsからDB.Groupのstartをいじるのに変更
+            set_start_stock()
+
             if i >= 2 and recommend_method=="original":
                 recomm = RecommendSimple()
                 recommend_method = "simple"
@@ -900,3 +903,18 @@ def recommend_main(fetch_group, group_id, user_id):
                 histories_restaurants = [] # 結果が0件のときは履歴をなかったことにしてもう一周
     
     return []
+
+def thread_calc_priority():
+    # TODO: 実装
+    restaurants_info = recomm.calc_proprity(fetch_group,
+                                            group_id,
+                                            user_id,
+                                            restaurants_info,
+                                            histories_restaurants)
+    pass
+
+def thread_get_restaurant_info():
+    # TODO: 実装
+    restaurants_info = call_api.get_restaurants_info(fetch_group,
+                                                     group_id,
+                                                     restaurants_info)

@@ -7,6 +7,7 @@ from flask import abort
 # from PIL import Image
 # from io import BytesIO
 from app import config
+import pprint
 
 """
 internal_info.py
@@ -148,7 +149,7 @@ class RestaurantInfo:
             'Price': self.price,
             'Address': self.address,
             'Images': self.image_url,
-            'ReviewRating': self.rating,
+            'ReviewRating': self.yahoo_rating_str,
             'VotesLike': self.votes_like,
             'VotesAll': self.votes_all,
             'NumberOfParticipants': self.number_of_participants,
@@ -159,5 +160,6 @@ class RestaurantInfo:
             'CassetteOwnerLogoImage': [],
             'ImagesBinary': [],
         }
+        pprint.PrettyPrinter(indent=2).pprint(r_info_dict)
 
         return r_info_dict

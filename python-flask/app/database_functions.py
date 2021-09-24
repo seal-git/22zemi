@@ -345,7 +345,7 @@ def save_restaurants_info(restaurants_info):
         fetch_restaurant.images = '\n'.join(r_info.image_url)
         session.add(fetch_restaurant)
         session.commit()
-        print(f"save_restaurants_info: saved {fetch_restaurant.id}")
+        # print(f"save_restaurants_info: saved {fetch_restaurant.id}")
 
 
 def get_restaurant_info_from_fetch_restaurant(f_restaurant):
@@ -361,14 +361,14 @@ def get_restaurant_info_from_fetch_restaurant(f_restaurant):
     restaurant_info.category = f_restaurant.category
     restaurant_info.web_url = f_restaurant.url_web
     restaurant_info.map_url = f_restaurant.url_map
-    restaurant_info.rating = f_restaurant.review_rating_float
-    # restaurant_info.monday_opening_hour = f_restaurant.business_hour
-    # restaurant_info.tuesday_opening_hour = f_restaurant.business_hour
-    # restaurant_info.wednesday_opening_hour = f_restaurant.business_hour
-    # restaurant_info.thursday_opening_hour = f_restaurant.business_hour
-    # restaurant_info.friday_opening_hour = f_restaurant.business_hour
-    # restaurant_info.saturday_opening_hour = f_restaurant.business_hour
-    # restaurant_info.sunday_opening_hour = f_restaurant.business_hour
+    restaurant_info.rating = f_restaurant.review_rating_str
+    restaurant_info.monday_opening_hour = f_restaurant.business_hour
+    restaurant_info.tuesday_opening_hour = f_restaurant.business_hour
+    restaurant_info.wednesday_opening_hour = f_restaurant.business_hour
+    restaurant_info.thursday_opening_hour = f_restaurant.business_hour
+    restaurant_info.friday_opening_hour = f_restaurant.business_hour
+    restaurant_info.saturday_opening_hour = f_restaurant.business_hour
+    restaurant_info.sunday_opening_hour = f_restaurant.business_hour
     restaurant_info.image_url = f_restaurant.images.split('\n')
     return restaurant_info
 
@@ -423,4 +423,8 @@ def get_search_params_from_fetch_group(fetch_group):
     return params
 
 
+def set_start():
+    # TODO: 実装
+    # startを更新する
+    pass
 

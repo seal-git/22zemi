@@ -164,13 +164,17 @@ def add_review_rating(restaurants_info):
     Yahoo APIにアクセスして口コミを文字列で返す
     '''
     for i in range(len(restaurants_info)):
-        rating = restaurants_info[i].yahoo_rating
-        if rating is None:
-            continue
-        review_rating = sum(rating)/len(rating)
+        if restaurants_info[i].yahoo_rating_float is not None:
+            review_rating = float(restaurants_info[i].yahoo_rating_float)
+        else:
+            rating = restaurants_info[i].yahoo_rating
+            if rating is None:
+                continue
+            review_rating = sum(rating)/len(rating)
         review_rating_int = int(review_rating + 0.5)
         review_rating_star = '★' * review_rating_int + '☆' * (5-review_rating_int)
         review_rating_star = review_rating_star + '    ' + ('%.1f' % review_rating)
+        # print(f"add_rating: {review_rating_star}")
         restaurants_info[i].yahoo_rating_str = review_rating_star
         restaurants_info[i].yahoo_rating_float = review_rating
 
