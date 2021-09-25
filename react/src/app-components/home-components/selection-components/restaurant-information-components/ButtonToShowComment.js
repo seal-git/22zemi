@@ -16,7 +16,7 @@ import CommentModal from './CommentModal'
 const useStyles = makeStyles({
     ButtonToShowCommentContainer:{
         position: 'absolute',
-        top: '50%',
+        top: '46%',
         width: '100%',
         textAlign: 'right',
         pointerEvents: 'none',

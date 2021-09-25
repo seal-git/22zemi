@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core/styles'
 // 他ファイルからインポート
 import { ReactComponent as GoSetting } from './../../img/navigation-go-setting.svg'
 import { ReactComponent as GoResult } from './../../img/navigation-go-result.svg'
+import { ReactComponent as ReturnSwipe } from './../../img/navigation-return-swipe.svg'
 import Credit from './Credit'
 
 const useStyles = makeStyles({
@@ -14,10 +15,11 @@ const useStyles = makeStyles({
     right: '0',
     left: '0',
     bottom: '0',
+    backgroundColor: 'white',
   },
   Content: {
     width: '100%',
-    height: '100%',
+    height: '30%',
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-evenly',
@@ -41,7 +43,7 @@ const useStyles = makeStyles({
 export default function AppBottomNavigation(props) {
   const config = {
     height : props.view==='Setting'?'5%'
-            :props.view==='Setting'?'10%'
+            :props.view==='Selection'?'10%'
             :'10%',
   }
   const classes = useStyles(config)
@@ -60,11 +62,11 @@ export default function AppBottomNavigation(props) {
       <div className={classes.Content}>
         <GoSetting 
           className={classes.Button} 
-          onClick={() => { moveToSetting() }}
+          onClick={moveToSetting}
         />
         <GoResult 
           className={classes.Button} 
-          onClick={() => { moveToKeepList() }}
+          onClick={moveToKeepList}
         />
       </div>
     )
@@ -73,9 +75,10 @@ export default function AppBottomNavigation(props) {
   const renderOnKeepList = () => {
     return(
       <div className={classes.Content}>
-        <button className={classes.Button} onClick={() => { moveToSelection() }}>
-          &lt; スワイプに戻る
-        </button>
+        <ReturnSwipe 
+            className={classes.Button} 
+            onClick={moveToSelection} 
+        />
       </div>
     )
   }

@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
         color: 'transparent',
     },
     textPrimary: {
-        fontSize: '2rem',
+        fontSize: '1.5rem',
         fontWeight: 'bold',
         whiteSpace: 'pre-wrap',
         color: 'white',
@@ -55,7 +55,7 @@ const StyledChipRating = withStyles({
     root: {
         backgroundColor: '#FFAD0D',
         color: 'white',
-        fontSize: '1.5rem',
+        fontSize: '1.2rem',
     }
 })(Chip);
 const StyledChipTag = withStyles({
@@ -63,7 +63,7 @@ const StyledChipTag = withStyles({
         backgroundColor: '#D90060',
         height: '10%',
         color: 'white',
-        fontSize: '1.5rem',
+        fontSize: '1.2rem',
     }
 })(Chip);
 
