@@ -303,7 +303,6 @@ def save_histories(group_id, user_id, restaurants_info):
 def save_votes(group_id, restaurants_info):
 
     for i,r in enumerate(restaurants_info):
-        print("save:",r.name, r.price)
         fetch_vote = session.query(Vote).filter(Vote.group == group_id,
                                                 Vote.restaurant == r.id
                                                 ).first()
