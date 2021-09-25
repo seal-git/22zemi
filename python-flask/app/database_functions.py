@@ -425,7 +425,12 @@ def get_restaurant_info_from_db(restaurant_id, group_id):
     restaurant_info.price = f_votes.price
     restaurant_info.opening_hours = f_votes.opening_hours
     restaurant_info.distance_float = f_votes.distance_float
-    #TODO: 残り
+    restaurant_info.distance_str = f_votes.distance_str
+    restaurant_info.votes_all = f_votes.votes_all
+    restaurant_info.votes_like = f_votes.votes_like
+    restaurant_info.number_of_participants = f_votes.number_of_participants
+    restaurant_info.recommend_score = f_votes.recommend_score
+    restaurant_info.recommend_priority = f_votes.recommend_priority
     return restaurant_info
 
 
