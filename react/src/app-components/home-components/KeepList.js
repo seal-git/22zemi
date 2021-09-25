@@ -19,6 +19,7 @@ import CommentModal from './selection-components/restaurant-information-componen
 import RestaurantInformation from './selection-components/RestaurantInformation';
 
 const useStyles = makeStyles((theme) => ({
+
     aloneStyle: {
         height: '100vh',
         backgroundColor: 'white',

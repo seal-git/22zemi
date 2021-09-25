@@ -100,6 +100,7 @@ function CommentModal(props) {
                 null
                 : null
             }
+
             <DialogTitle>
                 {props.data.Name}
             </DialogTitle>

@@ -108,6 +108,7 @@ function KeepListModal(props) {
                     />
                     <div className={classes.modalText}>
 
+
                         <p>{props.data.Name}</p>
                         <StyledChipRating label={'★' + props.data.ReviewRating} /><br />
                         <StyledChipTag label={props.data.Category} />
