@@ -140,6 +140,7 @@ def generate_user_id():
             return user_id
     return user_id # error
 
+
 def register_user_and_group_if_not_exist(group_id, user_id, place, recommend_method, api_method):
     
     # ユーザが未登録ならばデータベースに登録する
