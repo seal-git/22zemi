@@ -627,7 +627,7 @@ class RecommendSVM(Recommend):
             dislike_distance_count += vote_dislike
 
             #genre処理
-            genre = r.genre
+            genre = r.genre_name
             if genre is not None:
                 for g in genre:
                     if g not in genre_list:
@@ -696,8 +696,8 @@ class RecommendSVM(Recommend):
             
             # genre_score
             genre_score = 0
-            if r.genre is not None:
-                for g in r.genre:
+            if r.genre_name is not None:
+                for g in r.genre_name:
                     if g in genre_feeling:
                         genre_score += genre_feeling[g]['Dislike'] - genre_feeling[g]['Like']
             vec[5] = genre_score * 1000
