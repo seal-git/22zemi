@@ -1,6 +1,6 @@
 from app import config
 from memory_profiler import profile
-import requests, json
+import requests, json, pprint
 
 def test_http_info():
     url = 'http://localhost:5000/info'
@@ -13,6 +13,8 @@ def test_http_info():
     }
     headers = {"Content-Type":"application/json"}
     res = requests.post(url=url, data=json.dumps(params), headers=headers)
+    pprint.PrettyPrinter(indent=2).pprint(res.json())
+
     assert res
 
 
@@ -27,4 +29,6 @@ def test_http_feeling():
     }
     headers = {"Content-Type":"application/json"}
     res = requests.post(url=url, data=json.dumps(params), headers=headers)
+    pprint.PrettyPrinter(indent=2).pprint(res.json())
+
     assert res

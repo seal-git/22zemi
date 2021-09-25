@@ -5,7 +5,7 @@
 
 from app import config, database_functions
 
-_, _, _, _ = database_functions.register_user_and_group_if_not_exist(123,
+_, _, _, _, _ = database_functions.register_user_and_group_if_not_exist(123,
                                                                   456789,
                                                                   "新宿駅",
                                                                   "yahoo",

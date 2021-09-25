@@ -284,6 +284,7 @@ def thread_info(group_id, user_id, fetch_belong, fetch_group):
 
     _ = recommend.recommend_main(fetch_group, group_id, user_id)
     print("thread end")
+    return
 
 
 @app_.route('/feeling', methods=['GET', 'POST'])

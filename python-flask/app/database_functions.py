@@ -323,6 +323,7 @@ def save_votes(group_id, restaurants_info):
 
         session.add(fetch_vote)
         session.commit()
+    return
 
 def save_restaurants(restaurants_info):
     '''
@@ -371,12 +372,22 @@ def save_restaurants(restaurants_info):
         fetch_restaurant.google_rating = r_info.google_rating
         fetch_restaurant.review = '\t'.join(r_info.review)
         fetch_restaurant.image_url = '\n'.join(r_info.image_url)
+
         session.add(fetch_restaurant)
-        session.commit()
-        # print(f"save_restaurants_info: saved {fetch_restaurant.id} ")
+        try:
+            session.commit()
+        except:
+            pass
+
+        # print(f"save_restaurants_info: saved {fetch_restaurant.id}   ")
+    return
 
 
-def get_restaurant_info_from_db(f_restaurant):
+def get_restaurant_info_from_db(restaurant_id, group_id):
+    f_restaurant = session.query(Restaurant).filter(Restaurant.id == restaurant_id).first()
+    f_votes = session.query(Vote).filter(group_id == Vote.group,
+                                             Restaurant.id == restaurant_id
+                                             ).first()
     restaurant_info = RestaurantInfo()
     restaurant_info.id = f_restaurant.id
     restaurant_info.yahoo_id = f_restaurant.yahoo_id
@@ -410,6 +421,11 @@ def get_restaurant_info_from_db(f_restaurant):
     restaurant_info.google_rating = f_restaurant.google_rating
     restaurant_info.review = f_restaurant.review.split('\t')
     restaurant_info.image_url = f_restaurant.image_url.split('\n')
+
+    restaurant_info.price = f_votes.price
+    restaurant_info.opening_hours = f_votes.opening_hours
+    restaurant_info.distance_float = f_votes.distance_float
+    #TODO: 残り
     return restaurant_info
 
 
@@ -430,13 +446,9 @@ def load_restaurants_info(restaurant_ids, group_id):
     if len(restaurant_ids) == 0:
         return []
     restaurants_info = [None for rid in restaurant_ids]
-    fetch_restaurants = session.query(Restaurant).filter(Restaurant.id.in_(restaurant_ids)).all()
-    fetch_votes = session.query(Vote).filter(group_id == Vote.group,
-                                             Restaurant.id.in_(restaurant_ids)
-                                             ).all
-    for f_restaurant in fetch_restaurants:
-        restaurant_info = get_restaurant_info_from_db(f_restaurant)
-        restaurants_info[restaurant_ids.index(f_restaurant.id)] = restaurant_info
+    for rid in restaurant_ids:
+        restaurant_info = get_restaurant_info_from_db(rid, group_id)
+        restaurants_info[restaurant_ids.index(rid)] = restaurant_info
     
     return restaurants_info
 
@@ -444,7 +456,6 @@ def get_search_params_from_fetch_group(fetch_group):
     '''
     ユーザが指定した検索条件からAPIで使用する検索条件を取得
     return: params: 内部で定義したパラメータ
-
     '''
     params = Params()
 
