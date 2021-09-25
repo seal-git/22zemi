@@ -13,6 +13,7 @@ from io import BytesIO
 import time
 from sqlalchemy.sql.functions import current_timestamp
 import threading
+import pprint
 
 # SPEED_UP_FLG
 #   Trueにすると高速化できるが、レコメンドの反映が遅れる
@@ -50,6 +51,8 @@ def create_response_from_restaurants_info(group_id, user_id, restaurants_info):
                      'BusinessHour', 'Genre', 'Images', 'ImagesBinary']
     response = [{k: v for k, v in r.items() if k in response_keys} for r in
                 restaurants_info]  # response_keysに含まれているキーを残す
+    pprint.PrettyPrinter(indent=2).pprint(response)
+
     return json.dumps(response, ensure_ascii=False)
 
 
