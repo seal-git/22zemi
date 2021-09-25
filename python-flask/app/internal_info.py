@@ -100,7 +100,7 @@ class RestaurantInfo:
         self.health_info: str = None  # 感染症対策情報
         self.web_url: str = None  # webサイトURL
         self.map_url: str = None  # 地図URL 現在地からの経路ならば動的パラメータ？
-        self.yahoo_rating: list[float] = None  # 星評価のリスト
+        self.yahoo_rating: list[float] = []  # 星評価のリスト
         self.yahoo_rating_float: str = None  # 星評価の平均
         self.yahoo_rating_str: str = None  # 星評価の平均を文字列で表したもの
         self.google_rating: float = None  # 星評価
