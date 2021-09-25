@@ -85,7 +85,7 @@ class RestaurantInfo:
         self.railway: list[str] = None  # 路線
         self.phone: str = None  # 電話番号
         self.category: str = None  # カテゴリ
-        self.genre: [str] = None  # ジャンル
+        self.genre: list[str] = None  # ジャンル
         self.lunch_price: int = None  # ランチの値段
         self.dinner_price: int = None  # ディナーの値段
         self.monday_opening_hours: str = None  # 月曜の営業時間
@@ -100,13 +100,13 @@ class RestaurantInfo:
         self.health_info: str = None  # 感染症対策情報
         self.web_url: str = None  # webサイトURL
         self.map_url: str = None  # 地図URL 現在地からの経路ならば動的パラメータ？
-        self.yahoo_rating: [float] = None  # 星評価のリスト
+        self.yahoo_rating: list[float] = None  # 星評価のリスト
         self.yahoo_rating_float: str = None  # 星評価の平均
         self.yahoo_rating_str: str = None  # 星評価の平均を文字列で表したもの
         self.google_rating: float = None  # 星評価
-        self.review: [str] = []  # レビュー
-        self.image_url: [str] = None  # 画像のurl
-        self.google_photo_reference: [str] = None
+        self.review: list[str] = []  # レビュー
+        self.image_url: list[str] = None  # 画像のurl
+        self.google_photo_reference: list[str] = None
 
         # 動的パラメーター(呼び出す度に計算するもの) -> Voteテーブルに保存
         self.price: int = None  # 指定時刻の値段

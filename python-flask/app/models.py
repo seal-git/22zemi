@@ -56,7 +56,6 @@ def create_response_from_restaurants_info(group_id, user_id, restaurants_info):
 def get_restaurant_ids_from_recommend_priority(fetch_group, group_id,
                                                user_id):
     '''
-    TODO: ここを実装
     Voteテーブルの優先度順にレストランIDを取得する。
 
     Parameters
@@ -71,9 +70,10 @@ def get_restaurant_ids_from_recommend_priority(fetch_group, group_id,
     '''
     histories_restaurants = database_functions.get_histories_restaurants(
         group_id, user_id)
-    fetch_votes = session.query(Vote).filter(Vote.group == group_id,
-                                             Vote.recommend_priority is not None).order_by(
-        Vote.recommend_priority).all()
+    fetch_votes = session.query(Vote).filter(
+            Vote.group == group_id,
+            Vote.recommend_priority is not None
+        ).order_by(Vote.recommend_priority).all()
     restaurants_ids = []
     for fv in fetch_votes:
         if fv.restaurant not in histories_restaurants:
@@ -215,17 +215,21 @@ def http_info():
     # open_hour = '18'
 
     # 未登録ならデータベースにユーザとグループを登録する
-    fetch_user, fetch_group, fetch_belong = database_functions.register_user_and_group_if_not_exist(
+    fetch_user, fetch_group, fetch_belong, first_time_flg = database_functions.register_user_and_group_if_not_exist(
         group_id, user_id, address, recommend_method, api_method)
 
     # 検索条件をデータベースに保存
-    database_functions.set_search_params(group_id, place, genre, query,
-                                         open_day, open_hour, maxprice,
-                                         minprice, sort,
-                                         fetch_group=fetch_group)
+    if first_time_flg:
+        database_functions.set_search_params(group_id, place, genre, query,
+                                            open_day, open_hour, maxprice,
+                                            minprice, sort,
+                                            fetch_group=fetch_group)
+        
+        # 初回は優先度を計算
+        _ = recommend.recommend_main(fetch_group, group_id, user_id)
 
     ## priorityの高い順にid取得
-    restaurant_ids = get_restaurant_ids_from_recommend_priority()
+    restaurant_ids = get_restaurant_ids_from_recommend_priority(fetch_group, group_id, user_id)
 
     ## responseを作る
     restaurants_info = database_functions.load_stable_restaurants_info(
@@ -233,13 +237,13 @@ def http_info():
     response = create_response_from_restaurants_info(group_id, user_id,
                                                      restaurants_info)
 
-    # 裏でrecommendを走らせる
-    t = threading.Thread(target=thread_info,
-                         args=(group_id,
-                               user_id,
-                               fetch_belong,
-                               fetch_group))
-    t.start()
+    # # 裏でrecommendを走らせる
+    # t = threading.Thread(target=thread_info,
+    #                      args=(group_id,
+    #                            user_id,
+    #                            fetch_belong,
+    #                            fetch_group))
+    # t.start()
     return response
 
 
@@ -259,6 +263,16 @@ def thread_info(group_id, user_id, fetch_belong, fetch_group):
     -------
 
     """
+    
+    ## 他のスレッドで更新中だったら待つ
+    if not fetch_belong.writable:
+        result = False
+        while not result:
+            print("waiting")
+            time.sleep(1)
+            session.commit()
+            result = session.query(Belong).filter(Belong.group == group_id,
+                                            Belong.user == user_id).one().writable
 
     _ = recommend.recommend_main(fetch_group, group_id, user_id)
     print("thread end")
@@ -296,23 +310,11 @@ def http_feeling():
                                                         Vote.votes_like == participants_count).count())
     if RECOMMEND_PRIORITY:
         # 裏でrecommendを走らせる
-        ## 他のスレッドで更新中だったら待つ
+
         fetch_group = session.query(Group).filter(Group.id == group_id).first()
         fetch_belong = session.query(Belong).filter(Belong.user == user_id,
                                                     Belong.group == group_id
                                                     ).first()
-        if not fetch_belong.writable:
-            result = [False]
-            while not result[0]:
-                print("waiting")
-                time.sleep(1)
-                t = threading.Thread(target=thread_info_wait,
-                                     args=(group_id,
-                                           user_id,
-                                           result))
-                t.start()
-                t.join()
-
         t = threading.Thread(target=thread_info,
                              args=(group_id,
                                    user_id,
