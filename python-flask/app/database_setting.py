@@ -81,10 +81,10 @@ class Restaurant(Base):
     id = Column('id', String(50), primary_key=True)
     yahoo_id = Column('yahoo_id', String(50))
     google_id = Column('google_id', String(50))
-    name = Column('name', String(100), nullable=False) # 店名
-    address = Column('address', String(400), nullable=False) # 住所
-    lat = Column('lat', Float, nullable=False) # 緯度
-    lon = Column('lon', Float, nullable=False) # 経度
+    name = Column('name', String(100)) # 店名
+    address = Column('address', String(400)) # 住所
+    lat = Column('lat', Float) # 緯度
+    lon = Column('lon', Float) # 経度
     station = Column('station', String(400)) # 駅名リスト(\n区切り)
     railway = Column('railway', String(400)) # 路線リスト(\n区切り)
     phone = Column('phone', String(20)) # 電話番号
@@ -144,8 +144,8 @@ class Vote(Base):
     __table_args__=({"mysql_charset": "utf8mb4", "mysql_engine": "InnoDB"})
     group = Column('group', Integer, primary_key=True)
     restaurant = Column('restaurant', String(50), primary_key=True)
-    votes_like = Column('votes_like', Integer, nullable=False) # -1: 未送信 # session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling==True).count() # レストランのいいね数
-    votes_all = Column('votes_all', Integer, nullable=False) # -1: 未送信 # session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling is not None).count() # レストランの投票人数
+    votes_like = Column('votes_like', Integer) # -1: 未送信 # session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling==True).count() # レストランのいいね数
+    votes_all = Column('votes_all', Integer) # -1: 未送信 # session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling is not None).count() # レストランの投票人数
     number_of_participants = Column('number_of_participants', Integer) # 投票参加人数
     recommend_priority = Column('recommend_priority', Float)
     price = Column('price', Integer) # グループごとの時間帯の値段
