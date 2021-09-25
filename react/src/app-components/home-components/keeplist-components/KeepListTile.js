@@ -26,7 +26,11 @@ function KeepListTile(props) {
     // const swichStyle = { props.mode == "Alone" ? { display: "none", } : { display: "block", } }
 
     const onInfoBtnClicked = () => {
-        props.onClick(props.data)
+        props.onClick(props.data);
+    }
+
+    const onReserveBtnClicked = () => {
+        window.open(props.data.UrlWeb, '_blank');
     }
 
 
@@ -63,8 +67,9 @@ function KeepListTile(props) {
                             </Grid>
                             <Grid item xs={12}>
                                 <Typography class="textSecondary">
-                                    <span class="textStars">★</span>
-                                    {props.data.ReviewRating}
+                                    <span class="textStars">
+                                        {props.data.ReviewRating}
+                                    </span>
                                 </Typography>
                             </Grid>
                         </Grid>
@@ -73,7 +78,7 @@ function KeepListTile(props) {
                         <div class="buttonWrapper">
                             <div class="buttonContainer">
                                 <div class="cardAction" onClick={() => { onInfoBtnClicked() }}>詳細を見る<span class="playIcon">▶︎</span></div>
-                                <div class="cardAction">予約する</div>
+                                <div class="cardAction" onClick={() => { onReserveBtnClicked() }}>予約する</div>
                             </div>
                         </div>
                     </Grid>
