@@ -161,6 +161,6 @@ class RestaurantInfo:
             'CassetteOwnerLogoImage': [],
             'ImagesBinary': [],
         }
-        pprint.PrettyPrinter(indent=2).pprint(r_info_dict)
+        # pprint.PrettyPrinter(indent=2).pprint(r_info_dict)
 
         return r_info_dict

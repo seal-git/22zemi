@@ -859,7 +859,7 @@ def delete_duplicate_restaurants_info(group_id, user_id, restaurants_info, histo
 # ============================================================================================================
 # recommend.pyで最初に呼ばれる
 
-def recommend_main(fetch_group, group_id, user_id):
+def recommend_main(fetch_group, group_id, user_id, first_time_flg=False):
     '''
     Yahoo local search APIで情報を検索し、json形式で情報を返す
     
@@ -882,6 +882,7 @@ def recommend_main(fetch_group, group_id, user_id):
     # priceは、金額順にソートします。
     # distは、2点間の直線距離順にソートします。（geoより高速です）
     # geoは、球面三角法による2点間の距離順にソートします。
+
     
     # TODO: レコメンド関数の追加
     # TODO: search_paramを毎回更新して保存する
@@ -905,7 +906,13 @@ def recommend_main(fetch_group, group_id, user_id):
     else:
         # error
         print("recommend_method is None.")
-        recomm = RecommendSimple()
+        recomm = RecommendSVM()
+
+    # 初回は迅速に
+    if first_time_flg:
+        first_time_recommend_main(fetch_group, group_id, user_id, recomm)
+        return []
+    
 
     # 重複して表示しないようにするため、履歴を取得
     histories_restaurants = database_functions.get_histories_restaurants(group_id,
@@ -924,14 +931,15 @@ def recommend_main(fetch_group, group_id, user_id):
                   f"results ={len(restaurants_info)}, "
                   f"history ={len(histories_restaurants)}")
             # searchでとってきた店のpriorityを計算し、
-            thread_calc_priority(fetch_group,
+            recomm.calc_priority(fetch_group,
                                 group_id,
                                 user_id,
                                 restaurants_info,
                                 histories_restaurants)
-            thread_get_restaurant_info(fetch_group,
-                                       group_id,
-                                       restaurants_info)
+            # お店の詳細を取ってくる
+            restaurants_info = call_api.get_restaurants_info(fetch_group,
+                                                     group_id,
+                                                     restaurants_info)
             # t1 = threading.Thread(
             #         target=thread_calc_priority,
             #         args=(fetch_group,
@@ -968,17 +976,31 @@ def recommend_main(fetch_group, group_id, user_id):
     
     return []
 
-def thread_calc_priority(fetch_group, group_id, user_id, restaurants_info, histories_restaurants):
-    recomm = RecommendSVM()
+
+def first_time_recommend_main(fetch_group, group_id, user_id, recomm:Recommend):
+    # YahooローカルサーチAPIで検索するクエリ
+    search_params = database_functions.get_search_params_from_fetch_group(fetch_group)
+
+    # 検索条件を追加
+    search_params.image = True  # 画像がある店
+    search_params.sort = "hybrid"
+    search_params.start = 0
+    search_params.results = config.MyConfig.RESPONSE_COUNT * 2
+
+    # Yahooの形式にして検索
+    restaurants_info = call_api.search_restaurants_info(fetch_group,
+                                            group_id,
+                                            user_id,
+                                            search_params,
+                                            "yahoo_local_search")
+
+    # searchでとってきた店のpriorityを計算
     recomm.calc_priority(fetch_group,
                         group_id,
                         user_id,
                         restaurants_info,
-                        histories_restaurants)
-    pass
-
-def thread_get_restaurant_info(fetch_group, group_id, restaurants_info):
-    # TODO
-    restaurants_info = call_api.get_restaurants_info(fetch_group,
-                                                     group_id,
-                                                     restaurants_info)
+                        [])
+    
+    return call_api.get_restaurants_info(fetch_group,
+                                            group_id,
+                                            restaurants_info)

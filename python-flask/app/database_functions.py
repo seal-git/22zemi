@@ -153,6 +153,7 @@ def register_user_and_group_if_not_exist(group_id, user_id, place, recommend_met
         print(f"new user {user_id} registered")
     
     # グループが未登録ならばデータベースに登録する
+    first_time_group_flg = False
     fetch_group = session.query(Group).filter(Group.id==group_id).first()
     if fetch_group is None:
         lat,lon,address = get_lat_lon_address(place)
@@ -165,11 +166,12 @@ def register_user_and_group_if_not_exist(group_id, user_id, place, recommend_met
         new_group.api_method = api_method
         session.add(new_group)
         session.commit()
+        first_time_group_flg = True
         fetch_group = session.query(Group).filter(Group.id==group_id).one()
         print(f"new group {group_id} registered")
 
     # 所属が未登録ならばデータベースに登録する
-    first_time_flg = False
+    first_time_belong_flg = False
     fetch_belong = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).first()
     if fetch_belong is None:
         new_belong = Belong()
@@ -180,7 +182,7 @@ def register_user_and_group_if_not_exist(group_id, user_id, place, recommend_met
         first_time_flg = True
         fetch_belong = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()
 
-    return fetch_user, fetch_group, fetch_belong, first_time_flg
+    return fetch_user, fetch_group, fetch_belong, first_time_group_flg, first_time_belong_flg
 
 def update_feeling(group_id, user_id, restaurant_id, feeling):
     '''
