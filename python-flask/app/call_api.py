@@ -47,10 +47,9 @@ def search_restaurants_info(fetch_group,
     restaurant_ids_from_db = session.query(Restaurant.id).filter(Vote.group == group_id,
                                                          Vote.restaurant == Restaurant.id
                                                          ).all()  # 未送信のもののみを取得するときはfilterに`Vote.votes_all==-1`を加える
-
+    restaurant_ids_from_db = [r.id for r in restaurant_ids_from_db]
     restaurants_info_from_db = database_functions.load_restaurants_info(restaurant_ids_from_db,
-                                                                        group_id
-                                                                        )
+                                                                        group_id)
 
     # レストランを検索する
     if api == "google_nearby_search":
@@ -71,8 +70,8 @@ def search_restaurants_info(fetch_group,
     # 検索結果とDBを合わせる
     restaurants_info += restaurants_info_from_db
     print(f"load_restaurants_info: \n"
-          f"load {len(restaurants_info_from_db)}/{len(restaurants_info)} items from DB\n"
-          f"load {len(restaurants_info)-len(restaurants_info_from_db)}/"
+          f"  {len(restaurants_info_from_db)}/{len(restaurants_info)} items from DB\n"
+          f"  {len(restaurants_info)-len(restaurants_info_from_db)}/"
           f"{len(restaurants_info)}items from API")
 
     # グループごとの情報を計算

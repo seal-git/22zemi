@@ -371,8 +371,7 @@ def save_restaurants(restaurants_info):
         fetch_restaurant.image_url = '\n'.join(r_info.image_url)
         session.add(fetch_restaurant)
         session.commit()
-
-        print(f"save_restaurants_info: saved {fetch_restaurant.id} ")
+        # print(f"save_restaurants_info: saved {fetch_restaurant.id} ")
 
 
 def get_restaurant_info_from_db(f_restaurant):
