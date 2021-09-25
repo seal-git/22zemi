@@ -212,7 +212,9 @@ def http_info():
         user_id)
 
     # Yahoo本社の住所 # TODO
-    address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-" if place is None else place
+    # address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-" if place is None else place
+    address = "新宿駅"
+    place = address
     # TODO: 開発用に時間を固定
     # open_hour = '18'
 

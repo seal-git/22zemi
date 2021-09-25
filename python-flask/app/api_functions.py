@@ -75,11 +75,11 @@ def yahoo_local_search(params: Params = None,
         ## boolの変換
         image = "true" if params.image else None
         loco_mode = "true" if params.loco_mode else None
-        ## 時間指定
-        if params.open_day is not None and params.open_hour is not None:
-            open = str(params.open_day) + "," + str(params.open_hour)
-        else:
-            open = "now"
+        # ## 時間指定
+        # if params.open_day is not None and params.open_hour is not None:
+        #     open = str(params.open_day) + "," + str(params.open_hour)
+        # else:
+        #     open = "now"
 
         ## パラメータをdictにして返す
         params_dict = {
@@ -94,7 +94,6 @@ def yahoo_local_search(params: Params = None,
             "maxprice": params.max_price,
             "minprice": params.min_price,
             "loco_mode": loco_mode,
-            "open": open,
         }
     elif r_info is not None:
         # restaurant_infoで検索

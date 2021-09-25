@@ -782,6 +782,63 @@ class RecommendSVM(Recommend):
 
 
 
+class RecommendImage(Recommend):
+    '''
+    RecommendQueueの重みをSVMで決める
+
+    1. 投票された結果はLIKE数の多い順に表示
+    2. 未投票の結果は価格・距離・ジャンルからSVMで評価値を推定して表示
+    '''
+
+    def search(self, fetch_group, group_id, user_id, histories_restaurants):
+        # YahooローカルサーチAPIで検索するクエリ
+        search_params = database_functions.get_search_params_from_fetch_group(fetch_group)
+
+        # 検索条件を追加
+        search_params.image = True  # 画像がある店
+        search_params.set_start_and_results_from_stock(group_id, STOCK_COUNT, histories_restaurants)
+
+        # Yahooの形式にして検索
+        return call_api.search_restaurants_info(fetch_group, group_id,
+                                                     user_id, search_params)
+
+
+    def __calc_recommend_priority(self, fetch_group, group_id, pre_restaurants_info):
+        '''
+        Vote.recommend_priorityを計算する。
+        '''
+        for r_info in pre_restaurants_info:
+            fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==r_info.id).one()
+            fetch_vote.recommend_priority = - len(r_info.image_url) + int(r_info.price)/10000 if r_info.price is not None else - len(r_info.image_url) + 2
+            session.commit()
+
+    def __price_filter(self, group_id, max_price, min_price, restaurants_info):
+        '''
+        検索条件に合わない店は優先度を下げる
+        TODO: 再度データベースのVoteを検索するので遅くなるかもしれない
+        '''
+        if min_price is None:
+            min_price = 0
+        if max_price is None:
+            for r_info in [r for r in restaurants_info if (r.price is not None and int(min_price) > int(r.price))]:
+                fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==r_info.id).one()
+                fetch_vote.recommend_priority = 10000.0
+                session.commit()
+        else:
+            for r_info in [r for r in restaurants_info if (r.price is None or min_price > int(r.price) or int(r.price) > max_price)]:
+                fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==r_info.id).one()
+                fetch_vote.recommend_priority = 10000.0
+                session.commit()
+
+    def calc_priority(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
+
+        # Vote.recommend_priorityを計算する。
+        self.__calc_recommend_priority(fetch_group, group_id, pre_restaurants_info)
+
+        pre_restaurants_info = self.__price_filter(group_id, fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
+
+
+
     # def filter(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
 
     #     pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
@@ -899,6 +956,8 @@ def recommend_main(fetch_group, group_id, user_id, first_time_flg=False):
     #     recomm = RecommendQueue()
     elif recommend_method == 'svm':
         recomm = RecommendSVM()
+    elif recommend_method == 'image':
+        recomm = RecommendImage()
     # elif recommend_method == 'local_search_test':
     #     return local_search_test(fetch_group, group_id, user_id)
     # elif recommend_method == 'local_search_test_URL':
@@ -937,9 +996,6 @@ def recommend_main(fetch_group, group_id, user_id, first_time_flg=False):
                                 restaurants_info,
                                 histories_restaurants)
             # お店の詳細を取ってくる
-            restaurants_info = call_api.get_restaurants_info(fetch_group,
-                                                     group_id,
-                                                     restaurants_info)
 
             print(f"data_num {len(restaurants_info)}")
             return [r.id for r in restaurants_info]
@@ -983,6 +1039,4 @@ def first_time_recommend_main(fetch_group, group_id, user_id, recomm:Recommend):
                         restaurants_info,
                         [])
     
-    return call_api.get_restaurants_info(fetch_group,
-                                            group_id,
-                                            restaurants_info)
+    return []

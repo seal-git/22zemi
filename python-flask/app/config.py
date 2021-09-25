@@ -25,18 +25,18 @@ class MyConfig:
     NEXT_RESPONSE = False
     RECOMMEND_PRIORITY = True # RecommendSimpleでTrueにすると死にます
 
-    RECOMMEND_METHOD = 'svm'
+    RECOMMEND_METHOD = 'image'
     API_METHOD = 'yahoo'
     
     GET_GOOGLE_IMAGE = False
     USE_LOCAL_IMAGE = False
     USE_RAW_IMAGE = False
     MAX_DISTANCE = 200000  # 中心地からの距離 上限20
-    RESPONSE_COUNT = 3  # 一回に返す店舗の数
-    STOCK_COUNT = 12  # 検索で取得するデータの数．STOCK_COUNT個の店からRESPONSE_COUNT個選ぶ
+    RESPONSE_COUNT = 9  # 一回に返す店舗の数
+    STOCK_COUNT = 80  # 検索で取得するデータの数．STOCK_COUNT個の店からRESPONSE_COUNT個選ぶ
     QUEUE_COUNT = 15  # レスポンスをキューで保持しておく最大数
     SET_OPEN_HOUR = True  # 開店時間固定する場合はTrueにする
-    OPEN_HOUR = "12:00"  # 固定の開店時間
+    OPEN_HOUR = "18:00"  # 固定の開店時間
     LUNCH_TIME_START = 10  # ランチの開始時間
     LUNCH_TIME_END = 15  # ランチの終了時間
     MAX_LIST_COUNT = 10  # 画像の最大枚数

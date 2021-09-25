@@ -83,6 +83,7 @@ def get_lat_lon_address(query):
         address = response["Feature"][0]["Property"]["Address"]
     except:
         # Yahoo!本社の座標
+        print("place search error!!!!!!!!!!!!!!!!!!")
         lon = 139.73284
         lat = 35.68001 
         address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-"
