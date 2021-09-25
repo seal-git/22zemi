@@ -7,9 +7,8 @@ import ListItem from '@material-ui/core/ListItem'
 import ListItemText from '@material-ui/core/ListItemText';
 import DialogTitle from '@material-ui/core/DialogTitle'
 import { makeStyles,withStyles } from '@material-ui/core/styles'
-import { CopyToClipboard } from 'react-copy-to-clipboard'
 // 他ファイルからインポート
-import InviteIcon from './../../../icon/InviteIcon'
+import InviteIcon from './../../../../icon/InviteIcon'
 import InviteModal from './InviteModal'
 /*
 招待ボタン：押すと招待URLが表示される
@@ -18,10 +17,11 @@ import InviteModal from './InviteModal'
 const useStyles = makeStyles({
     ButtonToInviteContainer:{
         position: 'absolute',
-        top: '50%',
+        top: '40%',
         width: '100%',
         textAlign: 'right',
         pointerEvents: 'none',
+        backgroundColor: 'transparent',
     },
     CopyButton:{
         height: '100%',
@@ -53,9 +53,10 @@ function ButtonToInvite(props) {
             width: '15%',
             height: 'auto',
             margin: '2% 2%',
-            opacity: '0.88',
             cursor: 'pointer',
             pointerEvents: 'auto',
+            opacity: '.88',
+            filter: 'drop-shadow(0 0 1rem black)',
         }
     }))(InviteIcon);
 

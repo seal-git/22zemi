@@ -6,7 +6,7 @@ import Chip from '@material-ui/core/Chip';
 import { Box, Dialog, DialogContent, DialogContentText, DialogTitle } from '@material-ui/core';
 import { Slide } from '@material-ui/core';
 // 他ファイルからインポート
-import { ReactComponent as CommentClose } from '../../../img/comment-close.svg';
+import { ReactComponent as CommentClose } from '../../../../img/comment-close.svg';
 
 // モーダルの遷移方法を規定する
 const Transition = React.forwardRef(function Transition(props, ref) {
@@ -89,6 +89,17 @@ function CommentModal(props) {
             >
                 <CommentClose className={classes.CommentCloseButton} onClick={props.handleClose}/>
             </Box>
+            {props.showPicture != undefined && props.showPicture != null && props.showPicture
+                ?
+                // <div style={{ height: '50%' }}>
+                //     <ImageArea
+                //         Images={props.data.Images}
+                //         restaurant_id={props.data.Restaurant_id}
+                //     />
+                // </div>
+                null
+                : null
+            }
             <DialogTitle>
                 {props.data.Name}
             </DialogTitle>
