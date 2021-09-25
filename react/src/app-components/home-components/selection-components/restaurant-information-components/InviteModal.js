@@ -9,8 +9,8 @@ import { CopyToClipboard } from 'react-copy-to-clipboard'
 import { DialogContent, Typography } from '@material-ui/core'
 
 // 他ファイルからインポート
-import { ReactComponent as CopyBefore } from '../../../img/copy-before.svg'
-import { ReactComponent as CopyAfter } from '../../../img/copy-after.svg'
+import { ReactComponent as CopyBefore } from '../../../../img/copy-before.svg'
+import { ReactComponent as CopyAfter } from '../../../../img/copy-after.svg'
 
 const useStyles = makeStyles({
     CopyButton:{
