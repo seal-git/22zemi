@@ -68,12 +68,14 @@ def get_restaurant_ids_from_recommend_priority(fetch_group, group_id,
     ----------------
     restaurnt_ids : [dict]
     '''
+
     histories_restaurants = database_functions.get_histories_restaurants(
         group_id, user_id)
     fetch_votes = session.query(Vote).filter(
             Vote.group == group_id,
             Vote.recommend_priority is not None
         ).order_by(Vote.recommend_priority).all()
+
     restaurants_ids = []
     for fv in fetch_votes:
         if fv.restaurant not in histories_restaurants:
@@ -83,7 +85,7 @@ def get_restaurant_ids_from_recommend_priority(fetch_group, group_id,
 
     # まだ優先度を計算していない時や，RecommendSimple等で優先度を計算しない時
     fetch_votes = session.query(Vote).filter(Vote.group == group_id,
-                                             Vote.recommend_priority is None).all()
+                                            Vote.recommend_priority is None).all()
     for fv in fetch_votes:
         if fv.restaurant not in histories_restaurants:
             restaurants_ids.append(fv.restaurant)
@@ -215,18 +217,19 @@ def http_info():
     # open_hour = '18'
 
     # 未登録ならデータベースにユーザとグループを登録する
-    fetch_user, fetch_group, fetch_belong, first_time_flg = database_functions.register_user_and_group_if_not_exist(
+    fetch_user, fetch_group, fetch_belong, first_time_group_flg, first_time_belong_flg = database_functions.register_user_and_group_if_not_exist(
         group_id, user_id, address, recommend_method, api_method)
 
     # 検索条件をデータベースに保存
-    if first_time_flg:
+    if first_time_group_flg:
         database_functions.set_search_params(group_id, place, genre, query,
                                             open_day, open_hour, maxprice,
                                             minprice, sort,
                                             fetch_group=fetch_group)
         
-        # 初回は優先度を計算
-        _ = recommend.recommend_main(fetch_group, group_id, user_id)
+        # 初回優先度を計算
+        _ = recommend.recommend_main(fetch_group, group_id, user_id, first_time_flg=first_time_group_flg)
+
 
     ## priorityの高い順にid取得
     restaurant_ids = get_restaurant_ids_from_recommend_priority(fetch_group, group_id, user_id)
@@ -236,14 +239,19 @@ def http_info():
         restaurant_ids, group_id)
     response = create_response_from_restaurants_info(group_id, user_id,
                                                      restaurants_info)
+    
+    if first_time_group_flg:
+        # 裏でrecommendを走らせる
+        ## 他のスレッドで更新中だったら何もしない
+        if fetch_belong.writable:
+            t = threading.Thread(target=thread_info,
+                             args=(group_id,
+                                   user_id,
+                                   fetch_belong,
+                                   fetch_group
+                                   ))
+            t.start()
 
-    # # 裏でrecommendを走らせる
-    # t = threading.Thread(target=thread_info,
-    #                      args=(group_id,
-    #                            user_id,
-    #                            fetch_belong,
-    #                            fetch_group))
-    # t.start()
     return response
 
 
