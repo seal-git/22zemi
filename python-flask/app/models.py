@@ -13,6 +13,7 @@ from io import BytesIO
 import time
 from sqlalchemy.sql.functions import current_timestamp
 import threading
+import pprint
 
 # SPEED_UP_FLG
 #   Trueにすると高速化できるが、レコメンドの反映が遅れる
@@ -50,6 +51,8 @@ def create_response_from_restaurants_info(group_id, user_id, restaurants_info):
                      'BusinessHour', 'Genre', 'Images', 'ImagesBinary']
     response = [{k: v for k, v in r.items() if k in response_keys} for r in
                 restaurants_info]  # response_keysに含まれているキーを残す
+    pprint.PrettyPrinter(indent=2).pprint(response)
+
     return json.dumps(response, ensure_ascii=False)
 
 
@@ -286,6 +289,7 @@ def thread_info(group_id, user_id, fetch_belong, fetch_group):
 
     _ = recommend.recommend_main(fetch_group, group_id, user_id)
     print("thread end")
+    return
 
 
 @app_.route('/feeling', methods=['GET', 'POST'])
@@ -372,10 +376,10 @@ def http_list():
 
     # 得票数が多い順に並べる
     restaurants_info.sort(
-        key=lambda x: x['VotesAll'])  # 得票数とオススメ度が同じなら、リジェクトが少ない順
-    restaurants_info.sort(key=lambda x: x['RecommendScore'],
+        key=lambda x: x.votes_all)  # 得票数とオススメ度が同じなら、リジェクトが少ない順
+    restaurants_info.sort(key=lambda x: x.recommend_score,
                           reverse=True)  # 得票数が同じなら、オススメ度順
-    restaurants_info.sort(key=lambda x: x['VotesLike'], reverse=True)  # 得票数が多い順
+    restaurants_info.sort(key=lambda x: x.votes_like, reverse=True)  # 得票数が多い順
 
     return create_response_from_restaurants_info(group_id, user_id,
                                                  restaurants_info)

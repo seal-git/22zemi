@@ -94,7 +94,7 @@ function KeepList(props) {
 
     const classes = useStyles();
     const selectRef = useRef(null);
-    const [dataList, setDataList] = useState(initDataList)
+    const [dataList, setDataList] = useState([])
     const [sortMode, setSortMode] = useState("sortByFavos")
 
     // APIからキープリストのデータを得る
@@ -109,8 +109,8 @@ function KeepList(props) {
         })
             .then(function (response) {
                 console.log(response)
-                // let dataList = response['data']
-                let dataList = initDataList
+                let dataList = response['data']
+                // let dataList = initDataList
                 if (dataList === 0) {
                     console.log("no data")
                     dataList = []

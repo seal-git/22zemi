@@ -98,9 +98,10 @@ input {
   border: none;
   padding: 0;
   color: white;
-  background: #ff7474;
+  background: #D90060;
+  font-size: 1.2rem;
   box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.75);
-  border-radius: 9px;
+  border-radius: 15px;
   cursor: pointer;
 }
 
