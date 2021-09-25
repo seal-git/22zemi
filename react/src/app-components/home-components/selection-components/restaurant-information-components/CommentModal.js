@@ -89,6 +89,17 @@ function CommentModal(props) {
             >
                 <CommentClose className={classes.CommentCloseButton} onClick={props.handleClose}/>
             </Box>
+            {props.showPicture != undefined && props.showPicture != null && props.showPicture
+                ?
+                // <div style={{ height: '50%' }}>
+                //     <ImageArea
+                //         Images={props.data.Images}
+                //         restaurant_id={props.data.Restaurant_id}
+                //     />
+                // </div>
+                null
+                : null
+            }
             <DialogTitle>
                 {props.data.Name}
             </DialogTitle>

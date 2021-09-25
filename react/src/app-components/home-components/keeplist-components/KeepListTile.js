@@ -29,9 +29,9 @@ function KeepListTile(props) {
         props.onClick(props.data)
     }
 
+
     return (
         <Card className={classes.root}>
-
             <CardMedia
                 className={classes.media}
                 image="https://thumb.photo-ac.com/3d/3d0a74fabc7dfa20c50ef766bf733f45_w.jpeg"

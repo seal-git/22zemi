@@ -17,6 +17,7 @@ import KeepListModal from './keeplist-components/KeepListModal'
 import { CSSTransition, Transition } from 'react-transition-group';
 
 const useStyles = makeStyles((theme) => ({
+
     aloneStyle: {
         height: '100vh',
         backgroundColor: 'white',

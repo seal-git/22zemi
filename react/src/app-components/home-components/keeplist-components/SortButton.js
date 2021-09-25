@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 // パッケージからインポート
 import { makeStyles } from '@material-ui/core/styles'
 
+
 const useStyles = makeStyles({
     sortButtonActive: {
         // display: 'inline',
