@@ -66,18 +66,19 @@ def search_restaurants_info(fetch_group,
     restaurants_info_from_db = [
         database_functions.get_restaurant_info_from_db(r) for r in
         fetch_restaurants]
-    restaurants_list_from_db = [r.id for r in restaurants_info_from_db]
-    restaurants_info = restaurants_info_from_db + [r for r in restaurants_info if r.id not in restaurants_list_from_db]
+    restaurant_ids_from_db = [r.id for r in restaurants_info_from_db]
+    restaurants_info = restaurants_info_from_db + [r for r in restaurants_info if r.id not in restaurant_ids_from_db]
 
     # 投票数と距離を計算
     restaurants_info = calc_info.add_votes_distance(fetch_group, group_id,
                                                     restaurants_info)
-    # レコメンドスコアを計算
-    restaurants_info = calc_info.calc_recommend_score(fetch_group, restaurants_info)
-
     ## 設定された時間でのpriceを設定する
     restaurants_info = calc_info.add_price(fetch_group,
                                            restaurants_info)
+
+    # レコメンドスコアを計算
+    restaurants_info = calc_info.calc_recommend_score(fetch_group, restaurants_info)
+
 
     return restaurants_info
 

@@ -148,12 +148,14 @@ def calc_recommend_score(fetch_group, restaurants_info):
 
 def add_price(fetch_group, restaurants_info):
     # 設定された時間での値段を設定する
-    if fetch_group.open_hour:
+    if fetch_group.open_hour is not None:
         hour = int(fetch_group.open_hour.hour)
     else:
         hour = datetime.datetime.now().hour + datetime.datetime.now().minute / 60
 
     for i in range(len(restaurants_info)):
+        if restaurants_info[i].price is not None:
+            continue
         if config.MyConfig.LUNCH_TIME_START <= hour < config.MyConfig.LUNCH_TIME_END:
             restaurants_info[i].price = restaurants_info[i].lunch_price
         else:
