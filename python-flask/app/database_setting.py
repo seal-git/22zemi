@@ -84,7 +84,6 @@ class Restaurant(Base):
     lat = Column('lat', Float, nullable=False) # 緯度
     lon = Column('lon', Float, nullable=False) # 経度
     catchcopy = Column('catchcopy', String(400)) # キャッチコピー
-    price = Column('price', Integer) # 価格帯
     lunch_price = Column('lunch_price', Integer) # 昼食の価格帯
     dinner_price = Column('dinner_price', Integer) # 夕食の価格帯
     category = Column('category', String(400)) # カテゴリー
@@ -137,6 +136,10 @@ class Vote(Base):
     votes_like = Column('votes_like', Integer, nullable=False) # -1: 未送信 # session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling==True).count() # レストランのいいね数
     votes_all = Column('votes_all', Integer, nullable=False) # -1: 未送信 # session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling is not None).count() # レストランの投票人数
     recommend_priority = Column('recommend_priority', Float)
+    price = Column('price', Integer) # グループごとの時間帯の値段
+    distance_float = Column('distance_float', Float)
+    distance_str = Column('distance_str', String)
+    recommend_score = Column('recommend_score', Float)
     created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
     updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)
 

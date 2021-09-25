@@ -894,7 +894,7 @@ def recommend_main(fetch_group, group_id, user_id):
             # error: 検索結果なし
             print("検索結果なし:", i)
             # TODO: set_start_and_resultsからDB.Groupのstartをいじるのに変更
-            set_start_stock()
+            database_functions.set_start()
 
             if i >= 2 and recommend_method=="original":
                 recomm = RecommendSimple()

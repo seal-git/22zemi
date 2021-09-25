@@ -64,7 +64,7 @@ def search_restaurants_info(fetch_group,
                                                          Vote.restaurant == Restaurant.id
                                                          ).all()  # 未送信のもののみを取得するときはfilterに`Vote.votes_all==-1`を加える
     restaurants_info_from_db = [
-        database_functions.get_restaurant_info_from_fetch_restaurant(r) for r in
+        database_functions.get_restaurant_info_from_db(r) for r in
         fetch_restaurants]
     restaurants_list_from_db = [r.id for r in restaurants_info_from_db]
     restaurants_info = restaurants_info_from_db + [r for r in restaurants_info if r.id not in restaurants_list_from_db]
@@ -105,8 +105,8 @@ def get_restaurants_info(fetch_group,
 
     # データベースから店舗情報を取得(full_info_flagが必要？)
     restaurant_ids_del_none = [r.id for r in restaurants_info if r.id is not None]
-    restaurants_info = database_functions.load_stable_restaurants_info(
-        restaurant_ids_del_none)
+    restaurants_info = database_functions.load_stable_restaurants_info(restaurant_ids_del_none,
+                                                                       group_id)
 
     # データベースにない情報を店舗ごとにAPIで取得
     ## feelingリクエストで架空のrestaurants_idだったときには、それを除く
@@ -131,6 +131,7 @@ def get_restaurants_info(fetch_group,
             ## googleの情報を追加
             # restaurants_info[i] = api_functions.google_place_details(r_info=restaurants_info[i])
             pass
+
     # Googleから画像を取得する
     if config.MyConfig.GET_GOOGLE_IMAGE:
         restaurants_info = calc_info.get_google_images_list(restaurants_info)

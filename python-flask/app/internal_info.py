@@ -108,14 +108,15 @@ class RestaurantInfo:
         self.image_url: [str] = None  # 画像のurl
         self.google_photo_reference: [str] = None
 
-        # 動的パラメーター(呼び出す度に計算するもの)
+        # 動的パラメーター(呼び出す度に計算するもの) -> Voteテーブルに保存
         self.price: int = None  # 指定時刻の値段
+        self.distance_float: float = None  # 中心地からの距離
+        self.distance: str = None  # 距離(文字列)
         self.votes_all: int = None  # 投票数
         self.votes_like: int = None  # like投票数
         self.number_of_participants: int = None  # グループの参加人数
-        self.distance_float: float = None  # 中心地からの距離
-        self.distance: str = None  # 距離(文字列)
         self.recommend_score: float = None  # おすすめ度
+        self.recommend_priority: float = -1.0 # キューの優先度
 
 
     def get_dict(self):

@@ -348,7 +348,7 @@ def save_restaurants_info(restaurants_info):
         # print(f"save_restaurants_info: saved {fetch_restaurant.id}")
 
 
-def get_restaurant_info_from_fetch_restaurant(f_restaurant):
+def get_restaurant_info_from_db(f_restaurant):
     restaurant_info = RestaurantInfo()
     restaurant_info.id = f_restaurant.id
     restaurant_info.name = f_restaurant.name
@@ -373,7 +373,7 @@ def get_restaurant_info_from_fetch_restaurant(f_restaurant):
     return restaurant_info
 
 
-def load_stable_restaurants_info(restaurant_ids):
+def load_stable_restaurants_info(restaurant_ids, group_id):
     '''
     データベースからrestaurants_infoを取得
 
@@ -389,10 +389,13 @@ def load_stable_restaurants_info(restaurant_ids):
     '''
     restaurants_info = [None for rid in restaurant_ids]
     fetch_restaurants = session.query(Restaurant).filter(Restaurant.id.in_(restaurant_ids)).all()
+    fetch_votes = session.query(Vote).filter(group_id == Vote.group,
+                                             Restaurant.id.in_(restaurant_ids)
+                                             ).all
     print(f"load_restaurants_info: "
           f"load {len(fetch_restaurants)}/{len(restaurant_ids)} items from DB")
     for f_restaurant in fetch_restaurants:
-        restaurant_info = get_restaurant_info_from_fetch_restaurant(f_restaurant)
+        restaurant_info = get_restaurant_info_from_db(f_restaurant)
         restaurants_info[restaurant_ids.index(f_restaurant.id)] = restaurant_info
     
     return restaurants_info

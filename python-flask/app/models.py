@@ -229,7 +229,7 @@ def http_info():
 
     ## responseを作る
     restaurants_info = database_functions.load_stable_restaurants_info(
-        restaurant_ids)
+        restaurant_ids, group_id)
     response = create_response_from_restaurants_info(group_id, user_id,
                                                      restaurants_info)
 
@@ -241,11 +241,6 @@ def http_info():
                                fetch_group))
     t.start()
     return response
-
-
-def thread_info_wait(group_id, user_id, result):
-    result[0] = session.query(Belong).filter(Belong.group == group_id,
-                                             Belong.user == user_id).one().writable
 
 
 def thread_info(group_id, user_id, fetch_belong, fetch_group):
