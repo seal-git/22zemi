@@ -386,9 +386,9 @@ def save_restaurants(restaurants_info):
 
 def get_restaurant_info_from_db(restaurant_id, group_id):
     f_restaurant = session.query(Restaurant).filter(Restaurant.id == restaurant_id).first()
-    f_votes = session.query(Vote).filter(group_id == Vote.group,
-                                             Restaurant.id == restaurant_id
-                                             ).first()
+    f_votes = session.query(Vote).filter(Vote.group == group_id,
+                                         Vote.restaurant == restaurant_id
+                                         ).first()
     restaurant_info = RestaurantInfo()
     restaurant_info.id = f_restaurant.id
     restaurant_info.yahoo_id = f_restaurant.yahoo_id
