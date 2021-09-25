@@ -102,6 +102,7 @@ function Home(props) {
 
     return (
         <div className="Home">
+            <div className="Screen">
             <div className="Content-wrapper">
                 <div className="Content">
                     {view === "Selection" ?
@@ -147,7 +148,7 @@ function Home(props) {
                 setView={setView} 
                 keepNumberRef={keepNumberRef}
             />
-
+            </div>
         </div>
     )
 }

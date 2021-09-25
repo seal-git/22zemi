@@ -83,6 +83,7 @@ function RestaurantInformation(props) {
             <ImageArea
                 Images={data.Images}
                 restaurant_id={data.Restaurant_id}
+                key={'imageArea'+data.Restaurant_id}
             />
         )
     }
@@ -123,19 +124,22 @@ function RestaurantInformation(props) {
     }
     // 招待ボタンの描画
     let renderButtonToInvite = () => {
+        const ok = props.data.Restaurant_id !== 'tutorial'
         return (
-            <ButtonToInvite
-                url={props.inviteUrl}
-                groupId={props.groupId}
-                callInviteUrl={props.callInviteUrl}
-            />
+            ok
+                ?<ButtonToInvite
+                    url={props.inviteUrl}
+                    groupId={props.groupId}
+                    callInviteUrl={props.callInviteUrl}
+                />
+                :null
         )
     }
     // コメントボタンの描画
     const renderButtonToShowComment = () => {
         const ok = props.data.Restaurant_id !== 'init'
             && props.data.Restaurant_id !== 'empty'
-            && props.data.Restaurant_id.indexOf('tutorial') == -1
+            && props.data.Restaurant_id !== 'tutorial'
 
         return (
             ok

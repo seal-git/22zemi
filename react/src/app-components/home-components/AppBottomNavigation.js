@@ -57,7 +57,7 @@ const useStyles = makeStyles({
 export default function AppBottomNavigation(props) {
   const [keepNumber, setKeepNumber] = useState(0)
   const config = {
-    height : props.view==='Setting'?'5%'
+    height : props.view==='Setting'?'10%'
             :props.view==='Selection'?'10%'
             :'10%',
   }

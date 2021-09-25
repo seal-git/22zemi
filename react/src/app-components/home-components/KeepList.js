@@ -138,6 +138,7 @@ function KeepList(props) {
 
     useEffect(() => {
         getList()
+        props.setTutorialIsOn(false)
         // Mount 時にだけ呼び出す
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
