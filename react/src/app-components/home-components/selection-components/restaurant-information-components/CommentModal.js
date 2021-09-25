@@ -10,21 +10,35 @@ import { ReactComponent as CommentClose } from '../../../../img/comment-close.sv
 
 // モーダルの遷移方法を規定する
 const Transition = React.forwardRef(function Transition(props, ref) {
-  return <Slide direction="up" ref={ref} {...props} />;
+    return <Slide direction="up" ref={ref} {...props} />;
 });
 
 const useStyles = makeStyles((theme) => ({
-    CommentModal:{
+    CommentModal: {
         webkitUserSelect: 'none',
         mozUserSelect: 'none',
         MsUserSelect: 'none',
         userSelect: 'none',
     },
-    CommentCloseButton:{
+    CommentCloseButton: {
         width: '5%',
         paddingTop: '4%',
         paddingRight: '4%',
         cursor: 'pointer',
+    },
+    textShopName: {
+        padding: "0 16px",
+        margin: "0",
+        fontSize: "1.5rem",
+        fontWeight: "700"
+    },
+    textSecondary: {
+        fontWeight: "700",
+        padding: "6px 0 0 0",
+        margin: "0",
+        fontSize: "1rem",
+        whiteSpace: "pre-line",
+        color: 'black'
     },
 }));
 
@@ -39,6 +53,7 @@ function CommentModal(props) {
             backgroundColor: '#FFAD0D',
             color: 'white',
             fontSize: '1rem',
+            margin: '2px'
         }
     })(Chip);
     // タグ情報を表示するためのチップ
@@ -47,47 +62,50 @@ function CommentModal(props) {
             backgroundColor: '#D90060',
             color: 'white',
             fontSize: '1rem',
+            margin: '2px'
         }
     })(Chip);
 
     // 空文字を確認する関数
-    const isNotEmpty = (str) =>{
-        return str!==undefined && str!==null && str!==""
+    const isNotEmpty = (str) => {
+        return str !== undefined && str !== null && str !== ""
     }
     // レーティングチップの描画
-    const renderChipRating = (rate) =>{
-        return(
+    const renderChipRating = (rate) => {
+        return (
             isNotEmpty(rate)
-            ?<DialogContent>
-                <StyledChipRating label={'★' + rate} />
-            </DialogContent>
-            : null
+                ? <div>
+                    <StyledChipRating label={'★' + rate} />
+                </div>
+                : null
         )
     }
     // タグチップの描画
-    const renderChipTags = (data) =>{
-        return(
-            <DialogContent>
-                {isNotEmpty(data.Category)? <StyledChipTag label={data.Category} />: null }
-                {isNotEmpty(data.Price)?<StyledChipTag label={'~\xA5'+data.Price} />:null}
-                {isNotEmpty(data.BusinessHour)?<StyledChipTag label={data.BusinessHour} />:null}
-                {isNotEmpty(data.Distance)?<StyledChipTag label={data.Distance} />:null}
-            </DialogContent>
+    const renderChipTags = (data) => {
+        return (
+            <div>
+                {isNotEmpty(data.Distance) ? <StyledChipTag label={data.Distance} /> : null}
+                {isNotEmpty(data.Price) ? <StyledChipTag label={'~\xA5' + data.Price} /> : null}
+                {isNotEmpty(data.Category) ? <StyledChipTag label={data.Category} /> : null}
+                {isNotEmpty(data.BusinessHour) ? <StyledChipTag label={data.BusinessHour} /> : null}
+            </div>
         )
     }
 
     return (
-        <Dialog 
-            open={props.open} 
+        <Dialog
+            open={props.open}
             onClose={props.handleClose}
             TransitionComponent={Transition}
             scroll='body'
             className={classes.CommentModal}
+            // style={{ backgroundColor: 'yellow', padding: '40px' }}
+            fullWidth={true}
         >
             <Box
                 textAlign="right"
             >
-                <CommentClose className={classes.CommentCloseButton} onClick={props.handleClose}/>
+                <CommentClose className={classes.CommentCloseButton} onClick={props.handleClose} />
             </Box>
             {props.showPicture != undefined && props.showPicture != null && props.showPicture
                 ?
@@ -100,27 +118,22 @@ function CommentModal(props) {
                 null
                 : null
             }
-            <DialogTitle>
-                {props.data.Name}
-            </DialogTitle>
-            {renderChipRating(props.data.ReviewRating)}
-            {renderChipTags(props.data)}
+            {/* <DialogTitle>
+            </DialogTitle> */}
+            <p className={classes.textShopName}>{props.data.Name}</p>
             <DialogContent>
-            <DialogContentText>
-                コメントやレビューを表示する。下にスクロールしていけば無限に見ることができる。ゆくゆくはいいね機能、コメント投稿機能、画像付きコメント投稿機能、コメントのいいね数に応じたランク機能、ヤフーロコやGoogleMapへの同時投稿機能、コメントの通報機能、投稿のミュート機能、長いコメントの折り畳み機能、コメントを自然言語処理でジャンル分けする機能、いいねしたコメントに似たコメントを上位表示する機能、TwitterやTiktokへのリンクをクリックするとそれぞれのアプリが開く機能、またはアプリ内ブラウザで閲覧できる機能、コメントの翻訳機能、スパムコメントを自動検出する機能、コメントの中に広告をはさむ機能、お店の公式コメントをトップ表示する機能、地図のリンク機能、タグ機能、インフルエンサーのアカウントに公式マークが表示される機能、コメントを逐次的に読み込んで負荷を減らす機能、コメントへのリプライ機能、コメントの中に予約リンクをはさむ機能、コメントの中にUberリンクをはさむ機能、コメント・クーポン・予約リンクの各タブでそれぞれ閲覧できる機能、高評価コメント・低評価コメントでそれぞれタブ分けして閲覧できる機能、コメントと星を表示する機能、コンテントを検索できる機能などを追加していきたいと考えている<br />
-                {props.data.Address}<br />
-                {props.data.CatchCopy}<br />
-                {props.data.BusinessHour}<br />
-                {props.data.Address}<br />
-                {props.data.BusinessHour}<br />
-                {props.data.Address}<br />
-                {props.data.BusinessHour}<br />
-                {props.data.Address}<br />
-                {props.data.BusinessHour}<br />
-                {props.data.Address}<br />
-                {props.data.BusinessHour}<br />
-                {props.data.Address}<br />
-            </DialogContentText>
+                {renderChipRating(props.data.ReviewRating)}
+                {renderChipTags(props.data)}
+                <DialogContentText>
+                    <div className={classes.textSecondary}>
+                        {props.data.Address}
+                    </div>
+
+                    <div className={classes.textSecondary}>
+                        {props.data.CatchCopy}
+                    </div>
+
+                </DialogContentText>
             </DialogContent>
         </ Dialog >
     )
