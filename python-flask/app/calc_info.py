@@ -2,7 +2,7 @@ import glob
 import os
 
 from geopy.distance import great_circle
-from app import database_functions, config, api_functions
+from app import database_functions, config, api_functions, api_functions_for_test
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 import requests
 import datetime
@@ -234,10 +234,12 @@ def get_google_images_list(restaurants_info):
     # 並列処理
     thread_list = [None for r in restaurants_info]
     for index,r_info in enumerate(restaurants_info):
+        if r_info.google_id is not None:
+            continue
         thread_list[index] = threading.Thread(target=get_google_images, args=(index, r_info, images_list))
         thread_list[index].start()
     for t in thread_list:
-        t.join()
+        if t is not None: t.join()
 
     for i in range(len(restaurants_info)):
         restaurants_info[i].image_url += images_list[i]
@@ -252,39 +254,37 @@ def get_google_images(index, r_info, images_list):
     '''
     店名からGoogle画像を取得する
     '''
+    if config.MyConfig.GET_GOOGLE_IMAGE:
+        r_info = api_functions.google_find_place(r_info=r_info)
+        r_info = api_functions.google_place_details(r_info=r_info)
+    else:
+        r_info = api_functions_for_test.google_find_place(r_info=r_info)
+        r_info = api_functions_for_test.google_place_details(r_info=r_info)
 
-    url_list = [[] for p in r_info.google_photo_reference]
+    url_list = ['' for p in r_info.google_photo_reference]
     thread_list = [None for p in r_info.google_photo_reference]
     for i, reference in enumerate(r_info.google_photo_reference):
+        if i >= config.MyConfig.MAX_GOOGLE_IMAGES_COUNT: break
         thread_list[i] = threading.Thread(target=get_google_image_from_reference, args=(i, reference, url_list))
         thread_list[i].start()
-        if i >= config.MyConfig.MAX_GOOGLE_IMAGES_COUNT: break
     for t in thread_list:
-        t.join()
+        if t is not None: t.join()
 
     print(f"images_list[{index}].url_list = {url_list}")
-    images_list[index] = url_list
+    images_list[index] = [url for url in url_list if len(url)>0]
 
 
 def get_google_image_from_reference(index, reference, url_list):
-    from PIL import Image
-    import os, requests
-    from io import BytesIO
 
     image_width = 400 #画像1枚の最大幅
 
     # print(f"get_google_image: index={index}, i={i}/{len(photo_references)}")
     # image_referenceごとにAPIを叩いて画像を取得
-    url = 'https://maps.googleapis.com/maps/api/place/photo'
-    params = {
-        'key': os.environ['GOOGLE_API_KEY'],
-        'photoreference': reference,
-        'maxwidth': image_width,
-    }
-    res = requests.get(url=url, params=params)
-    # 返ってきたバイナリをImageオブジェクトに変換
+    if config.MyConfig.GET_GOOGLE_IMAGE:
+        image = api_functions.google_place_photo(reference, image_width)
+    else:
+        image = api_functions_for_test.google_place_photo(reference, image_width)
     filename = f"static/{reference}.png"
-    image = Image.open(BytesIO(res.content))
     image.save(filename)
     url_list[index] = f"http://{config.MyConfig.SERVER_URL}:5000/static/{reference}.png"
 

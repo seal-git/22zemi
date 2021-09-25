@@ -129,7 +129,7 @@ def get_restaurants_info(fetch_group,
     # 未取得の情報を店舗ごとにAPIで取得
     restaurants_info = [r for r in restaurants_info if
                         r is not None]
-    for i in range(len(restaurants_info)):
+    for i in range(len(restaurants_info)): # 並列化させたい
         if restaurants_info[i].yahoo_id is not None and restaurants_info[i].google_id is not None:
             # APIから取得済みの場合は飛ばす
             continue
@@ -140,6 +140,7 @@ def get_restaurants_info(fetch_group,
             ## google_idを追加
             # restaurants_info[i] = api_functions.google_find_place(r_info=restaurants_info[i])
             pass
+
         if restaurants_info[i].yahoo_id is not None:
             ## yahooレビューを取得
             restaurants_info[i] = api_functions.yahoo_review(restaurants_info[i])
@@ -147,11 +148,11 @@ def get_restaurants_info(fetch_group,
         if restaurants_info[i].google_id is not None:
             ## googleの情報を追加
             # restaurants_info[i] = api_functions.google_place_details(r_info=restaurants_info[i])
+            # Googleから画像を取得する
             pass
 
-    # Googleから画像を取得する
-    if config.MyConfig.GET_GOOGLE_IMAGE:
-        restaurants_info = calc_info.get_google_images_list(restaurants_info)
+    restaurants_info = calc_info.get_google_images_list(restaurants_info)
+
     ## 画像生成
     # restaurants_info = calc_info.add_google_images(restaurants_info)
 

@@ -1,18 +1,12 @@
-import requests
-import os
 import datetime
-from app import database_functions, calc_info, config
-from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
-from app.database_setting import *  # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
+from app import config
 from app.internal_info import *
-from abc import ABCMeta, abstractmethod
 from flask import abort
 import pprint
 import re
-
-# from PIL import Image
-# from io import BytesIO
-
+from PIL import Image
+import os, requests
+from io import BytesIO
 
 '''
 APIを叩いてinternal_infoに変換する。
@@ -328,7 +322,7 @@ def google_find_place(r_info):
 
     return r_info
 
-def google_place_details(r_info:RestaurantInfo=None):
+def google_place_details(r_info:RestaurantInfo):
     """
     place_detailを取得
 
@@ -340,31 +334,34 @@ def google_place_details(r_info:RestaurantInfo=None):
     -------
 
     """
+    print(f"place details: {r_info.name}")
+
     url = 'https://maps.googleapis.com/maps/api/place/details/json'
     params = {
         'key': os.environ["GOOGLE_API_KEY"],
         'place_id': r_info.google_id,
         'language': 'ja',
-        'fields': 'name,photo,rating,review'
+        'fields': 'photo'
     }
     res = requests.get(url=url, params=params)
     res = res.json()['result']
     # pprint.PrettyPrinter(indent=2).pprint(res)
 
-    if r_info.name is None: r_info.name = res.get("name")
-    if r_info.address is None: r_info.address = res.get("formatted_address")
-    if r_info.lat is None: r_info.lat = res.get("geometry")["location"]["lat"]
-    if r_info.lon is None: r_info.lon = res.get("geometry")["location"]["lng"]
+    # if r_info.name is None: r_info.name = res.get("name")
+    # if r_info.address is None: r_info.address = res.get("formatted_address")
+    # if r_info.lat is None: r_info.lat = res.get("geometry")["location"]["lat"]
+    # if r_info.lon is None: r_info.lon = res.get("geometry")["location"]["lng"]
 
-    r_info.google_rating = res.get("rating")
-    if res.get("reviews") is not None:
-        r_info.review += [r["text"] for r in res.get("reviews")]
+    # r_info.google_rating = res.get("rating")
+    # if res.get("reviews") is not None:
+    #     r_info.review += [r["text"] for r in res.get("reviews")]
+
     r_info.google_photo_reference = [r["photo_reference"] for r in res.get("photos")]
     # TODO: xxxday_opening_hoursを取得する
     return r_info
 
 
-def google_feature_to_info(self, fetch_group, group_id, feature):
+def google_feature_to_info(fetch_group, group_id, feature):
     '''
     Google APIで取得した店舗情報(feature)を、クライアントに送信するjsonの形式に変換する。
     じきに消す
@@ -432,5 +429,29 @@ def google_feature_to_info(self, fetch_group, group_id, feature):
         restaurant_info["Images"] = [no_image_url, no_image_url]
 
     return restaurant_info
+
+
+def google_place_photo(photo_reference, image_width):
+    """
+
+    Parameters
+    ----------
+    photo_reference
+
+    Returns
+    -------
+    image: Image
+    """
+
+    url = 'https://maps.googleapis.com/maps/api/place/photo'
+    params = {
+        'key': os.environ['GOOGLE_API_KEY'],
+        'photoreference': photo_reference,
+        'maxwidth': image_width,
+    }
+    res = requests.get(url=url, params=params)
+    image = Image.open(BytesIO(res.content))
+
+    return image
 
 
