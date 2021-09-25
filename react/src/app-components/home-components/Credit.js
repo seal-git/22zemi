@@ -15,7 +15,7 @@ function Credit(props) {
                         title: "Webサービス by Yahoo! JAPAN",
                         alt: "Webサービス by Yahoo! JAPAN",
                         border: "0",
-                        bottom: "-9%",
+                        bottom: ".5%",
                         position: "absolute",
                     }} />
             </a>

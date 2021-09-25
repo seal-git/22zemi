@@ -120,7 +120,7 @@ function Setting(props) {
                         proceedToSelection("Alone", "")
                     }}>
                         <strong>
-                            みんなを招待する
+                            お店を選ぶ
                         </strong>
                     </button>
                 </div>

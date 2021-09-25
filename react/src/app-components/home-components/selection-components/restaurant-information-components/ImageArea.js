@@ -31,7 +31,7 @@ function Bars(props){
             position='absolute'
         >
             {props.Images.map( (image,i) =>{
-                return <Bar isSelected={i===props.index} onClick={()=>{ props.setIndex(i)}} />
+                return <Bar isSelected={i===props.index} onClick={()=>{ props.setIndex(i)}} key={'bar'+i}/>
             })} 
         </Box>
     )
@@ -68,7 +68,6 @@ function ImageArea(props){
     const [index, setIndex] = useState(0)
 
     useEffect(() => {
-        console.log('imageArea:',props)
         const currentIndex = index
         const t = setInterval(
             () => {

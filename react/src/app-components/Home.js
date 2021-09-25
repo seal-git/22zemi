@@ -142,12 +142,12 @@ function Home(props) {
                                 keepNumberRef={keepNumberRef}
                             />}
                 </div>
-            </div>
             <AppBottomNavigation 
                 view={view} 
                 setView={setView} 
                 keepNumberRef={keepNumberRef}
             />
+            </div>
             </div>
         </div>
     )
