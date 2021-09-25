@@ -138,7 +138,7 @@ class Vote(Base):
     recommend_priority = Column('recommend_priority', Float)
     price = Column('price', Integer) # グループごとの時間帯の値段
     distance_float = Column('distance_float', Float)
-    distance_str = Column('distance_str', String)
+    distance_str = Column('distance_str', String(50))
     recommend_score = Column('recommend_score', Float)
     created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
     updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)
