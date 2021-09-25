@@ -28,8 +28,8 @@ services:
       - mysql
     env_file:
       - .env
-    expose:
-    - "5000"
+    ports:
+    - "5000:5000"
     volumes:
     - ./python-flask:/workspace
     tty: true

@@ -1,546 +1,436 @@
 import requests
 import os
 import datetime
-from app import calc_info
+from app import database_functions, calc_info, config
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
+from app.database_setting import *  # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
+from app.internal_info import *
 from abc import ABCMeta, abstractmethod
+from flask import abort
+import pprint
+import re
+
 # from PIL import Image
 # from io import BytesIO
 
 
 '''
-
-APIで店舗情報を取得する。
-========
-search_restaurant_infoとget_restaurant_infoが最初に呼ばれる。
-
-# 新しいAPIの記述
- - ApiFunctionsクラスを継承して記述してください。
- - ApiFunctionsYahooクラスを参考にしてください
- - search_restaurant_info関数とget_restaurant_info関数に作ったクラスを追加してください。
-
-# 主な流れ
-search_restaurants_info関数は検索条件(search_params)から店の情報(restaurants_info)を取得する。
-get_restaurants_info関数は検索条件(restaurant_ids)から店の情報(restaurants_info)を取得する。
-
-# 主な変数
-restaurants_info: [dict]
-    ユーザにレスポンスするjson
-search_params : dict
-    Yahoo Local Search API の検索クエリと一緒
-restaurant_ids : [string]
-    レストランIDのリスト
-
-calc_info.pyにapi_functions.py関係の関数があります。
+APIを叩いてinternal_infoに変換する。
+新しいAPIを追加する場合は、RestaurantInfoを入力してRestrantInfoを返すようにする。
+つまり、RestaurantInfoの内部情報をAPIで更新していくイメージ。
 '''
 
-# ============================================================================================================
-# ApiFunctionsクラス関連
-
-
-class ApiFunctions(metaclass=ABCMeta):
-
-    @abstractmethod
-    def search_restaurants_info(self, fetch_group, group_id, search_params):
-        '''
-        レコメンドするために条件に合う店を取ってくる
-
-        Parameters
-        ----------------
-        fetch_group : 
-            データベースのグループ情報
-        group_id: int
-            グループID
-        search_params : dict
-            検索条件
-        
-        Returns
-        ----------------
-        restaurants_info : [dict]
-            レスポンスするレストラン情報を返す。
-        '''
-        pass
-
-    @abstractmethod
-    def get_restaurants_info(self, fetch_group, group_id, restaurant_ids):
-        '''
-        restaurant_idsのお店をユーザに返す
-
-        Parameters
-        ----------------
-        fetch_group : 
-            データベースのグループ情報
-        group_id: int
-            グループID
-        restaurant_ids : [string]
-            restaurant_idのリスト
-        
-        Returns
-        ----------------
-        restaurants_info : [dict]
-            レスポンスするレストラン情報を返す。
-        '''
-        pass
-
-
-class ApiFunctionsYahoo(ApiFunctions):
-
-
-    def get_review(self, uid):
-        '''
-        Yahoo APIにアクセスして口コミを見ます
-        '''
-        review_api_url = 'https://map.yahooapis.jp/olp/v1/review/' + uid
-        params = {
-            "appid": os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
-            "output": "json",
-            "results": "100"
-        }
-        try:
-            response = requests.get(review_api_url, params=params)
-            response = response.json()
-        except:
-            return {'ResultInfo':{'Count':0}}
-            
-        return response
-
-
-    def get_review_rating(self, uid):
-        '''
-        Yahoo APIにアクセスして口コミを文字列で返す
-        '''
-        response = self.get_review(uid)
-        if response['ResultInfo']['Count'] == 0 : return '', 0
-        review_rating = sum([f['Property']['Comment']['Rating'] for f in response["Feature"]]) / response['ResultInfo']['Count']
-        review_rating_int = int(review_rating + 0.5)
-        review_rating_star = '★' * review_rating_int + '☆' * (5-review_rating_int)
-        return review_rating_star + '    ' + ('%.1f' % review_rating), review_rating
-
-
-    def feature_to_info(self, fetch_group, group_id, lunch_or_dinner, feature, access_flag):
-        '''
-        Yahoo local search APIで取得した店舗情報(feature)を、クライアントに送信するjsonの形式に変換する。
-        
-        Parameters
-        ----------------
-        fetch_group : 
-            データベースのグループ情報
-        group_id: int
-            グループID
-        lunch_or_dinner:
-            現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
-        feature : dict
-            Yahoo local search APIで取得した店舗情報
-        
-        Returns
-        ----------------
-        restaurant_info : dict
-            レスポンスするレストラン情報をjson形式で返す。
-        '''
-        print(f"feature_to_info(api_yahoo):{access_flag}")
-        MAX_LIST_COUNT = 10
-
-        restaurant_info = {}
-        restaurant_id = feature['Property']['Uid']
-        restaurant_info['Restaurant_id'] = restaurant_id
-        restaurant_info['Name'] = feature['Name']
-        restaurant_info['Address'] = feature['Property']['Address']
-        restaurant_info['CatchCopy'] = feature['Property'].get('CatchCopy')
-        restaurant_info['Price'] = feature['Property']['Detail']['LunchPrice'] if lunch_or_dinner == 'lunch' and feature['Property']['Detail'].get('LunchFlag') == True else feature['Property']['Detail'].get('DinnerPrice')
-        restaurant_info['Price'] = int(restaurant_info['Price']) if type(restaurant_info['Price']) is str else restaurant_info['Price']
-        restaurant_info['LunchPrice'] = feature['Property']['Detail'].get('LunchPrice')
-        restaurant_info['DinnerPrice'] = feature['Property']['Detail'].get('DinnerPrice')
-        restaurant_info['TopRankItem'] = [feature['Property']['Detail']['TopRankItem'+str(j)] for j in range(MAX_LIST_COUNT) if 'TopRankItem'+str(j) in feature['Property']['Detail']] # TopRankItem1, TopRankItem2 ... のキーをリストに。
-        restaurant_info['CassetteOwnerLogoImage'] = feature['Property']['Detail'].get('CassetteOwnerLogoImage')
-        restaurant_info['Category'] = feature['Property']['Genre'][0]['Name']
-        restaurant_info['UrlWeb'] = "https://loco.yahoo.co.jp/place/" + restaurant_id
-        restaurant_info['UrlMap'] = "https://map.yahoo.co.jp/route/walk?from=" + str(fetch_group.address) + "&to=" + restaurant_info['Address']
-        restaurant_info['ReviewRating'], restaurant_info['ReviewRatingFloat'] = self.get_review_rating(restaurant_id) if access_flag == "get" else "", 0
-        restaurant_info['BusinessHour'] = (feature['Property']['Detail'].get('BusinessHour')).replace('<br>', '\n').replace('<br />', '') if feature['Property']['Detail'].get('BusinessHour') is not None else ""
-        restaurant_info['Genre'] = feature['Property']['Genre']
-        restaurant_info['Lon'], restaurant_info['Lat'] = tuple([float(x) for x in feature['Geometry']['Coordinates'].split(',')])
-
-        
-        # Images : 画像をリストにする
-        lead_image = [feature['Property']['LeadImage']] if 'LeadImage' in feature['Property'] else ([feature['Property']['Detail']['Image1']] if 'Image1' in feature['Property']['Detail'] else []) # リードイメージがある時はImage1を出力しない。
-        image_n = [feature['Property']['Detail']['Image'+str(j)] for j in range(2,MAX_LIST_COUNT) if 'Image'+str(j) in feature['Property']['Detail']] # Image1, Image2 ... のキーをリストに。
-        persistency_image_n = [feature['Property']['Detail']['PersistencyImage'+str(j)] for j in range(MAX_LIST_COUNT) if 'PersistencyImage'+str(j) in feature['Property']['Detail']] # PersistencyImage1, PersistencyImage2 ... のキーをリストに。
-        restaurant_info['Images'] = list(dict.fromkeys(lead_image + image_n + persistency_image_n))
-
-        restaurant_info["Image_references"] = calc_info.get_google_images(feature['Name']) if access_flag=="get" else [] #google apiの画像のreferenceを保存
-        restaurant_info["ImageFiles"] = calc_info.create_image(restaurant_info) if access_flag=="get" else [] #1枚の画像のURLを保存 
-        if len(restaurant_info["Images"]) == 0:
-            no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
-            restaurant_info["Images"] = [no_image_url, no_image_url]
-        
-        return restaurant_info
-
-
-    def get_info_from_api(self, fetch_group, group_id, search_params, access_flag):
-        '''
-        Yahoo local search APIで店舗情報(feature)を取得する。
-        
-        Parameters
-        ----------------
-        fetch_group : 
-            データベースのグループ情報
-        group_id : int
-            groupID
-        search_params : dict
-            Yahoo local search APIに送信するクエリ
-        
-        Returns
-        ----------------
-        restaurants_info : [dict]
-            レスポンスするレストラン情報をjson形式で返す。
-        '''
-
-        print(f"get_info_from_api(api_yahoo):{access_flag}")
-
-        lunch_time_start = 10 # 現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
-        lunch_time_end = 15
-
-        # Yahoo local search APIで店舗情報を取得
-        local_search_url = 'https://map.yahooapis.jp/search/local/V1/localSearch'
-        search_params.update({
-            'appid': os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
-            'output': 'json',
-            'detail': 'full'
-        })
-        try:
-            response = requests.get(local_search_url, params=search_params)
-            local_search_json = response.json()
-        except Exception as e:
-            abort(e.code)
-            
-        # 検索の該当が無かったとき
-        if local_search_json['ResultInfo']['Count'] == 0:
-            return {}, []
-
-        # 現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
-        if 'open' in search_params and search_params['open'] != 'now':
-            lunch_or_dinner = 'lunch' if lunch_time_start <= int((search_params['open'].split(','))[1]) < lunch_time_end else 'dinner'
-        else:
-            now_time = datetime.datetime.now().hour + datetime.datetime.now().minute / 60
-            lunch_or_dinner = 'lunch' if lunch_time_start <= now_time < lunch_time_end else 'dinner'
-
-        # Yahoo local search apiで受け取ったjsonをクライアントアプリに送るjsonに変換する
-        restaurants_info = []
-        for i,feature in enumerate(local_search_json['Feature']):
-            restaurants_info.append(self.feature_to_info(fetch_group, group_id, lunch_or_dinner, feature, access_flag))
-            
-        #各お店のオススメ度を追加(相対評価)
-        restaurants_info = calc_info.calc_recommend_score(fetch_group, group_id, restaurants_info)
-        return local_search_json, restaurants_info
-
-
-    def search_restaurants_info(self, fetch_group, group_id, search_params):
-        access_flag = "search"
-        local_search_json, restaurants_info = self.get_info_from_api(fetch_group, group_id, search_params, access_flag)
-        return restaurants_info
-
-    def get_restaurants_info(self, fetch_group, group_id, restaurant_ids):
-        access_flag = "get"
-        search_params = { 'uid': ','.join(restaurant_ids) }
-        local_search_json, restaurants_info = self.get_info_from_api(fetch_group, group_id, search_params, access_flag)
-        return restaurants_info
-
-class ApiFunctionsGoogle(ApiFunctions):
-
-
-    def get_review_rating_string(self, review_rating):
-        '''
-        口コミを文字列で返す
-        '''
-        review_rating = float(review_rating)
-        review_rating_int = int(review_rating + 0.5)
-        review_rating_star = '★' * review_rating_int + '☆' * (5-review_rating_int)
-        return review_rating_star + '    ' + ('%.1f' % review_rating)
-
-
-    def get_place_details(self, fetch_group, group_id, restaurant_ids):
-        
-        url = 'https://maps.googleapis.com/maps/api/place/details/json'
-        lunch_or_dinner = None
-        restaurants_info = []
-        for r_id in restaurant_ids:
-            search_params = {
-                'key': os.environ['GOOGLE_API_KEY'],
-                'place_id': r_id,
-            }  # 検索クエリの設定(詳しくはPlace Search APIのドキュメント参照)
-            try:
-                response = requests.get(url=url, params=search_params)
-                local_search_json = response.json()  # レスポンスのjsonをdict型にする
-            except Exception as e:
-                abort(e.code)
-            feature = local_search_json['result']
-            restaurant_info = self.get_restaurant_info(fetch_group, group_id, feature)
-            restaurants_info.append(restaurant_info)
-            
-        #各お店のオススメ度を追加(相対評価)
-        restaurants_info = calc_info.calc_recommend_score(fetch_group, group_id, restaurants_info)
-        return restaurants_info
-
-    #写真の参照から写真のURLのリストを取得
-    def get_place_photo_urls(self, photo_references, photo_nums=3):
-        """
-        photo_referenceからお店の写真を取得して表示する
-        :param key: API key
-        :param photo_references: 写真参照キーのリスト
-        :return:photos: Imageオブジェクトのリスト
-        """
-        url = 'https://maps.googleapis.com/maps/api/place/photo'
-        maxheight = 400
-        image_urls = [] # お店の写真のImageオブジェクトのリスト
-        # photo_referenceごとにAPIを叩いて画像を取得
-        for photo_ref in photo_references:
-            # Place Photos
-            # params = {
-            #     'key': os.environ['GOOGLE_API_KEY'],
-            #     'photoreference': photo_ref,
-            #     'maxheight': maxheight,
-            # }
-            # response = requests.get(url=url, params=params)
-
-            # 返ってきたバイナリをImageオブジェクトに変換
-            #photo = Image.open(BytesIO(response.content))
-            photo_reference_url = url + f"?maxwidth={maxheight}&photo_reference={photo_ref}&key={os.environ['GOOGLE_API_KEY']}"
-            image_urls.append(photo_reference_url)
-            #image_urls.append("")
-            #photos.append(photo)
-            if len(image_urls) >= photo_nums: #指定枚数返す
-                return image_urls
-        return image_urls
-
-    def get_restaurant_info(self, fetch_group, group_id, feature):
-        '''
-        Google APIで取得した店舗情報(feature)を、クライアントに送信するjsonの形式に変換する。
-        
-        Parameters
-        ----------------
-        fetch_group : 
-            データベースのグループ情報
-        group_id: int
-            グループID
-        lunch_or_dinner:
-            現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
-        feature : dict
-            Google APIで取得した店舗情報
-        
-        Returns
-        ----------------
-        restaurant_info : dict
-            レスポンスするレストラン情報をjson形式で返す。
-        '''
-
-        MAX_LIST_COUNT = 10
-
-        restaurant_info = {}
-        restaurant_id = feature['place_id']
-        restaurant_info['Restaurant_id'] = restaurant_id
-        restaurant_info['Name'] = feature['name']
-        restaurant_info['Address'] = feature['formatted_address'] if 'formatted_address' in feature.keys() else ""
-        restaurant_info['CatchCopy'] = ""
-        restaurant_info['Price'] = feature['plus_code']['price_level'] if 'price_level' in feature['plus_code'].keys() else 0
-        restaurant_info['LunchPrice'] = feature['plus_code']['price_level'] if 'price_level' in feature['plus_code'].keys() else 0
-        restaurant_info['DinnerPrice'] = feature['plus_code']['price_level'] if 'price_level' in feature['plus_code'].keys() else 0
-        restaurant_info['TopRankItem'] = [] #[feature['Property']['Detail']['TopRankItem'+str(j)] for j in range(MAX_LIST_COUNT) if 'TopRankItem'+str(j) in feature['Property']['Detail']] # TopRankItem1, TopRankItem2 ... のキーをリストに。
-        restaurant_info['CassetteOwnerLogoImage'] = feature['icon']
-        restaurant_info['Category'] = feature['types'][0]
-        restaurant_info['UrlWeb'] = feature['website'] if 'website' in feature.keys() else ""
-        restaurant_info['UrlMap'] = feature['url'] if 'url' in feature.keys() else ""
-        restaurant_info['ReviewRating'] = self.get_review_rating_string(feature['rating']) if 'rating' in feature.keys() else ""
-        restaurant_info['ReviewRatingFloat'] = float(feature['rating'])
-        restaurant_info['BusinessHour'] = feature['opening_hours']['weekday_text'] if ('opening_hours' in feature.keys()) and ('weekday_text' in feature['opening_hours'].keys()) else "unknown"
-        restaurant_info['Genre'] = [{'Code': '0', 'Name': 'UnKnown'}]
-        #[{'Code': '0110005', 'Name': 'ビアホール'}]この形式にしたい
-        restaurant_info['Lat'], restaurant_info['Lon'] = feature['geometry']['location'].values()
-        
-        # Images : 画像をリストにする
-        photo_references = [photo['photo_reference'] for photo in feature['photos']] #photo_referenceを複数取得
-        photo_nums = 3 #画像のURL数
-        restaurant_info['ImageFiles'] = calc_info.create_image(restaurant_info)
-        restaurant_info['Images'] = self.get_place_photo_urls(photo_references, photo_nums)
-        if len(restaurant_info["Images"]) == 0:
-            no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
-            restaurant_info["Images"] = [no_image_url, no_image_url]
-        
-        return restaurant_info
-
-    def get_info_from_nearby_search_api(self, fetch_group, group_id, search_params):
-        '''
-        Google APIで店舗情報(feature)を取得する。
-        
-        Parameters
-        ----------------
-        fetch_group : 
-            データベースのグループ情報
-        group_id : int
-            groupID
-        search_params : dict
-            Yahoo local search APIに送信するクエリ
-        
-        Returns
-        ----------------
-        restaurants_info : [dict]
-            レスポンスするレストラン情報をjson形式で返す。
-        '''
-
-        lunch_time_start = 10 # 現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
-        lunch_time_end = 15
-
-        url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json' #緯度経度と半径からお店を取得
-        search_params.update({
-            'key': os.environ['GOOGLE_API_KEY'],
-            'opennow': 'true',
-        })  # 検索クエリの設定(詳しくはPlace Search APIのドキュメント参照)
-        print("================================")
-        print(f"google nearby search:")
-        print(search_params)
-        print("================================")
-        try:
-            response = requests.get(url=url, params=search_params)
-            local_search_json = response.json()  # レスポンスのjsonをdict型にする
-        except Exception as e:
-            abort(e.code)
-
-        # 検索の該当が無かったとき
-        if len(local_search_json['results']) == 0:
-            print("non nearby search")
-            return {}, []
-
-        # apiで受け取ったjsonをクライアントアプリに送るjsonに変換する
-        restaurants_info = []
-        for i,feature in enumerate(local_search_json['results']): #最大20件まで取れる
-            restaurant_info = self.get_restaurant_info(fetch_group, group_id, feature)
-            restaurants_info.append(restaurant_info)
-            
-        #各お店のオススメ度を追加(相対評価)
-        restaurants_info = calc_info.calc_recommend_score(fetch_group, group_id, restaurants_info)
-        return restaurants_info
-
-    def search_restaurants_info(self, fetch_group, group_id, search_params):
-        restaurants_info = self.get_info_from_nearby_search_api(fetch_group, group_id, search_params)
-        return restaurants_info
-
-    def get_restaurants_info(self, fetch_group, group_id, restaurant_ids):
-        restaurants_info = self.get_place_details(fetch_group, group_id, restaurant_ids)
-        return restaurants_info
-
-
-
-class ApiFunctionsHotpepper (ApiFunctions):
-
-    def search_restaurants_info(self, fetch_group, group_id, search_params):
-        # TODO
-        pass
-
-    def get_restaurants_info(self, fetch_group, group_id, restaurant_ids):
-        # TODO
-        pass
-
-
-
-# ============================================================================================================
-# api_functions.pyで最初に呼ばれる
-
-
-def search_restaurants_info(fetch_group, group_id, user_id, search_params, histories_restaurants):
+def yahoo_review(r_info):
     '''
-    レコメンドするために条件に合う店を取ってくる
-    recommend.pyのRecommend.pre_info()から呼ばれる。
+    Yahoo APIにアクセスして口コミを取得する。reviewとratingに保存する。
+    '''
+    # print("get_rating")
+    review_api_url = 'https://map.yahooapis.jp/olp/v1/review/' + r_info.yahoo_id
+    params = {
+        "appid": os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
+        "output": "json",
+        "results": "100"
+    }
+    try:
+        response = requests.get(review_api_url, params=params)
+        response = response.json()
+    except:
+        response["Feature"] = []
 
+    review_list = response["Feature"]
+    if len(review_list) == 0: return r_info
+    pprint.PrettyPrinter(indent=2).pprint(review_list)
+    r_info.review += [review_list['Property']['Comment']['Rating'] for r in
+                     review_list]
+
+    return r_info
+
+
+def yahoo_local_search(params: Params = None,
+                       r_info: RestaurantInfo = None,
+                       r_id: str = None):
+    """
+    yahoo localsearchを使ってRestaruantInfoのリストを返す。
     Parameters
-    ----------------
-    fetch_group : 
-        データベースのグループ情報
-    group_id : int
-    user_id : int
-    search_params : dict
-        検索条件
-    
+    ----------
+    params
+    r_info
+    どちらかが入力されていればそれに応じて検索する
     Returns
-    ----------------
-    restaurants_info : [dict]
-        レスポンスするレストラン情報を返す。
-    '''
+    -------
+    """
+    if params is not None:
+        # paramsで検索
+        # print(f"yahoo_local_search with params")
+        ## distの計算
+        if params.max_dist is not None:
+            dist = params.max_dist / 1000
+        else:
+            dist = config.MyConfig.MAX_DISTANCE
+        ## sortのチェック
+        sort_param = ["rating", "score", "hybrid", "review", "kana", "price",
+                      "dist", "geo", "match"]
+        sort_param += ["-" + i for i in sort_param]
+        sort = params.sort if params.sort in sort_param else "hybrid"
+        ## boolの変換
+        image = "true" if params.image else None
+        loco_mode = "true" if params.loco_mode else None
+        ## 時間指定
+        if params.open_day is not None and params.open_hour is not None:
+            open = str(params.open_day) + "," + str(params.open_hour)
+        else:
+            open = "now"
 
-    api_method = fetch_group.api_method
-    if api_method == "yahoo":
-        api_f = ApiFunctionsYahoo()
-    elif api_method == "google":
-        api_f = ApiFunctionsGoogle() 
-    
-    # 重複して表示しないようにするため、履歴を取得
-    histories_restaurants = [h.restaurant for h in session.query(History.restaurant).filter(History.group==group_id, History.user==user_id).all()]
-    
-    if api_method == "yahoo":
-        # APIで店舗情報を取得
-        if 'start' not in search_params or 'result' not in search_params:
-            start = session.query(Vote.restaurant).filter(Vote.group==group_id).count()
-            result = search_params['stock'] + len(histories_restaurants) - start
-            search_params.update({'start': start, 'result': result})
-            print(f"search_restaurant_info: "
-                  f"B start={search_params['start']}, "
-                  f"result={search_params['result']}")
-    
-    # APIで店舗情報を取得
-    restaurants_info = api_f.search_restaurants_info(fetch_group, group_id, search_params)
+        ## パラメータをdictにして返す
+        params_dict = {
+            "query": params.query,
+            "results": params.results,
+            "start": params.start,
+            "lat": params.lat,
+            "lon": params.lon,
+            "sort": sort,
+            "dist": dist,
+            "image": image,
+            "maxprice": params.max_price,
+            "minprice": params.min_price,
+            "loco_mode": loco_mode,
+            "open": open,
+        }
+    elif r_info is not None:
+        # restaurant_infoで検索
+        # print(f"yahoo_local_search with r_info")
+        if r_info.yahoo_id is not None:
+            params_dict = {
+                "uid": r_info.yahoo_id
+            }
+        else:
+            params_dict = {
+                "query": r_info.name
+            }
+    else:
+        raise ValueError(f"Both params and restaurant_info don't exist.")
 
-    # データベースに店舗情報を保存
-    calc_info.save_restaurants_info(restaurants_info)
-    calc_info.save_votes(group_id, restaurants_info)
+    # APIで検索を実行
+    local_search_url = 'https://map.yahooapis.jp/search/local/V1/localSearch'
+    params_dict.update({
+        'appid': os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
+        'output': 'json',
+        'gc': '01',
+        'detail': 'full'
+    })
+    try:
+        response = requests.get(local_search_url, params=params_dict).json()
+    except Exception as e:
+        abort(e.code)
 
-    # 以前に検索したレストランはデータベースから取得する
-    fetch_restaurants = session.query(Restaurant).filter(Vote.group==group_id, Vote.votes_all==-1, Vote.restaurant==Restaurant.id).all()
-    restaurants_info_from_db = [calc_info.convert_restaurants_info_from_fetch_restaurants(r) for r in fetch_restaurants]
-    restaurants_list_from_db = [r['Restaurant_id'] for r in restaurants_info_from_db]
-    restaurants_info = restaurants_info_from_db + [r for r in restaurants_info if r['Restaurant_id'] not in restaurants_list_from_db]
+    # 検索の該当が無かったとき
+    if response['ResultInfo']['Count'] == 0:
+        return []
 
-    # 投票数と距離を計算
-    restaurants_info = calc_info.add_votes_distance(fetch_group, group_id, restaurants_info)
+    # responseをrestaurant_infoに変換
+    feature_list = response['Feature']
+    # pprint.PrettyPrinter(indent=2).pprint(feature_list)
+
+    restaurants_info = []
+
+    for feature in feature_list:
+        if params is not None:
+            r_info = RestaurantInfo()
+            r_info.id = feature['Property']['Uid']
+
+        r_info.yahoo_id = feature['Property']['Uid']
+        r_info.name = feature['Name']
+        r_info.address = feature['Property'].get('Address')
+        r_info.lon, r_info.lat = tuple(
+            [float(x) for x in feature['Geometry']['Coordinates'].split(',')])
+        r_info.station = [s["Name"] for s in feature["Property"]["Station"]]
+        r_info.railway = [s["Railway"] for s in feature["Property"]["Station"]]
+        r_info.catchcopy = feature['Property'].get('CatchCopy')
+        r_info.lunch_price = feature['Property']['Detail'].get('LunchPrice')
+        if r_info.lunch_price is not None: r_info.lunch_price = int(r_info.lunch_price)
+        r_info.dinner_price = feature['Property']['Detail'].get('DinnerPrice')
+        if r_info.dinner_price is not None: r_info.lunch_price = int(r_info.dinner_price)
+        r_info.category = feature['Property'].get('Genre')[0]['Name']
+        r_info.genre = [feature['Property'].get('Genre')[0]['Name']]
+        r_info.web_url = "https://loco.yahoo.co.jp/place/" + feature['Property']['Uid']
+        r_info.monday_opening_hours = feature["Property"].get("MondayBusinessHour")
+        r_info.tuesday_opening_hours = feature["Property"].get("TuesdayBusinessHour")
+        r_info.wednesday_opening_hours = feature["Property"].get("WednesdayBusinessHour")
+        r_info.thursday_opening_hours = feature["Property"].get("ThursdayBusinessHour")
+        r_info.friday_opening_hours = feature["Property"].get("FridayBusinessHour")
+        r_info.saturday_opening_hours = feature["Property"].get("SaturdayBusinessHour")
+        r_info.sunday_opening_hours = feature["Property"].get("SundayBusinessHour")
+        r_info.access = feature["Property"].get("Access1")
+        r_info.health_info = feature["Property"].get("HealthInfo")
+        r_info.yahoo_rating_float = feature["Property"].get("Rating")
+
+        # レガシーなパラメータ
+        # restaurant_info['TopRankItem'] = [
+        #     feature['Property']['Detail']['TopRankItem' + str(j)] for j in
+        #     range(MAX_LIST_COUNT) if 'TopRankItem' + str(j) in feature['Property'][
+        #         'Detail']]  # TopRankItem1, TopRankItem2 ... のキーをリストに。
+        # restaurant_info['CassetteOwnerLogoImage'] = feature['Property']['Detail'].get(
+        #     'CassetteOwnerLogoImage')
+        # r_info.map_url = "https://map.yahoo.co.jp/route/walk?from=" + str(
+        #     fetch_group.address) + "&to=" + feature['Property']['Address']
+        # r_info['BusinessHour'] = (
+        #     feature['Property']['Detail'].get('BusinessHour')).replace('<br>', '\n').replace(
+        #     '<br />', '') if feature['Property']['Detail'].get(
+        #     'BusinessHour') is not None else ""
+
+        # Images : 画像をリストにする
+        images = []
+        for key, value in feature['Property']['Detail'].items():
+            if re.fullmatch(r"Image\d+|PersistencyImage\d|ItemImageUrl\d", key):
+                images.append(value)
+        # 画像が1枚もないときはnoimageを出力
+        if len(images) == 0:
+            no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
+            images = [no_image_url]
+
+        r_info.image_url = list(set(images)) # setで重複をなくす
+        if len(r_info.image_url)>config.MyConfig.MAX_LIST_COUNT:
+            r_info.image_url = r_info.image_url[:config.MyConfig.MAX_LIST_COUNT]
+
+        restaurants_info.append(r_info)
 
     return restaurants_info
 
 
-def get_restaurants_info(fetch_group, group_id, restaurant_ids):
+def google_nearby_search(params):
     '''
-    restaurant_idsのお店をユーザに返す
-    recommend.pyのRecommend.response_info()から呼ばれる。listリクエストでも呼ばれる。
-    restaurants_idsの順序でrestaurants_infoを返す。
+    Google APIで店舗情報(feature)を取得する。
 
     Parameters
     ----------------
-    fetch_group : 
+    fetch_group :
+        データベースのグループ情報
+    group_id : int
+        groupID
+    search_params : dict
+        Yahoo local search APIに送信するクエリ
+
+    Returns
+    ----------------
+    restaurants_info : [dict]
+        レスポンスするレストラン情報をjson形式で返す。
+    '''
+
+    print(f"google nearby search:")
+    if params.lat is not None and params.lon is not None:
+        location = str(params.lat) + "," + str(params.lon)  # 緯度経度
+    if params.max_price is not None: maxprice = min(params.max_price / 2500, 4.0)
+    if params.min_price is not None: minprice = min(params.min_price / 2500, 4.0)
+    rankby = "distance" if params.sort in ["dist", "geo"] else "prominence"
+
+    search_params = {
+        "keyword": params.query,
+        "location": location,
+        "radius": params.max_dist,
+        "maxprice": maxprice,
+        "minprice": minprice,
+        "rankby": rankby,
+    }
+
+    url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json'  # 緯度経度と半径からお店を取得
+    search_params.update({
+        'key': os.environ['GOOGLE_API_KEY'],
+        'output': 'json',
+        'type': 'restaurant'
+    })  # 検索クエリの設定(詳しくはPlace Search APIのドキュメント参照)
+
+    response = requests.get(url=url, params=search_params)
+    local_search_json = response.json()  # レスポンスのjsonをdict型にする
+
+    # 検索の該当が無かったとき
+    if len(local_search_json['results']) == 0:
+        print("nearby search:result 0")
+        return []
+
+    # apiで受け取ったjsonをクライアントアプリに送るjsonに変換する
+    restaurants_info = []
+    for i, res in enumerate(local_search_json['results']):  # 最大20件まで取れる
+        r_info = RestaurantInfo()
+        r_info.id = res["place_id"]
+        r_info.google_id = res["place_id"]
+        restaurants_info.append(r_info)
+
+    return restaurants_info
+
+
+def google_text_search(params):
+    print(f"google text search:")
+    if params.lat is not None and params.lon is not None:
+        location = str(params.lat) + "," + str(params.lon)  # 緯度経度
+    if params.max_price is not None: maxprice = min(params.max_price / 2500, 4.0)
+    if params.min_price is not None: minprice = min(params.min_price / 2500, 4.0)
+    search_params = {
+        "query": params.query,
+        "location": location,
+        "radius": params.max_dist,
+        "maxprice": maxprice,
+        "minprice": minprice,
+    }
+
+    url = 'https://maps.googleapis.com/maps/api/place/textsearch/json'  # 緯度経度と半径からお店を取得
+    params.update({
+        'key': os.environ['GOOGLE_API_KEY'],
+        'output': 'json',
+        'type': 'restaurant',
+        'language': 'ja'
+    })  # 検索クエリの設定(詳しくはPlace Search APIのドキュメント参照)
+
+    response = requests.get(url=url, params=search_params)
+    local_search_json = response.json()  # レスポンスのjsonをdict型にする
+
+    # 検索の該当が無かったとき
+    if len(local_search_json['results']) == 0:
+        print("text search: result 0")
+        return []
+
+    # apiで受け取ったjsonをクライアントアプリに送るjsonに変換する
+    restaurants_info = []
+    for i, res in enumerate(local_search_json['results']):  # 最大20件まで取れる
+        r_info = RestaurantInfo()
+        r_info.id = res["place_id"]
+        r_info.google_id = res["place_id"]
+        restaurants_info.append(r_info)
+
+    return restaurants_info
+
+
+
+def google_find_place(r_info):
+    """
+    google find placeでお店のgoogle_idを取得
+    Parameters
+    ----------
+    r_info
+
+    Returns
+    -------
+    r_info
+    """
+    # place検索
+    print(f"find place: {r_info.name}")
+    url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
+    params = {
+        'key': os.environ["GOOGLE_API_KEY"],
+        'input': r_info.name,
+        'inputtype': 'textquery',
+        'fields': 'place_id'
+    }
+    res = requests.get(url=url, params=params)
+    res = res.json()['candidates'][0]
+
+    if r_info.id is None: r_info.id = res['place_id']
+    r_info.google_id = res['place_id']
+
+    return r_info
+
+def google_place_details(r_info:RestaurantInfo=None):
+    """
+    place_detailを取得
+
+    Parameters
+    ----------
+    r_info
+
+    Returns
+    -------
+
+    """
+    url = 'https://maps.googleapis.com/maps/api/place/details/json'
+    params = {
+        'key': os.environ["GOOGLE_API_KEY"],
+        'place_id': r_info.google_id,
+        'language': 'ja',
+        'fields': 'name,photo,rating,review'
+    }
+    res = requests.get(url=url, params=params)
+    res = res.json()['result']
+    # pprint.PrettyPrinter(indent=2).pprint(res)
+
+    if r_info.name is None: r_info.name = res.get("name")
+    if r_info.address is None: r_info.address = res.get("formatted_address")
+    if r_info.lat is None: r_info.lat = res.get("geometry")["location"]["lat"]
+    if r_info.lon is None: r_info.lon = res.get("geometry")["location"]["lng"]
+
+    r_info.google_rating = res.get("rating")
+    if res.get("reviews") is not None:
+        r_info.review += [r["text"] for r in res.get("reviews")]
+    r_info.google_photo_reference = [r["photo_reference"] for r in res.get("photos")]
+    # TODO: xxxday_opening_hoursを取得する
+    return r_info
+
+
+def google_feature_to_info(self, fetch_group, group_id, feature):
+    '''
+    Google APIで取得した店舗情報(feature)を、クライアントに送信するjsonの形式に変換する。
+    じきに消す
+
+    Parameters
+    ----------------
+    fetch_group :
         データベースのグループ情報
     group_id: int
         グループID
-    restaurant_ids : [string]
-        restaurant_idのリスト
-    
+    lunch_or_dinner:
+        現在時刻でランチかディナーか決定する。価格表示に使用している。今のところ検索には使用していない。
+    feature : dict
+        Google APIで取得した店舗情報
+
     Returns
     ----------------
-    restaurants_info : [dict]
-        レスポンスするレストラン情報を返す。
+    restaurant_info : dict
+        レスポンスするレストラン情報をjson形式で返す。
     '''
-    api_method = fetch_group.api_method
-    if api_method == "yahoo":
-        api_f = ApiFunctionsYahoo()
-    elif api_method == "google":
-        api_f = ApiFunctionsGoogle() 
 
-    # データベースから店舗情報を取得
-    restaurant_ids_del_none = [x for x in restaurant_ids if x is not None]
-    restaurants_info = calc_info.load_restaurants_info(restaurant_ids_del_none)
+    MAX_LIST_COUNT = 10
 
-    # データベースにない店舗の情報をAPIで取得
-    rest_ids = [rid for rid, r_info in zip(restaurant_ids, restaurants_info) if r_info is None]
-    rs_info = api_f.get_restaurants_info(fetch_group, group_id, rest_ids)
-    for r_info in rs_info:
-        restaurants_info[ restaurant_ids_del_none.index(r_info['Restaurant_id']) ] = r_info
-    restaurants_info = [r for r in restaurants_info if r is not None] # feelingリクエストで架空のrestaurants_idだったときには、それを除く
+    restaurant_info = {}
+    restaurant_id = feature['place_id']
+    restaurant_info['Restaurant_id'] = restaurant_id
+    restaurant_info['Name'] = feature['name']
+    restaurant_info['Address'] = feature[
+        'formatted_address'] if 'formatted_address' in feature.keys() else ""
+    restaurant_info['CatchCopy'] = ""
+    restaurant_info['Price'] = feature['plus_code']['price_level'] if 'price_level' in \
+                                                                      feature[
+                                                                          'plus_code'].keys() else 0
+    restaurant_info['LunchPrice'] = feature['plus_code'][
+        'price_level'] if 'price_level' in feature['plus_code'].keys() else 0
+    restaurant_info['DinnerPrice'] = feature['plus_code'][
+        'price_level'] if 'price_level' in feature['plus_code'].keys() else 0
+    restaurant_info[
+        'TopRankItem'] = []  # [feature['Property']['Detail']['TopRankItem'+str(j)] for j in range(MAX_LIST_COUNT) if 'TopRankItem'+str(j) in feature['Property']['Detail']] # TopRankItem1, TopRankItem2 ... のキーをリストに。
+    restaurant_info['CassetteOwnerLogoImage'] = feature['icon']
+    restaurant_info['Category'] = feature['types'][0]
+    restaurant_info['UrlWeb'] = feature['website'] if 'website' in feature.keys() else ""
+    restaurant_info['UrlMap'] = feature['url'] if 'url' in feature.keys() else ""
+    restaurant_info['ReviewRating'] = self.get_review_rating_string(
+        feature['rating']) if 'rating' in feature.keys() else ""
+    restaurant_info['ReviewRatingFloat'] = float(feature['rating'])
+    restaurant_info['BusinessHour'] = feature['opening_hours']['weekday_text'] if (
+                                                                                              'opening_hours' in feature.keys()) and (
+                                                                                              'weekday_text' in
+                                                                                              feature[
+                                                                                                  'opening_hours'].keys()) else "unknown"
+    restaurant_info['Genre'] = [{'Code': '0', 'Name': 'UnKnown'}]
+    # [{'Code': '0110005', 'Name': 'ビアホール'}]この形式にしたい
+    restaurant_info['Lat'], restaurant_info['Lon'] = feature['geometry'][
+        'location'].values()
 
-    # 投票数と距離を計算
-    restaurants_info = calc_info.add_votes_distance(fetch_group, group_id, restaurants_info)
+    # Images : 画像をリストにする
+    photo_references = [photo['photo_reference'] for photo in
+                        feature['photos']]  # photo_referenceを複数取得
+    photo_nums = 3  # 画像のURL数
+    # restaurant_info['ImageFiles'] = calc_info.create_image(restaurant_info)
+    restaurant_info['Images'] = self.get_place_photo_urls(photo_references, photo_nums)
+    if len(restaurant_info["Images"]) == 0:
+        no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
+        restaurant_info["Images"] = [no_image_url, no_image_url]
 
-    return restaurants_info
+    return restaurant_info
+
+
