@@ -2,9 +2,11 @@ import glob
 import os
 
 from geopy.distance import great_circle
-from app import database_functions
+from app import database_functions, config, api_functions
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 import requests
+import datetime
+import threading
 
 '''
 
@@ -32,12 +34,22 @@ def add_votes_distance(fetch_group, group_id, restaurants_info):
         レスポンスするレストラン情報を返す。
     '''
     for i in range(len(restaurants_info)):
-        restaurants_info[i]['VotesLike'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling==True).count() # レストランのいいね数
-        restaurants_info[i]['VotesAll'] = session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling is not None).count() # レストランの投票人数
-        restaurants_info[i]['NumberOfParticipants'] = str(database_functions.get_participants_count(group_id)) # グループの参加人数
-        restaurants_info[i]["distance_float"] = great_circle((fetch_group.lat, fetch_group.lon), (restaurants_info[i]['Lat'], restaurants_info[i]['Lon'])).m #距離 メートル float
-        restaurants_info[i]['Distance'] = distance_display(restaurants_info[i]["distance_float"]) # 緯度・経度から距離を計算 str
-    restaurants_info = calc_recommend_score(fetch_group, group_id, restaurants_info)
+        restaurants_info[i].votes_like = session.query(History).filter(History.group==group_id,
+                                                                    History.restaurant==restaurants_info[i].id,
+                                                                    History.feeling==True
+                                                                    ).count() # レストランのいいね数
+        restaurants_info[i].votes_all = session.query(History).filter(History.group==group_id,
+                                                                      History.restaurant==restaurants_info[i].id,
+                                                                      History.feeling is not None
+                                                                      ).count() # レストランの投票人数
+        restaurants_info[i].number_of_participants = str(database_functions.get_participants_count(group_id)) # グループの参加人数
+        if restaurants_info[i].distance_float is None:
+            restaurants_info[i].distance_float = great_circle((fetch_group.lat,
+                                                               fetch_group.lon),
+                                                              (restaurants_info[i].lat,
+                                                               restaurants_info[i].lon)
+                                                              ).m #距離 メートル float
+            restaurants_info[i].distance_str = distance_display(restaurants_info[i].distance_float) # 緯度・経度から距離を計算 str
 
     return restaurants_info
 
@@ -53,7 +65,7 @@ def distance_display(distance):
     return str(distance) + "m"
 
     
-def calc_recommend_score(fetch_group, group_id, restaurants_info):
+def calc_recommend_score(fetch_group, restaurants_info):
     '''
     オススメ度を計算する
     
@@ -84,8 +96,8 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
     index_list = []
     for i in range(len(restaurants_info)):
         try:
-            price = int(restaurants_info[i]["Price"])
-            distance = restaurants_info[i]["distance_float"]
+            price = int(restaurants_info[i].price)
+            distance = restaurants_info[i].distance_float
             try:
                 price_score = 1 if price <= price_average else price_average / price #グループ価格に対する比でスコア付
             except:
@@ -97,8 +109,8 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
                 distance_score = 0
 
             #投票されていればスコアが計算される
-            if restaurants_info[i]["VotesAll"] > 0:
-                vote_score = (restaurants_info[i]["VotesLike"] / restaurants_info[i]["VotesAll"])
+            if restaurants_info[i].votes_all > 0:
+                vote_score = (restaurants_info[i].votes_like / restaurants_info[i].votes_all)
                 score = int(round(((price_score + distance_score + vote_score) / 3) * 100, 0))
                 #restaurants_info[i]["RecommendScore"] = score
                 score_list.append(score)
@@ -113,7 +125,7 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
 
     if len(score_list) == 0:
         for i,r in enumerate(restaurants_info):
-            restaurants_info[i]["RecommendScore"] = 100
+            restaurants_info[i].recommend_score = 100
 
     #normalize score
     max_score = max(score_list) if len(score_list) != 0 else 100
@@ -129,49 +141,153 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
         norm_score_list.append(norm_score)
     
     for i, n_s in zip(index_list, norm_score_list):
-        restaurants_info[i]["RecommendScore"] = round(n_s)
+        restaurants_info[i].recommend_score = round(n_s)
 
     return restaurants_info
 
 
-# ============================================================================================================
-# image
-
-def get_google_images(restaurant_name):
-    if os.getenv("USE_LOCAL_IMAGE")=="True": # debug mode
-        print("getting image reference from test/data")
-        with open("test/data/references.txt", "r")as f:
-            image_references = [l for l in f]
-        return image_references
+def add_price(fetch_group, restaurants_info):
+    # 設定された時間での値段を設定する
+    if fetch_group.open_hour is not None:
+        hour = int(fetch_group.open_hour.hour)
     else:
-        # place検索
-        url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
-        params = {
-            'key': os.environ["GOOGLE_API_KEY"],
-            'input': restaurant_name,
-            'inputtype': 'textquery',
-        }
-        res = requests.get(url=url, params=params)
-        dic = res.json()
-        place_id = dic['candidates'][0]['place_id']
+        hour = datetime.datetime.now().hour + datetime.datetime.now().minute / 60
 
-        # place_detailを取得
-        url = 'https://maps.googleapis.com/maps/api/place/details/json'
-        params = {
-            'key': os.environ["GOOGLE_API_KEY"],
-            'place_id': place_id,
-        }
-        res = requests.get(url=url, params=params)
-        dic = res.json()
-        if 'photos' in dic['result']:
-            photo_references = [photo['photo_reference'] for photo in dic['result']['photos']]
+    for i in range(len(restaurants_info)):
+        if restaurants_info[i].price is not None:
+            continue
+        if config.MyConfig.LUNCH_TIME_START <= hour < config.MyConfig.LUNCH_TIME_END:
+            restaurants_info[i].price = restaurants_info[i].lunch_price
         else:
-            photo_references = []
-    return photo_references
+            restaurants_info[i].price = restaurants_info[i].dinner_price
+
+    return restaurants_info
+
+
+
+def add_review_rating(restaurants_info):
+    '''
+    Yahoo APIにアクセスして口コミを文字列で返す
+    '''
+    for i in range(len(restaurants_info)):
+        if restaurants_info[i].yahoo_rating_float is not None:
+            review_rating = float(restaurants_info[i].yahoo_rating_float)
+        else:
+            rating = restaurants_info[i].yahoo_rating
+            if rating is None:
+                continue
+            review_rating = sum(rating)/len(rating)
+        review_rating_int = int(review_rating + 0.5)
+        review_rating_star = '★' * review_rating_int + '☆' * (5-review_rating_int)
+        review_rating_star = review_rating_star + '    ' + ('%.1f' % review_rating)
+        # print(f"add_rating: {review_rating_star}")
+        restaurants_info[i].yahoo_rating_str = review_rating_star
+        restaurants_info[i].yahoo_rating_float = review_rating
+
+    return restaurants_info
+
+
+def get_google_images_list(restaurants_info):
+    '''
+    Googleから複数の店の画像を並列に取得する
+    '''
+    images_list = [[] for r in restaurants_info]
+    # 並列処理
+    thread_list = [None for r in restaurants_info]
+    for index,r_info in enumerate(restaurants_info):
+        thread_list[index] = threading.Thread(target=get_google_images, args=(index, r_info, images_list))
+        thread_list[index].start()
+    for t in thread_list:
+        t.join()
+
+    for i in range(len(restaurants_info)):
+        restaurants_info[i].image_url += images_list[i]
+    # # 逐次処理
+    # for index,name in enumerate(name_list):
+    #     get_google_images(index, name, images_list)
+
+    return restaurants_info
+
+
+def get_google_images(index, r_info, images_list):
+    '''
+    店名からGoogle画像を取得する
+    '''
+
+    url_list = [[] for p in r_info.google_photo_reference]
+    thread_list = [None for p in r_info.google_photo_reference]
+    for i, reference in enumerate(r_info.google_photo_reference):
+        thread_list[i] = threading.Thread(target=get_google_image_from_reference, args=(i, reference, url_list))
+        thread_list[i].start()
+        if i >= config.MyConfig.MAX_GOOGLE_IMAGES_COUNT: break
+    for t in thread_list:
+        t.join()
+
+    print(f"images_list[{index}].url_list = {url_list}")
+    images_list[index] = url_list
+
+
+def get_google_image_from_reference(index, reference, url_list):
+    from PIL import Image
+    import os, requests
+    from io import BytesIO
+
+    image_width = 400 #画像1枚の最大幅
+
+    # print(f"get_google_image: index={index}, i={i}/{len(photo_references)}")
+    # image_referenceごとにAPIを叩いて画像を取得
+    url = 'https://maps.googleapis.com/maps/api/place/photo'
+    params = {
+        'key': os.environ['GOOGLE_API_KEY'],
+        'photoreference': reference,
+        'maxwidth': image_width,
+    }
+    res = requests.get(url=url, params=params)
+    # 返ってきたバイナリをImageオブジェクトに変換
+    filename = f"static/{reference}.png"
+    image = Image.open(BytesIO(res.content))
+    image.save(filename)
+    url_list[index] = f"http://{config.MyConfig.SERVER_URL}:5000/static/{reference}.png"
+
+
+# def get_google_images_references(restaurant_name):
+#     '''
+#     店名からGoogleから画像を取得する
+#     '''
+#     if os.getenv("USE_LOCAL_IMAGE")=="True": # debug mode
+#         print("getting image reference from test/data")
+#         with open("test/data/references.txt", "r")as f:
+#             image_references = [l for l in f]
+#         return image_references
+#     else:
+#         # place検索
+#         url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
+#         params = {
+#             'key': os.environ["GOOGLE_API_KEY"],
+#             'input': restaurant_name,
+#             'inputtype': 'textquery',
+#         }
+#         res = requests.get(url=url, params=params)
+#         dic = res.json()
+#         place_id = dic['candidates'][0]['place_id']
+
+#         # place_detailを取得
+#         url = 'https://maps.googleapis.com/maps/api/place/details/json'
+#         params = {
+#             'key': os.environ["GOOGLE_API_KEY"],
+#             'place_id': place_id,
+#         }
+#         res = requests.get(url=url, params=params)
+#         dic = res.json()
+#         if 'photos' in dic['result']:
+#             photo_references = [photo['photo_reference'] for photo in dic['result']['photos']]
+#         else:
+#             photo_references = []
+#     return photo_references
 
 from memory_profiler import profile
 @profile
-def create_image(restaurant_info):
+def add_google_image(restaurant_info):
     '''
     画像をGoogleAPIから読み込んで、つなぎ合わせる。
     縦2列に並んだ画像が800x1200の1枚の画像になる。
@@ -204,8 +320,7 @@ def create_image(restaurant_info):
         buffer = BytesIO()
         image.save(buffer, format="jpeg")
         with open(filename, "w") as f:
-            f.write(base64.b64encode(buffer.getvalue()).decode("ascii")
-)
+            f.write(base64.b64encode(buffer.getvalue()).decode("ascii"))
         del buffer, image
         gc.collect()
 
@@ -252,7 +367,7 @@ def create_image(restaurant_info):
         print(f"_image{i}", sys.getsizeof(_image.tobytes()))
 
         if use_raw_image:
-            save_b64(f"data/image/{filename}", _image)
+            save_b64(f"{config.MyConfig.IMAGE_DIRECTORY_PATH}{filename}", _image)
             image_file_list.append(f"{filename}")
 
     if use_raw_image:
@@ -318,9 +433,9 @@ def create_image(restaurant_info):
 
         # 画像のb64の保存
         filename = restaurant_info['Restaurant_id']+"_"+str(idx)
-        save_b64(f"data/image/{filename}", new_image)
+        save_b64(f"{config.MyConfig.IMAGE_DIRECTORY_PATH}{filename}", new_image)
         image_file_list.append(filename)
-        print(f"create_image: file saved at data/image/{filename}")
+        print(f"create_image: file saved at {config.MyConfig.IMAGE_DIRECTORY_PATH}{filename}")
         # 画像の保存
         if use_local_image:
             new_image.save(f"./data/tmp/{filename}.jpg")
@@ -337,7 +452,7 @@ def create_image(restaurant_info):
     del row1_image, row2_image, row12_image, new_image
     gc.collect()
     # キャッシュファイル削除
-    [os.remove(file) for file in glob.glob("data/tmp/image*.jpg")]
+    [os.remove(file) for file in glob.glob(f"data/tmp/image*.jpg")]
 
 
     return image_file_list

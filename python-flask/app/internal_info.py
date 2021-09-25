@@ -1,15 +1,19 @@
 import requests
 import os
 import datetime
-from app import calc_info
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 from abc import ABCMeta, abstractmethod
 from flask import abort
 # from PIL import Image
 # from io import BytesIO
 from app import config
+import pprint
 
-
+"""
+internal_info.py
+検索クエリと店舗情報を内部で扱うためのクラス。
+パラメータを増やしたい場合はここを増やしてからdatabase_functionsとapi_functionsをそれぞれ編集する。
+"""
 class Params:
     """
     内部で共通の検索クエリを扱うことで、APIごとに異なる検索クエリの違いを吸収する。
@@ -21,14 +25,14 @@ class Params:
         self.lat: float = None # 中心の緯度
         self.lon: float = None # 中心の経度
         self.max_dist: int = config.MyConfig.MAX_DISTANCE # 中心からの検索距離(m)
-        self.open_day: str = None # 日付指定
-        self.open_hour: str = None # 時間指定
+        self.open_day: str = datetime.datetime.now().day  # 日付指定
+        self.open_hour: str = datetime.datetime.now().hour  # 時間指定
         self.open_now: bool = False # 今開店しているか
         self.max_price: int = None # 値段の最大値(円)
         self.min_price: int = None # 値段の最小値(円)
         self.loco_mode: bool = False # Yahooロコの検索機能(ランチ、飲み放題、食べ放題、女子会、個室で検索できる)
         self.image: bool = False # 画像のあるものだけを出力
-        self.results: int = config.MyConfig.RESPONSE_COUNT # 取得件数
+        self.results: int = config.MyConfig.STOCK_COUNT # 取得件数
         self.start: int = 0  # 取得開始位置
         self.sort: str = None # ソート順の指定
     
@@ -61,90 +65,6 @@ class Params:
             if not key.startswith("__"): params[key] = value
         return params
 
-    def get_yahoo_params(self):
-        # distの計算
-        if self.max_dist is not None:
-            dist = self.max_dist/1000
-        else:
-            dist = config.MyConfig.MAX_DISTANCE
-
-        # sortのチェック
-        sort_param = ["rating", "score", "hybrid", "review", "kana", "price",
-                      "dist", "geo", "match"]
-        sort_param += ["-"+i for i in sort_param]
-        sort = self.sort if self.sort in sort_param else "hybrid"
-        # boolの変換
-        image = "true" if self.image else None
-        loco_mode = "true" if self.loco_mode else None
-        # 時間指定
-        if self.open_day is not None and self.open_hour is not None:
-            open = str(self.open_day) + "," + str(self.open_hour)
-        else:
-            open = "now"
-
-        # パラメータをdictにして返す
-        params = {
-            "query": self.query,
-            "results": self.results,
-            "start": self.start,
-            "lat": self.lat,
-            "lon": self.lon,
-            "sort": sort,
-            "dist": dist,
-            "image": image,
-            "maxprice": self.max_price,
-            "minprice": self.min_price,
-            "loco_mode": loco_mode,
-            "open": open,
-        }
-        return params
-
-    def get_textsearch_params(self):
-        """
-        textsearch用クエリを出力する。
-        query, location, radius, maxprice, minprice, regionが設定できる。
-        Returns
-        -------
-
-        """
-        if self.lat is not None and self.lon is not None:
-            location = str(self.lat)+","+str(self.lon) # 緯度経度
-        if self.max_price is not None: maxprice = min(self.max_price/2500, 4.0)
-        if self.min_price is not None: minprice = min(self.min_price/2500, 4.0)
-        params = {
-            "query": self.query,
-            "location": location,
-            "radius": self.max_dist,
-            "maxprice": maxprice,
-            "minprice": minprice,
-        }
-        return params
-
-    def get_nearbysearch_params(self):
-        """
-        nearbysearch用クエリを出力する。
-        keyword, location, radius, maxprice, minprice, rankbyが設定できる。
-        Returns
-        -------
-        """
-
-        if self.lat is not None and self.lon is not None:
-            location = str(self.lat)+","+str(self.lon) # 緯度経度
-        if self.max_price is not None: maxprice = min(self.max_price/2500, 4.0)
-        if self.min_price is not None: minprice = min(self.min_price/2500, 4.0)
-        rankby = "distance" if self.sort in ["dist", "geo"] else "prominence"
-
-        params = {
-            "keyword": self.query,
-            "location": location,
-            "radius": self.max_dist,
-            "maxprice": maxprice,
-            "minprice": minprice,
-            "rankby": rankby,
-        }
-        return params
-
-# TODO: RestaurantInfoクラスを作る
 
 class RestaurantInfo:
     """
@@ -152,18 +72,20 @@ class RestaurantInfo:
     このパラメータはRestaurantテーブルで定義されているものに対応している。(TODO: 未対応のものもまだある)
     """
     def __init__(self):
+        # 静的パラメーター(DBに保存するもの) -> Restaurantテーブルに保存
         self.id: str = None  # レストランID。yahoo_idとgoogle_id先に入った方。
         self.yahoo_id: str = None  # YahooのUid
-        self.google.id: str = None  # Googleのplace_id
+        self.google_id: str = None  # Googleのplace_id
         self.name: str = None  # 店名
         self.address: str = None  # 住所
         self.lat: float = None  # 緯度
         self.lon: float = None  # 経度
         self.address: str = None  # 住所
-        self.station: list[str] = None  # 駅
-        self.railway: list[str] = None  # 路線
+        self.station: list[str] = []  # 駅
+        self.railway: list[str] = []  # 路線
         self.phone: str = None  # 電話番号
-        self.category: str = None  # カテゴリ
+        self.genre_name: list[str] = []  # ジャンル
+        self.genre_code: list[str] = []  # ジャンル
         self.lunch_price: int = None  # ランチの値段
         self.dinner_price: int = None  # ディナーの値段
         self.monday_opening_hours: str = None  # 月曜の営業時間
@@ -177,45 +99,69 @@ class RestaurantInfo:
         self.catchcopy: str = None  # キャッチコピー
         self.health_info: str = None  # 感染症対策情報
         self.web_url: str = None  # webサイトURL
-        self.map_url: str = None  # 地図URL
-        self.rating: float = None  # 星評価
-        self.review: [str] = None  # レビュー
-        self.image_url: [str] = None  # 画像のurl
+        self.map_url: str = None  # 地図URL 現在地からの経路ならば動的パラメータ？
+        self.yahoo_rating: list[float] = []  # 星評価のリスト
+        self.yahoo_rating_float: str = None  # 星評価の平均
+        self.yahoo_rating_str: str = None  # 星評価の平均を文字列で表したもの
+        self.google_rating: float = None  # 星評価
+        self.review: list[str] = []  # レビュー
+        self.image_url: list[str] = []  # 画像のurl
+        self.google_photo_reference: list[str] = []
 
-    def get_info_from_yahoo(self):
+        # 動的パラメーター(呼び出す度に計算するもの) -> Voteテーブルに保存
+        self.price: int = None  # 指定時刻の値段
+        self.opening_hours: str = None  # 指定時刻の営業時間
+        self.distance_float: float = None  # 中心地からの距離
+        self.distance_str: str = None  # 距離(文字列)
+        self.votes_all: int = -1  # 投票数
+        self.votes_like: int = -1  # like投票数
+        self.number_of_participants: int = 0  # グループの参加人数
+        self.recommend_score: float = None  # おすすめ度
+        self.recommend_priority: float = -1.0 # キューの優先度
+
+
+    def get_dict(self):
         """
-        yahooAPIからの情報をRestaurantInfoにまとめる
+        RestaurantInfoの情報をdictで出力
 
         Returns
         -------
-        self
+        r_info_dict
 
         """
-        return self
+        r_info_dict = {}
+        for key, value in self.__dict__.items():
+            if not key.startswith("__"):
+                r_info_dict[key] = value
 
-    def get_info_from_google(self):
-        """
-        google find placeからの情報をRestaurantInfoにまとめる
+        return r_info_dict
 
-        Returns
-        -------
-        self
+    def get_dict_for_react(self):
         """
-        return self
-
-    # ここから下はメンバ関数として実装するか未確定
-    def get_yahoo_review(self):
-        """"
-        yahooAPIからレビューをとってくる
-        """
-        return self
-
-    def get_google_photo(self):
-        """
-        googleの画像をとってくる
+        RestaurantInfoの情報をreact用のdictで出力
         Returns
         -------
 
         """
+        r_info_dict = {
+            'Restaurant_id': self.id,
+            'Name': self.name,
+            'Distance': self.distance_float,
+            'CatchCopy': self.catchcopy,
+            'Price': self.price,
+            'Address': self.address,
+            'Images': self.image_url,
+            'ReviewRating': self.yahoo_rating_str,
+            'VotesLike': self.votes_like,
+            'VotesAll': self.votes_all,
+            'NumberOfParticipants': self.number_of_participants,
+            'RecommendScore': self.recommend_score,
+            'BusinessHour': self.sunday_opening_hours,
+            # TODO: 以下は導入するか別途決める
+            'TopRankItem': [],
+            'CassetteOwnerLogoImage': [],
+            'ImagesBinary': [],
+        }
+        # pprint.PrettyPrinter(indent=2).pprint(r_info_dict)
 
-        return self
+        return r_info_dict

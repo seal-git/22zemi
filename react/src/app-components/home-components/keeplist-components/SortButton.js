@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 // パッケージからインポート
 import { makeStyles } from '@material-ui/core/styles'
 
+
 const useStyles = makeStyles({
     sortButtonActive: {
         // display: 'inline',
@@ -9,9 +10,9 @@ const useStyles = makeStyles({
         backgroundColor: "#D90060",
         color: "#FFF",
         fontWeight: "700",
-        padding: "2px 8px",
-        margin: "0px 4px ",
-        lineHeight: "22px",
+        padding: "2px 12px",
+        margin: "auto 6px",
+        lineHeight: "30px",
         borderRadius: "30px",
         fontSize: "13px",
         textAlign: "center",
@@ -23,9 +24,9 @@ const useStyles = makeStyles({
         backgroundColor: "#C8C8C8",
         color: "#373737",
         fontWeight: "700",
-        padding: "2px 8px",
-        margin: "0px 4px",
-        lineHeight: "22px",
+        padding: "2px 12px",
+        margin: "auto 6px",
+        lineHeight: "30px",
         borderRadius: "30px",
         fontSize: "13px",
         textAlign: "center",

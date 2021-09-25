@@ -10,7 +10,7 @@ import FavoriteIcon from '@material-ui/icons/Favorite'
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        margin: '8px 10px 10px 10px',
+        margin: '0px 10px 10px 10px',
         borderRadius: '10px',
     },
     media: {
@@ -29,12 +29,12 @@ function KeepListTile(props) {
         props.onClick(props.data)
     }
 
+
     return (
         <Card className={classes.root}>
-
             <CardMedia
                 className={classes.media}
-                image="https://thumb.photo-ac.com/3d/3d0a74fabc7dfa20c50ef766bf733f45_w.jpeg"
+                image={props.data.Images[0]}
                 title="tempImg"
             />
             <CardContent class="cardContent">

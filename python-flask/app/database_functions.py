@@ -1,4 +1,5 @@
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
+from app.internal_info import *
 from app import config
 import datetime
 import requests
@@ -44,6 +45,7 @@ def get_histories_restaurants(group_id, user_id):
 
 def get_lat_lon_address(query):
     '''
+    api_function行き?
     Yahoo APIを使って、緯度・経度・住所を返す関数
 
     Parameters
@@ -138,6 +140,7 @@ def generate_user_id():
             return user_id
     return user_id # error
 
+
 def register_user_and_group_if_not_exist(group_id, user_id, place, recommend_method, api_method):
     
     # ユーザが未登録ならばデータベースに登録する
@@ -150,6 +153,7 @@ def register_user_and_group_if_not_exist(group_id, user_id, place, recommend_met
         print(f"new user {user_id} registered")
     
     # グループが未登録ならばデータベースに登録する
+    first_time_group_flg = False
     fetch_group = session.query(Group).filter(Group.id==group_id).first()
     if fetch_group is None:
         lat,lon,address = get_lat_lon_address(place)
@@ -162,10 +166,12 @@ def register_user_and_group_if_not_exist(group_id, user_id, place, recommend_met
         new_group.api_method = api_method
         session.add(new_group)
         session.commit()
+        first_time_group_flg = True
         fetch_group = session.query(Group).filter(Group.id==group_id).one()
         print(f"new group {group_id} registered")
 
     # 所属が未登録ならばデータベースに登録する
+    first_time_belong_flg = False
     fetch_belong = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).first()
     if fetch_belong is None:
         new_belong = Belong()
@@ -173,9 +179,10 @@ def register_user_and_group_if_not_exist(group_id, user_id, place, recommend_met
         new_belong.group = group_id
         session.add(new_belong)
         session.commit()
+        first_time_flg = True
         fetch_belong = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()
 
-    return fetch_user, fetch_group, fetch_belong
+    return fetch_user, fetch_group, fetch_belong, first_time_group_flg, first_time_belong_flg
 
 def update_feeling(group_id, user_id, restaurant_id, feeling):
     '''
@@ -201,7 +208,9 @@ def update_feeling(group_id, user_id, restaurant_id, feeling):
         session.commit()
     
     # 投票数を更新
-    fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==restaurant_id).first()
+    fetch_vote = session.query(Vote).filter(Vote.group==group_id,
+                                            Vote.restaurant==restaurant_id
+                                            ).first()
     if fetch_vote is not None:
         fetch_vote.votes_all += 1 if prev_feeling is None else 0
         fetch_vote.votes_like += (1 if feeling else 0) if prev_feeling is None else ((0 if feeling else -1) if prev_feeling else (1 if feeling else 0))
@@ -258,21 +267,26 @@ def save_histories(group_id, user_id, restaurants_info):
     ユーザの表示履歴を保存する
     '''
     for i,r in enumerate(restaurants_info):
-        fetch_history = session.query(History).filter(History.group==group_id, History.user==user_id, History.restaurant==r["Restaurant_id"]).first()
+        fetch_history = session.query(History).filter(History.group==group_id,
+                                                      History.user==user_id,
+                                                      History.restaurant==r.id
+                                                      ).first()
         if fetch_history is None:
             new_history = History()
             new_history.group = group_id
             new_history.user = user_id
-            new_history.restaurant = r["Restaurant_id"]
+            new_history.restaurant = r.id
             new_history.feeling = None
             session.add(new_history)
             session.commit()
         
-        fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==r["Restaurant_id"]).first()
+        fetch_vote = session.query(Vote).filter(Vote.group==group_id,
+                                                Vote.restaurant==r.id
+                                                ).first()
         if fetch_vote is None:
             new_vote = Vote()
             new_vote.group = group_id
-            new_vote.restaurant = r["Restaurant_id"]
+            new_vote.restaurant = r.id
             new_vote.votes_all = 0
             new_vote.votes_like = 0
             session.add(new_vote)
@@ -289,17 +303,28 @@ def save_histories(group_id, user_id, restaurants_info):
 def save_votes(group_id, restaurants_info):
 
     for i,r in enumerate(restaurants_info):
-        fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==r["Restaurant_id"]).first()
+        fetch_vote = session.query(Vote).filter(Vote.group == group_id,
+                                                Vote.restaurant == r.id
+                                                ).first()
         if fetch_vote is None:
-            new_vote = Vote()
-            new_vote.group = group_id
-            new_vote.restaurant = r["Restaurant_id"]
-            new_vote.votes_all = -1
-            new_vote.votes_like = -1
-            session.add(new_vote)
-            session.commit()
+            fetch_vote = Vote()
+            fetch_vote.group = group_id
+            fetch_vote.restaurant = r.id
 
-def save_restaurants_info(restaurants_info):
+        fetch_vote.votes_like = r.votes_like
+        fetch_vote.votes_all = r.votes_all
+        fetch_vote.number_of_participants = r.number_of_participants
+        fetch_vote.recommend_priority = r.number_of_participants
+        fetch_vote.price = r.price
+        fetch_vote.opening_hours = r.opening_hours
+        fetch_vote.distance_float = r.distance_float
+        fetch_vote.distance_str = r.distance_str
+        fetch_vote.recommend_score = r.recommend_score
+
+        session.add(fetch_vote)
+        session.commit()
+
+def save_restaurants(restaurants_info):
     '''
     restaurants_infoをデータベースに保存する
 
@@ -309,69 +334,86 @@ def save_restaurants_info(restaurants_info):
         保存する情報
     '''
 
-    for restaurant_info in restaurants_info:
-        fetch_restaurant = session.query(Restaurant).filter(Restaurant.id==restaurant_info['Restaurant_id']).first()
-        if fetch_restaurant is not None:
-            fetch_restaurant.review_rating = restaurant_info.get('ReviewRating')
-            fetch_restaurant.review_rating_float = restaurant_info.get('ReviewRatingFloat')
-        else:
-            new_restaurant = Restaurant()
-            new_restaurant.id = restaurant_info['Restaurant_id']
-            new_restaurant.name = restaurant_info['Name']
-            new_restaurant.address = restaurant_info['Address']
-            new_restaurant.lat = restaurant_info.get('Lat')
-            new_restaurant.lon = restaurant_info.get('Lon')
-            new_restaurant.catchcopy = restaurant_info.get('Catchcopy')
-            new_restaurant.price = restaurant_info.get('Price')
-            new_restaurant.lunch_price = restaurant_info.get('LunchPrice')
-            new_restaurant.dinner_price = restaurant_info.get('DinnerPrice')
-            new_restaurant.category = restaurant_info.get('Category')
-            new_restaurant.url_web = restaurant_info.get('UrlWeb')
-            new_restaurant.url_map = restaurant_info.get('UrlMap')
-            new_restaurant.review_rating = restaurant_info.get('ReviewRating')
-            new_restaurant.review_rating_float = restaurant_info.get('ReviewRatingFloat')
-            new_restaurant.business_hour = restaurant_info.get('BusinessHour')
-            new_restaurant.open_hour = restaurant_info.get('OpenHour')
-            new_restaurant.close_hour = restaurant_info.get('CloseHour')
-            if 'Genre' in restaurant_info:
-                new_restaurant.genre_code = '\n'.join([g.get('Code') for g in restaurant_info['Genre']])
-                new_restaurant.genre_name = '\n'.join([g.get('Name') for g in restaurant_info['Genre']])
-            new_restaurant.images = '\n'.join(restaurant_info.get('Images'))
-            new_restaurant.image_files = '\n'.join(restaurant_info.get('ImageFiles'))
-            new_restaurant.image = restaurant_info.get('Image')
-            new_restaurant.menu = restaurant_info.get('Menu')
-            session.add(new_restaurant)
-            session.commit()
+    for r_info in restaurants_info:
+        fetch_restaurant = session.query(Restaurant).filter(Restaurant.id==r_info.id).first()
+
+        if fetch_restaurant is None:
+            fetch_restaurant = Restaurant()
+            fetch_restaurant.id = r_info.id
+
+        fetch_restaurant.yahoo_id = r_info.yahoo_id
+        fetch_restaurant.google_id = r_info.google_id
+        fetch_restaurant.name = r_info.name
+        fetch_restaurant.address = r_info.address
+        fetch_restaurant.lat = r_info.lat
+        fetch_restaurant.lon = r_info.lon
+        fetch_restaurant.station = '\n'.join(r_info.station)
+        fetch_restaurant.railway = '\n'.join(r_info.railway)
+        fetch_restaurant.phone = r_info.phone
+        fetch_restaurant.genre_name = '\n'.join(r_info.genre_name)
+        fetch_restaurant.genre_code = '\n'.join(r_info.genre_code)
+        fetch_restaurant.lunch_price = r_info.lunch_price
+        fetch_restaurant.dinner_price = r_info.dinner_price
+        fetch_restaurant.monday_opening_hours = r_info.monday_opening_hours
+        fetch_restaurant.tuesday_opening_hours = r_info.tuesday_opening_hours
+        fetch_restaurant.wednesday_opening_hours = r_info.wednesday_opening_hours
+        fetch_restaurant.thursday_opening_hours = r_info.thursday_opening_hours
+        fetch_restaurant.friday_opening_hours = r_info.friday_opening_hours
+        fetch_restaurant.saturday_opening_hours = r_info.saturday_opening_hours
+        fetch_restaurant.sunday_opening_hours = r_info.sunday_opening_hours
+        fetch_restaurant.access = r_info.access
+        fetch_restaurant.catchcopy = r_info.catchcopy
+        fetch_restaurant.health_info = r_info.health_info
+        fetch_restaurant.web_url = r_info.web_url
+        fetch_restaurant.map_url = r_info.map_url
+        fetch_restaurant.yahoo_rating_float = r_info.yahoo_rating_float
+        fetch_restaurant.yahoo_rating_str = r_info.yahoo_rating_str
+        fetch_restaurant.google_rating = r_info.google_rating
+        fetch_restaurant.review = '\t'.join(r_info.review)
+        fetch_restaurant.image_url = '\n'.join(r_info.image_url)
+        session.add(fetch_restaurant)
+        session.commit()
+        # print(f"save_restaurants_info: saved {fetch_restaurant.id} ")
 
 
-def convert_restaurants_info_from_fetch_restaurants(f_restaurant):
-    restaurant_info = {}
-    restaurant_info['Restaurant_id'] = f_restaurant.id
-    restaurant_info['Name'] = f_restaurant.name
-    restaurant_info['Address'] = f_restaurant.address
-    restaurant_info['Lat'] = f_restaurant.lat
-    restaurant_info['Lon'] = f_restaurant.lon
-    restaurant_info['Catchcopy'] = f_restaurant.catchcopy
-    restaurant_info['Price'] = f_restaurant.price
-    restaurant_info['LunchPrice'] = f_restaurant.lunch_price
-    restaurant_info['DinnerPrice'] = f_restaurant.dinner_price
-    restaurant_info['Category'] = f_restaurant.category
-    restaurant_info['UrlWeb'] = f_restaurant.url_web
-    restaurant_info['UrlMap'] = f_restaurant.url_map
-    restaurant_info['ReviewRating'] = f_restaurant.review_rating
-    restaurant_info['ReviewRatingFloat'] = f_restaurant.review_rating_float
-    restaurant_info['BusinessHour'] = f_restaurant.business_hour
-    restaurant_info['OpenHour'] = f_restaurant.open_hour
-    restaurant_info['CloseHour'] = f_restaurant.close_hour
-    restaurant_info['Genre'] = [{'Code':c, 'Name':n} for c,n in zip(f_restaurant.genre_code.split('\n'), f_restaurant.genre_name.split('\n'))]
-    restaurant_info['Images'] = f_restaurant.images.split('\n')
-    restaurant_info['ImageFiles'] = f_restaurant.image_files.split('\n')
-    restaurant_info['Image'] = f_restaurant.image
-    restaurant_info['Menu'] = f_restaurant.menu
+def get_restaurant_info_from_db(f_restaurant):
+    restaurant_info = RestaurantInfo()
+    restaurant_info.id = f_restaurant.id
+    restaurant_info.yahoo_id = f_restaurant.yahoo_id
+    restaurant_info.google_id = f_restaurant.google_id
+    restaurant_info.name = f_restaurant.name
+    restaurant_info.address = f_restaurant.address
+    restaurant_info.lat = f_restaurant.lat
+    restaurant_info.lon = f_restaurant.lon
+    restaurant_info.station = f_restaurant.station.split('\n')
+    restaurant_info.railway = f_restaurant.railway.split('\n')
+    restaurant_info.phone = f_restaurant.phone
+    restaurant_info.genre_code = f_restaurant.genre_code
+    restaurant_info.genre_name = f_restaurant.genre_name
+    restaurant_info.lunch_price = f_restaurant.lunch_price
+    restaurant_info.dinner_price = f_restaurant.dinner_price
+    restaurant_info.monday_opening_hours = f_restaurant.monday_opening_hours
+    restaurant_info.tuesday_opening_hours = f_restaurant.tuesday_opening_hours
+    restaurant_info.wednesday_opening_hours = f_restaurant.wednesday_opening_hours
+    restaurant_info.thursday_opening_hours = f_restaurant.thursday_opening_hours
+    restaurant_info.friday_opening_hours = f_restaurant.friday_opening_hours
+    restaurant_info.saturday_opening_hours = f_restaurant.saturday_opening_hours
+    restaurant_info.sunday_opening_hours = f_restaurant.sunday_opening_hours
+    restaurant_info.access = f_restaurant.access
+    restaurant_info.catchcopy = f_restaurant.catchcopy
+    restaurant_info.health_info = f_restaurant.health_info
+    restaurant_info.web_url = f_restaurant.web_url
+    restaurant_info.map_url = f_restaurant.map_url
+    # restaurant_info.yahoo_rating = f_restaurant.yahoo_rating TODO
+    restaurant_info.yahoo_rating_float = f_restaurant.yahoo_rating_float
+    restaurant_info.yahoo_rating_str = f_restaurant.yahoo_rating_str
+    restaurant_info.google_rating = f_restaurant.google_rating
+    restaurant_info.review = f_restaurant.review.split('\t')
+    restaurant_info.image_url = f_restaurant.image_url.split('\n')
     return restaurant_info
 
 
-def load_stable_restaurants_info(restaurant_ids):
+def load_restaurants_info(restaurant_ids, group_id):
     '''
     データベースからrestaurants_infoを取得
 
@@ -382,14 +424,50 @@ def load_stable_restaurants_info(restaurant_ids):
     
     Returns
     ----------------
-    restaurants_info : [dict]
+    restaurants_info : [RestaurantInfo]
         レスポンスするレストラン情報を返す。
     '''
-    print(f"load_restaurants_info: load {len(restaurant_ids)} items")
+    if len(restaurant_ids) == 0:
+        return []
     restaurants_info = [None for rid in restaurant_ids]
     fetch_restaurants = session.query(Restaurant).filter(Restaurant.id.in_(restaurant_ids)).all()
+    fetch_votes = session.query(Vote).filter(group_id == Vote.group,
+                                             Restaurant.id.in_(restaurant_ids)
+                                             ).all
     for f_restaurant in fetch_restaurants:
-        restaurant_info = convert_restaurants_info_from_fetch_restaurants(f_restaurant)
-        restaurants_info[ restaurant_ids.index(f_restaurant.id) ] = restaurant_info
+        restaurant_info = get_restaurant_info_from_db(f_restaurant)
+        restaurants_info[restaurant_ids.index(f_restaurant.id)] = restaurant_info
     
     return restaurants_info
+
+def get_search_params_from_fetch_group(fetch_group):
+    '''
+    ユーザが指定した検索条件からAPIで使用する検索条件を取得
+    return: params: 内部で定義したパラメータ
+
+    '''
+    params = Params()
+
+    if fetch_group.query is not None:
+        params.query = fetch_group.query
+    if fetch_group.genre is not None:
+        params.query = fetch_group.genre  # genreがあるならqueryは上書きされる
+
+    params.lat = fetch_group.lat
+    params.lon = fetch_group.lon
+    params.max_dist = fetch_group.max_dist
+    params.sort = fetch_group.sort
+    params.open_hour = fetch_group.open_hour.hour if fetch_group.open_hour is not None else None
+    params.open_day = fetch_group.open_day.day if fetch_group.open_hour is not None else None
+    params.max_price = fetch_group.max_price
+    params.min_price = fetch_group.min_price
+    # params.start = fetch_group.start
+
+    return params
+
+
+def set_start():
+    # TODO: 実装
+    # startを更新する
+    pass
+
