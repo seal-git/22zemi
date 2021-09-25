@@ -2,7 +2,7 @@ body {
   height: 100vh;
   overflow: hidden;
   /*height: calc(var(--myvh) * 100);*/
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 /*PCで見るときはサイト下部を空けない*/
@@ -14,14 +14,14 @@ body {
 /*タブレット・スマホのブラウザで見るときはサイト下部を空ける*/
 @media screen and (max-width: 767px) {
   .Home {
-    height: 90vh;
+    height: 100vh;
   }
 }
 
 .Home {
   display: flex;
   flex-direction: column;
-  max-width: 50vh;
+  max-width: 60vh;
   margin: 0 auto;
   position: relative;
   padding: 0;
