@@ -85,20 +85,20 @@ class Restaurant(Base):
     address = Column('address', String(400), nullable=False) # 住所
     lat = Column('lat', Float, nullable=False) # 緯度
     lon = Column('lon', Float, nullable=False) # 経度
-    station = Column('station', String(400))
-    railway = Column('railway', String(400))
-    phone = Column('phone', String(20))
-    genre_name = Column('genre_name', String(200)) # ジャンル名
-    genre_code = Column('genre_code', String(200)) # ジャンルコード: Yahoo Local Search API を参照
+    station = Column('station', String(400)) # 駅名リスト(\n区切り)
+    railway = Column('railway', String(400)) # 路線リスト(\n区切り)
+    phone = Column('phone', String(20)) # 電話番号
+    genre_name = Column('genre_name', String(200)) # ジャンル名リスト(\n区切り)
+    genre_code = Column('genre_code', String(200)) # ジャンルコード: Yahoo Local Search API を参照(\n区切り)
     lunch_price = Column('lunch_price', Integer) # 昼食の価格帯
     dinner_price = Column('dinner_price', Integer) # 夕食の価格帯
-    monday_opening_hours = Column('monday_opening_hours', String(20))
-    tuesday_opening_hours = Column('tueday_opening_hours', String(20))
-    wednesday_opening_hours = Column('wednesday_opening_hours', String(20))
-    thursday_opening_hours = Column('thursday_opening_hours', String(20))
-    friday_opening_hours = Column('friday_opening_hours', String(20))
-    saturday_opening_hours = Column('saturday_opening_hours', String(20))
-    sunday_opening_hours = Column('sunday_opening_hours', String(20))
+    monday_opening_hours = Column('monday_opening_hours', String(100))
+    tuesday_opening_hours = Column('tueday_opening_hours', String(100))
+    wednesday_opening_hours = Column('wednesday_opening_hours', String(100))
+    thursday_opening_hours = Column('thursday_opening_hours', String(100))
+    friday_opening_hours = Column('friday_opening_hours', String(100))
+    saturday_opening_hours = Column('saturday_opening_hours', String(100))
+    sunday_opening_hours = Column('sunday_opening_hours', String(100))
     access = Column('access', String(400))
     catchcopy = Column('catchcopy', String(400)) # キャッチコピー
     health_info = Column('health_info', String(400))
@@ -107,7 +107,7 @@ class Restaurant(Base):
     yahoo_rating_str = Column('yahoo_rating_str', String(100)) # yahoo評価値
     yahoo_rating_float = Column('yahoo_rating_float', Float) # yahoo評価値(出力用文字列)
     google_rating = Column('google_rating', Float)
-    review = Column('yahoo_review', String(2000)) # レビュー文字列(\t区切り)
+    review = Column('yahoo_review', String(2000)) # レビュー文字列(\t区切り。\nではない。)
     image_url = Column('image_url', String(2000)) # 写真url(\n区切り)
     created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
     updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)
@@ -146,10 +146,12 @@ class Vote(Base):
     restaurant = Column('restaurant', String(50), primary_key=True)
     votes_like = Column('votes_like', Integer, nullable=False) # -1: 未送信 # session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling==True).count() # レストランのいいね数
     votes_all = Column('votes_all', Integer, nullable=False) # -1: 未送信 # session.query(History).filter(History.group==group_id, History.restaurant==restaurants_info[i]['Restaurant_id'], History.feeling is not None).count() # レストランの投票人数
+    number_of_participants = Column('number_of_participants', Integer) # 投票参加人数
     recommend_priority = Column('recommend_priority', Float)
     price = Column('price', Integer) # グループごとの時間帯の値段
-    distance_float = Column('distance_float', Float)
-    distance_str = Column('distance_str', String(50))
+    opening_hours = Column('opening_hours', String(50)) # グループごとの時間帯の営業時間
+    distance_float = Column('distance_float', Float)  # 現在地からの距離
+    distance_str = Column('distance_str', String(50))  # 現在地からの距離(出力用)
     recommend_score = Column('recommend_score', Float)
     created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
     updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)

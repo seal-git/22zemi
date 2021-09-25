@@ -232,7 +232,7 @@ def http_info():
     restaurant_ids = get_restaurant_ids_from_recommend_priority(fetch_group, group_id, user_id)
 
     ## responseを作る
-    restaurants_info = database_functions.load_stable_restaurants_info(
+    restaurants_info = database_functions.load_restaurants_info(
         restaurant_ids, group_id)
     response = create_response_from_restaurants_info(group_id, user_id,
                                                      restaurants_info)

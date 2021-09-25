@@ -305,15 +305,24 @@ def save_votes(group_id, restaurants_info):
                                                 Vote.restaurant == r.id
                                                 ).first()
         if fetch_vote is None:
-            new_vote = Vote()
-            new_vote.group = group_id
-            new_vote.restaurant = r.id
-            new_vote.votes_all = -1
-            new_vote.votes_like = -1
-            session.add(new_vote)
-            session.commit()
+            fetch_vote = Vote()
+            fetch_vote.group = group_id
+            fetch_vote.restaurant = r.id
 
-def save_restaurants_info(restaurants_info):
+        fetch_vote.votes_like = r.votes_like
+        fetch_vote.votes_all = r.votes_all
+        fetch_vote.number_of_participants = r.number_of_participants
+        fetch_vote.recommend_priority = r.number_of_participants
+        fetch_vote.price = r.price
+        fetch_vote.opening_hours = r.opening_hours
+        fetch_vote.distance_float = r.distance_float
+        fetch_vote.distance_str = r.distance_str
+        fetch_vote.recommend_score = r.recommend_score
+
+        session.add(fetch_vote)
+        session.commit()
+
+def save_restaurants(restaurants_info):
     '''
     restaurants_infoをデータベースに保存する
 
@@ -341,15 +350,28 @@ def save_restaurants_info(restaurants_info):
         fetch_restaurant.phone = r_info.phone
         fetch_restaurant.genre_name = '\n'.join(r_info.genre_name)
         fetch_restaurant.genre_code = '\n'.join(r_info.genre_code)
-        fetch_restaurant.catchcopy = r_info.catchcopy
         fetch_restaurant.lunch_price = r_info.lunch_price
         fetch_restaurant.dinner_price = r_info.dinner_price
-        fetch_restaurant.url_web = r_info.web_url
-        fetch_restaurant.url_map = r_info.map_url
-        fetch_restaurant.review = '\n'.join(r_info.review)
+        fetch_restaurant.monday_opening_hours = r_info.monday_opening_hours
+        fetch_restaurant.tuesday_opening_hours = r_info.tuesday_opening_hours
+        fetch_restaurant.wednesday_opening_hours = r_info.wednesday_opening_hours
+        fetch_restaurant.thursday_opening_hours = r_info.thursday_opening_hours
+        fetch_restaurant.friday_opening_hours = r_info.friday_opening_hours
+        fetch_restaurant.saturday_opening_hours = r_info.saturday_opening_hours
+        fetch_restaurant.sunday_opening_hours = r_info.sunday_opening_hours
+        fetch_restaurant.access = r_info.access
+        fetch_restaurant.catchcopy = r_info.catchcopy
+        fetch_restaurant.health_info = r_info.health_info
+        fetch_restaurant.web_url = r_info.web_url
+        fetch_restaurant.map_url = r_info.map_url
+        fetch_restaurant.yahoo_rating_float = r_info.yahoo_rating_float
+        fetch_restaurant.yahoo_rating_str = r_info.yahoo_rating_str
+        fetch_restaurant.google_rating = r_info.google_rating
+        fetch_restaurant.review = '\t'.join(r_info.review)
         fetch_restaurant.image_url = '\n'.join(r_info.image_url)
         session.add(fetch_restaurant)
         session.commit()
+
         print(f"save_restaurants_info: saved {fetch_restaurant.id} ")
 
 
@@ -385,12 +407,12 @@ def get_restaurant_info_from_db(f_restaurant):
     restaurant_info.yahoo_rating_float = f_restaurant.yahoo_rating_float
     restaurant_info.yahoo_rating_str = f_restaurant.yahoo_rating_str
     restaurant_info.google_rating = f_restaurant.google_rating
-    restaurant_info.review = f_restaurant.review.split('\n')
+    restaurant_info.review = f_restaurant.review.split('\t')
     restaurant_info.image_url = f_restaurant.image_url.split('\n')
     return restaurant_info
 
 
-def load_stable_restaurants_info(restaurant_ids, group_id):
+def load_restaurants_info(restaurant_ids, group_id):
     '''
     データベースからrestaurants_infoを取得
 

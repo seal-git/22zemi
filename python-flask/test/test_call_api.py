@@ -37,7 +37,7 @@ def test_get_restaurants_info():
     group_id = 456789
     fetch_group = session.query(Group).filter(Group.id==group_id).first()
     r_id = session.query(Restaurant.id).first()
-    restaurants_info = database_functions.load_stable_restaurants_info(r_id)
+    restaurants_info = database_functions.load_restaurants_info(r_id)
     restaurants_info = get_restaurants_info(fetch_group,
                                             group_id,
                                             restaurants_info)

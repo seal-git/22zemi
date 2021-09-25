@@ -72,7 +72,7 @@ class RestaurantInfo:
     このパラメータはRestaurantテーブルで定義されているものに対応している。(TODO: 未対応のものもまだある)
     """
     def __init__(self):
-        # 静的パラメーター(DBに保存するもの)
+        # 静的パラメーター(DBに保存するもの) -> Restaurantテーブルに保存
         self.id: str = None  # レストランID。yahoo_idとgoogle_id先に入った方。
         self.yahoo_id: str = None  # YahooのUid
         self.google_id: str = None  # Googleのplace_id
@@ -110,11 +110,12 @@ class RestaurantInfo:
 
         # 動的パラメーター(呼び出す度に計算するもの) -> Voteテーブルに保存
         self.price: int = None  # 指定時刻の値段
+        self.opening_hours: str = None  # 指定時刻の営業時間
         self.distance_float: float = None  # 中心地からの距離
         self.distance_str: str = None  # 距離(文字列)
-        self.votes_all: int = None  # 投票数
-        self.votes_like: int = None  # like投票数
-        self.number_of_participants: int = None  # グループの参加人数
+        self.votes_all: int = -1  # 投票数
+        self.votes_like: int = -1  # like投票数
+        self.number_of_participants: int = 0  # グループの参加人数
         self.recommend_score: float = None  # おすすめ度
         self.recommend_priority: float = -1.0 # キューの優先度
 
