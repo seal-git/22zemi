@@ -151,6 +151,8 @@ class RestaurantInfo:
             'Price': self.price,
             'Address': self.address,
             'Images': self.image_url,
+            'UrlWeb': self.web_url,
+            'UrlMap': self.map_url,
             'ReviewRating': self.yahoo_rating_str,
             'VotesLike': self.votes_like,
             'VotesAll': self.votes_all,
