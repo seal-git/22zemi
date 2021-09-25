@@ -426,13 +426,13 @@ def load_restaurants_info(restaurant_ids, group_id):
     restaurants_info : [RestaurantInfo]
         レスポンスするレストラン情報を返す。
     '''
+    if len(restaurant_ids) == 0:
+        return []
     restaurants_info = [None for rid in restaurant_ids]
     fetch_restaurants = session.query(Restaurant).filter(Restaurant.id.in_(restaurant_ids)).all()
     fetch_votes = session.query(Vote).filter(group_id == Vote.group,
                                              Restaurant.id.in_(restaurant_ids)
                                              ).all
-    print(f"load_restaurants_info: "
-          f"load {len(fetch_restaurants)}/{len(restaurant_ids)} items from DB")
     for f_restaurant in fetch_restaurants:
         restaurant_info = get_restaurant_info_from_db(f_restaurant)
         restaurants_info[restaurant_ids.index(f_restaurant.id)] = restaurant_info

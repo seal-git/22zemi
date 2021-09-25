@@ -34,6 +34,7 @@ def add_votes_distance(fetch_group, group_id, restaurants_info):
         レスポンスするレストラン情報を返す。
     '''
     for i in range(len(restaurants_info)):
+        print(f"{restaurants_info[i].id}")
         restaurants_info[i].votes_like = session.query(History).filter(History.group==group_id,
                                                                     History.restaurant==restaurants_info[i].id,
                                                                     History.feeling==True
