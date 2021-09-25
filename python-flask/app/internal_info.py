@@ -143,11 +143,16 @@ class RestaurantInfo:
         -------
 
         """
+        description = ''
+        if self.catchcopy is not None: description += self.catchcopy + '\n'
+        if self.access is not None: description += self.access + '\n'
+        if self.health_info is not None: description += self.health_info + '\n'
+
         r_info_dict = {
             'Restaurant_id': self.id,
             'Name': self.name,
             'Distance': self.distance_float,
-            'CatchCopy': self.catchcopy,
+            'CatchCopy': description,
             'Price': self.price,
             'Address': self.address,
             'Images': self.image_url,
