@@ -240,17 +240,17 @@ def http_info():
     response = create_response_from_restaurants_info(group_id, user_id,
                                                      restaurants_info)
     
-    # if first_time_group_flg:
-    #     # 裏でrecommendを走らせる
-    #     ## 他のスレッドで更新中だったら何もしない
-    #     if fetch_belong.writable:
-    #         t = threading.Thread(target=thread_info,
-    #                          args=(group_id,
-    #                                user_id,
-    #                                fetch_belong,
-    #                                fetch_group
-    #                                ))
-    #         t.start()
+    if first_time_group_flg:
+        # 裏でrecommendを走らせる
+        ## 他のスレッドで更新中だったら何もしない
+        if fetch_belong.writable:
+            t = threading.Thread(target=thread_info,
+                             args=(group_id,
+                                   user_id,
+                                   fetch_belong,
+                                   fetch_group
+                                   ))
+            t.start()
 
     return response
 
