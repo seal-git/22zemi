@@ -42,6 +42,7 @@ const useStyles = makeStyles((theme) => ({
         fontWeight: 'bold',
         whiteSpace: 'pre-wrap',
         color: 'white',
+        filter: 'drop-shadow(0 0 0.3rem black)',
     },
     space: {
         display: 'inline-block',
