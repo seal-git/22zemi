@@ -150,6 +150,8 @@ function Selection(props) {
     })
       .then(function (response) {
         console.log(response)
+        const v = response.data?response.data:0
+        props.keepNumberRef.current = v
       })
       .catch((error) => {
         console.log("error:", error);

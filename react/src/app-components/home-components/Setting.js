@@ -106,7 +106,6 @@ function Setting(props) {
                             <div>
                                 <input
                                     id="inputTime"
-                                    value="12:00"
                                     type="time"
                                 />
                             </div>
