@@ -235,7 +235,7 @@ def http_info():
     restaurant_ids = get_restaurant_ids_from_recommend_priority(fetch_group, group_id, user_id)
 
     ## responseを作る
-    restaurants_info = database_functions.load_stable_restaurants_info(
+    restaurants_info = database_functions.load_restaurants_info(
         restaurant_ids, group_id)
     response = create_response_from_restaurants_info(group_id, user_id,
                                                      restaurants_info)
@@ -364,8 +364,9 @@ def http_list():
                       h.votes_all > 0] if participants_count >= 2 else [
         h.restaurant for h in fetch_votes if h.votes_like > 0]
     fetch_group = session.query(Group).filter(Group.id == group_id).first()
-    restaurants_info = call_api.get_restaurants_info(fetch_group, group_id,
-                                                     restaurant_ids)  # database_func?
+    restaurants_info = database_functions.load_restaurants_info(restaurant_ids,
+                                                                group_id
+                                                                )
 
     # 得票数が多い順に並べる
     restaurants_info.sort(
@@ -396,12 +397,12 @@ def http_history():
         user_id)
 
     # 履歴を取得する
-    fetch_histories = session.query(History).filter(History.group == group_id,
-                                                    History.user == user_id).order_by(
-        updated_at).all()
-    restaurants_info = call_api.get_restaurants_info(group_id,
-                                                     [h.restaurant for h in
-                                                      fetch_histories])  # database_func?
+    restaurant_ids = session.query(History.id).filter(History.group == group_id,
+                                                    History.user == user_id
+                                                    ).order_by(updated_at).all()
+    restaurants_info = database_functions.load_restaurants_info(restaurant_ids,
+                                                                group_id
+                                                                )
     return create_response_from_restaurants_info(group_id, user_id,
                                                  restaurants_info)
 

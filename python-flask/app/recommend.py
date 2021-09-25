@@ -627,7 +627,7 @@ class RecommendSVM(Recommend):
             dislike_distance_count += vote_dislike
 
             #genre処理
-            genre = r.genre
+            genre = r.genre_name
             if genre is not None:
                 for g in genre:
                     if g not in genre_list:
@@ -696,8 +696,8 @@ class RecommendSVM(Recommend):
             
             # genre_score
             genre_score = 0
-            if r.genre is not None:
-                for g in r.genre:
+            if r.genre_name is not None:
+                for g in r.genre_name:
                     if g in genre_feeling:
                         genre_score += genre_feeling[g]['Dislike'] - genre_feeling[g]['Like']
             vec[5] = genre_score * 1000
@@ -940,25 +940,7 @@ def recommend_main(fetch_group, group_id, user_id, first_time_flg=False):
             restaurants_info = call_api.get_restaurants_info(fetch_group,
                                                      group_id,
                                                      restaurants_info)
-            # t1 = threading.Thread(
-            #         target=thread_calc_priority,
-            #         args=(fetch_group,
-            #               group_id,
-            #               user_id,
-            #               restaurants_info,
-            #               histories_restaurants))
-            # t1.start()
-            # # 店舗情報を保存する。
-            # t2 = threading.Thread(
-            #         target=thread_get_restaurant_info,
-            #         args=(fetch_group,
-            #               group_id,
-            #               restaurants_info))
-            # t2.start()
 
-            # t1.join()
-            # t2.join()
-            # restaurants_infoができたらrecommend終了。
             print(f"data_num {len(restaurants_info)}")
             return [r.id for r in restaurants_info]
 
