@@ -308,6 +308,7 @@ def save_votes(group_id, restaurants_info):
             fetch_vote = Vote()
             fetch_vote.group = group_id
             fetch_vote.restaurant = r.id
+            session.add(fetch_vote)
 
         fetch_vote.votes_like = r.votes_like
         fetch_vote.votes_all = r.votes_all
@@ -319,7 +320,6 @@ def save_votes(group_id, restaurants_info):
         fetch_vote.distance_str = r.distance_str
         fetch_vote.recommend_score = r.recommend_score
 
-        session.add(fetch_vote)
         session.commit()
 
 def save_restaurants(restaurants_info):
@@ -338,6 +338,7 @@ def save_restaurants(restaurants_info):
         if fetch_restaurant is None:
             fetch_restaurant = Restaurant()
             fetch_restaurant.id = r_info.id
+            session.add(fetch_restaurant)
 
         fetch_restaurant.yahoo_id = r_info.yahoo_id
         fetch_restaurant.google_id = r_info.google_id
@@ -369,9 +370,8 @@ def save_restaurants(restaurants_info):
         fetch_restaurant.google_rating = r_info.google_rating
         fetch_restaurant.review = '\t'.join(r_info.review)
         fetch_restaurant.image_url = '\n'.join(r_info.image_url)
-        session.add(fetch_restaurant)
         session.commit()
-        # print(f"save_restaurants_info: saved {fetch_restaurant.id} ")
+        print(f"save_restaurants_info: saved {fetch_restaurant.id} ")
 
 
 def get_restaurant_info_from_db(f_restaurant):
