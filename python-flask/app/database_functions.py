@@ -336,6 +336,7 @@ def save_restaurants(restaurants_info):
 
     for r_info in restaurants_info:
         fetch_restaurant = session.query(Restaurant).filter(Restaurant.id==r_info.id).first()
+        print("r_info: ",r_info.id,"save_restaurants:",fetch_restaurant)
 
         if fetch_restaurant is None:
             fetch_restaurant = Restaurant()
@@ -373,14 +374,14 @@ def save_restaurants(restaurants_info):
         fetch_restaurant.image_url = '\n'.join(r_info.image_url)
         session.add(fetch_restaurant)
         session.commit()
-        # print(f"save_restaurants_info: saved {fetch_restaurant.id} ")
+        print(f"save_restaurants_info: saved {fetch_restaurant.id}   ")
 
 
 def get_restaurant_info_from_db(restaurant_id, group_id):
-    f_restaurant = session.query(Restaurant).filter(Restaurant.id == restaurant_id).all()
+    f_restaurant = session.query(Restaurant).filter(Restaurant.id == restaurant_id).first()
     f_votes = session.query(Vote).filter(group_id == Vote.group,
                                              Restaurant.id == restaurant_id
-                                             ).all
+                                             ).first()
     restaurant_info = RestaurantInfo()
     restaurant_info.id = f_restaurant.id
     restaurant_info.yahoo_id = f_restaurant.yahoo_id
@@ -449,7 +450,6 @@ def get_search_params_from_fetch_group(fetch_group):
     '''
     ユーザが指定した検索条件からAPIで使用する検索条件を取得
     return: params: 内部で定義したパラメータ
-
     '''
     params = Params()
 
