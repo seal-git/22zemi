@@ -73,7 +73,11 @@ def search_restaurants_info(fetch_group,
     restaurants_info = calc_info.add_votes_distance(fetch_group, group_id,
                                                     restaurants_info)
     # レコメンドスコアを計算
-    restaurants_info = calc_info.calc_recommend_score(fetch_group, group_id, restaurants_info)
+    restaurants_info = calc_info.calc_recommend_score(fetch_group, restaurants_info)
+
+    ## 設定された時間でのpriceを設定する
+    restaurants_info = calc_info.add_price(fetch_group,
+                                           restaurants_info)
 
     return restaurants_info
 
@@ -140,10 +144,6 @@ def get_restaurants_info(fetch_group,
 
 
     # グループごとの情報を計算する
-    ## 設定された時間でのpriceを設定する
-    restaurants_info = calc_info.add_price(fetch_group,
-                                           group_id,
-                                           restaurants_info)
 
     ## レーティングの文字列を生成する
     restaurants_info = calc_info.add_review_rating(restaurants_info)
