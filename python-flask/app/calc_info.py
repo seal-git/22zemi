@@ -7,6 +7,7 @@ from app.database_setting import * # session, Base, ENGINE, User, Group, Restaur
 import requests
 import datetime
 import threading
+import pprint
 
 '''
 
@@ -154,6 +155,7 @@ def add_price(fetch_group, restaurants_info):
         hour = datetime.datetime.now().hour + datetime.datetime.now().minute / 60
 
     for i in range(len(restaurants_info)):
+
         if restaurants_info[i].price is not None:
             continue
         if config.MyConfig.LUNCH_TIME_START <= hour < config.MyConfig.LUNCH_TIME_END:
