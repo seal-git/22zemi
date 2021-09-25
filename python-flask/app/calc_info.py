@@ -43,10 +43,13 @@ def add_votes_distance(fetch_group, group_id, restaurants_info):
                                                                       History.feeling is not None
                                                                       ).count() # レストランの投票人数
         restaurants_info[i].number_of_participants = str(database_functions.get_participants_count(group_id)) # グループの参加人数
-        restaurants_info[i].distance_float = great_circle((fetch_group.lat, fetch_group.lon),
-                                                          (restaurants_info[i].lat, restaurants_info[i].lon)
-                                                          ).m #距離 メートル float
-        restaurants_info[i].distance = distance_display(restaurants_info[i].distance_float) # 緯度・経度から距離を計算 str
+        if restaurants_info[i].distance_float is None:
+            restaurants_info[i].distance_float = great_circle((fetch_group.lat,
+                                                               fetch_group.lon),
+                                                              (restaurants_info[i].lat,
+                                                               restaurants_info[i].lon)
+                                                              ).m #距離 メートル float
+            restaurants_info[i].distance_str = distance_display(restaurants_info[i].distance_float) # 緯度・経度から距離を計算 str
 
     return restaurants_info
 
@@ -62,7 +65,7 @@ def distance_display(distance):
     return str(distance) + "m"
 
     
-def calc_recommend_score(fetch_group, group_id, restaurants_info):
+def calc_recommend_score(fetch_group, restaurants_info):
     '''
     オススメ度を計算する
     
@@ -143,13 +146,16 @@ def calc_recommend_score(fetch_group, group_id, restaurants_info):
     return restaurants_info
 
 
-def add_price(fetch_group, group_id, restaurants_info):
-    if fetch_group.open_hour:
+def add_price(fetch_group, restaurants_info):
+    # 設定された時間での値段を設定する
+    if fetch_group.open_hour is not None:
         hour = int(fetch_group.open_hour.hour)
     else:
         hour = datetime.datetime.now().hour + datetime.datetime.now().minute / 60
 
     for i in range(len(restaurants_info)):
+        if restaurants_info[i].price is not None:
+            continue
         if config.MyConfig.LUNCH_TIME_START <= hour < config.MyConfig.LUNCH_TIME_END:
             restaurants_info[i].price = restaurants_info[i].lunch_price
         else:

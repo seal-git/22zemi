@@ -111,7 +111,7 @@ class RestaurantInfo:
         # 動的パラメーター(呼び出す度に計算するもの) -> Voteテーブルに保存
         self.price: int = None  # 指定時刻の値段
         self.distance_float: float = None  # 中心地からの距離
-        self.distance: str = None  # 距離(文字列)
+        self.distance_str: str = None  # 距離(文字列)
         self.votes_all: int = None  # 投票数
         self.votes_like: int = None  # like投票数
         self.number_of_participants: int = None  # グループの参加人数
