@@ -5,6 +5,8 @@ import { makeStyles, withStyles } from '@material-ui/core/styles'
 import Chip from '@material-ui/core/Chip';
 import { Box, Dialog, DialogContent, DialogContentText, DialogTitle } from '@material-ui/core';
 import { Slide } from '@material-ui/core';
+import GridList from '@material-ui/core/GridList';
+import GridListTile from '@material-ui/core/GridListTile';
 // 他ファイルからインポート
 import { ReactComponent as CommentClose } from '../../../../img/comment-close.svg';
 
@@ -39,6 +41,12 @@ const useStyles = makeStyles((theme) => ({
         fontSize: "1rem",
         whiteSpace: "pre-line",
         color: 'black'
+    },
+    gridList: {
+        flexWrap: 'nowrap',
+        transform: 'translateZ(0)',
+        margin: '20px',
+        padding: '0px'
     },
 }));
 
@@ -109,13 +117,14 @@ function CommentModal(props) {
             </Box>
             {props.showPicture != undefined && props.showPicture != null && props.showPicture
                 ?
-                // <div style={{ height: '50%' }}>
-                //     <ImageArea
-                //         Images={props.data.Images}
-                //         restaurant_id={props.data.Restaurant_id}
-                //     />
-                // </div>
-                null
+                <GridList cols={1.2} cellHeight={180} className={classes.gridList} spacing={0}>
+                    {(props.data.Images || []).map((tile) => (
+                        <GridListTile key={tile} className={classes.gridListTile} spacing={2}>
+                            <img src={tile} />
+                        </GridListTile>
+
+                    ))}
+                </GridList>
                 : null
             }
             {/* <DialogTitle>
