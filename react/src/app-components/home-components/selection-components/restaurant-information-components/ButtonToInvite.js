@@ -17,10 +17,11 @@ import InviteModal from './InviteModal'
 const useStyles = makeStyles({
     ButtonToInviteContainer:{
         position: 'absolute',
-        top: '50%',
+        top: '40%',
         width: '100%',
         textAlign: 'right',
         pointerEvents: 'none',
+        backgroundColor: 'transparent',
     },
     CopyButton:{
         height: '100%',
@@ -52,9 +53,10 @@ function ButtonToInvite(props) {
             width: '15%',
             height: 'auto',
             margin: '2% 2%',
-            opacity: '0.88',
             cursor: 'pointer',
             pointerEvents: 'auto',
+            opacity: '.88',
+            filter: 'drop-shadow(0 0 1rem black)',
         }
     }))(InviteIcon);
 

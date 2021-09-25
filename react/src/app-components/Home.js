@@ -38,6 +38,7 @@ function Home(props) {
     // view を抱える。背景操作の都合で mode は上位コンポーネント App に持たせる
     const [view, setView] = useState("Selection")
     const [userId, setUserId] = useState(produceId())
+    const [tutorialIsOn,setTutorialIsOn] = useState(true)
 
     // 招待URLの処理
     const location = useLocation()
@@ -107,12 +108,14 @@ function Home(props) {
                             inviteUrl={inviteUrl}
                             callInviteUrl={callInviteUrl}
                             paramsForSearch={paramsForSearch}
+                            tutorialIsOn={tutorialIsOn}
                         />
                         : view === "KeepList" ?
                             <KeepList
                                 mode={props.mode}
                                 userId={userId}
                                 groupId={groupId}
+                                setTutorialIsOn={setTutorialIsOn}
                             />
                             :
                             <Setting
@@ -125,6 +128,7 @@ function Home(props) {
                                 callInviteUrl={callInviteUrl}
                                 paramsForSearch={paramsForSearch}
                                 setParamsForSearch={setParamsForSearch}
+                                setTutorialIsOn={setTutorialIsOn}
                             />}
                 </div>
             </div>
