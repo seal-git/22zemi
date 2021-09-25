@@ -371,10 +371,10 @@ def http_list():
 
     # 得票数が多い順に並べる
     restaurants_info.sort(
-        key=lambda x: x['VotesAll'])  # 得票数とオススメ度が同じなら、リジェクトが少ない順
-    restaurants_info.sort(key=lambda x: x['RecommendScore'],
+        key=lambda x: x.votes_all)  # 得票数とオススメ度が同じなら、リジェクトが少ない順
+    restaurants_info.sort(key=lambda x: x.recommend_score,
                           reverse=True)  # 得票数が同じなら、オススメ度順
-    restaurants_info.sort(key=lambda x: x['VotesLike'], reverse=True)  # 得票数が多い順
+    restaurants_info.sort(key=lambda x: x.votes_like, reverse=True)  # 得票数が多い順
 
     return create_response_from_restaurants_info(group_id, user_id,
                                                  restaurants_info)
