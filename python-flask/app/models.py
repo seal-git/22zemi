@@ -358,7 +358,7 @@ def http_list():
         user_id)
 
     # レストランごとに投票数をカウント
-    fetch_votes = session.query(Vote.restaurant, Vote.votes_like).filter(
+    fetch_votes = session.query(Vote).filter(
         Vote.group == group_id).order_by(desc(Vote.votes_like)).all()
     # リストに存在しない時は空のリストを返す
     if len(fetch_votes) == 0:
@@ -366,8 +366,9 @@ def http_list():
     # 表示する店舗を選ぶ。ひとりのときはLIKEした店だけ。2人以上のときはすべて表示。
     participants_count = database_functions.get_participants_count(
         group_id)  # 参加人数
-    restaurant_ids = [h.restaurant for h in fetch_votes if
-                      h.votes_all > 0] if participants_count >= 2 else [
+    print(fetch_votes[0].restaurant)
+    session.commit()
+    restaurant_ids = [h.restaurant for h in fetch_votes if h.votes_all > 0] if participants_count >= 2 else [
         h.restaurant for h in fetch_votes if h.votes_like > 0]
     fetch_group = session.query(Group).filter(Group.id == group_id).first()
     restaurants_info = database_functions.load_restaurants_info(restaurant_ids,

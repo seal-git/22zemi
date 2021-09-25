@@ -170,31 +170,31 @@ def add_open_hour(fetch_group, restaurants_info):
         day_of_week = fetch_group.open_day.strftime('%A')
 
         for i in range(len(restaurants_info)):
-            if day_of_week == "Sunday":
+            if day_of_week == "Sunday" and restaurants_info[i].sunday_opening_hours is not None:
                 opening_hours = restaurants_info[i].sunday_opening_hours.replace("/", "~").split(",")
                 opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
                 restaurants_info[i].opening_hours = opening_hours_join
-            elif day_of_week == "Monday":
+            elif day_of_week == "Monday" and restaurants_info[i].monday_opening_hours is not None:
                 opening_hours = restaurants_info[i].monday_opening_hours.replace("/", "~").split(",")
                 opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
                 restaurants_info[i].opening_hours = opening_hours_join
-            elif day_of_week == "Tuesday":
+            elif day_of_week == "Tuesday" and restaurants_info[i].tuesday_opening_hours is not None:
                 opening_hours = restaurants_info[i].tuesday_opening_hours.replace("/", "~").split(",")
                 opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
                 restaurants_info[i].opening_hours = opening_hours_join
-            elif day_of_week == "Wednesday":
+            elif day_of_week == "Wednesday" and restaurants_info[i].wednesday_opening_hours is not None:
                 opening_hours = restaurants_info[i].wednesday_opening_hours.replace("/", "~").split(",")
                 opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
                 restaurants_info[i].opening_hours = opening_hours_join
-            elif day_of_week == "Thursday":
+            elif day_of_week == "Thursday" and restaurants_info[i].thursday_opening_hours is not None:
                 opening_hours = restaurants_info[i].thursday_opening_hours.replace("/", "~").split(",")
                 opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
                 restaurants_info[i].opening_hours = opening_hours_join
-            elif day_of_week == "Friday":
+            elif day_of_week == "Friday" and restaurants_info[i].friday_opening_hours is not None:
                 opening_hours = restaurants_info[i].friday_opening_hours.replace("/", "~").split(",")
                 opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
                 restaurants_info[i].opening_hours = opening_hours_join
-            elif day_of_week == "Saturday":
+            elif day_of_week == "Saturday" and restaurants_info[i].saturday_opening_hours is not None:
                 opening_hours = restaurants_info[i].saturday_opening_hours.replace("/", "~").split(",")
                 opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
                 restaurants_info[i].opening_hours = opening_hours_join
