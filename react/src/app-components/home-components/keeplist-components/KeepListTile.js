@@ -10,7 +10,7 @@ import FavoriteIcon from '@material-ui/icons/Favorite'
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        margin: '10px',
+        margin: '8px 10px 10px 10px',
         borderRadius: '10px',
     },
     media: {
