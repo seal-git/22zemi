@@ -8,7 +8,7 @@ def test_load_stable_restaurants_info():
     print(fetch_restaurants)
     for f in fetch_restaurants:
         print(f.id)
-    r_info = load_stable_restaurants_info(r_ids)
+    r_info = load_restaurants_info(r_ids)
 
     [pprint.PrettyPrinter(indent=2).pprint(r.name) for r in r_info]
     assert len(r_info)==1
