@@ -156,7 +156,7 @@ class RestaurantInfo:
             'VotesAll': self.votes_all,
             'NumberOfParticipants': self.number_of_participants,
             'RecommendScore': self.recommend_score,
-            'BusinessHour': self.sunday_opening_hours,
+            'BusinessHour': self.opening_hours,
             # TODO: 以下は導入するか別途決める
             'TopRankItem': [],
             'CassetteOwnerLogoImage': [],

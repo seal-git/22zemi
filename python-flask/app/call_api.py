@@ -79,6 +79,9 @@ def search_restaurants_info(fetch_group,
     restaurants_info = calc_info.add_votes_distance(fetch_group,
                                                     group_id,
                                                     restaurants_info)
+    ## 設定された日付のopen_hourを設定する
+    restaurants_info = calc_info.add_open_hour(fetch_group,
+                                           restaurants_info)
     ## 設定された時間でのpriceを設定する
     restaurants_info = calc_info.add_price(fetch_group,
                                            restaurants_info)
