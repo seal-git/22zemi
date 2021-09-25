@@ -16,14 +16,14 @@
 .textShopName {
     padding: 2px 0 0 0;
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 13px;
     font-weight: 700;
 }
 .textSecondary {
     font-weight: 700;
     padding: 2px 0 0 0;
     margin: 0;
-    font-size: 1rem;
+    font-size: 11px;
     white-space: pre-line;
 }
 .textStars {
@@ -33,17 +33,16 @@
 .textVotes {
     padding: 0;
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 13px;
     font-weight: 700;
 }
 .textVoteResult {
     padding: 0;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 20px;
     color: #FF0000;
 }
 .buttonWrapper {
-    display: flex;
     height: 100%;
     width: 100%;
     text-align: center;
@@ -57,9 +56,9 @@
 .cardAction {
     font-weight: 700;
     font-family: Roboto;
-    font-size: 0.8rem;
+    font-size: 11px;
     padding: 1px 2px;
-    margin: 10px auto 0;
+    margin: 4px;
     width: 80%;
     background-color: #D90060;
     color: #ffffff;
