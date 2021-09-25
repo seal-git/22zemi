@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
         cursor: 'pointer',
     },
     textShopName: {
-        padding: "0 16px",
+        padding: "0 24px",
         margin: "0",
         fontSize: "1.5rem",
         fontWeight: "700"

@@ -13,7 +13,7 @@ import ButtonToInvite from './restaurant-information-components/ButtonToInvite'
 import ImageArea from './restaurant-information-components/ImageArea'
 
 const useStyles = makeStyles((theme) => ({
-    RestaurantInformation :{
+    RestaurantInformation: {
         backgroundColor: 'transparent',
         height: '70%',
         width: '100%',
@@ -33,12 +33,13 @@ const useStyles = makeStyles((theme) => ({
         bottom: '0',
         margin: 'auto',
         boxSizing: "border-box",
-        borderRadius: '5%',
+        borderRadius: '20px',
         position: 'absolute',
         color: 'transparent',
     },
     textPrimary: {
         fontSize: '1.5rem',
+        margin: '8px 20px',
         fontWeight: 'bold',
         whiteSpace: 'pre-wrap',
         color: 'white',
@@ -55,15 +56,17 @@ const StyledChipRating = withStyles({
     root: {
         backgroundColor: '#FFAD0D',
         color: 'white',
-        fontSize: '1.2rem',
+        fontSize: '1rem',
+        height: '28px',
     }
 })(Chip);
 const StyledChipTag = withStyles({
     root: {
         backgroundColor: '#D90060',
-        height: '10%',
         color: 'white',
-        fontSize: '1.2rem',
+        fontSize: '1rem',
+        height: '28px',
+        margin: '0 8px 0 0'
     }
 })(Chip);
 
@@ -74,21 +77,21 @@ function RestaurantInformation(props) {
     const classes = useStyles(props)
     const space = <span className={classes.space}>　</span>
 
-   // 画像の描画
-   const renderImageArea = (data) =>{
-       return(
-           <ImageArea 
+    // 画像の描画
+    const renderImageArea = (data) => {
+        return (
+            <ImageArea
                 Images={data.Images}
                 restaurant_id={data.Restaurant_id}
-           />
-       )
-   }
+            />
+        )
+    }
 
     // お店情報の描画
-    const isNotEmpty = (str) =>{
-        return str!==undefined && str!==null && str!==""
+    const isNotEmpty = (str) => {
+        return str !== undefined && str !== null && str !== ""
     }
-    const renderCardContent = (data) =>{
+    const renderCardContent = (data) => {
         return (
             <Box
                 height='auto'
@@ -99,51 +102,52 @@ function RestaurantInformation(props) {
                 <Typography className={classes.textPrimary}>
                     {data.Name}
                 </Typography>
-                <Typography >
+                <Box style={{ margin: '8px 20px' }}>
                     {isNotEmpty(data.ReviewRating)
-                    ?<StyledChipRating label={data.ReviewRating} />
-                    :null}
-                </Typography>
-                <Box 
+                        ? <StyledChipRating label={data.ReviewRating} />
+                        : null}
+                </Box>
+                <Box
                     display='flex'
                     flexWrap='wrap'
                     alignContent='space-evenly'
+                    style={{ margin: '8px 20px' }}
                 >
-                    {isNotEmpty(data.Category)? <StyledChipTag label={data.Category} />: null }
-                    {isNotEmpty(data.Price)?<StyledChipTag label={'~\xA5'+data.Price} />:null}
-                    {isNotEmpty(data.BusinessHour)?<StyledChipTag label={data.BusinessHour} />:null}
-                    {isNotEmpty(data.Distance)?<StyledChipTag label={data.Distance} />:null}
+                    {isNotEmpty(data.Category) ? <StyledChipTag label={data.Category} /> : null}
+                    {isNotEmpty(data.Price) ? <StyledChipTag label={'~\xA5' + data.Price} /> : null}
+                    {isNotEmpty(data.BusinessHour) ? <StyledChipTag label={data.BusinessHour} /> : null}
+                    {isNotEmpty(data.Distance) ? <StyledChipTag label={data.Distance} /> : null}
                 </Box>
             </Box>
         )
     }
     // 招待ボタンの描画
-    let renderButtonToInvite = () =>{
+    let renderButtonToInvite = () => {
         return (
-        <ButtonToInvite
-            url={props.inviteUrl}
-            groupId={props.groupId} 
-            callInviteUrl={props.callInviteUrl}
-        />
+            <ButtonToInvite
+                url={props.inviteUrl}
+                groupId={props.groupId}
+                callInviteUrl={props.callInviteUrl}
+            />
         )
     }
     // コメントボタンの描画
-    const renderButtonToShowComment = () =>{
-        const ok = props.data.Restaurant_id !== 'init' 
-            && props.data.Restaurant_id !== 'empty' 
-            && props.data.Restaurant_id.indexOf('tutorial')==-1
+    const renderButtonToShowComment = () => {
+        const ok = props.data.Restaurant_id !== 'init'
+            && props.data.Restaurant_id !== 'empty'
+            && props.data.Restaurant_id.indexOf('tutorial') == -1
 
         return (
             ok
-            ?<ButtonToShowComment data={props.data} />
-            :null
+                ? <ButtonToShowComment data={props.data} />
+                : null
         )
     }
 
     // Keep/Rejectボタンの描画
     const renderButtons = () => {
         return (
-            <Buttons 
+            <Buttons
                 keep={props.keep}
                 reject={props.reject}
             />
