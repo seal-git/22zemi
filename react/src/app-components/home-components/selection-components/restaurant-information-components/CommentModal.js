@@ -5,6 +5,8 @@ import { makeStyles, withStyles } from '@material-ui/core/styles'
 import Chip from '@material-ui/core/Chip';
 import { Box, Dialog, DialogContent, DialogContentText, DialogTitle } from '@material-ui/core';
 import { Slide } from '@material-ui/core';
+import GridList from '@material-ui/core/GridList';
+import GridListTile from '@material-ui/core/GridListTile';
 // 他ファイルからインポート
 import { ReactComponent as CommentClose } from '../../../../img/comment-close.svg';
 
@@ -26,6 +28,26 @@ const useStyles = makeStyles((theme) => ({
         paddingRight: '4%',
         cursor: 'pointer',
     },
+    textShopName: {
+        padding: "0 24px",
+        margin: "0",
+        fontSize: "1.5rem",
+        fontWeight: "700"
+    },
+    textSecondary: {
+        fontWeight: "700",
+        padding: "6px 0 0 0",
+        margin: "0",
+        fontSize: "1rem",
+        whiteSpace: "pre-line",
+        color: 'black'
+    },
+    gridList: {
+        flexWrap: 'nowrap',
+        transform: 'translateZ(0)',
+        margin: '20px',
+        padding: '0px'
+    },
 }));
 
 /*
@@ -39,6 +61,7 @@ function CommentModal(props) {
             backgroundColor: '#FFAD0D',
             color: 'white',
             fontSize: '1rem',
+            margin: '2px'
         }
     })(Chip);
     // タグ情報を表示するためのチップ
@@ -47,6 +70,7 @@ function CommentModal(props) {
             backgroundColor: '#D90060',
             color: 'white',
             fontSize: '1rem',
+            margin: '2px'
         }
     })(Chip);
 
@@ -58,21 +82,21 @@ function CommentModal(props) {
     const renderChipRating = (rate) => {
         return (
             isNotEmpty(rate)
-                ? <DialogContent>
+                ? <div>
                     <StyledChipRating label={'★' + rate} />
-                </DialogContent>
+                </div>
                 : null
         )
     }
     // タグチップの描画
     const renderChipTags = (data) => {
         return (
-            <DialogContent>
-                {isNotEmpty(data.Category) ? <StyledChipTag label={data.Category} /> : null}
-                {isNotEmpty(data.Price) ? <StyledChipTag label={'~\xA5' + data.Price} /> : null}
-                {isNotEmpty(data.BusinessHour) ? <StyledChipTag label={data.BusinessHour} /> : null}
+            <div>
                 {isNotEmpty(data.Distance) ? <StyledChipTag label={data.Distance} /> : null}
-            </DialogContent>
+                {isNotEmpty(data.Price) ? <StyledChipTag label={'~\xA5' + data.Price} /> : null}
+                {isNotEmpty(data.Category) ? <StyledChipTag label={data.Category} /> : null}
+                {isNotEmpty(data.BusinessHour) ? <StyledChipTag label={data.BusinessHour} /> : null}
+            </div>
         )
     }
 
@@ -83,6 +107,8 @@ function CommentModal(props) {
             TransitionComponent={Transition}
             scroll='body'
             className={classes.CommentModal}
+            // style={{ backgroundColor: 'yellow', padding: '40px' }}
+            fullWidth={true}
         >
             <Box
                 textAlign="right"
@@ -91,35 +117,31 @@ function CommentModal(props) {
             </Box>
             {props.showPicture != undefined && props.showPicture != null && props.showPicture
                 ?
-                // <div style={{ height: '50%' }}>
-                //     <ImageArea
-                //         Images={props.data.Images}
-                //         restaurant_id={props.data.Restaurant_id}
-                //     />
-                // </div>
-                null
+                <GridList cols={1.2} cellHeight={180} className={classes.gridList} spacing={0}>
+                    {(props.data.Images || []).map((tile) => (
+                        <GridListTile key={tile} className={classes.gridListTile} spacing={2}>
+                            <img src={tile} />
+                        </GridListTile>
+
+                    ))}
+                </GridList>
                 : null
             }
-            <DialogTitle>
-                {props.data.Name}
-            </DialogTitle>
-            {renderChipRating(props.data.ReviewRating)}
-            {renderChipTags(props.data)}
+            {/* <DialogTitle>
+            </DialogTitle> */}
+            <p className={classes.textShopName}>{props.data.Name}</p>
             <DialogContent>
+                {renderChipRating(props.data.ReviewRating)}
+                {renderChipTags(props.data)}
                 <DialogContentText>
-                    コメントやレビューを表示する。下にスクロールしていけば無限に見ることができる。ゆくゆくはいいね機能、コメント投稿機能、画像付きコメント投稿機能、コメントのいいね数に応じたランク機能、ヤフーロコやGoogleMapへの同時投稿機能、コメントの通報機能、投稿のミュート機能、長いコメントの折り畳み機能、コメントを自然言語処理でジャンル分けする機能、いいねしたコメントに似たコメントを上位表示する機能、TwitterやTiktokへのリンクをクリックするとそれぞれのアプリが開く機能、またはアプリ内ブラウザで閲覧できる機能、コメントの翻訳機能、スパムコメントを自動検出する機能、コメントの中に広告をはさむ機能、お店の公式コメントをトップ表示する機能、地図のリンク機能、タグ機能、インフルエンサーのアカウントに公式マークが表示される機能、コメントを逐次的に読み込んで負荷を減らす機能、コメントへのリプライ機能、コメントの中に予約リンクをはさむ機能、コメントの中にUberリンクをはさむ機能、コメント・クーポン・予約リンクの各タブでそれぞれ閲覧できる機能、高評価コメント・低評価コメントでそれぞれタブ分けして閲覧できる機能、コメントと星を表示する機能、コンテントを検索できる機能などを追加していきたいと考えている<br />
-                    {props.data.Address}<br />
-                    {props.data.CatchCopy}<br />
-                    {props.data.BusinessHour}<br />
-                    {props.data.Address}<br />
-                    {props.data.BusinessHour}<br />
-                    {props.data.Address}<br />
-                    {props.data.BusinessHour}<br />
-                    {props.data.Address}<br />
-                    {props.data.BusinessHour}<br />
-                    {props.data.Address}<br />
-                    {props.data.BusinessHour}<br />
-                    {props.data.Address}<br />
+                    <div className={classes.textSecondary}>
+                        {props.data.Address}
+                    </div>
+
+                    <div className={classes.textSecondary}>
+                        {props.data.CatchCopy}
+                    </div>
+
                 </DialogContentText>
             </DialogContent>
         </ Dialog >
