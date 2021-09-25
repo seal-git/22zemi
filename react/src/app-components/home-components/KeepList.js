@@ -15,6 +15,8 @@ import GridListTile from '@material-ui/core/GridListTile';
 import SortButton from './keeplist-components/SortButton'
 import KeepListModal from './keeplist-components/KeepListModal'
 import { CSSTransition, Transition } from 'react-transition-group';
+import CommentModal from './selection-components/restaurant-information-components/CommentModal';
+import RestaurantInformation from './selection-components/RestaurantInformation';
 
 const useStyles = makeStyles((theme) => ({
     aloneStyle: {
@@ -30,39 +32,38 @@ const useStyles = makeStyles((theme) => ({
         // backgroundSize: 'cover',
     },
     Keeplist_wrapper: {
-        height: "100%",
+        height: "100vh",
         display: "flex",
         flexDirection: "column",
-        overflowY: "scroll",
-        '&::-webkit-scrollbar': {
-            display: 'none'
-        }
 
     },
-    Keeplist: {
+    KeepList: {
         flex: 1,
-        height: '100vh',
+        height: '100%',
     },
     topWrapper: {
+        height: '14%',
         width: '100%',
-        height: '76px',
-        position: 'fixed',
-        top: 0, left: 0, right: 0,
-        zIndex: 10,
+        zIndex: 5,
+        // position: 'fixed',
+        // top: 0, left: 0, right: 0,
     },
     pageTitle: {
-        display: 'block',
-        lineHeight: '40px',
+        display: 'flex',
+        alignItems: 'center',
+        height: '50%',
         fontFamily: 'roboto',
         fontWeight: 700,
+        fontSize: '1.2rem',
         backgroundColor: '#D90060',
         color: 'white',
         paddingLeft: '8px'
     },
     sortButtonWrapper: {
         // width: '100%',
-        padding: '8px',
+        padding: '0 8px',
         display: 'flex',
+        height: '50%',
         overflowX: "scroll",
         '&::-webkit-scrollbar': {
             display: 'none'
@@ -76,70 +77,16 @@ const useStyles = makeStyles((theme) => ({
         zIndex: 5,
     },
     tileWrapper: {
-        padding: '76px 0 0 0',
-        maxHeight: '100%',
+        padding: '0px 0 80px 0',
+        height: '76%',
+        overflowY: "scroll",
+        '&::-webkit-scrollbar': {
+            display: 'none'
+        }
     }
 }));
 
-
-const initDataList = [{
-    "Name": "Loading...",
-    "Images": [],
-    "Distance": "",
-    "Price": "",
-    "Category": "",
-    "ReviewRating": "",
-    "VotesLike": 0,
-    "VotesAll": 0,
-    "distance_float": 0.,
-    "RecommendScore": 0,
-}, {
-    "Name": "Loading...",
-    "Images": [],
-    "Distance": "",
-    "Price": "",
-    "Category": "",
-    "ReviewRating": "",
-    "VotesLike": 0,
-    "VotesAll": 0,
-    "distance_float": 0.,
-    "RecommendScore": 0,
-}, {
-    "Name": "Loading...",
-    "Images": [],
-    "Distance": "",
-    "Price": "",
-    "Category": "",
-    "ReviewRating": "",
-    "VotesLike": 0,
-    "VotesAll": 0,
-    "distance_float": 0.,
-    "RecommendScore": 0,
-}, {
-    "Name": "Loading...",
-    "Images": [],
-    "Distance": "",
-    "Price": "",
-    "Category": "",
-    "ReviewRating": "",
-    "VotesLike": 0,
-    "VotesAll": 0,
-    "distance_float": 0.,
-    "RecommendScore": 0,
-}, {
-    "Name": "Loading...",
-    "Images": [],
-    "Distance": "",
-    "Price": "",
-    "Category": "",
-    "ReviewRating": "",
-    "VotesLike": 0,
-    "VotesAll": 0,
-    "distance_float": 0.,
-    "RecommendScore": 0,
-}]
-
-// const initDataList = sampleData
+const initDataList = sampleData
 
 
 /*
@@ -149,7 +96,7 @@ function KeepList(props) {
 
     const classes = useStyles();
     const selectRef = useRef(null);
-    const [dataList, setDataList] = useState({ 'lists': initDataList })
+    const [dataList, setDataList] = useState(sampleData)
     const [sortMode, setSortMode] = useState("sortByFavos")
 
     // APIからキープリストのデータを得る
@@ -164,8 +111,8 @@ function KeepList(props) {
         })
             .then(function (response) {
                 console.log(response)
-                let dataList = response['data']
-                // let dataList = initDataList
+                // let dataList = response['data']
+                let dataList = initDataList
                 if (dataList === 0) {
                     console.log("no data")
                     dataList = []
@@ -314,12 +261,27 @@ function KeepList(props) {
 
     return (
         <div className={classes.Keeplist_wrapper}>
+            <CommentModal
+                open={modalState}
+                handleClose={closeModal}
+                data={modalData}
+                showPicture={true}
+            />
             <CSSTransition in={modalState} classNames="modal" timeout={500} unmountOnExit>
                 <div className={classes.modalWrapper}>
-                    <KeepListModal
+                    {/* <KeepListModal
                         data={modalData}
                         modalState={modalState}
-                        onClick={closeModal} />
+                        onClick={closeModal} /> */}
+                    {/* <CommentModal /> */}
+                    {/* <RestaurantInformation
+                        data={modalData}
+                        wrapperStyle={wrapperStyle}
+                        keep={() => { console.log("pushed") }}
+                        reject={() => { console.log("pushed") }}
+                        groupId={props.groupId}
+                    /> */}
+
                 </div>
             </CSSTransition>
             <div className={classes.KeepList}>
@@ -339,13 +301,11 @@ function KeepList(props) {
                     </div>
                 </div>
                 <div className={classes.tileWrapper}>
-                    <div>
-                        {dataList.length > 0 ?
-                            <KeepListTiles /> :
-                            <Typography>
-                                キープされたお店はありません
-                            </Typography>}
-                    </div>
+                    {dataList.length > 0 ?
+                        <KeepListTiles /> :
+                        <Typography>
+                            キープされたお店はありません
+                        </Typography>}
                 </div>
             </div>
             <Credit />

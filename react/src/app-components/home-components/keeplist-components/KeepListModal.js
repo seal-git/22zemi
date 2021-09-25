@@ -6,6 +6,7 @@ import Box from '@material-ui/core/Box'
 import Chip from '@material-ui/core/Chip';
 import Card from '@material-ui/core/Card'
 import CardMedia from '@material-ui/core/CardMedia'
+import { Typography } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
     wrapper: {
@@ -120,12 +121,13 @@ function KeepListModal(props) {
                         <p>{props.data.Address}</p>
                         <p>{props.data.BusinessHour}</p>
                         <p>{props.data.Address}</p>
-                        <p>{props.data.BusinessHour}</p>
-                        <p>{props.data.Address}</p>
-                        <p>{props.data.BusinessHour}</p>
-                        <p>{props.data.Address}</p>
-                        <p>{props.data.BusinessHour}</p>
-                        <p>{props.data.Address}</p>
+                        ここからTypography
+                        <Typography>{props.data.BusinessHour}</Typography>
+                        <Typography>{props.data.Address}</Typography>
+                        <Typography>{props.data.BusinessHour}</Typography>
+                        <Typography>{props.data.Address}</Typography>
+                        <Typography>{props.data.BusinessHour}</Typography>
+                        <Typography>{props.data.Address}</Typography>
                         <p>　</p>
                     </div>
                 </div>

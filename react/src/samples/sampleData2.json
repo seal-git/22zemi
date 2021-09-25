@@ -59,5 +59,65 @@
             "https://restaurant.img-ikyu.com/rsDatas/rsData109000/r108955/108955ga10000013.jpg"
         ],
         "RecommendScore": 100
+    },
+    {
+        "Name": "Loading...",
+        "Images": [],
+        "Distance": "",
+        "Price": "",
+        "Category": "",
+        "ReviewRating": "",
+        "VotesLike": 0,
+        "VotesAll": 0,
+        "distance_float": 0,
+        "RecommendScore": 0
+    },
+    {
+        "Name": "Loading...",
+        "Images": [],
+        "Distance": "",
+        "Price": "",
+        "Category": "",
+        "ReviewRating": "",
+        "VotesLike": 0,
+        "VotesAll": 0,
+        "distance_float": 0,
+        "RecommendScore": 0
+    },
+    {
+        "Name": "Loading...",
+        "Images": [],
+        "Distance": "",
+        "Price": "",
+        "Category": "",
+        "ReviewRating": "",
+        "VotesLike": 0,
+        "VotesAll": 0,
+        "distance_float": 0,
+        "RecommendScore": 0
+    },
+    {
+        "Name": "Loading...",
+        "Images": [],
+        "Distance": "",
+        "Price": "",
+        "Category": "",
+        "ReviewRating": "",
+        "VotesLike": 0,
+        "VotesAll": 0,
+        "distance_float": 0,
+        "RecommendScore": 0
+    },
+    {
+        "Name": "Loading...",
+        "Images": [],
+        "Distance": "",
+        "Price": "",
+        "Category": "",
+        "ReviewRating": "",
+        "VotesLike": 0,
+        "VotesAll": 0,
+        "distance_float": 0,
+        "RecommendScore": 0
     }
 ]
