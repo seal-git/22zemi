@@ -6,7 +6,7 @@ import DialogTitle from '@material-ui/core/DialogTitle'
 import { DialogContent } from '@material-ui/core'
 import { makeStyles,withStyles } from '@material-ui/core/styles'
 // 他ファイルからインポート
-import CommentIcon from './../../../icon/CommentIcon'
+import CommentIcon from './../../../../icon/CommentIcon'
 import CommentModal from './CommentModal'
 
 /*
@@ -16,7 +16,7 @@ import CommentModal from './CommentModal'
 const useStyles = makeStyles({
     ButtonToShowCommentContainer:{
         position: 'absolute',
-        top: '60%',
+        top: '46%',
         width: '100%',
         textAlign: 'right',
         pointerEvents: 'none',
@@ -41,8 +41,9 @@ function ButtonToShowComment(props) {
             height: 'auto',
             cursor: 'pointer',
             margin: '2% 2%',
-            opacity: '0.88',
             pointerEvents: 'auto',
+            opacity: '.88',
+            filter: 'drop-shadow(0 0 1rem black)',
         },
     }))(CommentIcon);
 

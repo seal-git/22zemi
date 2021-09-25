@@ -1,0 +1,30 @@
+[
+    {
+        "Restaurant_id": "tutorial-1",
+        "Name": "Tutorial 1",
+        "Images": [
+            ""
+        ]
+    },
+    {
+        "Restaurant_id": "tutorial-2",
+        "Name": "Tutorial 2",
+        "Images": [
+            ""
+        ]
+    },
+    {
+        "Restaurant_id": "tutorial-3",
+        "Name": "Tutorial 3",
+        "Images": [
+            ""
+        ]
+    },
+    {
+        "Restaurant_id": "tutorial-4",
+        "Name": "Tutorial 4",
+        "Images": [
+            ""
+        ]
+    }
+]

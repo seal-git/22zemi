@@ -35,6 +35,9 @@ function Setting(props) {
         // モード設定
         props.setMode(newMode)
 
+        //　チュートリアルをオンにする
+        props.setTutorialIsOn(true)
+
         // Selection に移る
         props.setView("Selection")
     }

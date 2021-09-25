@@ -4,11 +4,10 @@ import "./../../css/Selection.css"
 import axios from "axios"
 import { useEffect, useState } from "react"
 // 他のファイルからインポート
-import ButtonToInvite from "./selection-components/ButtonToInvite"
-import ButtonToShowComment from "./selection-components/ButtonToShowComment"
 import RestaurantInformation from './selection-components/RestaurantInformation'
 import RestaurantInformationDeck from './selection-components/RestaurantInformationDeck'
 import noImageIcon from "./../../img/no_image.png"
+import tutorialDataList from "./../../samples/tutorialData.json"
 
 const initDataList = [{
   "Name": "Loading...",
@@ -33,10 +32,15 @@ var wrapperStyle = {
  スワイプでお店を選ぶコンポーネント
  */
 function Selection(props) {
-  const [dataLists, setDataLists] = useState({
-    "topDataList": initDataList,
-    "standbyDataList":null,
-  })
+  const [dataLists, setDataLists] = useState(
+        props.tutorialIsOn?{ 
+            "topDataList": tutorialDataList.slice(0,2),
+            "standbyDataList": tutorialDataList.slice(2),
+        }:{
+            "topDataList": initDataList,
+            "standbyDataList": null,
+        }
+  )
   let isLoading = false
   let hiddenDataList = null
 
@@ -45,7 +49,6 @@ function Selection(props) {
     if (isLoading) return;
     isLoading = true
     
-
     // ユーザID を設定
     let userId = newUserId
     if (newUserId === undefined || newUserId === null || newUserId.length === 0) {
@@ -126,13 +129,18 @@ function Selection(props) {
   }
 
   useEffect(() => {
-    getInfo()
+      if(props.tutorialIsOn===false){
+          getInfo(null,null,"init",null)
+      }
     // Mount 時にだけ呼び出す
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   // APIにキープ・リジェクトを送信する
   const sendFeeling = (feeling, restaurant_id) => {
+    // tutorial card は送らない
+    if(restaurant_id.indexOf('tutorial')!==-1) return;
+
     axios.post('/api/feeling', {
       params: {
         user_id: props.userId,

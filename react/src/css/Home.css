@@ -3,25 +3,29 @@ body {
   overflow: hidden;
   /*height: calc(var(--myvh) * 100);*/
   background-color: whitesmoke;
+  align-items: center;
 }
 
-/*PCで見るときはサイト下部を空けない*/
+/*PCで見るとき*/
 @media screen and (min-width: 767px) {
   .Home {
-    height: 100vh;
+    height: 700px;
+    max-height: 100vh;
+    width: 420px;
+    max-width: 60vh;
   }
 }
-/*タブレット・スマホのブラウザで見るときはサイト下部を空ける*/
+/*タブレット・スマホのブラウザで見るとき*/
 @media screen and (max-width: 767px) {
   .Home {
-    height: 90vh;
+    height: 100vh;
+    max-width: 60vh;
   }
 }
 
 .Home {
   display: flex;
   flex-direction: column;
-  max-width: 50vh;
   margin: 0 auto;
   position: relative;
   padding: 0;

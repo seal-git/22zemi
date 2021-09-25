@@ -15,33 +15,40 @@ import GridListTile from '@material-ui/core/GridListTile';
 import SortButton from './keeplist-components/SortButton'
 import KeepListModal from './keeplist-components/KeepListModal'
 import { CSSTransition, Transition } from 'react-transition-group';
+import CommentModal from './selection-components/restaurant-information-components/CommentModal';
+import RestaurantInformation from './selection-components/RestaurantInformation';
+
 
 const useStyles = makeStyles((theme) => ({
+
     aloneStyle: {
-        minHeight: '100%',
-        backgroundImage: 'linear-gradient(180.02deg, #FFEEAA 0.02%, #FDFFEB 80.2%)',
-        backgroundSize: 'cover',
+        height: '100vh',
+        backgroundColor: 'white',
+        // backgroundImage: 'linear-gradient(180.02deg, #FFEEAA 0.02%, #FDFFEB 80.2%)',
+        // backgroundSize: 'cover',
     },
     groupStyle: {
-        minHeight: '100%',
-        backgroundImage: 'linear-gradient(180.02deg, #FFDDAA 0.02%, #FFFBFB 80.2%)',
-        backgroundSize: 'cover',
+        height: '100%',
+        backgroundColor: 'white',
+        // backgroundImage: 'linear-gradient(180.02deg, #FFDDAA 0.02%, #FFFBFB 80.2%)',
+        // backgroundSize: 'cover',
     },
     Keeplist_wrapper: {
-        minHeight: "100%",
-        display: "flex",
-        flexDirection: "column",
+        height: "100vh",
     },
-    Keeplist: {
+    KeepList: {
         flex: 1,
+        height: '100%',
     },
     topWrapper: {
         width: '100%',
-        position: 'relative'
+        height: '14%',
     },
     pageTitle: {
-        display: 'block',
-        lineHeight: '40px',
+        display: 'flex',
+        alignItems: 'center',
+        height: '50%',
+        fontSize: '1.2rem',
         fontFamily: 'roboto',
         fontWeight: 700,
         backgroundColor: '#D90060',
@@ -50,9 +57,13 @@ const useStyles = makeStyles((theme) => ({
     },
     sortButtonWrapper: {
         // width: '100%',
-        paddingLeft: '6px',
+        padding: '0 8px',
         display: 'flex',
-        flexWrap: 'wrap',
+        height: '50%',
+        overflowX: "scroll",
+        '&::-webkit-scrollbar': {
+            display: 'none'
+        }
     },
     modalWrapper: {
         position: 'absolute',
@@ -61,33 +72,19 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'space-around',
         zIndex: 5,
     },
+    tileWrapper: {
+        padding: '0px 0 80px 0',
+        height: '76%',
+        overflowY: "scroll",
+        '&::-webkit-scrollbar': {
+            display: 'none'
+        }
+    }
 }));
 
-
-// const initDataList = [{
-//     "Name": "Loading...",
-//     "Images": [noImageIcon, noImageIcon],
-//     "Distance": "",
-//     "Price": "",
-//     "Category": "",
-//     "ReviewRating": "",
-//     "VotesLike": 0,
-//     "VotesAll": 0,
-//     "distance_float": 0.,
-//     "RecommendScore": 0,
-// }, {
-//     "Name": "Loading...",
-//     "Images": [noImageIcon, noImageIcon],
-//     "Distance": "",
-//     "Price": "",
-//     "Category": "",
-//     "ReviewRating": "",
-//     "VotesLike": 0,
-//     "VotesAll": 0,
-//     "distance_float": 0.,
-//     "RecommendScore": 0,
-// }]
 const initDataList = sampleData
+
+// const initDataList = sampleData
 
 
 /*
@@ -112,12 +109,27 @@ function KeepList(props) {
         })
             .then(function (response) {
                 console.log(response)
-                let dataList = response['data']
-                // テスト用データ
-                // let dataList = sampleData
-
-                console.log("keeplist length:" + dataList.length)
-                selectControl('sortByFavos');
+                // let dataList = response['data']
+                let dataList = initDataList
+                if (dataList === 0) {
+                    console.log("no data")
+                    dataList = []
+                } else {
+                    dataList.sort(function (a, b) {
+                        // 降順ソート
+                        if (+a.RecommendScore > +b.RecommendScore) return -1
+                        if (+a.RecommendScore < +b.RecommendScore) return 1
+                        return 0
+                    });
+                    dataList.sort(function (a, b) {
+                        // 降順ソート
+                        if (+a.VotesLike > +b.VotesLike) return -1
+                        if (+a.VotesLike < +b.VotesLike) return 1
+                        return 0
+                    });
+                }
+                // console.log("keeplist length:" + dataList.length)
+                setDataList(dataList)
             })
             .catch((error) => {
                 console.log(error);
@@ -147,9 +159,11 @@ function KeepList(props) {
 
     const selectControl = (event) => {
         // ソート用にリストを複製
+        console.log(dataList)
         let newDataList = [...dataList]
         if (newDataList.length > 0) {
 
+            console.log(dataList)
             console.log(event)
 
             if (event == 'sortByFavos') {
@@ -245,47 +259,46 @@ function KeepList(props) {
 
     return (
         <div className={classes.Keeplist_wrapper}>
-            <CSSTransition in={modalState} classNames="modal" timeout={500} unmountOnExit>
+            <CommentModal
+                open={modalState}
+                handleClose={closeModal}
+                data={modalData}
+                showPicture={true}
+            />
+            {/* <CSSTransition in={modalState} classNames="modal" timeout={500} unmountOnExit>
                 <div className={classes.modalWrapper}>
                     <KeepListModal
                         data={modalData}
                         modalState={modalState}
                         onClick={closeModal} />
                 </div>
-            </CSSTransition>
+            </CSSTransition> */}
             <div className={classes.KeepList}>
-                <div className={className}>
-                    <Box className={classes.topWrapper}>
-                        <Typography className={classes.pageTitle}>
-                            みんなの投票結果
-                        </Typography>
-                        <div className={classes.sortButtonWrapper}>
-
-                            {sortItems.map((item) => (
-
-                                <SortButton
-                                    text={item.text}
-                                    sortType={item.sortType}
-                                    sortMode={sortMode}
-                                    setSortMode={setSortMode}
-                                    onClick={selectControl} />
-                            ))}
-
-                        </div>
-                    </Box>
-                    <Box>
-                        {dataList.length > 0 ?
-                            <KeepListTiles /> :
-                            <Typography>
-                                キープされたお店はありません
-                            </Typography>}
-                    </Box>
-
-                    {/* <Box style={{ height: '48px' }}></Box> */}
+                <div className={classes.topWrapper}>
+                    <Typography className={classes.pageTitle}>
+                        みんなの投票結果
+                    </Typography>
+                    <div className={classes.sortButtonWrapper}>
+                        {sortItems.map((item) => (
+                            <SortButton
+                                text={item.text}
+                                sortType={item.sortType}
+                                sortMode={sortMode}
+                                setSortMode={setSortMode}
+                                onClick={selectControl} />
+                        ))}
+                    </div>
+                </div>
+                <div className={classes.tileWrapper}>
+                    {dataList.length > 0 ?
+                        <KeepListTiles /> :
+                        <Typography>
+                            キープされたお店はありません
+                        </Typography>}
                 </div>
             </div>
             <Credit />
-        </div>
+        </div >
     )
 }
 
