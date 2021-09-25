@@ -330,49 +330,63 @@ def save_restaurants_info(restaurants_info):
             fetch_restaurant = Restaurant()
             fetch_restaurant.id = r_info.id
 
+        fetch_restaurant.yahoo_id = r_info.yahoo_id
+        fetch_restaurant.google_id = r_info.google_id
         fetch_restaurant.name = r_info.name
         fetch_restaurant.address = r_info.address
         fetch_restaurant.lat = r_info.lat
         fetch_restaurant.lon = r_info.lon
+        fetch_restaurant.station = '\n'.join(r_info.station)
+        fetch_restaurant.railway = '\n'.join(r_info.railway)
+        fetch_restaurant.phone = r_info.phone
+        fetch_restaurant.genre_name = '\n'.join(r_info.genre_name)
+        fetch_restaurant.genre_code = '\n'.join(r_info.genre_code)
         fetch_restaurant.catchcopy = r_info.catchcopy
-        fetch_restaurant.price = r_info.price
         fetch_restaurant.lunch_price = r_info.lunch_price
         fetch_restaurant.dinner_price = r_info.dinner_price
-        fetch_restaurant.category = r_info.category
         fetch_restaurant.url_web = r_info.web_url
         fetch_restaurant.url_map = r_info.map_url
-        fetch_restaurant.review_rating = r_info.yahoo_rating_str
-        fetch_restaurant.review_rating_float = r_info.yahoo_rating_float
-        # fetch_restaurant.business_hour = r_info.sunday_opening_hours
-        fetch_restaurant.genre_name = '\n'.join(r_info.genre)
-        fetch_restaurant.images = '\n'.join(r_info.image_url)
+        fetch_restaurant.review = '\n'.join(r_info.review)
+        fetch_restaurant.image_url = '\n'.join(r_info.image_url)
         session.add(fetch_restaurant)
         session.commit()
-        # print(f"save_restaurants_info: saved {fetch_restaurant.id}")
+        print(f"save_restaurants_info: saved {fetch_restaurant.id} ")
 
 
 def get_restaurant_info_from_db(f_restaurant):
     restaurant_info = RestaurantInfo()
     restaurant_info.id = f_restaurant.id
+    restaurant_info.yahoo_id = f_restaurant.yahoo_id
+    restaurant_info.google_id = f_restaurant.google_id
     restaurant_info.name = f_restaurant.name
     restaurant_info.address = f_restaurant.address
     restaurant_info.lat = f_restaurant.lat
     restaurant_info.lon = f_restaurant.lon
-    restaurant_info.catchcopy = f_restaurant.catchcopy
+    restaurant_info.station = f_restaurant.station.split('\n')
+    restaurant_info.railway = f_restaurant.railway.split('\n')
+    restaurant_info.phone = f_restaurant.phone
+    restaurant_info.genre_code = f_restaurant.genre_code
+    restaurant_info.genre_name = f_restaurant.genre_name
     restaurant_info.lunch_price = f_restaurant.lunch_price
     restaurant_info.dinner_price = f_restaurant.dinner_price
-    restaurant_info.category = f_restaurant.category
-    restaurant_info.web_url = f_restaurant.url_web
-    restaurant_info.map_url = f_restaurant.url_map
-    restaurant_info.rating = f_restaurant.review_rating_str
-    restaurant_info.monday_opening_hour = f_restaurant.business_hour
-    restaurant_info.tuesday_opening_hour = f_restaurant.business_hour
-    restaurant_info.wednesday_opening_hour = f_restaurant.business_hour
-    restaurant_info.thursday_opening_hour = f_restaurant.business_hour
-    restaurant_info.friday_opening_hour = f_restaurant.business_hour
-    restaurant_info.saturday_opening_hour = f_restaurant.business_hour
-    restaurant_info.sunday_opening_hour = f_restaurant.business_hour
-    restaurant_info.image_url = f_restaurant.images.split('\n')
+    restaurant_info.monday_opening_hours = f_restaurant.monday_opening_hours
+    restaurant_info.tuesday_opening_hours = f_restaurant.tuesday_opening_hours
+    restaurant_info.wednesday_opening_hours = f_restaurant.wednesday_opening_hours
+    restaurant_info.thursday_opening_hours = f_restaurant.thursday_opening_hours
+    restaurant_info.friday_opening_hours = f_restaurant.friday_opening_hours
+    restaurant_info.saturday_opening_hours = f_restaurant.saturday_opening_hours
+    restaurant_info.sunday_opening_hours = f_restaurant.sunday_opening_hours
+    restaurant_info.access = f_restaurant.access
+    restaurant_info.catchcopy = f_restaurant.catchcopy
+    restaurant_info.health_info = f_restaurant.health_info
+    restaurant_info.web_url = f_restaurant.web_url
+    restaurant_info.map_url = f_restaurant.map_url
+    # restaurant_info.yahoo_rating = f_restaurant.yahoo_rating TODO
+    restaurant_info.yahoo_rating_float = f_restaurant.yahoo_rating_float
+    restaurant_info.yahoo_rating_str = f_restaurant.yahoo_rating_str
+    restaurant_info.google_rating = f_restaurant.google_rating
+    restaurant_info.review = f_restaurant.review.split('\n')
+    restaurant_info.image_url = f_restaurant.image_url.split('\n')
     return restaurant_info
 
 

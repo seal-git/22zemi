@@ -81,11 +81,11 @@ class RestaurantInfo:
         self.lat: float = None  # 緯度
         self.lon: float = None  # 経度
         self.address: str = None  # 住所
-        self.station: list[str] = None  # 駅
-        self.railway: list[str] = None  # 路線
+        self.station: list[str] = []  # 駅
+        self.railway: list[str] = []  # 路線
         self.phone: str = None  # 電話番号
-        self.category: str = None  # カテゴリ
-        self.genre: list[str] = None  # ジャンル
+        self.genre_name: list[str] = []  # ジャンル
+        self.genre_code: list[str] = []  # ジャンル
         self.lunch_price: int = None  # ランチの値段
         self.dinner_price: int = None  # ディナーの値段
         self.monday_opening_hours: str = None  # 月曜の営業時間
@@ -105,8 +105,8 @@ class RestaurantInfo:
         self.yahoo_rating_str: str = None  # 星評価の平均を文字列で表したもの
         self.google_rating: float = None  # 星評価
         self.review: list[str] = []  # レビュー
-        self.image_url: list[str] = None  # 画像のurl
-        self.google_photo_reference: list[str] = None
+        self.image_url: list[str] = []  # 画像のurl
+        self.google_photo_reference: list[str] = []
 
         # 動的パラメーター(呼び出す度に計算するもの) -> Voteテーブルに保存
         self.price: int = None  # 指定時刻の値段
@@ -161,6 +161,6 @@ class RestaurantInfo:
             'CassetteOwnerLogoImage': [],
             'ImagesBinary': [],
         }
-        pprint.PrettyPrinter(indent=2).pprint(r_info_dict)
+        # pprint.PrettyPrinter(indent=2).pprint(r_info_dict)
 
         return r_info_dict

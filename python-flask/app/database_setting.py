@@ -79,25 +79,36 @@ class Restaurant(Base):
     __tablename__ = 'restaurants'
     __table_args__=({"mysql_charset": "utf8mb4", "mysql_engine": "InnoDB"})
     id = Column('id', String(50), primary_key=True)
+    yahoo_id = Column('yahoo_id', String(50))
+    google_id = Column('google_id', String(50))
     name = Column('name', String(100), nullable=False) # 店名
     address = Column('address', String(400), nullable=False) # 住所
     lat = Column('lat', Float, nullable=False) # 緯度
     lon = Column('lon', Float, nullable=False) # 経度
-    catchcopy = Column('catchcopy', String(400)) # キャッチコピー
+    station = Column('station', String(400))
+    railway = Column('railway', String(400))
+    phone = Column('phone', String(20))
+    genre_name = Column('genre_name', String(200)) # ジャンル名
+    genre_code = Column('genre_code', String(200)) # ジャンルコード: Yahoo Local Search API を参照
     lunch_price = Column('lunch_price', Integer) # 昼食の価格帯
     dinner_price = Column('dinner_price', Integer) # 夕食の価格帯
-    category = Column('category', String(400)) # カテゴリー
-    url_web = Column('url_web', String(400)) # お店のURL
-    url_map = Column('url_map', String(400)) # MapのURL
-    review_rating_str = Column('review_rating_str', String(100)) # 顧客レビューの評価値
-    review_rating_float = Column('review_rating_float', Float) # 顧客レビューの評価値
-    business_hour = Column('business_hour', String(400)) # 営業時間
-    open_hour = Column('open_hour', Float) # 開店時間
-    close_hour = Column('close_hour', Float) # 閉店時間
-    genre_code = Column('genre_code', String(200)) # ジャンルコード: Yahoo Local Search API を参照
-    genre_name = Column('genre_name', String(200)) # ジャンル名
-    images = Column('images', String(5000)) # 写真
-    menu = Column('menu', String(400)) # メニュー (2021/08/21 未使用)
+    monday_opening_hours = Column('monday_opening_hours', String(20))
+    tuesday_opening_hours = Column('tueday_opening_hours', String(20))
+    wednesday_opening_hours = Column('wednesday_opening_hours', String(20))
+    thursday_opening_hours = Column('thursday_opening_hours', String(20))
+    friday_opening_hours = Column('friday_opening_hours', String(20))
+    saturday_opening_hours = Column('saturday_opening_hours', String(20))
+    sunday_opening_hours = Column('sunday_opening_hours', String(20))
+    access = Column('access', String(400))
+    catchcopy = Column('catchcopy', String(400)) # キャッチコピー
+    health_info = Column('health_info', String(400))
+    web_url = Column('url_web', String(400)) # お店のURL
+    map_url = Column('url_map', String(400)) # MapのURL
+    yahoo_rating_str = Column('yahoo_rating_str', String(100)) # yahoo評価値
+    yahoo_rating_float = Column('yahoo_rating_float', Float) # yahoo評価値(出力用文字列)
+    google_rating = Column('google_rating', Float)
+    review = Column('yahoo_review', String(2000)) # レビュー文字列(\t区切り)
+    image_url = Column('image_url', String(2000)) # 写真url(\n区切り)
     created_at = Column('created_at', Timestamp, server_default=current_timestamp(), nullable=False)
     updated_at = Column('update_at', Timestamp, server_default=text('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'), nullable=False)
 
