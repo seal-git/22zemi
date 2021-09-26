@@ -2,7 +2,7 @@
 class Config:
     import os
     # Flask
-    DEBUG = True
+    DEBUG = False
 
     # SQLAlchemy
     SQLALCHEMY_DATABASE_URI = 'mysql://{user}:{password}@{host}/flask_sample?charset=utf8'.format(
@@ -42,7 +42,7 @@ class MyConfig:
     MAX_LIST_COUNT = 10  # 画像の最大枚数
 
     IMAGE_DIRECTORY_PATH = 'data/image/'
-    SERVER_URL = 'localhost' # 'reskima.com'
+    SERVER_URL = 'reskima.com'
     INIT_DB = True  # Trueならば再起動時にDBをリセットする
     MAX_GOOGLE_IMAGES_COUNT = 4 # Google画像の取得枚数。最大10。大きくすると画像が多くなるがお金がかかる
 
