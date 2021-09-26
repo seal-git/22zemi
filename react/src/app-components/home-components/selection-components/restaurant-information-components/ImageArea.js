@@ -31,7 +31,7 @@ function Bars(props){
             position='absolute'
         >
             {props.Images.map( (image,i) =>{
-                return <Bar isSelected={i===props.index} onClick={()=>{ props.setIndex(i)}} />
+                return <Bar isSelected={i===props.index} onClick={()=>{ props.setIndex(i)}} key={'bar'+i}/>
             })} 
         </Box>
     )
@@ -47,7 +47,8 @@ function RestaurantImage(props){
                 {
                     opacity: props.isSelected?1:0, 
                     transition:'0.5s',
-                    height: '100%',
+                    width: props.restaurant_id==='tutorial'?'100%':'auto',
+                    height: props.restaurant_id==='tutorial'?'auto':'100%',
                     objectFit: 'cover',
                     backgroundColor: 'transparent',
                     webkitUserSelect: 'none',
@@ -90,16 +91,23 @@ function ImageArea(props){
                     return <RestaurantImage image={image} i={i} restaurant_id={props.restaurant_id} isSelected={index===i}/>
                 })}
             </Box>
-            <Box
-                style={ {
-                    width:'100%',
-                    height:'100%',
-                    position:'absolute',
-                    background:`linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 70%,rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 1))`,
-                } }
-            >
-            </Box>
-            <Bars Images={props.Images} index={index} setIndex={setIndex}/>
+            {
+                props.restaurant_id!=='tutorial'
+                ?<Box
+                    style={ {
+                        width:'100%',
+                        height:'100%',
+                        position:'absolute',
+                        background:`linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 70%,rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 1))`,
+                    } }
+                > </Box>
+                :null
+            }
+            {
+                props.restaurant_id!=='tutorial'
+                ?  <Bars Images={props.Images} index={index} setIndex={setIndex}/>
+                :  null
+            }
         </Box>
     )
 }

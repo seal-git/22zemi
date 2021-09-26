@@ -356,7 +356,7 @@ def http_list():
         user_id)
 
     # レストランごとに投票数をカウント
-    fetch_votes = session.query(Vote.restaurant, Vote.votes_like).filter(
+    fetch_votes = session.query(Vote).filter(
         Vote.group == group_id).order_by(desc(Vote.votes_like)).all()
     # リストに存在しない時は空のリストを返す
     if len(fetch_votes) == 0:
