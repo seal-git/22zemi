@@ -226,40 +226,11 @@ def add_review_rating(restaurants_info):
     return restaurants_info
 
 
-def get_google_images_list(restaurants_info):
-    '''
-    Googleから複数の店の画像を並列に取得する
-    '''
-    images_list = [[] for r in restaurants_info]
-    # 並列処理
-    thread_list = [None for r in restaurants_info]
-    for index,r_info in enumerate(restaurants_info):
-        if r_info.google_id is not None:
-            continue
-        thread_list[index] = threading.Thread(target=get_google_images, args=(index, r_info, images_list))
-        thread_list[index].start()
-    for t in thread_list:
-        if t is not None: t.join()
 
-    for i in range(len(restaurants_info)):
-        restaurants_info[i].image_url += images_list[i]
-    # # 逐次処理
-    # for index,name in enumerate(name_list):
-    #     get_google_images(index, name, images_list)
-
-    return restaurants_info
-
-
-def get_google_images(index, r_info, images_list):
+def get_google_images(r_info):
     '''
     店名からGoogle画像を取得する
     '''
-    if config.MyConfig.GET_GOOGLE_IMAGE:
-        r_info = api_functions.google_find_place(r_info=r_info)
-        r_info = api_functions.google_place_details(r_info=r_info)
-    else:
-        r_info = api_functions_for_test.google_find_place(r_info=r_info)
-        r_info = api_functions_for_test.google_place_details(r_info=r_info)
 
     url_list = ['' for p in r_info.google_photo_reference]
     thread_list = [None for p in r_info.google_photo_reference]
@@ -270,9 +241,9 @@ def get_google_images(index, r_info, images_list):
     for t in thread_list:
         if t is not None: t.join()
 
-    print(f"images_list[{index}].url_list = {url_list}")
-    images_list[index] = [url for url in url_list if len(url)>0]
-
+    # print(f"images_list[{index}].url_list = {url_list}")
+    r_info.image_url += [url for url in url_list if len(url)>0]
+    return r_info
 
 def get_google_image_from_reference(index, reference, url_list):
 

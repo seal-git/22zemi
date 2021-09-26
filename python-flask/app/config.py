@@ -30,7 +30,7 @@ class MyConfig:
     
     GET_GOOGLE_IMAGE = False
     USE_LOCAL_IMAGE = False
-    USE_RAW_IMAGE = False
+    USE_RAW_IMAGE = True
     MAX_DISTANCE = 200000  # 中心地からの距離 上限20
     RESPONSE_COUNT = 3  # 一回に返す店舗の数
     STOCK_COUNT = 12  # 検索で取得するデータの数．STOCK_COUNT個の店からRESPONSE_COUNT個選ぶ
@@ -44,7 +44,7 @@ class MyConfig:
     IMAGE_DIRECTORY_PATH = 'data/image/'
     SERVER_URL = 'localhost' # 'reskima.com'
     INIT_DB = True # Trueならば再起動時にDBをリセットする
-    MAX_GOOGLE_IMAGES_COUNT = 4 # Google画像の取得枚数。最大10。大きくすると画像が多くなるがお金がかかる
+    MAX_GOOGLE_IMAGES_COUNT = 4  # Google画像の取得枚数。最大10。大きくすると画像が多くなるがお金がかかる
 
 
     TEST = False  # test時はTrueにする
