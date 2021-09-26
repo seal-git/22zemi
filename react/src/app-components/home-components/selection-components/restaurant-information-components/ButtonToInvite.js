@@ -50,7 +50,7 @@ function ButtonToInvite(props) {
 
     const StyledInviteIcon = withStyles( (theme) => ({
         root:{
-            width: '15%',
+            width: '14%',
             height: 'auto',
             margin: '2% 2%',
             cursor: 'pointer',

@@ -7,13 +7,16 @@ function Setting(props) {
     // 「選ぶ」画面に進む処理
     const proceedToSelection = (newMode, groupId) => {
         // 検索条件を取得
-        const area = document.getElementById("inputArea").value
-        const genre = document.getElementById("inputGenre").value
-        const maxprice = document.getElementById("inputMaxPrice").value
-        const time = document.getElementById("inputTime").value
+        let area = document.getElementById("inputArea").value
+        let genre = document.getElementById("inputGenre").value
+        let maxprice = document.getElementById("inputMaxPrice").value
+        let time = document.getElementById("inputTime").value
         console.log(area, genre, maxprice, time)
 
         // パラメータを更新
+        if (area==="" && genre==="" && maxprice==="" && time===""){
+            maxprice = '4000'
+        }
         props.setParamsForSearch({
             "place": area,
             "genre": genre,
@@ -35,8 +38,8 @@ function Setting(props) {
         // モード設定
         props.setMode(newMode)
 
-        //　チュートリアルをオンにする
-        props.setTutorialIsOn(true)
+        //　チュートリアルをオフにする
+        props.setTutorialIsOn(false)
 
         // Selection に移る
         props.setView("Selection")
@@ -106,7 +109,6 @@ function Setting(props) {
                             <div>
                                 <input
                                     id="inputTime"
-                                    value="12:00"
                                     type="time"
                                 />
                             </div>
@@ -118,7 +120,7 @@ function Setting(props) {
                         proceedToSelection("Alone", "")
                     }}>
                         <strong>
-                            みんなを招待する
+                            お店を選ぶ
                         </strong>
                     </button>
                 </div>
