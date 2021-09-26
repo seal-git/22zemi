@@ -60,7 +60,7 @@ function ButtonToInvite(props) {
         }
     }))(InviteIcon);
 
-    const url = "https://localhost?group_id="+props.groupId
+    const url = "https://reskima.com?group_id="+props.groupId
     return (
         <div className={classes.ButtonToInviteContainer}>
             <StyledInviteIcon onClick={()=>{handleClickOpen()}} />
