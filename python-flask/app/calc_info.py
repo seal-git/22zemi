@@ -213,9 +213,9 @@ def add_review_rating(restaurants_info):
             review_rating = float(restaurants_info[i].yahoo_rating_float)
         else:
             rating = restaurants_info[i].yahoo_rating
-            if rating is None:
+            if len(rating) == 0:
                 continue
-            review_rating = sum(rating)/len(rating) if len(rating) != 0 else 3
+            review_rating = sum(rating)/len(rating)
         review_rating_int = int(review_rating + 0.5)
         review_rating_star = '★' * review_rating_int + '☆' * (5-review_rating_int)
         review_rating_star = review_rating_star + '    ' + ('%.1f' % review_rating)
