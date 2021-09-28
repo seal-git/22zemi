@@ -40,6 +40,7 @@ class MyConfig:
     LUNCH_TIME_START = 10  # ランチの開始時間
     LUNCH_TIME_END = 15  # ランチの終了時間
     MAX_LIST_COUNT = 10  # 画像の最大枚数
+    SHOW_DISTANCE = True  # 距離表示をするか
 
     IMAGE_DIRECTORY_PATH = 'data/image/'
     SERVER_URL = 'reskima.com' # 'reskima.com'

@@ -51,7 +51,7 @@ def add_votes_distance(fetch_group, group_id, restaurants_info):
                                                                restaurants_info[i].lon)
                                                               ).m #距離 メートル float
             restaurants_info[i].distance_str = distance_display(restaurants_info[i].distance_float) # 緯度・経度から距離を計算 str
-
+            # print(f"distance:{restaurants_info[i].distance_str}")
     return restaurants_info
 
 
