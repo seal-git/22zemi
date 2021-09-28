@@ -179,7 +179,7 @@ def register_user_and_group_if_not_exist(group_id, user_id, place, recommend_met
         new_belong.group = group_id
         session.add(new_belong)
         session.commit()
-        first_time_flg = True
+        first_time_belong_flg = True
         fetch_belong = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()
 
     return fetch_user, fetch_group, fetch_belong, first_time_group_flg, first_time_belong_flg

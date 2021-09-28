@@ -3,6 +3,7 @@ from flask import jsonify, make_response, request, send_file
 
 from app import app_, db_
 from app import database_functions, recommend, api_functions, config, call_api
+from app.internal_info import  *
 from app.database_setting import *  # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 import json
 from werkzeug.exceptions import NotFound, BadRequest, InternalServerError
@@ -197,17 +198,10 @@ def http_info():
 
     # リクエストクエリを受け取る
     data = request.get_json()["params"]
+    pprint.PrettyPrinter(indent=2).pprint(data)
     user_id = int(data["user_id"]) if data.get("user_id", False) else None
     group_id = int(data["group_id"]) if data.get("group_id", False) else None
     # coordinates = data["coordinates"] if data.get("coordinates", False) else one # TODO: デモ以降に実装
-    place = data.get("place")
-    genre = data.get("genre")
-    query = data.get("query")
-    open_day = data.get("open_day")
-    open_hour = data.get("open_hour")
-    maxprice = data.get("maxprice")
-    minprice = data.get("minprice")
-    sort = data.get("sort")
     recommend_method = data.get("recommend_method",RECOMMEND_METHOD)
     api_method = data.get("api_method", API_METHOD)
 
@@ -220,11 +214,28 @@ def http_info():
     # open_hour = '18'
 
     # 未登録ならデータベースにユーザとグループを登録する
-    fetch_user, fetch_group, fetch_belong, first_time_group_flg, first_time_belong_flg = database_functions.register_user_and_group_if_not_exist(
-        group_id, user_id, address, recommend_method, api_method)
+    (fetch_user,
+     fetch_group,
+     fetch_belong,
+     first_time_group_flg,
+     first_time_belong_flg
+     ) = database_functions.register_user_and_group_if_not_exist(group_id,
+                                                                 user_id,
+                                                                 address,
+                                                                 recommend_method,
+                                                                 api_method)
 
     # 検索条件をデータベースに保存
     if first_time_group_flg:
+        params = Params()
+        place = data.get("place")
+        genre = data.get("genre")
+        query = data.get("query") #未使用
+        open_day = data.get("open_day")  # 指定不能
+        open_hour = data.get("open_hour")
+        maxprice = data.get("maxprice")
+        minprice = data.get("minprice") # 指定不能
+        sort = data.get("sort")
         database_functions.set_search_params(group_id, place, genre, query,
                                             open_day, open_hour, maxprice,
                                             minprice, sort,

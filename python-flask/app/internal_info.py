@@ -20,9 +20,9 @@ class Params:
     このパラメータはGroupテーブルで定義されているものに対応している。(TODO: 未対応のものもまだある)
     """
     def __init__(self):
-        self.query: str = None # キーワード
         self.lat: float = None # 中心の緯度
         self.lon: float = None # 中心の経度
+        self.query: str = None # キーワード
         self.max_dist: int = config.MyConfig.MAX_DISTANCE # 中心からの検索距離(m)
         self.open_day: str = datetime.datetime.now().day  # 日付指定
         self.open_hour: str = datetime.datetime.now().hour  # 時間指定
