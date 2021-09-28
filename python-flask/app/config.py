@@ -27,8 +27,9 @@ class MyConfig:
 
     RECOMMEND_METHOD = 'svm'
     API_METHOD = 'yahoo'
-    
+
     GET_GOOGLE_IMAGE = False
+    USE_GOOGLE_API = False
     USE_LOCAL_IMAGE = False
     USE_RAW_IMAGE = True
     MAX_DISTANCE = 200000  # 中心地からの距離 上限20

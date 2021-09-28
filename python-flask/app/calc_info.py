@@ -251,7 +251,7 @@ def get_google_image_from_reference(index, reference, url_list):
 
     # print(f"get_google_image: index={index}, i={i}/{len(photo_references)}")
     # image_referenceごとにAPIを叩いて画像を取得
-    if config.MyConfig.GET_GOOGLE_IMAGE:
+    if config.MyConfig.USE_GOOGLE_API:
         image = api_functions.google_place_photo(reference, image_width)
     else:
         image = api_functions_for_test.google_place_photo(reference, image_width)
@@ -260,40 +260,6 @@ def get_google_image_from_reference(index, reference, url_list):
     url_list[index] = f"http://{config.MyConfig.SERVER_URL}:5000/static/{reference}.png"
 
 
-# def get_google_images_references(restaurant_name):
-#     '''
-#     店名からGoogleから画像を取得する
-#     '''
-#     if os.getenv("USE_LOCAL_IMAGE")=="True": # debug mode
-#         print("getting image reference from test/data")
-#         with open("test/data/references.txt", "r")as f:
-#             image_references = [l for l in f]
-#         return image_references
-#     else:
-#         # place検索
-#         url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
-#         params = {
-#             'key': os.environ["GOOGLE_API_KEY"],
-#             'input': restaurant_name,
-#             'inputtype': 'textquery',
-#         }
-#         res = requests.get(url=url, params=params)
-#         dic = res.json()
-#         place_id = dic['candidates'][0]['place_id']
-
-#         # place_detailを取得
-#         url = 'https://maps.googleapis.com/maps/api/place/details/json'
-#         params = {
-#             'key': os.environ["GOOGLE_API_KEY"],
-#             'place_id': place_id,
-#         }
-#         res = requests.get(url=url, params=params)
-#         dic = res.json()
-#         if 'photos' in dic['result']:
-#             photo_references = [photo['photo_reference'] for photo in dic['result']['photos']]
-#         else:
-#             photo_references = []
-#     return photo_references
 
 from memory_profiler import profile
 @profile

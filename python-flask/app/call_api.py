@@ -174,12 +174,13 @@ def thread_get_restaurant_info(i, r_info, new_restaurants_info):
 
     if r_info.google_id is not None:
         ## googleの情報を追加
-        if config.MyConfig.GET_GOOGLE_IMAGE:
+        if config.MyConfig.USE_GOOGLE_API:
             r_info = api_functions.google_place_details(r_info=r_info)
         else:
             r_info = api_functions_for_test.google_place_details(r_info=r_info)
 
-    r_info = calc_info.get_google_images(r_info)
+    if config.MyConfig.GET_GOOGLE_IMAGE:
+        r_info = calc_info.get_google_images(r_info)
 
     new_restaurants_info[i] = r_info
     print(f"thread{i}: {r_info.name}, {r_info.google_id}")
