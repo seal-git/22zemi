@@ -51,7 +51,7 @@ def add_votes_distance(fetch_group, group_id, restaurants_info):
                                                                restaurants_info[i].lon)
                                                               ).m #距離 メートル float
             restaurants_info[i].distance_str = distance_display(restaurants_info[i].distance_float) # 緯度・経度から距離を計算 str
-
+            # print(f"distance:{restaurants_info[i].distance_str}")
     return restaurants_info
 
 
@@ -213,7 +213,7 @@ def add_review_rating(restaurants_info):
             review_rating = float(restaurants_info[i].yahoo_rating_float)
         else:
             rating = restaurants_info[i].yahoo_rating
-            if rating is None:
+            if len(rating) == 0:
                 continue
             review_rating = sum(rating)/len(rating)
         review_rating_int = int(review_rating + 0.5)

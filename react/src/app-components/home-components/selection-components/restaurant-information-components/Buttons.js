@@ -21,7 +21,7 @@ const useStyles = makeStyles({
 
 const StyledCircleIcon = withStyles({
     root: {
-      width: '30%',
+      width: '27%',
       height: 'auto',
       position: 'relative',
       cursor: 'pointer',
@@ -30,7 +30,7 @@ const StyledCircleIcon = withStyles({
 
 const StyledCrossIcon = withStyles({
     root: {
-      width: '30%',
+      width: '27%',
       height: 'auto',
       position: 'relative',
       cursor: 'pointer',

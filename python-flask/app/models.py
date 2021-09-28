@@ -49,9 +49,11 @@ def create_response_from_restaurants_info(group_id, user_id, restaurants_info):
     response_keys = ['Restaurant_id', 'Name', 'Address', 'CatchCopy', 'Price',
                      'Category', 'UrlWeb', 'UrlMap', 'ReviewRating',
                      'BusinessHour', 'Genre', 'Images', 'ImagesBinary']
+    if config.MyConfig.SHOW_DISTANCE:
+        response_keys.append('Distance')
     response = [{k: v for k, v in r.items() if k in response_keys} for r in
                 restaurants_info]  # response_keysに含まれているキーを残す
-    pprint.PrettyPrinter(indent=2).pprint(response)
+    #pprint.PrettyPrinter(indent=2).pprint(response)
 
     return json.dumps(response, ensure_ascii=False)
 
@@ -356,7 +358,7 @@ def http_list():
         user_id)
 
     # レストランごとに投票数をカウント
-    fetch_votes = session.query(Vote.restaurant, Vote.votes_like).filter(
+    fetch_votes = session.query(Vote).filter(
         Vote.group == group_id).order_by(desc(Vote.votes_like)).all()
     # リストに存在しない時は空のリストを返す
     if len(fetch_votes) == 0:

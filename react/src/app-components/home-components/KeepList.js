@@ -22,7 +22,7 @@ import RestaurantInformation from './selection-components/RestaurantInformation'
 const useStyles = makeStyles((theme) => ({
 
     aloneStyle: {
-        height: '100vh',
+        height: '100%',
         backgroundColor: 'white',
         // backgroundImage: 'linear-gradient(180.02deg, #FFEEAA 0.02%, #FDFFEB 80.2%)',
         // backgroundSize: 'cover',
@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
         // backgroundSize: 'cover',
     },
     Keeplist_wrapper: {
-        height: "100vh",
+        height: "100%",
     },
     KeepList: {
         flex: 1,
@@ -74,7 +74,7 @@ const useStyles = makeStyles((theme) => ({
     },
     tileWrapper: {
         padding: '0px 0 80px 0',
-        height: '76%',
+        height: '70%',
         overflowY: "scroll",
         '&::-webkit-scrollbar': {
             display: 'none'
@@ -138,6 +138,7 @@ function KeepList(props) {
 
     useEffect(() => {
         getList()
+        props.setTutorialIsOn(false)
         // Mount 時にだけ呼び出す
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
@@ -159,11 +160,8 @@ function KeepList(props) {
 
     const selectControl = (event) => {
         // ソート用にリストを複製
-        console.log(dataList)
         let newDataList = [...dataList]
         if (newDataList.length > 0) {
-
-            console.log(dataList)
             console.log(event)
 
             if (event == 'sortByFavos') {
@@ -184,8 +182,19 @@ function KeepList(props) {
                 console.log('評価の高い順')
                 newDataList.sort(function (a, b) {
                     // 評価の高い順
-                    if (+a.ReviewRating > +b.ReviewRating) return 1
-                    if (+a.ReviewRating < +b.ReviewRating) return -1
+                    if (a.ReviewRating != null) {
+                        var rateA = +a.ReviewRating.slice(8);
+                    } else {
+                        var rateA = 0;
+                    }
+                    if (b.ReviewRating != null) {
+                        var rateB = +b.ReviewRating.slice(8);
+                    } else {
+                        var rateB = 0;
+                    }
+
+                    if (rateA > rateB) return -1
+                    if (rateA < rateB) return 1
                     return 0
                 })
             } else if (event === 'sortByLowPrice') {
@@ -200,8 +209,8 @@ function KeepList(props) {
                 console.log('おすすめ順')
                 newDataList.sort(function (a, b) {
                     // おすすめ順
-                    if (+a.RecommendScore > +b.RecommendScore) return 1
-                    if (+a.RecommendScore < +b.RecommendScore) return -1
+                    if (+a.RecommendScore > +b.RecommendScore) return -1
+                    if (+a.RecommendScore < +b.RecommendScore) return 1
                     return 0
                 })
             }
@@ -295,6 +304,8 @@ function KeepList(props) {
                         <Typography>
                             キープされたお店はありません
                         </Typography>}
+                    {/* 画面外にいかないために箱を置いとく */}
+                    <div style={{ height: '200px' }}></div>
                 </div>
             </div>
             <Credit />

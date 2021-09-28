@@ -37,7 +37,7 @@ function ButtonToShowComment(props) {
 
     const StyledCommentIcon = withStyles( (theme) => ({
         root:{
-            width: '15%',
+            width: '14%',
             height: 'auto',
             cursor: 'pointer',
             margin: '2% 2%',

@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./../css/Home.css"
 // パッケージからインポート
 import axios from "axios"
-import { useState } from "react"
+import { useState, useRef } from "react"
 import { useHistory, useLocation } from 'react-router-dom'
 // 他のファイルからインポート
 import AppBottomNavigation from "./home-components/AppBottomNavigation"
@@ -39,6 +39,7 @@ function Home(props) {
     const [view, setView] = useState("Selection")
     const [userId, setUserId] = useState(produceId())
     const [tutorialIsOn,setTutorialIsOn] = useState(true)
+    const keepNumberRef = useRef(null);
 
     // 招待URLの処理
     const location = useLocation()
@@ -92,8 +93,16 @@ function Home(props) {
             });
     }
 
+    useEffect(() => {
+        keepNumberRef.current = 0
+        console.log('current',keepNumberRef.current)
+        // Mount 時にだけ呼び出す
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [])
+
     return (
         <div className="Home">
+            <div className="Screen">
             <div className="Content-wrapper">
                 <div className="Content">
                     {view === "Selection" ?
@@ -109,6 +118,7 @@ function Home(props) {
                             callInviteUrl={callInviteUrl}
                             paramsForSearch={paramsForSearch}
                             tutorialIsOn={tutorialIsOn}
+                            keepNumberRef={keepNumberRef}
                         />
                         : view === "KeepList" ?
                             <KeepList
@@ -129,11 +139,16 @@ function Home(props) {
                                 paramsForSearch={paramsForSearch}
                                 setParamsForSearch={setParamsForSearch}
                                 setTutorialIsOn={setTutorialIsOn}
+                                keepNumberRef={keepNumberRef}
                             />}
                 </div>
+            <AppBottomNavigation 
+                view={view} 
+                setView={setView} 
+                keepNumberRef={keepNumberRef}
+            />
             </div>
-            <AppBottomNavigation view={view} setView={setView} />
-
+            </div>
         </div>
     )
 }
