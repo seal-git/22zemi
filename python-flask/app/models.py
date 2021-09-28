@@ -200,18 +200,16 @@ def http_info():
     user_id = int(data["user_id"]) if data.get("user_id", False) else None
     group_id = int(data["group_id"]) if data.get("group_id", False) else None
     # coordinates = data["coordinates"] if data.get("coordinates", False) else one # TODO: デモ以降に実装
-    place = data["place"] if data.get("place", False) else None
-    genre = data["genre"] if data.get("genre", False) else None
-    query = data["query"] if data.get("query", False) else None
-    open_day = data["open_day"] if data.get("open_day", False) else None
-    open_hour = data["open_hour"] if data.get("open_hour", False) else None
-    maxprice = data["maxprice"] if data.get("maxprice", False) else None
-    minprice = data["minprice"] if data.get("minprice", False) else None
-    sort = data["sort"] if data.get("sort", False) else None
-    recommend_method = data["recommend_method"] if data.get("recommend_method",
-                                                            False) else RECOMMEND_METHOD
-    api_method = data["api_method"] if data.get("api_method",
-                                                False) else API_METHOD
+    place = data.get("place")
+    genre = data.get("genre")
+    query = data.get("query")
+    open_day = data.get("open_day")
+    open_hour = data.get("open_hour")
+    maxprice = data.get("maxprice")
+    minprice = data.get("minprice")
+    sort = data.get("sort")
+    recommend_method = data.get("recommend_method",RECOMMEND_METHOD)
+    api_method = data.get("api_method", API_METHOD)
 
     group_id = group_id if group_id is not None else database_functions.get_group_id(
         user_id)

@@ -21,7 +21,6 @@ class Params:
     """
     def __init__(self):
         self.query: str = None # キーワード
-        self.inputtype: str = "textquery"  # textquery/phonenumber
         self.lat: float = None # 中心の緯度
         self.lon: float = None # 中心の経度
         self.max_dist: int = config.MyConfig.MAX_DISTANCE # 中心からの検索距離(m)
