@@ -53,8 +53,8 @@ class Group(Base):
     __tablename__ = 'groups'
     __table_args__=({"mysql_charset": "utf8mb4", "mysql_engine": "InnoDB"})
     id = Column('id', Integer, primary_key=True)
-    lat = Column('lat', Float, nullable=False) # 緯度
-    lon = Column('lon', Float, nullable=False) # 経度
+    lat = Column('lat', Float)  # 緯度
+    lon = Column('lon', Float)  # 経度
     query = Column('query', String(100)) # 検索条件 # フリーワード
     max_dist = Column('max_dist', Float) # 検索条件 # 距離上限
     open_day = Column('open_day', Date) # 検索条件 # 日付
@@ -65,6 +65,7 @@ class Group(Base):
     loco_mode = Column('loco_mode', Boolean)
     image = Column('image', Boolean)
     start = Column('start', Integer)  # 取得開始位置
+    results = Column('results', Integer)  # 取得開始位置
     sort = Column('sort', String(50)) # 検索条件 # 表示順
     recommend_method = Column('recommend_method', String(50)) # 検索条件 # レコメンド
     api_method = Column('api_method', String(50)) # 検索条件 # レコメンド

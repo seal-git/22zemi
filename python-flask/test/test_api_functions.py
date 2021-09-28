@@ -9,6 +9,19 @@ def test_yahoo_local_search_with_param():
     params.dist = 20000
     params.image = True
     restaurants_info = yahoo_local_search(params=params)
+    print("yahoo_local_search_with_param")
+    [pprint.PrettyPrinter(indent=2).pprint(r.name) for r in restaurants_info]
+    assert len(restaurants_info)>0
+
+def test_yahoo_local_search_with_param_2():
+    params = Params()
+    params.query = "フカクサ製麺"
+    # params.lat = 35.0101165
+    # params.lon = 135.7514639
+    # params.dist = 20000
+    # params.image = True
+    restaurants_info = yahoo_local_search(params=params)
+    print("yahoo_local_search_with_param_2")
     [pprint.PrettyPrinter(indent=2).pprint(r.name) for r in restaurants_info]
     assert len(restaurants_info)>0
 
@@ -16,9 +29,16 @@ def test_yahoo_local_search_with_id():
     r_info = RestaurantInfo()
     r_info.yahoo_id = "5ce1ffb50b7c586e52e37235d076fd7ba6e647d4"
     r_info = yahoo_local_search(r_info=r_info)
+    print("yahoo_local_search_with_id")
     [pprint.PrettyPrinter(indent=2).pprint(r.name) for r in r_info]
     assert len(r_info)==1
 
+def test_yahoo_contents_geocoder():
+    place = "京都"
+    lat, lon, address = yahoo_contents_geocoder(place)
+    print(f"lat:{lat} lon:{lon} address:{address}")
+
+"""
 def test_google_find_place():
     r_info = RestaurantInfo()
     r_info.id = "5ce1ffb50b7c586e52e37235d076fd7ba6e647d4"
@@ -33,3 +53,5 @@ def test_google_place_details():
     r_info = google_place_details(r_info)
     pprint.PrettyPrinter(indent=2).pprint(r_info.get_dict())
     assert len(r_info.google_photo_reference) > 0
+"""
+

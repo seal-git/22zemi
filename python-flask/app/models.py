@@ -208,11 +208,6 @@ def http_info():
     group_id = group_id if group_id is not None else database_functions.get_group_id(
         user_id)
 
-    # Yahoo本社の住所 # TODO
-    address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-" if place is None else place
-    # TODO: 開発用に時間を固定
-    # open_hour = '18'
-
     # 未登録ならデータベースにユーザとグループを登録する
     (fetch_user,
      fetch_group,
@@ -221,25 +216,24 @@ def http_info():
      first_time_belong_flg
      ) = database_functions.register_user_and_group_if_not_exist(group_id,
                                                                  user_id,
-                                                                 address,
                                                                  recommend_method,
                                                                  api_method)
 
-    # 検索条件をデータベースに保存
+    # 検索初期条件をデータベースに保存
     if first_time_group_flg:
         params = Params()
-        place = data.get("place")
-        genre = data.get("genre")
-        query = data.get("query") #未使用
-        open_day = data.get("open_day")  # 指定不能
-        open_hour = data.get("open_hour")
-        maxprice = data.get("maxprice")
-        minprice = data.get("minprice") # 指定不能
-        sort = data.get("sort")
-        database_functions.set_search_params(group_id, place, genre, query,
-                                            open_day, open_hour, maxprice,
-                                            minprice, sort,
-                                            fetch_group=fetch_group)
+        lat, lon, _ = api_functions.yahoo_contents_geocoder(data.get("place"))
+        params.lat = lat
+        params.lon = lon
+        params.query = data.get("genre", '')
+        params.open_day = data.get("open_day")  # 指定不能
+        params.open_hour = data.get("open_hour")
+        params.max_price = data.get("maxprice")
+        params.min_price = data.get("minprice") # 指定不能
+        params.sort = data.get("sort")
+        database_functions.set_search_params(group_id,
+                                             params,
+                                             fetch_group=fetch_group)
         
         # 初回優先度を計算
         _ = recommend.recommend_main(fetch_group, group_id, user_id, first_time_flg=first_time_group_flg)
