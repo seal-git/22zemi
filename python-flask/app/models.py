@@ -46,9 +46,11 @@ def create_response_from_restaurants_info(group_id, user_id, restaurants_info):
 
     # レスポンスするためにいらないキーを削除する
     restaurants_info = [r.get_dict_for_react() for r in restaurants_info]
-    response_keys = ['Restaurant_id', 'Name', 'Distance', 'Address', 'CatchCopy', 'Price',
+    response_keys = ['Restaurant_id', 'Name', 'Address', 'CatchCopy', 'Price',
                      'Category', 'UrlWeb', 'UrlMap', 'ReviewRating',
                      'BusinessHour', 'Genre', 'Images', 'ImagesBinary']
+    if config.MyConfig.SHOW_DISTANCE:
+        response_keys.append('Distance')
     response = [{k: v for k, v in r.items() if k in response_keys} for r in
                 restaurants_info]  # response_keysに含まれているキーを残す
     #pprint.PrettyPrinter(indent=2).pprint(response)
