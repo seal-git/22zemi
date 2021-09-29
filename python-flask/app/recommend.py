@@ -914,6 +914,12 @@ def recommend_main(fetch_group, group_id, user_id, first_time_flg=False):
     # 結果が0件なら繰り返す
     for i in range(5):
         # 主な処理
+
+        # データベースから店舗情報を取得(full_info_flagが必要？)
+        # restaurant_ids_del_none = [r.id for r in restaurants_info if r.id is not None]
+        # restaurants_info = database_functions.load_restaurants_info(restaurant_ids_del_none,
+        #                                                             group_id)
+
         # 以前に検索したレストランのIDをデータベースから取得する(複数人で選ぶために)
         restaurant_ids_from_db = session.query(Restaurant.id).filter(
             Vote.group == group_id,
@@ -924,18 +930,21 @@ def recommend_main(fetch_group, group_id, user_id, first_time_flg=False):
             restaurant_ids_from_db,
             group_id)
 
-        # パラメータを設定してAPI検索し、履歴にあるものを削除し、
+        # パラメータを設定してAPI検索
         restaurants_info = recomm.search(fetch_group,
                                          group_id,
                                          user_id,
                                          histories_restaurants)
+        # 重複を省いてDBに保存
+        restaurants_info = [r for r in restaurants_info if
+                            r.id not in restaurant_ids_from_db]
+        database_functions.save_restaurants(restaurants_info)
+        database_functions.save_votes(group_id, restaurants_info)
+
+        # 検索結果とDBを合わせる
+        restaurants_info += restaurants_info_from_db
+
         if len(restaurants_info) >= 1:
-            # 重複を省いてDBに保存
-            restaurants_info = [r for r in restaurants_info if
-                                r.id not in restaurant_ids_from_db]
-            database_functions.save_restaurants(restaurants_info)
-            # 検索結果とDBを合わせる
-            restaurants_info += restaurants_info_from_db
             print(f"recommend_main: \n"
                   f"  {len(restaurants_info_from_db)}/{len(restaurants_info)} items from DB\n"
                   f"  {len(restaurants_info) - len(restaurants_info_from_db)}/"
@@ -950,10 +959,13 @@ def recommend_main(fetch_group, group_id, user_id, first_time_flg=False):
                                 user_id,
                                 restaurants_info,
                                 histories_restaurants)
-            # お店の詳細を取ってくる
+            # お店の詳細を取得する
             restaurants_info = call_api.get_restaurants_info(fetch_group,
                                                      group_id,
                                                      restaurants_info)
+
+            database_functions.save_restaurants(restaurants_info)
+            database_functions.save_votes(group_id, restaurants_info)
 
             print(f"data_num {len(restaurants_info)}")
             return [r.id for r in restaurants_info]

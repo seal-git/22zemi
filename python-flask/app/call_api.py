@@ -73,10 +73,6 @@ def search_restaurants_info(fetch_group,
     restaurants_info = calc_info.calc_recommend_score(fetch_group,
                                                       restaurants_info)
 
-    # データベースに計算後の店舗情報を保存
-    database_functions.save_votes(group_id, restaurants_info)
-
-
     return restaurants_info
 
 
@@ -105,10 +101,6 @@ def get_restaurants_info(fetch_group,
 
     print(f"get_restaurants_info: {len(restaurants_info)} items")
 
-    # データベースから店舗情報を取得(full_info_flagが必要？)
-    # restaurant_ids_del_none = [r.id for r in restaurants_info if r.id is not None]
-    # restaurants_info = database_functions.load_restaurants_info(restaurant_ids_del_none,
-    #                                                             group_id)
 
     # 未取得の情報を店舗ごとにAPIで取得
     restaurants_info = [r for r in restaurants_info if
@@ -149,9 +141,6 @@ def get_restaurants_info(fetch_group,
                                                     restaurants_info)
 
     restaurants_info = calc_info.add_review_rating(restaurants_info)
-
-    database_functions.save_restaurants(restaurants_info)
-    database_functions.save_votes(group_id, restaurants_info)
 
     return restaurants_info
 
