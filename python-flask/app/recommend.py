@@ -171,25 +171,25 @@ class RecommendTemplate(Recommend):
 #                                                 user_id,
 #                                                 search_params,
 #                                                 "yahoo_local_search")
-
-    def calc_priority(self,
-               fetch_group,
-               group_id,
-               user_id,
-               pre_restaurants_info,
-               histories_restaurants):
-        # 一度ユーザに送信したレストランはリストから除く
-        pre_restaurants_info = delete_duplicate_restaurants_info(group_id,
-                                                                 user_id,
-                                                                 pre_restaurants_info,
-                                                                 histories_restaurants)
-        pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price,
-                                                             fetch_group.min_price,
-                                                             pre_restaurants_info)
-
-        # if fetch_group.max_price is not None: restaurants_info = get_restaurants_info_price_filter(fetch_group.max_price, restaurants_info)
-        restaurants_info = pre_restaurants_info[:RESPONSE_COUNT] # 指定した数だのお店だけを選択
-        return restaurants_info
+#
+#     def calc_priority(self,
+#                fetch_group,
+#                group_id,
+#                user_id,
+#                pre_restaurants_info,
+#                histories_restaurants):
+#         # 一度ユーザに送信したレストランはリストから除く
+#         pre_restaurants_info = delete_duplicate_restaurants_info(group_id,
+#                                                                  user_id,
+#                                                                  pre_restaurants_info,
+#                                                                  histories_restaurants)
+#         pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price,
+#                                                              fetch_group.min_price,
+#                                                              pre_restaurants_info)
+#
+#         # if fetch_group.max_price is not None: restaurants_info = get_restaurants_info_price_filter(fetch_group.max_price, restaurants_info)
+#         restaurants_info = pre_restaurants_info[:RESPONSE_COUNT] # 指定した数だのお店だけを選択
+#         return restaurants_info
 
 
 # class RecommendYahoo(Recommend):

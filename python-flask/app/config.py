@@ -27,7 +27,6 @@ class MyConfig:
 
     RECOMMEND_METHOD = 'svm'
     API_METHOD = 'yahoo'
-    ADDRESS = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-"
     GET_GOOGLE_IMAGE = False
     USE_LOCAL_IMAGE = False
     USE_RAW_IMAGE = False

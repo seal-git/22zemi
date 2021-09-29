@@ -9,7 +9,6 @@ from abc import ABCMeta, abstractmethod
 from flask import abort
 import pprint
 import re
-import urllib
 
 # from PIL import Image
 # from io import BytesIO
@@ -40,7 +39,7 @@ def yahoo_review(r_info):
 
     review_list = response["Feature"]
     if len(review_list) == 0: return r_info
-    pprint.PrettyPrinter(indent=2).pprint(review_list)
+    # pprint.PrettyPrinter(indent=2).pprint(review_list)
     r_info.review += [review_list['Property']['Comment']['Rating'] for r in
                      review_list]
 
@@ -171,7 +170,7 @@ def yahoo_local_search(params: Params = None,
         'gc': '01',
         'detail': 'full',
     })
-    pprint.PrettyPrinter(indent=2).pprint(params_dict)
+    # pprint.PrettyPrinter(indent=2).pprint(params_dict)
     try:
         response = requests.get(local_search_url, params=params_dict).json()
     except Exception as e:
