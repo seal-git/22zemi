@@ -151,7 +151,7 @@ class RestaurantInfo:
         r_info_dict = {
             'Restaurant_id': self.id,
             'Name': self.name,
-            'Distance': self.distance_float,
+            'Distance': self.distance_str,
             'CatchCopy': description,
             'Price': self.price,
             'Address': self.address,
