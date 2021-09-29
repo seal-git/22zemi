@@ -223,14 +223,19 @@ def http_info():
     if first_time_group_flg:
         params = Params()
         lat, lon, _ = api_functions.yahoo_contents_geocoder(data.get("place"))
-        params.lat = lat
+        params.lat = lat  # placeがNoneのときはヤフー本社の座標
         params.lon = lon
         params.query = data.get("genre", '')
-        params.open_day = data.get("open_day")  # 指定不能
-        params.open_hour = data.get("open_hour")
+        params.open_day = data.get("open_day", datetime.datetime.now().day)  # 指定不能
+        params.open_hour = data.get("open_hour", datetime.datetime.now().hour)
         params.max_price = data.get("maxprice")
         params.min_price = data.get("minprice") # 指定不能
         params.sort = data.get("sort")
+
+        ## パラメーターの初期値を別途計算
+        if config.MyConfig.SET_OPEN_HOUR:
+            params.open_hour = config.MyConfig.OPEN_HOUR
+
         database_functions.set_search_params(group_id,
                                              params,
                                              fetch_group=fetch_group)

@@ -1,12 +1,13 @@
 from app.api_functions import *
 from app.internal_info import *
+import datetime
 
 def test_yahoo_local_search_with_param():
     params = Params()
     params.query = ""
     params.lat = 35.68242136685908
     params.lon = 139.73671070104604
-    params.dist = 20000
+    params.max_dist = 20000
     params.image = True
     restaurants_info = yahoo_local_search(params=params)
     print("yahoo_local_search_with_param")
@@ -15,10 +16,12 @@ def test_yahoo_local_search_with_param():
 
 def test_yahoo_local_search_with_param_2():
     params = Params()
-    params.query = "フカクサ製麺"
-    # params.lat = 35.0101165
-    # params.lon = 135.7514639
-    # params.dist = 20000
+    params.query = "めん馬鹿一代"
+    params.lat = 35.0101165
+    params.lon = 135.7514639
+    params.open_day = datetime.datetime.now().day
+    params.open_hour = 12
+    params.results = 10
     # params.image = True
     restaurants_info = yahoo_local_search(params=params)
     print("yahoo_local_search_with_param_2")
@@ -34,9 +37,11 @@ def test_yahoo_local_search_with_id():
     assert len(r_info)==1
 
 def test_yahoo_contents_geocoder():
-    place = "京都"
+    place = "東京ガーデンテラス紀尾井町 紀尾井タワー"
     lat, lon, address = yahoo_contents_geocoder(place)
     print(f"lat:{lat} lon:{lon} address:{address}")
+
+
 
 """
 def test_google_find_place():

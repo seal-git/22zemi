@@ -27,11 +27,11 @@ class MyConfig:
 
     RECOMMEND_METHOD = 'svm'
     API_METHOD = 'yahoo'
-    
+    ADDRESS = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-"
     GET_GOOGLE_IMAGE = False
     USE_LOCAL_IMAGE = False
     USE_RAW_IMAGE = False
-    MAX_DISTANCE = 200000  # 中心地からの距離 上限20
+    MAX_DISTANCE = 20000  # 中心地からの距離 上限20
     RESPONSE_COUNT = 3  # 一回に返す店舗の数
     STOCK_COUNT = 12  # 検索で取得するデータの数．STOCK_COUNT個の店からRESPONSE_COUNT個選ぶ
     QUEUE_COUNT = 15  # レスポンスをキューで保持しておく最大数

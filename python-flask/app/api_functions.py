@@ -9,6 +9,7 @@ from abc import ABCMeta, abstractmethod
 from flask import abort
 import pprint
 import re
+import urllib
 
 # from PIL import Image
 # from io import BytesIO
@@ -112,13 +113,12 @@ def yahoo_local_search(params: Params = None,
     if params is not None:
         # paramsで検索
         print(f"yahoo_local_search with params")
-        # pprint.PrettyPrinter(indent=2).pprint(params.get_all())
+        pprint.PrettyPrinter(indent=2).pprint(params.get_all())
         ## distの計算
         if params.max_dist is not None:
             dist = params.max_dist / 1000
         else:
-            dist = config.MyConfig.MAX_DISTANCE
-            dist = None
+            dist = config.MyConfig.MAX_DISTANCE / 1000
         ## sortのチェック
         sort_param = ["rating", "score", "hybrid", "review", "kana", "price",
                       "dist", "geo", "match"]
@@ -128,8 +128,9 @@ def yahoo_local_search(params: Params = None,
         image = "true" if params.image else None
         loco_mode = "true" if params.loco_mode else None
         ## 時間指定
-        if params.open_day is not None and params.open_hour is not None:
-            open = str(params.open_day) + "," + str(params.open_hour)
+        if params.open_hour is not None:
+            # open = str(params.open_day) + "," + str(params.open_hour)
+            open = None  # 時間の設定されている店は少ないので指定しない
         else:
             open = "now"
 
@@ -168,8 +169,9 @@ def yahoo_local_search(params: Params = None,
         'appid': os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
         'output': 'json',
         'gc': '01',
-        'detail': 'full'
+        'detail': 'full',
     })
+    pprint.PrettyPrinter(indent=2).pprint(params_dict)
     try:
         response = requests.get(local_search_url, params=params_dict).json()
     except Exception as e:
@@ -177,13 +179,14 @@ def yahoo_local_search(params: Params = None,
 
     # 検索の該当が無かったとき
     if response['ResultInfo']['Count'] == 0:
+        print("yahoo local search: result 0")
         return []
 
     # responseをrestaurant_infoに変換
-    feature_list = response['Feature']
-    # pprint.PrettyPrinter(indent=2).pprint(feature_list)
-
     restaurants_info = []
+    feature_list = response['Feature']
+    pprint.PrettyPrinter(indent=2).pprint(feature_list)
+    [pprint.PrettyPrinter(indent=2).pprint(f["Property"]["Detail"]["CassetteOwner"]) for f  in feature_list]
 
     for feature in feature_list:
         if params is not None:
@@ -202,8 +205,8 @@ def yahoo_local_search(params: Params = None,
         if r_info.lunch_price is not None: r_info.lunch_price = int(r_info.lunch_price)
         r_info.dinner_price = feature['Property']['Detail'].get('DinnerPrice')
         if r_info.dinner_price is not None: r_info.dinner_price = int(r_info.dinner_price)
-        r_info.category = feature['Property'].get('Genre')[0]['Name']
-        r_info.genre = [feature['Property'].get('Genre')[0]['Name']]
+        r_info.category = feature['Property'].get('Genre',[{'Name':None}])[0]['Name']
+        r_info.genre = [feature['Property'].get('Genre',[{'Name':None}])[0]['Name']]
         r_info.web_url = "https://loco.yahoo.co.jp/place/" + feature['Property']['Uid']
         r_info.monday_opening_hours = feature["Property"].get("MondayBusinessHour")
         r_info.tuesday_opening_hours = feature["Property"].get("TuesdayBusinessHour")
@@ -233,7 +236,7 @@ def yahoo_local_search(params: Params = None,
         # Images : 画像をリストにする
         images = []
         for key, value in feature['Property']['Detail'].items():
-            if re.fullmatch(r"Image\d+|PersistencyImage\d|ItemImageUrl\d", key):
+            if re.fullmatch(r"Image\d+|PersistencyImage\d|ItemImageUrl\d|CassetteOwnerLogoImage", key):
                 images.append(value)
         # 画像が1枚もないときはnoimageを出力
         if len(images) == 0:
