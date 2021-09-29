@@ -16,16 +16,17 @@ def test_yahoo_local_search_with_param():
 
 def test_yahoo_local_search_with_param_2():
     params = Params()
-    params.query = "めん馬鹿一代"
+    params.query = "和食"
     params.lat = 35.0101165
     params.lon = 135.7514639
     params.open_day = datetime.datetime.now().day
     params.open_hour = 12
     params.results = 10
+    params.max_price = 2000
     # params.image = True
     restaurants_info = yahoo_local_search(params=params)
     print("yahoo_local_search_with_param_2")
-    [pprint.PrettyPrinter(indent=2).pprint(r.name) for r in restaurants_info]
+    [pprint.PrettyPrinter(indent=2).pprint(r.get_dict()) for r in restaurants_info]
     assert len(restaurants_info)>0
 
 def test_yahoo_local_search_with_id():

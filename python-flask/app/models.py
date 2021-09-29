@@ -80,7 +80,7 @@ def get_restaurant_ids_from_recommend_priority(fetch_group, group_id,
     fetch_votes = session.query(Vote).filter(
             Vote.group == group_id,
             Vote.recommend_priority is not None
-        ).order_by(Vote.recommend_priority).all()
+        ).order_by(Vote.recommend_priority.desc()).all()
 
     restaurants_ids = []
     for fv in fetch_votes:
@@ -225,10 +225,10 @@ def http_info():
         lat, lon, _ = api_functions.yahoo_contents_geocoder(data.get("place"))
         params.lat = lat  # placeがNoneのときはヤフー本社の座標
         params.lon = lon
-        params.query = data.get("genre", '')
-        params.open_day = data.get("open_day", datetime.datetime.now().day)  # 指定不能
+        params.query = data.get("genre", '中華料理')
+        params.open_day = data.get("open_day", datetime.date.today())  # 指定不能
         params.open_hour = data.get("open_hour", datetime.datetime.now().hour)
-        params.max_price = data.get("maxprice")
+        params.max_price = data.get("maxprice", 4000)
         params.min_price = data.get("minprice") # 指定不能
         params.sort = data.get("sort")
 

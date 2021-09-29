@@ -139,7 +139,7 @@ class RecommendTemplate(Recommend):
                ):
         # 一度ユーザに送信したレストランはリストから除く
         pre_restaurants_info = delete_duplicate_restaurants_info(group_id, user_id, pre_restaurants_info, histories_restaurants=histories_restaurants)
-        pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
+        pre_restaurants_info = filter_by_price(fetch_group.max_price, fetch_group.min_price, pre_restaurants_info)
 
         # TODO: 重みを計算
         weight = [0] * len(pre_restaurants_info)
@@ -152,44 +152,38 @@ class RecommendTemplate(Recommend):
         return restaurants_ids[0: RESPONSE_COUNT]
 
 
-# class RecommendSimple(Recommend):
-#     def search(self,
-#                fetch_group,
-#                group_id,
-#                user_id,
-#                histories_restaurants):
-#         # YahooローカルサーチAPIで検索するクエリ
-#         search_params = database_functions.get_search_params_from_fetch_group(fetch_group)
-#
-#         # 検索条件を追加
-#         search_params.sort = "hybrid"
-#         search_params.set_start_and_results_just_responce_count(group_id, user_id)
-#
-#         # Yahooの形式にして検索
-#         return call_api.search_restaurants_info(fetch_group,
-#                                                 group_id,
-#                                                 user_id,
-#                                                 search_params,
-#                                                 "yahoo_local_search")
-#
-#     def calc_priority(self,
-#                fetch_group,
-#                group_id,
-#                user_id,
-#                pre_restaurants_info,
-#                histories_restaurants):
-#         # 一度ユーザに送信したレストランはリストから除く
-#         pre_restaurants_info = delete_duplicate_restaurants_info(group_id,
-#                                                                  user_id,
-#                                                                  pre_restaurants_info,
-#                                                                  histories_restaurants)
-#         pre_restaurants_info = restaurants_info_price_filter(fetch_group.max_price,
-#                                                              fetch_group.min_price,
-#                                                              pre_restaurants_info)
-#
-#         # if fetch_group.max_price is not None: restaurants_info = get_restaurants_info_price_filter(fetch_group.max_price, restaurants_info)
-#         restaurants_info = pre_restaurants_info[:RESPONSE_COUNT] # 指定した数だのお店だけを選択
-#         return restaurants_info
+class RecommendSimple(Recommend):
+    def search(self,
+               fetch_group,
+               group_id,
+               user_id,
+               histories_restaurants):
+        # YahooローカルサーチAPIで検索するクエリ
+        params = database_functions.get_search_params_from_fetch_group(fetch_group)
+
+        # 検索条件を追加
+        params.sort = "hybrid"
+
+        # Yahooの形式にして検索
+        restaurants_info = call_api.search_restaurants_info(fetch_group,
+                                                group_id,
+                                                user_id,
+                                                params,
+                                                "yahoo_local_search")
+        return restaurants_info
+
+    def calc_priority(self,
+               fetch_group,
+               group_id,
+               user_id,
+               pre_restaurants_info,
+               histories_restaurants):
+        pre_restaurants_info = filter_by_price(fetch_group.max_price,
+                                               fetch_group.min_price,
+                                               pre_restaurants_info)
+
+        restaurants_info = pre_restaurants_info[:RESPONSE_COUNT] # 指定した数だのお店だけを選択
+        return restaurants_info
 
 
 # class RecommendYahoo(Recommend):
@@ -814,7 +808,7 @@ class RecommendSVM(Recommend):
 # ============================================================================================================
 # recommend_mainで使う関数など
 
-def restaurants_info_price_filter(max_price, min_price, restaurants_info):
+def filter_by_price(max_price, min_price, restaurants_info):
     '''
     検索条件に合わない店を排除する
 
@@ -888,8 +882,8 @@ def recommend_main(fetch_group, group_id, user_id, first_time_flg=False):
     recommend_method = config.MyConfig.RECOMMEND_METHOD
     if recommend_method == 'template':
         recomm = RecommendTemplate()
-    # elif recommend_method == 'review_words':
-    #     recomm = RecommendWords()
+    elif recommend_method == 'simple':
+        recomm = RecommendSimple()
     # elif recommend_method == 'yahoo':
     #     recomm = RecommendYahoo()
     # elif recommend_method == 'original':
@@ -920,12 +914,33 @@ def recommend_main(fetch_group, group_id, user_id, first_time_flg=False):
     # 結果が0件なら繰り返す
     for i in range(5):
         # 主な処理
-        # APIで情報を取得し、履歴にあるものを削除し、
+        # 以前に検索したレストランのIDをデータベースから取得する(複数人で選ぶために)
+        restaurant_ids_from_db = session.query(Restaurant.id).filter(
+            Vote.group == group_id,
+            Vote.restaurant == Restaurant.id
+            ).all()  # 未送信のもののみを取得するときはfilterに`Vote.votes_all==-1`を加える
+        restaurant_ids_from_db = [r.id for r in restaurant_ids_from_db]
+        restaurants_info_from_db = database_functions.load_restaurants_info(
+            restaurant_ids_from_db,
+            group_id)
+
+        # パラメータを設定してAPI検索し、履歴にあるものを削除し、
         restaurants_info = recomm.search(fetch_group,
                                          group_id,
                                          user_id,
                                          histories_restaurants)
         if len(restaurants_info) >= 1:
+            # 重複を省いてDBに保存
+            restaurants_info = [r for r in restaurants_info if
+                                r.id not in restaurant_ids_from_db]
+            database_functions.save_restaurants(restaurants_info)
+            # 検索結果とDBを合わせる
+            restaurants_info += restaurants_info_from_db
+            print(f"recommend_main: \n"
+                  f"  {len(restaurants_info_from_db)}/{len(restaurants_info)} items from DB\n"
+                  f"  {len(restaurants_info) - len(restaurants_info_from_db)}/"
+                  f"{len(restaurants_info)}items from API")
+
             print(f"recommend_main:"
                   f"results ={len(restaurants_info)}, "
                   f"history ={len(histories_restaurants)}")

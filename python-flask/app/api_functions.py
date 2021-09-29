@@ -184,8 +184,7 @@ def yahoo_local_search(params: Params = None,
     # responseをrestaurant_infoに変換
     restaurants_info = []
     feature_list = response['Feature']
-    pprint.PrettyPrinter(indent=2).pprint(feature_list)
-    [pprint.PrettyPrinter(indent=2).pprint(f["Property"]["Detail"]["CassetteOwner"]) for f  in feature_list]
+    # pprint.PrettyPrinter(indent=2).pprint(feature_list)
 
     for feature in feature_list:
         if params is not None:
