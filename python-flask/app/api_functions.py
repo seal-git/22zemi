@@ -112,7 +112,7 @@ def yahoo_local_search(params: Params = None,
     if params is not None:
         # paramsで検索
         print(f"yahoo_local_search with params")
-        pprint.PrettyPrinter(indent=2).pprint(params.get_all())
+        # pprint.PrettyPrinter(indent=2).pprint(params.get_all())
         ## distの計算
         if params.max_dist is not None:
             dist = params.max_dist / 1000

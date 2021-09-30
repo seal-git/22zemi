@@ -1,5 +1,6 @@
 from app import config
 from memory_profiler import profile
+import time
 import requests, json, pprint
 
 def test_http_info():
@@ -19,6 +20,7 @@ def test_http_info():
 
 
 def test_http_feeling():
+    time.sleep(1)
     url = 'http://localhost:5000/feeling'
     params = {
         "params":{
