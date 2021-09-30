@@ -189,8 +189,18 @@ def set_search_params(group_id, params, fetch_group=None):
     fetch_group.lon = params.lon
     fetch_group.query = params.query
     fetch_group.max_dist = params.max_dist
-    fetch_group.open_day = params.open_day
-    fetch_group.open_hour = params.open_hour
+    if params.open_day is None:
+        fetch_group.open_day = None
+    else:
+        today = datetime.date.today()
+        month = today.month if today.day <= int(params.open_day) else today.month + 1
+        year = today.year if month <= 12 else today.year + 1
+        fetch_group.open_day = datetime.date(year, month, int(params.open_day))
+    if params.open_hour is None:
+        fetch_group.open_hour = None
+    else:
+        hoursecond = params.open_hour.split(':')
+        fetch_group.open_hour = datetime.time(hour=int(hoursecond[0]), second=int(hoursecond[1]))
     fetch_group.open_now = params.open_now
     fetch_group.max_price = params.max_price
     fetch_group.min_price = params.min_price
