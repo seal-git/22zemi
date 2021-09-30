@@ -3,6 +3,7 @@ from flask import jsonify, make_response, request, send_file
 
 from app import app_, db_
 from app import database_functions, recommend, api_functions, config, call_api
+from app.internal_info import  *
 from app.database_setting import *  # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 import json
 from werkzeug.exceptions import NotFound, BadRequest, InternalServerError
@@ -197,40 +198,47 @@ def http_info():
 
     # リクエストクエリを受け取る
     data = request.get_json()["params"]
+    pprint.PrettyPrinter(indent=2).pprint(data)
     user_id = int(data["user_id"]) if data.get("user_id", False) else None
     group_id = int(data["group_id"]) if data.get("group_id", False) else None
     # coordinates = data["coordinates"] if data.get("coordinates", False) else one # TODO: デモ以降に実装
-    place = data["place"] if data.get("place", False) else None
-    genre = data["genre"] if data.get("genre", False) else None
-    query = data["query"] if data.get("query", False) else None
-    open_day = data["open_day"] if data.get("open_day", False) else None
-    open_hour = data["open_hour"] if data.get("open_hour", False) else None
-    maxprice = data["maxprice"] if data.get("maxprice", False) else None
-    minprice = data["minprice"] if data.get("minprice", False) else None
-    sort = data["sort"] if data.get("sort", False) else None
-    recommend_method = data["recommend_method"] if data.get("recommend_method",
-                                                            False) else RECOMMEND_METHOD
-    api_method = data["api_method"] if data.get("api_method",
-                                                False) else API_METHOD
+    recommend_method = data.get("recommend_method",RECOMMEND_METHOD)
+    api_method = data.get("api_method", API_METHOD)
 
     group_id = group_id if group_id is not None else database_functions.get_group_id(
         user_id)
 
-    # Yahoo本社の住所 # TODO
-    address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-" if place is None else place
-    # TODO: 開発用に時間を固定
-    # open_hour = '18'
-
     # 未登録ならデータベースにユーザとグループを登録する
-    fetch_user, fetch_group, fetch_belong, first_time_group_flg, first_time_belong_flg = database_functions.register_user_and_group_if_not_exist(
-        group_id, user_id, address, recommend_method, api_method)
+    (fetch_user,
+     fetch_group,
+     fetch_belong,
+     first_time_group_flg,
+     first_time_belong_flg
+     ) = database_functions.register_user_and_group_if_not_exist(group_id,
+                                                                 user_id,
+                                                                 recommend_method,
+                                                                 api_method)
 
-    # 検索条件をデータベースに保存
+    # 検索初期条件をデータベースに保存
     if first_time_group_flg:
-        database_functions.set_search_params(group_id, place, genre, query,
-                                            open_day, open_hour, maxprice,
-                                            minprice, sort,
-                                            fetch_group=fetch_group)
+        params = Params()
+        lat, lon, _ = api_functions.yahoo_contents_geocoder(data.get("place"))
+        params.lat = lat  # placeがNoneのときはヤフー本社の座標
+        params.lon = lon
+        params.query = data.get("genre", '')
+        params.open_day = data.get("open_day", datetime.datetime.now().day)  # 指定不能
+        params.open_hour = data.get("open_hour", datetime.datetime.now().hour)
+        params.max_price = data.get("maxprice")
+        params.min_price = data.get("minprice") # 指定不能
+        params.sort = data.get("sort")
+
+        ## パラメーターの初期値を別途計算
+        if config.MyConfig.SET_OPEN_HOUR:
+            params.open_hour = config.MyConfig.OPEN_HOUR
+
+        database_functions.set_search_params(group_id,
+                                             params,
+                                             fetch_group=fetch_group)
         
         # 初回優先度を計算
         _ = recommend.recommend_main(fetch_group, group_id, user_id, first_time_flg=first_time_group_flg)

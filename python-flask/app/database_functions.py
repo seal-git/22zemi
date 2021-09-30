@@ -1,6 +1,6 @@
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 from app.internal_info import *
-from app import config
+from app import config, api_functions
 import datetime
 import requests
 from random import randint
@@ -41,53 +41,6 @@ def get_histories_restaurants(group_id, user_id):
 
 # ============================================================================================================
 # models.py
-
-
-def get_lat_lon_address(query):
-    '''
-    api_function行き?
-    Yahoo APIを使って、緯度・経度・住所を返す関数
-
-    Parameters
-    ----------------
-    query : string
-        場所のキーワードや住所
-        例：千代田区
-    
-    Returns
-    ----------------
-    lat, lon : float
-        queryで入力したキーワード周辺の緯度経度を返す
-        例：lat = 35.69404120, lon = 139.75358630
-    address : string
-        住所
-
-    例外処理
-    ----------------
-    不適切なqueryを入力した場合、Yahoo!本社の座標を返す
-    '''
-
-    geo_coder_url = "https://map.yahooapis.jp/geocode/cont/V1/contentsGeoCoder"
-    params = {
-        "appid": os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
-        "output": "json",
-        "query": query
-    }
-    try:
-        response = requests.get(geo_coder_url, params=params)
-        response = response.json()
-        geometry = response["Feature"][0]["Geometry"]
-        coordinates = geometry["Coordinates"].split(",")
-        lon = float(coordinates[0])
-        lat = float(coordinates[1])
-        address = response["Feature"][0]["Property"]["Address"]
-    except:
-        # Yahoo!本社の座標
-        lon = 139.73284
-        lat = 35.68001 
-        address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-"
-        
-    return lat, lon, address
 
 
 def generate_group_id():
@@ -141,7 +94,7 @@ def generate_user_id():
     return user_id # error
 
 
-def register_user_and_group_if_not_exist(group_id, user_id, place, recommend_method, api_method):
+def register_user_and_group_if_not_exist(group_id, user_id, recommend_method, api_method):
     
     # ユーザが未登録ならばデータベースに登録する
     fetch_user = session.query(User).filter(User.id==user_id).first()
@@ -156,12 +109,8 @@ def register_user_and_group_if_not_exist(group_id, user_id, place, recommend_met
     first_time_group_flg = False
     fetch_group = session.query(Group).filter(Group.id==group_id).first()
     if fetch_group is None:
-        lat,lon,address = get_lat_lon_address(place)
         new_group = Group()
         new_group.id = group_id
-        new_group.lat = lat
-        new_group.lon = lon
-        new_group.address = address
         new_group.recommend_method = recommend_method
         new_group.api_method = api_method
         session.add(new_group)
@@ -179,7 +128,7 @@ def register_user_and_group_if_not_exist(group_id, user_id, place, recommend_met
         new_belong.group = group_id
         session.add(new_belong)
         session.commit()
-        first_time_flg = True
+        first_time_belong_flg = True
         fetch_belong = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()
 
     return fetch_user, fetch_group, fetch_belong, first_time_group_flg, first_time_belong_flg
@@ -226,39 +175,30 @@ def update_feeling(group_id, user_id, restaurant_id, feeling):
         session.commit()
 
 
-def set_search_params(group_id, place, genre, query, open_day, open_hour, maxprice, minprice, sort, fetch_group=None):
+def set_search_params(group_id, params, fetch_group=None):
     '''
     検索条件を受け取り、データベースのグループの表を更新する。
     '''
     print(f"set_filter_params renewed")
 
-    if place is None and genre is None and query is None and open_hour is None and maxprice is None and minprice is None and sort is None: return
-    
+
     if fetch_group is None:
         fetch_group = session.query(Group).filter(Group.id==group_id).first()
 
-    if place is not None:
-        lat,lon,address = get_lat_lon_address(place)
-        fetch_group.lat = lat
-        fetch_group.lon = lon
-        fetch_group.address = address
-    fetch_group.query = query
-    fetch_group.genre = genre
-    fetch_group.max_price = maxprice
-    fetch_group.min_price = minprice
-    if open_hour is not None:
-        if open_day is not None:
-            fetch_group.open_day = open_day
-        else:
-            fetch_group.open_day = datetime.datetime.strftime( datetime.date.today() if datetime.datetime.now().hour<=int(open_hour) else datetime.date.today() + datetime.timedelta(days=1), '%Y-%m-%d')
-    else:
-        fetch_group.open_day = current_timestamp()
-
-    fetch_group.open_hour = open_hour if open_hour is not None else current_timestamp()
-    if config.MyConfig.SET_OPEN_HOUR:
-        fetch_group.open_hour = config.MyConfig.OPEN_HOUR
-
-    fetch_group.sort = sort
+    fetch_group.lat = params.lat
+    fetch_group.lon = params.lon
+    fetch_group.query = params.query
+    fetch_group.max_dist = params.max_dist
+    fetch_group.open_day = params.open_day
+    fetch_group.open_hour = params.open_hour
+    fetch_group.open_now = params.open_now
+    fetch_group.max_price = params.max_price
+    fetch_group.min_price = params.min_price
+    fetch_group.loco_mode = params.loco_mode
+    fetch_group.image = params.image
+    fetch_group.results = params.results
+    fetch_group.start = params.start
+    fetch_group.sort = params.sort
 
     session.commit()
 
@@ -462,20 +402,21 @@ def get_search_params_from_fetch_group(fetch_group):
     '''
     params = Params()
 
-    if fetch_group.query is not None:
-        params.query = fetch_group.query
-    if fetch_group.genre is not None:
-        params.query = fetch_group.genre  # genreがあるならqueryは上書きされる
 
     params.lat = fetch_group.lat
     params.lon = fetch_group.lon
+    if fetch_group.query is not None: params.query = fetch_group.query
     params.max_dist = fetch_group.max_dist
-    params.sort = fetch_group.sort
-    params.open_hour = fetch_group.open_hour.hour if fetch_group.open_hour is not None else None
-    params.open_day = fetch_group.open_day.day if fetch_group.open_hour is not None else None
+    if fetch_group.open_hour is not None: params.open_hour = fetch_group.open_hour
+    if fetch_group.open_hour is not None: params.open_day = fetch_group.open_day
+    if fetch_group.open_now is not None: params.open_now = fetch_group.open_now
     params.max_price = fetch_group.max_price
     params.min_price = fetch_group.min_price
-    # params.start = fetch_group.start
+    params.loco_mode = fetch_group.loco_mode
+    params.image = fetch_group.image
+    params.results = fetch_group.results
+    params.start = fetch_group.start
+    params.sort = fetch_group.sort
 
     return params
 

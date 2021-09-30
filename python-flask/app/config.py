@@ -27,12 +27,11 @@ class MyConfig:
 
     RECOMMEND_METHOD = 'svm'
     API_METHOD = 'yahoo'
-
     GET_GOOGLE_IMAGE = False
     USE_GOOGLE_API = False
     USE_LOCAL_IMAGE = False
-    USE_RAW_IMAGE = True
-    MAX_DISTANCE = 200000  # 中心地からの距離 上限20
+    USE_RAW_IMAGE = False
+    MAX_DISTANCE = 20000  # 中心地からの距離 上限20
     RESPONSE_COUNT = 3  # 一回に返す店舗の数
     STOCK_COUNT = 12  # 検索で取得するデータの数．STOCK_COUNT個の店からRESPONSE_COUNT個選ぶ
     QUEUE_COUNT = 15  # レスポンスをキューで保持しておく最大数
@@ -44,7 +43,7 @@ class MyConfig:
     SHOW_DISTANCE = True  # 距離表示をするか
 
     IMAGE_DIRECTORY_PATH = 'data/image/'
-    SERVER_URL = 'localhost'  # 'if production: reskima.com'
+    SERVER_URL = 'localhost'  # if production: 'reskima.com'
     INIT_DB = True  # Trueならば再起動時にDBをリセットする
     MAX_GOOGLE_IMAGES_COUNT = 4 # Google画像の取得枚数。最大10。大きくすると画像が多くなるがお金がかかる
 
