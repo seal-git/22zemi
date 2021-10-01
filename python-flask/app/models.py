@@ -80,7 +80,7 @@ def get_restaurant_ids_from_recommend_priority(fetch_group, group_id,
     fetch_votes = session.query(Vote).filter(
             Vote.group == group_id,
             Vote.recommend_priority is not None
-        ).order_by(Vote.recommend_priority).all()
+        ).order_by(desc(Vote.recommend_priority)).all()
 
     restaurants_ids = []
     for fv in fetch_votes:
@@ -90,15 +90,17 @@ def get_restaurant_ids_from_recommend_priority(fetch_group, group_id,
                 return restaurants_ids
 
     # まだ優先度を計算していない時や，RecommendSimple等で優先度を計算しない時
-    fetch_votes = session.query(Vote).filter(Vote.group == group_id,
-                                            Vote.recommend_priority is None).all()
+    fetch_votes = session.query(Vote).filter(
+            Vote.group == group_id,
+            Vote.recommend_priority is None
+    ).all()
     for fv in fetch_votes:
         if fv.restaurant not in histories_restaurants:
             restaurants_ids.append(fv.restaurant)
             if len(restaurants_ids) == config.MyConfig.RESPONSE_COUNT:
                 return restaurants_ids
     # ストックしている店舗数が足りない時。最初のリクエスト等。
-    return []
+    return restaurants_ids
 
 
 # ============================================================================================================
