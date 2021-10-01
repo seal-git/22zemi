@@ -20,22 +20,21 @@ class Params:
     このパラメータはGroupテーブルで定義されているものに対応している。(TODO: 未対応のものもまだある)
     """
     def __init__(self):
-        self.query: str = None # キーワード
-        self.inputtype: str = "textquery"  # textquery/phonenumber
-        self.lat: float = None # 中心の緯度
-        self.lon: float = None # 中心の経度
-        self.max_dist: int = config.MyConfig.MAX_DISTANCE # 中心からの検索距離(m)
-        self.open_day: str = datetime.datetime.now().day  # 日付指定
-        self.open_hour: str = datetime.datetime.now().hour  # 時間指定
-        self.open_now: bool = False # 今開店しているか
-        self.max_price: int = None # 値段の最大値(円)
-        self.min_price: int = None # 値段の最小値(円)
-        self.loco_mode: bool = False # Yahooロコの検索機能(ランチ、飲み放題、食べ放題、女子会、個室で検索できる)
-        self.image: bool = False # 画像のあるものだけを出力
+        self.lat: float = None  # 中心の緯度
+        self.lon: float = None  # 中心の経度
+        self.query: str = None  # キーワード
+        self.max_dist: int = None # 中心からの検索距離(m)
+        self.open_day: str = None  # 日付指定
+        self.open_hour: str = None  # 時間指定
+        self.open_now: bool = False  # 今開店しているか
+        self.max_price: int = None  # 値段の最大値(円)
+        self.min_price: int = None  # 値段の最小値(円)
+        self.loco_mode: bool = False  # Yahooロコの検索機能(ランチ、飲み放題、食べ放題、女子会、個室で検索できる)
+        self.image: bool = False  # 画像のあるものだけを出力
         self.results: int = config.MyConfig.STOCK_COUNT # 取得件数
         self.start: int = 0  # 取得開始位置
-        self.sort: str = None # ソート順の指定
-    
+        self.sort: str = None  # ソート順の指定
+
     def set_start_and_results_from_stock(self, group_id, stock, histories_restaurants):
         """
         STOCK_COUNT個の中から選べるように、足りなければAPIで取得する
@@ -151,7 +150,7 @@ class RestaurantInfo:
         r_info_dict = {
             'Restaurant_id': self.id,
             'Name': self.name,
-            'Distance': self.distance_str,
+            'Distance': self.distance_float,
             'CatchCopy': description,
             'Price': self.price,
             'Address': self.address,
