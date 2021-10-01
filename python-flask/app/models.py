@@ -230,8 +230,14 @@ def http_info():
         params.query = data.get("genre", '')
         params.open_day = data.get("open_day", datetime.datetime.now().day)  # 指定不能
         params.open_hour = data.get("open_hour", datetime.datetime.now().hour)
-        params.max_price = data.get("maxprice")
-        params.min_price = data.get("minprice") # 指定不能
+        try:
+            params.max_price = int(data.get("maxprice")) 
+        except (TypeError, ValueError):
+            params.max_price = None
+        try:
+            params.min_price = int(data.get("minprice")) # 指定不能
+        except (TypeError, ValueError):
+            params.min_price = None
         params.sort = data.get("sort")
 
         ## パラメーターの初期値を別途計算
