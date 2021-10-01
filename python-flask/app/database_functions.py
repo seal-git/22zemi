@@ -303,9 +303,9 @@ def save_histories(group_id, user_id, restaurants_info):
 def save_votes(group_id, restaurants_info):
 
     for i,r in enumerate(restaurants_info):
-        fetch_vote = session.query(Vote).filter(Vote.group == group_id,
-                                                Vote.restaurant == r.id
-                                                ).first()
+        fetch_vote = session.query(Vote).filter(
+            Vote.group == group_id, Vote.restaurant == r.id
+                                ).with_for_update().first()
         if fetch_vote is None:
             fetch_vote = Vote()
             fetch_vote.group = group_id
@@ -336,7 +336,8 @@ def save_restaurants(restaurants_info):
     '''
 
     for r_info in restaurants_info:
-        fetch_restaurant = session.query(Restaurant).filter(Restaurant.id==r_info.id).first()
+        fetch_restaurant = session.query(Restaurant).filter(
+            Restaurant.id==r_info.id).with_for_update().first()
 
         if fetch_restaurant is None:
             fetch_restaurant = Restaurant()
@@ -374,10 +375,7 @@ def save_restaurants(restaurants_info):
         fetch_restaurant.image_url = '\n'.join(r_info.image_url)
 
         session.add(fetch_restaurant)
-        try:
-            session.commit()
-        except:
-            pass
+        session.commit()
 
         # print(f"save_restaurants_info: saved {fetch_restaurant.id}   ")
     return
