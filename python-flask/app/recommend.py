@@ -663,28 +663,28 @@ class RecommendSVM(Recommend):
             # price_score
             price = r.price
             if price is not None and price != 0:
-                vec[0] = abs(price - like_price_average) / like_price_sigma
-                vec[1] = -abs(price - dislike_price_average) / dislike_price_sigma
-                vec[2] = price / 1000
+                vec[0] = -abs(price - like_price_average) / like_price_sigma
+                vec[1] = abs(price - dislike_price_average) / dislike_price_sigma
+                vec[2] = -price / 1000
             else:
                 vec[0] = 0
                 vec[1] = 0
                 if (like_price_count + dislike_price_count) == 0:
-                    vec[2] = (like_price_average + dislike_price_average) / 2
+                    vec[2] = -(like_price_average + dislike_price_average) / 2
                 else:
-                    vec[2] = (like_price_average * like_price_count + dislike_price_average * dislike_price_count) / (like_price_count + dislike_price_count)
+                    vec[2] = -(like_price_average * like_price_count + dislike_price_average * dislike_price_count) / (like_price_count + dislike_price_count)
 
             # distance_score
             distance = r.distance_float
-            vec[3] = abs(distance - like_distance_average) / like_distance_sigma * 1000
-            vec[4] = -abs(distance - dislike_distance_average) / dislike_distance_sigma * 1000
+            vec[3] = -abs(distance - like_distance_average) / like_distance_sigma * 1000
+            vec[4] = abs(distance - dislike_distance_average) / dislike_distance_sigma * 1000
             
             # genre_score
             genre_score = 0
             if r.genre_name is not None:
                 for g in r.genre_name:
                     if g in genre_feeling:
-                        genre_score += genre_feeling[g]['Dislike'] - genre_feeling[g]['Like']
+                        genre_score += genre_feeling[g]['Like'] - genre_feeling[g]['Dislike']
             vec[5] = genre_score * 1000
 
             vec[6] = r.yahoo_rating_float if r.yahoo_rating_float is not None else 0
@@ -697,7 +697,7 @@ class RecommendSVM(Recommend):
             else:
                 rid_train[i_train] = r.id
                 x_train[i_train][:] = vec[:]
-                y_train[i_train] = participants_count * (r.votes_all - r.votes_like) - r.votes_like # 訓練データのラベル
+                y_train[i_train] = r.votes_like - participants_count * (r.votes_all - r.votes_like) # 訓練データのラベル
                 i_train += 1
 
         print("i_train=", i_train, "i_test=", i_test)
@@ -744,12 +744,12 @@ class RecommendSVM(Recommend):
         if max_price is None:
             for r_info in [r for r in restaurants_info if (r.price is not None and min_price > r.price)]:
                 fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==r_info.id).one()
-                fetch_vote.recommend_priority = 10000.0
+                fetch_vote.recommend_priority = -10000.0
                 session.commit()
         else:
             for r_info in [r for r in restaurants_info if (r.price is None or min_price > r.price or r.price > max_price)]:
                 fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==r_info.id).one()
-                fetch_vote.recommend_priority = 10000.0
+                fetch_vote.recommend_priority = -10000.0
                 session.commit()
 
     def calc_priority(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):

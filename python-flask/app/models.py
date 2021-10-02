@@ -80,7 +80,7 @@ def get_restaurant_ids_from_recommend_priority(fetch_group, group_id,
     fetch_votes = session.query(Vote).filter(
             Vote.group == group_id,
             Vote.recommend_priority is not None
-        ).order_by(Vote.recommend_priority.desc()).all()
+        ).order_by(desc(Vote.recommend_priority)).all()
 
     restaurants_ids = []
     for fv in fetch_votes:
@@ -90,15 +90,17 @@ def get_restaurant_ids_from_recommend_priority(fetch_group, group_id,
                 return restaurants_ids
 
     # まだ優先度を計算していない時や，RecommendSimple等で優先度を計算しない時
-    fetch_votes = session.query(Vote).filter(Vote.group == group_id,
-                                            Vote.recommend_priority is None).all()
+    fetch_votes = session.query(Vote).filter(
+            Vote.group == group_id,
+            Vote.recommend_priority is None
+    ).all()
     for fv in fetch_votes:
         if fv.restaurant not in histories_restaurants:
             restaurants_ids.append(fv.restaurant)
             if len(restaurants_ids) == config.MyConfig.RESPONSE_COUNT:
                 return restaurants_ids
     # ストックしている店舗数が足りない時。最初のリクエスト等。
-    return []
+    return restaurants_ids
 
 
 # ============================================================================================================
@@ -228,8 +230,14 @@ def http_info():
         params.query = data.get("genre", '中華料理')
         params.open_day = data.get("open_day", datetime.date.today())  # 指定不能
         params.open_hour = data.get("open_hour", datetime.datetime.now().hour)
-        params.max_price = data.get("maxprice", 4000)
-        params.min_price = data.get("minprice") # 指定不能
+        try:
+            params.max_price = int(data.get("maxprice"))
+        except (TypeError, ValueError):
+            params.max_price = None
+        try:
+            params.min_price = int(data.get("minprice")) # 指定不能
+        except (TypeError, ValueError):
+            params.min_price = None
         params.sort = data.get("sort")
 
         ## パラメーターの初期値を別途計算

@@ -28,6 +28,7 @@ class MyConfig:
     RECOMMEND_METHOD = 'simple'
     API_METHOD = 'yahoo'
     GET_GOOGLE_IMAGE = False
+    USE_GOOGLE_API = False
     USE_LOCAL_IMAGE = False
     USE_RAW_IMAGE = False
     MAX_DISTANCE = 20000  # 中心地からの距離 上限20

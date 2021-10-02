@@ -189,8 +189,18 @@ def set_search_params(group_id, params, fetch_group=None):
     fetch_group.lon = params.lon
     fetch_group.query = params.query
     fetch_group.max_dist = params.max_dist
-    fetch_group.open_day = params.open_day
-    fetch_group.open_hour = params.open_hour
+    if params.open_day is None:
+        fetch_group.open_day = None
+    else:
+        today = datetime.date.today()
+        month = today.month if today.day <= int(params.open_day) else today.month + 1
+        year = today.year if month <= 12 else today.year + 1
+        fetch_group.open_day = datetime.date(year, month, int(params.open_day))
+    if params.open_hour is None:
+        fetch_group.open_hour = None
+    else:
+        hoursecond = params.open_hour.split(':')
+        fetch_group.open_hour = datetime.time(hour=int(hoursecond[0]), second=int(hoursecond[1]))
     fetch_group.open_now = params.open_now
     fetch_group.max_price = params.max_price
     fetch_group.min_price = params.min_price
@@ -243,9 +253,9 @@ def save_histories(group_id, user_id, restaurants_info):
 def save_votes(group_id, restaurants_info):
 
     for i,r in enumerate(restaurants_info):
-        fetch_vote = session.query(Vote).filter(Vote.group == group_id,
-                                                Vote.restaurant == r.id
-                                                ).first()
+        fetch_vote = session.query(Vote).filter(
+            Vote.group == group_id, Vote.restaurant == r.id
+                                ).with_for_update().first()
         if fetch_vote is None:
             fetch_vote = Vote()
             fetch_vote.group = group_id
@@ -276,7 +286,8 @@ def save_restaurants(restaurants_info):
     '''
 
     for r_info in restaurants_info:
-        fetch_restaurant = session.query(Restaurant).filter(Restaurant.id==r_info.id).first()
+        fetch_restaurant = session.query(Restaurant).filter(
+            Restaurant.id==r_info.id).with_for_update().first()
 
         if fetch_restaurant is None:
             fetch_restaurant = Restaurant()
@@ -314,10 +325,7 @@ def save_restaurants(restaurants_info):
         fetch_restaurant.image_url = '\n'.join(r_info.image_url)
 
         session.add(fetch_restaurant)
-        try:
-            session.commit()
-        except:
-            pass
+        session.commit()
 
         # print(f"save_restaurants_info: saved {fetch_restaurant.id}   ")
     return

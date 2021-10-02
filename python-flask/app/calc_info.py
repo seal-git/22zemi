@@ -2,7 +2,7 @@ import glob
 import os
 
 from geopy.distance import great_circle
-from app import database_functions, config, api_functions
+from app import database_functions, config, api_functions, api_functions_for_test
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 import requests
 import datetime
@@ -52,13 +52,13 @@ def add_distance(fetch_group, group_id, restaurants_info):
 
     Parameters
     ----------------
-    fetch_group : 
+    fetch_group :
         データベースのグループ情報
     group_id : int
         グループID
     restaurants_info : [dict]
         レストランIDのリスト
-    
+
     Returns
     ----------------
     restaurants_info : [dict]
@@ -191,34 +191,41 @@ def add_open_hour(fetch_group, restaurants_info):
         day_of_week = fetch_group.open_day.strftime('%A')
 
         for i in range(len(restaurants_info)):
-            if day_of_week == "Sunday" and restaurants_info[i].sunday_opening_hours is not None:
-                opening_hours = restaurants_info[i].sunday_opening_hours.replace("/", "~").split(",")
-                opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
-                restaurants_info[i].opening_hours = opening_hours_join
-            elif day_of_week == "Monday" and restaurants_info[i].monday_opening_hours is not None:
-                opening_hours = restaurants_info[i].monday_opening_hours.replace("/", "~").split(",")
-                opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
-                restaurants_info[i].opening_hours = opening_hours_join
-            elif day_of_week == "Tuesday" and restaurants_info[i].tuesday_opening_hours is not None:
-                opening_hours = restaurants_info[i].tuesday_opening_hours.replace("/", "~").split(",")
-                opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
-                restaurants_info[i].opening_hours = opening_hours_join
-            elif day_of_week == "Wednesday" and restaurants_info[i].wednesday_opening_hours is not None:
-                opening_hours = restaurants_info[i].wednesday_opening_hours.replace("/", "~").split(",")
-                opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
-                restaurants_info[i].opening_hours = opening_hours_join
-            elif day_of_week == "Thursday" and restaurants_info[i].thursday_opening_hours is not None:
-                opening_hours = restaurants_info[i].thursday_opening_hours.replace("/", "~").split(",")
-                opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
-                restaurants_info[i].opening_hours = opening_hours_join
-            elif day_of_week == "Friday" and restaurants_info[i].friday_opening_hours is not None:
-                opening_hours = restaurants_info[i].friday_opening_hours.replace("/", "~").split(",")
-                opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
-                restaurants_info[i].opening_hours = opening_hours_join
-            elif day_of_week == "Saturday" and restaurants_info[i].saturday_opening_hours is not None:
-                opening_hours = restaurants_info[i].saturday_opening_hours.replace("/", "~").split(",")
-                opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
-                restaurants_info[i].opening_hours = opening_hours_join
+            if day_of_week == "Sunday":
+                if restaurants_info[i].sunday_opening_hours is not None:
+                    opening_hours = restaurants_info[i].sunday_opening_hours.replace("/", "~").split(",")
+                    opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
+                    restaurants_info[i].opening_hours = opening_hours_join
+            elif day_of_week == "Monday":
+                if restaurants_info[i].monday_opening_hours is not None:
+                    opening_hours = restaurants_info[i].monday_opening_hours.replace("/", "~").split(",")
+                    opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
+                    restaurants_info[i].opening_hours = opening_hours_join
+            elif day_of_week == "Tuesday":
+                if restaurants_info[i].tuesday_opening_hours is not None:
+                    opening_hours = restaurants_info[i].tuesday_opening_hours.replace("/", "~").split(",")
+                    opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
+                    restaurants_info[i].opening_hours = opening_hours_join
+            elif day_of_week == "Wednesday":
+                if restaurants_info[i].wednesday_opening_hours is not None:
+                    opening_hours = restaurants_info[i].wednesday_opening_hours.replace("/", "~").split(",")
+                    opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
+                    restaurants_info[i].opening_hours = opening_hours_join
+            elif day_of_week == "Thursday":
+                if restaurants_info[i].thursday_opening_hours is not None:
+                    opening_hours = restaurants_info[i].thursday_opening_hours.replace("/", "~").split(",")
+                    opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
+                    restaurants_info[i].opening_hours = opening_hours_join
+            elif day_of_week == "Friday":
+                if restaurants_info[i].friday_opening_hours is not None:
+                    opening_hours = restaurants_info[i].friday_opening_hours.replace("/", "~").split(",")
+                    opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
+                    restaurants_info[i].opening_hours = opening_hours_join
+            elif day_of_week == "Saturday":
+                if  restaurants_info[i].saturday_opening is not None:
+                    opening_hours = restaurants_info[i].saturday_opening_hours.replace("/", "~").split(",")
+                    opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
+                    restaurants_info[i].opening_hours = opening_hours_join
     else:
         for i in range(len(restaurants_info)):
             if restaurants_info[i].monday_opening_hours is not None:
@@ -248,103 +255,40 @@ def add_review_rating(restaurants_info):
     return restaurants_info
 
 
-def get_google_images_list(restaurants_info):
-    '''
-    Googleから複数の店の画像を並列に取得する
-    '''
-    images_list = [[] for r in restaurants_info]
-    # 並列処理
-    thread_list = [None for r in restaurants_info]
-    for index,r_info in enumerate(restaurants_info):
-        thread_list[index] = threading.Thread(target=get_google_images, args=(index, r_info, images_list))
-        thread_list[index].start()
-    for t in thread_list:
-        t.join()
 
-    for i in range(len(restaurants_info)):
-        restaurants_info[i].image_url += images_list[i]
-    # # 逐次処理
-    # for index,name in enumerate(name_list):
-    #     get_google_images(index, name, images_list)
-
-    return restaurants_info
-
-
-def get_google_images(index, r_info, images_list):
+def get_google_images(r_info):
     '''
     店名からGoogle画像を取得する
     '''
 
-    url_list = [[] for p in r_info.google_photo_reference]
+    url_list = ['' for p in r_info.google_photo_reference]
     thread_list = [None for p in r_info.google_photo_reference]
     for i, reference in enumerate(r_info.google_photo_reference):
+        if i >= config.MyConfig.MAX_GOOGLE_IMAGES_COUNT: break
         thread_list[i] = threading.Thread(target=get_google_image_from_reference, args=(i, reference, url_list))
         thread_list[i].start()
-        if i >= config.MyConfig.MAX_GOOGLE_IMAGES_COUNT: break
     for t in thread_list:
-        t.join()
+        if t is not None: t.join()
 
-    print(f"images_list[{index}].url_list = {url_list}")
-    images_list[index] = url_list
-
+    # print(f"images_list[{index}].url_list = {url_list}")
+    r_info.image_url += [url for url in url_list if len(url)>0]
+    return r_info
 
 def get_google_image_from_reference(index, reference, url_list):
-    from PIL import Image
-    import os, requests
-    from io import BytesIO
 
     image_width = 400 #画像1枚の最大幅
 
     # print(f"get_google_image: index={index}, i={i}/{len(photo_references)}")
     # image_referenceごとにAPIを叩いて画像を取得
-    url = 'https://maps.googleapis.com/maps/api/place/photo'
-    params = {
-        'key': os.environ['GOOGLE_API_KEY'],
-        'photoreference': reference,
-        'maxwidth': image_width,
-    }
-    res = requests.get(url=url, params=params)
-    # 返ってきたバイナリをImageオブジェクトに変換
+    if config.MyConfig.USE_GOOGLE_API:
+        image = api_functions.google_place_photo(reference, image_width)
+    else:
+        image = api_functions_for_test.google_place_photo(reference, image_width)
     filename = f"static/{reference}.png"
-    image = Image.open(BytesIO(res.content))
     image.save(filename)
     url_list[index] = f"http://{config.MyConfig.SERVER_URL}:5000/static/{reference}.png"
 
 
-# def get_google_images_references(restaurant_name):
-#     '''
-#     店名からGoogleから画像を取得する
-#     '''
-#     if os.getenv("USE_LOCAL_IMAGE")=="True": # debug mode
-#         print("getting image reference from test/data")
-#         with open("test/data/references.txt", "r")as f:
-#             image_references = [l for l in f]
-#         return image_references
-#     else:
-#         # place検索
-#         url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
-#         params = {
-#             'key': os.environ["GOOGLE_API_KEY"],
-#             'input': restaurant_name,
-#             'inputtype': 'textquery',
-#         }
-#         res = requests.get(url=url, params=params)
-#         dic = res.json()
-#         place_id = dic['candidates'][0]['place_id']
-
-#         # place_detailを取得
-#         url = 'https://maps.googleapis.com/maps/api/place/details/json'
-#         params = {
-#             'key': os.environ["GOOGLE_API_KEY"],
-#             'place_id': place_id,
-#         }
-#         res = requests.get(url=url, params=params)
-#         dic = res.json()
-#         if 'photos' in dic['result']:
-#             photo_references = [photo['photo_reference'] for photo in dic['result']['photos']]
-#         else:
-#             photo_references = []
-#     return photo_references
 
 from memory_profiler import profile
 @profile

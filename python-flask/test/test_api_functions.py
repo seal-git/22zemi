@@ -59,5 +59,15 @@ def test_google_place_details():
     r_info = google_place_details(r_info)
     pprint.PrettyPrinter(indent=2).pprint(r_info.get_dict())
     assert len(r_info.google_photo_reference) > 0
+<<<<<<< HEAD
+
+def test_google_place_photo():
+    photo_reference = 'Aap_uEDbtTwOXOryFJYq3129RPKnlC4JRe4XVjFWnqb3uT2aGsCHUdOW9_TetRCnFkaSnd3dWgrqfzjJYDUX1s5DK6blbKeZ780kfTV-t546Er998J5Wr1ddhaNwmZ9CvCivrKNllfzREoU1mqxcgqYvtUxsRAWAwHQDqh_Uw3DuPEv10U8m'
+    image_width = 400
+    image = google_place_photo(photo_reference, image_width)
+
+    assert image
+=======
 """
 
+>>>>>>> 01871bb0d1ae7b4dc1870d410a9dbf006811828a
