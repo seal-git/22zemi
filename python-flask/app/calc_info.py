@@ -171,6 +171,7 @@ def calc_recommend_score(fetch_group, restaurants_info):
 def add_price(fetch_group, restaurants_info):
     # 設定された時間での値段を設定する
     if fetch_group.open_hour is not None:
+        print(fetch_group.open_hour)
         hour = int(fetch_group.open_hour.hour)
     else:
         hour = datetime.datetime.now().hour + datetime.datetime.now().minute / 60
@@ -222,7 +223,7 @@ def add_open_hour(fetch_group, restaurants_info):
                     opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
                     restaurants_info[i].opening_hours = opening_hours_join
             elif day_of_week == "Saturday":
-                if  restaurants_info[i].saturday_opening is not None:
+                if restaurants_info[i].saturday_opening_hours is not None:
                     opening_hours = restaurants_info[i].saturday_opening_hours.replace("/", "~").split(",")
                     opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
                     restaurants_info[i].opening_hours = opening_hours_join

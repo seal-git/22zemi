@@ -25,7 +25,7 @@ class MyConfig:
     NEXT_RESPONSE = False
     RECOMMEND_PRIORITY = True # RecommendSimpleでTrueにすると死にます
 
-    RECOMMEND_METHOD = 'simple'
+    RECOMMEND_METHOD = 'svm'
     API_METHOD = 'yahoo'
     GET_GOOGLE_IMAGE = False
     USE_GOOGLE_API = False
