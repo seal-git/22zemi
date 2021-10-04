@@ -15,20 +15,19 @@ api_functionsで使う情報を計算する
 
 '''
 
-
-def add_votes_distance(fetch_group, group_id, restaurants_info):
+def add_votes(fetch_group, group_id, restaurants_info):
     '''
-    restaurants_infoに投票数と現在位置からの距離を加える
+    restaurants_infoに投票数を加える
 
     Parameters
     ----------------
-    fetch_group : 
+    fetch_group :
         データベースのグループ情報
     group_id : int
         グループID
     restaurants_info : [dict]
         レストランIDのリスト
-    
+
     Returns
     ----------------
     restaurants_info : [dict]
@@ -44,6 +43,28 @@ def add_votes_distance(fetch_group, group_id, restaurants_info):
                                                                       History.feeling is not None
                                                                       ).count() # レストランの投票人数
         restaurants_info[i].number_of_participants = str(database_functions.get_participants_count(group_id)) # グループの参加人数
+    return restaurants_info
+
+
+def add_distance(fetch_group, group_id, restaurants_info):
+    '''
+    restaurants_infoに現在位置からの距離を加える
+
+    Parameters
+    ----------------
+    fetch_group :
+        データベースのグループ情報
+    group_id : int
+        グループID
+    restaurants_info : [dict]
+        レストランIDのリスト
+
+    Returns
+    ----------------
+    restaurants_info : [dict]
+        レスポンスするレストラン情報を返す。
+    '''
+    for i in range(len(restaurants_info)):
         if restaurants_info[i].distance_float is None:
             restaurants_info[i].distance_float = great_circle((fetch_group.lat,
                                                                fetch_group.lon),
@@ -150,6 +171,7 @@ def calc_recommend_score(fetch_group, restaurants_info):
 def add_price(fetch_group, restaurants_info):
     # 設定された時間での値段を設定する
     if fetch_group.open_hour is not None:
+        print(fetch_group.open_hour)
         hour = int(fetch_group.open_hour.hour)
     else:
         hour = datetime.datetime.now().hour + datetime.datetime.now().minute / 60
@@ -201,13 +223,14 @@ def add_open_hour(fetch_group, restaurants_info):
                     opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
                     restaurants_info[i].opening_hours = opening_hours_join
             elif day_of_week == "Saturday":
-                if  restaurants_info[i].saturday_opening is not None:
+                if restaurants_info[i].saturday_opening_hours is not None:
                     opening_hours = restaurants_info[i].saturday_opening_hours.replace("/", "~").split(",")
                     opening_hours_join = opening_hours[0].split("~")[0] + "~" + opening_hours[-1].split("~")[1]
                     restaurants_info[i].opening_hours = opening_hours_join
     else:
         for i in range(len(restaurants_info)):
-            restaurants_info[i].opening_hours = restaurants_info[i].monday_opening_hours.replace("/", "~").split(",")[0]
+            if restaurants_info[i].monday_opening_hours is not None:
+                restaurants_info[i].opening_hours = restaurants_info[i].monday_opening_hours.replace("/", "~").split(",")[0]
 
     return restaurants_info
 

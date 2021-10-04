@@ -1,5 +1,6 @@
 from app import config
 from memory_profiler import profile
+import time
 import requests, json, pprint
 
 def test_http_info():
@@ -8,7 +9,7 @@ def test_http_info():
         "params":{
             "user_id": "123",
             "group_id": "456789",
-            "open_hour": 12,
+            "open_hour_str": "12:00",
         }
     }
     headers = {"Content-Type":"application/json"}
@@ -19,6 +20,7 @@ def test_http_info():
 
 
 def test_http_feeling():
+    time.sleep(1)
     url = 'http://localhost:5000/feeling'
     params = {
         "params":{

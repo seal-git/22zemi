@@ -1,6 +1,6 @@
 import requests
 import os
-import datetime
+from datetime import date, time
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 from abc import ABCMeta, abstractmethod
 from flask import abort
@@ -24,8 +24,8 @@ class Params:
         self.lon: float = None  # 中心の経度
         self.query: str = None  # キーワード
         self.max_dist: int = None # 中心からの検索距離(m)
-        self.open_day: str = None  # 日付指定
-        self.open_hour: str = None  # 時間指定
+        self.open_day: date = None  # 日付指定
+        self.open_hour: time = None  # 時間指定
         self.open_now: bool = False  # 今開店しているか
         self.max_price: int = None  # 値段の最大値(円)
         self.min_price: int = None  # 値段の最小値(円)
