@@ -3,6 +3,7 @@ from flask import jsonify, make_response, request, send_file
 
 from app import app_, db_
 from app import database_functions, recommend, api_functions, config, call_api
+from app.internal_info import  *
 from app.database_setting import *  # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 import json
 from werkzeug.exceptions import NotFound, BadRequest, InternalServerError
@@ -11,6 +12,7 @@ from PIL import Image
 import base64
 from io import BytesIO
 import time
+import datetime
 from sqlalchemy.sql.functions import current_timestamp
 import threading
 import pprint
@@ -49,9 +51,11 @@ def create_response_from_restaurants_info(group_id, user_id, restaurants_info):
     response_keys = ['Restaurant_id', 'Name', 'Address', 'CatchCopy', 'Price',
                      'Category', 'UrlWeb', 'UrlMap', 'ReviewRating',
                      'BusinessHour', 'Genre', 'Images', 'ImagesBinary']
+    if config.MyConfig.SHOW_DISTANCE:
+        response_keys.append('Distance')
     response = [{k: v for k, v in r.items() if k in response_keys} for r in
                 restaurants_info]  # response_keysに含まれているキーを残す
-    pprint.PrettyPrinter(indent=2).pprint(response)
+    #pprint.PrettyPrinter(indent=2).pprint(response)
 
     return json.dumps(response, ensure_ascii=False)
 
@@ -77,7 +81,7 @@ def get_restaurant_ids_from_recommend_priority(fetch_group, group_id,
     fetch_votes = session.query(Vote).filter(
             Vote.group == group_id,
             Vote.recommend_priority is not None
-        ).order_by(Vote.recommend_priority).all()
+        ).order_by(desc(Vote.recommend_priority)).all()
 
     restaurants_ids = []
     for fv in fetch_votes:
@@ -87,15 +91,19 @@ def get_restaurant_ids_from_recommend_priority(fetch_group, group_id,
                 return restaurants_ids
 
     # まだ優先度を計算していない時や，RecommendSimple等で優先度を計算しない時
-    fetch_votes = session.query(Vote).filter(Vote.group == group_id,
-                                            Vote.recommend_priority is None).all()
+    fetch_votes = session.query(Vote).filter(
+            Vote.group == group_id,
+            Vote.recommend_priority is None
+    ).all()
+    print(fetch_votes)
+
     for fv in fetch_votes:
         if fv.restaurant not in histories_restaurants:
             restaurants_ids.append(fv.restaurant)
             if len(restaurants_ids) == config.MyConfig.RESPONSE_COUNT:
                 return restaurants_ids
     # ストックしている店舗数が足りない時。最初のリクエスト等。
-    return []
+    return restaurants_ids
 
 
 # ============================================================================================================
@@ -195,40 +203,54 @@ def http_info():
 
     # リクエストクエリを受け取る
     data = request.get_json()["params"]
+    pprint.PrettyPrinter(indent=2).pprint(data)
     user_id = int(data["user_id"]) if data.get("user_id", False) else None
     group_id = int(data["group_id"]) if data.get("group_id", False) else None
-    # coordinates = data["coordinates"] if data.get("coordinates", False) else one # TODO: デモ以降に実装
-    place = data["place"] if data.get("place", False) else None
-    genre = data["genre"] if data.get("genre", False) else None
-    query = data["query"] if data.get("query", False) else None
-    open_day = data["open_day"] if data.get("open_day", False) else None
-    open_hour = data["open_hour"] if data.get("open_hour", False) else None
-    maxprice = data["maxprice"] if data.get("maxprice", False) else None
-    minprice = data["minprice"] if data.get("minprice", False) else None
-    sort = data["sort"] if data.get("sort", False) else None
-    recommend_method = data["recommend_method"] if data.get("recommend_method",
-                                                            False) else RECOMMEND_METHOD
-    api_method = data["api_method"] if data.get("api_method",
-                                                False) else API_METHOD
+    recommend_method = data.get("recommend_method",RECOMMEND_METHOD)
+    api_method = data.get("api_method", API_METHOD)
 
     group_id = group_id if group_id is not None else database_functions.get_group_id(
         user_id)
 
-    # Yahoo本社の住所 # TODO
-    address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-" if place is None else place
-    # TODO: 開発用に時間を固定
-    # open_hour = '18'
-
     # 未登録ならデータベースにユーザとグループを登録する
-    fetch_user, fetch_group, fetch_belong, first_time_group_flg, first_time_belong_flg = database_functions.register_user_and_group_if_not_exist(
-        group_id, user_id, address, recommend_method, api_method)
+    (fetch_user,
+     fetch_group,
+     fetch_belong,
+     first_time_group_flg,
+     first_time_belong_flg
+     ) = database_functions.register_user_and_group_if_not_exist(group_id,
+                                                                 user_id,
+                                                                 recommend_method,
+                                                                 api_method)
 
-    # 検索条件をデータベースに保存
+    # 検索初期条件をデータベースに保存
     if first_time_group_flg:
-        database_functions.set_search_params(group_id, place, genre, query,
-                                            open_day, open_hour, maxprice,
-                                            minprice, sort,
-                                            fetch_group=fetch_group)
+        params = Params()
+        lat, lon, _ = api_functions.yahoo_contents_geocoder(data.get("place"))
+        params.lat = data.get("lat", lat)  # placeがNoneのときはヤフー本社の座標
+        params.lon = data.get("lon", lon)
+        params.query = data.get("genre")
+        open_day = datetime.date.today().isoformat()
+        open_hour = datetime.datetime.now().isoformat(timespec='minutes')
+        params.open_day = datetime.date.fromisoformat(data.get("open_day", open_day))  # 指定不能
+        params.open_hour = datetime.time.fromisoformat(data.get("open_hour_str",open_hour))
+        try:
+            params.max_price = int(data.get("maxprice"))
+        except (TypeError, ValueError):
+            params.max_price = None
+        try:
+            params.min_price = int(data.get("minprice")) # 指定不能
+        except (TypeError, ValueError):
+            params.min_price = None
+        params.sort = data.get("sort")
+
+        ## パラメーターの初期値を別途計算
+        if config.MyConfig.SET_OPEN_HOUR:
+            params.open_hour = datetime.time.fromisoformat(config.MyConfig.OPEN_HOUR)
+
+        database_functions.set_search_params(group_id,
+                                             params,
+                                             fetch_group=fetch_group)
         
         # 初回優先度を計算
         _ = recommend.recommend_main(fetch_group, group_id, user_id, first_time_flg=first_time_group_flg)

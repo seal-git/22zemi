@@ -7,7 +7,7 @@ import { useEffect, useState } from "react"
 import RestaurantInformation from './selection-components/RestaurantInformation'
 import RestaurantInformationDeck from './selection-components/RestaurantInformationDeck'
 import noImageIcon from "./../../img/no_image.png"
-import tutorialDataList from "./../../samples/tutorialData.json"
+import tutorialImage from "./../../img/tutorial1all.png"
 
 const initDataList = [{
   "Name": "Loading...",
@@ -19,6 +19,12 @@ const emptyDataList = [{
   "Name": "No Data:\n検索条件を変えてみてください",
   "Images": [noImageIcon ],
   "Restaurant_id": "empty",
+}]
+const tutorialDataList = [{
+  "Name": "",
+  "Images": [tutorialImage ],
+  "Price": "",
+  "Restaurant_id": "tutorial",
 }]
 
 // カードのスタイル
@@ -34,11 +40,11 @@ var wrapperStyle = {
 function Selection(props) {
   const [dataLists, setDataLists] = useState(
         props.tutorialIsOn?{ 
-            "topDataList": tutorialDataList.slice(0,2),
-            "standbyDataList": tutorialDataList.slice(2),
+            "topDataList": [],
+            "standbyDataList": tutorialDataList,
         }:{
             "topDataList": initDataList,
-            "standbyDataList": null,
+            "standbyDataList": [],
         }
   )
   let isLoading = false
@@ -131,6 +137,8 @@ function Selection(props) {
   useEffect(() => {
       if(props.tutorialIsOn===false){
           getInfo(null,null,"init",null)
+      }else{
+          getInfo(null,null,"standby",tutorialDataList)
       }
     // Mount 時にだけ呼び出す
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -150,6 +158,8 @@ function Selection(props) {
     })
       .then(function (response) {
         console.log(response)
+        const v = response.data?response.data:0
+        props.keepNumberRef.current = v
       })
       .catch((error) => {
         console.log("error:", error);
@@ -167,21 +177,10 @@ function Selection(props) {
     if (isLoading) return null
     sendFeeling(true, restaurant_id)
   }
-  // Home コンポーネント から受け取った turnMode を
-  // ButtonToChangeMode 用に加工
-  const turnMode = () => {
-    // データリストの取得待ちであることを明示する
-    setDataLists({
-      "topDataList":initDataList,
-      "standbyDataList":null,
-    })
-    // モード切り替え
-    props.turnMode()
-  }
-
 
   let renderStandbyRestaurantInformation = () =>{
     if(dataLists.standbyDataList===null) return null
+    if(dataLists.standbyDataList.length===0) return null
     return (
       <RestaurantInformation 
         data={dataLists.standbyDataList[0]}
@@ -194,6 +193,7 @@ function Selection(props) {
   }
 
   let renderRestaurantInformationDeck = () =>{
+    if(dataLists.topDataList===null) return null
     return (
       <RestaurantInformationDeck
         topDataList={dataLists.topDataList}

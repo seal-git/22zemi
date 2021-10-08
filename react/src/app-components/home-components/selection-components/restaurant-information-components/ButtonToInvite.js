@@ -50,7 +50,7 @@ function ButtonToInvite(props) {
 
     const StyledInviteIcon = withStyles( (theme) => ({
         root:{
-            width: '15%',
+            width: '14%',
             height: 'auto',
             margin: '2% 2%',
             cursor: 'pointer',
@@ -60,7 +60,7 @@ function ButtonToInvite(props) {
         }
     }))(InviteIcon);
 
-    const url = "https://localhost?group_id="+props.groupId
+    const url = "https://reskima.com?group_id="+props.groupId
     return (
         <div className={classes.ButtonToInviteContainer}>
             <StyledInviteIcon onClick={()=>{handleClickOpen()}} />

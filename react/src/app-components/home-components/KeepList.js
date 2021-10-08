@@ -22,7 +22,7 @@ import RestaurantInformation from './selection-components/RestaurantInformation'
 const useStyles = makeStyles((theme) => ({
 
     aloneStyle: {
-        height: '100vh',
+        height: '100%',
         backgroundColor: 'white',
         // backgroundImage: 'linear-gradient(180.02deg, #FFEEAA 0.02%, #FDFFEB 80.2%)',
         // backgroundSize: 'cover',
@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
         // backgroundSize: 'cover',
     },
     Keeplist_wrapper: {
-        height: "100vh",
+        height: "100%",
     },
     KeepList: {
         flex: 1,
@@ -73,7 +73,7 @@ const useStyles = makeStyles((theme) => ({
     },
     tileWrapper: {
         padding: '0px 0 80px 0',
-        height: '76%',
+        height: '70%',
         overflowY: "scroll",
         '&::-webkit-scrollbar': {
             display: 'none'
@@ -137,6 +137,7 @@ function KeepList(props) {
 
     useEffect(() => {
         getList()
+        props.setTutorialIsOn(false)
         // Mount 時にだけ呼び出す
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])

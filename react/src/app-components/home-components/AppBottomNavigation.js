@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect,useState } from 'react'
 // パッケージからインポート
 import { makeStyles } from '@material-ui/core/styles'
 // 他ファイルからインポート
@@ -34,6 +34,20 @@ const useStyles = makeStyles({
     border: 'none',
     background: 'transparent',
     cursor: 'pointer',
+  },
+  Notifier: {
+    background: '#0070bb',
+    border: '#fff',
+    position: 'absolute',
+    borderRadius: '50%',
+    margin: '-.8rem 0 0 0',
+    right: '8%',
+    width: '1.5rem',
+    height: '1.5rem',
+    color: 'white',
+    fontSize: '1rem',
+    textAlign: 'center',
+    lineHeight: '1.3rem',
   }
 })
 
@@ -41,13 +55,15 @@ const useStyles = makeStyles({
  ナビゲーション
 */
 export default function AppBottomNavigation(props) {
+  const [keepNumber, setKeepNumber] = useState(0)
   const config = {
-    height : props.view==='Setting'?'5%'
+    height : props.view==='Setting'?'10%'
             :props.view==='Selection'?'10%'
             :'10%',
   }
   const classes = useStyles(config)
   const moveToSetting = () => {
+    props.keepNumberRef.current = 0
     props.setView('Setting')
   }
   const moveToSelection = () => {
@@ -68,6 +84,10 @@ export default function AppBottomNavigation(props) {
           className={classes.Button} 
           onClick={moveToKeepList}
         />
+        {keepNumber>0?
+        <div className={classes.Notifier}>
+            {keepNumber}
+        </div>:null}
       </div>
     )
   }
@@ -82,6 +102,17 @@ export default function AppBottomNavigation(props) {
       </div>
     )
   }
+
+  useEffect( () => {
+      setInterval(
+          ()=>{
+          const v = props.keepNumberRef.current
+          if(v===undefined || v===null){v=0}
+          setKeepNumber(v)
+        },300)
+    // Mount 時にだけ呼び出す
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   return (
     <div className={classes.AppBottomNavigation} id="AppBottomNavigation">
