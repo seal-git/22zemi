@@ -96,7 +96,6 @@ function Setting(props) {
                                     id="inputMaxPrice"
                                     type="text"
                                     placeholder="4000"
-                                    data-format="$1 円以内"
                                 />
                             </div>
                         </div>
