@@ -45,7 +45,7 @@ function KeepListTile(props) {
                 <Grid container spacing={0}>
                     <Grid item xs={12}>
                         <Typography class="textVotes"
-                            style={props.mode === "Alone" ? { display: "none", } : { display: "block", }}>
+                            style={props.data.VotesLike > 1 ? { display: "block", } : { display: "none", }}>
                             <span class="textVoteResult">
                                 <FavoriteIcon style={{ fontSize: 16, paddingRight: '5px' }} />
                                 {props.data.VotesLike}
@@ -64,13 +64,13 @@ function KeepListTile(props) {
                                 <Typography class="textSecondary">
                                     {props.data.Category != null
                                         ? <span style={{ paddingRight: '5px' }}>{props.data.Category}</span>
-                                        : <span style={{ fontSize: '80%', color: 'gray' }}>ジャンル不明</span>}
+                                        : <span style={{ paddingRight: '5px', color: '#bbb' }}>ジャンル不明</span>}
                                     {props.data.Price != null
                                         ? <span style={{ paddingRight: '5px' }}>~¥{props.data.Price}</span>
-                                        : <span style={{ fontSize: '80%', color: 'gray' }}>価格不明</span>}
+                                        : <span style={{ paddingRight: '5px', color: '#bbb' }}>価格不明</span>}
                                     {props.data.BusinessHour != null
                                         ? <span style={{ paddingRight: '5px' }}>{props.data.BusinessHour}</span>
-                                        : <span style={{ fontSize: '80%', color: 'gray' }}>開店時間不明</span>}
+                                        : <span style={{ paddingRight: '5px', color: '#bbb' }}>開店時間不明</span>}
                                 </Typography>
                             </Grid>
                             <Grid item xs={12}>
