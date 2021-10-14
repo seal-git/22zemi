@@ -12,6 +12,7 @@ from PIL import Image
 import base64
 from io import BytesIO
 import time
+import datetime
 from sqlalchemy.sql.functions import current_timestamp
 import threading
 import pprint
@@ -94,6 +95,8 @@ def get_restaurant_ids_from_recommend_priority(fetch_group, group_id,
             Vote.group == group_id,
             Vote.recommend_priority is None
     ).all()
+    print(fetch_votes)
+
     for fv in fetch_votes:
         if fv.restaurant not in histories_restaurants:
             restaurants_ids.append(fv.restaurant)
@@ -203,7 +206,6 @@ def http_info():
     pprint.PrettyPrinter(indent=2).pprint(data)
     user_id = int(data["user_id"]) if data.get("user_id", False) else None
     group_id = int(data["group_id"]) if data.get("group_id", False) else None
-    # coordinates = data["coordinates"] if data.get("coordinates", False) else one # TODO: デモ以降に実装
     recommend_method = data.get("recommend_method",RECOMMEND_METHOD)
     api_method = data.get("api_method", API_METHOD)
 
@@ -225,18 +227,26 @@ def http_info():
     if first_time_group_flg:
         params = Params()
         lat, lon, _ = api_functions.yahoo_contents_geocoder(data.get("place"))
-        params.lat = lat  # placeがNoneのときはヤフー本社の座標
-        params.lon = lon
-        params.query = data.get("genre", '')
-        params.open_day = data.get("open_day", datetime.datetime.now().day)  # 指定不能
-        params.open_hour = data.get("open_hour", datetime.datetime.now().hour)
-        params.max_price = data.get("maxprice")
-        params.min_price = data.get("minprice") # 指定不能
+        params.lat = data.get("lat", lat)  # placeがNoneのときはヤフー本社の座標
+        params.lon = data.get("lon", lon)
+        params.query = data.get("genre")
+        open_day = datetime.date.today().isoformat()
+        open_hour = datetime.datetime.now().isoformat(timespec='minutes')
+        params.open_day = datetime.date.fromisoformat(data.get("open_day", open_day))  # 指定不能
+        params.open_hour = datetime.time.fromisoformat(data.get("open_hour_str",open_hour))
+        try:
+            params.max_price = int(data.get("maxprice"))
+        except (TypeError, ValueError):
+            params.max_price = None
+        try:
+            params.min_price = int(data.get("minprice")) # 指定不能
+        except (TypeError, ValueError):
+            params.min_price = None
         params.sort = data.get("sort")
 
         ## パラメーターの初期値を別途計算
         if config.MyConfig.SET_OPEN_HOUR:
-            params.open_hour = config.MyConfig.OPEN_HOUR
+            params.open_hour = datetime.time.fromisoformat(config.MyConfig.OPEN_HOUR)
 
         database_functions.set_search_params(group_id,
                                              params,

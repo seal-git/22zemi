@@ -179,7 +179,7 @@ def set_search_params(group_id, params, fetch_group=None):
     '''
     検索条件を受け取り、データベースのグループの表を更新する。
     '''
-    print(f"set_filter_params renewed")
+    print(f"set_filter_params: params renewed")
 
 
     if fetch_group is None:
@@ -193,14 +193,13 @@ def set_search_params(group_id, params, fetch_group=None):
         fetch_group.open_day = None
     else:
         today = datetime.date.today()
-        month = today.month if today.day <= int(params.open_day) else today.month + 1
+        month = today.month if today.day <= int(params.open_day.day) else today.month + 1
         year = today.year if month <= 12 else today.year + 1
-        fetch_group.open_day = datetime.date(year, month, int(params.open_day))
+        fetch_group.open_day = datetime.date(year, month, int(params.open_day.day))
     if params.open_hour is None:
         fetch_group.open_hour = None
     else:
-        hoursecond = params.open_hour.split(':')
-        fetch_group.open_hour = datetime.time(hour=int(hoursecond[0]), second=int(hoursecond[1]))
+        fetch_group.open_hour = params.open_hour
     fetch_group.open_now = params.open_now
     fetch_group.max_price = params.max_price
     fetch_group.min_price = params.min_price
@@ -273,6 +272,8 @@ def save_votes(group_id, restaurants_info):
 
         session.add(fetch_vote)
         session.commit()
+        # print(f"save_votes: saved {fetch_vote.restaurant}")
+
     return
 
 def save_restaurants(restaurants_info):
@@ -327,7 +328,7 @@ def save_restaurants(restaurants_info):
         session.add(fetch_restaurant)
         session.commit()
 
-        # print(f"save_restaurants_info: saved {fetch_restaurant.id}   ")
+        # print(f"save_restaurants_info: saved {fetch_restaurant.name}")
     return
 
 

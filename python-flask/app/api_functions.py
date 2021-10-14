@@ -106,7 +106,7 @@ def yahoo_local_search(params: Params = None,
     if params is not None:
         # paramsで検索
         print(f"yahoo_local_search with params")
-        pprint.PrettyPrinter(indent=2).pprint(params.get_all())
+        # pprint.PrettyPrinter(indent=2).pprint(params.get_all())
         ## distの計算
         if params.max_dist is not None:
             dist = params.max_dist / 1000
@@ -178,8 +178,7 @@ def yahoo_local_search(params: Params = None,
     # responseをrestaurant_infoに変換
     restaurants_info = []
     feature_list = response['Feature']
-    pprint.PrettyPrinter(indent=2).pprint(feature_list)
-    [pprint.PrettyPrinter(indent=2).pprint(f["Property"]["Detail"]["CassetteOwner"]) for f  in feature_list]
+    # pprint.PrettyPrinter(indent=2).pprint(feature_list)
 
     for feature in feature_list:
         if params is not None:

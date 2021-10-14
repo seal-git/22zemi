@@ -49,7 +49,6 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'center',
         height: '50%',
         fontSize: '1.2rem',
-        fontFamily: 'roboto',
         fontWeight: 700,
         backgroundColor: '#D90060',
         color: 'white',
