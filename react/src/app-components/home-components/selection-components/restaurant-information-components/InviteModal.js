@@ -15,6 +15,7 @@ import { ReactComponent as CopyAfter } from '../../../../img/copy-after.svg'
 const useStyles = makeStyles({
     CopyButton:{
         width: '100%',
+        maxWidth: '40vh',
         border: 'none',
         padding: '0',
         backgroundColor: 'transparent',
