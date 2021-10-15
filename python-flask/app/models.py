@@ -230,10 +230,14 @@ def http_info():
         params.lat = data.get("lat", lat)  # placeがNoneのときはヤフー本社の座標
         params.lon = data.get("lon", lon)
         params.query = data.get("genre")
-        open_day = datetime.date.today().isoformat()
-        open_hour = datetime.datetime.now().isoformat(timespec='minutes')
-        params.open_day = datetime.date.fromisoformat(data.get("open_day", open_day))  # 指定不能
-        params.open_hour = datetime.time.fromisoformat(data.get("open_hour_str",open_hour))
+        try:
+            params.open_day = datetime.date.fromisoformat(data.get("open_day"))  # 指定不能
+        except (TypeError, ValueError):
+            params.open_day = datetime.date.today()
+        try:
+            params.open_hour = datetime.time.fromisoformat(data.get("open_hour_str"))
+        except (TypeError, ValueError):
+            params.open_hour = datetime.datetime.now().time()
         try:
             params.max_price = int(data.get("maxprice"))
         except (TypeError, ValueError):
