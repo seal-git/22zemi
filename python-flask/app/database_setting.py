@@ -83,6 +83,7 @@ class Restaurant(Base):
     id = Column('id', String(50), primary_key=True)
     yahoo_id = Column('yahoo_id', String(50))
     google_id = Column('google_id', String(50))
+    hotpepper_id = Column('hotpepper_id', String(50))
     name = Column('name', String(100)) # 店名
     address = Column('address', String(400)) # 住所
     lat = Column('lat', Float) # 緯度

@@ -26,7 +26,8 @@ class MyConfig:
     RECOMMEND_PRIORITY = True # RecommendSimpleでTrueにすると死にます
 
     RECOMMEND_METHOD = 'svm'
-    API_METHOD = 'yahoo'
+    #API_METHOD = 'yahoo'
+    API_METHOD = 'hotpepper'
     GET_GOOGLE_IMAGE = False
     USE_GOOGLE_API = False
     USE_LOCAL_IMAGE = False
