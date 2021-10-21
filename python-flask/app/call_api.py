@@ -43,8 +43,6 @@ def search_restaurants_info(fetch_group,
         レスポンスするレストラン情報を返す。
     '''
 
-    api = 'hotpepper_search'
-
     # レストランを検索する
     if api == "google_nearby_search":
         # nearby searchで店舗情報を取得
@@ -55,7 +53,7 @@ def search_restaurants_info(fetch_group,
     elif api == "yahoo_local_search" or api == "yahoo":
         # yahoo_text_searchで店舗情報を取得
         restaurants_info = api_functions.yahoo_local_search(params)
-    elif api== "hotpepper_search" or api == 'hotpepper':
+    elif api == "hotpepper_search" or api == 'hotpepper':
         restaurants_info = api_functions.hotpepper_search(params)
     else:
         raise ValueError(f"api_function '{api}' does not exist")
