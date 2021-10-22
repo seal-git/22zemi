@@ -5,7 +5,7 @@ class Config:
     DEBUG = True
 
     # SQLAlchemy
-    SQLALCHEMY_DATABASE_URI = 'mysql://{user}:{password}@{host}/flask_sample?charset=utf8'.format(
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://{user}:{password}@{host}/flask_sample?charset=utf8'.format(
         **{
             'user': os.getenv('MYSQL_USER', 'root'),
             'password': os.getenv('MYSQL_ROOT_PASSWORD', ''),

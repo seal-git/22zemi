@@ -23,7 +23,7 @@ def search_restaurants_info(fetch_group,
                             user_id,
                             params: Params,
                             api="yahoo_local_search"):
-    '''
+    """
     レコメンドするために条件に合う店を取ってくる
     recommend.pyのRecommend.search()から呼ばれる。
     api指定が不正ならyahoo_local_searchで検索
@@ -41,7 +41,7 @@ def search_restaurants_info(fetch_group,
     ----------------
     restaurants_info : [dict]
         レスポンスするレストラン情報を返す。
-    '''
+    """
 
     # レストランを検索する
     if api == "google_nearby_search":
@@ -53,7 +53,7 @@ def search_restaurants_info(fetch_group,
     elif api == "yahoo_local_search" or api == "yahoo":
         # yahoo_text_searchで店舗情報を取得
         restaurants_info = api_functions.yahoo_local_search(params)
-    elif api == "hotpepper_search" or api == 'hotpepper':
+    elif api == "hotpepper_search" or api == "hotpepper":
         restaurants_info = api_functions.hotpepper_search(params)
     else:
         raise ValueError(f"api_function '{api}' does not exist")

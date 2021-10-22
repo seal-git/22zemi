@@ -243,22 +243,10 @@ def yahoo_local_search(params: Params = None,
 
     return restaurants_info
 
-def calc_hotpepper_distance(max_dist):
-    if max_dist <= 300:
-        dist = 1
-    elif 300 < max_dist <= 500:
-        dist = 2
-    elif 500 < max_dist <=  1000:
-        dist = 3
-    elif 1000 < max_dist <= 2000:
-        dist = 4
-    else:
-        dist = 5
-    return dist
 
 def hotpepper_search(params: Params = None,
-                       r_info: RestaurantInfo = None,
-                       r_id: str = None):
+                     r_info: RestaurantInfo = None,
+                     r_id: str = None):
     """
     hotpepper グルメサーチapi を使ってRestaruantInfoのリストを返す。
     Parameters
@@ -276,9 +264,21 @@ def hotpepper_search(params: Params = None,
         # pprint.PrettyPrinter(indent=2).pprint(params.get_all())
         ## distの計算
         if params.max_dist is not None:
-            dist = calc_hotpepper_distance(params.max_dist)
+            max_dist = params.max_dist
         else:
-            dist = calc_hotpepper_distance(config.MyConfig.MAX_DISTANCE)
+            max_dist = config.MyConfig.MAX_DISTANCE
+
+        if max_dist <= 300:
+            dist = 1
+        elif 300 < max_dist <= 500:
+            dist = 2
+        elif 500 < max_dist <= 1000:
+            dist = 3
+        elif 1000 < max_dist <= 2000:
+            dist = 4
+        else:
+            dist = 5
+
         ## sortのチェック
         # 1:店名かな順
         # 2:ジャンルコード順
@@ -313,7 +313,7 @@ def hotpepper_search(params: Params = None,
     else:
         raise ValueError(f"Both params and restaurant_info don't exist.")
 
-     # APIで検索を実行
+    # APIで検索を実行
     search_url = 'http://webservice.recruit.co.jp/hotpepper/gourmet/v1'
     params_dict.update({
         'key': os.environ['HOTPEPPER_API_KEY'],

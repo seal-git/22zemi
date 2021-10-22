@@ -1,5 +1,5 @@
-FROM python
+FROM python:3.9
 RUN pip install --upgrade pip &&\
  pip install pipenv
 WORKDIR /workspace
-CMD pipenv install --system && python app.py
+CMD pipenv install && pipenv install --system && python app.py
