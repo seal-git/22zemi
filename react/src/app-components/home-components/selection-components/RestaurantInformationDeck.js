@@ -63,7 +63,7 @@ export default function RestaurantInformationDeck(props) {
         // 選び切る前にカードを読み込み
         if (willGo.size === Math.max(props.topDataList.length - 1, 1)) {
             console.log("preloading")
-            props.getInfo(null, null, "preload", null)
+            props.getInfo("preload", null)
         }
 
         // 選び切ったらカードを更新
@@ -164,6 +164,7 @@ export default function RestaurantInformationDeck(props) {
                 keep={() => { handlePushKeepButton(index) }}
                 reject={() => { handlePushRejectButton(index) }}
                 groupId={props.groupId}
+                inviteUrl={props.inviteUrl}
             />
         )
     }

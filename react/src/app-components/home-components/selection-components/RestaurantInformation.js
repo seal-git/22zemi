@@ -128,9 +128,8 @@ function RestaurantInformation(props) {
         return (
             ok
                 ?<ButtonToInvite
-                    url={props.inviteUrl}
+                    inviteUrl={props.inviteUrl}
                     groupId={props.groupId}
-                    callInviteUrl={props.callInviteUrl}
                 />
                 :null
         )

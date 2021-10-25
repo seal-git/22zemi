@@ -14,7 +14,7 @@ const getCurrentTime = () =>{
 function Setting(props) {
     let timeRef = useRef(null)
     // 「選ぶ」画面に進む処理
-    const proceedToSelection = (groupId) => {
+    const proceedToSelection = () => {
         // 検索条件を取得
         let area = document.getElementById("inputArea").value
         let genre = document.getElementById("inputGenre").value
@@ -33,22 +33,11 @@ function Setting(props) {
             "open_hour_str": time
         })
 
-        // 新規セッションを作成
-        props.setUserId(props.produceId())
-        let newGroupId = groupId
-        if (groupId === undefined || groupId == null || groupId.length === 0) {
-            newGroupId = props.produceId()
-        }
-        props.setGroupId(newGroupId)
-
-        // 招待URLを更新
-        props.callInviteUrl(newGroupId)
-
         //　チュートリアルをオフにする
         props.setTutorialIsOn(false)
 
-        // Selection に移る
-        props.setView("Selection")
+        // CallingInvite に移る
+        props.setView("CallingInvite")
     }
 
     useEffect(() => {

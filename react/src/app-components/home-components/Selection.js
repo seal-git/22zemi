@@ -51,23 +51,12 @@ function Selection(props) {
   let hiddenDataList = null
 
   // APIからお店のデータを得る
-  const getInfo = (newUserId, newGroupId, type="init", topDataList=null) => {
+  const getInfo = (type="init", topDataList=null) => {
     if (isLoading) return;
     isLoading = true
     
-    // ユーザID を設定
-    let userId = newUserId
-    if (newUserId === undefined || newUserId === null || newUserId.length === 0) {
-      userId = props.userId
-    }
-    // グループID を設定
-    let groupId = newGroupId
-    if (newGroupId === undefined || newGroupId === null || newGroupId.length === 0) {
-      groupId = props.groupId
-    }
-    const paramsId = { "user_id": userId, "group_id": groupId }
     const params = {
-      ...paramsId, ...props.paramsForSearch,
+      ...props.paramsForSearch,
       'open_hour': +props.paramsForSearch['open_hour_str'].slice(0, 2)
     }
     console.log(params);
@@ -84,7 +73,7 @@ function Selection(props) {
           if(type==="init"){
             console.log("received topDataList")
             isLoading = false
-            getInfo(null,null,"standby",newDataList)
+            getInfo("standby",newDataList)
           } 
           else if(type==="standby"){
             setDataLists({
@@ -136,9 +125,9 @@ function Selection(props) {
 
   useEffect(() => {
       if(props.tutorialIsOn===false){
-          getInfo(null,null,"init",null)
+          getInfo("init",null)
       }else{
-          getInfo(null,null,"standby",tutorialDataList)
+          getInfo("standby",tutorialDataList)
       }
     // Mount 時にだけ呼び出す
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -188,6 +177,7 @@ function Selection(props) {
         keep={()=>{ console.log("pushed")}}
         reject={()=>{console.log("pushed")}}
         groupId={props.groupId}
+        inviteUrl={props.inviteUrl}
       />
     )
   }
@@ -207,6 +197,7 @@ function Selection(props) {
         getInfo={getInfo}
         setPreloadedDataList={setPreloadedDataList}
         groupId={props.groupId}
+        inviteUrl={props.inviteUrl}
       />
     )
   }

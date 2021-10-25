@@ -6,22 +6,23 @@ import { useState, useRef } from "react"
 import { useHistory, useLocation } from 'react-router-dom'
 // 他のファイルからインポート
 import AppBottomNavigation from "./home-components/AppBottomNavigation"
+import CallingInvite from './home-components/CallingInvite'
 import KeepList from "./home-components/KeepList"
 import Selection from "./home-components/Selection"
 import Setting from "./home-components/Setting"
 
-const produceId = () => {
-    var digit = 6 //桁数
-    var nines = ''
-    var zeros = ''
-    for (var i = 0; i < digit; i++) {
-        nines += '9'
-        zeros += '0'
-    }
-    var Id = Math.floor(Math.random() * Number(nines) + 1)
-    Id = (zeros + Id).slice(-6)
-    return Id
-}
+// const produceId = () => {
+//     var digit = 6 //桁数
+//     var nines = ''
+//     var zeros = ''
+//     for (var i = 0; i < digit; i++) {
+//         nines += '9'
+//         zeros += '0'
+//     }
+//     var Id = Math.floor(Math.random() * Number(nines) + 1)
+//     Id = (zeros + Id).slice(-6)
+//     return Id
+// }
 
 // 現在時刻を文字列で取得
 const getCurrentTime = () => {
@@ -35,8 +36,7 @@ const getCurrentTime = () => {
  メイン画面を統括するコンポーネント
  */
 function Home(props) {
-    const [view, setView] = useState("Selection")
-    const [userId, setUserId] = useState(produceId())
+    const [view, setView] = useState("CallingInvite")
     const [tutorialIsOn,setTutorialIsOn] = useState(true)
     const keepNumberRef = useRef(null);
 
@@ -44,16 +44,17 @@ function Home(props) {
     const location = useLocation()
     console.log(location)
     let invitedGroupId = location.search.slice(10)
-    let initGroupId = produceId()
+    let initGroupId = ""
     const history = useHistory()
     if (invitedGroupId !== undefined && invitedGroupId !== null && invitedGroupId.length > 0) {
         initGroupId = invitedGroupId
         history.replace('/')
     }
 
-    const [groupId, setGroupId] = useState(initGroupId)
     const [paramsForSearch, setParamsForSearch] = useState(
         {
+            "user_id":"",
+            "group_id":initGroupId,
             "place": "新宿",
             "genre": "",
             "open_hour_str": getCurrentTime()
@@ -62,8 +63,9 @@ function Home(props) {
     //グループID作成時に招待urlをセットする
     const [inviteUrl, setInviteUrl] = useState("")
 
-    // 招待URLを取得
-    const callInviteUrl = (groupId) => {
+    const initNewSession =  () => {
+        console.log("init New Session")
+        const groupId = paramsForSearch["group_id"]
         const params = { group_id: groupId, }
         console.log('params', params)
         axios.post('/api/invite', {
@@ -71,10 +73,14 @@ function Home(props) {
         })
             .then((response) => {
                 console.log(response)
+                const newUserId = response.data.UserId
+                const newGroupId = response.data.GroupId
                 const newInviteUrl = response.data.Url
+                const newParamsForSearch = {...paramsForSearch, user_id:newUserId, group_id:newGroupId, }
+                console.log(newParamsForSearch)
                 setInviteUrl(newInviteUrl)
-                console.log('new_inviteUrl', newInviteUrl)
-                console.log('set_inviteUrl', inviteUrl)
+                setParamsForSearch(newParamsForSearch)
+                setView("Selection")
             })
             .catch((error) => {
                 console.log("error:", error)
@@ -93,32 +99,28 @@ function Home(props) {
             <div className="Screen">
             <div className="Content-wrapper">
                 <div className="Content">
-                    {view === "Selection" ?
+                    {
+                        view === "CallingInvite" ?
+                        <CallingInvite 
+                            setView={setView}
+                            initNewSession={initNewSession}
+                            paramsForSearch={paramsForSearch}
+                        />
+                        : view === "Selection" ?
                         <Selection
-                            userId={userId}
-                            groupId={groupId}
-                            setUserId={setUserId}
-                            setGroupId={setGroupId}
-                            produceId={produceId}
                             inviteUrl={inviteUrl}
-                            callInviteUrl={callInviteUrl}
                             paramsForSearch={paramsForSearch}
                             tutorialIsOn={tutorialIsOn}
                             keepNumberRef={keepNumberRef}
                         />
                         : view === "KeepList" ?
                             <KeepList
-                                userId={userId}
-                                groupId={groupId}
+                                paramsForSearch={paramsForSearch}
                                 setTutorialIsOn={setTutorialIsOn}
                             />
                             :
                             <Setting
                                 setView={setView}
-                                setUserId={setUserId}
-                                setGroupId={setGroupId}
-                                produceId={produceId}
-                                callInviteUrl={callInviteUrl}
                                 paramsForSearch={paramsForSearch}
                                 setParamsForSearch={setParamsForSearch}
                                 setTutorialIsOn={setTutorialIsOn}

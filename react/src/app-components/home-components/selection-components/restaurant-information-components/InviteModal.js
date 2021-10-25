@@ -29,9 +29,9 @@ function CopyButton(props){
     const classes = useStyles()
     return(
         <CopyToClipboard 
-            text={props.url} 
+            text={props.inviteUrl} 
             onCopy={() => { 
-                console.log(props.url); 
+                console.log(props.inviteUrl); 
                 setIsCopied(true);
             }} 
         >
@@ -73,7 +73,7 @@ function InviteModal(props){
                 レストランを決めよう！
             </DialogContent>
             <DialogContent >
-                <CopyButton className={classes.CopyButton} url={props.url}/>
+                <CopyButton className={classes.CopyButton} inviteUrl={props.inviteUrl}/>
             </DialogContent>
         </StyledDialog>
     )
