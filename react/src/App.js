@@ -26,33 +26,17 @@ const theme = createMuiTheme({
 });
 
 const useStyles = makeStyles((theme) => ({
-  AppAlone: {
+  App: {
     height: '100%',
     // backgroundImage: 'linear-gradient(180.02deg, #FFEEAA 0.02%, #FDFFEB 80.2%)',
     // backgroundSize: 'cover'
   },
-  AppGroup: {
-    height: '100%',
-    // backgroundImage: 'linear-gradient(180.02deg, #FFDDAA 0.02%, #FFFBEB 80.2%)'
-  }
 }));
 
 function App() {
   // alone/group を抱える
-  const [mode, setMode] = useState("Alone")
   const classes = useStyles();
-  const [className, setClassName] = useState(classes.AppAlone)
-
-  // モードが切り替わるとスタイルが変わる
-  useEffect(() => {
-    if (mode === "Alone") {
-      setClassName(classes.AppAlone)
-    } else if (mode === "Group") {
-      setClassName(classes.AppGroup)
-    }
-    // classes は引数から除外
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [mode])
+  const [className, setClassName] = useState(classes.App)
 
   return (
     <ThemeProvider theme={theme} >
@@ -60,7 +44,7 @@ function App() {
         <div className="App-header"></div>
         <Router>
           <Switch>
-            <Route path="/"><Home mode={mode} setMode={setMode} /></Route>
+            <Route path="/"><Home/></Route>
           </Switch>
         </Router>
       </div>

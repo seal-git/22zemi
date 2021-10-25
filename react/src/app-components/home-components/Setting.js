@@ -14,7 +14,7 @@ const getCurrentTime = () =>{
 function Setting(props) {
     let timeRef = useRef(null)
     // 「選ぶ」画面に進む処理
-    const proceedToSelection = (newMode, groupId) => {
+    const proceedToSelection = (groupId) => {
         // 検索条件を取得
         let area = document.getElementById("inputArea").value
         let genre = document.getElementById("inputGenre").value
@@ -43,9 +43,6 @@ function Setting(props) {
 
         // 招待URLを更新
         props.callInviteUrl(newGroupId)
-
-        // モード設定
-        props.setMode(newMode)
 
         //　チュートリアルをオフにする
         props.setTutorialIsOn(false)
@@ -128,7 +125,7 @@ function Setting(props) {
                 </div>
                 <div class="buttons-wrapper">
                     <button className="button-alone" onClick={() => {
-                        proceedToSelection("Alone", "")
+                        proceedToSelection("")
                     }}>
                         <strong>
                             お店を選ぶ

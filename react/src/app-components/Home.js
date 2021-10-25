@@ -35,7 +35,6 @@ const getCurrentTime = () => {
  メイン画面を統括するコンポーネント
  */
 function Home(props) {
-    // view を抱える。背景操作の都合で mode は上位コンポーネント App に持たせる
     const [view, setView] = useState("Selection")
     const [userId, setUserId] = useState(produceId())
     const [tutorialIsOn,setTutorialIsOn] = useState(true)
@@ -49,7 +48,6 @@ function Home(props) {
     const history = useHistory()
     if (invitedGroupId !== undefined && invitedGroupId !== null && invitedGroupId.length > 0) {
         initGroupId = invitedGroupId
-        props.setMode("Group")
         history.replace('/')
     }
 
@@ -64,16 +62,6 @@ function Home(props) {
     //グループID作成時に招待urlをセットする
     const [inviteUrl, setInviteUrl] = useState("")
 
-    const turnMode = () => {
-        // mode を反転させる
-        if (props.mode === "Group") {
-            props.setMode('Alone')
-        } else if (props.mode === "Alone") {
-            props.setMode('Group')
-        } else {
-            console.log("Home:turnMode:undefined mode")
-        }
-    };
     // 招待URLを取得
     const callInviteUrl = (groupId) => {
         const params = { group_id: groupId, }
@@ -107,8 +95,6 @@ function Home(props) {
                 <div className="Content">
                     {view === "Selection" ?
                         <Selection
-                            mode={props.mode}
-                            turnMode={turnMode}
                             userId={userId}
                             groupId={groupId}
                             setUserId={setUserId}
@@ -122,15 +108,12 @@ function Home(props) {
                         />
                         : view === "KeepList" ?
                             <KeepList
-                                mode={props.mode}
                                 userId={userId}
                                 groupId={groupId}
                                 setTutorialIsOn={setTutorialIsOn}
                             />
                             :
                             <Setting
-                                mode={props.mode}
-                                setMode={props.setMode}
                                 setView={setView}
                                 setUserId={setUserId}
                                 setGroupId={setGroupId}

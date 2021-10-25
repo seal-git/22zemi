@@ -98,9 +98,9 @@ function KeepList(props) {
 
     // APIからキープリストのデータを得る
     const getList = () => {
-        const params = { "user_id": props.userId }
-        if (props.mode === "Group") {
-            params["group_id"] = props.groupId
+        const params = { 
+            "user_id": props.userId, 
+            "group_id": props.groupId,
         }
         console.log(params)
         axios.post('/api/list', {
@@ -142,20 +142,10 @@ function KeepList(props) {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
-    // モードが切り替わるとスタイルが変わる
-    // Appが指定している高さをぶち抜いてリストが表示されるので
-    // 全体に背景色を適用させるために、あらためて背景色を設定する
-    const [className, setClassName] = useState(classes.AppAlone);
-
     useEffect(() => {
-        if (props.mode === "Alone") {
-            setClassName(classes.aloneStyle)
-        } else if (props.mode === "Group") {
-            setClassName(classes.groupStyle)
-        }
         // classes は引数から除外
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [props.mode])
+    },)
 
     const selectControl = (event) => {
         // ソート用にリストを複製
@@ -228,7 +218,7 @@ function KeepList(props) {
     const KeepListTiles = () => {
         return (
             dataList.map((data) => (
-                <KeepListTile data={data} mode={props.mode} onClick={openModal} />
+                <KeepListTile data={data}  onClick={openModal} />
             ))
         )
     }

@@ -23,7 +23,6 @@ const useStyles = makeStyles((theme) => ({
  */
 function KeepListTile(props) {
     const classes = useStyles()
-    // const swichStyle = { props.mode == "Alone" ? { display: "none", } : { display: "block", } }
 
     const onInfoBtnClicked = () => {
         props.onClick(props.data);
