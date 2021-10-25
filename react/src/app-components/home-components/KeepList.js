@@ -99,8 +99,8 @@ function KeepList(props) {
     // APIからキープリストのデータを得る
     const getList = () => {
         const params = { 
-            "user_id": props.userId, 
-            "group_id": props.groupId,
+            "user_id": props.paramsForSearch["user_id"], 
+            "group_id": props.paramsForSearch["group_id"],
         }
         console.log(params)
         axios.post('/api/list', {
