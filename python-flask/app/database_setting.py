@@ -79,7 +79,7 @@ class Group(Base):
 class Restaurant(Base):
     __tablename__ = 'restaurants'
     __table_args__ = ({"mysql_charset": "utf8mb4", "mysql_engine": "InnoDB"})
-    id_a = Column('id', String(50), primary_key=True)
+    id = Column('id', String(50), primary_key=True)
     yahoo_id = Column('yahoo_id', String(50))
     google_id = Column('google_id', String(50))
     hotpepper_id = Column('hotpepper_id', String(50))
