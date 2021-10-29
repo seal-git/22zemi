@@ -9,15 +9,8 @@ import os
 
 from app import config
 
-DATABASE = 'mysql://%s:%s@%s:%s/%s?charset=utf8mb4' % (
-    "root",  # user_name
-    os.environ['MYSQL_ROOT_PASSWORD'],  # password
-    'mysql',  # host_ip
-    '3306',  # port
-    'reskima_db'  # db_name
-)
 ENGINE = create_engine(
-    DATABASE,
+    config.Config.SQLALCHEMY_DATABASE_URI,
     encoding="utf-8",
     echo=False,  # Trueだと実行のたびにSQLが出力される
     max_overflow=-1
@@ -86,7 +79,7 @@ class Group(Base):
 class Restaurant(Base):
     __tablename__ = 'restaurants'
     __table_args__ = ({"mysql_charset": "utf8mb4", "mysql_engine": "InnoDB"})
-    id = Column('id', String(50), primary_key=True)
+    id_a = Column('id', String(50), primary_key=True)
     yahoo_id = Column('yahoo_id', String(50))
     google_id = Column('google_id', String(50))
     hotpepper_id = Column('hotpepper_id', String(50))

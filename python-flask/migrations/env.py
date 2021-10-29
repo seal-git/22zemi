@@ -9,12 +9,13 @@ import os
 # access to the values within the .ini file in use.
 config = context.config
 
-SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://{user}:{password}@{host}/flask_sample?charset=utf8'.format(
-    **{
-        'user': os.getenv('MYSQL_USER', 'root'),
-        'password': os.getenv('MYSQL_ROOT_PASSWORD', ''),
-        'host': os.getenv('localhost'),
-    })
+SQLALCHEMY_DATABASE_URI = 'mysql://%s:%s@%s:%s/%s?charset=utf8mb4' % (
+        "root",  # user_name
+        os.environ['MYSQL_ROOT_PASSWORD'],  # password
+        'mysql',  # host_ip
+        '3306',  # port
+        'reskima_db'  # db_name
+    )
 config.set_main_option("sqlalchemy.url", SQLALCHEMY_DATABASE_URI)
 
 # Interpret the config file for Python logging.
