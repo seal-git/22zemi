@@ -59,6 +59,7 @@ memory-profiler = "*"
 flask-migrate = "*"
 pymysql = "*"
 mysqlclient = "*"
+alembic = "*"
 
 [dev-packages]
 

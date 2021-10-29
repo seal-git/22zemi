@@ -45,7 +45,7 @@ class MyConfig:
 
     IMAGE_DIRECTORY_PATH = 'data/image/'
     SERVER_URL = 'localhost'  # if production: 'reskima.com'
-    INIT_DB = True  # Trueならば再起動時にDBをリセットする
+    INIT_DB = False  # Trueならば再起動時にDBをリセットする
     MAX_GOOGLE_IMAGES_COUNT = 4 # Google画像の取得枚数。最大10。大きくすると画像が多くなるがお金がかかる
 
 

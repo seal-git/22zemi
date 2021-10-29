@@ -3,6 +3,7 @@ from flask_cors import CORS
 from app import config
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
+from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 
 app_ = Flask(__name__, static_folder='../static', static_url_path='/static')
 app_.config.from_object(config.Config)
