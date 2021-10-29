@@ -58,6 +58,7 @@ pillow = "*"
 sklearn = "*"
 mysqlclient = "*"
 memory-profiler = "*"
+flask-migrate = "*"
 
 [dev-packages]
 
