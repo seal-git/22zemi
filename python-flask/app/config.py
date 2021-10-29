@@ -5,7 +5,7 @@ class Config:
     DEBUG = True
 
     # SQLAlchemy
-    SQLALCHEMY_DATABASE_URI = 'mysql://{user}:{password}@{host}/flask_sample?charset=utf8'.format(
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://{user}:{password}@{host}/flask_sample?charset=utf8'.format(
         **{
             'user': os.getenv('MYSQL_USER', 'root'),
             'password': os.getenv('MYSQL_ROOT_PASSWORD', ''),
@@ -26,7 +26,8 @@ class MyConfig:
     RECOMMEND_PRIORITY = True # RecommendSimpleでTrueにすると死にます
 
     RECOMMEND_METHOD = 'svm'
-    API_METHOD = 'yahoo'
+    #API_METHOD = 'yahoo'
+    API_METHOD = 'hotpepper'
     GET_GOOGLE_IMAGE = False
     USE_GOOGLE_API = False
     USE_LOCAL_IMAGE = False
