@@ -49,15 +49,15 @@ essential-generators = "*"
 flask-sqlalchemy = "*"
 cryptography = "*"
 pyyaml = "*"
-mysql-connector-python = "*"
 markdown = "*"
 flask-cors = "*"
 geopy = "*"
 qrcode = "*"
 pillow = "*"
 sklearn = "*"
-mysqlclient = "*"
 memory-profiler = "*"
+pymysql = "*"
+mysqlclient = "*"
 
 [dev-packages]
 
