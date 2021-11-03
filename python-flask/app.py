@@ -5,6 +5,14 @@ from datetime import datetime, timezone, timedelta
 res = subprocess.call('pipenv install --system', shell=True)
 
 # マイグレーションの自動実行
+"""
+DBマイグレーション:
+ Alembicライブラリを使用。
+ app.pyの実行ごとに、SQLAlchemyのモデルの差分を検出する。
+ 差分がある場合、マイグレーション用のコードがmigrations/versionsに自動生成される。
+ 開発環境のみの使用。
+ 本番環境では管理者が手動で実行する。
+"""
 now = datetime.now(tz=timezone(timedelta(hours=9)))
 message = now.strftime("%Y%m%d%H%M%S")
 cmd = f'alembic revision --autogenerate -m "{message}"'
