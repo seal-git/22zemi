@@ -42,7 +42,8 @@ def _test_yahoo_contents_geocoder():
     lat, lon, address = yahoo_contents_geocoder(place)
     print(f"lat:{lat} lon:{lon} address:{address}")
 
-def test_hotpepper_search():
+
+def _test_hotpepper_search():
     params = Params()
     params.query = "和食"
     params.lat = 35.0101165
@@ -57,16 +58,14 @@ def test_hotpepper_search():
     [pprint.PrettyPrinter(indent=2).pprint(r.get_dict()) for r in restaurants_info]
     assert len(restaurants_info)>0
 
-
-"""
-def test_google_find_place():
+def _test_google_find_place():
     r_info = RestaurantInfo()
     r_info.id = "5ce1ffb50b7c586e52e37235d076fd7ba6e647d4"
     r_info.name = "ザ・ロビー/ザ・ペニンシュラ東京"
     r_info = google_find_place(r_info)
     assert r_info.google_id is not None
 
-def test_google_place_details():
+def _test_google_place_details():
     r_info = RestaurantInfo()
     r_info.google_id = "ChIJ55FqKPCLGGAR2GqcmoYJNzM"
     r_info.name = "ザ・ロビー/ザ・ペニンシュラ東京"
@@ -76,11 +75,10 @@ def test_google_place_details():
 
 # 01871bb0d1ae7b4dc1870d410a9dbf006811828a
 
-def test_google_place_photo():
+def _test_google_place_photo():
     photo_reference = 'Aap_uEDbtTwOXOryFJYq3129RPKnlC4JRe4XVjFWnqb3uT2aGsCHUdOW9_TetRCnFkaSnd3dWgrqfzjJYDUX1s5DK6blbKeZ780kfTV-t546Er998J5Wr1ddhaNwmZ9CvCivrKNllfzREoU1mqxcgqYvtUxsRAWAwHQDqh_Uw3DuPEv10U8m'
     image_width = 400
     image = google_place_photo(photo_reference, image_width)
 
     assert image
-"""
 

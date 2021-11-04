@@ -14,31 +14,6 @@ APIを叩いてinternal_infoに変換する。
 つまり、RestaurantInfoの内部情報をAPIで更新していくイメージ。
 '''
 
-def yahoo_review(r_info):
-    '''
-    Yahoo APIにアクセスして口コミを取得する。reviewとratingに保存する。
-    '''
-    # print("get_rating")
-    review_api_url = 'https://map.yahooapis.jp/olp/v1/review/' + r_info.yahoo_id
-    params = {
-        "appid": os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
-        "output": "json",
-        "results": "100"
-    }
-    try:
-        response = requests.get(review_api_url, params=params)
-        response = response.json()
-    except:
-        response["Feature"] = []
-
-    review_list = response["Feature"]
-    if len(review_list) == 0: return r_info
-    # pprint.PrettyPrinter(indent=2).pprint(review_list)
-    r_info.review += [review_list['Property']['Comment']['Rating'] for r in
-                     review_list]
-
-    return r_info
-
 
 def yahoo_contents_geocoder(query):
     '''
