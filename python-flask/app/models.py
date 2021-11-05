@@ -75,6 +75,7 @@ def get_restaurant_ids_from_recommend_priority(fetch_group, group_id,
     ----------------
     restaurnt_ids : [dict]
     '''
+    session = database_functions.get_db_session()
 
     histories_restaurants = database_functions.get_histories_restaurants(
         group_id, user_id)
@@ -88,6 +89,7 @@ def get_restaurant_ids_from_recommend_priority(fetch_group, group_id,
         if fv.restaurant not in histories_restaurants:
             restaurants_ids.append(fv.restaurant)
             if len(restaurants_ids) == config.MyConfig.RESPONSE_COUNT:
+                session.close()
                 return restaurants_ids
 
     # まだ優先度を計算していない時や，RecommendSimple等で優先度を計算しない時
@@ -101,8 +103,10 @@ def get_restaurant_ids_from_recommend_priority(fetch_group, group_id,
         if fv.restaurant not in histories_restaurants:
             restaurants_ids.append(fv.restaurant)
             if len(restaurants_ids) == config.MyConfig.RESPONSE_COUNT:
+                session.close()
                 return restaurants_ids
     # ストックしている店舗数が足りない時。最初のリクエスト等。
+    session.close()
     return restaurants_ids
 
 
@@ -292,13 +296,14 @@ def thread_info(group_id, user_id, fetch_belong, fetch_group):
     ## 他のスレッドで更新中だったら待つ
     if not fetch_belong.writable:
         result = False
+        session = database_functions.get_db_session()
         while not result:
             print("waiting")
             time.sleep(1)
             session.commit()
             result = session.query(Belong).filter(Belong.group == group_id,
                                                   Belong.user == user_id).one().writable
-
+        session.close()
     _ = recommend.recommend_main(fetch_group, group_id, user_id)
     print("thread end")
     return
@@ -313,6 +318,7 @@ def http_feeling():
     ----------------
     全会一致の店の数 : int
     '''
+    session = database_functions.get_db_session()
 
     # リクエストクエリを受け取る
     data = request.get_json()["params"]
@@ -348,6 +354,7 @@ def http_feeling():
                                    fetch_group
                                    ))
         t.start()
+    session.close()
     return notification_badge
 
 
@@ -361,6 +368,7 @@ def http_list():
     ----------------
     restaurants_info : [dict]
     '''
+    session = database_functions.get_db_session()
 
     # リクエストクエリを受け取る
     data = request.get_json()["params"]
@@ -374,6 +382,7 @@ def http_list():
         Vote.group == group_id).order_by(desc(Vote.votes_like)).all()
     # リストに存在しない時は空のリストを返す
     if len(fetch_votes) == 0:
+        session.close()
         return "[]"
     # 表示する店舗を選ぶ。ひとりのときはLIKEした店だけ。2人以上のときはすべて表示。
     participants_count = database_functions.get_participants_count(
@@ -393,6 +402,7 @@ def http_list():
                           reverse=True)  # 得票数が同じなら、オススメ度順
     restaurants_info.sort(key=lambda x: x.votes_like, reverse=True)  # 得票数が多い順
 
+    session.close()
     return create_response_from_restaurants_info(group_id, user_id,
                                                  restaurants_info)
 
@@ -415,10 +425,12 @@ def http_history():
         user_id)
 
     # 履歴を取得する
+    session = database_functions.get_db_session()
     restaurant_ids = session.query(History.id).filter(History.group == group_id,
                                                       History.user == user_id
                                                       ).order_by(
         updated_at).all()
+    session.close()
     restaurants_info = database_functions.load_restaurants_info(restaurant_ids,
                                                                 group_id
                                                                 )

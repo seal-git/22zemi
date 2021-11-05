@@ -1,6 +1,7 @@
 import requests
 import os
 from datetime import date, time
+from app import database_functions
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 from abc import ABCMeta, abstractmethod
 from flask import abort
@@ -39,7 +40,9 @@ class Params:
         """
         STOCK_COUNT個の中から選べるように、足りなければAPIで取得する
         """
+        session = database_functions.get_db_session()
         self.start = session.query(Vote.restaurant).filter(Vote.group==group_id).count()
+        session.close()
         self.results = stock + len(histories_restaurants) - self.start
         if self.results < 0: self.results = 0
     
@@ -47,8 +50,10 @@ class Params:
         """
         レスポンスで返すぶんだけAPIで取得する
         """
+        session = database_functions.get_db_session()
         self.start = config.MyConfig.RESPONSE_COUNT * (session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()).request_count, # 表示範囲：開始位置
         self.results = config.MyConfig.RESPONSE_COUNT
+        session.close()
 
 
     def get_all(self):
