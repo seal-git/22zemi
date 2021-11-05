@@ -33,7 +33,9 @@ def add_votes(fetch_group, group_id, restaurants_info):
     restaurants_info : [dict]
         レスポンスするレストラン情報を返す。
     '''
+    session = database_functions.get_db_session()
     for i in range(len(restaurants_info)):
+        if restaurants_info[i] is None: continue
         restaurants_info[i].votes_like = session.query(History).filter(History.group==group_id,
                                                                     History.restaurant==restaurants_info[i].id,
                                                                     History.feeling==True
@@ -43,6 +45,7 @@ def add_votes(fetch_group, group_id, restaurants_info):
                                                                       History.feeling is not None
                                                                       ).count() # レストランの投票人数
         restaurants_info[i].number_of_participants = str(database_functions.get_participants_count(group_id)) # グループの参加人数
+    session.close()
     return restaurants_info
 
 
@@ -239,6 +242,7 @@ def add_review_rating(restaurants_info):
     Yahoo APIにアクセスして口コミを文字列で返す
     '''
     for i in range(len(restaurants_info)):
+        if restaurants_info[i] is None : continue
         if restaurants_info[i].yahoo_rating_float is not None:
             review_rating = float(restaurants_info[i].yahoo_rating_float)
         else:

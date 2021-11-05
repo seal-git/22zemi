@@ -9,6 +9,16 @@ from random import randint
 データベース関連の関数
 '''
 
+def get_db_session():
+    session = scoped_session(
+        sessionmaker(
+            autocommit=False,
+            autoflush=False,
+            bind=ENGINE
+        )
+    )
+    Base.query = session.query_property()
+    return session
 
 def get_participants_count(group_id):
     '''
@@ -22,7 +32,11 @@ def get_participants_count(group_id):
     ----------------
     paticipants_count : int
     '''
-    return session.query(Belong).filter(Belong.group==group_id).count()
+    
+    session = get_db_session()
+    result = session.query(Belong).filter(Belong.group==group_id).count()
+    session.close()
+    return result
 
 def get_histories_restaurants(group_id, user_id):
     '''
@@ -37,7 +51,10 @@ def get_histories_restaurants(group_id, user_id):
     ----------------
     restaurant_ids : [str]
     '''
-    return [h.restaurant for h in session.query(History.restaurant).filter(History.group==group_id, History.user==user_id).all()]
+    session = get_db_session()
+    result = [h.restaurant for h in session.query(History.restaurant).filter(History.group==group_id, History.user==user_id).all()]
+    session.close()
+    return result
 
 # ============================================================================================================
 # models.py
@@ -51,11 +68,15 @@ def generate_group_id():
     ----------------
     group_id : int
     '''
+    session = get_db_session()
+
     for i in range(1000000):
         group_id = randint(0, 999999)
         fetch = session.query(Group).filter(Group.id==group_id).first()
         if fetch is None:
+            session.close()
             return group_id
+    session.close()
     return group_id # error
 
 
@@ -71,7 +92,9 @@ def get_group_id(user_id):
     ----------------
     group_id : int
     '''
+    session = get_db_session()
     fetch_belong = session.query(Belong.group).filter(Belong.user==user_id).first()
+    session.close()
     if fetch_belong is not None:
         return fetch_belong.group
     else:
@@ -86,15 +109,19 @@ def generate_user_id():
     ----------------
     user_id : int
     '''
+    session = get_db_session()
     for i in range(1000000):
         user_id = randint(0, 999999) # ''.join([random.choice(string.ascii_letters + string.digits) for j in range(12)])
         fetch = session.query(User).filter(User.id==user_id).first()
         if fetch is None:
+            session.close()
             return user_id
+    session.close()
     return user_id # error
 
 
 def register_user_and_group_if_not_exist(group_id, user_id, recommend_method, api_method):
+    session = get_db_session()
     
     # ユーザが未登録ならばデータベースに登録する
     fetch_user = session.query(User).filter(User.id==user_id).first()
@@ -131,12 +158,14 @@ def register_user_and_group_if_not_exist(group_id, user_id, recommend_method, ap
         first_time_belong_flg = True
         fetch_belong = session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()
 
+    session.close()
     return fetch_user, fetch_group, fetch_belong, first_time_group_flg, first_time_belong_flg
 
 def update_feeling(group_id, user_id, restaurant_id, feeling):
     '''
     投票をデータベースに反映する
     '''
+    session = get_db_session()
     
     # 履歴にfeelingを登録
     fetch_history = session.query(History).filter(History.group==group_id, History.user==user_id, History.restaurant==restaurant_id).first()
@@ -174,11 +203,15 @@ def update_feeling(group_id, user_id, restaurant_id, feeling):
         session.add(new_vote)
         session.commit()
 
+    session.close()
+    return
+
 
 def set_search_params(group_id, params, fetch_group=None):
     '''
     検索条件を受け取り、データベースのグループの表を更新する。
     '''
+    session = get_db_session()
     print(f"set_filter_params: params renewed")
 
 
@@ -210,11 +243,14 @@ def set_search_params(group_id, params, fetch_group=None):
     fetch_group.sort = params.sort
 
     session.commit()
+    session.close()
 
 def save_histories(group_id, user_id, restaurants_info):
     '''
     ユーザの表示履歴を保存する
     '''
+    session = get_db_session()
+    
     for i,r in enumerate(restaurants_info):
         fetch_history = session.query(History).filter(History.group==group_id,
                                                       History.user==user_id,
@@ -246,12 +282,16 @@ def save_histories(group_id, user_id, restaurants_info):
                 fetch_vote.votes_like = 0
                 session.commit()
 
+    session.close()
+
 # ============================================================================================================
 # api_functions.py
 
 def save_votes(group_id, restaurants_info):
+    session = get_db_session()
 
     for i,r in enumerate(restaurants_info):
+        if r is None: continue
         fetch_vote = session.query(Vote).filter(
             Vote.group == group_id, Vote.restaurant == r.id
                                 ).with_for_update().first()
@@ -272,6 +312,7 @@ def save_votes(group_id, restaurants_info):
 
         session.add(fetch_vote)
         session.commit()
+    session.close()
         # print(f"save_votes: saved {fetch_vote.restaurant}")
 
     return
@@ -285,8 +326,10 @@ def save_restaurants(restaurants_info):
     restaurants_info : [dict]
         保存する情報
     '''
+    session = get_db_session()
 
     for r_info in restaurants_info:
+        if r_info is None: continue
         fetch_restaurant = session.query(Restaurant).filter(
             Restaurant.id==r_info.id).with_for_update().first()
 
@@ -329,10 +372,13 @@ def save_restaurants(restaurants_info):
         session.commit()
 
         # print(f"save_restaurants_info: saved {fetch_restaurant.name}")
+    session.close()
     return
 
 
 def get_restaurant_info_from_db(restaurant_id, group_id):
+    session = get_db_session()
+
     f_restaurant = session.query(Restaurant).filter(Restaurant.id == restaurant_id).first()
     f_votes = session.query(Vote).filter(Vote.group == group_id,
                                          Vote.restaurant == restaurant_id
@@ -380,6 +426,7 @@ def get_restaurant_info_from_db(restaurant_id, group_id):
     restaurant_info.number_of_participants = f_votes.number_of_participants
     restaurant_info.recommend_score = f_votes.recommend_score
     restaurant_info.recommend_priority = f_votes.recommend_priority
+    session.close()
     return restaurant_info
 
 
@@ -403,7 +450,6 @@ def load_restaurants_info(restaurant_ids, group_id):
     for rid in restaurant_ids:
         restaurant_info = get_restaurant_info_from_db(rid, group_id)
         restaurants_info[restaurant_ids.index(rid)] = restaurant_info
-    
     return restaurants_info
 
 def get_search_params_from_fetch_group(fetch_group):
@@ -435,5 +481,8 @@ def get_search_params_from_fetch_group(fetch_group):
 def set_start():
     # TODO: 実装
     # startを更新する
+
+    #session = get_db_session()
+    #session.close()
     pass
 

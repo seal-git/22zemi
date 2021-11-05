@@ -553,10 +553,12 @@ class RecommendSVM(Recommend):
         return search_params
 
     def __zero_recommend_priority(self, fetch_group, group_id, pre_restaurants_info):
+        session = database_functions.get_db_session()
         for r_info in pre_restaurants_info:
             fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==r_info.id).one()
             fetch_vote.recommend_priority = 0
             session.commit()
+        session.close()
 
 
     def __calc_recommend_priority(self, fetch_group, group_id, pre_restaurants_info):
@@ -564,6 +566,8 @@ class RecommendSVM(Recommend):
         Vote.recommend_priorityを計算する。
         投票数が0だと死ぬ
         '''
+        session = database_functions.get_db_session()
+
         # 価格と距離の平均と標準偏差を求める --------
         like_price_count = 0
         like_price_sum = 0
@@ -638,6 +642,7 @@ class RecommendSVM(Recommend):
 
         if like_price_sigma==0 or like_distance_sigma==0 or dislike_price_sigma==0 or dislike_distance_sigma==0:
             self.__zero_recommend_priority(self, fetch_group, group_id, pre_restaurants_info)
+            session.close()
             return
 
         # recommend_priorityを計算する。--------
@@ -707,6 +712,7 @@ class RecommendSVM(Recommend):
                 fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==rid).one()
                 fetch_vote.recommend_priority = y
                 session.commit()
+            session.close()
             return
         
         if i_train <= 0:
@@ -715,6 +721,7 @@ class RecommendSVM(Recommend):
                 fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==rid).one()
                 fetch_vote.recommend_priority = 0
                 session.commit()
+            session.close()
             return
 
         # 学習器で評価値を求める
@@ -732,13 +739,14 @@ class RecommendSVM(Recommend):
             fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==rid).one()
             fetch_vote.recommend_priority = y
             session.commit()
-
+        session.close()
 
     def __price_filter(self, group_id, max_price, min_price, restaurants_info):
         '''
         検索条件に合わない店は優先度を下げる
         TODO: 再度データベースのVoteを検索するので遅くなるかもしれない
         '''
+        session = database_functions.get_db_session()
         if min_price is None:
             min_price = 0
         if max_price is None:
@@ -751,11 +759,13 @@ class RecommendSVM(Recommend):
                 fetch_vote = session.query(Vote).filter(Vote.group==group_id, Vote.restaurant==r_info.id).one()
                 fetch_vote.recommend_priority = -10000.0
                 session.commit()
+        session.close()
 
     def calc_priority(self, fetch_group, group_id, user_id, pre_restaurants_info, histories_restaurants):
 
-
+        session = database_functions.get_db_session()
         fetch_votes = session.query(Vote.votes_all).filter(Vote.group==group_id, Vote.votes_all>0).all()
+        session.close()
 
         # Vote.recommend_priorityを計算する。
         if sum([v.votes_all for v in fetch_votes]) < 3:
@@ -914,10 +924,12 @@ def recommend_main(fetch_group, group_id, user_id, first_time_flg=False):
         # 主な処理
 
         # 以前に検索したレストランのIDをデータベースから取得する(複数人で選ぶために)
+        session = database_functions.get_db_session()
         restaurant_ids_from_db = session.query(Restaurant.id).filter(
             Vote.group == group_id,
             Vote.restaurant == Restaurant.id
             ).all()  # 未送信のもののみを取得するときはfilterに`Vote.votes_all==-1`を加える
+        session.close()
         restaurant_ids_from_db = [r.id for r in restaurant_ids_from_db]
         restaurants_info_from_db = database_functions.load_restaurants_info(
             restaurant_ids_from_db,
@@ -977,7 +989,7 @@ def recommend_main(fetch_group, group_id, user_id, first_time_flg=False):
             database_functions.save_votes(group_id, restaurants_info)
 
             print(f"data_num {len(restaurants_info)}")
-            return [r.id for r in restaurants_info]
+            return [r.id for r in restaurants_info if r is not None]
 
         else:
             # error: 検索結果なし
@@ -1028,4 +1040,4 @@ def first_time_recommend_main(fetch_group, group_id, user_id, recomm:Recommend):
     database_functions.save_restaurants(restaurants_info)
     database_functions.save_votes(group_id, restaurants_info)
 
-    return [r.id for r in restaurants_info]
+    return [r.id for r in restaurants_info if r is not None]

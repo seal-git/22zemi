@@ -20,16 +20,16 @@ ENGINE = create_engine(
     DATABASE,
     encoding="utf-8",
     echo=False,  # Trueだと実行のたびにSQLが出力される
-    max_overflow=-1
+    max_overflow=10
 )
 
-session = scoped_session(
-    sessionmaker(
-        autocommit=False,
-        autoflush=False,
-        bind=ENGINE
-    )
-)
+# session = scoped_session(
+#     sessionmaker(
+#         autocommit=False,
+#         autoflush=False,
+#         bind=ENGINE
+#     )
+# )
 
 # modelで使用する
 Base = declarative_base()
@@ -190,4 +190,4 @@ class Vote(Base):
 if config.MyConfig.INIT_DB:
     Base.metadata.drop_all(ENGINE)
 Base.metadata.create_all(ENGINE)  # create tables
-Base.query = session.query_property()
+# Base.query = session.query_property()
