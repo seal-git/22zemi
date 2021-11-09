@@ -56,8 +56,10 @@ qrcode = "*"
 pillow = "*"
 sklearn = "*"
 memory-profiler = "*"
+flask-migrate = "*"
 pymysql = "*"
 mysqlclient = "*"
+alembic = "*"
 
 [dev-packages]
 

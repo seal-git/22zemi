@@ -5,28 +5,28 @@ class Config:
     DEBUG = True
 
     # SQLAlchemy
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://{user}:{password}@{host}/flask_sample?charset=utf8'.format(
-        **{
-            'user': os.getenv('MYSQL_USER', 'root'),
-            'password': os.getenv('MYSQL_ROOT_PASSWORD', ''),
-            'host': os.getenv('localhost'),
-        })
+    SQLALCHEMY_DATABASE_URI = 'mysql://%s:%s@%s:%s/%s?charset=utf8mb4' % (
+        "root",  # user_name
+        os.environ['MYSQL_ROOT_PASSWORD'],  # password
+        'mysql',  # host_ip
+        '3306',  # port
+        'reskima_db'  # db_name
+    )
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_ECHO = False
 
 
 # アプリ内で使うオリジナルの設定
 class MyConfig:
-    
     # SPEED_UP_FLG
     #   Trueにすると高速化できるが、レコメンドの反映が遅れる
     #   RecommendSimpleなら NEXT_RESPONSE = True , RECOMMEND_PRIORITY = False 。
     #   RecommendSVM   なら NEXT_RESPONSE = False, RECOMMEND_PRIORITY = True  。
     NEXT_RESPONSE = False
-    RECOMMEND_PRIORITY = True # RecommendSimpleでTrueにすると死にます
+    RECOMMEND_PRIORITY = True  # RecommendSimpleでTrueにすると死にます
 
     RECOMMEND_METHOD = 'svm'
-    #API_METHOD = 'yahoo'
+    # API_METHOD = 'yahoo'
     API_METHOD = 'hotpepper'
     GET_GOOGLE_IMAGE = False
     USE_GOOGLE_API = False
@@ -45,9 +45,8 @@ class MyConfig:
 
     IMAGE_DIRECTORY_PATH = 'data/image/'
     SERVER_URL = 'localhost'  # if production: 'reskima.com'
-    INIT_DB = True  # Trueならば再起動時にDBをリセットする
-    MAX_GOOGLE_IMAGES_COUNT = 4 # Google画像の取得枚数。最大10。大きくすると画像が多くなるがお金がかかる
-
+    INIT_DB = False  # Trueならば再起動時にDBをリセットする
+    MAX_GOOGLE_IMAGES_COUNT = 4  # Google画像の取得枚数。最大10。大きくすると画像が多くなるがお金がかかる
 
     TEST = False  # test時はTrueにする
     if TEST:
@@ -67,4 +66,4 @@ class MyConfig:
         STOCK_COUNT = 50  # 検索で取得するデータの数．STOCK_COUNT個の店からRESPONSE_COUNT個選ぶ
         SET_OPEN_HOUR = True  # 開店時間固定する場合はTrueにする
         OPEN_HOUR = "12:00"  # 固定の開店時間
-        MAX_GOOGLE_IMAGES_COUNT = 4 # Google画像の取得枚数。最大10。大きくすると画像が多くなるがお金がかかる
+        MAX_GOOGLE_IMAGES_COUNT = 4  # Google画像の取得枚数。最大10。大きくすると画像が多くなるがお金がかかる

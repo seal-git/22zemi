@@ -9,15 +9,8 @@ import os
 
 from app import config
 
-DATABASE = 'mysql://%s:%s@%s:%s/%s?charset=utf8mb4' % (
-    "root",  # user_name
-    os.environ['MYSQL_ROOT_PASSWORD'],  # password
-    'mysql',  # host_ip
-    '3306',  # port
-    'reskima_db'  # db_name
-)
 ENGINE = create_engine(
-    DATABASE,
+    config.Config.SQLALCHEMY_DATABASE_URI,
     encoding="utf-8",
     echo=False,  # Trueだと実行のたびにSQLが出力される
     max_overflow=10
