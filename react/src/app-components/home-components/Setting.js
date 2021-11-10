@@ -36,8 +36,8 @@ function Setting(props) {
         //　チュートリアルをオフにする
         props.setTutorialIsOn(false)
 
-        // CallingInvite に移る
-        props.setView("CallingInvite")
+        // StartingSession に移る
+        props.setView("StartingSession")
     }
 
     useEffect(() => {

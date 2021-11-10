@@ -34,7 +34,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function App() {
-  // alone/group を抱える
   const classes = useStyles();
   const [className, setClassName] = useState(classes.App)
 
