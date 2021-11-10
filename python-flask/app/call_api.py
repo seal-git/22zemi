@@ -146,11 +146,6 @@ def thread_get_restaurant_info(i, r_info, new_restaurants_info):
         else:
             r_info = api_functions_for_test.google_find_place(r_info=r_info)
 
-
-    if r_info.yahoo_id is not None:
-        ## yahooレビューを取得
-        r_info = api_functions.yahoo_review(r_info)
-
     if r_info.google_id is not None:
         ## googleの情報を追加
         if config.MyConfig.USE_GOOGLE_API:
