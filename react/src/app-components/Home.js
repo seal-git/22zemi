@@ -11,19 +11,6 @@ import KeepList from "./home-components/KeepList"
 import Selection from "./home-components/Selection"
 import Setting from "./home-components/Setting"
 
-// const produceId = () => {
-//     var digit = 6 //桁数
-//     var nines = ''
-//     var zeros = ''
-//     for (var i = 0; i < digit; i++) {
-//         nines += '9'
-//         zeros += '0'
-//     }
-//     var Id = Math.floor(Math.random() * Number(nines) + 1)
-//     Id = (zeros + Id).slice(-6)
-//     return Id
-// }
-
 // 現在時刻を文字列で取得
 const getCurrentTime = () => {
     const date = new Date()
