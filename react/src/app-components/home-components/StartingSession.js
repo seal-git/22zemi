@@ -2,8 +2,7 @@ import React from 'react'
 // パッケージからインポート
 import { useEffect } from "react"
 
-function CallingInvite(props) {
-
+function StartingSession(props) {
   useEffect(()=>{
       console.log('hello')
       props.initNewSession()
@@ -13,4 +12,4 @@ function CallingInvite(props) {
   )
 }
 
-export default CallingInvite
+export default StartingSession

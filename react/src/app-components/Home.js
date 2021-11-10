@@ -6,7 +6,7 @@ import { useState, useRef } from "react"
 import { useHistory, useLocation } from 'react-router-dom'
 // 他のファイルからインポート
 import AppBottomNavigation from "./home-components/AppBottomNavigation"
-import CallingInvite from './home-components/CallingInvite'
+import StartingSession from './home-components/StartingSession'
 import KeepList from "./home-components/KeepList"
 import Selection from "./home-components/Selection"
 import Setting from "./home-components/Setting"
@@ -36,7 +36,7 @@ const getCurrentTime = () => {
  メイン画面を統括するコンポーネント
  */
 function Home(props) {
-    const [view, setView] = useState("CallingInvite")
+    const [view, setView] = useState("StartingSession")
     const [tutorialIsOn,setTutorialIsOn] = useState(true)
     const keepNumberRef = useRef(null);
 
@@ -66,21 +66,28 @@ function Home(props) {
     const initNewSession =  () => {
         console.log("init New Session")
         const groupId = paramsForSearch["group_id"]
-        const params = { group_id: groupId, }
+        const params = { group_pass_number: groupId, }
         console.log('params', params)
-        axios.post('/api/invite', {
+        axios.post('/api/init', {
             params: params
         })
             .then((response) => {
                 console.log(response)
                 const newUserId = response.data.UserId
                 const newGroupId = response.data.GroupId
-                const newInviteUrl = response.data.Url
-                const newParamsForSearch = {...paramsForSearch, user_id:newUserId, group_id:newGroupId, }
-                console.log(newParamsForSearch)
-                setInviteUrl(newInviteUrl)
-                setParamsForSearch(newParamsForSearch)
-                setView("Selection")
+                const params = { group_id: newGroupId, }
+                axios.post('api/invite', {
+                    params: params,
+                })
+                    .then( (response) =>{
+                        console.log(response)
+                        const newInviteUrl = response.data.Url
+                        const newParamsForSearch = {...paramsForSearch, user_id:newUserId, group_id:newGroupId, }
+                        console.log(newParamsForSearch)
+                        setInviteUrl(newInviteUrl)
+                        setParamsForSearch(newParamsForSearch)
+                        setView("Selection")
+                    })
             })
             .catch((error) => {
                 console.log("error:", error)
@@ -100,8 +107,8 @@ function Home(props) {
             <div className="Content-wrapper">
                 <div className="Content">
                     {
-                        view === "CallingInvite" ?
-                        <CallingInvite 
+                        view === "StartingSession" ?
+                        <StartingSession
                             setView={setView}
                             initNewSession={initNewSession}
                             paramsForSearch={paramsForSearch}
