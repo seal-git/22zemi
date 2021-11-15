@@ -82,6 +82,7 @@ def generate_group_id():
 
 def get_group_id(user_id):
     '''
+    TODO: 予期しないバグを生みそうなので廃止したい。feelingのAPIの仕様を変更することでこの関数を使わなくできるはず。
     ユーザIDからグループIDを得る。グループIDを指定しない場合にはこの関数を使う。グループIDを指定する場合はユーザIDに重複があっても良いが、グループIDを指定しない場合にはユーザIDに重複があってはいけない。
     
     Parameters
