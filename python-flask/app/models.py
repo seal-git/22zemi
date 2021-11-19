@@ -266,14 +266,13 @@ def http_info():
         ## 他のスレッドで更新中だったら何もしない
         session = database_functions.get_db_session()
         fetch_group = session.query(Group).filter(Group.id==group_id).one()
-        if fetch_group.writable:
-            t = threading.Thread(target=thread_info,
-                                 args=(group_id,
-                                       user_id,
-                                       fetch_belong,
-                                       fetch_group
-                                       ))
-            t.start()
+        t = threading.Thread(target=thread_info,
+                                args=(group_id,
+                                    user_id,
+                                    fetch_belong,
+                                    fetch_group
+                                    ))
+        t.start()
 
         session.close()
     return response
