@@ -53,7 +53,7 @@ function Home(props) {
     const initNewSession =  () => {
         console.log("init New Session")
         const groupId = paramsForSearch["group_id"]
-        const params = { group_pass_number: groupId, }
+        const params = { group_id: groupId, }
         console.log('params', params)
         axios.post('/api/init', {
             params: params
@@ -95,30 +95,28 @@ function Home(props) {
                 <div className="Content">
                     {
                         view === "StartingSession" ?
-                        <StartingSession
-                            setView={setView}
-                            initNewSession={initNewSession}
-                            paramsForSearch={paramsForSearch}
-                        />
+                            <StartingSession
+                                initNewSession={initNewSession}
+                            />
                         : view === "Selection" ?
-                        <Selection
-                            inviteUrl={inviteUrl}
-                            paramsForSearch={paramsForSearch}
-                            tutorialIsOn={tutorialIsOn}
-                            keepNumberRef={keepNumberRef}
-                        />
+                            <Selection
+                                inviteUrl={inviteUrl}
+                                keepNumberRef={keepNumberRef}
+                                paramsForSearch={paramsForSearch}
+                                tutorialIsOn={tutorialIsOn}
+                            />
                         : view === "KeepList" ?
                             <KeepList
                                 paramsForSearch={paramsForSearch}
                                 setTutorialIsOn={setTutorialIsOn}
                             />
-                            :
+                        :
                             <Setting
-                                setView={setView}
+                                keepNumberRef={keepNumberRef}
                                 paramsForSearch={paramsForSearch}
                                 setParamsForSearch={setParamsForSearch}
                                 setTutorialIsOn={setTutorialIsOn}
-                                keepNumberRef={keepNumberRef}
+                                setView={setView}
                             />}
                 </div>
             <AppBottomNavigation 

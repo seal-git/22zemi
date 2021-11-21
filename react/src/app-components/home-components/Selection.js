@@ -140,7 +140,8 @@ function Selection(props) {
 
     axios.post('/api/feeling', {
       params: {
-        user_id: props.userId,
+        user_id: props.paramsForSearch['user_id'],
+        group_id: props.paramsForSearch['group_id'],
         restaurant_id: restaurant_id,
         feeling: feeling,
       }
@@ -176,7 +177,7 @@ function Selection(props) {
         wrapperStyle={wrapperStyle}
         keep={()=>{ console.log("pushed")}}
         reject={()=>{console.log("pushed")}}
-        groupId={props.groupId}
+        groupId={props.paramsForSearch['group_id']}
         inviteUrl={props.inviteUrl}
       />
     )
@@ -196,7 +197,7 @@ function Selection(props) {
         reject={reject}
         getInfo={getInfo}
         setPreloadedDataList={setPreloadedDataList}
-        groupId={props.groupId}
+        groupId={props.paramsForSearch['group_id']}
         inviteUrl={props.inviteUrl}
       />
     )
