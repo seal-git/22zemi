@@ -61,7 +61,7 @@ function Home(props) {
             .then((response) => {
                 console.log(response)
                 const newUserId = response.data.UserId
-                const newGroupId = response.data.GroupId
+                const newGroupId = groupId===""?response.data.GroupId:groupId
                 const params = { group_id: newGroupId, }
                 axios.post('api/invite', {
                     params: params,
