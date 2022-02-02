@@ -5,16 +5,14 @@ services:
     container_name: react
     hostname: react
     build:
-      context: ./Dockerfiles
-      dockerfile: Dockerfile-react
+      context: .
+      dockerfile: ./Dockerfiles/Dockerfile-react
     depends_on:
       - python-flask
     env_file:
       - .env
     expose:
     - "3000"
-    volumes:
-    - ./react:/workspace
     tty: true
 
   python-flask:
@@ -22,16 +20,14 @@ services:
     container_name: python-flask
     hostname: python-flask
     build:
-      context: ./Dockerfiles
-      dockerfile: Dockerfile-python
+      context: .
+      dockerfile: ./Dockerfiles/Dockerfile-python
     depends_on:
       - mysql
     env_file:
       - .env
     ports:
     - "5000:5000"
-    volumes:
-    - ./python-flask:/workspace
     tty: true
     restart: on-failure
 
@@ -40,8 +36,8 @@ services:
     container_name: mysql
     hostname: mysql
     build:
-      context: ./Dockerfiles
-      dockerfile: Dockerfile-mysql
+      context: .
+      dockerfile: ./Dockerfiles/Dockerfile-mysql
     restart: on-failure
     env_file:
       - .env
@@ -62,23 +58,5 @@ services:
       --secure-file-priv="/docker-entrypoint-initdb.d"
     tty: true
 
-  https-portal:
-      image: steveltn/https-portal:1
-      container_name: https
-      depends_on:
-        - react
-      ports:
-        - '80:80'
-        - '443:443'
-      environment:
-        DOMAINS: 'reskima.com -> react:3000'
-        # STAGE: 'staging'
-        STAGE: 'production' # Don't use production until staging works
-        # FORCE_RENEW: 'true'
-      restart: on-failure
-      volumes:
-        - https-portal-data:/var/lib/https-portal
-
 volumes:
     mysql-data:
-    https-portal-data:

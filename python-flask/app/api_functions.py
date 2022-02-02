@@ -1,18 +1,12 @@
-import requests
-import os
 import datetime
-from app import database_functions, calc_info, config
-from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
-from app.database_setting import *  # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
+from app import config
 from app.internal_info import *
-from abc import ABCMeta, abstractmethod
 from flask import abort
 import pprint
 import re
-
-# from PIL import Image
-# from io import BytesIO
-
+from PIL import Image
+import os, requests
+from io import BytesIO
 
 '''
 APIを叩いてinternal_infoに変換する。
@@ -20,30 +14,55 @@ APIを叩いてinternal_infoに変換する。
 つまり、RestaurantInfoの内部情報をAPIで更新していくイメージ。
 '''
 
-def yahoo_review(r_info):
+
+def yahoo_contents_geocoder(query):
     '''
-    Yahoo APIにアクセスして口コミを取得する。reviewとratingに保存する。
+    Yahoo APIを使って、緯度・経度・住所を返す関数
+
+    Parameters
+    ----------------
+    query : string
+        場所のキーワードや住所
+        例：千代田区
+
+    Returns
+    ----------------
+    lat, lon : float
+        queryで入力したキーワード周辺の緯度経度を返す
+        例：lat = 35.69404120, lon = 139.75358630
+    address : string
+        住所
+
+    例外処理
+    ----------------
+    不適切なqueryを入力した場合、Yahoo!本社の座標を返す
     '''
-    # print("get_rating")
-    review_api_url = 'https://map.yahooapis.jp/olp/v1/review/' + r_info.yahoo_id
+
+    # Yahoo!本社の座標
+    lon = 139.73284
+    lat = 35.68001
+    address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-"
+    if query is None:
+        return lat, lon, address
+
+    geo_coder_url = "https://map.yahooapis.jp/geocode/cont/V1/contentsGeoCoder"
     params = {
         "appid": os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
         "output": "json",
-        "results": "100"
+        "query": query
     }
     try:
-        response = requests.get(review_api_url, params=params)
+        response = requests.get(geo_coder_url, params=params)
         response = response.json()
+        geometry = response["Feature"][0]["Geometry"]
+        coordinates = geometry["Coordinates"].split(",")
+        lon = float(coordinates[0])
+        lat = float(coordinates[1])
+        address = response["Feature"][0]["Property"]["Address"]
     except:
-        response["Feature"] = []
+        pass
 
-    review_list = response["Feature"]
-    if len(review_list) == 0: return r_info
-    pprint.PrettyPrinter(indent=2).pprint(review_list)
-    r_info.review += [review_list['Property']['Comment']['Rating'] for r in
-                     review_list]
-
-    return r_info
+    return lat, lon, address
 
 
 def yahoo_local_search(params: Params = None,
@@ -61,12 +80,13 @@ def yahoo_local_search(params: Params = None,
     """
     if params is not None:
         # paramsで検索
-        # print(f"yahoo_local_search with params")
+        print(f"yahoo_local_search with params")
+        # pprint.PrettyPrinter(indent=2).pprint(params.get_all())
         ## distの計算
         if params.max_dist is not None:
             dist = params.max_dist / 1000
         else:
-            dist = config.MyConfig.MAX_DISTANCE
+            dist = config.MyConfig.MAX_DISTANCE / 1000
         ## sortのチェック
         sort_param = ["rating", "score", "hybrid", "review", "kana", "price",
                       "dist", "geo", "match"]
@@ -76,8 +96,9 @@ def yahoo_local_search(params: Params = None,
         image = "true" if params.image else None
         loco_mode = "true" if params.loco_mode else None
         ## 時間指定
-        if params.open_day is not None and params.open_hour is not None:
-            open = str(params.open_day) + "," + str(params.open_hour)
+        if params.open_hour is not None:
+            # open = str(params.open_day) + "," + str(params.open_hour)
+            open = None  # 時間の設定されている店は少ないので指定しない
         else:
             open = "now"
 
@@ -116,8 +137,9 @@ def yahoo_local_search(params: Params = None,
         'appid': os.environ['YAHOO_LOCAL_SEARCH_API_CLIENT_ID'],
         'output': 'json',
         'gc': '01',
-        'detail': 'full'
+        'detail': 'full',
     })
+    # pprint.PrettyPrinter(indent=2).pprint(params_dict)
     try:
         response = requests.get(local_search_url, params=params_dict).json()
     except Exception as e:
@@ -125,13 +147,13 @@ def yahoo_local_search(params: Params = None,
 
     # 検索の該当が無かったとき
     if response['ResultInfo']['Count'] == 0:
+        print("yahoo local search: result 0")
         return []
 
     # responseをrestaurant_infoに変換
+    restaurants_info = []
     feature_list = response['Feature']
     # pprint.PrettyPrinter(indent=2).pprint(feature_list)
-
-    restaurants_info = []
 
     for feature in feature_list:
         if params is not None:
@@ -149,9 +171,9 @@ def yahoo_local_search(params: Params = None,
         r_info.lunch_price = feature['Property']['Detail'].get('LunchPrice')
         if r_info.lunch_price is not None: r_info.lunch_price = int(r_info.lunch_price)
         r_info.dinner_price = feature['Property']['Detail'].get('DinnerPrice')
-        if r_info.dinner_price is not None: r_info.lunch_price = int(r_info.dinner_price)
-        r_info.category = feature['Property'].get('Genre')[0]['Name']
-        r_info.genre = [feature['Property'].get('Genre')[0]['Name']]
+        if r_info.dinner_price is not None: r_info.dinner_price = int(r_info.dinner_price)
+        r_info.category = feature['Property'].get('Genre',[{'Name':None}])[0]['Name']
+        r_info.genre = [feature['Property'].get('Genre',[{'Name':None}])[0]['Name']]
         r_info.web_url = "https://loco.yahoo.co.jp/place/" + feature['Property']['Uid']
         r_info.monday_opening_hours = feature["Property"].get("MondayBusinessHour")
         r_info.tuesday_opening_hours = feature["Property"].get("TuesdayBusinessHour")
@@ -181,7 +203,7 @@ def yahoo_local_search(params: Params = None,
         # Images : 画像をリストにする
         images = []
         for key, value in feature['Property']['Detail'].items():
-            if re.fullmatch(r"Image\d+|PersistencyImage\d|ItemImageUrl\d", key):
+            if re.fullmatch(r"Image\d+|PersistencyImage\d|ItemImageUrl\d|CassetteOwnerLogoImage", key):
                 images.append(value)
         # 画像が1枚もないときはnoimageを出力
         if len(images) == 0:
@@ -196,6 +218,145 @@ def yahoo_local_search(params: Params = None,
 
     return restaurants_info
 
+
+def hotpepper_search(params: Params = None,
+                     r_info: RestaurantInfo = None,
+                     r_id: str = None):
+    """
+    hotpepper グルメサーチapi を使ってRestaruantInfoのリストを返す。
+    Parameters
+    ----------
+    params
+    r_info
+    どちらかが入力されていればそれに応じて検索する
+    Returns
+    -------
+    """
+
+    if params is not None:
+        # paramsで検索
+        print(f"hotpepper_search with params")
+        # pprint.PrettyPrinter(indent=2).pprint(params.get_all())
+        ## distの計算
+        if params.max_dist is not None:
+            max_dist = params.max_dist
+        else:
+            max_dist = config.MyConfig.MAX_DISTANCE
+
+        if max_dist <= 300:
+            dist = 1
+        elif 300 < max_dist <= 500:
+            dist = 2
+        elif 500 < max_dist <= 1000:
+            dist = 3
+        elif 1000 < max_dist <= 2000:
+            dist = 4
+        else:
+            dist = 5
+
+        ## sortのチェック
+        # 1:店名かな順
+        # 2:ジャンルコード順
+        # 3:小エリアコード順
+        # 4:おススメ順
+        sort_param = [1,2,3,4]
+        sort = params.sort if params.sort in sort_param else 4
+        ## boolの変換
+        image = "true" if params.image else None
+        #loco_mode = "true" if params.loco_mode else None
+
+        ## パラメータをdictにして返す
+        params_dict = {
+            "query": params.query,
+            "results": params.results,
+            "start": params.start,
+            "lat": params.lat,
+            "lng": params.lon,
+            "order": sort,
+            "range": dist,
+        }
+    elif r_info is not None:
+        # restaurant_infoで検索
+        if r_info.yahoo_id is not None:
+            params_dict = {
+                "uid": r_info.hotpepper_id
+            }
+        else:
+            params_dict = {
+                "query": r_info.name
+            }
+    else:
+        raise ValueError(f"Both params and restaurant_info don't exist.")
+
+    # APIで検索を実行
+    search_url = 'http://webservice.recruit.co.jp/hotpepper/gourmet/v1'
+    params_dict.update({
+        'key': os.environ['HOTPEPPER_API_KEY'],
+        'format': 'json',
+    })
+    # pprint.PrettyPrinter(indent=2).pprint(params_dict)
+    try:
+        response = requests.get(search_url, params=params_dict).json()
+    except Exception as e:
+        abort(e.code)
+
+    # 検索の該当が無かったとき
+    if int(response['results']['results_returned']) == 0:
+        print("hotpepper search: result 0")
+        return []
+
+    # responseをrestaurant_infoに変換
+    restaurants_info = []
+    feature_list = response['results']['shop']
+    # pprint.PrettyPrinter(indent=2).pprint(feature_list)
+
+    for feature in feature_list:
+        if params is not None:
+            r_info = RestaurantInfo()
+            r_info.id = feature['id']
+
+        r_info.hotpepper_id = feature['id']
+        r_info.name = feature['name']
+        r_info.address = feature.get('address')
+        r_info.lon = feature['lng']
+        r_info.lat = feature['lat']
+        r_info.station = feature['station_name']
+        r_info.railway = 'unknown'
+        r_info.catchcopy = feature['genre'].get('catch')
+        r_info.lunch_price = None
+        if r_info.lunch_price is not None: r_info.lunch_price = int(r_info.lunch_price)
+        r_info.dinner_price = None
+        if r_info.dinner_price is not None: r_info.dinner_price = int(r_info.dinner_price)
+        r_info.category = None
+        r_info.genre = feature['genre'].get('name')
+        r_info.web_url = feature['urls'].get('pc')
+        r_info.monday_opening_hours = None
+        r_info.tuesday_opening_hours = None
+        r_info.wednesday_opening_hours = None
+        r_info.thursday_opening_hours = None
+        r_info.friday_opening_hours = None
+        r_info.saturday_opening_hours = None
+        r_info.sunday_opening_hours = None
+        r_info.access = feature['access']
+        r_info.health_info = None
+        r_info.hotpepper_rating_float = None
+
+        # Images : 画像をリストにする
+        images = []
+        for key, value in feature['photo']['mobile'].items():
+            if re.fullmatch(r"Image\d+|PersistencyImage\d|ItemImageUrl\d|CassetteOwnerLogoImage", key):
+                images.append(value)
+        # 画像が1枚もないときはnoimageを出力
+        if len(images) == 0:
+            no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
+            images = [no_image_url]
+
+        r_info.image_url = list(set(images)) # setで重複をなくす
+        if len(r_info.image_url)>config.MyConfig.MAX_LIST_COUNT:
+            r_info.image_url = r_info.image_url[:config.MyConfig.MAX_LIST_COUNT]
+
+        restaurants_info.append(r_info)
+    return restaurants_info
 
 def google_nearby_search(params):
     '''
@@ -321,6 +482,7 @@ def google_find_place(r_info):
         'fields': 'place_id'
     }
     res = requests.get(url=url, params=params)
+    # pprint.PrettyPrinter(indent=2).pprint(res.json())
     res = res.json()['candidates'][0]
 
     if r_info.id is None: r_info.id = res['place_id']
@@ -328,7 +490,7 @@ def google_find_place(r_info):
 
     return r_info
 
-def google_place_details(r_info:RestaurantInfo=None):
+def google_place_details(r_info:RestaurantInfo):
     """
     place_detailを取得
 
@@ -340,12 +502,14 @@ def google_place_details(r_info:RestaurantInfo=None):
     -------
 
     """
+    print(f"place details: {r_info.name}")
+
     url = 'https://maps.googleapis.com/maps/api/place/details/json'
     params = {
         'key': os.environ["GOOGLE_API_KEY"],
         'place_id': r_info.google_id,
         'language': 'ja',
-        'fields': 'name,photo,rating,review'
+        'fields': 'photo'
     }
     res = requests.get(url=url, params=params)
     res = res.json()['result']
@@ -353,18 +517,15 @@ def google_place_details(r_info:RestaurantInfo=None):
 
     if r_info.name is None: r_info.name = res.get("name")
     if r_info.address is None: r_info.address = res.get("formatted_address")
-    if r_info.lat is None: r_info.lat = res.get("geometry")["location"]["lat"]
-    if r_info.lon is None: r_info.lon = res.get("geometry")["location"]["lng"]
+    # if r_info.lat is None: r_info.lat = res.get("geometry")["location"]["lat"]
+    # if r_info.lon is None: r_info.lon = res.get("geometry")["location"]["lng"]
 
-    r_info.google_rating = res.get("rating")
-    if res.get("reviews") is not None:
-        r_info.review += [r["text"] for r in res.get("reviews")]
     r_info.google_photo_reference = [r["photo_reference"] for r in res.get("photos")]
     # TODO: xxxday_opening_hoursを取得する
     return r_info
 
 
-def google_feature_to_info(self, fetch_group, group_id, feature):
+def google_feature_to_info(fetch_group, group_id, feature):
     '''
     Google APIで取得した店舗情報(feature)を、クライアントに送信するjsonの形式に変換する。
     じきに消す
@@ -432,5 +593,29 @@ def google_feature_to_info(self, fetch_group, group_id, feature):
         restaurant_info["Images"] = [no_image_url, no_image_url]
 
     return restaurant_info
+
+
+def google_place_photo(photo_reference, image_width):
+    """
+
+    Parameters
+    ----------
+    photo_reference
+
+    Returns
+    -------
+    image: Image
+    """
+
+    url = 'https://maps.googleapis.com/maps/api/place/photo'
+    params = {
+        'key': os.environ['GOOGLE_API_KEY'],
+        'photoreference': photo_reference,
+        'maxwidth': image_width,
+    }
+    res = requests.get(url=url, params=params)
+    image = Image.open(BytesIO(res.content))
+
+    return image
 
 

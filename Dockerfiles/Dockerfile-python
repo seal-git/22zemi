@@ -1,5 +1,12 @@
-FROM python
-RUN pip install --upgrade pip &&\
- pip install pipenv
+FROM python:3.9
 WORKDIR /workspace
-CMD pipenv install --system && python app.py
+
+COPY ./python-flask/Pipfile ./
+
+RUN apt-get update &&\
+ pip install --upgrade pip &&\
+ pip install pipenv &&\
+ pipenv install &&\
+ pipenv install --system
+
+CMD python app.py

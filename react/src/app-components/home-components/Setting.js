@@ -1,9 +1,18 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import './../../css/Setting.css'
 /*
  設定画面のコンポーネント
  */
+
+const getCurrentTime = () =>{
+    const date = new Date(Date.now())
+    const h = date.getHours()
+    const m = date.getMinutes()
+    return h + ":" + m
+}
+
 function Setting(props) {
+    let timeRef = useRef(null)
     // 「選ぶ」画面に進む処理
     const proceedToSelection = (newMode, groupId) => {
         // 検索条件を取得
@@ -15,7 +24,7 @@ function Setting(props) {
 
         // パラメータを更新
         if (area==="" && genre==="" && maxprice==="" && time===""){
-            maxprice = '4000'
+            time = getCurrentTime()
         }
         props.setParamsForSearch({
             "place": area,
@@ -45,13 +54,15 @@ function Setting(props) {
         props.setView("Selection")
     }
 
+    useEffect(() => {
+        timeRef.current.value = getCurrentTime()
+        // Mount 時にだけ呼び出す
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [])
+
     return (
         <div className="setting">
             <div class="title-wrapper">
-                {/* <img
-                    src={Logo}
-                    className={"title-image"}
-                    alt={"title"} /> */}
             </div>
             <div class="setting-wrapper">
                 <div class="forms-wrapper">
@@ -68,7 +79,7 @@ function Setting(props) {
                             <div class="input-wrapper">
                                 <input
                                     id="inputArea"
-                                    placeholder="新宿"
+                                    placeholder="例：新宿"
                                 />
                             </div>
                         </div>
@@ -81,7 +92,7 @@ function Setting(props) {
                             <div>
                                 <input
                                     id="inputGenre"
-                                    placeholder="中華料理"
+                                    placeholder="例：中華料理"
                                 />
                             </div>
                         </div>
@@ -89,14 +100,13 @@ function Setting(props) {
                     <div className="form-content-wrapper">
                         <div className="form-content">
                             <div className="form-title">
-                                予算
+                                予算（円）
                             </div>
                             <div>
                                 <input
                                     id="inputMaxPrice"
                                     type="text"
                                     placeholder="4000"
-                                    data-format="$1 円以内"
                                 />
                             </div>
                         </div>
@@ -110,6 +120,7 @@ function Setting(props) {
                                 <input
                                     id="inputTime"
                                     type="time"
+                                    ref={timeRef}
                                 />
                             </div>
                         </div>

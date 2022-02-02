@@ -1,6 +1,7 @@
 import requests
 import os
-import datetime
+from datetime import date, time
+from app import database_functions
 from app.database_setting import * # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 from abc import ABCMeta, abstractmethod
 from flask import abort
@@ -20,27 +21,28 @@ class Params:
     このパラメータはGroupテーブルで定義されているものに対応している。(TODO: 未対応のものもまだある)
     """
     def __init__(self):
-        self.query: str = None # キーワード
-        self.inputtype: str = "textquery"  # textquery/phonenumber
-        self.lat: float = None # 中心の緯度
-        self.lon: float = None # 中心の経度
-        self.max_dist: int = config.MyConfig.MAX_DISTANCE # 中心からの検索距離(m)
-        self.open_day: str = datetime.datetime.now().day  # 日付指定
-        self.open_hour: str = datetime.datetime.now().hour  # 時間指定
-        self.open_now: bool = False # 今開店しているか
-        self.max_price: int = None # 値段の最大値(円)
-        self.min_price: int = None # 値段の最小値(円)
-        self.loco_mode: bool = False # Yahooロコの検索機能(ランチ、飲み放題、食べ放題、女子会、個室で検索できる)
-        self.image: bool = False # 画像のあるものだけを出力
+        self.lat: float = None  # 中心の緯度
+        self.lon: float = None  # 中心の経度
+        self.query: str = None  # キーワード
+        self.max_dist: int = None # 中心からの検索距離(m)
+        self.open_day: date = None  # 日付指定
+        self.open_hour: time = None  # 時間指定
+        self.open_now: bool = False  # 今開店しているか
+        self.max_price: int = None  # 値段の最大値(円)
+        self.min_price: int = None  # 値段の最小値(円)
+        self.loco_mode: bool = False  # Yahooロコの検索機能(ランチ、飲み放題、食べ放題、女子会、個室で検索できる)
+        self.image: bool = False  # 画像のあるものだけを出力
         self.results: int = config.MyConfig.STOCK_COUNT # 取得件数
         self.start: int = 0  # 取得開始位置
-        self.sort: str = None # ソート順の指定
-    
+        self.sort: str = None  # ソート順の指定
+
     def set_start_and_results_from_stock(self, group_id, stock, histories_restaurants):
         """
         STOCK_COUNT個の中から選べるように、足りなければAPIで取得する
         """
+        session = database_functions.get_db_session()
         self.start = session.query(Vote.restaurant).filter(Vote.group==group_id).count()
+        session.close()
         self.results = stock + len(histories_restaurants) - self.start
         if self.results < 0: self.results = 0
     
@@ -48,8 +50,10 @@ class Params:
         """
         レスポンスで返すぶんだけAPIで取得する
         """
+        session = database_functions.get_db_session()
         self.start = config.MyConfig.RESPONSE_COUNT * (session.query(Belong).filter(Belong.group==group_id, Belong.user==user_id).one()).request_count, # 表示範囲：開始位置
         self.results = config.MyConfig.RESPONSE_COUNT
+        session.close()
 
 
     def get_all(self):
@@ -143,11 +147,16 @@ class RestaurantInfo:
         -------
 
         """
+        description = ''
+        if self.catchcopy is not None: description += self.catchcopy + '\n'
+        if self.access is not None: description += self.access + '\n'
+        if self.health_info is not None: description += self.health_info + '\n'
+
         r_info_dict = {
             'Restaurant_id': self.id,
             'Name': self.name,
-            'Distance': self.distance_float,
-            'CatchCopy': self.catchcopy,
+            'Distance': self.distance_str,
+            'CatchCopy': description,
             'Price': self.price,
             'Address': self.address,
             'Images': self.image_url,

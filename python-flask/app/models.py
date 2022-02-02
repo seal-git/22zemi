@@ -3,6 +3,7 @@ from flask import jsonify, make_response, request, send_file
 
 from app import app_, db_
 from app import database_functions, recommend, api_functions, config, call_api
+from app.internal_info import *
 from app.database_setting import *  # session, Base, ENGINE, User, Group, Restaurant, Belong, History, Vote
 import json
 from werkzeug.exceptions import NotFound, BadRequest, InternalServerError
@@ -11,6 +12,7 @@ from PIL import Image
 import base64
 from io import BytesIO
 import time
+import datetime
 from sqlalchemy.sql.functions import current_timestamp
 import threading
 import pprint
@@ -49,9 +51,11 @@ def create_response_from_restaurants_info(group_id, user_id, restaurants_info):
     response_keys = ['Restaurant_id', 'Name', 'Address', 'CatchCopy', 'Price',
                      'Category', 'UrlWeb', 'UrlMap', 'ReviewRating',
                      'BusinessHour', 'Genre', 'Images', 'ImagesBinary']
+    if config.MyConfig.SHOW_DISTANCE:
+        response_keys.append('Distance')
     response = [{k: v for k, v in r.items() if k in response_keys} for r in
                 restaurants_info]  # response_keysに含まれているキーを残す
-    pprint.PrettyPrinter(indent=2).pprint(response)
+    # pprint.PrettyPrinter(indent=2).pprint(response)
 
     return json.dumps(response, ensure_ascii=False)
 
@@ -71,31 +75,39 @@ def get_restaurant_ids_from_recommend_priority(fetch_group, group_id,
     ----------------
     restaurnt_ids : [dict]
     '''
+    session = database_functions.get_db_session()
 
     histories_restaurants = database_functions.get_histories_restaurants(
         group_id, user_id)
     fetch_votes = session.query(Vote).filter(
-            Vote.group == group_id,
-            Vote.recommend_priority is not None
-        ).order_by(Vote.recommend_priority).all()
+        Vote.group == group_id,
+        Vote.recommend_priority is not None
+    ).order_by(desc(Vote.recommend_priority)).all()
 
     restaurants_ids = []
     for fv in fetch_votes:
         if fv.restaurant not in histories_restaurants:
             restaurants_ids.append(fv.restaurant)
             if len(restaurants_ids) == config.MyConfig.RESPONSE_COUNT:
+                session.close()
                 return restaurants_ids
 
     # まだ優先度を計算していない時や，RecommendSimple等で優先度を計算しない時
-    fetch_votes = session.query(Vote).filter(Vote.group == group_id,
-                                            Vote.recommend_priority is None).all()
+    fetch_votes = session.query(Vote).filter(
+        Vote.group == group_id,
+        Vote.recommend_priority is None
+    ).all()
+    print(fetch_votes)
+
     for fv in fetch_votes:
         if fv.restaurant not in histories_restaurants:
             restaurants_ids.append(fv.restaurant)
             if len(restaurants_ids) == config.MyConfig.RESPONSE_COUNT:
+                session.close()
                 return restaurants_ids
     # ストックしている店舗数が足りない時。最初のリクエスト等。
-    return []
+    session.close()
+    return restaurants_ids
 
 
 # ============================================================================================================
@@ -132,40 +144,18 @@ def http_init():
 @app_.route('/invite', methods=['GET', 'POST'])
 def http_invite():
     '''
-    検索条件を指定して、招待URLを返す
+    グループIDから招待URLを返す
 
     Returns
     ----------------
     GroupId
-    UserId
     Url : 招待URL
     Qr : 招待QRコード
     '''
 
     # リクエストクエリを受け取る
     data = request.get_json()["params"]
-    user_id = int(data["user_id"]) if data.get("user_id", False) else None
     group_id = int(data["group_id"]) if data.get("group_id", False) else None
-    # coordinates = data["coordinates"] if data.get("coordinates", False) else None # TODO: デモ以降に実装
-    place = data["place"] if data.get("place", False) else None
-    genre = data["genre"] if data.get("genre", False) else None
-    query = data["query"] if data.get("query", False) else None
-    open_day = data["open_day"] if data.get("open_day", False) else None
-    open_hour = data["open_hour"] if data.get("open_hour", False) else None
-    maxprice = data["maxprice"] if data.get("maxprice", False) else None
-    minprice = data["minprice"] if data.get("minprice", False) else None
-    sort = data["sort"] if data.get("sort", False) else None
-    recommend_method = data["recommend_method"] if data.get("recommend_method",
-                                                            False) else RECOMMEND_METHOD
-    api_method = data["api_method"] if data.get("api_method",
-                                                False) else API_METHOD
-
-    group_id = group_id if group_id is not None else database_functions.generate_group_id()
-
-    # 検索条件をデータベースに保存
-    database_functions.set_search_params(group_id, place, genre, query,
-                                         open_day, open_hour, maxprice,
-                                         minprice, sort)
 
     # 招待URL
     invite_url = 'https://' + config.MyConfig.SERVER_URL + '?group_id=' + str(
@@ -176,8 +166,9 @@ def http_invite():
     qr_img.save(buf, format="jpeg")
     qr_img_base64 = base64.b64encode(buf.getvalue()).decode("ascii")
     result = {'GroupId': group_id,
-              'UserId': database_functions.generate_user_id(),
-              'Url': invite_url, 'Qr': qr_img_base64}
+              'Url': invite_url,
+              'Qr': qr_img_base64,
+              }
     return json.dumps(result, ensure_ascii=False)
 
 
@@ -195,64 +186,91 @@ def http_info():
 
     # リクエストクエリを受け取る
     data = request.get_json()["params"]
-    user_id = int(data["user_id"]) if data.get("user_id", False) else None
+    pprint.PrettyPrinter(indent=2).pprint(data)
+
+    try:
+        user_id = int(data["user_id"])
+    except TypeError:
+        print("error: http_info")
     group_id = int(data["group_id"]) if data.get("group_id", False) else None
-    # coordinates = data["coordinates"] if data.get("coordinates", False) else one # TODO: デモ以降に実装
-    place = data["place"] if data.get("place", False) else None
-    genre = data["genre"] if data.get("genre", False) else None
-    query = data["query"] if data.get("query", False) else None
-    open_day = data["open_day"] if data.get("open_day", False) else None
-    open_hour = data["open_hour"] if data.get("open_hour", False) else None
-    maxprice = data["maxprice"] if data.get("maxprice", False) else None
-    minprice = data["minprice"] if data.get("minprice", False) else None
-    sort = data["sort"] if data.get("sort", False) else None
-    recommend_method = data["recommend_method"] if data.get("recommend_method",
-                                                            False) else RECOMMEND_METHOD
-    api_method = data["api_method"] if data.get("api_method",
-                                                False) else API_METHOD
+    recommend_method = data.get("recommend_method", RECOMMEND_METHOD)
+    api_method = data.get("api_method", API_METHOD)
 
     group_id = group_id if group_id is not None else database_functions.get_group_id(
         user_id)
 
-    # Yahoo本社の住所 # TODO
-    address = "東京都千代田区紀尾井町1-3 東京ガ-デンテラス紀尾井町 紀尾井タワ-" if place is None else place
-    # TODO: 開発用に時間を固定
-    # open_hour = '18'
-
     # 未登録ならデータベースにユーザとグループを登録する
-    fetch_user, fetch_group, fetch_belong, first_time_group_flg, first_time_belong_flg = database_functions.register_user_and_group_if_not_exist(
-        group_id, user_id, address, recommend_method, api_method)
+    (fetch_user,
+     fetch_group,
+     fetch_belong,
+     first_time_group_flg,
+     first_time_belong_flg
+     ) = database_functions.register_user_and_group_if_not_exist(group_id,
+                                                                 user_id,
+                                                                 recommend_method,
+                                                                 api_method)
 
-    # 検索条件をデータベースに保存
+    # 検索初期条件をデータベースに保存
     if first_time_group_flg:
-        database_functions.set_search_params(group_id, place, genre, query,
-                                            open_day, open_hour, maxprice,
-                                            minprice, sort,
-                                            fetch_group=fetch_group)
-        
-        # 初回優先度を計算
-        _ = recommend.recommend_main(fetch_group, group_id, user_id, first_time_flg=first_time_group_flg)
+        params = Params()
+        lat, lon, _ = api_functions.yahoo_contents_geocoder(data.get("place"))
+        params.lat = data.get("lat", lat)  # placeがNoneのときはヤフー本社の座標
+        params.lon = data.get("lon", lon)
+        params.query = data.get("genre")
+        try:
+            params.open_day = datetime.date.fromisoformat(
+                data.get("open_day"))  # 指定不能
+        except (TypeError, ValueError):
+            params.open_day = datetime.date.today()
+        try:
+            params.open_hour = datetime.time.fromisoformat(
+                data.get("open_hour_str"))
+        except (TypeError, ValueError):
+            params.open_hour = datetime.datetime.now().time()
+        try:
+            params.max_price = int(data.get("maxprice"))
+        except (TypeError, ValueError):
+            params.max_price = None
+        try:
+            params.min_price = int(data.get("minprice"))  # 指定不能
+        except (TypeError, ValueError):
+            params.min_price = None
+        params.sort = data.get("sort")
 
+        ## パラメーターの初期値を別途計算
+        if config.MyConfig.SET_OPEN_HOUR:
+            params.open_hour = datetime.time.fromisoformat(
+                config.MyConfig.OPEN_HOUR)
+
+        database_functions.set_search_params(group_id,
+                                             params,
+                                             fetch_group=fetch_group)
+
+        # 初回優先度を計算
+        _ = recommend.recommend_main(fetch_group, group_id, user_id,
+                                     first_time_flg=first_time_group_flg)
 
     ## priorityの高い順にid取得
-    restaurant_ids = get_restaurant_ids_from_recommend_priority(fetch_group, group_id, user_id)
+    restaurant_ids = get_restaurant_ids_from_recommend_priority(fetch_group,
+                                                                group_id,
+                                                                user_id)
 
     ## responseを作る
     restaurants_info = database_functions.load_restaurants_info(
         restaurant_ids, group_id)
     response = create_response_from_restaurants_info(group_id, user_id,
                                                      restaurants_info)
-    
+
     if first_time_group_flg:
         # 裏でrecommendを走らせる
         ## 他のスレッドで更新中だったら何もしない
         if fetch_belong.writable:
             t = threading.Thread(target=thread_info,
-                             args=(group_id,
-                                   user_id,
-                                   fetch_belong,
-                                   fetch_group
-                                   ))
+                                 args=(group_id,
+                                       user_id,
+                                       fetch_belong,
+                                       fetch_group
+                                       ))
             t.start()
 
     return response
@@ -274,17 +292,18 @@ def thread_info(group_id, user_id, fetch_belong, fetch_group):
     -------
 
     """
-    
+
     ## 他のスレッドで更新中だったら待つ
     if not fetch_belong.writable:
         result = False
+        session = database_functions.get_db_session()
         while not result:
             print("waiting")
             time.sleep(1)
             session.commit()
             result = session.query(Belong).filter(Belong.group == group_id,
-                                            Belong.user == user_id).one().writable
-
+                                                  Belong.user == user_id).one().writable
+        session.close()
     _ = recommend.recommend_main(fetch_group, group_id, user_id)
     print("thread end")
     return
@@ -299,6 +318,7 @@ def http_feeling():
     ----------------
     全会一致の店の数 : int
     '''
+    session = database_functions.get_db_session()
 
     # リクエストクエリを受け取る
     data = request.get_json()["params"]
@@ -334,6 +354,7 @@ def http_feeling():
                                    fetch_group
                                    ))
         t.start()
+    session.close()
     return notification_badge
 
 
@@ -347,6 +368,7 @@ def http_list():
     ----------------
     restaurants_info : [dict]
     '''
+    session = database_functions.get_db_session()
 
     # リクエストクエリを受け取る
     data = request.get_json()["params"]
@@ -360,6 +382,7 @@ def http_list():
         Vote.group == group_id).order_by(desc(Vote.votes_like)).all()
     # リストに存在しない時は空のリストを返す
     if len(fetch_votes) == 0:
+        session.close()
         return "[]"
     # 表示する店舗を選ぶ。ひとりのときはLIKEした店だけ。2人以上のときはすべて表示。
     participants_count = database_functions.get_participants_count(
@@ -379,6 +402,7 @@ def http_list():
                           reverse=True)  # 得票数が同じなら、オススメ度順
     restaurants_info.sort(key=lambda x: x.votes_like, reverse=True)  # 得票数が多い順
 
+    session.close()
     return create_response_from_restaurants_info(group_id, user_id,
                                                  restaurants_info)
 
@@ -401,9 +425,12 @@ def http_history():
         user_id)
 
     # 履歴を取得する
+    session = database_functions.get_db_session()
     restaurant_ids = session.query(History.id).filter(History.group == group_id,
-                                                    History.user == user_id
-                                                    ).order_by(updated_at).all()
+                                                      History.user == user_id
+                                                      ).order_by(
+        updated_at).all()
+    session.close()
     restaurants_info = database_functions.load_restaurants_info(restaurant_ids,
                                                                 group_id
                                                                 )
