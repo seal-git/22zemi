@@ -1,7 +1,8 @@
 FROM python:3.9
 WORKDIR /workspace
 
-COPY ./python-flask/Pipfile ./
+# 本番環境ではマウントせずにコピーする
+COPY python-flask/ /workspace/
 
 RUN apt-get update &&\
  pip install --upgrade pip &&\

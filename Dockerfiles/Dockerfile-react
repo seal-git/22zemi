@@ -1,6 +1,7 @@
 FROM node:16.3.0
 WORKDIR /workspace
-COPY ./react ./
+# 本番環境ではマウントせずにコピーする
+COPY react/ /workspace/
 RUN yarn install
 CMD yarn start
 
