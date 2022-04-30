@@ -57,7 +57,7 @@ sequenceDiagram
     models ->> database_functions : get_participants_count
     models ->> database : Belong
     models ->>+ models_thread_info
-    models -->>- フロントエンド : 
+    models -->>- フロントエンド
     models_thread_info ->> database_functions : get_db_session
     models_thread_info ->>+ recommend : recommend_main
     alt 初回
