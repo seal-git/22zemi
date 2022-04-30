@@ -36,6 +36,9 @@ sequenceDiagram
     models ->> database_functions : get_group_id
     models ->> database_functions : update_feeling
     models ->> database_functions : get_participants_count
+    models ->> database : Vote
+    models ->> database : Group
+    models ->> database : Belong
     models ->> models : thread_info
 ```
 
@@ -43,13 +46,19 @@ sequenceDiagram
 ## list
 ```mermaid
 sequenceDiagram
-    models ->> config : MyConfig.SERVER_URL
+    models ->> database_functions : get_db_session
+    models ->> database_functions : get_group_id
+    models ->> database : Vote
+    models ->> database_functions : get_participants_count
+    models ->> database : Group
+    models ->> database_functions : load_restaurants_info
+    models ->> models : create_response_from_restaurants_info
 ```
 
 ## history
 ```mermaid
 sequenceDiagram
-    models ->> config : MyConfig.SERVER_URL
+    models ->> database_functions : get_db_session
 ```
 
 ## decision
