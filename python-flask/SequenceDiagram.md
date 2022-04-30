@@ -56,10 +56,10 @@ sequenceDiagram
     database_functions ->> database : History, Vote
     models ->> database_functions : get_participants_count
     models ->> database : Belong
-    models ->>+ models/thread_info
+    models ->>+ models____thread_info
     models -->>- フロントエンド : 
-    models/thread_info ->> database_functions : get_db_session
-    models/thread_info ->>+ recommend : recommend_main
+    models____thread_info ->> database_functions : get_db_session
+    models____thread_info ->>+ recommend : recommend_main
     alt 初回
         recommend ->> recommend : first_time_recommend_main
     end
@@ -83,7 +83,7 @@ sequenceDiagram
     call_api -->>- recommend : restaurants_info
     recommend ->> database_functions : save_restaurants
     recommend ->> database_functions : save_votes
-    recommend -->>- models/thread_info
+    recommend -->>- models____thread_info
 ```
 
 
