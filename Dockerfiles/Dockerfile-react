@@ -1,4 +1,5 @@
 FROM node:16.3.0
 WORKDIR /workspace
-CMD yarn install && npm start
-
+COPY ./react/package.json ./
+RUN yarn install
+CMD yarn start
