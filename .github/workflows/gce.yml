@@ -1,4 +1,4 @@
-name: Deploy docker-compose to Production Server
+name: Deploy production branch to Production Server
 
 on:
   push:
@@ -16,7 +16,8 @@ jobs:
           SECRET_KEY: ${{ secrets.SSH_KEY }}
           SSH_USER: ${{ secrets.USER_NAME }}
           SSH_ADDR: ${{ secrets.HOST }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
         run: |
           echo "$SECRET_KEY" > secret_key
           chmod 600 secret_key
-          ssh -oStrictHostKeyChecking=no ${SSH_USER}@${SSH_ADDR} -p 10022 -i secret_key "source ~/22zemi/deploy.sh"
+          ssh -oStrictHostKeyChecking=no ${SSH_USER}@${SSH_ADDR} -p ${SSH_PORT} -i secret_key "source ~/22zemi/deploy.sh"
