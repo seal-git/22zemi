@@ -5,5 +5,5 @@ git checkout production
 git fetch origin
 git reset --hard origin/production
 
-docker-compose build
-docker-compose up -d
+docker compose build
+docker compose up -d
