@@ -48,14 +48,4 @@ flask appのテストは，app.pyのあるディレクトリで`pytest ./test`�
 
 
 ## info のシーケンス図
-```mermaid
-sequenceDiagram
-  model ->> database_funcitons : get_group_id
-  model ->> database_funcitons : register_user_and_group_if_not_exist
-  model ->> api_functions : yahoo_contents_geocoder
-  model ->> database_functions : set_search_params
-  model ->> recommend : recommend_main
-  model ->> model : get_restaurant_ids_from_recommend_priority
-  model ->> database_functions : load_restaurants_info
-  model ->> model : create_response_from_restaurants_info
-```
+中村さん、`python-flask/SequenceDiagram.md`に移しました。
