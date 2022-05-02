@@ -92,7 +92,9 @@ sequenceDiagram
     api_functions ->>- call_api : restaurants_info
     call_api ->> calc_info : add_distance
     call_api ->> calc_info : add_open_hour
-    call_api ->> calc_info : add_price
+    call_api ->>+ calc_info : add_price
+    calc_info ->> config : MyConfig.LUNCH_TIME_START, LUNCH_TIME_END
+    calc_info -->>- call_api :
     call_api ->> calc_info : calc_recommend_score
     call_api -->>- recommend : restaurants_info
     recommend ->> database_functions : save_restaurants
@@ -104,8 +106,20 @@ sequenceDiagram
     call_api ->> api_functions : yahoo_local_search
     call_api ->> api_functions : google_find_place
     call_api ->> api_functions : google_place_detail
-    call_api ->> calc_info : get_google_images
-    call_api ->> calc_info : add_votes
+    call_api ->>+ calc_info : get_google_images
+    calc_info ->> config : MyConfig.USE_GOOGLE_API
+    apt Config.MyConfig.USE_GOOGLE_API
+        calc_info ->> api_functions : google_place_photo
+    else
+        calc_info ->> api_functions_for_test : google_place_photo
+    end
+    calc_info ->> config : MyConfig.SERVER_URL
+    calc_info -->>- call_api : 
+    call_api ->>+ calc_info : add_votes
+    calc_info ->> database_functions : get_db_session
+    calc_info ->> database : History
+    calc_info ->> database_functions : get_participants_count
+    calc_info -->>- call_api : restaurants_info
     call_api ->> calc_info : add_review_rating
     call_api -->>- recommend : restaurants_info
     recommend ->> database_functions : save_restaurants
