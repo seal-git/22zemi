@@ -2,6 +2,7 @@
 ================
 
 ## init
+
 ```mermaid
 sequenceDiagram
     actor フロントエンド
@@ -17,6 +18,7 @@ sequenceDiagram
 ```
 
 ## invite
+
 ```mermaid
 sequenceDiagram
     actor フロントエンド
@@ -28,6 +30,7 @@ sequenceDiagram
 
 
 ## info
+
 ```mermaid
 sequenceDiagram
     actor フロントエンド
@@ -40,11 +43,12 @@ sequenceDiagram
     models ->> recommend : recommend_main
     models ->> models : get_restaurant_ids_from_recommend_priority
     models ->> database_functions : load_restaurants_info
-    models ->> models : create_response_from_restaurants_info\
-    models -->>- フロントエンド : レストランのリスト\
+    models ->> models : create_response_from_restaurants_info
+    models -->>- フロントエンド : レストランのリスト
 ```
 
 ## feeling
+
 ```mermaid
 sequenceDiagram
     actor フロントエンド
@@ -89,12 +93,12 @@ sequenceDiagram
     else
         call_api ->> api_functions : hotpepper_search
     end
-    api_functions ->>- call_api : restaurants_info
+    api_functions -->>- call_api : restaurants_info    
     call_api ->> calc_info : add_distance
     call_api ->> calc_info : add_open_hour
     call_api ->>+ calc_info : add_price
-    calc_info ->> config : MyConfig.LUNCH_TIME_START, LUNCH_TIME_END
-    calc_info -->>- call_api :
+    calc_info ->> config : MyConfig.LUNCH_TIME_START and LUNCH_TIME_END
+    calc_info -->>- call_api : 
     call_api ->> calc_info : calc_recommend_score
     call_api -->>- recommend : restaurants_info
     recommend ->> database_functions : save_restaurants
@@ -108,11 +112,7 @@ sequenceDiagram
     call_api ->> api_functions : google_place_detail
     call_api ->>+ calc_info : get_google_images
     calc_info ->> config : MyConfig.USE_GOOGLE_API
-    apt Config.MyConfig.USE_GOOGLE_API
-        calc_info ->> api_functions : google_place_photo
-    else
-        calc_info ->> api_functions_for_test : google_place_photo
-    end
+    calc_info ->> api_functions : google_place_photo (or api_functions_for_test)
     calc_info ->> config : MyConfig.SERVER_URL
     calc_info -->>- call_api : 
     call_api ->>+ calc_info : add_votes
@@ -130,6 +130,7 @@ sequenceDiagram
 
 
 ## list
+
 ```mermaid
 sequenceDiagram
     actor フロントエンド
@@ -157,6 +158,7 @@ sequenceDiagram
 ```
 
 ## history
+
 ```mermaid
 sequenceDiagram
     actor フロントエンド
@@ -180,6 +182,8 @@ sequenceDiagram
 ```
 
 ## decision
+
 ## image
+
 ## test
 
