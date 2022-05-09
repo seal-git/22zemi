@@ -37,13 +37,35 @@ sequenceDiagram
     
     フロントエンド ->>+ models : 
     models ->> database_functions : get_group_id
+    database_functions ->> database_functions : get_db_session
     models ->> database_functions : register_user_and_group_if_not_exist
+    database_functions ->> database_functions : get_db_session
     models ->> api_functions : yahoo_contents_geocoder
     models ->> database_functions : set_search_params
+    database_functions ->> database_functions : get_db_session
     models ->> recommend : recommend_main
+    recommend ->> config : MyConfig.RECOMMEND_METHOD
+    database_functions ->> database_functions : get_histories_restaurants
+    recommend ->> database_functions : get_db_session
+    recommend ->> database_functions : load_restaurants_info
+    recommend ->> database_functions : get_search_params_from_fetch_group
+    recommend ->> recommend : set_search_params
+    recommend ->> database_functions : set_search_params
+    recommend ->> call_api : search_restaurants_info
+    recommend ->> database_functions : save_restaurants
+    recommend ->> database_functions : save_votes
+    recommend ->> recommend : calc_priority
+    recommend ->> call_api : get_restaurants_info
+    recommend ->> database_functions : save_restaurants
+    recommend ->> database_functions : save_votes
+    recommend ->> database_functions : set_start
     models ->> models : get_restaurant_ids_from_recommend_priority
+    models ->> database_functions : get_db_session
+    models ->> database_functions : get_histories_restaurants
     models ->> database_functions : load_restaurants_info
+    database_functions ->> database_functions : get_restaurant_info_from_db
     models ->> models : create_response_from_restaurants_info
+    models ->> database_functions : save_histories
     models -->>- フロントエンド : レストランのリスト
 ```
 
