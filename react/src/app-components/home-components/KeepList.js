@@ -43,6 +43,7 @@ const useStyles = makeStyles((theme) => ({
     topWrapper: {
         width: '100%',
         height: '14%',
+        minHeight: '95px',
     },
     pageTitle: {
         display: 'flex',
@@ -83,8 +84,6 @@ const useStyles = makeStyles((theme) => ({
 
 const initDataList = sampleData
 
-// const initDataList = sampleData
-
 
 /*
 キープしたお店の一覧を表示するコンポーネント
@@ -108,8 +107,8 @@ function KeepList(props) {
         })
             .then(function (response) {
                 console.log(response)
-                let dataList = response['data']
-                // let dataList = initDataList
+                // let dataList = response['data']
+                let dataList = initDataList
                 if (dataList === 0) {
                     console.log("no data")
                     dataList = []
@@ -165,6 +164,7 @@ function KeepList(props) {
 
             if (event == 'sortByFavos') {
                 console.log('みんなの人気順')
+                scrollButtons(0);
                 newDataList.sort(function (a, b) {
                     // みんなの人気順でソート
                     if (+a.VotesLike > +b.VotesLike) return -1
@@ -179,6 +179,7 @@ function KeepList(props) {
                 })
             } else if (event == 'sortByHighRated') {
                 console.log('評価の高い順')
+                scrollButtons(0);
                 newDataList.sort(function (a, b) {
                     // 評価の高い順
                     if (a.ReviewRating != null) {
@@ -197,6 +198,7 @@ function KeepList(props) {
                     return 0
                 })
             } else if (event === 'sortByLowPrice') {
+                scrollButtons(80);
                 console.log('価格の安い順')
                 newDataList.sort(function (a, b) {
                     // 価格の安い順
@@ -206,6 +208,7 @@ function KeepList(props) {
                 })
             } else if (event == 'sortByRecommended') {
                 console.log('おすすめ順')
+                scrollButtons(180);
                 newDataList.sort(function (a, b) {
                     // おすすめ順
                     if (+a.RecommendScore > +b.RecommendScore) return -1
@@ -239,6 +242,35 @@ function KeepList(props) {
         } else {
             return 0
         }
+    }
+    var Ease = {
+        easeInOut: function (t) { return t<.5 ? 4*t*t*t : (t-1)*(2*t-2)*(2*t-2)+1; }
+    }
+
+    const scrollButtons = (targetPosition) => {
+        // 現在のスクロール位置を取得（クロスブラウザに対応）
+        var sortButtonWrapper = document.getElementById("sortButtonWrapper");
+        var currentPostion = sortButtonWrapper.scrollLeft;
+        // スタート時点の時間を取得
+        var startTime = performance.now();
+        // アニメーションのループを定義
+        var loop = function (nowTime) {
+            // スタートからの経過時間を取得
+            var time = nowTime - startTime;    
+            // duration を1とした場合の経過時間を計算
+            var normalizedTime = time / 500;
+            // duration に経過時間が達していない場合はアニメーションを実行
+            if (normalizedTime < 1) {
+                // 経過時間とイージングに応じてスクロール位置を変更
+                sortButtonWrapper.scrollTo(currentPostion + ((targetPosition - currentPostion) * Ease.easeInOut(normalizedTime)), 0);
+                // アニメーションを継続
+                requestAnimationFrame(loop);
+            // duration に経過時間が達したら、アニメーションを終了
+            } else {
+                sortButtonWrapper.scrollTo(targetPosition, 0);
+            }
+        }
+        requestAnimationFrame(loop);
     }
 
     const sortItems = [
@@ -286,10 +318,11 @@ function KeepList(props) {
                     <Typography className={classes.pageTitle}>
                         みんなの投票結果
                     </Typography>
-                    <div className={classes.sortButtonWrapper}>
+                    <div className={classes.sortButtonWrapper} id="sortButtonWrapper">
                         {sortItems.map((item) => (
                             <SortButton
                                 text={item.text}
+                                class={item.text}
                                 sortType={item.sortType}
                                 sortMode={sortMode}
                                 setSortMode={setSortMode}
