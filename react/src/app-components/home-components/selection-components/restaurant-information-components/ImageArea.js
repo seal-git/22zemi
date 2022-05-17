@@ -30,9 +30,9 @@ function Bars(props){
             display='flex'
             position='absolute'
         >
-            {props.Images.map( (image,i) =>{
-                return <Bar isSelected={i===props.index} onClick={()=>{ props.setIndex(i)}} key={'bar'+i}/>
-            })} 
+             {props.Images.map( (image,i) =>{
+                 return <Bar isSelected={i===props.index} key={'bar'+i}/>
+             })} 
         </Box>
     )
 }
