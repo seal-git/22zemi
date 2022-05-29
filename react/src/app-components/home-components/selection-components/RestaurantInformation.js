@@ -131,6 +131,7 @@ function RestaurantInformation(props) {
                     url={props.inviteUrl}
                     groupId={props.groupId}
                     callInviteUrl={props.callInviteUrl}
+                    modalOnRef={props.modalOnRef}
                 />
                 :null
         )
@@ -143,7 +144,10 @@ function RestaurantInformation(props) {
 
         return (
             ok
-                ? <ButtonToShowComment data={props.data} />
+                ? <ButtonToShowComment 
+                    data={props.data} 
+                    modalOnRef={props.modalOnRef}
+                />
                 : null
         )
     }

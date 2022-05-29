@@ -1,7 +1,7 @@
 import React from 'react'
 // パッケージからインポート
 import { makeStyles } from '@material-ui/core'
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import { useSprings, animated, to as interpolate } from '@react-spring/web'
 import { useDrag } from 'react-use-gesture'
 // 他ファイルからインポート
@@ -17,6 +17,10 @@ const useStyles = makeStyles((theme) => ({
 
 // お店ごとに swipe カードを生成して積むコンポーネント
 export default function RestaurantInformationDeck(props) {
+
+    // Modal の on/off を追跡
+    const modalOnRef = useRef(false);
+
     const classes = useStyles()
     // 開始地点のプロパティを与えるための関数
     const initFrom = i => {
@@ -97,6 +101,7 @@ export default function RestaurantInformationDeck(props) {
             }
             // アニメーションの起動
             api.start(i => {
+                if (modalOnRef.current === true ) return;
                 if (index !== i) return;
                 if (hasGone.has(index)) return;
                 const isGoing = willGo.has(index)
@@ -164,6 +169,7 @@ export default function RestaurantInformationDeck(props) {
                 keep={() => { handlePushKeepButton(index) }}
                 reject={() => { handlePushRejectButton(index) }}
                 groupId={props.groupId}
+                modalOnRef={modalOnRef}
             />
         )
     }
