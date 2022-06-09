@@ -38,7 +38,32 @@ def test_get_restaurants_info():
     session = database_functions.get_db_session()
     fetch_group = session.query(Group).filter(Group.id==group_id).first()
     r_id = session.query(Restaurant.id).first()
-    restaurants_info = database_functions.load_restaurants_info(r_id)
+    print(r_id)
+
+    # database_functions.save_votes()の処理。Votesにレコードを挿入する
+    for i,r in enumerate(r_id):
+        if r is None: continue
+        fetch_vote = session.query(Vote).filter(
+            Vote.group == group_id, Vote.restaurant == r
+                                ).with_for_update().first()
+        if fetch_vote is None:
+            fetch_vote = Vote()
+            fetch_vote.group = group_id
+            fetch_vote.restaurant = r
+        fetch_vote.votes_like = 0
+        fetch_vote.votes_all = 0
+        fetch_vote.number_of_participants = 1
+        fetch_vote.recommend_priority = 1
+        fetch_vote.price = 1000
+        fetch_vote.opening_hours = 18
+        fetch_vote.distance_float = 0.5
+        fetch_vote.distance_str = "500m"
+        fetch_vote.recommend_score = 1
+        session.add(fetch_vote)
+        session.commit()
+    session.close()
+
+    restaurants_info = database_functions.load_restaurants_info(r_id, group_id)
     restaurants_info = get_restaurants_info(fetch_group,
                                             group_id,
                                             restaurants_info)
