@@ -11,10 +11,10 @@ def test_search_restaurants_info():
     api_method = "yahoo"
     database_functions.register_user_and_group_if_not_exist(group_id,
                                                             user_id,
-                                                            place,
                                                             recommend_method,
                                                             api_method
                                                             )
+    session = database_functions.get_db_session()
     fetch_group = session.query(Group).filter(Group.id==group_id).first()
     api = "yahoo_local_search"
 
@@ -35,6 +35,7 @@ def test_search_restaurants_info():
 
 def test_get_restaurants_info():
     group_id = 456789
+    session = database_functions.get_db_session()
     fetch_group = session.query(Group).filter(Group.id==group_id).first()
     r_id = session.query(Restaurant.id).first()
     restaurants_info = database_functions.load_restaurants_info(r_id)

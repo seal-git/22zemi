@@ -4,6 +4,7 @@ import pprint
 
 def test_load_stable_restaurants_info():
     r_ids = ["5ce1ffb50b7c586e52e37235d076fd7ba6e647d4"]
+    session = database_functions.get_db_session()
     fetch_restaurants = session.query(Restaurant).all()
     print(fetch_restaurants)
     for f in fetch_restaurants:
