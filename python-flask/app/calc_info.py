@@ -309,7 +309,7 @@ def add_google_image(restaurant_info):
 
     Parameters
     ----------------
-    restaurant_info : [dict]
+    restaurant_info : dict
 
     Returns
     ----------------
