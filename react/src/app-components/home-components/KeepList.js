@@ -61,6 +61,8 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         height: '50%',
         overflowX: "scroll",
+        '-ms-overflow-style': "none",
+        'scrollbar-width':"none",
         '&::-webkit-scrollbar': {
             display: 'none'
         }
@@ -76,6 +78,8 @@ const useStyles = makeStyles((theme) => ({
         padding: '0px 0 80px 0',
         height: '70%',
         overflowY: "scroll",
+        '-ms-overflow-style': "none",
+        'scrollbar-width':"none",
         '&::-webkit-scrollbar': {
             display: 'none'
         }
@@ -94,6 +98,9 @@ function KeepList(props) {
     const selectRef = useRef(null);
     const [dataList, setDataList] = useState([])
     const [sortMode, setSortMode] = useState("sortByFavos")
+
+    var windowWidth = window.innerWidth;
+    const buttonLengthList = [136, 120, 120, 104];
 
     // APIからキープリストのデータを得る
     const getList = () => {
@@ -179,7 +186,7 @@ function KeepList(props) {
                 })
             } else if (event == 'sortByHighRated') {
                 console.log('評価の高い順')
-                scrollButtons(0);
+                scrollButtons(1);
                 newDataList.sort(function (a, b) {
                     // 評価の高い順
                     if (a.ReviewRating != null) {
@@ -198,7 +205,7 @@ function KeepList(props) {
                     return 0
                 })
             } else if (event === 'sortByLowPrice') {
-                scrollButtons(80);
+                scrollButtons(2);
                 console.log('価格の安い順')
                 newDataList.sort(function (a, b) {
                     // 価格の安い順
@@ -208,7 +215,7 @@ function KeepList(props) {
                 })
             } else if (event == 'sortByRecommended') {
                 console.log('おすすめ順')
-                scrollButtons(180);
+                scrollButtons(3);
                 newDataList.sort(function (a, b) {
                     // おすすめ順
                     if (+a.RecommendScore > +b.RecommendScore) return -1
@@ -247,30 +254,37 @@ function KeepList(props) {
         easeInOut: function (t) { return t<.5 ? 4*t*t*t : (t-1)*(2*t-2)*(2*t-2)+1; }
     }
 
-    const scrollButtons = (targetPosition) => {
-        // 現在のスクロール位置を取得（クロスブラウザに対応）
+    // スクロールアニメーション
+    const scrollButtons = (num) => {
+        var centerPos = -buttonLengthList[num]/2;
+        for (let i=0; i<=num; i++) {
+            centerPos += buttonLengthList[i];
+        }
+        var targetPosition = (centerPos - windowWidth/2);
+        console.log(targetPosition);
         var sortButtonWrapper = document.getElementById("sortButtonWrapper");
         var currentPostion = sortButtonWrapper.scrollLeft;
-        // スタート時点の時間を取得
         var startTime = performance.now();
-        // アニメーションのループを定義
         var loop = function (nowTime) {
-            // スタートからの経過時間を取得
-            var time = nowTime - startTime;    
-            // duration を1とした場合の経過時間を計算
+            var time = nowTime - startTime;
             var normalizedTime = time / 500;
-            // duration に経過時間が達していない場合はアニメーションを実行
             if (normalizedTime < 1) {
-                // 経過時間とイージングに応じてスクロール位置を変更
                 sortButtonWrapper.scrollTo(currentPostion + ((targetPosition - currentPostion) * Ease.easeInOut(normalizedTime)), 0);
-                // アニメーションを継続
                 requestAnimationFrame(loop);
-            // duration に経過時間が達したら、アニメーションを終了
             } else {
                 sortButtonWrapper.scrollTo(targetPosition, 0);
             }
         }
         requestAnimationFrame(loop);
+    }
+
+    // 画面の横幅取得
+    window_load();
+    window.onresize = window_load;
+    //サイズの表示
+    function window_load() {
+        windowWidth = window.innerWidth;
+        console.log(windowWidth);
     }
 
     const sortItems = [
