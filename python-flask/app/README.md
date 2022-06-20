@@ -28,3 +28,14 @@ list:
 		→ api_functions.py/get_restaurants_info()
 				⇄ calc_info.py
 
+config.py
+database_setting.py
+database_functions.py
+internal_info.py
+models.py
+internal_info.py
+recommend.py
+call_api.py
+api_functions.py
+calc_info.py
+

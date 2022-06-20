@@ -60,6 +60,9 @@ class Group(Base):
     api_method = Column('api_method', String(50))  # 検索条件 # レコメンド
     price_average = Column('group_price', Float)  # レコメンド # 平均価格
     distance_average = Column('group_distance', Float)  # レコメンド # 平均距離
+    writable = Column('writable', Boolean, nullable=False,
+                      default=True)  # スレッドで検索している途中でリクエストが来たときのために，排他処理をする
+    wait_calc_priority = Column('wait_calc_priority', Boolean, nullable=False, default=False) # 優先度計算待ちのスレッドがあるかどうか。
     created_at = Column('created_at', Timestamp,
                         server_default=current_timestamp(), nullable=False)
     updated_at = Column('update_at', Timestamp, server_default=text(
@@ -124,8 +127,6 @@ class Belong(Base):
                                      server_default='0')  # レコメンド # レストランを受け取った数
     next_response = Column('next_response',
                            String(16000))  # 次のレスポンスをあらかじめ検索して新しい順に保持する
-    writable = Column('writable', Boolean, nullable=False,
-                      default=True)  # スレッドで検索している途中でリクエストが来たときのために，排他処理をする
     created_at = Column('created_at', Timestamp,
                         server_default=current_timestamp(), nullable=False)
     updated_at = Column('update_at', Timestamp, server_default=text(
