@@ -14,7 +14,7 @@ const useStyles = makeStyles({
         margin: "auto 6px",
         lineHeight: "30px",
         borderRadius: "30px",
-        fontSize: "13px",
+        fontSize: "16px",
         textAlign: "center",
         cursor: "pointer",
     },
@@ -28,7 +28,7 @@ const useStyles = makeStyles({
         margin: "auto 6px",
         lineHeight: "30px",
         borderRadius: "30px",
-        fontSize: "13px",
+        fontSize: "16px",
         textAlign: "center",
         cursor: "pointer",
     }

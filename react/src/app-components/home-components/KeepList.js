@@ -43,6 +43,7 @@ const useStyles = makeStyles((theme) => ({
     topWrapper: {
         width: '100%',
         height: '14%',
+        minHeight: '95px',
     },
     pageTitle: {
         display: 'flex',
@@ -60,6 +61,8 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         height: '50%',
         overflowX: "scroll",
+        '-ms-overflow-style': "none",
+        'scrollbar-width':"none",
         '&::-webkit-scrollbar': {
             display: 'none'
         }
@@ -75,6 +78,8 @@ const useStyles = makeStyles((theme) => ({
         padding: '0px 0 80px 0',
         height: '70%',
         overflowY: "scroll",
+        '-ms-overflow-style': "none",
+        'scrollbar-width':"none",
         '&::-webkit-scrollbar': {
             display: 'none'
         }
@@ -82,8 +87,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const initDataList = sampleData
-
-// const initDataList = sampleData
 
 
 /*
@@ -95,6 +98,9 @@ function KeepList(props) {
     const selectRef = useRef(null);
     const [dataList, setDataList] = useState([])
     const [sortMode, setSortMode] = useState("sortByFavos")
+
+    var windowWidth = window.innerWidth;
+    const buttonLengthList = [136, 120, 120, 104];
 
     // APIからキープリストのデータを得る
     const getList = () => {
@@ -108,8 +114,8 @@ function KeepList(props) {
         })
             .then(function (response) {
                 console.log(response)
-                let dataList = response['data']
-                // let dataList = initDataList
+                // let dataList = response['data']
+                let dataList = initDataList
                 if (dataList === 0) {
                     console.log("no data")
                     dataList = []
@@ -165,6 +171,7 @@ function KeepList(props) {
 
             if (event == 'sortByFavos') {
                 console.log('みんなの人気順')
+                scrollButtons(0);
                 newDataList.sort(function (a, b) {
                     // みんなの人気順でソート
                     if (+a.VotesLike > +b.VotesLike) return -1
@@ -179,6 +186,7 @@ function KeepList(props) {
                 })
             } else if (event == 'sortByHighRated') {
                 console.log('評価の高い順')
+                scrollButtons(1);
                 newDataList.sort(function (a, b) {
                     // 評価の高い順
                     if (a.ReviewRating != null) {
@@ -197,6 +205,7 @@ function KeepList(props) {
                     return 0
                 })
             } else if (event === 'sortByLowPrice') {
+                scrollButtons(2);
                 console.log('価格の安い順')
                 newDataList.sort(function (a, b) {
                     // 価格の安い順
@@ -206,6 +215,7 @@ function KeepList(props) {
                 })
             } else if (event == 'sortByRecommended') {
                 console.log('おすすめ順')
+                scrollButtons(3);
                 newDataList.sort(function (a, b) {
                     // おすすめ順
                     if (+a.RecommendScore > +b.RecommendScore) return -1
@@ -239,6 +249,42 @@ function KeepList(props) {
         } else {
             return 0
         }
+    }
+    var Ease = {
+        easeInOut: function (t) { return t<.5 ? 4*t*t*t : (t-1)*(2*t-2)*(2*t-2)+1; }
+    }
+
+    // スクロールアニメーション
+    const scrollButtons = (num) => {
+        var centerPos = -buttonLengthList[num]/2;
+        for (let i=0; i<=num; i++) {
+            centerPos += buttonLengthList[i];
+        }
+        var targetPosition = (centerPos - windowWidth/2);
+        console.log(targetPosition);
+        var sortButtonWrapper = document.getElementById("sortButtonWrapper");
+        var currentPostion = sortButtonWrapper.scrollLeft;
+        var startTime = performance.now();
+        var loop = function (nowTime) {
+            var time = nowTime - startTime;
+            var normalizedTime = time / 500;
+            if (normalizedTime < 1) {
+                sortButtonWrapper.scrollTo(currentPostion + ((targetPosition - currentPostion) * Ease.easeInOut(normalizedTime)), 0);
+                requestAnimationFrame(loop);
+            } else {
+                sortButtonWrapper.scrollTo(targetPosition, 0);
+            }
+        }
+        requestAnimationFrame(loop);
+    }
+
+    // 画面の横幅取得
+    window_load();
+    window.onresize = window_load;
+    //サイズの表示
+    function window_load() {
+        windowWidth = window.innerWidth;
+        console.log(windowWidth);
     }
 
     const sortItems = [
@@ -286,10 +332,11 @@ function KeepList(props) {
                     <Typography className={classes.pageTitle}>
                         みんなの投票結果
                     </Typography>
-                    <div className={classes.sortButtonWrapper}>
+                    <div className={classes.sortButtonWrapper} id="sortButtonWrapper">
                         {sortItems.map((item) => (
                             <SortButton
                                 text={item.text}
+                                class={item.text}
                                 sortType={item.sortType}
                                 sortMode={sortMode}
                                 setSortMode={setSortMode}

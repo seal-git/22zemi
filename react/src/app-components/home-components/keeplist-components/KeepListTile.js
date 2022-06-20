@@ -53,7 +53,7 @@ function KeepListTile(props) {
                             /{props.data.VotesAll}
                         </Typography>
                     </Grid>
-                    <Grid item xs={8}>
+                    <Grid item xs={12}>
                         <Grid container spacing={0}>
                             <Grid item xs={12}>
                                 <Typography class="textShopName">
@@ -82,12 +82,14 @@ function KeepListTile(props) {
                             </Grid>
                         </Grid>
                     </Grid>
-                    <Grid item xs={4}>
+                    <Grid item xs={12}>
                         <div class="buttonWrapper">
-                            <div class="buttonContainer">
-                                <div class="cardAction" onClick={() => { onInfoBtnClicked() }}>詳細を見る<span class="playIcon">▶︎</span></div>
+                            <Grid class="buttonContainer" item xs={6}>
                                 <div class="cardAction" onClick={() => { onReserveBtnClicked() }}>予約する</div>
-                            </div>
+                            </Grid>
+                            <Grid class="buttonContainer" item xs={6}>
+                                <div class="cardAction" onClick={() => { onInfoBtnClicked() }}>詳細を見る<span class="playIcon">▶︎</span></div>
+                            </Grid>
                         </div>
                     </Grid>
                 </Grid>
