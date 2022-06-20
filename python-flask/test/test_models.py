@@ -9,8 +9,8 @@ def test_http_info_1():
     url = 'http://localhost:5000/info'
     params = {
         "params": {
-            "user_id": "123",
-            "group_id": "456789",
+            "user_id": "456789",
+            "group_id": "123456",
             "open_hour_str": "12:00",
         }
     }
@@ -102,7 +102,8 @@ def test_http_feeling():
     url = 'http://localhost:5000/feeling'
     params = {
         "params": {
-            "user_id": "123",
+            "user_id": "456789",
+            "group_id": "123456",
             "restaurant_id": "5ce1ffb50b7c586e52e37235d076fd7ba6e647d4",
             "feeling": True,
         }
@@ -111,6 +112,50 @@ def test_http_feeling():
     res = requests.post(url=url, data=json.dumps(params), headers=headers)
     # pprint.PrettyPrinter(indent=2).pprint(res.json())
     assert res
+
+def test_http_feeling_multiple_requsts():
+    time.sleep(1)
+    params_list = [
+        {"params": {
+            "user_id": "456789",
+            "group_id": "123456",
+            "restaurant_id": "5ce1ffb50b7c586e52e37235d076fd7ba6e647d4",
+            "feeling": True,
+        }},
+        {"params": {
+            "user_id": "456790",
+            "group_id": "123456",
+            "restaurant_id": "5ce1ffb50b7c586e52e37235d076fd7ba6e647d4",
+            "feeling": True,
+        }},
+        {"params": {
+            "user_id": "456791",
+            "group_id": "123456",
+            "restaurant_id": "5ce1ffb50b7c586e52e37235d076fd7ba6e647d4",
+            "feeling": True,
+        }},
+    ]
+    headers = {"Content-Type": "application/json"}
+    response_list = [None for _ in params_list]
+    thread_list = [None for _ in params_list]
+    for i, params in enumerate(params_list): # 並列で情報取得
+        thread_list[i] = threading.Thread(target=thread_http_feeling,
+                                          args=(i, params, response_list))
+        thread_list[i].start()
+    for t in thread_list:
+        t.join()
+
+    # pprint.PrettyPrinter(indent=2).pprint(res.json())
+    assert None not in response_list
+
+
+def thread_http_feeling(i, params, response_list):
+    url = 'http://localhost:5000/feeling'
+    headers = {"Content-Type": "application/json"}
+    res = requests.post(url=url, data=json.dumps(params), headers=headers)
+    response_list[i] = res
+    return
+
 
 
 def test_http_invite():

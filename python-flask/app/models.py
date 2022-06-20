@@ -264,15 +264,17 @@ def http_info():
     if first_time_group_flg:
         # 裏でrecommendを走らせる
         ## 他のスレッドで更新中だったら何もしない
-        if fetch_belong.writable:
-            t = threading.Thread(target=thread_info,
-                                 args=(group_id,
-                                       user_id,
-                                       fetch_belong,
-                                       fetch_group
-                                       ))
-            t.start()
+        session = database_functions.get_db_session()
+        fetch_group = session.query(Group).filter(Group.id==group_id).one()
+        t = threading.Thread(target=thread_info,
+                                args=(group_id,
+                                    user_id,
+                                    fetch_belong,
+                                    fetch_group
+                                    ))
+        t.start()
 
+        session.close()
     return response
 
 
@@ -292,20 +294,41 @@ def thread_info(group_id, user_id, fetch_belong, fetch_group):
     -------
 
     """
+    session = database_functions.get_db_session()
+    fetch_group = session.query(Group).filter(Group.id == group_id).one()
+    
+    # 他に待機中のスレッドがあれば、このスレッドは破棄
+    if fetch_group.wait_calc_priority:
+        session.close()
+        print("calc_priority_thread: dispose")
+        return
 
     ## 他のスレッドで更新中だったら待つ
-    if not fetch_belong.writable:
+    if not fetch_group.writable:
+    
+        fetch_group.wait_calc_priority = True
+        session.commit()
+
         result = False
-        session = database_functions.get_db_session()
         while not result:
-            print("waiting")
+            print("calc_priority_thread: waiting")
             time.sleep(1)
             session.commit()
-            result = session.query(Belong).filter(Belong.group == group_id,
-                                                  Belong.user == user_id).one().writable
-        session.close()
+            result = session.query(Group).filter(Group.id == group_id).one().writable
+        
+        fetch_group.wait_calc_priority = False
+        session.commit()
+    
+    # 店舗情報取得と優先度計算
+    fetch_group.writable = False
+    session.commit()
+
     _ = recommend.recommend_main(fetch_group, group_id, user_id)
-    print("thread end")
+
+    fetch_group.writable = True
+    session.commit()
+    session.close()
+    print("calc_priority_thread: end")
     return
 
 

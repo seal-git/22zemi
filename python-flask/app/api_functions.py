@@ -586,7 +586,7 @@ def google_feature_to_info(fetch_group, group_id, feature):
     photo_references = [photo['photo_reference'] for photo in
                         feature['photos']]  # photo_referenceを複数取得
     photo_nums = 3  # 画像のURL数
-    # restaurant_info['ImageFiles'] = calc_info.create_image(restaurant_info)
+    # restaurant_info['ImageFiles'] = calc_info.create_image(restaurant_info) # calc_info.add_google_image(restaurnat_info)
     restaurant_info['Images'] = self.get_place_photo_urls(photo_references, photo_nums)
     if len(restaurant_info["Images"]) == 0:
         no_image_url = "http://drive.google.com/uc?export=view&id=1mUBPWv3kL-1u2K8LFe8p_tL3DoU65FJn"
