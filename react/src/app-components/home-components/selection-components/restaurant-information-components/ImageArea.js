@@ -30,9 +30,9 @@ function Bars(props){
             display='flex'
             position='absolute'
         >
-            {props.Images.map( (image,i) =>{
-                return <Bar isSelected={i===props.index} onClick={()=>{ props.setIndex(i)}} key={'bar'+i}/>
-            })} 
+             {props.Images.map( (image,i) =>{
+                 return <Bar isSelected={i===props.index} key={'bar'+i}/>
+             })} 
         </Box>
     )
 }
@@ -67,20 +67,31 @@ function RestaurantImage(props){
 function ImageArea(props){
     const [index, setIndex] = useState(0)
 
+    let setNextIndex = (currentIndex) => {
+        if(currentIndex!==undefined && currentIndex===index){
+            setIndex(state => (state + 1) % props.Images.length)
+        }
+    };
+
     useEffect(() => {
         const currentIndex = index
         const t = setInterval(
             () => {
-                if(currentIndex!==undefined && currentIndex===index){
-                    setIndex(state => (state + 1) % props.Images.length)
-                }
+                setNextIndex(currentIndex)
             }
         , 2500)
         return ()=>{clearInterval(t)}
     },[index])
 
     return(
-        <Box>
+        <Box 
+            onClick={ 
+                () => {
+                    const currentIndex = index
+                    setNextIndex(currentIndex)
+                }
+            }
+        >
             <Box 
                 position='absolute'
                 width='100%'
