@@ -28,10 +28,12 @@ function ButtonToShowComment(props) {
     const classes = useStyles()
 
     const handleClickOpen = () => {
+        props.modalOnRef.current = true
         setOpen(true)
     };
 
     const handleClose = () => {
+        props.modalOnRef.current = false
         setOpen(false)
     };
 
